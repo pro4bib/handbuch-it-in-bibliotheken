@@ -1,6 +1,7 @@
 # Anforderungen
 
-In Kapitel [Management von IT-Systemen](#management)
+In Kapitel [[Management von
+IT-Systemen]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.h3d5n3s3dh6f)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
 Anforderungen, auch aus rechtlicher Sicht, eingegangen. Außerdem wurde
 der Software-Lebenszyklus skizziert, welcher eine eher lineare
@@ -26,8 +27,9 @@ sondern kontinuierlich in den Entwicklungsprozess einbezogen werden.
 Hierbei ist es besonders wichtig, die Fähigkeiten und Bedürfnisse der
 Nutzenden sowie ihre Arbeitskontexte und -aufgaben in den Entwurf von
 IT-Systemen einzubeziehen. Diese Aspekte finden sich auch in den
-zugrundeliegenden Definitionen, wie der Usability (siehe Abschnitt [Was
-beeinflusst den Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck))
+zugrundeliegenden Definitionen, wie der Usability (siehe Abschnitt [[Was
+beeinflusst den
+Nutzungseindruck?]{.underline}](#was-beeinflusst-den-nutzungseindruck))
 wieder.
 
 Beim nutzer\*innenorientierten Design oder dem User-Centered Design
@@ -36,10 +38,10 @@ um eine Sammlung i.d.R. empirisch abgesicherter Techniken mit drei
 Kernideen[^1]:
 
 1.  Fokussierung auf Nutzer\*innen und deren Aufgaben von Beginn der
-    Entwicklung an
+    > Entwicklung an
 
 2.  deren kontinuierliche Einbeziehung und Auswertung von
-    Nutzer\*innen-Feedback sowie Performance-Messung
+    > Nutzer\*innen-Feedback sowie Performance-Messung
 
 3.  Nutzung eines iterativen Design-Prozesses
 
@@ -50,9 +52,9 @@ aus Gründen der digitalen Teilhabe sinnvoll erscheint.
 Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche
 einfach zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte
 wie Effektivität, Effizienz, Benutzerzufriedenheit und Zugänglichkeit
-gelegt (vgl. ISO 9241-210:2019). Diese Aspekte werden in Abschnitt [Was
+gelegt (vgl. ISO 9241-210:2019). Diese Aspekte werden in Abschnitt [[Was
 beeinflusst den
-Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck)
+Nutzungseindruck?]{.underline}](#was-beeinflusst-den-nutzungseindruck)
 weiter erläutert.
 
 Das Central Digital and Data Office des Vereinigten Köngreichs[^3] fasst
@@ -118,8 +120,8 @@ mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei
 der Bedienung auftreten. Zur Vermeidung von Usability-Problemen
 existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen
 skizziert werden bzw. durch Autoren wie Shneiderman in seinen "8 golden
-rules"[^4] oder Nielsen mit seinen "[10
-Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)"
+rules"[^4] oder Nielsen mit seinen "[[10
+Heuristics]{.underline}](https://www.nngroup.com/articles/ten-usability-heuristics/)"
 benannt werden.
 
 Die User Experience hingen bezieht sich auf die Wahrnehmung der
@@ -138,7 +140,7 @@ Arbeitsschritte, egal ob analog oder digital, mit ein.
 ![](media/image4.png){width="6.267716535433071in" height="4.25in"}
 
 Ersatz von Luis zu
-[**[https://www.johner-institut.de/blog/iec-62366-usability/user-experience/]**](https://www.johner-institut.de/blog/iec-62366-usability/user-experience/)
+[**[https://www.johner-institut.de/blog/iec-62366-usability/user-experience/]{.underline}**](https://www.johner-institut.de/blog/iec-62366-usability/user-experience/)
 
 ## Wie beziehen wir unsere Nutzer\*innen ein?
 
@@ -154,7 +156,7 @@ Folgenden kurz dargestellt werden sollen.
 
 ### Bedarfsermittlung
 
-#### Klassische Methoden zur Bedarfsermittlung
+#### **Klassische Methoden zur Bedarfsermittlung**
 
 Zu den in Bibliotheken auch jenseits der Entwicklung von digitalen
 Diensten häufig genutzten Methoden der Bedarfsermittlung gehören
@@ -176,7 +178,7 @@ Personen ein System nutzen. Typischerweise werden während des Tests
 nicht nur Notizen oder Aufnahmen gesichert, sondern die Tester\*innen
 nutzen das Think-Aloud-Protokoll. Dabei sollen Nutzende in Echtzeit laut
 kommentieren, was sie denken, sehen und tun (siehe Abschnitt
-[Methoden](#methoden)).
+[[Methoden]{.underline}](#methoden)).
 
 Fokusgruppen dagegen sind eine qualitative Methode, in der
 Vertreter\*innen verschiedener Zielgruppen gemeinsam an einem
@@ -213,22 +215,24 @@ Fließtext passieren, in dem ein Szenario beschrieben wird.
 ![](media/image3.png){width="3.4934875328083987in"
 height="3.963542213473316in"}
 
-Aus einem [Vortrag zum Scenario-based
-Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
+Aus einem [[Vortrag zum Scenario-based
+Design]{.underline}](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
 
-Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
-Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
-verschiedenen Formen modelliert werden. Dafür können formalisierte Systeme wie
-die Unified Modelling Language (UML) zum Einsatz kommen. Sie bietet ein Set
-verschiedener Formen, um Start, Ende, Verzweigungen, Alternativen und mehr
-visuell zu beschreiben. Aber auch Skizzen können Nutzungsszenarien bereits
-verdeutlichen und als Diskussionsgrundlage dienen, z. B. in Form von
-Storyboards, die in einem eigenen [Unterkapitel zu dieser
-Methode](#storyboards-als-frühe-methode) noch beschrieben werden.
+Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei
+können Start, Ende, mögliche Verzweigungen, alternative Aktionen und
+mehr mit verschiedenen Formen modelliert werden. Dafür können
+formalisierte Systeme wie die Unified Modelling Language (UML) zum
+Einsatz kommen. Sie bietet ein Set verschiedener Formen, um Start, Ende,
+Verzweigungen, Alternativen und mehr visuell zu beschreiben. Aber auch
+Skizzen können Nutzungsszenarien bereits verdeutlichen und als
+Diskussionsgrundlage dienen, z. B. in Form von Storyboards, die in einem
+eigenen [[Unterkapitel zu dieser
+Methode]{.underline}](#storyboards-als-frühe-methode) noch beschrieben
+werden.
 
 Use Cases können sowohl als Grundlage für den Entwicklungsprozess dienen
-als auch für die Evaluation eines Systems (siehe Abschnitt
-[Evaluierung](#evaluierung)). Für die Nutzenden-Personas
+als auch für die Evaluation eines Systems (siehe Kapitel
+[[Evaluierung]{.underline}](#evaluierung)). Für die Nutzenden-Personas
 einer Bibliothek kann eine breite Palette von Use Cases existieren.
 Manche sind dabei eher allgemein zu verstehen, andere
 bibliotheksspezifisch und natürlich sind alle je nach Einrichtung bzw.
@@ -255,7 +259,7 @@ Nachfolgend werden drei Ansätze vorgestellt:
 
 -   Prototypen - erste funktionsfähige Iterationen
 
-#### Storyboards als frühe Methode
+#### **Storyboards als frühe Methode**
 
 Ein Storyboard illustriert, wie ein User Interface (UI,
 Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
@@ -306,7 +310,7 @@ Vor- und Nachteile von Storyboards im Überblick:
   Vorkenntnisse möglich               (z.B. durch unklare Symbole)
   -----------------------------------------------------------------------
 
-#### Wireframes und Mock-Ups
+#### **Wireframes und Mock-Ups**
 
 Wireframes und Mock-Ups werden vor allem dazu genutzt, erste Skizzen für
 Struktur, Layout und Funktionalitäten eines Interface vorzustellen.
@@ -317,7 +321,7 @@ einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 ![](media/image5.png){width="6.267716535433071in"
 height="4.138888888888889in"}
 
-<https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
+[[https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype]{.underline}](https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype)
 (Platzhalter, David könnte was per OmniGraffle bauen)
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
@@ -331,7 +335,7 @@ sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz
 zu Prototypen, die interaktiv sind und damit echte Funktionalitäten
 enthalten.
 
-#### (Interaktive) Prototypen
+#### **(Interaktive) Prototypen**
 
 Die nächsthöhere Form eines geplanten Produkts, (interaktive)
 Prototypen, besitzen bereits erste Funktionen des geplanten Interfaces.
@@ -344,8 +348,8 @@ möglichst großen Bandbreite des späteren Systems.
 
 Erste Prototypen müssen dabei noch nicht zwingend programmiert werden,
 sondern können durch entsprechende Prototyping Software, wie
-[Figma](https://www.figma.com) oder
-[Axure](https://www.axure.com), umgesetzt werden. Diese
+[[Figma]{.underline}](https://www.figma.com) oder
+[[Axure]{.underline}](https://www.axure.com), umgesetzt werden. Diese
 besitzen eine Art Bausystem für Interfaces mit mehreren Ansichten, die
 über Aktionen wie den Klick auf einen Button verbunden werden können. So
 kann Nutzenden gewissermaßen ein Produkt vorgetäuscht werden, das dann
@@ -362,11 +366,12 @@ die Zielgruppen geeignet sind.
 Die vorangegangenen Abschnitte haben herausgestellt, wie wichtig es ist,
 regelmäßig Feedback der Nutzenden zu erhalten. Eine zentrale Datenquelle
 dafür ist die Begleitung eines Projekts durch Evaluierungen. Ein
-Beispiel für eine lebendige Evaluierungskultur ist das "[User Research
-Center" der Harvard Library](https://urc.library.harvard.edu/), das regelmäßig
+Beispiel für eine lebendige Evaluierungskultur ist das "[[User Research
+Center" der Harvard
+Library]{.underline}](https://urc.library.harvard.edu/), das regelmäßig
 verschiedene Methoden anwendet, um Angebote gemeinsam mit Nutzenden zu
 evaluieren und diese öffentlich in einem
-[Wiki](https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=232199222)
+[[Wiki]{.underline}](https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=232199222)
 teilt.
 
 Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei
@@ -383,7 +388,7 @@ diese auch ohne eine formale Usability-Ausbildung durch engagierte
 Mitarbeiter\*innen durchgeführt werden können. Im Folgenden soll deshalb
 das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.
 
-#### Testgruppen
+#### **Testgruppen**
 
 Die Testgruppe muss die potentielle Nutzungsgruppe bestmöglich
 repräsentieren, jedoch nicht sehr groß sein. Die Erfahrung zeigt, dass
@@ -401,9 +406,10 @@ Nutzer\*innen auszuwählen, die über ein unterschiedliches Maß an
 Vorwissen über das zu entwickelnde oder verwandte Produkte verfügen.
 Außerdem sollten Personen integriert werden, welche von Einschränkungen
 betroffen sind, die in Abschnitt
-[Accessibility] thematisiert wurden.
+[[Accessibility]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.cjpkj8ku71qn)
+thematisiert wurden.
 
-#### Testablauf und Vorbereitungen
+#### **Testablauf und Vorbereitungen**
 
 Nach der Rekrutierung repräsentativer Nutzer\*innen und der Vorbereitung
 der benötigten Materialien und der Testumgebung bietet sich ein
@@ -426,7 +432,7 @@ eigene Wertschätzung für das zeitliche Investment der Proband\*innen
 auszudrücken. In einer Erklärung zum Datenschutz ist die anonyme
 Datennutzung zuzusichern.
 
-#### Testaufgaben
+#### **Testaufgaben**
 
 Wie die Testgruppen müssen auch die Testaufgaben repräsentativ für den
 späteren Einsatzzweck des Systems sein. Die von den Proband\*innen zu
@@ -445,7 +451,7 @@ heißt konkret, dass die ersten Teilaufgaben leicht zu lösen sein sollten
 und deren Schwierigkeit dann kontinuierlich zunimmt, um durch komplexere
 Aufgaben belastbare Aussagen zu erhalten.
 
-#### Methoden
+#### **Methoden**
 
 Testaufgaben für Usability-Tests werden erstellt, um typische
 Nutzungsszenarien mit Hinblick auf die Usability des Systems hin zu
@@ -494,17 +500,17 @@ von Usability-Tests sind z.B.:
 -   Anzahl nicht benötigter Befehle (Menus, Icons, Links)
 
 -   Benötigte Zeit für den Abschluss einer Arbeitsaufgabe (insbesondere
-    im Vergleich mit einer vorherigen Iteration)
+    > im Vergleich mit einer vorherigen Iteration)
 
 -   Benötigte Anzahl an Klicks/Links, um an ein bestimmtes Ziel zu
-    kommen.
+    > kommen.
 
 Der "Benutzungsfragebogen ISONORM 9241/10" bietet einen interessanten
 Kompromiss zwischen qualitativen und quantitativen Daten, da er
 qualitative Aussagen bezüglich der Usability eines Systems (z.B.
 Aufgabenangemessenheit und Selbstbeschreibungsfähigkeit) mithilfe einer
 siebenstufigen Likert-Skala abbildet. Der
-[Fragebogen](https://people.f3.htw-berlin.de/Professoren/Pruemper/instrumente.html)
+[[Fragebogen]{.underline}](https://people.f3.htw-berlin.de/Professoren/Pruemper/instrumente.html)
 ist frei im Internet verfügbar. Beachtet werden muss, dass für
 belastbare quantitative Daten die Größe der Testgruppe deutlich steigen
 muss, um Verfälschungen durch Einzelpersonen zu vermeiden.
@@ -514,12 +520,12 @@ muss, um Verfälschungen durch Einzelpersonen zu vermeiden.
     think. Human-computer interaction. In: R. M. Baecker (Hg.). San
     Francisco, CA, USA: Morgan Kaufmann Publishers Inc., S. 528--539.
     Online verfügbar unter
-    [http://dl.acm.org/citation.cfm?id=58076.58121](http://dl.acm.org/citation.cfm?id=58076.58121).
+    [[http://dl.acm.org/citation.cfm?id=58076.58121]{.underline}](http://dl.acm.org/citation.cfm?id=58076.58121).
 
 [^2]: vgl. Rob Kling and Susan Leigh Star. 1998. Human centered systems
     in the perspective of organizational and social informatics. SIGCAS
     Comput. Soc. 28, 1 (March 1998), 22--29. DOI:
-    [https://doi.org/10.1145/277351.277356](https://doi.org/10.1145/277351.277356)
+    [[https://doi.org/10.1145/277351.277356]{.underline}](https://doi.org/10.1145/277351.277356)
 
 [^3]: https://www.gov.uk/guidance/government-design-principles
 
@@ -527,5 +533,4 @@ muss, um Verfälschungen durch Einzelpersonen zu vermeiden.
     user interface. Strategies for effective human-computer interaction.
     4. ed. Boston: Pearson.
 
-[^5]: [https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
-...
+[^5]: [[https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/]{.underline}](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)

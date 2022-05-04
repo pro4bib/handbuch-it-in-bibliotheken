@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.349">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Handbuch IT in Bibliotheken - 2&nbsp; Anforderungen</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<link href="./bibliotheksmanagementsysteme.html" rel="next">
+<link href="./management.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Anforderungen</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Handbuch IT in Bibliotheken</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Einleitung</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Anforderungen</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bibliotheksmanagementsysteme</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./literatur.html" class="sidebar-item-text sidebar-link">Literaturverzeichnis</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./zielgruppe.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Zielgruppe</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./styleguide.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Styleguide</span></a>
+  </div>
+</li>
+    </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#prinzipien-der-nutzerinnenzentrierten-gestaltung" id="toc-prinzipien-der-nutzerinnenzentrierten-gestaltung" class="nav-link active" data-scroll-target="#prinzipien-der-nutzerinnenzentrierten-gestaltung"> <span class="header-section-number">2.1</span> Prinzipien der Nutzer*innenzentrierten Gestaltung</a>
+  <ul class="collapse">
+  <li><a href="#was-beeinflusst-den-nutzungseindruck" id="toc-was-beeinflusst-den-nutzungseindruck" class="nav-link" data-scroll-target="#was-beeinflusst-den-nutzungseindruck"> <span class="header-section-number">2.1.1</span> Was beeinflusst den Nutzungseindruck?</a></li>
+  </ul></li>
+  <li><a href="#wie-beziehen-wir-unsere-nutzerinnen-ein" id="toc-wie-beziehen-wir-unsere-nutzerinnen-ein" class="nav-link" data-scroll-target="#wie-beziehen-wir-unsere-nutzerinnen-ein"> <span class="header-section-number">2.2</span> Wie beziehen wir unsere Nutzer*innen ein?</a>
+  <ul class="collapse">
+  <li><a href="#bedarfsermittlung" id="toc-bedarfsermittlung" class="nav-link" data-scroll-target="#bedarfsermittlung"> <span class="header-section-number">2.2.1</span> Bedarfsermittlung</a></li>
+  <li><a href="#einbeziehung-von-nutzenden-in-die-entwicklung" id="toc-einbeziehung-von-nutzenden-in-die-entwicklung" class="nav-link" data-scroll-target="#einbeziehung-von-nutzenden-in-die-entwicklung"> <span class="header-section-number">2.2.2</span> Einbeziehung von Nutzenden in die Entwicklung</a></li>
+  <li><a href="#evaluierung" id="toc-evaluierung" class="nav-link" data-scroll-target="#evaluierung"> <span class="header-section-number">2.2.3</span> Evaluierung</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/anforderungen.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/anforderungen.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Anforderungen</span></h1>
+</div>
+
+
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<p>In Kapitel <a href="management.html">Management von IT-Systemen</a> wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische Anforderungen, auch aus rechtlicher Sicht, eingegangen. Außerdem wurde der Software-Lebenszyklus skizziert, welcher eine eher lineare Betrachtung eines Systems vom Beginn seiner Einführung bis hin zur Abschaltung ermöglicht. Dabei wurde implizit angenommen, dass Anforderungen an ein System im Laufe seiner Lebenszeit weitestgehend fix bleiben.</p>
+<p>Betrachtet man sein eigenes persönliches Nutzungsverhalten im digitalen Bereich wird jedoch klar, dass sich die eigenen Präferenzen bezüglich der Nutzung von Apps oder Webseiten ändern. Ursachen dafür sind beispielsweise Veränderungen an Lebens- oder Arbeitskontexten, Erwartungen an die Bedienbarkeit von Systemen oder durch die digitale Transformation beziehungsweise technischen Fortschritt möglich gewordene neue Nutzungsformen von Medien.</p>
+<section id="prinzipien-der-nutzerinnenzentrierten-gestaltung" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="prinzipien-der-nutzerinnenzentrierten-gestaltung"><span class="header-section-number">2.1</span> Prinzipien der Nutzer*innenzentrierten Gestaltung</h2>
+<p>Nutzer*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass deren Bedarfe nicht nur als Quelle von initialen Anforderungen dienen, sondern kontinuierlich in den Entwicklungsprozess einbezogen werden. Hierbei ist es besonders wichtig, die Fähigkeiten und Bedürfnisse der Nutzenden sowie ihre Arbeitskontexte und -aufgaben in den Entwurf von IT-Systemen einzubeziehen. Diese Aspekte finden sich auch in den zugrundeliegenden Definitionen, wie der Usability (siehe Abschnitt <a href="#was-beeinflusst-den-nutzungseindruck">Was beeinflusst den Nutzungseindruck?</a>) wieder.</p>
+<p>Beim nutzer*innenorientierten Design oder dem User-Centered Design (UCD) handelt es sich nicht im formale Methoden im engeren Sinn, sondern um eine Sammlung i.d.R. empirisch abgesicherter Techniken mit drei Kernideen<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>:</p>
+<ol type="1">
+<li><p>Fokussierung auf Nutzer*innen und deren Aufgaben von Beginn der Entwicklung an</p></li>
+<li><p>deren kontinuierliche Einbeziehung und Auswertung von Nutzer*innen-Feedback sowie Performance-Messung</p></li>
+<li><p>Nutzung eines iterativen Design-Prozesses</p></li>
+</ol>
+<p>Kling und Leigh Star ergänzen, dass die ganz individuellen Fähigkeiten der Nutzenden in Betracht gezogen werden müssen<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>, was allein schon aus Gründen der digitalen Teilhabe sinnvoll erscheint.</p>
+<p>Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche einfach zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte wie Effektivität, Effizienz, Benutzerzufriedenheit und Zugänglichkeit gelegt (vgl. ISO 9241-210:2019). Diese Aspekte werden in Abschnitt <a href="#was-beeinflusst-den-nutzungseindruck">Was beeinflusst den Nutzungseindruck?</a> weiter erläutert.</p>
+<p>Das Central Digital and Data Office des Vereinigten Köngreichs<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> fasst die zentral zu bearbeitenden Arbeitspunkte im nutzer*innenzentrierten Gestaltungsprozess und den Weg dahin prägnant in seinen “Government Design Principles” zusammen:</p>
+<ol type="1">
+<li><p>Start with user needs</p></li>
+<li><p>Do less</p></li>
+<li><p>Design with data</p></li>
+<li><p>Do the hard work to make it simple</p></li>
+<li><p>Iterate. Then iterate again</p></li>
+<li><p>This is for everyone</p></li>
+<li><p>Understand context</p></li>
+<li><p>Build digital services, not websites</p></li>
+<li><p>Be consistent, not uniform</p></li>
+<li><p>Make things open: it makes things better</p></li>
+</ol>
+<p>Unter der oben genannten Website des Central Digital and Data Office finden sich auch umfangreiche Hinweise, wie sich die einzelnen Punkte praktisch umsetzen lassen.</p>
+<section id="was-beeinflusst-den-nutzungseindruck" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="was-beeinflusst-den-nutzungseindruck"><span class="header-section-number">2.1.1</span> Was beeinflusst den Nutzungseindruck?</h3>
+<p>Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und zugänglich sein. Die Erreichung dieser Ziele und zentrale Begriffsdefinitionen sind Teil des Arbeits- und Forschungsgebiets der Software-Ergonomie und finden sich in den einschlägigen Normen wie der DIN EN ISO 9241-11 wieder.</p>
+<p>Von zentraler Bedeutung sind dabei zwei Kernbegriffe: die Usability (Gebrauchstauglichkeit) und die User Experience (Nutzer*innenerfahrung)</p>
+<p>INFOBOX:</p>
+<p>Usability</p>
+<p>„Ausmaß, in dem ein System, ein Produkt oder eine Dienstleistung durch bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden kann, um festgelegte Ziele effektiv, effizient und zufriedenstellend zu erreichen” DIN EN ISO 9241-11</p>
+<p>User Experience</p>
+<p>„Wahrnehmungen und Reaktionen einer Person, die aus der tatsächlichen und/oder der erwarteten Benutzung eines Produkts, eines Systems oder einer Dienstleistung resultieren” DIN ISO 9241-210:2011</p>
+<p>ENDE INFOBOX</p>
+<p>Wie die untenstehende Abbildung zeigt, handelt es sich bei Usability um eine Eigenschaft eines Systems, die während der konkreten Interaktion mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei der Bedienung auftreten. Zur Vermeidung von Usability-Problemen existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen skizziert werden bzw. durch Autoren wie Shneiderman in seinen “8 golden rules”<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> oder Nielsen mit seinen “<a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 Heuristics</a>” benannt werden.</p>
+<p>Die User Experience hingen bezieht sich auf die Wahrnehmung der Nutzenden sowohl vor, nach und auch während der Interaktion. Sie bezeichnet sozusagen die Positionierung gegenüber einem System und hat damit Auswirkungen darauf, ob Nutzende ein System erneut benutzen werden oder, z. B. aufgrund von schlechter Bedienbarkeit, d.&nbsp;h. schlechter Usability, vor einer zukünftigen Nutzung zurückschrecken. Es reicht folglich nicht aus, einzelne Aspekte einer Nutzer*innenschnittstelle zu optimieren. Vielmehr muss der gesamte angebotene Service aus Sicht der Nutzenden optimiert werden, damit sich ein positives Nutzungserlebnis einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die digitalisierten Anteile eines Services sondern bezieht alle Arbeitsschritte, egal ob analog oder digital, mit ein.</p>
+<p><img src="media/image4.png" style="width:6.26772in;height:4.25in"></p>
+<p>Ersatz von Luis zu <a href="https://www.johner-institut.de/blog/iec-62366-usability/user-experience/"><strong>[https://www.johner-institut.de/blog/iec-62366-usability/user-experience/]</strong></a></p>
+</section>
+</section>
+<section id="wie-beziehen-wir-unsere-nutzerinnen-ein" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="wie-beziehen-wir-unsere-nutzerinnen-ein"><span class="header-section-number">2.2</span> Wie beziehen wir unsere Nutzer*innen ein?</h2>
+<p>Mit der Einführung einer neuen IT-Lösung werden bestimmte strategische Ziele verfolgt wie die Ablösung eines veralteten Systems, die Einführung einer neuen Dienstleistung und dergleichen. Die konkrete Ausgestaltung dieser strategischen Ziele sollte unter Einbeziehungen der beabsichtigten Nutzenden erfolgen. Die konsequente Bedarfsorientierung sichert die Qualität der Dienste und verhindert, dass eigene Bedürfnisse und Einschätzungen von Expert*innen die Entwicklung dominieren. Für die Einbeziehung von Nutzer*innen gibt es verschiedene Methoden, die im Folgenden kurz dargestellt werden sollen.</p>
+<section id="bedarfsermittlung" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="bedarfsermittlung"><span class="header-section-number">2.2.1</span> Bedarfsermittlung</h3>
+<section id="klassische-methoden-zur-bedarfsermittlung" class="level4" data-number="2.2.1.1">
+<h4 data-number="2.2.1.1" class="anchored" data-anchor-id="klassische-methoden-zur-bedarfsermittlung"><span class="header-section-number">2.2.1.1</span> Klassische Methoden zur Bedarfsermittlung</h4>
+<p>Zu den in Bibliotheken auch jenseits der Entwicklung von digitalen Diensten häufig genutzten Methoden der Bedarfsermittlung gehören qualitative und quantitative Befragungen sowie Beobachtungen. Diese Methoden sind aus der empirischen Sozialforschung entlehnt. Für viele Software-Projekte sind groß angelegte Befragungen zu aufwändig, allerdings ist es empfehlenswert, sich über Studien aus vergleichbaren Projekten zu informieren und daraus nach Möglichkeiten Ableitungen für eigene Zielsetzungen zu entwickeln.</p>
+<p>Beobachtungen können sehr flexibel angelegt und geplant werden. Dadurch können valide Ergebnisse mit vertretbarem Aufwand produziert werden und die Studie bei Bedarf gut skaliert werden. Der Fokus bei solchen Studien liegt darauf, Nutzer*innen in ihrem Arbeitsalltag zu beobachten, um ihre Herangehensweise bei der Lösung von Aufgaben und Problemen zu ermitteln. Übertragen auf digitale Dienste kann das zum Beispiel im Rahmen eines Usability-Tests passieren, in dem eine oder mehrere Personen ein System nutzen. Typischerweise werden während des Tests nicht nur Notizen oder Aufnahmen gesichert, sondern die Tester*innen nutzen das Think-Aloud-Protokoll. Dabei sollen Nutzende in Echtzeit laut kommentieren, was sie denken, sehen und tun (siehe Abschnitt <a href="#methoden">Methoden</a>).</p>
+<p>Fokusgruppen dagegen sind eine qualitative Methode, in der Vertreter*innen verschiedener Zielgruppen gemeinsam an einem bestimmten, vorher formulierten Thema arbeiten. Das können sowohl Diskussionen über Anforderungen und Wünsche an ein bestimmtes System sein, als auch die Planung von Einsatzszenarien oder Workflows. Durch die freie Wahl von Themen und Mitgliedern, z. B. Nutzende ohne Vorerfahrungen und/oder Expert*innen, sind Fokusgruppen ebenfalls eine sehr flexible, breit anwendbare Methode.</p>
+</section>
+<section id="bedarfsermittlung-mit-personas-und-use-cases" class="level4" data-number="2.2.1.2">
+<h4 data-number="2.2.1.2" class="anchored" data-anchor-id="bedarfsermittlung-mit-personas-und-use-cases"><span class="header-section-number">2.2.1.2</span> <strong>Bedarfsermittlung mit Personas und Use Cases</strong></h4>
+<p>Personas sind fiktive Persönlichkeiten, die stellvertretend für einzelne Zielgruppen eines Dienstes entwickelt werden. Die Beschreibungen enthalten vielfältige Informationen über die Persona und laden damit dazu ein, den zu entwickelnden Dienst aus der Perspektive der jeweiligen Persona zu beurteilen, jenseits von abstrakten Anforderungen. Darüber hinaus helfen Personas dabei, Prioritäten zu setzen und die Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas insgesamt.</p>
+<p><img src="media/image2.png" style="width:6.26772in;height:3.52778in"></p>
+<p>Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!</p>
+<p>Abgeleitet von solchen Personas fällt es häufig leicht, konkrete Use Cases für die Interaktion mit einem System zu definieren. Ein Use Case beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit einem System durchführen kann. Das kann beispielsweise in einem Fließtext passieren, in dem ein Szenario beschrieben wird.</p>
+<p><img src="media/image3.png" style="width:3.49349in;height:3.96354in"></p>
+<p>Aus einem <a href="https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526">Vortrag zum Scenario-based Design</a></p>
+<p>Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit verschiedenen Formen modelliert werden. Dafür können formalisierte Systeme wie die Unified Modelling Language (UML) zum Einsatz kommen. Sie bietet ein Set verschiedener Formen, um Start, Ende, Verzweigungen, Alternativen und mehr visuell zu beschreiben. Aber auch Skizzen können Nutzungsszenarien bereits verdeutlichen und als Diskussionsgrundlage dienen, z. B. in Form von Storyboards, die in einem eigenen <a href="#storyboards-als-frühe-methode">Unterkapitel zu dieser Methode</a> noch beschrieben werden.</p>
+<p>Use Cases können sowohl als Grundlage für den Entwicklungsprozess dienen als auch für die Evaluation eines Systems (siehe Abschnitt <a href="#evaluierung">Evaluierung</a>). Für die Nutzenden-Personas einer Bibliothek kann eine breite Palette von Use Cases existieren. Manche sind dabei eher allgemein zu verstehen, andere bibliotheksspezifisch und natürlich sind alle je nach Einrichtung bzw. Anforderungen beliebig erweiterbar. Zu beachten ist, dass sowohl Personas als auch Use Cases zwingend auf der Grundlage vertrauenswürdiger Daten wie denen aus der Bedarfsermittlung erstellt werden sollten. Solche Methoden ohne Kenntnisse der Zielgruppen anzuwenden kann nur zur Reproduktion der eigenen Meinung führen.</p>
+</section>
+</section>
+<section id="einbeziehung-von-nutzenden-in-die-entwicklung" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="einbeziehung-von-nutzenden-in-die-entwicklung"><span class="header-section-number">2.2.2</span> Einbeziehung von Nutzenden in die Entwicklung</h3>
+<p>Als Grundlage für Personas oder Use Cases und alle weiteren Schritte ist die Einbeziehung von tatsächlichen Nutzenden in die Entwicklung also bereits in einem frühen Stadium möglich und sinnvoll. Diese Einbeziehung sichert ab, dass wesentliche Ziele der Nutzenden erreicht werden und in mitunter komplexen Entwicklungsprozessen die richtigen Schwerpunkte gesetzt werden. Dafür stehen verschiedene Methoden zur Verfügung.</p>
+<p>Nachfolgend werden drei Ansätze vorgestellt:</p>
+<ul>
+<li><p>Storyboards - Skizzierung von Interaktionskonzepten</p></li>
+<li><p>Wireframes und Mock-Ups - Skizzen der Oberflächen</p></li>
+<li><p>Prototypen - erste funktionsfähige Iterationen</p></li>
+</ul>
+<section id="storyboards-als-frühe-methode" class="level4" data-number="2.2.2.1">
+<h4 data-number="2.2.2.1" class="anchored" data-anchor-id="storyboards-als-frühe-methode"><span class="header-section-number">2.2.2.1</span> Storyboards als frühe Methode</h4>
+<p>Ein Storyboard illustriert, wie ein User Interface (UI, Nutzer*innenoberfläche) auf Eingaben reagiert ohne das Interface visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases bestimmte Aktionen zu illustrieren.</p>
+<p><img src="media/image6.png" style="width:6.26772in;height:4.13889in"></p>
+<p>Rinzler, J.W.: Star Wars Storyboards: The Original Trilogy; Abrams &amp; Chronicle Books</p>
+<p>hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur als Platzhalter zu verstehen</p>
+<p>z.B. https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit</p>
+<p>Die Visualisierung von Interaktionsideen kann Beteiligten helfen, mögliche Abläufe nachzuvollziehen. Storyboards sind dabei oft leichter verständlich als z. B. technische Diagramme mit der oben genannten UML. Trotzdem ist darauf zu achten, dass Ideen und Konzepte für Stakeholder und Nutzende klar beschrieben werden, um Missverständnisse zu vermeiden. IN dieser Form lassen sich Storyboards nutzen, um z.B. verbale Beschreibungen oder Nutzungsszenarien zu ergänzen.</p>
+<p>Durch die noch vage Darstellung der Idee können dann Diskussionen angeregt werden. Beispielsweise können Storyboards in Fokusgruppen vorgestellt und diskutiert oder auch in Einzelgesprächen mit verschiedenen Stakeholdern analysiert werden. Möglichst alle Fragen und Ideen sollten dabei ohne Limitierungen behandelt werden können und die Ergebnisse festgehalten werden.</p>
+<p>Vor- und Nachteile von Storyboards im Überblick:</p>
+<table class="table">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 48%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Vorteile</th>
+<th style="text-align: left;">Nachteile</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">leicht verständlich, für alle Stakeholder geeignet</td>
+<td style="text-align: left;">nicht jeder Use Case oder jede Interaktionsmöglichkeit ist darstellbar</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">bereits im frühen Entwurfsprozess einsetzbar</td>
+<td style="text-align: left;">digitale, nichtlineare Produkte (z.B. Websites) sind schwer darstellbar</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">schnelle Erstellung ohne Vorkenntnisse möglich</td>
+<td style="text-align: left;">ggf. Unklarheiten bei der Nutzung (z.B. durch unklare Symbole)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="wireframes-und-mock-ups" class="level4" data-number="2.2.2.2">
+<h4 data-number="2.2.2.2" class="anchored" data-anchor-id="wireframes-und-mock-ups"><span class="header-section-number">2.2.2.2</span> Wireframes und Mock-Ups</h4>
+<p>Wireframes und Mock-Ups werden vor allem dazu genutzt, erste Skizzen für Struktur, Layout und Funktionalitäten eines Interface vorzustellen. Ähnlich wie Storyboards dienen sie als einfach zu erstellende Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.</p>
+<p><img src="media/image5.png" style="width:6.26772in;height:4.13889in"></p>
+<p><a href="https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype" class="uri">https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype</a> (Platzhalter, David könnte was per OmniGraffle bauen)</p>
+<p>Ein Wireframe (“Drahtmodell”) ist eine noch undetaillierte (“low-level”) Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches (siehe Abbildung XX). Ein Mock-Up ist, im Kontext Design, eine ausgereifte (“high-level”) Version des Interfaces mit realistischen Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz zu Prototypen, die interaktiv sind und damit echte Funktionalitäten enthalten.</p>
+</section>
+<section id="interaktive-prototypen" class="level4" data-number="2.2.2.3">
+<h4 data-number="2.2.2.3" class="anchored" data-anchor-id="interaktive-prototypen"><span class="header-section-number">2.2.2.3</span> (Interaktive) Prototypen</h4>
+<p>Die nächsthöhere Form eines geplanten Produkts, (interaktive) Prototypen, besitzen bereits erste Funktionen des geplanten Interfaces. Auch hier gibt es eine Spanne von rudimentären, low-level bis hin zu ausgereiften, high-level Prototypen, die durch Iterationen schrittweise erreicht werden. Üblich ist außerdem die Unterteilung in “vertical slice”, die qualitativ hochwertige Umsetzung nur eines bestimmten Teils des Produkts, und “horizontal slice”, die prototypische Umsetzung einer möglichst großen Bandbreite des späteren Systems.</p>
+<p>Erste Prototypen müssen dabei noch nicht zwingend programmiert werden, sondern können durch entsprechende Prototyping Software, wie <a href="https://www.figma.com">Figma</a> oder <a href="https://www.axure.com">Axure</a>, umgesetzt werden. Diese besitzen eine Art Bausystem für Interfaces mit mehreren Ansichten, die über Aktionen wie den Klick auf einen Button verbunden werden können. So kann Nutzenden gewissermaßen ein Produkt vorgetäuscht werden, das dann mit rudimentären Funktionen bereits getestet werden kann.</p>
+<p>Während des eigentlichen Softwareentwicklungsprozesses wird der anfängliche Prototyp mit jeder Iteration hochwertiger und nimmt mehr den Charakter eines vollen Systems an. Es empfiehlt sich, nach Iterationen regelmäßig zu evaluieren, ob neue Funktionen oder Änderungen noch für die Zielgruppen geeignet sind.</p>
+</section>
+</section>
+<section id="evaluierung" class="level3" data-number="2.2.3">
+<h3 data-number="2.2.3" class="anchored" data-anchor-id="evaluierung"><span class="header-section-number">2.2.3</span> Evaluierung</h3>
+<p>Die vorangegangenen Abschnitte haben herausgestellt, wie wichtig es ist, regelmäßig Feedback der Nutzenden zu erhalten. Eine zentrale Datenquelle dafür ist die Begleitung eines Projekts durch Evaluierungen. Ein Beispiel für eine lebendige Evaluierungskultur ist das “<a href="https://urc.library.harvard.edu/">User Research Center” der Harvard Library</a>, das regelmäßig verschiedene Methoden anwendet, um Angebote gemeinsam mit Nutzenden zu evaluieren und diese öffentlich in einem <a href="https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=232199222">Wiki</a> teilt.</p>
+<p>Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei Methoden: Beobachtungs- und Inspektionstests (siehe Abbildung unten). Während erstgenannte unter Einbeziehung von Nutzer*innen durchgeführt werden, werden Inspektionstests häufig durch Usability-Expert*innen realisiert.</p>
+<p><img src="media/image1.png" style="width:6.26772in;height:4.23611in">Bildquelle: David, um 90° drehen</p>
+<p>Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass diese auch ohne eine formale Usability-Ausbildung durch engagierte Mitarbeiter*innen durchgeführt werden können. Im Folgenden soll deshalb das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.</p>
+<section id="testgruppen" class="level4" data-number="2.2.3.1">
+<h4 data-number="2.2.3.1" class="anchored" data-anchor-id="testgruppen"><span class="header-section-number">2.2.3.1</span> Testgruppen</h4>
+<p>Die Testgruppe muss die potentielle Nutzungsgruppe bestmöglich repräsentieren, jedoch nicht sehr groß sein. Die Erfahrung zeigt, dass ca. fünf Testpersonen ausreichen, um die wichtigsten Usabilityprobleme eines Systems zu identifizieren<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. Statt eines einzigen Tests mit vielen Teilnehmenden bieten sich daher schnell durchzuführende Tests mit wenigen Teilnehmenden an, um ein Produkt iterativ zu verbessern. Möchte man jedoch verschiedene Typen von Nutzer*innen analysieren oder quantitative Ergebnisse sammeln, muss die Gruppengröße entsprechend wachsen.</p>
+<p>Neben den typischen Streuungsmerkmalen wie demographischen und kulturellen Faktoren (z.B. Bildungshintergrund) bietet es sich an, Nutzer*innen auszuwählen, die über ein unterschiedliches Maß an Vorwissen über das zu entwickelnde oder verwandte Produkte verfügen. Außerdem sollten Personen integriert werden, welche von Einschränkungen betroffen sind, die in Abschnitt [Accessibility] thematisiert wurden.</p>
+</section>
+<section id="testablauf-und-vorbereitungen" class="level4" data-number="2.2.3.2">
+<h4 data-number="2.2.3.2" class="anchored" data-anchor-id="testablauf-und-vorbereitungen"><span class="header-section-number">2.2.3.2</span> Testablauf und Vorbereitungen</h4>
+<p>Nach der Rekrutierung repräsentativer Nutzer*innen und der Vorbereitung der benötigten Materialien und der Testumgebung bietet sich ein Pilottest mit Proband*innen an. Dieser dient der Validierung der eigenen Annahmen über die Testaufgaben (s.u.) und die Machbarkeit des Ablaufs.</p>
+<p>Die Testumgebung sollte eine entspannte und natürliche Arbeitsumgebung vermitteln. Diese ist in jedem Fall einer künstlichen Laborumgebung vorzuziehen. Während der Beobachtungstests ist sicherzustellen, dass keine Unterbrechungen, z.B. in Form von Telefonanrufen erfolgen, damit die Proband*innen das zu evaluierende System konzentriert testen können.</p>
+<p>Nach dem Beobachtungstest sollte es den Proband*innen ermöglicht werden, die Testergebnisse zu erhalten. Außerdem ist es neben dem obligatorischen Dank für die Teilnahme üblich, eine Aufmerksamkeit - je nach Dauer z. B. Kaffee, Süßes, Gutscheine - auszuhändigen, um die eigene Wertschätzung für das zeitliche Investment der Proband*innen auszudrücken. In einer Erklärung zum Datenschutz ist die anonyme Datennutzung zuzusichern.</p>
+</section>
+<section id="testaufgaben" class="level4" data-number="2.2.3.3">
+<h4 data-number="2.2.3.3" class="anchored" data-anchor-id="testaufgaben"><span class="header-section-number">2.2.3.3</span> Testaufgaben</h4>
+<p>Wie die Testgruppen müssen auch die Testaufgaben repräsentativ für den späteren Einsatzzweck des Systems sein. Die von den Proband*innen zu bearbeitenden Testaufgaben müssen realistische Aufgaben in bzw. mit dem System sein und in der gegebenen Zeit absolvierbar sein. Dabei ist zu beachten, dass sich die Arbeitsaufgaben an tatsächlichen Use Cases orientieren und nicht trivial sind.</p>
+<p>Die Formulierung der Arbeitsaufgaben muss unmissverständlich für die Proband*innen sein und auf deren (mitunter variierendes) Vorwissen eingehen. Ein Pilottest hilft, dies zu überprüfen.</p>
+<p>Die Gestaltung der einzelnen Aufgaben sollte einer Dramaturgie folgen, um die Proband*innen während des gesamten Tests zu motivieren. Das heißt konkret, dass die ersten Teilaufgaben leicht zu lösen sein sollten und deren Schwierigkeit dann kontinuierlich zunimmt, um durch komplexere Aufgaben belastbare Aussagen zu erhalten.</p>
+</section>
+<section id="methoden" class="level4" data-number="2.2.3.4">
+<h4 data-number="2.2.3.4" class="anchored" data-anchor-id="methoden"><span class="header-section-number">2.2.3.4</span> Methoden</h4>
+<p>Testaufgaben für Usability-Tests werden erstellt, um typische Nutzungsszenarien mit Hinblick auf die Usability des Systems hin zu überprüfen. Die folgenden Methoden können relativ einfach umgesetzt werden, generieren jedoch bereits wertvolle Erkenntnisse.</p>
+<section id="think-aloud-protokolle" class="level5" data-number="2.2.3.4.1">
+<h5 data-number="2.2.3.4.1" class="anchored" data-anchor-id="think-aloud-protokolle"><span class="header-section-number">2.2.3.4.1</span> Think-Aloud-Protokolle</h5>
+<p>Die zentrale Idee bei Think-Aloud-Protokollen ist, dass Proband*innen während der Interaktion mit dem zu evaluierenden System ihre Meinungen, Gedanken und Gefühle laut aussprechen.</p>
+<p>Dadurch wird es den Beobachter*innen ermöglicht, zuvor unsichtbare, kognitive Prozesse der Proband*innen zu beobachten sowie einen Einblick in typische Nutzungsweisen zu gewinnen. Durch die Verbalisierung und Beschreibung des Systems durch die Nutzenden lernt man zeitgleich die Nutzer*innenterminologie für bestimmte Sachverhalte kennen, die teils erheblich von der Fachsprache abweichen wird. Die Ergebnisse der Methode können z. B. durch Notizen oder Audioaufnahmen festgehalten werden.</p>
+</section>
+<section id="co-discovery-learning" class="level5" data-number="2.2.3.4.2">
+<h5 data-number="2.2.3.4.2" class="anchored" data-anchor-id="co-discovery-learning"><span class="header-section-number">2.2.3.4.2</span> Co-Discovery Learning</h5>
+<p>Die Kernherausforderung bei der Erstellung von Think-Aloud-Protokollen ist es, die Proband*innen kontinuierlich zu motivieren, selbst kleinste Gedanken zu verbalisieren. Beim Co-Discovery Learning arbeiten zwei Testpersonen gleichzeitig an einem System und helfen sich gegenseitig bei der Erfüllung der Aufgaben. Dadurch entstehen Gespräche und gewissermaßen automatisch ein Think-Aloud-Protokoll beider Personen.</p>
+<p>Die Methode bildet einerseits eine realistische Arbeitssituation des gegenseitigen Helfens ab und normalisiert andererseits das laute Aussprechen von Gedanken innerhalb einer Dialogsituation.</p>
+</section>
+<section id="quantitative-methoden" class="level5" data-number="2.2.3.4.3">
+<h5 data-number="2.2.3.4.3" class="anchored" data-anchor-id="quantitative-methoden"><span class="header-section-number">2.2.3.4.3</span> Quantitative Methoden</h5>
+<p>Beobachtungsmethoden generieren primär qualitative Daten, ebenso wie viele Inspektionsmethoden. Aus Managementsicht werden jedoch oft Entscheidungen auf Grundlage von quantitativen Daten bevorzugt, da diese häufiger als Fakten wahrgenommen werden.</p>
+<p>Einfache, relativ leicht zu erhebende quantitative Metriken im Rahmen von Usability-Tests sind z.B.:</p>
+<ul>
+<li><p>Nutzungsfehler pro Zeiteinheit,</p></li>
+<li><p>Anzahl nicht benötigter Befehle (Menus, Icons, Links)</p></li>
+<li><p>Benötigte Zeit für den Abschluss einer Arbeitsaufgabe (insbesondere im Vergleich mit einer vorherigen Iteration)</p></li>
+<li><p>Benötigte Anzahl an Klicks/Links, um an ein bestimmtes Ziel zu kommen.</p></li>
+</ul>
+<p>Der “Benutzungsfragebogen ISONORM 9241/10” bietet einen interessanten Kompromiss zwischen qualitativen und quantitativen Daten, da er qualitative Aussagen bezüglich der Usability eines Systems (z.B. Aufgabenangemessenheit und Selbstbeschreibungsfähigkeit) mithilfe einer siebenstufigen Likert-Skala abbildet. Der <a href="https://people.f3.htw-berlin.de/Professoren/Pruemper/instrumente.html">Fragebogen</a> ist frei im Internet verfügbar. Beachtet werden muss, dass für belastbare quantitative Daten die Größe der Testgruppe deutlich steigen muss, um Verfälschungen durch Einzelpersonen zu vermeiden.</p>
+
+
+</section>
+</section>
+</section>
+</section>
+<section class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1" role="doc-endnote"><p>vgl. Gould, J. D.; Lewis, C. (1987): Gould, J. D.; Lewis, C. (1987): Designing for usability: Key principles and what designers think. Human-computer interaction. In: R. M. Baecker (Hg.). San Francisco, CA, USA: Morgan Kaufmann Publishers Inc., S. 528–539. Online verfügbar unter <a href="http://dl.acm.org/citation.cfm?id=58076.58121">http://dl.acm.org/citation.cfm?id=58076.58121</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>vgl. Rob Kling and Susan Leigh Star. 1998. Human centered systems in the perspective of organizational and social informatics. SIGCAS Comput. Soc. 28, 1 (March 1998), 22–29. DOI: <a href="https://doi.org/10.1145/277351.277356">https://doi.org/10.1145/277351.277356</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>https://www.gov.uk/guidance/government-design-principles<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>siehe Shneiderman, Ben; Plaisant, Catherine (2005): Designing the user interface. Strategies for effective human-computer interaction. 4. ed.&nbsp;Boston: Pearson.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p><a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/">https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/</a> …<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./management.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Management</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Bibliotheksmanagementsysteme</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

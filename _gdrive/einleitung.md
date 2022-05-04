@@ -1,13 +1,11 @@
-# Einleitung {.unnumbered}
+# Einleitung
 
 ## Motivation
 
-> Because the library has become software, it is no longer viable for
+> *Because the library has become software, it is no longer viable for
 > our services to exist separately from our software. \[\...\] Most
 > importantly, all library staff must understand that our software is
-> our library, and is everyone's responsibility.
->
-> --- Cody Hanson (2015) <http://codyhanson.com/writing/software.html>
+> our library, and is everyone's responsibility.*[^1]
 
 Mit der wachsenden Bedeutung der Informationstechnologie (IT) im
 Allgemeinen und für Bibliotheken im Besonderen bleibt kaum ein Aspekt
@@ -22,13 +20,12 @@ ihrem Aufbau und Betrieb. Während sich einige Teile der IT in
 Bibliotheken nicht wesentlich von IT in anderen Bereichen unterscheiden,
 gibt es doch zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht
 speziell genug an anderer Stelle behandelt werden. Vor allem zu den für
-Bibliotheken zentralen [Bibliotheksmanagementsysteme]
+Bibliotheken zentralen
+[[Bibliotheksmanagementsysteme]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.5avx9yueyhb6)
 fehlte bislang eine grundlegende Einführung.
 
 Dieses Handbuch soll einen knappen, umfassenden Überblick über die
 wichtigsten IT-bezogenen Themen in Bibliotheken geben.
-
-[Bibliotheksmanagementsysteme]: #bibliotheksmanagementsysteme
 
 ## Über dieses Handbuch
 
@@ -41,22 +38,27 @@ verfassen. Weitere Autor\*innen wurden im Laufe der Veranstaltung
 eingebunden.
 
 Zur Klärung der Zielgruppe wurden einige sogenannte Personas definiert
-(siehe [Anhang]).
+(siehe
+[[Anhang]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.7rvs53djxm0w)).
 Eine Brainstorming-Session ergab zunächst relevante Themen für den
 Teilbereich BMS und eine grobe Gliederung in Unterkapitel. Diese wurden
 anschließend in mehreren Iterationen gemeinsam ausformuliert. Das
 Ergebnis sind drei Hauptkapitel zu IT-Themen für Bibliotheken:
 
--   [Management von Bibliotheks-IT](#management)
+-   [[Management von
+    > IT-Systemen]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.h3d5n3s3dh6f)
 
--   [Anforderungen an Bibliotheks-IT](#anforderungen)
+-   [[​​​​Nutzer\*innenzentrierte
+    > Gestaltung]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.43ixv5lgkzjn)
 
--   [Bibliotheksmanagementsysteme]
+-   [[Bibliotheksmanagementsysteme]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.5avx9yueyhb6)
 
-Weitere Themen wie IT-Entwicklung, Forschungsunterstützung und Datenformate
-sind bisher nicht oder nur fragmentarisch behandelt. Um diese Kapitel zu
-vervollständigen und weitere Kapitel anzulegen sollen weitere Book Sprints
-veranstaltet werden.
+Weitere Themen wie
+[[IT-Entwicklung]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.uziya2wi601b),
+Forschungsunterstützung und Datenformate sind bisher nicht oder nur
+fragmentarisch behandelt. Um diese Kapitel zu vervollständigen und
+weitere Kapitel anzulegen sollen weitere Book Sprints veranstaltet
+werden.
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und
 aktualisiert werden kann. Die vorläufige Form ist ein Google Docs
@@ -66,26 +68,31 @@ wird noch zur Verfügung gestellt.
 Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 
 -   Wir verzichten auf individuelle Autorenschaft an einzelnen
-    Textteilen. Alle können an allen Teilen mitarbeiten.
+    > Textteilen. Alle können an allen Teilen mitarbeiten.
 
 -   Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen
-    Überblick geben. Für Details kann auf weiterführende Quellen
-    verwiesen werden.
+    > Überblick geben. Für Details kann auf weiterführende Quellen
+    > verwiesen werden.
 
 -   Zur Gewährleistung einer einheitlichen Form gibt es einen Styleguide
-    (siehe [Anhang]).
+    > (siehe
+    > [[Anhang]{.underline}](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.rxrxrdhjo0z2)).
 
 Kontaktinformationen und Neuigkeiten zum Projekt zur Erstellung des
 Handbuchs finden sich auf der Seite
-<https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/ueber-die-bibliothek/projekte/book-sprint/>.
+[[https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/ueber-die-bibliothek/projekte/book-sprint/]{.underline}](https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/ueber-die-bibliothek/projekte/book-sprint/).
 
-{{< include _contributors.md >}}
+## Beteiligte Autor\*innen
+
+Die Liste wird in einer CSV-Datei verwaltet, siehe
+[[https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/contributors.csv]{.underline}](https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/contributors.csv)
 
 ## Rechte an den Inhalten des Buchs
 
 Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte
 dieses Buches unter der Lizenz Creative Commons Namensnennung 3.0
-Deutschland ([CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)).
+Deutschland (CC BY 3.0 DE,
+[[https://creativecommons.org/licenses/by/3.0/de/]{.underline}](https://creativecommons.org/licenses/by/3.0/de/)).
 Das heisst, Sie dürfen das Material in jedwedem Format oder Medium
 vervielfältigen und weiterverbreiten (Teilen) und das Material remixen,
 verändern und darauf aufbauen (Bearbeiten) und zwar für beliebige
@@ -93,3 +100,6 @@ Zwecke, inklusive kommerzielle Zwecke, unter der Bedingung, dass Sie
 angemessene Urheber\*innen- und Rechteangaben machen, einen Link zur
 Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden
 (Namensnennung).
+
+[^1]: Cody Hanson (2015)
+    [[http://codyhanson.com/writing/software.html]{.underline}](http://codyhanson.com/writing/software.html)

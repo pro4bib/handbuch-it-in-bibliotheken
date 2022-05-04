@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+use v5.14.1;
+
+while (<>) {
+    chomp;
+    my ( $chapter, $fileid ) = split ',', $_;
+    if ( $chapter !~ /^[a-z-]+$/ || $fileid !~ /^[A-Za-z_0-9-]+$/ ) {
+        warn "Kapitelname oder Google id passt so nocht: $_\n";
+        exit 1;
+    } else {
+        `wget \"https://docs.google.com/document/u/0/export?format=docx&id=$fileid\" -O $chapter.docx`;
+        sleep 2;
+    }
+}
+
