@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: Handbuch IT in Bibliotheken
+  #author: ...
+  date: "2022"
+  repo-url: https://github.com/pro4bib/handbuch-it-in-bibliotheken/
+  chapters:
+    - index.md
+    - management.md
+    - anforderungen.md
+    - literatur.md
+
+bibliography: references.bib
+lang: de
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+#comments:
+#  hypothesis: true
