@@ -135,10 +135,9 @@ einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
 digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
-![](media/image4.png){width="6.267716535433071in" height="4.25in"}
+![](media/image4.png)
 
-Ersatz von Luis zu
-[**[https://www.johner-institut.de/blog/iec-62366-usability/user-experience/]**](https://www.johner-institut.de/blog/iec-62366-usability/user-experience/)
+Ersatz von Luis zu <https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
 
 ## Wie beziehen wir unsere Nutzer\*innen ein?
 
@@ -187,7 +186,7 @@ die freie Wahl von Themen und Mitgliedern, z. B. Nutzende ohne
 Vorerfahrungen und/oder Expert\*innen, sind Fokusgruppen ebenfalls eine
 sehr flexible, breit anwendbare Methode.
 
-#### **Bedarfsermittlung mit Personas und Use Cases**
+#### Bedarfsermittlung mit Personas und Use Cases
 
 Personas sind fiktive Persönlichkeiten, die stellvertretend für einzelne
 Zielgruppen eines Dienstes entwickelt werden. Die Beschreibungen
@@ -199,8 +198,7 @@ Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische
 Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas
 insgesamt.
 
-![](media/image2.png){width="6.267716535433071in"
-height="3.5277777777777777in"}
+![](media/image2.png)
 
 Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!
 
@@ -210,11 +208,9 @@ beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![](media/image3.png){width="3.4934875328083987in"
-height="3.963542213473316in"}
+![](media/image3.png)
 
-Aus einem [Vortrag zum Scenario-based
-Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
+Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
@@ -262,8 +258,7 @@ Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
 visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases
 bestimmte Aktionen zu illustrieren.
 
-![](media/image6.png){width="6.267716535433071in"
-height="4.138888888888889in"}
+![](media/image6.png)
 
 Rinzler, J.W.: Star Wars Storyboards: The Original Trilogy; Abrams &
 Chronicle Books
@@ -272,7 +267,7 @@ hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur
 als Platzhalter zu verstehen
 
 z.B.
-https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit
+<https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit>
 
 Die Visualisierung von Interaktionsideen kann Beteiligten helfen,
 mögliche Abläufe nachzuvollziehen. Storyboards sind dabei oft leichter
@@ -314,8 +309,7 @@ Struktur, Layout und Funktionalitäten eines Interface vorzustellen.
 Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von
 einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
-![](media/image5.png){width="6.267716535433071in"
-height="4.138888888888889in"}
+![](media/image5.png)
 
 <https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
 (Platzhalter, David könnte was per OmniGraffle bauen)
@@ -375,8 +369,7 @@ Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
 
-![](media/image1.png){width="6.267716535433071in"
-height="4.236111111111111in"}Bildquelle: David, um 90° drehen
+![](media/image1.png) Bildquelle: David, um 90° drehen
 
 Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass
 diese auch ohne eine formale Usability-Ausbildung durch engagierte
