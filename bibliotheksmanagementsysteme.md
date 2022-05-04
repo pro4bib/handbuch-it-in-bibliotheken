@@ -79,8 +79,8 @@ für Support- und Wartungsdienstleistungen zu.
 +-----------------------------------------------------------------------+
 | Evolution der Bibliotheksmanagementsysteme \[INFOBOX\]                |
 |                                                                       |
-| ![](media/image1.png){width="6.114583333333333in"                     |
-| height="5.180555555555555in"}\                                        |
+| ![](media/evolution.png)                     |
+|                                         |
 | Quelle: Matthews & Block, 2020, S. 7 \[TODO: Ins Deutsche             |
 | adaptieren\]                                                          |
 |                                                                       |

@@ -33,7 +33,7 @@ number-sections: false
 format:
   html:
     theme: cosmo
-    css: style.css
+    # css: style.css
     link-external-icon: true
 #    reference-location: margin
   pdf:
