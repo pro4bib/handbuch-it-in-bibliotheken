@@ -10,3 +10,6 @@ markdown: $(MARKDOWN)
 
 download:
 	./download-chapters < chapters.csv
+
+update:
+	./update-chapters < chapters.csv
