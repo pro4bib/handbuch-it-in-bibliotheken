@@ -7,7 +7,7 @@
 > importantly, all library staff must understand that our software is
 > our library, and is everyone's responsibility.
 >
-> --- Cody Hanson (2015) <http://codyhanson.com/writing/software.html>
+> --- [@cody_hanson_opinion_2015]
 
 Mit der wachsenden Bedeutung der Informationstechnologie (IT) im
 Allgemeinen und für Bibliotheken im Besonderen bleibt kaum ein Aspekt

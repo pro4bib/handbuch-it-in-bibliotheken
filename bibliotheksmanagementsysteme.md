@@ -1942,4 +1942,4 @@ folgende Aspekte hervorgehoben und erläutert werden:
     und Form in ein einheitliches Metadaten-Format zu übertragen und so
     über eine gemeinsame Datenquelle anbieten zu können.
 
-[^7]: https://en.wikipedia.org/wiki/Identity_provider
+[^7]: <https://en.wikipedia.org/wiki/Identity_provider>

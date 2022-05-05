@@ -33,7 +33,7 @@ wieder.
 Beim nutzer\*innenorientierten Design oder dem User-Centered Design
 (UCD) handelt es sich nicht im formale Methoden im engeren Sinn, sondern
 um eine Sammlung i.d.R. empirisch abgesicherter Techniken mit drei
-Kernideen[^1]:
+Kernideen [@gould_designing_1987].
 
 1.  Fokussierung auf Nutzer\*innen und deren Aufgaben von Beginn der
     Entwicklung an
@@ -43,19 +43,18 @@ Kernideen[^1]:
 
 3.  Nutzung eines iterativen Design-Prozesses
 
-Kling und Leigh Star ergänzen, dass die ganz individuellen Fähigkeiten
-der Nutzenden in Betracht gezogen werden müssen[^2], was allein schon
-aus Gründen der digitalen Teilhabe sinnvoll erscheint.
+Kling und Leigh Star ergänzen, dass die ganz individuellen Fähigkeiten der
+Nutzenden in Betracht gezogen werden müssen [@kling_human_1998], was allein
+schon aus Gründen der digitalen Teilhabe sinnvoll erscheint.
 
 Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche
 einfach zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte
 wie Effektivität, Effizienz, Benutzerzufriedenheit und Zugänglichkeit
 gelegt (vgl. ISO 9241-210:2019). Diese Aspekte werden in Abschnitt [Was
-beeinflusst den
-Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck)
+beeinflusst den Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck)
 weiter erläutert.
 
-Das Central Digital and Data Office des Vereinigten Köngreichs[^3] fasst
+Das Central Digital and Data Office des Vereinigten Köngreichs[^1] fasst
 die zentral zu bearbeitenden Arbeitspunkte im nutzer\*innenzentrierten
 Gestaltungsprozess und den Weg dahin prägnant in seinen "Government
 Design Principles" zusammen:
@@ -118,7 +117,7 @@ mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei
 der Bedienung auftreten. Zur Vermeidung von Usability-Problemen
 existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen
 skizziert werden bzw. durch Autoren wie Shneiderman in seinen "8 golden
-rules"[^4] oder Nielsen mit seinen "[10
+rules" [@shneiderman_designing_2005] oder Nielsen mit seinen "[10
 Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)"
 benannt werden.
 
@@ -445,7 +444,7 @@ das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.
 Die Testgruppe muss die potentielle Nutzungsgruppe bestmöglich
 repräsentieren, jedoch nicht sehr groß sein. Die Erfahrung zeigt, dass
 ca. fünf Testpersonen ausreichen, um die wichtigsten Usabilityprobleme
-eines Systems zu identifizieren[^5]. Statt eines einzigen Tests mit
+eines Systems zu identifizieren[^2]. Statt eines einzigen Tests mit
 vielen Teilnehmenden bieten sich daher schnell durchzuführende Tests mit
 wenigen Teilnehmenden an, um ein Produkt iterativ zu verbessern. Möchte
 man jedoch verschiedene Typen von Nutzer\*innen analysieren oder
@@ -502,25 +501,6 @@ heißt konkret, dass die ersten Teilaufgaben leicht zu lösen sein sollten
 und deren Schwierigkeit dann kontinuierlich zunimmt, um durch komplexere
 Aufgaben belastbare Aussagen zu erhalten.
 
+[^1]: <https://www.gov.uk/guidance/government-design-principles>
 
-
-[^1]: vgl. Gould, J. D.; Lewis, C. (1987): Gould, J. D.; Lewis, C.
-    (1987): Designing for usability: Key principles and what designers
-    think. Human-computer interaction. In: R. M. Baecker (Hg.). San
-    Francisco, CA, USA: Morgan Kaufmann Publishers Inc., S. 528--539.
-    Online verfügbar unter
-    [http://dl.acm.org/citation.cfm?id=58076.58121](http://dl.acm.org/citation.cfm?id=58076.58121).
-
-[^2]: vgl. Rob Kling and Susan Leigh Star. 1998. Human centered systems
-    in the perspective of organizational and social informatics. SIGCAS
-    Comput. Soc. 28, 1 (March 1998), 22--29. DOI:
-    [https://doi.org/10.1145/277351.277356](https://doi.org/10.1145/277351.277356)
-
-[^3]: https://www.gov.uk/guidance/government-design-principles
-
-[^4]: siehe Shneiderman, Ben; Plaisant, Catherine (2005): Designing the
-    user interface. Strategies for effective human-computer interaction.
-    4. ed. Boston: Pearson.
-
-[^5]: [https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
-...
+[^2]: <https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/>

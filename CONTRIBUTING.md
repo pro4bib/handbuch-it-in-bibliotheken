@@ -8,7 +8,7 @@ Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
 * `contributors.csv` [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
 
-* `references.bib` [Literaturverzeichnis](#literaturverzeichnis)
+* `references.bib` [Literaturverzeichnis](#literaturverzeichnis) (bitte nicht direkt bearbeiten!)
 
 Weitere Unterverzeichnisse:
 
@@ -30,7 +30,9 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
 ## Literaturverzeichnis
 
-*Bitte nutzt Zotero, Details folgen noch (siehe https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/3)!*
+Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird unter `references.bib` gespeichert. Diese Datei sollte nicht direkt bearbeitet werden!
+
+Eine automatische Integration der Zotero-Gruppe und die thematische Gliederung im Literatuverzeichnis ist geplant (siehe <https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/3>).
 
 ## Autor*innen-Verzeichnis
 
