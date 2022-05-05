@@ -3,11 +3,12 @@ use v5.14.1;
 
 while (<>) {
     chomp;
-    my ( $chapter, $fileid ) = split ',', $_;
-    if ( $chapter !~ /^[a-z-]+$/ || $fileid !~ /^[A-Za-z_0-9-]+$/ ) {
-        warn "Kapitelname oder Google id passt so nocht: $_\n";
+    my ( $chapter, $url ) = split ',', $_;
+    if ( $chapter !~ /^[a-z-]+$/ || $url !~ qr{^https://docs\.google\.com/document/d/([A-Za-z_0-9-]+)/edit} ) {
+        warn "Kapitelname oder Google URL passt so nocht: $_\n";
         exit 1;
     } else {
+        my $fileid = $1;
         `wget \"https://docs.google.com/document/u/0/export?format=docx&id=$fileid\" -O $chapter.docx`;
         sleep 2;
     }
