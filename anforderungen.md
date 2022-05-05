@@ -234,6 +234,70 @@ vertrauenswürdiger Daten wie denen aus der Bedarfsermittlung erstellt
 werden sollten. Solche Methoden ohne Kenntnisse der Zielgruppen
 anzuwenden kann nur zur Reproduktion der eigenen Meinung führen.
 
+### Methoden
+
+Testaufgaben für Usability-Tests werden erstellt, um typische
+Nutzungsszenarien mit Hinblick auf die Usability des Systems hin zu
+überprüfen. Die folgenden Methoden können relativ einfach umgesetzt
+werden, generieren jedoch bereits wertvolle Erkenntnisse.
+
+#### Think-Aloud-Protokolle
+
+Die zentrale Idee bei Think-Aloud-Protokollen ist, dass Proband\*innen
+während der Interaktion mit dem zu evaluierenden System ihre Meinungen,
+Gedanken und Gefühle laut aussprechen.
+
+Dadurch wird es den Beobachter\*innen ermöglicht, zuvor unsichtbare,
+kognitive Prozesse der Proband\*innen zu beobachten sowie einen Einblick
+in typische Nutzungsweisen zu gewinnen. Durch die Verbalisierung und
+Beschreibung des Systems durch die Nutzenden lernt man zeitgleich die
+Nutzer\*innenterminologie für bestimmte Sachverhalte kennen, die teils
+erheblich von der Fachsprache abweichen wird. Die Ergebnisse der Methode
+können z. B. durch Notizen oder Audioaufnahmen festgehalten werden.
+
+#### Co-Discovery Learning
+
+Die Kernherausforderung bei der Erstellung von Think-Aloud-Protokollen
+ist es, die Proband\*innen kontinuierlich zu motivieren, selbst kleinste
+Gedanken zu verbalisieren. Beim Co-Discovery Learning arbeiten zwei
+Testpersonen gleichzeitig an einem System und helfen sich gegenseitig
+bei der Erfüllung der Aufgaben. Dadurch entstehen Gespräche und
+gewissermaßen automatisch ein Think-Aloud-Protokoll beider Personen.
+
+Die Methode bildet einerseits eine realistische Arbeitssituation des
+gegenseitigen Helfens ab und normalisiert andererseits das laute
+Aussprechen von Gedanken innerhalb einer Dialogsituation.
+
+#### Quantitative Methoden
+
+Beobachtungsmethoden generieren primär qualitative Daten, ebenso wie
+viele Inspektionsmethoden. Aus Managementsicht werden jedoch oft
+Entscheidungen auf Grundlage von quantitativen Daten bevorzugt, da diese
+häufiger als Fakten wahrgenommen werden.
+
+Einfache, relativ leicht zu erhebende quantitative Metriken im Rahmen
+von Usability-Tests sind z.B.:
+
+-   Nutzungsfehler pro Zeiteinheit,
+
+-   Anzahl nicht benötigter Befehle (Menus, Icons, Links)
+
+-   Benötigte Zeit für den Abschluss einer Arbeitsaufgabe (insbesondere
+    im Vergleich mit einer vorherigen Iteration)
+
+-   Benötigte Anzahl an Klicks/Links, um an ein bestimmtes Ziel zu
+    kommen.
+
+Der "Benutzungsfragebogen ISONORM 9241/10" bietet einen interessanten
+Kompromiss zwischen qualitativen und quantitativen Daten, da er
+qualitative Aussagen bezüglich der Usability eines Systems (z.B.
+Aufgabenangemessenheit und Selbstbeschreibungsfähigkeit) mithilfe einer
+siebenstufigen Likert-Skala abbildet. Der
+[Fragebogen](https://people.f3.htw-berlin.de/Professoren/Pruemper/instrumente.html)
+ist frei im Internet verfügbar. Beachtet werden muss, dass für
+belastbare quantitative Daten die Größe der Testgruppe deutlich steigen
+muss, um Verfälschungen durch Einzelpersonen zu vermeiden.
+
 ### Einbeziehung von Nutzenden in die Entwicklung
 
 Als Grundlage für Personas oder Use Cases und alle weiteren Schritte ist
@@ -438,69 +502,7 @@ heißt konkret, dass die ersten Teilaufgaben leicht zu lösen sein sollten
 und deren Schwierigkeit dann kontinuierlich zunimmt, um durch komplexere
 Aufgaben belastbare Aussagen zu erhalten.
 
-#### Methoden
 
-Testaufgaben für Usability-Tests werden erstellt, um typische
-Nutzungsszenarien mit Hinblick auf die Usability des Systems hin zu
-überprüfen. Die folgenden Methoden können relativ einfach umgesetzt
-werden, generieren jedoch bereits wertvolle Erkenntnisse.
-
-##### Think-Aloud-Protokolle
-
-Die zentrale Idee bei Think-Aloud-Protokollen ist, dass Proband\*innen
-während der Interaktion mit dem zu evaluierenden System ihre Meinungen,
-Gedanken und Gefühle laut aussprechen.
-
-Dadurch wird es den Beobachter\*innen ermöglicht, zuvor unsichtbare,
-kognitive Prozesse der Proband\*innen zu beobachten sowie einen Einblick
-in typische Nutzungsweisen zu gewinnen. Durch die Verbalisierung und
-Beschreibung des Systems durch die Nutzenden lernt man zeitgleich die
-Nutzer\*innenterminologie für bestimmte Sachverhalte kennen, die teils
-erheblich von der Fachsprache abweichen wird. Die Ergebnisse der Methode
-können z. B. durch Notizen oder Audioaufnahmen festgehalten werden.
-
-##### Co-Discovery Learning
-
-Die Kernherausforderung bei der Erstellung von Think-Aloud-Protokollen
-ist es, die Proband\*innen kontinuierlich zu motivieren, selbst kleinste
-Gedanken zu verbalisieren. Beim Co-Discovery Learning arbeiten zwei
-Testpersonen gleichzeitig an einem System und helfen sich gegenseitig
-bei der Erfüllung der Aufgaben. Dadurch entstehen Gespräche und
-gewissermaßen automatisch ein Think-Aloud-Protokoll beider Personen.
-
-Die Methode bildet einerseits eine realistische Arbeitssituation des
-gegenseitigen Helfens ab und normalisiert andererseits das laute
-Aussprechen von Gedanken innerhalb einer Dialogsituation.
-
-##### Quantitative Methoden
-
-Beobachtungsmethoden generieren primär qualitative Daten, ebenso wie
-viele Inspektionsmethoden. Aus Managementsicht werden jedoch oft
-Entscheidungen auf Grundlage von quantitativen Daten bevorzugt, da diese
-häufiger als Fakten wahrgenommen werden.
-
-Einfache, relativ leicht zu erhebende quantitative Metriken im Rahmen
-von Usability-Tests sind z.B.:
-
--   Nutzungsfehler pro Zeiteinheit,
-
--   Anzahl nicht benötigter Befehle (Menus, Icons, Links)
-
--   Benötigte Zeit für den Abschluss einer Arbeitsaufgabe (insbesondere
-    im Vergleich mit einer vorherigen Iteration)
-
--   Benötigte Anzahl an Klicks/Links, um an ein bestimmtes Ziel zu
-    kommen.
-
-Der "Benutzungsfragebogen ISONORM 9241/10" bietet einen interessanten
-Kompromiss zwischen qualitativen und quantitativen Daten, da er
-qualitative Aussagen bezüglich der Usability eines Systems (z.B.
-Aufgabenangemessenheit und Selbstbeschreibungsfähigkeit) mithilfe einer
-siebenstufigen Likert-Skala abbildet. Der
-[Fragebogen](https://people.f3.htw-berlin.de/Professoren/Pruemper/instrumente.html)
-ist frei im Internet verfügbar. Beachtet werden muss, dass für
-belastbare quantitative Daten die Größe der Testgruppe deutlich steigen
-muss, um Verfälschungen durch Einzelpersonen zu vermeiden.
 
 [^1]: vgl. Gould, J. D.; Lewis, C. (1987): Gould, J. D.; Lewis, C.
     (1987): Designing for usability: Key principles and what designers
