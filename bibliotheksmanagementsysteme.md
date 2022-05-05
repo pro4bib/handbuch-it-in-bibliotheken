@@ -76,71 +76,73 @@ die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
 Regel eine große Anwender Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
-+-----------------------------------------------------------------------+
-| Evolution der Bibliotheksmanagementsysteme \[INFOBOX\]                |
-|                                                                       |
-| ![](media/evolution.png)                     |
-|                                         |
-| Quelle: Matthews & Block, 2020, S. 7 \[TODO: Ins Deutsche             |
-| adaptieren\]                                                          |
-|                                                                       |
-| Nach Matthews & Block lässt sich die Geschichte der BMS in sechs      |
-| überlappende Epochen einteilen[^4]:                                   |
-|                                                                       |
-| 1.  **System-Epoche**: Erste Schritte in den 1950er bis in die        |
-|     1970er-Jahre hin zur Entwicklung von Software, z. T sehr        |
-|     experimentell, die die klassischen Geschäftsgänge von           |
-|     Bibliotheken in einem digitalen System abbilden sollten -       |
-|     dadurch prägte sich der Begriff \"Bibliothekssystem\". Das      |
-|     Augenmerk bei der Entwicklung lag besonders auf Nachbildungen   |
-|     des Leihverkehrs unter besonderer Beachtung der Identifikation  |
-|     überfälliger Medien                                             |
-|                                                                       |
-| 2.  **Epoche der Funktionalität**: Kommerzielle                       |
-|     Bibliothekssoftware-Anbieter begannen sich zu formieren, die    |
-|     erstmals eine integrierte Lösung der verschiedenen              |
-|     Automationsbereiche (Erwerbung, Katalogisierung,                |
-|     Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anboten.  |
-|     Hierdurch entstand die Bezeichnung \"Integriertes               |
-|     Bibliothekssystem\" (IBS), der auf den aus dem                  |
-|     US-amerikanischen Raum übernommenen Begriff \"Integrated        |
-|     Library System\" (ILS) zurückgeht. In den 1980ern entstanden    |
-|     die ersten Online-Kataloge (OPAC), die die in Bibliotheken      |
-|     traditionellen Zettelkataloge nachbildeten.                     |
-|                                                                       |
-| 3.  **Nutzer\*innen-Fokus-Epoche**: Durch die Erkenntnis, dass sich   |
-|     die Gewohnheiten von Bibliotheks-Nutzer\*innen im Zugang zu und |
-|     Umgang mit Medien u.a. mit dem Aufkommen des WWW in ihrem       |
-|     Alltag zunehmend ändern (z.B. durch die Nutzung von             |
-|     Online-Shopping und Suchmaschinen), rückten die Bedürfnisse der |
-|     Nutzer\*innen immer mehr in den Fokus bei der Entwicklung von   |
-|     Bibliothekssystemen                                             |
-|                                                                       |
-| 4.  **Epoche der Verbreiterung der Informationsressourcen**: Der      |
-|     Übergang in eine Phase, bei der Medien nicht mehr erworben,     |
-|     sondern digital lizenziert werden. Entsprechend entwickelt sich |
-|     das Bedürfnis nach einem Electronic Resource Management (ERM)   |
-|     und neuartige BMS unterfüttern zum Ende der Epoche diesen       |
-|     Wandel mit einer von Medientypen unabhängigen                   |
-|     Ressourcenverwaltung.                                           |
-|                                                                       |
-| 5.  **Discovery-System-Epoche**: Systeme, die über den lokalen        |
-|     Medienbestand hinaus auch extern lizenzierte Inhalte über eine  |
-|     alleinige Suchplattform zugänglich machen, erfreuen sich        |
-|     zunehmender Beliebtheit bei den BMS-Betreiber\*innen. Sie       |
-|     sollen den Nutzer\*innen einen deutlichen Mehrwert bieten. Seit |
-|     den 2010er Jahren sind es überwiegend kommerzielle Verlage, die |
-|     umfangreiche e-Medien-Pakete oder Indizes von Volltext- und     |
-|     Bibliografie-Datenbank als lizenzierbare Resource Discovery     |
-|     Services anbieten.                                              |
-|                                                                       |
-| 6.  **Wissensinnovation**: Bibliotheken realisieren überwiegend, dass |
-|     Discovery-Systeme nicht ihre gewünschte Wirkung entfalten und   |
-|     sie sich deutlicher von Plattformen großer Tech-Unternehmen     |
-|     abgrenzen müssen. Wissen soll neu erschlossen werden mit        |
-|     innovativen Technologien wie 3D-Druck, Virtual Reality (VR),    |
-|     Open-Access-Repositorien etc.                                   |
-+-----------------------------------------------------------------------+
+::: {.callout-note}
+
+## Evolution der Bibliotheksmanagementsysteme
+
+![](media/evolution.png)
+
+Quelle: Matthews & Block, 2020, S. 7 \[TODO: Ins Deutsche
+adaptieren\]
+
+Nach Matthews & Block lässt sich die Geschichte der BMS in sechs
+überlappende Epochen einteilen[^4]:
+
+1.  **System-Epoche**: Erste Schritte in den 1950er bis in die
+    1970er-Jahre hin zur Entwicklung von Software, z. T sehr
+    experimentell, die die klassischen Geschäftsgänge von
+    Bibliotheken in einem digitalen System abbilden sollten -
+    dadurch prägte sich der Begriff \"Bibliothekssystem\". Das
+    Augenmerk bei der Entwicklung lag besonders auf Nachbildungen
+    des Leihverkehrs unter besonderer Beachtung der Identifikation
+    überfälliger Medien
+
+2.  **Epoche der Funktionalität**: Kommerzielle
+    Bibliothekssoftware-Anbieter begannen sich zu formieren, die
+    erstmals eine integrierte Lösung der verschiedenen
+    Automationsbereiche (Erwerbung, Katalogisierung,
+    Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anboten.
+    Hierdurch entstand die Bezeichnung \"Integriertes
+    Bibliothekssystem\" (IBS), der auf den aus dem
+    US-amerikanischen Raum übernommenen Begriff \"Integrated
+    Library System\" (ILS) zurückgeht. In den 1980ern entstanden
+    die ersten Online-Kataloge (OPAC), die die in Bibliotheken
+    traditionellen Zettelkataloge nachbildeten.
+
+3.  **Nutzer\*innen-Fokus-Epoche**: Durch die Erkenntnis, dass sich
+    die Gewohnheiten von Bibliotheks-Nutzer\*innen im Zugang zu und
+    Umgang mit Medien u.a. mit dem Aufkommen des WWW in ihrem
+    Alltag zunehmend ändern (z.B. durch die Nutzung von
+    Online-Shopping und Suchmaschinen), rückten die Bedürfnisse der
+    Nutzer\*innen immer mehr in den Fokus bei der Entwicklung von
+    Bibliothekssystemen
+
+4.  **Epoche der Verbreiterung der Informationsressourcen**: Der
+    Übergang in eine Phase, bei der Medien nicht mehr erworben,
+    sondern digital lizenziert werden. Entsprechend entwickelt sich
+    das Bedürfnis nach einem Electronic Resource Management (ERM)
+    und neuartige BMS unterfüttern zum Ende der Epoche diesen
+    Wandel mit einer von Medientypen unabhängigen
+    Ressourcenverwaltung.
+
+5.  **Discovery-System-Epoche**: Systeme, die über den lokalen
+    Medienbestand hinaus auch extern lizenzierte Inhalte über eine
+    alleinige Suchplattform zugänglich machen, erfreuen sich
+    zunehmender Beliebtheit bei den BMS-Betreiber\*innen. Sie
+    sollen den Nutzer\*innen einen deutlichen Mehrwert bieten. Seit
+    den 2010er Jahren sind es überwiegend kommerzielle Verlage, die
+    umfangreiche e-Medien-Pakete oder Indizes von Volltext- und
+    Bibliografie-Datenbank als lizenzierbare Resource Discovery
+    Services anbieten.
+
+6.  **Wissensinnovation**: Bibliotheken realisieren überwiegend, dass
+    Discovery-Systeme nicht ihre gewünschte Wirkung entfalten und
+    sie sich deutlicher von Plattformen großer Tech-Unternehmen
+    abgrenzen müssen. Wissen soll neu erschlossen werden mit
+    innovativen Technologien wie 3D-Druck, Virtual Reality (VR),
+    Open-Access-Repositorien etc.
+
+:::
 
 ### Komponenten
 
@@ -814,7 +816,7 @@ Matrix geschehen, in der die Funktionalitäten nach ihrer
 Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
-![](media/image3.png) Beispiel für eine Matrix zur Einordnung von Funktionalitäten
+![](media/missing.svg) Beispiel für eine Matrix zur Einordnung von Funktionalitäten
 
 Zur Evaluierung der BMS können bestehende Anforderungskataloge für die
 Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam
@@ -953,8 +955,7 @@ nötig sein -- die modellierten Prozesse automatisiert werden können. Im
 Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt
 wird.
 
-![](media/image2.png)
-Quelle: <https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation#/media/Datei:BPMN-1.svg>
+[![Beispiel einer BPMN-Prozessabbildung](https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg "Quelle: Stkl (CC-BY-SA 3.0)")](https://commons.wikimedia.org/wiki/File:BPMN-1.svg)
 
 Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung
 außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik

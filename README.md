@@ -14,7 +14,7 @@ Der aktuelle Workflow zur Erstellung des Handbuchs beinhaltet folgende Schritte:
 
 * **Freies Schreiben** in Google Docs oder einem anderen Werkzeug. 
 
-* **Fertige Kapitel** werden [in einem Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) als docx-Dateien abgelegt.
+* **Fertige Kapitel** werden [in einem Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) als docx-Dateien abgelegt. Die Links zum Kommentieren stehen in der Datei [`_grive/chapters.csv`](_gdrive/chapters.csv).
 
 * **Download und Konvertierung nach Markdown** erfordert händische Anpassungen
 

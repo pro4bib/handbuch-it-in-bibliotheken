@@ -135,7 +135,7 @@ einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
 digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
-![](media/image4.png)
+![](media/missing.svg)
 
 Ersatz von Luis zu <https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
 
@@ -198,7 +198,7 @@ Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische
 Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas
 insgesamt.
 
-![](media/image2.png)
+![](media/missing.svg)
 
 Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!
 
@@ -208,7 +208,7 @@ beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![](media/image3.png)
+![](media/missing.svg)
 
 Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
 
@@ -258,7 +258,7 @@ Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
 visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases
 bestimmte Aktionen zu illustrieren.
 
-![](media/image6.png)
+![](media/missing.svg)
 
 Rinzler, J.W.: Star Wars Storyboards: The Original Trilogy; Abrams &
 Chronicle Books
@@ -309,7 +309,7 @@ Struktur, Layout und Funktionalitäten eines Interface vorzustellen.
 Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von
 einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
-![](media/image5.png)
+![](media/missing.svg)
 
 <https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
 (Platzhalter, David könnte was per OmniGraffle bauen)
@@ -369,7 +369,7 @@ Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
 
-![](media/image1.png) Bildquelle: David, um 90° drehen
+![](media/missing.svg) Bildquelle: David, um 90° drehen
 
 Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass
 diese auch ohne eine formale Usability-Ausbildung durch engagierte

@@ -56,6 +56,7 @@ ul.task-list{list-style: none;}
 }</script>
 
 
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -232,13 +233,16 @@ ul.task-list{list-style: none;}
 <p>Die Entstehung des World Wide Web in den 1990er Jahren hatte zunächst vor allem Einfluss auf die Benutzbarkeit der Kataloge, die Web-Oberflächen erhielten. Aber auch die anderen Komponenten der BMS wurden überarbeitet, und zwar zunehmend auch von kommerziellen Anbietern, während die ersten Systeme als Eigenentwicklungen von Bibliotheken entstanden. Die Landschaft an <strong>Systemen der 2. Generation</strong> war von den späten 1990er bis in die Nullerjahre sehr divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass man von einem konsolidierten Markt sprechen kann.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
 <p>Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS, die <strong>Next-Generation Library Management Systems</strong>, die auch <strong>Library Services Platforms</strong> genannt werden. Diese zeichnen sich durch verschiedene technische und funktionale Neuerungen aus. Die Datenhaltung erfolgt in der Regel cloudbasiert (auch wenn dies bei bei älteren Systemen im Grunde auch schon der Fall war), außerdem werden in der Regel mehr Schnittstellen zur Integration des Systems mit anderen Lösungen angeboten. Funktional wurden die Systeme vor allem um die Möglichkeit der Verwaltung von elektronischen Ressourcen erweitert sowie Statistik- und Reporting-Funktionalitäten verbessert.</p>
 <p>Seit dem Ende der 1990er Jahre spielen auch wieder Lösungen eine Rolle, die nicht kommerziell sind. Diese Open Source-Lösungen haben in der Regel eine große Anwender Community und lassen einen vielfältigen Markt für Support- und Wartungsdienstleistungen zu.</p>
-<table class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p>Evolution der Bibliotheksmanagementsysteme [INFOBOX]</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Evolution der Bibliotheksmanagementsysteme
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><img src="media/evolution.png" class="img-fluid"></p>
 <p>Quelle: Matthews &amp; Block, 2020, S. 7 [TODO: Ins Deutsche adaptieren]</p>
 <p>Nach Matthews &amp; Block lässt sich die Geschichte der BMS in sechs überlappende Epochen einteilen<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>:</p>
@@ -249,10 +253,9 @@ ul.task-list{list-style: none;}
 <li><p><strong>Epoche der Verbreiterung der Informationsressourcen</strong>: Der Übergang in eine Phase, bei der Medien nicht mehr erworben, sondern digital lizenziert werden. Entsprechend entwickelt sich das Bedürfnis nach einem Electronic Resource Management (ERM) und neuartige BMS unterfüttern zum Ende der Epoche diesen Wandel mit einer von Medientypen unabhängigen Ressourcenverwaltung.</p></li>
 <li><p><strong>Discovery-System-Epoche</strong>: Systeme, die über den lokalen Medienbestand hinaus auch extern lizenzierte Inhalte über eine alleinige Suchplattform zugänglich machen, erfreuen sich zunehmender Beliebtheit bei den BMS-Betreiber*innen. Sie sollen den Nutzer*innen einen deutlichen Mehrwert bieten. Seit den 2010er Jahren sind es überwiegend kommerzielle Verlage, die umfangreiche e-Medien-Pakete oder Indizes von Volltext- und Bibliografie-Datenbank als lizenzierbare Resource Discovery Services anbieten.</p></li>
 <li><p><strong>Wissensinnovation</strong>: Bibliotheken realisieren überwiegend, dass Discovery-Systeme nicht ihre gewünschte Wirkung entfalten und sie sich deutlicher von Plattformen großer Tech-Unternehmen abgrenzen müssen. Wissen soll neu erschlossen werden mit innovativen Technologien wie 3D-Druck, Virtual Reality (VR), Open-Access-Repositorien etc.</p></li>
-</ol></td>
-</tr>
-</tbody>
-</table>
+</ol>
+</div>
+</div>
 <section id="komponenten" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="komponenten"><span class="header-section-number">3.1.1</span> Komponenten</h3>
 <p>BMS sind in der Regel modular aufgebaut und verfügen mindestens über Module für folgende Funktionen:</p>
@@ -638,7 +641,7 @@ ul.task-list{list-style: none;}
 <h3 data-number="3.4.2" class="anchored" data-anchor-id="auswahlkriterien-eines-bms"><span class="header-section-number">3.4.2</span> Auswahlkriterien eines BMS</h3>
 <p>Es kann davon ausgegangen werden, dass die aktuell am Markt verfügbaren Systeme die klassischen Geschäftsgänge (siehe Kapitel <a href="#prozessabbildung">Prozessabbildung</a>) einer Bibliothek gut abbilden können. Die Anforderungen aus dem Kapitel Nutzer*innenzentrierte Gestaltung gelten grundsätzlich natürlich auch hier.</p>
 <p>Die Betrachtung einzelner Systeme einschließlich der Nutzungsszenarien und Use Cases kann sehr aufwändig werden. Daher empfiehlt es sich, die gewünschten Funktionalitäten zu bestimmen und durch die Stakeholder bewerten zu lassen. Die Bewertung kann beispielsweise in Form einer Matrix geschehen, in der die Funktionalitäten nach ihrer Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden andererseits eingeordnet werden.</p>
-<p><img src="media/image3.png" class="img-fluid"> Beispiel für eine Matrix zur Einordnung von Funktionalitäten</p>
+<p><img src="media/missing.svg" class="img-fluid"> Beispiel für eine Matrix zur Einordnung von Funktionalitäten</p>
 <p>Zur Evaluierung der BMS können bestehende Anforderungskataloge für die Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam <a href="https://www.folio-bib.org/?page_id=247">von HBZ und VZG entwickelte Kriterienkatalog</a>. Dieses umfangreiche Dokument zeigt die Anforderungen an alle Komponenten auf Grundlage der Analyse von sehr ausgereiften Prozessen in Altsystemen auf. Es empfiehlt sich, insbesondere diejenigen Funktionalitäten genau zu überprüfen, die strategisch von besonderer Bedeutung sind.</p>
 </section>
 <section id="marktanalyse" class="level3" data-number="3.4.3">
@@ -709,7 +712,12 @@ klare V erantwortlichkeiten</p></td>
 <h2 data-number="3.5" class="anchored" data-anchor-id="prozessabbildung"><span class="header-section-number">3.5</span> Prozessabbildung</h2>
 <p>Für den Einsatz eines BMS bilden Prozessbeschreibungen bzw. Workflows eine wesentliche Grundlage. Auf der Basis der Abbildung der Kernprozesse wie Erwerbung, Katalogisierung, Ausleihe sowie der Rolle des Systems und anderer Akteure können Anpassungen (leichter) vorgenommen werden.</p>
 <p>Zur Modellierung, Dokumentation und Visualisierung von Workflows bietet sich klassischerweise eine Modellierungssprache wie BPMN (Business Process Model and Notation) an. Für diese und verwandte Sprachen existieren umfangreiche Werkzeuge und Toolchains, mit denen einerseits Prozesse erstellt werden können, gleichzeitig aber auch – sollte das nötig sein – die modellierten Prozesse automatisiert werden können. Im Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt wird.</p>
-<p><img src="media/image2.png" class="img-fluid"> Quelle: <a href="https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation#/media/Datei:BPMN-1.svg" class="uri">https://de.wikipedia.org/wiki/Business_Process_Model_and_Notation#/media/Datei:BPMN-1.svg</a></p>
+<div id="fig-anonymous-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><a href="https://commons.wikimedia.org/wiki/File:BPMN-1.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg" title="Quelle: Stkl (CC-BY-SA 3.0)" class="img-fluid figure-img"></a></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Beispiel einer BPMN-Prozessabbildung</figcaption><p></p>
+</figure>
+</div>
 <p>Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik nutzen, um Prozesse zu dokumentieren und zu visualisieren. Andere Alternativen zur Modellierung finden sich in den verschiedenen Diagrammformen der UML (Unified Modelling Language).</p>
 <p>Aus heutiger Sicht sollten für die im Folgenden genannten Bereich Prozessbeschreibungen erstellt werden, damit potentielle BMS an Hand dieser geprüft werden können. Hierbei könnten sich Notwendigkeiten für Änderungen in den Prozessabläufen der Bibliothek ergeben, die auf Basis der Beschreibungen genauer adressiert werden können.</p>
 <section id="nutzende" class="level3" data-number="3.5.1">
@@ -924,7 +932,7 @@ klare V erantwortlichkeiten</p></td>
 <h2 data-number="3.6" class="anchored" data-anchor-id="technischer-betrieb"><span class="header-section-number">3.6</span> Technischer Betrieb</h2>
 <section id="betriebsmodelle-für-serverbasierte-software" class="level3" data-number="3.6.1">
 <h3 data-number="3.6.1" class="anchored" data-anchor-id="betriebsmodelle-für-serverbasierte-software"><span class="header-section-number">3.6.1</span> Betriebsmodelle für serverbasierte Software</h3>
-<p>Die Nutzung eines BMS ist auf verschiedenen Wegen möglich. Sie unterscheiden sich in den Punkten Installation, Kosten, Pflege und Wartung, sowie Backup und Support.</p>
+<p>Die Nutzung eines BMS ist auf verschiedenen Wegen möglich. Sie unterscheiden sich in den Punkten Installation, Kosten, Pflege &amp; Wartung, sowie Backup &amp; Support.</p>
 <section id="lokale-installation" class="level4" data-number="3.6.1.1">
 <h4 data-number="3.6.1.1" class="anchored" data-anchor-id="lokale-installation"><span class="header-section-number">3.6.1.1</span> Lokale Installation</h4>
 <p>Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf oder im Abo, und installierte diese auf eigenen Servern, z.B. im Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer “on-premise” Installation.</p>
@@ -933,7 +941,7 @@ klare V erantwortlichkeiten</p></td>
 </section>
 <section id="hosting" class="level4" data-number="3.6.1.2">
 <h4 data-number="3.6.1.2" class="anchored" data-anchor-id="hosting"><span class="header-section-number">3.6.1.2</span> Hosting</h4>
-<p>In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw. Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister kann hierbei etwa das Rechenzentrum einer Universität oder des angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder Betreiber eines Rechenzentrums, bei dem Kapazitäten erworben werden.</p>
+<p>In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw. Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister kann hierbei etwa das Rechenzentrum einer Universität oder des angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten erworben werden.</p>
 <p>Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der eingesetzten Hardware können an diesen Anbieter delegiert werden. Im Falle des Hostings durch einen Bibliotheksverbund entfallen möglicherweise auch Einrichtung, Installation und Upgrades des BMS. Die Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch das Hosting für mehrere Einrichtung besser skaliert.</p>
 </section>
 <section id="cloud" class="level4" data-number="3.6.1.3">
