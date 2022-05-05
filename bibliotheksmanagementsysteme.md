@@ -80,7 +80,7 @@ für Support- und Wartungsdienstleistungen zu.
 
 ## Evolution der Bibliotheksmanagementsysteme
 
-![](media/evolution.png)
+![](media/bms-timeline.png)
 
 Quelle: Matthews & Block, 2020, S. 7 \[TODO: Ins Deutsche
 adaptieren\]
@@ -816,7 +816,7 @@ Matrix geschehen, in der die Funktionalitäten nach ihrer
 Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
-![](media/missing.svg) Beispiel für eine Matrix zur Einordnung von Funktionalitäten
+![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix.png)
 
 Zur Evaluierung der BMS können bestehende Anforderungskataloge für die
 Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam
