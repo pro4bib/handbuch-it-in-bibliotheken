@@ -48,7 +48,7 @@ einem Ort gehalten und bearbeitet wurden, versprach man sich eine
 größere Effizienz der Arbeitsprozesse. Diese **erste Generation** von
 BMS beinhaltete teilweise auch schon digitale Funktionen für
 Bibliotheksnutzer\*innen wie über Telnet erreichbare Kataloge, die von
-Anfang an als integraler Bestandteil der BMS gesehen wurden.[^2]
+Anfang an als integraler Bestandteil der BMS gesehen wurden [@borgman_acting_1997].
 
 Die Entstehung des World Wide Web in den 1990er Jahren hatte zunächst
 vor allem Einfluss auf die Benutzbarkeit der Kataloge, die
@@ -82,11 +82,10 @@ für Support- und Wartungsdienstleistungen zu.
 
 ![](media/bms-timeline.png)
 
-Quelle: Matthews & Block, 2020, S. 7 \[TODO: Ins Deutsche
-adaptieren\]
+Quelle: @matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
 
-Nach Matthews & Block lässt sich die Geschichte der BMS in sechs
-überlappende Epochen einteilen[^4]:
+Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
+überlappende Epochen einteilen:
 
 1.  **System-Epoche**: Erste Schritte in den 1950er bis in die
     1970er-Jahre hin zur Entwicklung von Software, z. T sehr
@@ -1736,7 +1735,7 @@ voraussichtlich wieder zur Verfügung steht.
 
 Um ein BMS vor den zunehmenden Angriffen durch böswillige Akteure
 (Hacking, Malware, Ransomware) abzusichern, können die folgenden
-Empfehlungen als Grundlage dienen[^8]:
+Empfehlungen als Grundlage dienen [@marshall_breeding_how_2022]:
 
 -   Die Infrastruktur um das BMS herum sollte durch starke
     Sicherheitsvorkehrungen getragen werden.
@@ -1909,8 +1908,8 @@ Verhaltensprofile über die Nutzenden erstellen. Durch die ebenfalls
 seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird
 versucht, zusätzlich eine möglichst hohe Personalisierung bei der
 Erstellung einzelner Profile zu erreichen. Die dabei entstehenden
-Datenflüsse werden für gewöhnlich nicht transparent gemacht.[^9] Der
-Einsatz solcher Analytics-Technologien unterminiert die Integrität
+Datenflüsse werden für gewöhnlich nicht transparent gemacht [@siems_lesen_2022].
+Der Einsatz solcher Analytics-Technologien unterminiert die Integrität
 konventioneller IDM-Systeme und tangiert somit nicht nur
 datenschutzrechtliche Belange, sondern auch die IT-Sicherheit.
 Idealerweise sollte bereits vor der Anschaffung einer BMS-Lösung
@@ -1935,29 +1934,12 @@ folgende Aspekte hervorgehoben und erläutert werden:
 
 [^1]: [https://de.wikipedia.org/wiki/Machine-Readable_Cataloging](https://de.wikipedia.org/wiki/Machine-Readable_Cataloging)
 
-[^2]: Borgman, Christine, History of Library Automation 1997
-
 [^3]: [https://librarytechnology.org/mergers/automationhistory.pl](https://librarytechnology.org/mergers/automationhistory.pl)
-
-[^4]: Matthews, J. R. & Block, C. (2020). *Library Information Systems*
-    (Library and Information Science Text Series) (Second Edition.).
-    Santa Barbara, California: Libraries Unlimited, S. 6-8
 
 [^5]: [https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html](https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html)
 
-[^6]: Das sogen. Harvesting dient dazu, Metadaten verschiedener Herkunft
+[^6]: Das Harvesting dient dazu, Metadaten verschiedener Herkunft
     und Form in ein einheitliches Metadaten-Format zu übertragen und so
     über eine gemeinsame Datenquelle anbieten zu können.
 
 [^7]: https://en.wikipedia.org/wiki/Identity_provider
-
-[^8]: Breeding, Marshall . \"[How to Secure Library Systems From
-    Malware, Ransomware, and Other
-    Cyberthreats](https://librarytechnology.org/document/27138).\"
-    Information Today . *Computers in Libraries.* Volume 42 No. 01.
-    (January / Febuary 2022) S. 9-11
-
-[^9]: Siems, R. (2022). Das Lesen der Anderen: Die Auswirkungen von User
-    Tracking auf Bibliotheken. *O-Bib. Das Offene Bibliotheksjournal /
-    Herausgeber VDB*, *9*(1), 1--25.
-    [https://doi.org/10.5282/o-bib/5797](https://doi.org/10.5282/o-bib/5797), S. 9-11

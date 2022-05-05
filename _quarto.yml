@@ -25,7 +25,7 @@ book:
   # abstract: TODO
   # description: Description metadata for HTML version of book
 
-#bibliography: references.bib/yaml 
+bibliography: references.bib 
 
 lang: de
 number-sections: false
