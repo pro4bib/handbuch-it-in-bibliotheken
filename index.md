@@ -41,7 +41,7 @@ verfassen. Weitere Autor\*innen wurden im Laufe der Veranstaltung
 eingebunden.
 
 Zur Klärung der Zielgruppe wurden einige sogenannte Personas definiert
-(siehe [Anhang]).
+(siehe [Anhang](#zielgruppe)).
 Eine Brainstorming-Session ergab zunächst relevante Themen für den
 Teilbereich BMS und eine grobe Gliederung in Unterkapitel. Diese wurden
 anschließend in mehreren Iterationen gemeinsam ausformuliert. Das
@@ -58,10 +58,12 @@ sind bisher nicht oder nur fragmentarisch behandelt. Um diese Kapitel zu
 vervollständigen und weitere Kapitel anzulegen sollen weitere Book Sprints
 veranstaltet werden.
 
-Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und
-aktualisiert werden kann. Die vorläufige Form ist ein Google Docs
-Dokument; eine dauerhafte Infrastruktur zur Bearbeitung und Publikation
-wird noch zur Verfügung gestellt.
+Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
+werden kann. Die vorläufige Form basiert auf Dokumenten in Google Docs
+Dokument, die nach Markdown übertragen [in einem
+git-Repository](https://github.com/pro4bib/handbuch-it-in-bibliotheken/)
+verwaltet und von dort mittels [quarto](https://quarto.org) in HTML und andere
+Publikationsformate konvertiert.
 
 Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 
@@ -74,6 +76,9 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 
 -   Zur Gewährleistung einer einheitlichen Form gibt es einen Styleguide
     (siehe [Anhang]).
+
+Weitere Hinweise zur Mitarbeit finden sich im git-repository in der Datei
+[CONTRIBUTING.md](https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/CONTRIBUTING.md).
 
 Kontaktinformationen und Neuigkeiten zum Projekt zur Erstellung des
 Handbuchs finden sich auf der Seite

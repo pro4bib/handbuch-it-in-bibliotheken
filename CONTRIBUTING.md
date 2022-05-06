@@ -34,9 +34,7 @@ Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit 
 
 ## Literaturverzeichnis
 
-Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird unter `references.bib` gespeichert. Diese Datei sollte nicht direkt bearbeitet werden!
-
-Eine automatische Integration der Zotero-Gruppe und die thematische Gliederung im Literatuverzeichnis ist geplant (siehe <https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/3>).
+Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird mit Aufruf von `make refss` von dort heruntergeladen und unter `references.bib` gespeichert. Diese Datei sollte also nicht direkt bearbeitet werden!
 
 ## Autor*innen-Verzeichnis
 

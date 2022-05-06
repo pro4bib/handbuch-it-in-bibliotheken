@@ -8,6 +8,7 @@ html:
 	quarto render --to html
 
 # TODO: multiple requests with start=N when more than 100 references
+refs: references.bib
 references.bib:
 	curl 'https://api.zotero.org/groups/4673379/items?format=biblatex&limit=100' > $@
 
