@@ -50,5 +50,7 @@ Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) m
 
 * `make preview` konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
 
+* `make html` konvertiert das Handbuch nach HTML und legt das Ergebnis im Verzeichnis `_book` ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.
+
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero. 
 

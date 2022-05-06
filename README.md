@@ -22,15 +22,23 @@ Der aktuelle Workflow zur Erstellung des Handbuchs beinhaltet folgende Schritte:
 
 * **Publikation**
 
-  Die Ergebnisdateien werden im Verzeichnis `docs` erstellt. Die offizielle URL der Publikation steht noch nicht fest. Temporär ist das zwischenergebnis is HTML unter <https://pro4bib.github.io/handbuch-it-in-bibliotheken/> verfügbar.
+  Die Ergebnisdateien werden automatisch bei GitHub pages aktualisiert. Die offizielle URL der Publikation steht noch nicht fest. Temporär ist das zwischenergebnis is HTML unter <https://pro4bib.github.io/handbuch-it-in-bibliotheken/> verfügbar.
 
-Korrekturen und Kommentare können vorgenommen werden
+Korrekturen und Kommentare können vorgenommen werden:
 
 * Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfliessen
   
   Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
 
-* In den fertigen Kapiteln, möglichst als Kommentare -- erfordert händische Anpassung durch Redaktion
+* In den fertigen Kapiteln, möglichst als Kommentare -- erfordert händische Anpassung durch Redaktion. Die vorhandenen Kapitel in Google Drive sind:
 
+  * Hauptkapitel:
+  * [einleitung](https://docs.google.com/document/d/1UVQ31DIL_if5dU5PHUCLDJ4EeltrbZMe/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
+  * [management](https://docs.google.com/document/d/1u-2li4kiMG13cYwiXgJ8ZCfA7JZu3gQB/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
+  * [anforderungen](https://docs.google.com/document/d/1-ulLfARosY4Vk2ZVMuTv6F1Ru5ne76om/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
+  * [bibliotheksmanagementsysteme](https://docs.google.com/document/d/1hi3Zf7rmLrYSXB2XdEv_PCl4HrySdQqn/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
+  * Anhänge:
+  * [zielgruppe](https://docs.google.com/document/d/1JZoGbcDJE5nSrX6Z6_8v3FjToRwEoTkA/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
+  * [styleguide](https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
 
 [quarto]: https://quarto.org/
