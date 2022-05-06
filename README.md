@@ -1,5 +1,7 @@
 # Handbuch IT in Bibliotheken
 
+[![Render and deploy Book](https://github.com/pro4bib/handbuch-it-in-bibliotheken/actions/workflows/quarto-book-gh-pages.yaml/badge.svg)](https://github.com/pro4bib/handbuch-it-in-bibliotheken/actions/workflows/quarto-book-gh-pages.yaml)
+
 Dieses git-Repository enthält den Quelltext des *Handbuch IT in Bibliotheken*. Die Publikation in Form von HTML, PDF... wird mit Hilfe von [quarto] daraus erzeugt.
 
 Weiter Informationen zum Handbuch gibt es auf der Seite <https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/ueber-die-bibliothek/projekte/book-sprint/>
