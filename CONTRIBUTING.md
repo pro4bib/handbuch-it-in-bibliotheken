@@ -4,15 +4,15 @@
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
-* `_quarto.yml` zentrale Konfigurationsdatei
+* [`_quarto.yml`](_quarto.yml) zentrale Konfigurationsdatei zur Anpassung der [Konvertierung mit Quarto](#konvertierung-mit-quarto)
 
-* `contributors.csv` [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
+* [`contributors.csv`](contributors.csv) [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
 
 * `references.bib` [Literaturverzeichnis](#literaturverzeichnis) (bitte nicht direkt bearbeiten!)
 
 Weitere Unterverzeichnisse:
 
-* `media/` [Bilder und andere Medien](#bilder-und-andere-medien)
+* [`media/`](media) [Bilder und andere Medien](#bilder-und-andere-medien)
 
 Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
@@ -43,3 +43,12 @@ Wenn Du etwas beigetragen hast und möchtest, dass du im Verzeichnis der Autor*i
 ## Lizenz
 
 Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung 3.0 Deutschland* ([CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden.
+
+## Konvertierung mit Quarto
+
+Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) muss das Repository lokale geklont und Quarto installiert werden. Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
+
+* `make preview` konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
+
+* `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero. 
+
