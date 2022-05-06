@@ -35,7 +35,7 @@ Ausleihe von Medien. Ihren Ursprung haben Bibliotheksmanagementsystem in
 den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten
 untereinander auszutauschen und auf diese Weise Prozesse zu optimieren.
 In dieser Zeit entwickelten sich auch die heute noch gebräuchlichen
-Austauschformate für Katalogdaten, z.B. MARC-21[^1].
+Austauschformate für Katalogdaten, z.B. *MARC*.
 
 In den 1970er Jahren erlaubte die fortschreitende technische
 Entwicklung, die Automatisierung weiterer Prozesse über den
@@ -58,7 +58,7 @@ Anbietern, während die ersten Systeme als Eigenentwicklungen von
 Bibliotheken entstanden. Die Landschaft an **Systemen der 2.
 Generation** war von den späten 1990er bis in die Nullerjahre sehr
 divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass
-man von einem konsolidierten Markt sprechen kann.[^3]
+man von einem konsolidierten Markt sprechen kann.[^1]
 
 Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS,
 die **Next-Generation Library Management Systems**, die auch **Library
@@ -233,7 +233,7 @@ aus. Das heißt, sie verfügen über aktuellere technische
 Einzelkomponenten und Schnittstellen, auf deren Grundlage auch
 zahlreiche zusätzliche Funktionalitäten angeboten werden können. Im
 Einzelnen gibt es folgende Merkmale, die ein **Next Generation-System**
-kennzeichnen[^5]:
+kennzeichnen[^2]:
 
 -   Angebot als Software as a Service ([SaaS](#cloud))
 
@@ -426,7 +426,7 @@ alle Bibliotheken relevant.
 Im Zusammenhang mit dem Aufbau der Fachinformationsdienste für die
 spezialisierte Informationsversorgung in Deutschland werden in
 zunehmendem Maße Fachportale entwickelt. Relevante Katalog-Informationen
-werden aus möglichst vielen Bibliotheken regelmäßig abgerufen[^6] und in
+werden aus möglichst vielen Bibliotheken regelmäßig abgerufen[^3] und in
 spezialisierten Discovery-Systemen gesammelt. Dort können sie für eine
 übergreifende Recherche genutzt werden. Die BMS müssen entsprechend über
 [Standardschnittstellen](#datenformate-und-schnittstellen)
@@ -1421,7 +1421,7 @@ nutzen.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /
 SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
-[OpenID](https://de.wikipedia.org/wiki/OpenID) [^7]
+[OpenID](https://de.wikipedia.org/wiki/OpenID) [^4]
 
 Softwareprodukte für IDM sind: SAP (mit Plugins), Microsoft Active
 Directory, uvm
@@ -1932,14 +1932,12 @@ folgende Aspekte hervorgehoben und erläutert werden:
 
 -   Open Data, öffentliche Datennutzung und Transparenz
 
-[^1]: [https://de.wikipedia.org/wiki/Machine-Readable_Cataloging](https://de.wikipedia.org/wiki/Machine-Readable_Cataloging)
+[^1]: [https://librarytechnology.org/mergers/automationhistory.pl](https://librarytechnology.org/mergers/automationhistory.pl)
 
-[^3]: [https://librarytechnology.org/mergers/automationhistory.pl](https://librarytechnology.org/mergers/automationhistory.pl)
+[^2]: [https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html](https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html)
 
-[^5]: [https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html](https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html)
-
-[^6]: Das Harvesting dient dazu, Metadaten verschiedener Herkunft
+[^3]: Das Harvesting dient dazu, Metadaten verschiedener Herkunft
     und Form in ein einheitliches Metadaten-Format zu übertragen und so
     über eine gemeinsame Datenquelle anbieten zu können.
 
-[^7]: <https://en.wikipedia.org/wiki/Identity_provider>
+[^4]: <https://en.wikipedia.org/wiki/Identity_provider>

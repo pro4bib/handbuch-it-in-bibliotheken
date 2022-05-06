@@ -28,6 +28,10 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
 * Bitte nutzt sprechende Dateinamen!
 
+## Glossar
+
+Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Um im Text die Begriffe hervorzuheben, werden sie *kursiv* gesetzt. Bei der Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip geändert (*ist geplant, siehe <https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7>*)
+
 ## Literaturverzeichnis
 
 Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird unter `references.bib` gespeichert. Diese Datei sollte nicht direkt bearbeitet werden!

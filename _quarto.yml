@@ -18,6 +18,7 @@ book:
     - bibliotheksmanagementsysteme.md
     - literatur.md
   appendices:
+    - glossar.md
     - zielgruppe.md
     - styleguide.md
   sidebar:
