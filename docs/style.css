@@ -1,0 +1,8 @@
+.sidebar-tools-main a.external:after,
+figure a.external:after {
+  display: none;
+}
+figure > figcaption {
+  text-align: center;
+  margin: 0;
+}
