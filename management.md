@@ -58,7 +58,7 @@ zunächst in ein Testsystem und in der Folge in das produktive System
 
 In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit den
 gewünschten Features, während nutzer\*innenorientierte Vorgehensmodelle (siehe
-Kapitel [Anforderungen an Bibliotheks-IT](#anforderungen)) hier auf einen
+Kapitel [Anforderungen](#anforderungen)) hier auf einen
 iterativen Prozess setzen, welcher Produktiterationen häufiger bereitstellt und
 evaluiert.
 
