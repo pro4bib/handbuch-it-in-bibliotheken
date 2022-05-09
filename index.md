@@ -74,8 +74,7 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
     Überblick geben. Für Details kann auf weiterführende Quellen
     verwiesen werden.
 
--   Zur Gewährleistung einer einheitlichen Form gibt es einen [Styleguide](#styleguide)
-    im Anhang.
+-   Zur Gewährleistung einer einheitlichen Form gibt es im Anhang einen [Styleguide](#styleguide).
 
 Weitere Hinweise zur Mitarbeit finden sich im git-repository in der Datei
 [CONTRIBUTING.md](https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/CONTRIBUTING.md).
