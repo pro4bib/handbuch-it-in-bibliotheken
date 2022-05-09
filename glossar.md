@@ -54,5 +54,8 @@ FID
 [VR](https://de.wikipedia.org/wiki/Virtuelle_Realität)
   : Virtual Reality, (computer-generierte) virtuelle Umgebung
 
+[WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
+  : Web Content Accessibilty Guidelines
+
 Z39.50
   : Protokoll zur Abfrage von bibliografischen Daten 
