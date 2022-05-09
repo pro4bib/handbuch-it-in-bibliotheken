@@ -68,9 +68,9 @@ Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests
 und die Integration des entwickelten bzw. erworbenen Systems in die
 Zielumgebung durchgeführt. Im Falle der Inanspruchnahme eines
 Dienstleisters wird hier auch dessen Leistung final abgenommen, wenn das
-System erfolgreich produktiv gesetzt werden kann.
+System erfolgreich produktiv in Betrieb genommen werden kann.
 
-Während der Tests wird die Korrektheit des Systems sowie die Umsetzung
+Während der Tests wird korrekte Umsetzen der Anforderungen sowie die Umsetzung
 der Anforderungen geprüft.
 
 #### Wartung
@@ -120,8 +120,8 @@ Beispiel:
     proprietärer Software) oder
 
 -   die De-Facto-Unwartbarkeit durch den Wegfall geeigneten Personals
-    mit Spezialkenntnissen (z.B. veralteter Programmiersprachen, siehe
-    dazu auch Abschnitt [Ressourcenplanung](#ressourcenplanung)
+    mit Spezialkenntnissen (z.B. veralteter Programmiersprachen), siehe
+    dazu auch den Abschnitt [Ressourcenplanung](#ressourcenplanung)
 
 Letztlich führen all diese Punkte zur Abschaltung eines IT-Systems
 aufgrund von IT-Sicherheitsproblemen, da diese Einbrüche in die Systeme
@@ -166,7 +166,7 @@ zu beheben und dafür auch proprietäre Software zu dekompilieren.
 
 In der Praxis sollte dieses Notfallszenario aber nicht in die Planung
 einbezogen werden, da die Fehlerbehebung innerhalb fremder Software
-unter dem Rückgriff auf Dekompilierung grundlegende Kenntnisse seitens
+unter dem Rückgriff auf Dekompilierung besondere Kenntnisse seitens
 des zuständigen IT-Personals voraussetzt.
 
 #### Software-Abhängigkeiten
@@ -415,7 +415,7 @@ Historisch gibt es keine formalisierte Ausbildung für die erwähnten
 Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
 klassischerweise im Rahmen von "Training on the Job" erworben.
 
-Aktuell gibt es jedoch mehrere akademische Ausbildungsangebote für die
+Aktuell (Stand 2022) gibt es jedoch mehrere akademische Ausbildungsangebote für die
 Arbeit in der Bibliotheks-IT:
 
 -   berufsbegleitende Master-Studiengänge: TH Wildau (Bibliotheksinformatik), HWTK Leipzig, HdM Stuttgart (Data Science)
@@ -445,7 +445,9 @@ Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier
 
 -   Bibliothekstage und -konferenzen
 
--   Tagung der European Library Automation Group
+-   Tagung der European Library Automation Group (ELAG)
+
+-   Code4Lib-Konferenzen in den USA
 
 -   Access Conference in Kanada
 
@@ -459,7 +461,7 @@ Weiterbildungsformen sind
 
 -   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, Kitodo, OPUS, ...
 
--   Library Carpentries: Neues Format..
+-   Library Carpentries
 
 -   Mailinglisten, Foren und andere Kommunikationskanäle
 
