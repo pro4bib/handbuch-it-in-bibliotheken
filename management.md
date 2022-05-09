@@ -1,4 +1,4 @@
-# Management {#management}
+# Management von IT-Systemen {#management}
 
 Zur Einführung in die Thematik werden im folgenden Abschnitt
 verschiedene Aspekte des Managements von IT-Systemen in Bibliotheken
