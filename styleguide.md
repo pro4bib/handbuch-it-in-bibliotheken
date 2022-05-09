@@ -46,6 +46,8 @@
     werden, wenn in der jeweiligen Textpassage auch wirklich
     paraphrasiert oder wörtlich zitiert wird.
 
+-   Links, die auf später entstehende Kapitel verweisen, werden durch eckige Klammern kenntlich gemacht.
+
 -   Externe Links, die nur auf Anbieter oder andere Websites verweisen,
     werden inline verlinkt, also ein Link auf das Wort gesetzt statt
     einer Fußnote.
