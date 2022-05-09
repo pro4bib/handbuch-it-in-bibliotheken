@@ -22,7 +22,7 @@ ihrem Aufbau und Betrieb. Während sich einige Teile der IT in
 Bibliotheken nicht wesentlich von IT in anderen Bereichen unterscheiden,
 gibt es doch zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht
 speziell genug an anderer Stelle behandelt werden. Vor allem zu den für
-Bibliotheken zentralen [Bibliotheksmanagementsysteme]
+Bibliotheken zentralen [Bibliotheksmanagementsystemen](#bibliotheksmanagementsysteme)
 fehlte bislang eine grundlegende Einführung.
 
 Dieses Handbuch soll einen knappen, umfassenden Überblick über die
@@ -63,7 +63,7 @@ werden kann. Die vorläufige Form basiert auf Dokumenten in Google Docs
 Dokument, die nach Markdown übertragen [in einem
 git-Repository](https://github.com/pro4bib/handbuch-it-in-bibliotheken/)
 verwaltet und von dort mittels [quarto](https://quarto.org) in HTML und andere
-Publikationsformate konvertiert.
+Publikationsformate konvertiert werden.
 
 Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 
