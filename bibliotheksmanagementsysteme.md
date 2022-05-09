@@ -1511,8 +1511,8 @@ Bibliothek, ggf. aufgeteilt nach verschiedenen Themen oder Fächern, die
 den Bedarf der an bestimmten Medien preisgeben. Dies könnte für die
 Leitung einer Bibliothek relevant sein, oder für das Budgetmanagement
 der Einrichtung. Ein anderes Beispiel wären detaillierte Ausleih- und
-Benutzungsstatistiken, sowie konkrekte Informationen zum Bestand. Mit
-einer solchen Datenlange können Fachbibliothekar\*innen etwa gezielt
+Benutzungsstatistiken, sowie konkrete Informationen zum Bestand. Mit
+einer solchen Datenlage können Fachbibliothekar\*innen etwa gezielt
 Bestandsmanagement betreiben.
 
 Manche LMS haben Statistikfunktionen schon mit dabei. Andere halten ihre
@@ -1874,13 +1874,13 @@ muss Folgendes sichergestellt sein:
 -   Die Verschlüsselung der Datenübertragung
     (Ende-zu-Ende-Verschlüsselung)
 
--   Standort der Server innerhalb der EU
+-   Betrieb und Steuerung der Server innerhalb der EU
     ([DSGVO](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung))
 
 -   Der Ausschluss von User-Tracking durch Ad-Tech (Werbe-Netzwerke)
 
 -   Der Abschluss eines
-    [Datenverarbeitungsvertrags](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)
+    [Datenverarbeitungsvertrags im Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)
 
 In der Kombination eines IDM mit einem cloudbasierten BMS außerhalb der
 EU wäre denkbar, die personenbezogene Daten dort in pseudonymisierter
