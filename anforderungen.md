@@ -111,7 +111,7 @@ einer Dienstleistung resultieren" DIN ISO 9241-210:2011
 
 ENDE INFOBOX
 
-Wie die untenstehende Abbildung zeigt, handelt es sich bei Usability um
+Wie die untenstehende Abbildung 1 zeigt, handelt es sich bei Usability um
 eine Eigenschaft eines Systems, die während der konkreten Interaktion
 mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei
 der Bedienung auftreten. Zur Vermeidung von Usability-Problemen
@@ -136,7 +136,7 @@ Arbeitsschritte, egal ob analog oder digital, mit ein.
 
 ![](media/missing.svg)
 
-Ersatz von Luis zu <https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
+*Abbildung 1* Ersatz von Luis zu <https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
 
 ## Wie beziehen wir unsere Nutzer\*innen ein?
 
@@ -199,7 +199,7 @@ insgesamt.
 
 ![](media/missing.svg)
 
-Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!
+*Abbildung 2* Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!
 
 Abgeleitet von solchen Personas fällt es häufig leicht, konkrete Use
 Cases für die Interaktion mit einem System zu definieren. Ein Use Case
@@ -209,7 +209,7 @@ Fließtext passieren, in dem ein Szenario beschrieben wird.
 
 ![](media/missing.svg)
 
-Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
+*Abbildung3* Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
@@ -323,7 +323,7 @@ bestimmte Aktionen zu illustrieren.
 
 ![](media/missing.svg)
 
-Rinzler, J.W.: Star Wars Storyboards: The Original Trilogy; Abrams &
+*Abbildung 4* Rinzler, J.W.: Star Wars Storyboards: The Original Trilogy; Abrams &
 Chronicle Books
 
 hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur
@@ -374,14 +374,14 @@ einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
 ![](media/missing.svg)
 
-<https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
+*Abbildung 5* <https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
 (Platzhalter, David könnte was per OmniGraffle bauen)
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
 Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die
 Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder
 oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches
-(siehe Abbildung XX). Ein Mock-Up ist, im Kontext Design, eine
+(siehe Abbildung 5). Ein Mock-Up ist, im Kontext Design, eine
 ausgereifte ("high-level") Version des Interfaces mit realistischen
 Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups
 sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz
@@ -432,7 +432,9 @@ Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
 
-![](media/missing.svg) Bildquelle: David, um 90° drehen
+![](media/missing.svg) 
+
+*Abbildung 6* Bildquelle: David, um 90° drehen
 
 Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass
 diese auch ohne eine formale Usability-Ausbildung durch engagierte
