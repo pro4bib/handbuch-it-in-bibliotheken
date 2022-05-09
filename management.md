@@ -6,7 +6,7 @@ dargestellt. Die Lebenszyklus eines IT-Systems bildet den Auftakt der
 Übersicht. Weiter werden Themen wie Betriebssicherheit und
 Risikomanagement sowie rechtliche Rahmenbedingungen betrachtet. Den
 Abschluss des Kapitels bilden Ausführungen zu notwendigen
-IT-Kompetenzen, zur IT-Organisation sowie zu Aus- und Weiterbildung.
+[IT-Kompetenzen](#kompetenzen), zur [IT-Organisation] (#organisation) sowie zu [Aus- und Weiterbildung](#aus--und-weiterbildung).
 
 ## IT-Systeme
 
@@ -14,7 +14,7 @@ IT-Kompetenzen, zur IT-Organisation sowie zu Aus- und Weiterbildung.
 
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet (siehe
-Abbildung XX). Die wesentlichen Phasen im klassischen Lebenszyklus eines
+Abbildung 1). Die wesentlichen Phasen im klassischen Lebenszyklus eines
 IT-Systems werden im Folgenden näher betrachtet.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
@@ -22,7 +22,7 @@ angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![SDLC-Skizze (Platzhalter)](media/missing.svg)
+![*Abbildung 1* SDLC-Skizze (Platzhalter)](media/missing.svg)
 
 #### Planung und Analyse
 
@@ -88,7 +88,7 @@ illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
-![Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/missing.svg)
+![*Abbildung 2* Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/missing.svg)
 
 #### Ablösung
 
@@ -175,9 +175,9 @@ Sowohl der Betrieb von proprietärer als auch von Open-Source-Software
 ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
 Schichtmodells des Betriebs eines IT-Systems illustrieren (siehe
-Abbildung XX).
+Abbildung 3).
 
-![Schichtmodell-Bild (Platzhalter)](media/missing.svg)
+![*Abbildung 3* Schichtmodell-Bild (Platzhalter)](media/missing.svg)
 
 Aus der Abbildung wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
