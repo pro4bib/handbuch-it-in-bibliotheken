@@ -223,7 +223,7 @@ Anforderungen erfüllen:
 > Erwartungskonformität, Individualisierbarkeit, Lernförderlichkeit*
 > beachtet und realisiert werden."[^2]
 
-Die Erreichung dieser Ziel wird separat im Kapitel [Anforderungen an
+Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
 Bibliotheks-IT](#anforderungen) thematisiert.
 
 #### Barrierefreiheit
