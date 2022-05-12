@@ -35,8 +35,9 @@ format:
     theme: cosmo
     css: style.css
     link-external-icon: true
-#    reference-location: margin
     email-obfuscation: javascript
+    include-before-body: templates/chapters.html
+    include-after-body: templates/script.html
   pdf:
     documentclass: scrreprt
 
