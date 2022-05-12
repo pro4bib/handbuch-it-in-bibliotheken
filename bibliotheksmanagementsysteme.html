@@ -1125,6 +1125,32 @@ Siems, Renke. 2022. <span>„Das Lesen der Anderen: Die Auswirkungen von User Tr
 </section>
 
 </main> <!-- /main -->
+<script>
+  /* TODO: add links on transformation instead of this client-side hack */
+  const links = document.getElementsByClassName("action-links")[0]
+  if (links) {
+    fetch("_gdrive/chapters.csv").then(res => res.text()).then(csv => {
+      var chapter = window.location.pathname.replace(/\.html$/,"").substr(1)
+      if (!chapter) {
+        chapter = "einleitung"
+      }
+      const r = new RegExp(`^${chapter},(.+)$`,"m")
+      const match = r.exec(csv)
+        console.log(r)
+        console.log(csv)
+      if (match) {
+        console.log(match)
+        const p = document.createElement("p")
+        const a = document.createElement("a")
+        a.text = "Kapitel kommentieren"
+        a.href = match[1]
+        a.className = "toc-action"
+        p.appendChild(a)
+        links.appendChild(p)
+      }
+    })
+  }
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const icon = "";
