@@ -36,6 +36,7 @@ format:
     css: style.css
     link-external-icon: true
 #    reference-location: margin
+    email-obfuscation: javascript
   pdf:
     documentclass: scrreprt
 
