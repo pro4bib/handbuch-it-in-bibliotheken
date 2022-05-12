@@ -150,6 +150,8 @@ ul.task-list{list-style: none;}
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<script>chapters={"einleitung":"https://docs.google.com/document/d/1UVQ31DIL_if5dU5PHUCLDJ4EeltrbZMe/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","management":"https://docs.google.com/document/d/1u-2li4kiMG13cYwiXgJ8ZCfA7JZu3gQB/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","anforderungen":"https://docs.google.com/document/d/1-ulLfARosY4Vk2ZVMuTv6F1Ru5ne76om/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","bibliotheksmanagementsysteme":"https://docs.google.com/document/d/1hi3Zf7rmLrYSXB2XdEv_PCl4HrySdQqn/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","zielgruppe":"https://docs.google.com/document/d/1JZoGbcDJE5nSrX6Z6_8v3FjToRwEoTkA/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","styleguide":"https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true"}
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -185,26 +187,17 @@ ul.task-list{list-style: none;}
   /* TODO: add links on transformation instead of this client-side hack */
   const links = document.getElementsByClassName("action-links")[0]
   if (links) {
-    fetch("_gdrive/chapters.csv").then(res => res.text()).then(csv => {
-      var chapter = window.location.pathname.replace(/\.html$/,"").substr(1)
-      if (!chapter) {
-        chapter = "einleitung"
-      }
-      const r = new RegExp(`^${chapter},(.+)$`,"m")
-      const match = r.exec(csv)
-        console.log(r)
-        console.log(csv)
-      if (match) {
-        console.log(match)
-        const p = document.createElement("p")
-        const a = document.createElement("a")
-        a.text = "Kapitel kommentieren"
-        a.href = match[1]
-        a.className = "toc-action"
-        p.appendChild(a)
-        links.appendChild(p)
-      }
-    })
+    var name = window.location.pathname.replace(/\.html$/,"").substr(1) || "einleitung"
+    var url = chapters[name]
+    if (url) {
+      const p = document.createElement("p")
+      const a = document.createElement("a")
+      a.text = "Kapitel kommentieren"
+      a.href = url
+      a.className = "toc-action"
+      p.appendChild(a)
+      links.appendChild(p)
+    }
   }
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
