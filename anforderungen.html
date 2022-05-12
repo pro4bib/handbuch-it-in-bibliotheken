@@ -407,10 +407,11 @@ Shneiderman, Ben, und Catherine Plaisant. 2005. <em>Designing the user interface
 
 </main> <!-- /main -->
 <script>
-  /* TODO: add links on transformation instead of this client-side hack */
+window.document.addEventListener("DOMContentLoaded", function () {  
   const links = document.getElementsByClassName("action-links")[0]
   if (links) {
-    var name = window.location.pathname.replace(/\.html$/,"").substr(1) || "einleitung"
+    var match = window.location.pathname.match(/([a-z-]+)\.html$/)
+    var name = match ? match[1] : "einleitung"
     var url = chapters[name]
     if (url) {
       const p = document.createElement("p")
@@ -422,6 +423,7 @@ Shneiderman, Ben, und Catherine Plaisant. 2005. <em>Designing the user interface
       links.appendChild(p)
     }
   }
+})
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
