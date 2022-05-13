@@ -46,7 +46,8 @@
     werden, wenn in der jeweiligen Textpassage auch wirklich
     paraphrasiert oder wörtlich zitiert wird.
 
--   Links, die auf später entstehende Kapitel verweisen, werden durch eckige Klammern kenntlich gemacht.
+-   Links, die auf später entstehende Kapitel verweisen, werden durch
+    eckige Klammern kenntlich gemacht.
 
 -   Externe Links, die nur auf Anbieter oder andere Websites verweisen,
     werden inline verlinkt, also ein Link auf das Wort gesetzt statt
@@ -66,8 +67,8 @@
     Innerhalb von Abschnitten können als Gliederungshilfe wichtige
     Begriff auch durch Fettdruck hervorgehoben werden
 
--   Kursive Hervorhebung sollte nur für Namen und Zitate verwendet
-    werden
+-   Kursive Hervorhebung sollte nur für Namen, Glossareinträge und Zitate
+    verwendet werden.
 
 -   Jedes Unterkapitel hat ein Abstract, in dem die behandelten Themen
     kurz und verständlich genannt werden, einschließlich der
@@ -86,3 +87,6 @@
 
     -   oder: erklärender Fließtext und dann nochmal eine Infobox mit
         Eckdaten zu einem bestimmten Produkt.
+
+-   Zusätzlich können verschieden Arten von Infoboxen verwendet werden
+    (siehe <https://quarto.org/docs/authoring/callouts.html>)
