@@ -24,11 +24,17 @@ book:
     style: docked
   # abstract: TODO
   # description: Description metadata for HTML version of book
+  page-footer: 
+    left: "CC BY 3.0 DE" 
+    right: 
+      - icon: github
+        href: https://github.com/pro4bib/handbuch-it-in-bibliotheken/
 
 bibliography: references.bib 
 
 lang: de
 number-sections: false
+number-depth: 1
 
 format:
   html:
