@@ -1431,17 +1431,18 @@ Directory, uvm
 Ein Account besteht aus den Kontaktdaten des Menschen sowie
 Authentifizierungsinformationen. Hier ist Datensparsamkeit nach DSGVO
 geboten. Für die Speicherung aller personenbezogenen Daten müssen die
-Notwendigkeiten oder rechtlichen Gründe nachgewiesen werden. Als
-Beispiel kann die Speicherung des Geburtsdatums angesehen werden.Wird
-für die Begründung für die Speicherung des Geburtsdatums die Prüfung der
+Notwendigkeiten oder rechtlichen Gründe nachgewiesen werden. Als Beispiel
+kann die Speicherung des Geburtsdatums angesehen werden. Wird für die
+Begründung für die Speicherung des Geburtsdatums die Prüfung der
 Volljährigkeit oder die Befähigung eines Seniorentarifes herangezogen,
 ist davon auzugehen, dass die Speicherung des Geburtsdatums nicht
 notwendig ist. Wird zur Begründung eine als notwendig erachtete
 Adressermittlung bei Behörden angegeben, ist die Speicherung der
 Geburtsdatum möglich, das eine Adressermittlung (zur Wiederbeschaffung
-vermisster Exemplare) möglich. Des weiteren sind nutzungsbezogene Daten
-zu speichern, Beispiele: Verweise auf die ausgeliehenen Medien,
-angefallene Gebühren, offene Bestellungen, bestellte Digitalisate.
+vermisster Exemplare) möglich. Die Speicherung nutzungsbezogener Daten
+wie Verweise auf die ausgeliehenen Medien, angefallene Gebühren, offene
+Bestellungen und bestellte Digitalisate muss in der Regel nicht explizit
+begründet werden.
 
 Sofern die übergreifende Institution über eine Datenbank zur Speicherung
 der Accounts verfügt ([IDM](#identity-management),
@@ -1919,6 +1920,8 @@ IT-Sicherheitsbeauftragte hinzugezogen werden.
 
 ## Zusammenfassung und Ausblick
 
+::: {.callout-warning}
+
 Hier fehlt noch ein Abschnitt der das Kapitel BMS in 2-3 Sätzen
 zusammenfasst und einen wertenden Ausblick gibt. Insbesondere sollten
 folgende Aspekte hervorgehoben und erläutert werden:
@@ -1931,6 +1934,8 @@ folgende Aspekte hervorgehoben und erläutert werden:
     wie Wikidata)
 
 -   Open Data, öffentliche Datennutzung und Transparenz
+
+:::
 
 [^1]: [https://librarytechnology.org/mergers/automationhistory.pl](https://librarytechnology.org/mergers/automationhistory.pl)
 
