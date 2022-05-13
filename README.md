@@ -9,7 +9,7 @@ Weiter Informationen zum Handbuch gibt es auf der Projektseite <https://www.th-w
 
 Die HTML-Version des gesamten Handbuchs in der aktuellsten Arbeitsversion ist vorläufig unter <https://pro4bib.github.io/handbuch-it-in-bibliotheken/> einsehbar. Diese URL ist *nicht stabil sondern wird sich noch ändern* (siehe [dieses Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/2)).
 
-Snapshots einzelner Kapitel liegen in Google Drive und können dort kommentiert werden:
+Snapshots einzelner Kapitel liegen [in Google Drive](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2?usp=sharing) und können dort kommentiert werden:
 
 * Hauptkapitel
 

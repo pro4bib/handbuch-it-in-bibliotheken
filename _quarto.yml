@@ -44,6 +44,7 @@ format:
     email-obfuscation: javascript
     include-before-body: templates/chapters.html
     include-after-body: templates/script.html
+    callout-appearance: simple
   pdf:
     documentclass: scrreprt
 

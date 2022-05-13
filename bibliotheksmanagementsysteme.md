@@ -1,8 +1,12 @@
 # Bibliotheksmanagementsysteme {#bibliotheksmanagementsysteme}
 
+:::{.callout-note}
+
 *Dieses Kapitel definiert den Begriff des Bibliotheksmanagementsystems,
 erläutert die gängigen Komponenten und beschreibt die Entwicklung seit
 1960.*
+
+:::
 
 In diesem Text wird der Begriff Bibliotheksmanagementsystem (BMS)
 verwendet. Damit ist ein Softwareprodukt gemeint, mit dem die
@@ -27,7 +31,9 @@ werden separate Systeme genutzt. Daraus ergibt sich der Bedarf, das BMS
 an diese separaten Systeme anzubinden, was die Bedeutung von
 Schnittstellen und offenen Architekturen erhöht hat.
 
-## Geschichte
+## Übersicht
+
+### Geschichte
 
 Bibliotheksmanagementsysteme unterstützen alle Kernprozesse des
 bibliothekarischen Arbeitens, das heißt die Erwerbung, Erschließung und
@@ -76,9 +82,9 @@ die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
 Regel eine große Anwender Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
-::: {.callout-note}
+::: {.callout-tip}
 
-## Evolution der Bibliotheksmanagementsysteme
+### Evolution der Bibliotheksmanagementsysteme
 
 ![](media/bms-timeline.png)
 
@@ -277,7 +283,7 @@ eines Next Generation-BMS.
 |       |              |                      |           | Bibliotheken  |
 +-------+--------------+----------------------+-----------+---------------+
 | Folio | Open Library | ERM-Modul in         | ja        | in Eigenregie |
-| lio   | Foundation   | einzelnen            |           | oder durch    |
+|       | Foundation   | einzelnen            |           | oder durch    |
 |       |              | deutschen            |           | Dienstleister |
 |       |              | Bibliotheken         |           |               |
 +-------+--------------+----------------------+-----------+---------------+
@@ -339,7 +345,7 @@ Erfassung und Web-Präsentation von Medien:
 
 -   [Library Thing for Libraries](https://www.librarything.com/forlibraries)
 
--   Zotero Groups
+-   [Zotero Groups](https://www.zotero.org/groups/)
 
 -   Stand-Alone-Lösungen für Electronic Resource Management wie
     [Coral](http://coral-erm.org)
@@ -446,37 +452,34 @@ BMS sondern über den Bibliotheksverbund.
 
 Folgende Bibliotheksverbünde gibt es:
 
-+-----------------+-----------------+---------------------------------+
-| Verbund         | Verbundkatalog  | System                          |
-+=================+=================+=================================+
-| BVB             | B3Kat           | ALEPH (Ex Libris)               |
-+-----------------+-----------------+---------------------------------+
-| BSZ             | K10plus         | CBS (OCLC)                      |
-+-----------------+-----------------+---------------------------------+
-| GBV             | K10plus         | CBS (OCLC)                      |
-+-----------------+-----------------+---------------------------------+
-| hebis           | hebis           | CBS (OCLC)                      |
-+-----------------+-----------------+---------------------------------+
-| hbz             | hbz             | Aleph (Ex Libris)               |
-|                 |                 |                                 |
-|                 |                 | Alma-Netzwerkzone (Ex Libris)   |
-+-----------------+-----------------+---------------------------------+
-| KOBV            | B3Kat           | Aleph (Ex Libris)               |
-+-----------------+-----------------+---------------------------------+
-| VÖBB            | VÖBB            | aDIS/BMS (aStec)                |
-| (öffentliche    |                 |                                 |
-| Bibliotheken)   |                 |                                 |
-+-----------------+-----------------+---------------------------------+
-| Ö               | OBV             | Alma-Netzwerkzone (Ex Libris)   |
-| sterreichischer |                 |                                 |
-| Bibl            |                 |                                 |
-| iothekenverbund |                 |                                 |
-| (OBV)           |                 |                                 |
-+-----------------+-----------------+---------------------------------+
-| Swiss Library   | swisscovery     | Alma                            |
-| Service         |                 |                                 |
-| Platform (SLSP) |                 |                                 |
-+-----------------+-----------------+---------------------------------+
++---------------------+-----------------+---------------------------------+
+| Verbund             | Verbundkatalog  | System                          |
++=====================+=================+=================================+
+| BVB                 | B3Kat           | ALEPH (Ex Libris)               |
++---------------------+-----------------+---------------------------------+
+| BSZ                 | K10plus         | CBS (OCLC)                      |
++---------------------+-----------------+---------------------------------+
+| GBV                 | K10plus         | CBS (OCLC)                      |
++---------------------+-----------------+---------------------------------+
+| hebis               | hebis           | CBS (OCLC)                      |
++---------------------+-----------------+---------------------------------+
+| hbz                 | hbz             | Aleph (Ex Libris)               |
+|                     |                 |                                 |
+|                     |                 | Alma-Netzwerkzone (Ex Libris)   |
++---------------------+-----------------+---------------------------------+
+| KOBV                | B3Kat           | Aleph (Ex Libris)               |
++---------------------+-----------------+---------------------------------+
+| VÖBB                | VÖBB            | aDIS/BMS (aStec)                |
+| (öffentliche        |                 |                                 |
+| Bibliotheken)       |                 |                                 |
++---------------------+-----------------+---------------------------------+
+| Österreichischer    | OBV             | Alma-Netzwerkzone (Ex Libris)   |
+| Bibliothekenverbund |                 |                                 |
++---------------------+-----------------+---------------------------------+
+| Swiss Library       | swisscovery     | Alma                            |
+| Service             |                 |                                 |
+| Platform (SLSP)     |                 |                                 |
++---------------------+-----------------+---------------------------------+
 
 ### Anbindung an Verbundkataloge/Verbundkatalogisierung
 
@@ -1361,6 +1364,8 @@ zählen insbesondere der jeweilige Bibliotheksverbund, etwa zum Austausch
 von Metadaten oder für das verteilte Lizenzmanagement, aber auch
 nutzer\*innen-nahe Dienstleistungen, wie die Fernleihe.
 
+::: {.callout-warning}
+
 #### Verbund
 
 TODO
@@ -1372,6 +1377,8 @@ TODO
 #### LinkResolver
 
 ToDo
+
+:::
 
 ### Nicht-bibliothekarische Schnittstellen
 

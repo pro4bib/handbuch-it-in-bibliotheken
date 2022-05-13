@@ -275,7 +275,7 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
     Suchmaschinenranking nieder, da Suchmaschinen diesen Aspekt zur
     Bewertung heranziehen.[^3]
 
-## Bibliotheks-IT
+## Management der Bibliotheks-IT
 
 Die Auswahl und Implementierung sowie der Betrieb von digitalen Diensten
 ist ein stetig wachsender Aufgabenbereich für Bibliotheken. Durch den

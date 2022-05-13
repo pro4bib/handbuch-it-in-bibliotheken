@@ -59,10 +59,10 @@ vervollständigen und weitere Kapitel anzulegen sollen weitere Book Sprints
 veranstaltet werden.
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
-werden kann. Die vorläufige Form basiert auf Dokumenten in Google Docs
-Dokument, die nach Markdown übertragen [in einem
+werden kann. Die vorläufige Form basiert auf Markdown-Dokumenten, die aus
+Google Docs exportiert [in einem
 git-Repository](https://github.com/pro4bib/handbuch-it-in-bibliotheken/)
-verwaltet und von dort mittels [quarto](https://quarto.org) in HTML und andere
+verwaltet und von dort mittels [Quarto](https://quarto.org) in HTML und andere
 Publikationsformate konvertiert werden.
 
 Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
