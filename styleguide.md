@@ -70,11 +70,11 @@
 -   Kursive Hervorhebung sollte nur für Namen, Glossareinträge und Zitate
     verwendet werden.
 
--   Jedes Unterkapitel hat ein Abstract, in dem die behandelten Themen
+-   Jedes Kapitel hat ein Abstract, in dem die behandelten Themen
     kurz und verständlich genannt werden, einschließlich der
     wichtigsten Stichwörter.
 
--   Jedes Unterkapitel beginnt (unter dem Abstract, siehe oben) mit
+-   Jedes Kapitel beginnt (unter dem Abstract, siehe oben) mit
     einer erklärenden Einleitung, die das Thema veranschaulicht und es
     ggf. zu anderen Themen abgrenzt/es mit ihnen verbindet.
 
