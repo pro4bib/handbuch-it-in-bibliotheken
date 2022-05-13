@@ -27,7 +27,9 @@ werden separate Systeme genutzt. Daraus ergibt sich der Bedarf, das BMS
 an diese separaten Systeme anzubinden, was die Bedeutung von
 Schnittstellen und offenen Architekturen erhöht hat.
 
-## Geschichte
+## Übersicht
+
+### Geschichte
 
 Bibliotheksmanagementsysteme unterstützen alle Kernprozesse des
 bibliothekarischen Arbeitens, das heißt die Erwerbung, Erschließung und
@@ -35,7 +37,7 @@ Ausleihe von Medien. Ihren Ursprung haben Bibliotheksmanagementsystem in
 den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten
 untereinander auszutauschen und auf diese Weise Prozesse zu optimieren.
 In dieser Zeit entwickelten sich auch die heute noch gebräuchlichen
-Austauschformate für Katalogdaten, z.B. MARC-21[^1].
+Austauschformate für Katalogdaten, z.B. *MARC*.
 
 In den 1970er Jahren erlaubte die fortschreitende technische
 Entwicklung, die Automatisierung weiterer Prozesse über den
@@ -48,7 +50,8 @@ einem Ort gehalten und bearbeitet wurden, versprach man sich eine
 größere Effizienz der Arbeitsprozesse. Diese **erste Generation** von
 BMS beinhaltete teilweise auch schon digitale Funktionen für
 Bibliotheksnutzer\*innen wie über Telnet erreichbare Kataloge, die von
-Anfang an als integraler Bestandteil der BMS gesehen wurden.[^2]
+Anfang an als integraler Bestandteil der BMS gesehen wurden
+\[@borgman_acting_1997\].
 
 Die Entstehung des World Wide Web in den 1990er Jahren hatte zunächst
 vor allem Einfluss auf die Benutzbarkeit der Kataloge, die
@@ -58,7 +61,7 @@ Anbietern, während die ersten Systeme als Eigenentwicklungen von
 Bibliotheken entstanden. Die Landschaft an **Systemen der 2.
 Generation** war von den späten 1990er bis in die Nullerjahre sehr
 divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass
-man von einem konsolidierten Markt sprechen kann.[^3]
+man von einem konsolidierten Markt sprechen kann.[^1]
 
 Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS,
 die **Next-Generation Library Management Systems**, die auch **Library
@@ -76,15 +79,15 @@ die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
 Regel eine große Anwender Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
-## Evolution der Bibliotheksmanagementsysteme
+### Evolution der Bibliotheksmanagementsysteme
 
-![](media/rId26.png){width="5.833333333333333in"
+![](media/rId23.png){width="5.833333333333333in"
 height="4.947257217847769in"}
 
-Quelle: Matthews & Block, 2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
+Quelle: \@matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
 
-Nach Matthews & Block lässt sich die Geschichte der BMS in sechs
-überlappende Epochen einteilen[^4]:
+Nach \@matthews_library_2020 lässt sich die Geschichte der BMS in sechs
+überlappende Epochen einteilen:
 
 1.  **System-Epoche**: Erste Schritte in den 1950er bis in die
     1970er-Jahre hin zur Entwicklung von Software, z. T sehr
@@ -231,7 +234,7 @@ aus. Das heißt, sie verfügen über aktuellere technische
 Einzelkomponenten und Schnittstellen, auf deren Grundlage auch
 zahlreiche zusätzliche Funktionalitäten angeboten werden können. Im
 Einzelnen gibt es folgende Merkmale, die ein **Next Generation-System**
-kennzeichnen[^5]:
+kennzeichnen[^2]:
 
 -   Angebot als Software as a Service ([SaaS](#cloud))
 
@@ -276,7 +279,7 @@ eines Next Generation-BMS.
 +------+-------------+---------------------+----------+--------------+
 | F    | Open        | ERM-Modul in        | ja       | in           |
 | olio | Library     | einzelnen deutschen |          | Eigenregie   |
-| lio  | Foundation  | Bibliotheken        |          | oder durch   |
+|      | Foundation  | Bibliotheken        |          | oder durch   |
 |      |             |                     |          | D            |
 |      |             |                     |          | ienstleister |
 +------+-------------+---------------------+----------+--------------+
@@ -341,7 +344,7 @@ Erfassung und Web-Präsentation von Medien:
 -   [Library Thing for
     Libraries](https://www.librarything.com/forlibraries)
 
--   Zotero Groups
+-   [Zotero Groups](https://www.zotero.org/groups/)
 
 -   Stand-Alone-Lösungen für Electronic Resource Management wie
     [Coral](http://coral-erm.org)
@@ -431,7 +434,7 @@ alle Bibliotheken relevant.
 Im Zusammenhang mit dem Aufbau der Fachinformationsdienste für die
 spezialisierte Informationsversorgung in Deutschland werden in
 zunehmendem Maße Fachportale entwickelt. Relevante Katalog-Informationen
-werden aus möglichst vielen Bibliotheken regelmäßig abgerufen[^6] und in
+werden aus möglichst vielen Bibliotheken regelmäßig abgerufen[^3] und in
 spezialisierten Discovery-Systemen gesammelt. Dort können sie für eine
 übergreifende Recherche genutzt werden. Die BMS müssen entsprechend über
 [Standardschnittstellen](#datenformate-und-schnittstellen) die
@@ -451,37 +454,34 @@ BMS sondern über den Bibliotheksverbund.
 
 Folgende Bibliotheksverbünde gibt es:
 
-+-----------------+-----------------+---------------------------------+
-| Verbund         | Verbundkatalog  | System                          |
-+=================+=================+=================================+
-| BVB             | B3Kat           | ALEPH (Ex Libris)               |
-+-----------------+-----------------+---------------------------------+
-| BSZ             | K10plus         | CBS (OCLC)                      |
-+-----------------+-----------------+---------------------------------+
-| GBV             | K10plus         | CBS (OCLC)                      |
-+-----------------+-----------------+---------------------------------+
-| hebis           | hebis           | CBS (OCLC)                      |
-+-----------------+-----------------+---------------------------------+
-| hbz             | hbz             | Aleph (Ex Libris)               |
-|                 |                 |                                 |
-|                 |                 | Alma-Netzwerkzone (Ex Libris)   |
-+-----------------+-----------------+---------------------------------+
-| KOBV            | B3Kat           | Aleph (Ex Libris)               |
-+-----------------+-----------------+---------------------------------+
-| VÖBB            | VÖBB            | aDIS/BMS (aStec)                |
-| (öffentliche    |                 |                                 |
-| Bibliotheken)   |                 |                                 |
-+-----------------+-----------------+---------------------------------+
-| Ö               | OBV             | Alma-Netzwerkzone (Ex Libris)   |
-| sterreichischer |                 |                                 |
-| Bibl            |                 |                                 |
-| iothekenverbund |                 |                                 |
-| (OBV)           |                 |                                 |
-+-----------------+-----------------+---------------------------------+
-| Swiss Library   | swisscovery     | Alma                            |
-| Service         |                 |                                 |
-| Platform (SLSP) |                 |                                 |
-+-----------------+-----------------+---------------------------------+
++--------------------+----------------+--------------------------------+
+| Verbund            | Verbundkatalog | System                         |
++====================+================+================================+
+| BVB                | B3Kat          | ALEPH (Ex Libris)              |
++--------------------+----------------+--------------------------------+
+| BSZ                | K10plus        | CBS (OCLC)                     |
++--------------------+----------------+--------------------------------+
+| GBV                | K10plus        | CBS (OCLC)                     |
++--------------------+----------------+--------------------------------+
+| hebis              | hebis          | CBS (OCLC)                     |
++--------------------+----------------+--------------------------------+
+| hbz                | hbz            | Aleph (Ex Libris)              |
+|                    |                |                                |
+|                    |                | Alma-Netzwerkzone (Ex Libris)  |
++--------------------+----------------+--------------------------------+
+| KOBV               | B3Kat          | Aleph (Ex Libris)              |
++--------------------+----------------+--------------------------------+
+| VÖBB (öffentliche  | VÖBB           | aDIS/BMS (aStec)               |
+| Bibliotheken)      |                |                                |
++--------------------+----------------+--------------------------------+
+| Österreichischer   | OBV            | Alma-Netzwerkzone (Ex Libris)  |
+| B                  |                |                                |
+| ibliothekenverbund |                |                                |
++--------------------+----------------+--------------------------------+
+| Swiss Library      | swisscovery    | Alma                           |
+| Service Platform   |                |                                |
+| (SLSP)             |                |                                |
++--------------------+----------------+--------------------------------+
 
 ### Anbindung an Verbundkataloge/Verbundkatalogisierung
 
@@ -826,7 +826,7 @@ Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
 ![Beispiel für eine Matrix zur Einordnung von
-Funktionalitäten](media/rId69.png){width="5.833333333333333in"
+Funktionalitäten](media/rId67.png){width="5.833333333333333in"
 height="4.623066491688539in"}
 
 Beispiel für eine Matrix zur Einordnung von Funktionalitäten
@@ -1432,7 +1432,7 @@ nutzen.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /
 SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
-[OpenID](https://de.wikipedia.org/wiki/OpenID) [^7]
+[OpenID](https://de.wikipedia.org/wiki/OpenID) [^4]
 
 Softwareprodukte für IDM sind: SAP (mit Plugins), Microsoft Active
 Directory, uvm
@@ -1443,16 +1443,17 @@ Ein Account besteht aus den Kontaktdaten des Menschen sowie
 Authentifizierungsinformationen. Hier ist Datensparsamkeit nach DSGVO
 geboten. Für die Speicherung aller personenbezogenen Daten müssen die
 Notwendigkeiten oder rechtlichen Gründe nachgewiesen werden. Als
-Beispiel kann die Speicherung des Geburtsdatums angesehen werden.Wird
+Beispiel kann die Speicherung des Geburtsdatums angesehen werden. Wird
 für die Begründung für die Speicherung des Geburtsdatums die Prüfung der
 Volljährigkeit oder die Befähigung eines Seniorentarifes herangezogen,
 ist davon auzugehen, dass die Speicherung des Geburtsdatums nicht
 notwendig ist. Wird zur Begründung eine als notwendig erachtete
 Adressermittlung bei Behörden angegeben, ist die Speicherung der
 Geburtsdatum möglich, das eine Adressermittlung (zur Wiederbeschaffung
-vermisster Exemplare) möglich. Des weiteren sind nutzungsbezogene Daten
-zu speichern, Beispiele: Verweise auf die ausgeliehenen Medien,
-angefallene Gebühren, offene Bestellungen, bestellte Digitalisate.
+vermisster Exemplare) möglich. Die Speicherung nutzungsbezogener Daten
+wie Verweise auf die ausgeliehenen Medien, angefallene Gebühren, offene
+Bestellungen und bestellte Digitalisate muss in der Regel nicht explizit
+begründet werden.
 
 Sofern die übergreifende Institution über eine Datenbank zur Speicherung
 der Accounts verfügt ([IDM](#identity-management), Identity Management)
@@ -1522,8 +1523,8 @@ Bibliothek, ggf. aufgeteilt nach verschiedenen Themen oder Fächern, die
 den Bedarf der an bestimmten Medien preisgeben. Dies könnte für die
 Leitung einer Bibliothek relevant sein, oder für das Budgetmanagement
 der Einrichtung. Ein anderes Beispiel wären detaillierte Ausleih- und
-Benutzungsstatistiken, sowie konkrekte Informationen zum Bestand. Mit
-einer solchen Datenlange können Fachbibliothekar\*innen etwa gezielt
+Benutzungsstatistiken, sowie konkrete Informationen zum Bestand. Mit
+einer solchen Datenlage können Fachbibliothekar\*innen etwa gezielt
 Bestandsmanagement betreiben.
 
 Manche LMS haben Statistikfunktionen schon mit dabei. Andere halten ihre
@@ -1746,7 +1747,7 @@ voraussichtlich wieder zur Verfügung steht.
 
 Um ein BMS vor den zunehmenden Angriffen durch böswillige Akteure
 (Hacking, Malware, Ransomware) abzusichern, können die folgenden
-Empfehlungen als Grundlage dienen[^8]:
+Empfehlungen als Grundlage dienen \[@marshall_breeding_how_2022\]:
 
 -   Die Infrastruktur um das BMS herum sollte durch starke
     Sicherheitsvorkehrungen getragen werden.
@@ -1886,13 +1887,13 @@ sichergestellt sein:
 -   Die Verschlüsselung der Datenübertragung
     (Ende-zu-Ende-Verschlüsselung)
 
--   Standort der Server innerhalb der EU
+-   Betrieb und Steuerung der Server innerhalb der EU
     ([DSGVO](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung))
 
 -   Der Ausschluss von User-Tracking durch Ad-Tech (Werbe-Netzwerke)
 
--   Der Abschluss eines
-    [Datenverarbeitungsvertrags](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)
+-   Der Abschluss eines [Datenverarbeitungsvertrags im
+    Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)
 
 In der Kombination eines IDM mit einem cloudbasierten BMS außerhalb der
 EU wäre denkbar, die personenbezogene Daten dort in pseudonymisierter
@@ -1920,14 +1921,15 @@ Verhaltensprofile über die Nutzenden erstellen. Durch die ebenfalls
 seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird
 versucht, zusätzlich eine möglichst hohe Personalisierung bei der
 Erstellung einzelner Profile zu erreichen. Die dabei entstehenden
-Datenflüsse werden für gewöhnlich nicht transparent gemacht.[^9] Der
-Einsatz solcher Analytics-Technologien unterminiert die Integrität
-konventioneller IDM-Systeme und tangiert somit nicht nur
-datenschutzrechtliche Belange, sondern auch die IT-Sicherheit.
-Idealerweise sollte bereits vor der Anschaffung einer BMS-Lösung
-abgeklärt werden, ob solche Analytics-Technologien eingesetzt werden. Im
-Zweifelsfall sollte immer der\*die lokale Datenschutzbeauftragte oder
-IT-Sicherheitsbeauftragte hinzugezogen werden.
+Datenflüsse werden für gewöhnlich nicht transparent gemacht
+\[@siems_lesen_2022\]. Der Einsatz solcher Analytics-Technologien
+unterminiert die Integrität konventioneller IDM-Systeme und tangiert
+somit nicht nur datenschutzrechtliche Belange, sondern auch die
+IT-Sicherheit. Idealerweise sollte bereits vor der Anschaffung einer
+BMS-Lösung abgeklärt werden, ob solche Analytics-Technologien eingesetzt
+werden. Im Zweifelsfall sollte immer der\*die lokale
+Datenschutzbeauftragte oder IT-Sicherheitsbeauftragte hinzugezogen
+werden.
 
 ## Zusammenfassung und Ausblick
 
@@ -1944,31 +1946,12 @@ folgende Aspekte hervorgehoben und erläutert werden:
 
 -   Open Data, öffentliche Datennutzung und Transparenz
 
-[^1]: <https://de.wikipedia.org/wiki/Machine-Readable_Cataloging>
+[^1]: <https://librarytechnology.org/mergers/automationhistory.pl>
 
-[^2]: Borgman, Christine, History of Library Automation 1997
+[^2]: <https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html>
 
-[^3]: <https://librarytechnology.org/mergers/automationhistory.pl>
+[^3]: Das Harvesting dient dazu, Metadaten verschiedener Herkunft und
+    Form in ein einheitliches Metadaten-Format zu übertragen und so über
+    eine gemeinsame Datenquelle anbieten zu können.
 
-[^4]: Matthews, J. R. & Block, C. (2020). *Library Information Systems*
-    (Library and Information Science Text Series) (Second Edition.).
-    Santa Barbara, California: Libraries Unlimited, S. 6-8
-
-[^5]: <https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html>
-
-[^6]: Das sogen. Harvesting dient dazu, Metadaten verschiedener Herkunft
-    und Form in ein einheitliches Metadaten-Format zu übertragen und so
-    über eine gemeinsame Datenquelle anbieten zu können.
-
-[^7]: https://en.wikipedia.org/wiki/Identity_provider
-
-[^8]: Breeding, Marshall . \"[How to Secure Library Systems From
-    Malware, Ransomware, and Other
-    Cyberthreats](https://librarytechnology.org/document/27138).\"
-    Information Today . *Computers in Libraries.* Volume 42 No. 01.
-    (January / Febuary 2022) S. 9-11
-
-[^9]: Siems, R. (2022). Das Lesen der Anderen: Die Auswirkungen von User
-    Tracking auf Bibliotheken. *O-Bib. Das Offene Bibliotheksjournal /
-    Herausgeber VDB*, *9*(1), 1--25.
-    <https://doi.org/10.5282/o-bib/5797>, S. 9-11
+[^4]: <https://en.wikipedia.org/wiki/Identity_provider>
