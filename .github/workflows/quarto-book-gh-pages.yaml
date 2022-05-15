@@ -28,7 +28,7 @@ jobs:
       # More specific examples will be shared on quarto-dev/quarto-actions project
 
       - name: Render book to all format
-        run: quarto render --to html
+        run: make build
 
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'

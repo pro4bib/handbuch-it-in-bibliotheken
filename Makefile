@@ -4,8 +4,14 @@
 preview:
 	quarto preview --port 15745
 
+build: templates/chapters.html
+	quarto render
+
 html: templates/chapters.html
 	quarto render --to html
+
+docx: templates/chapters.html
+	quarto render --to docx
 
 # TODO: multiple requests with start=N when more than 100 references
 refs: references.bib

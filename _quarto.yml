@@ -45,8 +45,9 @@ format:
     include-before-body: templates/chapters.html
     include-after-body: templates/script.html
     callout-appearance: simple
-  pdf:
-    documentclass: scrreprt
+  docx: {}
+  #pdf:
+  #  documentclass: scrreprt
 
 #comments:
 #  hypothesis: true
