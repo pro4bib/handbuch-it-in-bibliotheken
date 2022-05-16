@@ -398,7 +398,7 @@ Folgenden ausführlicher betrachtet.
 
 In der Einleitung wird Cody Hanson zitiert: „Most importantly, all
 library staff must understand that our software is our library, and is
-everyone's responsibility." Bezogen auf Einarbeitung und Weiterbildung
+everyone's responsibility."[^4] Bezogen auf Einarbeitung und Weiterbildung
 bedeutet das, dass sich Mitarbeitende mit der (Weiter-)Entwicklung von
 Software ebenfalls weiterbilden und weiterentwickeln. Nur so kann die
 Verantwortung von allen Mitarbeitenden mit Bezug zur Bibliotheks-IT
@@ -498,3 +498,4 @@ rekrutieren müssen.
 
 [^3]: <https://developers.google.com/search/blog/2020/05/evaluating-page-experience>
 
+[^4]: <https://www.codyh.com/writing/software.html>
