@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 for FILE in _book/*.html; do
     KAPITEL=$(basename "$FILE")
