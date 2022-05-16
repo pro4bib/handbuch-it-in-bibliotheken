@@ -6,6 +6,7 @@ preview:
 
 build: templates/chapters.html
 	quarto render
+	./adjust-canonical-urls.sh
 
 html: templates/chapters.html
 	quarto render --to html
