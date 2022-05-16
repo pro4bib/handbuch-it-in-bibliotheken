@@ -21,11 +21,14 @@ Snapshots einzelner Kapitel liegen [in Google Drive](https://drive.google.com/dr
 * Anhänge
 
   * [zielgruppe](https://docs.google.com/document/d/1JZoGbcDJE5nSrX6Z6_8v3FjToRwEoTkA/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
-  * [styleguide](https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
+
+<!--
+  * [mitarbeit](https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true)
+-->
 
 Direkte Pull-Requests an den Markdown-Quellen oder Hinweise [per GitHub Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) sind ebenfalls willkommen.
 
-Weitere Informationen zur Mitarbeit siehe unter [CONTRIBUTING.md](CONTRIBUTING.md).
+Weitere Informationen zur Mitarbeit siehe unter [CONTRIBUTING.md](CONTRIBUTING.md) (entspricht dem Anhang "Hinweise zur Mitarbeit").
 
 ## Lizenz
 
