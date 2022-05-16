@@ -14,7 +14,7 @@ Der aktuelle Workflow zur Erstellung des Handbuchs beinhaltet folgende Schritte:
 
 * **Publikation**
 
-  Die Ergebnisdateien werden automatisch bei GitHub pages aktualisiert. Die offizielle URL der Publikation steht noch nicht fest. Temporär ist das zwischenergebnis is HTML unter <https://pro4bib.github.io/handbuch-it-in-bibliotheken/> verfügbar.
+  Die Ergebnisdateien werden automatisch via GitHub und einen Server der VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
 
 Korrekturen und Kommentare können vorgenommen werden:
 

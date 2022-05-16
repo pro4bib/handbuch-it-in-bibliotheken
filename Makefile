@@ -9,6 +9,7 @@ build: templates/chapters.html
 
 html: templates/chapters.html
 	quarto render --to html
+	./adjust-canonical-urls.sh
 
 docx: templates/chapters.html
 	quarto render --to docx

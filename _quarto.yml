@@ -42,6 +42,7 @@ format:
     css: style.css
     link-external-icon: true
     email-obfuscation: javascript
+    header-includes: '<link rel="canonical" href="https://it-in-bibliotheken.de/?_KAPITEL_" />'
     include-before-body: templates/chapters.html
     include-after-body: templates/script.html
     callout-appearance: simple
