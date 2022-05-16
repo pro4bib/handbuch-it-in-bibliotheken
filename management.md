@@ -6,7 +6,9 @@ dargestellt. Die Lebenszyklus eines IT-Systems bildet den Auftakt der
 Übersicht. Weiter werden Themen wie Betriebssicherheit und
 Risikomanagement sowie rechtliche Rahmenbedingungen betrachtet. Den
 Abschluss des Kapitels bilden Ausführungen zu notwendigen
-[IT-Kompetenzen](#kompetenzen), zur [IT-Organisation](#organisation) sowie zu [Aus- und Weiterbildung](#aus--und-weiterbildung).
+[IT-Kompetenzen](#kompetenzen), zur [IT-Organisation](#organisation) sowie zu [Aus- und Weiterbildung](#aus--und-weiterbildung). 
+Ein Kapitel zur IT-Basis-Infrastruktur ist in Planung, die entsprechenden Themen werden später dort behandelt.
+
 
 ## IT-Systeme
 
