@@ -61,7 +61,7 @@
 
 Korrekturen und Kommentare können wie folgt vorgenommen werden:
 
-* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfliessen
+* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfließen
   
   Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
 
