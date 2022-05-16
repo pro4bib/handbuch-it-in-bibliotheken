@@ -332,7 +332,7 @@ Regel Implementierungsteams aus Anwender\*innen und
 Software-Betreuer\*innen bzw. Entwickler\*innen gebildet
 
 Die Arbeit dieser Implementierungsteams sollte idealerweise nach
-Grundlagen des Projektmanagements und des Lebenszyklus von [IT-Systemen](#Lebenszyklen-von-IT--Systemen) erfolgen, also unter Berücksichtigung
+Grundlagen des Projektmanagements und des [Lebenszyklus von IT-Systemen](#Lebenszyklen-von-IT--Systemen) erfolgen, also unter Berücksichtigung
 klarer Strukturen für die Planung, die Kommunikation und die Kontrolle.
 
 ### Organisation
