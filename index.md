@@ -74,10 +74,8 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
     Überblick geben. Für Details kann auf weiterführende Quellen
     verwiesen werden.
 
--   Zur Gewährleistung einer einheitlichen Form gibt es im Anhang einen [Styleguide](#styleguide).
-
-Weitere Hinweise zur Mitarbeit finden sich im git-repository in der Datei
-[CONTRIBUTING.md](https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/CONTRIBUTING.md).
+-   Weitere [Hinweise zur Mitarbeit](#mitarbeit) wie [Styleguide](#styleguide)
+    und Details zur Technischen Umsetzung des Handbuchs finden sich im Anhang.
 
 Kontaktinformationen und Neuigkeiten zum Projekt zur Erstellung des
 Handbuchs finden sich auf der Seite

@@ -1,8 +1,43 @@
-# Hinweise zur Mitarbeit
+Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizensierung](#lizenz) der eigenen Beiträge. Technische Details sind im Abschnitt zum [git-Repository] zusammengefasst.
+
+## Arbeitsablauf
+
+Der aktuelle Workflow beinhaltet folgende Schritte:
+
+Schreiben
+  : Neue Themen werden durch Gruppen im Rahmen von Book Sprints erstellt. Als Werkzeug zum freien Schreiben dient dabei beispielsweise Google Docs.
+
+Lektorat
+  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#git-repository) des Handbuch abgelegt. Anschließend werden daraus Word-Dateien erstellt (DOCX) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new) oder per Hinweis an die Autor*innen erfolgen.
+
+Redaktion
+  : Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Drive einarbeiten und die DOCX-Datei aktualisieren.
+
+Publikation
+  : Änderungen an der Markdown-Dateien im git-Repository führen dazu dass das Buch mittels [quarto] in HTML und anderen Formaten aus den Quellen zusammengebaut wird.
+
+<!-- TODO:
+
+Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
+
+* In den Google-Snapshots fertiger Kapitel, möglichst als Kommentare (erfordert händische Nacharbeit durch Redaktion um Änderungen in die Markdown-Quellen einzuarbeiten).
+
+* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfließen
+  
+  Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
+
+-->
+
+[quarto]: https://quarto.org/
 
 ## Styleguide {#styleguide} 
 
-### Stil und Aktualität {.unnumbered}
+Zur Gewährleistung einer einheitlichen Form enthält dieser Styleguide allgemeine Hinweise zu Stil, Schreibweise und Struktur sowie Vorgaben zu besonderen Inhalten wie [Glossar]
+Angaben 
+
+Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen 
+
+### Stil und Aktualität {#schreibstil}
 
 -   **Journalistische oder enzyklopädische Neutralität sind nicht oberstes Prinzip dieses Buches.** Es soll vielmehr fundiert und praxisorientiert informieren und beraten und darf dabei auch parteiisch sein.
 
@@ -32,7 +67,7 @@
 -   Externe Links, die nur auf Anbieter oder andere Websites verweisen, werden inline verlinkt, also ein Link auf das Wort gesetzt statt
     einer Fußnote.
 
-### Struktur {.unnumbered}
+### Struktur
 
 -   Wir verwenden kurze, unverschachtelte Sätze.
 
@@ -56,36 +91,39 @@
 
 -   Zusätzlich können verschieden Arten von Infoboxen verwendet werden (siehe <https://quarto.org/docs/authoring/callouts.html>)
 
+### Bilder und andere Medien
 
-## Korrekturen und Kommentare
+* Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository]. Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
 
-Korrekturen und Kommentare können wie folgt vorgenommen werden:
+* Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt werden.
 
-* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfließen
-  
-  Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
+* Bitte nutzt sprechende Dateinamen!
 
-* In den Google-Snapshots fertiger Kapitel, möglichst als Kommentare (erfordert händische Nacharbeit durch Redaktion um Änderungen in die Markdown-Quellen einzuarbeiten).
+### Glossar
 
-[quarto]: https://quarto.org/
+Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien (z.B. Googledocs, .docx) zur Hervorhebung *kursiv* gesetzt. Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip geändert (*ist geplant, siehe <https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7>*)
 
-## Workflow
+### Literaturverzeichnis
 
-Der aktuelle Workflow zur Erstellung des Handbuchs beinhaltet folgende Schritte:
+Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird mit Aufruf von `make refss` von dort heruntergeladen und unter `references.bib` gespeichert. Diese Datei sollte also nicht direkt bearbeitet werden!
 
-* **Freies Schreiben** in Google Docs oder einem anderen Werkzeug. 
+### Autor*innen-Verzeichnis
 
-* **Fertige Kapitel** werden [in einem Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) als docx-Dateien abgelegt. Die Links zum Kommentieren stehen in der Datei [`_grive/chapters.csv`](_gdrive/chapters.csv) und in [README.md](README.md).
+Wenn Du etwas beigetragen hast und möchtest, dass Du im Verzeichnis der Autor*innen auftauchst, trage Dich in der CSV-Datei [`contributors.csv`](contributors.csv) ein. Die Zeilen sollten nach Nachname sortiert werden. Die Spalten `email`, `position` und `orcid` sind optional.
 
-* **Download und Konvertierung nach Markdown** erfordert händische Anpassungen
+## git-Repository
 
-* **Konvertierung nach HTML und in andere Formate** mit [quarto].
+[git-Repository]: #git-repository
 
-* **Publikation**
+*Die Links in diesem Kapitel funktionieren u.A. nicht.*
 
-  Die Ergebnisdateien werden automatisch via GitHub und einen Server der VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
+Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>.
 
-## Verzeichnisstruktur
+Die Links zum Kommentieren stehen in der Datei [`_grive/chapters.csv`](_gdrive/chapters.csv) und in [README.md](README.md).
+
+Die Ergebnisdateien werden automatisch via GitHub und einen Server der VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
+
+### Verzeichnisstruktur
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
@@ -105,31 +143,8 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
 * `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe [README.md](_gdrive/README.md))
 
-## Bilder und andere Medien
 
-* Bilder und andere Mediendateien kommen in das Verzeichnis `media`. Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
-
-* Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt werden.
-
-* Bitte nutzt sprechende Dateinamen!
-
-## Glossar
-
-Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien (z.B. Googledocs, .docx) zur Hervorhebung *kursiv* gesetzt. Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip geändert (*ist geplant, siehe <https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7>*)
-
-## Literaturverzeichnis
-
-Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird mit Aufruf von `make refss` von dort heruntergeladen und unter `references.bib` gespeichert. Diese Datei sollte also nicht direkt bearbeitet werden!
-
-## Autor*innen-Verzeichnis
-
-Wenn Du etwas beigetragen hast und möchtest, dass Du im Verzeichnis der Autor*innen auftauchst, trage Dich in der CSV-Datei [`contributors.csv`](contributors.csv) ein. Die Zeilen sollten nach Nachname sortiert werden. Die Spalten `email`, `position` und `orcid` sind optional.
-
-## Lizenz
-
-Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung 3.0 Deutschland* ([CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden.
-
-## Konvertierung mit Quarto
+### Konvertierung mit Quarto
 
 Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) muss das Repository lokale geklont und Quarto installiert werden. Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
 
@@ -142,3 +157,10 @@ Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) m
 * `make docx` erzeugt nur DOCX in `_book`.
 
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero. 
+
+## Lizenz
+
+Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung 3.0 Deutschland* ([CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden.
+
+
+

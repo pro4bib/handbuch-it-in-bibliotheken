@@ -19,7 +19,7 @@ book:
   appendices:
     - glossar.md
     - zielgruppe.md
-    - styleguide.md
+    - mitarbeit.md
   sidebar:
     style: docked
     logo: media/VZG_Logo_Schriftzug.png
