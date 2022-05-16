@@ -7,7 +7,7 @@ dargestellt. Die Lebenszyklus eines IT-Systems bildet den Auftakt der
 Risikomanagement sowie rechtliche Rahmenbedingungen betrachtet. Den
 Abschluss des Kapitels bilden Ausführungen zu notwendigen
 [IT-Kompetenzen](#kompetenzen), zur [IT-Organisation](#organisation) sowie zu [Aus- und Weiterbildung](#aus--und-weiterbildung). 
-Ein Kapitel zur IT-Basis-Infrastruktur ist in Planung, die entsprechenden Themen werden später dort behandelt.
+Ein Kapitel zur IT-Basis-Infrastruktur (Netzwerke, Netzdienste, Server, Storage, Backup u.ä.) ist in Planung, die entsprechenden Themen werden später dort behandelt.
 
 
 ## IT-Systeme
@@ -300,6 +300,8 @@ regelmäßige Analyse der vorhandenen und benötigten IT-bezogenen
 Kompetenzen.
 
 Bei der Analyse sind folgende Bereiche zu unterscheiden:
+
+-   Basisinfrastruktur für Hard- und Software: Infrastruktur Netze/Hardware, Netzdienste, Server, Basis-Software, Storage, Backup
 
 -   Systemadministration: Installation und Betrieb
 
