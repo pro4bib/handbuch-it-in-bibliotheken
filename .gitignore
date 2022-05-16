@@ -1,3 +1,5 @@
 _gdrive/*.docx
 /_book/
+*.log
+index.tex
 /.quarto/

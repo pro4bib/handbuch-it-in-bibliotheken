@@ -1,5 +1,5 @@
 .sidebar-tools-main a.external:after,
-figure a.external:after {
+figure a.external:after, footer a.external:after {
   display: none;
 }
 figure > figcaption {
