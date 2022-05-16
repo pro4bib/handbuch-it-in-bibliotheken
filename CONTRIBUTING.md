@@ -14,7 +14,7 @@ Redaktion
   : Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Drive einarbeiten und die DOCX-Datei aktualisieren.
 
 Publikation
-  : Änderungen an der Markdown-Dateien im git-Repository führen dazu dass das Buch mittels [quarto] in HTML und anderen Formaten aus den Quellen zusammengebaut wird.
+  : Änderungen an der Markdown-Dateien im git-Repository führen dazu, dass das Buch mittels [quarto] in HTML und anderen Formaten aus den Quellen zusammengebaut wird.
 
 <!-- TODO:
 
