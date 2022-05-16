@@ -1,5 +1,17 @@
 # Hinweise zur Mitarbeit
 
+## Korrekturen und Kommentare
+
+Korrekturen und Kommentare können vorgenommen werden:
+
+* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfliessen
+  
+  Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
+
+* In den Google-Snapshots fertiger Kapiteln, möglichst als Kommentare (erfordert händische Nacharbeit durch Redaktion um Änderungen in die Markdown-Quellen einzuarbeiten).
+
+[quarto]: https://quarto.org/
+
 ## Workflow
 
 Der aktuelle Workflow zur Erstellung des Handbuchs beinhaltet folgende Schritte:
@@ -15,16 +27,6 @@ Der aktuelle Workflow zur Erstellung des Handbuchs beinhaltet folgende Schritte:
 * **Publikation**
 
   Die Ergebnisdateien werden automatisch via GitHub und einen Server der VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
-
-Korrekturen und Kommentare können vorgenommen werden:
-
-* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfliessen
-  
-  Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
-
-* In den Google-Snapshots fertiger Kapiteln, möglichst als Kommentare (erfordert händische Nacharbeit durch Redaktion um Änderungen in die Markdown-Quellen einzuarbeiten).
-
-[quarto]: https://quarto.org/
 
 ## Verzeichnisstruktur
 
@@ -76,7 +78,11 @@ Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) m
 
 * `make preview` konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
 
-* `make html` konvertiert das Handbuch nach HTML und legt das Ergebnis im Verzeichnis `_book` ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.
+* `make build` konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis `_book` ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.
+
+* `make html` erzeugt nur HTML in `_book`.
+
+* `make docx` erzeugt nur DOCX in `_book`.
 
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero. 
 
