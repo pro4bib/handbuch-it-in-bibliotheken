@@ -55,7 +55,7 @@ Ergebnis sind drei Hauptkapitel zu IT-Themen für Bibliotheken:
 
 Weitere Themen wie IT-Entwicklung, Forschungsunterstützung und Datenformate
 sind bisher nicht oder nur fragmentarisch behandelt. Um diese Kapitel zu
-vervollständigen und weitere Kapitel anzulegen sollen weitere Book Sprints
+vervollständigen und weitere Kapitel anzulegen, sollen weitere Book Sprints
 veranstaltet werden.
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
@@ -75,7 +75,7 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
     verwiesen werden.
 
 -   Weitere [Hinweise zur Mitarbeit](#mitarbeit) wie [Styleguide](#styleguide)
-    und Details zur Technischen Umsetzung des Handbuchs finden sich im Anhang.
+    und Details zur technischen Umsetzung des Handbuchs finden sich im Anhang.
 
 Kontaktinformationen und Neuigkeiten zum Projekt zur Erstellung des
 Handbuchs finden sich auf der Seite
