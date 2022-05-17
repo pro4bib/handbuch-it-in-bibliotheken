@@ -7,7 +7,6 @@ preview:
 build: templates/chapters.html
 	quarto render
 	./adjust-canonical-urls.sh
-	# make -C _gdrive update && cp _gdrive/*.docx _book
 
 html: templates/chapters.html
 	quarto render --to html
@@ -15,6 +14,10 @@ html: templates/chapters.html
 
 docx: templates/chapters.html
 	quarto render --to docx
+
+update:
+	make -C _gdrive update
+	ls _gdrive/*.docx
 
 # TODO: multiple requests with start=N when more than 100 references
 refs: references.bib
