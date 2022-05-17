@@ -21,50 +21,52 @@ werden jedoch immer komplexer und erfordern entsprechend mehr Wissen zu
 ihrem Aufbau und Betrieb. Während sich einige Teile der IT in
 Bibliotheken nicht wesentlich von IT in anderen Bereichen unterscheiden,
 gibt es doch zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht
-speziell genug an anderer Stelle behandelt werden. Vor allem zu den für
-Bibliotheken zentralen
-[Bibliotheksmanagementsystemen](#bibliotheksmanagementsysteme) fehlte
-bislang eine grundlegende Einführung.
+speziell genug an anderer Stelle behandelt werden, beispielsweise die
+zentralen [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme).
+
+## Inhalt
 
 Dieses Handbuch soll einen knappen, umfassenden Überblick über die
-wichtigsten IT-bezogenen Themen in Bibliotheken geben.
+wichtigsten IT-bezogenen Themen in Bibliotheken geben. Die vorliegende
+Version behandelt:
 
-## Über dieses Handbuch
-
-Die erste Version dieses Handbuchs wurde im Rahmen eines Book Sprints im
-April 2022 an der Bibliothek der Technischen Hochschule Wildau erstellt.
-Dazu trafen sich zwölf IT-affine Expert\*innen aus dem
-Bibliotheksbereich, um innerhalb von drei Tagen eine umfassende
-Übersicht speziell zum Thema Bibliotheksmanagementsysteme (BMS) zu
-verfassen. Weitere Autor\*innen wurden im Laufe der Veranstaltung
-eingebunden.
-
-Zur Klärung der Zielgruppe wurden einige sogenannte Personas definiert
-(siehe [Anhang](#zielgruppe)). Eine Brainstorming-Session ergab zunächst
-relevante Themen für den Teilbereich BMS und eine grobe Gliederung in
-Unterkapitel. Diese wurden anschließend in mehreren Iterationen
-gemeinsam ausformuliert. Das Ergebnis sind drei Hauptkapitel zu
-IT-Themen für Bibliotheken:
-
--   [Management von Bibliotheks-IT](#management)
+-   [Management von IT-Systemen](#management)
 
 -   [Anforderungen an Bibliotheks-IT](#anforderungen)
 
 -   [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme)
 
-Weitere Themen wie IT-Entwicklung, Forschungsunterstützung und
-Datenformate sind bisher nicht oder nur fragmentarisch behandelt. Um
-diese Kapitel zu vervollständigen und weitere Kapitel anzulegen, sollen
-weitere Book Sprints veranstaltet werden.
+Weitere Themen werden bis zur Vervollständigung des Handbuchs
+hinzukommen.
+
+## Über dieses Handbuch
+
+Die erste Version dieses Handbuchs wurde [im Rahmen eines Book
+Sprints](https://www.th-wildau.de/book-sprint/) im April 2022 an der
+Bibliothek der Technischen Hochschule Wildau erstellt. Dazu trafen sich
+zwölf IT-affine Expert\*innen aus dem Bibliotheksbereich, um innerhalb
+von drei Tagen eine umfassende Übersicht speziell zum Thema
+Bibliotheksmanagementsysteme (BMS) zu verfassen. Weitere Autor\*innen
+wurden im Laufe der Veranstaltung eingebunden.
+
+Zur Klärung der [Zielgruppe](#zielgruppe) wurden einige sogenannte
+*Personas* definiert. Eine Brainstorming-Session ergab zunächst
+relevante Themen für den Teilbereich
+[Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme) und eine
+grobe Gliederung in Unterkapitel. Diese wurden anschließend in mehreren
+Iterationen gemeinsam ausformuliert.
+
+Im Laufe des Schreibprozess wurden allgemeine Aspekte des [Management
+von IT-Systemen](#management) und [Anforderungen an
+Bibliotheks-IT](#anforderungen) in eigene Kapitel ausgegliedert. Weitere
+Themen wie IT-Entwicklung, Forschungsunterstützung und Datenformate sind
+bisher nicht oder nur fragmentarisch behandelt. Um diese Kapitel zu
+vervollständigen und weitere Kapitel anzulegen, sollen weitere Book
+Sprints veranstaltet werden.
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und
-aktualisiert werden kann. Die vorläufige Form basiert auf
-Markdown-Dokumenten, die aus Google Docs exportiert [in einem
-git-Repository](https://github.com/pro4bib/handbuch-it-in-bibliotheken/)
-verwaltet und von dort mittels [Quarto](https://quarto.org) in HTML und
-andere Publikationsformate konvertiert werden.
-
-Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
+aktualisiert werden kann. Bei der Bearbeitung sollten folgende
+Grundsätze beachtet werden:
 
 -   Wir verzichten auf individuelle Autorenschaft an einzelnen
     Textteilen. Alle können an allen Teilen mitarbeiten.
@@ -73,25 +75,26 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
     Überblick geben. Für Details kann auf weiterführende Quellen
     verwiesen werden.
 
--   Weitere [Hinweise zur Mitarbeit](#mitarbeit) wie
-    [Styleguide](#styleguide) und Details zur technischen Umsetzung des
-    Handbuchs finden sich im Anhang.
-
 Kontaktinformationen und Neuigkeiten zum Projekt zur Erstellung des
 Handbuchs finden sich auf der Seite
-<https://www.th-wildau.de/hochschule/zentrale-einrichtungen/hochschulbibliothek/ueber-die-bibliothek/projekte/book-sprint/>.
+<https://www.th-wildau.de/book-sprint/>.
+
+Weitere [Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
+Umsetzung des Handbuchs finden sich im Anhang.
 
 {{\< include \_contributors.md \>}}
 
 ## Rechte an den Inhalten des Buchs
 
 Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte
-dieses Buches unter der Lizenz Creative Commons Namensnennung 3.0
-Deutschland ([CC BY 3.0
-DE](https://creativecommons.org/licenses/by/3.0/de/)). Das heisst, Sie
-dürfen das Material in jedwedem Format oder Medium vervielfältigen und
-weiterverbreiten (Teilen) und das Material remixen, verändern und darauf
-aufbauen (Bearbeiten) und zwar für beliebige Zwecke, inklusive
-kommerzielle Zwecke, unter der Bedingung, dass Sie angemessene
-Urheber\*innen- und Rechteangaben machen, einen Link zur Lizenz beifügen
-und angeben, ob Änderungen vorgenommen wurden (Namensnennung).
+dieses Buches unter der Lizenz [Creative Commons Namensnennung 3.0
+Deutschland](https://creativecommons.org/licenses/by/3.0/de/) (CC-BY 3.0
+DE).
+
+Das heisst: Sie dürfen das Material in jedwedem Format oder Medium
+vervielfältigen und weiterverbreiten (Teilen) und das Material remixen,
+verändern und darauf aufbauen (Bearbeiten) und zwar für beliebige
+Zwecke, inklusive kommerzielle Zwecke, unter der Bedingung, dass Sie
+angemessene Urheber\*innen- und Rechteangaben machen, einen Link zur
+Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden
+(Namensnennung).

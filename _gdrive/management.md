@@ -1,16 +1,19 @@
 # Management von IT-Systemen
 
-Zur Einführung in die Thematik werden im folgenden Abschnitt
-verschiedene Aspekte des Managements von IT-Systemen in Bibliotheken
-dargestellt. Die Lebenszyklus eines IT-Systems bildet den Auftakt der
-Übersicht. Weiter werden Themen wie Betriebssicherheit und
-Risikomanagement sowie rechtliche Rahmenbedingungen betrachtet. Den
-Abschluss des Kapitels bilden Ausführungen zu notwendigen
-[IT-Kompetenzen](#kompetenzen), zur [IT-Organisation](#organisation)
-sowie zu [Aus- und Weiterbildung](#aus--und-weiterbildung). Ein Kapitel
-zur IT-Basis-Infrastruktur (Netzwerke, Netzdienste, Server, Storage,
-Backup u.ä.) ist in Planung, die entsprechenden Themen werden später
-dort behandelt.
+IT-Systeme sind selten statisch sondern folgen einem
+[Lebenszyklus](#lebenszyklen-von-it-systemen) von Planung bis zu ihrer
+Ablösung. Beim Betrieb müssen mögliche
+[Risiken](#betriebssicherheit-und-risikomanagement) beachtet und
+[rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen)
+eingehalten werden. In Bibliotheken sind daher entsprechende
+[IT-Kompetenzen](#kompetenzen) und ein [organisatorischer
+Rahmen](#organisation) notwendig. Um diesen Anforderungen begenen zu
+können, gibt es Möglichkeiten zur [Aus- und
+Weiterbildung](#aus--und-weiterbildung).
+
+Dieses Kapitel konzentriert sich auf den Einsatz von IT-Systemen in
+Bibliotheken. Ein Kapitel zur IT-Basis-Infrastruktur (Netzwerke,
+Netzdienste, Server, Storage, Backup u.ä.) ist in Planung.
 
 ## IT-Systeme
 
@@ -45,6 +48,12 @@ Zur Planungs- und Analysephase gehört neben einer grundsätzlichen
 Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
 Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und
 rechtlicher Rahmenbedingungen.
+
+Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
+getroffen ist, bevor überhaupt klar ist welches Problem damit gelöst
+werden soll. Trotzdem macht es Sinn, die Einführung mit einer offenen
+Planung und Analyse zu beginnen, und danach zu überprüfen, welche
+Anforderungen das System tatsächlich abdecken kann.
 
 #### Design/Prototyping
 
@@ -354,6 +363,11 @@ IT-Systemen](#Lebenszyklen-von-IT-Systemen) erfolgen, also unter
 Berücksichtigung klarer Strukturen für die Planung, die Kommunikation
 und die Kontrolle. Siehe dazu auch das Kapitel \[IT-Entwicklung\].
 
+Niemand kommt als IT-Expert\*in auf die Welt und es ist praktisch
+unmöglich bei allen Entwicklungen auf dem Laufenden zu bleiben.
+Versuchen Sie ihre Kompetenzen realistisch einzuschätzen und scheuen Sie
+sich nicht Kolleg\*innen um Rat zu fragen!
+
 ### Organisation
 
 Größere Bibliotheken haben in der Regel eigene IT-Abteilungen, die
@@ -471,15 +485,18 @@ Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier
 
 -   Bibliothekstage und -konferenzen
 
--   Tagung der European Library Automation Group (ELAG)
+-   Tagung der [European Library Automation Group](https://elag.org)
+    (ELAG)
 
--   Code4Lib-Konferenzen in den USA
+-   [Code4Lib-Konferenzen](htts://code4lib.org/conference/) in den USA
 
--   Access Conference in Kanada
+-   [Access Conference](https://accessconference.ca/) in Kanada
 
--   UKSG Annual Conference in Großbritannien
+-   [UKSG Annual
+    Conference](https://www.uksg.org/events/annualconference) in
+    Großbritannien
 
--   Jahrestreffen der UXLibs in Großbritannien
+-   Jahrestreffen der [UXLibs](http://uxlib.org/) in Großbritannien
 
 Die wichtigste Rolle bei der Qualifizierung für die Aufgaben im Bereich
 Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle

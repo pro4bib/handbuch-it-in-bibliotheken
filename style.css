@@ -10,6 +10,10 @@ div.csl-entry {
   margin-bottom: 0.5em;
 }
 
+.callout {
+  color: #747a7f;
+}
+
 @media (min-width: 992px) {
   body.docked .page-columns {
     display: grid;
