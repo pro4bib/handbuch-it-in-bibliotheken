@@ -2,9 +2,7 @@
 
 :::{.callout-note}
 
-*Dieses Kapitel definiert den Begriff des Bibliotheksmanagementsystems,
-erläutert die gängigen Komponenten und beschreibt die Entwicklung seit
-1960.*
+Bibliotheksmanagementsysteme sind IT-Systeme, die die Kernprozesse einer Bibliothek unterstützen. Das modular aufgebaute System verfügt über verschiedene [Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung, Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die [Entwicklungsgeschichte](#geschichte) der Managementsysteme in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den Managementsystemen ist auch die [Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration anderer Systeme](#integration).
 
 :::
 
@@ -383,7 +381,7 @@ kann und sollte kritisch hinterfragt werden. Beispielsweise gab es
 Utrecht](https://insights.uksg.org/articles/10.1629/2048-7754.174/),
 auf dieses klassische Instrument gänzlich zu verzichten.
 
-### Integration des BMS mit anderen IT-Systemen
+### [Integration des BMS mit anderen IT-Systemen][integration]
 
 Innerhalb der Bibliothek werden BMS meist zusammen mit anderen
 Softwaresystemen eingesetzt. Insbesondere sind dies:
