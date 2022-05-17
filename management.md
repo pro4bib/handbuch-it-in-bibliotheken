@@ -3,8 +3,8 @@
 ::: {.callout-note}
 
 IT-Systeme sind selten statisch sondern folgen einem
-[Lebenszyklus](#lebenszyklen-von-it-systemen) von Planung bis zu ihrer
-Ablösung. Beim Betrieb müssen mögliche
+[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu ihrer
+Ablösung. Während des Betriebs der Systeme müssen mögliche
 [Risiken](#betriebssicherheit-und-risikomanagement) beachtet und [rechtliche
 Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
 Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und ein
@@ -51,9 +51,9 @@ rechtlicher Rahmenbedingungen.
 ::: {.callout-tip}
 
 Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
-getroffen ist, bevor überhaupt klar ist welches Problem damit gelöst werden
-soll. Trotzdem macht es Sinn, die Einführung mit einer offenen Planung und
-Analyse zu beginnen, und danach zu überprüfen, welche Anforderungen
+getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
+soll. Auch in diesem Fall ist es sinnvoll, die Einführung mit einer offenen Planung und
+Anforderungsanalyse zu beginnen, und danach zu prüfen, welche Anforderungen
 das System tatsächlich abdecken kann.
 
 :::
