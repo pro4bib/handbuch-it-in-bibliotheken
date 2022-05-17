@@ -7,9 +7,8 @@ preview:
 build: templates/chapters.html
 	quarto render
 	./adjust-canonical-urls.sh
-	make -C _gdrive update
-	cp _gdrive/*.docx _book
-
+	#make -C _gdrive update	# TODO: pandoc not installed at GitHub actions
+	#cp _gdrive/*.docx _book
 
 html: templates/chapters.html
 	quarto render --to html

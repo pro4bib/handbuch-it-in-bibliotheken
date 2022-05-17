@@ -12,13 +12,13 @@ book:
     - issue
   chapters:
     - index.md  # = einleitung.md
-      #    - management.md
-      #    - anforderungen.md
-      #    - bibliotheksmanagementsysteme.md
-      #    - literatur.md
+    - management.md
+    - anforderungen.md
+    - bibliotheksmanagementsysteme.md
+    - literatur.md
   appendices:
-    #    - glossar.md
-    #    - zielgruppe.md
+    - glossar.md
+    - zielgruppe.md
     - mitarbeit.md
   sidebar:
     style: docked
