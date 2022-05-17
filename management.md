@@ -9,7 +9,7 @@ Ablösung. Während des Betriebs der Systeme müssen mögliche
 Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
 Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und ein
 [organisatorischer Rahmen](#organisation) notwendig.  Um diesen Anforderungen
-begenen zu können, gibt es Möglichkeiten zur [Aus- und
+begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
 :::
