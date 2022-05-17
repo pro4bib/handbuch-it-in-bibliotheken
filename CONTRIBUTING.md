@@ -1,6 +1,6 @@
 Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizensierung](#lizenz) der eigenen Beiträge. Technische Details sind im Abschnitt zum [git-Repository] zusammengefasst.
 
-## Arbeitsablauf
+## Arbeitsablauf {.unnumbered}
 
 Der aktuelle Workflow beinhaltet folgende Schritte:
 
@@ -30,14 +30,14 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 
 [quarto]: https://quarto.org/
 
-## Styleguide {#styleguide} 
+## Styleguide {#styleguide .unnumbered} 
 
 Zur Gewährleistung einer einheitlichen Form enthält dieser Styleguide allgemeine Hinweise zu Stil, Schreibweise und Struktur sowie Vorgaben zu besonderen Inhalten wie [Glossar]
 Angaben 
 
 Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen 
 
-### Stil und Aktualität {#schreibstil}
+### Stil und Aktualität {#schreibstil .unnumbered}
 
 -   **Journalistische oder enzyklopädische Neutralität sind nicht oberstes Prinzip dieses Buches.** Es soll vielmehr fundiert und praxisorientiert informieren und beraten und darf dabei auch parteiisch sein.
 
@@ -67,7 +67,7 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 -   Externe Links, die nur auf Anbieter oder andere Websites verweisen, werden inline verlinkt, also ein Link auf das Wort gesetzt statt
     einer Fußnote.
 
-### Struktur
+### Struktur {.unnumbered}
 
 -   Wir verwenden kurze, unverschachtelte Sätze.
 
@@ -91,7 +91,7 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 
 -   Zusätzlich können verschieden Arten von Infoboxen verwendet werden (siehe <https://quarto.org/docs/authoring/callouts.html>)
 
-### Bilder und andere Medien
+### Bilder und andere Medien {.unnumbered}
 
 * Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository]. Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
 
@@ -99,19 +99,19 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 
 * Bitte nutzt sprechende Dateinamen!
 
-### Glossar
+### Glossar {.unnumbered}
 
 Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien (z.B. Googledocs, .docx) zur Hervorhebung *kursiv* gesetzt. Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip geändert (*ist geplant, siehe <https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7>*)
 
-### Literaturverzeichnis
+### Literaturverzeichnis {.unnumbered}
 
 Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird mit Aufruf von `make refss` von dort heruntergeladen und unter `references.bib` gespeichert. Diese Datei sollte also nicht direkt bearbeitet werden!
 
-### Autor*innen-Verzeichnis
+### Autor\*innen-Verzeichnis {.unnumbered}
 
 Wenn Du etwas beigetragen hast und möchtest, dass Du im Verzeichnis der Autor*innen auftauchst, trage Dich in der CSV-Datei [`contributors.csv`](contributors.csv) ein. Die Zeilen sollten nach Nachname sortiert werden. Die Spalten `email`, `position` und `orcid` sind optional.
 
-## git-Repository
+## git-Repository {.unnumbered}
 
 [git-Repository]: #git-repository
 
@@ -123,7 +123,7 @@ Die Links zum Kommentieren stehen in der Datei [`_grive/chapters.csv`](_gdrive/c
 
 Die Ergebnisdateien werden automatisch via GitHub und einen Server der VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
 
-### Verzeichnisstruktur
+### Verzeichnisstruktur {.unnumbered}
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
@@ -144,7 +144,7 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 * `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe [README.md](_gdrive/README.md))
 
 
-### Konvertierung mit Quarto
+### Konvertierung mit Quarto {.unnumbered}
 
 Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) muss das Repository lokale geklont und Quarto installiert werden. Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
 
@@ -158,9 +158,7 @@ Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) m
 
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero. 
 
-## Lizenz
+## Lizenz {.unnumbered}
 
 Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung 3.0 Deutschland* ([CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden.
-
-
 

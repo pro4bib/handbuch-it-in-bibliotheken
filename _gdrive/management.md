@@ -1,4 +1,4 @@
-# Management
+# Management von IT-Systemen
 
 Zur Einführung in die Thematik werden im folgenden Abschnitt
 verschiedene Aspekte des Managements von IT-Systemen in Bibliotheken
@@ -6,7 +6,11 @@ dargestellt. Die Lebenszyklus eines IT-Systems bildet den Auftakt der
 Übersicht. Weiter werden Themen wie Betriebssicherheit und
 Risikomanagement sowie rechtliche Rahmenbedingungen betrachtet. Den
 Abschluss des Kapitels bilden Ausführungen zu notwendigen
-IT-Kompetenzen, zur IT-Organisation sowie zu Aus- und Weiterbildung.
+[IT-Kompetenzen](#kompetenzen), zur [IT-Organisation](#organisation)
+sowie zu [Aus- und Weiterbildung](#aus--und-weiterbildung). Ein Kapitel
+zur IT-Basis-Infrastruktur (Netzwerke, Netzdienste, Server, Storage,
+Backup u.ä.) ist in Planung, die entsprechenden Themen werden später
+dort behandelt.
 
 ## IT-Systeme
 
@@ -14,7 +18,7 @@ IT-Kompetenzen, zur IT-Organisation sowie zu Aus- und Weiterbildung.
 
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet (siehe
-Abbildung XX). Die wesentlichen Phasen im klassischen Lebenszyklus eines
+Abbildung 1). Die wesentlichen Phasen im klassischen Lebenszyklus eines
 IT-Systems werden im Folgenden näher betrachtet.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
@@ -22,11 +26,11 @@ angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![SDLC-Skizze
+![Abbildung 1 SDLC-Skizze
 (Platzhalter)](media/rId23.png){width="3.3333333333333335in"
 height="2.5in"}
 
-SDLC-Skizze (Platzhalter)
+*Abbildung 1* SDLC-Skizze (Platzhalter)
 
 #### Planung und Analyse
 
@@ -62,9 +66,9 @@ zunächst in ein Testsystem und in der Folge in das produktive System
 
 In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt
 mit den gewünschten Features, während nutzer\*innenorientierte
-Vorgehensmodelle (siehe Kapitel [Anforderungen an
-Bibliotheks-IT](#anforderungen)) hier auf einen iterativen Prozess
-setzen, welcher Produktiterationen häufiger bereitstellt und evaluiert.
+Vorgehensmodelle (siehe Kapitel [Anforderungen](#anforderungen)) hier
+auf einen iterativen Prozess setzen, welcher Produktiterationen häufiger
+bereitstellt und evaluiert.
 
 #### Test und Integration
 
@@ -72,10 +76,10 @@ Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests
 und die Integration des entwickelten bzw. erworbenen Systems in die
 Zielumgebung durchgeführt. Im Falle der Inanspruchnahme eines
 Dienstleisters wird hier auch dessen Leistung final abgenommen, wenn das
-System erfolgreich produktiv gesetzt werden kann.
+System erfolgreich produktiv in Betrieb genommen werden kann.
 
-Während der Tests wird die Korrektheit des Systems sowie die Umsetzung
-der Anforderungen geprüft.
+Während der Tests wird korrekte Umsetzen der Anforderungen sowie die
+Umsetzung der Anforderungen geprüft.
 
 #### Wartung
 
@@ -92,13 +96,13 @@ illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
-![Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel
-der Staatsbibliothek zu Berlin
+![Abbildung 2 Verweildauer von Bibliothekssystemen in der Wartungsphase
+am Beispiel der Staatsbibliothek zu Berlin
 (Platzhalter)](media/rId30.png){width="3.3333333333333335in"
 height="2.5in"}
 
-Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel
-der Staatsbibliothek zu Berlin (Platzhalter)
+*Abbildung 2* Verweildauer von Bibliothekssystemen in der Wartungsphase
+am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)
 
 #### Ablösung
 
@@ -130,8 +134,8 @@ Beispiel:
     proprietärer Software) oder
 
 -   die De-Facto-Unwartbarkeit durch den Wegfall geeigneten Personals
-    mit Spezialkenntnissen (z.B. veralteter Programmiersprachen, siehe
-    dazu auch Abschnitt [Ressourcenplanung](#ressourcenplanung)
+    mit Spezialkenntnissen (z.B. veralteter Programmiersprachen), siehe
+    dazu auch den Abschnitt [Ressourcenplanung](#ressourcenplanung)
 
 Letztlich führen all diese Punkte zur Abschaltung eines IT-Systems
 aufgrund von IT-Sicherheitsproblemen, da diese Einbrüche in die Systeme
@@ -176,8 +180,8 @@ zu beheben und dafür auch proprietäre Software zu dekompilieren.
 
 In der Praxis sollte dieses Notfallszenario aber nicht in die Planung
 einbezogen werden, da die Fehlerbehebung innerhalb fremder Software
-unter dem Rückgriff auf Dekompilierung grundlegende Kenntnisse seitens
-des zuständigen IT-Personals voraussetzt.
+unter dem Rückgriff auf Dekompilierung besondere Kenntnisse seitens des
+zuständigen IT-Personals voraussetzt.
 
 #### Software-Abhängigkeiten
 
@@ -185,13 +189,13 @@ Sowohl der Betrieb von proprietärer als auch von Open-Source-Software
 ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
 Schichtmodells des Betriebs eines IT-Systems illustrieren (siehe
-Abbildung XX).
+Abbildung 3).
 
-![Schichtmodell-Bild
+![Abbildung 3 Schichtmodell-Bild
 (Platzhalter)](media/rId39.png){width="3.3333333333333335in"
 height="2.5in"}
 
-Schichtmodell-Bild (Platzhalter)
+*Abbildung 3* Schichtmodell-Bild (Platzhalter)
 
 Aus der Abbildung wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
@@ -237,7 +241,7 @@ Anforderungen erfüllen:
 > Erwartungskonformität, Individualisierbarkeit, Lernförderlichkeit*
 > beachtet und realisiert werden."[^2]
 
-Die Erreichung dieser Ziel wird separat im Kapitel [Anforderungen an
+Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
 Bibliotheks-IT](#anforderungen) thematisiert.
 
 #### Barrierefreiheit
@@ -289,7 +293,7 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
     Suchmaschinenranking nieder, da Suchmaschinen diesen Aspekt zur
     Bewertung heranziehen.[^3]
 
-## Bibliotheks-IT
+## Management der Bibliotheks-IT
 
 Die Auswahl und Implementierung sowie der Betrieb von digitalen Diensten
 ist ein stetig wachsender Aufgabenbereich für Bibliotheken. Durch den
@@ -312,6 +316,9 @@ regelmäßige Analyse der vorhandenen und benötigten IT-bezogenen
 Kompetenzen.
 
 Bei der Analyse sind folgende Bereiche zu unterscheiden:
+
+-   Basisinfrastruktur für Hard- und Software: Infrastruktur
+    Netze/Hardware, Netzdienste, Server, Basis-Software, Storage, Backup
 
 -   Systemadministration: Installation und Betrieb
 
@@ -342,8 +349,10 @@ Regel Implementierungsteams aus Anwender\*innen und
 Software-Betreuer\*innen bzw. Entwickler\*innen gebildet
 
 Die Arbeit dieser Implementierungsteams sollte idealerweise nach
-Grundlagen des Projektmanagements erfolgen, also unter Berücksichtigung
-klarer Strukturen für die Planung, die Kommunikation und die Kontrolle.
+Grundlagen des Projektmanagements und des [Lebenszyklus von
+IT-Systemen](#Lebenszyklen-von-IT-Systemen) erfolgen, also unter
+Berücksichtigung klarer Strukturen für die Planung, die Kommunikation
+und die Kontrolle. Siehe dazu auch das Kapitel \[IT-Entwicklung\].
 
 ### Organisation
 
@@ -414,11 +423,11 @@ Folgenden ausführlicher betrachtet.
 
 In der Einleitung wird Cody Hanson zitiert: „Most importantly, all
 library staff must understand that our software is our library, and is
-everyone's responsibility." Bezogen auf Einarbeitung und Weiterbildung
-bedeutet das, dass sich Mitarbeitende mit der (Weiter-)Entwicklung von
-Software ebenfalls weiterbilden und weiterentwickeln. Nur so kann die
-Verantwortung von allen Mitarbeitenden mit Bezug zur Bibliotheks-IT
-gemeinsam getragen werden.
+everyone's responsibility."[^4] Bezogen auf Einarbeitung und
+Weiterbildung bedeutet das, dass sich Mitarbeitende mit der
+(Weiter-)Entwicklung von Software ebenfalls weiterbilden und
+weiterentwickeln. Nur so kann die Verantwortung von allen Mitarbeitenden
+mit Bezug zur Bibliotheks-IT gemeinsam getragen werden.
 
 Nachfolgend werden aktuelle Beispiele zur Aus- und Weiterbildungen mit
 Bezug bibliothekarischen IT-Bereich aufgeführt. Nicht betrachtet werden
@@ -431,8 +440,8 @@ Historisch gibt es keine formalisierte Ausbildung für die erwähnten
 Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
 klassischerweise im Rahmen von "Training on the Job" erworben.
 
-Aktuell gibt es jedoch mehrere akademische Ausbildungsangebote für die
-Arbeit in der Bibliotheks-IT:
+Aktuell (Stand 2022) gibt es jedoch mehrere akademische
+Ausbildungsangebote für die Arbeit in der Bibliotheks-IT:
 
 -   berufsbegleitende Master-Studiengänge: TH Wildau
     (Bibliotheksinformatik), HWTK Leipzig, HdM Stuttgart (Data Science)
@@ -462,7 +471,9 @@ Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier
 
 -   Bibliothekstage und -konferenzen
 
--   Tagung der European Library Automation Group
+-   Tagung der European Library Automation Group (ELAG)
+
+-   Code4Lib-Konferenzen in den USA
 
 -   Access Conference in Kanada
 
@@ -477,7 +488,7 @@ Weiterbildungsformen sind
 -   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, Kitodo,
     OPUS, ...
 
--   Library Carpentries: Neues Format..
+-   Library Carpentries
 
 -   Mailinglisten, Foren und andere Kommunikationskanäle
 
@@ -513,3 +524,5 @@ rekrutieren müssen.
     Leitfaden für die Gestaltung", Abschnitt 8.5
 
 [^3]: <https://developers.google.com/search/blog/2020/05/evaluating-page-experience>
+
+[^4]: <https://www.codyh.com/writing/software.html>
