@@ -42,10 +42,14 @@ for (<$fh>) {
         }
 
         say "\n# $chapter";
-        if (system("pandoc $source -o $chapter.docx -M lang=de && make $chapter.md")) {
-            if (system("git diff --quiet --exit-code $chapter.md")) {
-                say "Die Datei $chapter.docx muss nach Google Drive hochgeladen werden um https://docs.google.com/document/d/$fileid zu ersetzen";
-                say "Anschließend kann $chapter.md gespeichert werden (`git add $chapter.md; git commit`)";
+        if (system("quarto render $source -t docx -o $chapter.docx -M lang=de")) {
+            if (system("which pandoc && make $chapter.md")) {
+                if (system("git diff --quiet --exit-code $chapter.md")) {
+                    say "Die Datei $chapter.docx muss nach Google Drive hochgeladen werden um https://docs.google.com/document/d/$fileid zu ersetzen";
+                    say "Anschließend kann $chapter.md gespeichert werden (`git add $chapter.md; git commit`)";
+                }
+            } else {
+                say "$chapter.docx aktualisiert";
             }
         }
     }
