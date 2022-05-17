@@ -22,7 +22,7 @@ book:
     - mitarbeit.md
   sidebar:
     style: docked
-    logo: media/VZG_Logo_Schriftzug.png
+    #logo: ...
   # abstract: TODO
   # description: Description metadata for HTML version of book
   page-footer: 
