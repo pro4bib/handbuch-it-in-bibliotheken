@@ -1,0 +1,52 @@
+#!/usr/bin/perl
+use v5.14.1;
+
+my $command = shift @ARGV || 'list';
+
+if ($command !~ /^download|update|list$/) {
+    say "Usage: $0 [download|update|list] <all|chapter...>";
+    exit 1;
+}
+
+open my $fh, '<', 'chapters.csv' or die "Kann chapters.csv nicht lesen";
+
+for (<$fh>) {
+    chomp;
+    my ( $chapter, $url, $source ) = split ',', $_;
+    $source ||= $chapter;
+
+    if ( "$chapter$source" !~ /^[a-z-]+$/i || $url !~ qr{^https://docs\.google\.com/document/d/([A-Za-z_0-9-]+)/edit} ) {
+        warn "Kapitelsource oder Google URL passt so nocht: $_\n";
+        exit 1;
+    }
+    my $fileid = $1;
+
+    if ($command eq 'list') {
+        say $source eq $chapter ? $source : "$chapter = $source";
+        next;
+    }
+    
+    if ($ARGV[0] ne 'all' && ! grep { $_ eq $source || $_ eq $chapter } @ARGV) {
+        next;
+    }
+
+    if ($command eq 'download') {
+        say $fileid;
+        `wget \"https://docs.google.com/document/u/0/export?format=docx&id=$fileid\" -O $chapter.docx`;
+        sleep 2;
+    } elsif ($command eq 'update') {
+        $source = "../$source.md";
+        if ( ! -e $source ) {
+            warn "Kapiteldatei nicht gefunden: $source\n"; 
+            exit 1;
+        }
+
+        say "\n# $chapter";
+        if (system("pandoc $source -o $chapter.docx -M lang=de && make $chapter.md")) {
+            if (system("git diff --quiet --exit-code $chapter.md")) {
+                say "Die Datei $chapter.docx muss nach Google Drive hochgeladen werden um https://docs.google.com/document/d/$fileid zu ersetzen";
+                say "Anschließend kann $chapter.md gespeichert werden (`git add $chapter.md; git commit`)";
+            }
+        }
+    }
+}

@@ -9,7 +9,7 @@ markdown: $(MARKDOWN)
 	pandoc -t markdown $< > $@
 
 download:
-	./download-chapters < chapters.csv
+	./chapter download all
 
 update:
-	./update-chapters < chapters.csv
+	./chapter update all

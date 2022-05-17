@@ -19,7 +19,7 @@ Alle Kapitel herunterladen:
 
 Alternativ nur ein Kapitel herunterladen:
 
-    grep einleitung chapters.csv | ./download-chapters
+    ./chapter download einleitung
 
 Vorhandene Kapitel nach Markdown konvertieren (Roh-Konvertierung):
 
@@ -37,7 +37,7 @@ Die Änderungen müssen per Hand in die ensprechenden Markdown-Dateien im Wurzel
 
 Alternativ nur ein Kapitel:
 
-    grep einleitung chapters.csv | ./update-chapters
+    ./chapter update einleitung
 
 Das Aktualisieren der docx-Datei muss auf Google Drive hochgeladen und der Stand der Roh-Konvertierung aktualisiert werden (siehe Ausgabe des update-Skript).
 
