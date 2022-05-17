@@ -5,7 +5,7 @@
 
 Dieses git-Repository enthält den Quelltext des *Handbuch IT in Bibliotheken*. Die Publikation befindet sich noch in der Entwicklungsphase. Nach einem ersten Booksprint stehen die ersten Kapitel zum Korrekturlesen und Feedback bereit.
 
-Weiter Informationen zum Handbuch gibt es auf der Projektseite <https://www.th-wildau.de/book-sprint/>.
+Weitere Informationen zum Handbuch gibt es auf der Projektseite <https://www.th-wildau.de/book-sprint/>.
 
 Die HTML-Version des gesamten Handbuchs in der aktuellsten Arbeitsversion ist unter <https://it-in-bibliotheken.de/> einsehbar.
 
