@@ -5,6 +5,8 @@ book:
   title: Handbuch IT in Bibliotheken
   #author: ...
   date: today
+  downloads:
+    - docx
   repo-url: https://github.com/pro4bib/handbuch-it-in-bibliotheken/
   repo-actions:
     - source
