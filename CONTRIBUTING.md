@@ -8,7 +8,7 @@ Schreiben
   : Neue Themen werden durch Gruppen im Rahmen von Book Sprints erstellt. Als Werkzeug zum freien Schreiben dient dabei beispielsweise Google Docs.
 
 Lektorat
-  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#git-repository) des Handbuch abgelegt. Anschließend werden daraus Word-Dateien erstellt (DOCX) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new) oder per Hinweis an die Autor*innen erfolgen.
+  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#git-repository) des Handbuch abgelegt. Anschließend werden daraus Word-Dateien erstellt (DOCX) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) oder per Hinweis an die Autor*innen erfolgen.
 
 Redaktion
   : Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Drive einarbeiten und die DOCX-Datei aktualisieren.
