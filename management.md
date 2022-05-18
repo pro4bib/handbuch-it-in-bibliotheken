@@ -256,20 +256,20 @@ Anwender\*innen nutzbar sein sollte. Diese grundlegende Anforderung
 bezeichnet man als Barrierefreiheit bzw. Accessibility.
 
 Während Barrierefreiheit häufig mit einem sehr engen Behinderungsbegriff
-assoziiert wird, wie z.B. die Rampe für Rollstuhlfahrer\*innen, ist
-dieser Begriff mittlerweile aufgrund der gesetzlichen Grundlagen in
-Deutschland wesentlich weiter zu fassen (siehe §3
-Behindertengleichstellungsgesetz). So leiten sich z.B. auch
-Anforderungen an Angebote in Leichter Sprache o.ä. aus diesem weiten
-Behinderungsbegriff ab.
+assoziiert wird, wie z.B. die Rampe für Rollstuhlfahrer\*innen, ist dieser
+Begriff mittlerweile aufgrund der gesetzlichen Grundlagen in Deutschland
+wesentlich weiter zu fassen (siehe [§3
+Behindertengleichstellungsgesetz](https://www.gesetze-im-internet.de/bgg/__3.html)).
+So leiten sich z.B. auch Anforderungen an Angebote in Leichter Sprache o.ä. aus
+diesem weiten Behinderungsbegriff ab.
 
-Aufbauend auf der einschlägigen Gesetzgebung regelt die BITV 2.0
-(Verordnung zur Schaffung barrierefreier Informationstechnik nach dem
+Aufbauend auf der einschlägigen Gesetzgebung regelt die [BITV
+2.0](https://www.gesetze-im-internet.de/bitv_2_0/index.html) (Verordnung zur
+Schaffung barrierefreier Informationstechnik nach dem
 Behindertengleichstellungsgesetz) die konkrete Gestaltung barrierefreier
-IT-Systeme und Webangebot. Hierbei greift sie auf die aktuell gültigen
-Web Content Accessibilty Guidelines (*WCAG*)
-zurück, welche die Anforderungen der Barrierefreiheit anschaulich mit
-vielfältigen Beispielen illustriert.
+IT-Systeme und Webangebot. Hierbei greift sie auf die aktuell gültigen Web
+Content Accessibilty Guidelines (*WCAG*) zurück, welche die Anforderungen der
+Barrierefreiheit anschaulich mit vielfältigen Beispielen illustriert.
 
 Die gesetzliche Anforderung Barrierefreiheit umsetzen zu müssen trifft
 dabei nicht nur auf Organisationen der öffentlichen Verwaltung, wie es
@@ -447,18 +447,27 @@ Historisch gibt es keine formalisierte Ausbildung für die erwähnten
 Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
 klassischerweise im Rahmen von "Training on the Job" erworben.
 
-Aktuell (Stand 2022) gibt es jedoch mehrere akademische Ausbildungsangebote für die
-Arbeit in der Bibliotheks-IT:
+Aktuell (Stand 2022) gibt es mehrere akademische Ausbildungsangebote für die
+Arbeit in der Bibliotheks-IT mit unterschiedlichen Schwerpunkten:
 
--   berufsbegleitende Master-Studiengänge: TH Wildau (Bibliotheksinformatik), HWTK Leipzig, HdM Stuttgart (Data Science)
+-   berufsbegleitende Master-Studiengänge:
 
--   Zertifikatskurs Data Librarian: TH Köln
+    - [Bibliotheksinformatik an der TH Wildau](https://www.th-wildau.de/studieren-weiterbilden/studiengaenge/bibliotheksinformatik-msc-berufsbegleitendes-studium/)
 
-Diese Zusatzqualifizierungsmöglichkeiten sind eine sehr gute
-Möglichkeit, um vorhandene Mitarbeiter\*innen systematisch
-weiterzuentwickeln und die IT-Kenntnisse in der Bibliothek zu
-verbreiten. Der Erwerb dieser Abschlüsse ist jedoch zeitaufwändig und
-passt nur für wenige Lebenssituationen.
+-   Vollzeit-Studiengänge:
+
+    - [Masterstudiengang Digitales Datenmanagement an der FH Potsdam und HU Berlin](https://www.fh-potsdam.de/studium-lehre/studiengaenge/digitales-datenmanagement-m)
+
+-   Kurse
+
+    - [Zertifikatskurs Data Librarian an der TH Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-data-librarian_63393.php)
+
+    - [Zertifikatskurs Forschungsdatenmanagement an der TH Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-forschungsdatenmanagement_82048.php)
+
+Diese Zusatzqualifizierungsmöglichkeiten sind eine sehr gute Möglichkeit, um
+vorhandene Mitarbeiter\*innen systematisch weiterzuentwickeln und die
+IT-Kenntnisse in der Bibliothek zu verbreiten. Der Erwerb dieser Abschlüsse ist
+jedoch zeitaufwändig und passt nur für wenige Lebenssituationen.
 
 #### Weiterbildung
 
