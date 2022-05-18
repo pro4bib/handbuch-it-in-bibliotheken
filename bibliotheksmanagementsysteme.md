@@ -2,7 +2,7 @@
 
 :::{.callout-note}
 
-Bibliotheksmanagementsysteme sind IT-Systeme, die die Kernprozesse einer Bibliothek unterstützen. Das modular aufgebaute System verfügt über verschiedene [Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung, Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die [Entwicklungsgeschichte](#geschichte) der Managementsysteme in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den Managementsystemen ist auch die [Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration anderer Systeme](#integration).
+Bibliotheksmanagementsysteme sind IT-Systeme, die die [Kernprozesse](#prozessabbildung) einer Bibliothek unterstützen. Das modular aufgebaute System verfügt über verschiedene [Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung, Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die [Entwicklungsgeschichte](#geschichte) der Managementsysteme in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den Managementsystemen ist auch die [Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration anderer Systeme](#integration).
 
 :::
 
@@ -381,7 +381,7 @@ kann und sollte kritisch hinterfragt werden. Beispielsweise gab es
 Utrecht](https://insights.uksg.org/articles/10.1629/2048-7754.174/),
 auf dieses klassische Instrument gänzlich zu verzichten.
 
-### [Integration des BMS mit anderen IT-Systemen][integration]
+### Integration des BMS mit anderen IT-Systemen {#integration}
 
 Innerhalb der Bibliothek werden BMS meist zusammen mit anderen
 Softwaresystemen eingesetzt. Insbesondere sind dies:
@@ -851,56 +851,55 @@ Möglichkeiten:
 
 Die Vor- und Nachteile im Überblick:
 
-+-----------+-------------------+---------------------+-------------------+
-|           | Verbund           | kommerzielles BMS   | Open Source BMS   |
-+===========+===================+=====================+===================+
-| Vorteile  | regelmäßige       | regelmäßige         | niedrige          |
-|           | P                 | Produktentwicklung  | A                 |
-|           | roduktentwicklung |                     | nschaffungskosten |
-|           |                   | einheitlicher       |                   |
-|           | gewisser          | Leistungsumfang\    | große             |
-|           | State-of-the-Art  | \                   | Anwe              |
-|           | garantiert        | klare               | ndungscommunities |
-|           |                   | V                   |                   |
-|           | klare Kosten- und | erantwortlichkeiten | oftmals           |
-|           | Leistungsstruktur |                     | regelmäßige       |
-|           |                   |                     | P                 |
-|           | große             |                     | roduktentwicklung |
-|           | An                |                     |                   |
-|           | wendungscommunity |                     | viele             |
-|           |                   |                     | Dienstleister,    |
-|           |                   |                     | die Services rund |
-|           |                   |                     | um Migration,     |
-|           |                   |                     | Betrieb und       |
-|           |                   |                     | individuelle      |
-|           |                   |                     | Anpassung         |
-|           |                   |                     | anbieten          |
-|           |                   |                     |                   |
-|           |                   |                     | offene            |
-|           |                   |                     | Schnittstellen    |
-|           |                   |                     | und Formate       |
-+-----------+-------------------+---------------------+-------------------+
-| Nachteile | begrenzte         | eher geringe        | erfordert eigene  |
-|           | individuelle      | individuelle        | IT-Kapazitäten    |
-|           | Anpassung         | Anpassbarkeit       | oder Outsourcing  |
-|           |                   |                     |                   |
-|           | Wartezeiten bei   | relativ hohe und    | Risiko der        |
-|           | individueller     | intransparente      | Sicherung von     |
-|           | Anpassung         | Preise              | Nachhaltigkeit    |
-|           |                   |                     | und               |
-|           |                   | Abhängigkeit bei    | Kompatibilität    |
-|           |                   | der                 |                   |
-|           |                   | Weiterentwicklung   |                   |
-|           |                   |                     |                   |
-|           |                   | evtl. Verlust der   |                   |
-|           |                   | Datenhoheit         |                   |
-|           |                   |                     |                   |
-|           |                   | z.T. proprietäre    |                   |
-|           |                   | (her                |                   |
-|           |                   | stellerspezifische) |                   |
-|           |                   | Systeme und         |                   |
-|           |                   | Schnittstellen      |                   |
-+-----------+-------------------+---------------------+-------------------+
++-----------+-----------------------+-------------------------+-----------------------+
+|           | Verbund               | kommerzielles BMS       | Open Source BMS       |
++===========+=======================+=========================+=======================+
+| Vorteile  | regelmäßige           | regelmäßige             | niedrige              |
+|           | Produktentwicklung    | Produktentwicklung      | Anschaffungskosten    |
+|           |                       |                         |                       |
+|           |                       | einheitlicher           |                       |
+|           | gewisser              | Leistungsumfang         | große                 |
+|           | State-of-the-Art      |                         | Anwendungscommunities |
+|           | garantiert            | klare                   |                       |
+|           |                       | Verantwortlichkeiten    |                       |
+|           | klare Kosten- und     |                         | oftmals               |
+|           | Leistungsstruktur     |                         | regelmäßige           |
+|           |                       |                         | Produktenwicklung     |
+|           | große                 |                         |                       |
+|           | Anwendungscommunity   |                         |                       |
+|           |                       |                         | viele                 |
+|           |                       |                         | Dienstleister,        |
+|           |                       |                         | die Services rund     |
+|           |                       |                         | um Migration,         |
+|           |                       |                         | Betrieb und           |
+|           |                       |                         | individuelle          |
+|           |                       |                         | Anpassung             |
+|           |                       |                         | anbieten              |
+|           |                       |                         |                       |
+|           |                       |                         | offene                |
+|           |                       |                         | Schnittstellen        |
+|           |                       |                         | und Formate           |
++-----------+-----------------------+-------------------------+-----------------------+
+| Nachteile | begrenzte             | eher geringe            | erfordert eigene      |
+|           | individuelle          | individuelle            | IT-Kapazitäten        |
+|           | Anpassung             | Anpassbarkeit           | oder Outsourcing      |
+|           |                       |                         |                       |
+|           | Wartezeiten bei       | relativ hohe und        | Risiko der            |
+|           | individueller         | intransparente          | Sicherung von         |
+|           | Anpassung             | Preise                  | Nachhaltigkeit        |
+|           |                       |                         | und                   |
+|           |                       | Abhängigkeit bei        | Kompatibilität        |
+|           |                       | der                     |                       |
+|           |                       | Weiterentwicklung       |                       |
+|           |                       |                         |                       |
+|           |                       | evtl. Verlust der       |                       |
+|           |                       | Datenhoheit             |                       |
+|           |                       |                         |                       |
+|           |                       | z.T. proprietäre        |                       |
+|           |                       | (herstellerspezifische) |                       |
+|           |                       | Systeme und             |                       |
+|           |                       | Schnittstellen          |                       |
++-----------+-----------------------+-------------------------+-----------------------+
 
 Verbünde bieten in der Regel ein oder zwei Lösungen an, die entweder
 kommerziell oder Open Source sind. Die Mitgliedschaft in Verbünden kann

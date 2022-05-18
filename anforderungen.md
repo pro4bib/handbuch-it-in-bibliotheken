@@ -94,22 +94,18 @@ DIN EN ISO 9241-11 wieder.
 Von zentraler Bedeutung sind dabei zwei Kernbegriffe: die Usability
 (Gebrauchstauglichkeit) und die User Experience (Nutzer\*innenerfahrung)
 
-INFOBOX:
+::: {.callout-tip}
 
-Usability
+**Usability** ist das „Ausmaß, in dem ein System, ein Produkt oder eine
+Dienstleistung durch bestimmte Benutzer in einem bestimmten Nutzungskontext
+genutzt werden kann, um festgelegte Ziele effektiv, effizient und
+zufriedenstellend zu erreichen" DIN EN ISO 9241-11
 
-„Ausmaß, in dem ein System, ein Produkt oder eine Dienstleistung durch
-bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden
-kann, um festgelegte Ziele effektiv, effizient und zufriedenstellend zu
-erreichen" DIN EN ISO 9241-11
+**User Experience** bezeichnet die „Wahrnehmungen und Reaktionen einer Person,
+die aus der tatsächlichen und/oder der erwarteten Benutzung eines Produkts,
+eines Systems oder einer Dienstleistung resultieren" DIN ISO 9241-210:2011
 
-User Experience
-
-„Wahrnehmungen und Reaktionen einer Person, die aus der tatsächlichen
-und/oder der erwarteten Benutzung eines Produkts, eines Systems oder
-einer Dienstleistung resultieren" DIN ISO 9241-210:2011
-
-ENDE INFOBOX
+:::
 
 Wie die untenstehende Abbildung 1 zeigt, handelt es sich bei Usability um
 eine Eigenschaft eines Systems, die während der konkreten Interaktion

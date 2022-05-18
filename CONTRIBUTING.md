@@ -52,7 +52,7 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 -   Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme
 
 -   Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
-    definiert. Dies kann auch als Fußnote geschehen. Die eingeführten Fachbegriffe müssen in einem Glossar für das gesamte Buch gebündelt werden.
+    definiert. Die eingeführten Fachbegriffe müssen in einem Glossar für das gesamte Buch gebündelt werden.
 
 -   Wir vermeiden IT-Jargon.
 
