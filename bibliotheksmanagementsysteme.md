@@ -1926,18 +1926,15 @@ IT-Sicherheitsbeauftragte hinzugezogen werden.
 
 ::: {.callout-warning}
 
-Hier fehlt noch ein Abschnitt der das Kapitel BMS in 2-3 Sätzen
-zusammenfasst und einen wertenden Ausblick gibt. Insbesondere sollten
-folgende Aspekte hervorgehoben und erläutert werden:
-
--   BMS ist kein statisches System. Rolle und Anforderungen an BMS
-    ändern sich
-
--   Die integration mit anderen Informationssystemen nimmt zu
-    (Import/Export und Zusammenführung von Daten aus anderen Quellen
-    wie Wikidata)
-
--   Open Data, öffentliche Datennutzung und Transparenz
+Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
+durch die verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
+stetig angepasst werden.
+Der Import, Export oder auch die Zusammenführung von Daten erfordert
+klar definierte Metadaten und Schnittstellen für den freien Austausch
+aus gut nachnutzbaren Quellsystemen. Dies ist vor allem erforderlich bei
+der aktuell stärkeren Entwicklung hin zu Open Data und öffentlicher
+Datennutzung. Die Integration und Interaktion mit anderen Informationssystemen
+nimmt also zu. Vor allem herkömmliche BMS der zweiten Generation kommen hier schnell an ihre Grenzen.
 
 :::
 
