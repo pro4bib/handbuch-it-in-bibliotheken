@@ -1453,9 +1453,11 @@ Kapitel zum technischen Betrieb eines BMS.
 Online-Payment, Kassensysteme/-automaten (siehe auch Kapitel
 [Kassenautomat](#kassenautomat))
 
+::: {.callout-warning}
 #### Haushalt
 
 TODO
+:::
 
 #### E-Rechnung
 
