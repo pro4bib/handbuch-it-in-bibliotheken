@@ -1361,22 +1361,6 @@ zählen insbesondere der jeweilige Bibliotheksverbund, etwa zum Austausch
 von Metadaten oder für das verteilte Lizenzmanagement, aber auch
 nutzer\*innen-nahe Dienstleistungen, wie die Fernleihe.
 
-::: {.callout-warning}
-
-#### Verbund
-
-TODO
-
-#### Fernleihe
-
-TODO
-
-#### LinkResolver
-
-ToDo
-
-:::
-
 ### Nicht-bibliothekarische Schnittstellen
 
 Ein BMS existiert im Regelfall nicht nur für sich oder nur im Kosmos der
