@@ -79,7 +79,9 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 
 -   Kursive Hervorhebung sollte nur für Namen, Glossareinträge und Zitate verwendet werden.
 
--   Jedes Kapitel hat ein Abstract, in dem die behandelten Themen kurz und verständlich genannt werden, einschließlich der wichtigsten Stichwörter.
+-   Kapitel haben normalerweise einen Umfang von 3.000 bis 4.000 Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
+
+-   Jedes Kapitel hat einen Abstract, in dem die behandelten Themen kurz und verständlich genannt werden, einschließlich der wichtigsten Stichwörter.
 
 -   Jedes Kapitel beginnt (nach dem Abstract, siehe oben) mit einer erklärenden Einleitung, die das Thema veranschaulicht und es  ggf. zu anderen Themen abgrenzt/es mit ihnen verbindet.
 
