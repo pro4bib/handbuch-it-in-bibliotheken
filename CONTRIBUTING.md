@@ -67,7 +67,7 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 -   Externe Links, die nur auf Anbieter oder andere Websites verweisen, werden inline verlinkt, also ein Link auf das Wort gesetzt statt
     einer Fußnote.
 
-### Struktur {.unnumbered}
+### Struktur des Texts {.unnumbered}
 
 -   Wir verwenden kurze, unverschachtelte Sätze.
 
@@ -75,15 +75,7 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 
 -   Wir erzeugen Sinnabschnitte, die möglichst für sich stehend verständlich sind.
 
--   Das Handbuch ist durch Überschriften bis zur vierten Ebene gegliedert. Innerhalb von Abschnitten können als Gliederungshilfe wichtige Begriff auch durch Fettdruck hervorgehoben werden.
-
 -   Kursive Hervorhebung sollte nur für Namen, Glossareinträge und Zitate verwendet werden.
-
--   Kapitel haben normalerweise einen Umfang von 3.000 bis 4.000 Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
-
--   Jedes Kapitel hat einen Abstract, in dem die behandelten Themen kurz und verständlich genannt werden, einschließlich der wichtigsten Stichwörter.
-
--   Jedes Kapitel beginnt (nach dem Abstract, siehe oben) mit einer erklärenden Einleitung, die das Thema veranschaulicht und es  ggf. zu anderen Themen abgrenzt/es mit ihnen verbindet.
 
 -   Redundanz ist (oft) okay. Also z.B.
 
@@ -92,6 +84,16 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
     -   oder: erklärender Fließtext und dann nochmal eine Infobox mit Eckdaten zu einem bestimmten Produkt.
 
 -   Zusätzlich können verschieden Arten von Infoboxen verwendet werden (siehe <https://quarto.org/docs/authoring/callouts.html>)
+
+-   Das Handbuch ist durch Überschriften bis zur vierten Ebene gegliedert. Innerhalb von Abschnitten können als Gliederungshilfe wichtige Begriff auch durch Fettdruck hervorgehoben werden.
+
+### Struktur der Kapitel {.unnumbered}
+
+-   Kapitel haben normalerweise einen Umfang von 3.000 bis 4.000 Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist, müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
+
+-   Jedes Kapitel hat einen Abstract, in dem die behandelten Themen kurz und verständlich genannt werden, einschließlich der wichtigsten Stichwörter.
+
+-   Jedes Kapitel beginnt (nach dem Abstract, siehe oben) mit einer erklärenden Einleitung, die das Thema veranschaulicht und es  ggf. zu anderen Themen abgrenzt/es mit ihnen verbindet.
 
 ### Bilder und andere Medien {.unnumbered}
 
