@@ -33,6 +33,12 @@ Schnittstellen und offenen Architekturen erhöht hat.
 
 ### Geschichte
 
+:::{.callout-note}
+
+Die erste Generation der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über über Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die zweite BMS-Generation verfügt über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die dritter Generation  zeichnet sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
+
+:::
+
 Bibliotheksmanagementsysteme unterstützen alle Kernprozesse des
 bibliothekarischen Arbeitens, das heißt die Erwerbung, Erschließung und
 Ausleihe von Medien. Ihren Ursprung haben Bibliotheksmanagementsystem in
@@ -260,7 +266,7 @@ kennzeichnen[^2]:
 
 -   Anzeige von Buchcovern
 
-### Aktuell relevante Software-Produkte
+### Aktuell relevante Software-Produkte {#aktuelle-sw-produkte}
 
 Der Markt von BMS ist wie bei Software üblich dynamisch, so dass jede
 Übersicht nach einigen Jahren veraltet ist. Stand Mitte 2022 haben
@@ -726,7 +732,13 @@ Nicht zuletzt beeinflussen auch die Möglichkeiten der Ein- und Ausgabe
 von Daten ihre Qualität, beispielsweise über die Usability der
 Katalogisierung.
 
-## Beschaffung und Marktanalyse
+## Marktanalyse und Beschaffung
+
+:::{.callout-note}
+
+Der deutschsprachige [BMS-Markt 2022](#aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, Varianten des Betriebs (gehostet oder lokal) oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen. 
+
+:::
 
 Die Beschaffung eines BMS ist für eine Bibliothek eine große
 Herausforderung, nicht nur wegen der zu kalkulierenden Kosten sondern
@@ -817,6 +829,8 @@ Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
 ![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix.png)
+
+*Abbildung 1* Beispiel für eine Matrix zur Einordnung von Funktionalitäten
 
 Zur Evaluierung der BMS können bestehende Anforderungskataloge für die
 Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam
@@ -955,6 +969,8 @@ Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt
 wird.
 
 [![Beispiel einer BPMN-Prozessabbildung](https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg "Quelle: Stkl (CC-BY-SA 3.0)")](https://commons.wikimedia.org/wiki/File:BPMN-1.svg)
+
+*Abbildung 2* Beispiel einer BPMN-Prozessabbildung
 
 Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung
 außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik
