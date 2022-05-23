@@ -1542,13 +1542,20 @@ für statistische Daten der Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb
 
+
+:::{.callout-note}
+
+Der technische Betrieb eines BMS umfasst die Installation, die [lokal](#lokale-installation) oder als [gehostete Variante](#hosting) bzw. in der [Cloud](#cloud) erfolgen kann. [Kosten](#kosten) entstehen dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte der [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und [Datenschutz](#datenschutz) zu berücksichtigen.
+
+:::
+
 ### Betriebsmodelle für serverbasierte Software
 
-Die Nutzung eines BMS ist auf verschiedenen Wegen möglich. Sie
-unterscheiden sich in den Punkten Installation, Kosten, Pflege &
-Wartung, sowie Backup & Support.
+Ein BMS kann auf verschiedene Arten betrieben werden. Die Betriebsarten
+unterscheiden sich bezüglich Installation, Kosten, Pflege und
+Wartung sowie Backup und Support.
 
-#### Lokale Installation
+#### Lokale Installation 
 
 Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
 erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
@@ -1830,7 +1837,7 @@ sind, gibt es vielfach etablierte bibliothekarische Schnittstellen
 oder man setzt auf moderne, allgemeine API-Standards wie
 [REST](https://de.wikipedia.org/wiki/Representational_State_Transfer).
 
-### Datenschutz, User-Tracking, Analytics
+### Datenschutz, User-Tracking, Analytics {#datenschutz}
 
 Innerhalb der EU gilt seit 2018 die Datenschutz-Grundverordnung (DSGVO),
 nach der personenbezogene Daten grundsätzlich zu schützen sind.
