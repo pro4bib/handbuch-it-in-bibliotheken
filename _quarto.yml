@@ -30,7 +30,8 @@ book:
   page-footer: 
     left: "[CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)"
     right: 
-      - '<a class="nav-link" href="https://www.gbv.de/" alt="VZG">hosted by VZG</a>'
+      - '<a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>'
+      - '<a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>'
       - icon: github
         href: https://github.com/pro4bib/handbuch-it-in-bibliotheken/
 
