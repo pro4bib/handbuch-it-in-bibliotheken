@@ -1,4 +1,11 @@
-# Anforderungen an Bibliotheks-IT {#anforderungen}
+# Anforderungen an die IT-Entwicklung {#anforderungen}
+
+:::{.callout-note}
+
+Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der Nutzenenden und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#Bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#Methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
+
+:::
+
 
 In Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
@@ -16,7 +23,7 @@ neue Nutzungsformen von Medien.
 IT-Entwicklung sollte sich daher auch an
 den [Bedürfnissen](Bedarfsermittlung) von [Nutzenden](#Einbeziehung-von-Nutzenden-in-die-Entwicklung) ausrichten.
 
-## Nutzer\*innenorientierte Gestaltung
+## Nutzer\*innenorientierten Gestaltung
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
 in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
