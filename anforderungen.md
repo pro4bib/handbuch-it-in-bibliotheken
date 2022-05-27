@@ -1,23 +1,20 @@
-# Nutzer\*innenorientierte Gestaltung - Anforderungen an Bibliotheks-IT
+# Anforderungen an Bibliotheks-IT
 
+::: {.callout-note}
 In Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
-Anforderungen, auch aus rechtlicher Sicht, eingegangen. Außerdem wurde
-der Software-Lebenszyklus skizziert, welcher eine eher lineare
-Betrachtung eines Systems vom Beginn seiner Einführung bis hin zur
-Abschaltung ermöglicht. Dabei wurde implizit angenommen, dass
-Anforderungen an ein System im Laufe seiner Lebenszeit weitestgehend fix
-bleiben.
-
-Betrachtet man sein eigenes persönliches Nutzungsverhalten im digitalen
-Bereich wird jedoch klar, dass sich die eigenen Präferenzen bezüglich
+Anforderungen eingegangen, sowie den permanenten Anpassungsbedarf an Systeme
+im Laufe ihrer Lebenszeit.
+Betrachtet man sein persönliches Nutzungsverhalten im digitalen
+Bereich wird klar, dass sich auch die eigenen Präferenzen bezüglich
 der Nutzung von Apps oder Webseiten ändern. Ursachen dafür sind
 beispielsweise Veränderungen an Lebens- oder Arbeitskontexten,
 Erwartungen an die Bedienbarkeit von Systemen oder durch die digitale
 Transformation beziehungsweise technischen Fortschritt möglich gewordene
 neue Nutzungsformen von Medien.
+:::
 
-## Prinzipien
+## Prinzipien der Nutzer\*innenzentrierten Gestaltung
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
 in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
@@ -130,9 +127,9 @@ einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
 digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
-![](media/usability_ux.svg)
+![](media/missing.svg)
 
-*Abbildung 1* Zusammenhang zwischen Usability und User Experience
+*Abbildung 1* Ersatz von Luis zu <https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
 
 ## Wie beziehen wir unsere Nutzer\*innen ein?
 
@@ -193,6 +190,9 @@ Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische
 Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas
 insgesamt.
 
+![](media/missing.svg)
+
+*Abbildung 2* Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!
 
 Abgeleitet von solchen Personas fällt es häufig leicht, konkrete Use
 Cases für die Interaktion mit einem System zu definieren. Ein Use Case
@@ -203,7 +203,6 @@ Fließtext passieren, in dem ein Szenario beschrieben wird.
 ![](media/missing.svg)
 
 *Abbildung3* Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
-
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
@@ -426,7 +425,7 @@ Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
 
-![](media/usability_eval.svg) 
+![](media/missing.svg) 
 
 *Abbildung 6* Bildquelle: David, um 90° drehen
 
@@ -496,6 +495,12 @@ um die Proband\*innen während des gesamten Tests zu motivieren. Das
 heißt konkret, dass die ersten Teilaufgaben leicht zu lösen sein sollten
 und deren Schwierigkeit dann kontinuierlich zunimmt, um durch komplexere
 Aufgaben belastbare Aussagen zu erhalten.
+
+##Zusammenfassung und Ausblick
+::: {.callout-note}
+
+
+:::
 
 [^1]: <https://www.gov.uk/guidance/government-design-principles>
 
