@@ -83,7 +83,7 @@ Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben Hinweisen
 
     -   oder: erklärender Fließtext und dann nochmal eine Infobox mit Eckdaten zu einem bestimmten Produkt.
 
--   Zusätzlich können verschieden Arten von Infoboxen verwendet werden (siehe <https://quarto.org/docs/authoring/callouts.html>)
+-   Zusätzlich können verschieden Arten von **Infoboxen** verwendet werden (siehe <https://quarto.org/docs/authoring/callouts.html>). Infoboxen und normaler Text sollten auch unabhängig voneinander funktionieren.
 
 -   Das Handbuch ist durch Überschriften bis zur vierten Ebene gegliedert. Innerhalb von Abschnitten können als Gliederungshilfe wichtige Begriff auch durch Fettdruck hervorgehoben werden.
 
