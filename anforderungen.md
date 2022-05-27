@@ -5,6 +5,7 @@ In Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
 Anforderungen eingegangen, sowie den permanenten Anpassungsbedarf an Systeme
 im Laufe ihrer Lebenszeit.
+
 Betrachtet man sein persönliches Nutzungsverhalten im digitalen
 Bereich wird klar, dass sich auch die eigenen Präferenzen bezüglich
 der Nutzung von Apps oder Webseiten ändern. Ursachen dafür sind
@@ -12,6 +13,9 @@ beispielsweise Veränderungen an Lebens- oder Arbeitskontexten,
 Erwartungen an die Bedienbarkeit von Systemen oder durch die digitale
 Transformation beziehungsweise technischen Fortschritt möglich gewordene
 neue Nutzungsformen von Medien.
+
+IT-Entwicklung sollte sich daher auch an
+den [Bedürfnissen](Bedarfsermittlung) von [Nutzenden](#Einbeziehung-von-Nutzenden-in-die-Entwicklung) ausrichten.
 :::
 
 ## Prinzipien
