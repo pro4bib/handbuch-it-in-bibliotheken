@@ -32,7 +32,7 @@ angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![*Abbildung 1* SDLC-Skizze (Platzhalter)](media/missing.svg)
+![*Abbildung 1* SDLC-Skizze (Platzhalter)](media/sdlc.svg)
 
 #### Planung und Analyse
 
