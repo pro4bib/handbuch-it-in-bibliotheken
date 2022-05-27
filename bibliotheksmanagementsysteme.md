@@ -1933,7 +1933,7 @@ IT-Sicherheitsbeauftragte hinzugezogen werden.
 
 ## Zusammenfassung und Ausblick
 
-::: {.callout-warning}
+::: {.callout-note}
 
 Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
 durch die verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
