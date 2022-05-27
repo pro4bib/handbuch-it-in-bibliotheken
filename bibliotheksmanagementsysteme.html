@@ -682,13 +682,12 @@ Evolution der Bibliotheksmanagementsysteme
 <h3 class="anchored" data-anchor-id="auswahlkriterien-eines-bms">Auswahlkriterien eines BMS</h3>
 <p>Es kann davon ausgegangen werden, dass die aktuell am Markt verfügbaren Systeme die klassischen Geschäftsgänge (siehe Kapitel <a href="#prozessabbildung">Prozessabbildung</a>) einer Bibliothek gut abbilden können. Die Anforderungen aus dem Kapitel Nutzer*innenzentrierte Gestaltung gelten grundsätzlich natürlich auch hier.</p>
 <p>Die Betrachtung einzelner Systeme einschließlich der Nutzungsszenarien und Use Cases kann sehr aufwändig werden. Daher empfiehlt es sich, die gewünschten Funktionalitäten zu bestimmen und durch die Stakeholder bewerten zu lassen. Die Bewertung kann beispielsweise in Form einer Matrix geschehen, in der die Funktionalitäten nach ihrer Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden andererseits eingeordnet werden.</p>
-<div class="quarto-figure quarto-figure-center">
+<div id="fig-matrix" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/matrix.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption><p></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Abbildung 3.1: Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption><p></p>
 </figure>
 </div>
-<p><em>Abbildung 1</em> Beispiel für eine Matrix zur Einordnung von Funktionalitäten</p>
 <p>Zur Evaluierung der BMS können bestehende Anforderungskataloge für die Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam <a href="https://www.folio-bib.org/?page_id=247">von HBZ und VZG entwickelte Kriterienkatalog</a>. Dieses umfangreiche Dokument zeigt die Anforderungen an alle Komponenten auf Grundlage der Analyse von sehr ausgereiften Prozessen in Altsystemen auf. Es empfiehlt sich, insbesondere diejenigen Funktionalitäten genau zu überprüfen, die strategisch von besonderer Bedeutung sind.</p>
 </section>
 <section id="marktanalyse" class="level3">
@@ -760,11 +759,10 @@ Evolution der Bibliotheksmanagementsysteme
 <p>Zur Modellierung, Dokumentation und Visualisierung von Workflows bietet sich klassischerweise eine Modellierungssprache wie BPMN (Business Process Model and Notation) an. Für diese und verwandte Sprachen existieren umfangreiche Werkzeuge und Toolchains, mit denen einerseits Prozesse erstellt werden können, gleichzeitig aber auch – sollte das nötig sein – die modellierten Prozesse automatisiert werden können. Im Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt wird.</p>
 <div id="fig-anonymous-1" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><a href="https://commons.wikimedia.org/wiki/File:BPMN-1.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg" title="Quelle: Stkl (CC-BY-SA 3.0)" class="img-fluid figure-img"></a></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:BPMN-1.svg" id="fig-prozessabbildung"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg" title="Quelle: Stkl (CC-BY-SA 3.0)" class="img-fluid figure-img"></a></p>
 <p></p><figcaption aria-hidden="true" class="figure-caption">Beispiel einer BPMN-Prozessabbildung</figcaption><p></p>
 </figure>
 </div>
-<p><em>Abbildung 2</em> Beispiel einer BPMN-Prozessabbildung</p>
 <p>Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik nutzen, um Prozesse zu dokumentieren und zu visualisieren. Andere Alternativen zur Modellierung finden sich in den verschiedenen Diagrammformen der UML (Unified Modelling Language).</p>
 <p>Aus heutiger Sicht sollten für die im Folgenden genannten Bereich Prozessbeschreibungen erstellt werden, damit potentielle BMS an Hand dieser geprüft werden können. Hierbei könnten sich Notwendigkeiten für Änderungen in den Prozessabläufen der Bibliothek ergeben, die auf Basis der Beschreibungen genauer adressiert werden können.</p>
 <section id="nutzende" class="level3">
