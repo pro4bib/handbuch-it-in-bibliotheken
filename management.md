@@ -108,7 +108,7 @@ illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
-![Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/missing.svg){#fig-verweildauer}
+![Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/sw_lifespan.svg){#fig-verweildauer}
 
 #### Ablösung
 
@@ -198,7 +198,7 @@ ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
 Schichtmodells des Betriebs eines IT-Systems illustrieren:
 
-![Schichtmodell-Bild (Platzhalter)](media/missing.svg){#fig-schichtmodell}
+![Schichtmodell-Bild (Platzhalter)](media/schichten.svg){#fig-schichtmodell}
 
 Aus @fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
