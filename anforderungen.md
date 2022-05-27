@@ -1,4 +1,4 @@
-# Nutzer\*innenzentrierten Gestaltung - Anforderungen an Bibliotheks-IT
+# Nutzer\*innenzentrierte Gestaltung - Anforderungen an Bibliotheks-IT
 
 In Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
