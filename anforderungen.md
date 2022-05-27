@@ -1,6 +1,5 @@
 # Anforderungen an Bibliotheks-IT {#anforderungen}
 
-::: {.callout-note}
 In Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
 Anforderungen eingegangen, sowie den permanenten Anpassungsbedarf an Systeme
@@ -16,9 +15,8 @@ neue Nutzungsformen von Medien.
 
 IT-Entwicklung sollte sich daher auch an
 den [Bedürfnissen](Bedarfsermittlung) von [Nutzenden](#Einbeziehung-von-Nutzenden-in-die-Entwicklung) ausrichten.
-:::
 
-## Prinzipien
+## Nutzer\*innenorientierter Gestaltung
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
 in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
@@ -108,10 +106,10 @@ eines Systems oder einer Dienstleistung resultieren" DIN ISO 9241-210:2011
 
 :::
 
-Wie die untenstehende Abbildung 1 zeigt, handelt es sich bei Usability um
-eine Eigenschaft eines Systems, die während der konkreten Interaktion
+Bei Usability handelt es sich um eine Eigenschaft eines Systems, die 
+während der konkreten Interaktion
 mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei
-der Bedienung auftreten. Zur Vermeidung von Usability-Problemen
+der Bedienung auftreten (@fig-usux). Zur Vermeidung von Usability-Problemen
 existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen
 skizziert werden bzw. durch Autoren wie Shneiderman in seinen "8 golden
 rules" [@shneiderman_designing_2005] oder Nielsen mit seinen "[10
@@ -131,9 +129,7 @@ einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
 digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
-![](media/missing.svg)
-
-*Abbildung 1* Ersatz von Luis zu <https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
+![Zusammenhang zwischen Usability und User Experience](media/usability_ux.svg){#fig-usux}
 
 ## Wie beziehen wir unsere Nutzer\*innen ein?
 
@@ -194,19 +190,13 @@ Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische
 Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas
 insgesamt.
 
-![](media/missing.svg)
-
-*Abbildung 2* Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!
-
 Abgeleitet von solchen Personas fällt es häufig leicht, konkrete Use
 Cases für die Interaktion mit einem System zu definieren. Ein Use Case
 beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![](media/missing.svg)
-
-*Abbildung3* Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
+![Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)](media/missing.svg){#fig-3}
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
@@ -318,16 +308,8 @@ Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
 visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases
 bestimmte Aktionen zu illustrieren.
 
-![](media/missing.svg)
-
-*Abbildung 4* Rinzler, J.W.: Star Wars Storyboards: The Original Trilogy; Abrams &
-Chronicle Books
-
-hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur
-als Platzhalter zu verstehen
-
-z.B.
-<https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit>
+![hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur
+als Platzhalter zu verstehen z.B. <https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit>](media/missing.svg)
 
 Die Visualisierung von Interaktionsideen kann Beteiligten helfen,
 mögliche Abläufe nachzuvollziehen. Storyboards sind dabei oft leichter
@@ -369,16 +351,13 @@ Struktur, Layout und Funktionalitäten eines Interface vorzustellen.
 Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von
 einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
-![](media/missing.svg)
-
-*Abbildung 5* <https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
-(Platzhalter, David könnte was per OmniGraffle bauen)
+![<https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype> (Platzhalter)](media/missing.svg){#fig-5}
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
 Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die
 Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder
 oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches
-(siehe Abbildung 5). Ein Mock-Up ist, im Kontext Design, eine
+(siehe @fig-5). Ein Mock-Up ist, im Kontext Design, eine
 ausgereifte ("high-level") Version des Interfaces mit realistischen
 Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups
 sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz
@@ -424,14 +403,12 @@ evaluieren und diese öffentlich in einem
 teilt.
 
 Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei
-Methoden: Beobachtungs- und Inspektionstests (siehe Abbildung unten).
+Methoden: Beobachtungs- und Inspektionstests (@fig-6).
 Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
 
-![](media/missing.svg) 
-
-*Abbildung 6* Bildquelle: David, um 90° drehen
+![](media/missing.svg){#fig-6} 
 
 Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass
 diese auch ohne eine formale Usability-Ausbildung durch engagierte
@@ -502,9 +479,7 @@ Aufgaben belastbare Aussagen zu erhalten.
 
 ## Zusammenfassung und Ausblick
 
-::: {.callout-note}
 Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die Entwicklung von Software einbezogen werden können - je nach Umfang des Produkts und des Anwender*/innenkreises. Usertests erfodern ein anderes Zeitmanagement als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die Verwendung von Wireframes und Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen, mit denen auch die Interaktionen getestet werden können.
-:::
 
 [^1]: <https://www.gov.uk/guidance/government-design-principles>
 
