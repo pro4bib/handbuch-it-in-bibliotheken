@@ -2,7 +2,7 @@
 
 :::{.callout-note}
 
-Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutzenden](#einbeziehung) und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#Bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#Methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
+Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutzenden](#einbeziehung) und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
 
 :::
 
@@ -21,7 +21,7 @@ Transformation beziehungsweise technischen Fortschritt möglich gewordene
 neue Nutzungsformen von Medien.
 
 IT-Entwicklung sollte sich daher auch an
-den [Bedürfnissen](#Bedarfsermittlung) von [Nutzenden](#einbeziehung) ausrichten.
+den [Bedürfnissen](#bedarfsermittlung) von [Nutzenden](#einbeziehung) ausrichten.
 
 ## Nutzer\*innenorientierten Gestaltung
 
@@ -150,7 +150,7 @@ und Einschätzungen von Expert\*innen die Entwicklung dominieren. Für die
 Einbeziehung von Nutzer\*innen gibt es verschiedene Methoden, die im
 Folgenden kurz dargestellt werden sollen.
 
-### Bedarfsermittlung
+### Bedarfsermittlung {#bedarfsermittlung}
 
 #### Klassische Methoden zur Bedarfsermittlung
 
@@ -227,7 +227,7 @@ vertrauenswürdiger Daten wie denen aus der Bedarfsermittlung erstellt
 werden sollten. Solche Methoden ohne Kenntnisse der Zielgruppen
 anzuwenden kann nur zur Reproduktion der eigenen Meinung führen.
 
-### Methoden
+### Methoden {#methoden}
 
 Testaufgaben für Usability-Tests werden erstellt, um typische
 Nutzungsszenarien mit Hinblick auf die Usability des Systems hin zu
