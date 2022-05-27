@@ -2,7 +2,7 @@
 
 :::{.callout-note}
 
-Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der Nutzenenden und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#Bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#Methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
+Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutzenden](#Einbeziehung-von-Nutzenden-in-die-Entwicklung) und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#Bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#Methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
 
 :::
 
