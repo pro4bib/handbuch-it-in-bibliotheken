@@ -130,9 +130,9 @@ einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
 digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
-![](media/missing.svg)
+![](media/usability_ux.svg)
 
-*Abbildung 1* Ersatz von Luis zu <https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
+*Abbildung 1* Zusammenhang zwischen Usability und User Experience
 
 ## Wie beziehen wir unsere Nutzer\*innen ein?
 
@@ -193,9 +193,6 @@ Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische
 Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas
 insgesamt.
 
-![](media/missing.svg)
-
-*Abbildung 2* Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild erstellen!
 
 Abgeleitet von solchen Personas fällt es häufig leicht, konkrete Use
 Cases für die Interaktion mit einem System zu definieren. Ein Use Case
@@ -206,6 +203,7 @@ Fließtext passieren, in dem ein Szenario beschrieben wird.
 ![](media/missing.svg)
 
 *Abbildung3* Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
+
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
@@ -428,7 +426,7 @@ Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
 
-![](media/missing.svg) 
+![](media/usability_eval.svg) 
 
 *Abbildung 6* Bildquelle: David, um 90° drehen
 
