@@ -1,4 +1,4 @@
-# Anforderungen an Bibliotheks-IT
+# Nutzer\*innenzentrierten Gestaltung - Anforderungen an Bibliotheks-IT
 
 In Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
@@ -17,7 +17,7 @@ Erwartungen an die Bedienbarkeit von Systemen oder durch die digitale
 Transformation beziehungsweise technischen Fortschritt möglich gewordene
 neue Nutzungsformen von Medien.
 
-## Prinzipien der Nutzer\*innenzentrierten Gestaltung
+## Prinzipien
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
 in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
