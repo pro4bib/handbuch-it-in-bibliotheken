@@ -23,8 +23,8 @@ Server, Storage, Backup u.ä.) ist in Planung.
 ### Lebenszyklen von IT-Systemen
 
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
-Einführung beginnt und irgendwann mit ihrer Abschaltung endet (siehe
-Abbildung 1). Die wesentlichen Phasen im klassischen Lebenszyklus eines
+Einführung beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus).
+Die wesentlichen Phasen im klassischen Lebenszyklus eines
 IT-Systems werden im Folgenden näher betrachtet.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
@@ -32,7 +32,7 @@ angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![*Abbildung 1* SDLC-Skizze (Platzhalter)](media/sdlc.svg)
+![SDLC-Skizze (Platzhalter)](media/sdlc.svg){#fig-it-zyklus}
 
 #### Planung und Analyse
 
@@ -103,12 +103,12 @@ Optimierung der Programmabläufe vorgenommen.
 
 Typischerweise finden sich IT-Systeme, die grundlegende
 Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
-erstellt wurden, viele Jahre in dieser Phase. Folgende Abbildung
+erstellt wurden, viele Jahre in dieser Phase. @fig-verweildauer
 illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
-![*Abbildung 2* Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/missing.svg)
+![Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/missing.svg){#fig-verweildauer}
 
 #### Ablösung
 
@@ -196,12 +196,11 @@ des zuständigen IT-Personals voraussetzt.
 Sowohl der Betrieb von proprietärer als auch von Open-Source-Software
 ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
-Schichtmodells des Betriebs eines IT-Systems illustrieren (siehe
-Abbildung 3).
+Schichtmodells des Betriebs eines IT-Systems illustrieren:
 
-![*Abbildung 3* Schichtmodell-Bild (Platzhalter)](media/missing.svg)
+![Schichtmodell-Bild (Platzhalter)](media/missing.svg){#fig-schichtmodell}
 
-Aus der Abbildung wird deutlich, dass moderne Software-Systeme zum
+Aus @fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
 Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben
 zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines

@@ -828,9 +828,7 @@ Matrix geschehen, in der die Funktionalitäten nach ihrer
 Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
-![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix.png)
-
-*Abbildung 1* Beispiel für eine Matrix zur Einordnung von Funktionalitäten
+![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix.png){#fig-matrix}
 
 Zur Evaluierung der BMS können bestehende Anforderungskataloge für die
 Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam
@@ -968,9 +966,7 @@ nötig sein -- die modellierten Prozesse automatisiert werden können. Im
 Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt
 wird.
 
-[![Beispiel einer BPMN-Prozessabbildung](https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg "Quelle: Stkl (CC-BY-SA 3.0)")](https://commons.wikimedia.org/wiki/File:BPMN-1.svg)
-
-*Abbildung 2* Beispiel einer BPMN-Prozessabbildung
+[![Beispiel einer BPMN-Prozessabbildung](https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg "Quelle: Stkl (CC-BY-SA 3.0)")](https://commons.wikimedia.org/wiki/File:BPMN-1.svg){#fig-prozessabbildung}
 
 Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung
 außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik
