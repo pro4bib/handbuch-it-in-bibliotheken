@@ -535,7 +535,7 @@ rekrutieren müssen.
 ## Zusammenfassung und Ausblick
 
 ::: {.callout-note}
-Auch nach Auswahl eines Systems ist eine permanente Beobachtung des Lebenszyklus erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
+Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
 Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichten: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden.
 :::
 
