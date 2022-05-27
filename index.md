@@ -32,7 +32,7 @@ IT-bezogenen Themen in Bibliotheken geben. Die vorliegende Version behandelt:
 
 -   [Management von IT-Systemen](#management)
 
--   [Anforderungen an IT-Systeme](#anforderungen)
+-   [Anforderungen an die IT-Entwicklung](#anforderungen)
 
 -   [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme)
 
