@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1372 602" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-620.769,-835.798)">
+        <g transform="matrix(1,0,0,1,2.58536,0)">
+            <g transform="matrix(1,0,0,3.29093,-7.92475,-1833.74)">
+                <rect x="626.108" y="811.181" width="1371.1" height="38.597" style="fill:rgb(235,235,235);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-135.057,-0.0144185)">
+                <text x="948.89px" y="925.985px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:75px;">Speziﬁsches Softwar<tspan x="1650.07px 1690.34px " y="925.985px 925.985px ">es</tspan>ystem</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,2.58536,316.446)">
+            <g transform="matrix(1,0,0,3.29093,-7.92475,-1833.74)">
+                <rect x="626.108" y="811.181" width="1371.1" height="38.597" style="fill:rgb(235,235,235);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,94.5557,-0.0144185)">
+                <text x="948.89px" y="925.985px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:75px;">Betriebssystem</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-82.2146,474.669)">
+            <g transform="matrix(1,0,0,3.29093,76.8752,-1833.74)">
+                <rect x="626.108" y="811.181" width="1371.1" height="38.597" style="fill:rgb(235,235,235);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-235.807,-0.0144185)">
+                <text x="948.89px" y="925.985px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:75px;">Har<tspan x="1066.94px 1111.41px " y="925.985px 925.985px ">dw</tspan>ar<tspan x="1232.16px 1272.44px " y="925.985px 925.985px ">e </tspan>(physikalisch oder virtualisiert)</text>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-107.896,158.223)">
+            <g transform="matrix(1,0,0,3.29093,102.557,-1833.74)">
+                <rect x="626.108" y="811.181" width="1371.1" height="38.597" style="fill:rgb(235,235,235);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-143.75,-0.0144185)">
+                <text x="948.89px" y="925.985px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:75px;">Middlewar<tspan x="1297.49px 1337.77px " y="925.985px 925.985px ">e-</tspan> oder Datenbanksystem</text>
+            </g>
+        </g>
+    </g>
+</svg>
