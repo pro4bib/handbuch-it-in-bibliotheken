@@ -108,7 +108,7 @@ illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
-![*Abbildung 2* Lebensdauer (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)](media/sw_lifespan.svg)
+![*Abbildung 2* Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/missing.svg)
 
 #### Ablösung
 
@@ -199,7 +199,7 @@ abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
 Schichtmodells des Betriebs eines IT-Systems illustrieren (siehe
 Abbildung 3).
 
-![*Abbildung 3* Schichtmodell-Bild (Platzhalter)](media/schichten.svg)
+![*Abbildung 3* Schichtmodell-Bild (Platzhalter)](media/missing.svg)
 
 Aus der Abbildung wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
@@ -535,11 +535,8 @@ rekrutieren müssen.
 ## Zusammenfassung und Ausblick
 
 ::: {.callout-note}
-
-- permantenter Anpassungebedarf an das System - es empfiehlt sich eine schnelle Reaktion auf sich ändernde Anforderungen, denn das Wissen um das BMS und seine Nutzung muss durch Personal 
-Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichten. Auch das Wissen der Systemanwendenden und -betreuenden ist unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden
-- Lebenszyklus eines Systems vs Personalmanagement - das Wissen eines Systems erhalten, auch wenn bestimmte SW-Abhängigkeiten bzw Vendor-Lockins verursacht wurden - betrifft aber auch Opensource
-- 
+Auch nach Auswahl eines Systems ist eine permanente Beobachtung des Lebenszyklus erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
+Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichten: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden.
 :::
 
 [^1]: <https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038>
