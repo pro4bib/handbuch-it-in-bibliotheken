@@ -22,9 +22,8 @@ ihrem Aufbau und Betrieb. Während sich einige Teile der IT in
 Bibliotheken nicht wesentlich von IT in anderen Bereichen unterscheiden,
 gibt es doch zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht
 speziell genug an anderer Stelle behandelt werden, beispielsweise die
-zentralen [Bibliotheksmanagementsysteme].
+zentralen [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme).
 
-[Bibliotheksmanagementsysteme]: #bibliotheksmanagementsysteme
 
 ## Inhalt
 
