@@ -1,4 +1,4 @@
-# Nutzer\*innenorientierte Gestaltung - Anforderungen an Bibliotheks-IT
+# Anforderungen an Bibliotheks-IT {#anforderungen}
 
 ::: {.callout-note}
 In Kapitel [Management von IT-Systemen](#management)
