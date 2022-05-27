@@ -16,7 +16,7 @@ neue Nutzungsformen von Medien.
 IT-Entwicklung sollte sich daher auch an
 den [Bedürfnissen](Bedarfsermittlung) von [Nutzenden](#Einbeziehung-von-Nutzenden-in-die-Entwicklung) ausrichten.
 
-## Nutzer\*innenorientierter Gestaltung
+## Nutzer\*innenorientierte Gestaltung
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
 in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
