@@ -108,7 +108,7 @@ illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
-![Verweildauer von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)](media/sw_lifespan.svg){#fig-verweildauer}
+![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)](media/sw_lifespan.svg){#fig-verweildauer}
 
 #### Ablösung
 
