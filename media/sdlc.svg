@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 3508 2481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:8;">
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="443.639px" y="41.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Design /</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="430.299px" y="61.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Pr<tspan x="447.633px 457.965px " y="61.5px 61.5px ">ot</tspan>otyping</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="460.713px" y="208.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Implementierung</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="369.512px" y="296.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">T<tspan x="377.845px 387.509px " y="296.5px 296.5px ">es</tspan>t &amp;</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="351.017px" y="316.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Integration</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="225.951px" y="208.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">W<tspan x="241.954px 251.621px " y="208.5px 208.5px ">ar</tspan>tung</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="270.047px" y="41.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Planung &amp;</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
-        <text x="279.562px" y="61.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Analyse</text>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,60.1394)">
-        <path d="M521.39,182.751C532.755,201.974 539.623,223.521 541.478,245.775L552.451,245.874L533.727,259.318L513.917,245.529L524.886,245.627C523.057,226.389 517.01,207.79 507.175,191.155L521.39,182.751Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,1290.98)">
-        <path d="M511.37,52.806C498.293,69.834 481.668,83.812 462.649,93.771L466.823,103.919L447.159,91.893L452.163,68.281L456.336,78.426C472.676,69.626 486.969,57.467 498.273,42.748L511.37,52.806Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,1288.03)">
-        <path d="M337.7,100.235C317.845,92.068 300.005,79.678 285.418,63.926L276.715,70.61L283.179,48.484L307.277,47.138L298.578,53.819C311.345,67.289 326.819,77.903 343.983,84.963L337.7,100.235Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,77.9552)">
-        <path d="M246.017,255.116C245.817,232.784 250.674,210.698 260.223,190.511L250.777,184.926L273.718,182.677L283.948,204.538L274.507,198.955C266.446,216.519 262.357,235.644 262.53,254.968L246.017,255.116Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
-    </g>
-    <g transform="matrix(4.16667,0,0,4.16667,158.061,-791.621)">
-        <path d="M360.534,318.335C375.802,314.791 391.536,313.694 407.148,315.087L409.125,304.293L419.163,325.043L402.185,342.198L404.16,331.409C390.787,330.372 377.335,331.388 364.269,334.421L360.534,318.335Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
+<svg width="100%" height="100%" viewBox="0 0 1536 1344" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:8;">
+    <g transform="matrix(1,0,0,1,-1100.42,-459.47)">
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="443.639px" y="41.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Design /</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="430.299px" y="61.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Pr<tspan x="447.633px 457.965px " y="61.5px 61.5px ">ot</tspan>otyping</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="460.713px" y="208.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Implementierung</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="369.512px" y="296.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">T<tspan x="377.845px 387.509px " y="296.5px 296.5px ">es</tspan>t &amp;</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="351.017px" y="316.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Integration</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="225.951px" y="208.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">W<tspan x="241.954px 251.621px " y="208.5px 208.5px ">ar</tspan>tung</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="270.047px" y="41.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Planung &amp;</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,468.758)">
+            <text x="279.562px" y="61.5px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:18px;">Analyse</text>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,60.1394)">
+            <path d="M521.39,182.751C532.755,201.974 539.623,223.521 541.478,245.775L552.451,245.874L533.727,259.318L513.917,245.529L524.886,245.627C523.057,226.389 517.01,207.79 507.175,191.155L521.39,182.751Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,1290.98)">
+            <path d="M511.37,52.806C498.293,69.834 481.668,83.812 462.649,93.771L466.823,103.919L447.159,91.893L452.163,68.281L456.336,78.426C472.676,69.626 486.969,57.467 498.273,42.748L511.37,52.806Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,1288.03)">
+            <path d="M337.7,100.235C317.845,92.068 300.005,79.678 285.418,63.926L276.715,70.61L283.179,48.484L307.277,47.138L298.578,53.819C311.345,67.289 326.819,77.903 343.983,84.963L337.7,100.235Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,77.9552)">
+            <path d="M246.017,255.116C245.817,232.784 250.674,210.698 260.223,190.511L250.777,184.926L273.718,182.677L283.948,204.538L274.507,198.955C266.446,216.519 262.357,235.644 262.53,254.968L246.017,255.116Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
+        </g>
+        <g transform="matrix(4.16667,0,0,4.16667,158.061,-791.621)">
+            <path d="M360.534,318.335C375.802,314.791 391.536,313.694 407.148,315.087L409.125,304.293L419.163,325.043L402.185,342.198L404.16,331.409C390.787,330.372 377.335,331.388 364.269,334.421L360.534,318.335Z" style="fill:rgb(68,114,196);stroke:white;stroke-width:1px;"/>
+        </g>
     </g>
 </svg>
