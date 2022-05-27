@@ -532,6 +532,16 @@ den digitalen Diensten noch stärker berücksichtigen und Studierende mit
 einem erhöhten Interesse an den Aufgaben in der Bibliotheks-IT
 rekrutieren müssen.
 
+## Zusammenfassung und Ausblick
+
+::: {.callout-note}
+
+- permantenter Anpassungebedarf an das System - es empfiehlt sich eine schnelle Reaktion auf sich ändernde Anforderungen, denn das Wissen um das BMS und seine Nutzung muss durch Personal 
+Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichten. Auch das Wissen der Systemanwendenden und -betreuenden ist unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden
+- Lebenszyklus eines Systems vs Personalmanagement - das Wissen eines Systems erhalten, auch wenn bestimmte SW-Abhängigkeiten bzw Vendor-Lockins verursacht wurden - betrifft aber auch Opensource
+- 
+:::
+
 [^1]: <https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038>
 
 [^2]: DGUV-Information 215--410 „Bildschirm- und Büroarbeitsplätze --
