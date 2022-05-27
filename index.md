@@ -49,7 +49,7 @@ verfassen. Weitere Autor\*innen wurden im Laufe der Veranstaltung eingebunden.
 
 Zur Klärung der [Zielgruppe](#zielgruppe) wurden einige sogenannte *Personas*
 definiert.  Eine Brainstorming-Session ergab zunächst relevante Themen für den
-Teilbereich [Bibliotheksmanagementsysteme] und eine grobe Gliederung in
+Teilbereich [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme) und eine grobe Gliederung in
 Unterkapitel. Diese wurden anschließend in mehreren Iterationen gemeinsam
 ausformuliert.
 
