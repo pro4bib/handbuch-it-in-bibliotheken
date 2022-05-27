@@ -1332,9 +1332,7 @@ Sicherungsgates verhindern nicht Diebstahl, Diebe wählen andere Wege.
 Sicherungsgates verhindern das versehentliche Verlassen der Bibliothek
 mit unverbuchten Medien.
 
-### Systemintegration über Schnittstellen
-
-#### Anforderungen
+### Anbindung von Systemen über Schnittstellen
 
 Ein BMS muss in der Lage sein, mit anderen Systemen automatisiert Daten
 auszutauschen. Diese Austauschprozesse betreffen folgende Szenarien
