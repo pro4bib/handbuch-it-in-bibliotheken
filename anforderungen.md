@@ -2,7 +2,7 @@
 
 :::{.callout-note}
 
-Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutzenden](#Einbeziehung-von-Nutzenden-in-die-Entwicklung) und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#Bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#Methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
+Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutzenden](#einbeziehung) und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#Bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#Methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
 
 :::
 
@@ -21,7 +21,7 @@ Transformation beziehungsweise technischen Fortschritt möglich gewordene
 neue Nutzungsformen von Medien.
 
 IT-Entwicklung sollte sich daher auch an
-den [Bedürfnissen](Bedarfsermittlung) von [Nutzenden](#Einbeziehung-von-Nutzenden-in-die-Entwicklung) ausrichten.
+den [Bedürfnissen](#Bedarfsermittlung) von [Nutzenden](#einbeziehung) ausrichten.
 
 ## Nutzer\*innenorientierten Gestaltung
 
@@ -138,7 +138,7 @@ Arbeitsschritte, egal ob analog oder digital, mit ein.
 
 ![Zusammenhang zwischen Usability und User Experience](media/usability_ux.svg){#fig-usux}
 
-## Wie beziehen wir unsere Nutzer\*innen ein?
+## Wie beziehen wir unsere Nutzer\*innen ein? {#einbeziehung}
 
 Mit der Einführung einer neuen IT-Lösung werden bestimmte strategische
 Ziele verfolgt wie die Ablösung eines veralteten Systems, die Einführung
