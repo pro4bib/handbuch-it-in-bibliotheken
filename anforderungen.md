@@ -60,10 +60,10 @@ gelegt (vgl. ISO 9241-210:2019). Diese Aspekte werden in Abschnitt [Was
 beeinflusst den Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck)
 weiter erläutert.
 
-Das Central Digital and Data Office des Vereinigten Köngreichs[^1] fasst
+Das Central Digital and Data Office des Vereinigten Köngreichs fasst
 die zentral zu bearbeitenden Arbeitspunkte im nutzer\*innenzentrierten
 Gestaltungsprozess und den Weg dahin prägnant in seinen "Government
-Design Principles" zusammen:
+Design Principles" zusammen @noauthor_government_2012:
 
 1.  Start with user needs
 
@@ -427,7 +427,7 @@ das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.
 Die Testgruppe muss die potentielle Nutzungsgruppe bestmöglich
 repräsentieren, jedoch nicht sehr groß sein. Die Erfahrung zeigt, dass
 ca. fünf Testpersonen ausreichen, um die wichtigsten Usabilityprobleme
-eines Systems zu identifizieren[^2]. Statt eines einzigen Tests mit
+eines Systems zu identifizieren @jakob_nielsen_why_2000. Statt eines einzigen Tests mit
 vielen Teilnehmenden bieten sich daher schnell durchzuführende Tests mit
 wenigen Teilnehmenden an, um ein Produkt iterativ zu verbessern. Möchte
 man jedoch verschiedene Typen von Nutzer\*innen analysieren oder
@@ -487,7 +487,3 @@ Aufgaben belastbare Aussagen zu erhalten.
 ## Zusammenfassung und Ausblick
 
 Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die Entwicklung von Software einbezogen werden können - je nach Umfang des Produkts und des Anwender\*innenkreises. Usertests erfodern ein anderes Zeitmanagement als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die Verwendung von Wireframes und Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen, mit denen auch die Interaktionen getestet werden können.
-
-[^1]: <https://www.gov.uk/guidance/government-design-principles>
-
-[^2]: <https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/>

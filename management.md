@@ -235,14 +235,16 @@ ergonomischer Grundsätze bei der Entwicklung von Software. Moderne
 grafische Anwendungen müssen ebenso wie Internetseiten diese
 Anforderungen erfüllen:
 
-> „Die Software muss gebrauchstauglich sein, das heißt, sie sollte
+> Die Software muss gebrauchstauglich sein, das heißt, sie sollte
 > gewährleisten, dass Benutzer festgelegte Ziele in einem bestimmten
 > Nutzungskontext effektiv, effizient und zufriedenstellend erreichen
 > können. Dies setzt voraus, dass die Grundsätze der Dialoggestaltung
 > nach *DIN EN ISO 9241-110*, wie *Aufgabenangemessenheit,
 > Selbstbeschreibungsfähigkeit, Steuerbarkeit, Fehlertoleranz,
 > Erwartungskonformität, Individualisierbarkeit, Lernförderlichkeit*
-> beachtet und realisiert werden."[^2]
+> beachtet und realisiert werden.
+>
+> -- [@gesetzliche_bildschirm-_2019]
 
 Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
 Bibliotheks-IT](#anforderungen) thematisiert.
@@ -429,7 +431,8 @@ Folgenden ausführlicher betrachtet.
 
 In der Einleitung wird Cody Hanson zitiert: „Most importantly, all
 library staff must understand that our software is our library, and is
-everyone's responsibility."[^4] Bezogen auf Einarbeitung und Weiterbildung
+everyone's responsibility." [@hanson_cody_opinion_2015]
+Bezogen auf Einarbeitung und Weiterbildung
 bedeutet das, dass sich Mitarbeitende mit der (Weiter-)Entwicklung von
 Software ebenfalls weiterbilden und weiterentwickeln. Nur so kann die
 Verantwortung von allen Mitarbeitenden mit Bezug zur Bibliotheks-IT
@@ -533,16 +536,10 @@ rekrutieren müssen.
 
 ## Zusammenfassung und Ausblick
 
-::: {.callout-note}
 Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
 Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden.
-:::
 
 [^1]: <https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038>
 
-[^2]: DGUV-Information 215--410 „Bildschirm- und Büroarbeitsplätze --
-    Leitfaden für die Gestaltung", Abschnitt 8.5
-
 [^3]: <https://developers.google.com/search/blog/2020/05/evaluating-page-experience>
 
-[^4]: <https://www.codyh.com/writing/software.html>
