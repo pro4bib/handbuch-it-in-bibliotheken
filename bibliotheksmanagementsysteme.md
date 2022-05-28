@@ -1742,7 +1742,7 @@ voraussichtlich wieder zur Verfügung steht.
 
 Um ein BMS vor den zunehmenden Angriffen durch böswillige Akteure
 (Hacking, Malware, Ransomware) abzusichern, können die folgenden
-Empfehlungen als Grundlage dienen [@marshall_breeding_how_2022]:
+Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
 
 -   Die Infrastruktur um das BMS herum sollte durch starke
     Sicherheitsvorkehrungen getragen werden.
