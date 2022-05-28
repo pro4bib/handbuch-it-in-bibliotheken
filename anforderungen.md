@@ -9,8 +9,8 @@ Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutze
 
 Im Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
-Anforderungen eingegangen, sowie den permanenten Anpassungsbedarf an Systeme
-im Laufe ihrer Lebenszeit.
+Anforderungen sowie den permanenten Anpassungsbedarf an Systeme
+im Laufe ihrer Lebenszeit eingegangen.
 
 Betrachtet man sein persönliches Nutzungsverhalten im digitalen
 Bereich wird klar, dass sich auch die eigenen Präferenzen bezüglich
