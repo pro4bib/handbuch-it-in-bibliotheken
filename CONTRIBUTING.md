@@ -1,6 +1,6 @@
 {{< include _umfrage.md >}}
 
-Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizensierung](#lizenz) der eigenen Beiträge. Technische Details sind im Abschnitt zum [git-Repository] zusammengefasst.
+Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizensierung](#lizenz) der eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist unter [Technik](#technik) beschrieben.
 
 ## Arbeitsablauf {.unnumbered}
 
@@ -10,7 +10,7 @@ Schreiben
   : Neue Themen werden durch Gruppen im Rahmen von Book Sprints erstellt. Als Werkzeug zum freien Schreiben dient dabei beispielsweise Google Docs.
 
 Lektorat
-  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#git-repository) des Handbuch abgelegt. Anschließend werden daraus *DOCX*-Dateien erstellt (Word) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) oder per Hinweis an [die Autor*innen](#autorinnen) erfolgen.
+  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#technik) des Handbuch abgelegt. Anschließend werden daraus *DOCX*-Dateien erstellt (Word) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) oder per Hinweis an [die Autor*innen](#autorinnen) erfolgen.
 
 Redaktion
   : Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Drive einarbeiten und die DOCX-Datei aktualisieren.
@@ -105,7 +105,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 ### Bilder und andere Medien {#mitarbeit-medien .unnumbered}
 
-* Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository]. Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
+* Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository](#technik). Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
 
 * Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt werden.
 
@@ -129,19 +129,15 @@ Die Verlinkung von kursiv gesetzten Glossareinträgen zum Glossar ist [noch nich
 
 Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\*innen](#autorinnen) auftauchst, trage Dich in der CSV-Datei [`contributors.csv`](contributors.csv) ein. Die Zeilen sollten nach Nachname sortiert werden. Die Spalten `email`, `position` und `orcid` sind optional.
 
-## git-Repository {#git-repository .unnumbered}
+## Technik {.unnumbered}
 
-[git-Repository]: #git-repository
-
-Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>.
-
-Die Ergebnisdateien werden automatisch via GitHub und einen Server der VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
+Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die Ergebnisdateien werden automatisch via GitHub und einen Server der *VZG* aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
 
 ### Verzeichnisstruktur {.unnumbered}
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
-* [`_quarto.yml`](_quarto.yml) zentrale Konfigurationsdatei zur Anpassung der [Konvertierung mit Quarto](#konvertierung-mit-quarto)
+* `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der [Konvertierung mit Quarto](#konvertierung)
 
 * [`contributors.csv`](contributors.csv) [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
 
@@ -158,7 +154,7 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 * `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe [README.md](_gdrive/README.md))
 
 
-### Konvertierung mit Quarto {.unnumbered}
+### Konvertierung {.unnumbered}
 
 Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) muss das Repository lokale geklont und Quarto installiert werden. Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
 
