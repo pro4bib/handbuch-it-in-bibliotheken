@@ -87,17 +87,21 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 -   Wir vermeiden IT-Jargon.
 
+-   Quellen sollten nur dann genannt werden wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
+
+#### Typografie
+
 -   Abkürzungen werden durch geschützte Leerzeichen getrennt (z. B.)
 
 -   Gerade Anführungszeichen `"..."` werden automatisch durch die Deutschland und Österreich übliche Anführungszeichen ("...") ersetzt.
 
--   Die Nennung von Quellen in Fußnoten sollten nur dann vorgenommenwerden, wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
+   Externe Links, die nur auf Anbieter oder andere Websites verweisen, werden inline verlinkt.
 
 -   Links, die auf später entstehende Kapitel verweisen, werden durch eckige Klammern kenntlich gemacht.
 
--   Externe Links, die nur auf Anbieter oder andere Websites verweisen, werden inline verlinkt.
-
 -   *Kursive* Hervorhebung sollte nur für Namen und [Glossareinträge](#mitarbeit-glossar) verwendet werden.
+
+-   Wir verzichten auf Fußnoten.
 
 ### Bilder und andere Medien {#mitarbeit-medien .unnumbered}
 
@@ -129,11 +133,7 @@ Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\
 
 [git-Repository]: #git-repository
 
-*Die Links in diesem Kapitel funktionieren u.A. nicht.*
-
 Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>.
-
-Die Links zum Kommentieren stehen in der Datei [`_grive/chapters.csv`](_gdrive/chapters.csv) und in [README.md](README.md).
 
 Die Ergebnisdateien werden automatisch via GitHub und einen Server der VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
 
@@ -149,7 +149,7 @@ Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
 Weitere Unterverzeichnisse:
 
-* [`media/`](media) [Bilder und andere Medien](#bilder-und-andere-medien)
+* `media/` [Bilder und andere Medien](#bilder-und-andere-medien)
 
 Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 

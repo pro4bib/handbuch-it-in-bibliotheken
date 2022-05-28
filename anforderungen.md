@@ -415,7 +415,7 @@ Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
 
-![](media/usability_ux.svg){#fig-6} 
+![&nbsp;](media/usability_ux.svg){#fig-6} 
 
 Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass
 diese auch ohne eine formale Usability-Ausbildung durch engagierte
