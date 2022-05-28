@@ -1,7 +1,5 @@
 <!-- Diese Datei wird automatisch überschrieben, bitte contributors.csv anpassen -->
 
-## Beteiligte Autor*innen
-
 * Nicolas Bach, Student an der HdM Stuttgart\
    [nicolas.bach@posteo.de](mailto:nicolas.bach@posteo.de)
 

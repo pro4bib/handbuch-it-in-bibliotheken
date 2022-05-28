@@ -1,10 +1,12 @@
 .SUFFIXES: .docx .md
 .PHONY: references.bib
 
+INCLUDES=_contributors.md references.bib
+
 preview:
 	quarto preview --port 15745
 
-build: templates/chapters.html
+build: templates/chapters.html $(INCLUDES)
 	quarto render
 	./adjust-canonical-urls.sh
 
@@ -29,6 +31,6 @@ templates/chapters.html: _gdrive/chapters.csv
 		| jq -sc add >> $@; echo "</script>" >> $@
 
 # TODO: replace by lua filter as supported by quarto
-_contributors.md: contributors.csv
+_contributors.md: contributors.csv templates/contributors.md
 	catmandu convert CSV to JSON < $< | jq '{"contributor":.}' | catmandu convert JSON to YAML \
         | pandoc --template templates/contributors.md -M title=- > $@

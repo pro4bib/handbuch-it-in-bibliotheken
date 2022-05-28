@@ -24,7 +24,6 @@ gibt es doch zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht
 speziell genug an anderer Stelle behandelt werden, beispielsweise die
 zentralen [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme).
 
-
 ## Inhalt
 
 Dieses Handbuch soll einen knappen, umfassenden Überblick über die wichtigsten
@@ -39,6 +38,8 @@ IT-bezogenen Themen in Bibliotheken geben. Die vorliegende Version behandelt:
 Weitere Themen werden bis zur Vervollständigung des Handbuchs hinzukommen.
 
 ## Über dieses Handbuch
+
+{{< include _umfrage.md >}}
 
 Die erste Version dieses Handbuchs wurde [im Rahmen eines Book
 Sprints](https://www.th-wildau.de/book-sprint/) im April 2022 an der Bibliothek
@@ -79,6 +80,8 @@ Weitere [Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
 Umsetzung des Handbuchs finden sich im Anhang.
 
 :::
+
+## Beteiligte Autor\*innen {#autorinnen}
 
 {{< include _contributors.md >}}
 
