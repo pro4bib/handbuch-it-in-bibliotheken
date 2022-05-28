@@ -55,5 +55,7 @@ format:
   #pdf:
   #  documentclass: scrreprt
 
+filters:
+  - templates/pandoc-quotes.lua
 #comments:
 #  hypothesis: true

@@ -429,10 +429,10 @@ Folgenden ausführlicher betrachtet.
 
 ### Aus- und Weiterbildung
 
-In der Einleitung wird Cody Hanson zitiert: „Most importantly, all
+In der Einleitung wird Cody Hanson [-@hanson_cody_opinion_2015]
+zitiert: "Most importantly, all
 library staff must understand that our software is our library, and is
-everyone's responsibility." [@hanson_cody_opinion_2015]
-Bezogen auf Einarbeitung und Weiterbildung
+everyone's responsibility." Bezogen auf Einarbeitung und Weiterbildung
 bedeutet das, dass sich Mitarbeitende mit der (Weiter-)Entwicklung von
 Software ebenfalls weiterbilden und weiterentwickeln. Nur so kann die
 Verantwortung von allen Mitarbeitenden mit Bezug zur Bibliotheks-IT

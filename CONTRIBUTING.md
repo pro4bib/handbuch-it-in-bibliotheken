@@ -89,7 +89,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 -   Abkürzungen werden durch geschützte Leerzeichen getrennt (z. B.)
 
--   Wir verwenden in Deutschland und Österreich übliche Anführungszeichen („...").
+-   Gerade Anführungszeichen `"..."` werden automatisch durch die Deutschland und Österreich übliche Anführungszeichen ("...") ersetzt.
 
 -   Die Nennung von Quellen in Fußnoten sollten nur dann vorgenommenwerden, wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
 
