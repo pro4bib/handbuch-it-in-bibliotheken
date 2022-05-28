@@ -68,7 +68,7 @@ Anbietern, während die ersten Systeme als Eigenentwicklungen von
 Bibliotheken entstanden. Die Landschaft an **Systemen der 2.
 Generation** war von den späten 1990er bis in die Nullerjahre sehr
 divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass
-man von einem konsolidierten Markt sprechen kann.[^1]
+man von einem konsolidierten Markt sprechen kann [@breeding_library_nodate].
 
 Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS,
 die **Next-Generation Library Management Systems**, die auch **Library
@@ -174,8 +174,7 @@ skizziert.
 
 #### Erwerbung
 
-meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen
-zB folgende Aufgabengebiete:
+meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen z.B. folgende Aufgabengebiete:
 
 -   Bestellungen
 
@@ -191,11 +190,11 @@ zB folgende Aufgabengebiete:
 
 -   Buchbinder
 
-[siehe auch Erwerbung in der Prozessabbildung]
+$\Rightarrow$ *Siehe auch [Erwerbung in der Prozessabbildung](#erwerbung-prozess).*
 
 #### Katalogisierung
 
-meint die Erschließung der verwalteten Medien und digitalen Quellen, zB
+meint die Erschließung der verwalteten Medien und digitalen Quellen, z.B.
 anhand
 
 -   Übernahme von Fremddaten
@@ -204,12 +203,12 @@ anhand
 
 -   Integration digitalisierter Medien
 
-[siehe auch Katalogisierung in der Prozessabbildung]
+$\Rightarrow$ *Siehe auch [Katalogisierung in der Prozessabbildung](#katalogisierung-prozess).*
 
 #### Ausleihe
 
 meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt
-Interaktionen mit Nutzer\*innen wie zB:
+Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Abbildung komplexer Reglements nach Benutzer- und Medientypen,
     Standorten usw (siehe auch [Benutzungsbedingungen](#benutzungsbedingungen))
@@ -224,7 +223,7 @@ Interaktionen mit Nutzer\*innen wie zB:
 
 -   Mahngebühren
 
-[siehe auch Ausleihe siehe auch Katalogisierung in der Prozessabbildung](#ausleihe)
+$\Rightarrow$ *Siehe auch [Ausleihe in der Prozessabbildung](#ausleihe-prozess).*
 
 #### Recherchemodul
 
@@ -243,7 +242,7 @@ aus. Das heißt, sie verfügen über aktuellere technische
 Einzelkomponenten und Schnittstellen, auf deren Grundlage auch
 zahlreiche zusätzliche Funktionalitäten angeboten werden können. Im
 Einzelnen gibt es folgende Merkmale, die ein **Next Generation-System**
-kennzeichnen[^2]:
+kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 
 -   Angebot als Software as a Service ([SaaS](#cloud))
 
@@ -425,23 +424,23 @@ wesentliche Rolle
 
 -   Fernleihe
 
--   Dokumentenlieferdienste (z.B.:
-    [Subito](https://www.subito-doc.de/), und
-    Fachinformations-Lieferdienste)
+-   Dokumentenlieferdienste (wie [Subito](https://www.subito-doc.de/)
+    und Fachinformations-Lieferdienste)
 
 Die Anbindung an die entsprechenden Dienste (Zentraler Fernleih-Server,
 Fernleihdienst, Subito-Server etc.) ist für viele, aber durchaus nicht
 alle Bibliotheken relevant.
 
 Im Zusammenhang mit dem Aufbau der Fachinformationsdienste für die
-spezialisierte Informationsversorgung in Deutschland werden in
-zunehmendem Maße Fachportale entwickelt. Relevante Katalog-Informationen
-werden aus möglichst vielen Bibliotheken regelmäßig abgerufen[^3] und in
-spezialisierten Discovery-Systemen gesammelt. Dort können sie für eine
-übergreifende Recherche genutzt werden. Die BMS müssen entsprechend über
-[Standardschnittstellen](#datenformate-und-schnittstellen)
-die relevanten Katalogdaten in einem vereinbarten
-[Datenformat](#bibliographische-metadaten) bereitstellen.
+spezialisierte Informationsversorgung in Deutschland werden in zunehmendem Maße
+Fachportale entwickelt. Relevante Katalog-Informationen werden aus möglichst
+vielen Bibliotheken regelmäßig abgerufen (Harvesting), in ein einheitliches
+Datenformat übertragen und anschließend als gemeinsamer Index für die
+übergreifende Recherche in Discovery-Systemen angeboten.
+Die BMS müssen entsprechend über
+[Standardschnittstellen](#datenformate-und-schnittstellen) die relevanten
+Katalogdaten in einem vereinbarten [Datenformat](#bibliographische-metadaten)
+bereitstellen.
 
 ### Verbundkataloge
 
@@ -1017,7 +1016,7 @@ Es ergeben sich daraus die folgenden Anforderungen
 Diese Themen werden auch in den Abschnitten zu [rechtlichen Rahmenbedingungen]
 und zu den [Prinzipien der Gestaltung] angesprochen.
 
-### Erwerbung
+### Erwerbung {#erwerbung-prozess}
 
 Ein BMS sollte das Bibliothekspersonal bei den folgenden Aufgaben
 unterstützen:
@@ -1082,7 +1081,7 @@ BMS der neuen Generation.
 Alternativ können aber auch separate, sogenannte Electronic Resource
 Management-Tools eingesetzt werden (Coral, GoKB und LAS:eR).
 
-### Katalogisierung
+### Katalogisierung {#katalogisierung-prozess}
 
 Bei der Katalogisierung müssen folgende Tätigkeiten unterstützt werden:
 
@@ -1097,7 +1096,7 @@ Metadaten-Standards
 
 4.  Konfigurierbarkeit von Erfassungsmasken
 
-### Katalog
+### Katalog {#katalog-prozess}
 
 Der Katalog ist die Sicht für die Bibliotheksnutzer\*innen auf die
 Bestände der Bibliothek. An das Katalogmodul werden folgende
@@ -1157,7 +1156,7 @@ Bei Punkt 4 entsteht die Herausforderung, die im BMS gehosteten
 Informationen, zum Beispiel über den Ausleihstatus/Verfügbarkeit, auch
 in der Oberfläche des Discovery-Systems aktuell darzustellen.
 
-### Ausleihe
+### Ausleihe {#ausleihe-prozess}
 
 Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
 
@@ -1419,7 +1418,7 @@ nutzen.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /
 SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
-[OpenID](https://de.wikipedia.org/wiki/OpenID) [^4]
+[OpenID](https://de.wikipedia.org/wiki/OpenID)
 
 Softwareprodukte für IDM sind: SAP (mit Plugins), Microsoft Active
 Directory, uvm
@@ -1927,26 +1926,15 @@ IT-Sicherheitsbeauftragte hinzugezogen werden.
 
 ## Zusammenfassung und Ausblick
 
-::: {.callout-note}
-
 Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
 durch die verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
 stetig angepasst werden.
-Der Import, Export oder auch die Zusammenführung von Daten erfordert
-klar definierte Metadaten und Schnittstellen für den freien Austausch
-aus gut nachnutzbaren Quellsystemen. Dies ist vor allem erforderlich bei
-der aktuell stärkeren Entwicklung hin zu Open Data und öffentlicher
-Datennutzung. Die Integration und Interaktion mit anderen Informationssystemen
-nimmt also zu. Vor allem herkömmliche BMS der zweiten Generation kommen hier schnell an ihre Grenzen.
 
-:::
+Der Import, Export oder auch die Zusammenführung von Daten erfordert klar
+definierte Metadaten und Schnittstellen für den freien Austausch aus gut
+nachnutzbaren Quellsystemen. Dies ist vor allem erforderlich bei der aktuell
+stärkeren Entwicklung hin zu Open Data und öffentlicher Datennutzung. Die
+Integration und Interaktion mit anderen Informationssystemen nimmt also zu. Vor
+allem herkömmliche BMS der zweiten Generation kommen hier schnell an ihre
+Grenzen.
 
-[^1]: [https://librarytechnology.org/mergers/automationhistory.pl](https://librarytechnology.org/mergers/automationhistory.pl)
-
-[^2]: [https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html](https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html)
-
-[^3]: Das Harvesting dient dazu, Metadaten verschiedener Herkunft
-    und Form in ein einheitliches Metadaten-Format zu übertragen und so
-    über eine gemeinsame Datenquelle anbieten zu können.
-
-[^4]: <https://en.wikipedia.org/wiki/Identity_provider>
