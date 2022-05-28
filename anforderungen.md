@@ -7,7 +7,7 @@ Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutze
 :::
 
 
-In Kapitel [Management von IT-Systemen](#management)
+Im Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
 Anforderungen eingegangen, sowie den permanenten Anpassungsbedarf an Systeme
 im Laufe ihrer Lebenszeit.
@@ -486,4 +486,4 @@ Aufgaben belastbare Aussagen zu erhalten.
 
 ## Zusammenfassung und Ausblick
 
-Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die Entwicklung von Software einbezogen werden können - je nach Umfang des Produkts und des Anwender\*innenkreises. Usertests erfodern ein anderes Zeitmanagement als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die Verwendung von Wireframes und Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen, mit denen auch die Interaktionen getestet werden können.
+Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die Entwicklung von Software einbezogen werden können - je nach Umfang des Produkts und des Anwender\*innenkreises. Usertests erfordern ein anderes Zeitmanagement als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die Verwendung von Wireframes und Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen, mit denen auch die Interaktionen getestet werden können.
