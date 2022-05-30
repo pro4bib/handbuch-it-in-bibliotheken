@@ -1,0 +1,58 @@
+---
+# Bitte nach Nachname sortieren! email, orcid und position sind optional.
+contributor:
+- email: nicolas.bach@posteo.de
+  name: Nicolas Bach
+  position: Student an der HdM Stuttgart
+- email: janna.brechmacher@sbb.spk-berlin.de
+  name: Janna Brechmacher    
+  position: Stabstelle IT in der Benutzungsabteilung der Staatsbibliothek zu Berlin
+  orcid: 0000-0001-7233-7153
+- email: rqst@nvsbl.cm
+  name: Sascha A. Carlin
+  position: Agile Coach für Führungskräfte in der Softwareentwicklung
+- email: christensen@effective-webwork.de
+  name: Anne Christensen
+  orcid: 0000-0001-7753-1078
+  position: Bibliothekarin und Projektmanagerin bei effective WEBWORK sowie Lehrbeauftragte an verschiedenen Hochschulen
+- email: jana.eger@stadtbibliothek-chemnitz.de
+  name: Jana Eger
+  position: Stadtbibliothek Chemnitz
+- email: gerrit.gragert@sbb.spk-berlin.de
+  name: Gerrit Gragert
+  orcid: 0000-0002-0542-1555
+  position: Leitung IT-Services für die Digitale Bibliothek in der Staatsbibliothek Berlin
+- email: lambert.heller@tib.eu
+  name: Lambert Heller
+  orcid: 0000-0003-0232-7085
+  position: Leitung Open Science Lab an der TIB - Leibniz‐Informationszentrum Technik und Naturwissenschaften
+- email: clemens.kynast@uni-jena.de
+  name: Clemens Kynast
+  position: Discoverysysteme & Bibliotheksautomatisierung an der ThULB Jena
+- email: lukas.lerche@tu-dortmund.de
+  name: Lukas Lerche
+  orcid: 0000-0002-4027-6840
+  position: UB Dortmund
+- email: lmossburger@t-online.de
+  name: Luis Moßburger
+  orcid: 0000-0002-5326-219X
+- email: michael.schaarwaechter@tu-dortmund.de
+  name: Michael Schaarwächter
+  orcid: 0000-0002-0180-5930
+  position: Bibliotheks-IT an der UB Dortmund
+- email: fseeliger@th-wildau.de
+  name: Frank Seeliger
+  orcid: 0000-0003-0602-8082
+  position: Bibliotheksleiter TH Wildau
+- email: jakob.voss@gbv.de
+  name: Jakob Voß
+  orcid: 0000-0002-7613-4123
+  position: Forschung und Entwicklung an der VZG Göttingen
+- email: info@it-expert-voss.de
+  name: Michael Voss
+  orcid: 0000-0002-7402-1598
+- email: david.zellhoefer@hwr-berlin.de
+  name: David Zellhöfer
+  orcid: 0000-0002-0403-457X
+  position: Professor für Digitale Innovation in der öffentlichen Verwaltung an der HWR Berlin
+...
