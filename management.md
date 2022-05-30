@@ -181,8 +181,9 @@ betrieben wird, ist die Fehlerbehebung ausschließlich Sache des
 Herstellers. Fällt dieser, wie oben beschrieben, aus, kann ein Betrieb
 aus IT-Sicherheitsperspektive nicht mehr verantwortet werden. Hinzu
 kommt, dass das sogenannte Reverse Engineering bzw. das Dekompilieren
-dieser Software in der Regel verboten ist. Mit einem Grundsatzurteil des
-EuGH aus dem Jahr 2021[^1] wird dieses Verbot jedoch aufgeweicht. So ist
+dieser Software in der Regel verboten ist. Mit einem [Grundsatzurteil des
+EuGH aus dem Jahr 2021](https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038) 
+wird dieses Verbot jedoch aufgeweicht. So ist
 es nun rechtmäßigen Erwerbern erlaubt, Fehler in einem Computerprogramm
 zu beheben und dafür auch proprietäre Software zu dekompilieren.
 
@@ -295,8 +296,8 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
 2.  ebenso wird zumeist die Nachnutzbarkeit auf Mobilgeräten erhöht und
 
 3.  die Gestaltung barrierefreier Anwendungen schlägt sich positiv im
-    Suchmaschinenranking nieder, da Suchmaschinen diesen Aspekt zur
-    Bewertung heranziehen.[^3]
+    Suchmaschinenranking nieder, da [Suchmaschinen diesen Aspekt zur
+    Bewertung heranziehen](https://developers.google.com/search/blog/2020/05/evaluating-page-experience).
 
 ## Management der Bibliotheks-IT
 
@@ -538,8 +539,3 @@ rekrutieren müssen.
 
 Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
 Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden.
-
-[^1]: <https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038>
-
-[^3]: <https://developers.google.com/search/blog/2020/05/evaluating-page-experience>
-
