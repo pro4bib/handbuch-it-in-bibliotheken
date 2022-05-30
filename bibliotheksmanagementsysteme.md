@@ -1462,13 +1462,6 @@ Kapitel zum technischen Betrieb eines BMS.
 Online-Payment, Kassensysteme/-automaten (siehe auch Kapitel
 [Kassenautomat](#kassenautomat))
 
-::: {.hidden}
-#### Haushalt
-
-TODO
-
-:::
-
 #### E-Rechnung
 
 E-Rechnungen müssen seit 2020 von Einrichtungen des Bundes, der Länder
