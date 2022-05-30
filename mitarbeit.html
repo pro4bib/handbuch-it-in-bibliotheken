@@ -351,7 +351,8 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 </section>
 <section id="konvertierung" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="konvertierung">Konvertierung</h3>
-<p>Zur Anpassung der Konvertierung des Handbuchs mit <a href="https://quarto.org">Quarto</a> muss das Repository lokale geklont und Quarto installiert werden. Die Aufrufe sind zur Vereinfachung in <a href="../Makefile"><code>Makefile</code></a> zusammengefasst:</p>
+<p>Zur Anpassung der Konvertierung des Handbuchs mit <a href="https://quarto.org">Quarto</a> muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem <code>rsvg-convert</code> installiert werden (Paket <code>librsvg2-bin</code> bzw. <code>libsrvg</code>).</p>
+<p>Die Aufrufe sind zur Vereinfachung in <a href="../Makefile"><code>Makefile</code></a> zusammengefasst:</p>
 <ul>
 <li><p><code>make preview</code> konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <a href="http://localhost:15745/" class="uri">http://localhost:15745/</a> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.</p></li>
 <li><p><code>make build</code> konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis <code>_book</code> ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.</p></li>
