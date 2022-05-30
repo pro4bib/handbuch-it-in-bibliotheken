@@ -42,7 +42,7 @@ for (<$fh>) {
         }
 
         say "\n# $chapter";
-        if (system("pandoc $source -o $chapter.docx -M lang=de -M date=`date -Iseconds` && make $chapter.md")) {        
+        if (system("quarto pandoc $source -o $chapter.docx -M lang=de -M date=`date -Iseconds` && make $chapter.md")) {        
             if (system("git diff --quiet --exit-code $chapter.md")) {
                 say "Die Datei $chapter.docx muss nach Google Drive hochgeladen werden um https://docs.google.com/document/d/$fileid zu ersetzen";
                 say "Anschließend kann $chapter.md gespeichert werden (`git add $chapter.md; git commit`)";
