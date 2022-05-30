@@ -1,5 +1,6 @@
 _gdrive/*.docx
 /_book/
 *.log
+_contributors.md
 index.tex
 /.quarto/

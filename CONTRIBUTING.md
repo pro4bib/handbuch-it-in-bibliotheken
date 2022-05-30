@@ -127,7 +127,7 @@ Die Verlinkung von kursiv gesetzten Glossareinträgen zum Glossar ist [noch nich
 
 ### Autor\*innen-Verzeichnis {#mitarbeit-autorinnen .unnumbered}
 
-Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\*innen](#autorinnen) auftauchst, trage Dich in der JSON-Datei [`contributors.json`](contributors.json) ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder `email`, `position` und `orcid` sind optional.
+Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\*innen](#autorinnen) auftauchst, trage Dich in der YAML-Datei [`contributors.yaml`](contributors.yaml) ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder `email`, `position` und `orcid` sind optional.
 
 ## Technik {.unnumbered}
 
@@ -139,7 +139,7 @@ Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
 * `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der [Konvertierung mit Quarto](#konvertierung)
 
-* [`contributors.json`](contributors.json) [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
+* [`contributors.yaml`](contributors.yaml) [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
 
 * `references.bib` [Literaturverzeichnis](#literaturverzeichnis) (bitte nicht direkt bearbeiten!)
 

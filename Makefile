@@ -1,9 +1,9 @@
 .SUFFIXES: .docx .md
 .PHONY: references.bib
 
-INCLUDES=templates/chapters.html _contributors.md
+INCLUDES=templates/chapters.html _contributors.md glossar.md
 
-preview:
+preview: $(INCLUDES)
 	quarto preview --port 15745
 
 all: build update
@@ -20,7 +20,7 @@ html: $(INCLUDES)
 docx: $(INCLUDES)
 	quarto render --to docx
 
-update:
+update: $(INCLUDES)
 	make -C _gdrive update
 	ls _gdrive/*.docx
 
@@ -34,5 +34,5 @@ templates/chapters.html: _gdrive/chapters.csv
 		| jq -sc add >> $@; echo "</script>" >> $@
 
 # TODO: replace by lua filter as supported by quarto
-_contributors.md: contributors.json templates/contributors.md
+_contributors.md: contributors.yaml templates/contributors.md
 	echo '' | quarto pandoc --metadata-file $< --template templates/contributors.md -M title=- -o $@
