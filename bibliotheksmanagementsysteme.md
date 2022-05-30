@@ -267,11 +267,9 @@ kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 
 ### Aktuell relevante Software-Produkte {#aktuelle-sw-produkte}
 
-Der Markt von BMS ist wie bei Software üblich dynamisch, so dass jede
-Übersicht nach einigen Jahren veraltet ist. Stand Mitte 2022 haben
-folgende BMS die derzeit größte Marktreife und -durchdringung im
-deutschsprachigen Raum. Alle vier verfügen über wesentliche Merkmale
-eines Next Generation-BMS.
+Stand Mitte 2022 haben folgende BMS die derzeit größte Marktreife und
+-durchdringung im deutschsprachigen Raum. Alle vier verfügen über wesentliche
+Merkmale eines Next Generation-BMS.
 
 +-------+--------------+----------------------+-----------+---------------+
 |       | Organisation | Marktstatus          | Open      | Individuelle  |
@@ -322,6 +320,12 @@ Eine internationale Übersicht von BMS enthält der von Marshall Breeding
 gepflegte [Library Technology Guide](https://librarytechnology.org/products/).
 Weitere BMS sind systematisch in Wikidata erfasst und können beispielsweise
 unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
+
+:::{.callout-tip}
+
+Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise Folio im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
+
+:::
 
 ### Vergleich mit anderen Managementsystemen
 

@@ -20,7 +20,7 @@ Server, Storage, Backup u.ä.) ist in Planung.
 
 ## IT-Systeme
 
-### Lebenszyklen von IT-Systemen
+### Lebenszyklen von IT-Systemen {#it-lebenszyklus}
 
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus).
