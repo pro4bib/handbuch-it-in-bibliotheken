@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.468">
+<meta name="generator" content="quarto-0.9.483">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -60,7 +60,25 @@ div.csl-indent {
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="style.css">
-<script src="site_libs/quarto-nav/quarto-nav.js"></script><script src="site_libs/quarto-nav/headroom.min.js"></script><script src="site_libs/clipboard/clipboard.min.js"></script><script src="site_libs/quarto-search/autocomplete.umd.js"></script><script src="site_libs/quarto-search/fuse.min.js"></script><script src="site_libs/quarto-search/quarto-search.js"></script><meta name="quarto:offset" content="./"><link href="/literatur.html" rel="next"><link href="/anforderungen.html" rel="prev"><script src="site_libs/quarto-html/quarto.js"></script><script src="site_libs/quarto-html/popper.min.js"></script><script src="site_libs/quarto-html/tippy.umd.min.js"></script><script src="site_libs/quarto-html/anchor.min.js"></script><link href="site_libs/quarto-html/tippy.css" rel="stylesheet"><link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><script src="site_libs/bootstrap/bootstrap.min.js"></script><link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet"><link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet"></head>
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./literatur.html" rel="next">
+<link href="./anforderungen.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
 
 <body class="nav-sidebar docked">
 
@@ -877,11 +895,11 @@ Evolution der Bibliotheksmanagementsysteme
 <p>Selbstverbucher / Ausleihautomaten bestehen meist aus einer Auflagefläche für die auszuleihenden Medien, einer Schnittstelle für Bibliotheksausweise sowie einem PC, der die Endgeräte verwaltet und mit dem BMS kommuniziert. Bei einer funkgestützten Medienerkennung (RFID) gibt es die Möglichkeit der Stapelverbuchung, es werden also vom Automaten mehrere gestapelte Bücher erkannt und zur Verbuchung angeboten. Bei einer Barcodegestützten Medienerkennung wird jedes Medium einzeln verbucht.</p>
 <p>Bibliotheksausweise gibt es in verschiedensten Ausprägungen: Barcode (1D-Code), Funkchip (u.U. proprietär, Bsp.: Intercard), QR-Code (2D-Code). Die 1D- oder 2D-Codes können entweder auf Papier oder in einer App auf dem Smartphone beigebracht werden. Die Schnittstelle im Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.</p>
 <p>Bei Nichtvorhandensein einer separaten Rückgabeanlage kann der Selbstverbucher / Ausleihautomat auch eine Rückgabefunktion anbieten. Zumeist sammeln die Benutzenden die zurückgegebenen Medien unsortiert; im Anschluss erfolgt die Sortierung durch das Bibliothekspersonal.</p>
-<p>Nach der Rückgabe- oder Ausleihverbuchung muss der Selbstverbucher / Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei der in vielen Bibliotheken auslaufenden EM-Sicherung (elektromagnetisch über einen im Medium eingeklebten magnetisierbaren Metallstreifen) geschieht dies über die Ansteuerung eines Elektromagneten mit hörbarem Feedback an die Nutzenden (“klack”). Bei RFID-Sicherung wird bei erfolgter Verbuchung ein Sicherungsbit auf dem RFID-Chip verändert. Aufgrund der größeren Geschwindigkeit dieses Vorganges geschieht dies ohne Feedback an die Nutzenden.</p>
+<p>Nach der Rückgabe- oder Ausleihverbuchung muss der Selbstverbucher / Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei der in vielen Bibliotheken auslaufenden EM-Sicherung (elektromagnetisch über einen im Medium eingeklebten magnetisierbaren Metallstreifen) geschieht dies über die Ansteuerung eines Elektromagneten mit hörbarem Feedback an die Nutzenden („klack“). Bei RFID-Sicherung wird bei erfolgter Verbuchung ein Sicherungsbit auf dem RFID-Chip verändert. Aufgrund der größeren Geschwindigkeit dieses Vorganges geschieht dies ohne Feedback an die Nutzenden.</p>
 </section>
 <section id="rückgabeautomat--sortierung" class="level4">
 <h4 class="anchored" data-anchor-id="rückgabeautomat--sortierung">Rückgabeautomat / -sortierung</h4>
-<p>Ein separater Rückgabeautomat hat zum einen den Vorteil, dass die Prozesse Ausleihe und Rückgabe bei starker Nutzung entzerrt werden und zum anderen, dass eine Sortierung der zurückgegebenen Medien möglich ist. Die Medien werden von den Nutzenden auf ein Förderband gelegt und eingezogen (außer Reichweite des Nutzenden). In dieser Position wird der Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines der beiden erkannt, wird das Medium wieder zurückgegeben. Bei erfolgreicher Erkennung und Verbuchung im BMS (und anschließender Aktivierung der Buchsicherung) wird im BMS mithilfe der Signatur oder Mediennummer erfragt, wie das Medium sortiert werden soll. In den meisten BMS gibt es dazu Tabellen, die z.B. über die Anfänge von Signaturen oder anderen Kriterien (Bsp: “SN …” in Wagen 3, “ist vorgemerkt” in den Wagen x) arbeiten. Steht das Sortierziel fest, wird das Medium über Förderbänder zu dieser Stelle transportiert und abgeworfen. Das Ziel kann ein sog. Tray sein, ein oben offener Korb oder Wagen, oft mit einem gewichtgesteuerten Boden, damit die Medien nicht allzu tief fallen. Alternativ bieten immer mehr Hersteller sog. Ergocarts an, auf die die Medien so geschichtet werden, dass sie am Regal Rückenschonend aus einem Stapel entnommen und einsortiert werden können.</p>
+<p>Ein separater Rückgabeautomat hat zum einen den Vorteil, dass die Prozesse Ausleihe und Rückgabe bei starker Nutzung entzerrt werden und zum anderen, dass eine Sortierung der zurückgegebenen Medien möglich ist. Die Medien werden von den Nutzenden auf ein Förderband gelegt und eingezogen (außer Reichweite des Nutzenden). In dieser Position wird der Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines der beiden erkannt, wird das Medium wieder zurückgegeben. Bei erfolgreicher Erkennung und Verbuchung im BMS (und anschließender Aktivierung der Buchsicherung) wird im BMS mithilfe der Signatur oder Mediennummer erfragt, wie das Medium sortiert werden soll. In den meisten BMS gibt es dazu Tabellen, die z.B. über die Anfänge von Signaturen oder anderen Kriterien (Bsp: „SN …“ in Wagen 3, „ist vorgemerkt“ in den Wagen x) arbeiten. Steht das Sortierziel fest, wird das Medium über Förderbänder zu dieser Stelle transportiert und abgeworfen. Das Ziel kann ein sog. Tray sein, ein oben offener Korb oder Wagen, oft mit einem gewichtgesteuerten Boden, damit die Medien nicht allzu tief fallen. Alternativ bieten immer mehr Hersteller sog. Ergocarts an, auf die die Medien so geschichtet werden, dass sie am Regal Rückenschonend aus einem Stapel entnommen und einsortiert werden können.</p>
 <p>Üblicherweise gibt es am Rückgabeautomaten keine Authentifizierung.</p>
 <p>Es gibt auch Rückgabeautomaten, die eine erneute Ausleihe des gerade zurückgegebenen Werkes an den gleichen Bibliotheksnutzenden ermöglichen. Dies ist in den Fällen sinnvoll, wenn die maximale Leihfrist / maximal mögliche Verlängerungen der Leihfrist erreicht ist und der Bibliotheksnutzende das Buch weiter nutzen möchte und das Medium nicht anderweitig bestellt ist.</p>
 </section>
@@ -956,11 +974,11 @@ Haushalt
 <h4 class="anchored" data-anchor-id="e-rechnung">E-Rechnung</h4>
 <p>E-Rechnungen müssen seit 2020 von Einrichtungen des Bundes, der Länder und Kommunen verarbeitet werden können. Der Umgang mit E-Rechnungen ist sehr unterschiedlich geregelt. Zum Teil nehmen Einrichtungen nur noch an einer zentralen Stelle E-Rechnungen entgegen. In anderen Einrichtungen werden E-Rechnungen dort entgegen genommen, wo die Bestellungen ausgelöst wurden. Es gibt verschiedene Formate in der eine E-Rechnung übermittelt werden kann (PDF, XML oder direkt per <a href="https://de.wikipedia.org/wiki/EDIFACT">EDIFACT</a>).</p>
 <p>Elektronische Rechnungen kommen immer dann ins Spiel, wenn Bestellvorgänge von neuen Medien über das BMS abgewickelt werden. In diesem Zusammenhang entstehen Rechnungen von Lieferanten, die von der Bibliothek oder ihrer Organisation zu begleichen sind.</p>
-<p>Ohne eine “E-Rechnungs-Workflow” würde dies bedeuten, dass Rechnungen der Lieferanten bei der Bibliothek eingehen, einem Bestellvorgang zugeordnet werden müssen, von der jeweiligen Rechnungsstelle beglichen und schließlich wieder im BMS “abgehakt” werden müssen. Diese repetitiven Workflows lassen sich mittlerweile weitgehend automatisieren. Das BMS ist in der Lage elektronisch übermittelte Rechnungsdaten automatisiert den jeweiligen Bestellprozessen zuzuordnen Bei einer gleichzeitigen Anbindung eines elektronischen Rechnungswesens z.B. über SAP können auch die Zahlungsinformationen automatisiert zugeordnet werden und somit ein Bestellvorgang komplett automatisiert abgeschlossen werden.</p>
+<p>Ohne eine „E-Rechnungs-Workflow“ würde dies bedeuten, dass Rechnungen der Lieferanten bei der Bibliothek eingehen, einem Bestellvorgang zugeordnet werden müssen, von der jeweiligen Rechnungsstelle beglichen und schließlich wieder im BMS „abgehakt“ werden müssen. Diese repetitiven Workflows lassen sich mittlerweile weitgehend automatisieren. Das BMS ist in der Lage elektronisch übermittelte Rechnungsdaten automatisiert den jeweiligen Bestellprozessen zuzuordnen Bei einer gleichzeitigen Anbindung eines elektronischen Rechnungswesens z.B. über SAP können auch die Zahlungsinformationen automatisiert zugeordnet werden und somit ein Bestellvorgang komplett automatisiert abgeschlossen werden.</p>
 </section>
 <section id="statistik" class="level4">
 <h4 class="anchored" data-anchor-id="statistik">Statistik</h4>
-<p>Mit dem Begriff “Statistik” können verschiedene Dinge im Rahmen eines BMS gemeint sein, etwa Betriebsstatistiken, wie die Rechnerauslastung eines Servers, auf dem das BMS betrieben wird. In diesem konkreten Fall ist jedoch mit “Statistik” gemeint, dass die Nutzungsdaten des BMS in eine Form gebracht werden können, in der Mitarbeiter*innen der Bibliothek Informationen ziehen können, die zur Dokumentation, zum Reporting oder zur weiteren Arbeit benutzt werden können.</p>
+<p>Mit dem Begriff „Statistik“ können verschiedene Dinge im Rahmen eines BMS gemeint sein, etwa Betriebsstatistiken, wie die Rechnerauslastung eines Servers, auf dem das BMS betrieben wird. In diesem konkreten Fall ist jedoch mit „Statistik“ gemeint, dass die Nutzungsdaten des BMS in eine Form gebracht werden können, in der Mitarbeiter*innen der Bibliothek Informationen ziehen können, die zur Dokumentation, zum Reporting oder zur weiteren Arbeit benutzt werden können.</p>
 <p>Beispiele für Statistiken sind ganz klassische die Ausleihzahlen einer Bibliothek, ggf. aufgeteilt nach verschiedenen Themen oder Fächern, die den Bedarf der an bestimmten Medien preisgeben. Dies könnte für die Leitung einer Bibliothek relevant sein, oder für das Budgetmanagement der Einrichtung. Ein anderes Beispiel wären detaillierte Ausleih- und Benutzungsstatistiken, sowie konkrete Informationen zum Bestand. Mit einer solchen Datenlage können Fachbibliothekar*innen etwa gezielt Bestandsmanagement betreiben.</p>
 <p>Manche LMS haben Statistikfunktionen schon mit dabei. Andere halten ihre Daten in einer Datenbank und diese müssen aktiv exportiert werden. Wieder andere bieten entsprechende Schnittstellen, über die statistische Daten exportiert werden können.</p>
 <p>Je nach Anforderung an den Umfang und an die Arbeit, die mit statistischen Auswertungen erfolgen soll, kann die Entscheidung fallen, die aus dem BMS kommenden Daten einfach nur in eine Tabellenkalkulation zu exportieren, oder eine speziell auf die statistische Datenanalyse zugeschnittene Statistik-Software einzuspielen. Ergo kommen hier Softwares wie Excel, BibControl oder gar komplexe Statistik-Plattformen wie SPSS in Frage. BMS wie ExLibris Alma bringen hierbei schon eigene Statistik-Module mit, die eine externe Lösung überflüssig machen.</p>
@@ -985,7 +1003,7 @@ Haushalt
 <p>Ein BMS kann auf verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support.</p>
 <section id="lokale-installation" class="level4">
 <h4 class="anchored" data-anchor-id="lokale-installation">Lokale Installation</h4>
-<p>Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf oder im Abo, und installierte diese auf eigenen Servern, z.B. im Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer “on-premise” Installation.</p>
+<p>Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf oder im Abo, und installierte diese auf eigenen Servern, z.B. im Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer „on-premise“ Installation.</p>
 <p>In diesem Modell kümmert sich die Einrichtung selbst um Installation und Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und kann dazu führen, dass bei einem personellen Engpass eine Software länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups und Ausfallsicherheit selbst Gedanken machen.</p>
 <p>Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig von äußeren Einflüssen.</p>
 </section>
@@ -1027,7 +1045,7 @@ Haushalt
 </section>
 <section id="laufender-betrieb" class="level3">
 <h3 class="anchored" data-anchor-id="laufender-betrieb">Laufender Betrieb</h3>
-<p>Während des laufenden Betriebs ist es wichtig, sich über den aktuellen Betriebszustand des Systems ein klares Bild machen zu können. Dieser “Statusbericht” kann sich über alle Ebenen des Systems ziehen: Wie viel Speicherplatz ist noch frei? Ist das System für alle Nutzenden erreichbar? Sind verbundene Systeme verfügbar und betriebsbereit? Je nach Betriebsmodell werden diese Fragestellungen durch klassisches IT-Monitoring abgedeckt, benötigen teilweise aber auch bibliotheksspezifische Lösungen.</p>
+<p>Während des laufenden Betriebs ist es wichtig, sich über den aktuellen Betriebszustand des Systems ein klares Bild machen zu können. Dieser „Statusbericht“ kann sich über alle Ebenen des Systems ziehen: Wie viel Speicherplatz ist noch frei? Ist das System für alle Nutzenden erreichbar? Sind verbundene Systeme verfügbar und betriebsbereit? Je nach Betriebsmodell werden diese Fragestellungen durch klassisches IT-Monitoring abgedeckt, benötigen teilweise aber auch bibliotheksspezifische Lösungen.</p>
 <section id="monitoring" class="level4">
 <h4 class="anchored" data-anchor-id="monitoring">Monitoring</h4>
 <p>Monitoring-Lösungen für den Betrieb von IT-Infrastrukturen sind beispielsweise <a href="https://checkmk.com/">Check_MK</a> oder <a href="https://prometheus.io/">Prometheus</a>. Diese Anwendungen bieten eine kontinuierliche Überwachung von Systemen anhand definierter Metriken und warnen die Administratoren aktiv, wenn definierte Werte bestimmte Grenzen überschreiben.</p>
@@ -1053,7 +1071,7 @@ Haushalt
 <li><p>Gerade Administrator*innen sollten ihre Zugänge gesondert absichern.</p></li>
 <li><p>Es sollte sichergestellt werden, dass jede Software stets auf dem aktuellen Stand ist, sowohl auf den Arbeitsplatz-PCs als auch den Servern.</p></li>
 </ul>
-<p>Allgemein gilt auch immer der Grundsatz: “Bleiben Sie wachsam, in Bezug auf ungewöhnliche Ereignisse auf Ihren IT-Systemen”.</p>
+<p>Allgemein gilt auch immer der Grundsatz: „Bleiben Sie wachsam, in Bezug auf ungewöhnliche Ereignisse auf Ihren IT-Systemen“.</p>
 </section>
 <section id="backup-und-rollback" class="level3">
 <h3 class="anchored" data-anchor-id="backup-und-rollback">Backup und Rollback</h3>
