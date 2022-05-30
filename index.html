@@ -389,19 +389,24 @@ Hanson, Cody. 2015. <span>„Opinion: Libraries are Software“</span>. 2015. <a
 <script>
 window.document.addEventListener("DOMContentLoaded", function () {  
   const links = document.getElementsByClassName("action-links")[0]
+  const addLink = (text, url) => {
+    const p = document.createElement("p")
+    const a = document.createElement("a")
+    a.text = text
+    a.href = url
+    a.className = "toc-action"
+    p.appendChild(a)
+    links.appendChild(p)
+  }
+
   if (links) {
     var match = window.location.pathname.match(/([a-z-]+)\.html$/)
     var name = match ? match[1] : "einleitung"
     var url = chapters[name]
     if (url) {
-      const p = document.createElement("p")
-      const a = document.createElement("a")
-      a.text = "Kapitel kommentieren"
-      a.href = url
-      a.className = "toc-action"
-      p.appendChild(a)
-      links.appendChild(p)
+      addLink("Kapitel kommentieren", url)
     }
+    addLink("Kapitel als DOCX", `${name}.docx`)
   }
 })
 </script>
