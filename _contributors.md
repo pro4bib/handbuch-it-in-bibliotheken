@@ -5,7 +5,7 @@
 
 * Janna Brechmacher, Stabstelle IT in der Benutzungsabteilung der
 Staatsbibliothek zu Berlin\
-   [janna.brechmacher@sbb.spk-berlin.de](mailto:janna.brechmacher@sbb.spk-berlin.de)
+    <https://orcid.org/0000-0001-7233-7153> [janna.brechmacher@sbb.spk-berlin.de](mailto:janna.brechmacher@sbb.spk-berlin.de)
 
 * Sascha A. Carlin, Agile Coach für Führungskräfte in der
 Softwareentwicklung\
