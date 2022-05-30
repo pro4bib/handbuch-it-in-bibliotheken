@@ -277,7 +277,7 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 <section id="schreibweise" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="schreibweise">Schreibweise, Fachbegriffe und Verweise</h3>
 <ul>
-<li><p>Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (*).</p></li>
+<li><p>Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (*). In Markdown ist es sicherer dem Sternchen einen Backslash voranzustellen, z.B. <code>Autor\*innen</code>.</p></li>
 <li><p>Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme</p></li>
 <li><p>Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung definiert. Die eingeführten Fachbegriffe müssen in einem Glossar für das gesamte Buch gebündelt werden.</p></li>
 <li><p>Wir vermeiden IT-Jargon.</p></li>
@@ -311,7 +311,7 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 </section>
 <section id="mitarbeit-glossar" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="mitarbeit-glossar">Glossar</h3>
-<p>Das Glossar in der Datei <code>glossar.md</code> enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden _keine_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung <em>kursiv</em> gesetzt. Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip geändert.</p>
+<p>Das Glossar in der Datei <code>glossar.md</code> enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden _keine_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung <em>kursiv</em> gesetzt (in Markdown so <code>ein *Fachbegriff*</code>). Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip umgewandelt.</p>
 <div class="callout-warning callout callout-style-simple">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -356,6 +356,7 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 <ul>
 <li><p><code>make preview</code> konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <a href="http://localhost:15745/" class="uri">http://localhost:15745/</a> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.</p></li>
 <li><p><code>make build</code> konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis <code>_book</code> ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.</p></li>
+<li><p><code>make all</code> ruft make <code>build</code> und <code>docx</code> auf und kopiert die DOCX-Dateien ins Publikationsverzeichnis <code>_book</code>.</p></li>
 <li><p><code>make html</code> erzeugt nur HTML in <code>_book</code>.</p></li>
 <li><p><code>make docx</code> erzeugt nur DOCX in <code>_book</code>.</p></li>
 <li><p><code>make refs</code> aktualisiert das <a href="#literaturverzeichnis">Literaturverzeichnis</a> in <code>references.bib</code> von Zotero.</p></li>
