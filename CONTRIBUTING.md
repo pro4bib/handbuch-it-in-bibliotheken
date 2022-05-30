@@ -153,10 +153,11 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
 * `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe [README.md](_gdrive/README.md))
 
-
 ### Konvertierung {.unnumbered}
 
-Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) muss das Repository lokale geklont und Quarto installiert werden. Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
+Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem `rsvg-convert` installiert werden (Paket `librsvg2-bin` bzw. `libsrvg`).
+
+Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
 
 * `make preview` konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
 

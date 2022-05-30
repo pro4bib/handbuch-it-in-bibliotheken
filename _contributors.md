@@ -1,4 +1,4 @@
-<!-- Diese Datei wird automatisch überschrieben, bitte contributors.json anpassen -->
+<!-- Diese Datei wird automatisch überschrieben, bitte contributors.json anpassen! -->
 
 * Nicolas Bach, Student an der HdM Stuttgart\
    [nicolas.bach@posteo.de](mailto:nicolas.bach@posteo.de)
@@ -26,8 +26,8 @@ Staatsbibliothek Berlin\
 Leibniz‐Informationszentrum Technik und Naturwissenschaften\
   <https://orcid.org/0000-0003-0232-7085> [lambert.heller@tib.eu](mailto:lambert.heller@tib.eu)
 
-* Clemens Kynast, Discoverysysteme &amp; Bibliotheksautomatisierung an
-der ThULB Jena\
+* Clemens Kynast, Discoverysysteme & Bibliotheksautomatisierung an der
+ThULB Jena\
    [clemens.kynast@uni-jena.de](mailto:clemens.kynast@uni-jena.de)
 
 * Lukas Lerche, UB Dortmund\
