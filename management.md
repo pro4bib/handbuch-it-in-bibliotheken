@@ -250,7 +250,7 @@ Anforderungen erfüllen:
 Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
 Bibliotheks-IT](#anforderungen) thematisiert.
 
-#### Barrierefreiheit
+#### Barrierefreiheit {#accessibility}
 
 Neben dem Befolgen der Anforderungen an ergonomisch bedienbare Software,
 liegt es auf der Hand, dass IT-Systeme für eine Vielzahl von

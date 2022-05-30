@@ -440,7 +440,7 @@ Nutzer\*innen auszuwählen, die über ein unterschiedliches Maß an
 Vorwissen über das zu entwickelnde oder verwandte Produkte verfügen.
 Außerdem sollten Personen integriert werden, welche von Einschränkungen
 betroffen sind, die in Abschnitt
-[Accessibility] thematisiert wurden.
+[Accessibility](#accessibility) thematisiert wurden.
 
 #### Testablauf und Vorbereitungen
 

@@ -695,21 +695,21 @@ zwischen verschiedenen Systemen und Einrichtungen unterscheidet.
 
 Neben Standardformaten gibt es speziellere Anwendungsformate. Diese
 basieren allerdings in der Regel auf allgemeinen Strukturierungssprachen
-(CSV, XML, JSON oder RDF) die je nach BMS besser oder schlechter
+(*CSV*, *XML*, *JSON* oder *RDF*) die je nach BMS besser oder schlechter
 unterstützt werden.
 
-Beispiele für bibliographische Standardformate sind MARC-21, BIBFRAME
-und als kleinster gemeinsamer Nenner Dublin Core. Das PICA-Format bzw.
-darauf aufbauende Formate ist vor allem als Internformat in den
-Bibliotheksverbünden GBV, BSZ und an der DNB verbeitet.
+- Beispiele für bibliographische Standardformate sind *MARC21*, *BIBFRAME*
+  und als kleinster gemeinsamer Nenner Dublin Core. Das PICA-Format bzw.
+  darauf aufbauende Formate ist vor allem als Internformat in den
+  Bibliotheksverbünden GBV, BSZ und an der DNB verbeitet.
 
-Verbreitete Metadaten-Schnittstellen sind Z39.50, SRU und OAI-PMH.
+- Verbreitete Metadaten-Schnittstellen sind *Z39.50*, *SRU* und *OAI-PMH*.
 
-Beispiele für relevante Formate und Schnittstellen für digitale Inhalte
-sind PDF, METS/MODS und IIIF.
+- Beispiele für relevante Formate und Schnittstellen für digitale Inhalte
+  sind PDF, *METS/MODS* und *IIIF*.
 
-Beispiele für relevante Schnittstellen für BMS-Verwaltungsdaten sind
-LDAP und PAIA.
+- Beispiele für relevante Schnittstellen für BMS-Verwaltungsdaten sind
+  *LDAP* und *PAIA*.
 
 Eine umfassende Übersicht von Datenformaten mit Schwerpunkt auf Formate,
 die für Bibliotheken relevant sind, bietet die Seite <https://format.gbv.de>.
@@ -737,7 +737,7 @@ Katalogisierung.
 
 ## Marktanalyse und Beschaffung
 
-:::{.callout-note}
+:::{.callout-tip}
 
 Der deutschsprachige [BMS-Markt 2022](#aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, Varianten des Betriebs (gehostet oder lokal) oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen. 
 
@@ -1017,8 +1017,7 @@ Es ergeben sich daraus die folgenden Anforderungen
 
 3.  Responsivität
 
-Diese Themen werden auch in den Abschnitten zu [rechtlichen Rahmenbedingungen]
-und zu den [Prinzipien der Gestaltung] angesprochen.
+Diese Themen werden auch in den Abschnitten zu [rechtlichen Rahmenbedingungen](#rechtliche-rahmenbedingungen) und im Kapitel zu den [Anforderungen an Bibliotheks-IT](#anforderungen) angesprochen.
 
 ### Erwerbung {#erwerbung-prozess}
 
