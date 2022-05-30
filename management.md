@@ -450,8 +450,10 @@ Historisch gibt es keine formalisierte Ausbildung für die erwähnten
 Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
 klassischerweise im Rahmen von "Training on the Job" erworben.
 
-Aktuell (Stand 2022) gibt es mehrere akademische Ausbildungsangebote für die
-Arbeit in der Bibliotheks-IT mit unterschiedlichen Schwerpunkten:
+Allgemeine Ausbildungen und Studiengänge im Bereich IT und Data Science bieten
+eine gute Grundlage, decken aber bibliotheksspezifische IT-Themen nur
+unzureichend ab. Stand 2022 gibt es mehrere spezielle Ausbildungsangebote für
+die Arbeit in der Bibliotheks-IT mit unterschiedlichen Schwerpunkten:
 
 -   berufsbegleitende Master-Studiengänge:
 
