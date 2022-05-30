@@ -1,22 +1,32 @@
-# Anforderungen
+# Anforderungen an die IT-Entwicklung
 
-In Kapitel [Management von IT-Systemen](#management) wurde bereits auf
-Themen wie Barrierefreiheit und software-ergonomische Anforderungen,
-auch aus rechtlicher Sicht, eingegangen. Außerdem wurde der
-Software-Lebenszyklus skizziert, welcher eine eher lineare Betrachtung
-eines Systems vom Beginn seiner Einführung bis hin zur Abschaltung
-ermöglicht. Dabei wurde implizit angenommen, dass Anforderungen an ein
-System im Laufe seiner Lebenszeit weitestgehend fix bleiben.
+Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der
+[Nutzenden](#einbeziehung) und auf die Nutzbarkeit des Produkts
+ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe
+und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen.
+Neben klassischen Verfahren der [Bedarfsermittlung](#bedarfsermittlung)
+gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder
+Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel
+Storyboards, Wireframes oder auch Prototypen.
 
-Betrachtet man sein eigenes persönliches Nutzungsverhalten im digitalen
-Bereich wird jedoch klar, dass sich die eigenen Präferenzen bezüglich
-der Nutzung von Apps oder Webseiten ändern. Ursachen dafür sind
-beispielsweise Veränderungen an Lebens- oder Arbeitskontexten,
-Erwartungen an die Bedienbarkeit von Systemen oder durch die digitale
-Transformation beziehungsweise technischen Fortschritt möglich gewordene
-neue Nutzungsformen von Medien.
+Im Kapitel [Management von IT-Systemen](#management) wurde bereits auf
+Themen wie Barrierefreiheit und software-ergonomische Anforderungen
+sowie den permanenten Anpassungsbedarf an Systeme im Laufe ihrer
+Lebenszeit eingegangen.
 
-## Prinzipien der Nutzer\*innenzentrierten Gestaltung
+Betrachtet man sein persönliches Nutzungsverhalten im digitalen Bereich
+wird klar, dass sich auch die eigenen Präferenzen bezüglich der Nutzung
+von Apps oder Webseiten ändern. Ursachen dafür sind beispielsweise
+Veränderungen an Lebens- oder Arbeitskontexten, Erwartungen an die
+Bedienbarkeit von Systemen oder durch die digitale Transformation
+beziehungsweise technischen Fortschritt möglich gewordene neue
+Nutzungsformen von Medien.
+
+IT-Entwicklung sollte sich daher auch an den
+[Bedürfnissen](#bedarfsermittlung) von [Nutzenden](#einbeziehung)
+ausrichten.
+
+## Nutzer\*innenorientierten Gestaltung
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
 in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
@@ -54,10 +64,10 @@ beeinflusst den
 Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter
 erläutert.
 
-Das Central Digital and Data Office des Vereinigten Köngreichs[^1] fasst
-die zentral zu bearbeitenden Arbeitspunkte im nutzer\*innenzentrierten
+Das Central Digital and Data Office des Vereinigten Köngreichs fasst die
+zentral zu bearbeitenden Arbeitspunkte im nutzer\*innenzentrierten
 Gestaltungsprozess und den Weg dahin prägnant in seinen "Government
-Design Principles" zusammen:
+Design Principles" zusammen \@noauthor_government_2012:
 
 1.  Start with user needs
 
@@ -94,30 +104,23 @@ DIN EN ISO 9241-11 wieder.
 Von zentraler Bedeutung sind dabei zwei Kernbegriffe: die Usability
 (Gebrauchstauglichkeit) und die User Experience (Nutzer\*innenerfahrung)
 
-INFOBOX:
+**Usability** ist das "Ausmaß, in dem ein System, ein Produkt oder eine
+Dienstleistung durch bestimmte Benutzer in einem bestimmten
+Nutzungskontext genutzt werden kann, um festgelegte Ziele effektiv,
+effizient und zufriedenstellend zu erreichen" DIN EN ISO 9241-11
 
-Usability
+**User Experience** bezeichnet die "Wahrnehmungen und Reaktionen einer
+Person, die aus der tatsächlichen und/oder der erwarteten Benutzung
+eines Produkts, eines Systems oder einer Dienstleistung resultieren" DIN
+ISO 9241-210:2011
 
-„Ausmaß, in dem ein System, ein Produkt oder eine Dienstleistung durch
-bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden
-kann, um festgelegte Ziele effektiv, effizient und zufriedenstellend zu
-erreichen" DIN EN ISO 9241-11
-
-User Experience
-
-„Wahrnehmungen und Reaktionen einer Person, die aus der tatsächlichen
-und/oder der erwarteten Benutzung eines Produkts, eines Systems oder
-einer Dienstleistung resultieren" DIN ISO 9241-210:2011
-
-ENDE INFOBOX
-
-Wie die untenstehende Abbildung 1 zeigt, handelt es sich bei Usability
-um eine Eigenschaft eines Systems, die während der konkreten Interaktion
-mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei
-der Bedienung auftreten. Zur Vermeidung von Usability-Problemen
-existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen
-skizziert werden bzw. durch Autoren wie Shneiderman in seinen "8 golden
-rules" \[@shneiderman_designing_2005\] oder Nielsen mit seinen "[10
+Bei Usability handelt es sich um eine Eigenschaft eines Systems, die
+während der konkreten Interaktion mit diesem relevant wird und
+beispielsweise angibt, inwiefern Hürden bei der Bedienung auftreten
+(@fig-usux). Zur Vermeidung von Usability-Problemen existieren ein
+Vielzahl von Heuristiken, die in den einschlägigen Normen skizziert
+werden bzw. durch Autoren wie Shneiderman in seinen "8 golden rules"
+\[@shneiderman_designing_2005\] oder Nielsen mit seinen "[10
 Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)"
 benannt werden.
 
@@ -134,10 +137,10 @@ einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
 digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
-![](media/rId26.png){width="3.3333333333333335in" height="2.5in"}
+![Zusammenhang zwischen Usability und User
+Experience](media/rId24.png){width="0.0in" height="0.0in"}
 
-*Abbildung 1* Ersatz von Luis zu
-<https://www.johner-institut.de/blog/iec-62366-usability/user-experience/>
+Zusammenhang zwischen Usability und User Experience
 
 ## Wie beziehen wir unsere Nutzer\*innen ein?
 
@@ -198,20 +201,16 @@ Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische
 Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas
 insgesamt.
 
-![](media/rId33.png){width="3.3333333333333335in" height="2.5in"}
-
-*Abbildung 2* Steimle, Toni; Wallach, Dieter (2018); Abb. 12 Neues Bild
-erstellen!
-
 Abgeleitet von solchen Personas fällt es häufig leicht, konkrete Use
 Cases für die Interaktion mit einem System zu definieren. Ein Use Case
 beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![](media/rId36.png){width="3.3333333333333335in" height="2.5in"}
+![Aus einem Vortrag zum Scenario-based
+Design](media/rId32.png){width="3.3333333333333335in" height="2.5in"}
 
-*Abbildung3* Aus einem [Vortrag zum Scenario-based
+Aus einem [Vortrag zum Scenario-based
 Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei
@@ -325,15 +324,13 @@ Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
 visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases
 bestimmte Aktionen zu illustrieren.
 
-![](media/rId47.png){width="3.3333333333333335in" height="2.5in"}
-
-*Abbildung 4* Rinzler, J.W.: Star Wars Storyboards: The Original
-Trilogy; Abrams & Chronicle Books
+![hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist
+nur als Platzhalter zu verstehen z.B.
+https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit](media/rId44.png){width="3.3333333333333335in"
+height="2.5in"}
 
 hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur
-als Platzhalter zu verstehen
-
-z.B.
+als Platzhalter zu verstehen z.B.
 <https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit>
 
 Die Visualisierung von Interaktionsideen kann Beteiligten helfen,
@@ -376,21 +373,22 @@ Struktur, Layout und Funktionalitäten eines Interface vorzustellen.
 Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von
 einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
-![](media/rId52.png){width="3.3333333333333335in" height="2.5in"}
+![https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype
+(Platzhalter)](media/rId49.png){width="3.3333333333333335in"
+height="2.5in"}
 
-*Abbildung 5*
 <https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
-(Platzhalter, David könnte was per OmniGraffle bauen)
+(Platzhalter)
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
 Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die
 Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder
 oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches
-(siehe Abbildung 5). Ein Mock-Up ist, im Kontext Design, eine
-ausgereifte ("high-level") Version des Interfaces mit realistischen
-Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups
-sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz
-zu Prototypen, die interaktiv sind und damit echte Funktionalitäten
+(siehe \@fig-5). Ein Mock-Up ist, im Kontext Design, eine ausgereifte
+("high-level") Version des Interfaces mit realistischen Farben,
+Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups sind
+also rein statische Entwürfe des zukünftigen Produkts im Gegensatz zu
+Prototypen, die interaktiv sind und damit echte Funktionalitäten
 enthalten.
 
 #### (Interaktive) Prototypen
@@ -432,14 +430,13 @@ Nutzenden zu evaluieren und diese öffentlich in einem
 teilt.
 
 Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei
-Methoden: Beobachtungs- und Inspektionstests (siehe Abbildung unten).
-Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
-werden, werden Inspektionstests häufig durch Usability-Expert\*innen
-realisiert.
+Methoden: Beobachtungs- und Inspektionstests (@fig-6). Während
+erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt werden,
+werden Inspektionstests häufig durch Usability-Expert\*innen realisiert.
 
-![](media/rId63.png){width="3.3333333333333335in" height="2.5in"}
+![ ](media/rId61.png){width="0.0in" height="0.0in"}
 
-*Abbildung 6* Bildquelle: David, um 90° drehen
+ 
 
 Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass
 diese auch ohne eine formale Usability-Ausbildung durch engagierte
@@ -451,12 +448,12 @@ das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.
 Die Testgruppe muss die potentielle Nutzungsgruppe bestmöglich
 repräsentieren, jedoch nicht sehr groß sein. Die Erfahrung zeigt, dass
 ca. fünf Testpersonen ausreichen, um die wichtigsten Usabilityprobleme
-eines Systems zu identifizieren[^2]. Statt eines einzigen Tests mit
-vielen Teilnehmenden bieten sich daher schnell durchzuführende Tests mit
-wenigen Teilnehmenden an, um ein Produkt iterativ zu verbessern. Möchte
-man jedoch verschiedene Typen von Nutzer\*innen analysieren oder
-quantitative Ergebnisse sammeln, muss die Gruppengröße entsprechend
-wachsen.
+eines Systems zu identifizieren \@jakob_nielsen_why_2000. Statt eines
+einzigen Tests mit vielen Teilnehmenden bieten sich daher schnell
+durchzuführende Tests mit wenigen Teilnehmenden an, um ein Produkt
+iterativ zu verbessern. Möchte man jedoch verschiedene Typen von
+Nutzer\*innen analysieren oder quantitative Ergebnisse sammeln, muss die
+Gruppengröße entsprechend wachsen.
 
 Neben den typischen Streuungsmerkmalen wie demographischen und
 kulturellen Faktoren (z.B. Bildungshintergrund) bietet es sich an,
@@ -507,6 +504,14 @@ heißt konkret, dass die ersten Teilaufgaben leicht zu lösen sein sollten
 und deren Schwierigkeit dann kontinuierlich zunimmt, um durch komplexere
 Aufgaben belastbare Aussagen zu erhalten.
 
-[^1]: <https://www.gov.uk/guidance/government-design-principles>
+## Zusammenfassung und Ausblick
 
-[^2]: <https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/>
+Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende
+in die Entwicklung von Software einbezogen werden können - je nach
+Umfang des Produkts und des Anwender\*innenkreises. Usertests erfordern
+ein anderes Zeitmanagement als die Entwicklung von Personas. Auch der
+Anwendungsfall nimmt Einfluss auf die Methodenauswahl. So kann für die
+Entwicklung eines neuen Designs die Verwendung von Wireframes und
+Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit
+neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen,
+mit denen auch die Interaktionen getestet werden können.

@@ -1,3 +1,5 @@
+{{\< include \_umfrage.md \>}}
+
 # Einleitung
 
 ## Motivation
@@ -7,7 +9,7 @@
 > importantly, all library staff must understand that our software is
 > our library, and is everyone's responsibility.
 >
-> --- \[@cody_hanson_opinion_2015\]
+> --- \[@hanson_cody_opinion_2015\]
 
 Mit der wachsenden Bedeutung der Informationstechnologie (IT) im
 Allgemeinen und für Bibliotheken im Besonderen bleibt kaum ein Aspekt
@@ -32,7 +34,7 @@ Version behandelt:
 
 -   [Management von IT-Systemen](#management)
 
--   [Anforderungen an Bibliotheks-IT](#anforderungen)
+-   [Anforderungen an die IT-Entwicklung](#anforderungen)
 
 -   [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme)
 
@@ -81,6 +83,8 @@ Handbuchs finden sich auf der Seite
 
 Weitere [Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
 Umsetzung des Handbuchs finden sich im Anhang.
+
+## Beteiligte Autor\*innen
 
 {{\< include \_contributors.md \>}}
 

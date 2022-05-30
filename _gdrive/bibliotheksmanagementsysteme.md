@@ -1,8 +1,15 @@
 # Bibliotheksmanagementsysteme
 
-*Dieses Kapitel definiert den Begriff des Bibliotheksmanagementsystems,
-erläutert die gängigen Komponenten und beschreibt die Entwicklung seit
-1960.*
+Bibliotheksmanagementsysteme sind IT-Systeme, die die
+[Kernprozesse](#prozessabbildung) einer Bibliothek unterstützen. Das
+modular aufgebaute System verfügt über verschiedene
+[Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung,
+Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die
+[Entwicklungsgeschichte](#geschichte) der Managementsysteme in
+Bibliotheken erstreckt sich mittlerweile über drei Generationen.
+Relevant für die Arbeit mit den Managementsystemen ist auch die
+[Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration
+anderer Systeme](#integration).
 
 In diesem Text wird der Begriff Bibliotheksmanagementsystem (BMS)
 verwendet. Damit ist ein Softwareprodukt gemeint, mit dem die
@@ -30,6 +37,15 @@ Schnittstellen und offenen Architekturen erhöht hat.
 ## Übersicht
 
 ### Geschichte
+
+Die erste Generation der Bibliotheksmanagementsysteme umfasste
+Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die
+Erwerbung die Verwaltung von Bestellungen und teilweise auch über über
+Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die zweite
+BMS-Generation verfügt über erweiterte Funktionalitäten zur
+Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge
+aus. Die dritter Generation zeichnet sich durch stärkere Modularisierung
+und mehr Schnittstellen zur Anbindung weiterer Systeme aus.
 
 Bibliotheksmanagementsysteme unterstützen alle Kernprozesse des
 bibliothekarischen Arbeitens, das heißt die Erwerbung, Erschließung und
@@ -61,7 +77,8 @@ Anbietern, während die ersten Systeme als Eigenentwicklungen von
 Bibliotheken entstanden. Die Landschaft an **Systemen der 2.
 Generation** war von den späten 1990er bis in die Nullerjahre sehr
 divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass
-man von einem konsolidierten Markt sprechen kann.[^1]
+man von einem konsolidierten Markt sprechen kann
+\[@breeding_library_nodate\].
 
 Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS,
 die **Next-Generation Library Management Systems**, die auch **Library
@@ -81,7 +98,7 @@ für Support- und Wartungsdienstleistungen zu.
 
 ### Evolution der Bibliotheksmanagementsysteme
 
-![](media/rId23.png){width="5.833333333333333in"
+![](media/rId21.png){width="5.833333333333333in"
 height="4.947257217847769in"}
 
 Quelle: \@matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
@@ -163,7 +180,7 @@ skizziert.
 #### Erwerbung
 
 meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen
-zB folgende Aufgabengebiete:
+z.B. folgende Aufgabengebiete:
 
 -   Bestellungen
 
@@ -180,12 +197,13 @@ zB folgende Aufgabengebiete:
 
 -   Buchbinder
 
-\[siehe auch Erwerbung in der Prozessabbildung\]
+$\Rightarrow$ *Siehe auch [Erwerbung in der
+Prozessabbildung](#erwerbung-prozess).*
 
 #### Katalogisierung
 
-meint die Erschließung der verwalteten Medien und digitalen Quellen, zB
-anhand
+meint die Erschließung der verwalteten Medien und digitalen Quellen,
+z.B. anhand
 
 -   Übernahme von Fremddaten
 
@@ -193,12 +211,13 @@ anhand
 
 -   Integration digitalisierter Medien
 
-\[siehe auch Katalogisierung in der Prozessabbildung\]
+$\Rightarrow$ *Siehe auch [Katalogisierung in der
+Prozessabbildung](#katalogisierung-prozess).*
 
 #### Ausleihe
 
 meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt
-Interaktionen mit Nutzer\*innen wie zB:
+Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Abbildung komplexer Reglements nach Benutzer- und Medientypen,
     Standorten usw (siehe auch
@@ -214,8 +233,8 @@ Interaktionen mit Nutzer\*innen wie zB:
 
 -   Mahngebühren
 
-[siehe auch Ausleihe siehe auch Katalogisierung in der
-Prozessabbildung](#ausleihe)
+$\Rightarrow$ *Siehe auch [Ausleihe in der
+Prozessabbildung](#ausleihe-prozess).*
 
 #### Recherchemodul
 
@@ -234,7 +253,7 @@ aus. Das heißt, sie verfügen über aktuellere technische
 Einzelkomponenten und Schnittstellen, auf deren Grundlage auch
 zahlreiche zusätzliche Funktionalitäten angeboten werden können. Im
 Einzelnen gibt es folgende Merkmale, die ein **Next Generation-System**
-kennzeichnen[^2]:
+kennzeichnen \[@schweitzer_roswitha_anforderungen_2016\]:
 
 -   Angebot als Software as a Service ([SaaS](#cloud))
 
@@ -424,7 +443,7 @@ wesentliche Rolle
 
 -   Fernleihe
 
--   Dokumentenlieferdienste (z.B.: [Subito](https://www.subito-doc.de/),
+-   Dokumentenlieferdienste (wie [Subito](https://www.subito-doc.de/)
     und Fachinformations-Lieferdienste)
 
 Die Anbindung an die entsprechenden Dienste (Zentraler Fernleih-Server,
@@ -434,9 +453,10 @@ alle Bibliotheken relevant.
 Im Zusammenhang mit dem Aufbau der Fachinformationsdienste für die
 spezialisierte Informationsversorgung in Deutschland werden in
 zunehmendem Maße Fachportale entwickelt. Relevante Katalog-Informationen
-werden aus möglichst vielen Bibliotheken regelmäßig abgerufen[^3] und in
-spezialisierten Discovery-Systemen gesammelt. Dort können sie für eine
-übergreifende Recherche genutzt werden. Die BMS müssen entsprechend über
+werden aus möglichst vielen Bibliotheken regelmäßig abgerufen
+(Harvesting), in ein einheitliches Datenformat übertragen und
+anschließend als gemeinsamer Index für die übergreifende Recherche in
+Discovery-Systemen angeboten. Die BMS müssen entsprechend über
 [Standardschnittstellen](#datenformate-und-schnittstellen) die
 relevanten Katalogdaten in einem vereinbarten
 [Datenformat](#bibliographische-metadaten) bereitstellen.
@@ -735,7 +755,13 @@ Nicht zuletzt beeinflussen auch die Möglichkeiten der Ein- und Ausgabe
 von Daten ihre Qualität, beispielsweise über die Usability der
 Katalogisierung.
 
-## Beschaffung und Marktanalyse
+## Marktanalyse und Beschaffung
+
+Der deutschsprachige [BMS-Markt 2022](#aktuelle-sw-produkte) ist
+überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind
+daher vor allem auch der Umfang der gewünschten und gewichteten
+Funktionalitäten, Varianten des Betriebs (gehostet oder lokal) oder auch
+die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen.
 
 Die Beschaffung eines BMS ist für eine Bibliothek eine große
 Herausforderung, nicht nur wegen der zu kalkulierenden Kosten sondern
@@ -826,7 +852,7 @@ Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
 ![Beispiel für eine Matrix zur Einordnung von
-Funktionalitäten](media/rId67.png){width="5.833333333333333in"
+Funktionalitäten](media/rId62.png){width="5.833333333333333in"
 height="4.623066491688539in"}
 
 Beispiel für eine Matrix zur Einordnung von Funktionalitäten
@@ -865,54 +891,52 @@ Möglichkeiten:
 
 Die Vor- und Nachteile im Überblick:
 
-+----------+-----------------+-------------------+-------------------+
-|          | Verbund         | kommerzielles BMS | Open Source BMS   |
-+==========+=================+===================+===================+
-| Vorteile | regelmäßige P   | regelmäßige       | niedrige A        |
-|          | ro              | P                 | nschaffungskosten |
-|          | duktentwicklung | roduktentwicklung |                   |
-|          |                 |                   | große Anwe        |
-|          | gewisser        | einheitlicher     | ndungscommunities |
-|          | S               | Leistungsumfang\  |                   |
-|          | tate-of-the-Art | \                 | oftmals           |
-|          | garantiert      | klare V           | regelmäßige P     |
-|          |                 | er                | roduktentwicklung |
-|          | klare Kosten-   | antwortlichkeiten |                   |
-|          | und             |                   | viele             |
-|          | Le              |                   | Dienstleister,    |
-|          | istungsstruktur |                   | die Services rund |
-|          |                 |                   | um Migration,     |
-|          | große An        |                   | Betrieb und       |
-|          | we              |                   | individuelle      |
-|          | ndungscommunity |                   | Anpassung         |
-|          |                 |                   | anbieten          |
-|          |                 |                   |                   |
-|          |                 |                   | offene            |
-|          |                 |                   | Schnittstellen    |
-|          |                 |                   | und Formate       |
-+----------+-----------------+-------------------+-------------------+
-| N        | begrenzte       | eher geringe      | erfordert eigene  |
-| achteile | individuelle    | individuelle      | IT-Kapazitäten    |
-|          | Anpassung       | Anpassbarkeit     | oder Outsourcing  |
-|          |                 |                   |                   |
-|          | Wartezeiten bei | relativ hohe und  | Risiko der        |
-|          | individueller   | intransparente    | Sicherung von     |
-|          | Anpassung       | Preise            | Nachhaltigkeit    |
-|          |                 |                   | und               |
-|          |                 | Abhängigkeit bei  | Kompatibilität    |
-|          |                 | der               |                   |
-|          |                 | Weiterentwicklung |                   |
-|          |                 |                   |                   |
-|          |                 | evtl. Verlust der |                   |
-|          |                 | Datenhoheit       |                   |
-|          |                 |                   |                   |
-|          |                 | z.T. proprietäre  |                   |
-|          |                 | (her              |                   |
-|          |                 | st                |                   |
-|          |                 | ellerspezifische) |                   |
-|          |                 | Systeme und       |                   |
-|          |                 | Schnittstellen    |                   |
-+----------+-----------------+-------------------+-------------------+
++--------+------------------+--------------------+--------------------+
+|        | Verbund          | kommerzielles BMS  | Open Source BMS    |
++========+==================+====================+====================+
+| Vo     | regelmäßige      | regelmäßige        | niedrige           |
+| rteile | Pr               | Produktentwicklung | Anschaffungskosten |
+|        | oduktentwicklung |                    |                    |
+|        |                  | einheitlicher      | große              |
+|        | gewisser         | Leistungsumfang    | Anw                |
+|        | State-of-the-Art |                    | endungscommunities |
+|        | garantiert       | klare              |                    |
+|        |                  | Ve                 | oftmals            |
+|        | klare Kosten-    | rantwortlichkeiten | regelmäßige        |
+|        | und              |                    | Produktenwicklung  |
+|        | L                |                    |                    |
+|        | eistungsstruktur |                    | viele              |
+|        |                  |                    | Dienstleister, die |
+|        | große            |                    | Services rund um   |
+|        | Anw              |                    | Migration, Betrieb |
+|        | endungscommunity |                    | und individuelle   |
+|        |                  |                    | Anpassung anbieten |
+|        |                  |                    |                    |
+|        |                  |                    | offene             |
+|        |                  |                    | Schnittstellen und |
+|        |                  |                    | Formate            |
++--------+------------------+--------------------+--------------------+
+| Nac    | begrenzte        | eher geringe       | erfordert eigene   |
+| hteile | individuelle     | individuelle       | IT-Kapazitäten     |
+|        | Anpassung        | Anpassbarkeit      | oder Outsourcing   |
+|        |                  |                    |                    |
+|        | Wartezeiten bei  | relativ hohe und   | Risiko der         |
+|        | individueller    | intransparente     | Sicherung von      |
+|        | Anpassung        | Preise             | Nachhaltigkeit und |
+|        |                  |                    | Kompatibilität     |
+|        |                  | Abhängigkeit bei   |                    |
+|        |                  | der                |                    |
+|        |                  | Weiterentwicklung  |                    |
+|        |                  |                    |                    |
+|        |                  | evtl. Verlust der  |                    |
+|        |                  | Datenhoheit        |                    |
+|        |                  |                    |                    |
+|        |                  | z.T. proprietäre   |                    |
+|        |                  | (hers              |                    |
+|        |                  | tellerspezifische) |                    |
+|        |                  | Systeme und        |                    |
+|        |                  | Schnittstellen     |                    |
++--------+------------------+--------------------+--------------------+
 
 Verbünde bieten in der Regel ein oder zwei Lösungen an, die entweder
 kommerziell oder Open Source sind. Die Mitgliedschaft in Verbünden kann
@@ -968,7 +992,7 @@ Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt
 wird.
 
 [![Beispiel einer
-BPMN-Prozessabbildung](media/rId74.shtml "Quelle: Stkl (CC-BY-SA 3.0)"){width="4.166666666666667in"
+BPMN-Prozessabbildung](media/rId70.shtml "Quelle: Stkl (CC-BY-SA 3.0)"){width="4.166666666666667in"
 height="2.7777777777777777in"}](https://commons.wikimedia.org/wiki/File:BPMN-1.svg)
 
 Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung
@@ -1332,9 +1356,7 @@ Sicherungsgates verhindern nicht Diebstahl, Diebe wählen andere Wege.
 Sicherungsgates verhindern das versehentliche Verlassen der Bibliothek
 mit unverbuchten Medien.
 
-### Systemintegration über Schnittstellen
-
-#### Anforderungen
+### Anbindung von Systemen über Schnittstellen
 
 Ein BMS muss in der Lage sein, mit anderen Systemen automatisiert Daten
 auszutauschen. Diese Austauschprozesse betreffen folgende Szenarien
@@ -1375,18 +1397,6 @@ Austausch zwischen den gängigen Systemen einfach möglich ist. Hierzu
 zählen insbesondere der jeweilige Bibliotheksverbund, etwa zum Austausch
 von Metadaten oder für das verteilte Lizenzmanagement, aber auch
 nutzer\*innen-nahe Dienstleistungen, wie die Fernleihe.
-
-#### Verbund
-
-TODO
-
-#### Fernleihe
-
-TODO
-
-#### LinkResolver
-
-ToDo
 
 ### Nicht-bibliothekarische Schnittstellen
 
@@ -1436,7 +1446,7 @@ nutzen.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /
 SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
-[OpenID](https://de.wikipedia.org/wiki/OpenID) [^4]
+[OpenID](https://de.wikipedia.org/wiki/OpenID)
 
 Softwareprodukte für IDM sind: SAP (mit Plugins), Microsoft Active
 Directory, uvm
@@ -1479,10 +1489,6 @@ technischen Betrieb eines BMS.
 
 Online-Payment, Kassensysteme/-automaten (siehe auch Kapitel
 [Kassenautomat](#kassenautomat))
-
-#### Haushalt
-
-TODO
 
 #### E-Rechnung
 
@@ -1551,11 +1557,19 @@ statistische Daten der Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb
 
+Der technische Betrieb eines BMS umfasst die Installation, die
+[lokal](#lokale-installation) oder als [gehostete Variante](#hosting)
+bzw. in der [Cloud](#cloud) erfolgen kann. [Kosten](#kosten) entstehen
+dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für
+den Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte
+der [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und
+[Datenschutz](#datenschutz) zu berücksichtigen.
+
 ### Betriebsmodelle für serverbasierte Software
 
-Die Nutzung eines BMS ist auf verschiedenen Wegen möglich. Sie
-unterscheiden sich in den Punkten Installation, Kosten, Pflege &
-Wartung, sowie Backup & Support.
+Ein BMS kann auf verschiedene Arten betrieben werden. Die Betriebsarten
+unterscheiden sich bezüglich Installation, Kosten, Pflege und Wartung
+sowie Backup und Support.
 
 #### Lokale Installation
 
@@ -1751,7 +1765,7 @@ voraussichtlich wieder zur Verfügung steht.
 
 Um ein BMS vor den zunehmenden Angriffen durch böswillige Akteure
 (Hacking, Malware, Ransomware) abzusichern, können die folgenden
-Empfehlungen als Grundlage dienen \[@marshall_breeding_how_2022\]:
+Empfehlungen als Grundlage dienen \[@breeding_marshall_how_2022\]:
 
 -   Die Infrastruktur um das BMS herum sollte durch starke
     Sicherheitsvorkehrungen getragen werden.
@@ -1937,25 +1951,14 @@ werden.
 
 ## Zusammenfassung und Ausblick
 
-Hier fehlt noch ein Abschnitt der das Kapitel BMS in 2-3 Sätzen
-zusammenfasst und einen wertenden Ausblick gibt. Insbesondere sollten
-folgende Aspekte hervorgehoben und erläutert werden:
+Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
+durch die verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
+stetig angepasst werden.
 
--   BMS ist kein statisches System. Rolle und Anforderungen an BMS
-    ändern sich
-
--   Die integration mit anderen Informationssystemen nimmt zu
-    (Import/Export und Zusammenführung von Daten aus anderen Quellen wie
-    Wikidata)
-
--   Open Data, öffentliche Datennutzung und Transparenz
-
-[^1]: <https://librarytechnology.org/mergers/automationhistory.pl>
-
-[^2]: <https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html>
-
-[^3]: Das Harvesting dient dazu, Metadaten verschiedener Herkunft und
-    Form in ein einheitliches Metadaten-Format zu übertragen und so über
-    eine gemeinsame Datenquelle anbieten zu können.
-
-[^4]: <https://en.wikipedia.org/wiki/Identity_provider>
+Der Import, Export oder auch die Zusammenführung von Daten erfordert
+klar definierte Metadaten und Schnittstellen für den freien Austausch
+aus gut nachnutzbaren Quellsystemen. Dies ist vor allem erforderlich bei
+der aktuell stärkeren Entwicklung hin zu Open Data und öffentlicher
+Datennutzung. Die Integration und Interaktion mit anderen
+Informationssystemen nimmt also zu. Vor allem herkömmliche BMS der
+zweiten Generation kommen hier schnell an ihre Grenzen.

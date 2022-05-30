@@ -6,6 +6,9 @@ INCLUDES=templates/chapters.html _contributors.md
 preview:
 	quarto preview --port 15745
 
+all: build update
+	cp _gdrive/*.docx _book/ 
+
 build: $(INCLUDES)
 	quarto render
 	./adjust-canonical-urls.sh

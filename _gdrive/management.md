@@ -1,13 +1,13 @@
 # Management von IT-Systemen
 
 IT-Systeme sind selten statisch sondern folgen einem
-[Lebenszyklus](#lebenszyklen-von-it-systemen) von Planung bis zu ihrer
-Ablösung. Beim Betrieb müssen mögliche
+[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu
+ihrer Ablösung. Während des Betriebs der Systeme müssen mögliche
 [Risiken](#betriebssicherheit-und-risikomanagement) beachtet und
 [rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen)
 eingehalten werden. In Bibliotheken sind daher entsprechende
 [IT-Kompetenzen](#kompetenzen) und ein [organisatorischer
-Rahmen](#organisation) notwendig. Um diesen Anforderungen begenen zu
+Rahmen](#organisation) notwendig. Um diesen Anforderungen begegnen zu
 können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
@@ -20,20 +20,19 @@ Netzdienste, Server, Storage, Backup u.ä.) ist in Planung.
 ### Lebenszyklen von IT-Systemen
 
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
-Einführung beginnt und irgendwann mit ihrer Abschaltung endet (siehe
-Abbildung 1). Die wesentlichen Phasen im klassischen Lebenszyklus eines
-IT-Systems werden im Folgenden näher betrachtet.
+Einführung beginnt und irgendwann mit ihrer Abschaltung endet
+(@fig-it-zyklus). Die wesentlichen Phasen im klassischen Lebenszyklus
+eines IT-Systems werden im Folgenden näher betrachtet.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
 angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![Abbildung 1 SDLC-Skizze
-(Platzhalter)](media/rId23.png){width="3.3333333333333335in"
-height="2.5in"}
+![SDLC-Skizze (Platzhalter)](media/rId23.png){width="0.0in"
+height="0.0in"}
 
-*Abbildung 1* SDLC-Skizze (Platzhalter)
+SDLC-Skizze (Platzhalter)
 
 #### Planung und Analyse
 
@@ -50,10 +49,10 @@ Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und
 rechtlicher Rahmenbedingungen.
 
 Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
-getroffen ist, bevor überhaupt klar ist welches Problem damit gelöst
-werden soll. Trotzdem macht es Sinn, die Einführung mit einer offenen
-Planung und Analyse zu beginnen, und danach zu überprüfen, welche
-Anforderungen das System tatsächlich abdecken kann.
+getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
+soll. Auch in diesem Fall ist es sinnvoll, die Einführung mit einer
+offenen Planung und Anforderungsanalyse zu beginnen, und danach zu
+prüfen, welche Anforderungen das System tatsächlich abdecken kann.
 
 #### Design/Prototyping
 
@@ -100,18 +99,17 @@ Optimierung der Programmabläufe vorgenommen.
 
 Typischerweise finden sich IT-Systeme, die grundlegende
 Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
-erstellt wurden, viele Jahre in dieser Phase. Folgende Abbildung
+erstellt wurden, viele Jahre in dieser Phase. \@fig-verweildauer
 illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
-![Abbildung 2 Verweildauer von Bibliothekssystemen in der Wartungsphase
-am Beispiel der Staatsbibliothek zu Berlin
-(Platzhalter)](media/rId30.png){width="3.3333333333333335in"
-height="2.5in"}
+![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am
+Beispiel der Staatsbibliothek zu Berlin (Stand
+2022)](media/rId32.png){width="0.0in" height="0.0in"}
 
-*Abbildung 2* Verweildauer von Bibliothekssystemen in der Wartungsphase
-am Beispiel der Staatsbibliothek zu Berlin (Platzhalter)
+Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am
+Beispiel der Staatsbibliothek zu Berlin (Stand 2022)
 
 #### Ablösung
 
@@ -182,10 +180,12 @@ betrieben wird, ist die Fehlerbehebung ausschließlich Sache des
 Herstellers. Fällt dieser, wie oben beschrieben, aus, kann ein Betrieb
 aus IT-Sicherheitsperspektive nicht mehr verantwortet werden. Hinzu
 kommt, dass das sogenannte Reverse Engineering bzw. das Dekompilieren
-dieser Software in der Regel verboten ist. Mit einem Grundsatzurteil des
-EuGH aus dem Jahr 2021[^1] wird dieses Verbot jedoch aufgeweicht. So ist
-es nun rechtmäßigen Erwerbern erlaubt, Fehler in einem Computerprogramm
-zu beheben und dafür auch proprietäre Software zu dekompilieren.
+dieser Software in der Regel verboten ist. Mit einem [Grundsatzurteil
+des EuGH aus dem Jahr
+2021](https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038)
+wird dieses Verbot jedoch aufgeweicht. So ist es nun rechtmäßigen
+Erwerbern erlaubt, Fehler in einem Computerprogramm zu beheben und dafür
+auch proprietäre Software zu dekompilieren.
 
 In der Praxis sollte dieses Notfallszenario aber nicht in die Planung
 einbezogen werden, da die Fehlerbehebung innerhalb fremder Software
@@ -197,16 +197,14 @@ zuständigen IT-Personals voraussetzt.
 Sowohl der Betrieb von proprietärer als auch von Open-Source-Software
 ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
-Schichtmodells des Betriebs eines IT-Systems illustrieren (siehe
-Abbildung 3).
+Schichtmodells des Betriebs eines IT-Systems illustrieren:
 
-![Abbildung 3 Schichtmodell-Bild
-(Platzhalter)](media/rId39.png){width="3.3333333333333335in"
-height="2.5in"}
+![Schichtmodell-Bild (Platzhalter)](media/rId42.png){width="0.0in"
+height="0.0in"}
 
-*Abbildung 3* Schichtmodell-Bild (Platzhalter)
+Schichtmodell-Bild (Platzhalter)
 
-Aus der Abbildung wird deutlich, dass moderne Software-Systeme zum
+Aus \@fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
 Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben
 zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines
@@ -241,14 +239,16 @@ ergonomischer Grundsätze bei der Entwicklung von Software. Moderne
 grafische Anwendungen müssen ebenso wie Internetseiten diese
 Anforderungen erfüllen:
 
-> „Die Software muss gebrauchstauglich sein, das heißt, sie sollte
+> Die Software muss gebrauchstauglich sein, das heißt, sie sollte
 > gewährleisten, dass Benutzer festgelegte Ziele in einem bestimmten
 > Nutzungskontext effektiv, effizient und zufriedenstellend erreichen
 > können. Dies setzt voraus, dass die Grundsätze der Dialoggestaltung
 > nach *DIN EN ISO 9241-110*, wie *Aufgabenangemessenheit,
 > Selbstbeschreibungsfähigkeit, Steuerbarkeit, Fehlertoleranz,
 > Erwartungskonformität, Individualisierbarkeit, Lernförderlichkeit*
-> beachtet und realisiert werden."[^2]
+> beachtet und realisiert werden.
+>
+> -- \[@gesetzliche_bildschirm-\_2019\]
 
 Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
 Bibliotheks-IT](#anforderungen) thematisiert.
@@ -263,13 +263,14 @@ bezeichnet man als Barrierefreiheit bzw. Accessibility.
 Während Barrierefreiheit häufig mit einem sehr engen Behinderungsbegriff
 assoziiert wird, wie z.B. die Rampe für Rollstuhlfahrer\*innen, ist
 dieser Begriff mittlerweile aufgrund der gesetzlichen Grundlagen in
-Deutschland wesentlich weiter zu fassen (siehe §3
-Behindertengleichstellungsgesetz). So leiten sich z.B. auch
-Anforderungen an Angebote in Leichter Sprache o.ä. aus diesem weiten
-Behinderungsbegriff ab.
+Deutschland wesentlich weiter zu fassen (siehe [§3
+Behindertengleichstellungsgesetz](https://www.gesetze-im-internet.de/bgg/__3.html)).
+So leiten sich z.B. auch Anforderungen an Angebote in Leichter Sprache
+o.ä. aus diesem weiten Behinderungsbegriff ab.
 
-Aufbauend auf der einschlägigen Gesetzgebung regelt die BITV 2.0
-(Verordnung zur Schaffung barrierefreier Informationstechnik nach dem
+Aufbauend auf der einschlägigen Gesetzgebung regelt die [BITV
+2.0](https://www.gesetze-im-internet.de/bitv_2_0/index.html) (Verordnung
+zur Schaffung barrierefreier Informationstechnik nach dem
 Behindertengleichstellungsgesetz) die konkrete Gestaltung barrierefreier
 IT-Systeme und Webangebot. Hierbei greift sie auf die aktuell gültigen
 Web Content Accessibilty Guidelines (*WCAG*) zurück, welche die
@@ -299,8 +300,9 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
 2.  ebenso wird zumeist die Nachnutzbarkeit auf Mobilgeräten erhöht und
 
 3.  die Gestaltung barrierefreier Anwendungen schlägt sich positiv im
-    Suchmaschinenranking nieder, da Suchmaschinen diesen Aspekt zur
-    Bewertung heranziehen.[^3]
+    Suchmaschinenranking nieder, da [Suchmaschinen diesen Aspekt zur
+    Bewertung
+    heranziehen](https://developers.google.com/search/blog/2020/05/evaluating-page-experience).
 
 ## Management der Bibliotheks-IT
 
@@ -435,11 +437,11 @@ Folgenden ausführlicher betrachtet.
 
 ### Aus- und Weiterbildung
 
-In der Einleitung wird Cody Hanson zitiert: „Most importantly, all
-library staff must understand that our software is our library, and is
-everyone's responsibility."[^4] Bezogen auf Einarbeitung und
-Weiterbildung bedeutet das, dass sich Mitarbeitende mit der
-(Weiter-)Entwicklung von Software ebenfalls weiterbilden und
+In der Einleitung wird Cody Hanson \[-@hanson_cody_opinion_2015\]
+zitiert: "Most importantly, all library staff must understand that our
+software is our library, and is everyone's responsibility." Bezogen auf
+Einarbeitung und Weiterbildung bedeutet das, dass sich Mitarbeitende mit
+der (Weiter-)Entwicklung von Software ebenfalls weiterbilden und
 weiterentwickeln. Nur so kann die Verantwortung von allen Mitarbeitenden
 mit Bezug zur Bibliotheks-IT gemeinsam getragen werden.
 
@@ -454,13 +456,30 @@ Historisch gibt es keine formalisierte Ausbildung für die erwähnten
 Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
 klassischerweise im Rahmen von "Training on the Job" erworben.
 
-Aktuell (Stand 2022) gibt es jedoch mehrere akademische
-Ausbildungsangebote für die Arbeit in der Bibliotheks-IT:
+Allgemeine Ausbildungen und Studiengänge im Bereich IT und Data Science
+bieten eine gute Grundlage, decken aber bibliotheksspezifische IT-Themen
+nur unzureichend ab. Stand 2022 gibt es mehrere spezielle
+Ausbildungsangebote für die Arbeit in der Bibliotheks-IT mit
+unterschiedlichen Schwerpunkten:
 
--   berufsbegleitende Master-Studiengänge: TH Wildau
-    (Bibliotheksinformatik), HWTK Leipzig, HdM Stuttgart (Data Science)
+-   berufsbegleitende Master-Studiengänge:
 
--   Zertifikatskurs Data Librarian: TH Köln
+    -   [Bibliotheksinformatik an der TH
+        Wildau](https://www.th-wildau.de/studieren-weiterbilden/studiengaenge/bibliotheksinformatik-msc-berufsbegleitendes-studium/)
+
+-   Vollzeit-Studiengänge:
+
+    -   [Masterstudiengang Digitales Datenmanagement an der FH Potsdam
+        und HU
+        Berlin](https://www.fh-potsdam.de/studium-lehre/studiengaenge/digitales-datenmanagement-m)
+
+-   Kurse
+
+    -   [Zertifikatskurs Data Librarian an der TH
+        Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-data-librarian_63393.php)
+
+    -   [Zertifikatskurs Forschungsdatenmanagement an der TH
+        Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-forschungsdatenmanagement_82048.php)
 
 Diese Zusatzqualifizierungsmöglichkeiten sind eine sehr gute
 Möglichkeit, um vorhandene Mitarbeiter\*innen systematisch
@@ -535,11 +554,15 @@ den digitalen Diensten noch stärker berücksichtigen und Studierende mit
 einem erhöhten Interesse an den Aufgaben in der Bibliotheks-IT
 rekrutieren müssen.
 
-[^1]: <https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038>
+## Zusammenfassung und Ausblick
 
-[^2]: DGUV-Information 215--410 „Bildschirm- und Büroarbeitsplätze --
-    Leitfaden für die Gestaltung", Abschnitt 8.5
-
-[^3]: <https://developers.google.com/search/blog/2020/05/evaluating-page-experience>
-
-[^4]: <https://www.codyh.com/writing/software.html>
+Auch nach Auswahl eines Systems ist eine permanente Beobachtung des
+[Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt
+sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen.
+Das Wissen um das System als auch um seine Anwendung müssen ebenfalls
+aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder
+Schulungen](#aus--und-weiterbildung). Sollte sich ein System-Umstieg
+abzeichnen, sind vor allem die internen Arbeits-Prozesse zu
+berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist
+somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw
+Anpassung des Systems effektiv reagiert werden.

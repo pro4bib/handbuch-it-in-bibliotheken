@@ -1,10 +1,12 @@
+{{\< include \_umfrage.md \>}}
+
 Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert.
 Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener
 Form möglich. Voraussetzung ist ein Verständnis des
 [Arbeitsablauf](#arbeitsablauf), Einhaltung des
 [Styleguide](#styleguide) und die freie [Lizensierung](#lizenz) der
-eigenen Beiträge. Technische Details sind im Abschnitt zum
-[git-Repository](#git-repository) zusammengefasst.
+eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist
+unter [Technik](#technik) beschrieben.
 
 ## Arbeitsablauf
 
@@ -19,14 +21,14 @@ Schreiben
 Lektorat
 
 :   Fertige Kapitel werden einmalig nach Markdown konvertiert und im
-    [git-Repository](#git-repository) des Handbuch abgelegt.
-    Anschließend werden daraus Word-Dateien erstellt (DOCX) und in einem
-    [Google Drive
+    [git-Repository](#technik) des Handbuch abgelegt. Anschließend
+    werden daraus *DOCX*-Dateien erstellt (Word) und in einem [Google
+    Drive
     Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2)
     zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen
     können auch [mittels
-    GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new)
-    oder per Hinweis an die Autor\*innen erfolgen.
+    GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)
+    oder per Hinweis an [die Autor\*innen](#autorinnen) erfolgen.
 
 Redaktion
 
@@ -43,12 +45,13 @@ Publikation
 
 ## Styleguide
 
-Zur Gewährleistung einer einheitlichen Form enthält dieser Styleguide
-allgemeine Hinweise zu Stil, Schreibweise und Struktur sowie Vorgaben zu
-besonderen Inhalten wie [Glossar](#glossar) Angaben
-
-Dieser Styleguide soll eine einheitliche Form gewährleisten. Neben
-Hinweisen
+Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher
+Autor\*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es
+Hinweise zu [Stil und Aktualität](#schreibstil),
+[Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben
+zu besonderen Inhalten wie [Bildern und anderen
+Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur)
+und [Glossar](#mitarbeit-glossar).
 
 ### Stil und Aktualität
 
@@ -67,6 +70,50 @@ Hinweisen
 -   **Das Buch sollte in 2-5 Jahren noch aktuell und verständlich sein,
     aber nicht mehr unbedingt in 10 Jahren.**
 
+-   **Das Buch soll als Nachschlagewerk dienen, das nicht vollständig
+    durchgelesen werden muss.** Dabei helfen Redundanz und Querverweise
+    (siehe [Hinweise zur Struktur](#struktur).
+
+### Struktur
+
+#### Struktur des Texts
+
+-   Wir verwenden **kurze, unverschachtelte Sätze**.
+
+-   Wir erzeugen **Sinnabschnitte**, die möglichst für sich stehend
+    verständlich sind.
+
+-   Wir schreiben **stark strukturiert**, also
+
+    -   mit vielen **Zwischenüberschriften**, bis maximal zur vierten
+        Gliederungsebene,
+
+    -   wo es inhaltlich passt, in stichpunktartigen **Listen** und
+
+    -   mit Hervorhebung **wichtiger Begriff durch Fettdruck** als
+        Gliederungshilfe.
+
+-   Wir verwenden
+    [**Infoboxen**](https://quarto.org/docs/authoring/callouts.html),
+    die auch unabhängig vom übrigen Text lesbar sind.
+
+-   Wir liefern **wichtige Informationen zusätzlich** zum Text in Form
+    von Bildern, Tabellen, Listen, Infoboxen und/oder Zusammenfassungen.
+
+#### Struktur der Hauptkapitel
+
+Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die
+wesentlichen Themen rund um IT in Bibliotheken.
+
+-   Kapitel haben normalerweise einen Umfang von 3.000 bis 4.000
+    Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich
+    in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist,
+    müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
+
+-   Jedes Kapitel beginnt mit einer **Kurzfassung** als Infobox gefolgt
+    von einer **Einleitung** und endet mit einem Abschnitt
+    **Zusammenfassung und Ausblick**.
+
 ### Schreibweise, Fachbegriffe und Verweise
 
 -   Wir verwenden im gesamten Buch gendergerechte Schreibweise mit
@@ -78,78 +125,56 @@ Hinweisen
 
 -   Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie
     wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
-    definiert. Dies kann auch als Fußnote geschehen. Die eingeführten
-    Fachbegriffe müssen in einem Glossar für das gesamte Buch gebündelt
-    werden.
+    definiert. Die eingeführten Fachbegriffe müssen in einem Glossar für
+    das gesamte Buch gebündelt werden.
 
 -   Wir vermeiden IT-Jargon.
 
+-   Quellen sollten nur dann genannt werden wenn in der jeweiligen
+    Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
+
+#### Typografie
+
 -   Abkürzungen werden durch geschützte Leerzeichen getrennt (z. B.)
 
--   Wir verwenden in Deutschland und Österreich übliche
-    Anführungszeichen („...")
+-   Gerade Anführungszeichen `"..."` werden automatisch durch die
+    Deutschland und Österreich übliche Anführungszeichen ("...")
+    ersetzt.
 
--   Die Nennung von Quellen in Fußnoten sollten nur dann
-    vorgenommenwerden, wenn in der jeweiligen Textpassage auch wirklich
-    paraphrasiert oder wörtlich zitiert wird.
+Externe Links, die nur auf Anbieter oder andere Websites verweisen,
+werden inline verlinkt.
 
 -   Links, die auf später entstehende Kapitel verweisen, werden durch
     eckige Klammern kenntlich gemacht.
 
--   Externe Links, die nur auf Anbieter oder andere Websites verweisen,
-    werden inline verlinkt, also ein Link auf das Wort gesetzt statt
-    einer Fußnote.
+-   *Kursive* Hervorhebung sollte nur für Namen und
+    [Glossareinträge](#mitarbeit-glossar) verwendet werden.
 
-### Struktur
-
--   Wir verwenden kurze, unverschachtelte Sätze.
-
--   Wir schreiben stark strukturiert, d.h. mit vielen
-    Zwischenüberschriften, und, wo es inhaltlich passt, in
-    stichpunktartigen Listen.
-
--   Wir erzeugen Sinnabschnitte, die möglichst für sich stehend
-    verständlich sind.
-
--   Das Handbuch ist durch Überschriften bis zur vierten Ebene
-    gegliedert. Innerhalb von Abschnitten können als Gliederungshilfe
-    wichtige Begriff auch durch Fettdruck hervorgehoben werden.
-
--   Kursive Hervorhebung sollte nur für Namen, Glossareinträge und
-    Zitate verwendet werden.
-
--   Jedes Kapitel hat ein Abstract, in dem die behandelten Themen kurz
-    und verständlich genannt werden, einschließlich der wichtigsten
-    Stichwörter.
-
--   Jedes Kapitel beginnt (nach dem Abstract, siehe oben) mit einer
-    erklärenden Einleitung, die das Thema veranschaulicht und es ggf. zu
-    anderen Themen abgrenzt/es mit ihnen verbindet.
-
--   Redundanz ist (oft) okay. Also z.B.
-
-    -   Fließtext, der zwei alternative Produkttypen unterscheidet und
-        danach nochmal stichpunktartig oder gegenübergestellt in
-        Tabellenspalten: Entscheidungskriterien dafür, welches der
-        beiden ich in welcher Situation wähle
-
-    -   oder: erklärender Fließtext und dann nochmal eine Infobox mit
-        Eckdaten zu einem bestimmten Produkt.
-
--   Zusätzlich können verschieden Arten von Infoboxen verwendet werden
-    (siehe <https://quarto.org/docs/authoring/callouts.html>)
+-   Wir verzichten auf Fußnoten.
 
 ### Bilder und andere Medien
 
 -   Bilder und andere Mediendateien kommen in das Verzeichnis `media` im
-    [git-Repository](#git-repository). Alternativ können sie von
-    externen Quellen per URL eingebunden werden wenn die Quelle
-    voraussichtlich dauerhaft verfügbar ist.
+    [git-Repository](#technik). Alternativ können sie von externen
+    Quellen per URL eingebunden werden wenn die Quelle voraussichtlich
+    dauerhaft verfügbar ist.
 
 -   Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt
     werden.
 
 -   Bitte nutzt sprechende Dateinamen!
+
+### Literaturverzeichnis
+
+Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe
+unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken>
+verwaltet. Der BibLaTex-Export dieser Bibliographie wird mit Aufruf von
+`make refs` von dort heruntergeladen und unter `references.bib`
+gespeichert. Diese Datei sollte also nicht direkt bearbeitet werden!
+Innerhalb des Markdown-Quelltext kann mittels [Pandoc-Citation
+Syntax](https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations)
+und dem jeweiligen Citekey aus `references.bib` auf Literatur verwiesen
+werden.
 
 ### Glossar
 
@@ -157,51 +182,39 @@ Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe
 mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle
 (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar
 aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in
-den Textdateien (z.B. Googledocs, .docx) zur Hervorhebung *kursiv*
-gesetzt. Bei Erzeugung der HTML-Version des Handbuchs wird die
-Hervorhebung in einen Tooltip geändert (*ist geplant, siehe
-<https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7>*)
+den Textdateien zur Hervorhebung *kursiv* gesetzt. Bei Erzeugung der
+HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip
+geändert.
 
-### Literaturverzeichnis
-
-Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe
-unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken>
-verwaltet. Der BibLaTex-Export dieser Bibliographie wird mit Aufruf von
-`make refss` von dort heruntergeladen und unter `references.bib`
-gespeichert. Diese Datei sollte also nicht direkt bearbeitet werden!
+Die Verlinkung von kursiv gesetzten Glossareinträgen zum Glossar ist
+[noch nicht
+umgesetzt](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7).
 
 ### Autor\*innen-Verzeichnis
 
-Wenn Du etwas beigetragen hast und möchtest, dass Du im Verzeichnis der
-Autor\*innen auftauchst, trage Dich in der CSV-Datei
-[`contributors.csv`](contributors.csv) ein. Die Zeilen sollten nach
-Nachname sortiert werden. Die Spalten `email`, `position` und `orcid`
+Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der
+Autor\*innen](#autorinnen) auftauchst, trage Dich in der JSON-Datei
+[`contributors.json`](contributors.json) ein. Die Einträge sollten nach
+Nachname sortiert werden. Die Felder `email`, `position` und `orcid`
 sind optional.
 
-## git-Repository
-
-*Die Links in diesem Kapitel funktionieren u.A. nicht.*
+## Technik
 
 Die Master-Version des Handbuch liegt in einem git-Repository unter
-<https://github.com/pro4bib/handbuch-it-in-bibliotheken>.
-
-Die Links zum Kommentieren stehen in der Datei
-[`_grive/chapters.csv`](_gdrive/chapters.csv) und in
-[README.md](README.md).
-
-Die Ergebnisdateien werden automatisch via GitHub und einen Server der
-VZG aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer
-der aktuellste Stand einsehbar sein sollte.
+<https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die
+Ergebnisdateien werden automatisch via GitHub und einen Server der *VZG*
+aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der
+aktuellste Stand einsehbar sein sollte.
 
 ### Verzeichnisstruktur
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die
 Masterdateien.
 
--   [`_quarto.yml`](_quarto.yml) zentrale Konfigurationsdatei zur
-    Anpassung der [Konvertierung mit Quarto](#konvertierung-mit-quarto)
+-   `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der
+    [Konvertierung mit Quarto](#konvertierung)
 
--   [`contributors.csv`](contributors.csv)
+-   [`contributors.json`](contributors.json)
     [Autor\*innen-Verzeichnis](#autorinnen-verzeichnis)
 
 -   `references.bib` [Literaturverzeichnis](#literaturverzeichnis)
@@ -209,8 +222,7 @@ Masterdateien.
 
 Weitere Unterverzeichnisse:
 
--   [`media/`](media) [Bilder und andere
-    Medien](#bilder-und-andere-medien)
+-   `media/` [Bilder und andere Medien](#bilder-und-andere-medien)
 
 Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert
 werden:
@@ -220,12 +232,15 @@ werden:
 -   `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte
     Kapitel (siehe [README.md](_gdrive/README.md))
 
-### Konvertierung mit Quarto
+### Konvertierung
 
 Zur Anpassung der Konvertierung des Handbuchs mit
 [Quarto](https://quarto.org) muss das Repository lokale geklont und
-Quarto installiert werden. Die Aufrufe sind zur Vereinfachung in
-[`Makefile`](../Makefile) zusammengefasst:
+Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem
+`rsvg-convert` installiert werden (Paket `librsvg2-bin` bzw. `libsrvg`).
+
+Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile)
+zusammengefasst:
 
 -   `make preview` konvertiert das Handbuch nach HTML und startet einen
     Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von
