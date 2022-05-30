@@ -1924,7 +1924,7 @@ IT-Sicherheitsbeauftragte hinzugezogen werden.
 ## Zusammenfassung und Ausblick
 
 Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
-durch die verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
+aufgrund der sich verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
 stetig angepasst werden.
 
 Der Import, Export oder auch die Zusammenführung von Daten erfordert klar
