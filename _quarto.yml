@@ -28,12 +28,18 @@ book:
   # abstract: TODO
   # description: Description metadata for HTML version of book
   page-footer: 
-    left: "[CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)"
+    left: 
+      - text: CC BY 3.0 DE
+        href: https://creativecommons.org/licenses/by/3.0/de/
     right: 
-      - '<a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>'
-      - '<a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>'
+      - text: Datenschutz
+        href: https://www.gbv.de/datenschutz
+      - text: hosted by VZG
+        href: https://www.gbv.de/impressum
       - icon: github
         href: https://github.com/pro4bib/handbuch-it-in-bibliotheken/
+      - text: "![](quarto-badge.svg)"
+        href: https://quarto.org
 
 bibliography: references.bib 
 
