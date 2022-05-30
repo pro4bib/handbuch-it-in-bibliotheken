@@ -78,7 +78,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 ### Schreibweise, Fachbegriffe und Verweise {#schreibweise .unnumbered}
 
--   Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (\*).
+-   Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (\*). In Markdown ist es sicherer dem Sternchen einen Backslash voranzustellen, z.B. `Autor\*innen`.
 
 -   Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme
 
@@ -117,7 +117,7 @@ Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <ht
 
 ### Glossar {#mitarbeit-glossar .unnumbered}
 
-Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv* gesetzt. Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip geändert.
+Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv* gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip umgewandelt.
 
 ::: {.callout-warning}
 
@@ -162,6 +162,8 @@ Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
 * `make preview` konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
 
 * `make build` konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis `_book` ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.
+
+* `make all` ruft make `build` und `docx` auf und kopiert die DOCX-Dateien ins Publikationsverzeichnis `_book`.
 
 * `make html` erzeugt nur HTML in `_book`.
 
