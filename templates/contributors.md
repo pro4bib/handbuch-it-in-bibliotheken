@@ -1,4 +1,4 @@
-<!-- Diese Datei wird automatisch überschrieben, bitte contributors.csv anpassen -->
+<!-- Diese Datei wird automatisch überschrieben, bitte contributors.json anpassen! -->
 
 $for(contributor)$
 * $it.name$$if(it.position)$, $it.position$$endif$\
