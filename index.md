@@ -1,3 +1,5 @@
+{{< include _umfrage.md >}}
+
 # Einleitung {.unnumbered}
 
 ## Motivation
@@ -38,8 +40,6 @@ IT-bezogenen Themen in Bibliotheken geben. Die vorliegende Version behandelt:
 Weitere Themen werden bis zur Vervollständigung des Handbuchs hinzukommen.
 
 ## Über dieses Handbuch
-
-{{< include _umfrage.md >}}
 
 Die erste Version dieses Handbuchs wurde [im Rahmen eines Book
 Sprints](https://www.th-wildau.de/book-sprint/) im April 2022 an der Bibliothek
