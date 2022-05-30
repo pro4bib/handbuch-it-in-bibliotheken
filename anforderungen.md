@@ -53,12 +53,12 @@ Kling und Leigh Star ergänzen, dass die ganz individuellen Fähigkeiten der
 Nutzenden in Betracht gezogen werden müssen [@kling_human_1998], was allein
 schon aus Gründen der digitalen Teilhabe sinnvoll erscheint.
 
-Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche
-einfach zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte
-wie Effektivität, Effizienz, Benutzerzufriedenheit und Zugänglichkeit
-gelegt (vgl. ISO 9241-210:2019). Diese Aspekte werden in Abschnitt [Was
-beeinflusst den Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck)
-weiter erläutert.
+Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche einfach
+zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte wie
+Effektivität, Effizienz, Benutzerzufriedenheit und Zugänglichkeit gelegt
+[@deutsches_institut_fur_normung_e_v_din_din_2020]. Diese Aspekte werden in
+Abschnitt [Was beeinflusst den
+Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter erläutert.
 
 Das Central Digital and Data Office des Vereinigten Köngreichs fasst
 die zentral zu bearbeitenden Arbeitspunkte im nutzer\*innenzentrierten
@@ -95,7 +95,7 @@ Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und
 zugänglich sein. Die Erreichung dieser Ziele und zentrale
 Begriffsdefinitionen sind Teil des Arbeits- und Forschungsgebiets der
 Software-Ergonomie und finden sich in den einschlägigen Normen wie der
-DIN EN ISO 9241-11 wieder.
+DIN EN ISO 9241-11 wieder [@deutsches_institut_fur_normung_e_v_din_din_2020].
 
 Von zentraler Bedeutung sind dabei zwei Kernbegriffe: die Usability
 (Gebrauchstauglichkeit) und die User Experience (Nutzer\*innenerfahrung)
