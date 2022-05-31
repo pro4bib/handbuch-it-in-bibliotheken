@@ -248,7 +248,7 @@ Anforderungen erfüllen:
 > -- [@gesetzliche_bildschirm-_2019]
 
 Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
-Bibliotheks-IT](#anforderungen) thematisiert.
+IT-Entwicklung](#anforderungen) thematisiert.
 
 #### Barrierefreiheit {#accessibility}
 
