@@ -549,7 +549,7 @@ einzelne Bibliothek oder eine Zentralbibliothek mit Zweigstellen?
 
 Auch die Aufstellung der Medien innerhalb der Gebäude nimmt Einfluss auf
 die Ablauforganisation und damit die Konfiguration des Systems. Dies
-lässt sich anhand der folgender Beispiele darstellen:
+lässt sich anhand der folgenden Beispiele darstellen:
 
 -   Bücher können in einer anderen Zweigstellen ausgeliehen werden.
 
@@ -561,7 +561,7 @@ In beiden Fällen muss auch der Bestellprozess über das System abgebildet
 werden. Im Magazin bzw. der Zweigstelle sind der Anschluss und die
 Aufstellung von Druckern für die Erzeugung von Bestellzetteln zu
 berücksichten. Sind die Medien für die Bibliotheksnutzenden direkt
-zugänglich, entfällt der Bestellschritt und der Prozess beginnt mit der
+zugänglich, entfällt der Bestellschritt und der abzubildende Prozess beginnt mit der
 Ausleihverbuchung.
 
 Auch das Rechtemanagement eines BMS ist abhängig von der Größe der
