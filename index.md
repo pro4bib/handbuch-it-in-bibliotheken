@@ -54,8 +54,8 @@ Teilbereich [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme) und ei
 Unterkapitel. Diese wurden anschließend in mehreren Iterationen gemeinsam
 ausformuliert.
 
-Im Laufe des Schreibprozess wurden allgemeine Aspekte des [Management von
-IT-Systemen](#management) und [Anforderungen an Bibliotheks-IT](#anforderungen)
+Im Laufe des Schreibprozesses wurden allgemeine Aspekte des [Management von
+IT-Systemen](#management) und [Anforderungen an IT-Entwicklung](#anforderungen)
 in eigene Kapitel ausgegliedert. Weitere Themen wie IT-Entwicklung,
 Forschungsunterstützung und Datenformate sind bisher nicht oder nur
 fragmentarisch behandelt. Um diese Kapitel zu vervollständigen und weitere
