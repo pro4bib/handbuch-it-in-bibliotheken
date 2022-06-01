@@ -25,8 +25,7 @@ book:
   sidebar:
     style: docked
     #logo: ...
-  # abstract: TODO
-  # description: Description metadata for HTML version of book
+  description: Die wichtigsten Themen zum Einsatz von IT in Bibliotheken (IT-Management, Bibliotheksmanagementsysteme, Softwareentwicklung, Metadaten...) umfassend erklärt.
   page-footer: 
     left: 
       - text: CC BY 3.0 DE

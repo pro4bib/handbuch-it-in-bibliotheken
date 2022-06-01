@@ -1,3 +1,7 @@
+---
+description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen in Bibliotheken
+---
+
 # Management von IT-Systemen {#management}
 
 ::: {.callout-note}
