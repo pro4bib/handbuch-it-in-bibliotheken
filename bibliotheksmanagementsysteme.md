@@ -271,45 +271,53 @@ kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 
 ### Aktuell relevante Software-Produkte {#aktuelle-sw-produkte}
 
-Stand Mitte 2022 haben folgende BMS die derzeit größte Marktreife und
--durchdringung im deutschsprachigen Raum.
+Stand Mitte 2022 haben folgende aktuellen BMS die derzeit größte Marktreife und
+-durchdringung im deutschsprachigen Raum (Sortierung nach Name):
 
-+-----------+--------------+----------------------+-----------+---------------+
-|           | Organisation | Marktstatus          | Open      | Individuelle  |
-|           |              |                      | Source    | Entwicklung   |
-+===========+==============+======================+===========+===============+
-| Folio     | Open Library | ERM-Modul in         | ja        | in Eigenregie |
-|           | Foundation   | einzelnen            |           | oder durch    |
-|           |              | deutschen            |           | Dienstleister |
-|           |              | Bibliotheken         |           |               |
-+-----------+--------------+----------------------+-----------+---------------+
-| Koha      | Koha         | ÖBs                  | ja        | in Eigenregie |
-|           | Community    | und                  |           | oder durch    |
-|           |              | Spezialbibliotheken, |           | Dienstleister |
-|           |              | in Planung im        |           |               |
-|           |              | KOBV                 |           |               |
-+-----------+--------------+----------------------+-----------+---------------+
-| Alma      | ExLibris     | WBs in Berlin,       | nein      | durch ExLibis |
-|           |              | NRW, Bayerische      |           |               |
-|           |              | Staatsbibliothek,    |           | integrierte   |
-|           |              | Schweiz,             |           | Apps durch    |
-|           |              |                      |           | Bibliotheken  |
-+-----------+--------------+----------------------+-----------+---------------+
-| aDIS/BMS  | aStec        | ÖBs und WBs          | nein      | durch aStec   |
-|           |              | vor allem im BSZ     |           |               |
-+-----------+--------------+----------------------+-----------+---------------+
-| LIBERO    | LIBERO       | ÖBs und WBs          | nein      | durch LIBERO  |
-+-----------+--------------+----------------------+-----------+---------------+
+  ----------------------------------------------------------------------------
+             Organisation    Marktstatus            Open       Individuelle
+                                                    Source     Entwicklung
+  ---------- --------------- ---------------------- ---------- ---------------
+  aDIS/BMS   aStec           ÖBs und WBs vor allem  nein       durch aStec
+                             im BSZ                            
 
-Das Cloud-basierte System WMS von OCLC wird bislang nur vereinzelt von Bibliotheken in Deutschland eingesetzt.  Darüber hinaus gibt es einige kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist:
+  Alma       ExLibris        WBs in Berlin, NRW,    nein       durch ExLibis,
+                             Bayerische                        integrierte
+                             Staatsbibliothek,                 Apps in Eigenregie
+                             Schweiz                           
+
+  Folio      Open Library    Einführung in WBs      ja         in Eigenregie
+             Foundation                                        oder durch
+                                                               Dienstleister
+
+  Koha       Koha Community  ÖBs und                ja         in Eigenregie
+                             Spezialbibliotheken,              oder durch
+                             in Planung im KOBV                Dienstleister
+
+  LBS        OCLC via VZG    WBs im GBV und         nein       durch VZG
+                             Spezialbibliotheken               
+
+  LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
+  ----------------------------------------------------------------------------
+
+<!--
+[Folio]: https://librarytechnology.org/product/folio
+[Koha]: https://librarytechnology.org/product/koha
+[Alma]: https://librarytechnology.org/product/alma
+[LIBERO]: https://librarytechnology.org/product/libero
+
+ PICA LBS: https://librarytechnology.org/products/product.pl?RC=272 
+-->
+
+Weitere BMS wie ExLibris Aleph, SISIS Sunrise und allegro werden zwar auch noch an vielen Bibliotheken eingesetzt, aber nicht mehr wesentlich weiterentwickelt. Das Cloud-basierte System WMS von OCLC ist in Deutschland bislang nur vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC ein Nachfolger angekündigt.
+
+Darüber hinaus gibt es mehrere kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist, beispielsweise:
 
 - [Perpustakaan](https://must.de/default.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal
 
 - [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist in internen Forschungs- und Behörden-Bibliotheken verbreitet
 
 - Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
-
-Weitere BMS wie PICA LBS, SISIS Sunrise, ExLibris Aleph und allegro werden zwar noch an vielen Bibliotheken eingesetzt aber nicht mehr wesentlich weiterentwickelt, da ihre technische Grundlage inzwischen weitgehend veraltet ist. Für BibliothecaPlus ist von OCLC ein Nachfolger angekündigt.
 
 Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
 gepflegte [Library Technology Guide](https://librarytechnology.org/products/).
