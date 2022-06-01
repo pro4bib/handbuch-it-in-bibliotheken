@@ -25,7 +25,8 @@ book:
   sidebar:
     style: docked
     #logo: ...
-  description: Die wichtigsten Themen zum Einsatz von IT in Bibliotheken (IT-Management, Bibliotheksmanagementsysteme, Softwareentwicklung, Metadaten...) umfassend erklärt.
+  # default meta-tag description, falls nicht auf einzelnen Seiten anders angegeben
+  description: "Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Softwareentwicklung, Metadaten..."
   page-footer: 
     left: 
       - text: CC BY 3.0 DE

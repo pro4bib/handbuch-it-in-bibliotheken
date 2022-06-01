@@ -76,7 +76,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 -   Jedes Kapitel beginnt mit einer **Kurzfassung** als Infobox gefolgt von einer **Einleitung** und endet mit einem Abschnitt **Zusammenfassung und Ausblick**.
 
--   Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld `description` [für Suchmaschinen](https://developers.google.com/search/docs/advanced/appearance/snippet)
+-   Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld `description` [für Suchmaschinen](https://developers.google.com/search/docs/advanced/appearance/snippet) (maximal etwa 158 Zeichen)
 
 ### Schreibweise, Fachbegriffe und Verweise {#schreibweise .unnumbered}
 
