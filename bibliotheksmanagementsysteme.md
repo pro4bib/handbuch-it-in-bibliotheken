@@ -313,7 +313,7 @@ Darüber hinaus gibt es einige kommerzielle Systeme, deren Funktionsumfang auf b
 
 - Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
 
-Weitere BMS wie PICA LBS, SISIS Sunrise, ExLibris Aleph und allegro werden zwar noch an vielen Bibliotheken eingesetzt aber nicht mehr wesentlich weiterentwickelt, die ihre technische Grundlage inzwischen weitgehend veraltet ist.
+Weitere BMS wie PICA LBS, SISIS Sunrise, ExLibris Aleph und allegro werden zwar noch an vielen Bibliotheken eingesetzt aber nicht mehr wesentlich weiterentwickelt, da ihre technische Grundlage inzwischen weitgehend veraltet ist.
 
 Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
 gepflegte [Library Technology Guide](https://librarytechnology.org/products/).
