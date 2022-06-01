@@ -300,12 +300,8 @@ Stand Mitte 2022 haben folgende BMS die derzeit größte Marktreife und
 +-----------+--------------+----------------------+-----------+---------------+
 | LIBERO    | LIBERO       | ÖBs und WBs          | nein      | durch LIBERO  |
 +-----------+--------------+----------------------+-----------+---------------+
-| WMS       | OCLC         | vereinzelte          | nein      | durch OCLC    |
-|           |              | Bibliotheken in      |           |               |
-|           |              | Deutschland          |           |               |
-+-----------+--------------+----------------------+-----------+---------------+
 
-Darüber hinaus gibt es einige kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist:
+Das Cloud-basierte System WMS von OCLC wird bislang nur vereinzelt von Bibliotheken in Deutschland eingesetzt.  Darüber hinaus gibt es einige kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist:
 
 - [Perpustakaan](https://must.de/default.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal
 
@@ -313,7 +309,7 @@ Darüber hinaus gibt es einige kommerzielle Systeme, deren Funktionsumfang auf b
 
 - Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
 
-Weitere BMS wie PICA LBS, SISIS Sunrise, ExLibris Aleph und allegro werden zwar noch an vielen Bibliotheken eingesetzt aber nicht mehr wesentlich weiterentwickelt, da ihre technische Grundlage inzwischen weitgehend veraltet ist.
+Weitere BMS wie PICA LBS, SISIS Sunrise, ExLibris Aleph und allegro werden zwar noch an vielen Bibliotheken eingesetzt aber nicht mehr wesentlich weiterentwickelt, da ihre technische Grundlage inzwischen weitgehend veraltet ist. Für BibliothecaPlus ist von OCLC ein Nachfolger angekündigt.
 
 Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
 gepflegte [Library Technology Guide](https://librarytechnology.org/products/).
