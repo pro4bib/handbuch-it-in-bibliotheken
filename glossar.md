@@ -40,6 +40,9 @@ FID
 [MARC](https://de.wikipedia.org/wiki/Machine-Readable_Cataloging)
   : MAchine-Readable Cataloging, ältestes und noch immer wichtigstes bibliothekarisches Austauschformat
 
+ÖB
+  : Öffentliche Bibliothek
+
 [OPAC](https://de.wikipedia.org/wiki/OPAC)
   : Online Public Access Catalogue, Katalog einer Bibliothek
 
@@ -57,6 +60,9 @@ FID
 
 [VR](https://de.wikipedia.org/wiki/Virtuelle_Realität)
   : Virtual Reality, (computer-generierte) virtuelle Umgebung
+
+WB
+  : Wissenschaftliche Bibliothek
 
 [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
   : Web Content Accessibilty Guidelines
