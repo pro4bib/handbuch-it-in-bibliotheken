@@ -294,7 +294,7 @@ Stand Mitte 2022 haben folgende aktuellen BMS die derzeit größte Marktreife un
                              Spezialbibliotheken,              oder durch
                              in Planung im KOBV                Dienstleister
 
-  LBS        OCLC via VZG    WBs im GBV und         nein       durch VZG
+  LBS        OCLC            WBs im GBV und         nein       durch VZG
                              Spezialbibliotheken               
 
   LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
