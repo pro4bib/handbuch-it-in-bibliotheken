@@ -272,58 +272,53 @@ kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 ### Aktuell relevante Software-Produkte {#aktuelle-sw-produkte}
 
 Stand Mitte 2022 haben folgende BMS die derzeit größte Marktreife und
--durchdringung im deutschsprachigen Raum. Alle vier verfügen über wesentliche
-Merkmale eines Next Generation-BMS.
+-durchdringung im deutschsprachigen Raum.
 
-+-------+--------------+----------------------+-----------+---------------+
-|       | Organisation | Marktstatus          | Open      | Individuelle  |
-|       |              |                      | Source    | Entwicklung   |
-+=======+==============+======================+===========+===============+
-| Alma  | ExLibris     | WBs in Berlin,       | nein      | in gewissem   |
-|       |              | NRW, Bayerische      |           | Rahmen durch  |
-|       |              | Staatsbibliothek,    |           | ExLibris,     |
-|       |              | Schweiz,             |           |               |
-|       |              |                      |           | integrierte   |
-|       |              |                      |           | Apps durch    |
-|       |              |                      |           | Bibliotheken  |
-+-------+--------------+----------------------+-----------+---------------+
-| Folio | Open Library | ERM-Modul in         | ja        | in Eigenregie |
-|       | Foundation   | einzelnen            |           | oder durch    |
-|       |              | deutschen            |           | Dienstleister |
-|       |              | Bibliotheken         |           |               |
-+-------+--------------+----------------------+-----------+---------------+
-| Koha  | Koha         | zahlreiche ÖBs       | ja        | in Eigenregie |
-|       | Community    | und                  |           | oder durch    |
-|       |              | Spezialbibliotheken, |           | Dienstleister |
-|       |              | in Planung im        |           |               |
-|       |              | KOBV                 |           |               |
-+-------+--------------+----------------------+-----------+---------------+
-| WMS   | OCLC         | vereinzelte          | nein      | in gewissem   |
-|       |              | Bibliotheken in      |           | Rahmen durch  |
-|       |              | Deutschland          |           | OCLC          |
-+-------+--------------+----------------------+-----------+---------------+
++-----------+--------------+----------------------+-----------+---------------+
+|           | Organisation | Marktstatus          | Open      | Individuelle  |
+|           |              |                      | Source    | Entwicklung   |
++===========+==============+======================+===========+===============+
+| Folio     | Open Library | ERM-Modul in         | ja        | in Eigenregie |
+|           | Foundation   | einzelnen            |           | oder durch    |
+|           |              | deutschen            |           | Dienstleister |
+|           |              | Bibliotheken         |           |               |
++-----------+--------------+----------------------+-----------+---------------+
+| Koha      | Koha         | ÖBs                  | ja        | in Eigenregie |
+|           | Community    | und                  |           | oder durch    |
+|           |              | Spezialbibliotheken, |           | Dienstleister |
+|           |              | in Planung im        |           |               |
+|           |              | KOBV                 |           |               |
++-----------+--------------+----------------------+-----------+---------------+
+| Alma      | ExLibris     | WBs in Berlin,       | nein      | durch ExLibis |
+|           |              | NRW, Bayerische      |           |               |
+|           |              | Staatsbibliothek,    |           | integrierte   |
+|           |              | Schweiz,             |           | Apps durch    |
+|           |              |                      |           | Bibliotheken  |
++-----------+--------------+----------------------+-----------+---------------+
+| aDIS/BMS  | aStec        | ÖBs und WBs          | nein      | durch aStec   |
+|           |              | vor allem im BSZ     |           |               |
++-----------+--------------+----------------------+-----------+---------------+
+| LIBERO    | LIBERO       | ÖBs und WBs          | nein      | durch LIBERO  |
++-----------+--------------+----------------------+-----------+---------------+
+| WMS       | OCLC         | vereinzelte          | nein      | durch OCLC    |
+|           |              | Bibliotheken in      |           |               |
+|           |              | Deutschland          |           |               |
++-----------+--------------+----------------------+-----------+---------------+
 
-Darüber hinaus sind unter Anderem folgende technisch inzwischen
-weitgehend überholte Systeme an vielen Bibliotheken noch im Einsatz:
+Darüber hinaus gibt es einige kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist:
 
--   PICA LBS
+- [Perpustakaan](https://must.de/default.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal
 
--   Sunrise
+- [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist in internen Forschungs- und Behörden-Bibliotheken verbreitet
 
--   aDIS/BMS
+- Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
 
--   allegro und allegro-c
+Weitere BMS wie PICA LBS, SISIS Sunrise, ExLibris Aleph und allegro werden zwar noch an vielen Bibliotheken eingesetzt aber nicht mehr wesentlich weiterentwickelt, die ihre technische Grundlage inzwischen weitgehend veraltet ist.
 
--   Libero
-
--   Bibliomondo
-
--   Perpustakaan
-
-Eine internationale Übersicht von BMS enthält der von Marshall Breeding
+Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
 gepflegte [Library Technology Guide](https://librarytechnology.org/products/).
-Weitere BMS sind systematisch in Wikidata erfasst und können beispielsweise
-unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
+Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können
+beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
 
 :::{.callout-tip}
 
@@ -374,12 +369,6 @@ Erwerbung
 Nutzerdatenverwaltung
 
 -   IDM-Systeme
-
-Bei Schulbibliotheken ist die Software
-[Perpustakaan](https://must.de/default.html?Lib.htm)
-relativ weit verbreitet, die alle wesentlichen Grundfunktionen eines BMS
-beinhaltet, sich aber ausdrücklich an nicht-bibliothekarisch
-vorgebildetes Personal richtet.
 
 Bibliotheken mit einem jährlichen Zuwachs von über 500 Medien und
 verschiedenen Nutzertypen und Ausleihbedingungen werden ist die Nutzung
