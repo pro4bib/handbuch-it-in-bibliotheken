@@ -34,5 +34,5 @@ templates/chapters.html: _gdrive/chapters.csv
 		| jq -sc add >> $@; echo "</script>" >> $@
 
 # TODO: replace by lua filter as supported by quarto
-_contributors.md: contributors.yaml templates/contributors.md
+_contributors.md: contributors.yml templates/contributors.md
 	echo '' | quarto pandoc --metadata-file $< --template templates/contributors.md -M title=- -o $@

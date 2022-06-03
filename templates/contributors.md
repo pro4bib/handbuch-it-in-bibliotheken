@@ -1,4 +1,4 @@
-<!-- Diese Datei wird automatisch überschrieben, bitte contributors.yaml anpassen! -->
+<!-- Diese Datei wird automatisch überschrieben, bitte contributors.yml anpassen! -->
 
 $for(contributor)$
 * $it.name$$if(it.position)$, $it.position$$endif$\
