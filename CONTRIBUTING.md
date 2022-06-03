@@ -34,8 +34,37 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 
 ## Styleguide {#styleguide .unnumbered}
 
-Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten.
-Dazu gibt es Hinweise zu [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Glossar](#mitarbeit-glossar).
+Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Glossar](#mitarbeit-glossar).
+
+### Zielgruppe {#zielgruppe}
+
+Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
+*Personas* definiert:
+
+-   **Janine** Buchinger: Janine leitet die Stadtbibliothek in einer
+    Stadt mit 250.000 Einwohnern. Die Bibliothek besteht aus einer
+    Zentrale und zwei Zweigstellen. Mit den Schulbüchereien besteht
+    eine Kooperation für fachliche Beratung und gemeinsame Aktivitäten
+    bei der Informationskompetenz-Vermittlung.
+
+-   Dr. **Tillmann** Schuppe: Tillmann ist Leiter einer
+    Fachhochschulbibliothek mit 500.000 Medieneinheiten. Die
+    Bibliothek gehört einem Bibliotheksverbund an. Die Bibliothek
+    plant einen Neubau, der gemeinsam mit dem Rechen- und
+    Medienzentrum bezogen werden soll.
+
+-   **Magda** Olsowski: Magda ist studierte Informatikerin und leitet
+    die Gruppe Forschungsdatenmanagement an einer großen
+    Universitätsbibliothek. Sie hat keine bibliothekarische
+    Vorbildung.
+
+-   **Alicia** Meyer: Alicia studiert Bibliotheksmanagement und plant
+    eine Masterarbeit, in der sie die Implementierungsprozesse von
+    Software analysieren möchte.
+
+-   **Robert** Pohlmann: Robert leitet die IT-Abteilung einer
+    mittelgroßen Universitätsbibliothek und ist nebenberuflich
+    Lehrbeauftragter für einen bibliothekarischen Studiengang.
 
 ### Stil und Aktualität {#schreibstil .unnumbered}
 
@@ -129,7 +158,7 @@ Die Verlinkung von kursiv gesetzten Glossareinträgen zum Glossar ist [noch nich
 
 ### Autor\*innen-Verzeichnis {#mitarbeit-autorinnen .unnumbered}
 
-Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\*innen](#autorinnen) auftauchst, trage Dich in der YAML-Datei [`contributors.yaml`](contributors.yaml) ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder `email`, `position` und `orcid` sind optional.
+Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\*innen](#autorinnen) auftauchst, trage Dich in der YAML-Datei [`contributors.yml`](contributors.yml) ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder `email`, `position` und `orcid` sind optional.
 
 ## Technik {.unnumbered}
 
@@ -139,9 +168,11 @@ Die Master-Version des Handbuch liegt in einem git-Repository unter <https://git
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
+* `metadata.yml` bibliographische Metadaten (Titel, Abstract...)
+
 * `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der [Konvertierung mit Quarto](#konvertierung)
 
-* [`contributors.yaml`](contributors.yaml) [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
+* [`contributors.yml`](contributors.yml) [Autor*innen-Verzeichnis](#autorinnen-verzeichnis)
 
 * `references.bib` [Literaturverzeichnis](#literaturverzeichnis) (bitte nicht direkt bearbeiten!)
 

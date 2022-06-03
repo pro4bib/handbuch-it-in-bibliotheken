@@ -1,10 +1,10 @@
 project:
   type: book
 
+metadata-files:
+  - metadata.yml
+
 book:
-  title: Handbuch IT in Bibliotheken
-  #author: ...
-  date: today
   downloads:
     - docx
   repo-url: https://github.com/pro4bib/handbuch-it-in-bibliotheken/
@@ -20,13 +20,10 @@ book:
     - literatur.md
   appendices:
     - glossar.md
-    - zielgruppe.md
     - mitarbeit.md
   sidebar:
     style: docked
     #logo: ...
-  # default meta-tag description, falls nicht auf einzelnen Seiten anders angegeben
-  description: "Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Softwareentwicklung, Metadaten..."
   page-footer: 
     left: 
       - text: CC BY 3.0 DE
@@ -43,7 +40,6 @@ book:
 
 bibliography: references.bib 
 
-lang: de
 number-sections: false
 number-depth: 1
 
@@ -63,5 +59,3 @@ format:
 
 filters:
   - templates/pandoc-quotes.lua
-#comments:
-#  hypothesis: true

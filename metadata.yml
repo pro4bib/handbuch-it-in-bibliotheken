@@ -1,0 +1,8 @@
+lang: de
+
+book:
+  title: Handbuch IT in Bibliotheken
+  date: today
+  description: "Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Softwareentwicklung, Metadaten..."
+  abstract: >    
+    Dieses Handbuch gibt einen knappen, umfassenden Überblick über die wesentlichen IT-bezogenen Themen in Bibliotheken. Die aktuelle Version beschränkt sich auf Kapitel zum Management von IT-Systemen, Anforderungen an die IT-Entwicklung und Bibliotheksmanagementsysteme.
