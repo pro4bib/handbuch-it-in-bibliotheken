@@ -148,13 +148,7 @@ Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <ht
 
 ### Glossar {#mitarbeit-glossar .unnumbered}
 
-Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv* gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip umgewandelt.
-
-::: {.callout-warning}
-
-Die Verlinkung von kursiv gesetzten Glossareinträgen zum Glossar ist [noch nicht umgesetzt](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7).
-
-:::
+Das Glossar in der Datei `glossar.yml` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv* gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip umgewandelt.
 
 ### Autor\*innen-Verzeichnis {#mitarbeit-autorinnen .unnumbered}
 

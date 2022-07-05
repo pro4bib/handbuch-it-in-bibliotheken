@@ -3,6 +3,7 @@ project:
 
 metadata-files:
   - metadata.yml
+  - glossar.yml
 
 book:
   downloads:
@@ -59,3 +60,4 @@ format:
 
 filters:
   - templates/pandoc-quotes.lua
+  - templates/glossary.lua
