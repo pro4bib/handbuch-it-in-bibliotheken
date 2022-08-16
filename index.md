@@ -44,7 +44,7 @@ Sprints](https://www.th-wildau.de/book-sprint/) im April 2022 an der Bibliothek
 der Technischen Hochschule Wildau erstellt.  Dazu trafen sich zwölf IT-affine
 Expert\*innen aus dem Bibliotheksbereich, um innerhalb von drei Tagen eine
 umfassende Übersicht speziell zum Thema Bibliotheksmanagementsysteme (BMS) zu
-verfassen. Weitere Autor\*innen wurden im Laufe der Veranstaltung eingebunden.
+verfassen. Weitere Autor\*innen wurden online eingebunden. Die Veranstaltung wurde mit Mitteln des [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
 
 Zur Klärung der [Zielgruppe](#zielgruppe) wurden einige sogenannte *Personas*
 definiert.  Eine Brainstorming-Session ergab zunächst relevante Themen für den
@@ -78,8 +78,6 @@ Weitere [Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
 Umsetzung des Handbuchs finden sich im Anhang.
 
 :::
-
-Die Veröffentlichung wurde aus Mitteln des [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
 
 ## Beteiligte Autor\*innen {#autorinnen}
 
