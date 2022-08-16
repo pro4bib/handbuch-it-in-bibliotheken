@@ -1,5 +1,3 @@
-{{< include _umfrage.md >}}
-
 # Einleitung {.unnumbered}
 
 ## Motivation
@@ -80,6 +78,8 @@ Weitere [Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
 Umsetzung des Handbuchs finden sich im Anhang.
 
 :::
+
+Die Veröffentlichung wurde aus Mitteln des [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
 
 ## Beteiligte Autor\*innen {#autorinnen}
 
