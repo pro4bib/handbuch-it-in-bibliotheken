@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.649">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -54,7 +54,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -139,24 +139,24 @@ div.csl-indent {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-    <div class="sidebar-item-container"> 
-        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
-      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
-        <i class="bi bi-chevron-right ms-2"></i>
-      </a>
-    </div>
-    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-        <li class="sidebar-item">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glossar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Glossar</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mitarbeit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Hinweise zur Mitarbeit</span></a>
   </div>
 </li>
-    </ul>
+      </ul>
   </li>
     </ul>
     </div>
@@ -201,7 +201,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">7. Juli 2022</p>
+      <p class="date">16. August 2022</p>
     </div>
   </div>
     
@@ -216,16 +216,6 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-warning callout callout-style-simple">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Haben Sie Interesse am Handbuch IT in Bibliotheken mitzuarbeiten? Dann füllen Sie bitte zur weiteren Planung bis Ende Juli 2022 <a href="https://forms.gle/7aV3DCE4Fe75eHx69">unsere Umfrage</a> aus!</p>
-</div>
-</div>
-</div>
 <section id="einleitung" class="level1 unnumbered">
 <h1 class="unnumbered">Einleitung</h1>
 <section id="motivation" class="level2">
@@ -267,6 +257,7 @@ div.csl-indent {
 </div>
 </div>
 </div>
+<p>Die Veröffentlichung wurde aus Mitteln des <a href="https://open-access-brandenburg.de/fonds/">Publikationsfonds für Open-Access-Monografien des Landes Brandenburg</a> gefördert.</p>
 </section>
 <section id="autorinnen" class="level2">
 <h2 class="anchored" data-anchor-id="autorinnen">Beteiligte Autor*innen</h2>
@@ -420,6 +411,24 @@ window.document.addEventListener("DOMContentLoaded", function () {
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

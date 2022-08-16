@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.649">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -55,7 +55,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -141,24 +141,24 @@ div.csl-indent {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-    <div class="sidebar-item-container"> 
-        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
-      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
-        <i class="bi bi-chevron-right ms-2"></i>
-      </a>
-    </div>
-    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-        <li class="sidebar-item">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./glossar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Glossar</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./mitarbeit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Hinweise zur Mitarbeit</span></a>
   </div>
 </li>
-    </ul>
+      </ul>
   </li>
     </ul>
     </div>
@@ -735,7 +735,7 @@ Evolution der Bibliotheksmanagementsysteme
 <div id="fig-matrix" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/matrix.png" class="img-fluid figure-img"></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Abbildung 3.1: Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung 3.1: Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption><p></p>
 </figure>
 </div>
 <p>Zur Evaluierung der BMS können bestehende Anforderungskataloge für die Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam <a href="https://www.folio-bib.org/?page_id=247">von HBZ und VZG entwickelte Kriterienkatalog</a>. Dieses umfangreiche Dokument zeigt die Anforderungen an alle Komponenten auf Grundlage der Analyse von sehr ausgereiften Prozessen in Altsystemen auf. Es empfiehlt sich, insbesondere diejenigen Funktionalitäten genau zu überprüfen, die strategisch von besonderer Bedeutung sind.</p>
@@ -810,7 +810,7 @@ Evolution der Bibliotheksmanagementsysteme
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="https://commons.wikimedia.org/wiki/File:BPMN-1.svg" id="fig-prozessabbildung"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg" title="Quelle: Stkl (CC-BY-SA 3.0)" class="img-fluid figure-img"></a></p>
-<p></p><figcaption aria-hidden="true" class="figure-caption">Beispiel einer BPMN-Prozessabbildung</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Beispiel einer BPMN-Prozessabbildung</figcaption><p></p>
 </figure>
 </div>
 <p>Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik nutzen, um Prozesse zu dokumentieren und zu visualisieren. Andere Alternativen zur Modellierung finden sich in den verschiedenen Diagrammformen der UML (Unified Modelling Language).</p>
@@ -1201,6 +1201,24 @@ window.document.addEventListener("DOMContentLoaded", function () {
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
