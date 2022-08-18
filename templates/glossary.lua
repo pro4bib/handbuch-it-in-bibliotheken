@@ -1,3 +1,15 @@
+-- This Pandoc Lua filter implements a glossary from metadata field `glossary`:
+--
+-- glossary:
+--   foo:
+--     definition: A thing
+--   bar:
+--     definition: Another thing
+--     url: http://example.org/
+--
+-- The glossary is inserted at `{{< glossary >}}`. Emphasized glossary entries
+-- such as `*foo*` are replaced by `<abbr title="definition">term</abbr>.
+
 local glossary = {}
 
 local function htmlescape(s)
@@ -49,7 +61,7 @@ return {
     end,
   },
   {
-    -- Replace *term* with <abbr> if found in glossary
+    -- Replace *term* with <abbr title="...">term</abbr> if found in glossary
     Emph = function(elem)
       local name = pandoc.utils.stringify(elem)
       if glossary[name] then
