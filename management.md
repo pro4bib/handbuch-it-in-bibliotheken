@@ -509,7 +509,7 @@ Die wichtigste Rolle bei der Qualifizierung für die Aufgaben im Bereich
 Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle
 Weiterbildungsformen sind
 
--   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, Kitodo, OPUS, ...
+-   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS, ...
 
 -   Library Carpentries
 
