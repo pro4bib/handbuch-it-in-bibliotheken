@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
@@ -87,7 +92,7 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Anforderungen an die IT-Entwicklung</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Anforderungen an die IT-Entwicklung</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -164,7 +169,7 @@ div.csl-indent {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
@@ -267,7 +272,7 @@ div.csl-indent {
 <div id="fig-usux" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/usability_ux.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung 2.1: Zusammenhang zwischen Usability und User Experience</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.1: Zusammenhang zwischen Usability und User Experience</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -290,7 +295,7 @@ div.csl-indent {
 <div id="fig-3" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/missing.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung 2.2: Aus einem <a href="https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526">Vortrag zum Scenario-based Design</a></figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.2: Aus einem <a href="https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526">Vortrag zum Scenario-based Design</a></figcaption><p></p>
 </figure>
 </div>
 <p>Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit verschiedenen Formen modelliert werden. Dafür können formalisierte Systeme wie die Unified Modelling Language (UML) zum Einsatz kommen. Sie bietet ein Set verschiedener Formen, um Start, Ende, Verzweigungen, Alternativen und mehr visuell zu beschreiben. Aber auch Skizzen können Nutzungsszenarien bereits verdeutlichen und als Diskussionsgrundlage dienen, z. B. in Form von Storyboards, die in einem eigenen <a href="#storyboards-als-frühe-methode">Unterkapitel zu dieser Methode</a> noch beschrieben werden.</p>
@@ -377,7 +382,7 @@ div.csl-indent {
 <div id="fig-5" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/missing.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung 2.3: <a href="https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype" class="uri">https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype</a> (Platzhalter)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.3: <a href="https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype" class="uri">https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype</a> (Platzhalter)</figcaption><p></p>
 </figure>
 </div>
 <p>Ein Wireframe („Drahtmodell“) ist eine noch undetaillierte („low-level“) Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches (siehe <a href="#fig-5">Abbildung&nbsp;<span>2.3</span></a>). Ein Mock-Up ist, im Kontext Design, eine ausgereifte („high-level“) Version des Interfaces mit realistischen Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz zu Prototypen, die interaktiv sind und damit echte Funktionalitäten enthalten.</p>
@@ -396,7 +401,7 @@ div.csl-indent {
 <div id="fig-6" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/usability_ux.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung 2.4: &nbsp;</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.4: &nbsp;</figcaption><p></p>
 </figure>
 </div>
 <p>Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass diese auch ohne eine formale Usability-Ausbildung durch engagierte Mitarbeiter*innen durchgeführt werden können. Im Folgenden soll deshalb das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.</p>
@@ -540,7 +545,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

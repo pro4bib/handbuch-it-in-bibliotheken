@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.189">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
@@ -87,7 +92,7 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Management von IT-Systemen</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Management von IT-Systemen</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -164,7 +169,7 @@ div.csl-indent {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
@@ -230,7 +235,7 @@ div.csl-indent {
 <div id="fig-it-zyklus" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/sdlc.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung 1.1: SDLC-Skizze (Platzhalter)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;1.1: SDLC-Skizze (Platzhalter)</figcaption><p></p>
 </figure>
 </div>
 <section id="planung-und-analyse" class="level4">
@@ -269,7 +274,7 @@ div.csl-indent {
 <div id="fig-verweildauer" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/sw_lifespan.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung 1.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;1.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -304,7 +309,7 @@ div.csl-indent {
 <div id="fig-schichtmodell" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/schichten.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung 1.3: Schichtmodell-Bild (Platzhalter)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;1.3: Schichtmodell-Bild (Platzhalter)</figcaption><p></p>
 </figure>
 </div>
 <p>Aus <a href="#fig-schichtmodell">Abbildung&nbsp;<span>1.3</span></a> wird deutlich, dass moderne Software-Systeme zum Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz aus, so ist es unter Umständen möglich, die darüber liegenden Schichten auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht garantiert.</p>
@@ -433,7 +438,7 @@ div.csl-indent {
 </ul>
 <p>Die wichtigste Rolle bei der Qualifizierung für die Aufgaben im Bereich Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle Weiterbildungsformen sind</p>
 <ul>
-<li><p>Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, Kitodo, OPUS, …</p></li>
+<li><p>Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS, …</p></li>
 <li><p>Library Carpentries</p></li>
 <li><p>Mailinglisten, Foren und andere Kommunikationskanäle</p></li>
 <li><p>persönliche Kontakte, Gruppen wie UX Roundtable</p></li>
@@ -558,7 +563,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
