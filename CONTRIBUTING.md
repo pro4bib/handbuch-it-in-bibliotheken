@@ -1,3 +1,5 @@
+{{< include _booksprint.md >}}
+
 Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizensierung](#lizenz) der eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist unter [Technik](#technik) beschrieben.
 
 ## Arbeitsablauf {.unnumbered}
