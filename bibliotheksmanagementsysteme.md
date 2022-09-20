@@ -761,7 +761,7 @@ CO~2~-Ausstoß des Rechenzentrums).
 
 Auch aus datenschutzrechtlicher Perspektive gibt es Voraussetzungen zu
 berücksichtigen, die gegen die Anschaffung bestimmter BMS-Lösungen
-sprechen (siehe Kapitel Datenschutz, User-Tracking, Analytics).
+sprechen (siehe Abschnitt [Datenschutz](#datenschutz)).
 
 Vor diesem Hintergrund ist die Auswahlentscheidung für einzelne
 Bibliotheken oft ein langwieriger Prozess. Bei Teilnahme an einem
@@ -1455,8 +1455,7 @@ abgefragt werden müssen.
 
 Datenschutzbezogene Vorgehensweisen auch in Bezug auf personenbezogene
 und personenbeziehbare Daten von Nutzenden finden sich in Abschnitt
-[Datenschutz](#datenschutz-user-tracking-analytics) im
-Kapitel zum technischen Betrieb eines BMS.
+[Datenschutz](#datenschutz) im Kapitel zum technischen Betrieb eines BMS.
 
 #### Bezahlsysteme
 
