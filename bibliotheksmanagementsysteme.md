@@ -10,15 +10,14 @@ Bibliotheksmanagementsysteme sind IT-Systeme, die die [Kernprozesse](#prozessabb
 
 :::
 
-In diesem Text wird der Begriff Bibliotheksmanagementsystem (BMS)
-verwendet. Damit ist ein Softwareprodukt gemeint, mit dem die
-Arbeitsprozesse rund um die Erwerbung, Erschließung, Ausleihe, Zugriff
-und Auffindbarmachung von Bibliotheksbeständen über Kataloge abgebildet
-und automatisiert werden können. Teilweise wird im Deutschen auch der
-nicht auf Software beschränkte Begriff Bibliothekssystem verwendet. In
-der angloamerikanischen Literatur finden sich die Begriffe Integrated
-Library System (ILS) und Library Management System (LMS), zuletzt aber
-auch Library Services Platforms.
+In diesem Text wird der Begriff **Bibliotheksmanagementsystem (BMS)**
+verwendet. Damit ist ein Softwareprodukt gemeint, mit dem die Arbeitsprozesse
+rund um die Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung
+von Bibliotheksbeständen über Kataloge abgebildet und automatisiert werden
+können. Teilweise wird im Deutschen auch der allgemeinere Begriff
+*Bibliothekssystem* verwendet. In der angloamerikanischen Literatur finden sich
+die Begriffe *Integrated Library System (ILS)* und *Library Management System
+(LMS)*, zuletzt aber auch *Library Services Platforms*.
 
 Das BMS spielt eine zentrale Rolle für die meisten klassischen
 Geschäftsprozesse in Bibliotheken. Durch die Ausweitung der Aufgaben in
@@ -56,7 +55,7 @@ Entwicklung, die Automatisierung weiterer Prozesse über den
 Datenaustausch hinaus. Zunächst war dies vor allem die Ausleihe mit der
 Verbuchung von Medien und der Erzeugung von Mahnschreiben. Auch die
 Verwaltung von Bestellungen im Rahmen der Erwerbung wurde möglich, so
-dass man in der Folge von \"Integrated Library Systems\" zu sprechen
+dass man in der Folge von *Integrated Library Systems* zu sprechen
 begann. Davon, dass Katalog-, Erwerbungs- und Nutzer\*innen-Daten an
 einem Ort gehalten und bearbeitet wurden, versprach man sich eine
 größere Effizienz der Arbeitsprozesse. Diese **erste Generation** von
@@ -194,7 +193,7 @@ meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen z.B. f
 
 -   Buchbinder
 
-$\Rightarrow$ *Siehe auch [Erwerbung in der Prozessabbildung](#erwerbung-prozess).*
+$\Rightarrow$ *Siehe auch [Prozessabbildung: Erwerbung](#erwerbung-prozess)*
 
 #### Katalogisierung
 
@@ -207,7 +206,7 @@ anhand
 
 -   Integration digitalisierter Medien
 
-$\Rightarrow$ *Siehe auch [Katalogisierung in der Prozessabbildung](#katalogisierung-prozess).*
+$\Rightarrow$ *Siehe auch [Prozessabbildung: Katalogisierung](#katalogisierung-prozess)*
 
 #### Ausleihe
 
@@ -227,7 +226,7 @@ Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Mahngebühren
 
-$\Rightarrow$ *Siehe auch [Ausleihe in der Prozessabbildung](#ausleihe-prozess).*
+$\Rightarrow$ *Siehe auch [Prozessabbildung: Ausleihe](#ausleihe-prozess)*
 
 #### Recherchemodul
 
@@ -238,7 +237,7 @@ und Kontofunktionen
 
 -   Benutzerkonto
 
-[siehe auch Katalog](#katalog)
+$\Rightarrow$ *Siehe auch [Prozessabbildung: Katalog](#katalog-prozess)*
 
 Die **Next Generation-Systeme** zeichnen sich gegenüber den Systemen
 der 1. und 2. Generation in der Regel durch andere Systemarchitekturen
@@ -320,7 +319,9 @@ Darüber hinaus gibt es mehrere kommerzielle Systeme, deren Funktionsumfang auf 
 - Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
 
 Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
-gepflegte [Library Technology Guide](https://librarytechnology.org/products/).
+gepflegte [Library Technology Guide](https://librarytechnology.org/products/). Für
+den Deutschsprachigen Raum gibt es Übersichten von Verbundzentralen oder 
+Büchereifachstellen, z.B. @kluge_anbieter_2022 für öffentliche Bibliotheken.
 Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können
 beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
 
