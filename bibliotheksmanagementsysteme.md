@@ -667,13 +667,12 @@ wie z.B. einzelne Abbildungen.
 
 ### Verwaltungsdaten
 
-Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb
-der Bibliothek (siehe Kapitel
-[Prozesse](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.epp3ketud8iw)).
-Diese Daten sind zum größten Teil nicht öffentlich und müssen
-insbesondere im Fall von Nutzerdaten besonders geschützt werden (siehe
-Kapitel
-[Nutzendendaten](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.owfykze6665n)).
+Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb der
+Bibliothek (siehe [Prozessabbildung](#prozessabbildung)). Diese Daten sind zum
+größten Teil nicht öffentlich und müssen insbesondere im Falle von Daten von
+Nutzenden im Rahmen des [Datenschutz](#datenschutz) vertraulich behandelt
+werden.
+
 Zur Interoperabilität mit anderen Informationssystemen innerhalb der
 eigenen oder übergeordneten Einrichtung gibt es in der Regel nur wenig
 übergreifend etablierte Standards und Schnittstellen, so dass hier oft
