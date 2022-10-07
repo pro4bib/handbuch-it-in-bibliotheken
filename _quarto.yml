@@ -17,7 +17,9 @@ book:
     - index.md  # = einleitung.md
     - management.md
     - anforderungen.md
+    - infrastruktur.md
     - bibliotheksmanagementsysteme.md
+    - metadaten.md
     - literatur.md
   appendices:
     - glossar.md
