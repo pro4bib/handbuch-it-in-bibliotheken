@@ -1,12 +1,12 @@
 ---
-description: Grundlagen des bibliothekarischen Metadatenmanagement, Retrieval und Discovery
+description: Datenformate und Grundlagen des bibliothekarischen Metadatenmanagement
 ---
 
-# Metadaten & Retrieval {#metadaten-und-retrieval}
+# Metadaten
 
 ::: {.callout-note}
 
-Diese Hauptkapitel wird erst noch erstellt (Siehe [entsprechendes Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/40)
+Diese Hauptkapitel wird erst noch erstellt (Siehe [entsprechendes Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/40).
 
 :::
 

@@ -19,6 +19,7 @@ book:
     - anforderungen.md
     - infrastruktur.md
     - bibliotheksmanagementsysteme.md
+    - discovery.md
     - metadaten.md
     - literatur.md
   appendices:
