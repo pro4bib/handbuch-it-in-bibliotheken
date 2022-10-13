@@ -27,7 +27,7 @@ book:
     - mitarbeit.md
   sidebar:
     style: docked
-    #logo: ...
+    logo: media/logo.svg
   page-footer: 
     left: 
       - text: CC BY 3.0 DE
@@ -41,6 +41,7 @@ book:
         href: https://github.com/pro4bib/handbuch-it-in-bibliotheken/
       - text: "![](quarto-badge.svg)"
         href: https://quarto.org
+  favicon: favicon.ico
 
 bibliography: references.bib 
 
