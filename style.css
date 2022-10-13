@@ -11,6 +11,12 @@
 figure a.external:after, footer a.external:after {
   display: none;
 }
+.sidebar-logo {
+  max-width: 100%;
+}
+.sidebar-title {
+  display: none; /* TODO: remove */
+}
 figure > figcaption {
   text-align: center;
   margin: 0;
