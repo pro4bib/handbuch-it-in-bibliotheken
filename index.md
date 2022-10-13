@@ -1,5 +1,3 @@
-{{< include _booksprint.md >}}
-
 # Einleitung {.unnumbered}
 
 ## Motivation
