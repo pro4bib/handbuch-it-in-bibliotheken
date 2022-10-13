@@ -1,5 +1,5 @@
 ---
-description: ...
+description: "..."
 ---
 
 # Discovery & Retrieval {#discovery-und-retrieval}
