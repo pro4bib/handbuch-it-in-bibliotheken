@@ -29,6 +29,9 @@ glossary:
     url: https://gokb.org/
     definition: Global Open Knowledgebase, eine Open Data Plattform
 
+  ID:
+    definition: Eindeutige Referenz auf einen Datensatz (Identifikator)
+
   IDM:
     url: https://en.wikipedia.org/wiki/Identity_management
     definition: Identity Management, das Speichern von Metadaten zu Personen
@@ -44,6 +47,9 @@ glossary:
   MARC:
     url: https://de.wikipedia.org/wiki/Machine-Readable_Cataloging
     definition: MAchine-Readable Cataloging, ältestes und noch immer wichtigstes bibliothekarisches Austauschformat
+
+  Normdaten:
+    definition: Datensätze zur eindeutigen Identifizierung und Referenzierung von Entitäten wie Personen, Organisationen, Themen...
 
   OPAC:
     url: https://de.wikipedia.org/wiki/OPAC
