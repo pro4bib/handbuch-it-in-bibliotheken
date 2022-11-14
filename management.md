@@ -414,7 +414,8 @@ Funktionalitäten oder auch personelle Änderungen durch neue
 Mitarbeitende, Berentung o.ä. beeinflussen die Personal- und
 Ressourcenplanung. Eine kontinuierliche Beschäftigung mit diesem Thema
 ist notwendig, um das [Betriebsrisiko von IT-Systemen](#betriebssicherheit-und-risikomanagement)
-zu minimieren.
+zu minimieren. 
+Die Benutzung von gut etablierter und weit verbreiteter freier Software verursacht Kosten durch Kompetenzaufbau oder -einkauf, macht unabhängig in Bezug auf Datenhoheit, Datensicherheit und vor allem die Weiterentwicklung. Die Lizenznahme eines kommerziellen Produktes lässt grundsätzlich weniger Individualisierung zu und verlagert die Verantwortung für die Verfügbarkeit und Betriebssicherheit auf den jeweiligen Anbieter.
 
 Für die Planungen muss entsprechend regelmäßig der Bedarf analysiert
 werden:
