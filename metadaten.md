@@ -33,12 +33,12 @@ und Identifikatoren. Wo genau jeweils die Grenze zwischen Syntax und Semantik
 liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten
 betrachtet und verarbeitet werden (siehe @tbl-daten-ebenen):
 
-  Datenebene       Bedeutung                     Kodierung
-  ---------------- ----------------------------- -----------------------------------
-  1100001          Die Zahl 97(64+32+1)          Byte als Zahl
-  97               Der Buchstabe a               ASCII oder Unicode
-  a                Unterfeld für Haupttitel      Feld 021A im PICA+ K10plus-Format
-  a                Unterfeld für Umfangsangabe   Feld 300 im MARC21 Format
+  Datenebene     Bedeutung                     Kodierung
+  -------------- ----------------------------- -----------------------------------
+  `1100001`      Die Zahl 97 (64+32+1)         Byte als Zahl
+  `97`           Der Buchstabe "a"             ASCII oder Unicode
+  `a`            Unterfeld für Haupttitel      Feld `021A` im PICA+ K10plus-Format
+  `a`            Unterfeld für Umfangsangabe   Feld `300` im MARC21 Format
 
 : Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen {#tbl-daten-ebenen}
 
@@ -120,7 +120,7 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
 
 - **Modellierungssprachen** helfen zur Beschreibung von Datenmodellen.
   Die häufigsten Modellierungssprachen basieren auf dem
-  Entity-Relationship-Modell (*ERM*). Da zwischen Syntax und Semantik
+  Entity-Relationship-Modell. Da zwischen Syntax und Semantik
   irgendwann die reine Datenebene verlassen werden muss, sind die
   wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und
   Beschreibungen in natürlicher Sprache.

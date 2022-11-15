@@ -3,20 +3,28 @@ glossary:
     url: https://de.wikipedia.org/wiki/Programmierschnittstelle
     definition: Application Programming Interface, Programmierschnittstelle
 
+  Avram:
+    url: https://format.gbv.de/schema/avram/specification
+    definition: Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+
+
   BMS:
     definition: Bibliotheksmanagementsystem, gebräuchlich auch als LMS (Library Management System)
 
   COUNTER:
-    url: https://www.projectcounter.org/
     definition: Counting Online Usage of NeTworked Electronic Resources
+    url: https://www.projectcounter.org/
 
   Discovery-System:
-    url: https://de.wikipedia.org/wiki/Discovery-System
     definition: Auf Suchmaschinentechnologie beruhende Systeme zur Suche in großen (auch externen) Datenbeständen
+    url: https://de.wikipedia.org/wiki/Discovery-System
 
   EDIFACT:
-    url: https://de.wikipedia.org/wiki/EDIFACT
     definition: Electronic Data Interchange for Administration, Commerce and Transport
+    url: https://de.wikipedia.org/wiki/EDIFACT
+
+  ERM:
+    definition: Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen
+    url: https://en.wikipedia.org/wiki/Electronic_resource_management      
 
   ERP:
     url: https://de.wikipedia.org/wiki/Enterprise-Resource-Planning
@@ -26,8 +34,8 @@ glossary:
     definition: Fachinformationsdienst
 
   GOKb:
+    definition: Global Open Knowledgebase, Freie Datenbank zu E-Ressourcen, insbesondere für ERM
     url: https://gokb.org/
-    definition: Global Open Knowledgebase, eine Open Data Plattform
 
   ID:
     definition: Eindeutige Referenz auf einen Datensatz (Identifikator)

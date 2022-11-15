@@ -132,7 +132,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 4.  **Epoche der Verbreiterung der Informationsressourcen**: Der
     Übergang in eine Phase, bei der Medien nicht mehr erworben,
     sondern digital lizenziert werden. Entsprechend entwickelt sich
-    das Bedürfnis nach einem Electronic Resource Management (ERM)
+    das Bedürfnis nach einem Electronic Resource Management (*ERM*)
     und neuartige BMS unterfüttern zum Ende der Epoche diesen
     Wandel mit einer von Medientypen unabhängigen
     Ressourcenverwaltung.
@@ -985,7 +985,7 @@ der Beschreibungen genauer adressiert werden können.
 Als Nutzende werden in diesem Kapitel diejenigen Menschen bezeichnet,
 die mit einem BMS interagieren. Man unterscheidet zwischen den
 Bibliotheksbeschäftigten, die mit dem Modulen Ausleihe, Erwerbung,
-Katalogisierung, ERM etc. interagieren, und den Bibliotheksnutzenden
+Katalogisierung, *ERM* etc. interagieren, und den Bibliotheksnutzenden
 (oft auch als Leser\*innen bezeichnet), die mit dem BMS über das Modul
 OPAC oder nur indirekt über ein Discovery-System oder ein anderes
 Drittsystem mit dem BMS in Kontakt kommen.
