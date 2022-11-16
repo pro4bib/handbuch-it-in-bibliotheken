@@ -19,8 +19,11 @@ book:
     - anforderungen.md
     - infrastruktur.md
     - bibliotheksmanagementsysteme.md
-    - discovery.md
     - metadaten.md
+    - discovery.md
+    - digitalisierung.md
+    - forschungsnahe-dienste.md
+    - kommunikation.md
     - literatur.md
   appendices:
     - glossar.md
@@ -59,6 +62,7 @@ format:
     include-before-body: templates/chapters.html
     include-after-body: templates/script.html
     callout-appearance: simple
+    published-title: "Letzte Änderung"
   docx: {}
   #pdf:
   #  documentclass: scrreprt

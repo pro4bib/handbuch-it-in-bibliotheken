@@ -2,18 +2,20 @@
 description: Grundlagen der bibliothekarischen Datenverarbeitung
 ---
 
-# Daten und Metadaten
+# Daten & Metadaten
 
-Zur Sammlung und Bereitstellung von Informationen werden von
-Bibliotheken Dokumente unterschiedlichster Form (Bücher, Filme,
-Forschungsdaten, Objekte...) nachgewiesen. Zur Verwaltung dieser Medien
-werden die Dokumente mit **Metadaten** beschrieben. Neben diesen
-Metadaten beinhalten bibliothekarische Informationssysteme zunehmend
-auch Dokumente selbst als **digitale Inhalte** wie sogenannte Volltexte,
-Digitalisate und Forschungsdaten (*siehe noch offene Kapitel
-Forschungsnahe Dienste und Digitalisierung*). Viele der im Folgenden
-beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von
-Daten gelten sowohl für Metadaten als auch für digitale Inhalte.
+Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken
+Dokumente unterschiedlichster Form (Bücher, Filme, Forschungsdaten, Objekte...)
+nachgewiesen. Zur Verwaltung dieser Medien werden die Dokumente mit
+**Metadaten** beschrieben. Neben diesen Metadaten beinhalten bibliothekarische
+Informationssysteme zunehmend auch Dokumente selbst als **digitale Inhalte**
+wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel
+[Digitalisierung] und [Forschungsnahe Dienste]). Viele der im Folgenden
+beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten
+gelten sowohl für Metadaten als auch für digitale Inhalte.
+
+[Digitalisierung]: digitalisierung.md
+[Forschungsnahe Dienste]: forschungsnahe-dienste.md
 
 ## Daten
 
@@ -298,8 +300,8 @@ Neben allgemeinen [Datenformaten](#datenformate) sind für die Bibliotheks-IT
 vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die
 meisten der im Folgenden beschriebenen Metadatenformate spielen außerhalb von
 Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (*METS/MODS*,
-*LIDO*, *CDWA*, *EN 15907*, *EAD*... siehe Kapitel *Digitalisierung*) und für
-Forschungsdaten (DataCite, siehe Kapitel *Forschungsnahe Dienste)* gibt es
+*LIDO*, *CDWA*, *EN 15907*, *EAD*... siehe Kapitel [Digitalisierung]) und für
+Forschungsdaten (DataCite, siehe Kapitel [Forschungsnahe Dienste]) gibt es
 darüber hinaus spezielle Formate .
 
 ### Arten von Metadaten
@@ -627,9 +629,9 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
 
 Darüber hinaus bieten die meisten Anwendungen eigene Schnittstellen, zum
 Beispiel die Solr-API der Suchplattform *Apache Solr*. Weitere Schnittstellen
-spielen eher im Bereich Digitalisierung und Forschungsnahe Dienste eine Rolle,
-beispielsweise die APIs des International Image Interoperability Framework
-(*IIIF*).
+spielen eher im Bereich [Digitalisierung] und [Forschungsnahe Dienste] eine
+Rolle, beispielsweise die APIs des International Image Interoperability
+Framework (*IIIF*).
 
 ## Datenanalyse
 
