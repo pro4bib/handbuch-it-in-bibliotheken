@@ -78,6 +78,7 @@ Metadaten mittels Electronic Ressource Management (*ERM*) entsprechende
 Nutzungslizenzen zugeordnet sind.
 
 [ETL-Prozess]: metadaten.md#etl-prozess
+[ETL-Prozesse]: metadaten.md#etl-prozess
 
                       OPAC/Katalog                                              Discovery-System
   ------------------- --------------------------------------------------------- ----------------------------------------------------------------------------
@@ -147,7 +148,7 @@ Ein Discovery-System besteht aus verschiedenen Komponenten. Dazu gehören
 
 - der [Suchindex] (ein oder mehrere Quell-Indizes),
 
-- ETL-Prozesse sowie
+- [ETL-Prozesse] sowie
 
 - die Konfiguration der Rechercheoberfläche.
 
