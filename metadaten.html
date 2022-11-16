@@ -8,7 +8,7 @@
 
 <meta name="description" content="Grundlagen der bibliothekarischen Datenverarbeitung">
 
-<title>Handbuch IT in Bibliotheken - 6&nbsp; Daten und Metadaten</title>
+<title>Handbuch IT in Bibliotheken - 5&nbsp; Daten &amp; Metadaten</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./literatur.html" rel="next">
-<link href="./discovery.html" rel="prev">
+<link href="./discovery.html" rel="next">
+<link href="./bibliotheksmanagementsysteme.html" rel="prev">
 <link href="./favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -93,7 +93,7 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Daten und Metadaten</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Daten &amp; Metadaten</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -150,12 +150,27 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./metadaten.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Daten &amp; Metadaten</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./discovery.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Discovery &amp; Retrieval</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./metadaten.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Daten und Metadaten</span></a>
+  <a href="./digitalisierung.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Digitalisierung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./forschungsnahe-dienste.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Forschungsnahe Dienste</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kommunikation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -224,7 +239,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Daten und Metadaten</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Daten &amp; Metadaten</span></h1>
 </div>
 
 
@@ -239,7 +254,7 @@ div.csl-indent {
 
 </header>
 
-<p>Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken Dokumente unterschiedlichster Form (Bücher, Filme, Forschungsdaten, Objekte…) nachgewiesen. Zur Verwaltung dieser Medien werden die Dokumente mit <strong>Metadaten</strong> beschrieben. Neben diesen Metadaten beinhalten bibliothekarische Informationssysteme zunehmend auch Dokumente selbst als <strong>digitale Inhalte</strong> wie sogenannte Volltexte, Digitalisate und Forschungsdaten (<em>siehe noch offene Kapitel Forschungsnahe Dienste und Digitalisierung</em>). Viele der im Folgenden beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten gelten sowohl für Metadaten als auch für digitale Inhalte.</p>
+<p>Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken Dokumente unterschiedlichster Form (Bücher, Filme, Forschungsdaten, Objekte…) nachgewiesen. Zur Verwaltung dieser Medien werden die Dokumente mit <strong>Metadaten</strong> beschrieben. Neben diesen Metadaten beinhalten bibliothekarische Informationssysteme zunehmend auch Dokumente selbst als <strong>digitale Inhalte</strong> wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel <a href="./digitalisierung.html">Digitalisierung</a> und <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>). Viele der im Folgenden beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten gelten sowohl für Metadaten als auch für digitale Inhalte.</p>
 <section id="daten" class="level2">
 <h2 class="anchored" data-anchor-id="daten">Daten</h2>
 <p>Im Wesentlichen bestehen Daten im Sinne dieses Buchs aus einer Folge von Bits. Abgesehen von ihrer Anzahl in Bytes lässt sich auf dieser Ebene allerdings nichts weiter über Daten sagen. Uns interessiert daher mehr, für was die Daten stehen – beispielsweise für eine Jahreszahl, ein Bild oder für den Titel eines Dokumentes. Dabei besteht ein Unterschied ist der zwischen</p>
@@ -247,10 +262,10 @@ div.csl-indent {
 <li><p>der Struktur von Daten (<strong>Syntax</strong>)</p></li>
 <li><p>und der Bedeutung von Daten (<strong>Semantik</strong>).</p></li>
 </ul>
-<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und Identifikatoren. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen">Tabelle&nbsp;<span>6.1</span></a>):</p>
+<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und Identifikatoren. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen">Tabelle&nbsp;<span>5.1</span></a>):</p>
 <div id="tbl-daten-ebenen" class="anchored">
 <table class="table">
-<caption>Tabelle&nbsp;6.1: Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen</caption>
+<caption>Tabelle&nbsp;5.1: Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Datenebene</th>
@@ -292,10 +307,10 @@ div.csl-indent {
 </section>
 <section id="datenformate" class="level2">
 <h2 class="anchored" data-anchor-id="datenformate">Datenformate</h2>
-<p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis…) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16…). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, so dass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml">Tabelle&nbsp;<span>6.2</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
+<p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis…) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16…). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, so dass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml">Tabelle&nbsp;<span>5.2</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
 <div id="tbl-xml" class="anchored">
 <table class="table">
-<caption>Tabelle&nbsp;6.2: Einige Bestandteile des XML-Format</caption>
+<caption>Tabelle&nbsp;5.2: Einige Bestandteile des XML-Format</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">XML-Syntax</th>
@@ -387,7 +402,7 @@ div.csl-indent {
 </section>
 <section id="metadatenformate" class="level2">
 <h2 class="anchored" data-anchor-id="metadatenformate">Metadatenformate</h2>
-<p>Neben allgemeinen <a href="#datenformate">Datenformaten</a> sind für die Bibliotheks-IT vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die meisten der im Folgenden beschriebenen Metadatenformate spielen außerhalb von Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (<em>METS/MODS</em>, <em>LIDO</em>, <em>CDWA</em>, <em>EN 15907</em>, <em>EAD</em>… siehe Kapitel <em>Digitalisierung</em>) und für Forschungsdaten (DataCite, siehe Kapitel <em>Forschungsnahe Dienste)</em> gibt es darüber hinaus spezielle Formate .</p>
+<p>Neben allgemeinen <a href="#datenformate">Datenformaten</a> sind für die Bibliotheks-IT vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die meisten der im Folgenden beschriebenen Metadatenformate spielen außerhalb von Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (<em>METS/MODS</em>, <em>LIDO</em>, <em>CDWA</em>, <em>EN 15907</em>, <em>EAD</em>… siehe Kapitel <a href="./digitalisierung.html">Digitalisierung</a>) und für Forschungsdaten (DataCite, siehe Kapitel <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>) gibt es darüber hinaus spezielle Formate .</p>
 <section id="arten-von-metadaten" class="level3">
 <h3 class="anchored" data-anchor-id="arten-von-metadaten">Arten von Metadaten</h3>
 <p>Folgende Arten von Metadaten können nach ihrer Funktion unterschieden werden:</p>
@@ -409,12 +424,12 @@ div.csl-indent {
 <h3 class="anchored" data-anchor-id="datenmodelle-und-rdf-formate">Datenmodelle und RDF-Formate</h3>
 <p><strong>Dublin Core</strong> bzw. das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie creator, title, date, und description und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
 <p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliographischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
-<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen (siehe <a href="#fig-bibframe">Abbildung&nbsp;<span>6.1</span></a>).</p>
+<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen (siehe <a href="#fig-bibframe">Abbildung&nbsp;<span>5.1</span></a>).</p>
 <p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
 <div id="fig-bibframe" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/bibframe2-model.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;6.1: Hauptbestandteile des Datenmodell BIBFRAME</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;5.1: Hauptbestandteile des Datenmodell BIBFRAME</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -428,11 +443,11 @@ div.csl-indent {
 <p>Neben der <a href="#datenerfassung">Erfassung von Daten</a> umfasst das bibliothekarische (Meta)datenmanagement Verfahren zur Konvertierung, Integration und Auswertung von Daten. Diese wesentlichen Schritte werden oft mittels eines ETL-Prozesses zur Übertragung von Daten in ein anderes System vorgenommen. Nach Beschreibung der Bestandteile des ETL-Prozesses wird in diesem Abschnitt auf Werkzeuge und Schnittstellen eingegangen.</p>
 <section id="etl-prozess" class="level3">
 <h3 class="anchored" data-anchor-id="etl-prozess">ETL-Prozess</h3>
-<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl">Abbildung&nbsp;<span>6.2</span></a> illustriert den generellen ETL-Prozess mit einigen exemplarischen Arbeitsschritten.</p>
+<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl">Abbildung&nbsp;<span>5.2</span></a> illustriert den generellen ETL-Prozess mit einigen exemplarischen Arbeitsschritten.</p>
 <div id="fig-etl" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/etl-prozess.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;6.2: Beispiel eines ETL-Prozess</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;5.2: Beispiel eines ETL-Prozess</figcaption><p></p>
 </figure>
 </div>
 <section id="extraktion" class="level4">
@@ -506,7 +521,7 @@ div.csl-indent {
 <li><p>Die <strong>Reconciliation Service API</strong> ermöglicht den Abgleich mit Normdaten zur eindeutigen Referenzierung (siehe Abschnitt <a href="#identifikatoren-und-normdaten">Identifikatoren und Normdaten</a>).</p></li>
 <li><p>Verschiedene Schnittstellen zur Authentifizierung und Autorisierung wie <em>LDAP</em>, <em>Shibboleth</em> und <em>OAuth</em>.</p></li>
 </ul>
-<p>Darüber hinaus bieten die meisten Anwendungen eigene Schnittstellen, zum Beispiel die Solr-API der Suchplattform <em>Apache Solr</em>. Weitere Schnittstellen spielen eher im Bereich Digitalisierung und Forschungsnahe Dienste eine Rolle, beispielsweise die APIs des International Image Interoperability Framework (<em>IIIF</em>).</p>
+<p>Darüber hinaus bieten die meisten Anwendungen eigene Schnittstellen, zum Beispiel die Solr-API der Suchplattform <em>Apache Solr</em>. Weitere Schnittstellen spielen eher im Bereich <a href="./digitalisierung.html">Digitalisierung</a> und <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a> eine Rolle, beispielsweise die APIs des International Image Interoperability Framework (<em>IIIF</em>).</p>
 </section>
 </section>
 <section id="datenanalyse" class="level2">
@@ -700,13 +715,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./discovery.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Discovery &amp; Retrieval</span></span>
+      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Bibliotheksmanagementsysteme</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./literatur.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Literaturverzeichnis</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./discovery.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Discovery &amp; Retrieval</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
