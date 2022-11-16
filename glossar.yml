@@ -33,6 +33,10 @@ glossary:
   FID:
     definition: Fachinformationsdienst
 
+  FOLIO:
+    definition: Open-Source Bibliotheksmanagementsystem
+    url: https://www.folio-bib.org/
+
   GOKb:
     definition: Global Open Knowledgebase, Freie Datenbank zu E-Ressourcen, insbesondere für ERM
     url: https://gokb.org/

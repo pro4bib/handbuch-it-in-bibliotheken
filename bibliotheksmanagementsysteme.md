@@ -285,7 +285,7 @@ Stand Mitte 2022 haben folgende aktuellen BMS die derzeit größte Marktreife un
                              Staatsbibliothek,                 Apps in Eigenregie
                              Schweiz                           
 
-  Folio      Open Library    Einführung in WBs      ja         in Eigenregie
+  FOLIO      Open Library    Einführung in WBs      ja         in Eigenregie
              Foundation                                        oder durch
                                                                Dienstleister
 
@@ -300,7 +300,7 @@ Stand Mitte 2022 haben folgende aktuellen BMS die derzeit größte Marktreife un
   ----------------------------------------------------------------------------
 
 <!--
-[Folio]: https://librarytechnology.org/product/folio
+[FOLIO]: https://librarytechnology.org/product/folio
 [Koha]: https://librarytechnology.org/product/koha
 [Alma]: https://librarytechnology.org/product/alma
 [LIBERO]: https://librarytechnology.org/product/libero
@@ -327,7 +327,7 @@ beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden
 
 :::{.callout-tip}
 
-Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise Folio im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
+Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise FOLIO im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
 
 :::
 
