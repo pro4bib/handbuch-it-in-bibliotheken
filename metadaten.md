@@ -607,10 +607,12 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   (**OAI-PMH**) dient dem Abruf von Metadaten aus Repositorien. Die
   Daten können nach Datum und Teilmengen gefiltert werden.
 
-- Das *NISO Circulation Interchange Protocol* (**NCIP**) und das
-  *Standard Interchange Protocol* (**SIP2**) sind APIs zur Ausleihe
-  und Fernleihe. Sie werden intern zwischen Bibliotheken und zur
-  Anbindung von Verbuchungsautomaten eingesetzt.
+- Das *NISO Circulation Interchange Protocol* (**NCIP**), das 
+  *Simple Library Network Protocol* (**SLNP**)  und das
+  *Standard Interchange Protocol* (**SIP2**) sind interne APIs für
+  Ausleihe und Fernleihe. Sie werden zwischen Bibliotheken,
+  Fernleihservern und zur Anbindung von Verbuchungsautomaten
+  eingesetzt.
 
 - Die *Patrons Account Information API* (**PAIA**) ist eine offene
   Schnittstelle zum Zugriff auf Ausleihkonten.
