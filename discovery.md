@@ -152,7 +152,7 @@ Ein Discovery-System besteht aus verschiedenen Komponenten. Dazu gehören
 
 - die Konfiguration der Rechercheoberfläche.
 
-Angebunden ist häufig auch eine Komponente zur [Authentifizierung und Autorisierung](infrastrutur.md#authentifizierung-und-autorisierung).
+Angebunden ist häufig auch eine Komponente zur [Authentifizierung und Autorisierung](infrastruktur.md#authentifizierung-und-autorisierung).
 
 ### Frontend
 

@@ -29,11 +29,17 @@ zentralen [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme).
 Dieses Handbuch soll einen knappen, umfassenden Überblick über die wichtigsten
 IT-bezogenen Themen in Bibliotheken geben. Die vorliegende Version behandelt:
 
--   [Management von IT-Systemen](#management)
+- [Management von IT-Systemen](#management)
 
--   [Anforderungen an die IT-Entwicklung](#anforderungen)
+- [Anforderungen an die IT-Entwicklung](#anforderungen)
 
--   [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme)
+- [Technische Infrastruktur](#infrastruktur)
+
+- [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme)
+
+- [Daten & Metadaten](metadaten.md)
+
+- [Discovery & Retrieval](discovery.md)
 
 Weitere Themen werden bis zur Vervollständigung des Handbuchs hinzukommen.
 
