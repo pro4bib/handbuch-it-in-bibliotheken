@@ -346,7 +346,6 @@ div.csl-indent {
 <li><p><strong>Modellierungssprachen</strong> helfen zur Beschreibung von Datenmodellen. Die häufigsten Modellierungssprachen basieren auf dem Entity-Relationship-Modell. Da zwischen Syntax und Semantik irgendwann die reine Datenebene verlassen werden muss, sind die wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und Beschreibungen in natürlicher Sprache.</p></li>
 </ul>
 <p>Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft, viele häufige Fehler bei der (Meta)datenverarbeitung zu vermeiden. Ein Beispiel hierfür ist das <em>Resource Description Framework</em> (<em>RDF</em>) mit dazu gehörigen Schemasprachen (<em>SHACL</em>/<em>ShEx</em>), Abfragesprachen (<em>SPARQL</em>) und Modellierungssprachen (<em>RDFS</em>/<em>OWL</em>). In anderen Fällen wird aus Mangel an Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und stattdessen auf allgemeine Programmiersprachen zurückgegriffen.</p>
-<p>Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem Schwerpunkt bietet die Datenbank <a href="https://format.gbv.de/">format.gbv.de</a>.</p>
 <div class="callout-tip callout callout-style-simple">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -359,6 +358,7 @@ div.csl-indent {
 </div>
 </div>
 </div>
+<p>Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem Schwerpunkt bietet die Datenbank <a href="https://format.gbv.de/">format.gbv.de</a>. Grundlagen von Metadaten und Ontologien vermitteln <span class="citation" data-cites="kuhlen_metadaten_2023">Assfalg (<a href="literatur.html#ref-kuhlen_metadaten_2023" role="doc-biblioref">2023</a>)</span> und <span class="citation" data-cites="kuhlen_ontologien_2023">Rölke und Weichselbraun (<a href="literatur.html#ref-kuhlen_ontologien_2023" role="doc-biblioref">2023</a>)</span>.</p>
 <p>In der Praxis werden Daten in einem Datenformat zusätzlich durch anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter Format-Varianten, Anwendungsprofile, Erfassungsregeln und -praxis.</p>
 </section>
 <section id="datenerfassung" class="level2">
@@ -368,6 +368,16 @@ div.csl-indent {
 <p>Darüber hinaus gibt es Verfahren zur automatischen Erstellung von Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und Auswertung von Literaturangaben und zur thematischen Einordnung von Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate gerechnet werden.</p>
 <p>Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die Daten erfasst werden: so gelten beispielsweise für eine historische Bibliographie andere Maßstäbe als für einen Suchindex.</p>
 <p>Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit denen Daten erstellt, bearbeitet und <em>analysiert</em> werden können.</p>
+<div class="callout-tip callout callout-style-simple">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Mehr zur bibliothekarischen Datenerfassung in den <em>Grundlagen der Informationswissenschaft</em> <span class="citation" data-cites="kuhlen_grundlagen_2023">(<a href="literatur.html#ref-kuhlen_grundlagen_2023" role="doc-biblioref">2023</a>)</span>, <em>Teil B</em>.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="identifikatoren-und-normdaten" class="level2">
 <h2 class="anchored" data-anchor-id="identifikatoren-und-normdaten">Identifikatoren und Normdaten</h2>
@@ -417,7 +427,7 @@ div.csl-indent {
 <section id="feldbasierte-bibliothekarische-metadatenformate" class="level3">
 <h3 class="anchored" data-anchor-id="feldbasierte-bibliothekarische-metadatenformate">Feldbasierte bibliothekarische Metadatenformate</h3>
 <p><strong>Machine-Readable Cataloging (MARC)</strong> ist das älteste und noch immer wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für bibliographische Daten. Neben der binären Kodierung kann MARC 21 auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des Formats sind historisch bedingt, eine Alternative konnte sich bislang nicht durchsetzen.</p>
-<p><strong>PICA</strong> ist das von MARC inspirierte Datenformat der Katalogisierungssysteme CBS und LBS (<span class="citation" data-cites="vos_einfuhrung_2022">Voß (<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">2022</a>)</span>). Das wichtigste Anwendungsprofil ist das K10plus-Format des BSZ/GBV.</p>
+<p><strong>PICA</strong> ist das von MARC inspirierte Datenformat der Katalogisierungssysteme CBS und LBS <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span>. Das wichtigste Anwendungsprofil ist das K10plus-Format des BSZ/GBV.</p>
 <p><strong>MAB</strong> und <strong>allegro</strong> sind ebenfalls an MARC angelehnte, feldbasierte Formate aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet werden.</p>
 </section>
 <section id="datenmodelle-und-rdf-formate" class="level3">
@@ -506,7 +516,7 @@ div.csl-indent {
 <li><p>Anwendungsprogramme wie <em>WinIBW</em> und <em>BibControl</em> erfordern zwar weniger IT-Kenntnisse, sind dafür aber nur eingeschränkt und/oder nur für sehr spezielle Aufgaben verfügbar.</p></li>
 <li><p>Freie Werkzeuge zum Metadatenmanagement wie die Frameworks <em>Catmandu</em> (<a href="http://librecat.org/Catmandu/">librecat.org/Catmandu</a>) und <em>Metafacture</em> (<a href="https://metafacture.org/">metafacture.org</a>).</p></li>
 </ul>
-<p>Für einzelne Anwendungen und Formate gibt es einige weitere Werkzeuge und es kann sich lohnen, solche Werkzeuge selbst zu entwickeln und als Open Source zur Verfügung zu stellen. Für das PICA-Format sind solche Programme in der <em>Einführung in die Verarbeitung von PICA-Daten</em> (<span class="citation" data-cites="vos_einfuhrung_2022">Voß (<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">2022</a>)</span>) aufgeführt.</p>
+<p>Für einzelne Anwendungen und Formate gibt es einige weitere Werkzeuge und es kann sich lohnen, solche Werkzeuge selbst zu entwickeln und als Open Source zur Verfügung zu stellen. Für das PICA-Format sind solche Programme in der <em>Einführung in die Verarbeitung von PICA-Daten</em> <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span> aufgeführt.</p>
 </section>
 <section id="schnittstellen" class="level3">
 <h3 class="anchored" data-anchor-id="schnittstellen">Schnittstellen</h3>
@@ -526,12 +536,24 @@ div.csl-indent {
 </section>
 <section id="datenanalyse" class="level2">
 <h2 class="anchored" data-anchor-id="datenanalyse">Datenanalyse</h2>
-<p>Im Gegensatz zu physischen Objekten sind Daten ihre Beschaffenheit nicht direkt anzusehen. Lediglich der Umfang von Daten in Bytes und ggf. die Anzahl von Dateien und Datensätzen kann einen ersten Anhaltspunkt liefern. Weitere Einschätzungen, insbesondere darüber, ob Daten vollständig oder fehlerhaft sind, setzen eine konkrete Analyse der Daten voraus. Dies beinhaltet auch die Visualisierung von Daten zur Exploration, Kommunikation und Diskussion.</p>
-<p>Die Auswertung von Daten ist nicht nur für das Qualitätsmanagement relevant (<span class="citation" data-cites="vos_jakob_datenqualitat_2021">Voß (<a href="literatur.html#ref-vos_jakob_datenqualitat_2021" role="doc-biblioref">2021</a>)</span>), beispielsweise um im Rahmen des ETL-Prozesses Verteilungen und Ausreißer zu erkennen, sondern auch um aus Daten weitere Erkenntnisse zu gewinnen. So können beispielsweise Ausleihzahlen nach Medien gruppiert für die Bestandsplanung eingesetzt werden. Voraussetzung dafür ist, dass Daten überhaupt vorliegen, sowie Mittel und Kenntnisse zu ihrer Auswertung. Bei fehlenden oder zu umfangreichen Daten können Stichproben erhoben werden, wobei auf Zufälligkeit der Stichprobe und Konfidenzintervall des Ergebnisses geachtet werden muss.</p>
+<p>Im Gegensatz zu physischen Objekten sind Daten ihre Beschaffenheit nicht direkt anzusehen. Lediglich der Umfang von Daten in Bytes und ggf. die Anzahl von Dateien und Datensätzen kann einen ersten Anhaltspunkt liefern. Weitere Einschätzungen, insbesondere darüber, ob Daten vollständig oder fehlerhaft sind, setzen eine konkrete Analyse der Daten voraus. Dies beinhaltet auch die Visualisierung von Daten zur Exploration, Kommunikation und Diskussion <span class="citation" data-cites="kuhlen_informationsvisualisierung_2023">(<a href="literatur.html#ref-kuhlen_informationsvisualisierung_2023" role="doc-biblioref">Jetter 2023</a>)</span>.</p>
+<p>Die Auswertung von Daten ist nicht nur für das Qualitätsmanagement relevant <span class="citation" data-cites="vos_jakob_datenqualitat_2021">(<a href="literatur.html#ref-vos_jakob_datenqualitat_2021" role="doc-biblioref">Voß 2021</a>)</span>, beispielsweise um im Rahmen des ETL-Prozesses Verteilungen und Ausreißer zu erkennen, sondern auch um aus Daten weitere Erkenntnisse zu gewinnen. So können beispielsweise Ausleihzahlen nach Medien gruppiert für die Bestandsplanung eingesetzt werden. Voraussetzung dafür ist, dass Daten überhaupt vorliegen, sowie Mittel und Kenntnisse zu ihrer Auswertung. Bei fehlenden oder zu umfangreichen Daten können Stichproben erhoben werden, wobei auf Zufälligkeit der Stichprobe und Konfidenzintervall des Ergebnisses geachtet werden muss.</p>
 <p>Neben rudimentären Statistik-Kenntnissen helfen bei der Datenanalyse Werkzeuge wie die <a href="#werkzeuge">im vorigen Abschnitt</a> beschriebenen Mittel zur Datenverarbeitung. Für allgemeine Analysen eignet sich vor allem eine Tabellenkalkulation. Für komplexere Analysen gibt es spezielle Statistik-Programme und Programmiersprachen wie <em>SAS</em> und <em>R</em>. Für explorative Analysen und um bei geänderter Datenlage automatisch aktuelle Ergebnisse zu bekommen, bieten sich interaktive Umgebungen wie <em>Jupyter Notebooks</em> oder <em>Observable</em> an<em>.</em> Für spezielle, wiederkehrende Analysen und Aufbereitungen kann es auch sinnvoll sein, eigene Anwendungen zu entwickeln bzw. entwickeln zu lassen. Beispiele hierfür sind <em>BibControl</em>, das <em>Metadata Quality Assessment Framework</em> (<em>MQA</em>), die Deutsche Bibliotheksstatistik sowie Statistikfunktionen als Teil anderer Programme (zum Beispiel <a href="./bibliotheksmanagementsysteme.html#statistik-und-reporting">Statistik und Reporting</a> als Teil des BMS).</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-kuhlen_metadaten_2023" class="csl-entry" role="doc-biblioentry">
+Assfalg, Rolf. 2023. <span>„Metadaten“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 245–56. Berlin, Boston: De Gruyter Saur. <a href="https://doi.org/10.1515/9783110769043-021">https://doi.org/10.1515/9783110769043-021</a>.
+</div>
+<div id="ref-kuhlen_informationsvisualisierung_2023" class="csl-entry" role="doc-biblioentry">
+Jetter, Hans-Christian. 2023. <span>„Informationsvisualisierung und Visual Analytics“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 295–306. Berlin, Boston: De Gruyter Saur. <a href="https://www.degruyter.com/document/doi/10.1515/9783110769043-025/pdf">https://www.degruyter.com/document/doi/10.1515/9783110769043-025/pdf</a>.
+</div>
+<div id="ref-kuhlen_grundlagen_2023" class="csl-entry" role="doc-biblioentry">
+Kuhlen, Rainer, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, Hrsg. 2023. <em>Grundlagen der Informationswissenschaft</em>. 7. Ausgabe. Berlin, Boston: De Gruyter Saur. <a href="https://doi.org/doi:10.1515/9783110769043">https://doi.org/doi:10.1515/9783110769043</a>.
+</div>
+<div id="ref-kuhlen_ontologien_2023" class="csl-entry" role="doc-biblioentry">
+Rölke, Heiko, und Albert Weichselbraun. 2023. <span>„Ontologien und Linked Open Data“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 257–70. Berlin, Boston: De Gruyter Saur. <a href="https://www.degruyter.com/document/doi/10.1515/9783110769043-022/pdf">https://www.degruyter.com/document/doi/10.1515/9783110769043-022/pdf</a>.
+</div>
 <div id="ref-vos_jakob_datenqualitat_2021" class="csl-entry" role="doc-biblioentry">
 Voß, Jakob. 2021. <span>„Datenqualität als Grundlage qualitativer Inhaltserschließung“</span>. In <em>Qualität in der Inhaltserschließung</em>, 167–76. De Gruyter Saur. <a href="https://doi.org/10.1515/9783110691597-010">https://doi.org/10.1515/9783110691597-010</a>.
 </div>
