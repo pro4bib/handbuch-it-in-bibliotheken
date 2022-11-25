@@ -425,7 +425,7 @@ jeweils auch erhebliche Design-Aufwände entstehen.
 ## Betrieb
 
 Der Betrieb eines Discovery-Systems stellt vergleichbare Anforderungen
-und unterliegt ähnlichen Randbedingungen wie beim [Betrieb eines Bibliotheksmanagementsystems*](bibliotheksmanagementsysteme.md#technischer-betrieb).
+und unterliegt ähnlichen Rahmenbedingungen wie beim [Betrieb eines Bibliotheksmanagementsystems](bibliotheksmanagementsysteme.md#technischer-betrieb).
 
 ### Betriebsmodelle
 
