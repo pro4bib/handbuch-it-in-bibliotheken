@@ -135,9 +135,6 @@ Modellierungssprachen (*RDFS*/*OWL*). In anderen Fällen wird aus Mangel an
 Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und
 stattdessen auf allgemeine Programmiersprachen zurückgegriffen.
 
-Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem
-Schwerpunkt bietet die Datenbank [format.gbv.de](https://format.gbv.de/).
-
 ::: {.callout-tip} 
 
 **Reguläre Ausdrücke** sind das gängigste Mittel zur Beschreibung der Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach Mustern durchsucht werden. Ein regulärer Ausdruck für die Syntax einer ISBN-13 mit optionalen Trennstrichen ist beispielsweise:
@@ -149,6 +146,11 @@ lässt sich die Korrektheit der abschließenden Prüfziffer (`[0-9]`) nicht mit
 einem regulären Ausdruck überprüfen.
 
 :::
+
+Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem
+Schwerpunkt bietet die Datenbank [format.gbv.de](https://format.gbv.de/).
+Grundlagen von Metadaten und Ontologien vermitteln @kuhlen_metadaten_2023
+und @kuhlen_ontologien_2023.
 
 In der Praxis werden Daten in einem Datenformat zusätzlich durch
 anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
@@ -192,6 +194,13 @@ Bibliographie andere Maßstäbe als für einen Suchindex.
 Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität
 von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit
 denen Daten erstellt, bearbeitet und *analysiert* werden können.
+
+::: {.callout-tip}
+ 
+Mehr zur bibliothekarischen Datenerfassung in den
+*Grundlagen der Informationswissenschaft* [-@kuhlen_grundlagen_2023], *Teil B*.
+
+:::
 
 ## Identifikatoren und Normdaten
 
@@ -335,7 +344,7 @@ Formats sind historisch bedingt, eine Alternative konnte sich bislang
 nicht durchsetzen.
 
 **PICA** ist das von MARC inspirierte Datenformat der Katalogisierungssysteme
-CBS und LBS (@vos_einfuhrung_2022). Das wichtigste Anwendungsprofil ist das
+CBS und LBS [@vos_einfuhrung_2022]. Das wichtigste Anwendungsprofil ist das
 K10plus-Format des BSZ/GBV.
 
 **MAB** und **allegro** sind ebenfalls an MARC angelehnte, feldbasierte Formate
@@ -585,7 +594,7 @@ einige speziellere Werkzeuge:
 Für einzelne Anwendungen und Formate gibt es einige weitere Werkzeuge und es
 kann sich lohnen, solche Werkzeuge selbst zu entwickeln und als Open Source zur
 Verfügung zu stellen. Für das PICA-Format sind solche Programme in der
-*Einführung in die Verarbeitung von PICA-Daten* (@vos_einfuhrung_2022)
+*Einführung in die Verarbeitung von PICA-Daten* [@vos_einfuhrung_2022]
 aufgeführt.
 
 ### Schnittstellen
@@ -642,10 +651,11 @@ anzusehen. Lediglich der Umfang von Daten in Bytes und ggf. die Anzahl von
 Dateien und Datensätzen kann einen ersten Anhaltspunkt liefern. Weitere
 Einschätzungen, insbesondere darüber, ob Daten vollständig oder fehlerhaft
 sind, setzen eine konkrete Analyse der Daten voraus. Dies beinhaltet auch die
-Visualisierung von Daten zur Exploration, Kommunikation und Diskussion.
+Visualisierung von Daten zur Exploration, Kommunikation und Diskussion
+[@kuhlen_informationsvisualisierung_2023].
 
 Die Auswertung von Daten ist nicht nur für das Qualitätsmanagement relevant
-(@vos_jakob_datenqualitat_2021), beispielsweise um im Rahmen des ETL-Prozesses
+[@vos_jakob_datenqualitat_2021], beispielsweise um im Rahmen des ETL-Prozesses
 Verteilungen und Ausreißer zu erkennen, sondern auch um aus Daten weitere
 Erkenntnisse zu gewinnen.  So können beispielsweise Ausleihzahlen nach Medien
 gruppiert für die Bestandsplanung eingesetzt werden.  Voraussetzung dafür ist,
