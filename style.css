@@ -28,3 +28,6 @@ div.csl-entry {
 .callout {
   color: #747a7f;
 }
+.sidebar-item:hover {
+  border-right: 2px solid #747a7f;
+}
