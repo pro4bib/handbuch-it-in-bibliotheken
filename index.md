@@ -76,7 +76,8 @@ werden kann. Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
     verwiesen werden.
 
 Kontaktinformationen und Neuigkeiten zum Projekt zur Erstellung des
-Handbuchs finden sich auf der Seite <https://www.th-wildau.de/book-sprint/>.
+Handbuchs finden sich auf der Seite <https://www.th-wildau.de/book-sprint/>
+und im Artikel von @christensen_wie_2022.
 
 ::: {.callout-tip}
 
