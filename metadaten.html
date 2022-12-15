@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Grundlagen der bibliothekarischen Datenverarbeitung">
 
-<title>Handbuch IT in Bibliotheken - 5&nbsp; Daten &amp; Metadaten</title>
+<title>Handbuch IT in Bibliotheken - 2&nbsp; Daten &amp; Metadaten</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./discovery.html" rel="next">
-<link href="./bibliotheksmanagementsysteme.html" rel="prev">
+<link href="./bibliotheksmanagementsysteme.html" rel="next">
+<link href="./infrastruktur.html" rel="prev">
 <link href="./favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -130,22 +130,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Management von IT-Systemen</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Anforderungen an die IT-Entwicklung</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./infrastruktur.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Technische Infrastruktur</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bibliotheksmanagementsysteme</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -155,7 +140,17 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bibliotheksmanagementsysteme</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./discovery.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Discovery &amp; Retrieval</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kommunikation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -170,7 +165,17 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kommunikation</span></a>
+  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IT-Entwicklung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IT-Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sicherheit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sicherheit &amp; Datenschutz</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -262,10 +267,10 @@ div.csl-indent {
 <li><p>der Struktur von Daten (<strong>Syntax</strong>)</p></li>
 <li><p>und der Bedeutung von Daten (<strong>Semantik</strong>).</p></li>
 </ul>
-<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und Identifikatoren. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen">Tabelle&nbsp;<span>5.1</span></a>):</p>
+<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und Identifikatoren. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen">Tabelle&nbsp;<span>2.1</span></a>):</p>
 <div id="tbl-daten-ebenen" class="anchored">
 <table class="table">
-<caption>Tabelle&nbsp;5.1: Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen</caption>
+<caption>Tabelle&nbsp;2.1: Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Datenebene</th>
@@ -307,10 +312,10 @@ div.csl-indent {
 </section>
 <section id="datenformate" class="level2">
 <h2 class="anchored" data-anchor-id="datenformate">Datenformate</h2>
-<p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis…) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16…). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, so dass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml">Tabelle&nbsp;<span>5.2</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
+<p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis…) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16…). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, so dass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml">Tabelle&nbsp;<span>2.2</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
 <div id="tbl-xml" class="anchored">
 <table class="table">
-<caption>Tabelle&nbsp;5.2: Einige Bestandteile des XML-Format</caption>
+<caption>Tabelle&nbsp;2.2: Einige Bestandteile des XML-Format</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">XML-Syntax</th>
@@ -434,12 +439,12 @@ div.csl-indent {
 <h3 class="anchored" data-anchor-id="datenmodelle-und-rdf-formate">Datenmodelle und RDF-Formate</h3>
 <p><strong>Dublin Core</strong> bzw. das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie creator, title, date, und description und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
 <p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliographischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
-<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen (siehe <a href="#fig-bibframe">Abbildung&nbsp;<span>5.1</span></a>).</p>
+<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen (siehe <a href="#fig-bibframe">Abbildung&nbsp;<span>2.1</span></a>).</p>
 <p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
 <div id="fig-bibframe" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/bibframe2-model.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;5.1: Hauptbestandteile des Datenmodell BIBFRAME</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.1: Hauptbestandteile des Datenmodell BIBFRAME</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -453,11 +458,11 @@ div.csl-indent {
 <p>Neben der <a href="#datenerfassung">Erfassung von Daten</a> umfasst das bibliothekarische (Meta)datenmanagement Verfahren zur Konvertierung, Integration und Auswertung von Daten. Diese wesentlichen Schritte werden oft mittels eines ETL-Prozesses zur Übertragung von Daten in ein anderes System vorgenommen. Nach Beschreibung der Bestandteile des ETL-Prozesses wird in diesem Abschnitt auf Werkzeuge und Schnittstellen eingegangen.</p>
 <section id="etl-prozess" class="level3">
 <h3 class="anchored" data-anchor-id="etl-prozess">ETL-Prozess</h3>
-<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl">Abbildung&nbsp;<span>5.2</span></a> illustriert den generellen ETL-Prozess mit einigen exemplarischen Arbeitsschritten.</p>
+<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl">Abbildung&nbsp;<span>2.2</span></a> illustriert den generellen ETL-Prozess mit einigen exemplarischen Arbeitsschritten.</p>
 <div id="fig-etl" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/etl-prozess.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;5.2: Beispiel eines ETL-Prozess</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.2: Beispiel eines ETL-Prozess</figcaption><p></p>
 </figure>
 </div>
 <section id="extraktion" class="level4">
@@ -737,13 +742,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Bibliotheksmanagementsysteme</span></span>
+      <a href="./infrastruktur.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Technische Infrastruktur</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./discovery.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Discovery &amp; Retrieval</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Bibliotheksmanagementsysteme</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

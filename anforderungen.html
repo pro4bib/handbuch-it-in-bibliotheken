@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Methoden lassen sich Bedarfe und Anforderungen ermitteln?">
 
-<title>Handbuch IT in Bibliotheken - 2&nbsp; Anforderungen an die IT-Entwicklung</title>
+<title>Handbuch IT in Bibliotheken - 8&nbsp; IT-Entwicklung</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -50,8 +50,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./infrastruktur.html" rel="next">
-<link href="./management.html" rel="prev">
+<link href="./management.html" rel="next">
+<link href="./forschungsnahe-dienste.html" rel="prev">
 <link href="./favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -93,7 +93,7 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Anforderungen an die IT-Entwicklung</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">IT-Entwicklung</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -130,22 +130,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Management von IT-Systemen</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Anforderungen an die IT-Entwicklung</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./infrastruktur.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Technische Infrastruktur</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bibliotheksmanagementsysteme</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -155,7 +140,17 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Bibliotheksmanagementsysteme</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./discovery.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Discovery &amp; Retrieval</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kommunikation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -170,7 +165,17 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kommunikation</span></a>
+  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">IT-Entwicklung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IT-Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sicherheit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sicherheit &amp; Datenschutz</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -229,7 +234,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Anforderungen an die IT-Entwicklung</span></h1>
+<h1 class="title"><span class="chapter-title">IT-Entwicklung</span></h1>
 </div>
 
 
@@ -297,12 +302,12 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<p>Bei Usability handelt es sich um eine Eigenschaft eines Systems, die während der konkreten Interaktion mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei der Bedienung auftreten (<a href="#fig-usux">Abbildung&nbsp;<span>2.1</span></a>). Zur Vermeidung von Usability-Problemen existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen skizziert werden bzw. durch Autoren wie Shneiderman in seinen „8 golden rules“ <span class="citation" data-cites="shneiderman_designing_2005">(<a href="literatur.html#ref-shneiderman_designing_2005" role="doc-biblioref">Shneiderman und Plaisant 2005</a>)</span> oder Nielsen mit seinen „<a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 Heuristics</a>“ benannt werden.</p>
+<p>Bei Usability handelt es sich um eine Eigenschaft eines Systems, die während der konkreten Interaktion mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei der Bedienung auftreten (<a href="#fig-usux">Abbildung&nbsp;<span>8.1</span></a>). Zur Vermeidung von Usability-Problemen existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen skizziert werden bzw. durch Autoren wie Shneiderman in seinen „8 golden rules“ <span class="citation" data-cites="shneiderman_designing_2005">(<a href="literatur.html#ref-shneiderman_designing_2005" role="doc-biblioref">Shneiderman und Plaisant 2005</a>)</span> oder Nielsen mit seinen „<a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 Heuristics</a>“ benannt werden.</p>
 <p>Die User Experience hingen bezieht sich auf die Wahrnehmung der Nutzenden sowohl vor, nach und auch während der Interaktion. Sie bezeichnet sozusagen die Positionierung gegenüber einem System und hat damit Auswirkungen darauf, ob Nutzende ein System erneut benutzen werden oder, z. B. aufgrund von schlechter Bedienbarkeit, d.&nbsp;h. schlechter Usability, vor einer zukünftigen Nutzung zurückschrecken. Es reicht folglich nicht aus, einzelne Aspekte einer Nutzer*innenschnittstelle zu optimieren. Vielmehr muss der gesamte angebotene Service aus Sicht der Nutzenden optimiert werden, damit sich ein positives Nutzungserlebnis einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die digitalisierten Anteile eines Services sondern bezieht alle Arbeitsschritte, egal ob analog oder digital, mit ein.</p>
 <div id="fig-usux" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/usability_ux.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.1: Zusammenhang zwischen Usability und User Experience</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;8.1: Zusammenhang zwischen Usability und User Experience</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -325,7 +330,7 @@ div.csl-indent {
 <div id="fig-3" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/missing.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.2: Aus einem <a href="https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526">Vortrag zum Scenario-based Design</a></figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;8.2: Aus einem <a href="https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526">Vortrag zum Scenario-based Design</a></figcaption><p></p>
 </figure>
 </div>
 <p>Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit verschiedenen Formen modelliert werden. Dafür können formalisierte Systeme wie die Unified Modelling Language (UML) zum Einsatz kommen. Sie bietet ein Set verschiedener Formen, um Start, Ende, Verzweigungen, Alternativen und mehr visuell zu beschreiben. Aber auch Skizzen können Nutzungsszenarien bereits verdeutlichen und als Diskussionsgrundlage dienen, z. B. in Form von Storyboards, die in einem eigenen <a href="#storyboards-als-frühe-methode">Unterkapitel zu dieser Methode</a> noch beschrieben werden.</p>
@@ -412,10 +417,10 @@ div.csl-indent {
 <div id="fig-5" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/missing.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.3: <a href="https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype" class="uri">https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype</a> (Platzhalter)</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;8.3: <a href="https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype" class="uri">https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype</a> (Platzhalter)</figcaption><p></p>
 </figure>
 </div>
-<p>Ein Wireframe („Drahtmodell“) ist eine noch undetaillierte („low-level“) Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches (siehe <a href="#fig-5">Abbildung&nbsp;<span>2.3</span></a>). Ein Mock-Up ist, im Kontext Design, eine ausgereifte („high-level“) Version des Interfaces mit realistischen Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz zu Prototypen, die interaktiv sind und damit echte Funktionalitäten enthalten.</p>
+<p>Ein Wireframe („Drahtmodell“) ist eine noch undetaillierte („low-level“) Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches (siehe <a href="#fig-5">Abbildung&nbsp;<span>8.3</span></a>). Ein Mock-Up ist, im Kontext Design, eine ausgereifte („high-level“) Version des Interfaces mit realistischen Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz zu Prototypen, die interaktiv sind und damit echte Funktionalitäten enthalten.</p>
 </section>
 <section id="interaktive-prototypen" class="level4">
 <h4 class="anchored" data-anchor-id="interaktive-prototypen">(Interaktive) Prototypen</h4>
@@ -427,11 +432,11 @@ div.csl-indent {
 <section id="evaluierung" class="level3">
 <h3 class="anchored" data-anchor-id="evaluierung">Evaluierung</h3>
 <p>Die vorangegangenen Abschnitte haben herausgestellt, wie wichtig es ist, regelmäßig Feedback der Nutzenden zu erhalten. Eine zentrale Datenquelle dafür ist die Begleitung eines Projekts durch Evaluierungen. Ein Beispiel für eine lebendige Evaluierungskultur ist das “<a href="https://urc.library.harvard.edu/">User Research Center” der Harvard Library</a>, das regelmäßig verschiedene Methoden anwendet, um Angebote gemeinsam mit Nutzenden zu evaluieren und diese öffentlich in einem <a href="https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=232199222">Wiki</a> teilt.</p>
-<p>Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei Methoden: Beobachtungs- und Inspektionstests (<a href="#fig-6">Abbildung&nbsp;<span>2.4</span></a>). Während erstgenannte unter Einbeziehung von Nutzer*innen durchgeführt werden, werden Inspektionstests häufig durch Usability-Expert*innen realisiert.</p>
+<p>Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei Methoden: Beobachtungs- und Inspektionstests (<a href="#fig-6">Abbildung&nbsp;<span>8.4</span></a>). Während erstgenannte unter Einbeziehung von Nutzer*innen durchgeführt werden, werden Inspektionstests häufig durch Usability-Expert*innen realisiert.</p>
 <div id="fig-6" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/usability_ux.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.4: &nbsp;</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;8.4: &nbsp;</figcaption><p></p>
 </figure>
 </div>
 <p>Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass diese auch ohne eine formale Usability-Ausbildung durch engagierte Mitarbeiter*innen durchgeführt werden können. Im Folgenden soll deshalb das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.</p>
@@ -655,13 +660,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./management.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Management von IT-Systemen</span></span>
+      <a href="./forschungsnahe-dienste.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Forschungsnahe Dienste</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./infrastruktur.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Technische Infrastruktur</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./management.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">IT-Management</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
