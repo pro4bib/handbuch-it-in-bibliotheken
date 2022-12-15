@@ -15,15 +15,16 @@ book:
     - issue
   chapters:
     - index.md  # = einleitung.md
-    - management.md
-    - anforderungen.md
     - infrastruktur.md
-    - bibliotheksmanagementsysteme.md
     - metadaten.md
+    - bibliotheksmanagementsysteme.md
     - discovery.md
+    - kommunikation.md
     - digitalisierung.md
     - forschungsnahe-dienste.md
-    - kommunikation.md
+    - anforderungen.md
+    - management.md
+    - sicherheit.md
     - literatur.md
   appendices:
     - glossar.md

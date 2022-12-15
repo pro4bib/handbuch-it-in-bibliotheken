@@ -2,7 +2,7 @@
 description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen in Bibliotheken
 ---
 
-# Management von IT-Systemen {#management}
+# IT-Management {#management}
 
 ::: {.callout-note}
 
@@ -19,8 +19,8 @@ Weiterbildung](#aus--und-weiterbildung).
 :::
 
 Dieses Kapitel konzentriert sich auf den Einsatz von IT-Systemen in
-Bibliotheken.  Ein Kapitel zur IT-Basis-Infrastruktur (Netzwerke, Netzdienste,
-Server, Storage, Backup u.ä.) ist in Planung.
+Bibliotheken.  Ein Kapitel zur [IT-Basis-Infrastruktur](infrastruktur.md)
+(Netzwerke, Netzdienste, Server, Storage, Backup u.ä.) ist in Planung.
 
 ## IT-Systeme
 

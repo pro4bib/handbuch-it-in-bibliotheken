@@ -6,7 +6,7 @@ description: Technische Infrastruktur in Bibliotheken (Netzwerk, RFID, Arbeitspl
 
 ::: {.callout-note}
 
-Diese Hauptkapitel wird voraussichtlich Ende 2022 veröffentlicht.
+Diese Hauptkapitel wird voraussichtlich Ende 2023 veröffentlicht.
 
 :::
 

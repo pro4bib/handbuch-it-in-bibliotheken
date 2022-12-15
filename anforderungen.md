@@ -2,7 +2,7 @@
 description: Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Methoden lassen sich Bedarfe und Anforderungen ermitteln?
 ---
 
-# Anforderungen an die IT-Entwicklung {#anforderungen}
+# IT-Entwicklung {#anforderungen}
 
 :::{.callout-note}
 
