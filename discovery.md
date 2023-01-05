@@ -173,11 +173,13 @@ kommerzielles System o.ä.).
 ### Suchindex
 
 Zentraler Bestandteil eines Discovery-Systems sind auf Grundlage etablierter
-Suchmaschinentechnologie wie z.B. *Apache Solr* entwickelte **Suchindizes**.
+Suchmaschinentechnologie wie *Apache Solr* und *Elasticsearch* entwickelte
+**Suchindizes**.
 
-Der Index eines Discovery-Systems enthält Metadaten und ggf. Volltexte.  Er
-setzt sich aus Metadaten unterschiedlicher Herkunft zusammen. Diese können in
-einzelnen Kollektionen aufbereitet sein, z.B. nach Bestandsdaten von
+Der Index eines Discovery-Systems enthält Metadaten und ggf. damit verknüpfte
+Daten wie Volltexte, Inhaltsverzeichnisse und Übersetzungen. Im Suchindex
+kommen also Daten unterschiedlicher Art und Herkunft zusammen. Die Daten können
+in einzelnen Kollektionen aufbereitet sein, z.B. nach Bestandsdaten von
 (Teil-)Bibliotheken oder Verbünden, Daten einzelner Verlage, Metadaten aus
 Repositorien etc. Es besteht die Möglichkeit, den Suchraum des
 Discovery-Systems individuell zu konfigurieren. Der Aufbau eines Index in
@@ -238,7 +240,8 @@ folgende Punkte:
 
 - Suche in Feldern der Metadaten (Titel, ISBN, Schlagworte)
 
-- erweiterte Suche mit Möglichkeiten der Verknüpfung von Suchen in verschiedenen Feldern
+- erweiterte Suche mit Möglichkeiten der Verknüpfung von Suchen in
+  verschiedenen Feldern
 
 - Navigation in Trefferlisten über Facetten und Sortierung
 
@@ -251,11 +254,11 @@ Suchmaschinentechnologie aus, um einen eingegebenen Suchbegriff gegen den Index
 abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma "beste
 Treffer" statt "exakte Treffer" mehr Treffer als Bibliothekskataloge
 [@steilen_discovery-systeme_2012].  Sie nutzen außerdem Algorithmen für die
-Relevanzsortierung, um die Trefferlisten möglichst nutzerorientiert
+Relevanzsortierung (*Ranking*), um die Trefferlisten möglichst nutzerorientiert
 aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von
 Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort...) für
-eine Bevorzugung . Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie
-Anzahl von Ausleihen, Anzahlen von Zitationen etc. bislang nicht in das Ranking
+eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie
+die Anzahl von Ausleihen, Aufrufen und Zitationen bislang nicht in das Ranking
 ein.
 
 Zu den Funktionalitäten für die Suchunterstützung gehören auch die
