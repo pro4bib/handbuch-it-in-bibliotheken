@@ -27,7 +27,7 @@ update: $(INCLUDES)
 # TODO: multiple requests with start=N when more than 100 references
 refs: references.bib
 references.bib:
-	curl 'https://api.zotero.org/groups/4673379/items?format=biblatex&limit=100' > $@
+	curl -s 'https://api.zotero.org/groups/4673379/items?format=biblatex&limit=100' > $@
 
 templates/chapters.html: _gdrive/chapters.csv
 	@echo -n "<script>chapters=" > $@; perl -pE 'split s/^/{"/;s/,/":"/;s/(,.+)?$$/"}/' $< \

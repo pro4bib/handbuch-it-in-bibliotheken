@@ -621,7 +621,7 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   *Standard Interchange Protocol* (**SIP2**) sind interne APIs für
   Ausleihe und Fernleihe. Sie werden zwischen Bibliotheken,
   Fernleihservern und zur Anbindung von Verbuchungsautomaten
-  eingesetzt.
+  eingesetzt [@Michaelis2014].
 
 - Die *Patrons Account Information API* (**PAIA**) ist eine offene
   Schnittstelle zum Zugriff auf Ausleihkonten.
@@ -629,7 +629,8 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
 - Die *Document Availability Information API* (**DAIA**) ist eine
   offene Schnittstelle zur Abfrage der Verfügbarkeit von Medien.
 
-- Mit **unAPI** können einzelne Datensätze in verschiedenen Formaten abgerufen werden.
+- Mit **unAPI** können einzelne Datensätze in verschiedenen Formaten abgerufen
+  werden.
 
 - Die **Reconciliation Service API** ermöglicht den Abgleich mit
   Normdaten zur eindeutigen Referenzierung (siehe Abschnitt

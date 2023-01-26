@@ -63,6 +63,10 @@ glossary:
   Normdaten:
     definition: Datensätze zur eindeutigen Identifizierung und Referenzierung von Entitäten wie Personen, Organisationen, Themen...
 
+  OCR:
+    definition: Automatische Erkennung von Texten in Bildern (Optical Character Recognition)
+    url: https://de.wikipedia.org/wiki/Texterkennung
+
   OPAC:
     url: https://de.wikipedia.org/wiki/OPAC
     definition: Online Public Access Catalogue, Katalog einer Bibliothek
@@ -74,6 +78,10 @@ glossary:
   SaaS:
     url: https://de.wikipedia.org/wiki/Software_as_a_Service
     definition: Software as a Service, Software und Hardware bei externem Dienstleister
+
+  SIP2:
+    url: https://en.wikipedia.org/wiki/Standard_Interchange_Protocol
+    definition: Protokoll zur Anbindung von Selbstbedienungsautomaten an Bibliothekssysteme
 
   Usability:
     url: https://de.wikipedia.org/wiki/Gebrauchstauglichkeit_(Produkt)

@@ -104,7 +104,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
     1970er-Jahre hin zur Entwicklung von Software, z. T sehr
     experimentell, die die klassischen Geschäftsgänge von
     Bibliotheken in einem digitalen System abbilden sollten -
-    dadurch prägte sich der Begriff \"Bibliothekssystem\". Das
+    dadurch prägte sich der Begriff "Bibliothekssystem". Das
     Augenmerk bei der Entwicklung lag besonders auf Nachbildungen
     des Leihverkehrs unter besonderer Beachtung der Identifikation
     überfälliger Medien
@@ -114,10 +114,10 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
     erstmals eine integrierte Lösung der verschiedenen
     Automationsbereiche (Erwerbung, Katalogisierung,
     Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anboten.
-    Hierdurch entstand die Bezeichnung \"Integriertes
-    Bibliothekssystem\" (IBS), der auf den aus dem
-    US-amerikanischen Raum übernommenen Begriff \"Integrated
-    Library System\" (ILS) zurückgeht. In den 1980ern entstanden
+    Hierdurch entstand die Bezeichnung "Integriertes
+    Bibliothekssystem" (IBS), der auf den aus dem
+    US-amerikanischen Raum übernommenen Begriff "Integrated
+    Library System" (ILS) zurückgeht. In den 1980ern entstanden
     die ersten Online-Kataloge (OPAC), die die in Bibliotheken
     traditionellen Zettelkataloge nachbildeten.
 
@@ -1201,23 +1201,19 @@ Wochenenden fallen.
 
 ### Automatisierung und Selbstbedienung
 
-Als Automatisierung wird die Möglichkeit bezeichnet, die Geschäftsgänge
-einer Bibliothek mit digitalen Werkzeugen abzubilden und durchführen zu
-können. Dazu sind Maschinen notwendig, die die entsprechenden Funktionen
-anbieten. Das schon recht betagte Standardprotokoll für die
-Kommunikation zwischen BMS und Automat ist
-[SIP2](https://en.wikipedia.org/wiki/Standard_Interchange_Protocol).
-Dieses Protokoll hat den Nachteil, dass es ohne Verschlüsselung
-entwickelt wurde und daher - sofern es sich um ein BMS in der Cloud
-handelt zumindest - über
-[stunnel](https://en.wikipedia.org/wiki/Stunnel)
-verschlüsselt getunnelt wird. Moderne BMS unterstützen mittlerweile
-zusätzlich auch allgemeine Kommunikationsprotokolle, etwa über
-[REST](https://de.wikipedia.org/wiki/Representational_State_Transfer),
-sodass das Tunneln von Verbindungen nicht mehr nötig ist. Außerdem ist
-man nicht mehr daran gebunden, dass anzubindende Geräte SIP2
-unterstützen, was deutlich mehr Marktalternativen öffnet.
-
+Als Automatisierung wird die Möglichkeit bezeichnet, die Geschäftsgänge einer
+Bibliothek mit digitalen Werkzeugen abzubilden und durchführen zu können. Dazu
+sind Maschinen notwendig, die die entsprechenden Funktionen anbieten. Das schon
+recht betagte Standardprotokoll für die Kommunikation zwischen BMS und Automat
+ist *SIP2*.  Dieses Protokoll hat den Nachteil, dass es ohne Verschlüsselung
+entwickelt wurde und daher - sofern es sich um ein BMS in der Cloud handelt
+zumindest - über [stunnel](https://en.wikipedia.org/wiki/Stunnel) verschlüsselt
+getunnelt wird. Moderne BMS unterstützen mittlerweile zusätzlich auch
+allgemeine Kommunikationsprotokolle, etwa über *REST*, sodass das Tunneln von
+Verbindungen nicht mehr nötig ist. Außerdem ist man nicht mehr daran gebunden,
+dass anzubindende Geräte SIP2 unterstützen, was deutlich mehr Marktalternativen
+öffnet.
+ 
 Nachfolgend werden Automaten für die Selbstbedienung im Bereich der
 Ausleihe dargestellt.
 
@@ -1360,15 +1356,15 @@ Informationsinfrastrukturen, d.h. die umgebenden Systeme, eingebunden
 werden können.
 
 Eine Schnittstelle (engl. Interface oder manchmal auch API - application
-programming interface) bildet einen definierten Kommunikationsweg
-zwischen Verschiedenen Systemen als \"Gesprächspartner\". Im
-bibliothekarischen Universum gibt es für diese Fälle auch schon viele
-etablierte Austauschformate, etwa SIP2. Ein BMS \"von der Stange\" kann
-im Regelfall die üblichen Austauschformate unterstützen, sodass ein
-Austausch zwischen den gängigen Systemen einfach möglich ist. Hierzu
-zählen insbesondere der jeweilige Bibliotheksverbund, etwa zum Austausch
-von Metadaten oder für das verteilte Lizenzmanagement, aber auch
-nutzer\*innen-nahe Dienstleistungen, wie die Fernleihe.
+programming interface) bildet einen definierten Kommunikationsweg zwischen
+Verschiedenen Systemen als "Gesprächspartner". Im bibliothekarischen Universum
+gibt es für diese Fälle auch schon viele etablierte Austauschformate, etwa
+*SIP2*. Ein BMS "von der Stange" kann im Regelfall die üblichen
+Austauschformate unterstützen, sodass ein Austausch zwischen den gängigen
+Systemen einfach möglich ist. Hierzu zählen insbesondere der jeweilige
+Bibliotheksverbund, etwa zum Austausch von Metadaten oder für das verteilte
+Lizenzmanagement, aber auch nutzer\*innen-nahe Dienstleistungen, wie die
+Fernleihe.
 
 ### Nicht-bibliothekarische Schnittstellen
 
@@ -1405,7 +1401,7 @@ Informationen relevant, etwa um die Ausleihkonditionen der Person
 festlegen zu können. Daher wird in der Kommunikation mit einem IDM im
 Regelfall auch auch gewisser Scope mitgegeben, damit nur die wirklich
 für das konsumierende System relevanten Informationen mitgegeben werden;
-Prinzip \"Datensparsamkeit\".
+Prinzip "Datensparsamkeit".
 
 Ein IDM kann als Identity Provider zu einem Authentifizierungsdienst
 werden. Über diesen Dienst kann man dann unter Umständen ein Single Sign
@@ -1771,7 +1767,7 @@ Folgende Aspekte sollten im Rahmen von BMS besondere Beachtung finden:
 
 -   Definition von Backup-Zyklen: wie oft werden welche Daten in welchem
     Umfang auf welche Art gesichert? Es können hier durchaus
-    verschiedene \"Sicherungsaspekte\" mit unterschiedlichen Zyklen
+    verschiedene "Sicherungsaspekte" mit unterschiedlichen Zyklen
     definiert werden.
 
 -   Definition des Umfangs der Sicherung. Sollen die Daten komplett
