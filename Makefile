@@ -36,3 +36,6 @@ templates/chapters.html: _gdrive/chapters.csv
 # TODO: replace by lua filter as supported by quarto
 _contributors.md: contributors.yml templates/contributors.md
 	echo '' | quarto pandoc --metadata-file $< --template templates/contributors.md -M title=- -o $@
+
+install:
+	sudo apt install librsvg2-bin
