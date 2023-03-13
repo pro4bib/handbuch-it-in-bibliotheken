@@ -2,7 +2,7 @@
 description: ...
 ---
 
-# Digitalisierung
+# Digitalisierung {#digitalisierung}
 
 ::: {.callout-note}
 
