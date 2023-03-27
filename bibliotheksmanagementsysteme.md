@@ -2,6 +2,8 @@
 description: Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanagementsystemen (BMS/LMS) von Beschaffung bis Betrieb
 ---
 
+{{< include umfrage.md >}}
+
 # Bibliotheksmanagementsysteme {#bibliotheksmanagementsysteme}
 
 :::{.callout-note}

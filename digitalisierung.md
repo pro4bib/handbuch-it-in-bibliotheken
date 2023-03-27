@@ -2,6 +2,8 @@
 description: ...
 ---
 
+{{< include umfrage.md >}}
+
 # Digitalisierung {#digitalisierung}
 
 ::: {.callout-note}

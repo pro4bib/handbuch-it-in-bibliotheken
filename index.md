@@ -1,3 +1,5 @@
+{{< include umfrage.md >}}
+
 # Einleitung {.unnumbered}
 
 ## Motivation

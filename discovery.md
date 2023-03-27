@@ -2,6 +2,8 @@
 description: "..."
 ---
 
+{{< include umfrage.md >}}
+
 # Discovery & Retrieval {#discovery-und-retrieval}
 
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*) bieten

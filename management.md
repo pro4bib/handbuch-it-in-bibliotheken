@@ -2,6 +2,8 @@
 description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen in Bibliotheken
 ---
 
+{{< include umfrage.md >}}
+
 # IT-Management {#management}
 
 ::: {.callout-note}

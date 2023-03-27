@@ -2,6 +2,8 @@
 description: Grundlagen der bibliothekarischen Datenverarbeitung
 ---
 
+{{< include umfrage.md >}}
+
 # Daten & Metadaten
 
 Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken

@@ -2,6 +2,8 @@
 description: Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID...)
 ---
 
+{{< include umfrage.md >}}
+
 # Technische Infrastruktur
 
 ## Einleitung

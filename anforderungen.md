@@ -2,6 +2,8 @@
 description: Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Methoden lassen sich Bedarfe und Anforderungen ermitteln?
 ---
 
+{{< include umfrage.md >}}
+
 # IT-Entwicklung {#anforderungen}
 
 :::{.callout-note}

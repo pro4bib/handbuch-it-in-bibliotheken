@@ -2,6 +2,8 @@
 description: ...
 ---
 
+{{< include umfrage.md >}}
+
 # Kommunikation {#kommunikation}
 
 ::: {.callout-note}
