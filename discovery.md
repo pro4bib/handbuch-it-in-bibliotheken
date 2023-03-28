@@ -144,13 +144,13 @@ sollten.
 
 ## Komponenten
 
-Ein Discovery-System besteht aus verschiedenen Komponenten. Dazu gehören
+Ein Discovery-System umfasst verschiedene Komponenten. Dazu gehören
 
 - eine Benutzungs- oder Rechercheoberfläche ([Frontend]),
 
-- der [Suchindex] (ein oder mehrere Quell-Indizes),
+- der [Suchindex] (ein oder mehrere Quell-Indizes) sowie die operativen Aspekte
 
-- [ETL-Prozesse] sowie
+- [ETL-Prozesse] und
 
 - die Konfiguration der Rechercheoberfläche.
 
