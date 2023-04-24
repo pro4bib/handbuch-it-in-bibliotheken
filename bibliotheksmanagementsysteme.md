@@ -282,7 +282,7 @@ Stand Mitte 2022 haben folgende aktuellen BMS die derzeit größte Marktreife un
   aDIS/BMS   aStec           ÖBs und WBs vor allem  nein       durch aStec
                              im BSZ                            
 
-  Alma       ExLibris        WBs in Berlin, NRW,    nein       durch ExLibis,
+  Alma       ExLibris        WBs in Berlin, NRW,    nein       durch ExLibris,
                              Bayerische                        integrierte
                              Staatsbibliothek,                 Apps in Eigenregie
                              Schweiz                           
