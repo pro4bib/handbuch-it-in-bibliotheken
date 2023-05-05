@@ -79,7 +79,7 @@ werden kann. Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 
 Kontaktinformationen und Neuigkeiten zum Projekt zur Erstellung des
 Handbuchs finden sich auf der Seite <https://www.th-wildau.de/book-sprint/>
-und in den Artikeln von @bach_2023 und von @christensen_wie_2022.
+und in den Artikeln von @Bach2023 und von @christensen_wie_2022.
 
 ::: {.callout-tip}
 
