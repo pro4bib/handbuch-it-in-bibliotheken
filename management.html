@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen in Bibliotheken">
 
-<title>Handbuch IT in Bibliotheken - 9&nbsp; IT-Management</title>
+<title>Handbuch IT in Bibliotheken - IT-Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,14 +18,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -39,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -91,11 +91,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">IT-Management</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./management.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">IT-Management</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -103,7 +108,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -111,21 +116,22 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="sidebar-tool px-1"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Einleitung</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Einleitung</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -185,8 +191,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Anhang</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -206,6 +213,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -250,7 +258,7 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-warning callout callout-style-simple">
+<div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -266,7 +274,7 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -286,14 +294,14 @@ div.csl-indent {
 <div id="fig-it-zyklus" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/sdlc.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;9.1: SDLC-Skizze (Platzhalter)</figcaption><p></p>
+<figcaption class="figure-caption">Abbildung&nbsp;9.1: SDLC-Skizze (Platzhalter)</figcaption>
 </figure>
 </div>
 <section id="planung-und-analyse" class="level4">
 <h4 class="anchored" data-anchor-id="planung-und-analyse">Planung und Analyse</h4>
 <p>Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um individuell erstellte Software oder die Anpassung eines existierenden IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die Anforderungen des Projektes. Dieses gemeinsame Verständnis, insbesondere der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren Stakeholdern vorhanden sein.</p>
 <p>Zur Planungs- und Analysephase gehört neben einer grundsätzlichen Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und rechtlicher Rahmenbedingungen.</p>
-<div class="callout-tip callout callout-style-simple">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -325,7 +333,7 @@ div.csl-indent {
 <div id="fig-verweildauer" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/sw_lifespan.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;9.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)</figcaption><p></p>
+<figcaption class="figure-caption">Abbildung&nbsp;9.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)</figcaption>
 </figure>
 </div>
 </section>
@@ -360,7 +368,7 @@ div.csl-indent {
 <div id="fig-schichtmodell" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/schichten.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;9.3: Schichtmodell-Bild (Platzhalter)</figcaption><p></p>
+<figcaption class="figure-caption">Abbildung&nbsp;9.3: Schichtmodell-Bild (Platzhalter)</figcaption>
 </figure>
 </div>
 <p>Aus <a href="#fig-schichtmodell">Abbildung&nbsp;<span>9.3</span></a> wird deutlich, dass moderne Software-Systeme zum Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz aus, so ist es unter Umständen möglich, die darüber liegenden Schichten auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht garantiert.</p>
@@ -412,7 +420,7 @@ div.csl-indent {
 <p>Für die Systemadministration werden Kenntnisse zu grundsätzlichen Architekturen webbasierter Systeme benötigt. In der Regel handelt es sich dabei um die Installation und Administration von Datenbanken, PHP- und Java-Systemen auf Linux-Servern, einschließlich der jeweiligen Wartung durch Minor und Major Updates, Patches etc.</p>
 <p>Für die Inbetriebnahme und Individualisierung von Systemen sind zunächst Kenntnisse bei der Umwandlung von Daten in unterschiedliche Formate notwendig, wenn eine Datenmigrationen aus Altsystemen durchgeführt wird. Die Systeme müssen dann konfiguriert und parametrisiert werden, das heißt auf die konkreten Nutzungsszenarien angepasst. Hier ist zwischen einer so genannten Out-of-the-Box-Verwendung, bei der das System im Rahmen seiner Möglichkeiten genutzt wird, und einer weitergehenden Individualisierung durch eigene Software-Entwicklung zu unterscheiden. In beiden Fällen ist ein Zusammenspiel von bibliotheksfachlichen und Software-technischen Kompetenzen erforderlich, um das Verständnis von bibliothekarischen Geschäftsgängen und den Prozessen und Funktionalitäten des Systems zusammen zu bringen. Daher werden in der Regel Implementierungsteams aus Anwender*innen und Software-Betreuer*innen bzw. Entwickler*innen gebildet</p>
 <p>Die Arbeit dieser Implementierungsteams sollte idealerweise nach Grundlagen des Projektmanagements und des <a href="#Lebenszyklen-von-IT-Systemen">Lebenszyklus von IT-Systemen</a> erfolgen, also unter Berücksichtigung klarer Strukturen für die Planung, die Kommunikation und die Kontrolle. Siehe dazu auch das Kapitel [IT-Entwicklung].</p>
-<div class="callout-tip callout callout-style-simple">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -510,11 +518,11 @@ div.csl-indent {
 <p>Auch nach Auswahl eines Systems ist eine permanente Beobachtung des <a href="#lebenszyklen-von-it-systemen">Lebenszyklus</a> erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende <a href="#aus--und-weiterbildung">Fortbildungen oder Schulungen</a>. Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-gesetzliche_bildschirm-_2019" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-gesetzliche_bildschirm-_2019" class="csl-entry" role="listitem">
 Gesetzliche, Deutsche, und Unfallversicherung e.V. (DGUV). 2019. <span>„Bildschirm- und Büroarbeitsplätze: Leitfaden für die Gestaltung“</span>. <a href="https://publikationen.dguv.de/widgets/pdf/download/article/409">https://publikationen.dguv.de/widgets/pdf/download/article/409</a>.
 </div>
-<div id="ref-hanson_cody_opinion_2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hanson_cody_opinion_2015" class="csl-entry" role="listitem">
 Hanson, Cody. 2015. <span>„Opinion: Libraries are Software“</span>. 2015. <a href="https://www.codyh.com/writing/software.html">https://www.codyh.com/writing/software.html</a>.
 </div>
 </div>
@@ -572,9 +580,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -639,6 +661,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -682,7 +790,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -714,6 +822,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

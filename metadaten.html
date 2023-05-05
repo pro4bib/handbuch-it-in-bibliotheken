@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Grundlagen der bibliothekarischen Datenverarbeitung">
 
-<title>Handbuch IT in Bibliotheken - 2&nbsp; Daten &amp; Metadaten</title>
+<title>Handbuch IT in Bibliotheken - Daten &amp; Metadaten</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,14 +18,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -39,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -91,11 +91,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Daten &amp; Metadaten</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./metadaten.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Daten &amp; Metadaten</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -103,7 +108,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -111,21 +116,22 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="sidebar-tool px-1"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Einleitung</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Einleitung</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -185,8 +191,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Anhang</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -206,6 +213,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -244,7 +252,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Daten &amp; Metadaten</span></h1>
+<h1 class="title"><span class="chapter-title">Daten &amp; Metadaten</span></h1>
 </div>
 
 
@@ -259,7 +267,7 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-warning callout callout-style-simple">
+<div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -367,7 +375,7 @@ div.csl-indent {
 <li><p><strong>Modellierungssprachen</strong> helfen zur Beschreibung von Datenmodellen. Die häufigsten Modellierungssprachen basieren auf dem Entity-Relationship-Modell. Da zwischen Syntax und Semantik irgendwann die reine Datenebene verlassen werden muss, sind die wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und Beschreibungen in natürlicher Sprache.</p></li>
 </ul>
 <p>Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft, viele häufige Fehler bei der (Meta)datenverarbeitung zu vermeiden. Ein Beispiel hierfür ist das <em>Resource Description Framework</em> (<em>RDF</em>) mit dazu gehörigen Schemasprachen (<em>SHACL</em>/<em>ShEx</em>), Abfragesprachen (<em>SPARQL</em>) und Modellierungssprachen (<em>RDFS</em>/<em>OWL</em>). In anderen Fällen wird aus Mangel an Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und stattdessen auf allgemeine Programmiersprachen zurückgegriffen.</p>
-<div class="callout-tip callout callout-style-simple">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -389,7 +397,7 @@ div.csl-indent {
 <p>Darüber hinaus gibt es Verfahren zur automatischen Erstellung von Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und Auswertung von Literaturangaben und zur thematischen Einordnung von Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate gerechnet werden.</p>
 <p>Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die Daten erfasst werden: so gelten beispielsweise für eine historische Bibliographie andere Maßstäbe als für einen Suchindex.</p>
 <p>Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit denen Daten erstellt, bearbeitet und <em>analysiert</em> werden können.</p>
-<div class="callout-tip callout callout-style-simple">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -460,7 +468,7 @@ div.csl-indent {
 <div id="fig-bibframe" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/bibframe2-model.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.1: Hauptbestandteile des Datenmodell BIBFRAME</figcaption><p></p>
+<figcaption class="figure-caption">Abbildung&nbsp;2.1: Hauptbestandteile des Datenmodell BIBFRAME</figcaption>
 </figure>
 </div>
 </section>
@@ -478,7 +486,7 @@ div.csl-indent {
 <div id="fig-etl" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/etl-prozess.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;2.2: Beispiel eines ETL-Prozess</figcaption><p></p>
+<figcaption class="figure-caption">Abbildung&nbsp;2.2: Beispiel eines ETL-Prozess</figcaption>
 </figure>
 </div>
 <section id="extraktion" class="level4">
@@ -562,26 +570,26 @@ div.csl-indent {
 <p>Neben rudimentären Statistik-Kenntnissen helfen bei der Datenanalyse Werkzeuge wie die <a href="#werkzeuge">im vorigen Abschnitt</a> beschriebenen Mittel zur Datenverarbeitung. Für allgemeine Analysen eignet sich vor allem eine Tabellenkalkulation. Für komplexere Analysen gibt es spezielle Statistik-Programme und Programmiersprachen wie <em>SAS</em> und <em>R</em>. Für explorative Analysen und um bei geänderter Datenlage automatisch aktuelle Ergebnisse zu bekommen, bieten sich interaktive Umgebungen wie <em>Jupyter Notebooks</em> oder <em>Observable</em> an<em>.</em> Für spezielle, wiederkehrende Analysen und Aufbereitungen kann es auch sinnvoll sein, eigene Anwendungen zu entwickeln bzw. entwickeln zu lassen. Beispiele hierfür sind <em>BibControl</em>, das <em>Metadata Quality Assessment Framework</em> (<em>MQA</em>), die Deutsche Bibliotheksstatistik sowie Statistikfunktionen als Teil anderer Programme (zum Beispiel <a href="./bibliotheksmanagementsysteme.html#statistik-und-reporting">Statistik und Reporting</a> als Teil des BMS).</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-kuhlen_metadaten_2023" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-kuhlen_metadaten_2023" class="csl-entry" role="listitem">
 Assfalg, Rolf. 2023. <span>„Metadaten“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 245–56. Berlin, Boston: De Gruyter Saur. <a href="https://doi.org/10.1515/9783110769043-021">https://doi.org/10.1515/9783110769043-021</a>.
 </div>
-<div id="ref-kuhlen_informationsvisualisierung_2023" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kuhlen_informationsvisualisierung_2023" class="csl-entry" role="listitem">
 Jetter, Hans-Christian. 2023. <span>„Informationsvisualisierung und Visual Analytics“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 295–306. Berlin, Boston: De Gruyter Saur. <a href="https://www.degruyter.com/document/doi/10.1515/9783110769043-025/pdf">https://www.degruyter.com/document/doi/10.1515/9783110769043-025/pdf</a>.
 </div>
-<div id="ref-kuhlen_grundlagen_2023" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kuhlen_grundlagen_2023" class="csl-entry" role="listitem">
 Kuhlen, Rainer, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, Hrsg. 2023. <em>Grundlagen der Informationswissenschaft</em>. 7. Ausgabe. Berlin, Boston: De Gruyter Saur. <a href="https://doi.org/doi:10.1515/9783110769043">https://doi.org/doi:10.1515/9783110769043</a>.
 </div>
-<div id="ref-Michaelis2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Michaelis2014" class="csl-entry" role="listitem">
 Michaelis, Barbara. 2014. In <em><span>RFID</span> für Bibliothekare: ein Vademecum</em>, herausgegeben von Frank Seeliger, 3. Auflage, 145–50. Verlag News &amp; Media. <a href="https://doi.org/10.15771/RFID_2014_13">https://doi.org/10.15771/RFID_2014_13</a>.
 </div>
-<div id="ref-kuhlen_ontologien_2023" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kuhlen_ontologien_2023" class="csl-entry" role="listitem">
 Rölke, Heiko, und Albert Weichselbraun. 2023. <span>„Ontologien und Linked Open Data“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 257–70. Berlin, Boston: De Gruyter Saur. <a href="https://www.degruyter.com/document/doi/10.1515/9783110769043-022/pdf">https://www.degruyter.com/document/doi/10.1515/9783110769043-022/pdf</a>.
 </div>
-<div id="ref-vos_jakob_datenqualitat_2021" class="csl-entry" role="doc-biblioentry">
+<div id="ref-vos_jakob_datenqualitat_2021" class="csl-entry" role="listitem">
 Voß, Jakob. 2021. <span>„Datenqualität als Grundlage qualitativer Inhaltserschließung“</span>. In <em>Qualität in der Inhaltserschließung</em>, 167–76. De Gruyter Saur. <a href="https://doi.org/10.1515/9783110691597-010">https://doi.org/10.1515/9783110691597-010</a>.
 </div>
-<div id="ref-vos_einfuhrung_2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-vos_einfuhrung_2022" class="csl-entry" role="listitem">
 ———. 2022. <span>„Einführung in die Verarbeitung von <span>PICA</span>-Daten“</span>. 2022. <a href="https://pro4bib.github.io/pica/">https://pro4bib.github.io/pica/</a>.
 </div>
 </div>
@@ -639,9 +647,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -706,6 +728,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -749,7 +857,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -781,6 +889,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">

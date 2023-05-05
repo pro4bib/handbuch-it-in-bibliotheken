@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanagementsystemen (BMS/LMS) von Beschaffung bis Betrieb">
 
-<title>Handbuch IT in Bibliotheken - 3&nbsp; Bibliotheksmanagementsysteme</title>
+<title>Handbuch IT in Bibliotheken - Bibliotheksmanagementsysteme</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,14 +18,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -39,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -83,6 +83,7 @@ div.csl-indent {
 }</script>
 <link rel="canonical" href="https://it-in-bibliotheken.de/bibliotheksmanagementsysteme.html">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="style.css">
@@ -92,11 +93,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Bibliotheksmanagementsysteme</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bibliotheksmanagementsysteme.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Bibliotheksmanagementsysteme</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -104,7 +110,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -112,21 +118,22 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="sidebar-tool px-1"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Einleitung</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Einleitung</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -186,8 +193,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Anhang</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Anhang</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -207,6 +215,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -293,7 +302,7 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-warning callout callout-style-simple">
+<div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -309,7 +318,7 @@ div.csl-indent {
 </div>
 </div>
 </div>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -325,7 +334,7 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="übersicht">Übersicht</h2>
 <section id="geschichte" class="level3">
 <h3 class="anchored" data-anchor-id="geschichte">Geschichte</h3>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -340,12 +349,12 @@ div.csl-indent {
 <p>Die Entstehung des World Wide Web in den 1990er Jahren hatte zunächst vor allem Einfluss auf die Benutzbarkeit der Kataloge, die Web-Oberflächen erhielten. Aber auch die anderen Komponenten der BMS wurden überarbeitet, und zwar zunehmend auch von kommerziellen Anbietern, während die ersten Systeme als Eigenentwicklungen von Bibliotheken entstanden. Die Landschaft an <strong>Systemen der 2. Generation</strong> war von den späten 1990er bis in die Nullerjahre sehr divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass man von einem konsolidierten Markt sprechen kann <span class="citation" data-cites="breeding_library_nodate">(<a href="literatur.html#ref-breeding_library_nodate" role="doc-biblioref">Breeding o.&nbsp;J.</a>)</span>.</p>
 <p>Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS, die <strong>Next-Generation Library Management Systems</strong>, die auch <strong>Library Services Platforms</strong> genannt werden. Diese zeichnen sich durch verschiedene technische und funktionale Neuerungen aus. Die Datenhaltung erfolgt in der Regel cloudbasiert (auch wenn dies bei bei älteren Systemen im Grunde auch schon der Fall war), außerdem werden in der Regel mehr Schnittstellen zur Integration des Systems mit anderen Lösungen angeboten. Funktional wurden die Systeme vor allem um die Möglichkeit der Verwaltung von elektronischen Ressourcen erweitert sowie Statistik- und Reporting-Funktionalitäten verbessert.</p>
 <p>Seit dem Ende der 1990er Jahre spielen auch wieder Lösungen eine Rolle, die nicht kommerziell sind. Diese Open Source-Lösungen haben in der Regel eine große Anwender Community und lassen einen vielfältigen Markt für Support- und Wartungsdienstleistungen zu.</p>
-<div class="callout-tip callout callout-style-simple callout-captioned">
+<div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Evolution der Bibliotheksmanagementsysteme
 </div>
 </div>
@@ -514,7 +523,7 @@ Evolution der Bibliotheksmanagementsysteme
 <li><p>Quria von <a href="https://www.axiell.com/">Axiell</a> ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab</p></li>
 </ul>
 <p>Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding gepflegte <a href="https://librarytechnology.org/products/">Library Technology Guide</a>. Für den Deutschsprachigen Raum gibt es Übersichten von Verbundzentralen oder Büchereifachstellen, z.B. <span class="citation" data-cites="kluge_anbieter_2022">Kluge (<a href="literatur.html#ref-kluge_anbieter_2022" role="doc-biblioref">2022</a>)</span> für öffentliche Bibliotheken. Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können beispielsweise unter <a href="https://w.wiki/574K">https://w.wiki/574K</a> abgefragt werden.</p>
-<div class="callout-tip callout callout-style-simple">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -751,7 +760,7 @@ Evolution der Bibliotheksmanagementsysteme
 </section>
 <section id="marktanalyse-und-beschaffung" class="level2">
 <h2 class="anchored" data-anchor-id="marktanalyse-und-beschaffung">Marktanalyse und Beschaffung</h2>
-<div class="callout-tip callout callout-style-simple">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -792,7 +801,7 @@ Evolution der Bibliotheksmanagementsysteme
 <div id="fig-matrix" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/matrix.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;3.1: Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption><p></p>
+<figcaption class="figure-caption">Abbildung&nbsp;3.1: Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption>
 </figure>
 </div>
 <p>Zur Evaluierung der BMS können bestehende Anforderungskataloge für die Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam <a href="https://www.folio-bib.org/?page_id=247">von HBZ und VZG entwickelte Kriterienkatalog</a>. Dieses umfangreiche Dokument zeigt die Anforderungen an alle Komponenten auf Grundlage der Analyse von sehr ausgereiften Prozessen in Altsystemen auf. Es empfiehlt sich, insbesondere diejenigen Funktionalitäten genau zu überprüfen, die strategisch von besonderer Bedeutung sind.</p>
@@ -867,7 +876,7 @@ Evolution der Bibliotheksmanagementsysteme
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="https://commons.wikimedia.org/wiki/File:BPMN-1.svg" id="fig-prozessabbildung"><img src="https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg" title="Quelle: Stkl (CC-BY-SA 3.0)" class="img-fluid figure-img"></a></p>
-<p></p><figcaption class="figure-caption">Beispiel einer BPMN-Prozessabbildung</figcaption><p></p>
+<figcaption class="figure-caption">Beispiel einer BPMN-Prozessabbildung</figcaption>
 </figure>
 </div>
 <p>Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik nutzen, um Prozesse zu dokumentieren und zu visualisieren. Andere Alternativen zur Modellierung finden sich in den verschiedenen Diagrammformen der UML (Unified Modelling Language).</p>
@@ -1063,7 +1072,7 @@ Evolution der Bibliotheksmanagementsysteme
 </section>
 <section id="technischer-betrieb" class="level2">
 <h2 class="anchored" data-anchor-id="technischer-betrieb">Technischer Betrieb</h2>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -1209,26 +1218,26 @@ Evolution der Bibliotheksmanagementsysteme
 <p>Der Import, Export oder auch die Zusammenführung von Daten erfordert klar definierte Metadaten und Schnittstellen für den freien Austausch aus gut nachnutzbaren Quellsystemen. Dies ist vor allem erforderlich bei der aktuell stärkeren Entwicklung hin zu Open Data und öffentlicher Datennutzung. Die Integration und Interaktion mit anderen Informationssystemen nimmt also zu. Vor allem herkömmliche BMS der zweiten Generation kommen hier schnell an ihre Grenzen.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-borgman_acting_1997" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-borgman_acting_1997" class="csl-entry" role="listitem">
 Borgman, Christine L. 1997. <span>„From Acting Locally to Thinking Globally: A Brief History of Library Automation“</span>. <em>The Library Quarterly: Information, Community, Policy</em> 67 (3): 215–49. <a href="https://www.jstor.org/stable/40039721">https://www.jstor.org/stable/40039721</a>.
 </div>
-<div id="ref-breeding_marshall_how_2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-breeding_marshall_how_2022" class="csl-entry" role="listitem">
 Breeding, Marshall. 2022. <span>„How to Secure Library Systems From Malware, Ransomware, and Other Cyberthreats“</span>. 2022. <a href="https://www.infotoday.com/cilmag/jan22/Breeding--How-to-Secure-Library-Systems-From-Malware-Ransomware-and-Other-Cyberthreats.shtml">https://www.infotoday.com/cilmag/jan22/Breeding--How-to-Secure-Library-Systems-From-Malware-Ransomware-and-Other-Cyberthreats.shtml</a>.
 </div>
-<div id="ref-breeding_library_nodate" class="csl-entry" role="doc-biblioentry">
+<div id="ref-breeding_library_nodate" class="csl-entry" role="listitem">
 Breeding, Marshall. o.&nbsp;J. <span>„Library Technology Industry Mergers and Acquisitions. Library Technology Guides“</span>. Zugegriffen 28. April 2022. <a href="http://librarytechnology.org/mergers/">http://librarytechnology.org/mergers/</a>.
 </div>
-<div id="ref-kluge_anbieter_2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kluge_anbieter_2022" class="csl-entry" role="listitem">
 Kluge, Matthias. 2022. <em>Anbieter von Bibliothekssoftware</em>. Landesfachstelle für das öffentliche Bibliothekswesen. <a href="https://www.oebib.de/fileadmin/redaktion/2_bau_einrichtung_it/2_3_it_internet/Bibliothekssoftware/2_edv_anbieter_bibliothekssoftware_auswahl_2022_kl.pdf">https://www.oebib.de/fileadmin/redaktion/2_bau_einrichtung_it/2_3_it_internet/Bibliothekssoftware/2_edv_anbieter_bibliothekssoftware_auswahl_2022_kl.pdf</a>.
 </div>
-<div id="ref-matthews_library_2020" class="csl-entry" role="doc-biblioentry">
+<div id="ref-matthews_library_2020" class="csl-entry" role="listitem">
 Matthews, Joseph R., und Carson Block. 2020. <em>Library information systems</em>. Second edition. Library and information science text series. Santa Barbara, California: Libraries Unlimited.
 </div>
-<div id="ref-schweitzer_roswitha_anforderungen_2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-schweitzer_roswitha_anforderungen_2016" class="csl-entry" role="listitem">
 Schweitzer, Roswitha. 2016. <span>„Anforderungen an ein Bibliothekssystem der neuen Generation - der Kriterienkatalog von hbz und <span>VZG</span>“</span>. Köln. <a href="https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html">https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html</a>.
 </div>
-<div id="ref-siems_lesen_2022" class="csl-entry" role="doc-biblioentry">
+<div id="ref-siems_lesen_2022" class="csl-entry" role="listitem">
 Siems, Renke. 2022. <span>„Das Lesen der Anderen: Die Auswirkungen von User Tracking auf Bibliotheken“</span>. <em>o-bib. Das offene Bibliotheksjournal / Herausgeber <span>VDB</span></em> 9 (1): 1–25. <a href="https://doi.org/10.5282/o-bib/5797">https://doi.org/10.5282/o-bib/5797</a>.
 </div>
 </div>
@@ -1286,9 +1295,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1353,6 +1376,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1396,7 +1505,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -1428,6 +1537,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </li>  
 </ul>
     </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
