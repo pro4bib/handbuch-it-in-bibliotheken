@@ -156,7 +156,8 @@ und @kuhlen_ontologien_2023.
 
 In der Praxis werden Daten in einem Datenformat zusätzlich durch
 anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
-Format-Varianten, Anwendungsprofile, Erfassungsregeln und -praxis.
+Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
+die jeweilige Erfassungspraxis.
 
 ## Datenerfassung
 
