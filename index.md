@@ -34,41 +34,42 @@ einige sogenannte [Personas](#zielgruppe) als Beispiele definiert.
 ## Inhalt
 
 Dieses Handbuch soll einen knappen, umfassenden Überblick über die wichtigsten
-IT-bezogenen Themen in Bibliotheken geben. 
+IT-bezogenen Themen in Bibliotheken geben. Die einzelnen Themenkapitel sich
+weitgehend unabhängig voneinander lesbar und mit Querverweisen verbunden. Die
+Kapitel bilden grob zwei Blöcke.
+ 
+Allgemeinen technischen Grundlagen:
+ 
+- [Technische Infrastruktur](infrastruktur.md) beinhaltet ...
+ 
+- [IT-Entwicklung](anforderungen.md) umfasst vor allem die Ermittlung von Bedarfen und Anforderungen an IT-Systeme
+ 
+- [Management von IT-Systemen](management.md) ...
+ 
+- [Sicherheit & Datenschutz](sicherheit.md) ...
+ 
+- [Daten & Metadaten](metadaten.md): ...
+ 
+Bibliothekspezifische Einrichtungen:
+ 
+- [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Informationssysteme für      Arbeitsprozesse rund um die Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbestände.
+ 
+- [Discovery & Retrieval](discovery.md) ...
+ 
+- [Digitalisierung](digitalisierung.md) ...
+ 
+- [Forschungsnahe Dienste](forschungsnahe-dienste.md) ...
+ 
+- [Kommunikation](kommunikation.md) ...
 
-- [Technische Infrastruktur](#infrastruktur)
-- [IT-Entwicklung](#anforderungen)
-- [Management von IT-Systemen](#management)
-- [Sicherheit & Datenschutz](#sicherheit.md)
+## Zur Entstehung dieses Handbuchs
 
-- [Daten & Metadaten](#metadaten)
-- [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme)
-- [Discovery & Retrieval](#discovery)
-- [Digitalisierung](digitalisierung.md)
-- [Forschungsnahe Dienste](forschungsnahe-dienste.md)
-  
-- [Kommunikation](kommunikation.md)
-
-## Über dieses Handbuch
-
-Die erste Version dieses Handbuchs wurde [im Rahmen eines Book
-Sprints](https://www.th-wildau.de/book-sprint/) im April 2022 an der Bibliothek
-der Technischen Hochschule Wildau erstellt.  Dazu trafen sich zwölf IT-affine
-Expert\*innen aus dem Bibliotheksbereich, um innerhalb von drei Tagen eine
-umfassende Übersicht speziell zum Thema Bibliotheksmanagementsysteme (BMS) zu
-verfassen. Weitere Autor\*innen wurden online eingebunden. Die Veranstaltung wurde mit Mitteln des [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
-
-Eine Brainstorming-Session ergab zunächst relevante Themen für den
-Teilbereich [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme) und eine grobe Gliederung in
-Unterkapitel. Diese wurden anschließend in mehreren Iterationen gemeinsam
-ausformuliert.
-
-Im Laufe des Schreibprozesses wurden allgemeine Aspekte des [Management von
-IT-Systemen](#management) und [Anforderungen an IT-Entwicklung](#anforderungen)
-in eigene Kapitel ausgegliedert. Weitere Themen wie IT-Entwicklung,
-Forschungsunterstützung und Datenformate sind bisher nicht oder nur
-fragmentarisch behandelt. Um diese Kapitel zu vervollständigen und weitere
-Kapitel anzulegen, sollen weitere Book Sprints veranstaltet werden.
+Dieses Handbuch wurde [im Rahmen von drei Book
+Sprints](https://www.th-wildau.de/book-sprint/) zwischen April 2022 und Oktober 2023
+an der Bibliothek der Technischen Hochschule Wildau erstellt.  Dazu trafen sich 
+IT-affine Expert\*innen aus dem Bibliotheksbereich, um innerhalb von wenigen Tagen eine
+umfassende Übersicht zu den [wichtigsten Themen](#inhalt) rund im IT in Bibliotheken zu
+verfassen. Die Veranstaltung wurde mit Mitteln des [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
 werden kann. Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
