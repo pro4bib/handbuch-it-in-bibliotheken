@@ -134,11 +134,13 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 ### Bilder und andere Medien {#mitarbeit-medien .unnumbered}
 
-* Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository](#technik). Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
+- Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository](#technik). Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
 
-* Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt werden.
+- Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt werden.
 
-* Bitte nutzt sprechende Dateinamen!
+- Standardschriftart ist [Source Sans Pro](https://de.wikipedia.org/wiki/Source_Sans_Pro) und Standard-Farbe für Hervorhebungen ist Blau mit dem Farbcode `#2780e3`.
+
+- Bitte nutzt sprechende Dateinamen!
 
 ### Literaturverzeichnis {#mitarbeit-literatur .unnumbered}
 
