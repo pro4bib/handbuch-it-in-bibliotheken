@@ -23,9 +23,7 @@ Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und ein
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
-## IT-Systeme
-
-### Lebenszyklen von IT-Systemen {#it-lebenszyklus}
+## Lebenszyklen von IT-Systemen {#it-lebenszyklus}
 
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus).
@@ -39,7 +37,7 @@ Fokus dieses Handbuchs.
 
 ![SDLC-Skizze (Platzhalter)](media/sdlc.svg){#fig-it-zyklus}
 
-#### Planung und Analyse
+### Planung und Analyse
 
 Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um
 individuell erstellte Software oder die Anpassung eines existierenden
@@ -65,7 +63,7 @@ das System tatsächlich abdecken kann.
 
 :::
 
-#### Design/Prototyping
+### Design/Prototyping
 
 Während der Design- bzw. Prototyping-Phase entwickeln Designer\*innen
 und Entwickler\*innen erste Prototypen. Ziel ist es dabei, Feedback der
@@ -89,7 +87,7 @@ Kapitel [Anforderungen](#anforderungen)) hier auf einen
 iterativen Prozess setzen, welcher Produktiterationen häufiger bereitstellt und
 evaluiert.
 
-#### Test und Integration
+### Test und Integration
 
 Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests
 und die Integration des entwickelten bzw. erworbenen Systems in die
@@ -117,7 +115,7 @@ Textes erst teilweise abgelöst wurden.
 
 ![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)](media/sw_lifespan.svg){#fig-verweildauer}
 
-#### Ablösung
+### Ablösung
 
 Die Ablösung eines Systems kann eine Vielzahl an Gründen haben. So
 entwickeln sich die technischen Möglichkeiten und die Anforderungen der
@@ -164,13 +162,13 @@ betroffen sind.
 
 <!-- Hier sollte auf das Kapitel zur Migration verwiesen werden -->
 
-### Betriebssicherheit und Risikomanagement
+## Betriebssicherheit und Risikomanagement
 
 Neben den Problemen der Ablösungplanung gibt es weitere Risiken des
 Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt
 vorgestellt werden.
 
-#### Vendor-Lock-In
+### Vendor-Lock-In
 
 Ein nicht zu unterschätzendes Risiko, welches sich aus der Einführung
 eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-In.
@@ -199,7 +197,7 @@ einbezogen werden, da die Fehlerbehebung innerhalb fremder Software
 unter dem Rückgriff auf Dekompilierung besondere Kenntnisse seitens
 des zuständigen IT-Personals voraussetzt.
 
-#### Software-Abhängigkeiten
+### Software-Abhängigkeiten
 
 Sowohl der Betrieb von proprietärer als auch von Open-Source-Software
 ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
@@ -236,7 +234,7 @@ deshalb bestimmten Gesetzen und Verordnungen unterworfen. Von besonderer
 Bedeutung sind dabei Anforderungen an die Software-Ergonomie und die
 Barrierefreiheit (Accessibility) von IT-Systemen.
 
-#### Software-Ergonomie
+### Software-Ergonomie
 
 Die gesetzliche Unfallversicherung fordert z.B. die Berücksichtigung
 ergonomischer Grundsätze bei der Entwicklung von Software. Moderne
@@ -257,7 +255,7 @@ Anforderungen erfüllen:
 Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
 IT-Entwicklung](#anforderungen) thematisiert.
 
-#### Barrierefreiheit {#accessibility}
+### Barrierefreiheit {#accessibility}
 
 Neben dem Befolgen der Anforderungen an ergonomisch bedienbare Software,
 liegt es auf der Hand, dass IT-Systeme für eine Vielzahl von
