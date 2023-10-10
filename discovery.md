@@ -292,7 +292,7 @@ Die Evaluationen früher Discovery-Systeme haben bereits gezeigt, dass
 Informationen darüber, ob und wie ein gefundenes Medium zugänglich ist, von
 zentraler Bedeutung sind. Diese Bereitstellungsdienste, auch
 Delivery-Funktionen genannt, umfassen für physische und digitale Medien jeweils
-unterschiedliche Punkte.
+unterschiedliche Aspekte.
 
 Bereitstellungsdienste für physische Medien:
 
@@ -300,7 +300,7 @@ Bereitstellungsdienste für physische Medien:
 
 - Verlinkung zu Verbundkatalogen mit Fernleihmöglichkeiten
 
-- Verlinkung zur Fernleihe und zu Dokumentlieferdiensten
+- Verlinkung zu Fernleihe und Dokumentlieferdiensten
 
 - Möglichkeit zur Anfrage nach einer Digitalisierung oder Bereitstellung in einem Semesterapparat
 
@@ -312,7 +312,7 @@ Bereitstellungsdienste für digitale Medien:
 
 - weitere Zugangs-URLs
 
-- Hinweise zur Nutzung elektronischer Medien, z.B. zur Zugänglichkeit über VPN, notwendige Reader, DRM etc.
+- Hinweise zur Nutzung elektronischer Medien, z.B. zur Zugänglichkeit über VPN, notwendigen Readern, DRM etc.
 
 Die Verfügbarkeit und Entleihbarkeit von physischen Medien, die der Bibliothek
 gehören, werden über eine sogenannte Verfügbarkeitsrecherche, die das
@@ -323,8 +323,8 @@ proprietär oder offen sein. Beispiele für Hersteller-unabhängige Schnittstell
 sind die *Patrons Account Information API* (PAIA) als offene Schnittstelle und
 das *Session Initiation Protocol* (SIP2) als intern genutzter Standard oder das
 NISO Circulation Interchange Protocol (*NCIP*). Verschiedene Discovery-Systeme
-unterstützen diese oder andere Schnittstellen zum Ausleihsystem in Form von so
-genannten Treibern – beispielsweise unterstützt VuFind die Anbindung an FOLIO
+unterstützen diese oder andere Schnittstellen zum Ausleihsystem in Form von 
+sogenannten Treibern – beispielsweise unterstützt VuFind die Anbindung an FOLIO
 durch einen eigenen FOLIO-Treiber.
 
 [Schnittstellen]: metadaten.md#schnittstellen
@@ -332,12 +332,12 @@ durch einen eigenen FOLIO-Treiber.
 Bei den digitalen Medien ist die größte Herausforderung, den jeweils besten von
 in der Regel mehreren Zugangslinks für ein Medium zu identifizieren und zur
 Anzeige zu bringen. Zur Ermittlung des besten Zugangslinks sind in der Regel
-mehrere Prüfschritte erforderlich.  Idealerweise sind solche Prüfschritte
+mehrere Prüfschritte erforderlich. Idealerweise sind solche Prüfschritte
 konfigurierbar, allerdings ist diese Funktion oftmals kein integraler
 Bestandteil von Discovery-Systemen, sondern ein eigener Dienst. Ein Beispiel
-für einen solchen separaten Dienst ist der Webdienst DAIA+ (Keßler 2018). Ein
+für einen solchen separaten Dienst ist der Webdienst DAIA+ (Keßler 2018). Eine
 andere Möglichkeit ist der Einsatz sogenannter Link Resolver. Beim
-Link-Resolving wird über die Metadaten ein Hyperlink zu Diensten der Bibliothek
+Link Resolving wird über die Metadaten ein Hyperlink zu Diensten der Bibliothek
 ermittelt. Es wird vorrangig bei der Ermittlung von Diensten für Metadaten zu
 solchen Medien genutzt, die nicht aus dem BMS der Bibliothek und E-Ressourcen
 stammen. Ein Verfahren für das Link-Resolving ist die *Open-URL* (NISO-Standard
@@ -355,7 +355,7 @@ Zu den am häufigsten genutzten Anreicherungsdiensten gehören:
 - Cover-Anzeigen
 
 - kontextabhängige Infoboxen mit Informationen aus Nachschlagewerken,
-  z.B. Autorenportraits z.B. via *Wikidata* und *GND,* Informationen
+  z.B. Autor\*innenenportraits z.B. via *Wikidata* und *GND,* Informationen
   aus Nachschlagewerken wie Munzinger
 
 - Empfehlungsdienste mit Hinweisen auf Literatur zum selben Thema
@@ -400,21 +400,19 @@ liefert.
 
 Wie beschrieben bieten Trefferlisten mit Facetten und Empfehlungen zwar
 durchaus auch die Möglichkeit, sich eine Treffermenge zu erschließen.
-Allerdings fehlt Discovery-Systemen genau wie den OPACs häufig die Möglichkeit,
+Allerdings fehlt Discovery-Systemen genau wie OPACs häufig die Möglichkeit,
 eine systematische Suche durchzuführen. Teilweise wird ein Browsing durch die
 klassifikatorische Inhaltserschließung angeboten, jedoch fehlen vielen
-Datensätze entsprechende Daten und das Browsing bezieht sich jeweils nur auf
+Datensätzen entsprechende Daten und das Browsing bezieht sich jeweils nur auf
 Teilmenge des Suchraums.
 
 Aus diesem Grund werden derzeit verschiedene Ansätze erprobt, um eine
 thematische Suche zu ermöglichen. Hierzu zählen u.a. folgende Projekte und
-Dienste
+Dienste:
 
-- ein Nachbau der Browsing-Funktion an physischen Bücherregalen, zum
-  Beispiel bei dem kommerziellen Dienst [Blended Shelf](https://www.eikekleiner.de/blended-shelf/)
+- ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z. B. bei dem kommerziellen Dienst [Blended Shelf](https://www.eikekleiner.de/blended-shelf/)
 
-- die Nutzung von Normdaten zur Erstellung von Übersichtsseiten, zum
-  Beispiel im [Katalog des Deutschen Literaturarchivs Marbach](https://www.dla-marbach.de/katalog-beta/)
+- die Nutzung von Normdaten zur Erstellung von Übersichtsseiten, z. B. im [Katalog des Deutschen Literaturarchivs Marbach](https://www.dla-marbach.de/katalog-beta/)
 
 - die Visualisierung von Treffermengen und den darin enthaltenen
   Zusammenhängen, wie zum Beispiel bei [Open Knowledge Maps](https://openknowledgemaps.org/),
@@ -436,27 +434,27 @@ und unterliegt ähnlichen Rahmenbedingungen wie beim [Betrieb eines Bibliotheksm
 ### Betriebsmodelle
 
 Im Inhouse-Betrieb werden alle Komponenten selbst durch die Bibliothek
-betrieben und damit sind hier die weitestgehenden Anpassungen möglich.  Dies
+betrieben und damit sind hier die weitestgehenden Anpassungen möglich. Dies
 wird meist nur bei kleinen oder sehr speziellen Datenbeständen
-(Fachinformationsdienste) oder durch sehr große Einrichtungen gemacht.  Oft
+(z. B. durch die Fachinformationsdienste) oder durch sehr große Einrichtungen gemacht.  Oft
 trifft man auch hybride Lösungen, in denen neben einem vergleichsweise kleinen
 eigenen Index ein kommerzieller oder nicht-kommerzieller Index genutzt wird.
 
-In einem Hosting-Betrieb wird die gesamte Infrastruktur durch einen
-Dienstleister bereitgestellt. Dabei erfolgt die Indexierung in der Regel durch
-einheitliche Indexierungsverfahren, die von alle teilnehmenden Bibliotheken
+In einem Hosting-Betrieb wird die gesamte Infrastruktur durch eine\*n
+Dienstleister\in bereitgestellt. Dabei erfolgt die Indexierung in der Regel durch
+einheitliche Indexierungsverfahren, die von allen teilnehmenden Bibliotheken
 gemeinsam genutzt werden. Bei diesen Lösungen werden alle Daten in einen
 einheitlich aufgebauten, in einer Cloud gehosteten Index eingespielt, die
 Frontends sind nur eingeschränkt individualisierbar und lassen sich
-ausschließlich durch Konfigurationen parametrisieren.  Zusatzfunktionen lassen
+ausschließlich durch Konfigurationen parametrisieren. Zusatzfunktionen lassen
 sich über [Schnittstellen] anbinden. Wesentlicher Vorteil dieser Systeme ist
 ein vergleichsweise geringer Wartungsaufwand, ihre gute Skalierbarkeit und
-durch standardisierte Workflows ihre hohe Betriebssicherheit. Als Hoster von
+durch standardisierte Workflows und ihre hohe Betriebssicherheit. Als Hoster\*innen von
 Discovery-Systemen treten Bibliotheken, Verbünde und kommerzielle Anbieter auf.
 
 Ein Spezialfall des Hostings ist die Nutzung von Cloud-Services externer
-Anbieter für den Betrieb von BMS und Discovery-Systemen. Mehrere Hersteller von
-BMS und Discovery-Systemen sind gleichzeitig Betreiber von solchen
+Anbieter\*innen für den Betrieb von BMS und Discovery-Systemen. Mehrere Hersteller\*innen von
+BMS und Discovery-Systemen sind gleichzeitig Betreiber\*innen von solchen
 Cloud-Lösungen. In diesen Fällen wird die Software (BMS, Discovery-System)
 nicht mehr lizenziert, sondern über eine jährliche Pauschale Nutzung, Update
 und Betrieb des jeweiligen Software-Systems abgegolten.
@@ -464,14 +462,14 @@ und Betrieb des jeweiligen Software-Systems abgegolten.
 Beim Hosting oder bei der Nutzung von Software, die in der Cloud
 betrieben wird, spricht man von einer "[Datenverarbeitung im Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)".
 Die Verantwortung für Datenschutz und Datensicherheit bleibt bei der
-Bibliothek als Auftraggeber.
+Bibliothek als Auftraggeberin.
 
 ### Marktsituation
 
 Die ersten Discovery-Systeme haben Bibliotheken selbst entwickelt, im
 deutschsprachigen Raum z.B. die *E-LIB* an der Staats- und
 Universitätsbibliothek Bremen oder das *beluga*-System an der Staats- und
-Universitätsbibliothek Hamburg. Seit Ende der Nullerjahre gibt es auch
+Universitätsbibliothek Hamburg. Seit Ende der 00er Jahre gibt es auch
 kommerzielle Systeme am Markt, entweder als Teil von
 Bibliotheksmanagementsystemen der neuesten Generation oder auch als individuell
 lizenzierbare Systeme. Die Open Source-Lösung *VuFind* ermöglicht es,
@@ -480,7 +478,7 @@ eine relativ große Vielfalt von Nutzungsszenarien gibt.
 
 #### Kommerzielle Komplettsysteme
 
-Im Wesentlichen gibt es zwei vergleichbare Anbieter von Komplettsystemen für
+Im Wesentlichen gibt es zwei vergleichbare Anbieter\*innen von Komplettsystemen für
 Discovery-Systeme
 
 - ExLibris mit *Primo* und *Summon*
@@ -489,11 +487,11 @@ Discovery-Systeme
 
 Diese Systeme bieten eine fertige Lösung, in die lokale Bestandsdaten und
 weitere lokale Metadaten integriert werden können. Es fallen jährliche
-Lizenzgebühren sowie einmalige Implementierungskosten an.  Beide genannten
+Lizenzgebühren sowie einmalige Implementierungskosten an. Beide genannten
 Systeme sind weit verbreitet. Diese Systeme sind ausschließlich über die Cloud
-der jeweiligen Hersteller nutzbar. Diese sorgen für eine hohe Verfügbarkeit und
-regelmäßige Softwarepflege.  Individuell zu prüfen sind vor einem Einsatz
-folgende Fragen
+der jeweiligen Hersteller\*innen nutzbar. Diese sorgen für eine hohe Verfügbarkeit und
+regelmäßige Softwarepflege. Individuell zu prüfen sind vor einem Einsatz
+folgende Fragen:
 
 - Einbindung von Verfügbarkeitsinformationen
 
@@ -507,7 +505,7 @@ VuFind-Systeme angebunden werden.
 Ein weiteres kommerzielles Discovery-System ist *WorldCat Discovery*, das
 allerdings die Nutzung von WorldCat als Suchindex voraussetzt.
 
-#### Open Source Systeme
+#### Open Source-Systeme
 
 Unter den von Bibliotheken selbst entwickelten Discovery-Systemen sind
 international VuFind und Blacklight am weitesten verbreitet.
@@ -515,10 +513,10 @@ international VuFind und Blacklight am weitesten verbreitet.
 [VuFind](https://vufind.org/) lässt sich an verschiedene
 kommerzielle und frei verfügbare Komponenten wie Indizes und
 Bibliotheksmanagementsysteme anbinden. In den deutschsprachigen Ländern
-besteht eine lebendige Anwendergemeinschaft, die sich regelmäßig trifft.
+besteht eine lebendige Anwender\*innengemeinschaft, die sich regelmäßig trifft.
 Mit [Qcovery](https://www.qcovery.de/) und
 [finc](https://finc.info/) gibt es zwei Sub-Communities für
-wissenschaftliche Bibliotheken, die sich die Aufgaben bei Pflege und
+wissenschaftliche Bibliotheken, die sich die Aufgaben der Pflege und
 Weiterentwicklung der Software unter sich aufteilen. Die Software
 basiert auf PHP.
 
@@ -533,14 +531,14 @@ angeboten.
 
 #### Indizes
 
-Neben den kommerziellen Anbietern bieten im Bereich wissenschaftlicher
+Neben den kommerziellen Anbieter\*innen bieten im Bereich wissenschaftlicher
 Bibliotheken einige Verbundzentralen auf Suchmaschinen-Technologie basierende
 Indizes an, teilweise für die teilnehmenden Bibliotheken, teilweise auch
 darüber hinaus für die nicht-kommerzielle Nutzung. Diese frei verfügbaren
 Indizes sind für Bibliotheken, die ihre Bestandsdaten an einen Verbund liefern,
 eine hervorragende Möglichkeit, um relativ kostengünstig an ein
 Discovery-System zu kommen, da die Erstellung eines eigenen Index mit hohen
-Investitionen verbunden ist.  Metadaten-Kollektionen enthält der ALBERT-Index
+Investitionen verbunden ist. Metadaten-Kollektionen enthalten der ALBERT-Index
 des Kooperativen Bibliotheksverbundes Berlin-Brandenburg sowie der Gemeinsame
 Verbündeindex für Bestandsdaten aus allen wissenschaftlichen sowie vielen
 Spezial- und öffentlichen Bibliotheken.
@@ -549,9 +547,9 @@ Spezial- und öffentlichen Bibliotheken.
 
 Sofern ein Discovery-System nicht Teil des BMS ist, ist die Einführung immer
 mit beträchtlichen Aufwänden verbunden, die aus initialen Kosten für die
-Implementierung und laufenden Kosten für die Pflege bestehen.  Diese Kosten
+Implementierung und laufenden Kosten für die Pflege bestehen. Diese Kosten
 fallen unabhängig davon an, ob es sich um ein kommerzielles oder ein
-Open-Source-System handelt. Sie richten sich nach unterschiedlichen Kriterien,
+Open Source-System handelt. Sie richten sich nach unterschiedlichen Kriterien und
 dürften im Bereich der initialen Kosten im höheren vierstelligen Bereich
 liegen. Grundsätzlich sind die Entscheidungsprozesse bei Auswahlentscheidungen
 mit denen für ein Bibliotheksmanagement-System vergleichbar (vgl. Abschnitt
@@ -559,7 +557,7 @@ mit denen für ein Bibliotheksmanagement-System vergleichbar (vgl. Abschnitt
 
 Allerdings müssen die strategischen Vorteile eines Discovery-Systems sehr
 deutlich und auf den lokalen Bedarf hin herausgearbeitet werden. Es hat sich
-als hilfreich erwiesen, wenn Bibliotheken klar definieren, an welche
+als hilfreich erwiesen, dass Bibliotheken klar definieren, an welche
 Zielgruppen sich ein Discovery-System richtet und welche Aufgaben es erfüllen
 soll. So könnte man beispielsweise argumentieren, dass eine Suche nach
 Signaturen, die aufgrund der häufigen Komplexität der entsprechenden Systeme in
@@ -570,24 +568,24 @@ durchführen. Es sollte auch geklärt werden, ob der klassische OPAC nach
 Einführung eines Discovery-Systems überhaupt weiter angeboten werden soll.
 
 Auch der Zuschnitt der Suchräume sollte genau bedacht werden, vor allem, wenn
-über lokale Bestandsdaten hinaus eigene Metadatenkollektionen (z.B.  aus
+über lokale Bestandsdaten hinaus eigene Metadatenkollektionen (z.B. aus
 institutionellen Repositorien) integriert und durch eigene Suchfilter
 angesprochen werden sollen. Generell kann davon ausgegangen werden, dass auf
 die initiale Implementierung eines Discovery-Systems eine längere, oft
-mehrjährige Phase der Optimierung folgt, in der idealerweise konsequent auf die
+mehrjährige Phase der Optimierung folgt, die idealerweise konsequent auf die
 Usability und User Experience der Hauptzielgruppen ausgerichtet ist (vgl.
 Kapitel [Anforderungen an die IT-Entwicklung](anforderungen.md)).
 
 Die grundsätzliche Entscheidung für ein Discovery-System beinhaltet auch einen
 Wechsel der Suchparadigmen. Die Einführung eines Discovery-Systems kann nur
 dann sinnvoll erfolgen, wenn die Abkehr der Dualität von Bestandsverzeichnis
-und Bibliografie sowie den traditionellen Suchparadigmen strategisch erwünscht
+und Bibliographie sowie den traditionellen Suchparadigmen strategisch erwünscht
 ist und von entsprechenden Schulungen für das Bibliothekspersonal begleitet
 wird.
 
 Wenn ein Discovery-System im Hosting genutzt werden soll, relativieren sich die
-oben gemachten Aussagen zur Flexibilität, die Open Source Systeme bieten, da
-der Hoster in diesem Fall die Möglichkeiten festlegt, die durch die
+oben gemachten Aussagen zur Flexibilität, die Open Source-Systeme bieten, da
+die Hoster\*innen in diesem Fall die Möglichkeiten festlegen, die durch die
 Bibliotheken genutzt werden können. Ebenso verschieben sich die gemachten
 Aussagen zur Verantwortung für Betriebssicherheit und Verfügbarkeit.
 
@@ -597,9 +595,9 @@ Wie jedes IT-System brauchen auch Discovery-Systeme kontinuierliches
 technisches Monitoring (vgl. Kapitel Management von IT-Diensten), aber auch
 konzeptionelle Betreuung. Anders als der klassische Bibliothekskatalog sind
 Discovery-Systeme angetreten, um sich konsequent nach dem Informationsverhalten
-der Nutzenden zu richten. Daraus ergibt sich, dass sowohl die Implementierung
+der Nutzer\*innen zu richten. Daraus ergibt sich, dass sowohl die Implementierung
 als auch die weitere Entwicklung möglichst kleinschrittig und unter
-Einbeziehung von Analysen der Nutzung erfolgen. Neben den klassischen Methoden
+Einbeziehung von Analysen der Nutzung erfolgen sollten. Neben den klassischen Methoden
 der Usability-Forschung (siehe Kapitel [Wie beziehen wir unsere Nutzer\*innen
 ein?](anforderungen.md#einbeziehung)) bietet sich als niedrigschwellige Methode
 vor allem die Analyse von Logfiles an. Mit der Software
