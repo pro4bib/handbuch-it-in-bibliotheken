@@ -1,5 +1,3 @@
-{{< include umfrage.md >}}
-
 # Einleitung {.unnumbered}
 
 ## Motivation
@@ -26,24 +24,30 @@ gibt es doch zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht
 speziell genug an anderer Stelle behandelt werden, beispielsweise die
 zentralen [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme).
 
+## Zielgruppe
+
+Als Einführung und Nachschlagewerk wendet sich dieses Handbuch vor allem
+an Personen die nicht oder noch nicht speziell mit IT in Bibliotheken
+beschäftigt sind. Zur Klärung der Zielgruppe wurden während des Schreibprozess
+einige sogenannte [Personas](#zielgruppe) als Beispiele definiert.
+
 ## Inhalt
 
 Dieses Handbuch soll einen knappen, umfassenden Überblick über die wichtigsten
-IT-bezogenen Themen in Bibliotheken geben. Die vorliegende Version behandelt:
-
-- [Management von IT-Systemen](#management)
-
-- [Anforderungen an die IT-Entwicklung](#anforderungen)
+IT-bezogenen Themen in Bibliotheken geben. 
 
 - [Technische Infrastruktur](#infrastruktur)
+- [IT-Entwicklung](#anforderungen)
+- [Management von IT-Systemen](#management)
+- [Sicherheit & Datenschutz](#sicherheit.md)
 
+- [Daten & Metadaten](#metadaten)
 - [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme)
-
-- [Daten & Metadaten](metadaten.md)
-
-- [Discovery & Retrieval](discovery.md)
-
-Weitere Themen werden bis zur Vervollständigung des Handbuchs hinzukommen.
+- [Discovery & Retrieval](#discovery)
+- [Digitalisierung](digitalisierung.md)
+- [Forschungsnahe Dienste](forschungsnahe-dienste.md)
+  
+- [Kommunikation](kommunikation.md)
 
 ## Über dieses Handbuch
 
@@ -54,8 +58,7 @@ Expert\*innen aus dem Bibliotheksbereich, um innerhalb von drei Tagen eine
 umfassende Übersicht speziell zum Thema Bibliotheksmanagementsysteme (BMS) zu
 verfassen. Weitere Autor\*innen wurden online eingebunden. Die Veranstaltung wurde mit Mitteln des [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
 
-Zur Klärung der [Zielgruppe](#zielgruppe) wurden einige sogenannte *Personas*
-definiert.  Eine Brainstorming-Session ergab zunächst relevante Themen für den
+Eine Brainstorming-Session ergab zunächst relevante Themen für den
 Teilbereich [Bibliotheksmanagementsysteme](#bibliotheksmanagementsysteme) und eine grobe Gliederung in
 Unterkapitel. Diese wurden anschließend in mehreren Iterationen gemeinsam
 ausformuliert.
