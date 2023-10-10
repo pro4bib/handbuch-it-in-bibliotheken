@@ -2,12 +2,17 @@
 description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen in Bibliotheken
 ---
 
-{{< include umfrage.md >}}
-
 # IT-Management {#management}
 
 ::: {.callout-note}
 ## Zusammenfassung
+Dieses Kapitel beschreibt die Einführung und den Betrieb von IT-Systemen.
+Behandelt werden allgemeine Organisation und Kompetenzen über den gesamten
+Lebenszyklus.
+:::
+
+## Einleitung
+
 IT-Systeme sind selten statisch sondern folgen einem
 [Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu ihrer
 Ablösung. Während des Betriebs der Systeme müssen mögliche
@@ -17,12 +22,6 @@ Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und ein
 [organisatorischer Rahmen](#organisation) notwendig.  Um diesen Anforderungen
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
-
-:::
-
-Dieses Kapitel konzentriert sich auf den Einsatz von IT-Systemen in
-Bibliotheken.  Ein Kapitel zur [IT-Basis-Infrastruktur](infrastruktur.md)
-(Netzwerke, Netzdienste, Server, Storage, Backup u.ä.) ist in Planung.
 
 ## IT-Systeme
 
@@ -47,7 +46,9 @@ individuell erstellte Software oder die Anpassung eines existierenden
 IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die
 Anforderungen des Projektes. Dieses gemeinsame Verständnis, insbesondere
 der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren
-Stakeholdern vorhanden sein.
+Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
+und während der Entwicklung [unter Einbeziehung von Nutzer\*innen](anforderungen.md)
+ermittelt und angepasst.
 
 Zur Planungs- und Analysephase gehört neben einer grundsätzlichen
 Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
