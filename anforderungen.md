@@ -7,11 +7,11 @@ description: Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Met
 # IT-Entwicklung {#anforderungen}
 
 :::{.callout-note}
-
-Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der [Nutzenden](#einbeziehung) und auf die Nutzbarkeit des Produkts ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Neben klassischen Verfahren der [Bedarfsermittlung](#bedarfsermittlung) gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
-
+## Zusammenfassung
+Dieses Kapitel behandelt die Entwicklung von IT-Systemen. Der Schwerpunkt liegt hier auf der Einbeziehung von Nutzer*innen, um im besten Fall die tatsächlichen Bedürfnisse passend zu erfüllen.
 :::
 
+## Einleitung
 
 Im Kapitel [Management von IT-Systemen](#management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
@@ -28,6 +28,7 @@ neue Nutzungsformen von Medien.
 
 IT-Entwicklung sollte sich daher auch an
 den [Bedürfnissen](#bedarfsermittlung) von [Nutzenden](#einbeziehung) ausrichten.
+Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Dazu gehören unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
 
 ## Nutzer\*innenorientierten Gestaltung
 
