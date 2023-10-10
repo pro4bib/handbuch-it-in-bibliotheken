@@ -40,10 +40,7 @@ verwendet. Teilweise wird im Deutschen auch der allgemeinere Begriff
 die Begriffe *Integrated Library System (ILS)* und *Library Management System
 (LMS)*, zuletzt aber auch *Library Services Platforms*.
 
-
-## Übersicht
-
-### Geschichte
+## Geschichte und aktuelle Systeme
 
 Ihren Ursprung haben Bibliotheksmanagementsysteme in
 den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten
@@ -77,7 +74,7 @@ man von einem konsolidierten Markt sprechen kann [@breeding_library_nodate].
 :::{.callout-tip}
 ## Info
 
-Die erste Generation der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die zweite BMS-Generation verfügt über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die dritter Generation  zeichnet sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
+Die **erste Generation** der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die **zweite BMS-Generation** verfügte über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die **dritte Generation** zeichnete sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
 
 :::
 
@@ -98,11 +95,10 @@ Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
 ![Evolution der Bibliotheksmanagementsysteme](media/bms-timeline.png){#fig-bmsevol}
-
 Quelle: @matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
 
 ::: {.callout-tip}
-### Info
+## Info
 
 Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 überlappende Epochen einteilen (siehe @fig-bmsevol):
@@ -162,6 +158,68 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
     Open-Access-Repositorien etc.
 
 :::
+
+  ----------------------------------------------------------------------------
+             Organisation    Marktstatus            Open       Individuelle
+                                                    Source     Entwicklung
+  ---------- --------------- ---------------------- ---------- ---------------
+  aDIS/BMS   aStec           ÖBs und WBs vor allem  nein       durch aStec
+                             im BSZ                            
+
+  Alma       ExLibris        WBs in Berlin, NRW,    nein       durch ExLibris,
+                             Bayerische                        integrierte
+                             Staatsbibliothek,                 Apps in Eigenregie
+                             Schweiz                           
+
+  FOLIO      Open Library    Einführung in WBs      ja         in Eigenregie
+             Foundation                                        oder durch
+                                                               Dienstleister
+
+  Koha       Koha Community  ÖBs und                ja         in Eigenregie
+                             Spezialbibliotheken,              oder durch
+                             in Planung im KOBV                Dienstleister
+
+  LBS        OCLC            WBs im GBV und         nein       durch VZG
+                             Spezialbibliotheken               
+
+  LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
+  ----------------------------------------------------------------------------
+Stand Mitte 2022 relevante Software-Produkte {#tab-aktuelle-sw-produkte}
+
+<!--
+[FOLIO]: https://librarytechnology.org/product/folio
+[Koha]: https://librarytechnology.org/product/koha
+[Alma]: https://librarytechnology.org/product/alma
+[LIBERO]: https://librarytechnology.org/product/libero
+
+ PICA LBS: https://librarytechnology.org/products/product.pl?RC=272 
+-->
+
+In (#tab-aktuelle-sw-produkte) sind die aktuellen BMS mit der derzeit größten Marktreife und
+-durchdringung im deutschsprachigen Raum (Stand Mitte 2022, Sortierung nach Namen) angegeben.
+Weitere BMS wie ExLibris Aleph, SISIS Sunrise und allegro werden zwar auch noch an vielen Bibliotheken eingesetzt, aber nicht mehr wesentlich weiterentwickelt. Das Cloud-basierte System WMS von OCLC ist in Deutschland bislang nur vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC ein Nachfolger angekündigt.
+
+Darüber hinaus gibt es mehrere kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist, beispielsweise:
+
+- [Perpustakaan](https://must.de/default.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal
+
+- [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist in internen Forschungs- und Behörden-Bibliotheken verbreitet
+
+- Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
+
+Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
+gepflegte [Library Technology Guide](https://librarytechnology.org/products/). Für
+den Deutschsprachigen Raum gibt es Übersichten von Verbundzentralen oder 
+Büchereifachstellen, z.B. @kluge_anbieter_2022 für öffentliche Bibliotheken.
+Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können
+beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
+
+:::{.callout-tip}
+
+Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise FOLIO im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
+
+:::
+## Aufbau und Anbindung von Bibliotheksmanagementsystemen
 
 ### Komponenten
 
@@ -274,69 +332,6 @@ kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 -   Anlegen von Favoriten-Listen
 
 -   Anzeige von Buchcovern
-
-### Aktuell relevante Software-Produkte {#aktuelle-sw-produkte}
-
-Stand Mitte 2022 haben folgende aktuellen BMS die derzeit größte Marktreife und
--durchdringung im deutschsprachigen Raum (Sortierung nach Name):
-
-  ----------------------------------------------------------------------------
-             Organisation    Marktstatus            Open       Individuelle
-                                                    Source     Entwicklung
-  ---------- --------------- ---------------------- ---------- ---------------
-  aDIS/BMS   aStec           ÖBs und WBs vor allem  nein       durch aStec
-                             im BSZ                            
-
-  Alma       ExLibris        WBs in Berlin, NRW,    nein       durch ExLibris,
-                             Bayerische                        integrierte
-                             Staatsbibliothek,                 Apps in Eigenregie
-                             Schweiz                           
-
-  FOLIO      Open Library    Einführung in WBs      ja         in Eigenregie
-             Foundation                                        oder durch
-                                                               Dienstleister
-
-  Koha       Koha Community  ÖBs und                ja         in Eigenregie
-                             Spezialbibliotheken,              oder durch
-                             in Planung im KOBV                Dienstleister
-
-  LBS        OCLC            WBs im GBV und         nein       durch VZG
-                             Spezialbibliotheken               
-
-  LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
-  ----------------------------------------------------------------------------
-
-<!--
-[FOLIO]: https://librarytechnology.org/product/folio
-[Koha]: https://librarytechnology.org/product/koha
-[Alma]: https://librarytechnology.org/product/alma
-[LIBERO]: https://librarytechnology.org/product/libero
-
- PICA LBS: https://librarytechnology.org/products/product.pl?RC=272 
--->
-
-Weitere BMS wie ExLibris Aleph, SISIS Sunrise und allegro werden zwar auch noch an vielen Bibliotheken eingesetzt, aber nicht mehr wesentlich weiterentwickelt. Das Cloud-basierte System WMS von OCLC ist in Deutschland bislang nur vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC ein Nachfolger angekündigt.
-
-Darüber hinaus gibt es mehrere kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist, beispielsweise:
-
-- [Perpustakaan](https://must.de/default.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal
-
-- [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist in internen Forschungs- und Behörden-Bibliotheken verbreitet
-
-- Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
-
-Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
-gepflegte [Library Technology Guide](https://librarytechnology.org/products/). Für
-den Deutschsprachigen Raum gibt es Übersichten von Verbundzentralen oder 
-Büchereifachstellen, z.B. @kluge_anbieter_2022 für öffentliche Bibliotheken.
-Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können
-beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
-
-:::{.callout-tip}
-
-Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise FOLIO im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
-
-:::
 
 ### Vergleich mit anderen Managementsystemen
 
@@ -743,7 +738,7 @@ Katalogisierung.
 
 :::{.callout-tip}
 
-Der deutschsprachige [BMS-Markt 2022](#aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, Varianten des Betriebs (gehostet oder lokal) oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen. 
+Der deutschsprachige [BMS-Markt 2022](#tab-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, Varianten des Betriebs (gehostet oder lokal) oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen. 
 
 :::
 
