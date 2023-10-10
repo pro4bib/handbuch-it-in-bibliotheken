@@ -13,26 +13,18 @@ Ein Bibliotheksmanagementsystem ist ein IT-System, das die [Kernprozesse](#proze
 :::
 
 ## Einleitung
-
-In diesem Text wird der Begriff **Bibliotheksmanagementsystem (BMS)**
-verwendet. 
+Das BMS spielt eine zentrale Rolle für die meisten klassischen
+Geschäftsprozesse in Bibliotheken. 
 
 :::{.callout-important}
 ## Definition
-
 Ein Bibliotheksmanagementsystem ist ein Softwareprodukt, mit dem die Arbeitsprozesse
 rund um die Erwerbung, Erschließung, Ausleihe, den Zugriff und die Auffindbarmachung
 von Bibliotheksbeständen über Kataloge abgebildet und automatisiert werden
 können.
 :::
 
-Teilweise wird im Deutschen auch der allgemeinere Begriff
-*Bibliothekssystem* verwendet. In der angloamerikanischen Literatur finden sich
-die Begriffe *Integrated Library System (ILS)* und *Library Management System
-(LMS)*, zuletzt aber auch *Library Services Platforms*.
-
-Das BMS spielt eine zentrale Rolle für die meisten klassischen
-Geschäftsprozesse in Bibliotheken. Durch die Ausweitung der Aufgaben in
+Durch die Ausweitung der Aufgaben in
 den Bereichen Publikationsdienste, Open Science oder auch Lernort sind
 in neuerer Zeit jedoch noch weitere Aufgaben hinzugekommen, die durch
 die klassischen BMS nicht abgebildet werden. Darüber hinaus haben die
@@ -43,6 +35,13 @@ Publikationsunterstützung oder der Verwaltung räumlicher Ressourcen
 werden separate Systeme genutzt. Daraus ergibt sich der Bedarf, das BMS
 an diese separaten Systeme anzubinden, was die Bedeutung von
 Schnittstellen und offenen Architekturen erhöht hat.
+
+In diesem Text wird der Begriff Bibliotheksmanagementsystem
+verwendet. Teilweise wird im Deutschen auch der allgemeinere Begriff
+*Bibliothekssystem* verwendet. In der angloamerikanischen Literatur finden sich
+die Begriffe *Integrated Library System (ILS)* und *Library Management System
+(LMS)*, zuletzt aber auch *Library Services Platforms*.
+
 
 ## Übersicht
 
