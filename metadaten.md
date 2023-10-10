@@ -2,8 +2,6 @@
 description: Grundlagen der bibliothekarischen Datenverarbeitung
 ---
 
-{{< include umfrage.md >}}
-
 # Daten & Metadaten
 
 ::: {.callout-note}
