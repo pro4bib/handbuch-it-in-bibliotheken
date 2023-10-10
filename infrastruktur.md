@@ -6,6 +6,12 @@ description: Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk,
 
 # Technische Infrastruktur
 
+:::{.callout-note}
+## Zusammenfassung
+Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibliothek für den Betrieb von  Prozessen und Dienstleistungen wie [Verbuchung](#verbuchung), [Zugangskontrolle](#zugangskontrolle), [Internetzugang](#internetzugang) und [Arbeitsplätze](#gruppen--und-einzelarbeitsplätze). Neben [Diensten für Nutzer\*innen](#dienste-für-nutzerinnen) und der Basistechnologie [RFID](#rfdi) wird auch wesentliche [Dienste für Mitarbeitende](#dienste-für-mitarbeitende) beschrieben.
+
+:::
+
 ## Einleitung
 
 Die technische Infrastruktur einer Bibliothek umfasst alle IT-Systeme, die die
