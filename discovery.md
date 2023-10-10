@@ -2,8 +2,6 @@
 description: "..."
 ---
 
-{{< include umfrage.md >}}
-
 # Discovery & Retrieval {#discovery-und-retrieval}
 
 ::: {.callout-note}
