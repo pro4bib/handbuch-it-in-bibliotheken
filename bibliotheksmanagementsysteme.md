@@ -48,22 +48,14 @@ Schnittstellen und offenen Architekturen erhöht hat.
 
 ### Geschichte
 
-:::{.callout-note}
-
-Die erste Generation der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über über Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die zweite BMS-Generation verfügt über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die dritter Generation  zeichnet sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
-
-:::
-
-Bibliotheksmanagementsysteme unterstützen alle Kernprozesse des
-bibliothekarischen Arbeitens, das heißt die Erwerbung, Erschließung und
-Ausleihe von Medien. Ihren Ursprung haben Bibliotheksmanagementsystem in
+Ihren Ursprung haben Bibliotheksmanagementsysteme in
 den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten
 untereinander auszutauschen und auf diese Weise Prozesse zu optimieren.
 In dieser Zeit entwickelten sich auch die heute noch gebräuchlichen
 Austauschformate für Katalogdaten, z.B. *MARC*.
 
 In den 1970er Jahren erlaubte die fortschreitende technische
-Entwicklung, die Automatisierung weiterer Prozesse über den
+Entwicklung die Automatisierung weiterer Prozesse über den
 Datenaustausch hinaus. Zunächst war dies vor allem die Ausleihe mit der
 Verbuchung von Medien und der Erzeugung von Mahnschreiben. Auch die
 Verwaltung von Bestellungen im Rahmen der Erwerbung wurde möglich, so
@@ -85,6 +77,13 @@ Generation** war von den späten 1990er bis in die Nullerjahre sehr
 divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass
 man von einem konsolidierten Markt sprechen kann [@breeding_library_nodate].
 
+:::{.callout-tip}
+## Info
+
+Die erste Generation der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die zweite BMS-Generation verfügt über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die dritter Generation  zeichnet sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
+
+:::
+
 Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS,
 die **Next-Generation Library Management Systems**, die auch **Library
 Services Platforms** genannt werden. Diese zeichnen sich durch
@@ -98,46 +97,44 @@ Statistik- und Reporting-Funktionalitäten verbessert.
 
 Seit dem Ende der 1990er Jahre spielen auch wieder Lösungen eine Rolle,
 die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
-Regel eine große Anwender Community und lassen einen vielfältigen Markt
+Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
-::: {.callout-tip}
-
-### Evolution der Bibliotheksmanagementsysteme
-
-![](media/bms-timeline.png)
-
+![Evolution der Bibliotheksmanagementsysteme](media/bms-timeline.png){#fig-bmsevol}
 Quelle: @matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
 
+::: {.callout-tip}
+### Info
+
 Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
-überlappende Epochen einteilen:
+überlappende Epochen einteilen (siehe @fig-bmsevol):
 
 1.  **System-Epoche**: Erste Schritte in den 1950er bis in die
     1970er-Jahre hin zur Entwicklung von Software, z. T sehr
     experimentell, die die klassischen Geschäftsgänge von
-    Bibliotheken in einem digitalen System abbilden sollten -
-    dadurch prägte sich der Begriff "Bibliothekssystem". Das
-    Augenmerk bei der Entwicklung lag besonders auf Nachbildungen
+    Bibliotheken in einem digitalen System abbilden sollen --
+    dadurch prägt sich der Begriff "Bibliothekssystem". Das
+    Augenmerk bei der Entwicklung liegt besonders auf Nachbildungen
     des Leihverkehrs unter besonderer Beachtung der Identifikation
-    überfälliger Medien
+    überfälliger Medien.
 
 2.  **Epoche der Funktionalität**: Kommerzielle
-    Bibliothekssoftware-Anbieter begannen sich zu formieren, die
+    Bibliothekssoftware-Anbieter beginnen sich zu formieren, die
     erstmals eine integrierte Lösung der verschiedenen
     Automationsbereiche (Erwerbung, Katalogisierung,
-    Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anboten.
-    Hierdurch entstand die Bezeichnung "Integriertes
+    Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anbieten.
+    Hierdurch entsteht die Bezeichnung "Integriertes
     Bibliothekssystem" (IBS), der auf den aus dem
     US-amerikanischen Raum übernommenen Begriff "Integrated
-    Library System" (ILS) zurückgeht. In den 1980ern entstanden
+    Library System" (ILS) zurückgeht. In den 1980ern entstehen
     die ersten Online-Kataloge (OPAC), die die in Bibliotheken
-    traditionellen Zettelkataloge nachbildeten.
+    traditionellen Zettelkataloge nachbilden.
 
 3.  **Nutzer\*innen-Fokus-Epoche**: Durch die Erkenntnis, dass sich
-    die Gewohnheiten von Bibliotheks-Nutzer\*innen im Zugang zu und
+    die Gewohnheiten von Bibliotheksnutzer\*innen im Zugang zu und
     Umgang mit Medien u.a. mit dem Aufkommen des WWW in ihrem
     Alltag zunehmend ändern (z.B. durch die Nutzung von
-    Online-Shopping und Suchmaschinen), rückten die Bedürfnisse der
+    Online-Shopping und Suchmaschinen), rücken die Bedürfnisse der
     Nutzer\*innen immer mehr in den Fokus bei der Entwicklung von
     Bibliothekssystemen
 
