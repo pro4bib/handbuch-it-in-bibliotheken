@@ -221,12 +221,9 @@ div.csl-indent {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung">Einleitung</a>
-  <ul class="collapse">
-  <li><a href="#ursprung-und-motivation" id="toc-ursprung-und-motivation" class="nav-link" data-scroll-target="#ursprung-und-motivation">Ursprung und Motivation</a></li>
-  <li><a href="#vergleich-mit-klassischen-katalogen" id="toc-vergleich-mit-klassischen-katalogen" class="nav-link" data-scroll-target="#vergleich-mit-klassischen-katalogen">Vergleich mit klassischen Katalogen</a></li>
-  <li><a href="#grenzen-und-alternativen" id="toc-grenzen-und-alternativen" class="nav-link" data-scroll-target="#grenzen-und-alternativen">Grenzen und Alternativen</a></li>
-  </ul></li>
+  <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung">Einleitung</a></li>
+  <li><a href="#ursprung-und-motivation-von-discovery-systemen" id="toc-ursprung-und-motivation-von-discovery-systemen" class="nav-link" data-scroll-target="#ursprung-und-motivation-von-discovery-systemen">Ursprung und Motivation von Discovery-Systemen</a></li>
+  <li><a href="#vergleich-mit-klassischen-bibliothekskatalogen" id="toc-vergleich-mit-klassischen-bibliothekskatalogen" class="nav-link" data-scroll-target="#vergleich-mit-klassischen-bibliothekskatalogen">Vergleich mit klassischen Bibliothekskatalogen</a></li>
   <li><a href="#komponenten" id="toc-komponenten" class="nav-link" data-scroll-target="#komponenten">Komponenten</a>
   <ul class="collapse">
   <li><a href="#frontend" id="toc-frontend" class="nav-link" data-scroll-target="#frontend">Frontend</a></li>
@@ -247,6 +244,7 @@ div.csl-indent {
   <li><a href="#auswahl--und-entscheidungsprozesse" id="toc-auswahl--und-entscheidungsprozesse" class="nav-link" data-scroll-target="#auswahl--und-entscheidungsprozesse">Auswahl- und Entscheidungsprozesse</a></li>
   <li><a href="#monitoring-und-weiterentwicklung" id="toc-monitoring-und-weiterentwicklung" class="nav-link" data-scroll-target="#monitoring-und-weiterentwicklung">Monitoring und Weiterentwicklung</a></li>
   </ul></li>
+  <li><a href="#grenzen-und-alternativen-zu-discovery-systemen" id="toc-grenzen-und-alternativen-zu-discovery-systemen" class="nav-link" data-scroll-target="#grenzen-und-alternativen-zu-discovery-systemen">Grenzen und Alternativen zu Discovery-Systemen</a></li>
   <li><a href="#zusammenfassung-ausblick" id="toc-zusammenfassung-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-ausblick">Zusammenfassung &amp; Ausblick</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/discovery.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/discovery.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
@@ -283,20 +281,21 @@ Zusammenfassung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im Gegensatz zum klassischen Online Public Access Catalogue (<abbr title="Online Public Access Catalogue, Katalog einer Bibliothek">OPAC</abbr>) bieten <strong>Discovery-Systeme</strong> mehr Inhalte, Funktionen und in der Regel auch modernere Nutzungsoberflächen. In diesem Kapitel werden zunächst die Unterschiede beider Recherchesysteme erklärt sowie Grenzen und Alternativen beleuchtet. In der Folge werden die einzelnen <a href="#komponenten">Bestandteile</a>, <a href="#funktionen">Funktionen</a> und Dienste vorgestellt und Informationen zu Auswahl und <a href="#betrieb">Betrieb</a> von Discovery-Systemen geliefert.</p>
+<p>Im Gegensatz zum klassischen Online Public Access Catalogue (<abbr title="Online Public Access Catalogue, Katalog einer Bibliothek">OPAC</abbr>) bieten <strong>Discovery-Systeme</strong> mehr Inhalte, Funktionen und in der Regel auch modernere Nutzungsoberflächen. In diesem Kapitel werden die Unterschiede zwischen beiden Recherchesystemen erklärt, typische <a href="#komponenten">Bestandteile</a> und <a href="#funktionen">Funktionen</a> vorgestellt sowie Hinweise zu Auswahl und <a href="#betrieb">Betrieb</a> von Discovery-Systemen gegeben.</p>
 </div>
 </div>
 <section id="einleitung" class="level2">
 <h2 class="anchored" data-anchor-id="einleitung">Einleitung</h2>
 <p>Als Discovery-Systeme werden Rechercheplattformen bezeichnet, die möglichst alle Dienste einer Bibliothek über einen einheitlichen Zugang nutzbar machen. Insbesondere beschränken sich die recherchierbaren Medien nicht nur auf den lokalen Bestand. Die Benutzung und der Funktionsumfang orientieren sich dabei an gängigen Suchmaschinen und Verzeichnissen im Web.</p>
-<section id="ursprung-und-motivation" class="level3">
-<h3 class="anchored" data-anchor-id="ursprung-und-motivation">Ursprung und Motivation</h3>
+</section>
+<section id="ursprung-und-motivation-von-discovery-systemen" class="level2">
+<h2 class="anchored" data-anchor-id="ursprung-und-motivation-von-discovery-systemen">Ursprung und Motivation von Discovery-Systemen</h2>
 <p>Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten insbesondere von studentischen Nutzer*innen nur noch eine untergeordnete Rolle. Parallel zeichnete sich ab, dass die dritte Generation der Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte, vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open Source-Software verfügbar, so dass technisch aufgeschlossene Einrichtungen eigene Experimente mit der Indexierung bibliographischer Daten begannen.</p>
 <p>Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von Produkten kommerzieller Anbieter*innen und einige Open Source-Projekte. Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter wie Verbundzentralen, Hersteller*innen und kommerzielle Dienstleister*innen betrieben werden. Die Hersteller kommerzieller Bibliotheksmanagementsysteme der neueren Generation bieten Discovery-Systeme an, die besonders gut mit dem <a href="./bibliotheksmanagementsysteme.html">BMS</a> der gleichen Hersteller*innen zusammenarbeiten.</p>
 <p>Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben (Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server, …) ist die Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände gemeinsam zugänglich zu machen.</p>
 </section>
-<section id="vergleich-mit-klassischen-katalogen" class="level3">
-<h3 class="anchored" data-anchor-id="vergleich-mit-klassischen-katalogen">Vergleich mit klassischen Katalogen</h3>
+<section id="vergleich-mit-klassischen-bibliothekskatalogen" class="level2">
+<h2 class="anchored" data-anchor-id="vergleich-mit-klassischen-bibliothekskatalogen">Vergleich mit klassischen Bibliothekskatalogen</h2>
 <p>Da Discovery-Systeme die Metadaten und Volltexte anders als die klassischen OPACs aufbereiten, sind Suchstrategien und -ergebnisse in beiden Systemen unterschiedlich.</p>
 <p>Discovery-Systeme richten sich in der Regel an Benutzer*innen, die den Umgang mit bibliographischen Recherchesystemen wie Katalogen und Fachbibliographien nicht gewohnt sind und die mit den Nutzungsmustern bedient werden sollen, die sie auch aus dem Web gewohnt sind.</p>
 <p>Neben der Recherche nach bibliographischen Informationen sollen Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien unterstützen. Dieser auch als <strong>Delivery</strong> bezeichnete Prozess hat sich bereits in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der Nutzer*innen herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist daher ein wichtiges Qualitätskriterium.</p>
@@ -347,24 +346,6 @@ Zusammenfassung
 </table>
 </div>
 </section>
-<section id="grenzen-und-alternativen" class="level3">
-<h3 class="anchored" data-anchor-id="grenzen-und-alternativen">Grenzen und Alternativen</h3>
-<p>Discovery-Systeme sind in der Regel nur einer von vielen Bausteinen in der Prozesskette der Recherche, Bewertung und Beschaffung von Literatur und spielen an unterschiedlichen Stellen eine Rolle. Sie helfen dabei, Literatur zu entdecken und Zugangswege zu ermitteln und brechen die traditionelle Grenze zwischen Katalog und Bibliografien durch einen zentralen Sucheinstieg auf. Trotz dieser Stärken können die Systeme nachgewiesene Medien nur begrenzt kontextualisieren und bewerten und bleiben in der Praxis oft hinter den Erwartungen zurück <span class="citation" data-cites="christensen_wissenschaftliche_2022">(<a href="literatur.html#ref-christensen_wissenschaftliche_2022" role="doc-biblioref">Christensen 2022</a>)</span>. Je nach Anwendung spielen daher alternative Systeme weiterhin eine Rolle:</p>
-<ul>
-<li><p>Komplexe bibliographische Angaben, zum Beispiel zum Erscheinungsverlauf von Zeitschriften oder mehrbändigen Werken, oder die Suche nach Signaturen lassen sich möglicherweise schneller über <strong>herkömmliche bibliothekarische Instrumente</strong> beziehungsweise Spezialdatenbanken wie die des BMS ermitteln.</p></li>
-<li><p>Zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder spezielle <strong>Academic Search Engines</strong> wie Google Scholar sowie gänzlich andere Wege wie bestehende Literaturverzeichnisse, Empfehlungslisten auf Lernplattformen und Webshops.</p></li>
-</ul>
-<p>Insbesondere Webshops haben im Vergleich zu Discovery-Systemen sehr personalisierte Such- und Empfehlungsdienste, die jedoch auf einer intensiven Auswertung des jeweiligen Nutzungsverhaltens basieren. Die Verwendung dieser Daten zur Personalisierung ist auch in Discovery-Systemen denkbar, wird aber aus Datenschutz- und Neutralitätsgründen grundsätzlich eher abgelehnt.</p>
-<p>Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende Suchen bieten <strong>Wissensgraphen</strong> (knowledge graphs), die die vielfältigen Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in ausgewählten Bereichen, zum Beispiel die Plattform <a href="https://sonar.fh-potsdam.de/">SoNAR</a> zur historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren bibliographischen Inhalten <em>WikiCite</em> und dem dazu gehörigen Browsing-Interface <a href="https://scholia.toolforge.org/">Scholia</a> (siehe Abbildung <a href="#fig-scholia">Abbildung&nbsp;<span>7.1</span></a>).</p>
-<div id="fig-scholia" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/scholia.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;7.1: Thematisches Netzwerk von <a href="https://scholia.toolforge.org/topic/Q45340488">Publikationen in und über Scholia</a></figcaption>
-</figure>
-</div>
-<p>Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und Alternativen in der Praxis fließend sind und dass Discovery-Systeme perspektivisch um Funktionen anderer Systeme erweitert werden können und sollten.</p>
-</section>
-</section>
 <section id="komponenten" class="level2">
 <h2 class="anchored" data-anchor-id="komponenten">Komponenten</h2>
 <p>Ein Discovery-System umfasst verschiedene Komponenten. Dazu gehören</p>
@@ -406,12 +387,12 @@ Zusammenfassung
 </ul>
 <p>Die Suche in Discovery-Systemen nutzt in der Regel verschiedene Funktionen der Suchmaschinentechnologie, um einen eingegebenen Suchbegriff gegen den Index abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma „beste Treffer“ statt „exakte Treffer“ mehr Treffer als Bibliothekskataloge <span class="citation" data-cites="steilen_discovery-systeme_2012">(<a href="literatur.html#ref-steilen_discovery-systeme_2012" role="doc-biblioref">Steilen 2012</a>)</span>. Sie nutzen außerdem Algorithmen für die Relevanzsortierung (<em>Ranking</em>), um die Trefferlisten möglichst nutzungsorientiert aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort, …) für eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie die Anzahl von Ausleihen, Aufrufen und Zitationen bislang nicht in das Ranking ein.</p>
 <p>Zu den Funktionalitäten für die Suchunterstützung gehören auch die Autovervollständigung sowie die Vorschlagsfunktion von Suchbegriffen. In beiden Fällen wird der Suchindex in Echtzeit geprüft. Es gehört zu den zentralen Zielen von Discovery-Systemen, Null-Treffer-Meldungen zu vermeiden.</p>
-<p>Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind">Abbildung&nbsp;<span>7.2</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
+<p>Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind">Abbildung&nbsp;<span>7.1</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
 <p>Die Weiterverwendung von Literaturangaben wird durch verschiedene Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per Mail verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen herunterladen.</p>
 <div id="fig-vufind" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/vufind.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;7.2: Beispiel eines Rechercheergebnis in einem Discovery-Interface (<a href="https://core.coll.mpg.de/">Quelle</a>)</figcaption>
+<figcaption class="figure-caption">Abbildung&nbsp;7.1: Beispiel eines Rechercheergebnis in einem Discovery-Interface (<a href="https://core.coll.mpg.de/">Quelle</a>)</figcaption>
 </figure>
 </div>
 </section>
@@ -525,6 +506,23 @@ Zusammenfassung
 <h3 class="anchored" data-anchor-id="monitoring-und-weiterentwicklung">Monitoring und Weiterentwicklung</h3>
 <p>Wie jedes IT-System brauchen auch Discovery-Systeme kontinuierliches technisches Monitoring (vgl. Kapitel Management von IT-Diensten), aber auch konzeptionelle Betreuung. Anders als der klassische Bibliothekskatalog sind Discovery-Systeme angetreten, um sich konsequent nach dem Informationsverhalten der Nutzer*innen zu richten. Daraus ergibt sich, dass sowohl die Implementierung als auch die weitere Entwicklung möglichst kleinschrittig und unter Einbeziehung von Analysen der Nutzung erfolgen sollten. Neben den klassischen Methoden der Usability-Forschung (siehe Kapitel <a href="./anforderungen.html#einbeziehung">Wie beziehen wir unsere Nutzer*innen ein?</a>) bietet sich als niedrigschwellige Methode vor allem die Analyse von Logfiles an. Mit der Software <a href="https://matomo.org/">Matomo</a> kann, auch unter Berücksichtigung von datenschutzrechtlichen Vorschriften, ermittelt werden, welche Anfragen an ein System gestellt werden.</p>
 </section>
+</section>
+<section id="grenzen-und-alternativen-zu-discovery-systemen" class="level2">
+<h2 class="anchored" data-anchor-id="grenzen-und-alternativen-zu-discovery-systemen">Grenzen und Alternativen zu Discovery-Systemen</h2>
+<p>Discovery-Systeme sind in der Regel nur einer von vielen Bausteinen in der Prozesskette der Recherche, Bewertung und Beschaffung von Literatur und spielen an unterschiedlichen Stellen eine Rolle. Sie helfen dabei, Literatur zu entdecken und Zugangswege zu ermitteln und brechen die traditionelle Grenze zwischen Katalog und Bibliografien durch einen zentralen Sucheinstieg auf. Trotz dieser Stärken können die Systeme nachgewiesene Medien nur begrenzt kontextualisieren und bewerten und bleiben in der Praxis oft hinter den Erwartungen zurück <span class="citation" data-cites="christensen_wissenschaftliche_2022">(<a href="literatur.html#ref-christensen_wissenschaftliche_2022" role="doc-biblioref">Christensen 2022</a>)</span>. Je nach Anwendung spielen daher alternative Systeme weiterhin eine Rolle:</p>
+<ul>
+<li><p>Komplexe bibliographische Angaben, zum Beispiel zum Erscheinungsverlauf von Zeitschriften oder mehrbändigen Werken, oder die Suche nach Signaturen lassen sich möglicherweise schneller über <strong>herkömmliche bibliothekarische Instrumente</strong> beziehungsweise Spezialdatenbanken wie die des BMS ermitteln.</p></li>
+<li><p>Zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder spezielle <strong>Academic Search Engines</strong> wie Google Scholar sowie gänzlich andere Wege wie bestehende Literaturverzeichnisse, Empfehlungslisten auf Lernplattformen und Webshops.</p></li>
+</ul>
+<p>Insbesondere Webshops haben im Vergleich zu Discovery-Systemen sehr personalisierte Such- und Empfehlungsdienste, die jedoch auf einer intensiven Auswertung des jeweiligen Nutzungsverhaltens basieren. Die Verwendung dieser Daten zur Personalisierung ist auch in Discovery-Systemen denkbar, wird aber aus Datenschutz- und Neutralitätsgründen grundsätzlich eher abgelehnt.</p>
+<p>Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende Suchen bieten <strong>Wissensgraphen</strong> (knowledge graphs), die die vielfältigen Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in ausgewählten Bereichen, zum Beispiel die Plattform <a href="https://sonar.fh-potsdam.de/">SoNAR</a> zur historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren bibliographischen Inhalten <em>WikiCite</em> und dem dazu gehörigen Browsing-Interface <a href="https://scholia.toolforge.org/">Scholia</a> (siehe Abbildung <a href="#fig-scholia">Abbildung&nbsp;<span>7.2</span></a>).</p>
+<div id="fig-scholia" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="media/scholia.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Abbildung&nbsp;7.2: Thematisches Netzwerk von <a href="https://scholia.toolforge.org/topic/Q45340488">Publikationen in und über Scholia</a></figcaption>
+</figure>
+</div>
+<p>Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und Alternativen in der Praxis fließend sind und dass Discovery-Systeme perspektivisch um Funktionen anderer Systeme erweitert werden können und sollten.</p>
 </section>
 <section id="zusammenfassung-ausblick" class="level2">
 <h2 class="anchored" data-anchor-id="zusammenfassung-ausblick">Zusammenfassung &amp; Ausblick</h2>
