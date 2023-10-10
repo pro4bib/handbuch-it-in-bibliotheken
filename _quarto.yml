@@ -16,8 +16,8 @@ book:
   chapters:
     - index.md  # = einleitung.md
     - infrastruktur.md
-    - anforderungen.md
     - management.md
+    - anforderungen.md
     - sicherheit.md
     - metadaten.md
     - bibliotheksmanagementsysteme.md
