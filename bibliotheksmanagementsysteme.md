@@ -40,7 +40,7 @@ verwendet. Teilweise wird im Deutschen auch der allgemeinere Begriff
 die Begriffe *Integrated Library System (ILS)* und *Library Management System
 (LMS)*, zuletzt aber auch *Library Services Platforms*.
 
-## Geschichte und aktuelle Systeme
+## Entwicklung der Bibliotheksmanagementsysteme
 
 Ihren Ursprung haben Bibliotheksmanagementsysteme in
 den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten
@@ -95,6 +95,7 @@ Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
 ![Evolution der Bibliotheksmanagementsysteme](media/bms-timeline.png){#fig-bmsevol}
+
 Quelle: @matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
 
 ::: {.callout-tip}
@@ -184,7 +185,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 
   LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
   ----------------------------------------------------------------------------
-: Stand Mitte 2022 relevante Software-Produkte {#tbl-aktuelle-sw-produkte}
+: relevante Software-Produkte (Stand Mitte 2022) {#tbl-aktuelle-sw-produkte}
 
 <!--
 [FOLIO]: https://librarytechnology.org/product/folio
@@ -215,13 +216,12 @@ Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können
 beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
 
 :::{.callout-tip}
+## Info
 
 Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise FOLIO im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
 
 :::
-## Aufbau und Anbindung von Bibliotheksmanagementsystemen
-
-### Komponenten
+## Funktionalitäten von Bibliotheksmanagementsystemen
 
 BMS sind in der Regel modular aufgebaut und verfügen mindestens über
 Module für folgende Funktionen:
@@ -232,7 +232,9 @@ Module für folgende Funktionen:
 
 -   Ausleihe
 
--   ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzenden richtet
+-   ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzer*innen richtet
+
+### Grundlegende Komponenten
 
 Die Systeme der **1. und 2. Generation** können als sehr ausgereift
 bezeichnet werden und lassen vielfältige Möglichkeiten zu,
@@ -240,9 +242,7 @@ bibliothekarische Geschäftsgänge in einem hohen Detaillierungsgrad
 abzubilden. Nachfolgend werden diese entsprechenden Aufgabenbereiche
 skizziert.
 
-#### Erwerbung
-
-meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen z.B. folgende Aufgabengebiete:
+**Erwerbung** meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen z.B. folgende Aufgabengebiete:
 
 -   Bestellungen
 
@@ -260,9 +260,7 @@ meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen z.B. f
 
 $\Rightarrow$ *Siehe auch [Prozessabbildung: Erwerbung](#erwerbung-prozess)*
 
-#### Katalogisierung
-
-meint die Erschließung der verwalteten Medien und digitalen Quellen, z.B.
+**Katalogisierung** meint die Erschließung der verwalteten Medien und digitalen Quellen, z.B.
 anhand
 
 -   Übernahme von Fremddaten
@@ -273,9 +271,7 @@ anhand
 
 $\Rightarrow$ *Siehe auch [Prozessabbildung: Katalogisierung](#katalogisierung-prozess)*
 
-#### Ausleihe
-
-meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt
+**Ausleihe** meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt
 Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Abbildung komplexer Reglements nach Benutzer- und Medientypen,
@@ -293,10 +289,8 @@ Interaktionen mit Nutzer\*innen wie z.B.:
 
 $\Rightarrow$ *Siehe auch [Prozessabbildung: Ausleihe](#ausleihe-prozess)*
 
-#### Recherchemodul
-
-Sicht für die Nutzer\*innen auf Bestände der Einrichtung zur Recherche
-und Kontofunktionen
+Das **Recherchemodul** stellt die Sicht für die Nutzer\*innen auf Bestände der Einrichtung zur Recherche
+und Kontofunktionen dar:
 
 -   Katalog (auch OPAC genannt)
 
@@ -538,7 +532,7 @@ Während die integrierten Module vor allem auf die Daten des eigenen
 Systems fokussiert sind, können externe Werkzeuge auch Fremddaten
 aufnehmen, zum Beispiel Daten aus Besucherzählern.
 
-## Bibliotheksorganisation
+### Bibliotheksorganisation
 
 Bei der Implementierung oder Anpassung eines BMS ist die Organisation
 der Bibliothek, die Gestaltung der Prozesse sowie die räumliche
