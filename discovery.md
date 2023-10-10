@@ -8,11 +8,10 @@ description: "Inhalte und Funktionen von Discovery-Systemen und Kriterien für i
 ## Zusammenfassung
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*) bieten
 **Discovery-Systeme** mehr Inhalte, Funktionen und in der Regel auch modernere
-Nutzungsoberflächen. In diesem Kapitel werden zunächst die Unterschiede beider
-Recherchesysteme erklärt sowie Grenzen und Alternativen beleuchtet. In der
-Folge werden die einzelnen [Bestandteile](#komponenten),
-[Funktionen](#funktionen) und Dienste vorgestellt und Informationen zu Auswahl
-und [Betrieb](#betrieb) von Discovery-Systemen geliefert.
+Nutzungsoberflächen. In diesem Kapitel werden die Unterschiede zwischen beiden
+Recherchesystemen erklärt, typische [Bestandteile](#komponenten) und
+[Funktionen](#funktionen) vorgestellt sowie Hinweise zu Auswahl
+und [Betrieb](#betrieb) von Discovery-Systemen gegeben.
 :::
 
 ## Einleitung
@@ -23,7 +22,7 @@ Insbesondere beschränken sich die recherchierbaren Medien nicht nur auf den
 lokalen Bestand. Die Benutzung und der Funktionsumfang orientieren sich dabei
 an gängigen Suchmaschinen und Verzeichnissen im Web.
 
-### Ursprung und Motivation
+## Ursprung und Motivation von Discovery-Systemen
 
 Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere
 Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten
@@ -50,7 +49,7 @@ Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
 Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände
 gemeinsam zugänglich zu machen.
 
-### Vergleich mit klassischen Katalogen
+## Vergleich mit klassischen Bibliothekskatalogen
 
 Da Discovery-Systeme die Metadaten und Volltexte anders als die klassischen
 OPACs aufbereiten, sind Suchstrategien und -ergebnisse in beiden Systemen
@@ -93,55 +92,6 @@ Nutzungslizenzen zugeordnet sind.
   Metadatenmodell     bibliothekarisches Schema mit Hierarchien und Verweisen   "flache Version" eines bibliothekarischen Schemas
 
  : Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System {#tbl-discovery-vs-opac}
-
-### Grenzen und Alternativen
-
-Discovery-Systeme sind in der Regel nur einer von vielen Bausteinen in der
-Prozesskette der Recherche, Bewertung und Beschaffung von Literatur und spielen
-an unterschiedlichen Stellen eine Rolle. Sie helfen dabei, Literatur zu
-entdecken und Zugangswege zu ermitteln und brechen die traditionelle Grenze
-zwischen Katalog und Bibliografien durch einen zentralen Sucheinstieg auf.
-Trotz dieser Stärken können die Systeme nachgewiesene Medien nur begrenzt
-kontextualisieren und bewerten und bleiben in der Praxis oft hinter den
-Erwartungen zurück [@christensen_wissenschaftliche_2022]. Je nach Anwendung
-spielen daher alternative Systeme weiterhin eine Rolle:
-
-- Komplexe bibliographische Angaben, zum Beispiel zum
-  Erscheinungsverlauf von Zeitschriften oder mehrbändigen Werken, oder
-  die Suche nach Signaturen lassen sich möglicherweise schneller
-  über **herkömmliche bibliothekarische Instrumente** beziehungsweise
-  Spezialdatenbanken wie die des BMS ermitteln.
-
-- Zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder
-  spezielle **Academic Search Engines** wie Google Scholar sowie gänzlich
-  andere Wege wie bestehende Literaturverzeichnisse, Empfehlungslisten auf
-  Lernplattformen und Webshops.
-
-Insbesondere Webshops haben im Vergleich zu Discovery-Systemen sehr
-personalisierte Such- und Empfehlungsdienste, die jedoch auf einer
-intensiven Auswertung des jeweiligen Nutzungsverhaltens basieren. Die
-Verwendung dieser Daten zur Personalisierung ist auch in
-Discovery-Systemen denkbar, wird aber aus Datenschutz- und
-Neutralitätsgründen grundsätzlich eher abgelehnt.
-
-Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende
-Suchen bieten **Wissensgraphen** (knowledge graphs), die die vielfältigen
-Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und
-visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten
-sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in
-ausgewählten Bereichen, zum Beispiel die Plattform
-[SoNAR](https://sonar.fh-potsdam.de/) zur historischen Netzwerkanalyse. Ein
-ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die
-Datenbank Wikidata mit ihren bibliographischen Inhalten *WikiCite* und dem dazu
-gehörigen Browsing-Interface [Scholia](https://scholia.toolforge.org/) (siehe
-Abbildung @fig-scholia).
-
-![Thematisches Netzwerk von [Publikationen in und über Scholia](https://scholia.toolforge.org/topic/Q45340488)](media/scholia.png){#fig-scholia}
-
-Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und
-Alternativen in der Praxis fließend sind und dass Discovery-Systeme
-perspektivisch um Funktionen anderer Systeme erweitert werden können und
-sollten.
 
 ## Komponenten
 
@@ -604,5 +554,54 @@ vor allem die Analyse von Logfiles an. Mit der Software
 [Matomo](https://matomo.org/) kann, auch unter Berücksichtigung von
 datenschutzrechtlichen Vorschriften, ermittelt werden, welche Anfragen an ein
 System gestellt werden.
+
+## Grenzen und Alternativen zu Discovery-Systemen
+
+Discovery-Systeme sind in der Regel nur einer von vielen Bausteinen in der
+Prozesskette der Recherche, Bewertung und Beschaffung von Literatur und spielen
+an unterschiedlichen Stellen eine Rolle. Sie helfen dabei, Literatur zu
+entdecken und Zugangswege zu ermitteln und brechen die traditionelle Grenze
+zwischen Katalog und Bibliografien durch einen zentralen Sucheinstieg auf.
+Trotz dieser Stärken können die Systeme nachgewiesene Medien nur begrenzt
+kontextualisieren und bewerten und bleiben in der Praxis oft hinter den
+Erwartungen zurück [@christensen_wissenschaftliche_2022]. Je nach Anwendung
+spielen daher alternative Systeme weiterhin eine Rolle:
+
+- Komplexe bibliographische Angaben, zum Beispiel zum
+  Erscheinungsverlauf von Zeitschriften oder mehrbändigen Werken, oder
+  die Suche nach Signaturen lassen sich möglicherweise schneller
+  über **herkömmliche bibliothekarische Instrumente** beziehungsweise
+  Spezialdatenbanken wie die des BMS ermitteln.
+
+- Zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder
+  spezielle **Academic Search Engines** wie Google Scholar sowie gänzlich
+  andere Wege wie bestehende Literaturverzeichnisse, Empfehlungslisten auf
+  Lernplattformen und Webshops.
+
+Insbesondere Webshops haben im Vergleich zu Discovery-Systemen sehr
+personalisierte Such- und Empfehlungsdienste, die jedoch auf einer
+intensiven Auswertung des jeweiligen Nutzungsverhaltens basieren. Die
+Verwendung dieser Daten zur Personalisierung ist auch in
+Discovery-Systemen denkbar, wird aber aus Datenschutz- und
+Neutralitätsgründen grundsätzlich eher abgelehnt.
+
+Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende
+Suchen bieten **Wissensgraphen** (knowledge graphs), die die vielfältigen
+Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und
+visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten
+sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in
+ausgewählten Bereichen, zum Beispiel die Plattform
+[SoNAR](https://sonar.fh-potsdam.de/) zur historischen Netzwerkanalyse. Ein
+ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die
+Datenbank Wikidata mit ihren bibliographischen Inhalten *WikiCite* und dem dazu
+gehörigen Browsing-Interface [Scholia](https://scholia.toolforge.org/) (siehe
+Abbildung @fig-scholia).
+
+![Thematisches Netzwerk von [Publikationen in und über Scholia](https://scholia.toolforge.org/topic/Q45340488)](media/scholia.png){#fig-scholia}
+
+Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und
+Alternativen in der Praxis fließend sind und dass Discovery-Systeme
+perspektivisch um Funktionen anderer Systeme erweitert werden können und
+sollten.
 
 ## Zusammenfassung & Ausblick
