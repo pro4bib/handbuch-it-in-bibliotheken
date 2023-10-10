@@ -43,27 +43,27 @@ Kapitel bilden grob zwei Blöcke:
  
 Allgemeine technische Grundlagen:
  
-- [Technische Infrastruktur](infrastruktur.md) beinhaltet ...
+- [Technische Infrastruktur](infrastruktur.md) beschreibt grundlegende technischen Einrichtungen einer Bibliothek für den Betrieb von Prozessen und Dienstleistungen
  
-- [IT-Entwicklung](anforderungen.md) umfasst vor allem die Ermittlung von Bedarfen und Anforderungen an IT-Systeme
- 
-- [Management von IT-Systemen](management.md) ...
- 
+- [Management von IT-Systemen](management.md) beinhaltet die Einführung und den Betrieb von IT-Systemen allgemein
+
+- [IT-Entwicklung](anforderungen.md) umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
+
 - [Sicherheit & Datenschutz](sicherheit.md) ...
  
-- [Daten & Metadaten](metadaten.md): ...
+- [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor.
  
 Bibliothekspezifische Dienste:
  
 - [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Informationssysteme für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
  
-- [Discovery & Retrieval](discovery.md) ...
+- [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen.
  
-- [Digitalisierung](digitalisierung.md) ...
+- [Digitalisierung](digitalisierung.md) beschreibt ...
  
-- [Forschungsnahe Dienste](forschungsnahe-dienste.md) ...
+- [Forschungsnahe Dienste](forschungsnahe-dienste.md) sind ...
  
-- [Kommunikation](kommunikation.md) ...
+- [Kommunikation](kommunikation.md) beinhaltet ...
 
 ## Zur Entstehung dieses Handbuchs
 
