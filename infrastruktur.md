@@ -1309,3 +1309,10 @@ zwischen Unternehmens- bzw.  institutionskritischen Dokumenten, die nicht für
 die Bibliotheksnutzer verfügbar sein sollen, und Dokumenten mit
 bibliothekarischem Bezug zu unterscheiden, denn eine Bibliothek ist im
 Allgemeinen kein Archiv.
+
+## Zusammenfassung und Ausblick
+
+Die technische Infrastruktur bildet die Grundlage für die Dienste einer Bibliothek.
+Während sich die grundlegenden Dienste für Mitarbeiter\*innen nicht wesentlich von
+anderen Einrichtungen unterscheiden, sind viele Dienste für Nutzer\*innen an die
+Verwaltung physischer Medien gekoppelt.
