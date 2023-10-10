@@ -1,8 +1,6 @@
 ---
-description: Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanagementsystemen (BMS/LMS) von Beschaffung bis Betrieb
+description: Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanagementsystemen (BMS) von Beschaffung bis Betrieb
 ---
-
-{{< include umfrage.md >}}
 
 # Bibliotheksmanagementsysteme {#bibliotheksmanagementsysteme}
 
@@ -100,6 +98,7 @@ Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
 ![Evolution der Bibliotheksmanagementsysteme](media/bms-timeline.png){#fig-bmsevol}
+
 Quelle: @matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
 
 ::: {.callout-tip}
