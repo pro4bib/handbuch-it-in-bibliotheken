@@ -1515,7 +1515,7 @@ statistischen Auswertungen erfolgen soll, kann die Entscheidung fallen,
 die aus dem BMS kommenden Daten einfach nur in eine Tabellenkalkulation
 zu exportieren, oder eine speziell auf die statistische Datenanalyse
 zugeschnittene Statistik-Software einzuspielen. Ergo kommen hier
-Softwares wie Excel, BibControl oder gar komplexe Statistik-Plattformen
+Software wie Excel, BibControl oder gar komplexe Statistik-Plattformen
 wie SPSS in Frage. BMS wie ExLibris Alma bringen hierbei schon eigene
 Statistik-Module mit, die eine externe Lösung überflüssig machen.
 
@@ -1525,77 +1525,9 @@ für statistische Daten der Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb
 
+[Betriebs](#betriebsmodelle)
 
-:::{.callout-note}
-
-Der technische Betrieb eines BMS umfasst die Installation, die [lokal](#lokale-installation) oder als [gehostete Variante](#hosting) bzw. in der [Cloud](#cloud) erfolgen kann. [Kosten](#kosten) entstehen dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte der [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und [Datenschutz](#datenschutz) zu berücksichtigen.
-
-:::
-
-### Betriebsmodelle für serverbasierte Software
-
-Ein BMS kann auf verschiedene Arten betrieben werden. Die Betriebsarten
-unterscheiden sich bezüglich Installation, Kosten, Pflege und
-Wartung sowie Backup und Support.
-
-#### Lokale Installation 
-
-Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
-erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
-oder im Abo, und installierte diese auf eigenen Servern, z.B. im
-Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer
-"on-premise" Installation.
-
-In diesem Modell kümmert sich die Einrichtung selbst um Installation und
-Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und
-kann dazu führen, dass bei einem personellen Engpass eine Software
-länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam
-wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups
-und Ausfallsicherheit selbst Gedanken machen.
-
-Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste
-Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger
-Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig
-von äußeren Einflüssen.
-
-#### Hosting
-
-In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw.
-Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister
-kann hierbei etwa das Rechenzentrum einer Universität oder des
-angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder
-kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten
-erworben werden.
-
-Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der
-eingesetzten Hardware können an diesen Anbieter delegiert werden. Im
-Falle des Hostings durch einen Bibliotheksverbund entfallen
-möglicherweise auch Einrichtung, Installation und Upgrades des BMS. Die
-Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch
-das Hosting für mehrere Einrichtung besser skaliert.
-
-#### Cloud
-
-Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a
-Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim
-Anbieter bzw. Dienstleister des BMS und die Einrichtung nutzt lediglich
-eine Installation/Instanz des BMS. Dies ist insbesondere bei
-webbasierten BMS die bevorzugte Betriebsart, stellt aber erhöhte
-Anforderungen an die Anbindung lokaler Endgeräte (s.a. z.B. auch
-[Automatisierung](#selbstverbucher-ausleihautomaten)),
-weil dabei eine sichere und stabile Verbindung zwischen den lokalen
-Automatisierungsgeräten und dem entfernt gehosteten System hergestellt
-werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten
-Hardware noch für die Pflege der genutzten Software zuständig.
-
-In der Praxis kann sich ein solches Betriebsmodell als komfortabel
-erweisen, da keine Personalressource für allgemeine Tätigkeiten des
-IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden.
-Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
-personalsparend ein BMS einzusetzen. Eine Kostenersparnis ist bei einer
-Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der
-Einrichtung oder basierend auf der Anzahl der Endnutzer\*innen führt ein
-solches Betriebsmodell meist zu Abonnementkosten.
+Der technische Betrieb eines BMS variiert je nach [Betriebsmodell](management.md#betriebsmodelle) (lokale Installation, gehostete Variante oder Cloud-Dienst). [Kosten](#kosten) entstehen dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte der [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und [Datenschutz](#datenschutz) zu berücksichtigen.
 
 ### Kosten
 

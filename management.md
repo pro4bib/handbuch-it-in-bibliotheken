@@ -15,7 +15,7 @@ Lebenszyklus.
 
 IT-Systeme sind selten statisch sondern folgen einem
 [Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu ihrer
-Ablösung. Während des Betriebs der Systeme müssen mögliche
+Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme müssen mögliche
 [Risiken](#betriebssicherheit-und-risikomanagement) beachtet und [rechtliche
 Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
 Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und ein
@@ -160,7 +160,72 @@ Risiken in sich und kann eine Organisation folglich in ernsthafte
 Schwierigkeiten bringen, insbesondere wenn geschäftskritische Prozesse
 betroffen sind.
 
-<!-- Hier sollte auf das Kapitel zur Migration verwiesen werden -->
+<!-- Hier sollte auf ein Kapitel zur Migration verwiesen werden -->
+
+## Betriebsmodelle
+
+Insbesondere serverbasierte Software, wie zum Beispiel das [Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md), kann
+auf verschiedene Arten betrieben werden. Die Betriebsarten
+unterscheiden sich bezüglich Installation, Kosten, Pflege und
+Wartung sowie Backup und Support.
+
+### Lokale Installation 
+
+Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
+erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
+oder im Abo, und installierte diese auf eigenen Servern, z.B. im
+Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer
+"on-premise" Installation.
+
+In diesem Modell kümmert sich die Einrichtung selbst um Installation und
+Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und
+kann dazu führen, dass bei einem personellen Engpass eine Software
+länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam
+wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups
+und Ausfallsicherheit selbst Gedanken machen.
+
+Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste
+Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger
+Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig
+von äußeren Einflüssen.
+
+### Hosting
+
+In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw.
+Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister
+kann hierbei etwa das Rechenzentrum einer Universität oder des
+angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder
+kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten
+erworben werden.
+
+Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der
+eingesetzten Hardware können an diesen Anbieter delegiert werden. Im
+Falle des Hostings durch einen Bibliotheksverbund entfallen
+möglicherweise auch Einrichtung, Installation und Upgrades. Die
+Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch
+das Hosting für mehrere Einrichtung besser skaliert.
+
+### Cloud
+
+Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a
+Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim
+Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt lediglich
+eine für sie konfigurierte Installation ("Instanz"). Dies ist insbesondere bei
+webbasierten Anwendungen die bevorzugte Betriebsart, stellt aber erhöhte
+Anforderungen an die Anbindung lokaler Endgeräte wie z.B.
+[Ausleihautomaten](#selbstverbucher-ausleihautomaten)),
+weil dabei eine sichere und stabile Verbindung zwischen den lokalen
+Automatisierungsgeräten und dem entfernt gehosteten System hergestellt
+werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten
+Hardware noch für die Pflege der genutzten Software zuständig.
+
+In der Praxis kann sich ein solches Betriebsmodell als komfortabel
+erweisen, da keine Personalressource für allgemeine Tätigkeiten des
+IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden.
+Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
+personalsparend serverbasierte Software einzusetzen. Eine Kostenersparnis
+ist bei einer Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl der Endnutzer\*innen
+führt ein solches Betriebsmodell meist zu Abonnementkosten.
 
 ## Betriebssicherheit und Risikomanagement
 
