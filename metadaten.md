@@ -6,7 +6,7 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 
 # Daten & Metadaten
 
-::: {callout-note}
+::: {.callout-note}
 ## Zusammenfassung
 
 ## Einleitung
@@ -687,4 +687,4 @@ als Teil anderer Programme (zum Beispiel [Statistik und
 Reporting](bibliotheksmanagementsysteme.md#statistik-und-reporting) als Teil
 des BMS).
 
-## Zusammenfassung und Ausblick
+## Zusammenfassung & Ausblick
