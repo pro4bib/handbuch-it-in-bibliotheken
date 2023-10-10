@@ -3,15 +3,15 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 ---
 
 # Daten & Metadaten
+
+::: {.callout-note}
+
+## Zusammenfassung
 Die Beschreibung von Ressourcen mit standardisierten Metadaten bildet eine zentrale
 Voraussetzung für die meisten an Bibliotheken angebotenen IT-Dienste. Das 
 vorliegende Kapitel gibt einen Überblick über die Thematik, indem es grundlegende 
 Begrifflichkeiten einführt, wichtige Metadatenstandards vorstellt und Prozesse der 
 Datenverarbeitung in Bibliotheken erläutert.
-::: {.callout-note}
-
-## Zusammenfassung
-
 :::
 
 ## Einleitung
