@@ -32,7 +32,7 @@ Weitgehend ausgeklammert, weil an anderer Stelle behandelt, bleiben
 Infrastruktur zur [Digitalisierung](#digitalisierung) sowie Anwendungen für
 [Kommunikation und Wissensmanagement](#kommunikation).
 
-:::{.callout-note}
+:::{.callout-tip}
 ## Info
 Zu [Einführung und Betrieb](management.md) und zur [Entwicklung samt Anforderungsanalyse](anforderungen.md)
 von IT-Systemen gibt es eigene Kapitel.
