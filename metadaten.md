@@ -6,6 +6,10 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 
 # Daten & Metadaten
 
+:::{callout-note}
+## Zusammenfassung
+
+## Einleitung
 Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken
 Dokumente unterschiedlichster Form (Bücher, Filme, Forschungsdaten, Objekte...)
 nachgewiesen. Zur Verwaltung dieser Medien werden die Dokumente mit
@@ -683,3 +687,4 @@ als Teil anderer Programme (zum Beispiel [Statistik und
 Reporting](bibliotheksmanagementsysteme.md#statistik-und-reporting) als Teil
 des BMS).
 
+## Zusammenfassung und Ausblick
