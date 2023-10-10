@@ -8,10 +8,9 @@ description: "Inhalte und Funktionen von Discovery-Systemen und Kriterien für i
 ## Zusammenfassung
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*) bieten
 **Discovery-Systeme** mehr Inhalte, Funktionen und in der Regel auch modernere
-Nutzungsoberflächen. In diesem Kapitel werden die Unterschiede zwischen beiden
-Recherchesystemen erklärt, typische [Bestandteile](#komponenten) und
-[Funktionen](#funktionen) vorgestellt sowie Hinweise zu Auswahl
-und [Betrieb](#betrieb) von Discovery-Systemen gegeben.
+Nutzungsoberflächen. In diesem Kapitel werden typische [Komponenten](#komponenten) 
+und [Funktionen](#funktionen) von Discovery-Systemen vorgestellt sowie Hinweise zum
+Aufbau und [Betrieb](#betrieb) gegeben.
 :::
 
 ## Einleitung
