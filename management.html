@@ -222,11 +222,20 @@ div.csl-indent {
    
   <ul>
   <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung">Einleitung</a></li>
-  <li><a href="#it-systeme" id="toc-it-systeme" class="nav-link" data-scroll-target="#it-systeme">IT-Systeme</a>
+  <li><a href="#it-lebenszyklus" id="toc-it-lebenszyklus" class="nav-link" data-scroll-target="#it-lebenszyklus">Lebenszyklen von IT-Systemen</a>
   <ul class="collapse">
-  <li><a href="#it-lebenszyklus" id="toc-it-lebenszyklus" class="nav-link" data-scroll-target="#it-lebenszyklus">Lebenszyklen von IT-Systemen</a></li>
-  <li><a href="#betriebssicherheit-und-risikomanagement" id="toc-betriebssicherheit-und-risikomanagement" class="nav-link" data-scroll-target="#betriebssicherheit-und-risikomanagement">Betriebssicherheit und Risikomanagement</a></li>
+  <li><a href="#planung-und-analyse" id="toc-planung-und-analyse" class="nav-link" data-scroll-target="#planung-und-analyse">Planung und Analyse</a></li>
+  <li><a href="#designprototyping" id="toc-designprototyping" class="nav-link" data-scroll-target="#designprototyping">Design/Prototyping</a></li>
+  <li><a href="#test-und-integration" id="toc-test-und-integration" class="nav-link" data-scroll-target="#test-und-integration">Test und Integration</a></li>
+  <li><a href="#ablösung" id="toc-ablösung" class="nav-link" data-scroll-target="#ablösung">Ablösung</a></li>
+  </ul></li>
+  <li><a href="#betriebssicherheit-und-risikomanagement" id="toc-betriebssicherheit-und-risikomanagement" class="nav-link" data-scroll-target="#betriebssicherheit-und-risikomanagement">Betriebssicherheit und Risikomanagement</a>
+  <ul class="collapse">
+  <li><a href="#vendor-lock-in" id="toc-vendor-lock-in" class="nav-link" data-scroll-target="#vendor-lock-in">Vendor-Lock-In</a></li>
+  <li><a href="#software-abhängigkeiten" id="toc-software-abhängigkeiten" class="nav-link" data-scroll-target="#software-abhängigkeiten">Software-Abhängigkeiten</a></li>
   <li><a href="#rechtliche-rahmenbedingungen" id="toc-rechtliche-rahmenbedingungen" class="nav-link" data-scroll-target="#rechtliche-rahmenbedingungen">Rechtliche Rahmenbedingungen</a></li>
+  <li><a href="#software-ergonomie" id="toc-software-ergonomie" class="nav-link" data-scroll-target="#software-ergonomie">Software-Ergonomie</a></li>
+  <li><a href="#accessibility" id="toc-accessibility" class="nav-link" data-scroll-target="#accessibility">Barrierefreiheit</a></li>
   </ul></li>
   <li><a href="#management-der-bibliotheks-it" id="toc-management-der-bibliotheks-it" class="nav-link" data-scroll-target="#management-der-bibliotheks-it">Management der Bibliotheks-IT</a>
   <ul class="collapse">
@@ -277,10 +286,8 @@ Zusammenfassung
 <h2 class="anchored" data-anchor-id="einleitung">Einleitung</h2>
 <p>IT-Systeme sind selten statisch sondern folgen einem <a href="#lebenszyklen-von-it-systemen">Lebenszyklus</a> von der Planung bis zu ihrer Ablösung. Während des Betriebs der Systeme müssen mögliche <a href="#betriebssicherheit-und-risikomanagement">Risiken</a> beachtet und <a href="#rechtliche-rahmenbedingungen">rechtliche Rahmenbedingungen</a> eingehalten werden. In Bibliotheken sind daher entsprechende <a href="#kompetenzen">IT-Kompetenzen</a> und ein <a href="#organisation">organisatorischer Rahmen</a> notwendig. Um diesen Anforderungen begegnen zu können, gibt es Möglichkeiten zur <a href="#aus--und-weiterbildung">Aus- und Weiterbildung</a>.</p>
 </section>
-<section id="it-systeme" class="level2">
-<h2 class="anchored" data-anchor-id="it-systeme">IT-Systeme</h2>
-<section id="it-lebenszyklus" class="level3">
-<h3 class="anchored" data-anchor-id="it-lebenszyklus">Lebenszyklen von IT-Systemen</h3>
+<section id="it-lebenszyklus" class="level2">
+<h2 class="anchored" data-anchor-id="it-lebenszyklus">Lebenszyklen von IT-Systemen</h2>
 <p>Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer Einführung beginnt und irgendwann mit ihrer Abschaltung endet (<a href="#fig-it-zyklus">Abbildung&nbsp;<span>2.1</span></a>). Die wesentlichen Phasen im klassischen Lebenszyklus eines IT-Systems werden im Folgenden näher betrachtet.</p>
 <p>Die konkrete Abfolge vor allem der ersten Phasen kann je nach der angewendeten Projektmanagement-Methode (agil vs.&nbsp;klassisch) variieren. Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des Fokus dieses Handbuchs.</p>
 <div id="fig-it-zyklus" class="quarto-figure quarto-figure-center anchored">
@@ -289,8 +296,8 @@ Zusammenfassung
 <figcaption class="figure-caption">Abbildung&nbsp;2.1: SDLC-Skizze (Platzhalter)</figcaption>
 </figure>
 </div>
-<section id="planung-und-analyse" class="level4">
-<h4 class="anchored" data-anchor-id="planung-und-analyse">Planung und Analyse</h4>
+<section id="planung-und-analyse" class="level3">
+<h3 class="anchored" data-anchor-id="planung-und-analyse">Planung und Analyse</h3>
 <p>Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um individuell erstellte Software oder die Anpassung eines existierenden IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die Anforderungen des Projektes. Dieses gemeinsame Verständnis, insbesondere der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor und während der Entwicklung <a href="./anforderungen.html">unter Einbeziehung von Nutzer*innen</a> ermittelt und angepasst.</p>
 <p>Zur Planungs- und Analysephase gehört neben einer grundsätzlichen Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und rechtlicher Rahmenbedingungen.</p>
 <div class="callout callout-style-simple callout-tip">
@@ -304,20 +311,19 @@ Zusammenfassung
 </div>
 </div>
 </section>
-<section id="designprototyping" class="level4">
-<h4 class="anchored" data-anchor-id="designprototyping">Design/Prototyping</h4>
+<section id="designprototyping" class="level3">
+<h3 class="anchored" data-anchor-id="designprototyping">Design/Prototyping</h3>
 <p>Während der Design- bzw. Prototyping-Phase entwickeln Designer*innen und Entwickler*innen erste Prototypen. Ziel ist es dabei, Feedback der verschiedenen Stakeholder zu erhalten, um gemeinsam ein besseres Verständnis der Anforderungen zu erhalten bzw. diese zu präzisieren. Das Kapitel <a href="anforderungen.html">Anforderungen an Bibliotheks-IT</a> geht gesondert auf die Bedeutung dieser Einbeziehung und damit verbundener Methoden ein.</p>
-</section>
 <section id="implementierung" class="level4">
 <h4 class="anchored" data-anchor-id="implementierung">Implementierung</h4>
 <p>Aufbauend auf einem gemeinsamen Verständnis der Anforderungen überführen Entwickler*innen Prototypen in lauffähigen Code. Wird im Rahmen des Projekts ein bestehendes System implementiert, werden die Prototypen zunächst in ein Testsystem und in der Folge in das produktive System überführt.</p>
 <p>In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit den gewünschten Features, während nutzer*innenorientierte Vorgehensmodelle (siehe Kapitel <a href="anforderungen.html">Anforderungen</a>) hier auf einen iterativen Prozess setzen, welcher Produktiterationen häufiger bereitstellt und evaluiert.</p>
 </section>
-<section id="test-und-integration" class="level4">
-<h4 class="anchored" data-anchor-id="test-und-integration">Test und Integration</h4>
+</section>
+<section id="test-und-integration" class="level3">
+<h3 class="anchored" data-anchor-id="test-und-integration">Test und Integration</h3>
 <p>Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests und die Integration des entwickelten bzw. erworbenen Systems in die Zielumgebung durchgeführt. Im Falle der Inanspruchnahme eines Dienstleisters wird hier auch dessen Leistung final abgenommen, wenn das System erfolgreich produktiv in Betrieb genommen werden kann.</p>
 <p>Während der Tests wird korrekte Umsetzen der Anforderungen sowie die Umsetzung der Anforderungen geprüft.</p>
-</section>
 <section id="wartung" class="level4">
 <h4 class="anchored" data-anchor-id="wartung">Wartung</h4>
 <p>Die Wartungsphase folgt auf die Produktivsetzung des IT-Systems. In dieser Lebensphase wird das System nicht mehr grundlegend weiterentwickelt, es werden jedoch Fehler (Bugs) entfernt und Anpassungen der Funktionsweise im Sinne der Parametrisierung oder die Optimierung der Programmabläufe vorgenommen.</p>
@@ -329,8 +335,9 @@ Zusammenfassung
 </figure>
 </div>
 </section>
-<section id="ablösung" class="level4">
-<h4 class="anchored" data-anchor-id="ablösung">Ablösung</h4>
+</section>
+<section id="ablösung" class="level3">
+<h3 class="anchored" data-anchor-id="ablösung">Ablösung</h3>
 <p>Die Ablösung eines Systems kann eine Vielzahl an Gründen haben. So entwickeln sich die technischen Möglichkeiten und die Anforderungen der Nutzer*innen kontinuierlich weiter. Eine Ablösung kann aber auch durch technische Obsoleszenz erzwungen werden, wenn zugrundeliegende Software-Komponenten wie das Betriebssystem oder ein Datenbankmanagementsystem nicht mehr sicher betrieben werden können.</p>
 <p>Die konkrete Ablösungsplanung sollte mit genügend zeitlichem Vorlauf begonnen werden. Dies gewährleistet die Arbeitsfähigkeit in der Ablösungsphase. So können in der Vorphase beispielsweise notwendige Daten migriert werden, die vom Altsystem vorgehalten werden.</p>
 <p>Mit dem frühzeitigen Beginn der Ablösungsplanung noch in der Wartungsphase können zudem vermeidbare Risiken minimiert werden. Dies ist insbesondere deshalb wichtig, da man als Betreiber eines IT-Systems nicht alle Faktoren kontrolliert, welche eine kurzfristig notwendig werdende Ablösung des Systems verursachen können. Darunter fallen zum Beispiel:</p>
@@ -345,17 +352,17 @@ Zusammenfassung
 <!-- Hier sollte auf das Kapitel zur Migration verwiesen werden -->
 </section>
 </section>
-<section id="betriebssicherheit-und-risikomanagement" class="level3">
-<h3 class="anchored" data-anchor-id="betriebssicherheit-und-risikomanagement">Betriebssicherheit und Risikomanagement</h3>
+<section id="betriebssicherheit-und-risikomanagement" class="level2">
+<h2 class="anchored" data-anchor-id="betriebssicherheit-und-risikomanagement">Betriebssicherheit und Risikomanagement</h2>
 <p>Neben den Problemen der Ablösungplanung gibt es weitere Risiken des Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt vorgestellt werden.</p>
-<section id="vendor-lock-in" class="level4">
-<h4 class="anchored" data-anchor-id="vendor-lock-in">Vendor-Lock-In</h4>
+<section id="vendor-lock-in" class="level3">
+<h3 class="anchored" data-anchor-id="vendor-lock-in">Vendor-Lock-In</h3>
 <p>Ein nicht zu unterschätzendes Risiko, welches sich aus der Einführung eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-In. Dieser beschreibt die Abhängigkeit von Produkten oder Dienstleistungen eines Anbieters durch die der gleichzeitige Einsatz von anderen Produkten oder der Wechsel zu anderen IT-Systemen erschwert wird. Durch den Einsatz von Systemen mit etablierten Standards, offenen Datenformaten und Schnittstellen sowie geeigneter Ablösungsstrategien kann das Risiko eines Vendor Lock-Ins verringert werden.</p>
 <p>Der Begriff des Vendor Lock-ins kann noch auf den Bereich der Fehlerbehebung und die Wartung von Software ausgedehnt werden. Im Fall von proprietärer Software, welche ohne Zugriff auf den Quellcode betrieben wird, ist die Fehlerbehebung ausschließlich Sache des Herstellers. Fällt dieser, wie oben beschrieben, aus, kann ein Betrieb aus IT-Sicherheitsperspektive nicht mehr verantwortet werden. Hinzu kommt, dass das sogenannte Reverse Engineering bzw. das Dekompilieren dieser Software in der Regel verboten ist. Mit einem <a href="https://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=247056&amp;pageIndex=0&amp;doclang=DE&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9912038">Grundsatzurteil des EuGH aus dem Jahr 2021</a> wird dieses Verbot jedoch aufgeweicht. So ist es nun rechtmäßigen Erwerbern erlaubt, Fehler in einem Computerprogramm zu beheben und dafür auch proprietäre Software zu dekompilieren.</p>
 <p>In der Praxis sollte dieses Notfallszenario aber nicht in die Planung einbezogen werden, da die Fehlerbehebung innerhalb fremder Software unter dem Rückgriff auf Dekompilierung besondere Kenntnisse seitens des zuständigen IT-Personals voraussetzt.</p>
 </section>
-<section id="software-abhängigkeiten" class="level4">
-<h4 class="anchored" data-anchor-id="software-abhängigkeiten">Software-Abhängigkeiten</h4>
+<section id="software-abhängigkeiten" class="level3">
+<h3 class="anchored" data-anchor-id="software-abhängigkeiten">Software-Abhängigkeiten</h3>
 <p>Sowohl der Betrieb von proprietärer als auch von Open-Source-Software ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten Schichtmodells des Betriebs eines IT-Systems illustrieren:</p>
 <div id="fig-schichtmodell" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
@@ -367,12 +374,12 @@ Zusammenfassung
 <p>Das Risiko erhöht sich, wenn im Rahmen eines Wartungsvertrags durch den Hersteller festgelegt wurde, dass zum Beispiel nur bestimmte Kombinationen aus Betriebssystem und weiterer Komponenten zugelassen sind. In diesem Fall kann ein IT-System aus der Wartung fallen, obwohl es vorerst betreibbar bleibt. Mit dem Ausfall der Wartung entfallen auch Software-Updates etc. Damit ist der mittel- bis langfristige Weiterbetrieb des Systems ohne Gefährdung der Betriebssicherheit aller IT-Systeme der Organisation nicht möglich.</p>
 <p>Das Kapitel [IT-Entwicklung] widmet sich dem Management von Software-Abhängigkeiten im Detail.</p>
 </section>
-</section>
 <section id="rechtliche-rahmenbedingungen" class="level3">
 <h3 class="anchored" data-anchor-id="rechtliche-rahmenbedingungen">Rechtliche Rahmenbedingungen</h3>
 <p>Die meisten Bibliotheken befinden sich in öffentlicher Hand und sind deshalb bestimmten Gesetzen und Verordnungen unterworfen. Von besonderer Bedeutung sind dabei Anforderungen an die Software-Ergonomie und die Barrierefreiheit (Accessibility) von IT-Systemen.</p>
-<section id="software-ergonomie" class="level4">
-<h4 class="anchored" data-anchor-id="software-ergonomie">Software-Ergonomie</h4>
+</section>
+<section id="software-ergonomie" class="level3">
+<h3 class="anchored" data-anchor-id="software-ergonomie">Software-Ergonomie</h3>
 <p>Die gesetzliche Unfallversicherung fordert z.B. die Berücksichtigung ergonomischer Grundsätze bei der Entwicklung von Software. Moderne grafische Anwendungen müssen ebenso wie Internetseiten diese Anforderungen erfüllen:</p>
 <blockquote class="blockquote">
 <p>Die Software muss gebrauchstauglich sein, das heißt, sie sollte gewährleisten, dass Benutzer festgelegte Ziele in einem bestimmten Nutzungskontext effektiv, effizient und zufriedenstellend erreichen können. Dies setzt voraus, dass die Grundsätze der Dialoggestaltung nach <em>DIN EN ISO 9241-110</em>, wie <em>Aufgabenangemessenheit, Selbstbeschreibungsfähigkeit, Steuerbarkeit, Fehlertoleranz, Erwartungskonformität, Individualisierbarkeit, Lernförderlichkeit</em> beachtet und realisiert werden.</p>
@@ -380,8 +387,8 @@ Zusammenfassung
 </blockquote>
 <p>Die Erreichung dieser Ziele wird im Kapitel <a href="anforderungen.html">Anforderungen an IT-Entwicklung</a> thematisiert.</p>
 </section>
-<section id="accessibility" class="level4">
-<h4 class="anchored" data-anchor-id="accessibility">Barrierefreiheit</h4>
+<section id="accessibility" class="level3">
+<h3 class="anchored" data-anchor-id="accessibility">Barrierefreiheit</h3>
 <p>Neben dem Befolgen der Anforderungen an ergonomisch bedienbare Software, liegt es auf der Hand, dass IT-Systeme für eine Vielzahl von Anwender*innen nutzbar sein sollte. Diese grundlegende Anforderung bezeichnet man als Barrierefreiheit bzw. Accessibility.</p>
 <p>Während Barrierefreiheit häufig mit einem sehr engen Behinderungsbegriff assoziiert wird, wie z.B. die Rampe für Rollstuhlfahrer*innen, ist dieser Begriff mittlerweile aufgrund der gesetzlichen Grundlagen in Deutschland wesentlich weiter zu fassen (siehe <a href="https://www.gesetze-im-internet.de/bgg/__3.html">§3 Behindertengleichstellungsgesetz</a>). So leiten sich z.B. auch Anforderungen an Angebote in Leichter Sprache o.ä. aus diesem weiten Behinderungsbegriff ab.</p>
 <p>Aufbauend auf der einschlägigen Gesetzgebung regelt die <a href="https://www.gesetze-im-internet.de/bitv_2_0/index.html">BITV 2.0</a> (Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz) die konkrete Gestaltung barrierefreier IT-Systeme und Webangebot. Hierbei greift sie auf die aktuell gültigen Web Content Accessibilty Guidelines (<abbr title="Web Content Accessibilty Guidelines">WCAG</abbr>) zurück, welche die Anforderungen der Barrierefreiheit anschaulich mit vielfältigen Beispielen illustriert.</p>
@@ -393,7 +400,6 @@ Zusammenfassung
 <li><p>ebenso wird zumeist die Nachnutzbarkeit auf Mobilgeräten erhöht und</p></li>
 <li><p>die Gestaltung barrierefreier Anwendungen schlägt sich positiv im Suchmaschinenranking nieder, da <a href="https://developers.google.com/search/blog/2020/05/evaluating-page-experience">Suchmaschinen diesen Aspekt zur Bewertung heranziehen</a>.</p></li>
 </ol>
-</section>
 </section>
 </section>
 <section id="management-der-bibliotheks-it" class="level2">
