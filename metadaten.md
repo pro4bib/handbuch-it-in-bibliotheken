@@ -9,7 +9,7 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 ::: {.callout-note}
 
 ## Zusammenfassung
-...
+:::
 
 ## Einleitung
 Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken
