@@ -7,10 +7,12 @@ description: Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanag
 # Bibliotheksmanagementsysteme {#bibliotheksmanagementsysteme}
 
 :::{.callout-note}
+## Zusammenfassung
 
 Bibliotheksmanagementsysteme sind IT-Systeme, die die [Kernprozesse](#prozessabbildung) einer Bibliothek unterstützen. Das modular aufgebaute System verfügt über verschiedene [Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung, Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die [Entwicklungsgeschichte](#geschichte) der Managementsysteme in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den Managementsystemen ist auch die [Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration anderer Systeme](#integration).
-
 :::
+
+## Einleitung
 
 In diesem Text wird der Begriff **Bibliotheksmanagementsystem (BMS)**
 verwendet. Damit ist ein Softwareprodukt gemeint, mit dem die Arbeitsprozesse
