@@ -7,7 +7,7 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 # IT-Management {#management}
 
 ::: {.callout-note}
-
+## Zusammenfassung
 IT-Systeme sind selten statisch sondern folgen einem
 [Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu ihrer
 Ablösung. Während des Betriebs der Systeme müssen mögliche
