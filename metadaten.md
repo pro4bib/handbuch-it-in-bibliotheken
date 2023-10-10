@@ -28,7 +28,8 @@ gelten sowohl für Metadaten als auch für digitale Inhalte.
 [Digitalisierung]: digitalisierung.md
 [Forschungsnahe Dienste]: forschungsnahe-dienste.md
 
-## Daten
+## Grundlegende Begrifflichkeiten
+### Daten
 
 Im Wesentlichen bestehen Daten im Sinne dieses Buchs aus einer Folge von
 Bits. Abgesehen von ihrer Anzahl in Bytes lässt sich auf dieser Ebene
@@ -71,7 +72,7 @@ Leider liegen beide oft nicht explizit vor, sondern müssen anhand von
 Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im
 Idealfall entsprechen Daten einem klar definierten Datenformat.
 
-## Datenformate
+### Datenformate
 
 Datenformate definieren eine Struktur, die sich in einer oder in
 mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren
@@ -168,63 +169,13 @@ anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
 Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
 die jeweilige Erfassungspraxis.
 
-## Datenerfassung
-
-Traditionell werden bibliothekarische Metadaten durch Katalogisierung
-erstellt. Die Verwaltung der Katalogdaten erfolgt entweder lokal oder
-gemeinsam in einer **Verbunddatenbank**. Der Vorteil der
-Verbundkatalogisierung liegt darin, dass jedes Dokument nur einmal
-zentral beschrieben werden muss, während bei lokaler Katalogisierung
-durch *Fremddatenübernahme* nur zum Teil auf vorhandene Kataloge
-zurückgegriffen werden kann.
-
-Im Idealfall sollte die Erfassung nach *Autopsie*, also auf Grundlage des
-vorliegenden Werkes, durch geschultes Personal und nach etablierten Regelwerken
-(*Katalogisierungsrichtlinien*) erfolgen. Um möglichst viele Publikationen zu
-erfassen, wird jedoch zunehmend auch auf anderweitig erfasste Metadaten von
-Verlagen, Repositorien und aus anderen Quellen zurückgegriffen. Dazu müssen
-Daten unterschiedlicher Erschließungstiefe und -qualität im Rahmen von
-[ETL-Prozessen](#etl-prozess) gesammelt, analysiert und mit vorhandenen Daten
-vereinheitlicht werden. In jedem Fall muss beachtet werden, dass sich Regeln
-und Umstände, nach denen Daten erfasst werden, mit der Zeit ändern können
-(beispielsweise der Umstieg der Erfassungsregeln von *RAK* auf *RDA*) und dass
-das Ergebnis auch davon abhängt, wie gut überprüft werden kann, was die
-Anforderungen an die Daten sind.
-
-Darüber hinaus gibt es Verfahren zur automatischen Erstellung von
-Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und
-Auswertung von Literaturangaben und zur thematischen Einordnung von
-Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von
-Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate
-gerechnet werden.
-
-Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei
-der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die
-Daten erfasst werden. So gelten beispielsweise für eine historische
-Bibliographie andere Maßstäbe als für einen Suchindex.
-
-Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität
-von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit
-denen Daten erstellt, bearbeitet und *analysiert* werden können.
-
-::: {.callout-tip}
-
-## Info
-Mehr zur bibliothekarischen Datenerfassung in den
-*Grundlagen der Informationswissenschaft* [-@kuhlen_grundlagen_2023], *Teil B*.
-
-:::
-
-## Identifikatoren und Normdaten
-
+### Identifikatoren
 Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs wie
 Nummern, Codes...) zum Verweis auf externe Objekte oder an anderer Stelle
 verwaltete Informationen. Identifikatoren ermöglichen die eindeutige
 Referenzierung gleicher Dinge in unterschiedlichen Kontexten, so dass
 Daten aus verschiedenen Quellen miteinander abgeglichen und kombiniert
 werden können.
-
-### Identifikator-Systeme
 
 Neben eher intern genutzten Datensatz-Identifikatoren (z.B. die *PPN*
 des Bibliothekssystems PICA oder die ZDB-ID der Zeitschriftendatenbank)
@@ -316,7 +267,7 @@ Das [*Basic Register of Thesauri, Ontologies &
 Classifications*](https://bartoc.org/) (BARTOC) erfasst Informationen zu
 Normdateien aller Art, darunter auch Verfahren zum technischen Zugriff.
 
-## Metadatenformate
+## Metadatenstandards
 
 Neben allgemeinen [Datenformaten](#datenformate) sind für die Bibliotheks-IT
 vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die
@@ -398,14 +349,54 @@ sind dagegen für den Datenaustausch eher unbrauchbar. Learning Object
 Metadata (*LOM*) dient in verschiedenen lokalen Anpassungen der
 Beschreibung von Lerneinheiten.
 
-## Datenverarbeitung
+## Datenverarbeitungsprozess in Bibliotheken
 
-Neben der [Erfassung von Daten](#datenerfassung) umfasst das bibliothekarische
-(Meta-)Datenmanagement Verfahren der Konvertierung, Integration und Auswertung
-von Daten. Diese wesentlichen Schritte werden oft mittels eines ETL-Prozesses
-zur Übertragung von Daten in ein anderes System vorgenommen. Nach Beschreibung
-der Bestandteile des ETL-Prozesses wird in diesem Abschnitt auf Werkzeuge und
-Schnittstellen eingegangen.
+### Datenerfassung
+
+Traditionell werden bibliothekarische Metadaten durch Katalogisierung
+erstellt. Die Verwaltung der Katalogdaten erfolgt entweder lokal oder
+gemeinsam in einer **Verbunddatenbank**. Der Vorteil der
+Verbundkatalogisierung liegt darin, dass jedes Dokument nur einmal
+zentral beschrieben werden muss, während bei lokaler Katalogisierung
+durch *Fremddatenübernahme* nur zum Teil auf vorhandene Kataloge
+zurückgegriffen werden kann.
+
+Im Idealfall sollte die Erfassung nach *Autopsie*, also auf Grundlage des
+vorliegenden Werkes, durch geschultes Personal und nach etablierten Regelwerken
+(*Katalogisierungsrichtlinien*) erfolgen. Um möglichst viele Publikationen zu
+erfassen, wird jedoch zunehmend auch auf anderweitig erfasste Metadaten von
+Verlagen, Repositorien und aus anderen Quellen zurückgegriffen. Dazu müssen
+Daten unterschiedlicher Erschließungstiefe und -qualität im Rahmen von
+[ETL-Prozessen](#etl-prozess) gesammelt, analysiert und mit vorhandenen Daten
+vereinheitlicht werden. In jedem Fall muss beachtet werden, dass sich Regeln
+und Umstände, nach denen Daten erfasst werden, mit der Zeit ändern können
+(beispielsweise der Umstieg der Erfassungsregeln von *RAK* auf *RDA*) und dass
+das Ergebnis auch davon abhängt, wie gut überprüft werden kann, was die
+Anforderungen an die Daten sind.
+
+Darüber hinaus gibt es Verfahren zur automatischen Erstellung von
+Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und
+Auswertung von Literaturangaben und zur thematischen Einordnung von
+Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von
+Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate
+gerechnet werden.
+
+Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei
+der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die
+Daten erfasst werden. So gelten beispielsweise für eine historische
+Bibliographie andere Maßstäbe als für einen Suchindex.
+
+Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität
+von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit
+denen Daten erstellt, bearbeitet und *analysiert* werden können.
+
+::: {.callout-tip}
+
+## Info
+Mehr zur bibliothekarischen Datenerfassung in den
+*Grundlagen der Informationswissenschaft* [-@kuhlen_grundlagen_2023], *Teil B*.
+
+:::
 
 ### ETL-Prozess
 
@@ -658,7 +649,7 @@ spielen eher im Bereich [Digitalisierung] und [Forschungsnahe Dienste] eine
 Rolle, beispielsweise die APIs des International Image Interoperability
 Framework (*IIIF*).
 
-## Datenanalyse
+### Datenanalyse
 
 Im Gegensatz zu physischen Objekten ist Daten ihre Beschaffenheit nicht direkt
 anzusehen. Lediglich der Umfang von Daten in Bytes und ggf. die Anzahl von
