@@ -224,18 +224,16 @@ div.csl-indent {
    
   <ul>
   <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung">Einleitung</a></li>
-  <li><a href="#geschichte-und-aktuelle-systeme" id="toc-geschichte-und-aktuelle-systeme" class="nav-link" data-scroll-target="#geschichte-und-aktuelle-systeme">Geschichte und aktuelle Systeme</a></li>
-  <li><a href="#aufbau-und-anbindung-von-bibliotheksmanagementsystemen" id="toc-aufbau-und-anbindung-von-bibliotheksmanagementsystemen" class="nav-link" data-scroll-target="#aufbau-und-anbindung-von-bibliotheksmanagementsystemen">Aufbau und Anbindung von Bibliotheksmanagementsystemen</a>
+  <li><a href="#entwicklung-der-bibliotheksmanagementsysteme" id="toc-entwicklung-der-bibliotheksmanagementsysteme" class="nav-link" data-scroll-target="#entwicklung-der-bibliotheksmanagementsysteme">Entwicklung der Bibliotheksmanagementsysteme</a></li>
+  <li><a href="#funktionalitäten-von-bibliotheksmanagementsystemen" id="toc-funktionalitäten-von-bibliotheksmanagementsystemen" class="nav-link" data-scroll-target="#funktionalitäten-von-bibliotheksmanagementsystemen">Funktionalitäten von Bibliotheksmanagementsystemen</a>
   <ul class="collapse">
-  <li><a href="#komponenten" id="toc-komponenten" class="nav-link" data-scroll-target="#komponenten">Komponenten</a></li>
+  <li><a href="#grundlegende-komponenten" id="toc-grundlegende-komponenten" class="nav-link" data-scroll-target="#grundlegende-komponenten">Grundlegende Komponenten</a></li>
   <li><a href="#vergleich-mit-anderen-managementsystemen" id="toc-vergleich-mit-anderen-managementsystemen" class="nav-link" data-scroll-target="#vergleich-mit-anderen-managementsystemen">Vergleich mit anderen Managementsystemen</a></li>
   <li><a href="#integration" id="toc-integration" class="nav-link" data-scroll-target="#integration">Integration des BMS mit anderen IT-Systemen</a></li>
   <li><a href="#verbundkataloge" id="toc-verbundkataloge" class="nav-link" data-scroll-target="#verbundkataloge">Verbundkataloge</a></li>
   <li><a href="#anbindung-an-verbundkatalogeverbundkatalogisierung" id="toc-anbindung-an-verbundkatalogeverbundkatalogisierung" class="nav-link" data-scroll-target="#anbindung-an-verbundkatalogeverbundkatalogisierung">Anbindung an Verbundkataloge/Verbundkatalogisierung</a></li>
   <li><a href="#statistik-und-reporting" id="toc-statistik-und-reporting" class="nav-link" data-scroll-target="#statistik-und-reporting">Statistik und Reporting</a></li>
-  </ul></li>
-  <li><a href="#bibliotheksorganisation" id="toc-bibliotheksorganisation" class="nav-link" data-scroll-target="#bibliotheksorganisation">Bibliotheksorganisation</a>
-  <ul class="collapse">
+  <li><a href="#bibliotheksorganisation" id="toc-bibliotheksorganisation" class="nav-link" data-scroll-target="#bibliotheksorganisation">Bibliotheksorganisation</a></li>
   <li><a href="#benutzungsbedingungen" id="toc-benutzungsbedingungen" class="nav-link" data-scroll-target="#benutzungsbedingungen">Benutzungsbedingungen</a></li>
   </ul></li>
   <li><a href="#datenverwaltung-in-bms" id="toc-datenverwaltung-in-bms" class="nav-link" data-scroll-target="#datenverwaltung-in-bms">Datenverwaltung in BMS</a>
@@ -313,7 +311,7 @@ Zusammenfassung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Ein Bibliotheksmanagementsystem ist ein IT-System, das die <a href="#prozessabbildung">Kernprozesse</a> einer Bibliothek unterstützt. Das modular aufgebaute System verfügt über verschiedene <a href="#komponenten">Komponenten</a> für die jeweiligen Kernprozesse Erwerbung, Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die <a href="#geschichte">Entwicklungsgeschichte</a> der Managementsysteme in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den Managementsystemen ist auch die <a href="#verbundkataloge">Anbindung an Verbundkataloge</a> sowie die <a href="#integration">Integration anderer Systeme</a>.</p>
+<p>Ein Bibliotheksmanagementsystem ist ein IT-System, das die <a href="#prozessabbildung">Kernprozesse</a> einer Bibliothek unterstützt. Das modular aufgebaute System verfügt über verschiedene <a href="discovery.html#komponenten">Komponenten</a> für die jeweiligen Kernprozesse Erwerbung, Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die <a href="#geschichte">Entwicklungsgeschichte</a> der Managementsysteme in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den Managementsystemen ist auch die <a href="#verbundkataloge">Anbindung an Verbundkataloge</a> sowie die <a href="#integration">Integration anderer Systeme</a>.</p>
 </div>
 </div>
 <section id="einleitung" class="level2">
@@ -335,8 +333,8 @@ Definition
 <p>Durch die Ausweitung der Aufgaben in den Bereichen Publikationsdienste, Open Science oder auch Lernort sind in neuerer Zeit jedoch noch weitere Aufgaben hinzugekommen, die durch die klassischen BMS nicht abgebildet werden. Darüber hinaus haben die frühen Systeme nur sehr unzureichende Möglichkeiten, die nötigen Informationen zu elektronischen Ressourcen und ihrer Zugänglichkeit abzubilden. Auch zur Unterstützung von neueren Aufgaben wie der Publikationsunterstützung oder der Verwaltung räumlicher Ressourcen werden separate Systeme genutzt. Daraus ergibt sich der Bedarf, das BMS an diese separaten Systeme anzubinden, was die Bedeutung von Schnittstellen und offenen Architekturen erhöht hat.</p>
 <p>In diesem Text wird der Begriff Bibliotheksmanagementsystem verwendet. Teilweise wird im Deutschen auch der allgemeinere Begriff <em>Bibliothekssystem</em> verwendet. In der angloamerikanischen Literatur finden sich die Begriffe <em>Integrated Library System (ILS)</em> und <em>Library Management System (LMS)</em>, zuletzt aber auch <em>Library Services Platforms</em>.</p>
 </section>
-<section id="geschichte-und-aktuelle-systeme" class="level2">
-<h2 class="anchored" data-anchor-id="geschichte-und-aktuelle-systeme">Geschichte und aktuelle Systeme</h2>
+<section id="entwicklung-der-bibliotheksmanagementsysteme" class="level2">
+<h2 class="anchored" data-anchor-id="entwicklung-der-bibliotheksmanagementsysteme">Entwicklung der Bibliotheksmanagementsysteme</h2>
 <p>Ihren Ursprung haben Bibliotheksmanagementsysteme in den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten untereinander auszutauschen und auf diese Weise Prozesse zu optimieren. In dieser Zeit entwickelten sich auch die heute noch gebräuchlichen Austauschformate für Katalogdaten, z.B. <abbr title="MAchine-Readable Cataloging, ältestes und noch immer wichtigstes bibliothekarisches Austauschformat">MARC</abbr>.</p>
 <p>In den 1970er Jahren erlaubte die fortschreitende technische Entwicklung die Automatisierung weiterer Prozesse über den Datenaustausch hinaus. Zunächst war dies vor allem die Ausleihe mit der Verbuchung von Medien und der Erzeugung von Mahnschreiben. Auch die Verwaltung von Bestellungen im Rahmen der Erwerbung wurde möglich, so dass man in der Folge von <em>Integrated Library Systems</em> zu sprechen begann. Davon, dass Katalog-, Erwerbungs- und Nutzer*innen-Daten an einem Ort gehalten und bearbeitet wurden, versprach man sich eine größere Effizienz der Arbeitsprozesse. Diese <strong>erste Generation</strong> von BMS beinhaltete teilweise auch schon digitale Funktionen für Bibliotheksnutzer*innen wie über Telnet erreichbare Kataloge, die von Anfang an als integraler Bestandteil der BMS gesehen wurden <span class="citation" data-cites="borgman_acting_1997">(<a href="literatur.html#ref-borgman_acting_1997" role="doc-biblioref">Borgman 1997</a>)</span>.</p>
 <p>Die Entstehung des World Wide Web in den 1990er Jahren hatte zunächst vor allem Einfluss auf die Benutzbarkeit der Kataloge, die Web-Oberflächen erhielten. Aber auch die anderen Komponenten der BMS wurden überarbeitet, und zwar zunehmend auch von kommerziellen Anbietern, während die ersten Systeme als Eigenentwicklungen von Bibliotheken entstanden. Die Landschaft an <strong>Systemen der 2. Generation</strong> war von den späten 1990er bis in die Nullerjahre sehr divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass man von einem konsolidierten Markt sprechen kann <span class="citation" data-cites="breeding_library_nodate">(<a href="literatur.html#ref-breeding_library_nodate" role="doc-biblioref">Breeding o.&nbsp;J.</a>)</span>.</p>
@@ -355,7 +353,13 @@ Info
 </div>
 <p>Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS, die <strong>Next-Generation Library Management Systems</strong>, die auch <strong>Library Services Platforms</strong> genannt werden. Diese zeichnen sich durch verschiedene technische und funktionale Neuerungen aus. Die Datenhaltung erfolgt in der Regel cloudbasiert (auch wenn dies bei bei älteren Systemen im Grunde auch schon der Fall war), außerdem werden in der Regel mehr Schnittstellen zur Integration des Systems mit anderen Lösungen angeboten. Funktional wurden die Systeme vor allem um die Möglichkeit der Verwaltung von elektronischen Ressourcen erweitert sowie Statistik- und Reporting-Funktionalitäten verbessert.</p>
 <p>Seit dem Ende der 1990er Jahre spielen auch wieder Lösungen eine Rolle, die nicht kommerziell sind. Diese Open Source-Lösungen haben in der Regel eine große Anwender-Community und lassen einen vielfältigen Markt für Support- und Wartungsdienstleistungen zu.</p>
-<p><img src="media/bms-timeline.png" id="fig-bmsevol" class="img-fluid" alt="Evolution der Bibliotheksmanagementsysteme"> Quelle: <span class="citation" data-cites="matthews_library_2020">Matthews und Block (<a href="literatur.html#ref-matthews_library_2020" role="doc-biblioref">2020</a>)</span>, S. 7 [TODO: Ins Deutsche adaptieren]</p>
+<div id="fig-bmsevol" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="media/bms-timeline.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Abbildung&nbsp;6.1: Evolution der Bibliotheksmanagementsysteme</figcaption>
+</figure>
+</div>
+<p>Quelle: <span class="citation" data-cites="matthews_library_2020">Matthews und Block (<a href="literatur.html#ref-matthews_library_2020" role="doc-biblioref">2020</a>)</span>, S. 7 [TODO: Ins Deutsche adaptieren]</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -366,7 +370,7 @@ Info
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Nach <span class="citation" data-cites="matthews_library_2020">Matthews und Block (<a href="literatur.html#ref-matthews_library_2020" role="doc-biblioref">2020</a>)</span> lässt sich die Geschichte der BMS in sechs überlappende Epochen einteilen (siehe <span class="quarto-unresolved-ref">?fig-bmsevol</span>):</p>
+<p>Nach <span class="citation" data-cites="matthews_library_2020">Matthews und Block (<a href="literatur.html#ref-matthews_library_2020" role="doc-biblioref">2020</a>)</span> lässt sich die Geschichte der BMS in sechs überlappende Epochen einteilen (siehe <a href="#fig-bmsevol">Abbildung&nbsp;<span>6.1</span></a>):</p>
 <ol type="1">
 <li><p><strong>System-Epoche</strong>: Erste Schritte in den 1950er bis in die 1970er-Jahre hin zur Entwicklung von Software, z. T sehr experimentell, die die klassischen Geschäftsgänge von Bibliotheken in einem digitalen System abbilden sollen – dadurch prägt sich der Begriff „Bibliothekssystem“. Das Augenmerk bei der Entwicklung liegt besonders auf Nachbildungen des Leihverkehrs unter besonderer Beachtung der Identifikation überfälliger Medien.</p></li>
 <li><p><strong>Epoche der Funktionalität</strong>: Kommerzielle Bibliothekssoftware-Anbieter beginnen sich zu formieren, die erstmals eine integrierte Lösung der verschiedenen Automationsbereiche (Erwerbung, Katalogisierung, Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anbieten. Hierdurch entsteht die Bezeichnung „Integriertes Bibliothekssystem“ (IBS), der auf den aus dem US-amerikanischen Raum übernommenen Begriff „Integrated Library System“ (ILS) zurückgeht. In den 1980ern entstehen die ersten Online-Kataloge (OPAC), die die in Bibliotheken traditionellen Zettelkataloge nachbilden.</p></li>
@@ -379,7 +383,7 @@ Info
 </div>
 <div id="tbl-aktuelle-sw-produkte" class="anchored">
 <table class="table">
-<caption>Tabelle&nbsp;6.1: Stand Mitte 2022 relevante Software-Produkte</caption>
+<caption>Tabelle&nbsp;6.1: relevante Software-Produkte (Stand Mitte 2022)</caption>
 <colgroup>
 <col style="width: 13%">
 <col style="width: 20%">
@@ -458,32 +462,33 @@ Info
 <li><p>Quria von <a href="https://www.axiell.com/">Axiell</a> ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab</p></li>
 </ul>
 <p>Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding gepflegte <a href="https://librarytechnology.org/products/">Library Technology Guide</a>. Für den Deutschsprachigen Raum gibt es Übersichten von Verbundzentralen oder Büchereifachstellen, z.B. <span class="citation" data-cites="kluge_anbieter_2022">Kluge (<a href="literatur.html#ref-kluge_anbieter_2022" role="doc-biblioref">2022</a>)</span> für öffentliche Bibliotheken. Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können beispielsweise unter <a href="https://w.wiki/574K">https://w.wiki/574K</a> abgefragt werden.</p>
-<div class="callout callout-style-simple callout-tip">
-<div class="callout-body d-flex">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
+<div class="callout-title-container flex-fill">
+Info
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Der <span id="it-lebenszyklus">IT-Lebenszyklus</span> von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise FOLIO im Rahmen des <em>Open Library Environment Project</em> bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.</p>
 </div>
 </div>
-</div>
 </section>
-<section id="aufbau-und-anbindung-von-bibliotheksmanagementsystemen" class="level2">
-<h2 class="anchored" data-anchor-id="aufbau-und-anbindung-von-bibliotheksmanagementsystemen">Aufbau und Anbindung von Bibliotheksmanagementsystemen</h2>
-<section id="komponenten" class="level3">
-<h3 class="anchored" data-anchor-id="komponenten">Komponenten</h3>
+<section id="funktionalitäten-von-bibliotheksmanagementsystemen" class="level2">
+<h2 class="anchored" data-anchor-id="funktionalitäten-von-bibliotheksmanagementsystemen">Funktionalitäten von Bibliotheksmanagementsystemen</h2>
 <p>BMS sind in der Regel modular aufgebaut und verfügen mindestens über Module für folgende Funktionen:</p>
 <ul>
 <li><p>Erwerbung</p></li>
 <li><p>Katalogisierung / Erschließung</p></li>
 <li><p>Ausleihe</p></li>
-<li><p>ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzenden richtet</p></li>
+<li><p>ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzer*innen richtet</p></li>
 </ul>
+<section id="grundlegende-komponenten" class="level3">
+<h3 class="anchored" data-anchor-id="grundlegende-komponenten">Grundlegende Komponenten</h3>
 <p>Die Systeme der <strong>1. und 2. Generation</strong> können als sehr ausgereift bezeichnet werden und lassen vielfältige Möglichkeiten zu, bibliothekarische Geschäftsgänge in einem hohen Detaillierungsgrad abzubilden. Nachfolgend werden diese entsprechenden Aufgabenbereiche skizziert.</p>
-<section id="erwerbung" class="level4">
-<h4 class="anchored" data-anchor-id="erwerbung">Erwerbung</h4>
-<p>meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen z.B. folgende Aufgabengebiete:</p>
+<p><strong>Erwerbung</strong> meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen z.B. folgende Aufgabengebiete:</p>
 <ul>
 <li><p>Bestellungen</p></li>
 <li><p>Budgetverwaltung</p></li>
@@ -494,20 +499,14 @@ Info
 <li><p>Buchbinder</p></li>
 </ul>
 <p><span class="math inline">\(\Rightarrow\)</span> <em>Siehe auch <a href="#erwerbung-prozess">Prozessabbildung: Erwerbung</a></em></p>
-</section>
-<section id="katalogisierung" class="level4">
-<h4 class="anchored" data-anchor-id="katalogisierung">Katalogisierung</h4>
-<p>meint die Erschließung der verwalteten Medien und digitalen Quellen, z.B. anhand</p>
+<p><strong>Katalogisierung</strong> meint die Erschließung der verwalteten Medien und digitalen Quellen, z.B. anhand</p>
 <ul>
 <li><p>Übernahme von Fremddaten</p></li>
 <li><p>Anbindung an Verbünde</p></li>
 <li><p>Integration digitalisierter Medien</p></li>
 </ul>
 <p><span class="math inline">\(\Rightarrow\)</span> <em>Siehe auch <a href="#katalogisierung-prozess">Prozessabbildung: Katalogisierung</a></em></p>
-</section>
-<section id="ausleihe" class="level4">
-<h4 class="anchored" data-anchor-id="ausleihe">Ausleihe</h4>
-<p>meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt Interaktionen mit Nutzer*innen wie z.B.:</p>
+<p><strong>Ausleihe</strong> meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt Interaktionen mit Nutzer*innen wie z.B.:</p>
 <ul>
 <li><p>Abbildung komplexer Reglements nach Benutzer- und Medientypen, Standorten usw (siehe auch <a href="#benutzungsbedingungen">Benutzungsbedingungen</a>)</p></li>
 <li><p>Ausleihfristen</p></li>
@@ -517,10 +516,7 @@ Info
 <li><p>Mahngebühren</p></li>
 </ul>
 <p><span class="math inline">\(\Rightarrow\)</span> <em>Siehe auch <a href="#ausleihe-prozess">Prozessabbildung: Ausleihe</a></em></p>
-</section>
-<section id="recherchemodul" class="level4">
-<h4 class="anchored" data-anchor-id="recherchemodul">Recherchemodul</h4>
-<p>Sicht für die Nutzer*innen auf Bestände der Einrichtung zur Recherche und Kontofunktionen</p>
+<p>Das <strong>Recherchemodul</strong> stellt die Sicht für die Nutzer*innen auf Bestände der Einrichtung zur Recherche und Kontofunktionen dar:</p>
 <ul>
 <li><p>Katalog (auch OPAC genannt)</p></li>
 <li><p>Benutzerkonto</p></li>
@@ -538,7 +534,6 @@ Info
 <li><p>Anlegen von Favoriten-Listen</p></li>
 <li><p>Anzeige von Buchcovern</p></li>
 </ul>
-</section>
 </section>
 <section id="vergleich-mit-anderen-managementsystemen" class="level3">
 <h3 class="anchored" data-anchor-id="vergleich-mit-anderen-managementsystemen">Vergleich mit anderen Managementsystemen</h3>
@@ -683,9 +678,8 @@ Info
 </ul>
 <p>Bei den Systemen der 1. und 2. Generation ist es bisweilen nötig, zusätzliche Werkzeuge zum Einsatz zu bringen, um alle gewünschten Berichte zu erstellen (z.B. <em>BibControl</em> oder <em>Crystal Reports</em>). Während die integrierten Module vor allem auf die Daten des eigenen Systems fokussiert sind, können externe Werkzeuge auch Fremddaten aufnehmen, zum Beispiel Daten aus Besucherzählern.</p>
 </section>
-</section>
-<section id="bibliotheksorganisation" class="level2">
-<h2 class="anchored" data-anchor-id="bibliotheksorganisation">Bibliotheksorganisation</h2>
+<section id="bibliotheksorganisation" class="level3">
+<h3 class="anchored" data-anchor-id="bibliotheksorganisation">Bibliotheksorganisation</h3>
 <p>Bei der Implementierung oder Anpassung eines BMS ist die Organisation der Bibliothek, die Gestaltung der Prozesse sowie die räumliche Situation zu berücksichtigen. Handelt es sich zum Beispiel um einen öffentliche oder wissenschaftliche Bibliothek? Ist die Organisation als ein einschichtiges oder zweischichtiges System angelegt? Ist es eine einzelne Bibliothek oder eine Zentralbibliothek mit Zweigstellen?</p>
 <p>Auch die Aufstellung der Medien innerhalb der Gebäude nimmt Einfluss auf die Ablauforganisation und damit die Konfiguration des Systems. Dies lässt sich anhand der folgenden Beispiele darstellen:</p>
 <ul>
@@ -694,6 +688,7 @@ Info
 </ul>
 <p>In beiden Fällen muss auch der Bestellprozess über das System abgebildet werden. Im Magazin bzw. der Zweigstelle sind der Anschluss und die Aufstellung von Druckern für die Erzeugung von Bestellzetteln zu berücksichten. Sind die Medien für die Bibliotheksnutzenden direkt zugänglich, entfällt der Bestellschritt und der abzubildende Prozess beginnt mit der Ausleihverbuchung.</p>
 <p>Auch das Rechtemanagement eines BMS ist abhängig von der Größe der Organisation. So sind ggf. verschiedene Berechtigungsstufen für die Bearbeitung von Daten im BMS für die Bibliotheksbeschäftigen einzuführen. Die Berechtigungen bilden die Arbeitsorganisation ab und berechtigen z.B. zum Lesen, Anlegen, Editieren oder Löschen von Ausleihbestellungen, Benutzenden- oder Katalogdaten, Erwerbungsunterlagen, Gebühreninformationen u.ä.</p>
+</section>
 <section id="benutzungsbedingungen" class="level3">
 <h3 class="anchored" data-anchor-id="benutzungsbedingungen">Benutzungsbedingungen</h3>
 <p>Die Benutzungsbedingungen werden durch die Ausleihpolitik der Bibliothek bestimmt. Die Gestaltung der Bedingungen erfolgt sowohl bezogen auf die Medien und die Bibliotheksbenutzenden. Dabei geht es um die Frage, was von wem ausgeliehen werden darf und, wenn eine Ausleihe möglich ist, wie und für welchen Zeitraum diese erfolgen kann.</p>
@@ -807,7 +802,7 @@ Info
 <div id="fig-matrix" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/matrix.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;6.1: Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption>
+<figcaption class="figure-caption">Abbildung&nbsp;6.2: Beispiel für eine Matrix zur Einordnung von Funktionalitäten</figcaption>
 </figure>
 </div>
 <p>Zur Evaluierung der BMS können bestehende Anforderungskataloge für die Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam <a href="https://www.folio-bib.org/?page_id=247">von HBZ und VZG entwickelte Kriterienkatalog</a>. Dieses umfangreiche Dokument zeigt die Anforderungen an alle Komponenten auf Grundlage der Analyse von sehr ausgereiften Prozessen in Altsystemen auf. Es empfiehlt sich, insbesondere diejenigen Funktionalitäten genau zu überprüfen, die strategisch von besonderer Bedeutung sind.</p>
