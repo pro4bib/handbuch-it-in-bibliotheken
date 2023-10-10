@@ -6,6 +6,8 @@ description: "..."
 
 # Discovery & Retrieval {#discovery-und-retrieval}
 
+::: {.callout-note}
+## Zusammenfassung
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*) bieten
 **Discovery-Systeme** mehr Inhalte, Funktionen und in der Regel auch modernere
 Benutzeroberflächen. In diesem Kapitel werden zunächst die Unterschiede beider
@@ -13,6 +15,7 @@ Recherchesysteme erklärt sowie Grenzen und Alternativen beleuchtet. In der
 Folge werden die einzelnen [Bestandteile](#komponenten),
 [Funktionen](#funktionen) und Dienste vorgestellt und Informationen zu Auswahl
 und [Betrieb](#betrieb) von Discovery-Systemen geliefert.
+:::
 
 ## Einleitung
 
@@ -605,3 +608,5 @@ vor allem die Analyse von Logfiles an. Mit der Software
 [Matomo](https://matomo.org/) kann, auch unter Berücksichtigung von
 datenschutzrechtlichen Vorschriften, ermittelt werden, welche Anfragen an ein
 System gestellt werden.
+
+## Zusammenfassung & Ausblick
