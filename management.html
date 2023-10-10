@@ -229,6 +229,12 @@ div.csl-indent {
   <li><a href="#test-und-integration" id="toc-test-und-integration" class="nav-link" data-scroll-target="#test-und-integration">Test und Integration</a></li>
   <li><a href="#ablösung" id="toc-ablösung" class="nav-link" data-scroll-target="#ablösung">Ablösung</a></li>
   </ul></li>
+  <li><a href="#betriebsmodelle" id="toc-betriebsmodelle" class="nav-link" data-scroll-target="#betriebsmodelle">Betriebsmodelle</a>
+  <ul class="collapse">
+  <li><a href="#lokale-installation" id="toc-lokale-installation" class="nav-link" data-scroll-target="#lokale-installation">Lokale Installation</a></li>
+  <li><a href="#hosting" id="toc-hosting" class="nav-link" data-scroll-target="#hosting">Hosting</a></li>
+  <li><a href="#cloud" id="toc-cloud" class="nav-link" data-scroll-target="#cloud">Cloud</a></li>
+  </ul></li>
   <li><a href="#betriebssicherheit-und-risikomanagement" id="toc-betriebssicherheit-und-risikomanagement" class="nav-link" data-scroll-target="#betriebssicherheit-und-risikomanagement">Betriebssicherheit und Risikomanagement</a>
   <ul class="collapse">
   <li><a href="#vendor-lock-in" id="toc-vendor-lock-in" class="nav-link" data-scroll-target="#vendor-lock-in">Vendor-Lock-In</a></li>
@@ -284,7 +290,7 @@ Zusammenfassung
 </div>
 <section id="einleitung" class="level2">
 <h2 class="anchored" data-anchor-id="einleitung">Einleitung</h2>
-<p>IT-Systeme sind selten statisch sondern folgen einem <a href="#lebenszyklen-von-it-systemen">Lebenszyklus</a> von der Planung bis zu ihrer Ablösung. Während des Betriebs der Systeme müssen mögliche <a href="#betriebssicherheit-und-risikomanagement">Risiken</a> beachtet und <a href="#rechtliche-rahmenbedingungen">rechtliche Rahmenbedingungen</a> eingehalten werden. In Bibliotheken sind daher entsprechende <a href="#kompetenzen">IT-Kompetenzen</a> und ein <a href="#organisation">organisatorischer Rahmen</a> notwendig. Um diesen Anforderungen begegnen zu können, gibt es Möglichkeiten zur <a href="#aus--und-weiterbildung">Aus- und Weiterbildung</a>.</p>
+<p>IT-Systeme sind selten statisch sondern folgen einem <a href="#lebenszyklen-von-it-systemen">Lebenszyklus</a> von der Planung bis zu ihrer Ablösung. Während des <a href="#betriebsmodelle">Betriebs</a> der Systeme müssen mögliche <a href="#betriebssicherheit-und-risikomanagement">Risiken</a> beachtet und <a href="#rechtliche-rahmenbedingungen">rechtliche Rahmenbedingungen</a> eingehalten werden. In Bibliotheken sind daher entsprechende <a href="#kompetenzen">IT-Kompetenzen</a> und ein <a href="#organisation">organisatorischer Rahmen</a> notwendig. Um diesen Anforderungen begegnen zu können, gibt es Möglichkeiten zur <a href="#aus--und-weiterbildung">Aus- und Weiterbildung</a>.</p>
 </section>
 <section id="it-lebenszyklus" class="level2">
 <h2 class="anchored" data-anchor-id="it-lebenszyklus">Lebenszyklen von IT-Systemen</h2>
@@ -349,7 +355,27 @@ Zusammenfassung
 </ul>
 <p>Letztlich führen all diese Punkte zur Abschaltung eines IT-Systems aufgrund von IT-Sicherheitsproblemen, da diese Einbrüche in die Systeme (Hacks) begünstigen. Hinzu kommt das Risiko von Datenverlusten, entweder durch physischen Verlust im Falle eines Hardware-Defekts oder durch den logischen Verlust, da z.B. proprietäre Datenformate nicht mehr gelesen werden können.</p>
 <p>Der Weiterbetrieb eines IT-Systems ohne Ablösungsplanung birgt hohe Risiken in sich und kann eine Organisation folglich in ernsthafte Schwierigkeiten bringen, insbesondere wenn geschäftskritische Prozesse betroffen sind.</p>
-<!-- Hier sollte auf das Kapitel zur Migration verwiesen werden -->
+<!-- Hier sollte auf ein Kapitel zur Migration verwiesen werden -->
+</section>
+</section>
+<section id="betriebsmodelle" class="level2">
+<h2 class="anchored" data-anchor-id="betriebsmodelle">Betriebsmodelle</h2>
+<p>Insbesondere serverbasierte Software, wie zum Beispiel das <a href="./bibliotheksmanagementsysteme.html">Bibliotheksmanagementsystem</a>, kann auf verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support.</p>
+<section id="lokale-installation" class="level3">
+<h3 class="anchored" data-anchor-id="lokale-installation">Lokale Installation</h3>
+<p>Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf oder im Abo, und installierte diese auf eigenen Servern, z.B. im Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer „on-premise“ Installation.</p>
+<p>In diesem Modell kümmert sich die Einrichtung selbst um Installation und Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und kann dazu führen, dass bei einem personellen Engpass eine Software länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups und Ausfallsicherheit selbst Gedanken machen.</p>
+<p>Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig von äußeren Einflüssen.</p>
+</section>
+<section id="hosting" class="level3">
+<h3 class="anchored" data-anchor-id="hosting">Hosting</h3>
+<p>In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw. Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister kann hierbei etwa das Rechenzentrum einer Universität oder des angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten erworben werden.</p>
+<p>Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der eingesetzten Hardware können an diesen Anbieter delegiert werden. Im Falle des Hostings durch einen Bibliotheksverbund entfallen möglicherweise auch Einrichtung, Installation und Upgrades. Die Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch das Hosting für mehrere Einrichtung besser skaliert.</p>
+</section>
+<section id="cloud" class="level3">
+<h3 class="anchored" data-anchor-id="cloud">Cloud</h3>
+<p>Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt lediglich eine für sie konfigurierte Installation („Instanz“). Dies ist insbesondere bei webbasierten Anwendungen die bevorzugte Betriebsart, stellt aber erhöhte Anforderungen an die Anbindung lokaler Endgeräte wie z.B. <a href="bibliotheksmanagementsysteme.html#selbstverbucher-ausleihautomaten">Ausleihautomaten</a>), weil dabei eine sichere und stabile Verbindung zwischen den lokalen Automatisierungsgeräten und dem entfernt gehosteten System hergestellt werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten Hardware noch für die Pflege der genutzten Software zuständig.</p>
+<p>In der Praxis kann sich ein solches Betriebsmodell als komfortabel erweisen, da keine Personalressource für allgemeine Tätigkeiten des IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden. Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst personalsparend serverbasierte Software einzusetzen. Eine Kostenersparnis ist bei einer Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl der Endnutzer*innen führt ein solches Betriebsmodell meist zu Abonnementkosten.</p>
 </section>
 </section>
 <section id="betriebssicherheit-und-risikomanagement" class="level2">

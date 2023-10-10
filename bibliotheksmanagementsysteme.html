@@ -265,7 +265,6 @@ div.csl-indent {
   </ul></li>
   <li><a href="#technischer-betrieb" id="toc-technischer-betrieb" class="nav-link" data-scroll-target="#technischer-betrieb">Technischer Betrieb</a>
   <ul class="collapse">
-  <li><a href="#betriebsmodelle-für-serverbasierte-software" id="toc-betriebsmodelle-für-serverbasierte-software" class="nav-link" data-scroll-target="#betriebsmodelle-für-serverbasierte-software">Betriebsmodelle für serverbasierte Software</a></li>
   <li><a href="#kosten" id="toc-kosten" class="nav-link" data-scroll-target="#kosten">Kosten</a></li>
   <li><a href="#installation-updates" id="toc-installation-updates" class="nav-link" data-scroll-target="#installation-updates">Installation &amp; Updates</a></li>
   <li><a href="#open-source" id="toc-open-source" class="nav-link" data-scroll-target="#open-source">Open Source</a></li>
@@ -523,7 +522,7 @@ Info
 <p><span class="math inline">\(\Rightarrow\)</span> <em>Siehe auch <a href="#katalog-prozess">Prozessabbildung: Katalog</a></em></p>
 <p>Die <strong>Next Generation-Systeme</strong> zeichnen sich gegenüber den Systemen der 1. und 2. Generation in der Regel durch andere Systemarchitekturen aus. Das heißt, sie verfügen über aktuellere technische Einzelkomponenten und Schnittstellen, auf deren Grundlage auch zahlreiche zusätzliche Funktionalitäten angeboten werden können. Im Einzelnen gibt es folgende Merkmale, die ein <strong>Next Generation-System</strong> kennzeichnen <span class="citation" data-cites="schweitzer_roswitha_anforderungen_2016">(<a href="literatur.html#ref-schweitzer_roswitha_anforderungen_2016" role="doc-biblioref">Schweitzer 2016</a>)</span>:</p>
 <ul>
-<li><p>Angebot als Software as a Service (<a href="#cloud">SaaS</a>)</p></li>
+<li><p>Angebot als Software as a Service (<a href="management.html#cloud">SaaS</a>)</p></li>
 <li><p>Mandantenfähigkeit</p></li>
 <li><p>Interoperabilität durch offene, standardisierte und dokumentierte Schnittstellen</p></li>
 <li><p>Verfügbarkeit von Datenbanken bzw. Knowledge Bases für bibliografische Daten und Lizenzinformationen</p></li>
@@ -1081,43 +1080,15 @@ Info
 <p>Mit dem Begriff „Statistik“ können verschiedene Dinge im Rahmen eines BMS gemeint sein, etwa Betriebsstatistiken, wie die Rechnerauslastung eines Servers, auf dem das BMS betrieben wird. In diesem konkreten Fall ist jedoch mit „Statistik“ gemeint, dass die Nutzungsdaten des BMS in eine Form gebracht werden können, in der Mitarbeiter*innen der Bibliothek Informationen ziehen können, die zur Dokumentation, zum Reporting oder zur weiteren Arbeit benutzt werden können.</p>
 <p>Beispiele für Statistiken sind ganz klassische die Ausleihzahlen einer Bibliothek, ggf. aufgeteilt nach verschiedenen Themen oder Fächern, die den Bedarf der an bestimmten Medien preisgeben. Dies könnte für die Leitung einer Bibliothek relevant sein, oder für das Budgetmanagement der Einrichtung. Ein anderes Beispiel wären detaillierte Ausleih- und Benutzungsstatistiken, sowie konkrete Informationen zum Bestand. Mit einer solchen Datenlage können Fachbibliothekar*innen etwa gezielt Bestandsmanagement betreiben.</p>
 <p>Manche LMS haben Statistikfunktionen schon mit dabei. Andere halten ihre Daten in einer Datenbank und diese müssen aktiv exportiert werden. Wieder andere bieten entsprechende Schnittstellen, über die statistische Daten exportiert werden können.</p>
-<p>Je nach Anforderung an den Umfang und an die Arbeit, die mit statistischen Auswertungen erfolgen soll, kann die Entscheidung fallen, die aus dem BMS kommenden Daten einfach nur in eine Tabellenkalkulation zu exportieren, oder eine speziell auf die statistische Datenanalyse zugeschnittene Statistik-Software einzuspielen. Ergo kommen hier Softwares wie Excel, BibControl oder gar komplexe Statistik-Plattformen wie SPSS in Frage. BMS wie ExLibris Alma bringen hierbei schon eigene Statistik-Module mit, die eine externe Lösung überflüssig machen.</p>
+<p>Je nach Anforderung an den Umfang und an die Arbeit, die mit statistischen Auswertungen erfolgen soll, kann die Entscheidung fallen, die aus dem BMS kommenden Daten einfach nur in eine Tabellenkalkulation zu exportieren, oder eine speziell auf die statistische Datenanalyse zugeschnittene Statistik-Software einzuspielen. Ergo kommen hier Software wie Excel, BibControl oder gar komplexe Statistik-Plattformen wie SPSS in Frage. BMS wie ExLibris Alma bringen hierbei schon eigene Statistik-Module mit, die eine externe Lösung überflüssig machen.</p>
 <p>Alma (und andere BMS) können automatisiert oder manuell <a href="https://www.projectcounter.org/counter-sushi/">COUNTER</a>-Reports für statistische Daten der Nutzung digitaler Medien importieren.</p>
 </section>
 </section>
 </section>
 <section id="technischer-betrieb" class="level2">
 <h2 class="anchored" data-anchor-id="technischer-betrieb">Technischer Betrieb</h2>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Der technische Betrieb eines BMS umfasst die Installation, die <a href="#lokale-installation">lokal</a> oder als <a href="#hosting">gehostete Variante</a> bzw. in der <a href="#cloud">Cloud</a> erfolgen kann. <a href="#kosten">Kosten</a> entstehen dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das <a href="#monitoring">Monitoring</a> sowie die Aspekte der <a href="#it-sicherheit">IT-Sicherheit</a>, <a href="#backup-und-rollback">Backup</a> und <a href="#datenschutz">Datenschutz</a> zu berücksichtigen.</p>
-</div>
-</div>
-</div>
-<section id="betriebsmodelle-für-serverbasierte-software" class="level3">
-<h3 class="anchored" data-anchor-id="betriebsmodelle-für-serverbasierte-software">Betriebsmodelle für serverbasierte Software</h3>
-<p>Ein BMS kann auf verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support.</p>
-<section id="lokale-installation" class="level4">
-<h4 class="anchored" data-anchor-id="lokale-installation">Lokale Installation</h4>
-<p>Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf oder im Abo, und installierte diese auf eigenen Servern, z.B. im Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer „on-premise“ Installation.</p>
-<p>In diesem Modell kümmert sich die Einrichtung selbst um Installation und Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und kann dazu führen, dass bei einem personellen Engpass eine Software länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups und Ausfallsicherheit selbst Gedanken machen.</p>
-<p>Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig von äußeren Einflüssen.</p>
-</section>
-<section id="hosting" class="level4">
-<h4 class="anchored" data-anchor-id="hosting">Hosting</h4>
-<p>In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw. Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister kann hierbei etwa das Rechenzentrum einer Universität oder des angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten erworben werden.</p>
-<p>Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der eingesetzten Hardware können an diesen Anbieter delegiert werden. Im Falle des Hostings durch einen Bibliotheksverbund entfallen möglicherweise auch Einrichtung, Installation und Upgrades des BMS. Die Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch das Hosting für mehrere Einrichtung besser skaliert.</p>
-</section>
-<section id="cloud" class="level4">
-<h4 class="anchored" data-anchor-id="cloud">Cloud</h4>
-<p>Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim Anbieter bzw. Dienstleister des BMS und die Einrichtung nutzt lediglich eine Installation/Instanz des BMS. Dies ist insbesondere bei webbasierten BMS die bevorzugte Betriebsart, stellt aber erhöhte Anforderungen an die Anbindung lokaler Endgeräte (s.a. z.B. auch <a href="#selbstverbucher-ausleihautomaten">Automatisierung</a>), weil dabei eine sichere und stabile Verbindung zwischen den lokalen Automatisierungsgeräten und dem entfernt gehosteten System hergestellt werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten Hardware noch für die Pflege der genutzten Software zuständig.</p>
-<p>In der Praxis kann sich ein solches Betriebsmodell als komfortabel erweisen, da keine Personalressource für allgemeine Tätigkeiten des IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden. Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst personalsparend ein BMS einzusetzen. Eine Kostenersparnis ist bei einer Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl der Endnutzer*innen führt ein solches Betriebsmodell meist zu Abonnementkosten.</p>
-</section>
-</section>
+<p><a href="management.html#betriebsmodelle">Betriebs</a></p>
+<p>Der technische Betrieb eines BMS variiert je nach <a href="./management.html#betriebsmodelle">Betriebsmodell</a> (lokale Installation, gehostete Variante oder Cloud-Dienst). <a href="#kosten">Kosten</a> entstehen dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das <a href="#monitoring">Monitoring</a> sowie die Aspekte der <a href="#it-sicherheit">IT-Sicherheit</a>, <a href="#backup-und-rollback">Backup</a> und <a href="#datenschutz">Datenschutz</a> zu berücksichtigen.</p>
 <section id="kosten" class="level3">
 <h3 class="anchored" data-anchor-id="kosten">Kosten</h3>
 <p>Die Anschaffungskosten eines BMS machen nur einen kleinen Teil aus. Wichtiger ist, sich über folgende Kosten klar zu werden:</p>
