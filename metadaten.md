@@ -13,8 +13,8 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 
 ## Einleitung
 Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken
-Dokumente unterschiedlichster Form (Bücher, Filme, Forschungsdaten, Objekte...)
-nachgewiesen. Zur Verwaltung dieser Medien werden die Dokumente mit
+Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten, ...)
+nachgewiesen. Zur Verwaltung dieser Ressourcen werden diese mit
 **Metadaten** beschrieben. Neben diesen Metadaten beinhalten bibliothekarische
 Informationssysteme zunehmend auch Dokumente selbst als **digitale Inhalte**
 wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel
