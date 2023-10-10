@@ -2,13 +2,11 @@
 description: Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID...)
 ---
 
-{{< include umfrage.md >}}
-
 # Technische Infrastruktur
 
 :::{.callout-note}
 ## Zusammenfassung
-Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibliothek für den Betrieb von  Prozessen und Dienstleistungen wie [Verbuchung](#verbuchung), [Zugangskontrolle](#zugangskontrolle), [Internetzugang](#internetzugang) und [Arbeitsplätze](#gruppen--und-einzelarbeitsplätze). Neben [Diensten für Nutzer\*innen](#dienste-für-nutzerinnen) und der Basistechnologie [RFID](#rfdi) wird auch wesentliche [Dienste für Mitarbeitende](#dienste-für-mitarbeitende) beschrieben.
+Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibliothek für den Betrieb von  Prozessen und Dienstleistungen wie [Verbuchung](#verbuchung), [Zugangskontrolle](#zugangskontrolle), [Internetzugang](#internetzugang) und [Arbeitsplätze](#gruppen--und-einzelarbeitsplätze). Neben [Diensten für Nutzer\*innen](#dienste-für-nutzerinnen) und der Basistechnologie [RFID](#rfdi) wird auch wesentliche [Dienste für Mitarbeiter*innen](#dienste-für-mitarbeiterinnen) beschrieben.
 
 :::
 
@@ -27,7 +25,7 @@ vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in
 
 2.  [Dienste primär für Nutzerinnen und Nutzer](#dienste-für-nutzerinnen) wie Webseite, Internetzugang und Arbeitsplätze
 
-3.  [Dienste primär für Mitarbeitende](#dienste-für-mitarbeitende) wie Intranet und mobiles Arbeiten
+3.  [Dienste primär für Mitarbeiter\*innen](#dienste-für-mitarbeiterinnen) wie Intranet und mobiles Arbeiten
 
 Weitgehend ausgeklammert, weil an anderer Stelle behandelt, bleiben
 [forschungsnahe Dienste](#forschungsnahe-dienste) wie Repositories und Open Data,
@@ -87,7 +85,7 @@ bei der Rückgabe erkannt und zurückgewiesen werden.
 **Fernleihautomaten** dienen der personalfreien Abholung von bestellten
 Fernleihmedien oder anderen bestellten Dingen, die nicht durch die
 Ausleihautomaten verbucht werden können, etwa weil sie keinen RFID-Tag
-besitzen. Nach dem Einlegen des abzuholenden Mediums durch Mitarbeitende
+besitzen. Nach dem Einlegen des abzuholenden Mediums durch Mitarbeiter\*innen
 der Bibliothek werden Bestellende informiert (z.B. durch eine E-Mail),
 dass in einem Fach x etwas abzuholen sei. In diesem Vorgang kann man den
 Bestellenden auch ein PIN mitteilen, alternativ ist das Fach durch einen
@@ -203,7 +201,7 @@ Tischplatten experimentiert.
 
 ### Vor-Ort-Verlängerung
 
-Die Vor-Ort-Verlängerung ist ein Angebot der Bibliothek für Mitarbeitende der
+Die Vor-Ort-Verlängerung ist ein Angebot der Bibliothek für Mitarbeiter*innen der
 zugehörigen Institution, also z.B. der Hochschule oder der Verwaltung. Hierbei
 wird der ausgeliehene Bestand nicht in der Bibliothek, sondern beim Nutzenden
 vor Ort, also im Büro, im Labor etc.  erfasst und die entsprechenden
@@ -852,7 +850,7 @@ Dienstleistungen wie Rückgabe, Sortierung und Ausleihe mit dem
 Bibliothekssystem abwickeln zu können [@Michaelis2014].
 
 Die Anbindung von lokalen RFID-Readern an Computerarbeitsplätzen von
-Mitarbeiter_innen erfolgt im Regelfall durch das Anschließen eines solchen
+Mitarbeiter\*innen erfolgt im Regelfall durch das Anschließen eines solchen
 Gerätes direkt am Arbeitsplatz, zumeist über USB. Es existieren allerdings auch
 Reader, die über einen Netzwerkanschluss direkt mit dem Netz der Einrichtung
 verbunden werden können und dadurch weitere Flexibilität ermöglichen, da kein
@@ -990,7 +988,7 @@ arbeiten zu können. Damit in allen relevanten Bereichen WLAN mit
 angemessener Bandbreite verfügbar ist, sollten Bibliotheken
 Anforderungen an die Ausstattung des Gebäudes mit einer ausreichenden
 Anzahl an WLAN-Access-Points bestimmen. Das öffentliche Netz sollte vom
-internen Netz für Mitarbeitende der Bibliothek getrennt sein, um das
+internen Netz für Mitarbeiter\*innen der Bibliothek getrennt sein, um das
 Risiko eines Angriffs auf die Infrastruktur zu minimieren. Bei
 öffentlichen PCs sind zusätzlich Datenschutz-Maßnahmen zu treffen.
 
@@ -1191,7 +1189,7 @@ Bibliotheksdienste sinnvoll ist. Bietet eine Bibliothek z.B. die Onleihe als
 Dienst an, werden sich Nutzende bei Fragen direkt an die Bibliothek wenden und
 nicht an den Dienstleister.
 
-Somit müssen sich auch die Mitarbeitenden in der Bibliothek stetig fortbilden,
+Somit müssen sich auch die Mitarbeiter\*innen in der Bibliothek stetig fortbilden,
 um ihren Nutzenden einen guten Service zu bieten.
 
 Beispiele:
@@ -1203,11 +1201,11 @@ Beispiele:
 - Beratung zu App-Nutzung, die als digitale Inhalte angeboten werden
 
 Werden neue Dienste eingeführt, bedarf es neben der Werbung auch einer
-Einführung oder dem Angebot einer Schulung, in erster Linie für Mitarbeitende.
+Einführung oder dem Angebot einer Schulung, in erster Linie für Mitarbeiter\*innen.
 Viele Anbieter unterstützen dabei mit eigenem Schulungsmaterial, was unter
 Umständen je nach Zielgruppe angepasst werden muss.
 
-## Dienste für Mitarbeitende
+## Dienste für Mitarbeiter\*innen
 
 Die folgenden IT-Dienstleistungen dienen der Unterstützung der täglichen
 Arbeit, insbesondere im Hinblick auf verteilte Arbeitsumgebungen und
@@ -1239,7 +1237,7 @@ Arbeitnehmer.
 ### VPN
 
 Ein "Virtuelles Privates Netzwerk" dient dazu, über einen authentifizierten
-Zugriff das Endgerät des Mitarbeitenden bzw.  Nutzer\*innen virtuell in das
+Zugriff das Endgerät der Mitarbeiter\*innen bzw.  Nutzer\*innen virtuell in das
 interne Netzwerk (Intranet) der Institution einzubinden. Das ermöglicht die
 Nutzung von Diensten, die auf der Basis der Netzwerkadresse (IP-Adresse)
 entscheiden, ob der Zugriff ermöglicht wird. Viele Dienste einer Institution
@@ -1259,7 +1257,7 @@ Einsatz. Zusätzlich oder alternativ kann ein
 
 ### Chat
 
-Chats zwischen Mitarbeitenden dienen der niedrigschwelligen Kommunikation, oft
+Chats zwischen Mitarbeiter\*innen dienen der niedrigschwelligen Kommunikation, oft
 als Alternative zu Telefon und E-Mail. Gruppenchats in Abteilungen können für
 einfache Fragen und Absprachen genutzt werden und Menschen, die mobil arbeiten,
 können mit einem Chatsystem besser integriert werden. Die Nutzung von
