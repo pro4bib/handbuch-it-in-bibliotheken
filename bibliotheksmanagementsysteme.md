@@ -40,7 +40,7 @@ verwendet. Teilweise wird im Deutschen auch der allgemeinere Begriff
 die Begriffe *Integrated Library System (ILS)* und *Library Management System
 (LMS)*, zuletzt aber auch *Library Services Platforms*.
 
-## Entwicklung der Bibliotheksmanagementsysteme
+## Geschichte der Bibliotheksmanagementsysteme
 
 Ihren Ursprung haben Bibliotheksmanagementsysteme in
 den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten
@@ -94,9 +94,7 @@ die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
 Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
-![Evolution der Bibliotheksmanagementsysteme](media/bms-timeline.png){#fig-bmsevol}
-
-Quelle: @matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
+![Evolution der Bibliotheksmanagementsysteme (nach @matthews_library_2020, S. 7)](media/bms-timeline.png){#fig-bmsevol}
 
 ::: {.callout-tip}
 ## Info
@@ -131,7 +129,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
     Alltag zunehmend ändern (z.B. durch die Nutzung von
     Online-Shopping und Suchmaschinen), rücken die Bedürfnisse der
     Nutzer\*innen immer mehr in den Fokus bei der Entwicklung von
-    Bibliothekssystemen
+    Bibliothekssystemen.
 
 4.  **Epoche der Verbreiterung der Informationsressourcen**: Der
     Übergang in eine Phase, bei der Medien nicht mehr erworben,
@@ -202,11 +200,11 @@ Weitere BMS wie ExLibris Aleph, SISIS Sunrise und allegro werden zwar auch noch 
 
 Darüber hinaus gibt es mehrere kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist, beispielsweise:
 
-- [Perpustakaan](https://must.de/default.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal
+- [Perpustakaan](https://must.de/default.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal,
 
-- [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist in internen Forschungs- und Behörden-Bibliotheken verbreitet
+- [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist in internen Forschungs- und Behörden-Bibliotheken verbreitet,
 
-- Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab
+- Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab.
 
 Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
 gepflegte [Library Technology Guide](https://librarytechnology.org/products/). Für
@@ -271,7 +269,7 @@ anhand
 
 $\Rightarrow$ *Siehe auch [Prozessabbildung: Katalogisierung](#katalogisierung-prozess)*
 
-**Ausleihe** meint vorwiegend die Verwaltung physischer Medien bzw Objekte und regelt die
+**Ausleihe** meint vorwiegend die Verwaltung physischer Medien bzw. Objekte und regelt die
 Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Abbildung komplexer Reglements nach Benutzer- und Medientypen,
@@ -372,10 +370,15 @@ Nutzerdatenverwaltung
 -   IDM-Systeme
 
 Bibliotheken mit einem jährlichen Zuwachs von über 500 Medien und
-verschiedenen Nutzertypen und Ausleihbedingungen werden ist die Nutzung
+verschiedenen Benutzertypen und Ausleihbedingungen ist die Nutzung
 eines BMS zu empfehlen, da hier eine gewisse Prozesseffizienz einerseits
-und eine Erschließungs- und Dienstleistungsqualität andererseits zu
-erreicht werden können. Als gedankliches Experiment ist die Überlegung,
+und eine Erschließungs- und Dienstleistungsqualität andererseits
+erreicht werden kann. 
+
+:::{.callout-tip}
+## Info
+
+Als gedankliches Experiment ist die Überlegung,
 auf ein BMS zu verzichten, jedoch gut geeignet, um sich über die
 Anforderungen klar zu werden. Insbesondere die Rolle des
 Bibliothekskataloges als Schnittstelle zu den Bibliotheksnutzer\*innen
@@ -383,6 +386,7 @@ kann und sollte kritisch hinterfragt werden. Beispielsweise gab es
 [Überlegungen der Universitätsbibliothek in
 Utrecht](https://insights.uksg.org/articles/10.1629/2048-7754.174/),
 auf dieses klassische Instrument gänzlich zu verzichten.
+:::
 
 ### Integration des BMS mit anderen IT-Systemen {#integration}
 
@@ -412,9 +416,9 @@ Im bibliothekarischen Umfeld sind folgende Systeme relevant:
 
 -   der [Verbundkatalog](#verbundkataloge)
 
--   die [Zeitschriftendatenbank](#anbindung-an-verbundkatalogeverbundkatalogisierung) (siehe unten)
+-   die [Zeitschriftendatenbank](#anbindung-an-verbundkatalogeverbundkatalogisierung)
 
--   die [elektronische Zeitschriftendatenbank](#anbindung-an-verbundkatalogeverbundkatalogisierung) (siehe unten)
+-   die [elektronische Zeitschriftendatenbank](#anbindung-an-verbundkatalogeverbundkatalogisierung)
 
 Für die regionale und überregionale Literaturversorgung (physische,
 Print-Medien, E-Medien) spielt die Anbindung an folgende Systeme eine
@@ -451,7 +455,7 @@ gibt es mit WorldCat einen internationalen Verbundkatalog. Die Anbindung
 an WorldCat geschieht jedoch in der Regel nicht direkt über das lokale
 BMS sondern über den Bibliotheksverbund.
 
-Folgende Bibliotheksverbünde gibt es:
+@tbl-verbund gibt eine Übersicht über die deutschsprachigen Bibliotheksverbünde.
 
 +---------------------+-----------------+---------------------------------+
 | Verbund             | Verbundkatalog  | System                          |
@@ -481,6 +485,7 @@ Folgende Bibliotheksverbünde gibt es:
 | Service             |                 |                                 |
 | Platform (SLSP)     |                 |                                 |
 +---------------------+-----------------+---------------------------------+
+: Bibliotheksverbünde und -kataloge {#tbl-verb}
 
 ### Anbindung an Verbundkataloge/Verbundkatalogisierung
 
