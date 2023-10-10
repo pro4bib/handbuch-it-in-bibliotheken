@@ -685,3 +685,4 @@ Reporting](bibliotheksmanagementsysteme.md#statistik-und-reporting) als Teil
 des BMS).
 
 ## Zusammenfassung & Ausblick
+Sturkturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff auf Ressourcen in Bibliotheken. Damit bilden sie auch die Grundlage für die meisten an Bibliotheken angebotenen IT-Dienste. Die wichtigsten Begrifflichkeiten und Standards im Zusammenhang mit (Meta-)Daten wurden im vorliegenden Kapitel vorgestellt. In Zukunft ist insbesondere zu erwarten, dass die Bedeutung semantischer Technologien bei der Erschließung und den darauf basierenden IT-Diensten deutlich zunehmen wird, da diese eine deutlich tiefere Erschließung und Vernetzung der Ressourcen ermöglichen.
