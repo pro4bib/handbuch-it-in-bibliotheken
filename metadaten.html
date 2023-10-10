@@ -222,28 +222,28 @@ div.csl-indent {
    
   <ul>
   <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung">Einleitung</a></li>
+  <li><a href="#grundlegende-begrifflichkeiten" id="toc-grundlegende-begrifflichkeiten" class="nav-link" data-scroll-target="#grundlegende-begrifflichkeiten">Grundlegende Begrifflichkeiten</a>
+  <ul class="collapse">
   <li><a href="#daten" id="toc-daten" class="nav-link" data-scroll-target="#daten">Daten</a></li>
   <li><a href="#datenformate" id="toc-datenformate" class="nav-link" data-scroll-target="#datenformate">Datenformate</a></li>
-  <li><a href="#datenerfassung" id="toc-datenerfassung" class="nav-link" data-scroll-target="#datenerfassung">Datenerfassung</a></li>
-  <li><a href="#identifikatoren-und-normdaten" id="toc-identifikatoren-und-normdaten" class="nav-link" data-scroll-target="#identifikatoren-und-normdaten">Identifikatoren und Normdaten</a>
-  <ul class="collapse">
-  <li><a href="#identifikator-systeme" id="toc-identifikator-systeme" class="nav-link" data-scroll-target="#identifikator-systeme">Identifikator-Systeme</a></li>
+  <li><a href="#identifikatoren" id="toc-identifikatoren" class="nav-link" data-scroll-target="#identifikatoren">Identifikatoren</a></li>
   <li><a href="#normdaten" id="toc-normdaten" class="nav-link" data-scroll-target="#normdaten">Normdaten</a></li>
   </ul></li>
-  <li><a href="#metadatenformate" id="toc-metadatenformate" class="nav-link" data-scroll-target="#metadatenformate">Metadatenformate</a>
+  <li><a href="#metadatenstandards" id="toc-metadatenstandards" class="nav-link" data-scroll-target="#metadatenstandards">Metadatenstandards</a>
   <ul class="collapse">
   <li><a href="#arten-von-metadaten" id="toc-arten-von-metadaten" class="nav-link" data-scroll-target="#arten-von-metadaten">Arten von Metadaten</a></li>
   <li><a href="#feldbasierte-bibliothekarische-metadatenformate" id="toc-feldbasierte-bibliothekarische-metadatenformate" class="nav-link" data-scroll-target="#feldbasierte-bibliothekarische-metadatenformate">Feldbasierte bibliothekarische Metadatenformate</a></li>
   <li><a href="#datenmodelle-und-rdf-formate" id="toc-datenmodelle-und-rdf-formate" class="nav-link" data-scroll-target="#datenmodelle-und-rdf-formate">Datenmodelle und RDF-Formate</a></li>
   <li><a href="#verlagsdaten-und-literaturangaben" id="toc-verlagsdaten-und-literaturangaben" class="nav-link" data-scroll-target="#verlagsdaten-und-literaturangaben">Verlagsdaten und Literaturangaben</a></li>
   </ul></li>
-  <li><a href="#datenverarbeitung" id="toc-datenverarbeitung" class="nav-link" data-scroll-target="#datenverarbeitung">Datenverarbeitung</a>
+  <li><a href="#datenverarbeitungsprozess-in-bibliotheken" id="toc-datenverarbeitungsprozess-in-bibliotheken" class="nav-link" data-scroll-target="#datenverarbeitungsprozess-in-bibliotheken">Datenverarbeitungsprozess in Bibliotheken</a>
   <ul class="collapse">
+  <li><a href="#datenerfassung" id="toc-datenerfassung" class="nav-link" data-scroll-target="#datenerfassung">Datenerfassung</a></li>
   <li><a href="#etl-prozess" id="toc-etl-prozess" class="nav-link" data-scroll-target="#etl-prozess">ETL-Prozess</a></li>
   <li><a href="#werkzeuge" id="toc-werkzeuge" class="nav-link" data-scroll-target="#werkzeuge">Werkzeuge</a></li>
   <li><a href="#schnittstellen" id="toc-schnittstellen" class="nav-link" data-scroll-target="#schnittstellen">Schnittstellen</a></li>
-  </ul></li>
   <li><a href="#datenanalyse" id="toc-datenanalyse" class="nav-link" data-scroll-target="#datenanalyse">Datenanalyse</a></li>
+  </ul></li>
   <li><a href="#zusammenfassung-ausblick" id="toc-zusammenfassung-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-ausblick">Zusammenfassung &amp; Ausblick</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/metadaten.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/metadaten.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
@@ -287,8 +287,10 @@ Zusammenfassung
 <h2 class="anchored" data-anchor-id="einleitung">Einleitung</h2>
 <p>Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten, …) nachgewiesen. Zur Verwaltung dieser Ressourcen werden diese mit <strong>Metadaten</strong> beschrieben. Neben diesen Metadaten beinhalten bibliothekarische Informationssysteme zunehmend auch Dokumente selbst als <strong>digitale Inhalte</strong> wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel <a href="./digitalisierung.html">Digitalisierung</a> und <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>). Viele der im Folgenden beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten gelten sowohl für Metadaten als auch für digitale Inhalte.</p>
 </section>
-<section id="daten" class="level2">
-<h2 class="anchored" data-anchor-id="daten">Daten</h2>
+<section id="grundlegende-begrifflichkeiten" class="level2">
+<h2 class="anchored" data-anchor-id="grundlegende-begrifflichkeiten">Grundlegende Begrifflichkeiten</h2>
+<section id="daten" class="level3">
+<h3 class="anchored" data-anchor-id="daten">Daten</h3>
 <p>Im Wesentlichen bestehen Daten im Sinne dieses Buchs aus einer Folge von Bits. Abgesehen von ihrer Anzahl in Bytes lässt sich auf dieser Ebene allerdings nichts weiter über Daten sagen. Uns interessiert daher mehr, für was die Daten stehen – beispielsweise für eine Jahreszahl, ein Bild oder für den Titel eines Dokumentes. Dabei besteht ein Unterschied zwischen</p>
 <ul>
 <li><p>der Struktur von Daten (<strong>Syntax</strong>)</p></li>
@@ -337,8 +339,8 @@ Zusammenfassung
 </ul>
 <p>Leider liegen beide oft nicht explizit vor, sondern müssen anhand von Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im Idealfall entsprechen Daten einem klar definierten Datenformat.</p>
 </section>
-<section id="datenformate" class="level2">
-<h2 class="anchored" data-anchor-id="datenformate">Datenformate</h2>
+<section id="datenformate" class="level3">
+<h3 class="anchored" data-anchor-id="datenformate">Datenformate</h3>
 <p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis, …) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16, …). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, so dass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml">Tabelle&nbsp;<span>5.2</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
 <div id="tbl-xml" class="anchored">
 <table class="table">
@@ -396,32 +398,9 @@ Info
 <p>Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem Schwerpunkt bietet die Datenbank <a href="https://format.gbv.de/">format.gbv.de</a>. Grundlagen von Metadaten und Ontologien vermitteln <span class="citation" data-cites="kuhlen_metadaten_2023">Assfalg (<a href="literatur.html#ref-kuhlen_metadaten_2023" role="doc-biblioref">2023</a>)</span> und <span class="citation" data-cites="kuhlen_ontologien_2023">Rölke und Weichselbraun (<a href="literatur.html#ref-kuhlen_ontologien_2023" role="doc-biblioref">2023</a>)</span>.</p>
 <p>In der Praxis werden Daten in einem Datenformat zusätzlich durch anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und die jeweilige Erfassungspraxis.</p>
 </section>
-<section id="datenerfassung" class="level2">
-<h2 class="anchored" data-anchor-id="datenerfassung">Datenerfassung</h2>
-<p>Traditionell werden bibliothekarische Metadaten durch Katalogisierung erstellt. Die Verwaltung der Katalogdaten erfolgt entweder lokal oder gemeinsam in einer <strong>Verbunddatenbank</strong>. Der Vorteil der Verbundkatalogisierung liegt darin, dass jedes Dokument nur einmal zentral beschrieben werden muss, während bei lokaler Katalogisierung durch <em>Fremddatenübernahme</em> nur zum Teil auf vorhandene Kataloge zurückgegriffen werden kann.</p>
-<p>Im Idealfall sollte die Erfassung nach <em>Autopsie</em>, also auf Grundlage des vorliegenden Werkes, durch geschultes Personal und nach etablierten Regelwerken (<em>Katalogisierungsrichtlinien</em>) erfolgen. Um möglichst viele Publikationen zu erfassen, wird jedoch zunehmend auch auf anderweitig erfasste Metadaten von Verlagen, Repositorien und aus anderen Quellen zurückgegriffen. Dazu müssen Daten unterschiedlicher Erschließungstiefe und -qualität im Rahmen von <a href="#etl-prozess">ETL-Prozessen</a> gesammelt, analysiert und mit vorhandenen Daten vereinheitlicht werden. In jedem Fall muss beachtet werden, dass sich Regeln und Umstände, nach denen Daten erfasst werden, mit der Zeit ändern können (beispielsweise der Umstieg der Erfassungsregeln von <em>RAK</em> auf <em>RDA</em>) und dass das Ergebnis auch davon abhängt, wie gut überprüft werden kann, was die Anforderungen an die Daten sind.</p>
-<p>Darüber hinaus gibt es Verfahren zur automatischen Erstellung von Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und Auswertung von Literaturangaben und zur thematischen Einordnung von Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate gerechnet werden.</p>
-<p>Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die Daten erfasst werden. So gelten beispielsweise für eine historische Bibliographie andere Maßstäbe als für einen Suchindex.</p>
-<p>Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit denen Daten erstellt, bearbeitet und <em>analysiert</em> werden können.</p>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Info
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Mehr zur bibliothekarischen Datenerfassung in den <em>Grundlagen der Informationswissenschaft</em> <span class="citation" data-cites="kuhlen_grundlagen_2023">(<a href="literatur.html#ref-kuhlen_grundlagen_2023" role="doc-biblioref">2023</a>)</span>, <em>Teil B</em>.</p>
-</div>
-</div>
-</section>
-<section id="identifikatoren-und-normdaten" class="level2">
-<h2 class="anchored" data-anchor-id="identifikatoren-und-normdaten">Identifikatoren und Normdaten</h2>
+<section id="identifikatoren" class="level3">
+<h3 class="anchored" data-anchor-id="identifikatoren">Identifikatoren</h3>
 <p>Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs wie Nummern, Codes…) zum Verweis auf externe Objekte oder an anderer Stelle verwaltete Informationen. Identifikatoren ermöglichen die eindeutige Referenzierung gleicher Dinge in unterschiedlichen Kontexten, so dass Daten aus verschiedenen Quellen miteinander abgeglichen und kombiniert werden können.</p>
-<section id="identifikator-systeme" class="level3">
-<h3 class="anchored" data-anchor-id="identifikator-systeme">Identifikator-Systeme</h3>
 <p>Neben eher intern genutzten Datensatz-Identifikatoren (z.B. die <em>PPN</em> des Bibliothekssystems PICA oder die ZDB-ID der Zeitschriftendatenbank) sind vor allem international standardisierte Identifikatoren von Bedeutung. Beispiele für solche Identifier-Systeme mit Relevanz für bibliothekarischer Daten sind die nachfolgenden:</p>
 <ul>
 <li><p>Die <em>International Standard Book Number</em> (<strong>ISBN</strong>) wird von Verlagen für Bücher vergeben. Seit 2007 ist die 13-stellige ISBN Teil des EAN-Barcode-Systems.</p></li>
@@ -448,8 +427,8 @@ Info
 <p>Das <a href="https://bartoc.org/"><em>Basic Register of Thesauri, Ontologies &amp; Classifications</em></a> (BARTOC) erfasst Informationen zu Normdateien aller Art, darunter auch Verfahren zum technischen Zugriff.</p>
 </section>
 </section>
-<section id="metadatenformate" class="level2">
-<h2 class="anchored" data-anchor-id="metadatenformate">Metadatenformate</h2>
+<section id="metadatenstandards" class="level2">
+<h2 class="anchored" data-anchor-id="metadatenstandards">Metadatenstandards</h2>
 <p>Neben allgemeinen <a href="#datenformate">Datenformaten</a> sind für die Bibliotheks-IT vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die meisten der im Folgenden beschriebenen Metadatenformate spielen außerhalb von Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (<em>METS/MODS</em>, <em>LIDO</em>, <em>CDWA</em>, <em>EN 15907</em>, <em>EAD</em>, …, siehe Kapitel <a href="./digitalisierung.html">Digitalisierung</a>) und für Forschungsdaten (DataCite, siehe Kapitel <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>) gibt es darüber hinaus spezielle Formate.</p>
 <section id="arten-von-metadaten" class="level3">
 <h3 class="anchored" data-anchor-id="arten-von-metadaten">Arten von Metadaten</h3>
@@ -486,9 +465,29 @@ Info
 <p>Die Formate <em>ONIX</em>, <em>JATS</em>, <em>BITS</em> und <em>CrossRef XML</em> stammen aus dem Verlagsbereich zur Beschreibung von Zeitschriftenartikeln und Büchern. Sie basieren alle auf XML und sind für Bibliotheken für den Datenimport relevant. Datenformate für Literaturangaben (<em>BibTeX</em>, <em>RIS</em>, <em>Endnote</em>, <em>CSL-JSON</em>…) werden dagegen zum Export von Katalogdaten bereitgestellt. Zitationsregeln für Literaturangaben und Ansetzungsregeln von <em>ISBD</em> sind dagegen für den Datenaustausch eher unbrauchbar. Learning Object Metadata (<em>LOM</em>) dient in verschiedenen lokalen Anpassungen der Beschreibung von Lerneinheiten.</p>
 </section>
 </section>
-<section id="datenverarbeitung" class="level2">
-<h2 class="anchored" data-anchor-id="datenverarbeitung">Datenverarbeitung</h2>
-<p>Neben der <a href="#datenerfassung">Erfassung von Daten</a> umfasst das bibliothekarische (Meta-)Datenmanagement Verfahren der Konvertierung, Integration und Auswertung von Daten. Diese wesentlichen Schritte werden oft mittels eines ETL-Prozesses zur Übertragung von Daten in ein anderes System vorgenommen. Nach Beschreibung der Bestandteile des ETL-Prozesses wird in diesem Abschnitt auf Werkzeuge und Schnittstellen eingegangen.</p>
+<section id="datenverarbeitungsprozess-in-bibliotheken" class="level2">
+<h2 class="anchored" data-anchor-id="datenverarbeitungsprozess-in-bibliotheken">Datenverarbeitungsprozess in Bibliotheken</h2>
+<section id="datenerfassung" class="level3">
+<h3 class="anchored" data-anchor-id="datenerfassung">Datenerfassung</h3>
+<p>Traditionell werden bibliothekarische Metadaten durch Katalogisierung erstellt. Die Verwaltung der Katalogdaten erfolgt entweder lokal oder gemeinsam in einer <strong>Verbunddatenbank</strong>. Der Vorteil der Verbundkatalogisierung liegt darin, dass jedes Dokument nur einmal zentral beschrieben werden muss, während bei lokaler Katalogisierung durch <em>Fremddatenübernahme</em> nur zum Teil auf vorhandene Kataloge zurückgegriffen werden kann.</p>
+<p>Im Idealfall sollte die Erfassung nach <em>Autopsie</em>, also auf Grundlage des vorliegenden Werkes, durch geschultes Personal und nach etablierten Regelwerken (<em>Katalogisierungsrichtlinien</em>) erfolgen. Um möglichst viele Publikationen zu erfassen, wird jedoch zunehmend auch auf anderweitig erfasste Metadaten von Verlagen, Repositorien und aus anderen Quellen zurückgegriffen. Dazu müssen Daten unterschiedlicher Erschließungstiefe und -qualität im Rahmen von <a href="#etl-prozess">ETL-Prozessen</a> gesammelt, analysiert und mit vorhandenen Daten vereinheitlicht werden. In jedem Fall muss beachtet werden, dass sich Regeln und Umstände, nach denen Daten erfasst werden, mit der Zeit ändern können (beispielsweise der Umstieg der Erfassungsregeln von <em>RAK</em> auf <em>RDA</em>) und dass das Ergebnis auch davon abhängt, wie gut überprüft werden kann, was die Anforderungen an die Daten sind.</p>
+<p>Darüber hinaus gibt es Verfahren zur automatischen Erstellung von Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und Auswertung von Literaturangaben und zur thematischen Einordnung von Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate gerechnet werden.</p>
+<p>Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die Daten erfasst werden. So gelten beispielsweise für eine historische Bibliographie andere Maßstäbe als für einen Suchindex.</p>
+<p>Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit denen Daten erstellt, bearbeitet und <em>analysiert</em> werden können.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Info
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Mehr zur bibliothekarischen Datenerfassung in den <em>Grundlagen der Informationswissenschaft</em> <span class="citation" data-cites="kuhlen_grundlagen_2023">(<a href="literatur.html#ref-kuhlen_grundlagen_2023" role="doc-biblioref">2023</a>)</span>, <em>Teil B</em>.</p>
+</div>
+</div>
+</section>
 <section id="etl-prozess" class="level3">
 <h3 class="anchored" data-anchor-id="etl-prozess">ETL-Prozess</h3>
 <p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl">Abbildung&nbsp;<span>5.2</span></a> illustriert den generellen ETL-Prozess mit einigen exemplarischen Arbeitsschritten.</p>
@@ -571,12 +570,12 @@ Info
 </ul>
 <p>Darüber hinaus bieten die meisten Anwendungen eigene Schnittstellen, zum Beispiel die Solr-API der Suchplattform <em>Apache Solr</em>. Weitere Schnittstellen spielen eher im Bereich <a href="./digitalisierung.html">Digitalisierung</a> und <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a> eine Rolle, beispielsweise die APIs des International Image Interoperability Framework (<em>IIIF</em>).</p>
 </section>
-</section>
-<section id="datenanalyse" class="level2">
-<h2 class="anchored" data-anchor-id="datenanalyse">Datenanalyse</h2>
+<section id="datenanalyse" class="level3">
+<h3 class="anchored" data-anchor-id="datenanalyse">Datenanalyse</h3>
 <p>Im Gegensatz zu physischen Objekten ist Daten ihre Beschaffenheit nicht direkt anzusehen. Lediglich der Umfang von Daten in Bytes und ggf. die Anzahl von Dateien und Datensätzen kann einen ersten Anhaltspunkt liefern. Weitere Einschätzungen, insbesondere darüber, ob Daten vollständig oder fehlerhaft sind, setzen eine konkrete Analyse der Daten voraus. Dies beinhaltet auch die Visualisierung von Daten zur Exploration, Kommunikation und Diskussion <span class="citation" data-cites="kuhlen_informationsvisualisierung_2023">(<a href="literatur.html#ref-kuhlen_informationsvisualisierung_2023" role="doc-biblioref">Jetter 2023</a>)</span>.</p>
 <p>Die Auswertung von Daten ist nicht nur für das Qualitätsmanagement relevant <span class="citation" data-cites="vos_jakob_datenqualitat_2021">(<a href="literatur.html#ref-vos_jakob_datenqualitat_2021" role="doc-biblioref">Voß 2021</a>)</span>, beispielsweise um im Rahmen des ETL-Prozesses Verteilungen und Ausreißer zu erkennen, sondern auch um aus Daten weitere Erkenntnisse zu gewinnen. So können beispielsweise Ausleihzahlen nach Medien gruppiert für die Bestandsplanung eingesetzt werden. Voraussetzung dafür ist, dass Daten überhaupt vorliegen, ebenso wie Mittel und Kenntnisse zu ihrer Auswertung. Bei fehlenden oder zu umfangreichen Daten können Stichproben erhoben werden, wobei auf die Zufälligkeit der Stichprobe und das Konfidenzintervall des Ergebnisses geachtet werden muss.</p>
 <p>Neben rudimentären Statistik-Kenntnissen helfen bei der Datenanalyse Werkzeuge wie die <a href="#werkzeuge">im vorigen Abschnitt</a> beschriebenen Mittel zur Datenverarbeitung. Für allgemeine Analysen eignet sich vor allem eine Tabellenkalkulation. Für komplexere Analysen gibt es spezielle Statistik-Programme und Programmiersprachen wie <em>SAS</em> und <em>R</em>. Für explorative Analysen und um bei geänderter Datenlage automatisch aktuelle Ergebnisse zu bekommen, bieten sich interaktive Umgebungen wie <em>Jupyter Notebooks</em> oder <em>Observable</em> an. Für spezielle, wiederkehrende Analysen und Aufbereitungen kann es auch sinnvoll sein, eigene Anwendungen zu entwickeln bzw. entwickeln zu lassen. Beispiele hierfür sind <em>BibControl</em>, das <em>Metadata Quality Assessment Framework</em> (<em>MQA</em>), die Deutsche Bibliotheksstatistik sowie Statistikfunktionen als Teil anderer Programme (zum Beispiel <a href="./bibliotheksmanagementsysteme.html#statistik-und-reporting">Statistik und Reporting</a> als Teil des BMS).</p>
+</section>
 </section>
 <section id="zusammenfassung-ausblick" class="level2">
 <h2 class="anchored" data-anchor-id="zusammenfassung-ausblick">Zusammenfassung &amp; Ausblick</h2>
