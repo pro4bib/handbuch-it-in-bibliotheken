@@ -74,7 +74,7 @@ man von einem konsolidierten Markt sprechen kann [@breeding_library_nodate].
 :::{.callout-tip}
 ## Info
 
-Die **erste Generation** der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die **zweite BMS-Generation** verfügte über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die **dritte Generation** zeichnete sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
+Die **erste Generation** der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzer\*innen. Die **zweite BMS-Generation** verfügte über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die **dritte Generation** zeichnete sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
 
 :::
 
@@ -232,7 +232,7 @@ Module für folgende Funktionen:
 
 -   Ausleihe
 
--   ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzer*innen richtet
+-   ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzer\*innen richtet
 
 ### Grundlegende Komponenten
 
@@ -271,7 +271,7 @@ anhand
 
 $\Rightarrow$ *Siehe auch [Prozessabbildung: Katalogisierung](#katalogisierung-prozess)*
 
-**Ausleihe** meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt
+**Ausleihe** meint vorwiegend die Verwaltung physischer Medien bzw Objekte und regelt die
 Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Abbildung komplexer Reglements nach Benutzer- und Medientypen,
@@ -548,13 +548,13 @@ lässt sich anhand der folgenden Beispiele darstellen:
 -   Bücher können in einer anderen Zweigstellen ausgeliehen werden.
 
 -   Die Bibliothek verfügt über einen Magazinbestand, also physische
-    Medien, die für die Nutzenden nicht unmittelbar zur Verfügung
+    Medien, die für die Nutzer\*innen nicht unmittelbar zur Verfügung
     stehen.
 
 In beiden Fällen muss auch der Bestellprozess über das System abgebildet
 werden. Im Magazin bzw. der Zweigstelle sind der Anschluss und die
 Aufstellung von Druckern für die Erzeugung von Bestellzetteln zu
-berücksichten. Sind die Medien für die Bibliotheksnutzenden direkt
+berücksichten. Sind die Medien für die Bibliotheksnutzer\*innen direkt
 zugänglich, entfällt der Bestellschritt und der abzubildende Prozess beginnt mit der
 Ausleihverbuchung.
 
@@ -563,14 +563,14 @@ Organisation. So sind ggf. verschiedene Berechtigungsstufen für die
 Bearbeitung von Daten im BMS für die Bibliotheksbeschäftigen
 einzuführen. Die Berechtigungen bilden die Arbeitsorganisation ab und
 berechtigen z.B. zum Lesen, Anlegen, Editieren oder Löschen von
-Ausleihbestellungen, Benutzenden- oder Katalogdaten,
+Ausleihbestellungen, Nutzer\*innen- oder Katalogdaten,
 Erwerbungsunterlagen, Gebühreninformationen u.ä.
 
 ### Benutzungsbedingungen
 
 Die Benutzungsbedingungen werden durch die Ausleihpolitik der Bibliothek
 bestimmt. Die Gestaltung der Bedingungen erfolgt sowohl bezogen auf die
-Medien und die Bibliotheksbenutzenden. Dabei geht es um die Frage, was
+Medien und die Bibliotheksnutzer\*innen. Dabei geht es um die Frage, was
 von wem ausgeliehen werden darf und, wenn eine Ausleihe möglich ist, wie
 und für welchen Zeitraum diese erfolgen kann.
 
@@ -586,7 +586,7 @@ verschiedene Kriterien charakterisiert. Zur Illustration zwei Beispiele:
 
 -   Gruppenbildung öffentlichen Bibliothek: Kinder, Jugendliche, Erwachsene
 
-Die Einteilung von Bibliotheksnutzenden in Gruppen dient der einfacheren
+Die Einteilung von Bibliotheksnutzer\*innen in Gruppen dient der einfacheren
 Zuweisung von Rechten und Ausleihbedingungen, wird aber auch für
 statistische Zwecke genutzt. Die Ausleihpolitik bestimmt, welche Rechte
 den verschiedenen Benutzungsgruppen zugewiesen werden. So erfolgt z.B.
@@ -645,7 +645,7 @@ Kapitel zu Open Data).
 
 ### Digitale Inhalte
 
-Dies sind letztendlich die Daten die für die Nutzenden der Bibliothek
+Dies sind letztendlich die Daten die für die Nutzer\*innen der Bibliothek
 vor allem von Interesse sind. Im Falle von Open Access Publikationen
 bietet das BMS nur einen möglichen Weg zum Zugriff, für erworbene oder
 lizenzierte Inhalte muss das BMS dagegen unterschiedliche Zugriffsrechte
@@ -666,7 +666,7 @@ wie z.B. einzelne Abbildungen.
 Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb der
 Bibliothek (siehe [Prozessabbildung](#prozessabbildung)). Diese Daten sind zum
 größten Teil nicht öffentlich und müssen insbesondere im Falle von Daten von
-Nutzenden im Rahmen des [Datenschutz](#datenschutz) vertraulich behandelt
+Nutzer\*innen im Rahmen des [Datenschutz](#datenschutz) vertraulich behandelt
 werden.
 
 Zur Interoperabilität mit anderen Informationssystemen innerhalb der
@@ -976,27 +976,27 @@ dieser geprüft werden können. Hierbei könnten sich Notwendigkeiten für
 Änderungen in den Prozessabläufen der Bibliothek ergeben, die auf Basis
 der Beschreibungen genauer adressiert werden können.
 
-### Nutzende
+### Nutzer\*innen
 
-Als Nutzende werden in diesem Kapitel diejenigen Menschen bezeichnet,
+Als Nutzer\*innen werden in diesem Kapitel diejenigen Menschen bezeichnet,
 die mit einem BMS interagieren. Man unterscheidet zwischen den
 Bibliotheksbeschäftigten, die mit dem Modulen Ausleihe, Erwerbung,
-Katalogisierung, *ERM* etc. interagieren, und den Bibliotheksnutzenden
+Katalogisierung, *ERM* etc. interagieren, und den Bibliotheksnutzer\*innen
 (oft auch als Leser\*innen bezeichnet), die mit dem BMS über das Modul
 OPAC oder nur indirekt über ein Discovery-System oder ein anderes
 Drittsystem mit dem BMS in Kontakt kommen.
 
 ### User-Interfaces für verschiedene BMS-Anwender\*innen
 
-Die Bibliotheksbeschäftigten und die Bibliotheksnutzenden haben
+Die Bibliotheksbeschäftigten und die Bibliotheksnuter\*innen haben
 verschiedene Sichtweisen auf ein BMS. Bibliotheksbeschäftigte müssen
 über das User-Interface bei ihrer Arbeit spezifisch durch die Workflows
 geführt werden. Dabei ist auf eine einheitliche Benutzungsführung und
 Gestaltung der Oberfläche zu achten.
 
-Für die Bibliotheksnutzenden steht die Information über die Dienste der
+Für die Bibliotheksnutzer\*innen steht die Information über die Dienste der
 Bibliothek, deren Bestand und die Nutzung des Bestandes im Vordergrund.
-Bibliotheksnutzende kommen dabei häufig mit mehreren IT-Systemen in
+Bibliotheksnutzer\*innen kommen dabei häufig mit mehreren IT-Systemen in
 Kontakt (BMS- OPAC-Modul, Web-Server, Discovery-System, ...). Daher
 sollte auch hier auf eine einheitliche Oberfläche der eingesetzten
 IT-Systeme geachtet werden, auch bezüglich Accounts und Login, zumindest
@@ -1133,7 +1133,7 @@ Suchbegriffen bieten. Diese Funktionen sind in den BMS der neuen
 Generation standardmäßig enthalten.
 
 Es entstanden durch den erwähnten Innovationsdruck verschiedene
-Konstrukte, die Daten der Bibliothek den Nutzenden zur Verfügung zu
+Konstrukte, die Daten der Bibliothek den Nutzer\*innen zur Verfügung zu
 stellen:
 
 1.  Klassischer Katalog (OPAC) als Bestandteil des BMS
@@ -1156,10 +1156,10 @@ in der Oberfläche des Discovery-Systems aktuell darzustellen.
 
 Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
 
-1.  Anlegen von Nutzergruppen, Standorten, Medienarten
+1.  Anlegen von Benutzergruppen, Standorten, Medienarten
 
 2.  Abbildung der in den Benutzungsordnungen festgelegten
-    Ausleihbedingungen, z.B. Leihfristen nach Nutzergruppen,
+    Ausleihbedingungen, z.B. Leihfristen nach Benutzergruppen,
     Standorten, Medienarten
 
 3.  Verbuchung von Medien (Ausleihe, Rücknahme)
@@ -1232,7 +1232,7 @@ Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.
 
 Bei Nichtvorhandensein einer separaten Rückgabeanlage kann der
 Selbstverbucher / Ausleihautomat auch eine Rückgabefunktion anbieten.
-Zumeist sammeln die Benutzenden die zurückgegebenen Medien unsortiert;
+Zumeist werden die zurückgegebenen Medien unsortiert gesammelt;
 im Anschluss erfolgt die Sortierung durch das Bibliothekspersonal.
 
 Nach der Rückgabe- oder Ausleihverbuchung muss der Selbstverbucher /
@@ -1240,18 +1240,18 @@ Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei
 der in vielen Bibliotheken auslaufenden EM-Sicherung (elektromagnetisch
 über einen im Medium eingeklebten magnetisierbaren Metallstreifen)
 geschieht dies über die Ansteuerung eines Elektromagneten mit hörbarem
-Feedback an die Nutzenden ("klack"). Bei RFID-Sicherung wird bei
+Feedback an die Nutzer\*innen ("klack"). Bei RFID-Sicherung wird bei
 erfolgter Verbuchung ein Sicherungsbit auf dem RFID-Chip verändert.
 Aufgrund der größeren Geschwindigkeit dieses Vorganges geschieht dies
-ohne Feedback an die Nutzenden.
+ohne Feedback an die Nutzer\*innen.
 
 #### Rückgabeautomat / -sortierung
 
 Ein separater Rückgabeautomat hat zum einen den Vorteil, dass die
 Prozesse Ausleihe und Rückgabe bei starker Nutzung entzerrt werden und
 zum anderen, dass eine Sortierung der zurückgegebenen Medien möglich
-ist. Die Medien werden von den Nutzenden auf ein Förderband gelegt und
-eingezogen (außer Reichweite des Nutzenden). In dieser Position wird der
+ist. Die Medien werden von den Nutzer\*innen auf ein Förderband gelegt und
+eingezogen (außer Reichweite des Nutzer\*innen. In dieser Position wird der
 Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines der
 beiden erkannt, wird das Medium wieder zurückgegeben. Bei erfolgreicher
 Erkennung und Verbuchung im BMS (und anschließender Aktivierung der
@@ -1270,10 +1270,10 @@ Stapel entnommen und einsortiert werden können.
 Üblicherweise gibt es am Rückgabeautomaten keine Authentifizierung.
 
 Es gibt auch Rückgabeautomaten, die eine erneute Ausleihe des gerade
-zurückgegebenen Werkes an den gleichen Bibliotheksnutzenden ermöglichen.
+zurückgegebenen Werkes an den/ie gleiche Bibliotheksnutzer/in ermöglichen.
 Dies ist in den Fällen sinnvoll, wenn die maximale Leihfrist / maximal
-mögliche Verlängerungen der Leihfrist erreicht ist und der
-Bibliotheksnutzende das Buch weiter nutzen möchte und das Medium nicht
+mögliche Verlängerungen der Leihfrist erreicht ist und den/die
+Bibliotheksnutzer/in das Buch weiter nutzen möchte und das Medium nicht
 anderweitig bestellt ist.
 
 #### Kassenautomat
@@ -1287,13 +1287,13 @@ Bargeld aufwändig und teuer ist.
 
 #### Fernleihautomat
 
-Aus einem Fernleihautomat können Fernleihen personalfrei an Nutzende
+Aus einem Fernleihautomat können Fernleihen personalfrei an Nutzer\*innen
 ausgegeben werden. Da diese Bücher weder mit dem eigenen System der
 Bibliothek gesichert noch verbuchbar sind, muss eine separate Verbuchung
-durchgeführt werden. Die Nutzenden bekommen eine Nachricht, dass ihr
+durchgeführt werden. Die Nutzer\*innen bekommen eine Nachricht, dass ihr
 bestelltes Medium in einem Fach mit der Nummer xy bereit liegt sowie
 eine PIN zur Öffnung dieses Faches. Sobald das Fach geöffnet wird, wird
-das Medium auf das Konto des Nutzenden verbucht. Auch eine Öffnung des
+das Medium auf das Konto des Nutzers/der Nutzerin verbucht. Auch eine Öffnung des
 Faches mit einem funkgesteuerten Nutzungsausweis statt der PIN ist
 möglich.
 
@@ -1401,11 +1401,11 @@ Prinzip "Datensparsamkeit".
 
 Ein IDM kann als Identity Provider zu einem Authentifizierungsdienst
 werden. Über diesen Dienst kann man dann unter Umständen ein Single Sign
-On realisieren, bei dem die Daten des Nutzenden nicht mehr an den
+On realisieren, bei dem die Daten der Nutzer\*innen nicht mehr an den
 Service oder Content Provider weitergegeben werden sondern nur noch eine
 Art Ticket, dass eine Erlaubnis regelt. Im Idealfall gilt diese
 einmalige Anmeldung dann für einige/viele Service-/Contentprovider, so
-dass der Nutzende sich nur einmal anmelden muss um viele Dienste zu
+dass der/die Nutzer/in sich nur einmal anmelden muss um viele Dienste zu
 nutzen.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /
@@ -1415,7 +1415,7 @@ SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
 Softwareprodukte für IDM sind: SAP (mit Plugins), Microsoft Active
 Directory, uvm
 
-##### Speicherung von Nutzendenaccounts
+##### Speicherung von Nutzer\*innendenaccounts
 
 Ein Account besteht aus den Kontaktdaten des Menschen sowie
 Authentifizierungsinformationen. Hier ist Datensparsamkeit nach DSGVO
@@ -1436,16 +1436,16 @@ begründet werden.
 Sofern die übergreifende Institution über eine Datenbank zur Speicherung
 der Accounts verfügt ([IDM](#identity-management),
 Identity Management) ist eine Anbindung an diese sinnvoll. Dieses IDM
-enthält dann allerdings nicht notwendigerweise die externen Nutzenden.
+enthält dann allerdings nicht notwendigerweise die externen Nutzer\*innen.
 
 Die technisch einfachste Lösung für Accounts der externen
-Bibliotheksnutzenden ist die Speicherung im IDM der übergeordneten
+Bibliotheksnutzer\*innen ist die Speicherung im IDM der übergeordneten
 Einrichtung, sofern vorhanden. Komplexer ist die Speicherung in einem
 separaten System, da dann bei Autorisierung u.U. mehrere Systeme
 abgefragt werden müssen.
 
 Datenschutzbezogene Vorgehensweisen auch in Bezug auf personenbezogene
-und personenbeziehbare Daten von Nutzenden finden sich in Abschnitt
+und personenbeziehbare Daten von Nutzer\*innen finden sich in Abschnitt
 [Datenschutz](#datenschutz) im Kapitel zum technischen Betrieb eines BMS.
 
 #### Bezahlsysteme
@@ -1668,8 +1668,7 @@ Hierzu müssen die Lizenzbedingungen des Systems geprüft werden.
 Während des laufenden Betriebs ist es wichtig, sich über den aktuellen
 Betriebszustand des Systems ein klares Bild machen zu können. Dieser
 "Statusbericht" kann sich über alle Ebenen des Systems ziehen: Wie viel
-Speicherplatz ist noch frei? Ist das System für alle Nutzenden
-erreichbar? Sind verbundene Systeme verfügbar und betriebsbereit? Je
+Speicherplatz ist noch frei? Ist das System für alle Nutzer\*innen erreichbar? Sind verbundene Systeme verfügbar und betriebsbereit? Je
 nach Betriebsmodell werden diese Fragestellungen durch klassisches
 IT-Monitoring abgedeckt, benötigen teilweise aber auch
 bibliotheksspezifische Lösungen.
@@ -1703,7 +1702,7 @@ sein. In diesem Fall werden die Prozesse mit den Daten abgewickelt, die
 zum Zeitpunkt des Offline-Gangs im System vorhanden waren. Wenn das
 System wieder online geht, muss gewährleistet werden, dass Änderungen an
 den Daten aus der Offlinezeit nachvollzogen werden (Beispiele:
-Ausleihen, Erwerbungen, Rechnungsbearbeitung, Nutzerdatenänderungen). Im
+Ausleihen, Erwerbungen, Rechnungsbearbeitung, Benutzerdatenänderungen). Im
 Idealfall erledigt das die genutzte Komponente oder das BMS selbst.
 
 Bei lokalen Installationen sollte man je nach Größe der Einrichtung
@@ -1717,10 +1716,10 @@ Entwicklungs-Instanzen des BMS zu betreiben. So können neue Funktionen
 schneller umgesetzt werden ohne den laufenden Betrieb durch unerwartete
 Fehler zu gefährden.
 
-Zu beachten ist weiterhin, die Nutzenden des BMS (intern als auch
+Zu beachten ist weiterhin, die Nutzer\*innen des BMS (intern als auch
 extern) bei Problemen zu informieren. Dabei sind vor allem von
 Bedeutung, welche Interaktionen nicht mehr möglich sind, ob es
-alternative Möglichkeiten für die Nutzenden gibt und wann das System
+alternative Möglichkeiten für die Nutzer\*innen gibt und wann das System
 voraussichtlich wieder zur Verfügung steht.
 
 ### IT-Sicherheit
@@ -1825,7 +1824,7 @@ Im Kontext eines BMS sind die anfallenden personenbezogenen Daten etwa:
 -   durch Nutzer\*innen bei der Anmeldung angegebenen Daten für den
     Bibliothekszugang
 
--   mit dem Nutzer\*innen-Konto verbundene Ausleihvorgänge und
+-   mit dem Benutzerkonto verbundene Ausleihvorgänge und
     Mahnhistorien
 
 -   die Protokolle (Logs) über Online-Zugriffe auf das BMS (z.B.
@@ -1896,7 +1895,7 @@ die inzwischen den Bibliotheksmarkt dominieren. Einige von ihnen, die
 Dienste für wissenschaftliche Bibliotheken anbieten, wandeln sich in den
 letzten Jahren zu Data-Analytics-Konzernen. In diesem Zuge präparieren
 sie ihre cloud-basierten BMS-Lösungen mit Trackern, die
-Verhaltensprofile über die Nutzenden erstellen. Durch die ebenfalls
+Verhaltensprofile über die Nutzer\*innen erstellen. Durch die ebenfalls
 seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird
 versucht, zusätzlich eine möglichst hohe Personalisierung bei der
 Erstellung einzelner Profile zu erreichen. Die dabei entstehenden
@@ -1912,7 +1911,7 @@ IT-Sicherheitsbeauftragte hinzugezogen werden.
 ## Zusammenfassung und Ausblick
 
 Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
-aufgrund der sich verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
+aufgrund der sich verändernden Bedürfnisse einer Bibliothek und deren Nutzer\*innen
 stetig angepasst werden.
 
 Der Import, Export oder auch die Zusammenführung von Daten erfordert klar
