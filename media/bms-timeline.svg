@@ -7,7 +7,7 @@
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:40;stroke-miterlimit:10;}
 	.st3{fill:none;}
-	.st4{font-family:'Source Sans Pro';}
+	.st4{font-family:'SourceSansPro-Regular';}
 	.st5{font-size:40px;}
 	.st6{fill:#2780E3;}
 	.st7{fill:none;stroke:#2780E3;stroke-width:62;stroke-miterlimit:10;}
@@ -2231,8 +2231,8 @@ TfgrIPJq4wAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -1.6865 -174.2665)">
 	<g>
 		<path d="M36.83,897.86"/>
 	</g>
-	<rect x="56.68" y="927.53" class="st3" width="1430.31" height="57.83"/>
-	<text transform="matrix(1 0 0 1 56.6752 956.0139)" class="st4 st5">1950er            1960er            1970er            1980er            1990er            2000er            2010er</text>
+	<rect x="56.68" y="927.53" class="st3" width="154.65" height="39.78"/>
+	<text transform="matrix(1 0 0 1 56.6752 956.0139)" class="st4 st5">1950er</text>
 	<g>
 		<path class="st6" d="M57.16,107.84c530.26,0,530.26,0,530.26,0"/>
 		<g>
@@ -2255,5 +2255,17 @@ TfgrIPJq4wAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -1.6865 -174.2665)">
 			</g>
 		</g>
 	</g>
+	<rect x="265.95" y="927.97" class="st3" width="194.26" height="67.76"/>
+	<text transform="matrix(1 0 0 1 265.9536 956.4501)" class="st4 st5">1960er</text>
+	<rect x="475.28" y="927.85" class="st3" width="194.26" height="67.76"/>
+	<text transform="matrix(1 0 0 1 475.28 956.3264)" class="st4 st5">1970er</text>
+	<rect x="684.66" y="927.85" class="st3" width="194.26" height="67.76"/>
+	<text transform="matrix(1 0 0 1 684.656 956.3264)" class="st4 st5">1980er</text>
+	<rect x="893.79" y="927.53" class="st3" width="194.26" height="67.76"/>
+	<text transform="matrix(1 0 0 1 893.7895 956.0139)" class="st4 st5">1990er</text>
+	<rect x="1103.23" y="927.28" class="st3" width="194.26" height="67.76"/>
+	<text transform="matrix(1 0 0 1 1103.2317 955.7617)" class="st4 st5">2000er</text>
+	<rect x="1312.17" y="927.28" class="st3" width="194.26" height="67.76"/>
+	<text transform="matrix(1 0 0 1 1312.1724 955.7617)" class="st4 st5">2010er</text>
 </g>
 </svg>
