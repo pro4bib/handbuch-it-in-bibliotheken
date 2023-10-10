@@ -8,7 +8,7 @@ description: "..."
 ## Zusammenfassung
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*) bieten
 **Discovery-Systeme** mehr Inhalte, Funktionen und in der Regel auch modernere
-Benutzeroberflächen. In diesem Kapitel werden zunächst die Unterschiede beider
+Nutzungsoberflächen. In diesem Kapitel werden zunächst die Unterschiede beider
 Recherchesysteme erklärt sowie Grenzen und Alternativen beleuchtet. In der
 Folge werden die einzelnen [Bestandteile](#komponenten),
 [Funktionen](#funktionen) und Dienste vorgestellt und Informationen zu Auswahl
@@ -27,27 +27,27 @@ an gängigen Suchmaschinen und Verzeichnissen im Web.
 
 Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere
 Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten
-insbesondere von studentischen Nutzenden nur noch eine untergeordnete Rolle.
+insbesondere von studentischen Nutzer\*innen nur noch eine untergeordnete Rolle.
 Parallel zeichnete sich ab, dass die dritte Generation der
 Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte,
 vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer
 Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open
-Source-Software verfügbar, so dass technisch aufgeschlossenen Einrichtungen
-eigene Experimente mit der Indexierung bibliografischer Daten begannen.
+Source-Software verfügbar, so dass technisch aufgeschlossene Einrichtungen
+eigene Experimente mit der Indexierung bibliographischer Daten begannen.
 
 Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und
 zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von
-Produkten kommerzieller Anbieter und einige Open Source Projekte.
+Produkten kommerzieller Anbieter\*innen und einige Open Source-Projekte.
 Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter
-wie Verbundzentralen, Hersteller und kommerzielle Dienstleister betrieben
+wie Verbundzentralen, Hersteller\*innen und kommerzielle Dienstleister\*innen betrieben
 werden. Die Hersteller kommerzieller Bibliotheksmanagementsysteme der neueren
 Generation bieten Discovery-Systeme an, die besonders gut mit dem
-[BMS](bibliotheksmanagementsysteme.md) des gleichen Herstellers
+[BMS](bibliotheksmanagementsysteme.md) der gleichen Hersteller\*innen
 zusammenarbeiten.
 
 Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
 (Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server, ...) ist die
-Einführung eines Discovery-Systems eine Möglichkeit diese Datenbestände
+Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände
 gemeinsam zugänglich zu machen.
 
 ### Vergleich mit klassischen Katalogen
@@ -56,20 +56,20 @@ Da Discovery-Systeme die Metadaten und Volltexte anders als die klassischen
 OPACs aufbereiten, sind Suchstrategien und -ergebnisse in beiden Systemen
 unterschiedlich.
 
-Discovery-Systeme richten sich in der Regel an Benutzende, die den Umgang mit
-bibliografischen Recherchesystemen wie Katalogen und Fachbibliographien nicht
+Discovery-Systeme richten sich in der Regel an Benutzer\*innen, die den Umgang mit
+bibliographischen Recherchesystemen wie Katalogen und Fachbibliographien nicht
 gewohnt sind und die mit den Nutzungsmustern bedient werden sollen, die sie
 auch aus dem Web gewohnt sind.
 
-Neben der Recherche nach bibliografischen Informationen sollen
+Neben der Recherche nach bibliographischen Informationen sollen
 Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien
 unterstützen. Dieser auch als **Delivery** bezeichnete Prozess hat sich bereits
 in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der
-Nutzenden herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist
+Nutzer\*innen herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist
 daher ein wichtiges Qualitätskriterium.
 
 Neuere BMS wie *FOLIO* und *Alma* enthalten zum Teil gar keinen klassischen
-OPAC mehr: mit diesen Systemen muss daher immer ein zusätzliches
+OPAC mehr. Mit diesen Systemen muss daher immer ein zusätzliches
 Discovery-System eingesetzt werden.
 
 Viele Bibliotheken erschließen **E-Ressourcen** nicht in vollem Umfang in ihrem
@@ -85,10 +85,10 @@ Nutzungslizenzen zugeordnet sind.
 
                       OPAC/Katalog                                              Discovery-System
   ------------------- --------------------------------------------------------- ----------------------------------------------------------------------------
-  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliografische Daten, Volltexte...
+  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliographische Daten, Volltexte...
   Suchprinzip         exakte Suche, feldbasierte Suche mit Boolescher Logik     best match/natürlichsprachige Suche
   Suchunterstützung   eher wenig                                                Autovervollständigung, Suchvorschläge, Facetten
-  Sortierung          Standardmäßig nach Aktualität                             Standardmäßig nach Relevanz
+  Sortierung          standardmäßig nach Aktualität                             standardmäßig nach Relevanz
   Mehrwertdienste     Buchcover, Listen, Exportformate                          Buchcover, Listen, Stöbern/Entdecken
   Metadatenmodell     bibliothekarisches Schema mit Hierarchien und Verweisen   "flache Version" eines bibliothekarischen Schemas
 
@@ -103,16 +103,16 @@ entdecken und Zugangswege zu ermitteln und brechen die traditionelle Grenze
 zwischen Katalog und Bibliografien durch einen zentralen Sucheinstieg auf.
 Trotz dieser Stärken können die Systeme nachgewiesene Medien nur begrenzt
 kontextualisieren und bewerten und bleiben in der Praxis oft hinter den
-Erwartungen zurück [@christensen_wissenschaftliche_2022].  Je nach Anwendung
+Erwartungen zurück [@christensen_wissenschaftliche_2022]. Je nach Anwendung
 spielen daher alternative Systeme weiterhin eine Rolle:
 
-- komplexe bibliografische Angaben, zum Beispiel zum
-  Erscheinungsverlauf von Zeitschriften, mehrbändigen Werken oder
-  die Suchen nach Signaturen lassen sich möglicherweise schneller
+- Komplexe bibliographische Angaben, zum Beispiel zum
+  Erscheinungsverlauf von Zeitschriften oder mehrbändigen Werken, oder
+  die Suche nach Signaturen lassen sich möglicherweise schneller
   über **herkömmliche bibliothekarische Instrumente** beziehungsweise
   Spezialdatenbanken wie die des BMS ermitteln.
 
-- zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder
+- Zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder
   spezielle **Academic Search Engines** wie Google Scholar sowie gänzlich
   andere Wege wie bestehende Literaturverzeichnisse, Empfehlungslisten auf
   Lernplattformen und Webshops.
@@ -128,7 +128,7 @@ Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende
 Suchen bieten **Wissensgraphen** (knowledge graphs), die die vielfältigen
 Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und
 visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten
-sind jedoch ungleich höher.  Entsprechende Systeme existieren bereits in
+sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in
 ausgewählten Bereichen, zum Beispiel die Plattform
 [SoNAR](https://sonar.fh-potsdam.de/) zur historischen Netzwerkanalyse. Ein
 ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die
@@ -159,9 +159,9 @@ Angebunden ist häufig auch eine Komponente zur [Authentifizierung und Autorisie
 
 ### Frontend
 
-Das Rechercheoberfläche (User Interface) umfasst typischerweise eine
+Die Rechercheoberfläche (User Interface) umfasst typischerweise eine
 Startseite, eine einfache und eine erweiterte Suche, eine Trefferliste mit
-Facetten sowie eine Detailseite angeboten. Mitunter sind auf der Startseite
+Facetten sowie eine Detailseite. Mitunter sind auf der Startseite
 auch thematische Sucheinstiege verfügbar, z.B. ein Browsing über eine
 Klassifikation oder Sammlungen. Außerdem gibt es meistens einen persönlichen
 Bereich, in dem auf das eigene Bibliothekskonto im BMS zugegriffen und
@@ -170,8 +170,8 @@ gespeicherte Suchanfragen und Literaturlisten verwaltet werden können.
 Die Gestaltungsmöglichkeiten für Design und Layout des User Interface reichen
 von einer einfachen optischen Anpassung bei Schriften, Farben und Logos bis hin
 zu größeren Veränderungen im Seitenaufbau, je nachdem, welcher Art das
-eingesetzte System ist (Eigenentwicklung auf OpenSource-Basis, gehostetes
-kommerzielles System o.ä.).
+eingesetzte System ist (Eigenentwicklung auf Open Source-Basis, gehostetes
+kommerzielles System o.Ä.).
 
 ### Suchindex
 
@@ -203,17 +203,17 @@ genutzt.
 
 Die Daten, die in Suchindizes aufgenommen werden sollen, werden im Rahmen eines
 [ETL-Prozess] aus verschiedenen Datenquellen (Kataloge/BMS, Repositorien,
-bibliographische Fachdatenbanken...) gesammelt, konvertiert und dann in den
+bibliographische Fachdatenbanken, ...) gesammelt, konvertiert und dann in den
 Suchindex geladen. Für jede Quelle muss dieser Prozess entsprechend
 eingerichtet und für Aktualisierungen regelmäßig ausgeführt werden.
 
 Bei den ETL-Prozessen werden die Daten aus den verschiedenen Datenquellen
 transformiert. Dabei werden z.B. die MARC-Struktur mit Feldern, Indikatoren und
-Unterfelden in eine einfachere Feldstruktur überführt. Die Daten werden
+Unterfeldern in eine einfachere Feldstruktur überführt. Die Daten werden
 entsprechend den verschiedenen Such- und Navigationsbedürfnissen in
-unterschiedliche Indexfelder überführt. Ein Datum (z.B. Autorennamen) kann für
+unterschiedliche Indexfelder überführt. Ein Datum (z.B. Name des\*der Autor\*in) kann für
 verschiedene Suchtypen unterschiedlich aufbereitet und mehrfach im Index
-gespeichert werden.  Bei der Aufbereitung werden die Daten analysiert und
+gespeichert werden. Bei der Aufbereitung werden die Daten analysiert und
 etablierte Verfahren zur Relevanzberechnung für die Sortierung innerhalb der
 Trefferliste eingesetzt.
 
@@ -221,8 +221,8 @@ Für die Bildung von Facetten aus den Einträgen der Trefferliste werden
 spezielle Daten ermittelt. Diese Facetten-Daten sind technisch gesehen
 Suchbegriffe und dienen der nachträglichen Verfeinerung der Trefferliste.
 Beispiele für Facetten, die zur Einschränkung genutzt werden, sind
-Autorennamen, Schlagwörter, Medienarten, Standorte physischer Medien oder auch
-Kennzeichnung von Open-Access-Material und vieles andere mehr).
+Namen von Autor\*innen, Schlagwörter, Medienarten, Standorte physischer 
+Medien oder auch Kennzeichnung von Open Access-Material und Vieles mehr).
 
 ## Funktionen
 
@@ -236,7 +236,7 @@ enthalten, weitere Dienste integriert und eine Personalisierung möglich sein.
 ### Recherche
 
 Hauptfunktionen des Discovery-Systems sind die Recherche, die Anzeige von
-Metadaten und die Hinführung zur Nutzung der Medien. Im einzelnen geht es um
+Metadaten und die Hinführung zur Nutzung der Medien. Im Einzelnen geht es um
 folgende Punkte:
 
 - einfache Suche ohne Spezifizierung eines Suchfeldes
@@ -253,23 +253,23 @@ folgende Punkte:
 - Export von Literaturangaben
 
 Die Suche in Discovery-Systemen nutzt in der Regel verschiedene Funktionen der
-Suchmaschinentechnologie aus, um einen eingegebenen Suchbegriff gegen den Index
+Suchmaschinentechnologie, um einen eingegebenen Suchbegriff gegen den Index
 abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma "beste
 Treffer" statt "exakte Treffer" mehr Treffer als Bibliothekskataloge
-[@steilen_discovery-systeme_2012].  Sie nutzen außerdem Algorithmen für die
-Relevanzsortierung (*Ranking*), um die Trefferlisten möglichst nutzerorientiert
+[@steilen_discovery-systeme_2012]. Sie nutzen außerdem Algorithmen für die
+Relevanzsortierung (*Ranking*), um die Trefferlisten möglichst nutzungsorientiert
 aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von
-Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort...) für
+Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort, ...) für
 eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie
 die Anzahl von Ausleihen, Aufrufen und Zitationen bislang nicht in das Ranking
 ein.
 
 Zu den Funktionalitäten für die Suchunterstützung gehören auch die
-Auto-Vervollständigung sowie die Vorschlagsfunktion von Suchbegriffen.  In
+Autovervollständigung sowie die Vorschlagsfunktion von Suchbegriffen. In
 beiden Fällen wird der Suchindex in Echtzeit geprüft. Es gehört zu den
 zentralen Zielen von Discovery-Systemen, Null-Treffer-Meldungen zu vermeiden.
 
-Facetten sind ebenfalls eine Suchmaschinen-typische Funktion und dienen der
+Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der
 Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie
 Schlagwörter, Namen von Verfasser\*innen oder Dokumenttypen in Bezug auf eine
 Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten
