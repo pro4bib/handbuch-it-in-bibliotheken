@@ -7,7 +7,9 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 # Daten & Metadaten
 
 ::: {.callout-note}
+
 ## Zusammenfassung
+...
 
 ## Einleitung
 Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken
