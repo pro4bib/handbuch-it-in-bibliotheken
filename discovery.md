@@ -49,51 +49,9 @@ Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
 Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände
 gemeinsam zugänglich zu machen.
 
-## Vergleich mit klassischen Bibliothekskatalogen
+## Aufbau von Discovery-Systemen
 
-Da Discovery-Systeme die Metadaten und Volltexte anders als die klassischen
-OPACs aufbereiten, sind Suchstrategien und -ergebnisse in beiden Systemen
-unterschiedlich.
-
-Discovery-Systeme richten sich in der Regel an Benutzer\*innen, die den Umgang mit
-bibliographischen Recherchesystemen wie Katalogen und Fachbibliographien nicht
-gewohnt sind und die mit den Nutzungsmustern bedient werden sollen, die sie
-auch aus dem Web gewohnt sind.
-
-Neben der Recherche nach bibliographischen Informationen sollen
-Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien
-unterstützen. Dieser auch als **Delivery** bezeichnete Prozess hat sich bereits
-in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der
-Nutzer\*innen herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist
-daher ein wichtiges Qualitätskriterium.
-
-Neuere BMS wie *FOLIO* und *Alma* enthalten zum Teil gar keinen klassischen
-OPAC mehr. Mit diesen Systemen muss daher immer ein zusätzliches
-Discovery-System eingesetzt werden.
-
-Viele Bibliotheken erschließen **E-Ressourcen** nicht in vollem Umfang in ihrem
-BMS. Daher sind im OPAC, der zu diesem BMS gehört, die E-Ressourcen nicht oder
-nur eingeschränkt auffindbar. Wenn die Bibliothek ein Discovery-System
-betreibt, können Metadaten zu E-Ressourcen über einen [ETL-Prozess] in den
-Index des Discovery-Systems geladen werden. Voraussetzung dafür ist, dass den
-Metadaten mittels Electronic Ressource Management (*ERM*) entsprechende
-Nutzungslizenzen zugeordnet sind.
-
-[ETL-Prozess]: metadaten.md#etl-prozess
-[ETL-Prozesse]: metadaten.md#etl-prozess
-
-                      OPAC/Katalog                                              Discovery-System
-  ------------------- --------------------------------------------------------- ----------------------------------------------------------------------------
-  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliographische Daten, Volltexte...
-  Suchprinzip         exakte Suche, feldbasierte Suche mit Boolescher Logik     best match/natürlichsprachige Suche
-  Suchunterstützung   eher wenig                                                Autovervollständigung, Suchvorschläge, Facetten
-  Sortierung          standardmäßig nach Aktualität                             standardmäßig nach Relevanz
-  Mehrwertdienste     Buchcover, Listen, Exportformate                          Buchcover, Listen, Stöbern/Entdecken
-  Metadatenmodell     bibliothekarisches Schema mit Hierarchien und Verweisen   "flache Version" eines bibliothekarischen Schemas
-
- : Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System {#tbl-discovery-vs-opac}
-
-## Komponenten
+### Komponenten
 
 Ein Discovery-System umfasst verschiedene Komponenten. Dazu gehören
 
@@ -107,7 +65,7 @@ Ein Discovery-System umfasst verschiedene Komponenten. Dazu gehören
 
 Angebunden ist häufig auch eine Komponente zur [Authentifizierung und Autorisierung](infrastruktur.md#authentifizierung-und-autorisierung).
 
-### Frontend
+#### Frontend
 
 Die Rechercheoberfläche (User Interface) umfasst typischerweise eine
 Startseite, eine einfache und eine erweiterte Suche, eine Trefferliste mit
@@ -123,7 +81,7 @@ zu größeren Veränderungen im Seitenaufbau, je nachdem, welcher Art das
 eingesetzte System ist (Eigenentwicklung auf Open Source-Basis, gehostetes
 kommerzielles System o.Ä.).
 
-### Suchindex
+#### Suchindex
 
 Zentraler Bestandteil eines Discovery-Systems sind auf Grundlage etablierter
 Suchmaschinentechnologie wie *Apache Solr* und *Elasticsearch* entwickelte
@@ -174,7 +132,7 @@ Beispiele für Facetten, die zur Einschränkung genutzt werden, sind
 Namen von Autor\*innen, Schlagwörter, Medienarten, Standorte physischer 
 Medien oder auch Kennzeichnung von Open Access-Material und Vieles mehr).
 
-## Funktionen
+### Funktionen
 
 Ein Discovery-System ist mehr als ein reines Nachweissystem. Der
 Funktionsumfang umfasst daher auch mehr als die reine Recherche. Der Anspruch
@@ -183,7 +141,7 @@ bündeln, sollte prinzipiell auch alle Dienstleistungen zu diesen Medien
 umfassen. Daher sollten auch Informationen zur Bereitstellung von Literatur
 enthalten, weitere Dienste integriert und eine Personalisierung möglich sein.
 
-### Recherche
+#### Recherche
 
 Hauptfunktionen des Discovery-Systems sind die Recherche, die Anzeige von
 Metadaten und die Hinführung zur Nutzung der Medien. Im Einzelnen geht es um
@@ -236,7 +194,7 @@ herunterladen.
 
 ![Beispiel eines Rechercheergebnis in einem Discovery-Interface ([Quelle](https://core.coll.mpg.de/))](media/vufind.png){#fig-vufind}
 
-### Bereitstellungsdienste
+#### Bereitstellungsdienste
 
 Die Evaluationen früher Discovery-Systeme haben bereits gezeigt, dass
 Informationen darüber, ob und wie ein gefundenes Medium zugänglich ist, von
@@ -321,7 +279,7 @@ Integration von diesen und anderen Diensten über einschlägige [Schnittstellen]
 so dass sich über die gelisteten Dienste noch zahlreiche weitere Möglichkeiten
 ergeben.
 
-### Personalisierung
+#### Personalisierung
 
 Discovery-Systeme erlauben in der Regel eine Anmeldung in einem persönlichen
 Bereich, der folgende Funktionalitäten umfassen kann:
@@ -346,7 +304,7 @@ Titel informieren zu lassen. Alerting-Dienste beinhalten das regelmäßige
 wenn die Suchanfrage veränderte Trefferlisten (in der Regel: neue Titel)
 liefert.
 
-### Thematische Sucheinstiege
+#### Thematische Sucheinstiege
 
 Wie beschrieben bieten Trefferlisten mit Facetten und Empfehlungen zwar
 durchaus auch die Möglichkeit, sich eine Treffermenge zu erschließen.
@@ -376,12 +334,11 @@ abgewogen werden, ob und wie ein thematischer Sucheinstieg umgesetzt werden
 soll, zumal für eine Darstellung im Sinne einer optimalen User Experience
 jeweils auch erhebliche Design-Aufwände entstehen.
 
-## Betrieb
+## Aufbau und Betrieb eines Discovery-Systems
+### Betriebsmodelle
 
 Der Betrieb eines Discovery-Systems stellt vergleichbare Anforderungen
 und unterliegt ähnlichen Rahmenbedingungen wie beim [Betrieb eines Bibliotheksmanagementsystems](bibliotheksmanagementsysteme.md#technischer-betrieb).
-
-### Betriebsmodelle
 
 Im Inhouse-Betrieb werden alle Komponenten selbst durch die Bibliothek
 betrieben und damit sind hier die weitestgehenden Anpassungen möglich. Dies
@@ -555,7 +512,51 @@ vor allem die Analyse von Logfiles an. Mit der Software
 datenschutzrechtlichen Vorschriften, ermittelt werden, welche Anfragen an ein
 System gestellt werden.
 
-## Grenzen und Alternativen zu Discovery-Systemen
+## Vergleich mit klassischen Bibliothekskatalogen
+
+Da Discovery-Systeme die Metadaten und Volltexte anders als die klassischen
+OPACs aufbereiten, sind Suchstrategien und -ergebnisse in beiden Systemen
+unterschiedlich.
+
+Discovery-Systeme richten sich in der Regel an Benutzer\*innen, die den Umgang mit
+bibliographischen Recherchesystemen wie Katalogen und Fachbibliographien nicht
+gewohnt sind und die mit den Nutzungsmustern bedient werden sollen, die sie
+auch aus dem Web gewohnt sind.
+
+Neben der Recherche nach bibliographischen Informationen sollen
+Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien
+unterstützen. Dieser auch als **Delivery** bezeichnete Prozess hat sich bereits
+in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der
+Nutzer\*innen herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist
+daher ein wichtiges Qualitätskriterium.
+
+Neuere BMS wie *FOLIO* und *Alma* enthalten zum Teil gar keinen klassischen
+OPAC mehr. Mit diesen Systemen muss daher immer ein zusätzliches
+Discovery-System eingesetzt werden.
+
+Viele Bibliotheken erschließen **E-Ressourcen** nicht in vollem Umfang in ihrem
+BMS. Daher sind im OPAC, der zu diesem BMS gehört, die E-Ressourcen nicht oder
+nur eingeschränkt auffindbar. Wenn die Bibliothek ein Discovery-System
+betreibt, können Metadaten zu E-Ressourcen über einen [ETL-Prozess] in den
+Index des Discovery-Systems geladen werden. Voraussetzung dafür ist, dass den
+Metadaten mittels Electronic Ressource Management (*ERM*) entsprechende
+Nutzungslizenzen zugeordnet sind.
+
+[ETL-Prozess]: metadaten.md#etl-prozess
+[ETL-Prozesse]: metadaten.md#etl-prozess
+
+                      OPAC/Katalog                                              Discovery-System
+  ------------------- --------------------------------------------------------- ----------------------------------------------------------------------------
+  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliographische Daten, Volltexte...
+  Suchprinzip         exakte Suche, feldbasierte Suche mit Boolescher Logik     best match/natürlichsprachige Suche
+  Suchunterstützung   eher wenig                                                Autovervollständigung, Suchvorschläge, Facetten
+  Sortierung          standardmäßig nach Aktualität                             standardmäßig nach Relevanz
+  Mehrwertdienste     Buchcover, Listen, Exportformate                          Buchcover, Listen, Stöbern/Entdecken
+  Metadatenmodell     bibliothekarisches Schema mit Hierarchien und Verweisen   "flache Version" eines bibliothekarischen Schemas
+
+ : Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System {#tbl-discovery-vs-opac}
+ 
+ ## Grenzen und Alternativen
 
 Discovery-Systeme sind in der Regel nur einer von vielen Bausteinen in der
 Prozesskette der Recherche, Bewertung und Beschaffung von Literatur und spielen
