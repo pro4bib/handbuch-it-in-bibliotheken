@@ -48,7 +48,7 @@ Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
 Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände
 gemeinsam zugänglich zu machen.
 
-## Aufbau von Discovery-Systemen
+## Bestandteile von Discovery-Systemen
 
 ### Komponenten
 
