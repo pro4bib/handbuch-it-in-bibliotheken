@@ -94,7 +94,7 @@ die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
 Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
-![Evolution der Bibliotheksmanagementsysteme (nach @matthews_library_2020, S. 7)](media/bms-timeline.png){#fig-bmsevol}
+![Evolution der Bibliotheksmanagementsysteme (nach @matthews_library_2020, S. 7)](media/bms-timeline.svg){#fig-bmsevol}
 
 ::: {.callout-tip}
 ## Info
