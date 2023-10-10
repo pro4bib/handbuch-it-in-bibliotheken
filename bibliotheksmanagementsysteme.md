@@ -184,7 +184,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 
   LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
   ----------------------------------------------------------------------------
-Stand Mitte 2022 relevante Software-Produkte {#tab-aktuelle-sw-produkte}
+: Stand Mitte 2022 relevante Software-Produkte {#tbl-aktuelle-sw-produkte}
 
 <!--
 [FOLIO]: https://librarytechnology.org/product/folio
@@ -195,7 +195,7 @@ Stand Mitte 2022 relevante Software-Produkte {#tab-aktuelle-sw-produkte}
  PICA LBS: https://librarytechnology.org/products/product.pl?RC=272 
 -->
 
-In (#tab-aktuelle-sw-produkte) sind die aktuellen BMS mit der derzeit größten Marktreife und
+In (#tbl-aktuelle-sw-produkte) sind die aktuellen BMS mit der derzeit größten Marktreife und
 -durchdringung im deutschsprachigen Raum (Stand Mitte 2022, Sortierung nach Namen) angegeben.
 Weitere BMS wie ExLibris Aleph, SISIS Sunrise und allegro werden zwar auch noch an vielen Bibliotheken eingesetzt, aber nicht mehr wesentlich weiterentwickelt. Das Cloud-basierte System WMS von OCLC ist in Deutschland bislang nur vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC ein Nachfolger angekündigt.
 
