@@ -50,7 +50,7 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./kommunikation.html" rel="next">
+<link href="./digitalisierung.html" rel="next">
 <link href="./bibliotheksmanagementsysteme.html" rel="prev">
 <link href="./favicon.ico" rel="icon">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -142,6 +142,21 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IT-Entwicklung</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IT-Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sicherheit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sicherheit &amp; Datenschutz</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./metadaten.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Daten &amp; Metadaten</span></a>
   </div>
 </li>
@@ -157,11 +172,6 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kommunikation</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./digitalisierung.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Digitalisierung</span></a>
   </div>
 </li>
@@ -172,17 +182,7 @@ div.csl-indent {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IT-Entwicklung</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IT-Management</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sicherheit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Sicherheit &amp; Datenschutz</span></a>
+  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Kommunikation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -307,7 +307,7 @@ div.csl-indent {
 <p>Viele Bibliotheken erschließen <strong>E-Ressourcen</strong> nicht in vollem Umfang in ihrem BMS. Daher sind im OPAC, der zu diesem BMS gehört, die E-Ressourcen nicht oder nur eingeschränkt auffindbar. Wenn die Bibliothek ein Discovery-System betreibt, können Metadaten zu E-Ressourcen über einen <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> in den Index des Discovery-Systems geladen werden. Voraussetzung dafür ist, dass den Metadaten mittels Electronic Ressource Management (<abbr title="Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen">ERM</abbr>) entsprechende Nutzungslizenzen zugeordnet sind.</p>
 <div id="tbl-discovery-vs-opac" class="anchored">
 <table class="table">
-<caption>Tabelle&nbsp;4.1: Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System</caption>
+<caption>Tabelle&nbsp;7.1: Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System</caption>
 <thead>
 <tr class="header">
 <th></th>
@@ -358,11 +358,11 @@ div.csl-indent {
 <li><p>zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder spezielle <strong>Academic Search Engines</strong> wie Google Scholar sowie gänzlich andere Wege wie bestehende Literaturverzeichnisse, Empfehlungslisten auf Lernplattformen und Webshops.</p></li>
 </ul>
 <p>Insbesondere Webshops haben im Vergleich zu Discovery-Systemen sehr personalisierte Such- und Empfehlungsdienste, die jedoch auf einer intensiven Auswertung des jeweiligen Nutzungsverhaltens basieren. Die Verwendung dieser Daten zur Personalisierung ist auch in Discovery-Systemen denkbar, wird aber aus Datenschutz- und Neutralitätsgründen grundsätzlich eher abgelehnt.</p>
-<p>Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende Suchen bieten <strong>Wissensgraphen</strong> (knowledge graphs), die die vielfältigen Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in ausgewählten Bereichen, zum Beispiel die Plattform <a href="https://sonar.fh-potsdam.de/">SoNAR</a> zur historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren bibliographischen Inhalten <em>WikiCite</em> und dem dazu gehörigen Browsing-Interface <a href="https://scholia.toolforge.org/">Scholia</a> (siehe Abbildung <a href="#fig-scholia">Abbildung&nbsp;<span>4.1</span></a>).</p>
+<p>Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende Suchen bieten <strong>Wissensgraphen</strong> (knowledge graphs), die die vielfältigen Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in ausgewählten Bereichen, zum Beispiel die Plattform <a href="https://sonar.fh-potsdam.de/">SoNAR</a> zur historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren bibliographischen Inhalten <em>WikiCite</em> und dem dazu gehörigen Browsing-Interface <a href="https://scholia.toolforge.org/">Scholia</a> (siehe Abbildung <a href="#fig-scholia">Abbildung&nbsp;<span>7.1</span></a>).</p>
 <div id="fig-scholia" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/scholia.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;4.1: Thematisches Netzwerk von <a href="https://scholia.toolforge.org/topic/Q45340488">Publikationen in und über Scholia</a></figcaption>
+<figcaption class="figure-caption">Abbildung&nbsp;7.1: Thematisches Netzwerk von <a href="https://scholia.toolforge.org/topic/Q45340488">Publikationen in und über Scholia</a></figcaption>
 </figure>
 </div>
 <p>Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und Alternativen in der Praxis fließend sind und dass Discovery-Systeme perspektivisch um Funktionen anderer Systeme erweitert werden können und sollten.</p>
@@ -409,12 +409,12 @@ div.csl-indent {
 </ul>
 <p>Die Suche in Discovery-Systemen nutzt in der Regel verschiedene Funktionen der Suchmaschinentechnologie aus, um einen eingegebenen Suchbegriff gegen den Index abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma „beste Treffer“ statt „exakte Treffer“ mehr Treffer als Bibliothekskataloge <span class="citation" data-cites="steilen_discovery-systeme_2012">(<a href="literatur.html#ref-steilen_discovery-systeme_2012" role="doc-biblioref">Steilen 2012</a>)</span>. Sie nutzen außerdem Algorithmen für die Relevanzsortierung (<em>Ranking</em>), um die Trefferlisten möglichst nutzerorientiert aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort…) für eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie die Anzahl von Ausleihen, Aufrufen und Zitationen bislang nicht in das Ranking ein.</p>
 <p>Zu den Funktionalitäten für die Suchunterstützung gehören auch die Auto-Vervollständigung sowie die Vorschlagsfunktion von Suchbegriffen. In beiden Fällen wird der Suchindex in Echtzeit geprüft. Es gehört zu den zentralen Zielen von Discovery-Systemen, Null-Treffer-Meldungen zu vermeiden.</p>
-<p>Facetten sind ebenfalls eine Suchmaschinen-typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind">Abbildung&nbsp;<span>4.2</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
+<p>Facetten sind ebenfalls eine Suchmaschinen-typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind">Abbildung&nbsp;<span>7.2</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
 <p>Die Weiterverwendung von Literaturangaben wird durch verschiedene Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per Mail verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen herunterladen.</p>
 <div id="fig-vufind" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/vufind.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;4.2: Beispiel eines Rechercheergebnis in einem Discovery-Interface (<a href="https://core.coll.mpg.de/">Quelle</a>)</figcaption>
+<figcaption class="figure-caption">Abbildung&nbsp;7.2: Beispiel eines Rechercheergebnis in einem Discovery-Interface (<a href="https://core.coll.mpg.de/">Quelle</a>)</figcaption>
 </figure>
 </div>
 </section>
@@ -819,8 +819,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./kommunikation.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Kommunikation</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./digitalisierung.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Digitalisierung</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
