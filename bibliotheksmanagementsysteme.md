@@ -485,7 +485,7 @@ BMS sondern über den Bibliotheksverbund.
 | Service             |                 |                                 |
 | Platform (SLSP)     |                 |                                 |
 +---------------------+-----------------+---------------------------------+
-: Bibliotheksverbünde und -kataloge {#tbl-verb}
+: Bibliotheksverbünde und -kataloge {#tbl-verbund}
 
 ### Anbindung an Verbundkataloge/Verbundkatalogisierung
 
@@ -736,8 +736,9 @@ Katalogisierung.
 ## Marktanalyse und Beschaffung
 
 :::{.callout-tip}
+## Info
 
-Der deutschsprachige [BMS-Markt 2022](#tab-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, Varianten des Betriebs (gehostet oder lokal) oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen. 
+Der deutschsprachige [BMS-Markt 2022](#tbl-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, [Varianten des Betriebs](management.md#betriebsmodelle) (gehostet oder lokal) oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen. 
 
 :::
 

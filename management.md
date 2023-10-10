@@ -53,7 +53,11 @@ Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
 Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und
 rechtlicher Rahmenbedingungen.
 
+
+$\Rightarrow$ *Siehe auch ausführlicher zum [Entscheidungsprozess bei der Einführung eines Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.html#entscheidungsprozess)*
+
 ::: {.callout-tip}
+## Info
 
 Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
 getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
