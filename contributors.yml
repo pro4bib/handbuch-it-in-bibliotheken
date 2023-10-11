@@ -4,6 +4,10 @@ contributor:
 - email: nicolas.bach@posteo.de
   name: Nicolas Bach
   position: Student an der HdM Stuttgart
+- email: pascal@the-library-code.de
+  name: Pascal-Nicolas Becker
+  position: Gründer und Geschäftsführer der The Library Code GmbH
+  orcid: 0000-0003-2169-1261
 - email: janna.brechmacher@sbb.spk-berlin.de
   name: Janna Brechmacher    
   position: Stabstelle IT in der Benutzungsabteilung der Staatsbibliothek zu Berlin
@@ -43,6 +47,10 @@ contributor:
 - email: lmossburger@t-online.de
   name: Luis Moßburger
   orcid: 0000-0002-5326-219X
+- name: Stefanie Nagel
+  email: stefanie.nagel@ub.tu-freiberg.de
+  orcid: 0000-0001-8020-1440
+  position: Abteilungsleiterin Open Science an der Universitätsbibliothek TU Bergakademie Freiberg
 - email: michael.schaarwaechter@tu-dortmund.de
   name: Michael Schaarwächter
   orcid: 0000-0002-0180-5930
@@ -55,6 +63,10 @@ contributor:
   name: Britta Steinke
   orcid: 0000-0001-6816-5168
   position: Referentin für Forschungsdatenmanagement
+- email: florian.strauss@tu-clausthal.de
+  name: Florian Strauß
+  orcid: 0000-0003-0168-0450
+  position: Abteilungsleiter forschungsunterstützende Dienste Universitätsbibliothek Clausthal
 - email: jakob.voss@gbv.de
   name: Jakob Voß
   orcid: 0000-0002-7613-4123
