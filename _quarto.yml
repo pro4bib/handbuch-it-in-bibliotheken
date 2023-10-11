@@ -64,7 +64,7 @@ format:
     include-after-body: templates/script.html
     callout-appearance: simple
     published-title: "Letzte Änderung"
-  docx: {}
+  #docx: {}
   #pdf:
   #  documentclass: scrreprt
 
