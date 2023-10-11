@@ -25,7 +25,7 @@ Transformation beziehungsweise technischen Fortschritt möglich gewordene
 neue Nutzungsformen von Medien.
 
 IT-Entwicklung sollte sich daher auch an
-den [Bedürfnissen](#bedarfsermittlung) von [Nutzenden](#einbeziehung) ausrichten.
+den [Bedürfnissen](#bedarfsermittlung) von [Nutzer\*innen](#einbeziehung) ausrichten.
 Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Dazu gehören unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.
 
 ## Nutzer\*innenorientierten Gestaltung

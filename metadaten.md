@@ -9,9 +9,11 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 ## Zusammenfassung
 Die Beschreibung von Ressourcen mit standardisierten Metadaten bildet eine zentrale
 Voraussetzung für die meisten an Bibliotheken angebotenen IT-Dienste. Das 
-vorliegende Kapitel gibt einen Überblick über die Thematik, indem es grundlegende 
-Begrifflichkeiten einführt, wichtige Metadatenstandards vorstellt und Prozesse der 
-Datenverarbeitung in Bibliotheken erläutert.
+vorliegende Kapitel gibt einen Überblick über die Thematik, indem es 
+[grundlegende Begriffe](#grundlegende-begrifflichkeiten) einführt, wichtige
+[Metadatenstandards](#metadatenstandards) vorstellt und 
+[Prozesse der Datenverarbeitung](#datenverarbeitungsprozess-in-bibliotheken)
+in Bibliotheken erläutert.
 :::
 
 ## Einleitung
@@ -281,10 +283,10 @@ darüber hinaus spezielle Formate.
 
 Folgende Arten von Metadaten können nach ihrer Funktion unterschieden werden:
 
-- **Deskriptive (=beschreibende) Metadaten** zur Identifizierung und
+- **Deskriptive** (=beschreibende) **Metadaten** zur Identifizierung und
   inhaltlichen Beschreibung wie Titel, Verfasser\*in, Schlagwörter etc.
 
-- **Administrative (=Verwaltungs-) Metadaten** wie Angaben zu
+- **Administrative** (=Verwaltungs-) **Metadaten** wie Angaben zu
   Herkunft, Speicherung, Zugriffsrechten, Verwaltung etc.
 
 - **Strukturelle Metadaten** über den Aufbau von Dokumenten wie die
@@ -316,6 +318,15 @@ aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet
 werden.
 
 ### Datenmodelle und RDF-Formate
+
+:::{.callout-important}
+## Definition
+
+Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
+in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
+Datenquellen als Linked Data ermöglicht.
+
+:::
 
 **Dublin Core** bzw. das Dublin Core Metadata Element Set (**DCMES**)
 hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die
@@ -685,4 +696,11 @@ Reporting](bibliotheksmanagementsysteme.md#statistik-und-reporting) als Teil
 des BMS).
 
 ## Zusammenfassung & Ausblick
-Sturkturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff auf Ressourcen in Bibliotheken. Damit bilden sie auch die Grundlage für die meisten an Bibliotheken angebotenen IT-Dienste. Die wichtigsten Begrifflichkeiten und Standards im Zusammenhang mit (Meta-)Daten wurden im vorliegenden Kapitel vorgestellt. In Zukunft ist insbesondere zu erwarten, dass die Bedeutung semantischer Technologien bei der Erschließung und den darauf basierenden IT-Diensten deutlich zunehmen wird, da diese eine deutlich tiefere Erschließung und Vernetzung der Ressourcen ermöglichen.
+
+Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff
+auf Ressourcen in Bibliotheken. Daher bilden sie und ihre Verarbeitung die
+Grundlage für praktisch alle von Bibliotheken angebotene IT-Dienste. Während
+Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben wird,
+ist davon auszugehen, dass der Einsatz semantischer Technologien (RDF) zur
+Zusammenführung heterogener Daten und von Verfahren der künstlichen Intelligenz
+zunehmen wird.
