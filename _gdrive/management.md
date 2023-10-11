@@ -1,23 +1,25 @@
-# Management von IT-Systemen
+# IT-Management
+
+## Zusammenfassung
+
+Dieses Kapitel beschreibt die Einführung und den Betrieb von
+IT-Systemen. Behandelt werden allgemeine Organisation und Kompetenzen
+über den gesamten Lebenszyklus.
+
+## Einleitung
 
 IT-Systeme sind selten statisch sondern folgen einem
 [Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu
-ihrer Ablösung. Während des Betriebs der Systeme müssen mögliche
-[Risiken](#betriebssicherheit-und-risikomanagement) beachtet und
-[rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen)
-eingehalten werden. In Bibliotheken sind daher entsprechende
-[IT-Kompetenzen](#kompetenzen) und ein [organisatorischer
-Rahmen](#organisation) notwendig. Um diesen Anforderungen begegnen zu
-können, gibt es Möglichkeiten zur [Aus- und
+ihrer Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme
+müssen mögliche [Risiken](#betriebssicherheit-und-risikomanagement)
+beachtet und [rechtliche
+Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
+Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und
+ein [organisatorischer Rahmen](#organisation) notwendig. Um diesen
+Anforderungen begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
-Dieses Kapitel konzentriert sich auf den Einsatz von IT-Systemen in
-Bibliotheken. Ein Kapitel zur IT-Basis-Infrastruktur (Netzwerke,
-Netzdienste, Server, Storage, Backup u.ä.) ist in Planung.
-
-## IT-Systeme
-
-### Lebenszyklen von IT-Systemen
+## Lebenszyklen von IT-Systemen
 
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet
@@ -29,24 +31,32 @@ angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![SDLC-Skizze (Platzhalter)](media/rId23.png){width="0.0in"
+![SDLC-Skizze (Platzhalter)](media/rId25.png){width="0.0in"
 height="0.0in"}
 
 SDLC-Skizze (Platzhalter)
 
-#### Planung und Analyse
+### Planung und Analyse
 
 Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um
 individuell erstellte Software oder die Anpassung eines existierenden
 IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die
 Anforderungen des Projektes. Dieses gemeinsame Verständnis, insbesondere
 der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren
-Stakeholdern vorhanden sein.
+Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
+und während der Entwicklung [unter Einbeziehung von
+Nutzer\*innen](anforderungen.md) ermittelt und angepasst.
 
 Zur Planungs- und Analysephase gehört neben einer grundsätzlichen
 Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
 Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und
 rechtlicher Rahmenbedingungen.
+
+$\Rightarrow$ *Siehe auch ausführlicher zum [Entscheidungsprozess bei
+der Einführung eines
+Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.html#entscheidungsprozess)*
+
+## Info
 
 Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
 getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
@@ -54,7 +64,7 @@ soll. Auch in diesem Fall ist es sinnvoll, die Einführung mit einer
 offenen Planung und Anforderungsanalyse zu beginnen, und danach zu
 prüfen, welche Anforderungen das System tatsächlich abdecken kann.
 
-#### Design/Prototyping
+### Design/Prototyping
 
 Während der Design- bzw. Prototyping-Phase entwickeln Designer\*innen
 und Entwickler\*innen erste Prototypen. Ziel ist es dabei, Feedback der
@@ -78,7 +88,7 @@ Vorgehensmodelle (siehe Kapitel [Anforderungen](#anforderungen)) hier
 auf einen iterativen Prozess setzen, welcher Produktiterationen häufiger
 bereitstellt und evaluiert.
 
-#### Test und Integration
+### Test und Integration
 
 Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests
 und die Integration des entwickelten bzw. erworbenen Systems in die
@@ -106,12 +116,12 @@ Textes erst teilweise abgelöst wurden.
 
 ![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am
 Beispiel der Staatsbibliothek zu Berlin (Stand
-2022)](media/rId32.png){width="0.0in" height="0.0in"}
+2022)](media/rId37.png){width="0.0in" height="0.0in"}
 
 Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am
 Beispiel der Staatsbibliothek zu Berlin (Stand 2022)
 
-#### Ablösung
+### Ablösung
 
 Die Ablösung eines Systems kann eine Vielzahl an Gründen haben. So
 entwickeln sich die technischen Möglichkeiten und die Anforderungen der
@@ -156,13 +166,81 @@ Risiken in sich und kann eine Organisation folglich in ernsthafte
 Schwierigkeiten bringen, insbesondere wenn geschäftskritische Prozesse
 betroffen sind.
 
-### Betriebssicherheit und Risikomanagement
+## Betriebsmodelle
+
+Insbesondere serverbasierte Software, wie zum Beispiel das
+[Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md), kann auf
+verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden
+sich bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und
+Support.
+
+### Lokale Installation
+
+Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
+erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
+oder im Abo, und installierte diese auf eigenen Servern, z.B. im
+Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer
+"on-premise" Installation.
+
+In diesem Modell kümmert sich die Einrichtung selbst um Installation und
+Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und
+kann dazu führen, dass bei einem personellen Engpass eine Software
+länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam
+wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups
+und Ausfallsicherheit selbst Gedanken machen.
+
+Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste
+Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger
+Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig
+von äußeren Einflüssen.
+
+### Hosting
+
+In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw.
+Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister
+kann hierbei etwa das Rechenzentrum einer Universität oder des
+angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder
+kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten
+erworben werden.
+
+Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der
+eingesetzten Hardware können an diesen Anbieter delegiert werden. Im
+Falle des Hostings durch einen Bibliotheksverbund entfallen
+möglicherweise auch Einrichtung, Installation und Upgrades. Die
+Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch
+das Hosting für mehrere Einrichtung besser skaliert.
+
+### Cloud
+
+Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a
+Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim
+Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt
+lediglich eine für sie konfigurierte Installation ("Instanz"). Dies ist
+insbesondere bei webbasierten Anwendungen die bevorzugte Betriebsart,
+stellt aber erhöhte Anforderungen an die Anbindung lokaler Endgeräte wie
+z.B. [Ausleihautomaten](#selbstverbucher-ausleihautomaten)), weil dabei
+eine sichere und stabile Verbindung zwischen den lokalen
+Automatisierungsgeräten und dem entfernt gehosteten System hergestellt
+werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten
+Hardware noch für die Pflege der genutzten Software zuständig.
+
+In der Praxis kann sich ein solches Betriebsmodell als komfortabel
+erweisen, da keine Personalressource für allgemeine Tätigkeiten des
+IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden.
+Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
+personalsparend serverbasierte Software einzusetzen. Eine
+Kostenersparnis ist bei einer Vollkostenrechnung aber nicht unbedingt zu
+erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl
+der Endnutzer\*innen führt ein solches Betriebsmodell meist zu
+Abonnementkosten.
+
+## Betriebssicherheit und Risikomanagement
 
 Neben den Problemen der Ablösungplanung gibt es weitere Risiken des
 Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt
 vorgestellt werden.
 
-#### Vendor-Lock-In
+### Vendor-Lock-In
 
 Ein nicht zu unterschätzendes Risiko, welches sich aus der Einführung
 eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-In.
@@ -192,14 +270,14 @@ einbezogen werden, da die Fehlerbehebung innerhalb fremder Software
 unter dem Rückgriff auf Dekompilierung besondere Kenntnisse seitens des
 zuständigen IT-Personals voraussetzt.
 
-#### Software-Abhängigkeiten
+### Software-Abhängigkeiten
 
 Sowohl der Betrieb von proprietärer als auch von Open-Source-Software
 ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
 Schichtmodells des Betriebs eines IT-Systems illustrieren:
 
-![Schichtmodell-Bild (Platzhalter)](media/rId42.png){width="0.0in"
+![Schichtmodell-Bild (Platzhalter)](media/rId52.png){width="0.0in"
 height="0.0in"}
 
 Schichtmodell-Bild (Platzhalter)
@@ -232,7 +310,7 @@ deshalb bestimmten Gesetzen und Verordnungen unterworfen. Von besonderer
 Bedeutung sind dabei Anforderungen an die Software-Ergonomie und die
 Barrierefreiheit (Accessibility) von IT-Systemen.
 
-#### Software-Ergonomie
+### Software-Ergonomie
 
 Die gesetzliche Unfallversicherung fordert z.B. die Berücksichtigung
 ergonomischer Grundsätze bei der Entwicklung von Software. Moderne
@@ -251,9 +329,9 @@ Anforderungen erfüllen:
 > -- \[@gesetzliche_bildschirm-\_2019\]
 
 Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
-Bibliotheks-IT](#anforderungen) thematisiert.
+IT-Entwicklung](#anforderungen) thematisiert.
 
-#### Barrierefreiheit
+### Barrierefreiheit
 
 Neben dem Befolgen der Anforderungen an ergonomisch bedienbare Software,
 liegt es auf der Hand, dass IT-Systeme für eine Vielzahl von
@@ -315,8 +393,8 @@ Portale, Dokumentenserver etc. im Rahmen von Projekten realisiert. Die
 notwendigen Kenntnisse haben vielerorts eigens dafür eingestellte
 Mitarbeiter\*innen eingebracht. Eine systematische Ausweitung von
 Kenntnissen zu IT-Systemen, Metadatenmanagement, Web-Standards,
-\[Usability und User Experience\] bleibt jedoch für die meisten
-Bibliotheken eine große Herausforderung.
+Usability und User Experience bleibt jedoch für die meisten Bibliotheken
+eine große Herausforderung.
 
 ### Kompetenzen
 
@@ -416,6 +494,13 @@ Mitarbeitende, Berentung o.ä. beeinflussen die Personal- und
 Ressourcenplanung. Eine kontinuierliche Beschäftigung mit diesem Thema
 ist notwendig, um das [Betriebsrisiko von
 IT-Systemen](#betriebssicherheit-und-risikomanagement) zu minimieren.
+Die Benutzung von gut etablierter und weit verbreiteter freier Software
+verursacht Kosten durch Kompetenzaufbau oder -einkauf, macht unabhängig
+in Bezug auf Datenhoheit, Datensicherheit und vor allem die
+Weiterentwicklung. Die Lizenznahme eines kommerziellen Produktes lässt
+grundsätzlich weniger Individualisierung zu und verlagert die
+Verantwortung für die Verfügbarkeit und Betriebssicherheit auf den
+jeweiligen Anbieter.
 
 Für die Planungen muss entsprechend regelmäßig der Bedarf analysiert
 werden:
@@ -521,8 +606,8 @@ Die wichtigste Rolle bei der Qualifizierung für die Aufgaben im Bereich
 Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle
 Weiterbildungsformen sind
 
--   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, Kitodo,
-    OPUS, ...
+-   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO,
+    Kitodo, OPUS, ...
 
 -   Library Carpentries
 

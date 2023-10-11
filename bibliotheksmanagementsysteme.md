@@ -529,7 +529,7 @@ Statistiken. Folgende Statistiken sind typischerweise erforderlich:
 
 -   Sonderstatistiken wie Statistiken der Fachinformationsdienste (FID)
 
-Bei den Systemen der 1. und 2. Generation ist es bisweilen nötig,
+Bei den Systemen der 1. und 2. Generation ist es bisweilen nötig
 zusätzliche Werkzeuge zum Einsatz zu bringen, um alle gewünschten
 Berichte zu erstellen (z.B. *BibControl* oder *Crystal Reports*).
 Während die integrierten Module vor allem auf die Daten des eigenen

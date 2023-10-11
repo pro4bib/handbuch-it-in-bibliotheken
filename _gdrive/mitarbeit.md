@@ -1,5 +1,3 @@
-{{\< include \_umfrage.md \>}}
-
 Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert.
 Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener
 Form möglich. Voraussetzung ist ein Verständnis des
@@ -47,11 +45,41 @@ Publikation
 
 Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher
 Autor\*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es
-Hinweise zu [Stil und Aktualität](#schreibstil),
-[Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben
-zu besonderen Inhalten wie [Bildern und anderen
-Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur)
-und [Glossar](#mitarbeit-glossar).
+Hinweise zu [Zielgruppe](#zielgruppe), [Stil und
+Aktualität](#schreibstil), [Schreibweise](#schreibweise) und
+[Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern
+und anderen Medien](#mitarbeit-medien),
+[Literaturverzeichnis](#mitarbeit-literatur) und
+[Glossar](#mitarbeit-glossar).
+
+### Zielgruppe
+
+Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
+*Personas* definiert:
+
+-   **Janine** Buchinger: Janine leitet die Stadtbibliothek in einer
+    Stadt mit 250.000 Einwohnern. Die Bibliothek besteht aus einer
+    Zentrale und zwei Zweigstellen. Mit den Schulbüchereien besteht eine
+    Kooperation für fachliche Beratung und gemeinsame Aktivitäten bei
+    der Informationskompetenz-Vermittlung.
+
+-   Dr. **Tillmann** Schuppe: Tillmann ist Leiter einer
+    Fachhochschulbibliothek mit 500.000 Medieneinheiten. Die Bibliothek
+    gehört einem Bibliotheksverbund an. Die Bibliothek plant einen
+    Neubau, der gemeinsam mit dem Rechen- und Medienzentrum bezogen
+    werden soll.
+
+-   **Magda** Olsowski: Magda ist studierte Informatikerin und leitet
+    die Gruppe Forschungsdatenmanagement an einer großen
+    Universitätsbibliothek. Sie hat keine bibliothekarische Vorbildung.
+
+-   **Alicia** Meyer: Alicia studiert Bibliotheksmanagement und plant
+    eine Masterarbeit, in der sie die Implementierungsprozesse von
+    Software analysieren möchte.
+
+-   **Robert** Pohlmann: Robert leitet die IT-Abteilung einer
+    mittelgroßen Universitätsbibliothek und ist nebenberuflich
+    Lehrbeauftragter für einen bibliothekarischen Studiengang.
 
 ### Stil und Aktualität
 
@@ -72,7 +100,7 @@ und [Glossar](#mitarbeit-glossar).
 
 -   **Das Buch soll als Nachschlagewerk dienen, das nicht vollständig
     durchgelesen werden muss.** Dabei helfen Redundanz und Querverweise
-    (siehe [Hinweise zur Struktur](#struktur).
+    (siehe [Hinweise zur Struktur](#struktur)).
 
 ### Struktur
 
@@ -114,10 +142,16 @@ wesentlichen Themen rund um IT in Bibliotheken.
     von einer **Einleitung** und endet mit einem Abschnitt
     **Zusammenfassung und Ausblick**.
 
+-   Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld
+    `description` [für
+    Suchmaschinen](https://developers.google.com/search/docs/advanced/appearance/snippet)
+    (maximal etwa 158 Zeichen)
+
 ### Schreibweise, Fachbegriffe und Verweise
 
 -   Wir verwenden im gesamten Buch gendergerechte Schreibweise mit
-    Sternchen (\*).
+    Sternchen (\*). In Markdown ist es sicherer dem Sternchen einen
+    Backslash voranzustellen, z.B. `Autor\*innen`.
 
 -   Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer
     durch das Buch eingehalten werden, so z.B. BMS für
@@ -162,6 +196,11 @@ werden inline verlinkt.
 -   Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt
     werden.
 
+-   Standardschriftart ist [Source Sans
+    Pro](https://de.wikipedia.org/wiki/Source_Sans_Pro) und
+    Standard-Farbe für Hervorhebungen ist Blau mit dem Farbcode
+    `#2780e3`.
+
 -   Bitte nutzt sprechende Dateinamen!
 
 ### Literaturverzeichnis
@@ -178,25 +217,22 @@ werden.
 
 ### Glossar
 
-Das Glossar in der Datei `glossar.md` enthält erklärungswürdige Begriffe
-mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle
-(meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar
-aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in
-den Textdateien zur Hervorhebung *kursiv* gesetzt. Bei Erzeugung der
+Das Glossar in der Datei `glossar.yml` enthält erklärungswürdige
+Begriffe mit Kurzbeschreibung und optionalem Link auf eine
+weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen
+in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die
+Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv*
+gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der
 HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip
-geändert.
-
-Die Verlinkung von kursiv gesetzten Glossareinträgen zum Glossar ist
-[noch nicht
-umgesetzt](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/7).
+umgewandelt.
 
 ### Autor\*innen-Verzeichnis
 
 Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der
-Autor\*innen](#autorinnen) auftauchst, trage Dich in der JSON-Datei
-[`contributors.json`](contributors.json) ein. Die Einträge sollten nach
-Nachname sortiert werden. Die Felder `email`, `position` und `orcid`
-sind optional.
+Autor\*innen](#autorinnen) auftauchst, trage Dich in der YAML-Datei
+[`contributors.yml`](https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/contributors.yml)
+ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder
+`email`, `position` und `orcid` sind optional.
 
 ## Technik
 
@@ -211,10 +247,12 @@ aktuellste Stand einsehbar sein sollte.
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die
 Masterdateien.
 
+-   `metadata.yml` bibliographische Metadaten (Titel, Abstract...)
+
 -   `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der
     [Konvertierung mit Quarto](#konvertierung)
 
--   [`contributors.json`](contributors.json)
+-   [`contributors.yml`](contributors.yml)
     [Autor\*innen-Verzeichnis](#autorinnen-verzeichnis)
 
 -   `references.bib` [Literaturverzeichnis](#literaturverzeichnis)
@@ -250,6 +288,9 @@ zusammengefasst:
 -   `make build` konvertiert das Handbuch in alle konfigurierten Formate
     und legt die Ergebnisse im Verzeichnis `_book` ab. Dieser Schritt
     wird auch automatisch nach jedem Push auf GitHub ausgeführt.
+
+-   `make all` ruft make `build` und `docx` auf und kopiert die
+    DOCX-Dateien ins Publikationsverzeichnis `_book`.
 
 -   `make html` erzeugt nur HTML in `_book`.
 

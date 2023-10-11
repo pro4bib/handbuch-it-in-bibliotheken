@@ -1,13 +1,12 @@
-# Anforderungen an die IT-Entwicklung
+# IT-Entwicklung
 
-Die Entwicklung von Software wird im besten Fall an den Bedürfnissen der
-[Nutzenden](#einbeziehung) und auf die Nutzbarkeit des Produkts
-ausgerichtet. Es gibt verschiedene Methoden, die entsprechenden Bedarfe
-und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen.
-Neben klassischen Verfahren der [Bedarfsermittlung](#bedarfsermittlung)
-gehörgen dazu unter anderem der Einsatz von Personas, Use Cases oder
-Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel
-Storyboards, Wireframes oder auch Prototypen.
+## Zusammenfassung
+
+Dieses Kapitel behandelt die Entwicklung von IT-Systemen. Der
+Schwerpunkt liegt hier auf der Einbeziehung von Nutzer\*innen, um im
+besten Fall die tatsächlichen Bedürfnisse passend zu erfüllen.
+
+## Einleitung
 
 Im Kapitel [Management von IT-Systemen](#management) wurde bereits auf
 Themen wie Barrierefreiheit und software-ergonomische Anforderungen
@@ -23,8 +22,12 @@ beziehungsweise technischen Fortschritt möglich gewordene neue
 Nutzungsformen von Medien.
 
 IT-Entwicklung sollte sich daher auch an den
-[Bedürfnissen](#bedarfsermittlung) von [Nutzenden](#einbeziehung)
-ausrichten.
+[Bedürfnissen](#bedarfsermittlung) von [Nutzer\*innen](#einbeziehung)
+ausrichten. Es gibt verschiedene Methoden, die entsprechenden Bedarfe
+und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen.
+Dazu gehören unter anderem der Einsatz von Personas, Use Cases oder
+Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel
+Storyboards, Wireframes oder auch Prototypen.
 
 ## Nutzer\*innenorientierten Gestaltung
 
@@ -59,8 +62,8 @@ was allein schon aus Gründen der digitalen Teilhabe sinnvoll erscheint.
 Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche
 einfach zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte
 wie Effektivität, Effizienz, Benutzerzufriedenheit und Zugänglichkeit
-gelegt (vgl. ISO 9241-210:2019). Diese Aspekte werden in Abschnitt [Was
-beeinflusst den
+gelegt \[@deutsches_institut_fur_normung_e\_v_din_din_2020\]. Diese
+Aspekte werden in Abschnitt [Was beeinflusst den
 Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter
 erläutert.
 
@@ -99,7 +102,8 @@ Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und
 zugänglich sein. Die Erreichung dieser Ziele und zentrale
 Begriffsdefinitionen sind Teil des Arbeits- und Forschungsgebiets der
 Software-Ergonomie und finden sich in den einschlägigen Normen wie der
-DIN EN ISO 9241-11 wieder.
+DIN EN ISO 9241-11 wieder
+\[@deutsches_institut_fur_normung_e\_v_din_din_2020\].
 
 Von zentraler Bedeutung sind dabei zwei Kernbegriffe: die Usability
 (Gebrauchstauglichkeit) und die User Experience (Nutzer\*innenerfahrung)
@@ -138,7 +142,7 @@ digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
 ![Zusammenhang zwischen Usability und User
-Experience](media/rId24.png){width="0.0in" height="0.0in"}
+Experience](media/rId26.png){width="0.0in" height="0.0in"}
 
 Zusammenhang zwischen Usability und User Experience
 
@@ -208,7 +212,7 @@ einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
 ![Aus einem Vortrag zum Scenario-based
-Design](media/rId32.png){width="3.3333333333333335in" height="2.5in"}
+Design](media/rId34.png){width="3.3333333333333335in" height="2.5in"}
 
 Aus einem [Vortrag zum Scenario-based
 Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
@@ -326,7 +330,7 @@ bestimmte Aktionen zu illustrieren.
 
 ![hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist
 nur als Platzhalter zu verstehen z.B.
-https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit](media/rId44.png){width="3.3333333333333335in"
+https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit](media/rId46.png){width="3.3333333333333335in"
 height="2.5in"}
 
 hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur
@@ -374,7 +378,7 @@ Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von
 einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
 ![https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype
-(Platzhalter)](media/rId49.png){width="3.3333333333333335in"
+(Platzhalter)](media/rId51.png){width="3.3333333333333335in"
 height="2.5in"}
 
 <https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype>
@@ -434,7 +438,7 @@ Methoden: Beobachtungs- und Inspektionstests (@fig-6). Während
 erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt werden,
 werden Inspektionstests häufig durch Usability-Expert\*innen realisiert.
 
-![ ](media/rId61.png){width="0.0in" height="0.0in"}
+![ ](media/rId63.png){width="0.0in" height="0.0in"}
 
  
 
@@ -460,7 +464,8 @@ kulturellen Faktoren (z.B. Bildungshintergrund) bietet es sich an,
 Nutzer\*innen auszuwählen, die über ein unterschiedliches Maß an
 Vorwissen über das zu entwickelnde oder verwandte Produkte verfügen.
 Außerdem sollten Personen integriert werden, welche von Einschränkungen
-betroffen sind, die in Abschnitt \[Accessibility\] thematisiert wurden.
+betroffen sind, die in Abschnitt [Accessibility](#accessibility)
+thematisiert wurden.
 
 #### Testablauf und Vorbereitungen
 

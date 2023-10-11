@@ -1,7 +1,9 @@
 # Bibliotheksmanagementsysteme
 
-Bibliotheksmanagementsysteme sind IT-Systeme, die die
-[Kernprozesse](#prozessabbildung) einer Bibliothek unterstützen. Das
+## Zusammenfassung
+
+Ein Bibliotheksmanagementsystem ist ein IT-System, das die
+[Kernprozesse](#prozessabbildung) einer Bibliothek unterstützt. Das
 modular aufgebaute System verfügt über verschiedene
 [Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung,
 Katalogisierung/Erschließung und Ausleihe sowie für die Recherche. Die
@@ -11,63 +13,56 @@ Relevant für die Arbeit mit den Managementsystemen ist auch die
 [Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration
 anderer Systeme](#integration).
 
-In diesem Text wird der Begriff Bibliotheksmanagementsystem (BMS)
-verwendet. Damit ist ein Softwareprodukt gemeint, mit dem die
-Arbeitsprozesse rund um die Erwerbung, Erschließung, Ausleihe, Zugriff
-und Auffindbarmachung von Bibliotheksbeständen über Kataloge abgebildet
-und automatisiert werden können. Teilweise wird im Deutschen auch der
-nicht auf Software beschränkte Begriff Bibliothekssystem verwendet. In
-der angloamerikanischen Literatur finden sich die Begriffe Integrated
-Library System (ILS) und Library Management System (LMS), zuletzt aber
-auch Library Services Platforms.
+## Einleitung
 
 Das BMS spielt eine zentrale Rolle für die meisten klassischen
-Geschäftsprozesse in Bibliotheken. Durch die Ausweitung der Aufgaben in
-den Bereichen Publikationsdienste, Open Science oder auch Lernort sind
-in neuerer Zeit jedoch noch weitere Aufgaben hinzugekommen, die durch
-die klassischen BMS nicht abgebildet werden. Darüber hinaus haben die
-frühen Systeme nur sehr unzureichende Möglichkeiten, die nötigen
-Informationen zu elektronischen Ressourcen und ihrer Zugänglichkeit
-abzubilden. Auch zur Unterstützung von neueren Aufgaben wie der
-Publikationsunterstützung oder der Verwaltung räumlicher Ressourcen
-werden separate Systeme genutzt. Daraus ergibt sich der Bedarf, das BMS
-an diese separaten Systeme anzubinden, was die Bedeutung von
-Schnittstellen und offenen Architekturen erhöht hat.
+Geschäftsprozesse in Bibliotheken.
 
-## Übersicht
+## Definition
 
-### Geschichte
+Ein Bibliotheksmanagementsystem ist ein Softwareprodukt, mit dem die
+Arbeitsprozesse rund um die Erwerbung, Erschließung, Ausleihe, den
+Zugriff und die Auffindbarmachung von Bibliotheksbeständen über Kataloge
+abgebildet und automatisiert werden können.
 
-Die erste Generation der Bibliotheksmanagementsysteme umfasste
-Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die
-Erwerbung die Verwaltung von Bestellungen und teilweise auch über über
-Telnet erreichbare Kataloge für die Bibliotheksnutzenden. Die zweite
-BMS-Generation verfügt über erweiterte Funktionalitäten zur
-Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge
-aus. Die dritter Generation zeichnet sich durch stärkere Modularisierung
-und mehr Schnittstellen zur Anbindung weiterer Systeme aus.
+Durch die Ausweitung der Aufgaben in den Bereichen Publikationsdienste,
+Open Science oder auch Lernort sind in neuerer Zeit jedoch noch weitere
+Aufgaben hinzugekommen, die durch die klassischen BMS nicht abgebildet
+werden. Darüber hinaus haben die frühen Systeme nur sehr unzureichende
+Möglichkeiten, die nötigen Informationen zu elektronischen Ressourcen
+und ihrer Zugänglichkeit abzubilden. Auch zur Unterstützung von neueren
+Aufgaben wie der Publikationsunterstützung oder der Verwaltung
+räumlicher Ressourcen werden separate Systeme genutzt. Daraus ergibt
+sich der Bedarf, das BMS an diese separaten Systeme anzubinden, was die
+Bedeutung von Schnittstellen und offenen Architekturen erhöht hat.
 
-Bibliotheksmanagementsysteme unterstützen alle Kernprozesse des
-bibliothekarischen Arbeitens, das heißt die Erwerbung, Erschließung und
-Ausleihe von Medien. Ihren Ursprung haben Bibliotheksmanagementsystem in
-den 1960er Jahren, als Bibliotheken damit begannen, Katalogdaten
-untereinander auszutauschen und auf diese Weise Prozesse zu optimieren.
-In dieser Zeit entwickelten sich auch die heute noch gebräuchlichen
-Austauschformate für Katalogdaten, z.B. *MARC*.
+In diesem Text wird der Begriff Bibliotheksmanagementsystem verwendet.
+Teilweise wird im Deutschen auch der allgemeinere Begriff
+*Bibliothekssystem* verwendet. In der angloamerikanischen Literatur
+finden sich die Begriffe *Integrated Library System (ILS)* und *Library
+Management System (LMS)*, zuletzt aber auch *Library Services
+Platforms*.
 
-In den 1970er Jahren erlaubte die fortschreitende technische
-Entwicklung, die Automatisierung weiterer Prozesse über den
-Datenaustausch hinaus. Zunächst war dies vor allem die Ausleihe mit der
-Verbuchung von Medien und der Erzeugung von Mahnschreiben. Auch die
-Verwaltung von Bestellungen im Rahmen der Erwerbung wurde möglich, so
-dass man in der Folge von \"Integrated Library Systems\" zu sprechen
-begann. Davon, dass Katalog-, Erwerbungs- und Nutzer\*innen-Daten an
-einem Ort gehalten und bearbeitet wurden, versprach man sich eine
-größere Effizienz der Arbeitsprozesse. Diese **erste Generation** von
-BMS beinhaltete teilweise auch schon digitale Funktionen für
-Bibliotheksnutzer\*innen wie über Telnet erreichbare Kataloge, die von
-Anfang an als integraler Bestandteil der BMS gesehen wurden
-\[@borgman_acting_1997\].
+## Geschichte der Bibliotheksmanagementsysteme
+
+Ihren Ursprung haben Bibliotheksmanagementsysteme in den 1960er Jahren,
+als Bibliotheken damit begannen, Katalogdaten untereinander
+auszutauschen und auf diese Weise Prozesse zu optimieren. In dieser Zeit
+entwickelten sich auch die heute noch gebräuchlichen Austauschformate
+für Katalogdaten, z.B. *MARC*.
+
+In den 1970er Jahren erlaubte die fortschreitende technische Entwicklung
+die Automatisierung weiterer Prozesse über den Datenaustausch hinaus.
+Zunächst war dies vor allem die Ausleihe mit der Verbuchung von Medien
+und der Erzeugung von Mahnschreiben. Auch die Verwaltung von
+Bestellungen im Rahmen der Erwerbung wurde möglich, so dass man in der
+Folge von *Integrated Library Systems* zu sprechen begann. Davon, dass
+Katalog-, Erwerbungs- und Nutzer\*innen-Daten an einem Ort gehalten und
+bearbeitet wurden, versprach man sich eine größere Effizienz der
+Arbeitsprozesse. Diese **erste Generation** von BMS beinhaltete
+teilweise auch schon digitale Funktionen für Bibliotheksnutzer\*innen
+wie über Telnet erreichbare Kataloge, die von Anfang an als integraler
+Bestandteil der BMS gesehen wurden \[@borgman_acting_1997\].
 
 Die Entstehung des World Wide Web in den 1990er Jahren hatte zunächst
 vor allem Einfluss auf die Benutzbarkeit der Kataloge, die
@@ -79,6 +74,18 @@ Generation** war von den späten 1990er bis in die Nullerjahre sehr
 divers, ist zuletzt aber von vielen Übernahmen geprägt worden, so dass
 man von einem konsolidierten Markt sprechen kann
 \[@breeding_library_nodate\].
+
+## Info
+
+Die **erste Generation** der Bibliotheksmanagementsysteme umfasste
+Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die
+Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet
+erreichbare Kataloge für die Bibliotheksnutzer\*innen. Die **zweite
+BMS-Generation** verfügte über erweiterte Funktionalitäten zur
+Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge
+aus. Die **dritte Generation** zeichnete sich durch stärkere
+Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme
+aus.
 
 Seit den 2010er-Jahren vermarkten Anbieter eine neue Generation von BMS,
 die **Next-Generation Library Management Systems**, die auch **Library
@@ -93,50 +100,52 @@ Statistik- und Reporting-Funktionalitäten verbessert.
 
 Seit dem Ende der 1990er Jahre spielen auch wieder Lösungen eine Rolle,
 die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
-Regel eine große Anwender Community und lassen einen vielfältigen Markt
+Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
-### Evolution der Bibliotheksmanagementsysteme
+![Evolution der Bibliotheksmanagementsysteme (nach
+\@matthews_library_2020, S.
+7)](media/rId28.png){width="4.166666666666667in"
+height="2.7777777777777777in"}
 
-![](media/rId21.png){width="5.833333333333333in"
-height="4.947257217847769in"}
+Evolution der Bibliotheksmanagementsysteme (nach
+\@matthews_library_2020, S. 7)
 
-Quelle: \@matthews_library_2020, S. 7 \[TODO: Ins Deutsche adaptieren\]
+## Info
 
 Nach \@matthews_library_2020 lässt sich die Geschichte der BMS in sechs
-überlappende Epochen einteilen:
+überlappende Epochen einteilen (siehe \@fig-bmsevol):
 
 1.  **System-Epoche**: Erste Schritte in den 1950er bis in die
     1970er-Jahre hin zur Entwicklung von Software, z. T sehr
     experimentell, die die klassischen Geschäftsgänge von Bibliotheken
-    in einem digitalen System abbilden sollten - dadurch prägte sich der
-    Begriff \"Bibliothekssystem\". Das Augenmerk bei der Entwicklung lag
+    in einem digitalen System abbilden sollen -- dadurch prägt sich der
+    Begriff "Bibliothekssystem". Das Augenmerk bei der Entwicklung liegt
     besonders auf Nachbildungen des Leihverkehrs unter besonderer
-    Beachtung der Identifikation überfälliger Medien
+    Beachtung der Identifikation überfälliger Medien.
 
 2.  **Epoche der Funktionalität**: Kommerzielle
-    Bibliothekssoftware-Anbieter begannen sich zu formieren, die
+    Bibliothekssoftware-Anbieter beginnen sich zu formieren, die
     erstmals eine integrierte Lösung der verschiedenen
     Automationsbereiche (Erwerbung, Katalogisierung,
-    Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anboten.
-    Hierdurch entstand die Bezeichnung \"Integriertes
-    Bibliothekssystem\" (IBS), der auf den aus dem US-amerikanischen
-    Raum übernommenen Begriff \"Integrated Library System\" (ILS)
-    zurückgeht. In den 1980ern entstanden die ersten Online-Kataloge
-    (OPAC), die die in Bibliotheken traditionellen Zettelkataloge
-    nachbildeten.
+    Zeitschriftenakzession, Verbuchung, Leihverkehr usw.) anbieten.
+    Hierdurch entsteht die Bezeichnung "Integriertes Bibliothekssystem"
+    (IBS), der auf den aus dem US-amerikanischen Raum übernommenen
+    Begriff "Integrated Library System" (ILS) zurückgeht. In den 1980ern
+    entstehen die ersten Online-Kataloge (OPAC), die die in Bibliotheken
+    traditionellen Zettelkataloge nachbilden.
 
 3.  **Nutzer\*innen-Fokus-Epoche**: Durch die Erkenntnis, dass sich die
-    Gewohnheiten von Bibliotheks-Nutzer\*innen im Zugang zu und Umgang
+    Gewohnheiten von Bibliotheksnutzer\*innen im Zugang zu und Umgang
     mit Medien u.a. mit dem Aufkommen des WWW in ihrem Alltag zunehmend
     ändern (z.B. durch die Nutzung von Online-Shopping und
-    Suchmaschinen), rückten die Bedürfnisse der Nutzer\*innen immer mehr
-    in den Fokus bei der Entwicklung von Bibliothekssystemen
+    Suchmaschinen), rücken die Bedürfnisse der Nutzer\*innen immer mehr
+    in den Fokus bei der Entwicklung von Bibliothekssystemen.
 
 4.  **Epoche der Verbreiterung der Informationsressourcen**: Der
     Übergang in eine Phase, bei der Medien nicht mehr erworben, sondern
     digital lizenziert werden. Entsprechend entwickelt sich das
-    Bedürfnis nach einem Electronic Resource Management (ERM) und
+    Bedürfnis nach einem Electronic Resource Management (*ERM*) und
     neuartige BMS unterfüttern zum Ende der Epoche diesen Wandel mit
     einer von Medientypen unabhängigen Ressourcenverwaltung.
 
@@ -157,7 +166,79 @@ Nach \@matthews_library_2020 lässt sich die Geschichte der BMS in sechs
     Technologien wie 3D-Druck, Virtual Reality (VR),
     Open-Access-Repositorien etc.
 
-### Komponenten
+relevante Software-Produkte (Stand Mitte 2022)
+{#tbl-aktuelle-sw-produkte}
+
+  ----------------------------------------------------------------------------
+             Organisation    Marktstatus            Open       Individuelle
+                                                    Source     Entwicklung
+  ---------- --------------- ---------------------- ---------- ---------------
+  aDIS/BMS   aStec           ÖBs und WBs vor allem  nein       durch aStec
+                             im BSZ                            
+
+  Alma       ExLibris        WBs in Berlin, NRW,    nein       durch ExLibris,
+                             Bayerische                        integrierte
+                             Staatsbibliothek,                 Apps in
+                             Schweiz                           Eigenregie
+
+  FOLIO      Open Library    Einführung in WBs      ja         in Eigenregie
+             Foundation                                        oder durch
+                                                               Dienstleister
+
+  Koha       Koha Community  ÖBs und                ja         in Eigenregie
+                             Spezialbibliotheken,              oder durch
+                             in Planung im KOBV                Dienstleister
+
+  LBS        OCLC            WBs im GBV und         nein       durch VZG
+                             Spezialbibliotheken               
+
+  LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
+  ----------------------------------------------------------------------------
+
+  : relevante Software-Produkte (Stand Mitte 2022)
+  {#tbl-aktuelle-sw-produkte}
+
+In \@tbl-aktuelle-sw-produkte sind die aktuellen BMS mit der derzeit
+größten Marktreife und -durchdringung im deutschsprachigen Raum (Stand
+Mitte 2022, Sortierung nach Namen) angegeben. Weitere BMS wie ExLibris
+Aleph, SISIS Sunrise und allegro werden zwar auch noch an vielen
+Bibliotheken eingesetzt, aber nicht mehr wesentlich weiterentwickelt.
+Das Cloud-basierte System WMS von OCLC ist in Deutschland bislang nur
+vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC ein Nachfolger
+angekündigt.
+
+Darüber hinaus gibt es mehrere kommerzielle Systeme, deren
+Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist,
+beispielsweise:
+
+-   [Perpustakaan](https://must.de/default.html?Lib.htm) ist in
+    Schulbibliotheken verbreitet und wendet sich auch an
+    nicht-bibliothekarisch vorgebildetes Personal,
+
+-   [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist
+    in internen Forschungs- und Behörden-Bibliotheken verbreitet,
+
+-   Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen
+    ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab.
+
+Eine umfangreiche internationale Übersicht von BMS enthält der von
+Marshall Breeding gepflegte [Library Technology
+Guide](https://librarytechnology.org/products/). Für den
+Deutschsprachigen Raum gibt es Übersichten von Verbundzentralen oder
+Büchereifachstellen, z.B. \@kluge_anbieter_2022 für öffentliche
+Bibliotheken. Darüber hinaus sind Daten zu BMS systematisch in Wikidata
+erfasst und können beispielsweise unter <https://w.wiki/574K> abgefragt
+werden.
+
+## Info
+
+Der IT-Lebenszyklus von BMS ist mit mehr als 20 Jahren im Vergleich zu
+anderen IT-Systemen eher lang. So wurde beispielsweise FOLIO im Rahmen
+des *Open Library Environment Project* bereits 2009 initiiert und wird
+wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase
+übergehen.
+
+## Funktionalitäten von Bibliotheksmanagementsystemen
 
 BMS sind in der Regel modular aufgebaut und verfügen mindestens über
 Module für folgende Funktionen:
@@ -168,8 +249,10 @@ Module für folgende Funktionen:
 
 -   Ausleihe
 
--   ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzenden
-    richtet
+-   ein Recherche-Modul, das sich vorwiegend an die
+    Bibliotheksnutzer\*innen richtet
+
+### Grundlegende Komponenten
 
 Die Systeme der **1. und 2. Generation** können als sehr ausgereift
 bezeichnet werden und lassen vielfältige Möglichkeiten zu,
@@ -177,10 +260,8 @@ bibliothekarische Geschäftsgänge in einem hohen Detaillierungsgrad
 abzubilden. Nachfolgend werden diese entsprechenden Aufgabenbereiche
 skizziert.
 
-#### Erwerbung
-
-meint die Beschaffung benötigter Bestände bei Verlagen. Darunter fallen
-z.B. folgende Aufgabengebiete:
+**Erwerbung** meint die Beschaffung benötigter Bestände bei Verlagen.
+Darunter fallen z.B. folgende Aufgabengebiete:
 
 -   Bestellungen
 
@@ -197,13 +278,11 @@ z.B. folgende Aufgabengebiete:
 
 -   Buchbinder
 
-$\Rightarrow$ *Siehe auch [Erwerbung in der
-Prozessabbildung](#erwerbung-prozess).*
+$\Rightarrow$ *Siehe auch [Prozessabbildung:
+Erwerbung](#erwerbung-prozess)*
 
-#### Katalogisierung
-
-meint die Erschließung der verwalteten Medien und digitalen Quellen,
-z.B. anhand
+**Katalogisierung** meint die Erschließung der verwalteten Medien und
+digitalen Quellen, z.B. anhand
 
 -   Übernahme von Fremddaten
 
@@ -211,13 +290,11 @@ z.B. anhand
 
 -   Integration digitalisierter Medien
 
-$\Rightarrow$ *Siehe auch [Katalogisierung in der
-Prozessabbildung](#katalogisierung-prozess).*
+$\Rightarrow$ *Siehe auch [Prozessabbildung:
+Katalogisierung](#katalogisierung-prozess)*
 
-#### Ausleihe
-
-meint vorwiegend die Verwaltung physischer Medien bzw Objekte, regelt
-Interaktionen mit Nutzer\*innen wie z.B.:
+**Ausleihe** meint vorwiegend die Verwaltung physischer Medien bzw.
+Objekte und regelt die Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Abbildung komplexer Reglements nach Benutzer- und Medientypen,
     Standorten usw (siehe auch
@@ -233,19 +310,17 @@ Interaktionen mit Nutzer\*innen wie z.B.:
 
 -   Mahngebühren
 
-$\Rightarrow$ *Siehe auch [Ausleihe in der
-Prozessabbildung](#ausleihe-prozess).*
+$\Rightarrow$ *Siehe auch [Prozessabbildung:
+Ausleihe](#ausleihe-prozess)*
 
-#### Recherchemodul
-
-Sicht für die Nutzer\*innen auf Bestände der Einrichtung zur Recherche
-und Kontofunktionen
+Das **Recherchemodul** stellt die Sicht für die Nutzer\*innen auf
+Bestände der Einrichtung zur Recherche und Kontofunktionen dar:
 
 -   Katalog (auch OPAC genannt)
 
 -   Benutzerkonto
 
-[siehe auch Katalog](#katalog)
+$\Rightarrow$ *Siehe auch [Prozessabbildung: Katalog](#katalog-prozess)*
 
 Die **Next Generation-Systeme** zeichnen sich gegenüber den Systemen
 der 1. und 2. Generation in der Regel durch andere Systemarchitekturen
@@ -275,66 +350,6 @@ kennzeichnen \[@schweitzer_roswitha_anforderungen_2016\]:
 -   Anlegen von Favoriten-Listen
 
 -   Anzeige von Buchcovern
-
-### Aktuell relevante Software-Produkte
-
-Der Markt von BMS ist wie bei Software üblich dynamisch, so dass jede
-Übersicht nach einigen Jahren veraltet ist. Stand Mitte 2022 haben
-folgende BMS die derzeit größte Marktreife und -durchdringung im
-deutschsprachigen Raum. Alle vier verfügen über wesentliche Merkmale
-eines Next Generation-BMS.
-
-+------+-------------+---------------------+----------+--------------+
-|      | O           | Marktstatus         | Open     | Individuelle |
-|      | rganisation |                     | Source   | Entwicklung  |
-+======+=============+=====================+==========+==============+
-| Alma | ExLibris    | WBs in Berlin, NRW, | nein     | in gewissem  |
-|      |             | Bayerische          |          | Rahmen durch |
-|      |             | Staatsbibliothek,   |          | ExLibris,    |
-|      |             | Schweiz,            |          |              |
-|      |             |                     |          | integrierte  |
-|      |             |                     |          | Apps durch   |
-|      |             |                     |          | Bibliotheken |
-+------+-------------+---------------------+----------+--------------+
-| F    | Open        | ERM-Modul in        | ja       | in           |
-| olio | Library     | einzelnen deutschen |          | Eigenregie   |
-|      | Foundation  | Bibliotheken        |          | oder durch   |
-|      |             |                     |          | D            |
-|      |             |                     |          | ienstleister |
-+------+-------------+---------------------+----------+--------------+
-| Koha | Koha        | zahlreiche ÖBs und  | ja       | in           |
-|      | Community   | S                   |          | Eigenregie   |
-|      |             | pezialbibliotheken, |          | oder durch   |
-|      |             | in Planung im KOBV  |          | D            |
-|      |             |                     |          | ienstleister |
-+------+-------------+---------------------+----------+--------------+
-| WMS  | OCLC        | vereinzelte         | nein     | in gewissem  |
-|      |             | Bibliotheken in     |          | Rahmen durch |
-|      |             | Deutschland         |          | OCLC         |
-+------+-------------+---------------------+----------+--------------+
-
-Darüber hinaus sind unter Anderem folgende technisch inzwischen
-weitgehend überholte Systeme an vielen Bibliotheken noch im Einsatz:
-
--   PICA LBS
-
--   Sunrise
-
--   aDIS/BMS
-
--   allegro und allegro-c
-
--   Libero
-
--   Bibliomondo
-
--   Perpustakaan
-
-Eine internationale Übersicht von BMS enthält der von Marshall Breeding
-gepflegte [Library Technology
-Guide](https://librarytechnology.org/products/). Weitere BMS sind
-systematisch in Wikidata erfasst und können beispielsweise unter
-<https://w.wiki/574K> abgefragt werden.
 
 ### Vergleich mit anderen Managementsystemen
 
@@ -382,22 +397,20 @@ Nutzerdatenverwaltung
 
 -   IDM-Systeme
 
-Bei Schulbibliotheken ist die Software
-[Perpustakaan](https://must.de/default.html?Lib.htm) relativ weit
-verbreitet, die alle wesentlichen Grundfunktionen eines BMS beinhaltet,
-sich aber ausdrücklich an nicht-bibliothekarisch vorgebildetes Personal
-richtet.
-
 Bibliotheken mit einem jährlichen Zuwachs von über 500 Medien und
-verschiedenen Nutzertypen und Ausleihbedingungen werden ist die Nutzung
-eines BMS zu empfehlen, da hier eine gewisse Prozesseffizienz einerseits
-und eine Erschließungs- und Dienstleistungsqualität andererseits zu
-erreicht werden können. Als gedankliches Experiment ist die Überlegung,
-auf ein BMS zu verzichten, jedoch gut geeignet, um sich über die
-Anforderungen klar zu werden. Insbesondere die Rolle des
-Bibliothekskataloges als Schnittstelle zu den Bibliotheksnutzer\*innen
-kann und sollte kritisch hinterfragt werden. Beispielsweise gab es
-[Überlegungen der Universitätsbibliothek in
+verschiedenen Benutzertypen und Ausleihbedingungen ist die Nutzung eines
+BMS zu empfehlen, da hier eine gewisse Prozesseffizienz einerseits und
+eine Erschließungs- und Dienstleistungsqualität andererseits erreicht
+werden kann.
+
+## Info
+
+Als gedankliches Experiment ist die Überlegung, auf ein BMS zu
+verzichten, jedoch gut geeignet, um sich über die Anforderungen klar zu
+werden. Insbesondere die Rolle des Bibliothekskataloges als
+Schnittstelle zu den Bibliotheksnutzer\*innen kann und sollte kritisch
+hinterfragt werden. Beispielsweise gab es [Überlegungen der
+Universitätsbibliothek in
 Utrecht](https://insights.uksg.org/articles/10.1629/2048-7754.174/), auf
 dieses klassische Instrument gänzlich zu verzichten.
 
@@ -431,11 +444,9 @@ Im bibliothekarischen Umfeld sind folgende Systeme relevant:
 
 -   die
     [Zeitschriftendatenbank](#Xef3cdf849515896b72e4da871885dcc60b5fbed)
-    (siehe unten)
 
 -   die [elektronische
     Zeitschriftendatenbank](#Xef3cdf849515896b72e4da871885dcc60b5fbed)
-    (siehe unten)
 
 Für die regionale und überregionale Literaturversorgung (physische,
 Print-Medien, E-Medien) spielt die Anbindung an folgende Systeme eine
@@ -472,7 +483,10 @@ gibt es mit WorldCat einen internationalen Verbundkatalog. Die Anbindung
 an WorldCat geschieht jedoch in der Regel nicht direkt über das lokale
 BMS sondern über den Bibliotheksverbund.
 
-Folgende Bibliotheksverbünde gibt es:
+\@tbl-verbund gibt eine Übersicht über die deutschsprachigen
+Bibliotheksverbünde.
+
+Bibliotheksverbünde und -kataloge {#tbl-verbund}
 
 +--------------------+----------------+--------------------------------+
 | Verbund            | Verbundkatalog | System                         |
@@ -502,6 +516,8 @@ Folgende Bibliotheksverbünde gibt es:
 | Service Platform   |                |                                |
 | (SLSP)             |                |                                |
 +--------------------+----------------+--------------------------------+
+
+: Bibliotheksverbünde und -kataloge {#tbl-verbund}
 
 ### Anbindung an Verbundkataloge/Verbundkatalogisierung
 
@@ -554,7 +570,7 @@ Während die integrierten Module vor allem auf die Daten des eigenen
 Systems fokussiert sind, können externe Werkzeuge auch Fremddaten
 aufnehmen, zum Beispiel Daten aus Besucherzählern.
 
-## Bibliotheksorganisation
+### Bibliotheksorganisation
 
 Bei der Implementierung oder Anpassung eines BMS ist die Organisation
 der Bibliothek, die Gestaltung der Prozesse sowie die räumliche
@@ -565,34 +581,34 @@ einzelne Bibliothek oder eine Zentralbibliothek mit Zweigstellen?
 
 Auch die Aufstellung der Medien innerhalb der Gebäude nimmt Einfluss auf
 die Ablauforganisation und damit die Konfiguration des Systems. Dies
-lässt sich anhand der folgender Beispiele darstellen:
+lässt sich anhand der folgenden Beispiele darstellen:
 
 -   Bücher können in einer anderen Zweigstellen ausgeliehen werden.
 
 -   Die Bibliothek verfügt über einen Magazinbestand, also physische
-    Medien, die für die Nutzenden nicht unmittelbar zur Verfügung
+    Medien, die für die Nutzer\*innen nicht unmittelbar zur Verfügung
     stehen.
 
 In beiden Fällen muss auch der Bestellprozess über das System abgebildet
 werden. Im Magazin bzw. der Zweigstelle sind der Anschluss und die
 Aufstellung von Druckern für die Erzeugung von Bestellzetteln zu
-berücksichten. Sind die Medien für die Bibliotheksnutzenden direkt
-zugänglich, entfällt der Bestellschritt und der Prozess beginnt mit der
-Ausleihverbuchung.
+berücksichten. Sind die Medien für die Bibliotheksnutzer\*innen direkt
+zugänglich, entfällt der Bestellschritt und der abzubildende Prozess
+beginnt mit der Ausleihverbuchung.
 
 Auch das Rechtemanagement eines BMS ist abhängig von der Größe der
 Organisation. So sind ggf. verschiedene Berechtigungsstufen für die
 Bearbeitung von Daten im BMS für die Bibliotheksbeschäftigen
 einzuführen. Die Berechtigungen bilden die Arbeitsorganisation ab und
 berechtigen z.B. zum Lesen, Anlegen, Editieren oder Löschen von
-Ausleihbestellungen, Benutzenden- oder Katalogdaten,
+Ausleihbestellungen, Nutzer\*innen- oder Katalogdaten,
 Erwerbungsunterlagen, Gebühreninformationen u.ä.
 
 ### Benutzungsbedingungen
 
 Die Benutzungsbedingungen werden durch die Ausleihpolitik der Bibliothek
 bestimmt. Die Gestaltung der Bedingungen erfolgt sowohl bezogen auf die
-Medien und die Bibliotheksbenutzenden. Dabei geht es um die Frage, was
+Medien und die Bibliotheksnutzer\*innen. Dabei geht es um die Frage, was
 von wem ausgeliehen werden darf und, wenn eine Ausleihe möglich ist, wie
 und für welchen Zeitraum diese erfolgen kann.
 
@@ -610,11 +626,11 @@ verschiedene Kriterien charakterisiert. Zur Illustration zwei Beispiele:
 -   Gruppenbildung öffentlichen Bibliothek: Kinder, Jugendliche,
     Erwachsene
 
-Die Einteilung von Bibliotheksnutzenden in Gruppen dient der einfacheren
-Zuweisung von Rechten und Ausleihbedingungen, wird aber auch für
-statistische Zwecke genutzt. Die Ausleihpolitik bestimmt, welche Rechte
-den verschiedenen Benutzungsgruppen zugewiesen werden. So erfolgt z.B.
-die Gruppeneinteilung in öffentlichen Bibliotheken i.d.R. nach dem
+Die Einteilung von Bibliotheksnutzer\*innen in Gruppen dient der
+einfacheren Zuweisung von Rechten und Ausleihbedingungen, wird aber auch
+für statistische Zwecke genutzt. Die Ausleihpolitik bestimmt, welche
+Rechte den verschiedenen Benutzungsgruppen zugewiesen werden. So erfolgt
+z.B. die Gruppeneinteilung in öffentlichen Bibliotheken i.d.R. nach dem
 Alter. Einerseits wird damit die Zugänglichkeit der Medien für Kinder
 und Jugendliche gesteuert. Andererseits dient diese Gruppierung der
 Einstufung der Gebühren (Kinder und Jugendliche zahlen oft weniger oder
@@ -670,11 +686,11 @@ Kapitel zu Open Data).
 
 ### Digitale Inhalte
 
-Dies sind letztendlich die Daten die für die Nutzenden der Bibliothek
-vor allem von Interesse sind. Im Falle von Open Access Publikationen
-bietet das BMS nur einen möglichen Weg zum Zugriff, für erworbene oder
-lizenzierte Inhalte muss das BMS dagegen unterschiedliche Zugriffsrechte
-unterstützen.
+Dies sind letztendlich die Daten die für die Nutzer\*innen der
+Bibliothek vor allem von Interesse sind. Im Falle von Open Access
+Publikationen bietet das BMS nur einen möglichen Weg zum Zugriff, für
+erworbene oder lizenzierte Inhalte muss das BMS dagegen unterschiedliche
+Zugriffsrechte unterstützen.
 
 Digitale Inhalte werden in der Regel nicht direkt im BMS sondern in
 eigenen Content Management Systemen (CMS) und Repositorien verwaltet.
@@ -689,12 +705,11 @@ wie z.B. einzelne Abbildungen.
 ### Verwaltungsdaten
 
 Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb
-der Bibliothek (siehe Kapitel
-[Prozesse](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.epp3ketud8iw)).
-Diese Daten sind zum größten Teil nicht öffentlich und müssen
-insbesondere im Fall von Nutzerdaten besonders geschützt werden (siehe
-Kapitel
-[Nutzendendaten](https://docs.google.com/document/d/1Cficj6r5qnnGMWIJgu-NaWiU1637aA8fUOPz-gPFD00/edit#heading=h.owfykze6665n)).
+der Bibliothek (siehe [Prozessabbildung](#prozessabbildung)). Diese
+Daten sind zum größten Teil nicht öffentlich und müssen insbesondere im
+Falle von Daten von Nutzer\*innen im Rahmen des
+[Datenschutz](#datenschutz) vertraulich behandelt werden.
+
 Zur Interoperabilität mit anderen Informationssystemen innerhalb der
 eigenen oder übergeordneten Einrichtung gibt es in der Regel nur wenig
 übergreifend etablierte Standards und Schnittstellen, so dass hier oft
@@ -714,21 +729,23 @@ zwischen verschiedenen Systemen und Einrichtungen unterscheidet.
 
 Neben Standardformaten gibt es speziellere Anwendungsformate. Diese
 basieren allerdings in der Regel auf allgemeinen Strukturierungssprachen
-(CSV, XML, JSON oder RDF) die je nach BMS besser oder schlechter
+(*CSV*, *XML*, *JSON* oder *RDF*) die je nach BMS besser oder schlechter
 unterstützt werden.
 
-Beispiele für bibliographische Standardformate sind MARC-21, BIBFRAME
-und als kleinster gemeinsamer Nenner Dublin Core. Das PICA-Format bzw.
-darauf aufbauende Formate ist vor allem als Internformat in den
-Bibliotheksverbünden GBV, BSZ und an der DNB verbeitet.
+-   Beispiele für bibliographische Standardformate sind *MARC21*,
+    *BIBFRAME* und als kleinster gemeinsamer Nenner Dublin Core. Das
+    PICA-Format bzw. darauf aufbauende Formate ist vor allem als
+    Internformat in den Bibliotheksverbünden GBV, BSZ und an der DNB
+    verbeitet.
 
-Verbreitete Metadaten-Schnittstellen sind Z39.50, SRU und OAI-PMH.
+-   Verbreitete Metadaten-Schnittstellen sind *Z39.50*, *SRU* und
+    *OAI-PMH*.
 
-Beispiele für relevante Formate und Schnittstellen für digitale Inhalte
-sind PDF, METS/MODS und IIIF.
+-   Beispiele für relevante Formate und Schnittstellen für digitale
+    Inhalte sind PDF, *METS/MODS* und *IIIF*.
 
-Beispiele für relevante Schnittstellen für BMS-Verwaltungsdaten sind
-LDAP und PAIA.
+-   Beispiele für relevante Schnittstellen für BMS-Verwaltungsdaten sind
+    *LDAP* und *PAIA*.
 
 Eine umfassende Übersicht von Datenformaten mit Schwerpunkt auf Formate,
 die für Bibliotheken relevant sind, bietet die Seite
@@ -757,10 +774,13 @@ Katalogisierung.
 
 ## Marktanalyse und Beschaffung
 
-Der deutschsprachige [BMS-Markt 2022](#aktuelle-sw-produkte) ist
+## Info
+
+Der deutschsprachige [BMS-Markt 2022](#tbl-aktuelle-sw-produkte) ist
 überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind
 daher vor allem auch der Umfang der gewünschten und gewichteten
-Funktionalitäten, Varianten des Betriebs (gehostet oder lokal) oder auch
+Funktionalitäten, [Varianten des
+Betriebs](management.md#betriebsmodelle) (gehostet oder lokal) oder auch
 die Mitgliedschaft in einem Verbund als Kriterien heranzuzuziehen.
 
 Die Beschaffung eines BMS ist für eine Bibliothek eine große
@@ -783,7 +803,7 @@ CO~2~-Ausstoß des Rechenzentrums).
 
 Auch aus datenschutzrechtlicher Perspektive gibt es Voraussetzungen zu
 berücksichtigen, die gegen die Anschaffung bestimmter BMS-Lösungen
-sprechen (siehe Kapitel Datenschutz, User-Tracking, Analytics).
+sprechen (siehe Abschnitt [Datenschutz](#datenschutz)).
 
 Vor diesem Hintergrund ist die Auswahlentscheidung für einzelne
 Bibliotheken oft ein langwieriger Prozess. Bei Teilnahme an einem
@@ -852,8 +872,8 @@ Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
 ![Beispiel für eine Matrix zur Einordnung von
-Funktionalitäten](media/rId62.png){width="5.833333333333333in"
-height="4.623066491688539in"}
+Funktionalitäten](media/rId72.png){width="4.166666666666667in"
+height="2.7777777777777777in"}
 
 Beispiel für eine Matrix zur Einordnung von Funktionalitäten
 
@@ -891,52 +911,55 @@ Möglichkeiten:
 
 Die Vor- und Nachteile im Überblick:
 
-+--------+------------------+--------------------+--------------------+
-|        | Verbund          | kommerzielles BMS  | Open Source BMS    |
-+========+==================+====================+====================+
-| Vo     | regelmäßige      | regelmäßige        | niedrige           |
-| rteile | Pr               | Produktentwicklung | Anschaffungskosten |
-|        | oduktentwicklung |                    |                    |
-|        |                  | einheitlicher      | große              |
-|        | gewisser         | Leistungsumfang    | Anw                |
-|        | State-of-the-Art |                    | endungscommunities |
-|        | garantiert       | klare              |                    |
-|        |                  | Ve                 | oftmals            |
-|        | klare Kosten-    | rantwortlichkeiten | regelmäßige        |
-|        | und              |                    | Produktenwicklung  |
-|        | L                |                    |                    |
-|        | eistungsstruktur |                    | viele              |
-|        |                  |                    | Dienstleister, die |
-|        | große            |                    | Services rund um   |
-|        | Anw              |                    | Migration, Betrieb |
-|        | endungscommunity |                    | und individuelle   |
-|        |                  |                    | Anpassung anbieten |
-|        |                  |                    |                    |
-|        |                  |                    | offene             |
-|        |                  |                    | Schnittstellen und |
-|        |                  |                    | Formate            |
-+--------+------------------+--------------------+--------------------+
-| Nac    | begrenzte        | eher geringe       | erfordert eigene   |
-| hteile | individuelle     | individuelle       | IT-Kapazitäten     |
-|        | Anpassung        | Anpassbarkeit      | oder Outsourcing   |
-|        |                  |                    |                    |
-|        | Wartezeiten bei  | relativ hohe und   | Risiko der         |
-|        | individueller    | intransparente     | Sicherung von      |
-|        | Anpassung        | Preise             | Nachhaltigkeit und |
-|        |                  |                    | Kompatibilität     |
-|        |                  | Abhängigkeit bei   |                    |
-|        |                  | der                |                    |
-|        |                  | Weiterentwicklung  |                    |
-|        |                  |                    |                    |
-|        |                  | evtl. Verlust der  |                    |
-|        |                  | Datenhoheit        |                    |
-|        |                  |                    |                    |
-|        |                  | z.T. proprietäre   |                    |
-|        |                  | (hers              |                    |
-|        |                  | tellerspezifische) |                    |
-|        |                  | Systeme und        |                    |
-|        |                  | Schnittstellen     |                    |
-+--------+------------------+--------------------+--------------------+
++---------+-------------------+--------------------+-------------------+
+|         | Verbund           | kommerzielles BMS  | Open Source BMS   |
++=========+===================+====================+===================+
+| V       | regelmäßige       | regelmäßige        | niedrige          |
+| orteile | P                 | Produktentwicklung | A                 |
+|         | roduktentwicklung |                    | nschaffungskosten |
+|         |                   | einheitlicher      |                   |
+|         | gewisser          | Leistungsumfang    | große             |
+|         | State-of-the-Art  |                    | Anwe              |
+|         | garantiert        | klare              | ndungscommunities |
+|         |                   | Ve                 |                   |
+|         | klare Kosten- und | rantwortlichkeiten | oftmals           |
+|         | Leistungsstruktur |                    | regelmäßige       |
+|         |                   |                    | Produktenwicklung |
+|         | große             |                    |                   |
+|         | An                |                    | viele             |
+|         | wendungscommunity |                    | Dienstleister,    |
+|         |                   |                    | die Services rund |
+|         |                   |                    | um Migration,     |
+|         |                   |                    | Betrieb und       |
+|         |                   |                    | individuelle      |
+|         |                   |                    | Anpassung         |
+|         |                   |                    | anbieten          |
+|         |                   |                    |                   |
+|         |                   |                    | offene            |
+|         |                   |                    | Schnittstellen    |
+|         |                   |                    | und Formate       |
++---------+-------------------+--------------------+-------------------+
+| Na      | begrenzte         | eher geringe       | erfordert eigene  |
+| chteile | individuelle      | individuelle       | IT-Kapazitäten    |
+|         | Anpassung         | Anpassbarkeit      | oder Outsourcing  |
+|         |                   |                    |                   |
+|         | Wartezeiten bei   | relativ hohe und   | Risiko der        |
+|         | individueller     | intransparente     | Sicherung von     |
+|         | Anpassung         | Preise             | Nachhaltigkeit    |
+|         |                   |                    | und               |
+|         |                   | Abhängigkeit bei   | Kompatibilität    |
+|         |                   | der                |                   |
+|         |                   | Weiterentwicklung  |                   |
+|         |                   |                    |                   |
+|         |                   | evtl. Verlust der  |                   |
+|         |                   | Datenhoheit        |                   |
+|         |                   |                    |                   |
+|         |                   | z.T. proprietäre   |                   |
+|         |                   | (hers              |                   |
+|         |                   | tellerspezifische) |                   |
+|         |                   | Systeme und        |                   |
+|         |                   | Schnittstellen     |                   |
++---------+-------------------+--------------------+-------------------+
 
 Verbünde bieten in der Regel ein oder zwei Lösungen an, die entweder
 kommerziell oder Open Source sind. Die Mitgliedschaft in Verbünden kann
@@ -992,7 +1015,7 @@ Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt
 wird.
 
 [![Beispiel einer
-BPMN-Prozessabbildung](media/rId70.shtml "Quelle: Stkl (CC-BY-SA 3.0)"){width="4.166666666666667in"
+BPMN-Prozessabbildung](media/rId77.shtml "Quelle: Stkl (CC-BY-SA 3.0)"){width="4.166666666666667in"
 height="2.7777777777777777in"}](https://commons.wikimedia.org/wiki/File:BPMN-1.svg)
 
 Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung
@@ -1007,31 +1030,32 @@ dieser geprüft werden können. Hierbei könnten sich Notwendigkeiten für
 Änderungen in den Prozessabläufen der Bibliothek ergeben, die auf Basis
 der Beschreibungen genauer adressiert werden können.
 
-### Nutzende
+### Nutzer\*innen
 
-Als Nutzende werden in diesem Kapitel diejenigen Menschen bezeichnet,
-die mit einem BMS interagieren. Man unterscheidet zwischen den
-Bibliotheksbeschäftigten, die mit dem Modulen Ausleihe, Erwerbung,
-Katalogisierung, ERM etc. interagieren, und den Bibliotheksnutzenden
-(oft auch als Leser\*innen bezeichnet), die mit dem BMS über das Modul
-OPAC oder nur indirekt über ein Discovery-System oder ein anderes
-Drittsystem mit dem BMS in Kontakt kommen.
+Als Nutzer\*innen werden in diesem Kapitel diejenigen Menschen
+bezeichnet, die mit einem BMS interagieren. Man unterscheidet zwischen
+den Bibliotheksbeschäftigten, die mit dem Modulen Ausleihe, Erwerbung,
+Katalogisierung, *ERM* etc. interagieren, und den
+Bibliotheksnutzer\*innen (oft auch als Leser\*innen bezeichnet), die mit
+dem BMS über das Modul OPAC oder nur indirekt über ein Discovery-System
+oder ein anderes Drittsystem mit dem BMS in Kontakt kommen.
 
 ### User-Interfaces für verschiedene BMS-Anwender\*innen
 
-Die Bibliotheksbeschäftigten und die Bibliotheksnutzenden haben
+Die Bibliotheksbeschäftigten und die Bibliotheksnuter\*innen haben
 verschiedene Sichtweisen auf ein BMS. Bibliotheksbeschäftigte müssen
 über das User-Interface bei ihrer Arbeit spezifisch durch die Workflows
 geführt werden. Dabei ist auf eine einheitliche Benutzungsführung und
 Gestaltung der Oberfläche zu achten.
 
-Für die Bibliotheksnutzenden steht die Information über die Dienste der
-Bibliothek, deren Bestand und die Nutzung des Bestandes im Vordergrund.
-Bibliotheksnutzende kommen dabei häufig mit mehreren IT-Systemen in
-Kontakt (BMS- OPAC-Modul, Web-Server, Discovery-System, ...). Daher
-sollte auch hier auf eine einheitliche Oberfläche der eingesetzten
-IT-Systeme geachtet werden, auch bezüglich Accounts und Login, zumindest
-aber auf ein einheitliches Design und eine einheitliche Benutzerführung.
+Für die Bibliotheksnutzer\*innen steht die Information über die Dienste
+der Bibliothek, deren Bestand und die Nutzung des Bestandes im
+Vordergrund. Bibliotheksnutzer\*innen kommen dabei häufig mit mehreren
+IT-Systemen in Kontakt (BMS- OPAC-Modul, Web-Server, Discovery-System,
+...). Daher sollte auch hier auf eine einheitliche Oberfläche der
+eingesetzten IT-Systeme geachtet werden, auch bezüglich Accounts und
+Login, zumindest aber auf ein einheitliches Design und eine einheitliche
+Benutzerführung.
 
 Es ergeben sich daraus die folgenden Anforderungen
 
@@ -1041,9 +1065,9 @@ Es ergeben sich daraus die folgenden Anforderungen
 
 3.  Responsivität
 
-Diese Themen werden auch in den Abschnitten zu \[rechtlichen
-Rahmenbedingungen\] und zu den \[Prinzipien der Gestaltung\]
-angesprochen.
+Diese Themen werden auch in den Abschnitten zu [rechtlichen
+Rahmenbedingungen](#rechtliche-rahmenbedingungen) und im Kapitel zu den
+[Anforderungen an Bibliotheks-IT](#anforderungen) angesprochen.
 
 ### Erwerbung
 
@@ -1166,7 +1190,7 @@ Suchbegriffen bieten. Diese Funktionen sind in den BMS der neuen
 Generation standardmäßig enthalten.
 
 Es entstanden durch den erwähnten Innovationsdruck verschiedene
-Konstrukte, die Daten der Bibliothek den Nutzenden zur Verfügung zu
+Konstrukte, die Daten der Bibliothek den Nutzer\*innen zur Verfügung zu
 stellen:
 
 1.  Klassischer Katalog (OPAC) als Bestandteil des BMS
@@ -1189,11 +1213,11 @@ in der Oberfläche des Discovery-Systems aktuell darzustellen.
 
 Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
 
-1.  Anlegen von Nutzergruppen, Standorten, Medienarten
+1.  Anlegen von Benutzergruppen, Standorten, Medienarten
 
 2.  Abbildung der in den Benutzungsordnungen festgelegten
-    Ausleihbedingungen, z.B. Leihfristen nach Nutzergruppen, Standorten,
-    Medienarten
+    Ausleihbedingungen, z.B. Leihfristen nach Benutzergruppen,
+    Standorten, Medienarten
 
 3.  Verbuchung von Medien (Ausleihe, Rücknahme)
 
@@ -1234,18 +1258,15 @@ Als Automatisierung wird die Möglichkeit bezeichnet, die Geschäftsgänge
 einer Bibliothek mit digitalen Werkzeugen abzubilden und durchführen zu
 können. Dazu sind Maschinen notwendig, die die entsprechenden Funktionen
 anbieten. Das schon recht betagte Standardprotokoll für die
-Kommunikation zwischen BMS und Automat ist
-[SIP2](https://en.wikipedia.org/wiki/Standard_Interchange_Protocol).
-Dieses Protokoll hat den Nachteil, dass es ohne Verschlüsselung
-entwickelt wurde und daher - sofern es sich um ein BMS in der Cloud
-handelt zumindest - über
+Kommunikation zwischen BMS und Automat ist *SIP2*. Dieses Protokoll hat
+den Nachteil, dass es ohne Verschlüsselung entwickelt wurde und daher -
+sofern es sich um ein BMS in der Cloud handelt zumindest - über
 [stunnel](https://en.wikipedia.org/wiki/Stunnel) verschlüsselt getunnelt
 wird. Moderne BMS unterstützen mittlerweile zusätzlich auch allgemeine
-Kommunikationsprotokolle, etwa über
-[REST](https://de.wikipedia.org/wiki/Representational_State_Transfer),
-sodass das Tunneln von Verbindungen nicht mehr nötig ist. Außerdem ist
-man nicht mehr daran gebunden, dass anzubindende Geräte SIP2
-unterstützen, was deutlich mehr Marktalternativen öffnet.
+Kommunikationsprotokolle, etwa über *REST*, sodass das Tunneln von
+Verbindungen nicht mehr nötig ist. Außerdem ist man nicht mehr daran
+gebunden, dass anzubindende Geräte SIP2 unterstützen, was deutlich mehr
+Marktalternativen öffnet.
 
 Nachfolgend werden Automaten für die Selbstbedienung im Bereich der
 Ausleihe dargestellt.
@@ -1269,49 +1290,50 @@ Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.
 
 Bei Nichtvorhandensein einer separaten Rückgabeanlage kann der
 Selbstverbucher / Ausleihautomat auch eine Rückgabefunktion anbieten.
-Zumeist sammeln die Benutzenden die zurückgegebenen Medien unsortiert;
-im Anschluss erfolgt die Sortierung durch das Bibliothekspersonal.
+Zumeist werden die zurückgegebenen Medien unsortiert gesammelt; im
+Anschluss erfolgt die Sortierung durch das Bibliothekspersonal.
 
 Nach der Rückgabe- oder Ausleihverbuchung muss der Selbstverbucher /
 Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei
 der in vielen Bibliotheken auslaufenden EM-Sicherung (elektromagnetisch
 über einen im Medium eingeklebten magnetisierbaren Metallstreifen)
 geschieht dies über die Ansteuerung eines Elektromagneten mit hörbarem
-Feedback an die Nutzenden ("klack"). Bei RFID-Sicherung wird bei
+Feedback an die Nutzer\*innen ("klack"). Bei RFID-Sicherung wird bei
 erfolgter Verbuchung ein Sicherungsbit auf dem RFID-Chip verändert.
 Aufgrund der größeren Geschwindigkeit dieses Vorganges geschieht dies
-ohne Feedback an die Nutzenden.
+ohne Feedback an die Nutzer\*innen.
 
 #### Rückgabeautomat / -sortierung
 
 Ein separater Rückgabeautomat hat zum einen den Vorteil, dass die
 Prozesse Ausleihe und Rückgabe bei starker Nutzung entzerrt werden und
 zum anderen, dass eine Sortierung der zurückgegebenen Medien möglich
-ist. Die Medien werden von den Nutzenden auf ein Förderband gelegt und
-eingezogen (außer Reichweite des Nutzenden). In dieser Position wird der
-Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines der
-beiden erkannt, wird das Medium wieder zurückgegeben. Bei erfolgreicher
-Erkennung und Verbuchung im BMS (und anschließender Aktivierung der
-Buchsicherung) wird im BMS mithilfe der Signatur oder Mediennummer
-erfragt, wie das Medium sortiert werden soll. In den meisten BMS gibt es
-dazu Tabellen, die z.B. über die Anfänge von Signaturen oder anderen
-Kriterien (Bsp: "SN ..." in Wagen 3, "ist vorgemerkt" in den Wagen x)
-arbeiten. Steht das Sortierziel fest, wird das Medium über Förderbänder
-zu dieser Stelle transportiert und abgeworfen. Das Ziel kann ein sog.
-Tray sein, ein oben offener Korb oder Wagen, oft mit einem
-gewichtgesteuerten Boden, damit die Medien nicht allzu tief fallen.
-Alternativ bieten immer mehr Hersteller sog. Ergocarts an, auf die die
-Medien so geschichtet werden, dass sie am Regal Rückenschonend aus einem
-Stapel entnommen und einsortiert werden können.
+ist. Die Medien werden von den Nutzer\*innen auf ein Förderband gelegt
+und eingezogen (außer Reichweite des Nutzer\*innen. In dieser Position
+wird der Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines
+der beiden erkannt, wird das Medium wieder zurückgegeben. Bei
+erfolgreicher Erkennung und Verbuchung im BMS (und anschließender
+Aktivierung der Buchsicherung) wird im BMS mithilfe der Signatur oder
+Mediennummer erfragt, wie das Medium sortiert werden soll. In den
+meisten BMS gibt es dazu Tabellen, die z.B. über die Anfänge von
+Signaturen oder anderen Kriterien (Bsp: "SN ..." in Wagen 3, "ist
+vorgemerkt" in den Wagen x) arbeiten. Steht das Sortierziel fest, wird
+das Medium über Förderbänder zu dieser Stelle transportiert und
+abgeworfen. Das Ziel kann ein sog. Tray sein, ein oben offener Korb oder
+Wagen, oft mit einem gewichtgesteuerten Boden, damit die Medien nicht
+allzu tief fallen. Alternativ bieten immer mehr Hersteller sog.
+Ergocarts an, auf die die Medien so geschichtet werden, dass sie am
+Regal Rückenschonend aus einem Stapel entnommen und einsortiert werden
+können.
 
 Üblicherweise gibt es am Rückgabeautomaten keine Authentifizierung.
 
 Es gibt auch Rückgabeautomaten, die eine erneute Ausleihe des gerade
-zurückgegebenen Werkes an den gleichen Bibliotheksnutzenden ermöglichen.
-Dies ist in den Fällen sinnvoll, wenn die maximale Leihfrist / maximal
-mögliche Verlängerungen der Leihfrist erreicht ist und der
-Bibliotheksnutzende das Buch weiter nutzen möchte und das Medium nicht
-anderweitig bestellt ist.
+zurückgegebenen Werkes an den/ie gleiche Bibliotheksnutzer/in
+ermöglichen. Dies ist in den Fällen sinnvoll, wenn die maximale
+Leihfrist / maximal mögliche Verlängerungen der Leihfrist erreicht ist
+und den/die Bibliotheksnutzer/in das Buch weiter nutzen möchte und das
+Medium nicht anderweitig bestellt ist.
 
 #### Kassenautomat
 
@@ -1324,15 +1346,15 @@ Bargeld aufwändig und teuer ist.
 
 #### Fernleihautomat
 
-Aus einem Fernleihautomat können Fernleihen personalfrei an Nutzende
-ausgegeben werden. Da diese Bücher weder mit dem eigenen System der
-Bibliothek gesichert noch verbuchbar sind, muss eine separate Verbuchung
-durchgeführt werden. Die Nutzenden bekommen eine Nachricht, dass ihr
-bestelltes Medium in einem Fach mit der Nummer xy bereit liegt sowie
-eine PIN zur Öffnung dieses Faches. Sobald das Fach geöffnet wird, wird
-das Medium auf das Konto des Nutzenden verbucht. Auch eine Öffnung des
-Faches mit einem funkgesteuerten Nutzungsausweis statt der PIN ist
-möglich.
+Aus einem Fernleihautomat können Fernleihen personalfrei an
+Nutzer\*innen ausgegeben werden. Da diese Bücher weder mit dem eigenen
+System der Bibliothek gesichert noch verbuchbar sind, muss eine separate
+Verbuchung durchgeführt werden. Die Nutzer\*innen bekommen eine
+Nachricht, dass ihr bestelltes Medium in einem Fach mit der Nummer xy
+bereit liegt sowie eine PIN zur Öffnung dieses Faches. Sobald das Fach
+geöffnet wird, wird das Medium auf das Konto des Nutzers/der Nutzerin
+verbucht. Auch eine Öffnung des Faches mit einem funkgesteuerten
+Nutzungsausweis statt der PIN ist möglich.
 
 #### Sicherungsgates
 
@@ -1389,9 +1411,9 @@ werden können.
 
 Eine Schnittstelle (engl. Interface oder manchmal auch API - application
 programming interface) bildet einen definierten Kommunikationsweg
-zwischen Verschiedenen Systemen als \"Gesprächspartner\". Im
+zwischen Verschiedenen Systemen als "Gesprächspartner". Im
 bibliothekarischen Universum gibt es für diese Fälle auch schon viele
-etablierte Austauschformate, etwa SIP2. Ein BMS \"von der Stange\" kann
+etablierte Austauschformate, etwa *SIP2*. Ein BMS "von der Stange" kann
 im Regelfall die üblichen Austauschformate unterstützen, sodass ein
 Austausch zwischen den gängigen Systemen einfach möglich ist. Hierzu
 zählen insbesondere der jeweilige Bibliotheksverbund, etwa zum Austausch
@@ -1433,15 +1455,15 @@ Informationen relevant, etwa um die Ausleihkonditionen der Person
 festlegen zu können. Daher wird in der Kommunikation mit einem IDM im
 Regelfall auch auch gewisser Scope mitgegeben, damit nur die wirklich
 für das konsumierende System relevanten Informationen mitgegeben werden;
-Prinzip \"Datensparsamkeit\".
+Prinzip "Datensparsamkeit".
 
 Ein IDM kann als Identity Provider zu einem Authentifizierungsdienst
 werden. Über diesen Dienst kann man dann unter Umständen ein Single Sign
-On realisieren, bei dem die Daten des Nutzenden nicht mehr an den
+On realisieren, bei dem die Daten der Nutzer\*innen nicht mehr an den
 Service oder Content Provider weitergegeben werden sondern nur noch eine
 Art Ticket, dass eine Erlaubnis regelt. Im Idealfall gilt diese
 einmalige Anmeldung dann für einige/viele Service-/Contentprovider, so
-dass der Nutzende sich nur einmal anmelden muss um viele Dienste zu
+dass der/die Nutzer/in sich nur einmal anmelden muss um viele Dienste zu
 nutzen.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /
@@ -1451,7 +1473,7 @@ SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
 Softwareprodukte für IDM sind: SAP (mit Plugins), Microsoft Active
 Directory, uvm
 
-##### Speicherung von Nutzendenaccounts
+##### Speicherung von Nutzer\*innendenaccounts
 
 Ein Account besteht aus den Kontaktdaten des Menschen sowie
 Authentifizierungsinformationen. Hier ist Datensparsamkeit nach DSGVO
@@ -1472,18 +1494,18 @@ begründet werden.
 Sofern die übergreifende Institution über eine Datenbank zur Speicherung
 der Accounts verfügt ([IDM](#identity-management), Identity Management)
 ist eine Anbindung an diese sinnvoll. Dieses IDM enthält dann allerdings
-nicht notwendigerweise die externen Nutzenden.
+nicht notwendigerweise die externen Nutzer\*innen.
 
 Die technisch einfachste Lösung für Accounts der externen
-Bibliotheksnutzenden ist die Speicherung im IDM der übergeordneten
+Bibliotheksnutzer\*innen ist die Speicherung im IDM der übergeordneten
 Einrichtung, sofern vorhanden. Komplexer ist die Speicherung in einem
 separaten System, da dann bei Autorisierung u.U. mehrere Systeme
 abgefragt werden müssen.
 
 Datenschutzbezogene Vorgehensweisen auch in Bezug auf personenbezogene
-und personenbeziehbare Daten von Nutzenden finden sich in Abschnitt
-[Datenschutz](#datenschutz-user-tracking-analytics) im Kapitel zum
-technischen Betrieb eines BMS.
+und personenbeziehbare Daten von Nutzer\*innen finden sich in Abschnitt
+[Datenschutz](#datenschutz) im Kapitel zum technischen Betrieb eines
+BMS.
 
 #### Bezahlsysteme
 
@@ -1547,7 +1569,7 @@ statistischen Auswertungen erfolgen soll, kann die Entscheidung fallen,
 die aus dem BMS kommenden Daten einfach nur in eine Tabellenkalkulation
 zu exportieren, oder eine speziell auf die statistische Datenanalyse
 zugeschnittene Statistik-Software einzuspielen. Ergo kommen hier
-Softwares wie Excel, BibControl oder gar komplexe Statistik-Plattformen
+Software wie Excel, BibControl oder gar komplexe Statistik-Plattformen
 wie SPSS in Frage. BMS wie ExLibris Alma bringen hierbei schon eigene
 Statistik-Module mit, die eine externe Lösung überflüssig machen.
 
@@ -1557,78 +1579,13 @@ statistische Daten der Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb
 
-Der technische Betrieb eines BMS umfasst die Installation, die
-[lokal](#lokale-installation) oder als [gehostete Variante](#hosting)
-bzw. in der [Cloud](#cloud) erfolgen kann. [Kosten](#kosten) entstehen
-dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für
-den Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte
-der [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und
+Der technische Betrieb eines BMS variiert je nach
+[Betriebsmodell](management.md#betriebsmodelle) (lokale Installation,
+gehostete Variante oder Cloud-Dienst). [Kosten](#kosten) entstehen dabei
+für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den
+Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte der
+[IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und
 [Datenschutz](#datenschutz) zu berücksichtigen.
-
-### Betriebsmodelle für serverbasierte Software
-
-Ein BMS kann auf verschiedene Arten betrieben werden. Die Betriebsarten
-unterscheiden sich bezüglich Installation, Kosten, Pflege und Wartung
-sowie Backup und Support.
-
-#### Lokale Installation
-
-Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
-erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
-oder im Abo, und installierte diese auf eigenen Servern, z.B. im
-Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer
-"on-premise" Installation.
-
-In diesem Modell kümmert sich die Einrichtung selbst um Installation und
-Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und
-kann dazu führen, dass bei einem personellen Engpass eine Software
-länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam
-wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups
-und Ausfallsicherheit selbst Gedanken machen.
-
-Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste
-Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger
-Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig
-von äußeren Einflüssen.
-
-#### Hosting
-
-In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw.
-Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister
-kann hierbei etwa das Rechenzentrum einer Universität oder des
-angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder
-kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten
-erworben werden.
-
-Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der
-eingesetzten Hardware können an diesen Anbieter delegiert werden. Im
-Falle des Hostings durch einen Bibliotheksverbund entfallen
-möglicherweise auch Einrichtung, Installation und Upgrades des BMS. Die
-Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch
-das Hosting für mehrere Einrichtung besser skaliert.
-
-#### Cloud
-
-Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a
-Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim
-Anbieter bzw. Dienstleister des BMS und die Einrichtung nutzt lediglich
-eine Installation/Instanz des BMS. Dies ist insbesondere bei
-webbasierten BMS die bevorzugte Betriebsart, stellt aber erhöhte
-Anforderungen an die Anbindung lokaler Endgeräte (s.a. z.B. auch
-[Automatisierung](#selbstverbucher-ausleihautomaten)), weil dabei eine
-sichere und stabile Verbindung zwischen den lokalen
-Automatisierungsgeräten und dem entfernt gehosteten System hergestellt
-werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten
-Hardware noch für die Pflege der genutzten Software zuständig.
-
-In der Praxis kann sich ein solches Betriebsmodell als komfortabel
-erweisen, da keine Personalressource für allgemeine Tätigkeiten des
-IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden.
-Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
-personalsparend ein BMS einzusetzen. Eine Kostenersparnis ist bei einer
-Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der
-Einrichtung oder basierend auf der Anzahl der Endnutzer\*innen führt ein
-solches Betriebsmodell meist zu Abonnementkosten.
 
 ### Kosten
 
@@ -1706,7 +1663,7 @@ Hierzu müssen die Lizenzbedingungen des Systems geprüft werden.
 Während des laufenden Betriebs ist es wichtig, sich über den aktuellen
 Betriebszustand des Systems ein klares Bild machen zu können. Dieser
 "Statusbericht" kann sich über alle Ebenen des Systems ziehen: Wie viel
-Speicherplatz ist noch frei? Ist das System für alle Nutzenden
+Speicherplatz ist noch frei? Ist das System für alle Nutzer\*innen
 erreichbar? Sind verbundene Systeme verfügbar und betriebsbereit? Je
 nach Betriebsmodell werden diese Fragestellungen durch klassisches
 IT-Monitoring abgedeckt, benötigen teilweise aber auch
@@ -1741,8 +1698,8 @@ sein. In diesem Fall werden die Prozesse mit den Daten abgewickelt, die
 zum Zeitpunkt des Offline-Gangs im System vorhanden waren. Wenn das
 System wieder online geht, muss gewährleistet werden, dass Änderungen an
 den Daten aus der Offlinezeit nachvollzogen werden (Beispiele:
-Ausleihen, Erwerbungen, Rechnungsbearbeitung, Nutzerdatenänderungen). Im
-Idealfall erledigt das die genutzte Komponente oder das BMS selbst.
+Ausleihen, Erwerbungen, Rechnungsbearbeitung, Benutzerdatenänderungen).
+Im Idealfall erledigt das die genutzte Komponente oder das BMS selbst.
 
 Bei lokalen Installationen sollte man je nach Größe der Einrichtung
 ebenfalls über ein Spiegelsystem des BMS nachdenken. Dieses wird
@@ -1755,10 +1712,10 @@ Entwicklungs-Instanzen des BMS zu betreiben. So können neue Funktionen
 schneller umgesetzt werden ohne den laufenden Betrieb durch unerwartete
 Fehler zu gefährden.
 
-Zu beachten ist weiterhin, die Nutzenden des BMS (intern als auch
+Zu beachten ist weiterhin, die Nutzer\*innen des BMS (intern als auch
 extern) bei Problemen zu informieren. Dabei sind vor allem von
 Bedeutung, welche Interaktionen nicht mehr möglich sind, ob es
-alternative Möglichkeiten für die Nutzenden gibt und wann das System
+alternative Möglichkeiten für die Nutzer\*innen gibt und wann das System
 voraussichtlich wieder zur Verfügung steht.
 
 ### IT-Sicherheit
@@ -1801,7 +1758,7 @@ Folgende Aspekte sollten im Rahmen von BMS besondere Beachtung finden:
 
 -   Definition von Backup-Zyklen: wie oft werden welche Daten in welchem
     Umfang auf welche Art gesichert? Es können hier durchaus
-    verschiedene \"Sicherungsaspekte\" mit unterschiedlichen Zyklen
+    verschiedene "Sicherungsaspekte" mit unterschiedlichen Zyklen
     definiert werden.
 
 -   Definition des Umfangs der Sicherung. Sollen die Daten komplett
@@ -1863,8 +1820,7 @@ Im Kontext eines BMS sind die anfallenden personenbezogenen Daten etwa:
 -   durch Nutzer\*innen bei der Anmeldung angegebenen Daten für den
     Bibliothekszugang
 
--   mit dem Nutzer\*innen-Konto verbundene Ausleihvorgänge und
-    Mahnhistorien
+-   mit dem Benutzerkonto verbundene Ausleihvorgänge und Mahnhistorien
 
 -   die Protokolle (Logs) über Online-Zugriffe auf das BMS (z.B.
     IP-Adresse, Seitenaufrufe)
@@ -1935,7 +1891,7 @@ die inzwischen den Bibliotheksmarkt dominieren. Einige von ihnen, die
 Dienste für wissenschaftliche Bibliotheken anbieten, wandeln sich in den
 letzten Jahren zu Data-Analytics-Konzernen. In diesem Zuge präparieren
 sie ihre cloud-basierten BMS-Lösungen mit Trackern, die
-Verhaltensprofile über die Nutzenden erstellen. Durch die ebenfalls
+Verhaltensprofile über die Nutzer\*innen erstellen. Durch die ebenfalls
 seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird
 versucht, zusätzlich eine möglichst hohe Personalisierung bei der
 Erstellung einzelner Profile zu erreichen. Die dabei entstehenden
@@ -1952,8 +1908,8 @@ werden.
 ## Zusammenfassung und Ausblick
 
 Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
-durch die verändernden Bedürfnisse einer Bibliothek und deren Nutzenden
-stetig angepasst werden.
+aufgrund der sich verändernden Bedürfnisse einer Bibliothek und deren
+Nutzer\*innen stetig angepasst werden.
 
 Der Import, Export oder auch die Zusammenführung von Daten erfordert
 klar definierte Metadaten und Schnittstellen für den freien Austausch

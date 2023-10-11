@@ -375,17 +375,16 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
 
 ## Management der Bibliotheks-IT
 
-Die Auswahl und Implementierung sowie der Betrieb von digitalen Diensten
-ist ein stetig wachsender Aufgabenbereich für Bibliotheken. Durch den
-Verlust ihres früheren Monopols auf die Versorgung mit Informationen ist
-Ende der 1990er Jahre in den Bibliotheken ein starker Innovationsdruck
-entstanden. In der Folge wurden neue Dienstleistungen wie fachliche
-Portale, Dokumentenserver etc. im Rahmen von Projekten realisiert. Die
-notwendigen Kenntnisse haben vielerorts eigens dafür eingestellte
-Mitarbeiter\*innen eingebracht. Eine systematische Ausweitung von
-Kenntnissen zu IT-Systemen, Metadatenmanagement, Web-Standards,
-[Usability und User Experience]
-bleibt jedoch für die meisten Bibliotheken eine große Herausforderung.
+Die Auswahl und Implementierung sowie der Betrieb von digitalen Diensten ist
+ein stetig wachsender Aufgabenbereich für Bibliotheken. Durch den Verlust ihres
+früheren Monopols auf die Versorgung mit Informationen ist Ende der 1990er
+Jahre in den Bibliotheken ein starker Innovationsdruck entstanden. In der Folge
+wurden neue Dienstleistungen wie fachliche Portale, Dokumentenserver etc. im
+Rahmen von Projekten realisiert. Die notwendigen Kenntnisse haben vielerorts
+eigens dafür eingestellte Mitarbeiter\*innen eingebracht. Eine systematische
+Ausweitung von Kenntnissen zu IT-Systemen, Metadatenmanagement, Web-Standards,
+Usability und User Experience bleibt jedoch für die meisten Bibliotheken eine
+große Herausforderung.
 
 ### Kompetenzen
 
