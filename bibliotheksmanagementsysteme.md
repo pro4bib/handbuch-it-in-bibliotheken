@@ -11,8 +11,7 @@ Ein Bibliotheksmanagementsystem ist ein IT-System, das die [Kernprozesse](#proze
 :::
 
 ## Einleitung
-Das BMS spielt eine zentrale Rolle für die meisten klassischen
-Geschäftsprozesse in Bibliotheken. 
+Das BMS spielt eine zentrale Rolle für die meisten klassischen Geschäftsprozesse in Bibliotheken. 
 
 :::{.callout-important}
 ## Definition
