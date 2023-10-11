@@ -2,8 +2,6 @@
 description: ...
 ---
 
-{{< include umfrage.md >}}
-
 # Forschungsnahe Dienste {#forschungsnahe-dienste}
 
 ::: {.callout-note}

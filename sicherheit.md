@@ -2,8 +2,6 @@
 description: ...
 ---
 
-{{< include umfrage.md >}}
-
 # Sicherheit & Datenschutz
 
 ::: {.callout-note}
