@@ -2,7 +2,7 @@ Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert.
 Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener
 Form möglich. Voraussetzung ist ein Verständnis des
 [Arbeitsablauf](#arbeitsablauf), Einhaltung des
-[Styleguide](#styleguide) und die freie [Lizensierung](#lizenz) der
+[Styleguide](#styleguide) und die freie [Lizenzierung](#lizenz) der
 eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist
 unter [Technik](#technik) beschrieben.
 
