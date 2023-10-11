@@ -23,7 +23,7 @@ vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in
 
 1.  [Allgemeine Infrastruktur](#allgemeine-infrastruktur-für-bibliotheksprozesse-und--dienste) für den grundlegenden Betrieb von Prozessen und Dienstleistungen in Bibliotheken wie Verbuchung und RFID
 
-2.  [Dienste primär für Nutzerinnen und Nutzer](#dienste-für-nutzerinnen) wie Webseite, Internetzugang und Arbeitsplätze
+2.  [Dienste primär für Nutzer\*innen](#dienste-für-nutzerinnen) wie Webseite, Internetzugang und Arbeitsplätze
 
 3.  [Dienste primär für Mitarbeiter\*innen](#dienste-für-mitarbeiterinnen) wie Intranet und mobiles Arbeiten
 
@@ -49,9 +49,9 @@ vorhanden sein, um die für Medien eingesetzten Identifikationsmerkmale
 schreiben. Außerdem muss eine Kommunikation mit dem BMS stattfinden, um
 darin den entsprechenden Ausleih-, Rückbuchungs-, oder
 Verlängerungsvorgang durchzuführen. Hierzu muss außerdem eine
-Identifikation der Nutzenden erfolgen, also das Einlesen eines Ausweises
+Identifikation der Nutzer\*innen erfolgen, also das Einlesen eines Ausweises
 oder das Anmelden mit gewissen Zugangsdaten und schließlich das
-Eintragen einer Ausleihe. Da es Nutzenden möglich sein sollte, die
+Eintragen einer Ausleihe. Da es Nutzer\*innen möglich sein sollte, die
 Rückgabe von Medien nachweisen zu können, wird bei der Rückgabe mit
 Verbuchung immer eine Quittung erzeugt. Dies erfolgt sowohl an den
 Ausleihtheken als auch bei Rückgabeautomaten. Eine weitere Möglichkeit
@@ -77,7 +77,7 @@ manuelle oder automatisierte Abmeldung.
 einfacheren Fall ist der Ausleihautomat auch gleichzeitig ein
 Rückgabeautomat. Der Anmeldeprozess kann hier entfallen, denn es ist
 grundsätzlich nicht relevant, wer das Medium zurückgibt. Die
-zurückgebrachten Medien werden dann durch die Nutzenden selbst auf einen
+zurückgebrachten Medien werden dann durch die Nutzer\*innen selbst auf einen
 Bücherwagen oder ein separates Regal gestellt und müssen anschließend
 durch das Bibliothekspersonal sortiert und eingestellt werden. Der
 zweite und komplexere Fall eines Rückgabeautomaten ist ein
@@ -96,7 +96,7 @@ der Bibliothek werden Bestellende informiert (z.B. durch eine E-Mail),
 dass in einem Fach x etwas abzuholen sei. In diesem Vorgang kann man den
 Bestellenden auch ein PIN mitteilen, alternativ ist das Fach durch einen
 Bibliotheksausweis elektronisch zu öffnen. Wird das Fach geöffnet, wird
-zeitgleich das Medium im Konto der Nutzenden verbucht.
+zeitgleich das Medium im Nutzerkonto verbucht.
 
 **Kassenautomaten** erlauben die [Bezahlung] von offenen Gebühren oder auch den
 Kauf von Gutscheinen/Tickets für Dienstleistungen, die im Anschluss in Anspruch
@@ -135,7 +135,7 @@ fallen andererseits direkt an (z.B. Verkaufspreise für Dubletten,
 Tragetaschen, ...). Benötigt werden dafür Geräte, die bei Bezahlung den
 Betrag direkt dem System verbuchen können, in dem die Beträge erfasst
 sind, z.B. Kassenautomaten mit Anbindung an das Bibliothekssystem. An
-diesen Automaten können Nutzende sich anmelden, erhalten eine Anzeige
+diesen Automaten können sich Nutzer\*innen anmelden, erhalten eine Anzeige
 von offenen Posten und können sie direkt begleichen. Manche Bibliotheken
 erlauben lediglich die bargeldlose Zahlung, manche ermöglichen (auch)
 die Zahlung mit Bargeld. Unterschiedlich gehandhabt wird auch, ob die
@@ -144,7 +144,7 @@ beglichen werden können. Mit dem Einsatz von Kassenautomaten können
 Bezahlvorgänge unabhängig von anwesendem Personal ermöglicht werden.
 
 Auch die Verbindung eines Bezahlterminals mit einem Ausleihautomaten ist
-möglich. Hier sind dann alle Prozesse für den Nutzenden an einem Gerät
+möglich. Hier sind dann alle Prozesse für die Nutzer\*innen an einem Gerät
 abwickelbar. Es sind Ausleihautomaten am Markt, die bargeldlose
 Bezahlung mit verschiedenen Bezahlssystmene (spezielle Debit-Karten,
 ec-Karten\...) und/oder Bargeldzahlungen ermöglichen.
@@ -158,7 +158,7 @@ Eine Zugangskontrolle zur Bibliothek ist relevant, wenn Nutzer\*innen die
 Bibliothek oder Teile davon auch ohne Anwesenheit von Bibliothekspersonal vor
 Ort nutzen können sollen ([Open Library]). Im Regelfall sieht eine technische
 Umsetzung der Zugangskontrolle so aus, dass das Schließsystem des Gebäudes an
-das Identifikationssystem für die Nutzenden angebunden ist. Dies lässt sich
+das Identifikationssystem für die Nutzer\*innen angebunden ist. Dies lässt sich
 beispielsweise mit Kartenlesegeräten am Eingang oder mit einem RFID-Terminal
 lösen, welches die Bibliotheksausweise einlesen und dem Schließsystem nach
 festgelegten Regeln mitteilen kann, ob die betreffende Person zur Nutzung der
@@ -169,8 +169,8 @@ Datenschutz protokolliert werden.
 
 Die Ermittlung der Auslastung einer Einrichtung ist aus verschiedenen Gründen
 interessant: für statistische Zwecke, für eine Anzeige auf der Webseite als
-Service für Nutzende oder für den Ernstfall, wenn es relevant ist, die
-(ungefähre) Anzahl der im Gebäude Anwesenden zu erfahren.
+Service für Nutzer\*innen oder wenn für einen Notfall wichtig ist  die
+ungefähre Anzahl der im Gebäude Anwesenden zu erfahren.
 
 Bei der Auswahl einer geeigneten Lösung muss zuerst festgelegt werden, ob eine
 exakte Zählung nötig ist, oder eine Approximation der Anwesenheitszahlen
@@ -186,14 +186,14 @@ durch eine Lichtschranke, durch ein Radar etwa von einem Sicherungsgate (siehe
 montiert (bspw.  Produkte der Firma [Irisys](https://www.irisys.net/)).
 
 Bei allen exakten Zählsystemen ist insbesondere die Frage des Datenschutzes zu
-beachten, da aus der Zählung die Nachverfolgung der Nutzenden nicht abgeleitet
+beachten, da aus der Zählung die Nachverfolgung der Nutzer\*innen nicht abgeleitet
 werden darf. Aus Datenschutzgründen ist auch der Einsatz von aufzeichnenden
 (Kamera-)Systemen im öffentlichen Raum immer sorgfältig abzuwägen.
 
 Für die approximative Auslastungszählung eignen sich neben anonymisierten
 Varianten der o.g. Möglichkeiten insbesondere auch die Auslastungsmessung von
 anderen Infrastruktursystemen, etwa dem öffentlich WLAN. Wenn davon ausgegangen
-werden kann, dass ein:e Nutzende:r (im Durchschnitt) ein Gerät im öffentlichen
+werden kann, dass ein\*e Nutzer\*in (im Durchschnitt) ein Gerät im öffentlichen
 WLAN anmeldet, dann kann dies als guter Indikator dienen. Sollen die Zahlen der
 im WLAN angemeldeten Geräte zur Messung der Auslastung eines Gebäudes dienen,
 sind allerdings umfangreiche Justierungen notwendig. So zeigte sich z.B.  an
@@ -209,7 +209,7 @@ Tischplatten experimentiert.
 
 Die Vor-Ort-Verlängerung ist ein Angebot der Bibliothek für Mitarbeiter*innen der
 zugehörigen Institution, also z.B. der Hochschule oder der Verwaltung. Hierbei
-wird der ausgeliehene Bestand nicht in der Bibliothek, sondern beim Nutzenden
+wird der ausgeliehene Bestand nicht in der Bibliothek, sondern bei Nutzer\*innen
 vor Ort, also im Büro, im Labor etc.  erfasst und die entsprechenden
 Leihfristen verlängert. Technische Hilfsmittel wie RFID und an das BMS
 angebundene Schnittstellen erleichtern diesen Prozess.
@@ -228,27 +228,26 @@ durchgehenden Zugang, andere Bibliotheken nutzen die Möglichkeiten, um ihre
 Zugang erhalten in diesen Fällen ausschließlich autorisierte Benutzer\*innen
 innerhalb und außerhalb der Öffnungszeiten der Bibliothek. In den
 Eingangsbereichen wird über Lesegeräte die Zugangsberechtigung geprüft.
-Ergänzung: Hier kann es Altersbeschränkungen geben und auch ein gesperrter
+Hier kann es Altersbeschränkungen geben und auch ein gesperrter
 Bibliotheksausweis gewährt keinen Einlass.
 
 Buchsicherungsanlagen dienen dem Diebstahlschutz von gesicherten Medien und
 speichern Vorfälle per Video oder verständigen einen Wachdienst.  Vorgemerkte
 Medien liegen in Vormerkregalen, teilweise auch sogenannten intelligenten
-Abholregalen oder Automaten bereit. Da das Medium auf eine:n Nutzende:n
+Abholregalen oder Automaten bereit. Da das Medium auf ein\*e Nutzer\*in
 vorgemerkt ist, kann es nur von diesen ausgeliehen werden.
 
 Eine Ausleihe erfolgt durch die Benutzung der Ausleihautomaten.  Ausleihregeln
 sind im Bibliotheksmanagementsystem hinterlegt, werden bei der Verbuchung über
 den Automaten geprüft und das Medium entsprechend entsichert.
 
-Die Open Library ermöglicht zwar den Zugang zu allen Medien, es wird ggf. immer
-Medien (öffentliche Bibliotheken) geben, die von der Selbstausleihe
-ausgeschlossen sind, z.B. Brettspiele und Medien, die über 5 kg wiegen,
-Tageszeitungen.....
+Die Open Library ermöglicht zwar grundsätzlich den Zugang zu allen Medien, aber
+es gibt auch immer Teile des Bestands, die von der Selbstausleihe
+ausgeschlossen sind, z.B. Brettspiele, Tageszeitungen und [ausleihbare Geräte](#ausleihbare-geräte).
 
 ### Navigation und Lokalisierung
 
-Damit Nutzende die im OPAC bzw. Discovery-System gefundenen (physischen) Medien
+Damit Nutzer\*innen die im OPAC bzw. Discovery-System gefundenen (physischen) Medien
 auch nutzen können, müssen sie den entsprechenden Regalstandort aufsuchen. Zur
 Orientierung wird häufig die Aufstellungssystematik der Medien genutzt und im
 Rechercheergebnis steht, unter welcher Signatur, in welchem Regal, in welcher
@@ -268,14 +267,14 @@ vorhanden sein. Anhand der Karte können sich Nutzer\*innen dann zum Buch
 bewegen.
 
 Technisch komplexer ist es nun, wenn eine solche Karte nicht nur den Standort
-des Buches, sondern gleichzeitig auch den aktuellen Live-Standort des Nutzenden
+des Buches, sondern gleichzeitig auch den aktuellen Live-Standort des/der Nutzer*in
 visualisieren soll. In einem solchen Fall, der etwa einer Google-Maps Karte
 gleicht, muss zusätzlich technischer Aufwand betrieben werden, um den aktuellen
 Nutzerstandort zu ermitteln.  Im Gegensatz zu Karten und Navigationslösungen in
 Automobilen oder unterwegs mit dem Smartphone, kann allerdings innerhalb von
 Gebäuden nicht auf GPS-Satelliten zur Positionsbestimmung zurückgegriffen
 werden, sondern es müssen andere Signale oder Ortungspunkte genutzt werden, um
-den Standort des Nutzenden im Raum zu ermitteln.
+den Standort der Person im Raum zu ermitteln.
 
 Mögliche Ansätze sind hierbei etwa sog. Beacons, die mit Funklösungen wie
 Bluetooth und Triangulation die Position eines Mobiltelefons ermitteln, oder
@@ -292,9 +291,9 @@ einem bestimmten Thema abbilden, man sollte über die benachbarten Bücher einen
 auftauchen, stellt sich die Frage nach der Aufstellung von gedruckten Medien in
 den Lesesälen neu. Eine Alternative zur systematischen Aufstellung kann die
 dynamische Aufstellung sein. So kann man z.B. ohne Umsignierungen temporäre
-Sammlungen bilden. Man kann darüber nachdenken, ob man die Nutzenden
-ausgeliehene Bücher selbst zurückgeben lässt, indem sie sie einfach an einen
-freien Platz im Regal stellen. Man kann die Nutzenden die früher so ungeliebten
+Sammlungen bilden. Man kann darüber nachdenken, ob die Nutzer\*innen
+ausgeliehene Bücher selbst zurückgeben können, indem sie sie einfach an einen
+freien Platz im Regal stellen. Man kann die Nutzer\*innen die früher so ungeliebten
 "Nester", also die Konzentration von Büchern an einer beliebigen nicht
 systematischen Stelle, bilden lassen, so dass vielleicht auch andere von dieser
 "eigenen" Systematik profitieren. Dies bedingt natürlich eine technische
@@ -304,7 +303,7 @@ irgendwie geortet werden können (siehe auch der Abschnitt [Revision]).
 ### Sortiersysteme
 
 Medien-Sortieranlagen sind in der Regel direkt an den Rückgabeautomaten
-angeschlossen. Nutzenden legen Medien in einen Schacht, in dem die Medien
+angeschlossen. Nutzer\*innen legen Medien in einen Schacht, in dem die Medien
 erfasst, zurückgebucht und gleichzeitig gesichert werden.  Fließbänder oder
 Rollen transportieren das Medium entsprechend vorher definierte Ziele, z.B.
 bestimmte Signaturbereiche, andere Zweigstellen oder vorgemerkte Medien.
@@ -631,7 +630,7 @@ Koordinate für den Aufenthaltsort eines RFID-UHF-Tags in einem kugelförmigen
 Wahrscheinlichkeitsraum mit einem Meter Durchmesser zu betrachten ist -- sprich,
 man muss das Buch im Umkreis von einem Meter von der Ortsangabe suchen. Das ist
 für eine Stellrevision zwar besser als gar keine Angabe, genügt aber noch
-nicht, um Nutzende mit diesen Informationen genau zum Buch zu leiten. Auf
+nicht, um Nutzer\*innen mit diesen Informationen genau zum Buch zu leiten. Auf
 diesem Gebiet wird weiterentwickelt, unter Laborbedingungen wurde bereits eine
 Ortungsgenauigkeit von unter 10 cm erreicht.
 
@@ -649,7 +648,7 @@ Fragen:
 In den letzten Abschnitten schon angeklungen ist der Unterschied von HF und UHF,
 wodurch sich in den meisten Fällen die Frage der Technologiewahl als erste
 stellt. Als Faustregel kann hier festgestellt werden, dass die schon
-langjährige verbreitung von HF im DACH-Raum dazu geführt hat, dass einige
+langjährige Verbreitung von HF im DACH-Raum dazu geführt hat, dass einige
 Anbieter mit Standardlösungen am Markt sind und für die meisten Anwendungsfälle
 abgedeckt sind, inkl. dem Migrationspfad von Barcodes.
 
@@ -695,7 +694,7 @@ Sie enthält heute drei Teile mit folgendem Inhalt: ISO 28560-1 enthält eine
 Beschreibung vielfältiger, für Bibliotheken denkbarer Datenfelder. Dies sind
 neben der Mediennummer auch der Titel von Büchern und weitere Daten, welche
 eventuell offline verfügbar auf dem Chip sein sollten. Aus den Elementen kann
-für jedes Land ein "Profi"« zusammengestellt werden. ISO 28560 Teil 2 basiert
+für jedes Land ein "Profil"« zusammengestellt werden. ISO 28560 Teil 2 basiert
 wiederum auf ISO 15962 und den oben genannten OIDs. Er wird in den
 angelsächsischen Ländern stark propagiert. In diesen Ländern sind bisher
 vorwiegend proprietäre Datenmodelle im Einsatz, das Dänische Modell kaum
@@ -841,7 +840,7 @@ Bei der Einführung von RFID werden häufig Diskussionen zum Thema
 Datenschutz geführt. Wenn allerdings die Tags lediglich mit einer nur
 intern bekannten ID beschrieben werden, also einer ID, die nicht
 öffentlich im Katalog des BMS einsehbar ist, besteht diese Gefahr nicht.
-Selbst wenn jemand Medien im Rucksack eines Nutzenden scannen würde (was
+Selbst wenn jemand Medien im Rucksack eine*r Nutzer\*in scannen würde (was
 technisch nicht unaufwändig ist), könnte man daraus keine Rückschlüsse
 auf das betreffende Medium schließen.
 
@@ -890,8 +889,8 @@ Funkwellen durchdrungen werden können, zumindest aber von der Seite, an der das
 Tag aufgebracht wurde.
 
 Gleichzeitig bedeutet das auch, dass RFID-Tags durch das Vorhandensein von
-Wasser, also Menschen, ebenfalls abgeschirmt werden können. Eine 100%ige
-Erkennung in einem Sicherheitsgate ist somit unrealistisch..
+Wasser, also Menschen, ebenfalls abgeschirmt werden können. Eine hunderprozentige
+Erkennungsrate in einem Sicherheitsgate ist somit unrealistisch.
 
 RFID-Transpoder sind natürlich nicht geeignet für Medien, bei denen eine
 Unwucht störend ist (Schallplatten, CDs), sie sollten dabei auf der Außenhülle
@@ -952,7 +951,7 @@ insofern immer teurer.
 ### Website, Landingpages und Newsletter
 
 Eine Internetpräsenz ist für eine öffentliche Einrichtung mittlerweile
-unabdingbar und dient vielen Nutzenden als Erstkontaktmöglichkeit,
+unabdingbar und dient vielen Nutzer\*innen als Erstkontaktmöglichkeit,
 Arbeitsmittel und Informtionsplattform gleichermaßen.
 
 Eine technische Basis für eine Onlinepräsenz wird manchmal von hiesigen
@@ -1036,7 +1035,7 @@ angemessene Informationstechnik. Wesentlich sind zunächst ein stabiler
 Internetzugang und Steckdosen. Ausstattung, Verwaltung und Unterhalt von
 Räumen mit Technik ist insbesondere für öffentliche Bibliotheken
 ressourcen- und kostenintensiv. Entsprechend sollten sich Bibliotheken
-an der tatsächlichen Nachfrage ihrer Nutzenden orientieren und nur die
+an der tatsächlichen Nachfrage ihrer Nutzer\*innen orientieren und nur die
 Technik anschaffen, die sie selbst verwalten können.
 
 Es gibt auch einige Bibliotheken, die in ihren öffentlichen
@@ -1062,19 +1061,19 @@ Dienstleistungen genutzt werden.
 ### Öffentliche PC-Arbeitsplätze
 
 Sowohl wissenschaftliche als auch öffentliche Bibliotheken bieten
-PC-Arbeitsplätze für ihre Nutzenden an. Auch wenn der Trend zu eigenen
+PC-Arbeitsplätze für ihre Nutzer\*innen an. Auch wenn der Trend zu eigenen
 Geräten geht, bleiben die Nutzungszahlen bei den PC-Arbeitsplätzen
 besonders in öffentlichen Bibliotheken stabil.
 
 Dienste wie die Nutzung des Internets und Textverarbeitung mit oder ohne
 Gebühren sind die häufigsten Einsatzzwecke für PC-Arbeitsplätze und
 sollten weiterhin niedrigschwellig angeboten werden. Die
-Gebührenabrechnung für angemeldete Nutzende erfolgt über
+Gebührenabrechnung für angemeldete Nutzer\*innen erfolgt über
 [Bezahlsysteme](#), die an das Bibliotheksmanagementsystem
 angegliedert sind. Geräte mit Münz- oder Kartenzahlung bieten außerdem
 die Möglichkeit, diese auch ohne Bibliotheksmitgliedschaft zu nutzen.
 
-In der Regel stehen PC-Arbeitsplätze angemeldeten Nutzenden zur
+In der Regel stehen PC-Arbeitsplätze angemeldeten Nutzer\*innen zur
 Verfügung. Anhand der Benutzergruppe können altersbedingte
 Einschränkungen vorgenommen werden. So müssen Eltern z.B. der
 Internetnutzung von minderjährigen Kindern zustimmen.
@@ -1087,9 +1086,9 @@ hingegen ist nicht empfohlen, da keinesfalls alle bedenklichen Seiten
 bekannt sein können.
 
 Auch der Datenschutz spielt im öffentlichen Bereich eine große Rolle.
-PCs müssen so konfiguriert werden, dass Nutzende ausschließlich ihre
+PCs müssen so konfiguriert werden, dass Nutzer\*innen ausschließlich ihre
 eigenen Dateien sehen und keinen Zugriff auf Dateien von anderen
-Nutzenden erhalten. Dies wird z.B. durch persönliche Nutzerprofile
+Personen erhalten. Dies wird z.B. durch persönliche Nutzerprofile
 (gebunden an das Benutzerkonto) oder systemseitige Rücksetzung aller
 Einstellungen (Gastzugänge) erreicht. Zum Betrieb solcher "Kiosksysteme"
 gibt es entsprechende Software. Auch der Einsatz von Thin-Clients ist in
@@ -1111,7 +1110,7 @@ Studium und Lehre könnte das Ausdrucken auf Papier reduziert oder gar nicht
 angeboten werden und stattdessen das Einscannen auf Datenträger oder
 Speichersysteme befördert werden.
 
-Um Nutzenden das Digitalisieren von Medien zu ermöglichen, kann eine
+Um Nutzer\*innen das Digitalisieren von Medien zu ermöglichen, kann eine
 Bibliothek Scanner zur Verfügung stellen. Im einfachsten Fall sind das
 Multifunktionsgeräte (MFGs), die sowohl Kopier- als auch Scan- und
 Druckfunktionen anbieten. Meistens sind Druck- und Kopierfunktionen
@@ -1130,11 +1129,21 @@ können.
 
 Das Digitalisat kann in der Regel auf einem USB-Stick gespeichert
 werden. Komfortabler sind eine Netzwerkverbindung und eine
-Anmeldemöglichkeit des Nutzenden. Alternativ kann auch die Eingabe einer
+Anmeldemöglichkeit für Nutzer\*innen. Alternativ kann auch die Eingabe einer
 Mailadresse mit anschließendem Versand eines Links auf das Dokument
 angeboten werden. Das Digitalisat selbst per E-Mail zu verschicken ist
 i.d.R. aufgrund der Dateigröße nicht möglich.
 
+### Ausleihbare Geräte
+
+Als "Bibliothek der Dinge" wird die Möglichkeit bezeichnet, in Bibliotheken
+auch Gegenstände wie Werkzeuge, Sportgeräte und Musikinstrumente ausleihen zu können.
+Für die Ausleihe von Kunstwerken oder Spielen sind auch die Begriffe "Artothek"
+bzw. "Ludothek" üblich. Für diese Gegenstände ist in der Regel eine besondere
+Form der [Mediensicherung](#mediensicherung) notwendig. Für die Ausgabe von
+Tablets gibt es beispielsweise spezielle Automaten. Durch Verbindung mit dem
+Bibliotheksmanagementsystem ist es auch möglich, die Freigabe an ein Mindestalter
+zu knüpfen und verschiedene Profile auf den Tablets anzulegen.
 
 ### Makerspace
 
@@ -1179,7 +1188,7 @@ steht (z.B. über einscannbare QR-Codes).
 
 Eine vollständige Nutzung der Dienstleistungen der Bibliothek ist nur dann
 möglich, wenn man sich auch digital anmelden kann. Es sollte also eine Form
-eines digitalen Ausweises geben, Nutzendenname/Passwort im einfachsten Fall,
+eines digitalen Ausweises geben, Accountname/Passwort im einfachsten Fall,
 komplett digitaler Ausweis über die App im besten Fall.
 
 Wildau als Beispiel mit UNIDOS hat eine Integration des Bibliothekskontos, mit
@@ -1192,11 +1201,11 @@ ermöglicht werden.
 
 Technische Beratung erfolgt oft in dem Umfang, der für lokale
 Bibliotheksdienste sinnvoll ist. Bietet eine Bibliothek z.B. die Onleihe als
-Dienst an, werden sich Nutzende bei Fragen direkt an die Bibliothek wenden und
+Dienst an, werden sich Nutzer\*innen bei Fragen direkt an die Bibliothek wenden und
 nicht an den Dienstleister.
 
 Somit müssen sich auch die Mitarbeiter\*innen in der Bibliothek stetig fortbilden,
-um ihren Nutzenden einen guten Service zu bieten.
+um ihren Nutzer\*innen einen guten Service zu bieten.
 
 Beispiele:
 

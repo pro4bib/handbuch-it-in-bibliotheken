@@ -51,13 +51,13 @@ Kapitel bilden grob zwei Blöcke:
 
 - [Sicherheit & Datenschutz](sicherheit.md): *dieses Kapitel ist noch nicht fertig gestellt*
  
-- [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor.
+- [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
  
 ### Bibliothekspezifische Dienste
  
 - [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Informationssysteme für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
  
-- [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen.
+- [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
  
 - [Digitalisierung](digitalisierung.md) umfasst Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
  
