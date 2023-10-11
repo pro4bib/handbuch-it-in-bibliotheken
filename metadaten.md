@@ -627,7 +627,7 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   *Search/Retrieve via URL* (**SRU**) mit der zugehörigen
   Abfragesprache *Contextual Query Language* (**CQL**).
 
-- Das *Open Archives Initiative Protocol for Metadata Harvesting*
+- Das *[Open Archives Initiative Protocol for Metadata Harvesting](https://www.openarchives.org/pmh/)*
   (**OAI-PMH**) dient dem Abruf von Metadaten aus Repositorien. Die
   Daten können nach Datum und Teilmengen gefiltert werden.
 
@@ -638,16 +638,16 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   Fernleihservern und zur Anbindung von Verbuchungsautomaten
   eingesetzt [@Michaelis2014].
 
-- Die *Patrons Account Information API* (**PAIA**) ist eine offene
+- Die *[Patrons Account Information API](https://gbv.github.io/paia/)* (**PAIA**) ist eine offene
   Schnittstelle zum Zugriff auf Ausleihkonten.
 
-- Die *Document Availability Information API* (**DAIA**) ist eine
+- Die *[Document Availability Information API](https://gbv.github.io/daia/)* (**DAIA**) ist eine
   offene Schnittstelle zur Abfrage der Verfügbarkeit von Medien.
 
 - Mit **unAPI** können einzelne Datensätze in verschiedenen Formaten abgerufen
   werden.
 
-- Die **Reconciliation Service API** ermöglicht den Abgleich mit
+- Die **[Reconciliation Service API](https://reconciliation-api.github.io/specs/draft/)** ermöglicht den Abgleich mit
   Normdaten zur eindeutigen Referenzierung (siehe Abschnitt
   [Identifikatoren und Normdaten](#identifikatoren-und-normdaten)).
 
