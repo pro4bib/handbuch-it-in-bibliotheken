@@ -7,12 +7,13 @@
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:40;stroke-miterlimit:10;}
 	.st3{fill:none;}
-	.st4{font-family:"Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}
+	.st4{font-family:'SourceSansPro-Regular';}
 	.st5{font-size:40px;}
 	.st6{fill:#2780E3;}
 	.st7{fill:none;stroke:#2780E3;stroke-width:62;stroke-miterlimit:10;}
 	.st8{fill:#2780E3;stroke:#2780E3;stroke-width:38;stroke-miterlimit:10;}
 	.st9{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st10{font-family:'MyriadPro-Regular';}
 </style>
 <g id="Ebene_1" class="st0">
 	
@@ -2171,18 +2172,18 @@ TfgrIPJq4wAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -1.6865 -174.2665)">
 		<path class="st1" d="M302.8-66.09"/>
 	</g>
 	<path class="st2" d="M302.8-96.59"/>
-	<rect x="162.78" y="160.39" class="st3" width="343.34" height="55.11"/>
-	<text transform="matrix(1 0 0 1 162.7784 188.8693)" class="st4 st5">System-Epoche</text>
-	<rect x="241.39" y="291.57" class="st3" width="455.49" height="55.11"/>
-	<text transform="matrix(1 0 0 1 241.3873 320.0526)" class="st4 st5">Epoche der Funktionalität</text>
-	<rect x="440.76" y="425.42" class="st3" width="537.03" height="57"/>
-	<text transform="matrix(1 0 0 1 440.7638 453.9009)" class="st4 st5">Nutzer*innen-Fokus-Epoche</text>
-	<rect x="613.77" y="543.04" class="st3" width="731.63" height="64.2"/>
-	<text transform="matrix(1 0 0 1 613.7671 571.5172)" class="st4 st5">Verbreiterung der Informationsressourcen</text>
-	<rect x="928.76" y="694.25" class="st3" width="458.49" height="54.98"/>
-	<text transform="matrix(1 0 0 1 928.7553 722.7295)" class="st4 st5">Discovery-System-Epoche</text>
-	<rect x="992.14" y="788.91" class="st3" width="458.49" height="54.98"/>
-	<text transform="matrix(1 0 0 1 992.138 817.3844)" class="st4 st5">Wissensinnovation</text>
+	<rect x="152.78" y="160.39" class="st3" width="343.34" height="55.11"/>
+	<text transform="matrix(1 0 0 1 235.4834 188.8693)" class="st4 st5">System-Epoche</text>
+	<rect x="218.39" y="291.57" class="st3" width="455.49" height="55.11"/>
+	<text transform="matrix(1 0 0 1 239.3268 320.0526)" class="st4 st5">Epoche der Funktionalität</text>
+	<rect x="378.76" y="425.42" class="st3" width="537.03" height="57"/>
+	<text transform="matrix(1 0 0 1 442.3263 453.9009)" class="st4 st5">Nutzer*innen-Fokus-Epoche</text>
+	<rect x="589.77" y="543.04" class="st3" width="731.63" height="64.2"/>
+	<text transform="matrix(1 0 0 1 616.7324 571.5172)" class="st4 st5">Verbreiterung der Informationsressourcen</text>
+	<rect x="901.76" y="694.25" class="st3" width="458.49" height="54.98"/>
+	<text transform="matrix(1 0 0 1 924.7778 722.7295)" class="st4 st5">Discovery-System-Epoche</text>
+	<rect x="844.14" y="788.91" class="st3" width="458.49" height="54.98"/>
+	<text transform="matrix(1 0 0 1 988.117 817.3844)" class="st4 st5">Wissensinnovation</text>
 	<g>
 		<path class="st6" d="M1319.27,803.83c144.56,0,144.56,0,144.56,0"/>
 		<g>
@@ -2231,8 +2232,6 @@ TfgrIPJq4wAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -1.6865 -174.2665)">
 	<g>
 		<path d="M36.83,897.86"/>
 	</g>
-	<rect x="56.68" y="927.53" class="st3" width="154.65" height="39.78"/>
-	<text transform="matrix(1 0 0 1 56.6752 956.0139)" class="st4 st5">1950er</text>
 	<g>
 		<path class="st6" d="M57.16,107.84c530.26,0,530.26,0,530.26,0"/>
 		<g>
@@ -2255,17 +2254,19 @@ TfgrIPJq4wAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -1.6865 -174.2665)">
 			</g>
 		</g>
 	</g>
-	<rect x="265.95" y="927.97" class="st3" width="194.26" height="67.76"/>
-	<text transform="matrix(1 0 0 1 265.9536 956.4501)" class="st4 st5">1960er</text>
-	<rect x="475.28" y="927.85" class="st3" width="194.26" height="67.76"/>
-	<text transform="matrix(1 0 0 1 475.28 956.3264)" class="st4 st5">1970er</text>
-	<rect x="684.66" y="927.85" class="st3" width="194.26" height="67.76"/>
-	<text transform="matrix(1 0 0 1 684.656 956.3264)" class="st4 st5">1980er</text>
-	<rect x="893.79" y="927.53" class="st3" width="194.26" height="67.76"/>
-	<text transform="matrix(1 0 0 1 893.7895 956.0139)" class="st4 st5">1990er</text>
-	<rect x="1103.23" y="927.28" class="st3" width="194.26" height="67.76"/>
-	<text transform="matrix(1 0 0 1 1103.2317 955.7617)" class="st4 st5">2000er</text>
-	<rect x="1312.17" y="927.28" class="st3" width="194.26" height="67.76"/>
-	<text transform="matrix(1 0 0 1 1312.1724 955.7617)" class="st4 st5">2010er</text>
+	<rect x="20.57" y="926.54" class="st3" width="182.96" height="72.28"/>
+	<text transform="matrix(1 0 0 1 54.4549 954.9415)" class="st10 st5">1950er</text>
+	<rect x="1279.07" y="927.6" class="st3" width="182.96" height="72.28"/>
+	<text transform="matrix(1 0 0 1 1312.9512 956.0007)" class="st10 st5">2010er</text>
+	<rect x="1067.15" y="928.84" class="st3" width="182.96" height="72.28"/>
+	<text transform="matrix(1 0 0 1 1101.0292 957.2411)" class="st10 st5">2000er</text>
+	<rect x="859.59" y="927.32" class="st3" width="182.96" height="72.28"/>
+	<text transform="matrix(1 0 0 1 893.4767 955.7234)" class="st10 st5">1990er</text>
+	<rect x="648.59" y="927.46" class="st3" width="182.96" height="72.28"/>
+	<text transform="matrix(1 0 0 1 682.4714 955.8549)" class="st10 st5">1980er</text>
+	<rect x="230.55" y="927.54" class="st3" width="182.96" height="72.28"/>
+	<text transform="matrix(1 0 0 1 264.4336 955.9349)" class="st10 st5">1960er</text>
+	<rect x="439.87" y="926.77" class="st3" width="182.96" height="72.28"/>
+	<text transform="matrix(1 0 0 1 473.7523 955.1738)" class="st10 st5">1970er</text>
 </g>
 </svg>
