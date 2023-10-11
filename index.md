@@ -41,7 +41,7 @@ wichtigsten IT-bezogenen Themen in Bibliotheken geben. Die einzelnen Themenkapit
 sind weitgehend unabhängig voneinander lesbar und mit Querverweisen verbunden. Die
 Kapitel bilden grob zwei Blöcke:
  
-Allgemeine technische Grundlagen:
+### Allgemeine technische Grundlagen
  
 - [Technische Infrastruktur](infrastruktur.md) beschreibt grundlegende technischen Einrichtungen einer Bibliothek für den Betrieb von Prozessen und Dienstleistungen
  
@@ -49,21 +49,21 @@ Allgemeine technische Grundlagen:
 
 - [IT-Entwicklung](anforderungen.md) umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
-- [Sicherheit & Datenschutz](sicherheit.md) ...
+- [Sicherheit & Datenschutz](sicherheit.md): *dieses Kapitel ist noch nicht fertig gestellt*
  
 - [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor.
  
-Bibliothekspezifische Dienste:
+### Bibliothekspezifische Dienste
  
 - [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Informationssysteme für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
  
 - [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen.
  
-- [Digitalisierung](digitalisierung.md) beschreibt ...
+- [Digitalisierung](digitalisierung.md) umfasst Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
  
-- [Forschungsnahe Dienste](forschungsnahe-dienste.md) sind ...
+- [Forschungsnahe Dienste](forschungsnahe-dienste.md) beschreibt Dienste wie Repositorien und Forschungsdatenmanagement zur Unterstützung von Forschungsprozessen
  
-- [Kommunikation](kommunikation.md) beinhaltet ...
+- [Kommunikation](kommunikation.md) beinhaltet Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
 
 ## Zur Entstehung dieses Handbuchs
 
