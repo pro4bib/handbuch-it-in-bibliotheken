@@ -346,6 +346,26 @@ wichtigste Anwendungsprofil ist das K10plus-Format des BSZ/GBV.
 Formate aus dem deutschsprachigen Raum, die allerdings nur noch
 sporadisch verwendet werden.
 
+### XML-basierte Datenformate
+
+-   **METS** und **MODS** sind zwei zusammen im Bereich
+    [Digitalisierung](digitalisierung.md) eingesetzte Formate für
+    strukturelle und administrative (METS) sowie bibliografische
+    Metadaten (MODS). Strukturdaten in METS ermöglichen granulare
+    Gliederung und Verlinkung von Objekten wobei mögliche Typen und
+    Beziehungen in Regelsätzen definiert sind.
+
+-   [*Encoded Archival
+    Description*](https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182)
+    (**EAD**) ist der zentrale dokumentarische XML-Standard zur
+    Beschreibung von archivischen Findmitteln.
+
+-   **LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
+
+-   **DataCite** ist ein bibliographisches Datenformat insbesondere zur
+    Beschreibung von Forschungsdaten (siehe Kapitel [Forschungsnahe
+    Dienste](forschungsnahe-dienste.md)).
+
 ### Datenmodelle und RDF-Formate
 
 ## Definition
@@ -376,7 +396,7 @@ RDF zu ersetzen. Die wesentlichen Elemente sind "work", "instance" und
 Webseiten.
 
 ![Hauptbestandteile des Datenmodell
-BIBFRAME](media/rId38.jpg){width="5.833333333333333in"
+BIBFRAME](media/rId40.jpg){width="5.833333333333333in"
 height="7.274508967629046in"}
 
 Hauptbestandteile des Datenmodell BIBFRAME
@@ -455,7 +475,7 @@ illustriert den generellen ETL-Prozess mit einigen exemplarischen
 Arbeitsschritten.
 
 ![Beispiel eines
-ETL-Prozess](media/rId46.png){width="3.5016721347331585in"
+ETL-Prozess](media/rId48.png){width="3.5016721347331585in"
 height="1.652173009623797in"}
 
 Beispiel eines ETL-Prozess
@@ -674,9 +694,13 @@ insbesondere folgende APIs relevant:
     *Search/Retrieve via URL* (**SRU**) mit der zugehörigen
     Abfragesprache *Contextual Query Language* (**CQL**).
 
--   Das *Open Archives Initiative Protocol for Metadata Harvesting*
-    (**OAI-PMH**) dient dem Abruf von Metadaten aus Repositorien. Die
-    Daten können nach Datum und Teilmengen gefiltert werden.
+-   Das [*Open Archives Initiative Protocol for Metadata
+    Harvesting*](https://www.openarchives.org/pmh/) (**OAI-PMH**) dient
+    dem Abruf von Metadaten aus Repositorien. Die Daten können nach
+    Datum und Teilmengen gefiltert und so in Suchmaschinen und Portalen
+    wie [BASE](https://www.base-search.net/) und der [Deutschen Digitale
+    Bibliothek](https://www.deutsche-digitale-bibliothek.de/) (DDB)
+    zusammengeführt werden.
 
 -   Das *NISO Circulation Interchange Protocol* (**NCIP**), das *Simple
     Library Network Protocol* (**SLNP**) und das *Standard Interchange
@@ -684,28 +708,39 @@ insbesondere folgende APIs relevant:
     Sie werden zwischen Bibliotheken, Fernleihservern und zur Anbindung
     von Verbuchungsautomaten eingesetzt \[@Michaelis2014\].
 
--   Die *Patrons Account Information API* (**PAIA**) ist eine offene
-    Schnittstelle zum Zugriff auf Ausleihkonten.
+-   Die [*Patrons Account Information API*](https://gbv.github.io/paia/)
+    (**PAIA**) ist eine offene Schnittstelle zum Zugriff auf
+    Ausleihkonten.
 
--   Die *Document Availability Information API* (**DAIA**) ist eine
-    offene Schnittstelle zur Abfrage der Verfügbarkeit von Medien.
+-   Die [*Document Availability Information
+    API*](https://gbv.github.io/daia/) (**DAIA**) ist eine offene
+    Schnittstelle zur Abfrage der Verfügbarkeit von Medien.
 
 -   Mit **unAPI** können einzelne Datensätze in verschiedenen Formaten
     abgerufen werden.
 
--   Die **Reconciliation Service API** ermöglicht den Abgleich mit
-    Normdaten zur eindeutigen Referenzierung (siehe Abschnitt
-    [Identifikatoren und Normdaten](#identifikatoren-und-normdaten)).
+-   Die [**Reconciliation Service
+    API**](https://reconciliation-api.github.io/specs/draft/) ermöglicht
+    den Abgleich mit Normdaten zur eindeutigen Referenzierung (siehe
+    Abschnitt [Identifikatoren und
+    Normdaten](#identifikatoren-und-normdaten)).
+
+-   Die APIs des [*International Image Interoperability
+    Framework*](https://iiif.io/) (**IIIF**) ermöglicht die
+    Referenzierung und Nutzung digitalisierter Werke in externen
+    Werkzeugen durch gezielte Verlinkung auf einzelne Bestandteile.
+
+-   Über **SPARQL**-Schnittstellen können RDF-Daten aus Wissensgraphen
+    wie zum Beispiel Wikidata abgerufen werden.
 
 -   Verschiedene Schnittstellen zur Authentifizierung und Autorisierung
     wie *LDAP*, *Shibboleth* und *OAuth*.
 
-Darüber hinaus bieten die meisten Anwendungen eigene Schnittstellen, zum
-Beispiel die Solr-API der Suchplattform *Apache Solr*. Weitere
-Schnittstellen spielen eher im Bereich
-[Digitalisierung](digitalisierung.md) und [Forschungsnahe
-Dienste](forschungsnahe-dienste.md) eine Rolle, beispielsweise die APIs
-des International Image Interoperability Framework (*IIIF*).
+Darüber hinaus bieten die meisten Anwendungen eigene, meist interne
+Schnittstellen, zum Beispiel die Solr-API der Suchplattform *Apache
+Solr*. Besonders im Bereich [Forschungsnaher
+Dienste](forschungsnahe-dienste.md) gibt es weitere, spezialisierte
+Schnittstellen.
 
 ### Datenanalyse
 

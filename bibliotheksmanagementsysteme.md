@@ -665,6 +665,8 @@ Metadaten zu beschreiben, so umfasst in anderen Fällen die Erschließung
 von Publikationen auch Dokumentstrukturen und inhaltliche Bestandteile
 wie z.B. einzelne Abbildungen.
 
+$\Rightarrow$ *Das Kapitel [Digitalisierung](digitalisierung.md) geht ausführlicher auf digitale Inhalte ein.*
+
 ### Verwaltungsdaten
 
 Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb der
