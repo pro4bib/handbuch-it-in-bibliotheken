@@ -6,7 +6,12 @@
 
   }
 }
-
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
 .sidebar-tools-main a.external:after,
 figure a.external:after, footer a.external:after {
   display: none;
