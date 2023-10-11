@@ -1,5 +1,5 @@
 ---
-description: "Inhalte und Funktionen von Discovery-Systemen und Kriterien für ihre Auswahl"
+description: Inhalte und Funktionen von Discovery-Systemen und Kriterien für ihre Auswahl
 ---
 
 # Discovery & Retrieval {#discovery-und-retrieval}
@@ -7,7 +7,7 @@ description: "Inhalte und Funktionen von Discovery-Systemen und Kriterien für i
 ::: {.callout-note}
 ## Zusammenfassung
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*) bieten
-**Discovery-Systeme** mehr Inhalte, Funktionen und in der Regel auch modernere
+Discovery-Systeme mehr Inhalte, Funktionen und in der Regel auch modernere
 Nutzungsoberflächen. In diesem Kapitel werden typische [Komponenten](#komponenten) 
 und [Funktionen](#funktionen) von Discovery-Systemen vorgestellt sowie Hinweise zum
 Aufbau und [Betrieb](#betrieb) gegeben.
@@ -604,4 +604,3 @@ Alternativen in der Praxis fließend sind und dass Discovery-Systeme
 perspektivisch um Funktionen anderer Systeme erweitert werden können und
 sollten.
 
-## Zusammenfassung & Ausblick
