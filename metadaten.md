@@ -317,6 +317,20 @@ K10plus-Format des BSZ/GBV.
 aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet
 werden.
 
+### XML-basierte Datenformate
+
+- **METS** und **MODS** sind zwei zusammen im Bereich [Digitalisierung](digitalisierung.md)
+  eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische
+  Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung
+  von Objekten wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.
+
+- *[Encoded Archival Description](https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182)* (**EAD**) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.
+
+- **LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
+
+- **DataCite** ist ein bibliographisches Datenformat insbesondere zur Beschreibung von Forschungsdaten
+  (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
+
 ### Datenmodelle und RDF-Formate
 
 :::{.callout-important}
