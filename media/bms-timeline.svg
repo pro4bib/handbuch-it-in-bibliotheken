@@ -13,6 +13,7 @@
 	.st7{fill:none;stroke:#2780E3;stroke-width:62;stroke-miterlimit:10;}
 	.st8{fill:#2780E3;stroke:#2780E3;stroke-width:38;stroke-miterlimit:10;}
 	.st9{fill:none;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+	.st10{text-anchor="end"}
 </style>
 <g id="Ebene_1" class="st0">
 	
@@ -2180,9 +2181,9 @@ TfgrIPJq4wAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -1.6865 -174.2665)">
 	<rect x="472.22" y="543.04" class="st3" width="849.18" height="59.48"/>
 	<text transform="matrix(1 0 0 1 616.7324 571.5177)" class="st4 st5">Verbreiterung der Informationsressourcen</text>
 	<rect x="768.12" y="694.25" class="st3" width="592.13" height="50.57"/>
-	<text transform="matrix(1 0 0 1 924.7773 722.7295)" class="st4 st5">Discovery-System-Epoche</text>
+	<text transform="matrix(1 0 0 1 924.7773 722.7295)" class="st4 st5 st10">Discovery-System-Epoche</text>
 	<rect x="829.11" y="788.91" class="st3" width="473.52" height="50.79"/>
-	<text transform="matrix(1 0 0 1 988.116 817.3849)" class="st4 st5">Wissensinnovation</text>
+	<text transform="matrix(1 0 0 1 988.116 817.3849)" class="st4 st5 st10">Wissensinnovation</text>
 	<g>
 		<path class="st6" d="M1319.27,803.83c144.56,0,144.56,0,144.56,0"/>
 		<g>
