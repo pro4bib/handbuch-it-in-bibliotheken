@@ -299,9 +299,6 @@ Software-Updates etc. Damit ist der mittel- bis langfristige
 Weiterbetrieb des Systems ohne Gefährdung der Betriebssicherheit aller
 IT-Systeme der Organisation nicht möglich.
 
-Das Kapitel [IT-Entwicklung] widmet sich dem Management von
-Software-Abhängigkeiten im Detail.
-
 ### Rechtliche Rahmenbedingungen
 
 Die meisten Bibliotheken befinden sich in öffentlicher Hand und sind
