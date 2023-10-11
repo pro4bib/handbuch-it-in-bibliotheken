@@ -829,7 +829,7 @@ Matrix geschehen, in der die Funktionalitäten nach ihrer
 Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
-![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix.png){#fig-matrix}
+![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix.svg){#fig-matrix}
 
 Zur Evaluierung der BMS können bestehende Anforderungskataloge für die
 Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam
