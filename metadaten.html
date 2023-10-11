@@ -280,7 +280,7 @@ Zusammenfassung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Die Beschreibung von Ressourcen mit standardisierten Metadaten bildet eine zentrale Voraussetzung für die meisten an Bibliotheken angebotenen IT-Dienste. Das vorliegende Kapitel gibt einen Überblick über die Thematik, indem es grundlegende Begrifflichkeiten einführt, wichtige Metadatenstandards vorstellt und Prozesse der Datenverarbeitung in Bibliotheken erläutert.</p>
+<p>Die Beschreibung von Ressourcen mit standardisierten Metadaten bildet eine zentrale Voraussetzung für die meisten an Bibliotheken angebotenen IT-Dienste. Das vorliegende Kapitel gibt einen Überblick über die Thematik, indem es <a href="#grundlegende-begrifflichkeiten">grundlegende Begriffe</a> einführt, wichtige <a href="#metadatenstandards">Metadatenstandards</a> vorstellt und <a href="#datenverarbeitungsprozess-in-bibliotheken">Prozesse der Datenverarbeitung</a> in Bibliotheken erläutert.</p>
 </div>
 </div>
 <section id="einleitung" class="level2">
@@ -434,8 +434,8 @@ Info
 <h3 class="anchored" data-anchor-id="arten-von-metadaten">Arten von Metadaten</h3>
 <p>Folgende Arten von Metadaten können nach ihrer Funktion unterschieden werden:</p>
 <ul>
-<li><p><strong>Deskriptive (=beschreibende) Metadaten</strong> zur Identifizierung und inhaltlichen Beschreibung wie Titel, Verfasser*in, Schlagwörter etc.</p></li>
-<li><p><strong>Administrative (=Verwaltungs-) Metadaten</strong> wie Angaben zu Herkunft, Speicherung, Zugriffsrechten, Verwaltung etc.</p></li>
+<li><p><strong>Deskriptive</strong> (=beschreibende) <strong>Metadaten</strong> zur Identifizierung und inhaltlichen Beschreibung wie Titel, Verfasser*in, Schlagwörter etc.</p></li>
+<li><p><strong>Administrative</strong> (=Verwaltungs-) <strong>Metadaten</strong> wie Angaben zu Herkunft, Speicherung, Zugriffsrechten, Verwaltung etc.</p></li>
 <li><p><strong>Strukturelle Metadaten</strong> über den Aufbau von Dokumenten wie die Einteilung in einzelne Kapitel, Abschnitte, eingebundene Medien etc. Die Grenze zwischen digitalen Inhalten und ihrer Struktur ist allerdings mitunter fließend.</p></li>
 <li><p><strong>Technische Metadaten</strong> zu Merkmalen wie Umfang, verwendeten Datenformaten etc.</p></li>
 </ul>
@@ -449,6 +449,19 @@ Info
 </section>
 <section id="datenmodelle-und-rdf-formate" class="level3">
 <h3 class="anchored" data-anchor-id="datenmodelle-und-rdf-formate">Datenmodelle und RDF-Formate</h3>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Eine <strong>Ontologie</strong> ist ein Datenmodell, das verschiedene Klassen und Eigenschaften in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener Datenquellen als Linked Data ermöglicht.</p>
+</div>
+</div>
 <p><strong>Dublin Core</strong> bzw. das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
 <p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliographischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
 <p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen (siehe <a href="#fig-bibframe">Abbildung&nbsp;<span>5.1</span></a>).</p>
@@ -579,7 +592,7 @@ Info
 </section>
 <section id="zusammenfassung-ausblick" class="level2">
 <h2 class="anchored" data-anchor-id="zusammenfassung-ausblick">Zusammenfassung &amp; Ausblick</h2>
-<p>Sturkturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff auf Ressourcen in Bibliotheken. Damit bilden sie auch die Grundlage für die meisten an Bibliotheken angebotenen IT-Dienste. Die wichtigsten Begrifflichkeiten und Standards im Zusammenhang mit (Meta-)Daten wurden im vorliegenden Kapitel vorgestellt. In Zukunft ist insbesondere zu erwarten, dass die Bedeutung semantischer Technologien bei der Erschließung und den darauf basierenden IT-Diensten deutlich zunehmen wird, da diese eine deutlich tiefere Erschließung und Vernetzung der Ressourcen ermöglichen.</p>
+<p>Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff auf Ressourcen in Bibliotheken. Daher bilden sie und ihre Verarbeitung die Grundlage für praktisch alle von Bibliotheken angebotene IT-Dienste. Während Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben wird, ist davon auszugehen, dass der Einsatz semantischer Technologien (RDF) zur Zusammenführung heterogener Daten und von Verfahren der künstlichen Intelligenz zunehmen wird.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
