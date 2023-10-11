@@ -191,7 +191,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 [Alma]: https://librarytechnology.org/product/alma
 [LIBERO]: https://librarytechnology.org/product/libero
 
- PICA LBS: https://librarytechnology.org/products/product.pl?RC=272 
+ PICA LBS: https://librarytechnology.org/products/product.pl?RC=272
 -->
 
 In @tbl-aktuelle-sw-produkte sind die aktuellen BMS mit der derzeit größten Marktreife und
