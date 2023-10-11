@@ -6,9 +6,8 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 
 ::: {.callout-note}
 ## Zusammenfassung
-Dieses Kapitel beschreibt die Einführung und den Betrieb von IT-Systemen.
-Behandelt werden allgemeine Organisation und Kompetenzen über den gesamten
-Lebenszyklus.
+Dieses Kapitel beschreibt die Einführung und den [Betrieb](#betriebsmodelle)
+von IT-Systemen über den gesamten [Lebenszyklus](#lebenszyklen-von-it-systemen).
 :::
 
 ## Einleitung
@@ -77,7 +76,7 @@ Kapitel [Anforderungen an Bibliotheks-IT](#anforderungen)
 geht gesondert auf die Bedeutung dieser Einbeziehung und damit
 verbundener Methoden ein.
 
-#### Implementierung
+### Implementierung
 
 Aufbauend auf einem gemeinsamen Verständnis der Anforderungen überführen
 Entwickler\*innen Prototypen in lauffähigen Code. Wird im Rahmen des
@@ -87,9 +86,16 @@ zunächst in ein Testsystem und in der Folge in das produktive System
 
 In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit den
 gewünschten Features, während nutzer\*innenorientierte Vorgehensmodelle (siehe
-Kapitel [Anforderungen](#anforderungen)) hier auf einen
+Kapitel [Anforderungsanalyse](#anforderungen)) hier auf einen
 iterativen Prozess setzen, welcher Produktiterationen häufiger bereitstellt und
 evaluiert.
+
+Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen
+in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen.
+Unabdingbar ist der Einsatz eines Versionskontrollsystems, ein Issue-Tracker
+und möglichst automatische Tests und Deployment (kontinuierliche Integration),
+so dass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder
+Produktiv-Instanz der installierten Software führen.
 
 ### Test und Integration
 
@@ -321,8 +327,8 @@ Anforderungen erfüllen:
 >
 > -- [@gesetzliche_bildschirm-_2019]
 
-Die Erreichung dieser Ziele wird im Kapitel [Anforderungen an
-IT-Entwicklung](#anforderungen) thematisiert.
+Die Erreichung dieser Ziele wird im Kapitel [Anforderungsanalyse](#anforderungen)
+thematisiert.
 
 ### Barrierefreiheit {#accessibility}
 

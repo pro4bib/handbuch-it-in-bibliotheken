@@ -52,7 +52,7 @@ grob zwei Blöcke:
 -   [Management von IT-Systemen](management.md) beinhaltet die
     Einführung und den Betrieb von IT-Systemen allgemein
 
--   [IT-Entwicklung](anforderungen.md) umfasst die Ermittlung und
+-   [Anforderungsanalyse](anforderungen.md) umfasst die Ermittlung und
     Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
 -   [Sicherheit & Datenschutz](sicherheit.md): *dieses Kapitel ist noch

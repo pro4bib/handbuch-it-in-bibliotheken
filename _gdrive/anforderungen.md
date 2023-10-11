@@ -1,10 +1,11 @@
-# IT-Entwicklung
+# Anforderungsanalyse
 
 ## Zusammenfassung
 
-Dieses Kapitel behandelt die Entwicklung von IT-Systemen. Der
-Schwerpunkt liegt hier auf der Einbeziehung von Nutzer\*innen, um im
-besten Fall die tatsächlichen Bedürfnisse passend zu erfüllen.
+Dieses Kapitel behandelt die Anforderungsanalyse als Kernbestandteil bei
+der Entwicklung von IT-Systemen. Der Schwerpunkt liegt dabei auf der
+[Einbeziehung von Nutzer\*innen](#einbeziehung), um die tatsächlichen
+Bedürfnisse möglichst passend zu erfüllen.
 
 ## Einleitung
 

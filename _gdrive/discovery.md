@@ -3,8 +3,8 @@
 ## Zusammenfassung
 
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*)
-bieten **Discovery-Systeme** mehr Inhalte, Funktionen und in der Regel
-auch modernere Nutzungsoberflächen. In diesem Kapitel werden typische
+bieten Discovery-Systeme mehr Inhalte, Funktionen und in der Regel auch
+modernere Nutzungsoberflächen. In diesem Kapitel werden typische
 [Komponenten](#komponenten) und [Funktionen](#funktionen) von
 Discovery-Systemen vorgestellt sowie Hinweise zum Aufbau und
 [Betrieb](#betrieb) gegeben.
@@ -675,5 +675,3 @@ Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und
 Alternativen in der Praxis fließend sind und dass Discovery-Systeme
 perspektivisch um Funktionen anderer Systeme erweitert werden können und
 sollten.
-
-## Zusammenfassung & Ausblick
