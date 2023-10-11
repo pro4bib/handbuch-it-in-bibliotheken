@@ -641,9 +641,13 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   *Search/Retrieve via URL* (**SRU**) mit der zugehörigen
   Abfragesprache *Contextual Query Language* (**CQL**).
 
-- Das *[Open Archives Initiative Protocol for Metadata Harvesting](https://www.openarchives.org/pmh/)*
-  (**OAI-PMH**) dient dem Abruf von Metadaten aus Repositorien. Die
-  Daten können nach Datum und Teilmengen gefiltert werden.
+- Das *[Open Archives Initiative Protocol for Metadata
+  Harvesting](https://www.openarchives.org/pmh/)* (**OAI-PMH**) dient dem Abruf
+  von Metadaten aus Repositorien. Die Daten können nach Datum und Teilmengen
+  gefiltert und so in Suchmaschinen und Portalen wie
+  [BASE](https://www.base-search.net/) und der
+  [Deutschen Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/) (DDB)
+  zusammengeführt werden.
 
 - Das *NISO Circulation Interchange Protocol* (**NCIP**), das 
   *Simple Library Network Protocol* (**SLNP**)  und das
@@ -665,14 +669,20 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   Normdaten zur eindeutigen Referenzierung (siehe Abschnitt
   [Identifikatoren und Normdaten](#identifikatoren-und-normdaten)).
 
+- Die APIs des *[International Image Interoperability Framework](https://iiif.io/)*
+  (**IIIF**) ermöglicht die Referenzierung und Nutzung digitalisierter Werke in
+  externen Werkzeugen durch gezielte Verlinkung auf einzelne Bestandteile. 
+
+- Über **SPARQL**-Schnittstellen können RDF-Daten aus Wissensgraphen wie zum
+  Beispiel Wikidata abgerufen werden.
+
 - Verschiedene Schnittstellen zur Authentifizierung und Autorisierung
   wie *LDAP*, *Shibboleth* und *OAuth*.
 
-Darüber hinaus bieten die meisten Anwendungen eigene Schnittstellen, zum
-Beispiel die Solr-API der Suchplattform *Apache Solr*. Weitere Schnittstellen
-spielen eher im Bereich [Digitalisierung] und [Forschungsnahe Dienste] eine
-Rolle, beispielsweise die APIs des International Image Interoperability
-Framework (*IIIF*).
+Darüber hinaus bieten die meisten Anwendungen eigene, meist interne
+Schnittstellen, zum Beispiel die Solr-API der Suchplattform *Apache Solr*.
+Besonders im Bereich [Forschungsnaher Dienste](forschungsnahe-dienste.md) gibt
+es weitere, spezialisierte Schnittstellen.
 
 ### Datenanalyse
 
