@@ -1525,8 +1525,6 @@ für statistische Daten der Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb
 
-[Betriebs](#betriebsmodelle)
-
 Der technische Betrieb eines BMS variiert je nach [Betriebsmodell](management.md#betriebsmodelle) (lokale Installation, gehostete Variante oder Cloud-Dienst). [Kosten](#kosten) entstehen dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte der [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und [Datenschutz](#datenschutz) zu berücksichtigen.
 
 ### Kosten
