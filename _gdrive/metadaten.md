@@ -352,7 +352,8 @@ sporadisch verwendet werden.
 
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und
 Eigenschaften in RDF definiert und so die einheitliche Kodierung und
-Verknüpfung verschiedener Datenquellen als Linked Data ermöglicht.
+Verknüpfung verschiedener Datenquellen als Linked Data bis zu
+umfangreichen Wissensgraphen ermöglicht.
 
 **Dublin Core** bzw. das Dublin Core Metadata Element Set (**DCMES**)
 hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die

@@ -15,7 +15,7 @@ Das BMS spielt eine zentrale Rolle für die meisten klassischen Geschäftsprozes
 
 :::{.callout-important}
 ## Definition
-Ein Bibliotheksmanagementsystem ist ein Softwareprodukt, mit dem die Arbeitsprozesse
+Ein **Bibliotheksmanagementsystem** ist ein Softwareprodukt, mit dem die Arbeitsprozesse
 rund um die Erwerbung, Erschließung, Ausleihe, den Zugriff und die Auffindbarmachung
 von Bibliotheksbeständen über Kataloge abgebildet und automatisiert werden
 können.

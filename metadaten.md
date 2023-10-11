@@ -324,7 +324,7 @@ werden.
 
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
 in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
-Datenquellen als Linked Data ermöglicht.
+Datenquellen als Linked Data bis zu umfangreichen Wissensgraphen ermöglicht.
 
 :::
 
