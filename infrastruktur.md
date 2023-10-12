@@ -761,7 +761,8 @@ Bibliotheken verbreitet ist und Zahlen, Großbuchstaben und ein paar wenige
 Sonderzeichen darstellen kann.
 
 ::: {#fig-barcode}
-![Beispiel für einen Code39 Barcode](media/code39.png)
+!(media/code39.png)
+Beispiel für einen Code39 Barcode
 :::
 
 **QR-Codes** funktionieren analog, erweitern allerdings die Darstellung um eine
