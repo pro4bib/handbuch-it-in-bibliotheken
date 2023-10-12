@@ -1,0 +1,102 @@
+---
+abstract: 'Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Softwareentwicklung, Metadaten...'
+authors:
+- email: nicolas.bach@posteo.de
+  family-names: Bach
+  given-names: Nicolas
+- email: pascal@the-library-code.de
+  family-names: Becker
+  given-names: Pascal-Nicolas
+  orcid: 0000-0003-2169-1261
+- email: janna.brechmacher@sbb.spk-berlin.de
+  family-names: Brechmacher
+  given-names: Janna
+  orcid: 0000-0001-7233-7153
+- email: rqst@nvsbl.cm
+  family-names: Carlin
+  given-names: Sascha A.
+- email: christensen@effective-webwork.de
+  family-names: Christensen
+  given-names: Anne
+  orcid: 0000-0001-7753-1078
+- email: jana.eger@stadtbibliothek-chemnitz.de
+  family-names: Eger
+  given-names: Jana
+- email: matthias.finck@haw-hamburg.de
+  family-names: Finck
+  given-names: Matthias
+  orcid: 0000-0002-0848-2935
+- email: ulrike.golas@tu-berlin.de
+  family-names: Golas
+  given-names: Ulrike
+  orcid: 0000-0002-6567-0000
+- email: gerrit.gragert@sbb.spk-berlin.de
+  family-names: Gragert
+  given-names: Gerrit
+  orcid: 0000-0002-0542-1555
+- email: lambert.heller@tib.eu
+  family-names: Heller
+  given-names: Lambert
+  orcid: 0000-0003-0232-7085
+- family-names: Hurnik
+  given-names: Sina
+- email: clemens.kynast@uni-jena.de
+  family-names: Kynast
+  given-names: Clemens
+- email: lukas.lerche@tu-dortmund.de
+  family-names: Lerche
+  given-names: Lukas
+  orcid: 0000-0002-4027-6840
+- email: lmossburger@t-online.de
+  family-names: Moßburger
+  given-names: Luis
+  orcid: 0000-0002-5326-219X
+- email: stefanie.nagel@ub.tu-freiberg.de
+  family-names: Nagel
+  given-names: Stefanie
+  orcid: 0000-0001-8020-1440
+- email: polla@wias-berlin.de
+  family-names: Polla
+  given-names: Silvia
+  orcid: 0000-0002-2395-2448
+- email: michael.schaarwaechter@tu-dortmund.de
+  family-names: Schaarwächter
+  given-names: Michael
+  orcid: 0000-0002-0180-5930
+- email: fseeliger@th-wildau.de
+  family-names: Seeliger
+  given-names: Frank
+  orcid: 0000-0003-0602-8082
+- email: b.steinke@tu-berlin.de
+  family-names: Steinke
+  given-names: Britta
+  orcid: 0000-0001-6816-5168
+- email: ralf.stockmann@sbb.spk-berlin.de
+  family-names: Stockmann
+  given-names: Ralf
+  orcid: 0000-0002-0977-5908
+- email: florian.strauss@tu-clausthal.de
+  family-names: Strauß
+  given-names: Florian
+  orcid: 0000-0003-0168-0450
+- email: jakob.voss@gbv.de
+  family-names: Voß
+  given-names: Jakob
+  orcid: 0000-0002-7613-4123
+- email: info@it-expert-voss.de
+  family-names: Voss
+  given-names: Michael
+  orcid: 0000-0002-7402-1598
+- email: kerstin.wendt@sub.uni-hamburg.de
+  family-names: Wendt
+  given-names: Kerstin
+- email: david.zellhoefer@hwr-berlin.de
+  family-names: Zellhöfer
+  given-names: David
+  orcid: 0000-0002-0403-457X
+cff-version: 1.2.0
+license: CC-BY-4.0
+repository-code: https://github.com/pro4bib/handbuch-it-in-bibliotheken
+title: Handbuch IT in Bibliotheken
+url: https://it-in-bibliotheken.de/
+

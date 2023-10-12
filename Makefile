@@ -38,5 +38,10 @@ templates/chapters.html: _gdrive/chapters.csv
 _contributors.md: contributors.yml templates/contributors.md
 	echo '' | quarto pandoc --metadata-file $< --template templates/contributors.md -M title=- -o $@
 
+metadata: metadata.yml contributors.yml
+	./metadata.pl > CITATION.cff
+
 install:
 	sudo apt install librsvg2-bin
+	cpanm install YAML::PP
+
