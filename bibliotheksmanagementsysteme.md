@@ -969,7 +969,7 @@ nötig sein -- die modellierten Prozesse automatisiert werden können. Im
 Endeffekt bedeutet dies, dass aus dem Prozessmodell Programmcode erzeugt
 wird.
 
-![Beispiel einer BPMN-Prozessabbildung](https://commons.wikimedia.org/wiki/File:BPMN-1.svg){#fig-prozessabbildung}
+![Beispiel einer BPMN-Prozessabbildung](https://upload.wikimedia.org/wikipedia/commons/9/94/BPMN-1.svg){#fig-prozessabbildung}
 
 Lässt man die Aspekte der Prozessautomatisierung oder Codegenerierung
 außer acht, so lässt sich auch eine abgespeckte BPMN-ähnliche Semantik
