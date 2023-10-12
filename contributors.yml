@@ -22,6 +22,10 @@ contributor:
 - email: jana.eger@stadtbibliothek-chemnitz.de
   name: Jana Eger
   position: Stadtbibliothek Chemnitz
+- email: matthias.finck@haw-hamburg.de
+  name: Matthias Finck
+  orcid: 0000-0002-0848-2935
+  position: Professor für Informationstechnologie mit dem Schwerpunkt Webtechnologien 
 - email: ulrike.golas@tu-berlin.de
   name: Ulrike Golas
   orcid: 0000-0002-6567-0000
@@ -79,6 +83,9 @@ contributor:
   name: Michael Voss
   orcid: 0000-0002-7402-1598
   position: Consultant; IT-Expert-Voss
+- email: kerstin.wendt@sub.uni-hamburg.de
+  name: Kerstin Wendt
+  position: Stabsstelle Digitalisierung
 - email: david.zellhoefer@hwr-berlin.de
   name: David Zellhöfer
   orcid: 0000-0002-0403-457X
