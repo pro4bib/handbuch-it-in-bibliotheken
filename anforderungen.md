@@ -208,7 +208,7 @@ beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![Aus einem [Vortrag zum Scenario-based Design](https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)](media/missing.svg){#fig-3}
+![Vorgehensmodell zum szenariobasierten Design (https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)](media/missing.svg){#fig-3}
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
@@ -320,8 +320,7 @@ Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
 visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases
 bestimmte Aktionen zu illustrieren.
 
-![hier sollte man am besten etwas mit Bib-Bezug kritzeln, das bild ist nur
-als Platzhalter zu verstehen z.B. <https://www.storyboardthat.com/de/storyboards/1c78733f/matilda-library-visit>](media/missing.svg)
+![Beispiel Storyboard]((https://www.storyboardthat.com/storyboards/e479644d/online-library-system)
 
 Die Visualisierung von Interaktionsideen kann Beteiligten helfen,
 mögliche Abläufe nachzuvollziehen. Storyboards sind dabei oft leichter
