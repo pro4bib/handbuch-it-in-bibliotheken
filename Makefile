@@ -8,6 +8,7 @@ preview: $(INCLUDES)
 
 all: build update
 	cp _gdrive/*.docx _book/ 
+	rsync -a _book/ _published
 
 build: $(INCLUDES)
 	quarto render

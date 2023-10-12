@@ -1,5 +1,6 @@
 _gdrive/*.docx
 /_book/
+_published
 *.log
 _contributors.md
 index.tex
