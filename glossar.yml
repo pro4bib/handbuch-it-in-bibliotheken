@@ -14,9 +14,9 @@ glossary:
     definition: Counting Online Usage of NeTworked Electronic Resources
     url: https://www.projectcounter.org/
 
-  Discovery-System:
-    definition: Auf Suchmaschinentechnologie beruhende Systeme zur Suche in großen (auch externen) Datenbeständen
-    url: https://de.wikipedia.org/wiki/Discovery-System
+#  Discovery-System:
+#    definition: Auf Suchmaschinentechnologie beruhende Systeme zur Suche in großen (auch externen) Datenbeständen
+#    url: https://de.wikipedia.org/wiki/Discovery-System
 
   EDIFACT:
     definition: Electronic Data Interchange for Administration, Commerce and Transport
@@ -52,16 +52,13 @@ glossary:
     url: https://www.niso.org/standards-committees/kbart
     definition: Knowledgebases and related tools, Datenformat zum Transfer von Metadaten
 
-  Lock-In-Effekt:
-    url: https://de.wikipedia.org/wiki/Lock-in-Effekt
-    definition: Kundenbindung durch hohen Wechselaufwand
+#  Lock-In-Effekt:
+#    url: https://de.wikipedia.org/wiki/Lock-in-Effekt
+#    definition: Kundenbindung durch hohen Wechselaufwand
 
   MARC:
     url: https://de.wikipedia.org/wiki/Machine-Readable_Cataloging
     definition: MAchine-Readable Cataloging, ältestes und noch immer wichtigstes bibliothekarisches Austauschformat
-
-  Normdaten:
-    definition: Datensätze zur eindeutigen Identifizierung und Referenzierung von Entitäten wie Personen, Organisationen, Themen...
 
   OCR:
     definition: Automatische Erkennung von Texten in Bildern (Optical Character Recognition)
@@ -71,10 +68,6 @@ glossary:
     url: https://de.wikipedia.org/wiki/OPAC
     definition: Online Public Access Catalogue, Katalog einer Bibliothek
 
-  Persona:
-    url: https://de.wikipedia.org/wiki/Persona_(Mensch-Computer-Interaktion)
-    definition: "\"Maske\", ein Modell zur Beschreibung eines Anforderungsszenario"
-
   SaaS:
     url: https://de.wikipedia.org/wiki/Software_as_a_Service
     definition: Software as a Service, Software und Hardware bei externem Dienstleister
@@ -83,17 +76,13 @@ glossary:
     url: https://en.wikipedia.org/wiki/Standard_Interchange_Protocol
     definition: Protokoll zur Anbindung von Selbstbedienungsautomaten an Bibliothekssysteme
 
-  Usability:
-    url: https://de.wikipedia.org/wiki/Gebrauchstauglichkeit_(Produkt)
-    definition: Gebrauchstauglichkeit
-
-  User Experience:
-    url: https://de.wikipedia.org/wiki/User_Experience
-    definition: Nutzererfahrung
-
-  VR:
-    url: https://de.wikipedia.org/wiki/Virtuelle_Realität
-    definition: Virtual Reality, (computer-generierte) virtuelle Umgebung
+#  Usability:
+#    url: https://de.wikipedia.org/wiki/Gebrauchstauglichkeit_(Produkt)
+#    definition: Gebrauchstauglichkeit
+#
+#  User Experience:
+#    url: https://de.wikipedia.org/wiki/User_Experience
+#    definition: Nutzererfahrung
 
   WCAG:
     url: https://www.w3.org/WAI/standards-guidelines/wcag/
