@@ -362,7 +362,7 @@ Struktur, Layout und Funktionalitäten eines Interface vorzustellen.
 Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von
 einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
-![<https://www.mockplus.com/blog/post/basic-uiux-design-concept-difference-between-wireframe-prototype> (Platzhalter)](media/missing.svg){#fig-5}
+![Beispiel für Wireframes](https://d3h2k7ug3o5pb3.cloudfront.net/image/2023-02-01/b3796410-a1f5-11ed-91cc-733ac0a0cb68.jpg){#fig-5}
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
 Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die
