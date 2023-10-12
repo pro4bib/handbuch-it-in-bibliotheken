@@ -27,7 +27,9 @@ Weiterbildung](#aus--und-weiterbildung).
 Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus).
 Die wesentlichen Phasen im klassischen Lebenszyklus eines
-IT-Systems werden im Folgenden näher betrachtet.
+IT-Systems werden im Folgenden näher betrachtet. Darüber hinaus wird
+erläutert wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
+[Change Management](#change-management) begleitet werden sollten.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
 angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
@@ -175,7 +177,45 @@ Risiken in sich und kann eine Organisation folglich in ernsthafte
 Schwierigkeiten bringen, insbesondere wenn geschäftskritische Prozesse
 betroffen sind.
 
-<!-- Hier sollte auf ein Kapitel zur Migration verwiesen werden -->
+### Change Management
+
+Die Umgestaltung von Prozessen und Tools in Bibliotheken ist ein Wandel, der
+die Organisation und Kultur des Hauses in ihrer Ganzheit berührt. Das Change
+Management – also die planvolle Steuerung von Veränderungsprozessen – spielt
+dabei eine zentrale Rolle. Es gilt, sowohl technologische Aspekte als auch
+menschliche Faktoren sorgsam in Betracht zu ziehen, um nachhaltige, akzeptierte
+und effektive Lösungen zu implementieren. Dies betrifft nicht nur die Auswahl
+und Einführung von Werkzeugen und Plattformen, sondern auch die Entwicklung von
+Kompetenzen, die Gestaltung von Arbeitsprozessen und die Förderung einer Kultur
+der Offenheit und Zusammenarbeit:
+
+- Realen Bedarf ermitteln, Ziele und Zielgruppen definieren, keine “Solutions
+  looking for a Problem” einführen: welches (kommunikative) Problem will ich
+  lösen?
+
+- Einsatz bestehender Tools prüfen: brauche ich wirklich etwas Neues, oder kann
+  ich mit gewissen Abstrichen leben und dafür ein bestehendes Tool kreativ
+  einsetzen? Die Gefahr beim Einsatz einer großen Vielzahl von Tools ist, dass
+  Information / Wissen zu stark in verschiedene Systeme fragmentiert wird. Die
+  Gefahr beim Einsatz von zu unspezifischen Tools ist, dass die Lösung dem
+  eigentlichen Problem nicht gerecht wird.
+
+- Auf Interoperabilität und offene Standards achten; Vendor Lock-In vermeiden
+
+- Die angestrebten Veränderung frühzeitig und offen kommunizieren,
+  Unterstützung in Form von Dokumentation, Schulungen und Support anbieten,
+  Ängste nehmen (sowohl bei Kolleg\*innen als auch Gremien). Der Trend hin zu
+  kollaborativen Tools sorgt für eine höhere Sichtbarkeit, das ist vielen nicht
+  ganz geheuer. Oft ist es eine große Hemmschwelle, auf einmal für alle
+  sichtbar in ein Wiki oder Forum zu schreiben
+
+- Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen ("alte Zöpfe
+  auch abschneiden"). Die Einführung zusätzlicher Werkzeuge sorgt sonst auch
+  oft für Unverständnis und Frust.
+
+- Akzeptanz regelmäßig prüfen (siehe [Evaluation](#evaluation))
+
+<!-- Hier sollte noch etwas mehr zur Migration -->
 
 ## Betriebsmodelle
 
