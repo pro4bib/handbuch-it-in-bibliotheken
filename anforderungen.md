@@ -320,7 +320,7 @@ Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
 visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases
 bestimmte Aktionen zu illustrieren.
 
-![Beispiel Storyboard]((https://www.storyboardthat.com/storyboards/e479644d/online-library-system)
+![Beispiel Storyboard](https://www.storyboardthat.com/storyboards/e479644d/online-library-system)
 
 Die Visualisierung von Interaktionsideen kann Beteiligten helfen,
 mögliche Abläufe nachzuvollziehen. Storyboards sind dabei oft leichter
