@@ -201,11 +201,6 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glossar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Glossar</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./mitarbeit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Hinweise zur Mitarbeit</span></a>
   </div>
 </li>
@@ -272,7 +267,7 @@ Zusammenfassung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im Gegensatz zum klassischen Online Public Access Catalogue (<abbr title="Online Public Access Catalogue, Katalog einer Bibliothek">OPAC</abbr>) bieten Discovery-Systeme mehr Inhalte, Funktionen und in der Regel auch modernere Nutzungsoberflächen. In diesem Kapitel werden typische <a href="#komponenten">Komponenten</a> und <a href="#funktionen">Funktionen</a> von Discovery-Systemen vorgestellt sowie Hinweise zum Aufbau und <a href="#betrieb">Betrieb</a> gegeben.</p>
+<p>Im Gegensatz zum klassischen Online Public Access Catalogue (<em>OPAC</em>) bieten Discovery-Systeme mehr Inhalte, Funktionen und in der Regel auch modernere Nutzungsoberflächen. In diesem Kapitel werden typische <a href="#komponenten">Komponenten</a> und <a href="#funktionen">Funktionen</a> von Discovery-Systemen vorgestellt sowie Hinweise zum Aufbau und <a href="#betrieb">Betrieb</a> gegeben.</p>
 </div>
 </div>
 <section id="einleitung" class="level2">
@@ -429,7 +424,7 @@ Zusammenfassung
 <p>Unter den von Bibliotheken selbst entwickelten Discovery-Systemen sind international VuFind und Blacklight am weitesten verbreitet.</p>
 <p><a href="https://vufind.org/">VuFind</a> lässt sich an verschiedene kommerzielle und frei verfügbare Komponenten wie Indizes und Bibliotheksmanagementsysteme anbinden. In den deutschsprachigen Ländern besteht eine lebendige Anwender*innengemeinschaft, die sich regelmäßig trifft. Mit <a href="https://www.qcovery.de/">Qcovery</a> und <a href="https://finc.info/">finc</a> gibt es zwei Sub-Communities für wissenschaftliche Bibliotheken, die sich die Aufgaben der Pflege und Weiterentwicklung der Software unter sich aufteilen. Die Software basiert auf PHP.</p>
 <p><a href="http://projectblacklight.org/">Blacklight</a> ist hauptsächlich im angloamerikanischen Raum verbreitet, aber auch bei <a href="https://www.europeana.eu/">Europeana</a> Einsatz. Die Software basiert auf Ruby on Rails.</p>
-<p>Das von der VZG entwickelte System <a href="https://www.lukida.org/">Lukida</a> spielt vor allem im Rahmen des Index K10plus-Zentral eine Rolle und wird primär als <abbr title="Software as a Service, Software und Hardware bei externem Dienstleister">SaaS</abbr> angeboten.</p>
+<p>Das von der VZG entwickelte System <a href="https://www.lukida.org/">Lukida</a> spielt vor allem im Rahmen des Index K10plus-Zentral eine Rolle und wird primär als <em>SaaS</em> angeboten.</p>
 </section>
 <section id="indizes" class="level4">
 <h4 class="anchored" data-anchor-id="indizes">Indizes</h4>
@@ -454,8 +449,8 @@ Zusammenfassung
 <p>Da Discovery-Systeme die Metadaten und Volltexte anders als die klassischen OPACs aufbereiten, sind Suchstrategien und -ergebnisse in beiden Systemen unterschiedlich.</p>
 <p>Discovery-Systeme richten sich in der Regel an Benutzer*innen, die den Umgang mit bibliographischen Recherchesystemen wie Katalogen und Fachbibliographien nicht gewohnt sind und die mit den Nutzungsmustern bedient werden sollen, die sie auch aus dem Web gewohnt sind.</p>
 <p>Neben der Recherche nach bibliographischen Informationen sollen Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien unterstützen. Dieser auch als <strong>Delivery</strong> bezeichnete Prozess hat sich bereits in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der Nutzer*innen herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist daher ein wichtiges Qualitätskriterium.</p>
-<p>Neuere BMS wie <abbr title="Open-Source Bibliotheksmanagementsystem">FOLIO</abbr> und <em>Alma</em> enthalten zum Teil gar keinen klassischen OPAC mehr. Mit diesen Systemen muss daher immer ein zusätzliches Discovery-System eingesetzt werden.</p>
-<p>Viele Bibliotheken erschließen <strong>E-Ressourcen</strong> nicht in vollem Umfang in ihrem BMS. Daher sind im OPAC, der zu diesem BMS gehört, die E-Ressourcen nicht oder nur eingeschränkt auffindbar. Wenn die Bibliothek ein Discovery-System betreibt, können Metadaten zu E-Ressourcen über einen <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> in den Index des Discovery-Systems geladen werden. Voraussetzung dafür ist, dass den Metadaten mittels Electronic Ressource Management (<abbr title="Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen">ERM</abbr>) entsprechende Nutzungslizenzen zugeordnet sind.</p>
+<p>Neuere BMS wie <em>FOLIO</em> und <em>Alma</em> enthalten zum Teil gar keinen klassischen OPAC mehr. Mit diesen Systemen muss daher immer ein zusätzliches Discovery-System eingesetzt werden.</p>
+<p>Viele Bibliotheken erschließen <strong>E-Ressourcen</strong> nicht in vollem Umfang in ihrem BMS. Daher sind im OPAC, der zu diesem BMS gehört, die E-Ressourcen nicht oder nur eingeschränkt auffindbar. Wenn die Bibliothek ein Discovery-System betreibt, können Metadaten zu E-Ressourcen über einen <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> in den Index des Discovery-Systems geladen werden. Voraussetzung dafür ist, dass den Metadaten mittels Electronic Ressource Management (<em>ERM</em>) entsprechende Nutzungslizenzen zugeordnet sind.</p>
 <div id="tbl-discovery-vs-opac" class="anchored">
 <table class="table">
 <caption>Tabelle&nbsp;7.1: Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System</caption>
