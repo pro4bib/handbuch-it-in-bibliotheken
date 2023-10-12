@@ -112,7 +112,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 -   Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme
 
 -   Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
-    definiert. Die eingeführten Fachbegriffe müssen in einem Glossar für das gesamte Buch gebündelt werden.
+    definiert. Abkürzungen müssen in einem Glossar für das gesamte Buch gebündelt werden.
 
 -   Wir vermeiden IT-Jargon.
 
@@ -148,7 +148,7 @@ Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <ht
 
 ### Glossar {#mitarbeit-glossar .unnumbered}
 
-Das Glossar in der Datei `glossar.yml` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv* gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip umgewandelt.
+Das Abkürzungsverzeichnis in der Datei `glossar.yml` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv* gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip umgewandelt.
 
 ### Autor\*innen-Verzeichnis {#mitarbeit-autorinnen .unnumbered}
 

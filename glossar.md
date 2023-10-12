@@ -1,8 +1,8 @@
 ---
-description: Die wichtigsten Abkürzungen und Begriffe rund um IT in Bibliotheken
+description: Die wichtigsten Abkürzungen rund um IT in Bibliotheken
 ---
 
-# Glossar
+# Abkürzungsverzeichnis
 
 {{< glossary >}}
 
