@@ -487,11 +487,11 @@ Info
 </div>
 <p><strong>QR-Codes</strong> funktionieren analog, erweitern allerdings die Darstellung um eine zweite Dimension, sodass auf weniger Platz mehr Informationen dargestellt werden können. Gleichzeitig enthalten QR-Codes eine Prüfsumme, die Fehler bei der Erkennung, etwa bei Beschädigungen am Code, ausgleichen können.</p>
 <p>Ein <strong>RFID-Tag</strong> enthält einen Speicherchip und hält daher seine Informationen in Bits und Bytes, genau so, wie Daten und Dateien auch auf einem Computer gespeichert werden. Wie sich jeweils eine Information aus Bits und Bytes interpretieren lässt (ganz so, wie man aus den Balken eines Barcodes Buchstaben und Zahlen interpretiert), hängt von der jeweiligen Encodierung ab, wobei der Speicher eines Tags auch in unterschiedliche Encodierungsformate aufgeteilt werden kann, um Platz zu sparen.</p>
-<p>Folgendes Beispiel zeigt einen Speicherbereich, wie er auf dem Chip eines Tags vorkommen könnte:</p>
-<div class="quarto-figure quarto-figure-center">
+<p><a href="#fig-speicher-rfid">Abbildung&nbsp;<span>1.3</span></a> zeigt einen Speicherbereich, wie er auf dem Chip eines Tags vorkommen könnte:</p>
+<div id="fig-speicher-rfid" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="media/rfid-tag.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Beispiel für einen Speicherbereich auf einem RFID-Tag</figcaption>
+<figcaption class="figure-caption">Abbildung&nbsp;1.3: Beispiel für einen Speicherbereich auf einem RFID-Tag</figcaption>
 </figure>
 </div>
 <p>Hierbei ist der Speicher 32 Bit klein, was (geteilt durch 8) genau 4 Byte entspricht. Die einzelnen Bits können entweder 0 oder 1 sein und eine zweistellige Darstellung von jeweils 8 Bit als Byte nutzt die Werte von 00 bis FF im Hexadezimalsystem. Der Speicher, auf dem nun 19E9B6EA steht, wird in diesem Beispiel wie folgt encodiert: Die ersten beiden Byte sollen nach URN Code 40 gelesen werden, ein Verfahren mit dem man Text kompakt darstellen kann ähnlich der Idee hinter Code39 (IPC RFID STANDARD FOR INDENTIFYING POSTAL ITEMS BASED ON THE UPU S10 CODE, USING THE ISO/IEC 18000-63 PROTOCOL, Version 1.0, Februar 2017, Seite 33ff). Damit ergibt sich der Text „DE2“. Die letzten beiden Byte sollen hier einfach als Zahl gelesen werden. Die hexadezimale Zahl B6EA wird im Dezimalraum zu 46826. Das Beispielhafte RFID-Tag würde hier also etwa eine Präfixkennung DE2 für die Bibliothek enthalten, sowie eine fortlaufende Mediennummer. Würden wir vereinbaren, auch URN40 für die letzten zwei Byte des Speichers zu nutzen, so hätten wir nur die Möglichkeit, Zahlen von 000 bis 999 (bzw. dann auch dreistelligen Text) zu encodieren. Daher die wechselnde Encodierung.</p>
