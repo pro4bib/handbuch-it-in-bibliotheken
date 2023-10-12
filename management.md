@@ -18,7 +18,8 @@ Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme müssen möglic
 [Risiken](#betriebssicherheit-und-risikomanagement) beachtet und [rechtliche
 Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
 Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und ein
-[organisatorischer Rahmen](#organisation) notwendig.  Um diesen Anforderungen
+[organisatorischer Rahmen](#organisation) für die [Digitale
+Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
@@ -219,10 +220,13 @@ der Offenheit und Zusammenarbeit:
 
 ## Betriebsmodelle
 
-Insbesondere serverbasierte Software, wie zum Beispiel das [Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md), kann
-auf verschiedene Arten betrieben werden. Die Betriebsarten
-unterscheiden sich bezüglich Installation, Kosten, Pflege und
-Wartung sowie Backup und Support.
+Insbesondere serverbasierte Software, wie zum Beispiel das
+[Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md), kann auf
+verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich
+bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support.
+Die Wahl eines Betriebsmodells ist nicht nur eine betriebswirtschaftliche
+Entscheidung sondern beeinflusst auch strategisch die [Digitale Souveränität](#digitale-souveränität)
+der Einrichtung.
 
 ### Lokale Installation 
 
@@ -281,6 +285,57 @@ Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
 personalsparend serverbasierte Software einzusetzen. Eine Kostenersparnis
 ist bei einer Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl der Endnutzer\*innen
 führt ein solches Betriebsmodell meist zu Abonnementkosten.
+
+### Digitale Souveränität
+
+Digitale Souveränität bedeutet die selbstbestimmte Gestaltung und Kontrolle
+über die eigenen digitalen Ressourcen, Technologien und Daten, um unabhängige,
+nachhaltige und nutzerzentrierte Services gewährleisten zu können.
+
+Sie bietet Bibliotheken die Möglichkeit, sowohl ihren Service als auch ihre
+interne und externe [Kommunikation](kommunikation.md) auf eine nachhaltige,
+unabhängige und innovative Weise zu gestalten und weiterzuentwickeln, während
+gleichzeitig die Prinzipien der Offenheit und Gemeinschaftlichkeit im Umgang
+mit Wissen und Technologie gefördert werden.
+
+Digitale Souveränität repräsentiert für Bibliotheken damit nicht nur einen
+ethischen Imperativ, sondern führt auch zu einer überzeugenden strategischen
+Ausrichtung:
+
+- **Unabhängigkeit von Dienstleistern:** Durch die Selbstverwaltung und
+  -steuerung der eingesetzten digitalen Werkzeuge können Bibliotheken
+  spezifische Anpassungen vornehmen und sind nicht auf externe Anbieter
+  angewiesen, wodurch auch die Datenkontrolle intern bleibt.
+
+- **Aufbau von Know-how im Haus:** Die kontinuierliche Arbeit mit und
+  Entwicklung von digitalen Werkzeugen befähigt das Personal, ein vertieftes
+  technisches Verständnis und Fertigkeiten zu entwickeln, was langfristig zur
+  Selbstständigkeit und Innovationskraft beiträgt.
+
+- **Stärkung von Kooperation durch Open Source:** Gemeinsame
+  Entwicklungsprojekte im Open-Source-Bereich unterstützen nicht nur den
+  Wissensaustausch und die Innovationskraft unter Bibliotheken, sondern fördern
+  auch die Entstehung robuster und anpassbarer Technologien, die
+  gemeinschaftlich weiterentwickelt werden können.
+
+- **Öffentliches Geld für öffentliche Software:** Diese Philosophie
+  unterstreicht das Bestreben, mit öffentlichen Mitteln finanzierte Software
+  auch der gesamten Gemeinschaft zugänglich zu machen, wodurch der Grundsatz
+  der Transparenz und des gemeinschaftlichen Nutzens betont wird.
+
+- **Finanziell attraktiv:** Durch die Vermeidung von Lizenzkosten und die
+  Möglichkeit, Software nach Bedarf anzupassen und weiterzuentwickeln, eröffnen
+  Open-Source-Werkzeuge nicht nur kosteneffiziente, sondern auch
+  zukunftssichere Investitionspfade.
+
+- **Datenschutz und -sicherheit:** Eigenkontrolle über die Systeme kann zu
+  besseren Sicherheits- und Datenschutzpraktiken führen, da Bibliotheken
+  direkten Einfluss auf die Verwaltung und den Schutz von Benutzerdaten haben.
+
+- **Inklusion und Zugänglichkeit:** Die Fähigkeit, digitale Werkzeuge selbst zu
+  gestalten und anzupassen, ermöglicht es Bibliotheken, gezielt auf inklusive
+  Praktiken und die Schaffung barrierefreier Dienste und Ressourcen
+  hinzuwirken.
 
 ## Betriebssicherheit und Risikomanagement
 
