@@ -98,5 +98,6 @@ cff-version: 1.2.0
 license: CC-BY-4.0
 repository-code: https://github.com/pro4bib/handbuch-it-in-bibliotheken
 title: Handbuch IT in Bibliotheken
+type: dataset
 url: https://it-in-bibliotheken.de/
 

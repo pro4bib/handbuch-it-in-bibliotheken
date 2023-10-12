@@ -12,6 +12,7 @@ my ($contributors) = LoadFile("contributors.yml");
 my $cff = {
     'cff-version' => '1.2.0',
     url           => "https://it-in-bibliotheken.de/",
+    type          => "dataset",
     title         => $meta->{book}{title},
     abstract      => $meta->{book}{description},
     license       => "CC-BY-4.0",
