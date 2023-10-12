@@ -414,12 +414,10 @@ evaluieren und diese öffentlich in einem
 teilt.
 
 Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei
-Methoden: Beobachtungs- und Inspektionstests (@fig-6).
+Methoden: Beobachtungs- und Inspektionstests (@fig-usux).
 Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
-
-![&nbsp;](media/usability_ux.svg){#fig-6} 
 
 Als Vorteil der Beobachtungstests erweist sich aus der Praxissicht, dass
 diese auch ohne eine formale Usability-Ausbildung durch engagierte
