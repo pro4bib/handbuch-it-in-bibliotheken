@@ -34,7 +34,7 @@ angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![SDLC-Skizze (Platzhalter)](media/sdlc.svg){#fig-it-zyklus}
+![Softwareentwicklungs-Lebenszyklus](media/sdlc.svg){#fig-it-zyklus}
 
 ### Planung und Analyse
 
@@ -118,12 +118,17 @@ Optimierung der Programmabläufe vorgenommen.
 
 Typischerweise finden sich IT-Systeme, die grundlegende
 Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
-erstellt wurden, viele Jahre in dieser Phase. @fig-verweildauer
+erstellt wurden, viele Jahre in dieser Phase. 
+
+:::{.callout-tip collapse="true"}
+## Beispiel
+@fig-verweildauer
 illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
 ![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)](media/sw_lifespan.svg){#fig-verweildauer}
+:::
 
 ### Ablösung
 
