@@ -138,7 +138,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 - Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt werden.
 
-- Standardschriftart ist [Source Sans Pro](https://de.wikipedia.org/wiki/Source_Sans_Pro) und Standard-Farbe für Hervorhebungen ist Blau mit dem Farbcode `#2780e3`.
+- Standardschriftart ist [Source Sans Pro](https://de.wikipedia.org/wiki/Source_Sans_Pro) und Standard-Farbe für Hervorhebungen ist Blau mit dem Farbcode `#2780e3` und darauf aufbauende Hellblau-Töne.
 
 - Bitte nutzt sprechende Dateinamen!
 
