@@ -775,10 +775,10 @@ und Zahlen interpretiert), hängt von der jeweiligen Encodierung ab, wobei der
 Speicher eines Tags auch in unterschiedliche Encodierungsformate aufgeteilt
 werden kann, um Platz zu sparen.
 
-Folgendes Beispiel zeigt einen Speicherbereich, wie er auf dem Chip eines Tags
+@fig-speicher-rfid zeigt einen Speicherbereich, wie er auf dem Chip eines Tags
 vorkommen könnte:
 
-![Beispiel für einen Speicherbereich auf einem RFID-Tag](media/rfid-tag.png)
+![Beispiel für einen Speicherbereich auf einem RFID-Tag](media/rfid-tag.png){#fig-speicher-rfid}
 
 Hierbei ist der Speicher 32 Bit klein, was (geteilt durch 8) genau 4 Byte
 entspricht. Die einzelnen Bits können entweder 0 oder 1 sein und eine
