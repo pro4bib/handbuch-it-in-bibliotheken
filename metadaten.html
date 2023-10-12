@@ -201,6 +201,11 @@ div.csl-indent {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./glossar.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Abkürzungsverzeichnis</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./mitarbeit.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Hinweise zur Mitarbeit</span></a>
   </div>
 </li>
@@ -371,7 +376,7 @@ Zusammenfassung
 </ul>
 <p>Darüber hinaus gibt es besondere Formate, deren Anwendung in der Verarbeitung von Daten liegt. Neben Programmiersprachen, die selbst nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:</p>
 <ul>
-<li><p><strong>Schemasprachen</strong> wie XML Schema, JSON Schema und nicht zuletzt <em>reguläre Ausdrücke</em> dienen der formalen Beschreibung der Syntax von Datenformaten. Dabei bezieht sich jede Schemasprache auf eine Strukturierungssprache (<em>XML Schema</em> für XML-Formate, <em>Avram</em> für feldbasierte Formate, …).</p></li>
+<li><p><strong>Schemasprachen</strong> wie XML Schema, JSON Schema und nicht zuletzt <em>reguläre Ausdrücke</em> dienen der formalen Beschreibung der Syntax von Datenformaten. Dabei bezieht sich jede Schemasprache auf eine Strukturierungssprache (<em>XML Schema</em> für XML-Formate, <abbr title="Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+">Avram</abbr> für feldbasierte Formate, …).</p></li>
 <li><p><strong>Abfragesprachen</strong> dienen dem Verweis auf einzelne Teile von Datensätzen. Sie beziehen sich ebenfalls immer auf eine Strukturierungssprache (zum Beispiel XPath für XML, JSON Path für JSON, …) und sind für die Verarbeitung von Daten notwendig.</p></li>
 <li><p><strong>Modellierungssprachen</strong> helfen bei der Beschreibung von Datenmodellen. Die häufigsten Modellierungssprachen basieren auf dem Entity-Relationship-Modell. Da zwischen Syntax und Semantik irgendwann die reine Datenebene verlassen werden muss, sind die wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und Beschreibungen in natürlicher Sprache.</p></li>
 </ul>
@@ -412,7 +417,7 @@ Info
 </section>
 <section id="normdaten" class="level3">
 <h3 class="anchored" data-anchor-id="normdaten">Normdaten</h3>
-<p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen Identifikator versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <em>Normdaten</em> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
+<p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen Identifikator versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <abbr title="Datensätze zur eindeutigen Identifizierung und Referenzierung von Entitäten wie Personen, Organisationen, Themen…">Normdaten</abbr> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
 <p>Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu komplexen Wissensgraphen. Ein prominentes bibliothekarisches Beispiel ist die Gemeinsame Normdatei (<em>GND</em>), in der neben Personen auch Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.</p>
 <p>Zur Anreicherung von Daten mit Normdaten mittels <em>Entity Recognition</em> (Erkennung von Entitäten in Daten) und <em>Entity Linking</em> (Abgleich von Entitäten mit IDs anderer Normdateien) sollte unterschieden werden zwischen:</p>
 <ul>
