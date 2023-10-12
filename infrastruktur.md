@@ -761,7 +761,7 @@ Bibliotheken verbreitet ist und Zahlen, Großbuchstaben und ein paar wenige
 Sonderzeichen darstellen kann.
 
 ::: {#fig-barcode}
-!(media/code39.png)
+![](media/code39.png)
 Beispiel für einen Code39 Barcode
 :::
 
