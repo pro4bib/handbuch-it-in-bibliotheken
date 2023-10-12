@@ -756,11 +756,13 @@ dargestellt werden. Je weniger Zeichen von einem Barcodeformat unterstützt
 werden sollen, desto weniger Striche werden pro Zeichen benötigt und desto
 kompakter wird der Barcode (siehe [Strichcode in Wikipedia](https://de.wikipedia.org/wiki/Strichcode)).
 
-Folgendes Beispiel stellt einen Barcode im Code39-Format dar, welches in
+@fig-barcode stellt einen Barcode im Code39-Format dar, welches in
 Bibliotheken verbreitet ist und Zahlen, Großbuchstaben und ein paar wenige
 Sonderzeichen darstellen kann.
 
+::: {#fig-barcode}
 ![Beispiel für einen Code39 Barcode](media/code39.png)
+:::
 
 **QR-Codes** funktionieren analog, erweitern allerdings die Darstellung um eine
 zweite Dimension, sodass auf weniger Platz mehr Informationen dargestellt
