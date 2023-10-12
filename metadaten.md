@@ -719,6 +719,32 @@ als Teil anderer Programme (zum Beispiel [Statistik und
 Reporting](bibliotheksmanagementsysteme.md#statistik-und-reporting) als Teil
 des BMS).
 
+## Künstliche Intelligenz
+
+Unter den Begriffen Künstlichen Intelligenz, Machine Learning und Deep Learning
+werden verschiedene Verfahren der Datenverarbeitung zusammengefasst, die
+Aspekte menschlicher Intelligenz imitieren können. Auf Grundlage statistischer
+Verfahren lassen sich so Aufgaben automatisieren, für die bisher Personal
+notwendig gewesen wäre. Der Umfang der verarbeitbaren Daten wird lediglich
+durch die zur Verfügung stehende Rechenleistung begrenzt. Die Qualität der
+Ergebnisse hängt stark von der jeweiligen Aufgabenstellung und den eingesetzen
+Verfahren ab. Im besten Fall lassen sich die Ergebnisse praktisch nicht mehr
+von menschlich erzeugten Daten unterscheiden. Beim Einsatz von KI-Technologien
+sind allerdings auch ethische Aspekte zu beachten.
+
+Für die bibliothekarische Datenverarbeitung lassen sich grob zwei Arten von
+KI-Anwendungen unterscheiden:
+
+- Verfahren zur Analyse und Anreicherung von Daten, beispielsweise die
+  automatische Erschließung und Musterkennung im Rahmen der [Digitalisierung](digitalisierung.md).
+
+- Systeme die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen
+  von einfachen Chatbots bis zu umfangreichen Sprachmodellen wie ChatGPT.
+
+Die zunehmende Verfügbarkeit von leistungsfähigen KI-Systemen wird in absehbarer
+Zeit zu Änderungen in der Rezeption und Produktion von Medien führen und damit auch
+Auswirkungen auf die Arbeit von Bibliotheken haben.
+
 ## Zusammenfassung & Ausblick
 
 Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff
