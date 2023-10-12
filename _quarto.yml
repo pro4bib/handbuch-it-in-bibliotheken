@@ -3,7 +3,7 @@ project:
 
 metadata-files:
   - metadata.yml
-  - glossar.yml
+#  - glossar.yml
 
 book:
   downloads:
@@ -27,7 +27,7 @@ book:
     - kommunikation.md
     - literatur.md
   appendices:
-    - glossar.md
+#   - glossar.md
     - mitarbeit.md
   sidebar:
     style: docked
@@ -70,4 +70,4 @@ format:
 
 filters:
   - templates/pandoc-quotes.lua
-  - templates/glossary.lua
+#  - templates/glossary.lua

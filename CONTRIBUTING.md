@@ -32,7 +32,7 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 
 ## Styleguide {#styleguide .unnumbered}
 
-Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Glossar](#mitarbeit-glossar).
+Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien) und [Literaturverzeichnis](#mitarbeit-literatur).
 
 ### Zielgruppe {#zielgruppe}
 
@@ -112,7 +112,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 -   Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme
 
 -   Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
-    definiert. Die eingeführten Fachbegriffe müssen in einem Glossar für das gesamte Buch gebündelt werden.
+    definiert. Wichtige Begriffe können eine eigene Infobox zur Definition bekommen. 
 
 -   Wir vermeiden IT-Jargon.
 
@@ -128,7 +128,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 -   Links, die auf später entstehende Kapitel verweisen, werden durch eckige Klammern kenntlich gemacht.
 
--   *Kursive* Hervorhebung sollte nur für Namen und [Glossareinträge](#mitarbeit-glossar) verwendet werden.
+-   *Kursive* Hervorhebung sollte nur für Namen verwendet werden.
 
 -   Wir verzichten auf Fußnoten.
 
@@ -145,10 +145,6 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 ### Literaturverzeichnis {#mitarbeit-literatur .unnumbered}
 
 Die zitierte und weiterführende Literatur wird in einer Zotero-Gruppe unter <https://www.zotero.org/groups/4673379/it_in_bibliotheken> verwaltet. Der BibLaTex-Export dieser Bibliographie wird mit Aufruf von `make refs` von dort heruntergeladen und unter `references.bib` gespeichert. Diese Datei sollte also nicht direkt bearbeitet werden! Innerhalb des Markdown-Quelltext kann mittels [Pandoc-Citation Syntax](https://quarto.org/docs/authoring/footnotes-and-citations.html#sec-citations) und dem jeweiligen Citekey aus `references.bib` auf Literatur verwiesen werden.
-
-### Glossar {#mitarbeit-glossar .unnumbered}
-
-Das Glossar in der Datei `glossar.yml` enthält erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv* gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip umgewandelt.
 
 ### Autor\*innen-Verzeichnis {#mitarbeit-autorinnen .unnumbered}
 
