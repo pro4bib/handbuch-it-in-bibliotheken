@@ -2,22 +2,15 @@ Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbe
 
 ## Kurzfassung
 
-Neue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und Kommentare freigegeben sind können über GitHub oder Google Docs verbessert werden. Bitte schaut euch auch den [Styleguide] an!
+Neue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und weitere Änderungen freigegeben sind, können über die Feedback-Links verbessert werden:
 
 ![Feedback-Links unter dem Inhaltsverzeichnis rechts](media/feedback-links.png)
 
-<!--
+- **Seite editieren** führt zum Markdown-Quelltext und kann am schnellsten in die Publikation einfließen, benötigt aber einen GitHub-Account.
+- **Problem melden** führt zum [Issue-Tracker](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) für allgemeine Hinweise (benötigt ebenfalls GitHub-Account).
+- **Kapitel kommentieren** führt zu einer Kopie des Kapitels bei Google-Docs. Das ist zum Beitragen am einfachsten, muss aber später redaktionell in die Markdown-Quellen eingearbeitet werden.
 
-Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
-
-* In den Google-Snapshots fertiger Kapitel, möglichst als Kommentare (erfordert händische Nacharbeit durch Redaktion um Änderungen in die Markdown-Quellen einzuarbeiten).
-
-* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfließen
-
-  Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
-
--->
-
+Die ganz Technik-affinen können sich auch [das git-Repository klonen](https://github.com/pro4bib/handbuch-it-in-bibliotheken) und für das Look-and-Feel der HTML-Version mit [Quarto](https://quarto.org/) bearbeiten.
 
 ## Arbeitsablauf {.unnumbered}
 
