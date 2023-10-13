@@ -201,7 +201,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#arbeitsablauf" id="toc-arbeitsablauf" class="nav-link active" data-scroll-target="#arbeitsablauf">Arbeitsablauf</a></li>
+  <li><a href="#kurzfassung" id="toc-kurzfassung" class="nav-link active" data-scroll-target="#kurzfassung">Kurzfassung</a></li>
+  <li><a href="#arbeitsablauf" id="toc-arbeitsablauf" class="nav-link" data-scroll-target="#arbeitsablauf">Arbeitsablauf</a></li>
   <li><a href="#styleguide" id="toc-styleguide" class="nav-link" data-scroll-target="#styleguide">Styleguide</a>
   <ul class="collapse">
   <li><a href="#zielgruppe" id="toc-zielgruppe" class="nav-link" data-scroll-target="#zielgruppe">Zielgruppe</a></li>
@@ -245,6 +246,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des <a href="#arbeitsablauf">Arbeitsablauf</a>, Einhaltung des <a href="#styleguide">Styleguide</a> und die freie <a href="#lizenz">Lizenzierung</a> der eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist unter <a href="#technik">Technik</a> beschrieben.</p>
+<section id="kurzfassung" class="level2">
+<h2 class="anchored" data-anchor-id="kurzfassung">Kurzfassung</h2>
+<p>Neue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und Kommentare freigegeben sind können über GitHub oder Google Docs verbessert werden. Bitte schaut euch auch den <a href="#styleguide">Styleguide</a> an!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/feedback-links.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Feedback-Links unter dem Inhaltsverzeichnis rechts</figcaption>
+</figure>
+</div>
+<!--
+
+Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
+
+* In den Google-Snapshots fertiger Kapitel, möglichst als Kommentare (erfordert händische Nacharbeit durch Redaktion um Änderungen in die Markdown-Quellen einzuarbeiten).
+
+* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfließen
+
+  Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
+
+-->
+</section>
 <section id="arbeitsablauf" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="arbeitsablauf">Arbeitsablauf</h2>
 <p>Der aktuelle Workflow beinhaltet folgende Schritte:</p>
@@ -259,28 +281,17 @@ Fertige Kapitel werden einmalig nach Markdown konvertiert und im <a href="#techn
 </dd>
 <dt>Redaktion</dt>
 <dd>
-Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Drive einarbeiten und die DOCX-Datei aktualisieren.
+Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Docse einarbeiten und die DOCX-Datei aktualisieren.
 </dd>
 <dt>Publikation</dt>
 <dd>
-Änderungen an der Markdown-Dateien im git-Repository führen dazu, dass das Buch mittels <a href="https://quarto.org/">quarto</a> in HTML und anderen Formaten aus den Quellen zusammengebaut wird.
+Änderungen an der Markdown-Dateien im git-Repository führen dazu, dass das Buch mittels <a href="https://quarto.org/">quarto</a> in HTML und anderen Formaten aus den Quellen zusammengebaut wird. Eine Druckversion liegt noch nicht vor.
 </dd>
 </dl>
-<!-- TODO:
-
-Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
-
-* In den Google-Snapshots fertiger Kapitel, möglichst als Kommentare (erfordert händische Nacharbeit durch Redaktion um Änderungen in die Markdown-Quellen einzuarbeiten).
-
-* Direkt in den Markdown-Quelltexten -- kann direkt in die Publikation einfließen
-
-  Direkt in Markdown oder lokal mit einem Editor z.B. <https://quarto.org/docs/visual-editor/>
-
--->
 </section>
 <section id="styleguide" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="styleguide">Styleguide</h2>
-<p>Dieser Styleguide soll eine einheitliche Form trotz <a href="#mitarbeit-autorinnen">unterschiedlicher Autor*innen</a> gewährleisten. Dazu gibt es Hinweise zu <a href="#zielgruppe">Zielgruppe</a>, <a href="#schreibstil">Stil und Aktualität</a>, <a href="#schreibweise">Schreibweise</a> und <a href="#struktur">Struktur</a> sowie Vorgaben zu besonderen Inhalten wie <a href="#mitarbeit-medien">Bildern und anderen Medien</a>, <a href="#mitarbeit-literatur">Literaturverzeichnis</a> und <a href="#mitarbeit-glossar">Glossar</a>.</p>
+<p>Dieser Styleguide soll eine einheitliche Form trotz <a href="#mitarbeit-autorinnen">unterschiedlicher Autor*innen</a> gewährleisten. Dazu gibt es Hinweise zu <a href="#zielgruppe">Zielgruppe</a>, <a href="#schreibstil">Stil und Aktualität</a>, <a href="#schreibweise">Schreibweise</a> und <a href="#struktur">Struktur</a> sowie Vorgaben zu besonderen Inhalten wie <a href="#mitarbeit-medien">Bildern und anderen Medien</a>, <a href="#mitarbeit-literatur">Literaturverzeichnis</a> und <a href="#mitarbeit-glossar">Abkürzungsverzeichnis</a>.</p>
 <section id="zielgruppe" class="level3">
 <h3 class="anchored" data-anchor-id="zielgruppe">Zielgruppe</h3>
 <p>Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte <em>Personas</em> definiert:</p>
@@ -322,9 +333,11 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 <h4 class="unnumbered anchored" data-anchor-id="struktur-der-hauptkapitel">Struktur der Hauptkapitel</h4>
 <p>Das Handbuch behandelt <a href="index.html#inhalt">aufgeteilt in Hauptkapitel</a> die wesentlichen Themen rund um IT in Bibliotheken.</p>
 <ul>
-<li><p>Kapitel haben normalerweise einen Umfang von 3.000 bis 4.000 Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist, müssen sie sorgfältig in Unterkapitel aufgeteilt werden.</p></li>
 <li><p>Jedes Kapitel beginnt mit einer <strong>Kurzfassung</strong> als Infobox gefolgt von einer <strong>Einleitung</strong> und endet mit einem Abschnitt <strong>Zusammenfassung und Ausblick</strong>.</p></li>
-<li><p>Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld <code>description</code> <a href="https://developers.google.com/search/docs/advanced/appearance/snippet">für Suchmaschinen</a> (maximal etwa 158 Zeichen)</p></li>
+<li><p>Kapitel haben normalerweise einen Umfang von rund 4.000 Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist, müssen sie sorgfältig in Unterkapitel aufgeteilt werden.</p></li>
+<li><p>Die Strukturierung in Unterkapitel sollte stimmig und ausgewogen sein, insbesondere mit Blick auf die Ziele des Buches.</p></li>
+<li><p>Die Übergänge zwischen einzelnen Unterabschnitten sollten stimmig sein.</p></li>
+<li><p>Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld <code>description</code> <a href="https://developers.google.com/search/docs/advanced/appearance/snippet">für Suchmaschinen</a> (maximal 158 Zeichen)</p></li>
 </ul>
 </section>
 </section>
@@ -333,8 +346,9 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 <ul>
 <li><p>Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (*). In Markdown ist es sicherer dem Sternchen einen Backslash voranzustellen, z.B. <code>Autor\*innen</code>.</p></li>
 <li><p>Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme</p></li>
-<li><p>Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung definiert. Abkürzungen müssen in einem Glossar für das gesamte Buch gebündelt werden.</p></li>
+<li><p>Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung definiert. Abkürzungen werden zusätzlich <a href="#mitarbeit-glossar">im Abkürzungsverzeichnis</a> erfasst.</p></li>
 <li><p>Wir vermeiden IT-Jargon.</p></li>
+<li><p>Wir vermeiden Substantivierung („Digitalisierungswürdigkeit“) und unnötige Passiv-Formen.</p></li>
 <li><p>Quellen sollten nur dann genannt werden wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.</p></li>
 </ul>
 <section id="typografie" class="level4">
