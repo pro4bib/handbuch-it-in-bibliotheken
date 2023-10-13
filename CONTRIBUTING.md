@@ -1,22 +1,12 @@
 Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizenzierung](#lizenz) der eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist unter [Technik](#technik) beschrieben.
 
-## Arbeitsablauf {.unnumbered}
+## Kurzfassung
 
-Der aktuelle Workflow beinhaltet folgende Schritte:
+Neue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und Kommentare freigegeben sind können über GitHub oder Google Docs verbessert werden. Bitte schaut euch auch den [Styleguide] an!
 
-Schreiben
-  : Neue Themen werden durch Gruppen im Rahmen von Book Sprints erstellt. Als Werkzeug zum freien Schreiben dient dabei beispielsweise Google Docs.
+![Feedback-Links unter dem Inhaltsverzeichnis rechts](media/feedback-links.png)
 
-Lektorat
-  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#technik) des Handbuch abgelegt. Anschließend werden daraus *DOCX*-Dateien erstellt (Word) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) oder per Hinweis an [die Autor*innen](#autorinnen) erfolgen.
-
-Redaktion
-  : Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Drive einarbeiten und die DOCX-Datei aktualisieren.
-
-Publikation
-  : Änderungen an der Markdown-Dateien im git-Repository führen dazu, dass das Buch mittels [quarto] in HTML und anderen Formaten aus den Quellen zusammengebaut wird.
-
-<!-- TODO:
+<!--
 
 Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 
@@ -28,11 +18,28 @@ Mitarbeit ist also unter Anderem an folgenden Stellen möglich:
 
 -->
 
+
+## Arbeitsablauf {.unnumbered}
+
+Der aktuelle Workflow beinhaltet folgende Schritte:
+
+Schreiben
+  : Neue Themen werden durch Gruppen im Rahmen von Book Sprints erstellt. Als Werkzeug zum freien Schreiben dient dabei beispielsweise Google Docs.
+
+Lektorat
+  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#technik) des Handbuch abgelegt. Anschließend werden daraus *DOCX*-Dateien erstellt (Word) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) oder per Hinweis an [die Autor*innen](#autorinnen) erfolgen.
+
+Redaktion
+  : Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Docse einarbeiten und die DOCX-Datei aktualisieren.
+
+Publikation
+  : Änderungen an der Markdown-Dateien im git-Repository führen dazu, dass das Buch mittels [quarto] in HTML und anderen Formaten aus den Quellen zusammengebaut wird. Eine Druckversion liegt noch nicht vor.
+
 [quarto]: https://quarto.org/
 
 ## Styleguide {#styleguide .unnumbered}
 
-Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Glossar](#mitarbeit-glossar).
+Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Abkürzungsverzeichnis](#mitarbeit-glossar).
 
 ### Zielgruppe {#zielgruppe}
 
@@ -99,11 +106,15 @@ Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
 
 Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Themen rund um IT in Bibliotheken.
 
--   Kapitel haben normalerweise einen Umfang von 3.000 bis 4.000 Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist, müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
-
 -   Jedes Kapitel beginnt mit einer **Kurzfassung** als Infobox gefolgt von einer **Einleitung** und endet mit einem Abschnitt **Zusammenfassung und Ausblick**.
 
--   Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld `description` [für Suchmaschinen](https://developers.google.com/search/docs/advanced/appearance/snippet) (maximal etwa 158 Zeichen)
+-   Kapitel haben normalerweise einen Umfang von rund 4.000 Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist, müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
+
+-   Die Strukturierung in Unterkapitel sollte stimmig und ausgewogen sein, insbesondere mit Blick auf die Ziele des Buches.
+
+-   Die Übergänge zwischen einzelnen Unterabschnitten sollten stimmig sein.
+
+-   Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld `description` [für Suchmaschinen](https://developers.google.com/search/docs/advanced/appearance/snippet) (maximal 158 Zeichen)
 
 ### Schreibweise, Fachbegriffe und Verweise {#schreibweise .unnumbered}
 
@@ -112,9 +123,11 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 -   Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme
 
 -   Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
-    definiert. Abkürzungen müssen in einem Glossar für das gesamte Buch gebündelt werden.
+    definiert. Abkürzungen werden zusätzlich [im Abkürzungsverzeichnis](#mitarbeit-glossar) erfasst.
 
 -   Wir vermeiden IT-Jargon.
+
+-   Wir vermeiden Substantivierung ("Digitalisierungswürdigkeit") und unnötige Passiv-Formen.
 
 -   Quellen sollten nur dann genannt werden wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
 
