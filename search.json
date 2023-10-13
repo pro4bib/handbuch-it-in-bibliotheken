@@ -333,7 +333,7 @@
     "href": "mitarbeit.html#kurzfassung",
     "title": "Anhang B — Hinweise zur Mitarbeit",
     "section": "Kurzfassung",
-    "text": "Kurzfassung\nNeue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und Kommentare freigegeben sind können über GitHub oder Google Docs verbessert werden. Bitte schaut euch auch den Styleguide an!\n\n\n\nFeedback-Links unter dem Inhaltsverzeichnis rechts"
+    "text": "Kurzfassung\nNeue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und weitere Änderungen freigegeben sind, können über die Feedback-Links verbessert werden:\n\n\n\nFeedback-Links unter dem Inhaltsverzeichnis rechts\n\n\n\nSeite editieren führt zum Markdown-Quelltext und kann am schnellsten in die Publikation einfließen, benötigt aber einen GitHub-Account.\nProblem melden führt zum Issue-Tracker für allgemeine Hinweise (benötigt ebenfalls GitHub-Account).\nKapitel kommentieren führt zu einer Kopie des Kapitels bei Google-Docs. Das ist zum Beitragen am einfachsten, muss aber später redaktionell in die Markdown-Quellen eingearbeitet werden.\n\nDie ganz Technik-affinen können sich auch das git-Repository klonen und für das Look-and-Feel der HTML-Version mit Quarto bearbeiten."
   },
   {
     "objectID": "mitarbeit.html#arbeitsablauf",
