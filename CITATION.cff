@@ -12,6 +12,10 @@ authors:
   family-names: Brechmacher
   given-names: Janna
   orcid: 0000-0001-7233-7153
+- email: jens.bemme@slub-dresden.de
+  family-names: Bemme
+  given-names: Jens
+  orcid: 0000-0001-6860-0924
 - email: rqst@nvsbl.cm
   family-names: Carlin
   given-names: Sascha A.
@@ -79,6 +83,10 @@ authors:
   family-names: Strauß
   given-names: Florian
   orcid: 0000-0003-0168-0450
+- email: r.stroetgen@tu-braunschweig.de
+  family-names: Strötgen
+  given-names: Robert
+  orcid: 0000-0003-3320-5187
 - email: jakob.voss@gbv.de
   family-names: Voß
   given-names: Jakob
@@ -90,6 +98,10 @@ authors:
 - email: kerstin.wendt@sub.uni-hamburg.de
   family-names: Wendt
   given-names: Kerstin
+- email: carolin.zapke@bibliothek.tu-chemnitz.de
+  family-names: Zapke
+  given-names: Carolin
+  orcid: 0000-0002-2516-535X
 - email: david.zellhoefer@hwr-berlin.de
   family-names: Zellhöfer
   given-names: David
