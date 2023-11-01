@@ -74,6 +74,8 @@ Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
 
 -   **Das Buch soll als Nachschlagewerk dienen, das nicht vollständig durchgelesen werden muss.** Dabei helfen Redundanz und Querverweise (siehe [Hinweise zur Struktur](#struktur)).
 
+-   **Zumindest die einzelnen Kapitel sollen sich gut durchlesen lassen.** Insbesondere Brüche in Stil und Aussage, Widersprüche oder unnötige Redundanzen sind innerhalb der Kapitel unbedingt zu vermeiden. Unter Berücksichtung des Nachschlagewerk-Charakters streben wir auch einen guten Lesefluss innerhalb der Kapitel an.
+
 ### Struktur {#struktur .unnumbered}
 
 #### Struktur des Texts {.unnumbered}
