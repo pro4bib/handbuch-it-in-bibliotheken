@@ -4,6 +4,13 @@ description: ...
 
 # Kommunikation {#kommunikation}
 
+::: {.callout-note}
+
+Dies ist die erste öffentliche Entwurfsversion. Feedback siehe Links im rechten
+Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
+
+:::
+
 ## Einleitung
 
 Im Verhältnis zwischen Intranet und Öffentlichkeitsarbeit bewegt sich
