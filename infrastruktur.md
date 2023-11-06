@@ -1225,9 +1225,17 @@ Umständen je nach Zielgruppe angepasst werden muss.
 Die folgenden IT-Dienstleistungen dienen der Unterstützung der täglichen
 Arbeit, insbesondere im Hinblick auf verteilte Arbeitsumgebungen und
 mobiles Arbeiten. In vielen Fällen werden sie von der übergeordneten
-Einrichtung einer Bibliothek bereitgestellt.
+Einrichtung einer Bibliothek bereitgestellt. Neben dem Zugang zu Arbeitsmitteln
+dienen die Dienste vor allem der internen [Kommunikation und dem Wissenmanagement](kommunikation.md).
 
-*Siehe auch das geplante Kapitel zu [Wissensmanagement und Kommunikation](#kommunikation).*
+::: {.callout-tip}
+## Info
+
+**Wissensmanagement** besteht aus [Prozessen](#wissensmanagement) zur Erfassung
+und Weitergabe von Wissen innerhalb einer Organisation, das oft nur implizit in
+den Köpfen der Mitarbeitenden vorliegt.
+
+:::
 
 ### Mobiles Arbeiten
 
@@ -1260,46 +1268,25 @@ werden über eine *Firewall* aus Sicherheitsgründen dem gesamten Internet
 verborgen und sind nur über ein VPN auch außerhalb der Institution zum Beispiel
 aus dem Homeoffice zugreifbar.
 
+### Werkzeuge zur Kommunikation
+
+Wie im [Kapitel zur Kommunikation](kommunikation.md#kommunikation) beschrieben,
+gibt es verschiedene Werkzeuge zur synchronen und asynchronen Kommunikation von
+**Telefon** über **E-Mail** und **Chats** bis zu **Videokonferenzsystemen**.
+
+Neben der reinen Kommunikation dienen [bereitgestellte Werkzeuge](#werkzeuge)
+wie **Wikis** und **Ticketsystem** auch der Zusammenarbeit und Erstellung von
+Inhalten.
+
 ### Fileservices
 
 Dienstlich genutzte Dateien sollten an zentraler Stelle abgelegt werden,
 damit sie in eine Backup-Lösung eingeschlossen werden können und damit
 die Möglichkeit besteht, sie mit anderen Menschen auszutauschen.
-Entweder wird dazu einen klassischer Fileserver wie zum Beispiel Windows
-Server genutzt, oder es kommt eine Cloudlösung wie Nextcloud zum
+Entweder wird dazu einen klassischer Fileserver wie zum Beispiel *Windows
+Server* genutzt, oder es kommt eine Cloudlösung wie *Nextcloud* zum
 Einsatz. Zusätzlich oder alternativ kann ein
 [Dokumentenmanagementsystem](#dokumentenmanagementsysteme) genutzt werden.
-
-### Chat
-
-Chats zwischen Mitarbeiter\*innen dienen der niedrigschwelligen Kommunikation, oft
-als Alternative zu Telefon und E-Mail. Gruppenchats in Abteilungen können für
-einfache Fragen und Absprachen genutzt werden und Menschen, die mobil arbeiten,
-können mit einem Chatsystem besser integriert werden. Die Nutzung von
-kommerziellen Systemen, die noch dazu außerhalb von Europa gehostet werden, ist
-aus Datenschutzgründen nur in Ausnahmefällen zulässig (WhatsApp u.a., Teams,
-Slack, ...). Sofern die Möglichkeit besteht, ist ein selbst gehostetes, ggf
-Open Source System vorzuziehen (Beispiel: RocketChat).
-
-### E-Mail
-
-E-Mail ist ein Kommunikationsmedium, welches in den meisten Fällen vom Anbieter
-der IT-Infrastruktur angeboten wird. Ideal ist der Zugang per IMAP/SMTP und
-nicht nur über proprietäre Protokolle, so dass beliebige Clients genutzt werden
-können.
-
-### (Hybride) Konferenzsysteme
-
-Um Besprechungsräume so auszustatten, dass auch Menschen an Besprechungen
-teilnehmen können, die nicht anwesend sind, ist technische Infrastruktur
-erforderlich. Die Anwesenden müssen für die Anwesenden sichtbar und hörbar
-sein, ohne dass die Anwesenden Headsets tragen müssten. Dies erreicht man mit
-einer Art überdimensionalen Webcams, die automatisch auf die sprechende Person
-fokussieren und im Idealfall auch Störgeräusche (Echos, Rauschen, Rascheln)
-ausblenden. Die gängigen Systeme im knapp vierstelligen Eurobereich genügen für
-Konferenzen mit bis zu sechs anwesenden Personen um einen Tisch herum. Sind
-mehr Personen anwesend, steigt der technische Aufwand stark an, wenn man häufig
-hybrid arbeiten möchte und die anwesenden Personen nicht benachteiligen möchte.
 
 ### Dokumentenmanagementsystem (DMS) {#dokumentenmanagementsysteme}
 

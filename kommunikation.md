@@ -394,7 +394,7 @@ In beiden Fällen - ob eigene Domain oder eingegliedert in die
 Corporate Identity. Dennoch sollten insbesondere bei der Planung und
 späteren Konzeption gängige [Usability-Gesichtspunkte](#was-beeinflusst-den-nutzungseindruck) berücksichtigt werden.
 
-Gängige CMS sind Typo3, Wordpress, Drupal. Ob eine CMS vorgegeben ist
+Gängige CMS sind *Typo3*, *Wordpress*, *Drupal*. Ob eine CMS vorgegeben ist
 oder selbst festgelegt werden kann, ist von Institution zu Institution
 unterschiedlich und von den Rahmenbedingungen abhängig. Das gleiche gilt
 für das Hosting und den technischen Support der Website. Dies kann
@@ -414,7 +414,7 @@ ausführlicher und tiefer in eine Thematik einsteigen und über den rein
 informativen Charakter hinausgehen. Ein Blog kann einerseits als ein
 Bereich innerhalb eines Webauftritts angesiedelt werden oder als eigene
 Website existieren.  Für das Aufsetzen eines eigenständigen Blogs eignet
-sich vor allem das CMS Wordpress.
+sich vor allem das CMS *Wordpress*.
 
 ### Social Media
 
