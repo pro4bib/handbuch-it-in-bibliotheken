@@ -33,8 +33,9 @@ Kommunikationsweise:
 
 Auch wenn anhand des obigen Stufenmodells deutlich wird, dass der
 Übergang von einem internen zu einem externen Publikum als Kontinuum
-verstanden werden sollte, können aber die **Ziele von interner und
-externer Kommunikation** klar voneinander abgegrenzt werden:
+verstanden werden sollte, können aber die **[Ziele von interner](#ziele-interner-kommunikation)**
+und **[Ziele von externer Kommunikation](#ziele-externer-kommunikation)**
+klar voneinander abgegrenzt werden.
 
 ### Ziele interner Kommunikation
 
