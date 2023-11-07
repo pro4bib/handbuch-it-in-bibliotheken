@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
 ---
 
 # Digitalisierung
