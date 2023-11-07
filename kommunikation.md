@@ -6,8 +6,7 @@ description: ...
 
 ::: {.callout-note}
 
-Dies ist die erste öffentliche Entwurfsversion. Feedback siehe Links im rechten
-Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
+Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
 
 :::
 
