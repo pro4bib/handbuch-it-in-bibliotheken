@@ -1,4 +1,4 @@
-# Abbildungsverzeuichnis
+# Abbildungsverzeichnis
 
 *Hier fehlt noch ein vollständiges Abbildungsverzeichnis mit Quellenangaben*
 
