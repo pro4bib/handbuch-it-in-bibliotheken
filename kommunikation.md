@@ -1,10 +1,10 @@
 ---
-description: ...
+description: Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
 ---
 
 # Kommunikation {#kommunikation}
 
-::: {.callout-note}
+::: {.callout-important}
 
 Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
 

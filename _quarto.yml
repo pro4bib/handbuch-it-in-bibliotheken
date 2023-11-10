@@ -28,6 +28,7 @@ book:
     - literatur.md
   appendices:
     - glossar.md
+    - abbildungen.md
     - mitarbeit.md
   sidebar:
     style: docked

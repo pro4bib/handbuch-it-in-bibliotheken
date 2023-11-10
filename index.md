@@ -66,11 +66,11 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
 
 ::: {.callout-important}
 
-## Wichtig
+## Gut zu wissen
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
 werden kann und soll. **Tipps und Korrekturen** sind daher sehr willkommen!
-[Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
+[Hinweise zur Mitarbeit](#mitarbeit) und Details zur 
 Umsetzung des Handbuchs finden sich im Anhang.
 
 :::

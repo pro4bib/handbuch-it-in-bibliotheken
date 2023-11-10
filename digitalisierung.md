@@ -2,9 +2,9 @@
 description: Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
 ---
 
-# Digitalisierung
+# Digitalisierung {#digitalisierung}
 
-::: {.callout-note}
+::: {.callout-important}
 
 Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
 

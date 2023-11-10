@@ -1,22 +1,24 @@
-# Einleitung
+Einleitung
+==========
 
-## Motivation
+Motivation
+----------
 
 > Because the library has become software, it is no longer viable for
-> our services to exist separately from our software. \[\...\] Most
+> our services to exist separately from our software. \[...\] Most
 > importantly, all library staff must understand that our software is
-> our library, and is everyone's responsibility.
+> our library, and is everyone’s responsibility.
 >
-> --- \[@hanson_cody_opinion_2015\]
+> — \[@hanson\_cody\_opinion\_2015\]
 
-Mit der wachsenden Bedeutung der Informationstechnologie (IT) im
-Allgemeinen und für Bibliotheken im Besonderen bleibt kaum ein Aspekt
+Mit der wachsenden Bedeutung der **Informationstechnologie (IT) im
+Allgemeinen und für Bibliotheken im Besonderen** bleibt kaum ein Aspekt
 bibliothekarischer Aufgaben, der nicht durch IT unterstützt wird.
 Deutlich wird dies z.B. durch das stetig zunehmende Angebot an
 elektronischen Informationsmitteln, die Digitalisierung historischer
 Bestände, interoperable Metadaten oder auch die digitale
 Langzeitarchivierung. Die alltägliche Handhabung von IT (Smartphones,
-Automatisierung, Vernetzung, ...) wird häufig einfacher, die zugrunde
+Automatisierung, Vernetzung, …) wird häufig einfacher, die zugrunde
 liegenden Systeme werden jedoch immer komplexer und erfordern
 entsprechend mehr Wissen zu ihrem Aufbau und Betrieb. Während sich
 einige Teile der IT in Bibliotheken nicht wesentlich von IT in anderen
@@ -24,21 +26,23 @@ Bereichen unterscheiden, gibt es doch zahlreiche Aspekte von
 Bibliotheks-IT, die nicht oder nicht speziell genug an anderer Stelle
 behandelt werden. Das vorliegende Handbuch möchte diese Lücke schließen.
 
-## Zielgruppe
+Zielgruppe
+----------
 
 Als Einführung und Nachschlagewerk wendet sich dieses Handbuch vor allem
-an Personen, die sich einen ersten Überblick über die verschiedenen
-IT-Dienste an Bibliotheken verschaffen wollen. Dies können z. B.
+an Personen, die sich einen ersten **Überblick über die verschiedenen
+IT-Dienste an Bibliotheken** verschaffen wollen. Dies können z. B.
 Personen sein, die sich im Rahmen ihrer bibliothekarischen Ausbildung
 mit IT-Diensten in Bibliotheken beschäftigen oder die sich im Rahmen der
 Einarbeitung in eine neue Position mit IT-Diensten in Bibliotheken
 beschäftigen. Zur Veranschaulichung der Zielgruppen dienen mehrere
 sogenannte [Personas](#zielgruppe).
 
-## Inhalt
+Inhalt
+------
 
 Dieses Handbuch soll einen knappen und gleichzeitig umfassenden
-Überblick über die wichtigsten IT-bezogenen Themen in Bibliotheken
+Überblick über die wichtigsten **IT-bezogenen Themen in Bibliotheken**
 geben. Die einzelnen Themenkapitel sind weitgehend unabhängig
 voneinander lesbar und mit Querverweisen verbunden. Die Kapitel bilden
 grob zwei Blöcke:
@@ -83,43 +87,37 @@ grob zwei Blöcke:
     interner und externer Kommunikation von Wissensmanagement bis
     Öffentlichkeitsarbeit
 
-## Zur Entstehung dieses Handbuchs
+Gut zu wissen
+-------------
 
-Dieses Handbuch wurde [im Rahmen von drei Book
-Sprints](https://www.th-wildau.de/book-sprint/) zwischen April 2022 und
-Oktober 2023 an der Bibliothek der Technischen Hochschule Wildau
-erstellt. Dazu trafen sich IT-affine Expert\*innen aus dem
-Bibliotheksbereich, um innerhalb von wenigen Tagen eine umfassende
-Übersicht zu den [wichtigsten Themen](#inhalt) rund im IT in
-Bibliotheken zu verfassen. Die Veranstaltung wurde mit Mitteln des
-[Publikationsfonds für Open-Access-Monografien des Landes
-Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
-
-Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und
-aktualisiert werden kann. Bei der Bearbeitung sollten folgende
-Grundsätze beachtet werden:
-
--   Wir verzichten auf individuelle Autor\*innenschaft an einzelnen
-    Textteilen. Alle können an allen Teilen mitarbeiten.
-
--   Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen
-    Überblick geben. Für Details kann auf weiterführende Quellen
-    verwiesen werden.
-
-Kontaktinformationen und Neuigkeiten zum Projekt finden sich auf der
-Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
-\@Bach2023 und \@christensen_wie_2022.
-
-## Info
-
-Weitere [Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
+Das Handbuch ist ein “lebendiges Buch”, das stetig ergänzt und
+aktualisiert werden kann und soll. **Tipps und Korrekturen** sind daher
+sehr willkommen! [Hinweise zur Mitarbeit](#mitarbeit) und Details zur
 Umsetzung des Handbuchs finden sich im Anhang.
 
-## Beteiligte Autor\*innen
+Entstehungsgeschichte
+---------------------
 
-{{\< include \_contributors.md \>}}
+Zur Erstellung des Handbuchs wurden zwischen April 2022 und Oktober 2023
+[drei Book Sprints](https://www.th-wildau.de/book-sprint/) an der
+Bibliothek der Technischen Hochschule Wildau durchgeführt. Dabei trafen
+sich IT-affine [Expert\*innen aus dem Bibliotheksbereich](#autorinnen),
+um innerhalb von wenigen Tagen eine umfassende Übersicht zu den
+**[wichtigsten Themen](#inhalt) rund im IT in Bibliotheken** zu
+verfassen. Die Veranstaltung wurde mit Mitteln des [Publikationsfonds
+für Open-Access-Monografien des Landes
+Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
+Kontaktinformationen, Neuigkeiten und Hintergrund zum Projekt finden
+sich auf der Seite <https://www.th-wildau.de/book-sprint/> und in den
+Artikeln von @Bach2023 und @christensen\_wie\_2022.
 
-## Rechte an den Inhalten des Buchs
+Beteiligte Autor\*innen
+-----------------------
+
+{{&lt; include \_contributors.md &gt;}}
+
+Rechte an den Inhalten
+----------------------
 
 Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte
 dieses Buches unter der Lizenz [Creative Commons Namensnennung 4.0
@@ -127,9 +125,9 @@ Deutschland](https://creativecommons.org/licenses/by/4.0/de/) (CC-BY 4.0
 DE).
 
 Das heißt: Sie dürfen das Material in jedwedem Format oder Medium
-vervielfältigen und weiterverbreiten (Teilen) und das Material remixen,
-verändern und darauf aufbauen (Bearbeiten) und zwar für beliebige
-Zwecke, inklusive kommerzielle Zwecke, unter der Bedingung, dass Sie
-angemessene Urheber\*innen- und Rechteangaben machen, einen Link zur
-Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden
-(Namensnennung).
+vervielfältigen und weiterverbreiten (**Teilen**) und das Material
+remixen, verändern und darauf aufbauen (**Bearbeiten**) und zwar für
+beliebige Zwecke, inklusive kommerzielle Zwecke, unter der Bedingung,
+dass Sie angemessene Urheber\*innen- und Rechteangaben machen, einen
+Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden
+(**Namensnennung**).
