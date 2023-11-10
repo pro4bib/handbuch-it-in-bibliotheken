@@ -1,5 +1,14 @@
 Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizenzierung](#lizenz) der eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist unter [Technik](#technik) beschrieben.
 
+Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
+
+-   Wir verzichten auf individuelle Autor\*innenschaft an einzelnen
+    Textteilen. Alle können an allen Teilen mitarbeiten.
+
+-   Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen
+    Überblick geben. Für Details kann auf weiterführende Quellen
+    verwiesen werden.
+
 ## Kurzfassung
 
 Neue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und weitere Änderungen freigegeben sind, können über die Feedback-Links verbessert werden:

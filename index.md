@@ -9,37 +9,36 @@
 >
 > --- [@hanson_cody_opinion_2015]
 
-Mit der wachsenden Bedeutung der Informationstechnologie (IT) im
-Allgemeinen und für Bibliotheken im Besonderen bleibt kaum ein Aspekt
-bibliothekarischer Aufgaben, der nicht durch IT unterstützt wird.
-Deutlich wird dies z.B. durch das stetig zunehmende Angebot an
-elektronischen Informationsmitteln, die Digitalisierung historischer
-Bestände, interoperable Metadaten oder auch die digitale Langzeitarchivierung. Die
-alltägliche Handhabung von IT (Smartphones, Automatisierung,
-Vernetzung, ...) wird häufig einfacher, die zugrunde liegenden Systeme
-werden jedoch immer komplexer und erfordern entsprechend mehr Wissen zu
-ihrem Aufbau und Betrieb. Während sich einige Teile der IT in
-Bibliotheken nicht wesentlich von IT in anderen Bereichen unterscheiden,
-gibt es doch zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht
-speziell genug an anderer Stelle behandelt werden. Das vorliegende Handbuch 
-möchte diese Lücke schließen.
+Mit der wachsenden Bedeutung der **Informationstechnologie (IT) im Allgemeinen
+und für Bibliotheken im Besonderen** bleibt kaum ein Aspekt bibliothekarischer
+Aufgaben, der nicht durch IT unterstützt wird.  Deutlich wird dies z.B. durch
+das stetig zunehmende Angebot an elektronischen Informationsmitteln, die
+Digitalisierung historischer Bestände, interoperable Metadaten oder auch die
+digitale Langzeitarchivierung. Die alltägliche Handhabung von IT (Smartphones,
+Automatisierung, Vernetzung, ...) wird häufig einfacher, die zugrunde liegenden
+Systeme werden jedoch immer komplexer und erfordern entsprechend mehr Wissen zu
+ihrem Aufbau und Betrieb. Während sich einige Teile der IT in Bibliotheken
+nicht wesentlich von IT in anderen Bereichen unterscheiden, gibt es doch
+zahlreiche Aspekte von Bibliotheks-IT, die nicht oder nicht speziell genug an
+anderer Stelle behandelt werden. Das vorliegende Handbuch möchte diese Lücke
+schließen.
 
 ## Zielgruppe
 
-Als Einführung und Nachschlagewerk wendet sich dieses Handbuch vor allem
-an Personen, die sich einen ersten Überblick über die verschiedenen IT-Dienste 
-an Bibliotheken verschaffen wollen. Dies können z. B. Personen sein, die sich 
-im Rahmen ihrer bibliothekarischen Ausbildung mit IT-Diensten in Bibliotheken 
+Als Einführung und Nachschlagewerk wendet sich dieses Handbuch vor allem an
+Personen, die sich einen ersten **Überblick über die verschiedenen IT-Dienste
+an Bibliotheken** verschaffen wollen. Dies können z. B. Personen sein, die sich
+im Rahmen ihrer bibliothekarischen Ausbildung mit IT-Diensten in Bibliotheken
 beschäftigen oder die sich im Rahmen der Einarbeitung in eine neue Position mit
-IT-Diensten in Bibliotheken beschäftigen. Zur Veranschaulichung der Zielgruppen 
+IT-Diensten in Bibliotheken beschäftigen. Zur Veranschaulichung der Zielgruppen
 dienen mehrere sogenannte [Personas](#zielgruppe).
 
 ## Inhalt
 
-Dieses Handbuch soll einen knappen und gleichzeitig umfassenden Überblick über die 
-wichtigsten IT-bezogenen Themen in Bibliotheken geben. Die einzelnen Themenkapitel 
-sind weitgehend unabhängig voneinander lesbar und mit Querverweisen verbunden. Die
-Kapitel bilden grob zwei Blöcke:
+Dieses Handbuch soll einen knappen und gleichzeitig umfassenden Überblick über
+die wichtigsten **IT-bezogenen Themen in Bibliotheken** geben. Die einzelnen
+Themenkapitel sind weitgehend unabhängig voneinander lesbar und mit
+Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
  
 ### Allgemeine technische Grundlagen
  
@@ -49,7 +48,7 @@ Kapitel bilden grob zwei Blöcke:
 
 - [Anforderungsanalyse](anforderungen.md) umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
-- [Sicherheit & Datenschutz](sicherheit.md): *dieses Kapitel ist noch nicht fertig gestellt*
+- [Sicherheit & Datenschutz](sicherheit.md): *[dieses Kapitel ist noch nicht fertig gestellt]{.mark}*
  
 - [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
  
@@ -65,48 +64,44 @@ Kapitel bilden grob zwei Blöcke:
  
 - [Kommunikation](kommunikation.md) beinhaltet Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
 
-## Zur Entstehung dieses Handbuchs
+::: {.callout-important}
 
-Dieses Handbuch wurde [im Rahmen von drei Book
-Sprints](https://www.th-wildau.de/book-sprint/) zwischen April 2022 und Oktober 2023
-an der Bibliothek der Technischen Hochschule Wildau erstellt. Dazu trafen sich 
-IT-affine Expert\*innen aus dem Bibliotheksbereich, um innerhalb von wenigen Tagen eine
-umfassende Übersicht zu den [wichtigsten Themen](#inhalt) rund im IT in Bibliotheken zu
-verfassen. Die Veranstaltung wurde mit Mitteln des [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
+## Wichtig
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
-werden kann. Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
-
--   Wir verzichten auf individuelle Autor\*innenschaft an einzelnen
-    Textteilen. Alle können an allen Teilen mitarbeiten.
-
--   Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen
-    Überblick geben. Für Details kann auf weiterführende Quellen
-    verwiesen werden.
-
-Kontaktinformationen und Neuigkeiten zum Projekt finden sich auf der Seite <https://www.th-wildau.de/book-sprint/>
-und in den Artikeln von @Bach2023 und @christensen_wie_2022.
-
-::: {.callout-tip}
-## Info
-Weitere [Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
+werden kann und soll. **Tipps und Korrekturen** sind daher sehr willkommen!
+[Hinweise zur Mitarbeit](#mitarbeit) und Details zur technischen
 Umsetzung des Handbuchs finden sich im Anhang.
 
 :::
+
+## Entstehungsgeschichte
+
+Zur Erstellung des Handbuchs wurden zwischen April 2022 und Oktober 2023 [drei
+Book Sprints](https://www.th-wildau.de/book-sprint/) an der Bibliothek der
+Technischen Hochschule Wildau durchgeführt. Dabei trafen sich IT-affine 
+[Expert\*innen aus dem Bibliotheksbereich](#autorinnen), um innerhalb von
+wenigen Tagen eine umfassende Übersicht zu den **[wichtigsten Themen](#inhalt)
+rund im IT in Bibliotheken** zu verfassen. Die Veranstaltung wurde mit Mitteln
+des [Publikationsfonds für Open-Access-Monografien des Landes
+Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
+Kontaktinformationen, Neuigkeiten und Hintergrund zum Projekt finden sich auf
+der Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
+@Bach2023 und @christensen_wie_2022.
 
 ## Beteiligte Autor\*innen {#autorinnen}
 
 {{< include _contributors.md >}}
 
-## Rechte an den Inhalten des Buchs
+## Rechte an den Inhalten
 
 Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte dieses
 Buches unter der Lizenz [Creative Commons Namensnennung 4.0
 Deutschland](https://creativecommons.org/licenses/by/4.0/de/) (CC-BY 4.0 DE).
 
 Das heißt: Sie dürfen das Material in jedwedem Format oder Medium
-vervielfältigen und weiterverbreiten (Teilen) und das Material remixen,
-verändern und darauf aufbauen (Bearbeiten) und zwar für beliebige Zwecke,
+vervielfältigen und weiterverbreiten (**Teilen**) und das Material remixen,
+verändern und darauf aufbauen (**Bearbeiten**) und zwar für beliebige Zwecke,
 inklusive kommerzielle Zwecke, unter der Bedingung, dass Sie angemessene
 Urheber\*innen- und Rechteangaben machen, einen Link zur Lizenz beifügen und
-angeben, ob Änderungen vorgenommen wurden (Namensnennung).
+angeben, ob Änderungen vorgenommen wurden (**Namensnennung**).
