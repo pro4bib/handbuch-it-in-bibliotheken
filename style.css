@@ -36,3 +36,9 @@ div.csl-entry {
 .sidebar-item:hover {
   border-right: 2px solid #747a7f;
 }
+
+.callout.callout-style-simple .callout-body,
+.callout.callout-style-simple > div.callout-header
+{
+  font-size: 1rem;
+}
