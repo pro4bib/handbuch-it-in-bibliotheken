@@ -323,7 +323,7 @@ Forschungsinfrastrukturen, -aktivitäten und -ergebnisse (z. B. zu
 Projekten, Patenten, Preisen, Publikationen), für die eigene
 [Forschungsinformationssysteme](#forschungsinformationssysteme) existieren.
 
-![Forschungsinformationen und ihre Sicht auf Forschungsdaten](media/Sketch_FIS_FDM_CC_BY_Mau.png)
+![Forschungsinformationen und ihre Sicht auf Forschungsdaten](media/FIS_FDM_CC_BY_Mau.png)
 
 Der Lebenszyklus von Forschungsdaten beinhaltet die Erstellung,
 Speicherung, Archivierung bis hin zur Löschung aussortierter Daten.
@@ -517,10 +517,7 @@ Projekten, Patenten, Preisen oder Publikationen).
 
 :::
 
-![](media/Sketch_FIS_FDM_CC_BY_Mau.png)
-
-TODO: Ergänzende Abbildung:
-[https://doi.org/10.5281/zenodo.4388855](https://doi.org/10.5281/zenodo.4388855)
+![BILDUNTERSCHRIFT FEHLT](media/FIS_CC_BY_Mau.png)
 
 FIS führen Informationen zusammen, die dezentral in verschiedenen
 hochschulinternen Systemen (z. B. Drittmittelverwaltung,
