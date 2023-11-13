@@ -133,7 +133,7 @@ betrachtet werden. Ergänzend gibt es zahlreiche weitere Dienste, die das
 Open-Access-Publizieren vor allem administrativ unterstützen, von denen
 im Folgenden einige kurz erläutert werden.
 
-### Ergänzende Open-Access-Dienste
+### Open-Access-Dienste
 
 Neben der Unterstützung bei Open-Access-Veröffentlichungen haben sich im
 Zusammenhang mit der Open-Access-Transformation weitere IT-Dienste in
@@ -205,7 +205,7 @@ Output ist ein geeigneter Ort für deren Veröffentlichung, ganz besonders
 im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 
 Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
-wissenschaftliche Ergebnisse etabliert, seien es Forschungsdaten, textuelle
+wissenschaftliche Ergebnisse etabliert, seien es [Forschungsdaten], textuelle
 Publikationen oder andere Materialien. Für die wissenschaftliche Kommunikation
 ist dabei die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
 sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form
@@ -301,6 +301,8 @@ Referenzen
 
 ## Forschungsdatenmanagement
 
+[Forschungsdaten]: #forschungsdatenmanagement
+
 Die digitale Transformation hat Forschungsprozesse grundlegend
 verändert: In zahlreichen Fachdisziplinen entstehen an
 Forschungseinrichtungen heute täglich große Mengen digitaler Daten, die
@@ -309,21 +311,30 @@ visualisiert werden. Dabei stehen Wissenschaftler\*innen vor der
 Herausforderung, diese Daten nicht nur zu verwalten, sondern sie auch
 langfristig und nachvollziehbar vorzuhalten und möglichst offen zur
 Nachnutzung zur Verfügung zu stellen. Maßgeblich sind hierfür die
-sogenannten FAIR-Prinzipien, denen zufolge Forschungsdaten auffindbar
+sogenannten **FAIR-Prinzipien**, denen zufolge Forschungsdaten auffindbar
 (findable), zugänglich (accessible), interoperabel (interoperable) und
 nachnutzbar (reusable) sein sollen (vgl.
 [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 ).
 
-Forschungsdaten sind alle digital vorliegenden Daten, die während des
-Forschungsprozesses entstehen (z. B. Messdaten, Laborwerte,
-Videoaufnahmen, Umfrageergebnisse). Klar davon abzugrenzen sind
-Forschungsinformationen: Hierbei handelt es sich um Metadaten über
-Forschungsinfrastrukturen, -aktivitäten und -ergebnisse (z. B. zu
-Projekten, Patenten, Preisen, Publikationen), für die eigene
-[Forschungsinformationssysteme](#forschungsinformationssysteme) existieren.
+::: {.callout-important}
+## Definition
 
-![Forschungsinformationen und ihre Sicht auf Forschungsdaten](media/FIS_FDM_CC_BY_Mau.png)
+**Forschungsdaten** sind alle digital vorliegenden Daten, die während des
+Forschungsprozesses entstehen (z. B. Messdaten, Laborwerte, Videoaufnahmen,
+Umfrageergebnisse). Klar davon abzugrenzen sind
+[Forschungsinformationen](#forschungsinformationssysteme).
+
+:::
+
+Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt wie in
+@fig-fis-fdm dargestellt im Bereich Publikationen. Während sich allerdings
+Forschungsinformationen eher auf klassische, kontrolliert publizierte Dokumente
+beziehen, geht die Publikation von Forschungsdaten weit darüber hinaus und
+schließt jegliche Form von Aufzeichnungen wie Notizen und Zwischenergebnisse
+bis zu [Forschungssoftware](#forschungssoftware) mit ein.
+
+![Forschungsinformationen und ihre Sicht auf Forschungsdaten](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
 
 Der Lebenszyklus von Forschungsdaten beinhaltet die Erstellung,
 Speicherung, Archivierung bis hin zur Löschung aussortierter Daten.
@@ -499,25 +510,25 @@ eine Betrachtung der kompletten [Toolchain](#toolchain) notwendig macht.
 
 ## Forschungsinformationssysteme
 
+::: {.callout-important}
+## Definition
+
+**Forschungsinformationen** Angaben über Aktivitäten, Ergebnisse und
+Infrastrukturen von Forschungsprozessen wie zum Beispiel Projekte,
+Publikationen und Forschungseinrichtungen. Davon zu Unterscheiden sind
+[Forschungsdaten].
+
+:::
+
 Neben Forschungsdaten gewinnt auch die strukturierte Erfassung von
 Forschungsinformationen an Bedeutung. Entsprechende Systeme werden
 **Forschungsinformationssysteme** (FIS) genannt. Dabei handelt es sich um
 Datenbanksysteme, die speziell für die Erfassung, Organisation,
-Speicherung und Verknüpfung von [Forschungsinformationen]
+Speicherung und Verknüpfung von **Forschungsinformationen**
 konzipiert wurden. Sie können interne Anwendungen wie die
 leistungsorientierte Mittelvergabe unterstützen, aber auch für die
-Außendarstellung der Einrichtung genutzt werden.
-
-::: {.callout-important}
-## Definition
-
-Bei Forschungsinformationen handelt es sich um Metadaten über
-Forschungsinfrastrukturen, -aktivitäten und -ergebnisse (z. B. zu
-Projekten, Patenten, Preisen oder Publikationen).
-
-:::
-
-![BILDUNTERSCHRIFT FEHLT](media/FIS_CC_BY_Mau.png)
+Außendarstellung der Einrichtung genutzt werden. Eine Übersicht von
+Forschungsinformationen und ihre Sicht auf Forschungsdaten gibt @fig-fis-fdm.
 
 FIS führen Informationen zusammen, die dezentral in verschiedenen
 hochschulinternen Systemen (z. B. Drittmittelverwaltung,
@@ -543,6 +554,8 @@ werden. Bei der Einführung eines FIS handelt es sich um ein langjähriges
 Organisationsentwicklungsprojekt, das eine Offenheit für Veränderungen
 in den Prozessen und Workflows der Einrichtung voraussetzt.
 
+![BILDUNTERSCHRIFT FEHLT](media/FIS_CC_BY_Mau.png)
+
 Eine zentrale Herausforderung beim Aufbau eines FIS besteht darin, einen
 Überblick über die bestehenden Quellsysteme der Einrichtung zu gewinnen.
 In diesem Zusammenhang ist zum einen zu ermitteln, welche internen und
@@ -563,42 +576,40 @@ Sicherstellung der Datenintegrität und -qualität von entscheidender
 Bedeutung, um zu gewährleisten, dass das FIS korrekte und
 aussagekräftige Informationen liefert.
 
-Der Markt für FIS-Software ist sehr dynamisch. Vor dem Hintergrund, dass
-sich gerade viele Forschungseinrichtungen in der Planungs- und
-Aufbauphase von Forschungsinformationssystemen befinden, kommen in
-Deutschland immer neue Softwarelösungen zum Einsatz. Es zeigt sich ein
-vielgestaltiges Bild aus kommerziellen Produkten (z. B. PURE, Converis,
-HISinOne-RES), Open Source-Lösungen (z. B. DSpace-CRIS, VIVO) und
-Eigenentwicklungen. An deutschen Forschungseinrichtungen wird
-mittlerweile häufig HISinOne-RES genutzt - befördert unter anderem durch
-Landesinitiativen wie CRIS.NRW, HeFIS oder FIS-Thüringen sowie den
-Umstand, dass es aktuell das einzige Produkt am Markt ist, dessen
-Datenmodell direkt am Kerndatensatz Forschung (KDSF) ausgerichtet ist.
-Obwohl sich ein Rückgang an Eigenentwicklungen andeutet, sind sie immer
-noch weit verbreitet. Des Weiteren gibt es die bereits lange etablierten
-kommerziellen Systeme Converis und PURE. Der Einsatz von Open
-Source-Lösungen wie DSpace-CRIS und VIVO nimmt erst in den letzten
-Jahren merklich zu -- unter anderem befördert durch das Verbundprojekt
-Hamburg Open Science.
+Der Markt für FIS-Software ist sehr dynamisch. Vor dem Hintergrund, dass sich
+gerade viele Forschungseinrichtungen in der Planungs- und Aufbauphase von
+Forschungsinformationssystemen befinden, kommen in Deutschland immer neue
+Softwarelösungen zum Einsatz. Es zeigt sich ein vielgestaltiges Bild aus
+kommerziellen Produkten (z. B. *PURE*, *Converis*, HISinOne-RES), Open
+Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
+deutschen Forschungseinrichtungen wird mittlerweile häufig *HISinOne-RES*
+genutzt - befördert unter anderem durch Landesinitiativen wie *CRIS.NRW*,
+*HeFIS* oder *FIS-Thüringen* sowie den Umstand, dass es aktuell das einzige
+Produkt am Markt ist, dessen Datenmodell direkt am **Kerndatensatz Forschung
+(KDSF)** ausgerichtet ist.  Obwohl sich ein Rückgang an Eigenentwicklungen
+andeutet, sind sie immer noch weit verbreitet. Des Weiteren gibt es die bereits
+lange etablierten kommerziellen Systeme *Converis* und *PURE*. Der Einsatz von
+Open Source-Lösungen wie *DSpace-CRIS* und *VIVO* nimmt erst in den letzten
+Jahren merklich zu -- unter anderem befördert durch das Verbundprojekt Hamburg
+Open Science.
 
-An vielen Einrichtungen besteht das Bestreben, dass das FIS zusätzlich
-auch die Funktionalität eines Repositoriums übernehmen soll. Ein Vorteil
-eines solchen vereinigten Systems wird zum einen in den geringeren
-Systemkosten gesehen - zum anderen erscheint es weniger aufwendig, die
-bibliographischen Einträge in einem FIS schlicht mit den dazugehörigen
-Dateien anzureichern statt einen Workflow für das Zusammenspiel zwischen
-FIS und Repositorium zu entwickeln. Dem entgegen stehen jedoch die
-verschiedenen Zielsetzungen beider Systeme: Während es bei einem FIS vor
-allem darum geht, möglichst alle Forschungsaktivitäten z.B. einer
-Einrichtung in einem System zu erfassen, steht bei einem Repositorium
-die nachhaltige Bereitstellung der Ressourcen selbst im Vordergrund (z.
-B. textuelle Publikationen oder Forschungsdaten). Ein Problem bei
-Mischsystemen ergibt sich auch hinsichtlich Retrieval und Zugriff: So
-werden Forschende bei einer Suche in externen Suchmaschinen z. B. erst
-im FIS feststellen, dass nur bei einem Teil der Treffer tatsächlich
-Zugang zu den Ressourcen selbst besteht, in den meisten Fällen jedoch
-lediglich Nachweise der Ressourcen finden. In der Praxis sind
-FIS-Repositorien-Mischsysteme derzeit dennoch aufgrund von
+An vielen Einrichtungen besteht das Bestreben, dass das FIS zusätzlich auch die
+Funktionalität eines [Repositoriums](#repositorien-für-forschungsergebnisse)
+übernehmen soll. Ein Vorteil eines solchen vereinigten Systems wird zum einen
+in den geringeren Systemkosten gesehen - zum anderen erscheint es weniger
+aufwendig, die bibliographischen Einträge in einem FIS schlicht mit den
+dazugehörigen Dateien anzureichern statt einen Workflow für das Zusammenspiel
+zwischen FIS und Repositorium zu entwickeln. Dem entgegen stehen jedoch die
+verschiedenen Zielsetzungen beider Systeme: Während es bei einem FIS vor allem
+darum geht, möglichst alle Forschungsaktivitäten z.B. einer Einrichtung in
+einem System zu erfassen, steht bei einem Repositorium die nachhaltige
+Bereitstellung der Ressourcen selbst im Vordergrund (z.  B. textuelle
+Publikationen oder Forschungsdaten). Ein Problem bei Mischsystemen ergibt sich
+auch hinsichtlich Retrieval und Zugriff: So werden Forschende bei einer Suche
+in externen Suchmaschinen z. B. erst im FIS feststellen, dass nur bei einem
+Teil der Treffer tatsächlich Zugang zu den Ressourcen selbst besteht, in den
+meisten Fällen jedoch lediglich Nachweise der Ressourcen finden. In der Praxis
+sind FIS-Repositorien-Mischsysteme derzeit dennoch aufgrund von
 Ressourcenknappheit nicht wegzudenken.
 
 Um eine Interoperabilität der unterschiedlichen Systeme und eine gute
