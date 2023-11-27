@@ -34,10 +34,10 @@ zusammengefasst, die Wissenschaftler\*innen im gesamten
 Forschungsprozess unterstützen sollen und die überwiegend im Kontext von
 digitalem Wandel und Open Science angesiedelt sind
 (<https://www.o-bib.de/bib/article/view/5718>).
-Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
+Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
-Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die
+Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die
 unter Open-Access-Bedingungen zweitveröffentlicht werden dürfen, gehören
 schon seit Jahrzehnten zum Dienstleistungsrepertoire wissenschaftlicher
 Bibliotheken. Inzwischen betreiben größere Einrichtungen zudem oft
@@ -105,7 +105,7 @@ durch die Verlagerung der Kosten weg vom Lesen hin zum Publizieren wird
 der *scholar-led*-Ansatz immer gefragter und Bibliotheken geraten in die
 Situation, Expertise in diesem Bereich aufbauen zu müssen.
 
-Zur Schaffung einer technischen Infrastruktur lässt sich z. B. mit der Software
+Zur Schaffung einer technischen Infrastruktur lässt sich z. B. mit der Software
 *[Open Journal Systems (OJS)](https://ojs-de.net/ueber-ojs)* eine Plattform zur
 Verfügung stellen, die die strukturierte Veröffentlichung von
 Zeitschriften(-artikeln) ermöglicht. Parallel dazu müssen auch die
@@ -206,7 +206,7 @@ im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 
 Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
 wissenschaftliche Ergebnisse etabliert, seien es [Forschungsdaten], textuelle
-Publikationen oder andere Materialien. Für die wissenschaftliche Kommunikation
+Publikationen, Softwarecode oder andere Materialien (siehe @fig-informationstypen). Für die wissenschaftliche Kommunikation
 ist dabei die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
 sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form
 erhalten werden, das heißt nicht verändert oder gelöscht werden. Da
@@ -216,26 +216,26 @@ damit der langfristige, möglichst originalgetreue Erhalt der einmal
 eingestellten Informationen grenzen Repositorien gegenüber anderen
 Arbeitsplattformen wie Sync-and-Share-Plattformen (z.  B. Nextcloud),
 Content-Management-Systemen (zur Erstellung von Blogs und Internetseiten) sowie
-virtuellen Forschungsumgebungen (mit integrierten Funktionen z. B. für die
+virtuellen Forschungsumgebungen (mit integrierten Funktionen z. B. für die
 Datenanalyse) ab.
 
 Es lassen sich grundlegend zwei Typen von Repositorien unterscheiden:
 Disziplinspezifische Repositorien sammeln die Inhalte einer bestimmten
 Forschungsdisziplin (Suche nach Disziplin möglich über
 [re3data](https://www.re3data.org/)), während generische
-Repositorien Inhalte unterschiedlicher Disziplinen aufnehmen (z. B.
+Repositorien Inhalte unterschiedlicher Disziplinen aufnehmen (z. B.
 [Zenodo](https://zenodo.org)). Einen Sonderfall
 fachübergreifender Repositorien bilden institutionelle Repositorien, die
 speziell für die Mitglieder der jeweiligen Institution zur Verfügung
 stehen. Einige Repositorien widmen sich zudem speziell der Sammlung
-bestimmter Datentypen (z. B. Preprint- oder Publikationsserver,
+bestimmter Datentypen (z. B. Preprint- oder Publikationsserver,
 Forschungsdatenrepositorien, Bilddatenbanken, ...). Insbesondere im
 Bereich Forschungsdaten und Open Educational Resources gibt es seitens
 der Nutzer\*innen häufig den Wunsch, dass in Repositorien auch eine
 interaktive Arbeit mit den Materialien möglich ist. Derzeit sind
 Repositorien aber in der Regel noch ausschließlich auf die sichere
 Speicherung und Bereitstellung der Inhalte ausgerichtet - eine
-Erweiterung um Funktionalitäten z. B. zur Visualisierung oder Analyse
+Erweiterung um Funktionalitäten z. B. zur Visualisierung oder Analyse
 würden sie in die Nähe von virtuellen Forschungsumgebungen rücken.
 Häufig werden Repositorien und Repositoriensoftware zudem mit der
 digitalen Langzeitarchivierung als Kernfunktionalität in Verbindung
@@ -280,16 +280,16 @@ Universitäten eingesetzt wird, ist bei Fachhochschulen und HAWen
 das meist durch den Kooperativen Bibliotheksverbund Berlin-Brandenburg
 (KOBV) oder das Bibliotheksservice-Zentrum Baden-Württemberg (BSZ)
 gehostet wird. Der Gemeinsame Bibliotheksverbund (GBV) bietet mit
-*[MyCORE](http://www.mycore.org)* eine weitere
-Repositoriensoftwarelösung an. OPUS und MyCORE finden bislang
+*[MyCoRe](http://www.mycore.org)* eine weitere
+Repositoriensoftwarelösung an. *OPUS* und *MyCoRe* finden bislang
 ausschließlich im deutschsprachigen Raum Anwendung, während DSpace von
 einer globalen Community getragen wird. Für Forschungsdatenrepositorien
-kommt zum Teil DSpace, zum Teil die auf Forschungsdaten spezialisierte
+kommt zum Teil *DSpace*, zum Teil die auf Forschungsdaten spezialisierte
 Software *[Dataverse](https://dataverse.org)* zum Einsatz.
 
 TODO: Abb. zu den Informationstypen im Zusammenhang mit Repositorien? Etwas:
 
-![BILDUNTERSCHRIFT FEHLT](media/information-types.png)
+![Informationstypen](media/information-types.png){#fig-informationstypen}
 
 Referenzen
 
@@ -321,11 +321,13 @@ nachnutzbar (reusable) sein sollen (vgl.
 ## Definition
 
 **Forschungsdaten** sind alle digital vorliegenden Daten, die während des
-Forschungsprozesses entstehen (z. B. Messdaten, Laborwerte, Videoaufnahmen,
+Forschungsprozesses entstehen (z. B. Messdaten, Laborwerte, Videoaufnahmen,
 Umfrageergebnisse). Klar davon abzugrenzen sind
-[Forschungsinformationen](#forschungsinformationssysteme).
+[Forschungsinformationen](#forschungsinformationssysteme). Der Lebenszyklus von Forschungsdaten beinhaltet die Erstellung, Speicherung, Archivierung bis hin zur Löschung aussortierter Daten.
 
 :::
+
+![Der Forschungsdatenlebenszyklus](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus}
 
 Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt wie in
 @fig-fis-fdm dargestellt im Bereich Publikationen. Während sich allerdings
@@ -335,9 +337,6 @@ schließt jegliche Form von Aufzeichnungen wie Notizen und Zwischenergebnisse
 bis zu [Forschungssoftware](#forschungssoftware) mit ein.
 
 ![Forschungsinformationen und ihre Sicht auf Forschungsdaten](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
-
-Der Lebenszyklus von Forschungsdaten beinhaltet die Erstellung,
-Speicherung, Archivierung bis hin zur Löschung aussortierter Daten.
 
 Services zum Forschungsdatenmanagement sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
@@ -362,17 +361,15 @@ FDM-Servicestellen oder dezentral in Projekten oder Fachbereichen
 angesiedelt sind.
 
 Die von Bibliotheken angebotenen Services zum Forschungsdatenmanagement
-umfassen in der Regel sowohl nicht-technische Services (z. B. Schulungs-
+umfassen in der Regel sowohl nicht-technische Services (z. B. Schulungs-
 und Beratungsangebote) als auch verschiedene technische Dienste. Zu den
 wichtigsten technischen Diensten für das Forschungsdatenmanagement, die
 von Bibliotheken (mit-)betrieben werden, gehören
 Forschungsdatenrepositorien. Diese ermöglichen die Veröffentlichung von
 Forschungsdaten als eigene Informationsobjekte gemäß den FAIR-Prinzipien
-(TODO: siehe hierzu ausführlich den Abschnitt Repositorien für
-Forschungsergebnisse). Daneben werden häufig weitere FDM-Tools
+(TODO: siehe hierzu ausführlich den Abschnitt [Repositorien für
+Forschungsergebnisse](#repositorien-für-forschungsergebnisse)). Daneben werden häufig weitere FDM-Tools
 angeboten, von denen einige im Folgenden vorgestellt werden sollen.
-
-![BILDUNTERSCHRIFT FEHLT](media/fd-lifecycle.svg)
 
 ### Tools zur Erstellung von Datenmanagementplänen
 
@@ -391,7 +388,7 @@ ist der aus einem DFG-Projekt entstandene [Research Data Management
 Organizer](https://rdmorganiser.github.io/) (RDMO), für
 den, auch unterstützt durch NFDI-Konsortien, ständig neue Fragenkataloge
 in einer Gemeinschaftsarbeit entwickelt werden. Obwohl einige
-öffentliche Instanzen der Software existieren, die z. B. einen Login
+öffentliche Instanzen der Software existieren, die z. B. einen Login
 über die ORCID ermöglichen, kann die Open-Source-Software auch selbst
 gehostet und inhaltlich sowie visuell auf die Bedarfe der jeweiligen
 Einrichtung zugeschnitten werden. DMP können innerhalb dieser Software
@@ -428,7 +425,7 @@ eines einheitlichen Transferformats der Laborbucheinträge und
 gemeinsamer Spezifikationen wird im [ELN
 Consortium](https://github.com/TheELNConsortium)
 adressiert.
-Hilfestellung bei der Auswahl eines passenden Produkts bietet z. B. der
+Hilfestellung bei der Auswahl eines passenden Produkts bietet z. B. der
 [ELN-Finder](https://eln-finder.ulb.tu-darmstadt.de/home).
 
 ### Git 
@@ -476,7 +473,7 @@ Auch die FAIR-Prinzipien sollten für Forschungssoftware Anwendung finden
 (vgl.
 [https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)).
 Hier liegt es auch an den Bibliotheken, einerseits ein Bewusstsein dafür
-zu schaffen (z. B. durch dedizierte Policies), aber andererseits auch
+zu schaffen (z. B. durch dedizierte Policies), aber andererseits auch
 die benötigte Infrastruktur bereitzustellen.
 
 Zur Zitierbarkeit von Forschungssoftware/Code dient die Generierung von
@@ -513,7 +510,7 @@ eine Betrachtung der kompletten [Toolchain](#toolchain) notwendig macht.
 ::: {.callout-important}
 ## Definition
 
-**Forschungsinformationen** Angaben über Aktivitäten, Ergebnisse und
+**Forschungsinformationen** sind Angaben über Aktivitäten, Ergebnisse und
 Infrastrukturen von Forschungsprozessen wie zum Beispiel Projekte,
 Publikationen und Forschungseinrichtungen. Davon zu Unterscheiden sind
 [Forschungsdaten].
@@ -531,10 +528,10 @@ Außendarstellung der Einrichtung genutzt werden. Eine Übersicht von
 Forschungsinformationen und ihre Sicht auf Forschungsdaten gibt @fig-fis-fdm.
 
 FIS führen Informationen zusammen, die dezentral in verschiedenen
-hochschulinternen Systemen (z. B. Drittmittelverwaltung,
+hochschulinternen Systemen (z. B. Drittmittelverwaltung,
 Personalverwaltungssysteme, Repositorien) und externen Quellsystemen (z.
 B. Scopus, ORCID) vorgehalten werden, um einen strukturierten und
-aktuellen Überblick über die Forschungsleistungen z. B. einer
+aktuellen Überblick über die Forschungsleistungen z. B. einer
 Einrichtung, eines (Bundes-)Landes oder einer Fachdisziplin zu gewinnen.
 
 Die genauen Daten, die Nutzung der Daten und der Funktionsumfang eines
@@ -561,7 +558,7 @@ Eine zentrale Herausforderung beim Aufbau eines FIS besteht darin, einen
 In diesem Zusammenhang ist zum einen zu ermitteln, welche internen und
 externen Systeme relevant sind und wer die entsprechenden
 Ansprechpartner\*innen an der Einrichtung sind. Dies betrifft u. a. die
-Bibliothek (z. B. Repositorien), die Personalverwaltung
+Bibliothek (z. B. Repositorien), die Personalverwaltung
 (Identitätsmanagement), die Drittmittelverwaltung (Datenbank für
 Projekte), die Doktorand\*innenverwaltung oder die Patentverwaltung der
 Einrichtung.
@@ -580,8 +577,8 @@ Der Markt für FIS-Software ist sehr dynamisch. Vor dem Hintergrund, dass sich
 gerade viele Forschungseinrichtungen in der Planungs- und Aufbauphase von
 Forschungsinformationssystemen befinden, kommen in Deutschland immer neue
 Softwarelösungen zum Einsatz. Es zeigt sich ein vielgestaltiges Bild aus
-kommerziellen Produkten (z. B. *PURE*, *Converis*, HISinOne-RES), Open
-Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
+kommerziellen Produkten (z. B. *PURE*, *Converis*, HISinOne-RES), Open
+Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
 deutschen Forschungseinrichtungen wird mittlerweile häufig *HISinOne-RES*
 genutzt - befördert unter anderem durch Landesinitiativen wie *CRIS.NRW*,
 *HeFIS* oder *FIS-Thüringen* sowie den Umstand, dass es aktuell das einzige
@@ -601,20 +598,20 @@ aufwendig, die bibliographischen Einträge in einem FIS schlicht mit den
 dazugehörigen Dateien anzureichern statt einen Workflow für das Zusammenspiel
 zwischen FIS und Repositorium zu entwickeln. Dem entgegen stehen jedoch die
 verschiedenen Zielsetzungen beider Systeme: Während es bei einem FIS vor allem
-darum geht, möglichst alle Forschungsaktivitäten z.B. einer Einrichtung in
+darum geht, möglichst alle Forschungsaktivitäten z. B. einer Einrichtung in
 einem System zu erfassen, steht bei einem Repositorium die nachhaltige
 Bereitstellung der Ressourcen selbst im Vordergrund (z.  B. textuelle
 Publikationen oder Forschungsdaten). Ein Problem bei Mischsystemen ergibt sich
 auch hinsichtlich Retrieval und Zugriff: So werden Forschende bei einer Suche
-in externen Suchmaschinen z. B. erst im FIS feststellen, dass nur bei einem
-Teil der Treffer tatsächlich Zugang zu den Ressourcen selbst besteht, in den
+in externen Suchmaschinen z. B. erst im FIS feststellen, dass nur bei einem
+Teil der Treffer tatsächlich Zugang zu den Ressourcen selbst besteht, sie in den
 meisten Fällen jedoch lediglich Nachweise der Ressourcen finden. In der Praxis
 sind FIS-Repositorien-Mischsysteme derzeit dennoch aufgrund von
 Ressourcenknappheit nicht wegzudenken.
 
 Um eine Interoperabilität der unterschiedlichen Systeme und eine gute
 Auffindbarkeit der enthaltenen Ressourcen zu ermöglichen, ist eine
-Standardisierung notwendig - z.B. über Zertifikate, Metadatenstandards
+Standardisierung notwendig - z. B. über Zertifikate, Metadatenstandards
 und Schnittstellen. Die in diesem Zusammenhang wichtigen Grundlagen
 werden im folgenden Kapitel erläutert.
 
@@ -684,12 +681,12 @@ Metadaten sind Daten struktureller, technischer, administrativer,
 bibliographischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe
 Kap. **Daten & Metadaten** bzw. *Metadatenstandards*)*.* Metadaten werden oft
 in einer Schlüssel-Wert-Struktur genutzt, bei der der Schlüssel vorgibt, welche
-Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum, ...) im Wert zu finden ist
+Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum, ...) im Wert zu finden ist
 (siehe Kap. **Daten & Metadaten** bzw*. Grundlegende Begrifflichkeiten*).
 Strukturell werden flache und hierarchische Metadatenschemata unterschieden.
 Flache Metadatenschemata beschränken sich auf eine einfache Struktur aus
 Schlüssel-Wert-Paaren. Hierarchische Metadatenschemata sehen vor, Werte aus
-anderen Werten zusammensetzen zu können, so dass z. B. die Autorenschaft in den
+anderen Werten zusammensetzen zu können, so dass z. B. die Autorenschaft in den
 Metadaten über Personen modelliert werden können und zu jeder Person Vorname,
 Nachname und weitere Angaben in untergeordneten Werten gespeichert wird.
 Hierarchische Metadatenschemata haben dabei oft etliche dieser Hierarchieebenen
@@ -762,7 +759,7 @@ moderner aufgestellt und leichter zu integrieren. Mit
 Persistent Identifier Systeme, die zunehmend Verbreitung finden und
 Personen bzw. Einrichtungen eindeutig identifizieren.
 
-Die Vergabe von PIDs für Publikationen (z. B. Texte, Forschungsdaten)
+Die Vergabe von PIDs für Publikationen (z. B. Texte, Forschungsdaten)
 auf Publikationsservern bzw. Datenrepositorien wird teilweise von den
 wissenschaftlichen Bibliotheken gewährleistet. Somit werden
 Forschungsdaten nachhaltig unter entsprechenden Lizenzen öffentlich
@@ -944,7 +941,7 @@ Schwerpunkt hierbei insbesondere auf Services zur Unterstützung des
 Publikationsprozesses sowie des Forschungsdatenmanagements.
 
 Wie das vorliegende Kapitel anschaulich gezeigt hat, umfassen diese
-Services auch eine Vielzahl an IT-Diensten, so z. B.
+Services auch eine Vielzahl an IT-Diensten, so z. B.
 Journal-Publishing-Systeme, Repositorien und
 Forschungsinformationssysteme. Der stabile und nachhaltige Betrieb
 solcher Dienste umfasst technische, organisatorische und inhaltliche
