@@ -72,13 +72,9 @@ Fachdiskussion sind dazu Begriffe wie "scholar-led publishing" oder
 Bibliotheken sehen sich hier als vertrauenswürdige, öffentlich
 finanzierte Dienstleister für die Wissenschaftscommunitys.
 
-Eine Konsequenz daraus ist, dass es bei den forschungsnahen Diensten so
-selbstverständlich wie in wohl keinem anderen Bereich der IT an
-Bibliotheken ist, Open Source-Software einzusetzen und oft sogar aktiv
-an Open Source-Software mitzuentwickeln. Auch die Bedeutung der
-gemeinschaftlichen Pflege offener Standards, Datenmodelle und
-Daten-Gemeingüter ist nur in wenigen Bereichen bibliothekarischer
-Dienstleistungen so ausgeprägt wie hier.
+Der Einsatz von und die aktive Mitarbeit an Open Source-Software ist bei den
+forschungsnahen Diensten stärker als in anderen Bereichen der Bibliotheks-IT
+eine Selbstverständlichkeit. Auch die Bedeutung der gemeinschaftlichen Pflege offener Standards, Datenmodelle und Daten-Gemeingüter ist hier besonders stark ausgeprägt.
 
 ## Publikationsdienste
 
@@ -287,10 +283,6 @@ einer globalen Community getragen wird. Für Forschungsdatenrepositorien
 kommt zum Teil *DSpace*, zum Teil die auf Forschungsdaten spezialisierte
 Software *[Dataverse](https://dataverse.org)* zum Einsatz.
 
-TODO: Abb. zu den Informationstypen im Zusammenhang mit Repositorien? Etwas:
-
-![Informationstypen](media/information-types.png){#fig-informationstypen}
-
 Referenzen
 
 - Beate Rajski, Pascal Becker, \"DSpace-Konsortium Deutschland --
@@ -336,7 +328,7 @@ beziehen, geht die Publikation von Forschungsdaten weit darüber hinaus und
 schließt jegliche Form von Aufzeichnungen wie Notizen und Zwischenergebnisse
 bis zu [Forschungssoftware](#forschungssoftware) mit ein.
 
-![Forschungsinformationen und ihre Sicht auf Forschungsdaten](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
+![Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
 
 Services zum Forschungsdatenmanagement sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
@@ -512,7 +504,7 @@ eine Betrachtung der kompletten [Toolchain](#toolchain) notwendig macht.
 
 **Forschungsinformationen** sind Angaben über Aktivitäten, Ergebnisse und
 Infrastrukturen von Forschungsprozessen wie zum Beispiel Projekte,
-Publikationen und Forschungseinrichtungen. Davon zu Unterscheiden sind
+Publikationen und Forschungseinrichtungen. Davon zu unterscheiden sind
 [Forschungsdaten].
 
 :::
@@ -551,7 +543,7 @@ werden. Bei der Einführung eines FIS handelt es sich um ein langjähriges
 Organisationsentwicklungsprojekt, das eine Offenheit für Veränderungen
 in den Prozessen und Workflows der Einrichtung voraussetzt.
 
-![BILDUNTERSCHRIFT FEHLT](media/FIS_CC_BY_Mau.png)
+![Herausforderungen beim Aufbau eines Forschungsinformationssystem (CC-BY Franziska Mau)](media/FIS_CC_BY_Mau.png)
 
 Eine zentrale Herausforderung beim Aufbau eines FIS besteht darin, einen
 Überblick über die bestehenden Quellsysteme der Einrichtung zu gewinnen.
