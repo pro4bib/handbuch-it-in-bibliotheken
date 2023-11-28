@@ -21,7 +21,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -203,7 +222,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung">Einleitung</a></li>
+  <li><a href="#sicherheitsvorfall" id="toc-sicherheitsvorfall" class="nav-link" data-scroll-target="#sicherheitsvorfall">Sicherheitsvorfall</a>
+  <ul class="collapse">
+  <li><a href="#einfallstore" id="toc-einfallstore" class="nav-link" data-scroll-target="#einfallstore">Einfallstore</a></li>
+  <li><a href="#bisherige-erfahrungen" id="toc-bisherige-erfahrungen" class="nav-link" data-scroll-target="#bisherige-erfahrungen">Bisherige Erfahrungen</a></li>
+  <li><a href="#wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit" id="toc-wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit" class="nav-link" data-scroll-target="#wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit">Wo bleibt die Künstliche Intelligenz der IT-Sicherheit?</a></li>
+  </ul></li>
+  <li><a href="#richtlinien-und-vorgaben" id="toc-richtlinien-und-vorgaben" class="nav-link" data-scroll-target="#richtlinien-und-vorgaben">Richtlinien und Vorgaben</a></li>
+  <li><a href="#präventivmaßnahmen" id="toc-präventivmaßnahmen" class="nav-link" data-scroll-target="#präventivmaßnahmen">Präventivmaßnahmen</a>
+  <ul class="collapse">
+  <li><a href="#passwortsicherheit" id="toc-passwortsicherheit" class="nav-link" data-scroll-target="#passwortsicherheit">Passwortsicherheit</a></li>
+  <li><a href="#authentifizierung-und-autorisierung" id="toc-authentifizierung-und-autorisierung" class="nav-link" data-scroll-target="#authentifizierung-und-autorisierung">Authentifizierung und Autorisierung</a></li>
+  <li><a href="#updates-und-backups" id="toc-updates-und-backups" class="nav-link" data-scroll-target="#updates-und-backups">Updates und Backups</a></li>
+  <li><a href="#schulungen" id="toc-schulungen" class="nav-link" data-scroll-target="#schulungen">Schulungen</a></li>
+  </ul></li>
+  <li><a href="#handlungsempfehlungen" id="toc-handlungsempfehlungen" class="nav-link" data-scroll-target="#handlungsempfehlungen">Handlungsempfehlungen</a></li>
+  <li><a href="#fazit" id="toc-fazit" class="nav-link" data-scroll-target="#fazit">Fazit</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/sicherheit.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/sicherheit.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -227,13 +268,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="callout callout-style-simple callout-note">
+<div class="callout callout-style-simple callout-important">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Dieses Kapitel ist noch nicht umgesetzt (<a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/53">siehe Issue Datensicherheit</a> und <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/44">Issue Datenschutz</a>).</p>
+<p>Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und <a href="./mitarbeit.html">Hinweise zur Mitarbeit</a>.</p>
 </div>
 </div>
 </div>
@@ -250,8 +291,168 @@ Zusammenfassung
 <p>Dieses Kapitel gibt einen Überblick über verschiedene Strategien und Maßnahmen für wichtige Aspekte von IT-Sicherheit und Datenschutz und geht auch auf die bibliotheksspezifischen Besonderheiten ein.</p>
 </div>
 </div>
+<section id="einleitung" class="level2">
+<h2 class="anchored" data-anchor-id="einleitung">Einleitung</h2>
+<p>In den letzten Jahren ist die Zahl der Angriffe auf Bildungseinrichtungen, insbesondere Hochschulen und ihre Bibliotheken, deutlich gestiegen. Laut der Hochschulrektorenkonferenz (HRK) waren bis Januar 2023 insgesamt 24 Hochschulen bzw. Universitäten solchen cyberkriminellen Angriffen ausgesetzt und nahmen Schaden <span class="citation" data-cites="MDR2023">(<a href="literatur.html#ref-MDR2023" role="doc-biblioref">MDR 2023</a>)</span>. Informationseinrichtungen aller Sparten werden zudem mit sicherheits- und datenschutzrelevanten Aufgaben konfrontiert.</p>
+<p>Die Entwicklung hin zur Digitalisierung, Automatisierung und Virtualisierung zieht nicht nur die Technisierung eigener Geschäftsgänge und Dienstleistungen nach sich. Diese Entwicklung erfordert auch eine größere Sensibilität und Aufmerksamkeit hinsichtlich der Sicherheit der eigenen Systeme. Safety und Security sind hierfür wichtige, zu unterscheidende Grundprinzipien.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Security</strong> beinhaltet alle Maßnahmen zum Schutz vor Diebstahl oder Beschädigung von Soft- und Hardware. <strong>Safety</strong> meint den sicherheitsbewussten Umgang mit Netzwerken und Daten <span class="citation" data-cites="Hollaender2023">(<a href="literatur.html#ref-Hollaender2023" role="doc-biblioref">Holländer 2023</a>)</span>.</p>
+</div>
+</div>
+</div>
+<p>Bibliotheken verstehen sich als Orte, die ihre Informationen und vielschichtigen Dienstleistungen i.d.R. einer großen Nutzendenschaft zur Verfügung stellen. Sie tragen durch ihre Arbeit zur Umsetzung der Openness-Strategie in Gesellschaft und Wissenschaft bei. Offenheit und Transparenz sind schützenswerte Haltungen von Bibliotheken, welche gleichzeitig aber auch eine größere Angriffsfläche ermöglichen.</p>
+<p>Doch was macht Bibliotheken und Hochschulen so interessant für Angriffe? An diesen Orten werden für Cyberkriminelle interessante Daten verwaltet. Dazu gehören personenbezogene Daten, schützenswerte Forschungsdaten, Bewegungsdaten, Lizenzdaten, Daten zur Nutzung von Literatur, etc. Die dabei abgegriffenen Daten können u.a. für Identitätsdiebstahl, Offenlegung privater Informationen oder für die Erstellung eines detaillierten Nutzerprofils herangezogen werden <span class="citation" data-cites="Hollaender2023">(<a href="literatur.html#ref-Hollaender2023" role="doc-biblioref">Holländer 2023</a>)</span>.</p>
+<p>IT-Sicherheit ist auch immer eine Frage der Zuständigkeit. Je nach Größe, Art und Organisationsstruktur der Bibliothek muss die IT-Sicherheit mit den beteiligten Instanzen wie Stadtverwaltung, Verbundzentrale, den Rechen- und IT-Zentren der Institution und den IT-Sicherheitsbeauftragten und Datenschutzbeauftragten in Bezug auf die Verantwortlichkeiten abgestimmt werden. Grundsätzlich liegt die Aufgabe der Sensibilisierung und Schulung des Bibliothekspersonals im direkten Verantwortungsbereich der Bibliothek.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/datenschutz-vs-sicherheits-beauftragte.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Abgrenzung Datenschutzbeauftragte*r IT-Sicherheitsbeauftrage*r (<span class="citation" data-cites="Rehm2023">Rehm (<a href="literatur.html#ref-Rehm2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Schmidt2023">Schmidt (<a href="literatur.html#ref-Schmidt2023" role="doc-biblioref">2023</a>)</span>)</figcaption>
+</figure>
+</div>
+<p>Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden <span class="citation" data-cites="Kost2022">(<a href="literatur.html#ref-Kost2022" role="doc-biblioref">Kost u.&nbsp;a. 2022</a>)</span>. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema IT-Sicherheit sensibilisieren, eine Beschreibung des Sicherheitsvorfalls und einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für Präventivmaßnahmen werben und Handlungsempfehlungen geben.</p>
+</section>
+<section id="sicherheitsvorfall" class="level2">
+<h2 class="anchored" data-anchor-id="sicherheitsvorfall">Sicherheitsvorfall</h2>
+<section id="einfallstore" class="level3">
+<h3 class="anchored" data-anchor-id="einfallstore">Einfallstore</h3>
+<p>Prominente Vorfälle in verschiedenen wissenschaftlichen Einrichtungen haben in den letzten Jahren Schwachstellen in IT-Systemen offenbart, die ernstzunehmende Sicherheitslücken darstellen. Dabei ist zu beachten, dass sowohl Maschinen als auch Menschen verantwortlich für diese Lücken sein können. Folgende sind die häufigsten Angriffsmethoden:</p>
+<ul>
+<li><p><strong>Social Engineering:</strong> Unter Social Engineering versteht man Methoden, die zum Vertrauensgewinn eingesetzt werden, um anschließend an sensible Informationen, Zugangsdaten für Systeme oder finanzielle Mittel zu gelangen. Social Engineering-Attacken können über persönliche Kontakte oder über Webdienste wie E-Mails oder Webseiten durchgeführt werden.</p></li>
+<li><p><strong>Phishing:</strong> Hierbei werden seriös wirkende E-Mails versendet, um den Empfänger*innen Kennwörter oder Zahlungsinformationen zu entlocken, um so an sensible Daten zu gelangen. Die „Qualität“ derartiger gefälschter E-Mails variiert stark. Es zeigt sich jedoch, dass sie kontinuierlich professioneller umgesetzt werden und schwieriger zu identifizieren sind. Häufig werden Phishing-Attacken mit Links auf präparierte Webseiten (sog. Watering Holes) kombiniert. In diesem Fall dienen sie etwa auch als Haupteintrittstore für Ransomware, Malware, Viren und Würmer.</p></li>
+<li><p><strong>Ransomware:</strong> Bei dieser Art des Angriffs wird der Zugriff auf Daten eingeschränkt oder unterbunden, z.B. durch Verschlüsselung. Für die Wiederherstellung des Zugriffs wird ein Lösegeld gefordert. Ransomware hat von allen Angriffsmethoden das größte Schadenspotential. Neben Lösegeldforderungen entstehen hohe Ausfalls- und Wiederherstellungskosten.<br>
+Als Beispiel: Für die direkten Kosten des Ransomware-Angriffs 2019 auf die JLU Gießen werden mit Stand 2023 ca. 1,7 Mio. EUR für Schadensanalyse und -behebung kalkuliert. Zusätzliche Kosten für Aufwände und Workarounds sind in dieser Analyse nicht berücksichtigt und lassen sich schwer beziffern (<span class="citation" data-cites="Kost2022">Kost u.&nbsp;a. (<a href="literatur.html#ref-Kost2022" role="doc-biblioref">2022</a>)</span>).</p></li>
+<li><p><strong>Denial-of-Service-Attacken (DoS):</strong> Bezeichnet einen Angriff, um die Verfügbarkeit eines Netzwerkes zu beeinträchtigen und gleichzeitig Daten abzugreifen und umzuleiten.</p></li>
+</ul>
+</section>
+<section id="bisherige-erfahrungen" class="level3">
+<h3 class="anchored" data-anchor-id="bisherige-erfahrungen">Bisherige Erfahrungen</h3>
+<p>Bisherige Erfahrungen zeigen die weitreichenden Auswirkungen eines cyberkriminellen Angriffs auf Hochschulbibliotheken. In den meisten Fällen ist jedoch nicht nur die Bibliothek alleine betroffen, sondern die gesamte Hochschule. Kommt es zu einem Angriff, ist es meist notwendig, alle IT-Dienste herunterzufahren. Eine Abschottung einzelner Dienste kann kaum vorgenommen werden. Man kann sich dies als einen „harten Cut“ und ein Herunterfahren aller eigenen Server und virtuellen Maschinen zur Eingrenzung des schadhaften Fremdzugriffs vorstellen. Diese harte Maßnahme wird vorgenommen, da man nicht abschätzen kann, wo es im System schon zu welchen Schäden gekommen ist. Die Folgen: es funktioniert schlimmstenfalls NICHTS mehr. (W)LAN, Netzlaufwerke, Identity-Management und Anmeldedienste, E-Mail-Dienste, Terminverwaltungstools, Personal-Verwaltungssysteme, Türschließmechanismen, Zeiterfassung, IP-Telefonie, Lüftungs- und Beleuchtungssysteme, etc. Alle netzbetriebenen Dienste sind ggf. für mehrere Tage, Wochen oder sogar Monate außer Betrieb.</p>
+<p>Im Ernstfall können die vorhandenen Dienstgeräte und Kommunikationsdienste nicht mehr verwendet werden. Aufgrund dessen kann man zur Kommunikation auf private Geräte (Notebooks, Smartphones, etc., sofern die Mitarbeiter*innen bereit dazu sind) und alternative E-Mail-Dienste ausweichen. Hier ist zu bedenken, dass diese Adhoc-Lösungen nicht unbedingt den datenschutzrechtlichen Ansprüchen entsprechen. Von besonderer Bedeutung ist in diesem Fall auch das Identity Management System (IDMS), das nach einem Angriff gegebenenfalls alternativ aufgebaut werden muss.</p>
+<p>Hinsichtlich der Bibliotheksnutzung kann das Bibliotheksmanagementsystem (BMS) z.B. auf geprüften Laptops verwendet werden, die ggf. über alternative (mobile) Netzwerke (sofern das BMS wie z.B. im GBV üblich, zentral gehostet wird und nicht ebenfalls vom Angriff betroffen ist), sodass die Ausleihe und Rückgabe wieder zeitnah ermöglicht werden können.</p>
+<p>Zu guter Letzt darf auch nicht unterschätzt werden, welche zeitlichen Ausmaße ein Angriff einnehmen kann und welche psychischen und sozialen Auswirkungen er verursacht. Mitunter muss man mit monatelangen Einschränkungen rechnen und man kann auch nicht davon ausgehen, dass Daten überhaupt oder gar vollständig wiederhergestellt werden können.</p>
+</section>
+<section id="wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit" class="level3">
+<h3 class="anchored" data-anchor-id="wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit">Wo bleibt die Künstliche Intelligenz der IT-Sicherheit?</h3>
+<p>Im Zuge der heutigen digitalen Entwicklungen wirft dieses Thema natürlich auch die Frage auf, welche Auswirkungen KI auf die IT-Sicherheit hat. Nach jetzigen Erfahrungen hat KI bislang noch nicht dazu geführt, dass Systeme anfälliger für Angriffe werden. Denkbar ist, dass Phishing-Angriffe vereinfachen kann. Im Gegenzug könnten cyberkriminelle Angriffe durch Monitoring unserer Systeme mit KI erschwert werden.</p>
+</section>
+</section>
+<section id="richtlinien-und-vorgaben" class="level2">
+<h2 class="anchored" data-anchor-id="richtlinien-und-vorgaben">Richtlinien und Vorgaben</h2>
+<p>Wie in jedem Bereich unseres Lebens finden sich auch in der IT-Sicherheit mehrere Richtlinien und Vorgaben sowohl auf nationaler als auch auf europäischer Ebene.</p>
+<p>Auf nationaler Ebene liegt die Zuständigkeit unter anderem beim Bundesamt für Sicherheit in der Informationstechnik (<a href="https://www.bsi.bund.de/DE/Das-BSI/Auftrag/auftrag_node.html">BSI</a>), welches seit 1991 mit der Aufgabe betraut ist, das Regierungsnetz und die kritischen Infrastrukturen (KRITIS) zu schützen. Auf Bundesebene wurde es eine zentrale Anlaufstelle für Sicherheitsstandards, sowie Meldestelle bei IT-Krisen. Es stellt unterschiedliche Normen zur IT-Sicherung zur Verfügung. Wann welcher Standard greift, hängt von der Komplexität des Einzelfalls ab.</p>
+<p>Für Bibliotheken sind hierbei auch die „Checklisten zum <a href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html">IT-Grundschutz-Kompendium</a>“ nach dem BSI-Standard 200-2 sehr empfehlenswert, da in diesen der aktuelle Stand der Integration des Grundschutzes überprüft werden kann. In diesem Zusammenhang wird auch auf die ISO/IEC-27000-Familie hingewiesen. In dieser Normenreihe sind neben definierten und stets aktuell gehaltenen Standards, die Anforderungen an Information Security Management Systems (ISMS), Empfehlungen für Kontrollmechanismen, als auch Best-Practices-Empfehlungen zu Aufbau und Organisation von Informationsfreiheit enthalten.</p>
+<p>Weitere Institutionen, die einen entscheidenden Einfluss auf die Vereinheitlichung des Datenschutzes in der Europäischen Union durch den Erlass der Datenschutz-Grundverordnung (<a href="https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/europaeische-datenschutzgrundverordnung.html">DSGVO</a>) von 2016 hatten, sind das Europäische Parlament und der Europäische Rat. Die DSGVO gilt seit 2018 unmittelbar in allen der EU zugehörigen Länder. Sie regelt unter anderem, dass jede Person das Recht auf Schutz der sie betreffenden personenbezogenen Daten hat. So dürfen Daten nur für einen bestimmten Zweck erhoben (Zweckbindung) und auch nicht für andere Vorhaben weiterverarbeitet werden (gem. Art 5 II DSGVO). Ferner wird in Art 37 DSGVO die Ernennung eines Datenschutzbeauftragten geregelt.</p>
+<p>Ergänzt wird diese Grundverordnung durch die einzelnen nationalen gesetzgebenden Instanzen. In Deutschland geschieht dies sowohl auf Bundes- als auch auf Landesebene, in Form des Bundesdatenschutzgesetzes (BDSG) sowie der 16 Landesdatenschutzgesetze.</p>
+<p>In Österreich wird die DSGVO ergänzt durch das Datenschutzgesetz (DSG) und das Netz- und Informationssystemsicherheitsgesetz (NISG).</p>
+<p>Ähnliche Gesetze wurden auch außerhalb der EU erlassen. So trat Anfang September 2023 in der Schweiz die neue Verordnung über Datenschutzzertifizierungen (VDSZ) in Kraft, welche sich an den Grundzügen der DSGVO orientiert.</p>
+<p>In ihrer besonderen Rolle als Institutionen für Informationsversorgung und Bereitstellung von Wissensinfrastruktur greifen Bibliotheken auch auf die Dienste externer Anbieter zurück, z.B. durch Verträge mit Wissenschaftsverlagen über digitale Literaturangebote. Hierbei ist es wichtig, dass Bibliotheken in diesen Verträgen darauf bestehen, dass das Tracking des Nutzungsverhaltens der Forschenden ausgeschlossen wird (<span class="citation" data-cites="Reda2022"><span>„Tracking in der Wissenschaft: So können Bibliotheken Daten und Wissenschaftsfreiheit schützen“</span> (<a href="literatur.html#ref-Reda2022" role="doc-biblioref">2022</a>)</span>), um die Wissenschaftsfreiheit und die informationelle Selbstbestimmung zu schützen <span class="citation" data-cites="DFG2021">(<a href="literatur.html#ref-DFG2021" role="doc-biblioref">DFG 2021</a>)</span>.</p>
+<p>Aufgrund der stetigen Weiterentwicklung von Software und neuen Technologien hat die Europäische Kommission einen Vorschlag für ein neues Gesetz zur Widerstandsfähigkeit von Cyberangriffen, den <a href="https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act">Cyber Resilience Act</a>, auf den Weg gebracht. Gemäß diesem Vorschlag sollen Verbraucher*innen und Unternehmen beim Kauf von Produkten und Software mit digitalen Komponenten geschützt werden, indem verbindliche Cyber-Sicherheits-Anforderungen für diese Leistungen durch die Hersteller eingeführt werden sollen. Im nächsten Schritt werden nun das Europäische Parlament und der Europäische Rat über diesen Vorschlag beraten.</p>
+</section>
+<section id="präventivmaßnahmen" class="level2">
+<h2 class="anchored" data-anchor-id="präventivmaßnahmen">Präventivmaßnahmen</h2>
+<section id="passwortsicherheit" class="level3">
+<h3 class="anchored" data-anchor-id="passwortsicherheit">Passwortsicherheit</h3>
+<p>Zu einem umfassenden IT-Sicherheitskonzept gehört, dass alle Beteiligten einen bewussten Umgang mit Passwörtern praktizieren. Passwörter sollten zum Beispiel nicht ohne Weiteres für Dritte zugänglich auf Papier oder einem anderen Medium (z. B. unverschlüsselt auf dem Computer) festgehalten werden. Bei Verdacht auf Angriff sollten alle betroffenen Passwörter umgehend geändert werden. Bei einer großen Menge an Passwörtern empfiehlt es sich, einen Passwort-Manager zu verwenden. Für die Wahl des Passworts sollten die allgemein gültigen Empfehlungen beachtet werden (beispielsweise die <a href="Tipps zur Erstellung sicherer Passwörter: https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Sichere-Passwoerter-erstellen/sichere-passwoerter-erstellen_node.html">Passwort-Empfehlungen des BSI</a>).</p>
+</section>
+<section id="authentifizierung-und-autorisierung" class="level3">
+<h3 class="anchored" data-anchor-id="authentifizierung-und-autorisierung">Authentifizierung und Autorisierung</h3>
+<p>Unter Authentifizierung verstehen wir grundsätzlich das eindeutige Erkennen eines Zugriffs auf eine Ressource wie z.B. einen Dienst oder einen Computer, aber auch auf ein physisches Objekt wie z.B. einen Drucker.</p>
+<p>In der Regel erfolgt heutzutage der Zugriff über ein Netzwerk, d.&nbsp;h., auch die Authentifizierung muss über das Netzwerk erfolgen. Für Geräte (Computer) kann dies durch technische Merkmale wie den Media Access Code (MAC Adresse) oder - flexibler - über die IP-Adresse durchgeführt werden. Diese Merkmale authentifizieren jedoch nur das Gerät und lassen noch keine Aussage darüber zu, wer dieses Gerät gerade benutzt.</p>
+<p>Eine Authentifizierung einer Person erfolgt meistens über eine eindeutige Kennung und ein zugehöriges Passwort. Wenn möglich, sollten verschiedene Authentifizierungsverfahren miteinander kombiniert werden. Es wird dann auch von einer 2-Faktor-Authentifizierung (2FA) bzw. einer Mehrfaktor-Authentifizierung (MFA) gesprochen.</p>
+<p>Ist ein Zugriff eindeutig durch entsprechende Authentifizierung erkannt, kann auf Basis verschiedener Informationen je nach Bedarf entschieden werden, ob der Zugriff auch berechtigt ist. D. h., der Zugriff muss autorisiert werden. Dies kann sehr individuell erfolgen (Konto A hat Zugriff, Konto B nicht) oder anhand der Zugehörigkeit eines Kontos zu einer bestimmten Personengruppe.</p>
+<p>Alle Komponenten, die zur Authentifizierung und Autorisierung in einer Einrichtung notwendig sind, werden auch als Authentifizierungs- und Autorisierungsinfrastruktur (AAI) bezeichnet. Wurde in einer Einrichtung eine AAI aufgebaut, auf welche jede Anwendung zurückgreifen kann, kann man festlegen, dass nach einmaligem Login ein Zugriff auf alle Anwendungen möglich und ein separates Einloggen nicht nötig ist. Dies wird auch als <strong>Single-Sign-On (SSO)</strong> bezeichnet.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/sso-approaches.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Herangehensweisen für Single-Sign-On</figcaption>
+</figure>
+</div>
+<p><strong>Links:</strong> Benutzer*in meldet sich auf einem <strong>Portal</strong> an und bekommt Zugriff auf alle eingebundenen Dienste. <strong>Mitte:</strong> Benutzer*in speichert alle Anmeldedaten auf einem Datenträger oder im Netzwerk. Ein <strong>lokal</strong>es Programm meldet ihn*sie separat bei jedem Dienst, Portal oder Ticketing-System ein. <strong>Rechts:</strong> Benutzer*in meldet sich bei einem der Dienste an und bekommt ein <strong>Ticket</strong> für den gesamten „Kreis der Vertrauten“.</p>
+<p>Zentrale Komponenten sind hierbei der <strong>Identity Provider (IDP)</strong>, der auf Basis des dahinterliegenden IDMS eine digitale Identität inkl. notwendiger Benutzer*innenattribute bereitstellt und an dem die einmalige Anmeldung stattfindet. Die genutzten Anwendungen werden allgemein als <strong>Service Provider (SP)</strong> bezeichnet.</p>
+<p>Eine gute Möglichkeit, das Internet sicher zu nutzen, ist das <strong>Virtual Private Network (VPN)</strong>. Das VPN verschlüsselt die Identität von Internetnutzer*innen. Damit wird es Dritten erschwert, die Nutzer*innen im Internet zu verfolgen und Daten abzugreifen. VPN nutzt dabei eine Echtzeitverschlüsselung. Informationen werden in eine unleserliche Form umgewandelt und können nur mit einem Schlüssel wieder in die ursprüngliche leserliche Form gebracht werden.</p>
+</section>
+<section id="updates-und-backups" class="level3">
+<h3 class="anchored" data-anchor-id="updates-und-backups">Updates und Backups</h3>
+<p>Eine sichere Hard- und Software ist unabdingbar. Rechner sollten ausreichend geschützt sein. Dazu gehören unter anderem aktuelle Virenscanner und automatische Updates des Virenscanners, des Betriebssystems und jeder auf dem Rechner laufenden Software. Fehlende Updates können als Einfallstore genutzt werden, um Schadsoftware auf den Computer und damit auch in das Netzwerk einzuschleusen.</p>
+<p>Falls es zu einem Angriff oder Ausfall des Systems kommt, muss auf Backups zurückgegriffen werden. Dabei wird eine Sicherungskopie angelegt, meist auf einem anderen Medium, wie z. B. einer externen Festplatte. Server werden mittels eines RAID-Verfahrens gespiegelt, d. h. die Daten werden auf einen zweiten Server übertragen. Da es bei einem Backup auch zu Datenverlust oder -beschädigung kommen kann, empfiehlt es sich, mehr als eine Kopie anzulegen, z. B. auf Magnetbändern.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Ein <strong>Server</strong> ist ein zentraler Rechner (virtuell oder physikalisch), der Daten zur Verfügung hält und diese auf Anfrage durch einen Client (PC, mobiles Gerät) zur Verfügung stellt.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="schulungen" class="level3">
+<h3 class="anchored" data-anchor-id="schulungen">Schulungen</h3>
+<p>Regelmäßige Weiterbildungen ermöglichen es den Mitarbeiter*innen von Bibliotheken, ihre Fähigkeiten auszubauen und die Sensibilität für Themen wie IT-Sicherheit zu erhöhen. Die im Abschnitt <u>Richtlinien und Vorgaben [interne Verlinkung]</u> erwähnten Rahmenbedingungen schaffen dabei ein Grundgerüst für Schulungsinhalte und können für verpflichtende IT-Sicherheitsschulungen - wie sie bereits von einigen Bibliotheken durchgeführt werden - verwendet werden.</p>
+<p>Es sollten zwei Arten von Schulungen durchgeführt werden: für Mitarbeiter*innen und Nutzer*innen. Mitarbeiter*innen sollten dahingehend sensibilisiert werden, dass sie mit schützenswerten Daten arbeiten. Es ist bspw. wichtig, daran zu denken, dass gerade Geräte in Büros im Sichtfeld von Personen durch sinnhafte Positionierung oder Blickschutzfilter vor unbefugtem Sehen geschützt werden. Auf die Wichtigkeit sicherer Passwörter wurde bereits weiter oben in diesem Abschnitt hingewiesen. Es sollte zudem auf die Angriffsmöglichkeiten im Abschnitt <u>„Sicherheitsvorfall“ [interne Verlinkung]</u> aufmerksam gemacht werden. Beispielhafte Erklärungen möglicher Angriffsszenarien und Möglichkeiten (z. B. Tools) sich zu schützen, sollten aufgezeigt werden.</p>
+</section>
+</section>
+<section id="handlungsempfehlungen" class="level2">
+<h2 class="anchored" data-anchor-id="handlungsempfehlungen">Handlungsempfehlungen</h2>
+<p>Sind öffentliche Einrichtungen (Hochschulen, Kommunen) von Cyberattacken betroffen, hat dies allumfassende Folgen. Im schlimmsten Fall sind sämtliche Dienste nicht mehr verfügbar und die Ausfallzeit und Schadenshöhe weisen ins Ungewisse. Dann können Notfall- und Sicherheitskonzepte teils detaillierte Anleitungen für die Ersthilfe bieten. Generell gilt, dass Cyberattacken nicht nur eine kommunikative, sondern häufig auch eine Organisationskrise nach sich ziehen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/massnahmen-und-praevention.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention und im Fall eines Schadenfalles</figcaption>
+</figure>
+</div>
+<p>Zum einen muss intern (mit vorbereiteten Notfallgeräten oder ggf. privaten Endgeräten) und extern (mit Dienstleister*innen, Bibliothekspartner*innen, Bibliotheksnutzer*innen) kommuniziert werden u.a. über den Vorfall, und ggf. weiterlaufende Dienste (cloudbasierte und von Drittanbieter*innen). Besonders cloudbasierte Dienste können im Notfall evt. gute Alternativlösungen bieten, das gilt zum einen für alternative Loginverfahren z.B. bei extern gehosteten Plattformen für E-Ressourcen, wenn das IDMS nicht zur Verfügung steht.</p>
+<p>Ist das BMS einer Bibliothek cloudbasiert, kann ein Ausleihbetrieb mit Notfallgeräten schneller wieder aufgenommen werden, da die Daten vor dem Hacker besser geschützt sind. Ähnlich kann man mit eigenen Dokumenten vorgehen, in dem das Active Directory des eigenen Systems ein tägliches Update erstellt und z.B. im CSV-Format an eine Cloud exportiert. Im einfachsten Fall betrifft es nur Notfalldokumente, die einem Krisenstab zugänglich sind. Tritt ein Notfall ein, kann man über die Standard-Benutzeroberfläche der Cloud die gesicherten Skripte starten. Der Cloudbetreiber sollte Erfahrungen mit Notfall-Lösungen und Umgebungen haben. Trotzdem sollte die Bibliothek ihre Datensicherung gut planen und cloudbasierte oder andere netzwerkunabhängige Backups länger vorhalten (mindestens 14 Tage), um auf nicht infizierte Sicherungen zurückgreifen zu können. Es ist ja nicht auszuschließen, dass die Angreifer die Zugangsdaten für die Datensicherung abgreifen konnten. Daher sollte auch über eine Verschlüsselung der Datensicherung in Erwägung gezogen werden. Genauso gilt es, die Wiederherstellung der Daten zu planen und zu üben. Unerlässlich ist auch eine gute Dokumentation der gesamten Notfall-Architektur.</p>
+<p>Und zum anderen sind alternative Abläufe aufzubauen, um wieder an der digitalen Arbeitswelt teilzunehmen und den Bibliotheksbetrieb weitestgehend wieder anbieten zu können.</p>
+<p>Die kommunikativen Anforderungen sind wie die organisatorischen als sehr hoch einzuschätzen, da Informationseinrichtungen mit ihren analogen Begegnungsmöglichkeiten Schnittstellen für eine ganze Hochschule sein können. Für beide Aufgaben können andere Bibliotheken und externe Firmen Unterstützung bieten.</p>
+<p>Stehen Plan und eine Notfallumgebung, ist es unerlässlich, regelmäßige Notfallübungen durchzuführen. Damit trainiert man die Abläufe und kann diese regelmäßig überprüfen und optimieren <span class="citation" data-cites="Mueller2023">(<a href="literatur.html#ref-Mueller2023" role="doc-biblioref">Müller 2023</a>)</span>. Die dadurch entstehende Routine kann Sicherheit für den Ernstfall geben. Dennoch darf man nicht unterschätzen, dass ein Angriff auch persönliche Auswirkungen auf alle Betroffenen hat.</p>
+</section>
+<section id="fazit" class="level2">
+<h2 class="anchored" data-anchor-id="fazit">Fazit</h2>
+<p>Lässt man die Informationen in diesem Kapitel noch einmal Revue passieren, bleibt als abschließendes Fazit frei nach Ringelnatz nur zu sagen: „Sicher ist, dass nichts sicher ist. Selbst das nicht“. Trotzdem ist man der Gefahr nicht hilflos ausgeliefert. Durch Präventivmaßnahmen, Notfall-Systeme und Pläne kann man einen Angriff wohl nicht verhindern. Man kann jedoch versuchen, den Schaden und die daraus folgenden Belastungen so gering wie möglich zu halten. In vielen Bibliotheken entstehen derzeit individuelle Sicherheitskonzepte und neue Sicherheitsmaßnahmen. Die nächsten Monate und Jahre werden zeigen, mit welchen neuen Strategien sich Bibliotheken vor Cyberangriffen schützen und sich auf diese vorbereiten können.</p>
+<!--
+BIM22: Nadine Bolliger, Andrea Brandstätter, Birgit
+Bretträger, Felix Burger, Jana Eigelsbach, Martin Enßlen, Thomas Graff,
+Michael Haß, Céline Schmelzer, Juliane Schwarz, Anne Timm, Frauke
+Ureidat, Karin von Wartburg
+
+BIM23: Martin Brossard, Verena Kertelics, Selina Kiefer,
+Anette Popall, Jessica Seidel, Dorothea Stawenow, Tatjana Waller
+-->
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-DFG2021" class="csl-entry" role="listitem">
+DFG. 2021. <span>„Datentracking in der Wissenschaft: Aggregation und Verwendung bzw. Verkauf von Nutzungsdaten durch Wissenschaftsverlage. Ein Informationspapier des Ausschusses für Wissenschaftliche Bibliotheken und Informationssysteme der Deutschen Forschungsgemeinschaft“</span>. Deutsche Forschungsgemeinschaft. <a href="https://www.dfg.de/download/pdf/foerderung/programme/lis/datentracking_papier_de.pdf">https://www.dfg.de/download/pdf/foerderung/programme/lis/datentracking_papier_de.pdf</a>.
+</div>
+<div id="ref-Hollaender2023" class="csl-entry" role="listitem">
+Holländer, Stephan. 2023. <span>„Cyberangriffe auf Universitäten, Fachhochschulen und deren Bibliotheken – ein unterschätztes Problem?“</span> <em>B.I.T. online</em> 26 (3). <a href="https://www.b-i-t-online.de/heft/2023-03-nachrichtenbeitrag-hollaender.pdf">https://www.b-i-t-online.de/heft/2023-03-nachrichtenbeitrag-hollaender.pdf</a>.
+</div>
+<div id="ref-Kost2022" class="csl-entry" role="listitem">
+Kost, Michael, Bastian Loibl, Peter Reuter, und Matthias Stenke. 2022. <span>„#<span>JLUoffline</span>. Der Cyber-Angriff auf die Justus-Liebig-Universität Gießen im Dezember 2019“</span>. <em><span>ABI</span> Technik</em> 42 (1). https://doi.org/<a href="https://doi.org/10.1515/abitech-2022-0005">https://doi.org/10.1515/abitech-2022-0005</a>.
+</div>
+<div id="ref-MDR2023" class="csl-entry" role="listitem">
+MDR. 2023. <span>„Vermehrt Hackerangriffe auf Hochschulen und Universitäten“</span>. 25. Januar 2023. <a href="https://www.mdr.de/wissen/vermehrt-hackerangriffe-auf-hochschulen-und-universitaeten-100.html">https://www.mdr.de/wissen/vermehrt-hackerangriffe-auf-hochschulen-und-universitaeten-100.html</a>.
+</div>
+<div id="ref-Mueller2023" class="csl-entry" role="listitem">
+Müller, Heiko. 2023. <span>„Vorsorge für den Angriffsfall: Der Weg in die Cloud.“</span> <em><span>iX</span> Magazin für professionelle <span>IT</span></em> 11.
+</div>
+<div id="ref-Rehm2023" class="csl-entry" role="listitem">
+Rehm, Stefan-Marc. 2023. <span>„<span>IT</span>-Sicherheitsbeauftragten bestellen. www.haufe.de“</span>. 23. August 2023. <a href="https://www.haufe.de/compliance/management-praxis/cybersicherheit-it-sicherheitsbeauftragter_230130_447256.html">https://www.haufe.de/compliance/management-praxis/cybersicherheit-it-sicherheitsbeauftragter_230130_447256.html</a>.
+</div>
+<div id="ref-Schmidt2023" class="csl-entry" role="listitem">
+Schmidt, Caroline. 2023. <span>„Wann die Bestellung eines Datenschutzbeauftragten für Ihr Unternehmen unabdingbar ist. www.e-recht24.de“</span>. 12. Juni 2023. <a href="https://www.e-recht24.de/datenschutz/10744-datenschutzbeauftragter-dsgvo.html#">https://www.e-recht24.de/datenschutz/10744-datenschutzbeauftragter-dsgvo.html#</a>.
+</div>
+<div id="ref-Reda2022" class="csl-entry" role="listitem">
+<span>„Tracking in der Wissenschaft: So können Bibliotheken Daten und Wissenschaftsfreiheit schützen“</span>. 2022. <a href="https://www.zbw-mediatalk.eu/de/2022/01/tracking-in-der-wissenschaft-so-koennen-bibliotheken-daten-und-wissenschaftsfreiheit-schuetzen">https://www.zbw-mediatalk.eu/de/2022/01/tracking-in-der-wissenschaft-so-koennen-bibliotheken-daten-und-wissenschaftsfreiheit-schuetzen</a>.
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script>
@@ -548,7 +749,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/sicherheit.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/sicherheit.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></div>
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
