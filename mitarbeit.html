@@ -206,8 +206,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#kurzfassung" id="toc-kurzfassung" class="nav-link active" data-scroll-target="#kurzfassung">Kurzfassung</a></li>
-  <li><a href="#arbeitsablauf" id="toc-arbeitsablauf" class="nav-link" data-scroll-target="#arbeitsablauf">Arbeitsablauf</a></li>
+  <li><a href="#arbeitsablauf" id="toc-arbeitsablauf" class="nav-link active" data-scroll-target="#arbeitsablauf">Arbeitsablauf</a></li>
   <li><a href="#styleguide" id="toc-styleguide" class="nav-link" data-scroll-target="#styleguide">Styleguide</a>
   <ul class="collapse">
   <li><a href="#zielgruppe" id="toc-zielgruppe" class="nav-link" data-scroll-target="#zielgruppe">Zielgruppe</a></li>
@@ -250,53 +249,47 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des <a href="#arbeitsablauf">Arbeitsablauf</a>, Einhaltung des <a href="#styleguide">Styleguide</a> und die freie <a href="#lizenz">Lizenzierung</a> der eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist unter <a href="#technik">Technik</a> beschrieben.</p>
-<p>Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:</p>
-<ul>
-<li><p>Wir verzichten auf individuelle Autor*innenschaft an einzelnen Textteilen. Alle können an allen Teilen mitarbeiten.</p></li>
-<li><p>Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen Überblick geben. Für Details kann auf weiterführende Quellen verwiesen werden.</p></li>
-</ul>
-<section id="kurzfassung" class="level2">
-<h2 class="anchored" data-anchor-id="kurzfassung">Kurzfassung</h2>
-<p>Neue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und weitere Änderungen freigegeben sind, können über die Feedback-Links verbessert werden:</p>
+<p>Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des <a href="#arbeitsablauf">Arbeitsablauf</a>, Einhaltung des <a href="#styleguide">Styleguide</a> und die freie <a href="#lizenz">Lizenzierung</a> der eigenen Beiträge.</p>
+<section id="arbeitsablauf" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="arbeitsablauf">Arbeitsablauf</h2>
+<p>Alle Kapitel wurden in Booksprints vor Ort geplant und in Form von Google Docs Dokumenten geschrieben. Diese wurden anschließend einmalig ins Markdown-Format übertragen und auf <a href="https://it-in-bibliotheken.de">it-in-bibliotheken.de</a> veröffentlicht (siehe <a href="#technik">Technik</a>).</p>
+<p>Weitere Änderungen und Beiträge zum Handbuch sind auf folgenden Wegen möglich:</p>
+<ol type="1">
+<li><strong>Bearbeitungsvorschläge und Kommentare</strong> in Google Docs („Kapitel Kommentieren“): im Zweifelsfall die einfachste Methode</li>
+<li>Direkte Bearbeitung der Markdown-Quellen durch einen <strong>Pull-Request</strong> („Seite editieren“): erfordert einen GitHub-Account und rudimentäre Markdown-Kenntnisse</li>
+<li>Öffentlicher <strong>Kommentar als <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues">GitHub-Issue</a></strong> („Problem melden“): erfordert einen GitHub-Account</li>
+<li>Persönlicher Hinweis an <a href="index.html#autorinnen">die Autor*innen</a></li>
+</ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/feedback-links.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Feedback-Links unter dem Inhaltsverzeichnis rechts</figcaption>
 </figure>
 </div>
-<ul>
-<li><strong>Seite editieren</strong> führt zum Markdown-Quelltext und kann am schnellsten in die Publikation einfließen, benötigt aber einen GitHub-Account.</li>
-<li><strong>Problem melden</strong> führt zum <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues">Issue-Tracker</a> für allgemeine Hinweise (benötigt ebenfalls GitHub-Account).</li>
-<li><strong>Kapitel kommentieren</strong> führt zu einer Kopie des Kapitels bei Google-Docs. Das ist zum Beitragen am einfachsten, muss aber später redaktionell in die Markdown-Quellen eingearbeitet werden.</li>
-</ul>
-<p>Die ganz Technik-affinen können sich auch <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken">das git-Repository klonen</a> und für das Look-and-Feel der HTML-Version mit <a href="https://quarto.org/">Quarto</a> bearbeiten.</p>
-</section>
-<section id="arbeitsablauf" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="arbeitsablauf">Arbeitsablauf</h2>
-<p>Der aktuelle Workflow beinhaltet folgende Schritte:</p>
+<p>Die Bearbeitungsvorschläge und Kommentare aus Google Docs werden in unregelmäßigen Abständen von der Redaktion in die Markdown-Quellen übernommen und die Google Docs Dokumente anschließend aktualisiert. Für <a href="#mitarbeit-medien">Bilder</a>, <a href="#mitarbeit-literatur">Literaturverzeichnis</a> und <a href="#mitarbeit-glossar">Glossar</a> gibt es eigene Abläufe. Der aktuelle Workflow nach Ende der Booksprints beinhaltet folgende Schritte:</p>
 <dl>
-<dt>Schreiben</dt>
-<dd>
-Neue Themen werden durch Gruppen im Rahmen von Book Sprints erstellt. Als Werkzeug zum freien Schreiben dient dabei beispielsweise Google Docs.
-</dd>
 <dt>Lektorat</dt>
 <dd>
-Fertige Kapitel werden einmalig nach Markdown konvertiert und im <a href="#technik">git-Repository</a> des Handbuch abgelegt. Anschließend werden daraus <em>DOCX</em>-Dateien erstellt (Word) und in einem <a href="https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2">Google Drive Verzeichnis</a> zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues">mittels GitHub-Issues</a> oder per Hinweis an <a href="index.html#autorinnen">die Autor*innen</a> erfolgen.
+Fertige Kapitel stehen auf der Webseite und als Google Docs Dokument zum Korrekturlesen und Kommentieren bereit. Je Kapitel sind zwei externe (bisher nicht am Schreiben beteiligte) Lektor*innen eingeteilt, um die Einhaltung des <a href="#styleguide">Styleguide</a> zu überprüfen und Änderungen vorzuschlagen.
 </dd>
 <dt>Redaktion</dt>
 <dd>
-Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Docse einarbeiten und die DOCX-Datei aktualisieren.
+Hinweise und Änderungsvorschläge werden von den Autor*innen diskutiert und entschieden. Falls die daraus resultierenden Änderungsvorschläge nicht als Pull-Request vorliegen, müssen sie in Google-Docs bestätigt und parallel in die Markdown-Quellen eingepflegt werden.
 </dd>
 <dt>Publikation</dt>
 <dd>
-Änderungen an der Markdown-Dateien im git-Repository führen dazu, dass das Buch mittels <a href="https://quarto.org/">quarto</a> in HTML und anderen Formaten aus den Quellen zusammengebaut wird. Eine Druckversion liegt noch nicht vor.
+Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt dazu, dass das Buch automatisch aktualisiert wird (siehe <a href="#technik">Technik</a>, bisher nur HTML-Version, Druckversion ist geplant).
 </dd>
 </dl>
 </section>
 <section id="styleguide" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="styleguide">Styleguide</h2>
 <p>Dieser Styleguide soll eine einheitliche Form trotz <a href="#mitarbeit-autorinnen">unterschiedlicher Autor*innen</a> gewährleisten. Dazu gibt es Hinweise zu <a href="#zielgruppe">Zielgruppe</a>, <a href="#schreibstil">Stil und Aktualität</a>, <a href="#schreibweise">Schreibweise</a> und <a href="#struktur">Struktur</a> sowie Vorgaben zu besonderen Inhalten wie <a href="#mitarbeit-medien">Bildern und anderen Medien</a>, <a href="#mitarbeit-literatur">Literaturverzeichnis</a> und <a href="#mitarbeit-glossar">Abkürzungsverzeichnis</a>.</p>
+<p>Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:</p>
+<ul>
+<li><p>Wir verzichten auf individuelle Autor*innenschaft an einzelnen Textteilen. Alle können an allen Teilen mitarbeiten.</p></li>
+<li><p>Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen Überblick geben. Für Details kann auf weiterführende Quellen verwiesen werden.</p></li>
+</ul>
 <section id="zielgruppe" class="level3">
 <h3 class="anchored" data-anchor-id="zielgruppe">Zielgruppe</h3>
 <p>Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte <em>Personas</em> definiert:</p>
@@ -395,7 +388,7 @@ Fertige Kapitel werden einmalig nach Markdown konvertiert und im <a href="#techn
 </section>
 <section id="technik" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="technik">Technik</h2>
-<p>Die Master-Version des Handbuch liegt in einem git-Repository unter <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken" class="uri">https://github.com/pro4bib/handbuch-it-in-bibliotheken</a>. Die Ergebnisdateien werden automatisch via GitHub und einen Server der <em>VZG</em> aktualisiert, so dass unter <a href="https://it-in-bibliotheken.de/" class="uri">https://it-in-bibliotheken.de/</a> immer der aktuellste Stand einsehbar sein sollte.</p>
+<p>Die Master-Version des Handbuch liegt in einem git-Repository unter <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken" class="uri">https://github.com/pro4bib/handbuch-it-in-bibliotheken</a>. Die Ergebnisdateien werden automatisch via GitHub und einen Server der <em>VZG</em> mit der Software <a href="https://quarto.org/">quarto</a> aktualisiert, so dass unter <a href="https://it-in-bibliotheken.de/" class="uri">https://it-in-bibliotheken.de/</a> immer der aktuellste Stand einsehbar sein sollte.</p>
 <section id="verzeichnisstruktur" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="verzeichnisstruktur">Verzeichnisstruktur</h3>
 <p>Die Markdown-Dateien im Wurzelverzeichnis (<code>*.md</code>) sind die Masterdateien.</p>
@@ -417,10 +410,10 @@ Fertige Kapitel werden einmalig nach Markdown konvertiert und im <a href="#techn
 </section>
 <section id="konvertierung" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="konvertierung">Konvertierung</h3>
-<p>Zur Anpassung der Konvertierung des Handbuchs mit <a href="https://quarto.org">Quarto</a> muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem <code>rsvg-convert</code> installiert werden (Paket <code>librsvg2-bin</code> bzw. <code>libsrvg</code>).</p>
+<p>Zur Anpassung der Konvertierung des Handbuchs mit <a href="https://quarto.org/">quarto</a> muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem <code>rsvg-convert</code> installiert werden (Paket <code>librsvg2-bin</code> bzw. <code>libsrvg</code>).</p>
 <p>Die Aufrufe sind zur Vereinfachung in <a href="../Makefile"><code>Makefile</code></a> zusammengefasst:</p>
 <ul>
-<li><p><code>make preview</code> konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <a href="http://localhost:15745/" class="uri">http://localhost:15745/</a> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.</p></li>
+<li><p><code>make preview</code> konvertiert das Handbuch nach HTML und ermöglicht eine Vorschau unter <a href="http://localhost:15745/" class="uri">http://localhost:15745/</a> (der Port ist die Postleitzahl von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.</p></li>
 <li><p><code>make build</code> konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis <code>_book</code> ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.</p></li>
 <li><p><code>make all</code> ruft make <code>build</code> und <code>docx</code> auf und kopiert die DOCX-Dateien ins Publikationsverzeichnis <code>_book</code>.</p></li>
 <li><p><code>make html</code> erzeugt nur HTML in <code>_book</code>.</p></li>
