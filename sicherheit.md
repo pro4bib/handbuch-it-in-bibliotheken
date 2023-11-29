@@ -1,5 +1,5 @@
 ---
-description: ...
+description: Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
 ---
 
 # Sicherheit & Datenschutz
