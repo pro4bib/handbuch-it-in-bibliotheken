@@ -1,4 +1,32 @@
-Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizenzierung](#lizenz) der eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist unter [Technik](#technik) beschrieben.
+Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizenzierung](#lizenz) der eigenen Beiträge.
+
+## Arbeitsablauf {.unnumbered}
+
+Alle Kapitel wurden in Booksprints vor Ort geplant und in Form von Google Docs Dokumenten geschrieben. Diese wurden anschließend einmalig ins Markdown-Format übertragen und auf [it-in-bibliotheken.de](https://it-in-bibliotheken.de) veröffentlicht (siehe [Technik]).
+
+Weitere Änderungen und Beiträge zum Handbuch sind auf folgenden Wegen möglich:
+
+1. **Bearbeitungsvorschläge und Kommentare** in Google Docs ("Kapitel Kommentieren"): im Zweifelsfall die einfachste Methode
+2. Direkte Bearbeitung der Markdown-Quellen durch einen **Pull-Request** ("Seite editieren"): erfordert einen GitHub-Account und rudimentäre Markdown-Kenntnisse
+3. Öffentlicher **Kommentar als [GitHub-Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)** ("Problem melden"): erfordert einen GitHub-Account
+4. Persönlicher Hinweis an [die Autor*innen](#autorinnen)
+
+![Feedback-Links unter dem Inhaltsverzeichnis rechts](media/feedback-links.png)
+
+Die Bearbeitungsvorschläge und Kommentare aus Google Docs werden in unregelmäßigen Abständen von der Redaktion in die Markdown-Quellen übernommen und die Google Docs Dokumente anschließend aktualisiert. Für [Bilder](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Glossar](#mitarbeit-glossar) gibt es eigene Abläufe. Der aktuelle Workflow nach Ende der Booksprints beinhaltet folgende Schritte:
+
+Lektorat
+  : Fertige Kapitel stehen auf der Webseite und als Google Docs Dokument zum Korrekturlesen und Kommentieren bereit. Je Kapitel sind zwei externe (bisher nicht am Schreiben beteiligte) Lektor*innen eingeteilt, um die Einhaltung des [Styleguide] zu überprüfen und Änderungen vorzuschlagen.
+
+Redaktion
+  : Hinweise und Änderungsvorschläge werden von den Autor\*innen diskutiert und entschieden. Falls die daraus resultierenden Änderungsvorschläge nicht als Pull-Request vorliegen, müssen sie in Google-Docs bestätigt und parallel in die Markdown-Quellen eingepflegt werden.
+
+Publikation
+  : Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt dazu, dass das Buch automatisch aktualisiert wird (siehe [Technik], bisher nur HTML-Version, Druckversion ist geplant).
+
+## Styleguide {#styleguide .unnumbered}
+
+Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Abkürzungsverzeichnis](#mitarbeit-glossar).
 
 Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 
@@ -8,40 +36,6 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 -   Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen
     Überblick geben. Für Details kann auf weiterführende Quellen
     verwiesen werden.
-
-## Kurzfassung
-
-Neue Kapitel entstehen in Book-Sprints vor Ort. Kapitel die anschließend für Lektorat und weitere Änderungen freigegeben sind, können über die Feedback-Links verbessert werden:
-
-![Feedback-Links unter dem Inhaltsverzeichnis rechts](media/feedback-links.png)
-
-- **Seite editieren** führt zum Markdown-Quelltext und kann am schnellsten in die Publikation einfließen, benötigt aber einen GitHub-Account.
-- **Problem melden** führt zum [Issue-Tracker](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) für allgemeine Hinweise (benötigt ebenfalls GitHub-Account).
-- **Kapitel kommentieren** führt zu einer Kopie des Kapitels bei Google-Docs. Das ist zum Beitragen am einfachsten, muss aber später redaktionell in die Markdown-Quellen eingearbeitet werden.
-
-Die ganz Technik-affinen können sich auch [das git-Repository klonen](https://github.com/pro4bib/handbuch-it-in-bibliotheken) und für das Look-and-Feel der HTML-Version mit [Quarto](https://quarto.org/) bearbeiten.
-
-## Arbeitsablauf {.unnumbered}
-
-Der aktuelle Workflow beinhaltet folgende Schritte:
-
-Schreiben
-  : Neue Themen werden durch Gruppen im Rahmen von Book Sprints erstellt. Als Werkzeug zum freien Schreiben dient dabei beispielsweise Google Docs.
-
-Lektorat
-  : Fertige Kapitel werden einmalig nach Markdown konvertiert und im [git-Repository](#technik) des Handbuch abgelegt. Anschließend werden daraus *DOCX*-Dateien erstellt (Word) und in einem [Google Drive Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2) zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen können auch [mittels GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues) oder per Hinweis an [die Autor*innen](#autorinnen) erfolgen.
-
-Redaktion
-  : Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des Buches können direkt im git-Repository vorgenommen werden. Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien bei Google Docse einarbeiten und die DOCX-Datei aktualisieren.
-
-Publikation
-  : Änderungen an der Markdown-Dateien im git-Repository führen dazu, dass das Buch mittels [quarto] in HTML und anderen Formaten aus den Quellen zusammengebaut wird. Eine Druckversion liegt noch nicht vor.
-
-[quarto]: https://quarto.org/
-
-## Styleguide {#styleguide .unnumbered}
-
-Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Abkürzungsverzeichnis](#mitarbeit-glossar).
 
 ### Zielgruppe {#zielgruppe}
 
@@ -173,7 +167,9 @@ Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\
 
 ## Technik {.unnumbered}
 
-Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die Ergebnisdateien werden automatisch via GitHub und einen Server der *VZG* aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
+[quarto]: https://quarto.org/
+
+Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die Ergebnisdateien werden automatisch via GitHub und einen Server der *VZG* mit der Software [quarto] aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
 
 ### Verzeichnisstruktur {.unnumbered}
 
@@ -199,11 +195,11 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
 ### Konvertierung {.unnumbered}
 
-Zur Anpassung der Konvertierung des Handbuchs mit [Quarto](https://quarto.org) muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem `rsvg-convert` installiert werden (Paket `librsvg2-bin` bzw. `libsrvg`).
+Zur Anpassung der Konvertierung des Handbuchs mit [quarto] muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem `rsvg-convert` installiert werden (Paket `librsvg2-bin` bzw. `libsrvg`).
 
 Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
 
-* `make preview` konvertiert das Handbuch nach HTML und startet einen Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
+* `make preview` konvertiert das Handbuch nach HTML und ermöglicht eine Vorschau unter <http://localhost:15745/> (der Port ist die Postleitzahl von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
 
 * `make build` konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis `_book` ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.
 

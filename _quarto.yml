@@ -1,5 +1,8 @@
 project:
   type: book
+  preview:
+    port: 15745
+    browser: false
 
 metadata-files:
   - metadata.yml

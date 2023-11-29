@@ -4,7 +4,7 @@
 INCLUDES=templates/chapters.html _contributors.md glossar.md
 
 preview: $(INCLUDES)
-	quarto preview --port 15745
+	quarto preview
 
 all: build update
 	cp _gdrive/*.docx _book/ 
