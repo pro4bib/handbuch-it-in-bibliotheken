@@ -49,8 +49,6 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
 - [Anforderungsanalyse](anforderungen.md) umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
 - [Sicherheit & Datenschutz](sicherheit.md) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
-
-: *[dieses Kapitel ist noch nicht fertig gestellt]{.mark}*
  
 - [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
  
