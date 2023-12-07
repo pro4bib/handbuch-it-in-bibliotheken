@@ -115,7 +115,7 @@ des versehentlichen Vergessens der Ausleihverbuchung.
 Im Fall von **EM-Sicherung** oder **HF-RFID** (siehe [RFID])
 werden zur Erkennung ungesicherter Medien sogenannte Gates aufgestellt,
 durch die Menschen beim Verlassen der Bibliothek geleitet werden. In
-diesen Gates sind die entsprechende Detektionstechnologie sowie sowie
+diesen Gates sind die entsprechende Detektionstechnologie sowie
 Alarmsysteme (Ton und/oder Licht) verbaut. Im Fall von **UHF-RFID** kann
 man auf Gates verzichten, hier genügen wegen der großen Reichweite auch
 Antennen, die an der Decke montiert sind. Für die Anzeige der
