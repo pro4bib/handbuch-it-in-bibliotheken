@@ -50,6 +50,13 @@ sollen, darunter Forschungsinformationssysteme und Dienstleistungen im
 Bereich von Metriken oder zur Verwaltung von
 Artikelveröffentlichungsgebühren in Open-Access-Journals (APCs).
 
+::: {.callout-important}
+## Definition
+
+**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen (mittels Open Access, Open Data, Open Educational Resources und Open Source). Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
+
+:::
+
 Forschungsförderer und Ministerien erwarten in Deutschland heute von den
 Forschungseinrichtungen eine Transformation des Publizierens hin zu Open
 Access und Open Data. Dazu gehören themenbezogene institutionelle
@@ -234,8 +241,8 @@ Speicherung und Bereitstellung der Inhalte ausgerichtet - eine
 Erweiterung um Funktionalitäten z. B. zur Visualisierung oder Analyse
 würden sie in die Nähe von virtuellen Forschungsumgebungen rücken.
 Häufig werden Repositorien und Repositoriensoftware zudem mit der
-digitalen Langzeitarchivierung als Kernfunktionalität in Verbindung
-gebracht - aus Sicht von Repositorien-Betreiber\*innen und
+digitalen [Langzeitarchivierung](#langzeitarchivierung) als 
+Kernfunktionalität in Verbindung gebracht - aus Sicht von Repositorien-Betreiber\*innen und
 -Entwickler\*innen handelt es sich bei der digitalen
 Langzeitarchivierung allerdings eher um eine Spezialfunktionalität, die
 nur für bestimmte Nutzungsszenarien relevant und daher auch nicht in
@@ -319,7 +326,7 @@ Umfrageergebnisse). Klar davon abzugrenzen sind
 
 :::
 
-![Der Forschungsdatenlebenszyklus](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus}
+![Darstellungen des Forschungsdatenlebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus}
 
 Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt wie in
 @fig-fis-fdm dargestellt im Bereich Publikationen. Während sich allerdings
@@ -423,22 +430,22 @@ Hilfestellung bei der Auswahl eines passenden Produkts bietet z. B. der
 ### Git 
 
 Als freie Software zur Versionsverwaltung ist Git ein Standardtool der
-Softwareentwicklung geworden. Durch einfache Befehle auf der
-Kommandozeile oder zusätzlich installierte Software mit grafischem
-Interface lassen sich textuelle Daten auf dem eigenen System mit einem
-externen (Code-)Repositorium abgleichen, das die notwendigen Protokolle
-versteht. Neben dem großen Anbieter GitHub gibt es die lokal zu
-installierende Software GitLab, um ein solches Repositorium in der
-eigenen IT-Infrastruktur bereitzustellen. Durch die im Protokoll
-integrierte Versionskontrolle der Daten lassen sich Änderungen im Code
-einfach nachvollziehen und gegebenenfalls zurückrollen. Kollaborative
-Arbeit in verteilten Teams zum Beispiel wird über eine parallele
-Entwicklungsstruktur in "branches" ermöglicht, die mit dem Hauptprojekt
-zu einem gewünschten Zeitraum zusammengeführt werden können. Eine
-Möglichkeit, die Funktion der Software spielerisch zu erkunden, bietet
-beispielsweise die Website
-[ohmygit.org](https://ohmygit.org), ein unter anderem vom
-Bundesministerium für Bildung und Forschung gefördertes Projekt.
+Softwareentwicklung geworden. Durch einfache Befehle auf der Kommandozeile oder
+zusätzlich installierte Software mit grafischem Interface lassen sich textuelle
+Daten auf dem eigenen System mit einem externen (Code-)Repositorium abgleichen,
+das die notwendigen Protokolle versteht. Neben dem großen Anbieter GitHub gibt
+es die lokal zu installierende Software GitLab, um ein solches Repositorium in
+der eigenen IT-Infrastruktur bereitzustellen. Durch die im Protokoll
+integrierte Versionskontrolle der Daten lassen sich Änderungen im Code einfach
+nachvollziehen und gegebenenfalls zurückrollen. Kollaborative Arbeit in
+verteilten Teams zum Beispiel wird über eine parallele Entwicklungsstruktur in
+"branches" ermöglicht, die mit dem Hauptprojekt zu einem gewünschten Zeitraum
+zusammengeführt werden können.  Bei diesem Funktionsumfang wird schnell klar,
+dass Git auch jenseits der forschungsnahen Dienste eine Vielzahl von
+Anwendungsmöglichkeiten hat. Hierfür sei auf das entsprechende Kapitel
+verwiesen.  Eine Möglichkeit, die Funktion der Software spielerisch zu
+erkunden, bietet beispielsweise die vom Bundesministerium für Bildung und
+Forschung geförderte Webseite [ohmygit.org](https://ohmygit.org).
 
 *[Forschungssoftware](#forschungssoftware) lässt sich, nicht nur wegen der
 Verwaltung mit Git oder ähnlichen Programmen, nicht einfach komplett analog zu
@@ -495,7 +502,7 @@ als UNESCO-Projekt aber als geeignete Alternative zu betrachten.
 Die Verknüpfung der im Gesamtprozess entstehenden Metadaten mit Systemen
 wie dem FIS oder auch Forschungsdatenrepositorien hinsichtlich der
 Auffindbarkeit dieser wissenschaftlichen Ergebnisse ist ein Punkt, der
-eine Betrachtung der kompletten [Toolchain](#toolchain) notwendig macht.
+eine Betrachtung der kompletten [Toolchain](#toolchains) notwendig macht.
 
 ## Forschungsinformationssysteme
 
@@ -762,6 +769,60 @@ Deutschland](https://www.pid-network.de/) - Netzwerk für
 die Förderung von persistenten Identifikatoren in Wissenschaft und
 Kultur".
 
+### Langzeitarchivierung
+
+Die dauerhafte Aufbewahrung und Lesbarkeit von digitalen Objekten zu
+gewährleisten, stellt auch für Bibliotheken, die zunehmend für die Archivierung
+von Open-Access-Publikationen, Forschungsdaten und andere elektronische
+Ressourcen verantwortlich sind, eine große Herausforderung dar. Während Backups
+- also die Erstellung von Datenkopien und deren Speicherung auf verschiedenen
+Medien (z.B. externe Festplatten, Cloud) - darauf abzielen, aktuelle Daten
+schnell wiederherstellen zu können, beinhaltet die sogenannte **digitale
+Langzeitarchivierung (LZA)** neben der Speicherung zusätzliche Maßnahmen wie die
+regelmäßige Überprüfung der Datenintegrität, die Migration der Daten auf neue
+Speichermedien und die Anpassung an sich verändernde Technologien, sodass die
+digitalen Informationen (z.B. Forschungsdaten, digitalisiertes kulturelles
+Erbe) langfristig erhalten bleiben und auch in der Zukunft zugänglich sind. 
+
+Bewahrt werden
+müssen also sowohl der Bitstream der Datei, als auch deren Eigenschaften
+und Semantik. Von großer Bedeutung ist zudem die Dokumentation, was mit
+den digitalen Objekten im Verlauf der LZA passiert ist. Zu den
+Aktivitäten und Prozessen werden daher spezielle Metadaten erfasst.
+Aktuell ist [PREMIS](https://www.loc.gov/standards/premis/)
+in
+der LZA der wichtigste Metadatenstandard. Das Datenmodell beinhaltet alle
+Informationen, die man sowohl über die digitalen Objekte selbst (z.B.
+Name, Dateiformat, Größe) als auch über Akteure, Rechte (z.B.
+AccessRights, Embargofristen) und Prozesse (z.B. Konvertierung,
+Migrationen, Reparatur, Formatvalidierung) wissen sollte. 
+
+Es gibt auf LZA spezialisierte Software wie Rosetta (ExLibris) oder
+Libsafe (libnova), die mittlerweile in vielen Bibliotheken, Museen und
+anderen kulturellen Einrichtungen weltweit zum Einsatz kommen. Diese
+Systeme basieren meist auf dem international anerkannten Referenzmodell
+für digitale Archivierung OAIS ([Open Archival Information System, ISO
+14721:2012](https://www.iso.org/standard/57284.html)) und bieten neben
+den Standardfunktionen eines Archivsystems (z.B. bitstream-preservation,
+regelmäßige Integritätstests, Reduplizierung) auch Funktionen wie eine
+Format-Validierung und implementierbare Workflows.
+
+Auf der Webpage [COPTR](https://coptr.digipres.org/) - Community Owned
+digital Preservation Tool Registry - werden diese und zahlreiche weitere
+Tools und Workflows zur Langzeitarchivierung vorgestellt. Als wichtige
+Anlaufstelle für Fragen rund um die digitale Langzeitarchivierung dient
+außerdem das [Kompetenznetzwerk nestor](https://www.langzeitarchivierung.de/), 
+dessen Geschäftsstelle an der Deutschen Nationalbibliothek
+angesiedelt ist. Bei der NFDI wird  “[*Long-term Archival
+(LTA)*](https://doi.org/10.5281/zenodo.6451456)” in der [*Sektion
+“Common Infrastructures”*](https://www.nfdi.de/section-infra/) als
+Querschnittsthema behandelt, um gemeinsame Lösungen für die speziellen
+Herausforderungen der LZA in Bezug auf Forschungsdaten (z.B. Vielfalt
+der Daten und Dateiformate, teils beträchtliche Datenvolumina) zu
+finden.
+
+![Das als ISO 14721 verabschiedete Referenzmodell „Open Archival Information System” (OAIS), CC-BY Jørgen Stamp](media/oais.png)
+
 ### Schnittstellen
 
 Im Bereich von Repositorien hat sich das [Open Archives Initative
@@ -839,7 +900,19 @@ sind, dass sie veröffentlicht werden können, durchlaufen sie einen
 eigenen Lebenszyklus, bei dem unterstützende Dienste der Bibliotheken
 zunehmend gefragt sind.*
 
-### Toolchain
+
+### Toolchains
+
+:::{.callout-important}
+## Definition
+
+Eine **Toolchain** ("Werkzeugkette") ist eine Reihe von miteinander verbundenen
+Anwendungen und Technologien, die gemeinsam eingesetzt werden, um spezifische
+Aufgaben oder Arbeitsabläufe zu optimieren und zu automatisieren. Die
+Einrichtung einer Toolchain hilft den reibungslosen Informationsfluss
+zwischen Arbeitsschritten zu verbessern.
+
+:::
 
 Forschungsnahe Dienste müssen immer im Kontext des Forschungsprozesses
 und im Hinblick auf den Nutzen für die Forschenden betrachtet werden.
