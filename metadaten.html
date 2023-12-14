@@ -424,7 +424,7 @@ Info
 <section id="normdaten" class="level3">
 <h3 class="anchored" data-anchor-id="normdaten">Normdaten</h3>
 <p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen Identifikator versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <em>Normdaten</em> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
-<p>Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu komplexen Wissensgraphen. Ein prominentes bibliothekarisches Beispiel ist die Gemeinsame Normdatei (<em>GND</em>), in der neben Personen auch Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.</p>
+<p>Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu komplexen <a href="#datenmodelle-und-rdf-formate">Ontologien und Wissensgraphen</a>. Ein prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame Normdatei (<em>GND</em>), in der neben Personen auch Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.</p>
 <p>Zur Anreicherung von Daten mit Normdaten mittels <em>Entity Recognition</em> (Erkennung von Entitäten in Daten) und <em>Entity Linking</em> (Abgleich von Entitäten mit IDs anderer Normdateien) sollte unterschieden werden zwischen:</p>
 <ul>
 <li><p>Normdateien mit Entitäten wie Personen (ORCID), Publikationen (DOI, ISBN), Sprachen (ISO 639) etc., die sich grundsätzlich eindeutig unterscheiden lassen sowie</p></li>
@@ -476,6 +476,7 @@ Definition
 </div>
 <div class="callout-body-container callout-body">
 <p>Eine <strong>Ontologie</strong> ist ein Datenmodell, das verschiedene Klassen und Eigenschaften in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener Datenquellen als Linked Data bis zu umfangreichen Wissensgraphen ermöglicht.</p>
+<p>Im Gegensatz zu einfacheren Formen von <a href="#normdaten">Normdaten</a> geht es bei Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit „Bank“ das Gleiche wie „Sitzbank“ oder ein Geldinstitut gemeint?) sondern auch um Eigenschaften und Beziehungen (Beispiel: wie groß ist die Bank und an welchem Ort befindet sie sich?).</p>
 </div>
 </div>
 <p><strong>Dublin Core</strong> bzw. das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
