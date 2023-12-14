@@ -53,7 +53,7 @@ Artikelveröffentlichungsgebühren in Open-Access-Journals (APCs).
 ::: {.callout-important}
 ## Definition
 
-**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen (mittels Open Access, Open Data, Open Educational Resources und Open Source). Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
+**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, Open Educational Resources und Open Source). Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
 
 :::
 
@@ -84,6 +84,19 @@ forschungsnahen Diensten stärker als in anderen Bereichen der Bibliotheks-IT
 eine Selbstverständlichkeit. Auch die Bedeutung der gemeinschaftlichen Pflege offener Standards, Datenmodelle und Daten-Gemeingüter ist hier besonders stark ausgeprägt.
 
 ## Publikationsdienste
+
+Die Veröffentlichung wissenschaftlicher Erkenntnisse ist ein zentraler
+Bestandteil des wissenschaftlichen Arbeitens. Solange dieser Prozess noch in
+den Geschäftsprozessen klassischer Subskriptionszeitschriften abgebildet war,
+war auch die Rolle der wissenschaftlichen Bibliotheken eher auf der Seite der
+Bereitstellung der Literatur. Mit der zunehmenden Stärkung des
+Open-Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten auch die
+wissenschaftlichen Bibliotheken stärker in die Rolle des Unterstützers und
+Ermöglichers. Die Digitalität der gesamten Prozesskette vom Schreiben bis hin
+zur Veröffentlichung der Artikel in teilweise von den Bibliotheken getragenen
+Infrastrukturen erfordert die Einbindung unterschiedlicher IT-Werkzeuge, die im
+Folgenden näher beschrieben werden.
+
 
 ### Journal Publishing-Dienste 
 
@@ -774,15 +787,12 @@ Kultur".
 Die dauerhafte Aufbewahrung und Lesbarkeit von digitalen Objekten zu
 gewährleisten, stellt auch für Bibliotheken, die zunehmend für die Archivierung
 von Open-Access-Publikationen, Forschungsdaten und andere elektronische
-Ressourcen verantwortlich sind, eine große Herausforderung dar. Während Backups
-- also die Erstellung von Datenkopien und deren Speicherung auf verschiedenen
-Medien (z.B. externe Festplatten, Cloud) - darauf abzielen, aktuelle Daten
-schnell wiederherstellen zu können, beinhaltet die sogenannte **digitale
-Langzeitarchivierung (LZA)** neben der Speicherung zusätzliche Maßnahmen wie die
+Ressourcen verantwortlich sind, eine große Herausforderung dar. Die sogenannte **digitale
+Langzeitarchivierung (LZA)** beinhaltet neben der Speicherung zusätzliche Maßnahmen wie die
 regelmäßige Überprüfung der Datenintegrität, die Migration der Daten auf neue
-Speichermedien und die Anpassung an sich verändernde Technologien, sodass die
-digitalen Informationen (z.B. Forschungsdaten, digitalisiertes kulturelles
-Erbe) langfristig erhalten bleiben und auch in der Zukunft zugänglich sind. 
+Speichermedien und die Anpassung an sich verändernde Technologien. Digitale
+Informationen (z.B. Forschungsdaten, digitalisiertes kulturelles
+Erbe) bleiben so langfristig erhalten und auch in der Zukunft zugänglich. 
 
 Bewahrt werden
 müssen also sowohl der Bitstream der Datei, als auch deren Eigenschaften
@@ -792,9 +802,9 @@ Aktivitäten und Prozessen werden daher spezielle Metadaten erfasst.
 Aktuell ist [PREMIS](https://www.loc.gov/standards/premis/)
 in
 der LZA der wichtigste Metadatenstandard. Das Datenmodell beinhaltet alle
-Informationen, die man sowohl über die digitalen Objekte selbst (z.B.
-Name, Dateiformat, Größe) als auch über Akteure, Rechte (z.B.
-AccessRights, Embargofristen) und Prozesse (z.B. Konvertierung,
+Informationen, die man sowohl über die digitalen Objekte selbst (z. B.
+Name, Dateiformat, Größe) als auch über Akteure, Rechte (z. B.
+AccessRights, Embargofristen) und Prozesse (z. B. Konvertierung,
 Migrationen, Reparatur, Formatvalidierung) wissen sollte. 
 
 Es gibt auf LZA spezialisierte Software wie Rosetta (ExLibris) oder
@@ -803,7 +813,7 @@ anderen kulturellen Einrichtungen weltweit zum Einsatz kommen. Diese
 Systeme basieren meist auf dem international anerkannten Referenzmodell
 für digitale Archivierung OAIS ([Open Archival Information System, ISO
 14721:2012](https://www.iso.org/standard/57284.html)) und bieten neben
-den Standardfunktionen eines Archivsystems (z.B. bitstream-preservation,
+den Standardfunktionen eines Archivsystems (z. B. bitstream-preservation,
 regelmäßige Integritätstests, Reduplizierung) auch Funktionen wie eine
 Format-Validierung und implementierbare Workflows.
 
@@ -813,13 +823,10 @@ Tools und Workflows zur Langzeitarchivierung vorgestellt. Als wichtige
 Anlaufstelle für Fragen rund um die digitale Langzeitarchivierung dient
 außerdem das [Kompetenznetzwerk nestor](https://www.langzeitarchivierung.de/), 
 dessen Geschäftsstelle an der Deutschen Nationalbibliothek
-angesiedelt ist. Bei der NFDI wird  “[*Long-term Archival
-(LTA)*](https://doi.org/10.5281/zenodo.6451456)” in der [*Sektion
-“Common Infrastructures”*](https://www.nfdi.de/section-infra/) als
-Querschnittsthema behandelt, um gemeinsame Lösungen für die speziellen
-Herausforderungen der LZA in Bezug auf Forschungsdaten (z.B. Vielfalt
-der Daten und Dateiformate, teils beträchtliche Datenvolumina) zu
-finden.
+angesiedelt ist. Auch die NFDI behandelt "[Long-term Archival
+(LTA)](https://doi.org/10.5281/zenodo.6451456)" in der [Sektion
+"Common Infrastructures"](https://www.nfdi.de/section-infra/) als
+Querschnittsthema.
 
 ![Das als ISO 14721 verabschiedete Referenzmodell „Open Archival Information System” (OAIS), CC-BY Jørgen Stamp](media/oais.png)
 
@@ -909,7 +916,7 @@ zunehmend gefragt sind.*
 Eine **Toolchain** ("Werkzeugkette") ist eine Reihe von miteinander verbundenen
 Anwendungen und Technologien, die gemeinsam eingesetzt werden, um spezifische
 Aufgaben oder Arbeitsabläufe zu optimieren und zu automatisieren. Die
-Einrichtung einer Toolchain hilft den reibungslosen Informationsfluss
+Einrichtung einer Toolchain hilft, den reibungslosen Informationsfluss
 zwischen Arbeitsschritten zu verbessern.
 
 :::
@@ -1006,7 +1013,7 @@ Schwerpunkt hierbei insbesondere auf Services zur Unterstützung des
 Publikationsprozesses sowie des Forschungsdatenmanagements.
 
 Wie das vorliegende Kapitel anschaulich gezeigt hat, umfassen diese
-Services auch eine Vielzahl an IT-Diensten, so z. B.
+Services auch eine Vielzahl an IT-Diensten, so z. B.
 Journal-Publishing-Systeme, Repositorien und
 Forschungsinformationssysteme. Der stabile und nachhaltige Betrieb
 solcher Dienste umfasst technische, organisatorische und inhaltliche
