@@ -343,8 +343,10 @@ Datenquellen als Linked Data bis zu umfangreichen Wissensgraphen ermöglicht.
 Im Gegensatz zu einfacheren Formen von [Normdaten](#normdaten) geht es bei
 Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit
 "Bank" das Gleiche wie "Sitzbank" oder ein Geldinstitut gemeint?) sondern auch
-um Eigenschaften und Beziehungen (Beispiel: wie groß ist die Bank und an
-welchem Ort befindet sie sich?).
+um Eigenschaften und Beziehungen (Beispiel: mögliche Größe, Material und Ort
+von Bänken). **Wissensgraphen** enthalten neben Ontologien auch konkrete Daten
+über Instanzen der Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an
+einem Ort).
 
 :::
 
