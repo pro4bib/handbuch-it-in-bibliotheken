@@ -240,11 +240,11 @@ weitere identifizierende Merkmale wie alternative Benennungen,
 Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen
 verschiedenen Entitäten.
 
-Umfang und Komplexität von Normdateien reichen von einfachen Listen bis
-zu komplexen Wissensgraphen. Ein prominentes bibliothekarisches Beispiel
-ist die Gemeinsame Normdatei (*GND*), in der neben Personen auch
-Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter
-miteinander vernetzt sind.
+Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu
+komplexen [Ontologien und Wissensgraphen](#datenmodelle-und-rdf-formate). Ein
+prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame
+Normdatei (*GND*), in der neben Personen auch Körperschaften, Veranstaltungen,
+Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.
 
 Zur Anreicherung von Daten mit Normdaten mittels *Entity Recognition*
 (Erkennung von Entitäten in Daten) und *Entity Linking* (Abgleich von
@@ -339,6 +339,12 @@ werden.
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
 in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
 Datenquellen als Linked Data bis zu umfangreichen Wissensgraphen ermöglicht.
+
+Im Gegensatz zu einfacheren Formen von [Normdaten](#normdaten) geht es bei
+Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit
+"Bank" das Gleiche wie "Sitzbank" oder ein Geldinstitut gemeint?) sondern auch
+um Eigenschaften und Beziehungen (Beispiel: wie groß ist die Bank und an
+welchem Ort befindet sie sich?).
 
 :::
 
