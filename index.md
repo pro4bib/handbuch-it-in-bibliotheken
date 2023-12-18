@@ -97,7 +97,7 @@ der Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
 
 Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte dieses
 Buches unter der Lizenz [Creative Commons Namensnennung 4.0
-Deutschland](https://creativecommons.org/licenses/by/4.0/de/) (CC-BY 4.0 DE).
+Deutschland](https://creativecommons.org/licenses/by/4.0/deed.de) (CC-BY 4.0 DE).
 
 Das heißt: Sie dürfen das Material in jedwedem Format oder Medium
 vervielfältigen und weiterverbreiten (**Teilen**) und das Material remixen,

@@ -213,5 +213,5 @@ Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
 
 ## Lizenz {.unnumbered}
 
-Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden.
+Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden.
 

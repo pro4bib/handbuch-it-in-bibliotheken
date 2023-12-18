@@ -21,4 +21,4 @@ Die Datei `CITATION.CFF` enthält bibliographische Angaben zur Zitierung (bislan
 
 ## Lizenz
 
-Der Inhalt des Handbuchs steht unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.de)) zur Verfügung. Ausgenommen sind Abbildungen mit eigener Lizenzangabe.
+Der Inhalt des Handbuchs steht unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) zur Verfügung. Ausgenommen sind Abbildungen mit eigener Lizenzangabe.
