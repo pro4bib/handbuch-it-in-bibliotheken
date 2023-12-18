@@ -20,7 +20,7 @@ Forschungsdaten](#forschungsdatenmanagement) und
 [Forschungssoftware](#forschungssoftware) sowie [Informationen über
 Forschungsprozesse](#forschungsinformationssysteme).
 
-*[Übergreifende Themen](#übergreifende-themen) wie diese [Zertifikate und
+*[Gemeinsame Ressourcen](#gemeinsame-ressourcen) wie diese [Zertifikate und
 Standards](#zertifikate-und-standards) und [zusammen mit externen
 Dienstleistern](#zusammenarbeit-mit-dienstleistern)  werden in diesem Kapitel
 auch behandelt, der Text muss aber noch überarbeitet werden!*
@@ -285,31 +285,23 @@ DOIs.
 
 :::
 
-Das *Open Directory of Open Access Repositories (OpenDOAR)* stellt
-[Statistiken über die Verbreitung von
+Das *Open Directory of Open Access Repositories (OpenDOAR)* stellt [Statistiken
+über die Verbreitung von
 Softwarelösungen](https://v2.sherpa.ac.uk/view/repository_visualisations/1.html)
 für Repositorien für Forschungsergebnisse bereit: Meistgenutztes System
-weltweit ist *[DSpace](https://www.dspace.org)*, das auch in
-Deutschland zunehmend Verbreitung findet. Während DSpace vor allem von
-Universitäten eingesetzt wird, ist bei Fachhochschulen und HAWen
-*[OPUS](https://www.opus-repository.org/)* stark verbreitet,
-das meist durch den Kooperativen Bibliotheksverbund Berlin-Brandenburg
-(KOBV) oder das Bibliotheksservice-Zentrum Baden-Württemberg (BSZ)
-gehostet wird. Der Gemeinsame Bibliotheksverbund (GBV) bietet mit
-*[MyCoRe](http://www.mycore.org)* eine weitere
-Repositoriensoftwarelösung an. *OPUS* und *MyCoRe* finden bislang
-ausschließlich im deutschsprachigen Raum Anwendung, während DSpace von
-einer globalen Community getragen wird. Für Forschungsdatenrepositorien
-kommt zum Teil *DSpace*, zum Teil die auf Forschungsdaten spezialisierte
-Software *[Dataverse](https://dataverse.org)* zum Einsatz.
-
-Referenzen
-
-- Beate Rajski, Pascal Becker, \"DSpace-Konsortium Deutschland --
-  konsortial die Nachhaltigkeit sichern\". *LIBREAS. Library Ideas*, 36
-  (2019). <https://libreas.eu/ausgabe36/rajski/>
-
-- [Repositorien und das Semantic Web](https://doi.org/10.14279/depositonce-5015)
+weltweit ist *[DSpace](https://www.dspace.org)*, das auch in Deutschland
+zunehmend Verbreitung findet. Während DSpace vor allem von Universitäten
+eingesetzt wird, ist bei Fachhochschulen und HAWen
+*[OPUS](https://www.opus-repository.org/)* stark verbreitet, das meist durch
+den Kooperativen Bibliotheksverbund Berlin-Brandenburg (KOBV) oder das
+Bibliotheksservice-Zentrum Baden-Württemberg (BSZ) gehostet wird. Der
+Gemeinsame Bibliotheksverbund (GBV) bietet mit
+*[MyCoRe](http://www.mycore.org)* eine weitere Repositoriensoftwarelösung an.
+*OPUS* und *MyCoRe* finden bislang ausschließlich im deutschsprachigen Raum
+Anwendung, während DSpace von einer globalen Community getragen wird. Für
+Forschungsdatenrepositorien kommt zum Teil *[DSpace](http://www.dspace.org/)*,
+zum Teil die auf Forschungsdaten spezialisierte Software
+*[Dataverse](https://dataverse.org)* zum Einsatz.
 
 ## Forschungsdatenmanagement
 
@@ -621,13 +613,21 @@ meisten Fällen jedoch lediglich Nachweise der Ressourcen finden. In der Praxis
 sind FIS-Repositorien-Mischsysteme derzeit dennoch aufgrund von
 Ressourcenknappheit nicht wegzudenken.
 
+Nichtsdestotrotz sind die Publikationsdaten ein wichtiger Bestandteil jedes
+FIS. Aus diesem Grund ist das FIS eine gute erste Anlaufstelle, um interne
+bibliometrische Recherchen über den Output der eigenen Forschenden
+durchzuführen. Darüber hinaus sind primär Anfragen in externen Datenbanken als
+ergänzende Arbeitsschritte notwendig, keine weiteren Tools, die unter dem
+Aspekt IT in Bibliotheken aufgeführt gehören. Aus diesem Grund wird hier auf
+weitere Details verzichtet.
+
 Um eine Interoperabilität der unterschiedlichen Systeme und eine gute
 Auffindbarkeit der enthaltenen Ressourcen zu ermöglichen, ist eine
 Standardisierung notwendig - z. B. über Zertifikate, Metadatenstandards
 und Schnittstellen. Die in diesem Zusammenhang wichtigen Grundlagen
 werden im folgenden Kapitel erläutert.
 
-## Übergreifende Themen
+## Gemeinsame Ressourcen
 
 ### Zertifikate und Standards
 
@@ -636,8 +636,7 @@ zwischen Wissenschaft und Infrastruktureinrichtungen, die die Dienste
 betreiben. Zertifikate erfüllen in diesem Spannungsfeld verschiedene
 Funktionen. Sie waren als Vertrauen gebende Maßnahmen angedacht, die
 Qualitätsmerkmale der Dienstleistungen sein sollten. Das
-[DINI-Zertifikat für Open Access
-Publikationsplattformen](https://dini.de/dienste-projekte/dini-zertifikat)
+[DINI-Zertifikat für Open-Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)
 versteht sich seit jeher auch als Ratgeber bei Einrichtung,
 Weiterentwicklung und Betrieb solcher Dienstleistungen, der "Maßstäbe,
 Richtlinien und Best Practices" vermitteln will. Und letztlich dienen
@@ -677,15 +676,6 @@ Vorgaben an die Ausgestaltung der OAI-PMH-Schnittstelle. Diese Standards
 ermöglichen es Diensten wie zum Beispiel der Bielefeld Academic Search
 Engine und anderen Aggregatoren Inhalte aus vielen verschiedenen Quellen
 einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
-
-Referenzen
-
-- [DINI-Zertifikat 2022 für Open Access
-Publikationsdienste](https://doi.org/10.18452/24678)
-
-- [https://www.coretrustseal.org/](https://www.coretrustseal.org/)
-
-- [https://www.langzeitarchivierung.de/Webs/nestor/DE/Zertifizierung/nestor_Siegel/siegel.html](https://www.langzeitarchivierung.de/Webs/nestor/DE/Zertifizierung/nestor_Siegel/siegel.html)
 
 ### Metadaten
 
@@ -786,34 +776,28 @@ Kultur".
 
 Die dauerhafte Aufbewahrung und Lesbarkeit von digitalen Objekten zu
 gewährleisten, stellt auch für Bibliotheken, die zunehmend für die Archivierung
-von Open-Access-Publikationen, Forschungsdaten und andere elektronische
-Ressourcen verantwortlich sind, eine große Herausforderung dar. Die sogenannte **digitale
-Langzeitarchivierung (LZA)** beinhaltet neben der Speicherung zusätzliche Maßnahmen wie die
-regelmäßige Überprüfung der Datenintegrität, die Migration der Daten auf neue
-Speichermedien und die Anpassung an sich verändernde Technologien. Digitale
-Informationen (z.B. Forschungsdaten, digitalisiertes kulturelles
-Erbe) bleiben so langfristig erhalten und auch in der Zukunft zugänglich. 
+von Open-Access-Publikationen, Forschungsdaten und anderen elektronische
+Ressourcen verantwortlich sind, eine große Herausforderung dar. Die sogenannte
+**digitale Langzeitarchivierung (LZA)** beinhaltet neben der Speicherung
+zusätzliche Maßnahmen wie die regelmäßige Überprüfung der Datenintegrität, die
+Migration der Daten auf neue Speichermedien und die Anpassung an sich
+verändernde Technologien. Digitale Informationen bleiben so langfristig
+erhalten und auch in der Zukunft zugänglich. 
 
-Bewahrt werden
-müssen also sowohl der Bitstream der Datei, als auch deren Eigenschaften
-und Semantik. Von großer Bedeutung ist zudem die Dokumentation, was mit
-den digitalen Objekten im Verlauf der LZA passiert ist. Zu den
-Aktivitäten und Prozessen werden daher spezielle Metadaten erfasst.
-Aktuell ist [PREMIS](https://www.loc.gov/standards/premis/)
-in
-der LZA der wichtigste Metadatenstandard. Das Datenmodell beinhaltet alle
-Informationen, die man sowohl über die digitalen Objekte selbst (z. B.
-Name, Dateiformat, Größe) als auch über Akteure, Rechte (z. B.
-AccessRights, Embargofristen) und Prozesse (z. B. Konvertierung,
-Migrationen, Reparatur, Formatvalidierung) wissen sollte. 
+Bewahrt werden müssen also sowohl der Bitstream der Datei, als auch deren
+Eigenschaften und Semantik.  Aktuell ist
+[PREMIS](https://www.loc.gov/standards/premis/) in der LZA der wichtigste
+Metadatenstandard. Das Datenmodell beinhaltet alle Informationen, die man
+sowohl über die digitalen Objekte selbst (z. B.  Name, Dateiformat, Größe) als
+auch über Akteure, Rechte (z. B.  AccessRights, Embargofristen) und Prozesse
+(z. B. Konvertierung, Migrationen, Reparatur, Formatvalidierung) wissen
+sollte. 
 
-Es gibt auf LZA spezialisierte Software wie Rosetta (ExLibris) oder
-Libsafe (libnova), die mittlerweile in vielen Bibliotheken, Museen und
-anderen kulturellen Einrichtungen weltweit zum Einsatz kommen. Diese
-Systeme basieren meist auf dem international anerkannten Referenzmodell
-für digitale Archivierung OAIS ([Open Archival Information System, ISO
-14721:2012](https://www.iso.org/standard/57284.html)) und bieten neben
-den Standardfunktionen eines Archivsystems (z. B. bitstream-preservation,
+Es gibt auf LZA spezialisierte Software wie Rosetta (ExLibris) oder Libsafe
+(libnova). Diese Systeme basieren meist auf dem international anerkannten
+Referenzmodell für digitale Archivierung OAIS ([Open Archival Information
+System, ISO 14721:2012](https://www.iso.org/standard/57284.html)) und bieten
+neben den Standardfunktionen eines Archivsystems (z. B. bitstream-preservation,
 regelmäßige Integritätstests, Reduplizierung) auch Funktionen wie eine
 Format-Validierung und implementierbare Workflows.
 
@@ -1027,58 +1011,15 @@ Personalentwicklung.
 Zur vertieften Beschäftigung mit forschungsnahen Diensten an
 Bibliotheken wird folgende Literatur empfohlen:
 
--   Konrad, Uwe, Förstner, Konrad, Reetz, Johannes, Wannemacher, Klaus,
-    Kett, Jürgen, & Mannseicher, Florian (2020). Digitale Dienste für
-    die Wissenschaft. Wohin geht die Reise? (Positionspapier), Zenodo.
-    <https://doi.org/10.5281/zenodo.4301924>
+- @Konrad2020
+- @Stille2021
+- @BergWeiss2022
+- @Azeroual2021
+- @Schirrwagen2022
+- @DINI2022
+- @Druskat2022
+- @Grossmann2023
+- @Cyra2022
+- @Barker2022
+- @Putnings2021
 
--   Farrenkopf et al. (2021). Forschungsunterstützung an Bibliotheken:
-    Positionspapier der Kommission für forschungsnahe Dienste des VDB.
-    O-Bib. Das Offene Bibliotheksjournal / Herausgeber VDB, 8(2),
-    1--19.
-    <https://doi.org/10.5282/o-bib/5718>
-
--   Berg-Weiß, A., et al. (2022). Openness in Bibliotheken :
-    Positionspapier der Kommission für forschungsnahe Dienste des VDB.
-    O-Bib. Das Offene Bibliotheksjournal / Herausgeber VDB, 9(2),
-    1--4.  <(https://doi.org/10.5282/o-bib/5826>
-
--   Azeroual, Otmane. "Untersuchungen zur Datenqualität und
-    Nutzerakzeptanz von Forschungsinformationssystemen". Dissertation.
-    Magdeburg: Otto-von-Guericke-Universität Magdeburg, 2021.
-
--   Schirrwagen, Jochen: Repositorien und Forschungsinformationssysteme
-    bilden keine Dichotomie, Bibliothek - Forschung und Praxis 46, 2, 2022, 284--288.
-
--   Management von Forschungsinformationen in Hochschulen und
-    Forschungseinrichtungen. Eine Standortbestimmung 2022 (2022),
-    hrsg. DINI AG Forschungsinformationssysteme,
-    <https://doi.org/10.18452/25440>
-
--   Druskat, Stephan und Bertuch, Oliver und Juckeland, Guido und
-    Knodel, Oliver und Schlauch, Tobias (2022) *Software publications
-    with rich metadata: state of the art, automated workflows and
-    HERMES concept.* sonstiger Bericht. doi:
-    <https://doi.org/10.48550/arXiv.2201.09015>;
-    mith AM, Katz DS, Niemeyer KE, FORCE11 Software Citation Working
-    Group. 2016. Software citation principles. PeerJ Computer Science
-    2:e86
-    <https://doi.org/10.7717/peerj-cs.86>
-
--   Yves Vincent Grossmann und Michael Franke, Software ist kein
-    Beiprodukt! Nachhaltige Forschungssoftware durch
-    Software-Management-Pläne, b-i-t-online 26 (2023) Nr. 5, 457- 463,
-    <https://www.b-i-t-online.de/heft/2023-05-fachbeitrag-grossmann.pdf>
-
--   Cyra, M. A., Politze, M. ., & Timm, H. (2022). A push for better
-    RDM: Erfahrungsbericht aus dem Einsatz von git für
-    Forschungsdaten. *Bausteine Forschungsdatenmanagement*, (2).
-    <https://doi.org/10.17192/bfdm.2022.2.8435>
-
--   Barker, M., Chue Hong, N.P., Katz, D.S. *et al.* Introducing the
-    FAIR Principles for research software. *Sci Data* **9**, 622
-    (2022). <https://doi.org/10.1038/s41597-022-01710-x>
-
--   Putnings, Markus, Neuroth, Heike und Neumann, Janna. *Praxishandbuch
-    Forschungsdatenmanagement*, Berlin, Boston: De Gruyter Saur, 2021.
-    <https://doi.org/10.1515/9783110657807>
