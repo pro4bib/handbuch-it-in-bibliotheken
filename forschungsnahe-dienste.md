@@ -885,11 +885,11 @@ integriert. Zum Zeitpunkt des Schreiben dieses Buchs ist zu erwarten,
 dass Notify sich in diesem Bereich verankern und helfen wird, Dienste
 dynamischer miteinander zu verknüpfen.
 
-*Von diesen Entwicklungen wird auch die Veröffentlichung von
+Von diesen Entwicklungen wird auch die Veröffentlichung von
 Forschungsdaten profitieren. Bevor Daten allerdings in einem Zustand
 sind, dass sie veröffentlicht werden können, durchlaufen sie einen
 eigenen Lebenszyklus, bei dem unterstützende Dienste der Bibliotheken
-zunehmend gefragt sind.*
+zunehmend gefragt sind.
 
 
 ### Toolchains
@@ -933,9 +933,9 @@ zurückgespeichert werden. Das Forschungsinformationssystem harvestet die
 Inhalte über OAI-PMH regelmäßig und weist die Digitalisate nach, die im
 Repositorium bereitgestellt werden.
 
-*In diesem ideellen Bild wird nicht betrachtet, wo die nötigen Systeme
+In diesem ideellen Bild wird nicht betrachtet, wo die nötigen Systeme
 stehen. Dies muss nicht immer ein lokal betriebenes System auf eigener
-Hardware sein, sondern ist oftmals als externer Service verfügbar.*
+Hardware sein, sondern ist oftmals als externer Service verfügbar.
 
 ### Zusammenarbeit mit Dienstleistern
 
@@ -981,12 +981,12 @@ sollte die Frage, unter welcher Softwarelizenz Weiterentwicklungen
 stehen, zwingend im Vertrag geklärt werden.
 
 Besonders weit verbreitete Softwarelösungen haben große
-Entwicklergemeinschaften, die es einerseits zu unterstützen gilt,
-andererseits aber auch die communitygetriebene Entwicklungsrichtung der
-Software zu beachten ist. Ist der gewünschte Dienstleister hier noch
-neu, ist zumindest eine anderweitige Erfahrung in ähnlichen Projekten
-wünschenswert. Eine Recherche in öffentlichen Software-Repositorien der
-Projekte kann hier zielführend sein.
+Entwicklergemeinschaften, die es einerseits zu unterstützen gilt, andererseits
+aber auch die Community-getriebene Entwicklungsrichtung der Software zu
+beachten ist. Ist der gewünschte Dienstleister hier noch neu, ist zumindest
+eine anderweitige Erfahrung in ähnlichen Projekten wünschenswert. Eine
+Recherche in öffentlichen Software-Repositorien der Projekte kann hier
+zielführend sein.
 
 ## Zusammenfassung und Ausblick
 
