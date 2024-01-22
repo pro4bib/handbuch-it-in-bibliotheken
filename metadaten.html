@@ -239,7 +239,7 @@ div.csl-indent {
   <li><a href="#arten-von-metadaten" id="toc-arten-von-metadaten" class="nav-link" data-scroll-target="#arten-von-metadaten">Arten von Metadaten</a></li>
   <li><a href="#feldbasierte-bibliothekarische-metadatenformate" id="toc-feldbasierte-bibliothekarische-metadatenformate" class="nav-link" data-scroll-target="#feldbasierte-bibliothekarische-metadatenformate">Feldbasierte bibliothekarische Metadatenformate</a></li>
   <li><a href="#xml-basierte-datenformate" id="toc-xml-basierte-datenformate" class="nav-link" data-scroll-target="#xml-basierte-datenformate">XML-basierte Datenformate</a></li>
-  <li><a href="#datenmodelle-und-rdf-formate" id="toc-datenmodelle-und-rdf-formate" class="nav-link" data-scroll-target="#datenmodelle-und-rdf-formate">Datenmodelle und RDF-Formate</a></li>
+  <li><a href="#datenmodelle-und-ontologien" id="toc-datenmodelle-und-ontologien" class="nav-link" data-scroll-target="#datenmodelle-und-ontologien">Datenmodelle und Ontologien</a></li>
   <li><a href="#verlagsdaten-und-literaturangaben" id="toc-verlagsdaten-und-literaturangaben" class="nav-link" data-scroll-target="#verlagsdaten-und-literaturangaben">Verlagsdaten und Literaturangaben</a></li>
   </ul></li>
   <li><a href="#datenverarbeitungsprozess-in-bibliotheken" id="toc-datenverarbeitungsprozess-in-bibliotheken" class="nav-link" data-scroll-target="#datenverarbeitungsprozess-in-bibliotheken">Datenverarbeitungsprozess in Bibliotheken</a>
@@ -303,7 +303,7 @@ Zusammenfassung
 <li><p>der Struktur von Daten (<strong>Syntax</strong>)</p></li>
 <li><p>und der Bedeutung von Daten (<strong>Semantik</strong>).</p></li>
 </ul>
-<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und Identifikatoren. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen">Tabelle&nbsp;<span>5.1</span></a>):</p>
+<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und <a href="#identifikatoren">Identifikatoren</a>. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen">Tabelle&nbsp;<span>5.1</span></a>):</p>
 <div id="tbl-daten-ebenen" class="anchored">
 <table class="table">
 <caption>Tabelle&nbsp;5.1: Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen</caption>
@@ -345,6 +345,20 @@ Zusammenfassung
 <li><p>und <strong>Datenmodelle</strong> auf Ebene der Semantik.</p></li>
 </ul>
 <p>Leider liegen beide oft nicht explizit vor, sondern müssen anhand von Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im Idealfall entsprechen Daten einem klar definierten Datenformat.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Info
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Mit dem <strong>Resource Description Framework (RDF)</strong> kodierte Daten werden auch als „semantisch“ bezeichnet. Die Kodierung erfolgt dabei nicht mit Feldern oder Tabellen sondern in Form von so genannten RDF-Tripeln aus Subjekt, Prädikat und Objekt. Durch Verwendung gemeinsamer <a href="#identifikatoren">Identifikatoren</a> in mehreren Tripeln entstehen <a href="#datenmodelle-und-ontologien">Wissensgraphen</a>, die in speziellen Datenbanken (<em>Triplestores</em>) gespeichert und abgefragt werden können.</p>
+<p>Die Bedeutung von RDF-Daten ergibt sich allerdings wie bei allen Kodierungen erst aus der Dokumentation von Datenelementen und ihrer Interpretation in praktischen Anwendungen.</p>
+</div>
+</div>
 </section>
 <section id="datenformate" class="level3">
 <h3 class="anchored" data-anchor-id="datenformate">Datenformate</h3>
@@ -424,7 +438,7 @@ Info
 <section id="normdaten" class="level3">
 <h3 class="anchored" data-anchor-id="normdaten">Normdaten</h3>
 <p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen Identifikator versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <em>Normdaten</em> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
-<p>Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu komplexen <a href="#datenmodelle-und-rdf-formate">Ontologien und Wissensgraphen</a>. Ein prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame Normdatei (<em>GND</em>), in der neben Personen auch Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.</p>
+<p>Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu komplexen <a href="#datenmodelle-und-ontologien">Ontologien und Wissensgraphen</a>. Ein prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame Normdatei (<em>GND</em>), in der neben Personen auch Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.</p>
 <p>Zur Anreicherung von Daten mit Normdaten mittels <em>Entity Recognition</em> (Erkennung von Entitäten in Daten) und <em>Entity Linking</em> (Abgleich von Entitäten mit IDs anderer Normdateien) sollte unterschieden werden zwischen:</p>
 <ul>
 <li><p>Normdateien mit Entitäten wie Personen (ORCID), Publikationen (DOI, ISBN), Sprachen (ISO 639) etc., die sich grundsätzlich eindeutig unterscheiden lassen sowie</p></li>
@@ -456,15 +470,13 @@ Info
 </section>
 <section id="xml-basierte-datenformate" class="level3">
 <h3 class="anchored" data-anchor-id="xml-basierte-datenformate">XML-basierte Datenformate</h3>
-<ul>
-<li><p><strong>METS</strong> und <strong>MODS</strong> sind zwei zusammen im Bereich <a href="./digitalisierung.html">Digitalisierung</a> eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung von Objekten wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.</p></li>
-<li><p><em><a href="https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182">Encoded Archival Description</a></em> (<strong>EAD</strong>) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.</p></li>
-<li><p><strong>LIDO</strong> ist ein etabliertes Austauschformat für den Museumsbereich.</p></li>
-<li><p><strong>DataCite</strong> ist ein bibliographisches Datenformat insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>).</p></li>
-</ul>
+<p><strong>METS</strong> und <strong>MODS</strong> sind zwei zusammen im Bereich <a href="./digitalisierung.html">Digitalisierung</a> eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung von Objekten wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.</p>
+<p><em><a href="https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182">Encoded Archival Description</a></em> (<strong>EAD</strong>) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.</p>
+<p><strong>LIDO</strong> ist ein etabliertes Austauschformat für den Museumsbereich.</p>
+<p><strong>DataCite</strong> ist ein bibliographisches Datenformat insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>).</p>
 </section>
-<section id="datenmodelle-und-rdf-formate" class="level3">
-<h3 class="anchored" data-anchor-id="datenmodelle-und-rdf-formate">Datenmodelle und RDF-Formate</h3>
+<section id="datenmodelle-und-ontologien" class="level3">
+<h3 class="anchored" data-anchor-id="datenmodelle-und-ontologien">Datenmodelle und Ontologien</h3>
 <div class="callout callout-style-simple callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -595,7 +607,7 @@ Info
 <li><p>Die <em><a href="https://gbv.github.io/paia/">Patrons Account Information API</a></em> (<strong>PAIA</strong>) ist eine offene Schnittstelle zum Zugriff auf Ausleihkonten.</p></li>
 <li><p>Die <em><a href="https://gbv.github.io/daia/">Document Availability Information API</a></em> (<strong>DAIA</strong>) ist eine offene Schnittstelle zur Abfrage der Verfügbarkeit von Medien.</p></li>
 <li><p>Mit <strong>unAPI</strong> können einzelne Datensätze in verschiedenen Formaten abgerufen werden.</p></li>
-<li><p>Die <strong><a href="https://reconciliation-api.github.io/specs/draft/">Reconciliation Service API</a></strong> ermöglicht den Abgleich mit Normdaten zur eindeutigen Referenzierung (siehe Abschnitt <a href="#identifikatoren-und-normdaten">Identifikatoren und Normdaten</a>).</p></li>
+<li><p>Die <strong><a href="https://reconciliation-api.github.io/specs/draft/">Reconciliation Service API</a></strong> ermöglicht den Abgleich mit Normdaten zur eindeutigen Referenzierung (siehe Abschnitte zu <a href="#identifikatoren">Identifikatoren</a> und zu <a href="#normdaten">Normdaten</a>).</p></li>
 <li><p>Die APIs des <em><a href="https://iiif.io/">International Image Interoperability Framework</a></em> (<strong>IIIF</strong>) ermöglicht die Referenzierung und Nutzung digitalisierter Werke in externen Werkzeugen durch gezielte Verlinkung auf einzelne Bestandteile.</p></li>
 <li><p>Über <strong>SPARQL</strong>-Schnittstellen können RDF-Daten aus Wissensgraphen wie zum Beispiel Wikidata abgerufen werden.</p></li>
 <li><p>Verschiedene Schnittstellen zur Authentifizierung und Autorisierung wie <em>LDAP</em>, <em>Shibboleth</em> und <em>OAuth</em>.</p></li>
