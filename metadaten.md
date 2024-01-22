@@ -31,6 +31,7 @@ gelten sowohl für Metadaten als auch für digitale Inhalte.
 [Forschungsnahe Dienste]: forschungsnahe-dienste.md
 
 ## Grundlegende Begrifflichkeiten
+
 ### Daten
 
 Im Wesentlichen bestehen Daten im Sinne dieses Buchs aus einer Folge von
@@ -44,9 +45,9 @@ oder für den Titel eines Dokumentes. Dabei besteht ein Unterschied zwischen
 - und der Bedeutung von Daten (**Semantik**).
 
 Zur Interpretation von Daten dienen **Kodierungen** in Form von Datenformaten
-und Identifikatoren. Wo genau jeweils die Grenze zwischen Syntax und Semantik
-liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten
-betrachtet und verarbeitet werden (siehe @tbl-daten-ebenen):
+und [Identifikatoren](#identifikatoren). Wo genau jeweils die Grenze zwischen
+Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher
+Kodierung Daten betrachtet und verarbeitet werden (siehe @tbl-daten-ebenen):
 
   Datenebene     Bedeutung                     Kodierung
   -------------- ----------------------------- -----------------------------------
@@ -73,6 +74,22 @@ Zur Beschreibung von Daten dienen
 Leider liegen beide oft nicht explizit vor, sondern müssen anhand von
 Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im
 Idealfall entsprechen Daten einem klar definierten Datenformat.
+
+::: {.callout-tip}
+## Info
+
+Mit dem **Resource Description Framework (RDF)** kodierte Daten werden
+auch als "semantisch" bezeichnet. Die Kodierung erfolgt dabei nicht
+mit Feldern oder Tabellen sondern in Form von so genannten RDF-Tripeln
+aus Subjekt, Prädikat und Objekt. Durch Verwendung gemeinsamer
+[Identifikatoren](#identifikatoren) in mehreren Tripeln entstehen
+[Wissensgraphen](#datenmodelle-und-ontologien), die in speziellen
+Datenbanken (*Triplestores*) gespeichert und abgefragt werden können.
+
+Die Bedeutung von RDF-Daten ergibt sich allerdings wie bei allen
+Kodierungen erst aus der Dokumentation von Datenelementen und ihrer
+Interpretation in praktischen Anwendungen.
+:::
 
 ### Datenformate
 
@@ -241,7 +258,7 @@ Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen
 verschiedenen Entitäten.
 
 Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu
-komplexen [Ontologien und Wissensgraphen](#datenmodelle-und-rdf-formate). Ein
+komplexen [Ontologien und Wissensgraphen](#datenmodelle-und-ontologien). Ein
 prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame
 Normdatei (*GND*), in der neben Personen auch Körperschaften, Veranstaltungen,
 Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.
@@ -319,19 +336,18 @@ werden.
 
 ### XML-basierte Datenformate
 
-- **METS** und **MODS** sind zwei zusammen im Bereich [Digitalisierung](digitalisierung.md)
+**METS** und **MODS** sind zwei zusammen im Bereich [Digitalisierung](digitalisierung.md)
   eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische
   Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung
   von Objekten wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.
 
-- *[Encoded Archival Description](https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182)* (**EAD**) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.
+*[Encoded Archival Description](https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182)* (**EAD**) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.
 
-- **LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
+**LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
 
-- **DataCite** ist ein bibliographisches Datenformat insbesondere zur Beschreibung von Forschungsdaten
-  (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
+**DataCite** ist ein bibliographisches Datenformat insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
 
-### Datenmodelle und RDF-Formate
+### Datenmodelle und Ontologien
 
 :::{.callout-important}
 ## Definition
@@ -674,8 +690,8 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   werden.
 
 - Die **[Reconciliation Service API](https://reconciliation-api.github.io/specs/draft/)** ermöglicht den Abgleich mit
-  Normdaten zur eindeutigen Referenzierung (siehe Abschnitt
-  [Identifikatoren und Normdaten](#identifikatoren-und-normdaten)).
+  Normdaten zur eindeutigen Referenzierung (siehe Abschnitte zu
+  [Identifikatoren](#identifikatoren) und zu [Normdaten](#normdaten)).
 
 - Die APIs des *[International Image Interoperability Framework](https://iiif.io/)*
   (**IIIF**) ermöglicht die Referenzierung und Nutzung digitalisierter Werke in
