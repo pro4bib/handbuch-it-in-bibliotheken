@@ -355,7 +355,7 @@ Zusammenfassung
 <h4 class="anchored" data-anchor-id="d-objekte">2D-Objekte</h4>
 <p>Für das Scannen von 2D-Objekten („Flachware“) hat sich als Zielformat der Bilddigitalisierung unkomprimiertes <a href="https://de.wikipedia.org/wiki/Tagged_Image_File_Format">TIFF</a> etabliert. Es werden mit Aufsichtscannern oder fotografischen Reproständen Einzelseiten aufgenommen und vom Bildausschnitt her wird mit schwarzem Rand digitalisiert. Verschiedene Auflösungen („Derivate“) für die Webpräsentation werden nachgelagert erzeugt oder dynamisch von einem Bildserver zur Verfügung gestellt.</p>
 <p>Für die verschiedenen Digitalisierungsvorhaben bilden die <a href="https://doi.org/10.5281/zenodo.7435724">DFG-Praxisregeln</a> eine gute Orientierungshilfe - für die Auflösung, den Farbraum oder andere technische Parameter. Für die Beurteilung und Sicherstellung der objektiven Bildqualität haben sich zudem Digitalisierungsstandards etabliert, die mittlerweile auch von Scannerherstellern und Scandienstleistern berücksichtigt werden. Erwähnenswert sind hier vor allem <a href="https://www.metamorfoze.nl/english/digitization">Metamorfoze</a> und der daraus hervorgegangene <a href="https://www.iso.org/standard/64220.html">ISO-19263 Standard</a> .</p>
-<p>Bei der Zeitungsdigitalisierung ist im Interesse der Forschung die Erzeugung von Volltexten nach der Digitalisierung ein wichtiges Ziel. Diese Perspektive bedingt im Hinblick auf die Qualität der OCR eine Präferenz für eine Digitalisierung vom Original gegenüber einer Digitalisierung vom Mikrofilm.</p>
+<p>Bei der Zeitungsdigitalisierung ist im Interesse der Forschung die Erzeugung von Volltexten nach der Digitalisierung ein wichtiges Ziel. Diese Perspektive bedingt im Hinblick auf die Qualität der Texterkennung (OCR) eine Präferenz für eine Digitalisierung vom Original gegenüber einer Digitalisierung vom Mikrofilm.</p>
 </section>
 <section id="d-objekte-1" class="level4">
 <h4 class="anchored" data-anchor-id="d-objekte-1">3D-Objekte</h4>
@@ -395,8 +395,8 @@ Zusammenfassung
 <p>Die Präsentation der digitalisierten Objekte hängt von der Art von Objekten und beabsichtigten Nutzungsszenarien ab und erfordert eigene Werkzeuge, die unabhängig von dem genutzten Workflowmanagementsystem ausgewählt und konfiguriert werden. Basis für Präsentationslösungen sind die im Workflow erzeugten standardisierten XML-Files (METS/MODS).</p>
 <p>Funktional wird von einer Präsentationslösung eine konfigurierbare Recherche-Umgebung für Metadaten und Volltexte erwartet. Bei der Präsentation des einzelnen Objektes werden die Strukturdaten zusammen mit den dazu erfassten Metadaten als Inhaltsverzeichnis angeboten und es werden zur Arbeit mit den Scans Bildwerkzeuge erwartet (z.B. Zoomen, Rotieren, Thumbnail-Übersicht). Zunehmend wichtige Funktionen sind Download-Angebote oder die Bereitstellung von iiif-Manifesten zur Weiternutzung in anderen Viewern.</p>
 <p>Mit dem <a href="http://dfg-viewer.de/">DFG-Viewer</a> existiert eine Minimallösung für die Anzeige von Digitalisaten, die aus dem Katalog verlinkt werden kann. Für eine umfassendere Präsentation von Digitalisaten entscheiden sich Einrichtungen für eine Integration der Digitalisate in ein existierendes Repositorium oder für den Aufbau von Web-Angeboten mit speziellen Werkzeugen für Digitalisate wie z. B. <em>Kitodo.Presentation</em>. Ein wichtiges Element für mehr Sichtbarkeit der eigenen Digitalisierungs-Aktivitäten ist eine Datenlieferung an die Deutsche Digitale Bibliothek.</p>
-<p>Zunehmend relevanter wird die Suche nach Lösungen für eine Präsentation von rechtebehafteten Materialien für eingeschränkte Personenkreise. Repositorien <mark>TODO: Link auf Kapitel in Text zu forschungsnahen Diensten</mark> haben hier in der Regel schon anpassbare Lösungen. Bei der Präsentation von Digitalisaten existieren prototypische oder an Institutionen individuell angepasste technische Lösungen. Standards für die Beschreibung von Zugriffsrechten in den Metadaten oder generische Präsentationslösungen auf Basis dieser Metadaten befinden sich noch im Abstimmungsprozess oder der Entwicklung.</p>
-<p>Wikimedia Commons kann darüber hinaus als zentraler Medienspeicher für die Portalfamilie der Wikimedia-Bewegungn fungieren. Von dort werden digitalisierte Objekte und ‚born digital‘-Dokumente dezentral in den anderen Portalen eingebettet. Die Erschließung mit strukturierten Daten erfolgt mittels Wikidata (siehe <a href="#digitalisierung-als-beitrag-zur-open-glam-bewegung">Digitalisierung als Beitrag zur Open GLAM-Bewegung</a>).</p>
+<p>Zunehmend relevanter wird die Suche nach Lösungen für eine Präsentation von rechtebehafteten Materialien für eingeschränkte Personenkreise. <a href="./forschungsnahe-dienste.html#repositorien-für-forschungsergebnisse">Repositorien</a> haben hier in der Regel schon anpassbare Lösungen. Bei der Präsentation von Digitalisaten existieren prototypische oder an Institutionen individuell angepasste technische Lösungen. Standards für die Beschreibung von Zugriffsrechten in den Metadaten oder generische Präsentationslösungen auf Basis dieser Metadaten befinden sich noch im Abstimmungsprozess oder der Entwicklung.</p>
+<p>Wikimedia Commons kann darüber hinaus als Medienspeicher fungieren. Von dort werden digitalisierte Objekte und ‚born digital‘-Dokumente in Wikipedia und andere Webseiten eingebettet. Die Erschließung mit strukturierten Daten erfolgt mittels Wikidata (siehe <a href="#digitalisierung-als-beitrag-zur-open-glam-bewegung">Digitalisierung als Beitrag zur Open GLAM-Bewegung</a>).</p>
 </section>
 </section>
 <section id="werkzeuge" class="level2">
@@ -462,19 +462,32 @@ Zusammenfassung
 <section id="veranstaltungsformate-und-handlungsfelder" class="level3">
 <h3 class="anchored" data-anchor-id="veranstaltungsformate-und-handlungsfelder">Veranstaltungsformate und Handlungsfelder</h3>
 <p>Hackathons und Editathons sind Veranstaltungsformate, um kurzfristig die Bekanntheit digitaler Sammlungen zu steigern, Datenexperimente zu ermöglichen und Datenkollaborationen in Pilotprojekten anzustoßen. Dabei können Impulse entstehen für weiterentwickelte Datenanwendungen. Lerneffekte entstehen dabei nicht nur bei den beteiligten Menschen, sondern auch institutionell bei den beteiligten Bibliotheken und anderen GLAM, die ggf. Bedürfnisse, Ideen und Defizite von Nutzenden kennenlernen. Ein Beispiel Hackathons ist die Initiative <a href="https://codingdavinci.de/">„Coding da Vinci“</a>.</p>
-<p>Crowdsourcing und Citizen Science sind Handlungsfelder, die in Bibliotheken zunehmend Aufmerksamkeit wecken. Hierbei gewinnen Bibliotheken über externe engagierte Dritte zusätzliche Ressourcen für die Erschließung, Auswertung oder Korrektur von Daten. Ein Beispiel dafür ist das Projekt „<a href="https://de.wikiversity.org/wiki/DieDatenlaube">Die Datenlaube</a>“. In der deutschsprachigen Wikisource korrigiert eine Gemeinschaft Ehrenamtlicher seit 2008 die von verschiedenen Bibliotheken bereitgestellten Scans der Illustrierten „Die Gartenlaube“. Diese Wikisource-Volltexte und -Illustrationen werden mit offenen Metadaten in Wikidata strukturiert erschlossen.</p>
+<p>Crowdsourcing und Citizen Science sind Handlungsfelder, die in Bibliotheken zunehmend Aufmerksamkeit wecken. Hierbei gewinnen Bibliotheken über externe engagierte Dritte zusätzliche Ressourcen für die Erschließung, Auswertung oder Korrektur von Daten.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Beispiel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Im Projekt „<a href="https://de.wikiversity.org/wiki/DieDatenlaube">Die Datenlaube</a>“ erfasst und korrigiert in der deutschsprachigen Wikisource eine Gemeinschaft Ehrenamtlicher seit 2008 die von verschiedenen Bibliotheken bereitgestellten Scans der Illustrierten „Die Gartenlaube“. Diese Wikisource-Volltexte und -Illustrationen werden mit offenen Metadaten in Wikidata strukturiert erschlossen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/die-datenlaube.jpg" class="img-fluid figure-img"></p>
-<figcaption>BILDUNTERSCHRIFT FEHLT</figcaption>
+<figcaption>Die Datenlaube: Projektlogo</figcaption>
 </figure>
+</div>
+</div>
 </div>
 </section>
 <section id="offene-infrastrukturen" class="level3">
 <h3 class="anchored" data-anchor-id="offene-infrastrukturen">Offene Infrastrukturen</h3>
 <p>Offene digitale Infrastrukturen spielen für die Speicherung, Erschließung und Vernetzung von Digitalisaten eine wichtige Rolle, nicht zuletzt auch, um die beschriebene Beteiligung zu ermöglichen. Das prominenteste Beispiel dafür sind die Projekte der Wikimedia-Foundation, deren Grundprinzipien von Offenheit und Referenzierbarkeit die bibliothekarischen Erschließungs- und Präsentationskomponenten ergänzen:</p>
 <ul>
-<li><strong>Wikimedia Commons</strong> fungiert als zentraler Medienspeicher. Detailerschließungen z.B. mittels relativer Bildpositionen in den Metadaten von Commons-Dokumenten ist möglich (Structured Data on Commons) (siehe <a href="https://wd-image-positions.toolforge.org/">Wikidata Image Positions</a>).</li>
+<li><strong>Wikimedia Commons</strong> fungiert als zentraler Medienspeicher. Detailerschließung z.B. mittels relativer Bildpositionen in den Metadaten von Commons-Dokumenten ist möglich (Structured Data on Commons) (siehe <a href="https://wd-image-positions.toolforge.org/">Wikidata Image Positions</a>). Illustrationen des Handbuchs sind dort <a href="https://commons.wikimedia.org/wiki/Category:Handbuch_IT_in_Bibliotheken">in einer Medienkategorie</a> gebündelt.</li>
 </ul>
 <!-- TODO: Das Werkzeug ist nicht unbedingt selbsterklärend und Structured Data on Commons ist mehr -->
 <ul>
@@ -482,7 +495,7 @@ Zusammenfassung
 <li><p>Die vielsprachigen Versionen der <strong>Wikipedia</strong> speichern Wissen in enzyklopädischen Artikeln und ermöglichen so die Zusammenführung von Digitalisaten mit Texten, Illustrationen aus den Wikimedia Commons, Referenzen, Links und damit Kontext.</p></li>
 <li><p><strong>Wikisource</strong> ist eine Quellensammlung gemeinfreier Werke und besteht sowohl aus transkribierten Volltexten und deren Illustrationen als auch thematischen Linksammlungen zu relevanten Digitalisaten in Digitalen Sammlungen öffentlicher und wissenschaftlicher Bibliotheken, Archive, Museen und Galerien (GLAM).</p></li>
 </ul>
-<p>Herausforderungen aus IT-bibliothekarischer Sicht bestehen darin, Wikimedia-Portale und bibliothekarische Werkzeuge durch Schnittstellen und Datentransformation (<a href="metadaten.html#etl-prozess">ETL-Tools</a>) miteinander zu verknüpfen. GLAM-Labore (Open GLAM Labs) können dafür als Experimentier- und Ausbildungsgsort fungieren – in Bibliotheken und institutionenübergreifend z.B. im Rahmen von Landesdigitalisierungsprogrammen.</p>
+<p>Herausforderungen aus IT-bibliothekarischer Sicht bestehen darin, Wikimedia-Portale und bibliothekarische Werkzeuge durch Schnittstellen und Datentransformation (<a href="metadaten.html#etl-prozess">ETL-Tools</a>) miteinander zu verknüpfen. GLAM-Labore (Open GLAM Labs) können dafür als Experimentier- und Ausbildungsort fungieren – in Bibliotheken und institutionenübergreifend z.B. im Rahmen von Landesdigitalisierungsprogrammen.</p>
 </section>
 </section>
 <section id="checkliste-für-digitalisierungsprojekte" class="level2">
@@ -532,7 +545,7 @@ Zusammenfassung
 <p>Viele Bibliotheken mit historischen Beständen sind im Feld der Kulturgutdigitalisierung engagiert und kooperativ unterwegs. Werkzeuge, Standards und Dienstleister stehen zur Verfügung, um die unikalen Bestände ins Netz zu bringen. Um die Bandbreite der Objekte zu erweitern, finden gerade wichtige Entwicklungen statt, um auch AV-Medien und Objekte jenseits von 2D in die Routine aufzunehmen. Ebenso werden die Bibliotheken mit den Ergebnissen aus OCR-D immer mehr in der Lage sein, auch ohne Expertenwissen gute Volltexte zu erzeugen bzw. ihre gesamten Digitalisate inkl. handschriftlicher Dokumente mit Volltexten anzureichern. Hier sind ggf. auch kooperative Infrastrukturen aufzubauen, um die Fortschritte in den technischen Möglichkeiten schnell zur Verfügung zu stellen und eine regelmäßige Erneuerung der Volltexte zum Standard werden zu lassen.</p>
 <p>Erste Bibliotheken machen sich mit der schnell wachsenden Menge an Volltexten auf den Weg, mit Hilfe ausgewählter Tools aus dem Feld des Maschinenlernens, ihre Suche semantisch anzureichern auf Basis der vorgeschalteten automatisierten Analyseverfahren.</p>
 <p>Mit dem großen Schatz der Volltexte wird es darüber hinaus wichtiger werden, diesen auch den Forscher:innen zusätzlich über eine API anzubieten, um individuelle Korpora für den Download in eigene Umgebungen zusammenstellen zu können. Hier landet man dann auch schnell bei der Suche nach weitergehenden nachhaltigen Lösungen für urheberrechtlich geschützte Materialien.</p>
-<p>Aber auch die kollaborativen Aktivitäten an einzelnen Digitalisaten im Wikiversum oder in Citizen Science Projekten sind getragen von dem Leitgedanken, dass die digitalisierten Kulturgüter in neue Zusammenhänge gestellt werden und Interessierte zu einem Thema zusammen bringen.</p>
+<p>Aber auch die kollaborativen Aktivitäten an einzelnen Digitalisaten im Wikiversum oder in Citizen Science Projekten sind getragen von dem Leitgedanken, dass die digitalisierten Kulturgüter in neue Zusammenhänge gestellt werden und Interessierte zu einem Thema zusammenbringen.</p>
 
 
 </section>
