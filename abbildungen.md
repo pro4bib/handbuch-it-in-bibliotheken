@@ -15,3 +15,8 @@
   Three aproaches to Single Sign On.
   <https://commons.wikimedia.org/wiki/File:Single_sign_on_aproaches.svg>
   Public Domain
+
+- `media/die-datenlaube.jpg`
+  Die Datenlaube: Projektlogo
+  <https://commons.wikimedia.org/wiki/File:Die_Datenlaube.jpg>
+  Public Domain

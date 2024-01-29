@@ -211,11 +211,11 @@ allem
 und der daraus hervorgegangene [ISO-19263
 Standard](https://www.iso.org/standard/64220.html) .
 
-Bei der Zeitungsdigitalisierung ist im Interesse der Forschung die
-Erzeugung von Volltexten nach der Digitalisierung ein wichtiges Ziel.
-Diese Perspektive bedingt im Hinblick auf die Qualität der OCR eine
-Präferenz für eine Digitalisierung vom Original gegenüber einer
-Digitalisierung vom Mikrofilm.
+Bei der Zeitungsdigitalisierung ist im Interesse der Forschung die Erzeugung
+von Volltexten nach der Digitalisierung ein wichtiges Ziel.  Diese Perspektive
+bedingt im Hinblick auf die Qualität der Texterkennung (OCR) eine Präferenz für
+eine Digitalisierung vom Original gegenüber einer Digitalisierung vom
+Mikrofilm.
 
 #### 3D-Objekte
 
@@ -353,18 +353,15 @@ Deutsche Digitale Bibliothek.
 
 Zunehmend relevanter wird die Suche nach Lösungen für eine Präsentation
 von rechtebehafteten Materialien für eingeschränkte Personenkreise.
-Repositorien [TODO: Link auf Kapitel in Text zu forschungsnahen Diensten]{.mark}
-haben hier in der Regel schon anpassbare Lösungen. Bei der Präsentation
+[Repositorien](forschungsnahe-dienste.md#repositorien-für-forschungsergebnisse) haben hier in der Regel schon anpassbare Lösungen. Bei der Präsentation
 von Digitalisaten existieren prototypische oder an Institutionen
 individuell angepasste technische Lösungen. Standards für die
 Beschreibung von Zugriffsrechten in den Metadaten oder generische
 Präsentationslösungen auf Basis dieser Metadaten befinden sich noch im
 Abstimmungsprozess oder der Entwicklung.
 
-Wikimedia Commons kann darüber hinaus als zentraler Medienspeicher für die
-Portalfamilie der Wikimedia-Bewegungn fungieren. Von dort werden digitalisierte
-Objekte und 'born digital'-Dokumente dezentral in den anderen Portalen
-eingebettet. Die Erschließung mit strukturierten Daten erfolgt mittels Wikidata
+Wikimedia Commons kann darüber hinaus als Medienspeicher fungieren. 
+Von dort werden digitalisierte Objekte und 'born digital'-Dokumente in Wikipedia und andere Webseiten eingebettet. Die Erschließung mit strukturierten Daten erfolgt mittels Wikidata
 (siehe [Digitalisierung als Beitrag zur Open GLAM-Bewegung](#digitalisierung-als-beitrag-zur-open-glam-bewegung)).
 
 ## Werkzeuge
@@ -554,16 +551,21 @@ Vinci"](https://codingdavinci.de/).
 Crowdsourcing und Citizen Science sind Handlungsfelder, die in
 Bibliotheken zunehmend Aufmerksamkeit wecken. Hierbei gewinnen
 Bibliotheken über externe engagierte Dritte zusätzliche Ressourcen für
-die Erschließung, Auswertung oder Korrektur von Daten. Ein Beispiel
-dafür ist das Projekt "[Die
-Datenlaube](https://de.wikiversity.org/wiki/DieDatenlaube)".
-In der deutschsprachigen Wikisource korrigiert eine Gemeinschaft
+die Erschließung, Auswertung oder Korrektur von Daten.
+
+:::{.callout-tip}
+## Beispiel
+
+Im Projekt "[Die
+Datenlaube](https://de.wikiversity.org/wiki/DieDatenlaube)" erfasst
+und korrigiert in der deutschsprachigen Wikisource eine Gemeinschaft
 Ehrenamtlicher seit 2008 die von verschiedenen Bibliotheken
 bereitgestellten Scans der Illustrierten "Die Gartenlaube". Diese
 Wikisource-Volltexte und -Illustrationen werden mit offenen Metadaten in
 Wikidata strukturiert erschlossen.
 
-![BILDUNTERSCHRIFT FEHLT](media/die-datenlaube.jpg)
+![Die Datenlaube: Projektlogo](media/die-datenlaube.jpg)
+:::
 
 ### Offene Infrastrukturen
 
@@ -575,9 +577,10 @@ deren Grundprinzipien von Offenheit und Referenzierbarkeit die
 bibliothekarischen Erschließungs- und Präsentationskomponenten ergänzen:
 
 -   **Wikimedia Commons** fungiert als zentraler Medienspeicher.
-    Detailerschließungen z.B. mittels relativer Bildpositionen in den
+    Detailerschließung z.B. mittels relativer Bildpositionen in den
     Metadaten von Commons-Dokumenten ist möglich (Structured Data on
     Commons) (siehe [Wikidata Image Positions](https://wd-image-positions.toolforge.org/)).
+    Illustrationen des Handbuchs sind dort [in einer Medienkategorie](https://commons.wikimedia.org/wiki/Category:Handbuch_IT_in_Bibliotheken) gebündelt.
 
 <!-- TODO: Das Werkzeug ist nicht unbedingt selbsterklärend und Structured Data on Commons ist mehr -->
 
@@ -601,7 +604,7 @@ Herausforderungen aus IT-bibliothekarischer Sicht bestehen darin,
 Wikimedia-Portale und bibliothekarische Werkzeuge durch Schnittstellen
 und Datentransformation ([ETL-Tools](#etl-prozess))
 miteinander zu verknüpfen. GLAM-Labore (Open GLAM Labs) können dafür als
-Experimentier- und Ausbildungsgsort fungieren -- in Bibliotheken und
+Experimentier- und Ausbildungsort fungieren -- in Bibliotheken und
 institutionenübergreifend z.B. im Rahmen von
 Landesdigitalisierungsprogrammen.
 
@@ -718,5 +721,5 @@ urheberrechtlich geschützte Materialien.
 Aber auch die kollaborativen Aktivitäten an einzelnen Digitalisaten im
 Wikiversum oder in Citizen Science Projekten sind getragen von dem
 Leitgedanken, dass die digitalisierten Kulturgüter in neue Zusammenhänge
-gestellt werden und Interessierte zu einem Thema zusammen bringen.
+gestellt werden und Interessierte zu einem Thema zusammenbringen.
 
