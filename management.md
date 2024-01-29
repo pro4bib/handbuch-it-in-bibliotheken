@@ -97,7 +97,7 @@ Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen
 in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen.
 Unabdingbar ist der Einsatz eines Versionskontrollsystems, ein Issue-Tracker
 und möglichst automatische Tests und Deployment (kontinuierliche Integration),
-so dass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder
+sodass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder
 Produktiv-Instanz der installierten Software führen.
 
 ### Test und Integration
@@ -682,7 +682,7 @@ Die wichtigste Rolle bei der Qualifizierung für die Aufgaben im Bereich
 Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle
 Weiterbildungsformen sind
 
--   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS, ...
+-   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS ...
 
 -   Library Carpentries
 

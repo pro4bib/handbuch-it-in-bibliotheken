@@ -211,7 +211,7 @@ werden.
 
 Wenn möglich sollte man Pressematerial wie Logos, standardisierte
 Infotexte zur Bibliothek für Journalist:innen zum Download auf Website
-anbieten, so dass diese schnell auf grundlegende Infos zugreifen können.
+anbieten, sodass diese schnell auf grundlegende Infos zugreifen können.
 
 Auch die interne Kommunikation sollte sich entlang der Vorgaben
 orientieren. Dies spart zum einen Zeit, da Vorlagen genutzt werden
@@ -462,7 +462,7 @@ anzutreffen sind.
     allem für Themen aus Wissenschaft und Forschung eignet sich
     LinkedIn als Plattform. Allerdings ist hier zu beachten, dass
     persönliche Accounts vom Algorithmus bevorzugt behandelt werden im
-    Gegensatz zu Unternehmensseiten, so dass über persönliche Accounts
+    Gegensatz zu Unternehmensseiten, sodass über persönliche Accounts
     geteilte Inhalte eine deutlich höhere Reichweite erzielen.
 
 ### Newsletter
@@ -498,7 +498,7 @@ Dabei ermöglichen offene Werkzeuge wie Wikidata gewissermaßen eine
 in Ergänzung von traditionellen Bibliothekssystemen. Wikidata fungiert
 dabei zudem als 'Linked Open Data'-Knoten (Datenhub) für Identifikatoren
 verschiedener Datenquellen, die jeweils identische Entitäten beschreiben
-(GND, PPN, ...).
+(GND, PPN ...).
 
 RSS-Feeds (Rich Site Summary) sind Dateiformate für Web-Feeds. Nach dem
 Abonnieren werden Änderungen von Webseiten, Blogs, Foren usw. im
@@ -516,7 +516,7 @@ Ein Wiki ist eine webbasierte Sammlung von Informationen, Artikeln,
 Beiträgen zu bestimmten Themen. Diese können von Nutzenden selbst
 bearbeitet werden. Es kann frei im Internet oder nur für einen
 festgelegten Nutzerkreis (Mitarbeitende) verfügbar sein. (Bsp: PmWiki,
-Confluence...)
+Confluence ...)
 
 ## Werkzeuge
 
@@ -567,7 +567,7 @@ Feedback zu Missverständnissen führen.
 - **E-Mail** ist ein Kommunikationsmedium, welches in den
   meisten Fällen vom Anbieter der IT-Infrastruktur angeboten wird.
   Ideal ist der Zugang per IMAP/SMTP und nicht nur über proprietäre
-  Protokolle, so dass beliebige Clients genutzt werden können.
+  Protokolle, sodass beliebige Clients genutzt werden können.
 
   E-Mail ist bis heute das klassische Kommunikationsmedium und
   allgegenwärtig. Ursprünglich als elektronische Variante des Briefes
@@ -621,7 +621,7 @@ Feedback zu Missverständnissen führen.
     können mit einem Chatsystem besser integriert werden. Die
     Nutzung von kommerziellen Systemen, die noch dazu außerhalb
     von Europa gehostet werden, ist aus Datenschutzgründen nur in
-    Ausnahmefällen zulässig (WhatsApp u.a., Teams, Slack, ...).
+    Ausnahmefällen zulässig (WhatsApp u.a., Teams, Slack ...).
     Sofern die Möglichkeit besteht, ist ein selbst gehostetes,
     ggf. Open Source System vorzuziehen (Beispiel: RocketChat).
 
@@ -638,7 +638,7 @@ Feedback zu Missverständnissen führen.
 ### Contenterstellung
 
 Unter Contenterstellung versteht man das Produzieren von Inhalten (Werbung,
-Informationen...) z.B. für das Internet. Mit Content wird immer eine
+Informationen ...) z.B. für das Internet. Mit Content wird immer eine
 bestimmte Zielgruppe angesprochen. Inhalte sind zu planen, zu erstellen und zu
 veröffentlichen.
 
@@ -646,7 +646,7 @@ veröffentlichen.
     Bilddateien (Schärfen, Farben, Dateigröße, Belichtung, Kontraste)
 
     -   Bildbearbeitungs-Software: *Affinity Photo*, *Adobe Photoshop*, *Canva*
-    -   freie Bilddatenbanken: *Pixabay*, *CC-Search*...
+    -   freie Bilddatenbanken: *Pixabay*, *CC-Search* ...
     -   Grafikdesign: *[Canva](https://www.canva.com/de_de/)*
 
 -   **Audiobearbeitung:** hilft beim Schnitt von Audiodateien und dient
@@ -701,7 +701,7 @@ veröffentlichen.
     im [Wiki des Netzwerkes "Tutorials in Bibliotheken"](https://bibtutorials.miraheze.org/wiki/Hauptseite#Technik)
 
 -   **Umfragen/Abstimmungen** können mittels Tool erstellt werden
-    (*SurveyMonkey*, *Limesurvey*, *Mentimeter*, *Lamapoll*...)
+    (*SurveyMonkey*, *Limesurvey*, *Mentimeter*, *Lamapoll* ...)
 
 -   **URL-Shortener:** verkürzt lange Internetadressen und gibt sie in
     verkürzter Fassung über einen Drittanbieter wieder: Bit.ly,

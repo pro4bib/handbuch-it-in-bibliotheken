@@ -169,7 +169,7 @@ Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\
 
 [quarto]: https://quarto.org/
 
-Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die Ergebnisdateien werden automatisch via GitHub und einen Server der *VZG* mit der Software [quarto] aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
+Die Master-Version des Handbuch liegt in einem git-Repository unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die Ergebnisdateien werden automatisch via GitHub und einen Server der *VZG* mit der Software [quarto] aktualisiert, sodass unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand einsehbar sein sollte.
 
 ### Verzeichnisstruktur {.unnumbered}
 

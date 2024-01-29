@@ -30,7 +30,7 @@ Parallel zeichnete sich ab, dass die dritte Generation der
 Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte,
 vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer
 Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open
-Source-Software verfügbar, so dass technisch aufgeschlossene Einrichtungen
+Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen
 eigene Experimente mit der Indexierung bibliographischer Daten begannen.
 
 Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und
@@ -44,7 +44,7 @@ Generation bieten Discovery-Systeme an, die besonders gut mit dem
 zusammenarbeiten.
 
 Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
-(Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server, ...) ist die
+(Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server ...) ist die
 Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände
 gemeinsam zugänglich zu machen.
 
@@ -103,14 +103,14 @@ einer Gesamtliste zusammenführen. Dies setzt allerdings eine Koordination der
 genutzten Suchindizes voraus. Dieser Aufbau ermöglicht es den Bibliotheken
 auch, verschiedene Datenquellen in ihrem Discovery-System gemeinsam zugänglich
 zu machen. Teils werden die Quellen selbst ausgewertet (z.B. Harvesting der
-Daten des eigenen Katalogs, relevanter Repositorien, ...), teils werden dafür
+Daten des eigenen Katalogs, relevanter Repositorien ...), teils werden dafür
 andere freie oder kommerzielle Suchindizes (K10plus-Zentral, Gemeinsamer
-Verbünde Index, EBSCO-Discovery-Index, ExLibris Central Discovery Index,...)
+Verbünde Index, EBSCO-Discovery-Index, ExLibris Central Discovery Index ...)
 genutzt.
 
 Die Daten, die in Suchindizes aufgenommen werden sollen, werden im Rahmen eines
 [ETL-Prozess] aus verschiedenen Datenquellen (Kataloge/BMS, Repositorien,
-bibliographische Fachdatenbanken, ...) gesammelt, konvertiert und dann in den
+bibliographische Fachdatenbanken ...) gesammelt, konvertiert und dann in den
 Suchindex geladen. Für jede Quelle muss dieser Prozess entsprechend
 eingerichtet und für Aktualisierungen regelmäßig ausgeführt werden.
 
@@ -166,7 +166,7 @@ Treffer" statt "exakte Treffer" mehr Treffer als Bibliothekskataloge
 [@steilen_discovery-systeme_2012]. Sie nutzen außerdem Algorithmen für die
 Relevanzsortierung (*Ranking*), um die Trefferlisten möglichst nutzungsorientiert
 aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von
-Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort, ...) für
+Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort ...) für
 eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie
 die Anzahl von Ausleihen, Aufrufen und Zitationen bislang nicht in das Ranking
 ein.
@@ -275,7 +275,7 @@ Zu den am häufigsten genutzten Anreicherungsdiensten gehören:
 
 Grundsätzlich erlaubt die Systemarchitektur von Discovery-Systemen die
 Integration von diesen und anderen Diensten über einschlägige [Schnittstellen],
-so dass sich über die gelisteten Dienste noch zahlreiche weitere Möglichkeiten
+sodass sich über die gelisteten Dienste noch zahlreiche weitere Möglichkeiten
 ergeben.
 
 #### Personalisierung
@@ -379,7 +379,7 @@ Universitätsbibliothek Hamburg. Seit Ende der 00er Jahre gibt es auch
 kommerzielle Systeme am Markt, entweder als Teil von
 Bibliotheksmanagementsystemen der neuesten Generation oder auch als individuell
 lizenzierbare Systeme. Die Open Source-Lösung *VuFind* ermöglicht es,
-verschiedene Suchindizes unter einer Oberfläche nutzbar zu machen, so dass es
+verschiedene Suchindizes unter einer Oberfläche nutzbar zu machen, sodass es
 eine relativ große Vielfalt von Nutzungsszenarien gibt.
 
 #### Kommerzielle Komplettsysteme

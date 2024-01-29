@@ -245,7 +245,7 @@ fachübergreifender Repositorien bilden institutionelle Repositorien, die
 speziell für die Mitglieder der jeweiligen Institution zur Verfügung
 stehen. Einige Repositorien widmen sich zudem speziell der Sammlung
 bestimmter Datentypen (z. B. Preprint- oder Publikationsserver,
-Forschungsdatenrepositorien, Bilddatenbanken, ...). Insbesondere im
+Forschungsdatenrepositorien, Bilddatenbanken ...). Insbesondere im
 Bereich Forschungsdaten und Open Educational Resources gibt es seitens
 der Nutzer\*innen häufig den Wunsch, dass in Repositorien auch eine
 interaktive Arbeit mit den Materialien möglich ist. Derzeit sind
@@ -683,12 +683,12 @@ Metadaten sind Daten struktureller, technischer, administrativer,
 bibliographischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe
 Kap. **Daten & Metadaten** bzw. *Metadatenstandards*)*.* Metadaten werden oft
 in einer Schlüssel-Wert-Struktur genutzt, bei der der Schlüssel vorgibt, welche
-Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum, ...) im Wert zu finden ist
+Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum ...) im Wert zu finden ist
 (siehe Kap. **Daten & Metadaten** bzw*. Grundlegende Begrifflichkeiten*).
 Strukturell werden flache und hierarchische Metadatenschemata unterschieden.
 Flache Metadatenschemata beschränken sich auf eine einfache Struktur aus
 Schlüssel-Wert-Paaren. Hierarchische Metadatenschemata sehen vor, Werte aus
-anderen Werten zusammensetzen zu können, so dass z. B. die Autorenschaft in den
+anderen Werten zusammensetzen zu können, sodass z. B. die Autorenschaft in den
 Metadaten über Personen modelliert werden können und zu jeder Person Vorname,
 Nachname und weitere Angaben in untergeordneten Werten gespeichert wird.
 Hierarchische Metadatenschemata haben dabei oft etliche dieser Hierarchieebenen

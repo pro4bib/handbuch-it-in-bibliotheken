@@ -17,9 +17,9 @@ in Bibliotheken erläutert.
 :::
 
 ## Einleitung
-Zur Sammlung und Bereitstellung von Informationen werden von Bibliotheken
-Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten, ...)
-nachgewiesen. Zur Verwaltung dieser Ressourcen werden diese mit
+Für die Sammlung und Bereitstellung von Informationen werden von Bibliotheken
+Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten ...)
+nachgewiesen. Zur Verwaltung der Ressourcen werden diese mit
 **Metadaten** beschrieben. Neben diesen Metadaten beinhalten bibliothekarische
 Informationssysteme zunehmend auch Dokumente selbst als **digitale Inhalte**
 wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel
@@ -37,8 +37,8 @@ gelten sowohl für Metadaten als auch für digitale Inhalte.
 Im Wesentlichen bestehen Daten im Sinne dieses Buchs aus einer Folge von
 Bits. Abgesehen von ihrer Anzahl in Bytes lässt sich auf dieser Ebene
 allerdings nichts weiter über Daten sagen. Uns interessiert daher mehr,
-für was die Daten stehen – beispielsweise für eine Jahreszahl, ein Bild
-oder für den Titel eines Dokumentes. Dabei besteht ein Unterschied zwischen
+wofür die Daten stehen – beispielsweise für eine Jahreszahl, ein Bild
+oder für den Titel eines Dokuments. Dabei besteht ein Unterschied zwischen
 
 - der Struktur von Daten (**Syntax**)
 
@@ -97,10 +97,10 @@ Datenformate definieren eine Struktur, die sich in einer oder in
 mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren
 Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert
 der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben,
-Sonderzeichen, Emojis, ...) und verschiedene Verfahren, um Zeichenketten in
-Bytes zu kodieren (UTF-8, UTF-16, ...). Syntax-Varianten werden auch als
+Sonderzeichen, Emojis ...) und verschiedene Verfahren, um Zeichenketten in
+Bytes zu kodieren (UTF-8, UTF-16 ...). Syntax-Varianten werden auch als
 **Serialisierung** bezeichnet. Die meisten Datenformate haben nur eine
-Serialisierung, so dass Format und Syntax meist synonym verwendet
+Serialisierung, sodass Format und Syntax meist synonym verwendet
 werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im
 Datenmodell (siehe @tbl-xml), daher werden in der Beschreibung von
 Daten auch diese beiden Ebenen meist nicht sauber getrennt.
@@ -123,14 +123,14 @@ Datenformate lassen sich grob in zwei Kategorien unterteilen:
 - **Strukturierungssprachen** wie CSV, XML, JSON und RDF ermöglichen
   es, Daten in kleinere Einheiten zu unterteilen und miteinander in
   Beziehung zu setzen. Die Sprachen basieren auf allgemeinen
-  Ordnungsprinzipien (Felder, Tabellen, Hierarchien, Netzwerke, ...) und
+  Ordnungsprinzipien (Felder, Tabellen, Hierarchien, Netzwerke ...) und
   ihre Modelle haben darüber hinaus keine eigene Semantik. Die
   einfachste Strukturierungssprache ist das Prinzip der
   Zeichenkette.
 
 - **Anwendungsformate** legen die Struktur von Daten für konkrete Arten von
   Inhalten fest ([Metadatenformate](#metadatenformate) zur Beschreibung von
-  Dokumenten, Bildformate für Bilder...). Ihre Modelle verweisen letztendlich
+  Dokumenten, Bildformate für Bilder ...). Ihre Modelle verweisen letztendlich
   auf reale Objekte und Eigenschaften. Viele Anwendungsformate sind ihrerseits
   mittels einer Strukturierungssprache kodiert, zum Beispiel basiert das
   DataCite-Format zur Beschreibung von Forschungsdaten auf dem XML-Modell.
@@ -143,12 +143,12 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
   *reguläre Ausdrücke* dienen der formalen Beschreibung der Syntax
   von Datenformaten. Dabei bezieht sich jede Schemasprache auf eine
   Strukturierungssprache (*XML Schema* für XML-Formate, *Avram* für
-  feldbasierte Formate, ...).
+  feldbasierte Formate ...).
 
 - **Abfragesprachen** dienen dem Verweis auf einzelne Teile von
   Datensätzen. Sie beziehen sich ebenfalls immer auf eine
   Strukturierungssprache (zum Beispiel XPath für XML, JSON Path für
-  JSON, ...) und sind für die Verarbeitung von Daten notwendig.
+  JSON ...) und sind für die Verarbeitung von Daten notwendig.
 
 - **Modellierungssprachen** helfen bei der Beschreibung von Datenmodellen.
   Die häufigsten Modellierungssprachen basieren auf dem
@@ -190,9 +190,9 @@ die jeweilige Erfassungspraxis.
 
 ### Identifikatoren
 Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs wie
-Nummern, Codes...) zum Verweis auf externe Objekte oder an anderer Stelle
+Nummern, Codes ...) zum Verweis auf externe Objekte oder an anderer Stelle
 verwaltete Informationen. Identifikatoren ermöglichen die eindeutige
-Referenzierung gleicher Dinge in unterschiedlichen Kontexten, so dass
+Referenzierung gleicher Dinge in unterschiedlichen Kontexten, sodass
 Daten aus verschiedenen Quellen miteinander abgeglichen und kombiniert
 werden können.
 
@@ -238,7 +238,7 @@ Berlin](https://sigel.staatsbibliothek-berlin.de/) verwaltet.
 
 Völlig dezentrale Identifikatoren gibt es zur Identifizierung von digitalen
 Objekten nur in Form von Prüfsummen, die sich automatisch aus vorhandenen Daten
-berechnen lassen (SHA-Summe, IPFS-Adresse, Prüfziffer...).
+berechnen lassen (SHA-Summe, IPFS-Adresse, Prüfziffer ...).
 
 ### Normdaten
 
@@ -273,7 +273,7 @@ zwischen:
   unterscheiden lassen sowie
 
 - Normdateien, deren abstrakte Entitäten von Kontext und Modellierung
-  abhängen (Klassifikationen, Thesauri, ...).
+  abhängen (Klassifikationen, Thesauri ...).
 
 Zur Verwaltung von Normdaten gibt es einige Datenformate wie *MARC 21 for
 Authority Data* und *ISAAR (CPF)*. Als gemeinsamer Nenner auch außerhalb des
@@ -292,7 +292,7 @@ Neben allgemeinen [Datenformaten](#datenformate) sind für die Bibliotheks-IT
 vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die
 meisten der im Folgenden beschriebenen Metadatenformate spielen außerhalb von
 Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (*METS/MODS*,
-*LIDO*, *CDWA*, *EN 15907*, *EAD*, ..., siehe Kapitel [Digitalisierung]) und für
+*LIDO*, *CDWA*, *EN 15907*, *EAD* ..., siehe Kapitel [Digitalisierung]) und für
 Forschungsdaten (DataCite, siehe Kapitel [Forschungsnahe Dienste]) gibt es
 darüber hinaus spezielle Formate.
 
@@ -392,7 +392,7 @@ Die Formate *ONIX*, *JATS*, *BITS* und *CrossRef XML* stammen aus dem
 Verlagsbereich zur Beschreibung von Zeitschriftenartikeln und Büchern.
 Sie basieren alle auf XML und sind für Bibliotheken für den Datenimport
 relevant. Datenformate für Literaturangaben (*BibTeX*, *RIS*, *Endnote*,
-*CSL-JSON*...) werden dagegen zum Export von Katalogdaten bereitgestellt.
+*CSL-JSON* ...) werden dagegen zum Export von Katalogdaten bereitgestellt.
 Zitationsregeln für Literaturangaben und Ansetzungsregeln von *ISBD*
 sind dagegen für den Datenaustausch eher unbrauchbar. Learning Object
 Metadata (*LOM*) dient in verschiedenen lokalen Anpassungen der
@@ -615,7 +615,7 @@ als Werkzeuge
 
 - Mittel zur **Dateiverwaltung** und ein **Texteditor** unabdingbar,
 
-- allgemeine **Kommandozeilenprogramme** (`curl`, `sort`, `grep`...) sehr zu empfehlen
+- allgemeine **Kommandozeilenprogramme** (`curl`, `sort`, `grep` ...) sehr zu empfehlen
 
 - und **Programmiersprachen** vor allem für komplexere Aufgaben hilfreich.
 

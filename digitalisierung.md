@@ -223,7 +223,7 @@ Mittlerweile haben einige Bibliotheken angefangen, über flache,
 zweidimensionale Informationen hinaus auch die Tiefe und Mehrdimensionalität
 des kulturellen Erbes und Wissens innerhalb ihrer Bestände zu erfassen.
 Bibliotheksbestände sind häufig heterogen und ergeben sich aus einer
-fortgesetzten Sammlungsgeschichte, so dass auch spezielle dreidimensionale
+fortgesetzten Sammlungsgeschichte, sodass auch spezielle dreidimensionale
 Objekte, wie Globen, Spiel- oder PopUp-Bücher oder historische Objekte des
 Buchdrucks wie Lettern, Teil eines Bestandes sein können. In diesen Fällen hat
 sich eine Digitalisierung in allen drei Dimensionen als ein entscheidendes
@@ -240,7 +240,7 @@ Bibliotheken und andere GLAM-Einrichtungen archivieren häufig auch
 analoge audiovisuelle Medien. Für die Digitalisierung der
 unterschiedlichen Quellen (z.B. Magnettonbänder, Film von 8mm bis 35mm,
 Selbstschnittplatten, Videobänder) werden im Falle einer
-Massendigitalisierung zumeist externe Dienstleister beauftragt, so dass
+Massendigitalisierung zumeist externe Dienstleister beauftragt, sodass
 die Herausforderungen hier in erster Linie in der inhaltlichen
 Erschließung und der Erhaltung des originalen Materials liegen.
 
@@ -272,7 +272,7 @@ einem WMS entweder importiert oder manuell erfasst werden. Viele der
 Systeme sind dafür individuell konfigurierbar und können je nach Art des
 Projektes angepasst werden. Ein wichtiges Metadatum sind
 [Identifikatoren](#identifikatoren)
-(URN, DOI, PURL...) und deren Generierung. Für die Strukturierung von
+(URN, DOI, PURL ...) und deren Generierung. Für die Strukturierung von
 Textdokumenten ist das [Stukturdatenset für den
 DFG-Viewer](https://dfg-viewer.de/strukturdatenset) ein
 praxistauglicher Referenzrahmen.

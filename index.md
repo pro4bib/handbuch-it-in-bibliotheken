@@ -15,7 +15,7 @@ Aufgaben, der nicht durch IT unterstützt wird.  Deutlich wird dies z.B. durch
 das stetig zunehmende Angebot an elektronischen Informationsmitteln, die
 Digitalisierung historischer Bestände, interoperable Metadaten oder auch die
 digitale Langzeitarchivierung. Die alltägliche Handhabung von IT (Smartphones,
-Automatisierung, Vernetzung, ...) wird häufig einfacher, die zugrunde liegenden
+Automatisierung, Vernetzung ...) wird häufig einfacher, die zugrunde liegenden
 Systeme werden jedoch immer komplexer und erfordern entsprechend mehr Wissen zu
 ihrem Aufbau und Betrieb. Während sich einige Teile der IT in Bibliotheken
 nicht wesentlich von IT in anderen Bereichen unterscheiden, gibt es doch

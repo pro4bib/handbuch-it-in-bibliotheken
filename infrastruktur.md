@@ -1,5 +1,5 @@
 ---
-description: Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID...)
+description: Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID ...)
 ---
 
 # Technische Infrastruktur
@@ -132,7 +132,7 @@ In Bibliotheken fallen an verschiedenen Stellen Gebühren oder andere zu
 zahlende Beträge an. Diese werden einerseits elektronisch erzeugt und
 z.B. im Bibliothekssystem gespeichert (z.B. Überziehungsgebühren) oder
 fallen andererseits direkt an (z.B. Verkaufspreise für Dubletten,
-Tragetaschen, ...). Benötigt werden dafür Geräte, die bei Bezahlung den
+Tragetaschen ...). Benötigt werden dafür Geräte, die bei Bezahlung den
 Betrag direkt dem System verbuchen können, in dem die Beträge erfasst
 sind, z.B. Kassenautomaten mit Anbindung an das Bibliothekssystem. An
 diesen Automaten können sich Nutzer\*innen anmelden, erhalten eine Anzeige
@@ -147,7 +147,7 @@ Auch die Verbindung eines Bezahlterminals mit einem Ausleihautomaten ist
 möglich. Hier sind dann alle Prozesse für die Nutzer\*innen an einem Gerät
 abwickelbar. Es sind Ausleihautomaten am Markt, die bargeldlose
 Bezahlung mit verschiedenen Bezahlssystmene (spezielle Debit-Karten,
-ec-Karten\...) und/oder Bargeldzahlungen ermöglichen.
+ec-Karten ...) und/oder Bargeldzahlungen ermöglichen.
 
 Die Systeme für Bezahlung und Gebühren sind meist an die jeweiligen
 Finanzstellen einer Universität oder einer Stadt(verwaltung) angebunden.
@@ -295,7 +295,7 @@ Sammlungen bilden. Man kann darüber nachdenken, ob die Nutzer\*innen
 ausgeliehene Bücher selbst zurückgeben können, indem sie sie einfach an einen
 freien Platz im Regal stellen. Man kann die Nutzer\*innen die früher so ungeliebten
 "Nester", also die Konzentration von Büchern an einer beliebigen nicht
-systematischen Stelle, bilden lassen, so dass vielleicht auch andere von dieser
+systematischen Stelle, bilden lassen, sodass vielleicht auch andere von dieser
 "eigenen" Systematik profitieren. Dies bedingt natürlich eine technische
 Lösung, mittels der die Bücher anschließend auch wiedergefunden werden, also
 irgendwie geortet werden können (siehe auch der Abschnitt [Revision]).
@@ -396,7 +396,7 @@ Nach einem abgeschlossenen Run werden die Ergebnisse in einer CSV-Datei
 darin u.a. Taginhalt und x,y,z-Koordinaten ausgehend von einem einmal
 festgelegten Nullpunkt. Diese Informationen können (und müssen) dann
 weiterverarbeitet werden. Denkbar ist eine Integration in den Katalog,
-so dass in einem Lageplan der Standort des Mediums angezeigt wird,
+sodass in einem Lageplan der Standort des Mediums angezeigt wird,
 sobald man darauf klickt. Eine Inventur über alle Daten ist möglich,
 wenn man die Daten abgleicht mit dem ausgeliehenen Bestand und die
 Fehlmenge ausweist. Eine Stellrevision ist etwas aufwändiger, da der
@@ -429,7 +429,7 @@ auch in neuen Bereichen wie physischen Räumen, Nachaltigkeit und Vernetzung ein
 
 Der folgende Abschnitt gibt einen tieferen Einblick in die Thematik "RFID", die
 für viele Teile der allgemeinen Infrastruktur (Verbuchung, Mediensicherung,
-Sortiersysteme...) relevant ist. Insbesondere im Hinblick auf Fragestellungen
+Sortiersysteme ...) relevant ist. Insbesondere im Hinblick auf Fragestellungen
 einer Migration oder Einführung von RFID-basierten Technologien für einen
 Bibliotheksbestand werden Grundlagen und Hintergründe erläutert, Speicherung
 und Datenmodelle diskutiert und Unterschiede zwischen Verschiedenen
@@ -536,7 +536,7 @@ bezeichnet einen fortlaufenden Folienstreifen. auf den Chips und Antennen in
 gewissen Abständen aufgebracht sind. Hier gibt es keine Stanzung und keine
 Klebefläche.  "wet inlay" hingegen bezeichnet eine Weiterverarbeitung, die
 Klebemasse auf Trägerfolie enthält und gestanzt ist. Weitere Verarbeitung sorgt
-auf Wunsch für Papieroberfläche, so dass die Transponder auch bedruckt werden
+auf Wunsch für Papieroberfläche, sodass die Transponder auch bedruckt werden
 können. Hersteller von RFID-Transpondern (in der klebenden Version auch "Tags"
 genannt) liefern oft nur "dry naked", weiter verarbeitete Tags beschafft man
 von sogenannten "Konvertierern" (nicht zu verwechseln mit dem manchmal so
@@ -828,7 +828,7 @@ mittels geeigneter Hardware (im Falle von RFID-HF genügt ein Smartphone)
 den Inhalt eines nicht schreibgeschützten Tags verändern. Dies betrifft
 sowohl das Sicherungsbit (das Gate schlägt also nicht mehr an, wenn ein
 so manipuliertes Medium herausgetragen wird) als auch den gesamten Tag
-Inhalt, so dass das Medium von der Infrastruktur der Bibliothek nicht
+Inhalt, sodass das Medium von der Infrastruktur der Bibliothek nicht
 mehr verarbeitet werden kann. Andererseits kann man die meisten UHF-Tags
 und manche HF-Tags mit einem einfachen Befehl zerstören, also dauerhaft
 und endgültig stummschalten. Beide Arten der Manipulation kann man mit
@@ -1239,7 +1239,7 @@ den Köpfen der Mitarbeitenden vorliegt.
 
 ### Mobiles Arbeiten
 
-Für mobiles Arbeiten müssen Endgeräte transportabel sein (Notebook, Tablet...)
+Für mobiles Arbeiten müssen Endgeräte transportabel sein (Notebook, Tablet ...)
 und zum anderen müssen die Dienste, die für das Arbeiten notwendig sind, vom
 jeweiligen Standort aus erreichbar sein (siehe [VPN]). Für dauerhaftes Arbeiten
 von anderer Stelle als dem Büro (Homeoffice) ist aus Ergonomiegründen ein
