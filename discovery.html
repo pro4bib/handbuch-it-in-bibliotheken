@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -68,7 +69,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -77,6 +84,7 @@ div.csl-indent {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
@@ -94,12 +102,12 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery.html"><span class="chapter-title">Discovery &amp; Retrieval</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery.html"><span class="chapter-title">Discovery &amp; Retrieval</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -109,7 +117,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -117,8 +125,8 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" rel="" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
@@ -219,7 +227,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -243,7 +251,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#vergleich-mit-klassischen-bibliothekskatalogen" id="toc-vergleich-mit-klassischen-bibliothekskatalogen" class="nav-link" data-scroll-target="#vergleich-mit-klassischen-bibliothekskatalogen">Vergleich mit klassischen Bibliothekskatalogen</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/discovery.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/discovery.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/discovery.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/discovery.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -252,7 +260,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Discovery &amp; Retrieval</span></h1>
+<h1 class="title"><span id="discovery-und-retrieval" class="quarto-section-identifier"><span class="chapter-title">Discovery &amp; Retrieval</span></span></h1>
 </div>
 
 
@@ -265,7 +273,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -286,9 +296,9 @@ Zusammenfassung
 </section>
 <section id="ursprung-und-motivation-von-discovery-systemen" class="level2">
 <h2 class="anchored" data-anchor-id="ursprung-und-motivation-von-discovery-systemen">Ursprung und Motivation von Discovery-Systemen</h2>
-<p>Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten insbesondere von studentischen Nutzer*innen nur noch eine untergeordnete Rolle. Parallel zeichnete sich ab, dass die dritte Generation der Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte, vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open Source-Software verfügbar, so dass technisch aufgeschlossene Einrichtungen eigene Experimente mit der Indexierung bibliographischer Daten begannen.</p>
+<p>Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten insbesondere von studentischen Nutzer*innen nur noch eine untergeordnete Rolle. Parallel zeichnete sich ab, dass die dritte Generation der Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte, vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen eigene Experimente mit der Indexierung bibliographischer Daten begannen.</p>
 <p>Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von Produkten kommerzieller Anbieter*innen und einige Open Source-Projekte. Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter wie Verbundzentralen, Hersteller*innen und kommerzielle Dienstleister*innen betrieben werden. Die Hersteller kommerzieller Bibliotheksmanagementsysteme der neueren Generation bieten Discovery-Systeme an, die besonders gut mit dem <a href="./bibliotheksmanagementsysteme.html">BMS</a> der gleichen Hersteller*innen zusammenarbeiten.</p>
-<p>Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben (Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server, …) ist die Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände gemeinsam zugänglich zu machen.</p>
+<p>Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben (Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server …) ist die Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände gemeinsam zugänglich zu machen.</p>
 </section>
 <section id="bestandteile-von-discovery-systemen" class="level2">
 <h2 class="anchored" data-anchor-id="bestandteile-von-discovery-systemen">Bestandteile von Discovery-Systemen</h2>
@@ -311,8 +321,8 @@ Zusammenfassung
 <h4 class="anchored" data-anchor-id="suchindex">Suchindex</h4>
 <p>Zentraler Bestandteil eines Discovery-Systems sind auf Grundlage etablierter Suchmaschinentechnologie wie <em>Apache Solr</em> und <em>Elasticsearch</em> entwickelte <strong>Suchindizes</strong>.</p>
 <p>Der Index eines Discovery-Systems enthält Metadaten und ggf. damit verknüpfte Daten wie Volltexte, Inhaltsverzeichnisse und Übersetzungen. Im Suchindex kommen also Daten unterschiedlicher Art und Herkunft zusammen. Die Daten können in einzelnen Kollektionen aufbereitet sein, z.B. nach Bestandsdaten von (Teil-)Bibliotheken oder Verbünden, Daten einzelner Verlage, Metadaten aus Repositorien etc. Es besteht die Möglichkeit, den Suchraum des Discovery-Systems individuell zu konfigurieren. Der Aufbau eines Index in Eigenregie ist bei entsprechenden Prozesskenntnissen und personellen Kapazitäten möglich und schafft Freiheiten zur Berücksichtigung eigener Datenkollektionen.</p>
-<p>Einige Discovery-Systeme können Suchanfragen gleichzeitig an mehrere Suchindizes senden und die Treffer aus den unterschiedlichen Suchindizes in einer Gesamtliste zusammenführen. Dies setzt allerdings eine Koordination der genutzten Suchindizes voraus. Dieser Aufbau ermöglicht es den Bibliotheken auch, verschiedene Datenquellen in ihrem Discovery-System gemeinsam zugänglich zu machen. Teils werden die Quellen selbst ausgewertet (z.B. Harvesting der Daten des eigenen Katalogs, relevanter Repositorien, …), teils werden dafür andere freie oder kommerzielle Suchindizes (K10plus-Zentral, Gemeinsamer Verbünde Index, EBSCO-Discovery-Index, ExLibris Central Discovery Index,…) genutzt.</p>
-<p>Die Daten, die in Suchindizes aufgenommen werden sollen, werden im Rahmen eines <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> aus verschiedenen Datenquellen (Kataloge/BMS, Repositorien, bibliographische Fachdatenbanken, …) gesammelt, konvertiert und dann in den Suchindex geladen. Für jede Quelle muss dieser Prozess entsprechend eingerichtet und für Aktualisierungen regelmäßig ausgeführt werden.</p>
+<p>Einige Discovery-Systeme können Suchanfragen gleichzeitig an mehrere Suchindizes senden und die Treffer aus den unterschiedlichen Suchindizes in einer Gesamtliste zusammenführen. Dies setzt allerdings eine Koordination der genutzten Suchindizes voraus. Dieser Aufbau ermöglicht es den Bibliotheken auch, verschiedene Datenquellen in ihrem Discovery-System gemeinsam zugänglich zu machen. Teils werden die Quellen selbst ausgewertet (z.B. Harvesting der Daten des eigenen Katalogs, relevanter Repositorien …), teils werden dafür andere freie oder kommerzielle Suchindizes (K10plus-Zentral, Gemeinsamer Verbünde Index, EBSCO-Discovery-Index, ExLibris Central Discovery Index …) genutzt.</p>
+<p>Die Daten, die in Suchindizes aufgenommen werden sollen, werden im Rahmen eines <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> aus verschiedenen Datenquellen (Kataloge/BMS, Repositorien, bibliographische Fachdatenbanken …) gesammelt, konvertiert und dann in den Suchindex geladen. Für jede Quelle muss dieser Prozess entsprechend eingerichtet und für Aktualisierungen regelmäßig ausgeführt werden.</p>
 <p>Bei den ETL-Prozessen werden die Daten aus den verschiedenen Datenquellen transformiert. Dabei werden z.B. die MARC-Struktur mit Feldern, Indikatoren und Unterfeldern in eine einfachere Feldstruktur überführt. Die Daten werden entsprechend den verschiedenen Such- und Navigationsbedürfnissen in unterschiedliche Indexfelder überführt. Ein Datum (z.B. Name des*der Autor*in) kann für verschiedene Suchtypen unterschiedlich aufbereitet und mehrfach im Index gespeichert werden. Bei der Aufbereitung werden die Daten analysiert und etablierte Verfahren zur Relevanzberechnung für die Sortierung innerhalb der Trefferliste eingesetzt.</p>
 <p>Für die Bildung von Facetten aus den Einträgen der Trefferliste werden spezielle Daten ermittelt. Diese Facetten-Daten sind technisch gesehen Suchbegriffe und dienen der nachträglichen Verfeinerung der Trefferliste. Beispiele für Facetten, die zur Einschränkung genutzt werden, sind Namen von Autor*innen, Schlagwörter, Medienarten, Standorte physischer Medien oder auch Kennzeichnung von Open Access-Material und Vieles mehr).</p>
 </section>
@@ -331,14 +341,18 @@ Zusammenfassung
 <li><p>Detailanzeige einzelner Treffer</p></li>
 <li><p>Export von Literaturangaben</p></li>
 </ul>
-<p>Die Suche in Discovery-Systemen nutzt in der Regel verschiedene Funktionen der Suchmaschinentechnologie, um einen eingegebenen Suchbegriff gegen den Index abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma „beste Treffer“ statt „exakte Treffer“ mehr Treffer als Bibliothekskataloge <span class="citation" data-cites="steilen_discovery-systeme_2012">(<a href="literatur.html#ref-steilen_discovery-systeme_2012" role="doc-biblioref">Steilen 2012</a>)</span>. Sie nutzen außerdem Algorithmen für die Relevanzsortierung (<em>Ranking</em>), um die Trefferlisten möglichst nutzungsorientiert aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort, …) für eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie die Anzahl von Ausleihen, Aufrufen und Zitationen bislang nicht in das Ranking ein.</p>
+<p>Die Suche in Discovery-Systemen nutzt in der Regel verschiedene Funktionen der Suchmaschinentechnologie, um einen eingegebenen Suchbegriff gegen den Index abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma „beste Treffer“ statt „exakte Treffer“ mehr Treffer als Bibliothekskataloge <span class="citation" data-cites="steilen_discovery-systeme_2012">(<a href="literatur.html#ref-steilen_discovery-systeme_2012" role="doc-biblioref">Steilen 2012</a>)</span>. Sie nutzen außerdem Algorithmen für die Relevanzsortierung (<em>Ranking</em>), um die Trefferlisten möglichst nutzungsorientiert aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von Suchbegriff und Indexeintrag in definierten Feldern (Titel, Schlagwort …) für eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie die Anzahl von Ausleihen, Aufrufen und Zitationen bislang nicht in das Ranking ein.</p>
 <p>Zu den Funktionalitäten für die Suchunterstützung gehören auch die Autovervollständigung sowie die Vorschlagsfunktion von Suchbegriffen. In beiden Fällen wird der Suchindex in Echtzeit geprüft. Es gehört zu den zentralen Zielen von Discovery-Systemen, Null-Treffer-Meldungen zu vermeiden.</p>
-<p>Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind">Abbildung&nbsp;<span>7.1</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
+<p>Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind" class="quarto-xref">Abbildung&nbsp;<span>Beispiel eines Rechercheergebnis in einem Discovery-Interface (Quelle)</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
 <p>Die Weiterverwendung von Literaturangaben wird durch verschiedene Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per Mail verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen herunterladen.</p>
-<div id="fig-vufind" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/vufind.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;7.1: Beispiel eines Rechercheergebnis in einem Discovery-Interface (<a href="https://core.coll.mpg.de/">Quelle</a>)</figcaption>
+<div id="fig-vufind" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-vufind-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/vufind.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vufind-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;7.1: Beispiel eines Rechercheergebnis in einem Discovery-Interface (<a href="https://core.coll.mpg.de/">Quelle</a>)
+</figcaption>
 </figure>
 </div>
 </section>
@@ -374,7 +388,7 @@ Zusammenfassung
 <li><p>Visualisierungen von Buchstandorten über Gebäudeinformationssysteme (z.B. <em>Mapongo, V:Scout</em>)</p></li>
 <li><p>Integration mit weiteren Diensten, z.B. der Leseförderungs-App <em>Antolin</em></p></li>
 </ul>
-<p>Grundsätzlich erlaubt die Systemarchitektur von Discovery-Systemen die Integration von diesen und anderen Diensten über einschlägige <a href="./metadaten.html#schnittstellen">Schnittstellen</a>, so dass sich über die gelisteten Dienste noch zahlreiche weitere Möglichkeiten ergeben.</p>
+<p>Grundsätzlich erlaubt die Systemarchitektur von Discovery-Systemen die Integration von diesen und anderen Diensten über einschlägige <a href="./metadaten.html#schnittstellen">Schnittstellen</a>, sodass sich über die gelisteten Dienste noch zahlreiche weitere Möglichkeiten ergeben.</p>
 <section id="personalisierung" class="level4">
 <h4 class="anchored" data-anchor-id="personalisierung">Personalisierung</h4>
 <p>Discovery-Systeme erlauben in der Regel eine Anmeldung in einem persönlichen Bereich, der folgende Funktionalitäten umfassen kann:</p>
@@ -412,7 +426,7 @@ Zusammenfassung
 </section>
 <section id="marktsituation" class="level3">
 <h3 class="anchored" data-anchor-id="marktsituation">Marktsituation</h3>
-<p>Die ersten Discovery-Systeme haben Bibliotheken selbst entwickelt, im deutschsprachigen Raum z.B. die <em>E-LIB</em> an der Staats- und Universitätsbibliothek Bremen oder das <em>beluga</em>-System an der Staats- und Universitätsbibliothek Hamburg. Seit Ende der 00er Jahre gibt es auch kommerzielle Systeme am Markt, entweder als Teil von Bibliotheksmanagementsystemen der neuesten Generation oder auch als individuell lizenzierbare Systeme. Die Open Source-Lösung <em>VuFind</em> ermöglicht es, verschiedene Suchindizes unter einer Oberfläche nutzbar zu machen, so dass es eine relativ große Vielfalt von Nutzungsszenarien gibt.</p>
+<p>Die ersten Discovery-Systeme haben Bibliotheken selbst entwickelt, im deutschsprachigen Raum z.B. die <em>E-LIB</em> an der Staats- und Universitätsbibliothek Bremen oder das <em>beluga</em>-System an der Staats- und Universitätsbibliothek Hamburg. Seit Ende der 00er Jahre gibt es auch kommerzielle Systeme am Markt, entweder als Teil von Bibliotheksmanagementsystemen der neuesten Generation oder auch als individuell lizenzierbare Systeme. Die Open Source-Lösung <em>VuFind</em> ermöglicht es, verschiedene Suchindizes unter einer Oberfläche nutzbar zu machen, sodass es eine relativ große Vielfalt von Nutzungsszenarien gibt.</p>
 <section id="kommerzielle-komplettsysteme" class="level4">
 <h4 class="anchored" data-anchor-id="kommerzielle-komplettsysteme">Kommerzielle Komplettsysteme</h4>
 <p>Im Wesentlichen gibt es zwei vergleichbare Anbieter*innen von Komplettsystemen für Discovery-Systeme</p>
@@ -461,9 +475,10 @@ Zusammenfassung
 <p>Neben der Recherche nach bibliographischen Informationen sollen Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien unterstützen. Dieser auch als <strong>Delivery</strong> bezeichnete Prozess hat sich bereits in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der Nutzer*innen herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist daher ein wichtiges Qualitätskriterium.</p>
 <p>Neuere BMS wie <abbr title="Open-Source Bibliotheksmanagementsystem">FOLIO</abbr> und <em>Alma</em> enthalten zum Teil gar keinen klassischen OPAC mehr. Mit diesen Systemen muss daher immer ein zusätzliches Discovery-System eingesetzt werden.</p>
 <p>Viele Bibliotheken erschließen <strong>E-Ressourcen</strong> nicht in vollem Umfang in ihrem BMS. Daher sind im OPAC, der zu diesem BMS gehört, die E-Ressourcen nicht oder nur eingeschränkt auffindbar. Wenn die Bibliothek ein Discovery-System betreibt, können Metadaten zu E-Ressourcen über einen <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> in den Index des Discovery-Systems geladen werden. Voraussetzung dafür ist, dass den Metadaten mittels Electronic Ressource Management (<abbr title="Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen">ERM</abbr>) entsprechende Nutzungslizenzen zugeordnet sind.</p>
-<div id="tbl-discovery-vs-opac" class="anchored">
+<div id="tbl-discovery-vs-opac" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-discovery-vs-opac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
-<caption>Tabelle&nbsp;7.1: Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System</caption>
 <thead>
 <tr class="header">
 <th></th>
@@ -505,6 +520,11 @@ Zusammenfassung
 </tbody>
 </table>
 </div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-discovery-vs-opac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;7.1: Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System
+</figcaption>
+</figure>
+</div>
 <p>## Grenzen und Alternativen</p>
 <p>Discovery-Systeme sind in der Regel nur einer von vielen Bausteinen in der Prozesskette der Recherche, Bewertung und Beschaffung von Literatur und spielen an unterschiedlichen Stellen eine Rolle. Sie helfen dabei, Literatur zu entdecken und Zugangswege zu ermitteln und brechen die traditionelle Grenze zwischen Katalog und Bibliografien durch einen zentralen Sucheinstieg auf. Trotz dieser Stärken können die Systeme nachgewiesene Medien nur begrenzt kontextualisieren und bewerten und bleiben in der Praxis oft hinter den Erwartungen zurück <span class="citation" data-cites="christensen_wissenschaftliche_2022">(<a href="literatur.html#ref-christensen_wissenschaftliche_2022" role="doc-biblioref">Christensen 2022</a>)</span>. Je nach Anwendung spielen daher alternative Systeme weiterhin eine Rolle:</p>
 <ul>
@@ -512,17 +532,21 @@ Zusammenfassung
 <li><p>Zum Entdecken von Literatur eignen sich auch allgemeine Suchmaschinen oder spezielle <strong>Academic Search Engines</strong> wie Google Scholar sowie gänzlich andere Wege wie bestehende Literaturverzeichnisse, Empfehlungslisten auf Lernplattformen und Webshops.</p></li>
 </ul>
 <p>Insbesondere Webshops haben im Vergleich zu Discovery-Systemen sehr personalisierte Such- und Empfehlungsdienste, die jedoch auf einer intensiven Auswertung des jeweiligen Nutzungsverhaltens basieren. Die Verwendung dieser Daten zur Personalisierung ist auch in Discovery-Systemen denkbar, wird aber aus Datenschutz- und Neutralitätsgründen grundsätzlich eher abgelehnt.</p>
-<p>Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende Suchen bieten <strong>Wissensgraphen</strong> (knowledge graphs), die die vielfältigen Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in ausgewählten Bereichen, zum Beispiel die Plattform <a href="https://sonar.fh-potsdam.de/">SoNAR</a> zur historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren bibliographischen Inhalten <em>WikiCite</em> und dem dazu gehörigen Browsing-Interface <a href="https://scholia.toolforge.org/">Scholia</a> (siehe Abbildung <a href="#fig-scholia">Abbildung&nbsp;<span>7.2</span></a>).</p>
-<div id="fig-scholia" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/scholia.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;7.2: Thematisches Netzwerk von <a href="https://scholia.toolforge.org/topic/Q45340488">Publikationen in und über Scholia</a></figcaption>
+<p>Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende Suchen bieten <strong>Wissensgraphen</strong> (knowledge graphs), die die vielfältigen Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in ausgewählten Bereichen, zum Beispiel die Plattform <a href="https://sonar.fh-potsdam.de/">SoNAR</a> zur historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren bibliographischen Inhalten <em>WikiCite</em> und dem dazu gehörigen Browsing-Interface <a href="https://scholia.toolforge.org/">Scholia</a> (siehe Abbildung <a href="#fig-scholia" class="quarto-xref">Abbildung&nbsp;<span>Thematisches Netzwerk von Publikationen in und über Scholia</span></a>).</p>
+<div id="fig-scholia" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-scholia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/scholia.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-scholia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;7.2: Thematisches Netzwerk von <a href="https://scholia.toolforge.org/topic/Q45340488">Publikationen in und über Scholia</a>
+</figcaption>
 </figure>
 </div>
 <p>Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und Alternativen in der Praxis fließend sind und dass Discovery-Systeme perspektivisch um Funktionen anderer Systeme erweitert werden können und sollten.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-christensen_wissenschaftliche_2022" class="csl-entry" role="listitem">
 Christensen, Anne. 2022. <span>„Wissenschaftliche Literatur entdecken: Was bibliothekarische Discovery-Systeme von der Konkurrenz lernen und was sie ihr zeigen können“</span>. <em><span>LIBREAS</span></em>, Nr. 41. <a href="https://doi.org/10.18452/24798">https://doi.org/10.18452/24798</a>.
 </div>
@@ -635,10 +659,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -648,8 +686,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -662,6 +709,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -705,6 +871,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -730,6 +897,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -787,30 +980,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link">
+      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link  aria-label=" &lt;span="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Bibliotheksmanagementsysteme</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./digitalisierung.html" class="pagination-link">
+      <a href="./digitalisierung.html" class="pagination-link" aria-label="<span class='chapter-number'>8</span>&nbsp; <span class='chapter-title'>Digitalisierung</span>">
         <span class="nav-page-text"><span class="chapter-title">Digitalisierung</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -821,20 +1000,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/discovery.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/discovery.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
@@ -843,12 +1028,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org"><img src="quarto-badge.svg" class="img-fluid"></a>
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

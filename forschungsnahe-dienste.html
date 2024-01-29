@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -68,7 +69,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -77,6 +84,7 @@ div.csl-indent {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
@@ -94,12 +102,12 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./forschungsnahe-dienste.html"><span class="chapter-title">Forschungsnahe Dienste</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./forschungsnahe-dienste.html"><span class="chapter-title">Forschungsnahe Dienste</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -109,7 +117,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -117,8 +125,8 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" rel="" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
@@ -219,7 +227,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -253,7 +261,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#zusammenfassung-und-ausblick" id="toc-zusammenfassung-und-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/forschungsnahe-dienste.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/forschungsnahe-dienste.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/forschungsnahe-dienste.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/forschungsnahe-dienste.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -262,7 +270,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Forschungsnahe Dienste</span></h1>
+<h1 class="title"><span id="forschungsnahe-dienste" class="quarto-section-identifier"><span class="chapter-title">Forschungsnahe Dienste</span></span></h1>
 </div>
 
 
@@ -275,7 +283,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-simple callout-important">
 <div class="callout-body d-flex">
@@ -356,7 +366,7 @@ Definition
 <h3 class="anchored" data-anchor-id="repositorien-für-forschungsergebnisse">Repositorien für Forschungsergebnisse</h3>
 <p>Zentral für die Veröffentlichung jedweder Art von wissenschaftlichem Output ist ein geeigneter Ort für deren Veröffentlichung, ganz besonders im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.</p>
 <p>Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für wissenschaftliche Ergebnisse etabliert, seien es <a href="#forschungsdatenmanagement">Forschungsdaten</a>, textuelle Publikationen, Softwarecode oder andere Materialien (siehe <span class="quarto-unresolved-ref">?fig-informationstypen</span>). Für die wissenschaftliche Kommunikation ist dabei die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form erhalten werden, das heißt nicht verändert oder gelöscht werden. Da Internetadressen als flüchtig gelten, werden zur Identifikation <a href="#persistent-identifier">Persistent Identifier-Systeme</a> eingesetzt. Die Zitierfähigkeit und damit der langfristige, möglichst originalgetreue Erhalt der einmal eingestellten Informationen grenzen Repositorien gegenüber anderen Arbeitsplattformen wie Sync-and-Share-Plattformen (z. B. Nextcloud), Content-Management-Systemen (zur Erstellung von Blogs und Internetseiten) sowie virtuellen Forschungsumgebungen (mit integrierten Funktionen z. B. für die Datenanalyse) ab.</p>
-<p>Es lassen sich grundlegend zwei Typen von Repositorien unterscheiden: Disziplinspezifische Repositorien sammeln die Inhalte einer bestimmten Forschungsdisziplin (Suche nach Disziplin möglich über <a href="https://www.re3data.org/">re3data</a>), während generische Repositorien Inhalte unterschiedlicher Disziplinen aufnehmen (z. B. <a href="https://zenodo.org">Zenodo</a>). Einen Sonderfall fachübergreifender Repositorien bilden institutionelle Repositorien, die speziell für die Mitglieder der jeweiligen Institution zur Verfügung stehen. Einige Repositorien widmen sich zudem speziell der Sammlung bestimmter Datentypen (z. B. Preprint- oder Publikationsserver, Forschungsdatenrepositorien, Bilddatenbanken, …). Insbesondere im Bereich Forschungsdaten und Open Educational Resources gibt es seitens der Nutzer*innen häufig den Wunsch, dass in Repositorien auch eine interaktive Arbeit mit den Materialien möglich ist. Derzeit sind Repositorien aber in der Regel noch ausschließlich auf die sichere Speicherung und Bereitstellung der Inhalte ausgerichtet - eine Erweiterung um Funktionalitäten z. B. zur Visualisierung oder Analyse würden sie in die Nähe von virtuellen Forschungsumgebungen rücken. Häufig werden Repositorien und Repositoriensoftware zudem mit der digitalen <a href="#langzeitarchivierung">Langzeitarchivierung</a> als Kernfunktionalität in Verbindung gebracht - aus Sicht von Repositorien-Betreiber*innen und -Entwickler*innen handelt es sich bei der digitalen Langzeitarchivierung allerdings eher um eine Spezialfunktionalität, die nur für bestimmte Nutzungsszenarien relevant und daher auch nicht in allen Repositorien gegeben ist. Mit dem proprietären System <a href="https://exlibrisgroup.com/de/produkte/rosetta/">Rosetta</a> und der Open Source-Lösung <a href="https://www.archivematica.org">Archivematica</a> seien hier nur zwei Beispiele für Systeme genannt, die sich auf den Erhalt von Informationen im Sinne der Langzeitarchivierung spezialisieren.</p>
+<p>Es lassen sich grundlegend zwei Typen von Repositorien unterscheiden: Disziplinspezifische Repositorien sammeln die Inhalte einer bestimmten Forschungsdisziplin (Suche nach Disziplin möglich über <a href="https://www.re3data.org/">re3data</a>), während generische Repositorien Inhalte unterschiedlicher Disziplinen aufnehmen (z. B. <a href="https://zenodo.org">Zenodo</a>). Einen Sonderfall fachübergreifender Repositorien bilden institutionelle Repositorien, die speziell für die Mitglieder der jeweiligen Institution zur Verfügung stehen. Einige Repositorien widmen sich zudem speziell der Sammlung bestimmter Datentypen (z. B. Preprint- oder Publikationsserver, Forschungsdatenrepositorien, Bilddatenbanken …). Insbesondere im Bereich Forschungsdaten und Open Educational Resources gibt es seitens der Nutzer*innen häufig den Wunsch, dass in Repositorien auch eine interaktive Arbeit mit den Materialien möglich ist. Derzeit sind Repositorien aber in der Regel noch ausschließlich auf die sichere Speicherung und Bereitstellung der Inhalte ausgerichtet - eine Erweiterung um Funktionalitäten z. B. zur Visualisierung oder Analyse würden sie in die Nähe von virtuellen Forschungsumgebungen rücken. Häufig werden Repositorien und Repositoriensoftware zudem mit der digitalen <a href="#langzeitarchivierung">Langzeitarchivierung</a> als Kernfunktionalität in Verbindung gebracht - aus Sicht von Repositorien-Betreiber*innen und -Entwickler*innen handelt es sich bei der digitalen Langzeitarchivierung allerdings eher um eine Spezialfunktionalität, die nur für bestimmte Nutzungsszenarien relevant und daher auch nicht in allen Repositorien gegeben ist. Mit dem proprietären System <a href="https://exlibrisgroup.com/de/produkte/rosetta/">Rosetta</a> und der Open Source-Lösung <a href="https://www.archivematica.org">Archivematica</a> seien hier nur zwei Beispiele für Systeme genannt, die sich auf den Erhalt von Informationen im Sinne der Langzeitarchivierung spezialisieren.</p>
 <div class="callout callout-style-simple callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -389,17 +399,25 @@ Definition
 <p><strong>Forschungsdaten</strong> sind alle digital vorliegenden Daten, die während des Forschungsprozesses entstehen (z. B. Messdaten, Laborwerte, Videoaufnahmen, Umfrageergebnisse). Klar davon abzugrenzen sind <a href="#forschungsinformationssysteme">Forschungsinformationen</a>. Der Lebenszyklus von Forschungsdaten beinhaltet die Erstellung, Speicherung, Archivierung bis hin zur Löschung aussortierter Daten.</p>
 </div>
 </div>
-<div id="fig-forschungsdatenlebenszyklus" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/fd-lifecycle.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;9.1: Darstellungen des Forschungsdatenlebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.</figcaption>
+<div id="fig-forschungsdatenlebenszyklus" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forschungsdatenlebenszyklus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/fd-lifecycle.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forschungsdatenlebenszyklus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;9.1: Darstellungen des Forschungsdatenlebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.
+</figcaption>
 </figure>
 </div>
-<p>Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt wie in <a href="#fig-fis-fdm">Abbildung&nbsp;<span>9.2</span></a> dargestellt im Bereich Publikationen. Während sich allerdings Forschungsinformationen eher auf klassische, kontrolliert publizierte Dokumente beziehen, geht die Publikation von Forschungsdaten weit darüber hinaus und schließt jegliche Form von Aufzeichnungen wie Notizen und Zwischenergebnisse bis zu <a href="#forschungssoftware">Forschungssoftware</a> mit ein.</p>
-<div id="fig-fis-fdm" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/FIS_FDM_CC_BY_Mau.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;9.2: Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)</figcaption>
+<p>Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt wie in <a href="#fig-fis-fdm" class="quarto-xref">Abbildung&nbsp;<span>Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)</span></a> dargestellt im Bereich Publikationen. Während sich allerdings Forschungsinformationen eher auf klassische, kontrolliert publizierte Dokumente beziehen, geht die Publikation von Forschungsdaten weit darüber hinaus und schließt jegliche Form von Aufzeichnungen wie Notizen und Zwischenergebnisse bis zu <a href="#forschungssoftware">Forschungssoftware</a> mit ein.</p>
+<div id="fig-fis-fdm" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fis-fdm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/FIS_FDM_CC_BY_Mau.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fis-fdm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;9.2: Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)
+</figcaption>
 </figure>
 </div>
 <p>Services zum Forschungsdatenmanagement sollen Wissenschaftler*innen beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den gesamten Forschungsdatenlebenszyklus hinweg, d.&nbsp;h. von der Datenplanung über die Datenerhebung und -analyse bis hin zur Datenarchivierung, -publikation und -nachnutzung. Bibliotheken nehmen beim Aufbau und Betrieb entsprechender Services eine zentrale Rolle ein - in aller Regel sind sie hierbei jedoch nicht die einzigen Akteure, sondern das Serviceportfolio wird in einer arbeitsteiligen Zusammenarbeit von Bibliotheken, Rechenzentren, Forschungsabteilungen und ggf. weiteren Akteur*innen angeboten. Angesichts der großen Heterogenität an (disziplinspezifischen) Datentypen gelangen diese in aller Regel fachübergreifenden FDM-Dienste allerdings häufig an ihre Grenzen: Diese Erkenntnis ist konstitutiv für die seit 2020 im Aufbau befindliche Nationale Forschungsdateninfrastruktur (<a href="https://www.nfdi.de/">NFDI</a>), in der fachspezifische, institutionsübergreifende Dienste entwickelt werden. In diesem Zusammenhang entwickeln sich derzeit auch neue Berufe wie Data Steward oder Data Librarian, die fachspezifische Unterstützung beim Forschungsdatenmanagement leisten und entweder zentral an den FDM-Servicestellen oder dezentral in Projekten oder Fachbereichen angesiedelt sind.</p>
@@ -441,14 +459,14 @@ Definition
 <p><strong>Forschungsinformationen</strong> sind Angaben über Aktivitäten, Ergebnisse und Infrastrukturen von Forschungsprozessen wie zum Beispiel Projekte, Publikationen und Forschungseinrichtungen. Davon zu unterscheiden sind <a href="#forschungsdatenmanagement">Forschungsdaten</a>.</p>
 </div>
 </div>
-<p>Neben Forschungsdaten gewinnt auch die strukturierte Erfassung von Forschungsinformationen an Bedeutung. Entsprechende Systeme werden <strong>Forschungsinformationssysteme</strong> (FIS) genannt. Dabei handelt es sich um Datenbanksysteme, die speziell für die Erfassung, Organisation, Speicherung und Verknüpfung von <strong>Forschungsinformationen</strong> konzipiert wurden. Sie können interne Anwendungen wie die leistungsorientierte Mittelvergabe unterstützen, aber auch für die Außendarstellung der Einrichtung genutzt werden. Eine Übersicht von Forschungsinformationen und ihre Sicht auf Forschungsdaten gibt <a href="#fig-fis-fdm">Abbildung&nbsp;<span>9.2</span></a>.</p>
+<p>Neben Forschungsdaten gewinnt auch die strukturierte Erfassung von Forschungsinformationen an Bedeutung. Entsprechende Systeme werden <strong>Forschungsinformationssysteme</strong> (FIS) genannt. Dabei handelt es sich um Datenbanksysteme, die speziell für die Erfassung, Organisation, Speicherung und Verknüpfung von <strong>Forschungsinformationen</strong> konzipiert wurden. Sie können interne Anwendungen wie die leistungsorientierte Mittelvergabe unterstützen, aber auch für die Außendarstellung der Einrichtung genutzt werden. Eine Übersicht von Forschungsinformationen und ihre Sicht auf Forschungsdaten gibt <a href="#fig-fis-fdm" class="quarto-xref">Abbildung&nbsp;<span>Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)</span></a>.</p>
 <p>FIS führen Informationen zusammen, die dezentral in verschiedenen hochschulinternen Systemen (z. B. Drittmittelverwaltung, Personalverwaltungssysteme, Repositorien) und externen Quellsystemen (z. B. Scopus, ORCID) vorgehalten werden, um einen strukturierten und aktuellen Überblick über die Forschungsleistungen z. B. einer Einrichtung, eines (Bundes-)Landes oder einer Fachdisziplin zu gewinnen.</p>
 <p>Die genauen Daten, die Nutzung der Daten und der Funktionsumfang eines FIS sind nicht festgelegt bzw. klar definiert. Verschiedene Softwarelösungen verfolgen unterschiedliche Ansätze: Einige legen den Schwerpunkt auf die Auffindbarkeit und Verknüpfung von Forschenden, andere Systeme haben ihren Schwerpunkt eher auf dem Berichtswesen und Monitoring und ggf. darauf basierenden Anreizsystemen. Wieder andere Systeme legen den Schwerpunkt darauf, die Forschungsaktivitäten zu präsentieren und öffentlichkeitswirksam bereitzustellen. Die Systeme passen sich zunehmend aneinander an, oft werden verschiedene Systeme aber auch in Kombination miteinander eingesetzt.</p>
 <p>FIS sollten von Anfang an als Daueraufgabe einer Einrichtung betrachtet und entsprechende finanzielle und personelle Ressourcen eingeplant werden. Bei der Einführung eines FIS handelt es sich um ein langjähriges Organisationsentwicklungsprojekt, das eine Offenheit für Veränderungen in den Prozessen und Workflows der Einrichtung voraussetzt.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/FIS_CC_BY_Mau.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Herausforderungen beim Aufbau eines Forschungsinformationssystem (CC-BY Franziska Mau)</figcaption>
+<figcaption>Herausforderungen beim Aufbau eines Forschungsinformationssystem (CC-BY Franziska Mau)</figcaption>
 </figure>
 </div>
 <p>Eine zentrale Herausforderung beim Aufbau eines FIS besteht darin, einen Überblick über die bestehenden Quellsysteme der Einrichtung zu gewinnen. In diesem Zusammenhang ist zum einen zu ermitteln, welche internen und externen Systeme relevant sind und wer die entsprechenden Ansprechpartner*innen an der Einrichtung sind. Dies betrifft u. a. die Bibliothek (z. B. Repositorien), die Personalverwaltung (Identitätsmanagement), die Drittmittelverwaltung (Datenbank für Projekte), die Doktorand*innenverwaltung oder die Patentverwaltung der Einrichtung.</p>
@@ -467,7 +485,7 @@ Definition
 </section>
 <section id="metadaten" class="level3">
 <h3 class="anchored" data-anchor-id="metadaten">Metadaten</h3>
-<p>Metadaten sind Daten struktureller, technischer, administrativer, bibliographischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe Kap. <strong>Daten &amp; Metadaten</strong> bzw. <em>Metadatenstandards</em>)<em>.</em> Metadaten werden oft in einer Schlüssel-Wert-Struktur genutzt, bei der der Schlüssel vorgibt, welche Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum, …) im Wert zu finden ist (siehe Kap. <strong>Daten &amp; Metadaten</strong> bzw<em>. Grundlegende Begrifflichkeiten</em>). Strukturell werden flache und hierarchische Metadatenschemata unterschieden. Flache Metadatenschemata beschränken sich auf eine einfache Struktur aus Schlüssel-Wert-Paaren. Hierarchische Metadatenschemata sehen vor, Werte aus anderen Werten zusammensetzen zu können, so dass z. B. die Autorenschaft in den Metadaten über Personen modelliert werden können und zu jeder Person Vorname, Nachname und weitere Angaben in untergeordneten Werten gespeichert wird. Hierarchische Metadatenschemata haben dabei oft etliche dieser Hierarchieebenen und Verschachtelungen.</p>
+<p>Metadaten sind Daten struktureller, technischer, administrativer, bibliographischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe Kap. <strong>Daten &amp; Metadaten</strong> bzw. <em>Metadatenstandards</em>)<em>.</em> Metadaten werden oft in einer Schlüssel-Wert-Struktur genutzt, bei der der Schlüssel vorgibt, welche Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum …) im Wert zu finden ist (siehe Kap. <strong>Daten &amp; Metadaten</strong> bzw<em>. Grundlegende Begrifflichkeiten</em>). Strukturell werden flache und hierarchische Metadatenschemata unterschieden. Flache Metadatenschemata beschränken sich auf eine einfache Struktur aus Schlüssel-Wert-Paaren. Hierarchische Metadatenschemata sehen vor, Werte aus anderen Werten zusammensetzen zu können, sodass z. B. die Autorenschaft in den Metadaten über Personen modelliert werden können und zu jeder Person Vorname, Nachname und weitere Angaben in untergeordneten Werten gespeichert wird. Hierarchische Metadatenschemata haben dabei oft etliche dieser Hierarchieebenen und Verschachtelungen.</p>
 <p>Metadatenschemata definieren, welche Inhalte in den Metadaten erfasst werden, also welche Metadatenfelder existieren und mit Werten belegt werden können. [Dublin] <a href="https://www.dublincore.org/specifications/dublin-core/usageguide/elements/">Core Element</a> (umgangssprachlich oft einfach <em>Dublin Core</em> genannt) ist als Metadatenschema für Inhalte im Internet entstanden (TODO: siehe Kap. <strong>Daten &amp; Metadaten</strong> bzw. <em>Metadatenstandards</em>) . Es wird oft in Metatags auf HTML-Seiten verwendet und ist vorherrschend beim Austausch von Daten zwischen und mit Repositorien, auch wenn so gut wie jede Repositoriensoftware intern deutlich mehr Metadatenschemata unterstützt und nutzt. Es wird zwischen Simple und Qualified Dublin Core unterschieden. Simple Dublin Core besteht aus 15 Elementen, in Qualified Dublin Core können ergänzend Qualifier genutzt werden. So kann zum Beispiel das Element dc.contributor weiter spezifiziert werden als dc.contributor.author, dc.contributor.translator, dc.contributor.illustrator und so weiter. Von der Dublin Core Metadata Initiative wurde später auch das Metadatenschema DCMI Terms geschaffen, das Simple und Qualified Dublin Core zusammenfassen sollte. In der Praxis wird nach wie vor häufig Dublin Core Elements genutzt, in Schnittstellen oft ohne Qualifier. DCMI Terms werden in Repositorien dann oft ergänzend zu Dublin Core Elements verwendet.</p>
 <p>Im Rahmen der DOI-Registrierung werden auch Metadaten erhoben. Das <a href="https://schema.datacite.org">DataCite Schema</a> hat sich dabei als ein wichtiges Metadatenschema etabliert, das zum Teil auch losgelöst von DOIs zur Beschreibung von Forschungsdaten genutzt wird (TODO: siehe Kap. <strong>Daten &amp; Metadaten</strong> bzw. <em>Metadatenstandards</em>).</p>
 <p>Darüber hinaus entwickeln die verschiedenen Fachdisziplinen eigene domänenspezifische Standards (Übersicht: <a href="https://fairsharing.org/search?fairsharingRegistry=Standard" class="uri">https://fairsharing.org/search?fairsharingRegistry=Standard</a> ). Eine Aufgabe wissenschaftlicher Bibliotheken besteht in der Beratung bei der Auswahl geeigneter Metadatenschemata und Standards (Übersicht unter: <a href="https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards" class="uri">https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards</a>-</p>
@@ -487,7 +505,7 @@ Definition
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/oais.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Das als ISO 14721 verabschiedete Referenzmodell „Open Archival Information System” (OAIS), CC-BY Jørgen Stamp</figcaption>
+<figcaption>Das als ISO 14721 verabschiedete Referenzmodell „Open Archival Information System” (OAIS), CC-BY Jørgen Stamp</figcaption>
 </figure>
 </div>
 </section>
@@ -550,7 +568,7 @@ Definition
 </ul>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-Azeroual2021" class="csl-entry" role="listitem">
 Azeroual, Otmane. 2021. <span>„Untersuchungen zur Datenqualität und Nutzerakzeptanz von Forschungsinformationssystemen“</span>. <a href="https://doi.org/10.25673/45118">https://doi.org/10.25673/45118</a>.
 </div>
@@ -690,10 +708,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -703,8 +735,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -717,6 +758,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -760,6 +920,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -785,6 +946,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -842,30 +1029,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./digitalisierung.html" class="pagination-link">
+      <a href="./digitalisierung.html" class="pagination-link  aria-label=" &lt;span="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Digitalisierung</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./kommunikation.html" class="pagination-link">
+      <a href="./kommunikation.html" class="pagination-link" aria-label="<span class='chapter-number'>10</span>&nbsp; <span class='chapter-title'>Kommunikation</span>">
         <span class="nav-page-text"><span class="chapter-title">Kommunikation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -876,20 +1049,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/forschungsnahe-dienste.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/forschungsnahe-dienste.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
@@ -898,12 +1077,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org"><img src="quarto-badge.svg" class="img-fluid"></a>
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

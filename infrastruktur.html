@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID…)">
+<meta name="description" content="Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID …)">
 
 <title>Handbuch IT in Bibliotheken - Technische Infrastruktur</title>
 <style>
@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -68,7 +69,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -77,6 +84,7 @@ div.csl-indent {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
@@ -94,12 +102,12 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./infrastruktur.html"><span class="chapter-title">Technische Infrastruktur</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./infrastruktur.html"><span class="chapter-title">Technische Infrastruktur</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -109,7 +117,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -117,8 +125,8 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" rel="" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
@@ -219,7 +227,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -265,7 +273,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#zusammenfassung-und-ausblick" id="toc-zusammenfassung-und-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/infrastruktur.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/infrastruktur.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/infrastruktur.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/infrastruktur.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -287,7 +295,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -347,8 +357,8 @@ Info
 </section>
 <section id="bezahlung" class="level3">
 <h3 class="anchored" data-anchor-id="bezahlung">Bezahlung</h3>
-<p>In Bibliotheken fallen an verschiedenen Stellen Gebühren oder andere zu zahlende Beträge an. Diese werden einerseits elektronisch erzeugt und z.B. im Bibliothekssystem gespeichert (z.B. Überziehungsgebühren) oder fallen andererseits direkt an (z.B. Verkaufspreise für Dubletten, Tragetaschen, …). Benötigt werden dafür Geräte, die bei Bezahlung den Betrag direkt dem System verbuchen können, in dem die Beträge erfasst sind, z.B. Kassenautomaten mit Anbindung an das Bibliothekssystem. An diesen Automaten können sich Nutzer*innen anmelden, erhalten eine Anzeige von offenen Posten und können sie direkt begleichen. Manche Bibliotheken erlauben lediglich die bargeldlose Zahlung, manche ermöglichen (auch) die Zahlung mit Bargeld. Unterschiedlich gehandhabt wird auch, ob die gesamte geschuldete Summe zu bezahlen ist oder ob einzelne Posten beglichen werden können. Mit dem Einsatz von Kassenautomaten können Bezahlvorgänge unabhängig von anwesendem Personal ermöglicht werden.</p>
-<p>Auch die Verbindung eines Bezahlterminals mit einem Ausleihautomaten ist möglich. Hier sind dann alle Prozesse für die Nutzer*innen an einem Gerät abwickelbar. Es sind Ausleihautomaten am Markt, die bargeldlose Bezahlung mit verschiedenen Bezahlssystmene (spezielle Debit-Karten, ec-Karten...) und/oder Bargeldzahlungen ermöglichen.</p>
+<p>In Bibliotheken fallen an verschiedenen Stellen Gebühren oder andere zu zahlende Beträge an. Diese werden einerseits elektronisch erzeugt und z.B. im Bibliothekssystem gespeichert (z.B. Überziehungsgebühren) oder fallen andererseits direkt an (z.B. Verkaufspreise für Dubletten, Tragetaschen …). Benötigt werden dafür Geräte, die bei Bezahlung den Betrag direkt dem System verbuchen können, in dem die Beträge erfasst sind, z.B. Kassenautomaten mit Anbindung an das Bibliothekssystem. An diesen Automaten können sich Nutzer*innen anmelden, erhalten eine Anzeige von offenen Posten und können sie direkt begleichen. Manche Bibliotheken erlauben lediglich die bargeldlose Zahlung, manche ermöglichen (auch) die Zahlung mit Bargeld. Unterschiedlich gehandhabt wird auch, ob die gesamte geschuldete Summe zu bezahlen ist oder ob einzelne Posten beglichen werden können. Mit dem Einsatz von Kassenautomaten können Bezahlvorgänge unabhängig von anwesendem Personal ermöglicht werden.</p>
+<p>Auch die Verbindung eines Bezahlterminals mit einem Ausleihautomaten ist möglich. Hier sind dann alle Prozesse für die Nutzer*innen an einem Gerät abwickelbar. Es sind Ausleihautomaten am Markt, die bargeldlose Bezahlung mit verschiedenen Bezahlssystmene (spezielle Debit-Karten, ec-Karten …) und/oder Bargeldzahlungen ermöglichen.</p>
 <p>Die Systeme für Bezahlung und Gebühren sind meist an die jeweiligen Finanzstellen einer Universität oder einer Stadt(verwaltung) angebunden.</p>
 </section>
 <section id="zugangskontrolle" class="level3">
@@ -382,7 +392,7 @@ Info
 <p>Für das einfachere Auffinden von Regalstandorten gibt es verschiedene Visualisierungsmöglichkeiten. Im einfachsten Fall kann der genaue oder ungefähre Standort eines Mediums auf einer statischen oder sogar interaktiven Karte angezeigt werden. Eine solche Karte könnte hierbei direkt beim Suchtreffer im Katalog angezeigt werden, oder als dediziertes Terminal vor Ort vorhanden sein. Anhand der Karte können sich Nutzer*innen dann zum Buch bewegen.</p>
 <p>Technisch komplexer ist es nun, wenn eine solche Karte nicht nur den Standort des Buches, sondern gleichzeitig auch den aktuellen Live-Standort des/der Nutzer*in visualisieren soll. In einem solchen Fall, der etwa einer Google-Maps Karte gleicht, muss zusätzlich technischer Aufwand betrieben werden, um den aktuellen Nutzerstandort zu ermitteln. Im Gegensatz zu Karten und Navigationslösungen in Automobilen oder unterwegs mit dem Smartphone, kann allerdings innerhalb von Gebäuden nicht auf GPS-Satelliten zur Positionsbestimmung zurückgegriffen werden, sondern es müssen andere Signale oder Ortungspunkte genutzt werden, um den Standort der Person im Raum zu ermitteln.</p>
 <p>Mögliche Ansätze sind hierbei etwa sog. Beacons, die mit Funklösungen wie Bluetooth und Triangulation die Position eines Mobiltelefons ermitteln, oder bildbasierte Lösungen, die über die Smartphonekamera bestimmte Objekte oder Marker im Raum erkennen.</p>
-<p>Die Standorte von physischen Medien sind über eine Zuordnung von Signaturen zu Regalen, teilweise sogar auch zu einzelnen Regalbrettern, einfach möglich. Dies bedingt allerdings eine systematische Aufstellung, die in Zeiten von mehrheitlich elektronischen Medien und immer weniger Printmedien nicht mehr hilfreich ist. So sollte ursprünglich eine Systematik am Regal den Bestand zu einem bestimmten Thema abbilden, man sollte über die benachbarten Bücher einen Überblick zu einem Thema bekommen können. Da aber bspw. E-Books nicht im Regal auftauchen, stellt sich die Frage nach der Aufstellung von gedruckten Medien in den Lesesälen neu. Eine Alternative zur systematischen Aufstellung kann die dynamische Aufstellung sein. So kann man z.B. ohne Umsignierungen temporäre Sammlungen bilden. Man kann darüber nachdenken, ob die Nutzer*innen ausgeliehene Bücher selbst zurückgeben können, indem sie sie einfach an einen freien Platz im Regal stellen. Man kann die Nutzer*innen die früher so ungeliebten „Nester“, also die Konzentration von Büchern an einer beliebigen nicht systematischen Stelle, bilden lassen, so dass vielleicht auch andere von dieser „eigenen“ Systematik profitieren. Dies bedingt natürlich eine technische Lösung, mittels der die Bücher anschließend auch wiedergefunden werden, also irgendwie geortet werden können (siehe auch der Abschnitt <a href="#revision">Revision</a>).</p>
+<p>Die Standorte von physischen Medien sind über eine Zuordnung von Signaturen zu Regalen, teilweise sogar auch zu einzelnen Regalbrettern, einfach möglich. Dies bedingt allerdings eine systematische Aufstellung, die in Zeiten von mehrheitlich elektronischen Medien und immer weniger Printmedien nicht mehr hilfreich ist. So sollte ursprünglich eine Systematik am Regal den Bestand zu einem bestimmten Thema abbilden, man sollte über die benachbarten Bücher einen Überblick zu einem Thema bekommen können. Da aber bspw. E-Books nicht im Regal auftauchen, stellt sich die Frage nach der Aufstellung von gedruckten Medien in den Lesesälen neu. Eine Alternative zur systematischen Aufstellung kann die dynamische Aufstellung sein. So kann man z.B. ohne Umsignierungen temporäre Sammlungen bilden. Man kann darüber nachdenken, ob die Nutzer*innen ausgeliehene Bücher selbst zurückgeben können, indem sie sie einfach an einen freien Platz im Regal stellen. Man kann die Nutzer*innen die früher so ungeliebten „Nester“, also die Konzentration von Büchern an einer beliebigen nicht systematischen Stelle, bilden lassen, sodass vielleicht auch andere von dieser „eigenen“ Systematik profitieren. Dies bedingt natürlich eine technische Lösung, mittels der die Bücher anschließend auch wiedergefunden werden, also irgendwie geortet werden können (siehe auch der Abschnitt <a href="#revision">Revision</a>).</p>
 </section>
 <section id="sortiersysteme" class="level3">
 <h3 class="anchored" data-anchor-id="sortiersysteme">Sortiersysteme</h3>
@@ -404,7 +414,7 @@ Info
 <p>Eine elektronisch unterstützte Inventur in HF-Bibliotheken kann auf zwei Arten durchgeführt werden. Die erste Möglichkeit ist das „Entlangwandern“ an den Regalen mit einem Tischtennisschläger-artigen Gerät, welches an den Buchrücken entlanggeführt wird. Die Genauigkeit dieser Art der Inventur ist bei weitem nicht absolut, da die Lesegenauigkeit stark vom Abstand/Winkel von Transponder zu Lesegerät abhängt (idealerweise sind Antenne und Transponder parallel ausgerichtet). Zudem stören Metallgegenstände (z.B. Metallregale) den Empfang.</p>
 <p>Die zweite Möglichkeit ist der Einsatz sogenannter Smart-Shelves. In diesen sind aktive RFID-Komponenten verbaut, die die Detektion der auf ihnen befindlichen Medien erlauben. Nachteilig sind hier die Kosten der Regale, die umgerechnet bei mehreren Euro pro detektiertem Medium liegen. Ein großes Manko bei den oben genannten Inventursystemen ist zudem die mangelnde Integration mit dem BMS bzw. eine ausgereifte Benutzungsoberfläche.</p>
 <p>Anders sieht es im UHF-Frequenzbereich aus. Durch die potentielle große Lesereichweite von bis zu ca. 12 Metern bei praktisch keiner Beschränkung der Anzahl der Transponder im Erfassungsfeld ist die Frage der prinzipiellen Präsenz eines Mediums gut zu beantworten. Gleichzeitig ist durch die große Lesereichweite die korrekte Aufstellung an einer konkreten Stelle nur durch einen hohen technischen Aufwand automatisiert zu prüfen.</p>
-<p>Scan-Roboter, die regelmäßig den Bestand überprüfen (beispielsweise an der TU Dortmund), können derzeit mit einer Genauigkeit von ca. 1 Kubikmeter den Standort eines Transponders bestimmen. Die zur Zeit im Einsatz befindlichen Roboter der Firma Metralabs aus Ilmenau scannen den Bestand in sogenannten „Runs“, die etwa 30.000 Tags pro Stunde finden. Nach einem abgeschlossenen Run werden die Ergebnisse in einer CSV-Datei über einen Fileshare oder einfach per E-Mail geliefert. Enthalten sind darin u.a. Taginhalt und x,y,z-Koordinaten ausgehend von einem einmal festgelegten Nullpunkt. Diese Informationen können (und müssen) dann weiterverarbeitet werden. Denkbar ist eine Integration in den Katalog, so dass in einem Lageplan der Standort des Mediums angezeigt wird, sobald man darauf klickt. Eine Inventur über alle Daten ist möglich, wenn man die Daten abgleicht mit dem ausgeliehenen Bestand und die Fehlmenge ausweist. Eine Stellrevision ist etwas aufwändiger, da der Bestand dazu über längere Zeit überwacht werden und Abweichungen bestimmt werden müssen – wenn der genaue Soll-Standort jedes Mediums nicht in einer Tabelle erfasst ist, mit der der aktuelle Roboterdaten verglichen werden kann.</p>
+<p>Scan-Roboter, die regelmäßig den Bestand überprüfen (beispielsweise an der TU Dortmund), können derzeit mit einer Genauigkeit von ca. 1 Kubikmeter den Standort eines Transponders bestimmen. Die zur Zeit im Einsatz befindlichen Roboter der Firma Metralabs aus Ilmenau scannen den Bestand in sogenannten „Runs“, die etwa 30.000 Tags pro Stunde finden. Nach einem abgeschlossenen Run werden die Ergebnisse in einer CSV-Datei über einen Fileshare oder einfach per E-Mail geliefert. Enthalten sind darin u.a. Taginhalt und x,y,z-Koordinaten ausgehend von einem einmal festgelegten Nullpunkt. Diese Informationen können (und müssen) dann weiterverarbeitet werden. Denkbar ist eine Integration in den Katalog, sodass in einem Lageplan der Standort des Mediums angezeigt wird, sobald man darauf klickt. Eine Inventur über alle Daten ist möglich, wenn man die Daten abgleicht mit dem ausgeliehenen Bestand und die Fehlmenge ausweist. Eine Stellrevision ist etwas aufwändiger, da der Bestand dazu über längere Zeit überwacht werden und Abweichungen bestimmt werden müssen – wenn der genaue Soll-Standort jedes Mediums nicht in einer Tabelle erfasst ist, mit der der aktuelle Roboterdaten verglichen werden kann.</p>
 <p>Festzuhalten ist, dass auch die von den Robotern erhobenen Daten keine absolute Genauigkeit haben, sondern immer etwas „Schwund“ enthalten. Die Gründe für die Ungenauigkeit sind vielfältig: Reflexionen durch Metall-Anhäufungen im Suchfeld, verstellte Gänge zwischen den Regalen, die die Roboter am Durchfahren und Scannen hindern, sehr eng zusammenstehende Bücher, die verhindern, dass beide Tags gescannt werden usw. Mit einer Fehlerrate von ca. 1% ist beim Robotereinsatz zu rechnen.</p>
 </section>
 <section id="smart-library" class="level3">
@@ -413,7 +423,7 @@ Info
 </section>
 <section id="rfid" class="level3">
 <h3 class="anchored" data-anchor-id="rfid">RFID</h3>
-<p>Der folgende Abschnitt gibt einen tieferen Einblick in die Thematik „RFID“, die für viele Teile der allgemeinen Infrastruktur (Verbuchung, Mediensicherung, Sortiersysteme…) relevant ist. Insbesondere im Hinblick auf Fragestellungen einer Migration oder Einführung von RFID-basierten Technologien für einen Bibliotheksbestand werden Grundlagen und Hintergründe erläutert, Speicherung und Datenmodelle diskutiert und Unterschiede zwischen Verschiedenen RFID-Technologien aufgezeigt. Weitere Informationen zum Einsatz von RFID in Bibliotheken siehe <span class="citation" data-cites="seeliger_rfid_2014">Seeliger (<a href="literatur.html#ref-seeliger_rfid_2014" role="doc-biblioref">2014</a>)</span> und <span class="citation" data-cites="kern_rfid_2011">Kern (<a href="literatur.html#ref-kern_rfid_2011" role="doc-biblioref">2011</a>)</span>.</p>
+<p>Der folgende Abschnitt gibt einen tieferen Einblick in die Thematik „RFID“, die für viele Teile der allgemeinen Infrastruktur (Verbuchung, Mediensicherung, Sortiersysteme …) relevant ist. Insbesondere im Hinblick auf Fragestellungen einer Migration oder Einführung von RFID-basierten Technologien für einen Bibliotheksbestand werden Grundlagen und Hintergründe erläutert, Speicherung und Datenmodelle diskutiert und Unterschiede zwischen Verschiedenen RFID-Technologien aufgezeigt. Weitere Informationen zum Einsatz von RFID in Bibliotheken siehe <span class="citation" data-cites="seeliger_rfid_2014">Seeliger (<a href="literatur.html#ref-seeliger_rfid_2014" role="doc-biblioref">2014</a>)</span> und <span class="citation" data-cites="kern_rfid_2011">Kern (<a href="literatur.html#ref-kern_rfid_2011" role="doc-biblioref">2011</a>)</span>.</p>
 <section id="rfid-grundlagen" class="level4">
 <h4 class="anchored" data-anchor-id="rfid-grundlagen">RFID-Grundlagen</h4>
 <p>RFID (radio frequency identification) ist eine Technologie, um Objekte mittels Funksignalen zu erfassen und zu orten. Die Objekte werden hierbei durch RFID-Tags (auch Etiketten oder Transponder genannt) markiert. Ein RFID-Tag enthält zumeist einen Schaltkreis (Speicher + Prozessor) und eine Antenne. Um mit einem RFID-Tag zu kommunizieren, wird ein Sende-/Empfangsgerät benötigt („RFID-Reader“), welches die Antenne über Funkwellen mit Strom versorgt („Induktion“) und danach mit dem Schaltkreis kommuniziert. Die meisten RFID-Tags sind „passiv“, da sie über die Antenne aus der Ferne mit Strom versorgt werden. Es existieren aber auch „aktive“ Tags, die eine Batterie enthalten. Aufgrund der dafür notwendigen Größe sowie der Kosten sind aktive Tags in Bibliotheken nicht im Einsatz. Die Kosten für passive Tags bewegen sich im Bereich von wenigen Cent pro Stück, natürlich stark abhängig von der Bestellmenge.</p>
@@ -428,8 +438,9 @@ Info
 <p>UHF Transponder hingegen haben üblicherweise Antennen in einer eher länglichen Bauform, bei der zwei symmetrische Antennenteile von einem Zentrum, in dem der Mikrochip platziert ist, in gegenüberliegende Richtungen zeigen. Hier ist weniger die Größe, sondern das für den jeweiligen Anwendungsfall am besten geeignete, konkrete Layout der Antennen für eine zuverlässige Kommunikation wichtig. Die Ausmaße eines typischerweise in Bibliotheken eingesetzten UHF RFID Tags sind ca 15 mm × 94 mm, es gibt aber auch kleinere Ausführungen.</p>
 <p>Es existieren ebenfalls Transponder, die sowohl mit UHF, als auch mit HF ansprechbar sind, was die Kosten pro Transponder deutlich erhöht, da zwei verschiedene Antennen vorhanden sein müssen. Beide Frequenzen gleichzeitig in einer Bibliothek zu verwenden, bringt keinen Vorteil, der diesen Aufwand rechtfertigen würde.</p>
 <div id="fig-transponder" class="quarto-layout-panel">
-<figure class="figure">
-<div class="quarto-layout-row quarto-layout-valign-top">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-transponder-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="media/hf.png" class="img-fluid figure-img"></p>
 </div>
@@ -437,10 +448,13 @@ Info
 <p><img src="media/uhf.png" class="img-fluid figure-img"></p>
 </div>
 </div>
-<p></p><figcaption class="figure-caption">Abbildung&nbsp;1.1: HF Transponder und UHF Transponder</figcaption><p></p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-transponder-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1.1: HF Transponder und UHF Transponder
+</figcaption>
 </figure>
 </div>
-<p>Das unterschiedliche Layout der Transponder ist für das Einkleben in Büchern wenig relevant. Beide Arten werden bei der Herstellung auf Folie aufgebracht. Man unterscheidet verschiedene Ausprägungen der Weiterverarbeitung: „dry naked“ bezeichnet einen fortlaufenden Folienstreifen. auf den Chips und Antennen in gewissen Abständen aufgebracht sind. Hier gibt es keine Stanzung und keine Klebefläche. „wet inlay“ hingegen bezeichnet eine Weiterverarbeitung, die Klebemasse auf Trägerfolie enthält und gestanzt ist. Weitere Verarbeitung sorgt auf Wunsch für Papieroberfläche, so dass die Transponder auch bedruckt werden können. Hersteller von RFID-Transpondern (in der klebenden Version auch „Tags“ genannt) liefern oft nur „dry naked“, weiter verarbeitete Tags beschafft man von sogenannten „Konvertierern“ (nicht zu verwechseln mit dem manchmal so genannten Prozess der „Konvertierung“ des Medienidentifikators von Barcode zu RFID). Der verwendete Klebstoff genügt keiner hohen Anforderung, die in Bibliotheken mit seltenen Werken denkbar wäre. Langzeithaftung oder garantierte Unschädlichkeit des Klebstoffes für das Papiermaterial sind kein Thema für die Hersteller und nur für sehr viel Geld bei speziellen Konvertierern zu bekommen.</p>
+<p>Das unterschiedliche Layout der Transponder ist für das Einkleben in Büchern wenig relevant. Beide Arten werden bei der Herstellung auf Folie aufgebracht. Man unterscheidet verschiedene Ausprägungen der Weiterverarbeitung: „dry naked“ bezeichnet einen fortlaufenden Folienstreifen. auf den Chips und Antennen in gewissen Abständen aufgebracht sind. Hier gibt es keine Stanzung und keine Klebefläche. „wet inlay“ hingegen bezeichnet eine Weiterverarbeitung, die Klebemasse auf Trägerfolie enthält und gestanzt ist. Weitere Verarbeitung sorgt auf Wunsch für Papieroberfläche, sodass die Transponder auch bedruckt werden können. Hersteller von RFID-Transpondern (in der klebenden Version auch „Tags“ genannt) liefern oft nur „dry naked“, weiter verarbeitete Tags beschafft man von sogenannten „Konvertierern“ (nicht zu verwechseln mit dem manchmal so genannten Prozess der „Konvertierung“ des Medienidentifikators von Barcode zu RFID). Der verwendete Klebstoff genügt keiner hohen Anforderung, die in Bibliotheken mit seltenen Werken denkbar wäre. Langzeithaftung oder garantierte Unschädlichkeit des Klebstoffes für das Papiermaterial sind kein Thema für die Hersteller und nur für sehr viel Geld bei speziellen Konvertierern zu bekommen.</p>
 <p>Relevant für die Sichtbarkeit der technischen Komponenten in einer Bibliothek ist jedoch die Gegenseite der Transponder: die Schreib-/Lese- Geräte bzw. genauer gesagt deren Antennen. Die maximale Lesereichweite wird bei HF maßgeblich durch die Größe der Antennen, bei UHF hingegen hauptsächlich durch die Feldstärke bestimmt. Dementsprechend haben HF Antennen, die für die Buchsicherung beispielsweise an Ausgängen verwendet werden, die ungefähre Größe einer mittelgroßen Person und es werden üblicherweise zwei sich gegenüberstehende Antennen zu einem „Gate“ kombiniert, nicht zuletzt um die Leseentfernung auf ca. 80-100 cm zu verdoppeln und der Kontrolle der Transponder beim passieren einer Person durch das Gate zu ermöglichen. Ein solches Gate ist sichtbar, muss in die Architektur des Eingangsbereiches einer Bibliothek integriert werden und kann ggf. auch ein Hindernis darstellen (Rollstuhlfahrer, Fluchtwege). Für andere Anwendungen ist der Größenunterschied der Antennen der beiden Frequenzbereiche weniger relevant, wenn auch nicht komplett zu vernachlässigen: Eine Inventur mit HF bedingt eine gewisse Nähe der Sende/Empfangsantenne zu den Medien, ansonsten müssten die Antennen Ausmaße von mehreren Metern haben. Bei UHF hingegen werden auch Medien in größerer Entfernung erkannt (siehe auch im Abschnitt <a href="#revision">Revision</a>). Typische Bibliotheks-Vorgänge wie die Ausleihe oder Rückgabe, egal ob an einer Theke oder an einer Selbstbedienungsstation, erfordern eine Lesereichweite von 0 bis maximal ca. 30 cm. Da sich bei beiden Frequenzen für diese Entfernung eine in etwa ähnliche Größe der Antennen ergibt, ist bei diesen Anwendungen der optische Unterschied der Geräte nicht sehr offensichtlich. Bedeutsam für diese Anwendungen ist allerdings die Anzahl der gleichzeitig im Stapel gut lesbaren Medien: bei HF sind es unter optimalen Voraussetzungen ca. 3 bis 8 Medien (je nach Größe bzw. Dicke) bei UHF ist diese Zahl nicht wirklich beschränkt. Beispielsweise werden im Extremfall problemlos 20 bis 30 Medien in einem Stapel gleichzeitig erkannt.</p>
 <p>UHF und HF unterscheiden sich außerdem durch den Speicherplatz, der auf dem Chip des Tags vorhanden ist. Faustformel ist: Je weiter gefunkt werden muss, desto energieintensiver ist der Prozess und desto weniger kann übertragen/gespeichert werden. Demzufolge ist auf einem UHF Tag im Regelfall weniger Platz als auf einem HF Tag. So wenig sogar, dass bei vielen üblichen Tags nicht beliebig lange Informationen auf einen Tag geschrieben werden können, sondern sich explizit darüber Gedanken machen muss, welche Daten gespeichert werden sollen. Es existieren allerdings auch spezielle Tags mit großem Speicher, auf denen man etwa das Dänische <a href="#datenmodelle">Datenmodell</a> finden kann.</p>
 <p>RFID-Tags können in verschiedenen Dingen eingebracht werden, so gibt es Tags in Büchern, Schlüsselanhängern sowie auch mobile devices (NFC, Smartphones). Nicht alle Arten sind untereinander kompatibel, so kann man mit NFC in Smartphones zwar RFID-HF-Tags in Bibliotheken auslesen, nicht aber RFID-UHF-Tags.</p>
@@ -481,20 +495,28 @@ Info
 <h4 class="anchored" data-anchor-id="exkurs-speicherung-von-informationen-auf-strichcodes-und-rfid-tags">Exkurs: Speicherung von Informationen auf Strichcodes und RFID-Tags</h4>
 <p>Um Informationen, wie etwa eine Mediennummer, eine Signatur oder eine komplexere Datenstruktur – wie das Dänische Datenmodell – auf einem Identifikationsmerkmal, wie einem Barcode, einem QR-Code oder einem RFID-Tag in maschinenlesbarer Form abzuspeichern, muss die Information entsprechend dem jeweiligen Zielformat encodiert werden. Im Folgenden wird beispielhaft für Barcodes und RFID-Tags erläutert, wie so etwas funktioniert.</p>
 <p><strong>Barcodes</strong> sind weit verbreitet, beispielsweise auf Produkten im Supermarkt. Meistens steht unter einem Barcode im Klartext, welche Nummern- oder Buchstabenfolge sich hinter einem Barcode verbirgt. Allerdings ist nicht jeder Barcode wie ein anderer. Es existieren verschiedene Formate, die sich darin unterscheiden, durch welche Strich- und Leerplatzfolge jeweils einzelne Zeichen dargestellt werden. Je weniger Zeichen von einem Barcodeformat unterstützt werden sollen, desto weniger Striche werden pro Zeichen benötigt und desto kompakter wird der Barcode (siehe <a href="https://de.wikipedia.org/wiki/Strichcode">Strichcode in Wikipedia</a>).</p>
-<p><a href="#fig-barcode">Abbildung&nbsp;<span>1.2</span></a> stellt einen Barcode im Code39-Format dar, welches in Bibliotheken verbreitet ist und Zahlen, Großbuchstaben und ein paar wenige Sonderzeichen darstellen kann.</p>
-<div id="fig-barcode" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/code39.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;1.2: Beispiel für einen Code39 Barcode</figcaption>
+<p><a href="#fig-barcode" class="quarto-xref">Abbildung&nbsp;<span>Beispiel für einen Code39 Barcode</span></a> stellt einen Barcode im Code39-Format dar, welches in Bibliotheken verbreitet ist und Zahlen, Großbuchstaben und ein paar wenige Sonderzeichen darstellen kann.</p>
+<div id="fig-barcode" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-barcode-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/code39.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-barcode-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1.2: Beispiel für einen Code39 Barcode
+</figcaption>
 </figure>
 </div>
 <p><strong>QR-Codes</strong> funktionieren analog, erweitern allerdings die Darstellung um eine zweite Dimension, sodass auf weniger Platz mehr Informationen dargestellt werden können. Gleichzeitig enthalten QR-Codes eine Prüfsumme, die Fehler bei der Erkennung, etwa bei Beschädigungen am Code, ausgleichen können.</p>
 <p>Ein <strong>RFID-Tag</strong> enthält einen Speicherchip und hält daher seine Informationen in Bits und Bytes, genau so, wie Daten und Dateien auch auf einem Computer gespeichert werden. Wie sich jeweils eine Information aus Bits und Bytes interpretieren lässt (ganz so, wie man aus den Balken eines Barcodes Buchstaben und Zahlen interpretiert), hängt von der jeweiligen Encodierung ab, wobei der Speicher eines Tags auch in unterschiedliche Encodierungsformate aufgeteilt werden kann, um Platz zu sparen.</p>
-<p><a href="#fig-speicher-rfid">Abbildung&nbsp;<span>1.3</span></a> zeigt einen Speicherbereich, wie er auf dem Chip eines Tags vorkommen könnte:</p>
-<div id="fig-speicher-rfid" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/rfid-tag.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;1.3: Beispiel für einen Speicherbereich auf einem RFID-Tag</figcaption>
+<p><a href="#fig-speicher-rfid" class="quarto-xref">Abbildung&nbsp;<span>Beispiel für einen Speicherbereich auf einem RFID-Tag</span></a> zeigt einen Speicherbereich, wie er auf dem Chip eines Tags vorkommen könnte:</p>
+<div id="fig-speicher-rfid" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-speicher-rfid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/rfid-tag.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-speicher-rfid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1.3: Beispiel für einen Speicherbereich auf einem RFID-Tag
+</figcaption>
 </figure>
 </div>
 <p>Hierbei ist der Speicher 32 Bit klein, was (geteilt durch 8) genau 4 Byte entspricht. Die einzelnen Bits können entweder 0 oder 1 sein und eine zweistellige Darstellung von jeweils 8 Bit als Byte nutzt die Werte von 00 bis FF im Hexadezimalsystem. Der Speicher, auf dem nun 19E9B6EA steht, wird in diesem Beispiel wie folgt encodiert: Die ersten beiden Byte sollen nach URN Code 40 gelesen werden, ein Verfahren mit dem man Text kompakt darstellen kann ähnlich der Idee hinter Code39 (IPC RFID STANDARD FOR INDENTIFYING POSTAL ITEMS BASED ON THE UPU S10 CODE, USING THE ISO/IEC 18000-63 PROTOCOL, Version 1.0, Februar 2017, Seite 33ff). Damit ergibt sich der Text „DE2“. Die letzten beiden Byte sollen hier einfach als Zahl gelesen werden. Die hexadezimale Zahl B6EA wird im Dezimalraum zu 46826. Das Beispielhafte RFID-Tag würde hier also etwa eine Präfixkennung DE2 für die Bibliothek enthalten, sowie eine fortlaufende Mediennummer. Würden wir vereinbaren, auch URN40 für die letzten zwei Byte des Speichers zu nutzen, so hätten wir nur die Möglichkeit, Zahlen von 000 bis 999 (bzw. dann auch dreistelligen Text) zu encodieren. Daher die wechselnde Encodierung.</p>
@@ -507,7 +529,7 @@ Info
 </section>
 <section id="sicherheit-und-datenschutz" class="level4">
 <h4 class="anchored" data-anchor-id="sicherheit-und-datenschutz">Sicherheit und Datenschutz</h4>
-<p>RFID-Tags können auf zwei Arten manipuliert werden: Einerseits kann man mittels geeigneter Hardware (im Falle von RFID-HF genügt ein Smartphone) den Inhalt eines nicht schreibgeschützten Tags verändern. Dies betrifft sowohl das Sicherungsbit (das Gate schlägt also nicht mehr an, wenn ein so manipuliertes Medium herausgetragen wird) als auch den gesamten Tag Inhalt, so dass das Medium von der Infrastruktur der Bibliothek nicht mehr verarbeitet werden kann. Andererseits kann man die meisten UHF-Tags und manche HF-Tags mit einem einfachen Befehl zerstören, also dauerhaft und endgültig stummschalten. Beide Arten der Manipulation kann man mit einem Passwortschutz wirkungsvoll verhindern (fun-fact: die meisten in Deutschland eingesetzten HF-Systeme enthalten diesen Passwortschutz nicht, sind also nicht vor einfachsten Manipulationen geschützt).</p>
+<p>RFID-Tags können auf zwei Arten manipuliert werden: Einerseits kann man mittels geeigneter Hardware (im Falle von RFID-HF genügt ein Smartphone) den Inhalt eines nicht schreibgeschützten Tags verändern. Dies betrifft sowohl das Sicherungsbit (das Gate schlägt also nicht mehr an, wenn ein so manipuliertes Medium herausgetragen wird) als auch den gesamten Tag Inhalt, sodass das Medium von der Infrastruktur der Bibliothek nicht mehr verarbeitet werden kann. Andererseits kann man die meisten UHF-Tags und manche HF-Tags mit einem einfachen Befehl zerstören, also dauerhaft und endgültig stummschalten. Beide Arten der Manipulation kann man mit einem Passwortschutz wirkungsvoll verhindern (fun-fact: die meisten in Deutschland eingesetzten HF-Systeme enthalten diesen Passwortschutz nicht, sind also nicht vor einfachsten Manipulationen geschützt).</p>
 <p>Bei der Einführung von RFID werden häufig Diskussionen zum Thema Datenschutz geführt. Wenn allerdings die Tags lediglich mit einer nur intern bekannten ID beschrieben werden, also einer ID, die nicht öffentlich im Katalog des BMS einsehbar ist, besteht diese Gefahr nicht. Selbst wenn jemand Medien im Rucksack eine*r Nutzer*in scannen würde (was technisch nicht unaufwändig ist), könnte man daraus keine Rückschlüsse auf das betreffende Medium schließen.</p>
 </section>
 <section id="anbindung-von-rfid-infrastruktur-an-bms" class="level4">
@@ -563,7 +585,7 @@ Info
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/internet-nutzungshinweise.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Internet-Nutzungshinweise in den Städtischen Bibliotheken Leipzig</figcaption>
+<figcaption>Internet-Nutzungshinweise in den Städtischen Bibliotheken Leipzig</figcaption>
 </figure>
 </div>
 <p>Als Anbieter von öffentlichem WLAN sollten Bibliotheken auf Gefahren und mögliche Sicherheitsvorkehrungen hinweisen. Bei der Nutzung von öffentlichem WLAN muss beachtet werden, dass die Verbindungen in der Regel nicht verschlüsselt sind und somit alle, die sich im gleichen Netzwerk befinden, potenziell die übertragenen Daten mitlesen können. Zur Minimierung des Risikos sollten Webseiten möglichst nur verschlüsselt per HTTPS aufgerufen werden und Datei- und Verzeichnisfreigaben deaktiviert sein, um zu verhindern, dass andere Teilnehmer im Netzwerk auf eigene Dateien zugreifen können.</p>
@@ -646,7 +668,7 @@ Info
 </div>
 <section id="mobiles-arbeiten" class="level3">
 <h3 class="anchored" data-anchor-id="mobiles-arbeiten">Mobiles Arbeiten</h3>
-<p>Für mobiles Arbeiten müssen Endgeräte transportabel sein (Notebook, Tablet…) und zum anderen müssen die Dienste, die für das Arbeiten notwendig sind, vom jeweiligen Standort aus erreichbar sein (siehe <a href="#vpn">VPN</a>). Für dauerhaftes Arbeiten von anderer Stelle als dem Büro (Homeoffice) ist aus Ergonomiegründen ein fester Arbeitsplatz mit Tastatur, Maus, Bildschirm und ggf. Anschlussmöglichkeit für mobile Geräte („Dock“) vorzuziehen oder vorgeschrieben.</p>
+<p>Für mobiles Arbeiten müssen Endgeräte transportabel sein (Notebook, Tablet …) und zum anderen müssen die Dienste, die für das Arbeiten notwendig sind, vom jeweiligen Standort aus erreichbar sein (siehe <a href="#vpn">VPN</a>). Für dauerhaftes Arbeiten von anderer Stelle als dem Büro (Homeoffice) ist aus Ergonomiegründen ein fester Arbeitsplatz mit Tastatur, Maus, Bildschirm und ggf. Anschlussmöglichkeit für mobile Geräte („Dock“) vorzuziehen oder vorgeschrieben.</p>
 <p>Der Begriff <em>bring your own device</em> (BYOD) bezeichnet die Nutzung von privaten Endgeräten in der Infrastruktur des Arbeitgebers. Dies ist allerdings mit einigen Herausforderungen verbunden. So kann nicht zentral sichergestellt werden, dass das Endgerät frei von Schadsoftware ist. Auch die Sperrung des Gerätes aus der Ferne ist nicht möglich (auf eigenen Geräten des Arbeitgebers kann eine solche Software installiert werden, die im Falle eines Diebstahls aktiviert werden kann). Letztendlich liegt also die Verantwortung dafür, ob dienstliche Daten über das private Gerät in falsche Hände gelangen, beim Arbeitnehmer.</p>
 </section>
 <section id="vpn" class="level3">
@@ -678,7 +700,7 @@ Info
 <p>Die technische Infrastruktur bildet die Grundlage für die Dienste einer Bibliothek. Während sich die grundlegenden Dienste für Mitarbeiter*innen nicht wesentlich von anderen Einrichtungen unterscheiden, sind viele Dienste für Nutzer*innen an die Verwaltung physischer Medien gekoppelt.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-freyberg_smart_2019" class="csl-entry" role="listitem">
 Freyberg, Linda, und Sabine Wolf, Hrsg. 2019. <em>Smart Libraries: Konzepte, Methoden und Strategien</em>. b.i.t.online Innovativ 76. Wiesbaden: b.i.t. Verlag.
 </div>
@@ -803,10 +825,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -816,8 +852,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -830,6 +875,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -873,6 +1037,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -898,6 +1063,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -955,30 +1146,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
+      <a href="./index.html" class="pagination-link  aria-label=" einleitung"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Einleitung</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./management.html" class="pagination-link">
+      <a href="./management.html" class="pagination-link" aria-label="<span class='chapter-number'>2</span>&nbsp; <span class='chapter-title'>IT-Management</span>">
         <span class="nav-page-text"><span class="chapter-title">IT-Management</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -989,20 +1166,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/infrastruktur.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/infrastruktur.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
@@ -1011,12 +1194,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org"><img src="quarto-badge.svg" class="img-fluid"></a>
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

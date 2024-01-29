@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,6 +25,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -68,7 +69,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -77,6 +84,7 @@ div.csl-indent {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
@@ -87,6 +95,33 @@ div.csl-indent {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -96,12 +131,12 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./management.html"><span class="chapter-title">IT-Management</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./management.html"><span class="chapter-title">IT-Management</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -111,7 +146,7 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -119,8 +154,8 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" rel="" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
@@ -221,7 +256,7 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -261,7 +296,7 @@ div.csl-indent {
   </ul></li>
   <li><a href="#zusammenfassung-und-ausblick" id="toc-zusammenfassung-und-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/management.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/management.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/management.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/management.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -270,7 +305,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">IT-Management</span></h1>
+<h1 class="title"><span id="management" class="quarto-section-identifier"><span class="chapter-title">IT-Management</span></span></h1>
 </div>
 
 
@@ -283,7 +318,9 @@ div.csl-indent {
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -304,12 +341,16 @@ Zusammenfassung
 </section>
 <section id="it-lebenszyklus" class="level2">
 <h2 class="anchored" data-anchor-id="it-lebenszyklus">Lebenszyklen von IT-Systemen</h2>
-<p>Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer Einführung beginnt und irgendwann mit ihrer Abschaltung endet (<a href="#fig-it-zyklus">Abbildung&nbsp;<span>2.1</span></a>). Die wesentlichen Phasen im klassischen Lebenszyklus eines IT-Systems werden im Folgenden näher betrachtet. Darüber hinaus wird erläutert wie Änderungen an IT-Systemen in Institutionen im Rahmen des <a href="#change-management">Change Management</a> begleitet werden sollten.</p>
+<p>Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer Einführung beginnt und irgendwann mit ihrer Abschaltung endet (<a href="#fig-it-zyklus" class="quarto-xref">Abbildung&nbsp;<span>Softwareentwicklungs-Lebenszyklus</span></a>). Die wesentlichen Phasen im klassischen Lebenszyklus eines IT-Systems werden im Folgenden näher betrachtet. Darüber hinaus wird erläutert wie Änderungen an IT-Systemen in Institutionen im Rahmen des <a href="#change-management">Change Management</a> begleitet werden sollten.</p>
 <p>Die konkrete Abfolge vor allem der ersten Phasen kann je nach der angewendeten Projektmanagement-Methode (agil vs.&nbsp;klassisch) variieren. Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des Fokus dieses Handbuchs.</p>
-<div id="fig-it-zyklus" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/sdlc.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;2.1: Softwareentwicklungs-Lebenszyklus</figcaption>
+<div id="fig-it-zyklus" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-it-zyklus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/sdlc.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-it-zyklus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.1: Softwareentwicklungs-Lebenszyklus
+</figcaption>
 </figure>
 </div>
 <section id="planung-und-analyse" class="level3">
@@ -339,7 +380,7 @@ Info
 <h3 class="anchored" data-anchor-id="implementierung">Implementierung</h3>
 <p>Aufbauend auf einem gemeinsamen Verständnis der Anforderungen überführen Entwickler*innen Prototypen in lauffähigen Code. Wird im Rahmen des Projekts ein bestehendes System implementiert, werden die Prototypen zunächst in ein Testsystem und in der Folge in das produktive System überführt.</p>
 <p>In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit den gewünschten Features, während nutzer*innenorientierte Vorgehensmodelle (siehe Kapitel <a href="anforderungen.html">Anforderungsanalyse</a>) hier auf einen iterativen Prozess setzen, welcher Produktiterationen häufiger bereitstellt und evaluiert.</p>
-<p>Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen. Unabdingbar ist der Einsatz eines Versionskontrollsystems, ein Issue-Tracker und möglichst automatische Tests und Deployment (kontinuierliche Integration), so dass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder Produktiv-Instanz der installierten Software führen.</p>
+<p>Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen. Unabdingbar ist der Einsatz eines Versionskontrollsystems, ein Issue-Tracker und möglichst automatische Tests und Deployment (kontinuierliche Integration), sodass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder Produktiv-Instanz der installierten Software führen.</p>
 </section>
 <section id="test-und-integration" class="level3">
 <h3 class="anchored" data-anchor-id="test-und-integration">Test und Integration</h3>
@@ -361,11 +402,15 @@ Beispiel
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><a href="#fig-verweildauer">Abbildung&nbsp;<span>2.2</span></a> illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses Textes erst teilweise abgelöst wurden.</p>
-<div id="fig-verweildauer" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/sw_lifespan.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;2.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)</figcaption>
+<p><a href="#fig-verweildauer" class="quarto-xref">Abbildung&nbsp;<span>Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)</span></a> illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses Textes erst teilweise abgelöst wurden.</p>
+<div id="fig-verweildauer" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-verweildauer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/sw_lifespan.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-verweildauer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)
+</figcaption>
 </figure>
 </div>
 </div>
@@ -448,13 +493,17 @@ Beispiel
 <section id="software-abhängigkeiten" class="level3">
 <h3 class="anchored" data-anchor-id="software-abhängigkeiten">Software-Abhängigkeiten</h3>
 <p>Sowohl der Betrieb von proprietärer als auch von Open-Source-Software ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten Schichtmodells des Betriebs eines IT-Systems illustrieren:</p>
-<div id="fig-schichtmodell" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="media/schichten.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Abbildung&nbsp;2.3: Schichtmodell-Bild (Platzhalter)</figcaption>
+<div id="fig-schichtmodell" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-schichtmodell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/schichten.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-schichtmodell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;2.3: Schichtmodell-Bild (Platzhalter)
+</figcaption>
 </figure>
 </div>
-<p>Aus <a href="#fig-schichtmodell">Abbildung&nbsp;<span>2.3</span></a> wird deutlich, dass moderne Software-Systeme zum Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz aus, so ist es unter Umständen möglich, die darüber liegenden Schichten auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht garantiert.</p>
+<p>Aus <a href="#fig-schichtmodell" class="quarto-xref">Abbildung&nbsp;<span>Schichtmodell-Bild (Platzhalter)</span></a> wird deutlich, dass moderne Software-Systeme zum Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz aus, so ist es unter Umständen möglich, die darüber liegenden Schichten auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht garantiert.</p>
 <p>Das Risiko erhöht sich, wenn im Rahmen eines Wartungsvertrags durch den Hersteller festgelegt wurde, dass zum Beispiel nur bestimmte Kombinationen aus Betriebssystem und weiterer Komponenten zugelassen sind. In diesem Fall kann ein IT-System aus der Wartung fallen, obwohl es vorerst betreibbar bleibt. Mit dem Ausfall der Wartung entfallen auch Software-Updates etc. Damit ist der mittel- bis langfristige Weiterbetrieb des Systems ohne Gefährdung der Betriebssicherheit aller IT-Systeme der Organisation nicht möglich.</p>
 </section>
 <section id="rechtliche-rahmenbedingungen" class="level3">
@@ -578,7 +627,7 @@ Beispiel
 </ul>
 <p>Die wichtigste Rolle bei der Qualifizierung für die Aufgaben im Bereich Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle Weiterbildungsformen sind</p>
 <ul>
-<li><p>Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS, …</p></li>
+<li><p>Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS …</p></li>
 <li><p>Library Carpentries</p></li>
 <li><p>Mailinglisten, Foren und andere Kommunikationskanäle</p></li>
 <li><p>persönliche Kontakte, Gruppen wie UX Roundtable</p></li>
@@ -599,7 +648,7 @@ Beispiel
 <p>Auch nach Auswahl eines Systems ist eine permanente Beobachtung des <a href="#lebenszyklen-von-it-systemen">Lebenszyklus</a> erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende <a href="#aus--und-weiterbildung">Fortbildungen oder Schulungen</a>. Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
 <div id="ref-gesetzliche_bildschirm-_2019" class="csl-entry" role="listitem">
 Gesetzliche, Deutsche, und Unfallversicherung e.V. (DGUV). 2019. <span>„Bildschirm- und Büroarbeitsplätze: Leitfaden für die Gestaltung“</span>. <a href="https://publikationen.dguv.de/widgets/pdf/download/article/409">https://publikationen.dguv.de/widgets/pdf/download/article/409</a>.
 </div>
@@ -712,10 +761,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -725,8 +788,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -739,6 +811,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -782,6 +973,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -807,6 +999,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -864,30 +1082,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./infrastruktur.html" class="pagination-link">
+      <a href="./infrastruktur.html" class="pagination-link  aria-label=" &lt;span="" infrastruktur&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Technische Infrastruktur</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./anforderungen.html" class="pagination-link">
+      <a href="./anforderungen.html" class="pagination-link" aria-label="<span class='chapter-number'>3</span>&nbsp; <span class='chapter-title'>Anforderungsanalyse</span>">
         <span class="nav-page-text"><span class="chapter-title">Anforderungsanalyse</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -898,20 +1102,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/management.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/management.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
@@ -920,12 +1130,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org"><img src="quarto-badge.svg" class="img-fluid"></a>
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
@@ -75,12 +82,12 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./kommunikation.html"><span class="chapter-title">Kommunikation</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./kommunikation.html"><span class="chapter-title">Kommunikation</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -90,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -98,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" rel="" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
@@ -200,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -242,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#social-intranet" id="toc-social-intranet" class="nav-link" data-scroll-target="#social-intranet">Social Intranet</a></li>
   <li><a href="#zusammenfassung-und-ausblick" id="toc-zusammenfassung-und-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-und-ausblick">Zusammenfassung und Ausblick</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/kommunikation.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/kommunikation.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/kommunikation.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/kommunikation.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -251,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Kommunikation</span></h1>
+<h1 class="title"><span id="kommunikation" class="quarto-section-identifier"><span class="chapter-title">Kommunikation</span></span></h1>
 </div>
 
 
@@ -264,7 +271,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <div class="callout callout-style-simple callout-important">
 <div class="callout-body d-flex">
@@ -283,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/stufenmodell.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Stufenmodell von Öffentlichkeit (Stockmann, 2019)</figcaption>
+<figcaption>Stufenmodell von Öffentlichkeit (Stockmann, 2019)</figcaption>
 </figure>
 </div>
 <!-- TODO
@@ -342,7 +351,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="markenbildung">Markenbildung</h3>
 <p>Auch in Bibliotheken spielt das <strong>Corporate Design</strong> eine wichtige Rolle in der Öffentlichkeitsarbeit. Ein einheitliches Corporate Design stellt sicher, dass die visuelle Identität, einschließlich des Logos, der Farben und Schriftarten, in allen gedruckten und digitalen Materialien konsistent ist. Die Einhaltung des Corporate Designs über verschiedene Kommunikationskanäle hinweg sorgt für ein kohärentes Auftreten der Bibliothek und vermittelt den Eindruck von Stabilität und Seriosität. So stärkt ein gutes Corporate Design unmittelbar das Vertrauen der Nutzenden / der Öffentlichkeit in die Bibliothek.</p>
 <p>Gepflegt werden kann ein Corporate Design anhand eines Styleguides. Dieser legt fest, wie visuelle Elemente in verschiedenen Kommunikationskanälen verwendet werden sollen, sei es in gedruckten Broschüren, auf der Website oder in sozialen Medien. Ggf. können auch sprachliche Vorgaben gemacht werden. Dies erleichtert die Erstellung von Marketingmaterialien und eine effektive Kommunikation der Bibliotheksangebote. Durch die Verwendung von vordefinierten Vorlagen und Design-Richtlinien können Bibliotheken nicht zuletzt auch die Kosten für die Gestaltung von Materialien senken und Ressourcen effizienter nutzen; das Rad muss (und sollte) nicht immer wieder neu erfunden werden.</p>
-<p>Wenn möglich sollte man Pressematerial wie Logos, standardisierte Infotexte zur Bibliothek für Journalist:innen zum Download auf Website anbieten, so dass diese schnell auf grundlegende Infos zugreifen können.</p>
+<p>Wenn möglich sollte man Pressematerial wie Logos, standardisierte Infotexte zur Bibliothek für Journalist:innen zum Download auf Website anbieten, sodass diese schnell auf grundlegende Infos zugreifen können.</p>
 <p>Auch die interne Kommunikation sollte sich entlang der Vorgaben orientieren. Dies spart zum einen Zeit, da Vorlagen genutzt werden können und übt zum anderen den Gebrauch auch für externe Kommunikation.</p>
 </section>
 <section id="redaktion" class="level3">
@@ -374,7 +383,7 @@ Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf Veranstaltungen, gib
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/jobmap.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Jobmap nach Mittelmann (2011)</figcaption>
+<figcaption>Jobmap nach Mittelmann (2011)</figcaption>
 </figure>
 </div>
 </section>
@@ -420,7 +429,7 @@ Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf Veranstaltungen, gib
 <li><p><strong>Facebook, Instagram:</strong> Inhalten in Form von Bildern/Grafiken, Texte, (Kurz-)Videos;</p></li>
 <li><p><strong>TikTok:</strong> Videoportal für kurze Videos im Hochformat</p></li>
 <li><p><strong>YouTube, Vimeo:</strong> Plattformen für die Veröffentlichung von Videos</p></li>
-<li><p><strong>LinkedIn:</strong> Längst hat sich LinkedIn von einem reinen Berufsnetzwerk für den beruflichen Einstieg oder die berufliche Weiterentwicklung/ Veränderungen hin zu einem Plattform entwickelt, auf der Inhalte geteilt und diskutiert werden. Vor allem für Themen aus Wissenschaft und Forschung eignet sich LinkedIn als Plattform. Allerdings ist hier zu beachten, dass persönliche Accounts vom Algorithmus bevorzugt behandelt werden im Gegensatz zu Unternehmensseiten, so dass über persönliche Accounts geteilte Inhalte eine deutlich höhere Reichweite erzielen.</p></li>
+<li><p><strong>LinkedIn:</strong> Längst hat sich LinkedIn von einem reinen Berufsnetzwerk für den beruflichen Einstieg oder die berufliche Weiterentwicklung/ Veränderungen hin zu einem Plattform entwickelt, auf der Inhalte geteilt und diskutiert werden. Vor allem für Themen aus Wissenschaft und Forschung eignet sich LinkedIn als Plattform. Allerdings ist hier zu beachten, dass persönliche Accounts vom Algorithmus bevorzugt behandelt werden im Gegensatz zu Unternehmensseiten, sodass über persönliche Accounts geteilte Inhalte eine deutlich höhere Reichweite erzielen.</p></li>
 </ul>
 </section>
 <section id="newsletter" class="level3">
@@ -433,7 +442,7 @@ Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf Veranstaltungen, gib
 </section>
 <section id="offene-schnittstellen" class="level3">
 <h3 class="anchored" data-anchor-id="offene-schnittstellen">Offene Schnittstellen</h3>
-<p>Offene Daten verändern Wissens- und Wissenschaftskommunikation in Bibliotheken. Dies umfasst Daten digitalisierter Werke wie auch deren ggf. offene Metadaten. Diese Daten können in neuen digitalen Publikationen und Social Media im Detail verknüpft werden – als Zitate, Referenzen, Linkkontexte im Inhalt sowie auf der Metaebene in Metadaten einer Publikation. Offene Zitationsdaten ermöglichen bibliografische Analysen und Datenvisualisierungen, die selbst als Gegenstand in der internen und externen Wissenschaftskommunkation genutzt werden können. Dabei ermöglichen offene Werkzeuge wie Wikidata gewissermaßen eine ‚Demokratisierung‘ der Metadatenproduktion und -pflege unabhängig bzw. in Ergänzung von traditionellen Bibliothekssystemen. Wikidata fungiert dabei zudem als ‚Linked Open Data‘-Knoten (Datenhub) für Identifikatoren verschiedener Datenquellen, die jeweils identische Entitäten beschreiben (GND, PPN, …).</p>
+<p>Offene Daten verändern Wissens- und Wissenschaftskommunikation in Bibliotheken. Dies umfasst Daten digitalisierter Werke wie auch deren ggf. offene Metadaten. Diese Daten können in neuen digitalen Publikationen und Social Media im Detail verknüpft werden – als Zitate, Referenzen, Linkkontexte im Inhalt sowie auf der Metaebene in Metadaten einer Publikation. Offene Zitationsdaten ermöglichen bibliografische Analysen und Datenvisualisierungen, die selbst als Gegenstand in der internen und externen Wissenschaftskommunkation genutzt werden können. Dabei ermöglichen offene Werkzeuge wie Wikidata gewissermaßen eine ‚Demokratisierung‘ der Metadatenproduktion und -pflege unabhängig bzw. in Ergänzung von traditionellen Bibliothekssystemen. Wikidata fungiert dabei zudem als ‚Linked Open Data‘-Knoten (Datenhub) für Identifikatoren verschiedener Datenquellen, die jeweils identische Entitäten beschreiben (GND, PPN …).</p>
 <p>RSS-Feeds (Rich Site Summary) sind Dateiformate für Web-Feeds. Nach dem Abonnieren werden Änderungen von Webseiten, Blogs, Foren usw. im Feed-Reader angezeigt.</p>
 </section>
 <section id="digitale-anzeigenposter" class="level3">
@@ -442,7 +451,7 @@ Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf Veranstaltungen, gib
 </section>
 <section id="wiki" class="level3">
 <h3 class="anchored" data-anchor-id="wiki">Wiki</h3>
-<p>Ein Wiki ist eine webbasierte Sammlung von Informationen, Artikeln, Beiträgen zu bestimmten Themen. Diese können von Nutzenden selbst bearbeitet werden. Es kann frei im Internet oder nur für einen festgelegten Nutzerkreis (Mitarbeitende) verfügbar sein. (Bsp: PmWiki, Confluence…)</p>
+<p>Ein Wiki ist eine webbasierte Sammlung von Informationen, Artikeln, Beiträgen zu bestimmten Themen. Diese können von Nutzenden selbst bearbeitet werden. Es kann frei im Internet oder nur für einen festgelegten Nutzerkreis (Mitarbeitende) verfügbar sein. (Bsp: PmWiki, Confluence …)</p>
 </section>
 </section>
 <section id="werkzeuge" class="level2">
@@ -452,7 +461,7 @@ Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf Veranstaltungen, gib
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/tools.svg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Quadrantenmodell von Kommunikations-Werkzeugen</figcaption>
+<figcaption>Quadrantenmodell von Kommunikations-Werkzeugen</figcaption>
 </figure>
 </div>
 <!-- Quelle bearbeitbar: https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd -->
@@ -462,26 +471,26 @@ Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf Veranstaltungen, gib
 <p>Synchrone und asynchrone Kommunikation sind zwei verschiedene Ansätze für den Informationsaustausch, die jeweils ihre eigenen Vorteile und Anwendungsgebiete haben. Bei synchroner Kommunikation tauschen die Kommunikationspartner Informationen in Echtzeit aus. Sie erlaubt sofortiges Feedback, d.h. Fragen können direkt gestellt und beantwortet werden. Es müssen allerdings beide Parteien gleichzeitig verfügbar sein. Das kann zu Ablenkungen bzw. Druck führen, da eine sofortige Reaktion erwartet wird. Bei asynchroner Kommunikation findet der Informationsaustausch zeitlich versetzt statt. Ein Teilnehmer sendet eine Nachricht, und der andere antwortet, wenn es passt. Die Kommunikationspartner sind also nicht an eine gemeinsame Zeit gebunden. Das ermöglicht eine größere Flexibilität in der Zeitplanung und eröffnet die Möglichkeit zur gründlichen Reflexion vor einer Antwort. Es ist außerdem oft weniger störend für den Arbeitsfluss. Allerdings kann asynchrone Kommunikation zu Verzögerungen und fehlendes sofortiges Feedback zu Missverständnissen führen.</p>
 <ul>
 <li><p><strong>Telefon</strong> ist das klassische Medium mit synchroner 1-zu-1 Kommunikation für schnelle Absprache; mittlerweile durch die Verbreitung von Videokonferenzen, Chat etc. in der internen Kommunikation eher in den Hintergrund geraten, in der externen Kommunikation nach wie vor ein wichtiger Kanal insbesondere für den Erstkontakt.</p></li>
-<li><p><strong>E-Mail</strong> ist ein Kommunikationsmedium, welches in den meisten Fällen vom Anbieter der IT-Infrastruktur angeboten wird. Ideal ist der Zugang per IMAP/SMTP und nicht nur über proprietäre Protokolle, so dass beliebige Clients genutzt werden können.</p>
+<li><p><strong>E-Mail</strong> ist ein Kommunikationsmedium, welches in den meisten Fällen vom Anbieter der IT-Infrastruktur angeboten wird. Ideal ist der Zugang per IMAP/SMTP und nicht nur über proprietäre Protokolle, sodass beliebige Clients genutzt werden können.</p>
 <p>E-Mail ist bis heute das klassische Kommunikationsmedium und allgegenwärtig. Ursprünglich als elektronische Variante des Briefes für die asynchrone 1:1 Kommunikation entwickelt, wird sie entgegen diesem Zweck häufig für die Gruppenkommunikation zweckentfremdet; außerdem wird sie häufig als synchron verstanden und eine sofortige Antwort erwartet. Das führt dazu, dass man meist (1) zu viele davon hat und (2) in den entscheidenden Unterhaltungen am Ende doch nicht im CC ist. Im besten Fall finden sich bessere Alternativen, die je Situation einsetzbar sind.</p></li>
 <li><p><strong>Videokonferenzsysteme</strong> dienen dem synchronen Austausch mittels Bild - und Tonübertragung. Kommerzielle Beispiele sind Microsoft Teams, Webex und Zoom. Daneben stehe freie Alternativen wie <a href="https://jitsi.org/">jitsi</a> und <a href="https://www.conf.dfn.de/">DFNconf</a> zur Verfügung. Zunehmend sind Videofunktionen auch in anderen Werkzeugen integriert.</p>
 <p>Um virtuelle Besprechungsräume so auszustatten, dass auch Menschen an Besprechungen teilnehmen können, die nicht anwesend sind, ist technische Infrastruktur erforderlich. Die Anwesenden müssen für die Anwesenden sichtbar und hörbar sein, ohne dass die Anwesenden Headsets tragen müssten. Dies erreicht man mit einer Art überdimensionalen Webcams, die automatisch auf die sprechende Person fokussieren und im Idealfall auch Störgeräusche (Echos, Rauschen, Rascheln) ausblenden. Die gängigen Systeme im knapp vierstelligen Eurobereich genügen für Konferenzen mit bis zu sechs anwesenden Personen um einen Tisch herum. Sind mehr Personen anwesend, steigt der technische Aufwand stark an, wenn man häufig hybrid arbeiten möchte und die anwesenden Personen nicht benachteiligen möchte.</p></li>
 <li><p><strong>Chat</strong> kann als synchrone und asynchrone Kommunikation 1-zu-1 und in Teams sowohl in der externen als auch in der internen Kommunikation verwendet werden:</p>
 <ul>
 <li><p>Chats können in Bibliothekswebsiten (Homepage, OPAC) ohne großen Aufwand integriert werden. Die Nutzung ist anonym oder unter Angabe von personenbezogenen Daten (z.B. E-Mail-Adresse) möglich. Chat-Anfragen werden zentral bearbeitet und können bei Bedarf weitergegeben werden. Ein Pool von Mitarbeitenden kann sich anmelden, die Anfragen werden vom System auf die Mitarbeitenden verteilt. Steht kein Mitarbeitender zur Verfügung, leitet die Software z.B. auf ein Mailformular um. Je nach Verwendung ist der Abschluss eines Vertrages zur Auftragsverarbeitung mit dem Anbieter notwendig. Chat-Systeme werden i.d.R. als <abbr title="Software as a Service, Software und Hardware bei externem Dienstleister">SaaS</abbr>-Lösung angeboten</p></li>
-<li><p>Chats zwischen Mitarbeiter*innen dienen der niedrigschwelligen Kommunikation, oft als Alternative zu Telefon und E-Mail. Gruppenchats in Abteilungen können für einfache Fragen und Absprachen genutzt werden und Menschen, die mobil arbeiten, können mit einem Chatsystem besser integriert werden. Die Nutzung von kommerziellen Systemen, die noch dazu außerhalb von Europa gehostet werden, ist aus Datenschutzgründen nur in Ausnahmefällen zulässig (WhatsApp u.a., Teams, Slack, …). Sofern die Möglichkeit besteht, ist ein selbst gehostetes, ggf. Open Source System vorzuziehen (Beispiel: RocketChat).</p></li>
+<li><p>Chats zwischen Mitarbeiter*innen dienen der niedrigschwelligen Kommunikation, oft als Alternative zu Telefon und E-Mail. Gruppenchats in Abteilungen können für einfache Fragen und Absprachen genutzt werden und Menschen, die mobil arbeiten, können mit einem Chatsystem besser integriert werden. Die Nutzung von kommerziellen Systemen, die noch dazu außerhalb von Europa gehostet werden, ist aus Datenschutzgründen nur in Ausnahmefällen zulässig (WhatsApp u.a., Teams, Slack …). Sofern die Möglichkeit besteht, ist ein selbst gehostetes, ggf. Open Source System vorzuziehen (Beispiel: RocketChat).</p></li>
 </ul>
 <p>Eine Alternative ist für Bibliotheken mit IT-Abteilung oder RZ-Unterstützung die Nutzung von Open-Source-Software wie <a href="https://mibew.org/">mibew.org</a>. <a href="https://www.rocket.chat/secure-messaging-platform">rocket.chat</a> bietet sich als selbst betriebene Alternative an. Der Chat ist häufig aber auch Bestandteil von anderen Lösungen wie bspw. Microsoft Teams oder Webex. Auch ein Forensystem wie Discourse bietet eine Chat-Komponente, sodass ernsthaft abgewogen werden sollte, ob es wirklich eine dezidierte Chat-Lösung braucht.</p></li>
 </ul>
 </section>
 <section id="contenterstellung" class="level3">
 <h3 class="anchored" data-anchor-id="contenterstellung">Contenterstellung</h3>
-<p>Unter Contenterstellung versteht man das Produzieren von Inhalten (Werbung, Informationen…) z.B. für das Internet. Mit Content wird immer eine bestimmte Zielgruppe angesprochen. Inhalte sind zu planen, zu erstellen und zu veröffentlichen.</p>
+<p>Unter Contenterstellung versteht man das Produzieren von Inhalten (Werbung, Informationen …) z.B. für das Internet. Mit Content wird immer eine bestimmte Zielgruppe angesprochen. Inhalte sind zu planen, zu erstellen und zu veröffentlichen.</p>
 <ul>
 <li><p><strong>Bild-/Grafikbearbeitung:</strong> dient der Nachbearbeitung von Bilddateien (Schärfen, Farben, Dateigröße, Belichtung, Kontraste)</p>
 <ul>
 <li>Bildbearbeitungs-Software: <em>Affinity Photo</em>, <em>Adobe Photoshop</em>, <em>Canva</em></li>
-<li>freie Bilddatenbanken: <em>Pixabay</em>, <em>CC-Search</em>…</li>
+<li>freie Bilddatenbanken: <em>Pixabay</em>, <em>CC-Search</em> …</li>
 <li>Grafikdesign: <em><a href="https://www.canva.com/de_de/">Canva</a></em></li>
 </ul></li>
 <li><p><strong>Audiobearbeitung:</strong> hilft beim Schnitt von Audiodateien und dient der Klangoptimierung mit Effekten wie Equalizer, Kompressor oder Hall</p>
@@ -499,7 +508,7 @@ Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf Veranstaltungen, gib
 </ul></li>
 </ul></li>
 <li><p><strong>Hardware</strong>: Bei der Anschaffung von Hardware für Videokonferenzen, Podcasts und Video-Tutorials in Bibliotheken ist es wichtig, Qualität und Funktionalität im Auge zu behalten. Mit der richtigen Ausrüstung können Bibliotheken professionelle Ergebnisse erzielen, die Anschaffung muss dabei nicht zwangsläufig teuer sein. Es lohnt sich immer, in eine hochauflösende externe Kamera zu investieren. Auch ein qualitativ hochwertiges Mikrofon bzw. Headset ist unerlässlich für einen überzeugenden Klang. Die in übliche Laptops integrierte Kameras und Mikrofone genügen üblicherweise nicht, um eine zumindest halbwegs professionelle Ton- und Bildqualität zu erzeugen. Sollte überhaupt kein Budget zur Verfügung stehen, ist die entsprechende Hardware in einem guten Smartphone meist besser. Hilfestellung - für nahezu jeden Budgetrahmen - erhält man etwa im Podcast-Forum <em><a href="https://sendegate.de">Sendegate</a></em> oder im <a href="https://bibtutorials.miraheze.org/wiki/Hauptseite#Technik">Wiki des Netzwerkes „Tutorials in Bibliotheken“</a></p></li>
-<li><p><strong>Umfragen/Abstimmungen</strong> können mittels Tool erstellt werden (<em>SurveyMonkey</em>, <em>Limesurvey</em>, <em>Mentimeter</em>, <em>Lamapoll</em>…)</p></li>
+<li><p><strong>Umfragen/Abstimmungen</strong> können mittels Tool erstellt werden (<em>SurveyMonkey</em>, <em>Limesurvey</em>, <em>Mentimeter</em>, <em>Lamapoll</em> …)</p></li>
 <li><p><strong>URL-Shortener:</strong> verkürzt lange Internetadressen und gibt sie in verkürzter Fassung über einen Drittanbieter wieder: Bit.ly, Goo.gl, Yourls, t1p.de</p></li>
 </ul>
 <!-- TODO: nicht zu empfehlen! -->
@@ -678,10 +687,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -691,8 +714,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -705,6 +737,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -748,6 +899,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -773,6 +925,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -830,30 +1008,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./forschungsnahe-dienste.html" class="pagination-link">
+      <a href="./forschungsnahe-dienste.html" class="pagination-link  aria-label=" &lt;span="" dienste&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Forschungsnahe Dienste</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./literatur.html" class="pagination-link">
+      <a href="./literatur.html" class="pagination-link" aria-label="<span class='chapter-number'>11</span>&nbsp; <span class='chapter-title'>Literaturverzeichnis</span>">
         <span class="nav-page-text"><span class="chapter-title">Literaturverzeichnis</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -864,20 +1028,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/kommunikation.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/kommunikation.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
@@ -886,12 +1056,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org"><img src="quarto-badge.svg" class="img-fluid"></a>
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 

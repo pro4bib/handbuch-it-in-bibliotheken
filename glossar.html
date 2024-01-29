@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
@@ -75,12 +82,12 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./glossar.html">Anhang</a></li><li class="breadcrumb-item"><a href="./glossar.html"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Abkürzungsverzeichnis</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./glossar.html">Anhang</a></li><li class="breadcrumb-item"><a href="./glossar.html"><span class="chapter-title">Abkürzungsverzeichnis</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -90,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
@@ -98,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Handbuch IT in Bibliotheken</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-    <a href="./Handbuch-IT-in-Bibliotheken.docx" rel="" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
 </div>
     </div>
       </div>
@@ -200,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -210,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 <script>chapters={"einleitung":"https://docs.google.com/document/d/1UVQ31DIL_if5dU5PHUCLDJ4EeltrbZMe/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","management":"https://docs.google.com/document/d/1u-2li4kiMG13cYwiXgJ8ZCfA7JZu3gQB/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","anforderungen":"https://docs.google.com/document/d/1-ulLfARosY4Vk2ZVMuTv6F1Ru5ne76om/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","infrastruktur":"https://docs.google.com/document/d/1e-THCiAVxPdYtEiV2haztqsGf3k0x_PO/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","bibliotheksmanagementsysteme":"https://docs.google.com/document/d/1hi3Zf7rmLrYSXB2XdEv_PCl4HrySdQqn/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","discovery":"https://docs.google.com/document/d/1P1FHgf1wNgER0mjSFMnlGWLo0Is6J0te/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","metadaten":"https://docs.google.com/document/d/1yM0PULt_6MMrE3fDCrzg20uIw_oni9kT/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","mitarbeit":"https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","kommunikation":"https://docs.google.com/document/d/1r6m1l6gkw6T4qS-sI1lvD6idf2ZBWcRK/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","digitalisierung":"https://docs.google.com/document/d/1_DIqvtejlagiG0zvtpOX_Wz5gd4Q41FW/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","sicherheit":"https://docs.google.com/document/d/1yyFOLw83UyDvE6-9kXfVxVaxR3qriaVV/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","forschungsnahe-dienste":"https://docs.google.com/document/d/1TImCiRVNEZTNzGbRVpYRFF2GBzrZyYv7/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true"}
 </script>
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./glossar.html">Anhang</a></li><li class="breadcrumb-item"><a href="./glossar.html"><span class="chapter-title">Abkürzungsverzeichnis</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Anhang A — Abkürzungsverzeichnis</h1>
 </div>
@@ -225,90 +232,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<dl>
-<dt><a href="https://de.wikipedia.org/wiki/Programmierschnittstelle"><span>API</span></a></dt>
-<dd>
-Application Programming Interface, Programmierschnittstelle
-</dd>
-<dt><a href="https://format.gbv.de/schema/avram/specification"><span>Avram</span></a></dt>
-<dd>
-Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+
-</dd>
-<dt><span>BMS</span></dt>
-<dd>
-Bibliotheksmanagementsystem, gebräuchlich auch als LMS (Library Management System)
-</dd>
-<dt><a href="https://www.projectcounter.org/"><span>COUNTER</span></a></dt>
-<dd>
-Counting Online Usage of NeTworked Electronic Resources
-</dd>
-<dt><a href="https://de.wikipedia.org/wiki/EDIFACT"><span>EDIFACT</span></a></dt>
-<dd>
-Electronic Data Interchange for Administration, Commerce and Transport
-</dd>
-<dt><a href="https://en.wikipedia.org/wiki/Electronic_resource_management"><span>ERM</span></a></dt>
-<dd>
-Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen
-</dd>
-<dt><a href="https://de.wikipedia.org/wiki/Enterprise-Resource-Planning"><span>ERP</span></a></dt>
-<dd>
-Enterprise-Ressource-Planning, Ressourcen wie z.B. Finanzen unternehmerisch überwachen und planen
-</dd>
-<dt><span>FID</span></dt>
-<dd>
-Fachinformationsdienst
-</dd>
-<dt><a href="https://www.folio-bib.org/"><span>FOLIO</span></a></dt>
-<dd>
-Open-Source Bibliotheksmanagementsystem
-</dd>
-<dt><a href="https://gokb.org/"><span>GOKb</span></a></dt>
-<dd>
-Global Open Knowledgebase, Freie Datenbank zu E-Ressourcen, insbesondere für ERM
-</dd>
-<dt><span>ID</span></dt>
-<dd>
-Eindeutige Referenz auf einen Datensatz (Identifikator)
-</dd>
-<dt><a href="https://en.wikipedia.org/wiki/Identity_management"><span>IDM</span></a></dt>
-<dd>
-Identity Management, das Speichern von Metadaten zu Personen
-</dd>
-<dt><a href="https://www.niso.org/standards-committees/kbart"><span>KBART</span></a></dt>
-<dd>
-Knowledgebases and related tools, Datenformat zum Transfer von Metadaten
-</dd>
-<dt><a href="https://de.wikipedia.org/wiki/Machine-Readable_Cataloging"><span>MARC</span></a></dt>
-<dd>
-MAchine-Readable Cataloging, ältestes und noch immer wichtigstes bibliothekarisches Austauschformat
-</dd>
-<dt><a href="https://de.wikipedia.org/wiki/Texterkennung"><span>OCR</span></a></dt>
-<dd>
-Automatische Erkennung von Texten in Bildern (Optical Character Recognition)
-</dd>
-<dt><a href="https://de.wikipedia.org/wiki/OPAC"><span>OPAC</span></a></dt>
-<dd>
-Online Public Access Catalogue, Katalog einer Bibliothek
-</dd>
-<dt><a href="https://en.wikipedia.org/wiki/Standard_Interchange_Protocol"><span>SIP2</span></a></dt>
-<dd>
-Protokoll zur Anbindung von Selbstbedienungsautomaten an Bibliothekssysteme
-</dd>
-<dt><a href="https://de.wikipedia.org/wiki/Software_as_a_Service"><span>SaaS</span></a></dt>
-<dd>
-Software as a Service, Software und Hardware bei externem Dienstleister
-</dd>
-<dt><a href="https://www.w3.org/WAI/standards-guidelines/wcag/"><span>WCAG</span></a></dt>
-<dd>
-Web Content Accessibilty Guidelines
-</dd>
-<dt><span>Z39.50</span></dt>
-<dd>
-Protokoll zur Abfrage von bibliografischen Daten
-</dd>
-</dl>
+
+{{&lt; glossary &gt;}}
 
 
 
@@ -415,10 +343,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -428,8 +370,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -442,6 +393,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -485,6 +555,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -510,6 +581,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -567,30 +664,16 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // default icon
-          link.classList.add("external");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./literatur.html" class="pagination-link">
+      <a href="./literatur.html" class="pagination-link  aria-label=" &lt;span="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Literaturverzeichnis</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./abbildungen.html" class="pagination-link">
+      <a href="./abbildungen.html" class="pagination-link" aria-label="<span class='chapter-number'>B</span>&nbsp; <span class='chapter-title'>Abbildungsverzeichnis</span>">
         <span class="nav-page-text"><span class="chapter-title">Abbildungsverzeichnis</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -601,20 +684,26 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">CC BY 3.0 DE</a>
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/glossar.md" class="toc-action">Quellcode anzeigen</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/glossar.md" class="toc-action">Seite editieren</a></p><p><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action">Problem melden</a></p></div></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/glossar.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/glossar.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/datenschutz">Datenschutz</a>
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.gbv.de/impressum">hosted by VZG</a>
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
   </li>  
     <li class="nav-item compact">
     <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
@@ -623,12 +712,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://quarto.org"><img src="quarto-badge.svg" class="img-fluid"></a>
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
   </li>  
 </ul>
     </div>
   </div>
 </footer>
+
 
 
 
