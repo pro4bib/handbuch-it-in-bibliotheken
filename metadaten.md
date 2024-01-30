@@ -49,8 +49,9 @@ und [Identifikatoren](#identifikatoren). Wo genau jeweils die Grenze zwischen
 Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher
 Kodierung Daten betrachtet und verarbeitet werden (siehe @tbl-daten-ebenen):
 
-  Datenebene     Bedeutung                     Kodierung
+  Struktur       Bedeutung                     Kodierung
   -------------- ----------------------------- -----------------------------------
+  `2024-02-24`   Der 24. Februar 2024          ISO 8601
   `1100001`      Die Zahl 97 (64+32+1)         Byte als Zahl
   `97`           Der Buchstabe "a"             ASCII oder Unicode
   `a`            Unterfeld für Haupttitel      Feld `021A` im PICA+ K10plus-Format
@@ -58,7 +59,7 @@ Kodierung Daten betrachtet und verarbeitet werden (siehe @tbl-daten-ebenen):
 
 : Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen {#tbl-daten-ebenen}
 
-Ein Großteil der [Datenverarbeitung](#datenverarbeitung) besteht darin,
+Ein Großteil der [Datenverarbeitung](#datenverarbeitungsprozess-in-bibliotheken) besteht darin,
 Daten, zum Beispiel im Rahmen von [ETL-Prozessen](#etl-prozess), von einer
 Kodierung in eine andere Kodierung zu überführen, um sie anschließend leichter
 interpretieren zu können. Bei der Konvertierung von Daten von einem in ein
@@ -80,14 +81,14 @@ Idealfall entsprechen Daten einem klar definierten Datenformat.
 
 Mit dem **Resource Description Framework (RDF)** kodierte Daten werden
 auch als "semantisch" bezeichnet. Die Kodierung erfolgt dabei nicht
-mit Feldern oder Tabellen sondern in Form von so genannten RDF-Tripeln
+mit Feldern oder Tabellen, sondern in Form von so genannten RDF-Tripeln
 aus Subjekt, Prädikat und Objekt. Durch Verwendung gemeinsamer
 [Identifikatoren](#identifikatoren) in mehreren Tripeln entstehen
 [Wissensgraphen](#datenmodelle-und-ontologien), die in speziellen
 Datenbanken (*Triplestores*) gespeichert und abgefragt werden können.
 
-Die Bedeutung von RDF-Daten ergibt sich allerdings wie bei allen
-Kodierungen erst aus der Dokumentation von Datenelementen und ihrer
+Die Bedeutung von RDF-Daten ergibt sich allerdings, wie bei allen
+Kodierungen, erst aus der Dokumentation von Datenelementen und ihrer
 Interpretation in praktischen Anwendungen.
 :::
 
@@ -189,18 +190,15 @@ Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
 die jeweilige Erfassungspraxis.
 
 ### Identifikatoren
-Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs wie
-Nummern, Codes ...) zum Verweis auf externe Objekte oder an anderer Stelle
-verwaltete Informationen. Identifikatoren ermöglichen die eindeutige
-Referenzierung gleicher Dinge in unterschiedlichen Kontexten, sodass
-Daten aus verschiedenen Quellen miteinander abgeglichen und kombiniert
-werden können.
+Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs). Identifikatoren sind 
+Namen, Nummern oder Codes, die eine eindeutige Referenzierung gleicher Dinge in unterschiedlichen Kontexten ermöglichen. Daten aus unterschiedlichen Quellen können miteinander
+abgeglichen und kombiniert werden, wenn sie die gleichen Identifikatoren verwenden.
 
 Neben eher intern genutzten Datensatz-Identifikatoren (z.B. die *PPN*
 des Bibliothekssystems PICA oder die ZDB-ID der Zeitschriftendatenbank)
 sind vor allem international standardisierte Identifikatoren von
 Bedeutung. Beispiele für solche Identifier-Systeme mit Relevanz für
-bibliothekarischer Daten sind die nachfolgenden:
+bibliothekarische Daten sind die nachfolgenden:
 
 - Die *International Standard Book Number* (**ISBN**) wird von
   Verlagen für Bücher vergeben. Seit 2007 ist die 13-stellige ISBN
@@ -236,26 +234,25 @@ Beispielsweise werden ISIL für Bibliotheken in Deutschland beginnend mit dem
 Präfix "DE-" durch die [ISIL-Agentur an der Staatsbibliothek zu
 Berlin](https://sigel.staatsbibliothek-berlin.de/) verwaltet.
 
-Völlig dezentrale Identifikatoren gibt es zur Identifizierung von digitalen
-Objekten nur in Form von Prüfsummen, die sich automatisch aus vorhandenen Daten
-berechnen lassen (SHA-Summe, IPFS-Adresse, Prüfziffer ...).
+Im Gegensatz dazu gibt es zur Identifizierung von digitalen Objekten auch
+dezentrale Identifikatoren in Form von Prüfsummen, die sich automatisch aus den
+vorhandenen Daten berechnen lassen (SHA-Summe, IPFS-Adresse, Prüfziffer ...).
 
 ### Normdaten
 
 Einfache kontrollierte Vokabulare bestehen aus normierten Listen von
-eindeutigen Benennungen – beispielsweise könnte in einem
-Gemüse-Vokabular festgelegt sein, dass immer "Karotte" statt "Möhre"
-verwendet werden muss. Wird jeder Eintrag mit einem künstlichen
-Identifikator versehen, muss die Benennung selbst nicht eindeutig sein.
-Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch
-als *Normdatei* bezeichnet. Ihre Datensätze dienen als *Normdaten* der
-eindeutigen Identifizierung von Personen, Organisationen, geographischen
-oder administrativen Einheiten, Themen oder anderen Entitäten an
-verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem
-Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es
-weitere identifizierende Merkmale wie alternative Benennungen,
-Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen
-verschiedenen Entitäten.
+eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular
+festgelegt sein, dass immer "Karotte" statt "Möhre" verwendet werden muss. Wird
+jeder Eintrag mit einem künstlichen [Identifikator](#identifikatoren) versehen,
+muss die Benennung selbst nicht eindeutig sein.  Existiert eine Datenbank zum
+Nachschlagen dieser IDs, so wird diese auch als *Normdatei* bezeichnet. Ihre
+Datensätze dienen als *Normdaten* der eindeutigen Identifizierung von Personen,
+Organisationen, geographischen oder administrativen Einheiten, Themen oder
+anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht
+mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer
+Name. Oft gibt es weitere identifizierende Merkmale wie alternative
+Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen
+zwischen verschiedenen Entitäten.
 
 Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu
 komplexen [Ontologien und Wissensgraphen](#datenmodelle-und-ontologien). Ein
@@ -300,10 +297,10 @@ darüber hinaus spezielle Formate.
 
 Folgende Arten von Metadaten können nach ihrer Funktion unterschieden werden:
 
-- **Deskriptive** (=beschreibende) **Metadaten** zur Identifizierung und
+- **Deskriptive** (= beschreibende) **Metadaten** zur Identifizierung und
   inhaltlichen Beschreibung wie Titel, Verfasser\*in, Schlagwörter etc.
 
-- **Administrative** (=Verwaltungs-) **Metadaten** wie Angaben zu
+- **Administrative** (= Verwaltungs-)**Metadaten** wie Angaben zu
   Herkunft, Speicherung, Zugriffsrechten, Verwaltung etc.
 
 - **Strukturelle Metadaten** über den Aufbau von Dokumenten wie die
@@ -327,7 +324,7 @@ Formats sind historisch bedingt, eine Alternative konnte sich bislang
 nicht durchsetzen.
 
 **PICA** ist das von MARC inspirierte Datenformat der Katalogisierungssysteme
-CBS und LBS [@vos_einfuhrung_2022]. Das wichtigste Anwendungsprofil ist das
+*CBS* und *LBS* [@vos_einfuhrung_2022]. Das wichtigste Anwendungsprofil ist das
 K10plus-Format des BSZ/GBV.
 
 **MAB** und **allegro** sind ebenfalls an MARC angelehnte, feldbasierte Formate
@@ -339,13 +336,13 @@ werden.
 **METS** und **MODS** sind zwei zusammen im Bereich [Digitalisierung](digitalisierung.md)
   eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische
   Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung
-  von Objekten wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.
+  von Objekten, wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.
 
 *[Encoded Archival Description](https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182)* (**EAD**) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.
 
 **LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
 
-**DataCite** ist ein bibliographisches Datenformat insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
+**DataCite** ist ein bibliographisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
 
 ### Datenmodelle und Ontologien
 
@@ -354,7 +351,7 @@ werden.
 
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
 in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
-Datenquellen als Linked Data bis zu umfangreichen Wissensgraphen ermöglicht.
+Datenquellen von Linked Data bis hin zu umfangreichen Wissensgraphen ermöglicht.
 
 Im Gegensatz zu einfacheren Formen von [Normdaten](#normdaten) geht es bei
 Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit
@@ -457,10 +454,9 @@ verbindet, wird als **ETL-Prozess** bezeichnet. Der Prozess aus drei zentralen
 Schritten "Extract", "Transform" und "Load" stammt ursprünglich aus dem Bereich
 des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im
 Folgenden wird er am Beispiel der Integration von Metadaten in ein
-Discovery-System beschrieben. @fig-etl illustriert den generellen ETL-Prozess
-mit einigen exemplarischen Arbeitsschritten.
+Discovery-System beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
 
-![Beispiel eines ETL-Prozess](media/etl-prozess.png){#fig-etl}
+![Allgemeiner Ablauf eines ETL-Prozesses](media/etl-prozess.svg){#fig-etl}
 
 #### Extraktion
 
@@ -468,7 +464,7 @@ Ziel der **Extraktion** (Extract) ist die Auswahl und der Abzug
 relevanter Daten aus verschiedenen Datenquellen. Hierbei handelt es sich
 primär um einen technischen Vorgang, das sogenannte **Harvesting**,
 welcher automatisiert oder manuell gestartet werden kann. Der Aufwand
-und die Qualität des Harvesting können je nach Datenquelle sehr
+und die Qualität des Harvestings können je nach Datenquelle sehr
 unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien,
 Datenbanken bzw. Datenbankabzüge, [Schnittstellen](#schnittstellen)
 oder eher unstrukturierte Quellen wie Websites, die zunächst mittels
@@ -492,7 +488,7 @@ Zielsystem aktuell zu halten. Mögliche Aktualisierungsintervalle sind:
 
 Der Extraktionsvorgang ist technisch relativ einfach handhabbar, wenn
 strukturierte [Datenformate](#datenformate) und/oder
-[Schnittstellen](#schnittstellen) existieren --- die wesentlichen Aufwände
+[Schnittstellen](#schnittstellen) existieren -- die wesentlichen Aufwände
 finden sich dann im nachfolgenden Transformationsschritt. Anders sieht es aus,
 wenn beispielsweise Daten manuell eingesammelt werden müssen oder
 Screenscraping notwendig ist. Beim *Screenscraping* müssen aufwändig
@@ -546,8 +542,8 @@ und ihre Qualität zwischen Aktualisierungen ändern. Sofern die Datenübernahme
 nicht nur einmalig stattfinden soll (*Konversion*), ist die Betreuung des
 Transformationsschrittes eine Daueraufgabe.
 
-Da im Transformationsschritt regelmäßig Massendaten analysiert und modifiziert
-werden müssen, ist der Einsatz von IT-gestützten [Werkzeugen](#werkzeuge) und
+Im Transformationsschritt müssen regelmäßig Massendaten analysiert und modifiziert
+werden, daher ist der Einsatz von IT-gestützten [Werkzeugen](#werkzeuge) und
 Verfahren der [Datenanalyse](#datenanalyse) unerlässlich. Die aus der Analyse
 gewonnenen Erkenntnisse müssen wiederum kontinuierlich in die Anpassung des
 Schema-Mappings einfließen, damit der Transformationsprozess nicht ins Stocken
@@ -555,7 +551,7 @@ gerät.
 
 #### Laden
 
-Auf die Transformation folgt beim **Laden** (load) die Überführung der
+Auf die Transformation folgt beim **Laden** (Load) die Überführung der
 vereinheitlichten Daten in das Zielsystem – beispielsweise in den Suchindex
 eines Discovery-Systems. Dabei dürfen nur Datensätze in Produktivsysteme
 übernommen werden, die den Transformationsschritt erfolgreich durchlaufen
@@ -566,9 +562,9 @@ optimalerweise darauf abzielt, das Zielsystem ohne Ausfallzeiten aktuell zu
 halten. Bei Änderungen des Schemas muss deshalb besonders darauf geachtet
 werden, gleichzeitig entsprechende Anpassungen im Zielsystem vorzunehmen.
 Daneben ist es bei absehbaren Änderungen ratsam, das Schema und die
-Verarbeitung von Daten im Zielsystem von Vornherein flexibel zu gestalten.
+Verarbeitung von Daten im Zielsystem von vornherein flexibel zu gestalten.
 
-#### Umsetzung des ETL-Prozess
+#### Umsetzung des ETL-Prozesses
 
 Die Umsetzung von Datenkonvertierung und ETL-Prozessen erfolgt im
 bibliothekarischen Umfeld oft über selbst entwickelte Skripte für das
@@ -578,14 +574,14 @@ externer Expertise verfügbar gemacht werden.
 
 Es gibt einige kommerzielle ETL-Komplettlösungen mit Data-Warehouse- oder
 Business-Intelligence-Hintergrund. Angesichts der teils erheblichen
-Einstiegskosten und zur Vermeidung von *vendor-lock-in* sind für Bibliotheken
+Einstiegskosten und zur Vermeidung von *Vendor Lock-in* sind für Bibliotheken
 möglichst einfache und allgemeine [Werkzeuge zur Datenverarbeitung](#werkzeuge)
-jedoch meist die bessere Wahl. Die Vorteile etablierter ETL-Werkzeuge liegen in
+meist die bessere Wahl. Die Vorteile etablierter ETL-Werkzeuge liegen in
 Schulungsmöglichkeiten und der Verfügbarkeit externer Expertise. Mit
-*Catmandu*, *Metafacture* und *OpenRefine* gibt es mehrere Open Source-
-ETL-Frameworks, deren eingeschränkter Funktionsumfang und verbesserungswürdige 
-Usability durch Anpassungen für bibliothekarische Datenformate und Schnittstellen
-möglicherweise aufgewogen werden.
+*Catmandu*, *Metafacture* und *OpenRefine* gibt es mehrere
+Open-Source-ETL-Frameworks, deren eingeschränkter Funktionsumfang und
+verbesserungswürdige Usability durch Anpassungen für bibliothekarische
+Datenformate und Schnittstellen möglicherweise aufgewogen werden.
 
 Grundsätzlich lassen sich die kontinuierlich anfallenden Aufwände der
 Transformation und Qualitätssicherung durch ein ETL-Werkzeug nicht vermeiden,
@@ -625,8 +621,8 @@ Science*.
 
 Werkzeuge für konkrete Datenformate orientieren sich an den zugrunde liegenden
 [Strukturierungssprachen](#daten). So gibt es beispielsweise eigene Editoren
-oder Editor-Plugins für XML-Daten und JSON-Daten und entsprechende
-Kommandozeilentools wie xmlstarlet für XML und jq für JSON. Für tabellarische
+oder Editor-Plugins für XML- und JSON-Daten und entsprechende
+Kommandozeilentools wie XMLStarlet für XML und jq für JSON. Für tabellarische
 Daten eignet sich etwa eine Tabellenkalkulation oder das tabellenbasierte
 Werkzeug *OpenRefine* ([openrefine.org](https://openrefine.org/)).
 
@@ -646,7 +642,7 @@ einige speziellere Werkzeuge:
 
 Für einzelne Anwendungen und Formate gibt es einige weitere Werkzeuge und es
 kann sich lohnen, solche Werkzeuge selbst zu entwickeln und als Open Source zur
-Verfügung zu stellen. Für das PICA-Format sind solche Programme in der
+Verfügung zu stellen. Für das PICA-Format sind derartige Programme in der
 *Einführung in die Verarbeitung von PICA-Daten* [@vos_einfuhrung_2022]
 aufgeführt.
 
@@ -670,7 +666,7 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
   von Metadaten aus Repositorien. Die Daten können nach Datum und Teilmengen
   gefiltert und so in Suchmaschinen und Portalen wie
   [BASE](https://www.base-search.net/) und der
-  [Deutschen Digitale Bibliothek](https://www.deutsche-digitale-bibliothek.de/) (DDB)
+  [Deutschen Digitalen Bibliothek](https://www.deutsche-digitale-bibliothek.de/) (DDB)
   zusammengeführt werden.
 
 - Das *NISO Circulation Interchange Protocol* (**NCIP**), das 
@@ -720,7 +716,7 @@ Visualisierung von Daten zur Exploration, Kommunikation und Diskussion
 
 Die Auswertung von Daten ist nicht nur für das Qualitätsmanagement relevant
 [@vos_jakob_datenqualitat_2021], beispielsweise um im Rahmen des ETL-Prozesses
-Verteilungen und Ausreißer zu erkennen, sondern auch um aus Daten weitere
+Verteilungen und Ausreißer zu erkennen, sondern auch, um aus Daten weitere
 Erkenntnisse zu gewinnen. So können beispielsweise Ausleihzahlen nach Medien
 gruppiert für die Bestandsplanung eingesetzt werden. Voraussetzung dafür ist,
 dass Daten überhaupt vorliegen, ebenso wie Mittel und Kenntnisse zu ihrer
@@ -751,7 +747,7 @@ Aspekte menschlicher Intelligenz imitieren können. Auf Grundlage statistischer
 Verfahren lassen sich so Aufgaben automatisieren, für die bisher Personal
 notwendig gewesen wäre. Der Umfang der verarbeitbaren Daten wird lediglich
 durch die zur Verfügung stehende Rechenleistung begrenzt. Die Qualität der
-Ergebnisse hängt stark von der jeweiligen Aufgabenstellung und den eingesetzen
+Ergebnisse hängt stark von der jeweiligen Aufgabenstellung und den eingesetzten
 Verfahren ab. Im besten Fall lassen sich die Ergebnisse praktisch nicht mehr
 von menschlich erzeugten Daten unterscheiden. Beim Einsatz von KI-Technologien
 sind allerdings auch ethische Aspekte zu beachten.
@@ -762,7 +758,7 @@ KI-Anwendungen unterscheiden:
 - Verfahren zur Analyse und Anreicherung von Daten, beispielsweise die
   automatische Erschließung und Musterkennung im Rahmen der [Digitalisierung](digitalisierung.md).
 
-- Systeme die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen
+- Systeme, die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen,
   von einfachen Chatbots bis zu umfangreichen Sprachmodellen wie ChatGPT.
 
 Die zunehmende Verfügbarkeit von leistungsfähigen KI-Systemen wird in absehbarer
@@ -773,8 +769,8 @@ Auswirkungen auf die Arbeit von Bibliotheken haben.
 
 Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff
 auf Ressourcen in Bibliotheken. Daher bilden sie und ihre Verarbeitung die
-Grundlage für praktisch alle von Bibliotheken angebotene IT-Dienste. Während
-Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben wird,
+Grundlage für praktisch alle von Bibliotheken angebotenen IT-Dienste. Während
+Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben werden,
 ist davon auszugehen, dass der Einsatz semantischer Technologien (RDF) zur
-Zusammenführung heterogener Daten und von Verfahren der künstlichen Intelligenz
-zunehmen wird.
+Zusammenführung heterogener Daten und Verfahren der künstlichen Intelligenz
+zunehmen werden.

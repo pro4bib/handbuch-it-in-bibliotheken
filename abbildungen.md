@@ -11,6 +11,10 @@
   <https://doi.org/10.5281/zenodo.4388855>
   CC-BY 4.0 [Franziska Mau](https://orcid.org/0000-0001-7701-0301)
 
+- `media/etl-prozess.svg`  
+  <https://commons.wikimedia.org/wiki/File:Etl-prozess.svg>
+  Public Domain von Jakob Voß und Clemens Kynast
+
 - `media/sso-approaches.svg`
   Three aproaches to Single Sign On.
   <https://commons.wikimedia.org/wiki/File:Single_sign_on_aproaches.svg>
