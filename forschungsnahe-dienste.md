@@ -6,7 +6,7 @@ description: Dienste wie Repositorien und Forschungsdatenmanagement zur Unterst�
 
 ::: {.callout-important}
 
-Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
+Dieses Kapitel befindet sich in einer ersten öffentlichen Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
 
 :::
 
@@ -34,7 +34,7 @@ zusammengefasst, die Wissenschaftler\*innen im gesamten
 Forschungsprozess unterstützen sollen und die überwiegend im Kontext von
 digitalem Wandel und Open Science angesiedelt sind
 (<https://www.o-bib.de/bib/article/view/5718>).
-Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
+Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
 Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die
@@ -53,7 +53,7 @@ Artikelveröffentlichungsgebühren in Open-Access-Journals (APCs).
 ::: {.callout-important}
 ## Definition
 
-**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, Open Educational Resources und Open Source). Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
+**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, Open Educational Resources und Open Source. Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
 
 :::
 
@@ -70,8 +70,8 @@ verschiedenartiger Forschungsergebnisse.
 
 In Abgrenzung zur Dominanz von Großverlagen ist im Bereich der
 wissenschaftlichen Informationsinfrastrukturen darüber hinaus der
-Anspruch entstanden, Dienste - bis hin zur Ebene von Entwicklung und
-Betrieb zugehöriger IT-Infrastrukturen - durch die Communitys der
+Anspruch entstanden, Dienste -- bis hin zur Ebene von Entwicklung und
+Betrieb zugehöriger IT-Infrastrukturen -- durch die Communitys der
 Forschenden selbst zu betreiben. In der englischsprachigen
 Fachdiskussion sind dazu Begriffe wie "scholar-led publishing" oder
 "scholar-led conferences" geprägt worden, vgl. exemplarisch hierzu das

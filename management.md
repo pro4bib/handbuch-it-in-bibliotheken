@@ -7,13 +7,13 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 ::: {.callout-note}
 ## Zusammenfassung
 Dieses Kapitel beschreibt die Einführung und den [Betrieb](#betriebsmodelle)
-von IT-Systemen über den gesamten [Lebenszyklus](#lebenszyklen-von-it-systemen).
+von IT-Systemen über den gesamten [Lebenszyklus](#lebenszyklen-von-it-systemen) hinweg.
 :::
 
 ## Einleitung
 
-IT-Systeme sind selten statisch sondern folgen einem
-[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu ihrer
+IT-Systeme sind selten statisch, sondern folgen einem
+[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung ihrer Einführung bis zu ihrer
 Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme müssen mögliche
 [Risiken](#betriebssicherheit-und-risikomanagement) beachtet und [rechtliche
 Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
@@ -25,12 +25,12 @@ Weiterbildung](#aus--und-weiterbildung).
 
 ## Lebenszyklen von IT-Systemen {#it-lebenszyklus}
 
-Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
+Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus).
 Die wesentlichen Phasen im klassischen Lebenszyklus eines
 IT-Systems werden im Folgenden näher betrachtet. Darüber hinaus wird
-erläutert wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
-[Change Management](#change-management) begleitet werden sollten.
+erläutert, wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
+[Change Managements](#change-management) begleitet werden sollten.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
 angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
@@ -50,7 +50,7 @@ Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
 und während der Entwicklung [unter Einbeziehung von Nutzer\*innen](anforderungen.md)
 ermittelt und angepasst.
 
-Zur Planungs- und Analysephase gehört neben einer grundsätzlichen
+Zur Planungs- und Analysephase gehören neben einer grundsätzlichen
 Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
 Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und
 rechtlicher Rahmenbedingungen.
@@ -71,31 +71,28 @@ das System tatsächlich abdecken kann.
 
 ### Design/Prototyping
 
-Während der Design- bzw. Prototyping-Phase entwickeln Designer\*innen
-und Entwickler\*innen erste Prototypen. Ziel ist es dabei, Feedback der
-verschiedenen Stakeholder zu erhalten, um gemeinsam ein besseres
+Während der Design- bzw. Prototyping-Phase entwickeln Designer\*innen und
+Entwickler\*innen erste Prototypen des geplanten IT-Systems. Ziel ist es dabei,
+Feedback der verschiedenen Stakeholder zu erhalten, um gemeinsam ein besseres
 Verständnis der Anforderungen zu erhalten bzw. diese zu präzisieren. Das
-Kapitel [Anforderungen an Bibliotheks-IT](#anforderungen) 
-geht gesondert auf die Bedeutung dieser Einbeziehung und damit
-verbundener Methoden ein.
+Kapitel [Anforderungen an Bibliotheks-IT](#anforderungen) geht gesondert auf
+die Bedeutung dieser Einbeziehung und die damit verbundenen Methoden ein.
 
 ### Implementierung
 
 Aufbauend auf einem gemeinsamen Verständnis der Anforderungen überführen
-Entwickler\*innen Prototypen in lauffähigen Code. Wird im Rahmen des
-Projekts ein bestehendes System implementiert, werden die Prototypen
-zunächst in ein Testsystem und in der Folge in das produktive System
-überführt.
+Entwickler\*innen Prototypen in lauffähigen Code. Wird im Rahmen des Projekts
+ein bestehendes System implementiert, werden die Prototypen zunächst in eine
+Testinstanz und in der Folge in die produktive Instanz des Systems überführt.
 
-In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit den
-gewünschten Features, während nutzer\*innenorientierte Vorgehensmodelle (siehe
+In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit idealerweise schon möglichst vielen der gewünschten Features, während nutzer\*innenorientierte Vorgehensmodelle (siehe
 Kapitel [Anforderungsanalyse](#anforderungen)) hier auf einen
 iterativen Prozess setzen, welcher Produktiterationen häufiger bereitstellt und
 evaluiert.
 
 Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen
 in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen.
-Unabdingbar ist der Einsatz eines Versionskontrollsystems, ein Issue-Tracker
+Unabdingbar sind der Einsatz eines Versionskontrollsystems, ein Issue-Tracker
 und möglichst automatische Tests und Deployment (kontinuierliche Integration),
 sodass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder
 Produktiv-Instanz der installierten Software führen.
@@ -116,10 +113,10 @@ der Anforderungen geprüft.
 Die Wartungsphase folgt auf die Produktivsetzung des IT-Systems. In
 dieser Lebensphase wird das System nicht mehr grundlegend
 weiterentwickelt, es werden jedoch Fehler (Bugs) entfernt und
-Anpassungen der Funktionsweise im Sinne der Parametrisierung oder die
+Anpassungen der Funktionsweise im Sinne der Parametrisierung oder eine
 Optimierung der Programmabläufe vorgenommen.
 
-Typischerweise finden sich IT-Systeme, die grundlegende
+Typischerweise verbleiben IT-Systeme, die grundlegende
 Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
 erstellt wurden, viele Jahre in dieser Phase. 
 
