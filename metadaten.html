@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -313,7 +313,7 @@ Zusammenfassung
 <li><p>der Struktur von Daten (<strong>Syntax</strong>)</p></li>
 <li><p>und der Bedeutung von Daten (<strong>Semantik</strong>).</p></li>
 </ul>
-<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und <a href="#identifikatoren">Identifikatoren</a>. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen" class="quarto-xref">Tabelle&nbsp;<span>Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen</span></a>):</p>
+<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und <a href="#identifikatoren">Identifikatoren</a>. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen" class="quarto-xref">Tabelle&nbsp;<span>5.1</span></a>):</p>
 <div id="tbl-daten-ebenen" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <div aria-describedby="tbl-daten-ebenen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -383,7 +383,7 @@ Info
 </section>
 <section id="datenformate" class="level3">
 <h3 class="anchored" data-anchor-id="datenformate">Datenformate</h3>
-<p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis …) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16 …). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, sodass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml" class="quarto-xref">Tabelle&nbsp;<span>Einige Bestandteile des XML-Formats</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
+<p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis …) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16 …). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, sodass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml" class="quarto-xref">Tabelle&nbsp;<span>5.2</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
 <div id="tbl-xml" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <div aria-describedby="tbl-xml-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -520,7 +520,7 @@ Definition
 </div>
 <p><strong>Dublin Core</strong> bzw. das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
 <p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliographischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
-<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen (siehe <a href="#fig-bibframe" class="quarto-xref">Abbildung&nbsp;<span>Hauptbestandteile des Datenmodell BIBFRAME</span></a>).</p>
+<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen (siehe <a href="#fig-bibframe" class="quarto-xref">Abbildung&nbsp;<span>5.1</span></a>).</p>
 <p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
 <div id="fig-bibframe" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
@@ -563,7 +563,7 @@ Info
 </section>
 <section id="etl-prozess" class="level3">
 <h3 class="anchored" data-anchor-id="etl-prozess">ETL-Prozess</h3>
-<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>Allgemeiner Ablauf eines ETL-Prozesses</span></a> illustriert den generellen ETL-Prozess.</p>
+<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>5.2</span></a> illustriert den generellen ETL-Prozess.</p>
 <div id="fig-etl" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-etl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -1124,12 +1124,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./sicherheit.html" class="pagination-link  aria-label=" &lt;span="" &amp;="" datenschutz&lt;="" span&gt;"="">
+      <a href="./sicherheit.html" class="pagination-link" aria-label="Sicherheit &amp; Datenschutz">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Sicherheit &amp; Datenschutz</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link" aria-label="<span class='chapter-number'>6</span>&nbsp; <span class='chapter-title'>Bibliotheksmanagementsysteme</span>">
+      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link" aria-label="Bibliotheksmanagementsysteme">
         <span class="nav-page-text"><span class="chapter-title">Bibliotheksmanagementsysteme</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
