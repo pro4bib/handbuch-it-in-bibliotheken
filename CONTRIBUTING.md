@@ -197,7 +197,7 @@ Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
 Zur Anpassung der Konvertierung des Handbuchs mit [quarto] muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem `rsvg-convert` installiert werden (Paket `librsvg2-bin` bzw. `libsrvg`).
 
-Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile) zusammengefasst:
+Die Aufrufe sind zur Vereinfachung in [`Makefile`](Makefile) zusammengefasst:
 
 * `make preview` konvertiert das Handbuch nach HTML und ermöglicht eine Vorschau unter <http://localhost:15745/> (der Port ist die Postleitzahl von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
 
