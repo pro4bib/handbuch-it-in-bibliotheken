@@ -44,7 +44,7 @@ Fokus dieses Handbuchs.
 Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um
 individuell erstellte Software oder die Anpassung eines existierenden
 IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die
-Anforderungen des Projektes. Dieses gemeinsame Verständnis, insbesondere
+Anforderungen an das Projekt. Dieses gemeinsame Verständnis, insbesondere
 der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren
 Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
 und während der Entwicklung [unter Einbeziehung von Nutzer\*innen](anforderungen.md)
@@ -108,7 +108,7 @@ System erfolgreich produktiv in Betrieb genommen werden kann.
 Während der Tests wird korrekte Umsetzen der Anforderungen sowie die Umsetzung
 der Anforderungen geprüft.
 
-#### Wartung
+### Wartung
 
 Die Wartungsphase folgt auf die Produktivsetzung des IT-Systems. In
 dieser Lebensphase wird das System nicht mehr grundlegend
@@ -163,7 +163,7 @@ Beispiel:
     mit Spezialkenntnissen (z.B. veralteter Programmiersprachen), siehe
     dazu auch den Abschnitt [Ressourcenplanung](#ressourcenplanung)
 
-Letztlich führen all diese Punkte zur Abschaltung eines IT-Systems
+Letztlich führen fast alle diese Punkte zur Abschaltung eines IT-Systems
 aufgrund von IT-Sicherheitsproblemen, da diese Einbrüche in die Systeme
 (Hacks) begünstigen. Hinzu kommt das Risiko von Datenverlusten, entweder
 durch physischen Verlust im Falle eines Hardware-Defekts oder durch den
@@ -198,18 +198,17 @@ der Offenheit und Zusammenarbeit:
   Gefahr beim Einsatz von zu unspezifischen Tools ist, dass die Lösung dem
   eigentlichen Problem nicht gerecht wird.
 
-- Auf Interoperabilität und offene Standards achten; Vendor Lock-In vermeiden
+- Auf Interoperabilität sowie offene Standards achten und bereits mit der Einführung Exit-Strategien entwickeln, um einen Vendor Lock-in zu vermeiden.
 
 - Die angestrebten Veränderung frühzeitig und offen kommunizieren,
   Unterstützung in Form von Dokumentation, Schulungen und Support anbieten,
   Ängste nehmen (sowohl bei Kolleg\*innen als auch Gremien). Der Trend hin zu
   kollaborativen Tools sorgt für eine höhere Sichtbarkeit, das ist vielen nicht
   ganz geheuer. Oft ist es eine große Hemmschwelle, auf einmal für alle
-  sichtbar in ein Wiki oder Forum zu schreiben
+  sichtbar in ein Wiki oder Forum zu schreiben.
 
-- Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen ("alte Zöpfe
-  auch abschneiden"). Die Einführung zusätzlicher Werkzeuge sorgt sonst auch
-  oft für Unverständnis und Frust.
+- Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen (“alte Zöpfe abschneiden”). 
+  Die Einführung zusätzlicher Werkzeuge sorgt sonst auch oft für Unverständnis, Frust und eventuell sogar Mehraufwände.
 
 - Akzeptanz regelmäßig prüfen (siehe [Evaluation](#evaluation))
 
@@ -222,7 +221,7 @@ Insbesondere serverbasierte Software, wie zum Beispiel das
 verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich
 bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support.
 Die Wahl eines Betriebsmodells ist nicht nur eine betriebswirtschaftliche
-Entscheidung sondern beeinflusst auch strategisch die [Digitale Souveränität](#digitale-souveränität)
+Entscheidung, sondern beeinflusst auch strategisch die [Digitale Souveränität](#digitale-souveränität)
 der Einrichtung.
 
 ### Lokale Installation 
@@ -231,16 +230,16 @@ Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
 erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
 oder im Abo, und installierte diese auf eigenen Servern, z.B. im
 Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer
-"on-premise" Installation.
+"On-premise"-Installation.
 
 In diesem Modell kümmert sich die Einrichtung selbst um Installation und
-Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und
+Updates. Folglich erfordert dieses Modell hohen Personaleinsatz und
 kann dazu führen, dass bei einem personellen Engpass eine Software
 länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam
 wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups
 und Ausfallsicherheit selbst Gedanken machen.
 
-Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste
+Auf der anderen Seite bietet dieses Modell der Einrichtung potentiell den höchsten Grad an
 Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger
 Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig
 von äußeren Einflüssen.
@@ -250,7 +249,7 @@ von äußeren Einflüssen.
 In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw.
 Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister
 kann hierbei etwa das Rechenzentrum einer Universität oder des
-angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder
+jeweiligen Bibliotheksverbundes sein oder ganz allgemein jeder
 kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten
 erworben werden.
 
@@ -259,14 +258,14 @@ eingesetzten Hardware können an diesen Anbieter delegiert werden. Im
 Falle des Hostings durch einen Bibliotheksverbund entfallen
 möglicherweise auch Einrichtung, Installation und Upgrades. Die
 Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch
-das Hosting für mehrere Einrichtung besser skaliert.
+das Hosting für mehrere Einrichtungen besser skaliert.
 
 ### Cloud
 
 Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a
-Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim
-Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt lediglich
-eine für sie konfigurierte Installation ("Instanz"). Dies ist insbesondere bei
+Service) bezeichnet wird, liegt der technische Betrieb beim
+Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt
+eine für sie bestmöglich vorkonfigurierte Installation ("Instanz"). Dies ist insbesondere bei
 webbasierten Anwendungen die bevorzugte Betriebsart, stellt aber erhöhte
 Anforderungen an die Anbindung lokaler Endgeräte wie z.B.
 [Ausleihautomaten](#selbstverbucher-ausleihautomaten)),
@@ -276,7 +275,7 @@ werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten
 Hardware noch für die Pflege der genutzten Software zuständig.
 
 In der Praxis kann sich ein solches Betriebsmodell als komfortabel
-erweisen, da keine Personalressource für allgemeine Tätigkeiten des
+erweisen, da keine Personalressourcen für allgemeine Tätigkeiten des
 IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden.
 Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
 personalsparend serverbasierte Software einzusetzen. Eine Kostenersparnis
@@ -340,16 +339,16 @@ Neben den Problemen der Ablösungplanung gibt es weitere Risiken des
 Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt
 vorgestellt werden.
 
-### Vendor-Lock-In
+### Vendor Lock-in
 
 Ein nicht zu unterschätzendes Risiko, welches sich aus der Einführung
-eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-In.
+eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-in.
 Dieser beschreibt die Abhängigkeit von Produkten oder Dienstleistungen
-eines Anbieters durch die der gleichzeitige Einsatz von anderen
+eines Anbieters, durch die der gleichzeitige Einsatz von anderen
 Produkten oder der Wechsel zu anderen IT-Systemen erschwert wird. Durch
 den Einsatz von Systemen mit etablierten Standards, offenen
 Datenformaten und Schnittstellen sowie geeigneter Ablösungsstrategien
-kann das Risiko eines Vendor Lock-Ins verringert werden.
+kann das Risiko eines Vendor Lock-ins verringert werden.
 
 Der Begriff des Vendor Lock-ins kann noch auf den Bereich der
 Fehlerbehebung und die Wartung von Software ausgedehnt werden. Im Fall
@@ -381,7 +380,7 @@ Schichtmodells des Betriebs eines IT-Systems illustrieren:
 Aus @fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
 Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben
-zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines
+zu können, müssen die Einzelkomponenten zusammenspielen. Fällt eines
 der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz
 aus, so ist es unter Umständen möglich, die darüber liegenden Schichten
 auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht
