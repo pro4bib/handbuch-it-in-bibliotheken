@@ -31,10 +31,10 @@ auch behandelt, der Text muss aber noch überarbeitet werden!*
 
 Unter forschungsnahen Diensten werden verschiedene Bibliotheksservices
 zusammengefasst, die Wissenschaftler\*innen im gesamten
-Forschungsprozess unterstützen sollen und die überwiegend im Kontext von
+Forschungsprozess unterstützen und die überwiegend im Kontext von
 digitalem Wandel und Open Science angesiedelt sind
 (<https://www.o-bib.de/bib/article/view/5718>).
-Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
+Dazu zählen z.B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
 Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die
@@ -42,27 +42,26 @@ unter Open-Access-Bedingungen zweitveröffentlicht werden dürfen, gehören
 schon seit Jahrzehnten zum Dienstleistungsrepertoire wissenschaftlicher
 Bibliotheken. Inzwischen betreiben größere Einrichtungen zudem oft
 spezialisierte Repositorien für ein Spektrum verschiedener Objekttypen:
-Publikationen, Zeitschriften, Bücher, Open Educational Resources,
+Publikationen wie Zeitschriften, Monografien und Sammelbände, sowie Open Educational Resources (OER),
 Forschungsdaten, Forschungssoftware und mehr. Dazu gehören auch diverse
 Dienste, die übergreifend den Forschungsoutput bestimmter lokaler oder
-fachlicher Forschungscommunitys besser auffindbar oder messbar machen
-sollen, darunter Forschungsinformationssysteme und Dienstleistungen im
+fachlicher Forschungscommunities besser auffindbar oder messbar machen
+sollen. Darunter fallen Forschungsinformationssysteme und Dienstleistungen im
 Bereich von Metriken oder zur Verwaltung von
 Artikelveröffentlichungsgebühren in Open-Access-Journals (APCs).
 
 ::: {.callout-important}
 ## Definition
 
-**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, Open Educational Resources und Open Source. Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
+**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, OER und Open Source. Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
 
 :::
 
-Forschungsförderer und Ministerien erwarten in Deutschland heute von den
+Forschungsförderer und Ministerien erwarten in Deutschland mittlerweile von den
 Forschungseinrichtungen eine Transformation des Publizierens hin zu Open
 Access und Open Data. Dazu gehören themenbezogene institutionelle
-Policys, Beratungs- und Schulungsangebote sowie technische Dienste.
-Unter anderem auf der Ebene der europäischen Forschungsförderung wird
-versucht, durch Initiativen wie *[CoARA](https://coara.eu/)*
+Policies, Beratungs- und Schulungsangebote sowie technische Dienste.
+Auf der Ebene der europäischen Forschungsförderung wird u. a. versucht, durch Initiativen wie *[CoARA](https://coara.eu/)*
 die Maßstäbe der Forschungsbewertung weiterzuentwickeln - weg von
 klassisch bibliometrischen Indikatoren wie h-Index und
 Journal-Impact-Faktor hin zu einer Würdigung vielfältiger
@@ -71,28 +70,27 @@ verschiedenartiger Forschungsergebnisse.
 In Abgrenzung zur Dominanz von Großverlagen ist im Bereich der
 wissenschaftlichen Informationsinfrastrukturen darüber hinaus der
 Anspruch entstanden, Dienste -- bis hin zur Ebene von Entwicklung und
-Betrieb zugehöriger IT-Infrastrukturen -- durch die Communitys der
+Betrieb zugehöriger IT-Infrastrukturen -- durch die Communities der
 Forschenden selbst zu betreiben. In der englischsprachigen
 Fachdiskussion sind dazu Begriffe wie "scholar-led publishing" oder
 "scholar-led conferences" geprägt worden, vgl. exemplarisch hierzu das
 [Scholar-Led.Network Manifesto](https://graphite.page/scholar-led-manifesto/).
 Bibliotheken sehen sich hier als vertrauenswürdige, öffentlich
-finanzierte Dienstleister für die Wissenschaftscommunitys.
+finanzierte Dienstleister für die Wissenschaftscommunities.
 
 Der Einsatz von und die aktive Mitarbeit an Open Source-Software ist bei den
 forschungsnahen Diensten stärker als in anderen Bereichen der Bibliotheks-IT
-eine Selbstverständlichkeit. Auch die Bedeutung der gemeinschaftlichen Pflege offener Standards, Datenmodelle und Daten-Gemeingüter ist hier besonders stark ausgeprägt.
+eine Selbstverständlichkeit. Auch die Bedeutung der gemeinschaftlichen Pflege offener Standards, Datenmodelle und Daten-Gemeingüter ist hier besonders ausgeprägt.
 
 ## Publikationsdienste
 
 Die Veröffentlichung wissenschaftlicher Erkenntnisse ist ein zentraler
-Bestandteil des wissenschaftlichen Arbeitens. Solange dieser Prozess noch in
-den Geschäftsprozessen klassischer Subskriptionszeitschriften abgebildet war,
-war auch die Rolle der wissenschaftlichen Bibliotheken eher auf der Seite der
-Bereitstellung der Literatur. Mit der zunehmenden Stärkung des
-Open-Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten auch die
-wissenschaftlichen Bibliotheken stärker in die Rolle des Unterstützers und
-Ermöglichers. Die Digitalität der gesamten Prozesskette vom Schreiben bis hin
+Bestandteil des wissenschaftlichen Arbeitens. Solange sich dieser Prozess noch in den Geschäftsprozessen klassischer
+Subskriptionszeitschriften abbildete, befanden sich wissenschaftliche Bibliotheken 
+eher auf der Seite der Medienbereitstellung. Mit zunehmender Stärkung des
+Open-Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten
+wissenschaftliche Bibliotheken stärker in die Rolle des Unterstützers und
+Ermöglichers. Die Digitalität der gesamten Prozesskette vom Schreiben bis
 zur Veröffentlichung der Artikel in teilweise von den Bibliotheken getragenen
 Infrastrukturen erfordert die Einbindung unterschiedlicher IT-Werkzeuge, die im
 Folgenden näher beschrieben werden.
@@ -118,12 +116,11 @@ Publikationsdienstleisters. Dies kann einerseits die Gründung eines
 Universitätsverlages bedeuten, andererseits aber auch die Schaffung der
 benötigten Infrastruktur für wissenschaftliche Zeitschriften. Befördert
 durch die Verlagerung der Kosten weg vom Lesen hin zum Publizieren wird
-der *scholar-led*-Ansatz immer gefragter und Bibliotheken geraten in die
-Situation, Expertise in diesem Bereich aufbauen zu müssen.
+der *scholar-led*-Ansatz immer gefragter und Bibliotheken müssen Expertise in diesem Bereich aufbauen.
 
 Zur Schaffung einer technischen Infrastruktur lässt sich z. B. mit der Software
 *[Open Journal Systems (OJS)](https://ojs-de.net/ueber-ojs)* eine Plattform zur
-Verfügung stellen, die die strukturierte Veröffentlichung von
+Verfügung stellen, welche die strukturierte Veröffentlichung von
 Zeitschriften(-artikeln) ermöglicht. Parallel dazu müssen auch die
 erforderlichen Abläufe und Organisationsstrukturen angepasst werden.
 Personelle Ressourcen müssen hier ebenso bedacht werden. In erster Linie gilt
@@ -161,12 +158,12 @@ Da im Sinne der "scholar-led infrastructure" zunehmend
 Universitätsverlage gegründet werden, existieren hier auch eigene
 Software-Lösungen für die Verwaltung der Titel, Lagerbestände,
 Kund\*innen-, Adress- und Versanddaten. Häufig ist ein eigener Webshop
-mit entsprechenden Shopfunktionalitäten integriert und es gibt
+mit entsprechenden Funktionalitäten integriert und es gibt
 Schnittstellen zur Buchhaltung und Auslieferung. Für kleinere Verlage
-reicht vermutlich ein normaler Webshop aus; Spezialsoftware kann
+reicht vermutlich ein einfacher Webshop aus; Spezialsoftware kann
 verlagsspezifische Anforderungen allerdings besser abbilden. Betrieb und
 Administration der Programme gehören mit in das zugehörige
-Diensteportfolio.
+Dienstleistungsportfolio.
 
 #### Publikationsfonds-Verwaltung
 
@@ -174,7 +171,7 @@ Publikationsfonds zur Finanzierung von Open-Access-Publikationen sind an
 vielen wissenschaftlichen Bibliotheken fest verankerte Hilfsmittel, um
 die Transformation des wissenschaftlichen Publikationswesens hin zu Open
 Access zu unterstützen. Durch sie werden anfallende Article Processing
-Charges (APC) nach durch die Einrichtung vorgegebenen Kriterien
+Charges (APC) entsprechend  vorgegebener Kriterien der Einrichtung
 (mindestens anteilig) zentral gezahlt. Zum Monitoring der entstehenden
 Kosten ist häufig eine Tabellenkalkulationssoftware ausreichend. Für
 einen Vergleich verschiedener Einrichtungen und ein einheitliches
@@ -223,7 +220,7 @@ im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
 wissenschaftliche Ergebnisse etabliert, seien es [Forschungsdaten], textuelle
 Publikationen, Softwarecode oder andere Materialien (siehe @fig-informationstypen). Für die wissenschaftliche Kommunikation
-ist dabei die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
+ist die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
 sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form
 erhalten werden, das heißt nicht verändert oder gelöscht werden. Da
 Internetadressen als flüchtig gelten, werden zur Identifikation [Persistent
@@ -243,13 +240,13 @@ Repositorien Inhalte unterschiedlicher Disziplinen aufnehmen (z. B.
 [Zenodo](https://zenodo.org)). Einen Sonderfall
 fachübergreifender Repositorien bilden institutionelle Repositorien, die
 speziell für die Mitglieder der jeweiligen Institution zur Verfügung
-stehen. Einige Repositorien widmen sich zudem speziell der Sammlung
+stehen. Einige Repositorien widmen sich gezielt der Sammlung
 bestimmter Datentypen (z. B. Preprint- oder Publikationsserver,
-Forschungsdatenrepositorien, Bilddatenbanken ...). Insbesondere im
-Bereich Forschungsdaten und Open Educational Resources gibt es seitens
-der Nutzer\*innen häufig den Wunsch, dass in Repositorien auch eine
+Forschungsdatenrepositorien, Bilddatenbanken etc.). Insbesondere im
+Bereich Forschungsdaten und OER gibt es seitens
+der Nutzer\*innen häufig den Wunsch, dass in Repositorien eine
 interaktive Arbeit mit den Materialien möglich ist. Derzeit sind
-Repositorien aber in der Regel noch ausschließlich auf die sichere
+Repositorien in der Regel noch ausschließlich auf die sichere
 Speicherung und Bereitstellung der Inhalte ausgerichtet - eine
 Erweiterung um Funktionalitäten z. B. zur Visualisierung oder Analyse
 würden sie in die Nähe von virtuellen Forschungsumgebungen rücken.
@@ -270,9 +267,9 @@ Informationen im Sinne der Langzeitarchivierung spezialisieren.
 ## Definition
 
 Der Begriff **Repository** bzw. **Repositorium** wird in diesem Kapitel
-vorwiegend verwendet für Plattformen, in denen Forschungsergebnisse
+vorwiegend für Plattformen verwendet, in denen Forschungsergebnisse
 dauerhaft archiviert, beschrieben, auffindbar und zugänglich gemacht
-werden. Darüber hinaus wird der Begriff Repository aber auch für
+werden. Darüber hinaus wird der Begriff Repository auch für
 Versionsverwaltungssysteme wie Git verwendet, die vorwiegend von
 Softwareprojekten genutzt werden, um es einer geschlossenen oder offenen
 Community zu ermöglichen, transparent und konfliktfrei zur Codebasis des
@@ -299,8 +296,8 @@ Gemeinsame Bibliotheksverbund (GBV) bietet mit
 *[MyCoRe](http://www.mycore.org)* eine weitere Repositoriensoftwarelösung an.
 *OPUS* und *MyCoRe* finden bislang ausschließlich im deutschsprachigen Raum
 Anwendung, während DSpace von einer globalen Community getragen wird. Für
-Forschungsdatenrepositorien kommt zum Teil *[DSpace](http://www.dspace.org/)*,
-zum Teil die auf Forschungsdaten spezialisierte Software
+Forschungsdatenrepositorien kommen *[DSpace](http://www.dspace.org/)*
+und die auf Forschungsdaten spezialisierte Software
 *[Dataverse](https://dataverse.org)* zum Einsatz.
 
 ## Forschungsdatenmanagement
@@ -309,7 +306,7 @@ zum Teil die auf Forschungsdaten spezialisierte Software
 
 Die digitale Transformation hat Forschungsprozesse grundlegend
 verändert: In zahlreichen Fachdisziplinen entstehen an
-Forschungseinrichtungen heute täglich große Mengen digitaler Daten, die
+Forschungseinrichtungen täglich große Mengen digitaler Daten, die
 als Forschungsgegenstand dienen, angereichert, analysiert oder
 visualisiert werden. Dabei stehen Wissenschaftler\*innen vor der
 Herausforderung, diese Daten nicht nur zu verwalten, sondern sie auch
@@ -318,8 +315,7 @@ Nachnutzung zur Verfügung zu stellen. Maßgeblich sind hierfür die
 sogenannten **FAIR-Prinzipien**, denen zufolge Forschungsdaten auffindbar
 (findable), zugänglich (accessible), interoperabel (interoperable) und
 nachnutzbar (reusable) sein sollen (vgl.
-[https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
-).
+[https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)).
 
 ::: {.callout-important}
 ## Definition
@@ -333,12 +329,12 @@ Umfrageergebnisse). Klar davon abzugrenzen sind
 
 ![Darstellungen des Forschungsdatenlebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus}
 
-Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt wie in
-@fig-fis-fdm dargestellt im Bereich Publikationen. Während sich allerdings
+Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt, wie in
+@fig-fis-fdm dargestellt, im Bereich Publikationen. Während sich allerdings
 Forschungsinformationen eher auf klassische, kontrolliert publizierte Dokumente
 beziehen, geht die Publikation von Forschungsdaten weit darüber hinaus und
-schließt jegliche Form von Aufzeichnungen wie Notizen und Zwischenergebnisse
-bis zu [Forschungssoftware](#forschungssoftware) mit ein.
+schließt alle Formen von Aufzeichnungen wie Notizen, Zwischenergebnisse
+und [Forschungssoftware](#forschungssoftware) mit ein.
 
 ![Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
 
@@ -348,17 +344,17 @@ gesamten Forschungsdatenlebenszyklus hinweg, d. h. von der Datenplanung
 über die Datenerhebung und -analyse bis hin zur Datenarchivierung,
 -publikation und -nachnutzung. Bibliotheken nehmen beim Aufbau und
 Betrieb entsprechender Services eine zentrale Rolle ein - in aller Regel
-sind sie hierbei jedoch nicht die einzigen Akteure, sondern das
-Serviceportfolio wird in einer arbeitsteiligen Zusammenarbeit von
+sind sie hierbei nicht die einzigen Akteure, sondern das
+Serviceportfolio wird arbeitsteilig von
 Bibliotheken, Rechenzentren, Forschungsabteilungen und ggf. weiteren
 Akteur\*innen angeboten. Angesichts der großen Heterogenität an
 (disziplinspezifischen) Datentypen gelangen diese in aller Regel
-fachübergreifenden FDM-Dienste allerdings häufig an ihre Grenzen: Diese
+fachübergreifenden FDM-Dienste häufig an ihre Grenzen: Diese
 Erkenntnis ist konstitutiv für die seit 2020 im Aufbau befindliche
 Nationale Forschungsdateninfrastruktur
-([NFDI](https://www.nfdi.de/)), in der fachspezifische,
+([NFDI](https://www.nfdi.de/)), in der fachspezifische und
 institutionsübergreifende Dienste entwickelt werden. In diesem
-Zusammenhang entwickeln sich derzeit auch neue Berufe wie Data Steward
+Zusammenhang entwickeln sich derzeit neue Berufe wie Data Steward
 oder Data Librarian, die fachspezifische Unterstützung beim
 Forschungsdatenmanagement leisten und entweder zentral an den
 FDM-Servicestellen oder dezentral in Projekten oder Fachbereichen
@@ -373,7 +369,7 @@ Forschungsdatenrepositorien. Diese ermöglichen die Veröffentlichung von
 Forschungsdaten als eigene Informationsobjekte gemäß den FAIR-Prinzipien
 (TODO: siehe hierzu ausführlich den Abschnitt [Repositorien für
 Forschungsergebnisse](#repositorien-für-forschungsergebnisse)). Daneben werden häufig weitere FDM-Tools
-angeboten, von denen einige im Folgenden vorgestellt werden sollen.
+angeboten, von denen einige im Folgenden vorgestellt werden.
 
 ### Tools zur Erstellung von Datenmanagementplänen
 
@@ -381,7 +377,7 @@ Um den Umgang mit Forschungsdaten über ein komplettes Projekt zu
 beschreiben, hat sich der **Datenmanagementplan (DMP)** als geeignetes
 Format erwiesen. Derartige Pläne werden zunehmend von
 Forschungsförderern bei der Antragstellung oder in der Frühphase des
-Projekts erwartet und basieren häufig auf für die Förderlinie bzw. das
+Projekts erwartet. Sie basieren häufig auf für die Förderlinie bzw. das
 Fachgebiet spezifischen Fragenkatalogen. Durch die einheitlichen
 Fragelisten und fest definierte Ausgabeformate lässt sich so ein
 menschen- und maschinenlesbares Dokument generieren. Um diese
@@ -390,13 +386,13 @@ einrichtungs- oder programmspezifischen Daten anzureichern, wurden
 bereits einige Software-Werkzeuge entwickelt. In Deutschland verbreitet
 ist der aus einem DFG-Projekt entstandene [Research Data Management
 Organizer](https://rdmorganiser.github.io/) (RDMO), für
-den, auch unterstützt durch NFDI-Konsortien, ständig neue Fragenkataloge
+den, unterstützt durch NFDI-Konsortien, ständig neue Fragenkataloge
 in einer Gemeinschaftsarbeit entwickelt werden. Obwohl einige
 öffentliche Instanzen der Software existieren, die z. B. einen Login
 über die ORCID ermöglichen, kann die Open-Source-Software auch selbst
 gehostet und inhaltlich sowie visuell auf die Bedarfe der jeweiligen
 Einrichtung zugeschnitten werden. DMP können innerhalb dieser Software
-auch kollaborativ erstellt werden, indem Personen als Mitarbeitende in
+kollaborativ erstellt werden, indem Personen als Mitarbeitende in
 das eigene Projekt eingeladen werden. Für EU-Projekte ist mit Stand 2023
 die Software [ARGOS](https://argos.openaire.eu/)
 verfügbar, die eine direkte Einbindung der DMP in die
@@ -423,8 +419,8 @@ bzw. [Chemotion](https://chemotion.net/) für eine eher
 fachspezifische Lösung. Eine [Handreichung zur Einführung eines
 ELN](https://doi.org/10.17192/bfdm.2023.5.8553) an der
 eigenen Einrichtung wurde 2023 von einer einrichtungsübergreifenden
-Autor\*innengruppe erstellt. Open-Source-ELN erfahren häufig auch
-Unterstützung durch NFDI-Konsortien. Der auch daraus entstandene Wunsch
+Autor\*innengruppe erstellt. Open-Source-ELN erfahren häufig
+Unterstützung durch NFDI-Konsortien. Der daraus entstandene Wunsch
 eines einheitlichen Transferformats der Laborbucheinträge und
 gemeinsamer Spezifikationen wird im [ELN
 Consortium](https://github.com/TheELNConsortium)
@@ -443,7 +439,7 @@ es die lokal zu installierende Software GitLab, um ein solches Repositorium in
 der eigenen IT-Infrastruktur bereitzustellen. Durch die im Protokoll
 integrierte Versionskontrolle der Daten lassen sich Änderungen im Code einfach
 nachvollziehen und gegebenenfalls zurückrollen. Kollaborative Arbeit in
-verteilten Teams zum Beispiel wird über eine parallele Entwicklungsstruktur in
+verteilten Teams wird zum Beispiel über eine parallele Entwicklungsstruktur in
 "branches" ermöglicht, die mit dem Hauptprojekt zu einem gewünschten Zeitraum
 zusammengeführt werden können.  Bei diesem Funktionsumfang wird schnell klar,
 dass Git auch jenseits der forschungsnahen Dienste eine Vielzahl von
@@ -476,8 +472,8 @@ treten als Vereinszweck für den Stellenwert von Forschungssoftware ein.
 Auch die FAIR-Prinzipien sollten für Forschungssoftware Anwendung finden
 (vgl.
 [https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)).
-Hier liegt es auch an den Bibliotheken, einerseits ein Bewusstsein dafür
-zu schaffen (z. B. durch dedizierte Policies), aber andererseits auch
+Hier liegt es auch an den Bibliotheken, ein Bewusstsein dafür
+zu schaffen (z. B. durch dedizierte Policies) und
 die benötigte Infrastruktur bereitzustellen.
 
 Zur Zitierbarkeit von Forschungssoftware/Code dient die Generierung von
@@ -485,7 +481,7 @@ entsprechenden Metadaten, etwa über
 [https://codemeta.github.io/](https://codemeta.github.io/)
 und
 [CITATION.cff](https://citation-file-format.github.io/),
-um menschen- und maschinen-lesbare Zitierinformationen für Software und
+um menschen- und maschinenlesbare Zitierinformationen für Software und
 Datensätze angeben zu können.
 
 *TODO INFOBOX: CITATION.cff des Handbuchs als Beispiel*
@@ -505,7 +501,7 @@ Archivierung auf externen Servern an. Zumindest in diesem Fall ist es
 als UNESCO-Projekt aber als geeignete Alternative zu betrachten.
 
 Die Verknüpfung der im Gesamtprozess entstehenden Metadaten mit Systemen
-wie dem FIS oder auch Forschungsdatenrepositorien hinsichtlich der
+wie dem Forschungsinformationssystem (FIS) oder Forschungsdatenrepositorien hinsichtlich der
 Auffindbarkeit dieser wissenschaftlichen Ergebnisse ist ein Punkt, der
 eine Betrachtung der kompletten [Toolchain](#toolchains) notwendig macht.
 
@@ -527,7 +523,7 @@ Forschungsinformationen an Bedeutung. Entsprechende Systeme werden
 Datenbanksysteme, die speziell für die Erfassung, Organisation,
 Speicherung und Verknüpfung von **Forschungsinformationen**
 konzipiert wurden. Sie können interne Anwendungen wie die
-leistungsorientierte Mittelvergabe unterstützen, aber auch für die
+leistungsorientierte Mittelvergabe unterstützen und für die
 Außendarstellung der Einrichtung genutzt werden. Eine Übersicht von
 Forschungsinformationen und ihre Sicht auf Forschungsdaten gibt @fig-fis-fdm.
 
@@ -535,7 +531,7 @@ FIS führen Informationen zusammen, die dezentral in verschiedenen
 hochschulinternen Systemen (z. B. Drittmittelverwaltung,
 Personalverwaltungssysteme, Repositorien) und externen Quellsystemen (z.
 B. Scopus, ORCID) vorgehalten werden, um einen strukturierten und
-aktuellen Überblick über die Forschungsleistungen z. B. einer
+aktuellen Überblick über die Forschungsleistungen beispielsweise einer
 Einrichtung, eines (Bundes-)Landes oder einer Fachdisziplin zu gewinnen.
 
 Die genauen Daten, die Nutzung der Daten und der Funktionsumfang eines
@@ -546,7 +542,7 @@ andere Systeme haben ihren Schwerpunkt eher auf dem Berichtswesen und
 Monitoring und ggf. darauf basierenden Anreizsystemen. Wieder andere
 Systeme legen den Schwerpunkt darauf, die Forschungsaktivitäten zu
 präsentieren und öffentlichkeitswirksam bereitzustellen. Die Systeme
-passen sich zunehmend aneinander an, oft werden verschiedene Systeme
+passen sich zunehmend aneinander an; oft werden verschiedene Systeme
 aber auch in Kombination miteinander eingesetzt.
 
 FIS sollten von Anfang an als Daueraufgabe einer Einrichtung betrachtet
@@ -559,9 +555,9 @@ in den Prozessen und Workflows der Einrichtung voraussetzt.
 
 Eine zentrale Herausforderung beim Aufbau eines FIS besteht darin, einen
 Überblick über die bestehenden Quellsysteme der Einrichtung zu gewinnen.
-In diesem Zusammenhang ist zum einen zu ermitteln, welche internen und
+In diesem Zusammenhang ist zu ermitteln, welche internen und
 externen Systeme relevant sind und wer die entsprechenden
-Ansprechpartner\*innen an der Einrichtung sind. Dies betrifft u. a. die
+Ansprechpersonen an der Einrichtung sind. Dies betrifft u. a. die
 Bibliothek (z. B. Repositorien), die Personalverwaltung
 (Identitätsmanagement), die Drittmittelverwaltung (Datenbank für
 Projekte), die Doktorand\*innenverwaltung oder die Patentverwaltung der
@@ -579,7 +575,7 @@ aussagekräftige Informationen liefert.
 
 Der Markt für FIS-Software ist sehr dynamisch. Vor dem Hintergrund, dass sich
 gerade viele Forschungseinrichtungen in der Planungs- und Aufbauphase von
-Forschungsinformationssystemen befinden, kommen in Deutschland immer neue
+FIS befinden, kommen in Deutschland immer neue
 Softwarelösungen zum Einsatz. Es zeigt sich ein vielgestaltiges Bild aus
 kommerziellen Produkten (z. B. *PURE*, *Converis*, HISinOne-RES), Open
 Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
@@ -594,13 +590,13 @@ Open Source-Lösungen wie *DSpace-CRIS* und *VIVO* nimmt erst in den letzten
 Jahren merklich zu -- unter anderem befördert durch das Verbundprojekt Hamburg
 Open Science.
 
-An vielen Einrichtungen besteht das Bestreben, dass das FIS zusätzlich auch die
+An vielen Einrichtungen besteht das Bestreben, dass das FIS zusätzlich die
 Funktionalität eines [Repositoriums](#repositorien-für-forschungsergebnisse)
 übernehmen soll. Ein Vorteil eines solchen vereinigten Systems wird zum einen
-in den geringeren Systemkosten gesehen - zum anderen erscheint es weniger
+in den geringeren Systemkosten gesehen, zum anderen erscheint es weniger
 aufwendig, die bibliographischen Einträge in einem FIS schlicht mit den
 dazugehörigen Dateien anzureichern statt einen Workflow für das Zusammenspiel
-zwischen FIS und Repositorium zu entwickeln. Dem entgegen stehen jedoch die
+zwischen FIS und Repositorium zu entwickeln. Dem entgegen stehen die
 verschiedenen Zielsetzungen beider Systeme: Während es bei einem FIS vor allem
 darum geht, möglichst alle Forschungsaktivitäten z. B. einer Einrichtung in
 einem System zu erfassen, steht bei einem Repositorium die nachhaltige
@@ -610,7 +606,7 @@ auch hinsichtlich Retrieval und Zugriff: So werden Forschende bei einer Suche
 in externen Suchmaschinen z. B. erst im FIS feststellen, dass nur bei einem
 Teil der Treffer tatsächlich Zugang zu den Ressourcen selbst besteht, sie in den
 meisten Fällen jedoch lediglich Nachweise der Ressourcen finden. In der Praxis
-sind FIS-Repositorien-Mischsysteme derzeit dennoch aufgrund von
+sind FIS-Repositorien-Mischsysteme dennoch aufgrund von
 Ressourcenknappheit nicht wegzudenken.
 
 Nichtsdestotrotz sind die Publikationsdaten ein wichtiger Bestandteil jedes
@@ -631,18 +627,18 @@ werden im folgenden Kapitel erläutert.
 
 ### Zertifikate und Standards
 
-Forschungsnahe Dienste bewegen sich von jeher an der Schnittstelle
-zwischen Wissenschaft und Infrastruktureinrichtungen, die die Dienste
+Forschungsnahe Dienste bewegen sich an der Schnittstelle
+zwischen Wissenschaft und Infrastruktureinrichtungen, welche die Dienste
 betreiben. Zertifikate erfüllen in diesem Spannungsfeld verschiedene
 Funktionen. Sie waren als Vertrauen gebende Maßnahmen angedacht, die
 Qualitätsmerkmale der Dienstleistungen sein sollten. Das
 [DINI-Zertifikat für Open-Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)
 versteht sich seit jeher auch als Ratgeber bei Einrichtung,
 Weiterentwicklung und Betrieb solcher Dienstleistungen, der "Maßstäbe,
-Richtlinien und Best Practices" vermitteln will. Und letztlich dienen
-Zertifikate auch dem Schaffen von Standards, die die Interoperabilität
+Richtlinien und Best Practices" vermitteln will. Letztlich dienen
+Zertifikate auch dem Schaffen von Standards, welche die Interoperabilität
 der Dienste ermöglichen. Neben dem DINI-Zertifikat sind in Bezug auf
-forschungsnahe Dienste auch das [Core Trust
+forschungsnahe Dienste das [Core Trust
 Seal](https://www.coretrustseal.org) sowie das
 [Nestor-Siegel für vertrauenswürdige digitale
 Langzeitarchive](https://www.langzeitarchivierung.de/Webs/nestor/DE/Zertifizierung/nestor_Siegel/siegel.html)
@@ -653,8 +649,8 @@ Bewertung der Vertrauenswürdigkeit von Langzeitarchiven gibt, werden die
 meisten Standards in diesem Bereich eher als Best Practices oder
 Konventionen, denn als offizielle Normen eingeführt. Unabhängig von der
 Frage, ob Zertifikate als vertrauensstiftend eingeschätzt werden, lohnt
-es sich die Dokumentation der Zertifikate als Ratgeber oder Checkliste
-zu nutzen, sowohl beim Aufbau neuer Dienste, als auch zur regelmäßigen
+es sich, die Dokumentation der Zertifikate als Ratgeber oder Checkliste
+zu nutzen; sowohl beim Aufbau neuer Dienste als auch zur regelmäßigen
 Überprüfung des eigenen Dienstes mit Blick auf neue Entwicklungen und
 Optionen eigene Dienste weiterzuentwickeln.
 
@@ -674,16 +670,16 @@ weitere Vorgaben, wie zum Beispiel die Klassifizierung nach zumindest
 den DDC-Sachgruppen der Deutschen Nationalbibliografie und macht
 Vorgaben an die Ausgestaltung der OAI-PMH-Schnittstelle. Diese Standards
 ermöglichen es Diensten wie zum Beispiel der Bielefeld Academic Search
-Engine und anderen Aggregatoren Inhalte aus vielen verschiedenen Quellen
+Engine und anderen Aggregatoren Inhalte aus verschiedenen Quellen
 einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 
 ### Metadaten
 
 Metadaten sind Daten struktureller, technischer, administrativer,
 bibliographischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe
-Kap. **Daten & Metadaten** bzw. *Metadatenstandards*)*.* Metadaten werden oft
+Kap. **Daten & Metadaten** bzw. *Metadatenstandards*). Metadaten werden oft
 in einer Schlüssel-Wert-Struktur genutzt, bei der der Schlüssel vorgibt, welche
-Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum ...) im Wert zu finden ist
+Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum etc.) im Wert zu finden ist
 (siehe Kap. **Daten & Metadaten** bzw*. Grundlegende Begrifflichkeiten*).
 Strukturell werden flache und hierarchische Metadatenschemata unterschieden.
 Flache Metadatenschemata beschränken sich auf eine einfache Struktur aus
@@ -698,9 +694,9 @@ Metadatenschemata definieren, welche Inhalte in den Metadaten erfasst
 werden, also welche Metadatenfelder existieren und mit Werten belegt
 werden können. [Dublin] [Core
 Element](https://www.dublincore.org/specifications/dublin-core/usageguide/elements/)
-(umgangssprachlich oft einfach *Dublin Core* genannt) ist als
+(umgangssprachlich oft *Dublin Core* genannt) ist als
 Metadatenschema für Inhalte im Internet entstanden (TODO: siehe Kap. **Daten &
-Metadaten** bzw. *Metadatenstandards*) . Es wird oft in Metatags auf
+Metadaten** bzw. *Metadatenstandards*). Es wird oft in Metatags auf
 HTML-Seiten verwendet und ist vorherrschend beim Austausch von Daten
 zwischen und mit Repositorien, auch wenn so gut wie jede
 Repositoriensoftware intern deutlich mehr Metadatenschemata unterstützt
@@ -710,7 +706,7 @@ Dublin Core können ergänzend Qualifier genutzt werden. So kann zum
 Beispiel das Element dc.contributor weiter spezifiziert werden als
 dc.contributor.author, dc.contributor.translator,
 dc.contributor.illustrator und so weiter. Von der Dublin Core Metadata
-Initiative wurde später auch das Metadatenschema DCMI Terms geschaffen,
+Initiative wurde später das Metadatenschema DCMI Terms geschaffen,
 das Simple und Qualified Dublin Core zusammenfassen sollte. In der
 Praxis wird nach wie vor häufig Dublin Core Elements genutzt, in
 Schnittstellen oft ohne Qualifier. DCMI Terms werden in Repositorien
@@ -718,7 +714,7 @@ dann oft ergänzend zu Dublin Core Elements verwendet.
 
 Im Rahmen der DOI-Registrierung werden auch Metadaten erhoben. Das
 [DataCite Schema](https://schema.datacite.org) hat sich
-dabei als ein wichtiges Metadatenschema etabliert, das zum Teil auch
+dabei als ein wichtiges Metadatenschema etabliert, das zum Teil
 losgelöst von DOIs zur Beschreibung von Forschungsdaten genutzt wird
 (TODO: siehe Kap. **Daten & Metadaten** bzw. *Metadatenstandards*).
 
@@ -735,19 +731,19 @@ unter:
 Mit dem Aufkommen elektronischer Archive kam die Frage nach der
 Zitierbarkeit auf. Auch wenn die technischen Protokolle, auf denen das
 Internet basiert, sowohl in DNS als auch http(s) Mechanismen enthalten,
-um URLs weiterzuleiten, bekamen URLs schnell den Ruf flüchtig zu sein.
+um URLs weiterzuleiten, bekamen URLs schnell den Ruf, flüchtig zu sein.
 Auch wenn URLs, die nicht mehr oder auf andere Inhalte auflösen, immer
 auf Managementprobleme zurückgehen, wurden Persistent Identifier Systeme
-geschaffen, die diese Probleme beim Zitieren elektronischer Quellen
+geschaffen, welche diese Probleme beim Zitieren elektronischer Quellen
 überwinden sollen. Dabei werden IDs geschaffen, die über einen
 sogenannten Resolver aufgelöst werden können. Der Resolver ist
-vergleichbar mit einem Melderegister: man kann nach der aktuellen
+vergleichbar mit einem Melderegister: Man kann nach der aktuellen
 Adresse einer ID fragen und erhält die jeweils aktuelle URL zurück,
 unter der sich die Ressourcen befinden sollen. Die Antworten können also
 zu unterschiedlichen Zeitpunkten unterschiedlich ausfallen.
 
-Während die Deutsche Nationalbibliothek bis heute auf URN:NBN als
-Persistent Identifier setzt, haben sich im wissenschaftlichen Umfeld
+Während die Deutsche Nationalbibliothek (DNB) bis heute auf URN:NBN als
+Persistent Identifier (PID) setzt, haben sich im wissenschaftlichen Umfeld
 DOIs für die Identifikation von Artikeln, Daten und anderen Inhalten
 durchgesetzt. In Deutschland kommen dabei vor allem die
 DOI-Registrierungsagenturen
@@ -758,7 +754,7 @@ und andere Inhalte. Von der technischen Einbindung her ist DataCite
 moderner aufgestellt und leichter zu integrieren. Mit
 [ORCID](https://orcid.org/) und
 [ROR](https://ror.org) gibt es inzwischen weitere
-Persistent Identifier Systeme, die zunehmend Verbreitung finden und
+PID-Systeme, die zunehmend Verbreitung finden und
 Personen bzw. Einrichtungen eindeutig identifizieren.
 
 Die Vergabe von PIDs für Publikationen (z. B. Texte, Forschungsdaten)
@@ -766,7 +762,7 @@ auf Publikationsservern bzw. Datenrepositorien wird teilweise von den
 wissenschaftlichen Bibliotheken gewährleistet. Somit werden
 Forschungsdaten nachhaltig unter entsprechenden Lizenzen öffentlich
 verfügbar gemacht (Berg-Weiß et al. 2022). Mit dem Ziel, eine nationale
-Beratungs- und Austauschplattform zu persistenten Identifikatoren
+Beratungs- und Austauschplattform zu PID
 aufzubauen, fördert die DFG seit 2023 das Projekt "[PID Network
 Deutschland](https://www.pid-network.de/) - Netzwerk für
 die Förderung von persistenten Identifikatoren in Wissenschaft und
@@ -776,7 +772,7 @@ Kultur".
 
 Die dauerhafte Aufbewahrung und Lesbarkeit von digitalen Objekten zu
 gewährleisten, stellt auch für Bibliotheken, die zunehmend für die Archivierung
-von Open-Access-Publikationen, Forschungsdaten und anderen elektronische
+von Open-Access-Publikationen, Forschungsdaten und anderen elektronischen
 Ressourcen verantwortlich sind, eine große Herausforderung dar. Die sogenannte
 **digitale Langzeitarchivierung (LZA)** beinhaltet neben der Speicherung
 zusätzliche Maßnahmen wie die regelmäßige Überprüfung der Datenintegrität, die
@@ -784,7 +780,7 @@ Migration der Daten auf neue Speichermedien und die Anpassung an sich
 verändernde Technologien. Digitale Informationen bleiben so langfristig
 erhalten und auch in der Zukunft zugänglich. 
 
-Bewahrt werden müssen also sowohl der Bitstream der Datei, als auch deren
+Bewahrt werden müssen der Bitstream der Datei sowie deren
 Eigenschaften und Semantik.  Aktuell ist
 [PREMIS](https://www.loc.gov/standards/premis/) in der LZA der wichtigste
 Metadatenstandard. Das Datenmodell beinhaltet alle Informationen, die man
@@ -803,10 +799,10 @@ Format-Validierung und implementierbare Workflows.
 
 Auf der Webpage [COPTR](https://coptr.digipres.org/) - Community Owned
 digital Preservation Tool Registry - werden diese und zahlreiche weitere
-Tools und Workflows zur Langzeitarchivierung vorgestellt. Als wichtige
-Anlaufstelle für Fragen rund um die digitale Langzeitarchivierung dient
+Tools und Workflows zur LZA vorgestellt. Als wichtige
+Anlaufstelle für Fragen rund um die digitale LZA dient
 außerdem das [Kompetenznetzwerk nestor](https://www.langzeitarchivierung.de/), 
-dessen Geschäftsstelle an der Deutschen Nationalbibliothek
+dessen Geschäftsstelle an der DNB
 angesiedelt ist. Auch die NFDI behandelt "[Long-term Archival
 (LTA)](https://doi.org/10.5281/zenodo.6451456)" in der [Sektion
 "Common Infrastructures"](https://www.nfdi.de/section-infra/) als
@@ -845,8 +841,8 @@ einem Bildpool, Umgang mit Zugriffsbeschränkungen, Objektänderungen und
 so weiter.
 
 OAI-PMH und SWORD werden zum Teil zwar auch über Repositorien hinaus
-verwendet, zum Beispiel bei Forschungsinformationssystemen. Verbreitung
-und Einsatz beschränken sich jedoch weitestgehend auf den Bereich der
+verwendet, zum Beispiel bei FIS. Verbreitung
+und Einsatz beschränken sich jedoch weitgehend auf den Bereich der
 forschungsnahen Dienste. Als weiter verbreitete Prinzipien zur
 Bereitstellung von Informationen muss Linked Data gesehen werden. Die
 Bereitstellung der Repositorieninhalte als Linked Data wird zum Beispiel
@@ -867,11 +863,10 @@ Repositories](https://www.coar-repositories.org/) (COAR)
 weitere neue Protokolle vorgeschlagen. Hierzu zählt Signposting, das
 typisierte Links einsetzt, um von einer Ressource auf andere in
 Verbindung stehende Ressourcen zu verlinken und so die Auffindbarkeit
-durch Crawler und Bots erleichtern soll. Zum Zeitpunkt der Entstehung
-dieses Buchs ist offen, ob Signposting sich durchsetzt, wenn möglich
-sollte es in Repositorien aktiviert werden.
+durch Crawler und Bots erleichtern soll. Derzeit ist offen, ob Signposting sich durchsetzt. 
+Wenn möglich, sollte sollte es in Repositorien aktiviert werden.
 
-Eine ganz aktuelle Entwicklung ist das [Notify
+Eine aktuelle Entwicklung ist das [Notify
 Project](https://www.coar-repositories.org/notify/), das
 ebenfalls von COAR betrieben wird. Notify soll es ermöglichen, dass
 verschiedene forschungsnahe Dienste sich Nachrichten über Aktivitäten
@@ -881,7 +876,7 @@ Repositorium und einem Forschungsdatenrepositorium oder zwischen einem
 Repositorium und einem Service für die Organisation des Peer-Reviewing.
 Notify hat vor allem in den USA eine größere Förderung erhalten und wird
 derzeit in Softwarelösungen für verschiedene forschungsnahe Dienste
-integriert. Zum Zeitpunkt des Schreiben dieses Buchs ist zu erwarten,
+integriert. Es ist zu erwarten,
 dass Notify sich in diesem Bereich verankern und helfen wird, Dienste
 dynamischer miteinander zu verknüpfen.
 
@@ -913,23 +908,23 @@ insbesondere geklärt werden, wie sich die Dienste voneinander abgrenzen,
 damit Nutzer\*innen klar kommuniziert werden kann, welcher Dienst wofür
 verwendet wird.
 
-Gleichzeitig muss aber auch das Zusammenspiel der einzelnen Dienste
+Gleichzeitig muss auch das Zusammenspiel der einzelnen Dienste
 analysiert werden. Wie knüpfen die verschiedenen Dienste aneinander an?
 Wie kann der gebotene Mehrwert durch Verknüpfungen der Dienste
-gesteigert werden? Und welche Dienste bauen wie aufeinander auf? Diese
+gesteigert werden? Welche Dienste bauen wie aufeinander auf? Diese
 Fragen sind nur lokal und konkret zu vorhandenen oder in Planung
 befindlichen Diensten zu beantworten.
 
 Beispiel: An einer Bibliothek findet in Zusammenarbeit mit
 Fachwissenschaftler\*innen ein großes Retro-Digitalisierungsprojekt statt. Für
 die Verwaltung der [Digitalisierungsvorgänge](#digitalisierung) wird *Kitodo*
-verwendet. Die Werke sind im Bibliotheksmanagementsystem verzeichnet und die
+verwendet. Die Werke sind im BMS verzeichnet und die
 Metadaten werden über die SRU-Schnittstelle nach Kitodo importiert. Weitere
 Strukturdaten werden in Kitodo direkt eingetragen. Nach dem Scannen werden die
-Dokumente von Kitodo über die REST-API oder SWORD ins Repositorium exportiert.
+Dokumente von Kitodo über die REST-API oder SWORD in das Repositorium exportiert.
 Das Repositorium ruft weitere Metadaten über SRU aus dem Bibliothekskatalog ab
-und vergibt DOIs, die auch wieder in das Bibliotheksmanagementsystem
-zurückgespeichert werden. Das Forschungsinformationssystem harvestet die
+und vergibt DOIs, die wieder in das BMS
+zurückgespeichert werden. Das FIS harvestet die
 Inhalte über OAI-PMH regelmäßig und weist die Digitalisate nach, die im
 Repositorium bereitgestellt werden.
 
@@ -948,7 +943,7 @@ Infrastruktur einplanen muss. Beispielsweise sind das der
 Repository-Service
 [Reposis](https://www.gbv.de/informationen/Verbundzentrale/serviceangebote/reposis-repository-service)
 des GBV oder das Langzeitarchiv
-["Ewig"](https://ewig.zib.de/) des KOBV.
+[Ewig](https://ewig.zib.de/) des KOBV.
 
 Wird die Verwendung einer bestimmten Software gefordert oder eine
 bestimmte Art, die Software einzusetzen, die nicht im
@@ -956,11 +951,11 @@ Dienstleistungsportfolio der Verbundzentralen liegt, bietet sich die
 Zusammenarbeit mit externen, kommerziellen Dienstleistern an. Wo immer
 möglich, sollte Software von Open-Source-Communities Vorrang vor
 proprietärer Software genießen, da sie vor Abhängigkeiten von einzelnen
-Anbietern schützt und Weiterentwicklungen, die in die Community
+Anbietern schützt und Weiterentwicklungen, welche in die Community
 eingebracht werden, von anderen Einrichtungen wiederverwendet werden
 können. Vor allem im Bereich der forschungsnahen Dienste sind
 Open-Source-Lösungen oft vorherrschend. Ziel von
-Infrastruktureinrichtungen sollte es sein das so zu erhalten, anstatt
+Infrastruktureinrichtungen sollte es sein, das zu erhalten, anstatt
 den Aufbau proprietärer Software und neuer Oligopol- oder
 Monopolstellungen zuzulassen. Der Mehrwert, den IT-Dienstleister bieten,
 besteht ähnlich wie bei den Verbundzentralen darin, dass man selbst
@@ -973,7 +968,7 @@ Betreuung einzukaufen.
 Bei der Wahl des Anbieters gilt es, auf dessen Erfahrung im Umgang mit
 Open-Source-Projekten allgemein und mit der gewünschten Software im
 Speziellen zu achten. Genau wie nach Referenzen zu vergleichbaren
-Projekten zu fragen, lohnt es sich nach konkreten bereits geleisteten
+Projekten zu erkundigen, lohnt es sich, nach konkreten bereits geleisteten
 Beiträgen zu der jeweiligen Open-Source-Lösung zu fragen. Wenn die
 Open-Source-Lizenzen der jeweiligen Software keine Auflage machen, dass
 Weiterentwicklungen unter derselben Lizenz verbreitet werden müssen,
@@ -982,8 +977,8 @@ stehen, zwingend im Vertrag geklärt werden.
 
 Besonders weit verbreitete Softwarelösungen haben große
 Entwicklergemeinschaften, die es einerseits zu unterstützen gilt, andererseits
-aber auch die Community-getriebene Entwicklungsrichtung der Software zu
-beachten ist. Ist der gewünschte Dienstleister hier noch neu, ist zumindest
+auch die Community-getriebene Entwicklungsrichtung der Software zu
+beachten ist. Ist der gewünschte Dienstleister noch neu, ist zumindest
 eine anderweitige Erfahrung in ähnlichen Projekten wünschenswert. Eine
 Recherche in öffentlichen Software-Repositorien der Projekte kann hier
 zielführend sein.
@@ -994,18 +989,18 @@ Forschungsnahe Dienste können Wissenschaftler\*innen grundsätzlich über
 den gesamten Forschungsprozess hinweg unterstützen - das Portfolio
 möglicher Services ist daher sehr groß. Bibliotheken setzen ihren
 Schwerpunkt hierbei insbesondere auf Services zur Unterstützung des
-Publikationsprozesses sowie des Forschungsdatenmanagements.
+Publikationsprozesses sowie des FDM.
 
-Wie das vorliegende Kapitel anschaulich gezeigt hat, umfassen diese
+Wie das vorliegende Kapitel gezeigt hat, umfassen diese
 Services auch eine Vielzahl an IT-Diensten, so z. B.
 Journal-Publishing-Systeme, Repositorien und
-Forschungsinformationssysteme. Der stabile und nachhaltige Betrieb
+FIS. Der stabile und nachhaltige Betrieb
 solcher Dienste umfasst technische, organisatorische und inhaltliche
 Aspekte. Der Aufbau und Betrieb forschungsnaher Dienste an Bibliotheken
 bindet daher umfangreiche Ressourcen und erfordert ggf. auch eine
 Verlagerung von Ressourcen aus anderen Bereichen. Die Ausweitung des
 bibliothekarischen Serviceportfolios um forschungsnahe Dienste ist daher
-derzeit vor allem auch eine Frage der Organisations- und
+auch eine Frage der Organisations- und
 Personalentwicklung.
 
 Zur vertieften Beschäftigung mit forschungsnahen Diensten an
