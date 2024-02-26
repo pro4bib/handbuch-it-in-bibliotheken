@@ -270,6 +270,7 @@ window.Quarto = {
   <li><a href="#designprototyping" id="toc-designprototyping" class="nav-link" data-scroll-target="#designprototyping">Design/Prototyping</a></li>
   <li><a href="#implementierung" id="toc-implementierung" class="nav-link" data-scroll-target="#implementierung">Implementierung</a></li>
   <li><a href="#test-und-integration" id="toc-test-und-integration" class="nav-link" data-scroll-target="#test-und-integration">Test und Integration</a></li>
+  <li><a href="#wartung" id="toc-wartung" class="nav-link" data-scroll-target="#wartung">Wartung</a></li>
   <li><a href="#ablösung" id="toc-ablösung" class="nav-link" data-scroll-target="#ablösung">Ablösung</a></li>
   <li><a href="#change-management" id="toc-change-management" class="nav-link" data-scroll-target="#change-management">Change Management</a></li>
   </ul></li>
@@ -282,7 +283,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#betriebssicherheit-und-risikomanagement" id="toc-betriebssicherheit-und-risikomanagement" class="nav-link" data-scroll-target="#betriebssicherheit-und-risikomanagement">Betriebssicherheit und Risikomanagement</a>
   <ul class="collapse">
-  <li><a href="#vendor-lock-in" id="toc-vendor-lock-in" class="nav-link" data-scroll-target="#vendor-lock-in">Vendor-Lock-In</a></li>
+  <li><a href="#vendor-lock-in" id="toc-vendor-lock-in" class="nav-link" data-scroll-target="#vendor-lock-in">Vendor Lock-in</a></li>
   <li><a href="#software-abhängigkeiten" id="toc-software-abhängigkeiten" class="nav-link" data-scroll-target="#software-abhängigkeiten">Software-Abhängigkeiten</a></li>
   <li><a href="#rechtliche-rahmenbedingungen" id="toc-rechtliche-rahmenbedingungen" class="nav-link" data-scroll-target="#rechtliche-rahmenbedingungen">Rechtliche Rahmenbedingungen</a></li>
   <li><a href="#software-ergonomie" id="toc-software-ergonomie" class="nav-link" data-scroll-target="#software-ergonomie">Software-Ergonomie</a></li>
@@ -355,7 +356,7 @@ Abbildung&nbsp;2.1: Softwareentwicklungs-Lebenszyklus
 </div>
 <section id="planung-und-analyse" class="level3">
 <h3 class="anchored" data-anchor-id="planung-und-analyse">Planung und Analyse</h3>
-<p>Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um individuell erstellte Software oder die Anpassung eines existierenden IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die Anforderungen des Projektes. Dieses gemeinsame Verständnis, insbesondere der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor und während der Entwicklung <a href="./anforderungen.html">unter Einbeziehung von Nutzer*innen</a> ermittelt und angepasst.</p>
+<p>Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um individuell erstellte Software oder die Anpassung eines existierenden IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die Anforderungen an das Projekt. Dieses gemeinsame Verständnis, insbesondere der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor und während der Entwicklung <a href="./anforderungen.html">unter Einbeziehung von Nutzer*innen</a> ermittelt und angepasst.</p>
 <p>Zur Planungs- und Analysephase gehören neben einer grundsätzlichen Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und rechtlicher Rahmenbedingungen.</p>
 <p><span class="math inline">\(\Rightarrow\)</span> <em>Siehe auch ausführlicher zum <a href="bibliotheksmanagementsysteme.html#entscheidungsprozess">Entscheidungsprozess bei der Einführung eines Bibliotheksmanagementsystem</a></em></p>
 <div class="callout callout-style-simple callout-tip callout-titled">
@@ -386,8 +387,9 @@ Info
 <h3 class="anchored" data-anchor-id="test-und-integration">Test und Integration</h3>
 <p>Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests und die Integration des entwickelten bzw. erworbenen Systems in die Zielumgebung durchgeführt. Im Falle der Inanspruchnahme eines Dienstleisters wird hier auch dessen Leistung final abgenommen, wenn das System erfolgreich produktiv in Betrieb genommen werden kann.</p>
 <p>Während der Tests wird korrekte Umsetzen der Anforderungen sowie die Umsetzung der Anforderungen geprüft.</p>
-<section id="wartung" class="level4">
-<h4 class="anchored" data-anchor-id="wartung">Wartung</h4>
+</section>
+<section id="wartung" class="level3">
+<h3 class="anchored" data-anchor-id="wartung">Wartung</h3>
 <p>Die Wartungsphase folgt auf die Produktivsetzung des IT-Systems. In dieser Lebensphase wird das System nicht mehr grundlegend weiterentwickelt, es werden jedoch Fehler (Bugs) entfernt und Anpassungen der Funktionsweise im Sinne der Parametrisierung oder eine Optimierung der Programmabläufe vorgenommen.</p>
 <p>Typischerweise verbleiben IT-Systeme, die grundlegende Geschäftsprozesse abbilden oder die nach individuellen Anforderungen erstellt wurden, viele Jahre in dieser Phase.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
@@ -417,7 +419,6 @@ Abbildung&nbsp;2.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartun
 </div>
 </div>
 </section>
-</section>
 <section id="ablösung" class="level3">
 <h3 class="anchored" data-anchor-id="ablösung">Ablösung</h3>
 <p>Die Ablösung eines Systems kann eine Vielzahl an Gründen haben. So entwickeln sich die technischen Möglichkeiten und die Anforderungen der Nutzer*innen kontinuierlich weiter. Eine Ablösung kann aber auch durch technische Obsoleszenz erzwungen werden, wenn zugrundeliegende Software-Komponenten wie das Betriebssystem oder ein Datenbankmanagementsystem nicht mehr sicher betrieben werden können.</p>
@@ -429,7 +430,7 @@ Abbildung&nbsp;2.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartun
 <li><p>die Ankündigung von Wartungsarbeiten und Sicherheits-Patches durch den Hersteller oder die Insolvenz des Herstellers (insb. bei proprietärer Software) oder</p></li>
 <li><p>die De-Facto-Unwartbarkeit durch den Wegfall geeigneten Personals mit Spezialkenntnissen (z.B. veralteter Programmiersprachen), siehe dazu auch den Abschnitt <a href="#ressourcenplanung">Ressourcenplanung</a></p></li>
 </ul>
-<p>Letztlich führen all diese Punkte zur Abschaltung eines IT-Systems aufgrund von IT-Sicherheitsproblemen, da diese Einbrüche in die Systeme (Hacks) begünstigen. Hinzu kommt das Risiko von Datenverlusten, entweder durch physischen Verlust im Falle eines Hardware-Defekts oder durch den logischen Verlust, da z.B. proprietäre Datenformate nicht mehr gelesen werden können.</p>
+<p>Letztlich führen fast alle diese Punkte zur Abschaltung eines IT-Systems aufgrund von IT-Sicherheitsproblemen, da diese Einbrüche in die Systeme (Hacks) begünstigen. Hinzu kommt das Risiko von Datenverlusten, entweder durch physischen Verlust im Falle eines Hardware-Defekts oder durch den logischen Verlust, da z.B. proprietäre Datenformate nicht mehr gelesen werden können.</p>
 <p>Der Weiterbetrieb eines IT-Systems ohne Ablösungsplanung birgt hohe Risiken in sich und kann eine Organisation folglich in ernsthafte Schwierigkeiten bringen, insbesondere wenn geschäftskritische Prozesse betroffen sind.</p>
 </section>
 <section id="change-management" class="level3">
@@ -438,9 +439,9 @@ Abbildung&nbsp;2.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartun
 <ul>
 <li><p>Realen Bedarf ermitteln, Ziele und Zielgruppen definieren, keine „Solutions looking for a Problem“ einführen: welches (kommunikative) Problem will ich lösen?</p></li>
 <li><p>Einsatz bestehender Tools prüfen: brauche ich wirklich etwas Neues, oder kann ich mit gewissen Abstrichen leben und dafür ein bestehendes Tool kreativ einsetzen? Die Gefahr beim Einsatz einer großen Vielzahl von Tools ist, dass Information / Wissen zu stark in verschiedene Systeme fragmentiert wird. Die Gefahr beim Einsatz von zu unspezifischen Tools ist, dass die Lösung dem eigentlichen Problem nicht gerecht wird.</p></li>
-<li><p>Auf Interoperabilität und offene Standards achten; Vendor Lock-In vermeiden</p></li>
-<li><p>Die angestrebten Veränderung frühzeitig und offen kommunizieren, Unterstützung in Form von Dokumentation, Schulungen und Support anbieten, Ängste nehmen (sowohl bei Kolleg*innen als auch Gremien). Der Trend hin zu kollaborativen Tools sorgt für eine höhere Sichtbarkeit, das ist vielen nicht ganz geheuer. Oft ist es eine große Hemmschwelle, auf einmal für alle sichtbar in ein Wiki oder Forum zu schreiben</p></li>
-<li><p>Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen („alte Zöpfe auch abschneiden“). Die Einführung zusätzlicher Werkzeuge sorgt sonst auch oft für Unverständnis und Frust.</p></li>
+<li><p>Auf Interoperabilität sowie offene Standards achten und bereits mit der Einführung Exit-Strategien entwickeln, um einen Vendor Lock-in zu vermeiden.</p></li>
+<li><p>Die angestrebten Veränderung frühzeitig und offen kommunizieren, Unterstützung in Form von Dokumentation, Schulungen und Support anbieten, Ängste nehmen (sowohl bei Kolleg*innen als auch Gremien). Der Trend hin zu kollaborativen Tools sorgt für eine höhere Sichtbarkeit, das ist vielen nicht ganz geheuer. Oft ist es eine große Hemmschwelle, auf einmal für alle sichtbar in ein Wiki oder Forum zu schreiben.</p></li>
+<li><p>Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen („alte Zöpfe abschneiden“). Die Einführung zusätzlicher Werkzeuge sorgt sonst auch oft für Unverständnis, Frust und eventuell sogar Mehraufwände.</p></li>
 <li><p>Akzeptanz regelmäßig prüfen (siehe <a href="kommunikation.html#evaluation">Evaluation</a>)</p></li>
 </ul>
 <!-- Hier sollte noch etwas mehr zur Migration -->
@@ -448,22 +449,22 @@ Abbildung&nbsp;2.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartun
 </section>
 <section id="betriebsmodelle" class="level2">
 <h2 class="anchored" data-anchor-id="betriebsmodelle">Betriebsmodelle</h2>
-<p>Insbesondere serverbasierte Software, wie zum Beispiel das <a href="./bibliotheksmanagementsysteme.html">Bibliotheksmanagementsystem</a>, kann auf verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support. Die Wahl eines Betriebsmodells ist nicht nur eine betriebswirtschaftliche Entscheidung sondern beeinflusst auch strategisch die <a href="#digitale-souveränität">Digitale Souveränität</a> der Einrichtung.</p>
+<p>Insbesondere serverbasierte Software, wie zum Beispiel das <a href="./bibliotheksmanagementsysteme.html">Bibliotheksmanagementsystem</a>, kann auf verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support. Die Wahl eines Betriebsmodells ist nicht nur eine betriebswirtschaftliche Entscheidung, sondern beeinflusst auch strategisch die <a href="#digitale-souveränität">Digitale Souveränität</a> der Einrichtung.</p>
 <section id="lokale-installation" class="level3">
 <h3 class="anchored" data-anchor-id="lokale-installation">Lokale Installation</h3>
-<p>Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf oder im Abo, und installierte diese auf eigenen Servern, z.B. im Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer „on-premise“ Installation.</p>
-<p>In diesem Modell kümmert sich die Einrichtung selbst um Installation und Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und kann dazu führen, dass bei einem personellen Engpass eine Software länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups und Ausfallsicherheit selbst Gedanken machen.</p>
-<p>Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig von äußeren Einflüssen.</p>
+<p>Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf oder im Abo, und installierte diese auf eigenen Servern, z.B. im Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer „On-premise“-Installation.</p>
+<p>In diesem Modell kümmert sich die Einrichtung selbst um Installation und Updates. Folglich erfordert dieses Modell hohen Personaleinsatz und kann dazu führen, dass bei einem personellen Engpass eine Software länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups und Ausfallsicherheit selbst Gedanken machen.</p>
+<p>Auf der anderen Seite bietet dieses Modell der Einrichtung potentiell den höchsten Grad an Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig von äußeren Einflüssen.</p>
 </section>
 <section id="hosting" class="level3">
 <h3 class="anchored" data-anchor-id="hosting">Hosting</h3>
-<p>In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw. Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister kann hierbei etwa das Rechenzentrum einer Universität oder des angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten erworben werden.</p>
-<p>Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der eingesetzten Hardware können an diesen Anbieter delegiert werden. Im Falle des Hostings durch einen Bibliotheksverbund entfallen möglicherweise auch Einrichtung, Installation und Upgrades. Die Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch das Hosting für mehrere Einrichtung besser skaliert.</p>
+<p>In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw. Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister kann hierbei etwa das Rechenzentrum einer Universität oder des jeweiligen Bibliotheksverbundes sein oder ganz allgemein jeder kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten erworben werden.</p>
+<p>Sämtliche Betriebsfragen, wie Backups und Ausfallsicherheit der eingesetzten Hardware können an diesen Anbieter delegiert werden. Im Falle des Hostings durch einen Bibliotheksverbund entfallen möglicherweise auch Einrichtung, Installation und Upgrades. Die Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch das Hosting für mehrere Einrichtungen besser skaliert.</p>
 </section>
 <section id="cloud" class="level3">
 <h3 class="anchored" data-anchor-id="cloud">Cloud</h3>
-<p>Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt lediglich eine für sie konfigurierte Installation („Instanz“). Dies ist insbesondere bei webbasierten Anwendungen die bevorzugte Betriebsart, stellt aber erhöhte Anforderungen an die Anbindung lokaler Endgeräte wie z.B. <a href="bibliotheksmanagementsysteme.html#selbstverbucher-ausleihautomaten">Ausleihautomaten</a>), weil dabei eine sichere und stabile Verbindung zwischen den lokalen Automatisierungsgeräten und dem entfernt gehosteten System hergestellt werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten Hardware noch für die Pflege der genutzten Software zuständig.</p>
-<p>In der Praxis kann sich ein solches Betriebsmodell als komfortabel erweisen, da keine Personalressource für allgemeine Tätigkeiten des IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden. Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst personalsparend serverbasierte Software einzusetzen. Eine Kostenersparnis ist bei einer Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl der Endnutzer*innen führt ein solches Betriebsmodell meist zu Abonnementkosten.</p>
+<p>Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a Service) bezeichnet wird, liegt der technische Betrieb beim Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt eine für sie bestmöglich vorkonfigurierte Installation („Instanz“). Dies ist insbesondere bei webbasierten Anwendungen die bevorzugte Betriebsart, stellt aber erhöhte Anforderungen an die Anbindung lokaler Endgeräte wie z.B. <a href="bibliotheksmanagementsysteme.html#selbstverbucher-ausleihautomaten">Ausleihautomaten</a>), weil dabei eine sichere und stabile Verbindung zwischen den lokalen Automatisierungsgeräten und dem entfernt gehosteten System hergestellt werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten Hardware noch für die Pflege der genutzten Software zuständig.</p>
+<p>In der Praxis kann sich ein solches Betriebsmodell als komfortabel erweisen, da keine Personalressourcen für allgemeine Tätigkeiten des IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden. Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst personalsparend serverbasierte Software einzusetzen. Eine Kostenersparnis ist bei einer Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl der Endnutzer*innen führt ein solches Betriebsmodell meist zu Abonnementkosten.</p>
 </section>
 <section id="digitale-souveränität" class="level3">
 <h3 class="anchored" data-anchor-id="digitale-souveränität">Digitale Souveränität</h3>
@@ -485,8 +486,8 @@ Abbildung&nbsp;2.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartun
 <h2 class="anchored" data-anchor-id="betriebssicherheit-und-risikomanagement">Betriebssicherheit und Risikomanagement</h2>
 <p>Neben den Problemen der Ablösungplanung gibt es weitere Risiken des Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt vorgestellt werden.</p>
 <section id="vendor-lock-in" class="level3">
-<h3 class="anchored" data-anchor-id="vendor-lock-in">Vendor-Lock-In</h3>
-<p>Ein nicht zu unterschätzendes Risiko, welches sich aus der Einführung eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-In. Dieser beschreibt die Abhängigkeit von Produkten oder Dienstleistungen eines Anbieters durch die der gleichzeitige Einsatz von anderen Produkten oder der Wechsel zu anderen IT-Systemen erschwert wird. Durch den Einsatz von Systemen mit etablierten Standards, offenen Datenformaten und Schnittstellen sowie geeigneter Ablösungsstrategien kann das Risiko eines Vendor Lock-Ins verringert werden.</p>
+<h3 class="anchored" data-anchor-id="vendor-lock-in">Vendor Lock-in</h3>
+<p>Ein nicht zu unterschätzendes Risiko, welches sich aus der Einführung eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-in. Dieser beschreibt die Abhängigkeit von Produkten oder Dienstleistungen eines Anbieters, durch die der gleichzeitige Einsatz von anderen Produkten oder der Wechsel zu anderen IT-Systemen erschwert wird. Durch den Einsatz von Systemen mit etablierten Standards, offenen Datenformaten und Schnittstellen sowie geeigneter Ablösungsstrategien kann das Risiko eines Vendor Lock-ins verringert werden.</p>
 <p>Der Begriff des Vendor Lock-ins kann noch auf den Bereich der Fehlerbehebung und die Wartung von Software ausgedehnt werden. Im Fall von proprietärer Software, welche ohne Zugriff auf den Quellcode betrieben wird, ist die Fehlerbehebung ausschließlich Sache des Herstellers. Fällt dieser, wie oben beschrieben, aus, kann ein Betrieb aus IT-Sicherheitsperspektive nicht mehr verantwortet werden. Hinzu kommt, dass das sogenannte Reverse Engineering bzw. das Dekompilieren dieser Software in der Regel verboten ist. Mit einem <a href="https://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=247056&amp;pageIndex=0&amp;doclang=DE&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=9912038">Grundsatzurteil des EuGH aus dem Jahr 2021</a> wird dieses Verbot jedoch aufgeweicht. So ist es nun rechtmäßigen Erwerbern erlaubt, Fehler in einem Computerprogramm zu beheben und dafür auch proprietäre Software zu dekompilieren.</p>
 <p>In der Praxis sollte dieses Notfallszenario aber nicht in die Planung einbezogen werden, da die Fehlerbehebung innerhalb fremder Software unter dem Rückgriff auf Dekompilierung besondere Kenntnisse seitens des zuständigen IT-Personals voraussetzt.</p>
 </section>
@@ -503,7 +504,7 @@ Abbildung&nbsp;2.3: Schichtmodell-Bild (Platzhalter)
 </figcaption>
 </figure>
 </div>
-<p>Aus <a href="#fig-schichtmodell" class="quarto-xref">Abbildung&nbsp;<span>2.3</span></a> wird deutlich, dass moderne Software-Systeme zum Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz aus, so ist es unter Umständen möglich, die darüber liegenden Schichten auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht garantiert.</p>
+<p>Aus <a href="#fig-schichtmodell" class="quarto-xref">Abbildung&nbsp;<span>2.3</span></a> wird deutlich, dass moderne Software-Systeme zum Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben zu können, müssen die Einzelkomponenten zusammenspielen. Fällt eines der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz aus, so ist es unter Umständen möglich, die darüber liegenden Schichten auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht garantiert.</p>
 <p>Das Risiko erhöht sich, wenn im Rahmen eines Wartungsvertrags durch den Hersteller festgelegt wurde, dass zum Beispiel nur bestimmte Kombinationen aus Betriebssystem und weiterer Komponenten zugelassen sind. In diesem Fall kann ein IT-System aus der Wartung fallen, obwohl es vorerst betreibbar bleibt. Mit dem Ausfall der Wartung entfallen auch Software-Updates etc. Damit ist der mittel- bis langfristige Weiterbetrieb des Systems ohne Gefährdung der Betriebssicherheit aller IT-Systeme der Organisation nicht möglich.</p>
 </section>
 <section id="rechtliche-rahmenbedingungen" class="level3">
