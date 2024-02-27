@@ -6,7 +6,7 @@ description: Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk,
 
 :::{.callout-note}
 ## Zusammenfassung
-Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibliothek für den Betrieb von  Prozessen und Dienstleistungen wie [Verbuchung](#verbuchung), [Zugangskontrolle](#zugangskontrolle), [Internetzugang](#internetzugang) und [Arbeitsplätze](#gruppen--und-einzelarbeitsplätze). Neben [Diensten für Nutzer\*innen](#dienste-für-nutzerinnen) und der Basistechnologie [RFID](#rfdi) wird auch wesentliche [Dienste für Mitarbeiter*innen](#dienste-für-mitarbeiterinnen) beschrieben.
+Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibliothek für den Betrieb von  Prozessen und Dienstleistungen wie [Verbuchung](#verbuchung), [Zugangskontrolle](#zugangskontrolle), [Internetzugang](#internetzugang) und [Arbeitsplätze](#gruppen--und-einzelarbeitsplätze). Neben [Diensten für Nutzer\*innen](#dienste-für-nutzerinnen) und der Basistechnologie [RFID](#rfdi) werden auch wesentliche [Dienste für Mitarbeiter*innen](#dienste-für-mitarbeiterinnen) beschrieben.
 
 :::
 
@@ -15,11 +15,11 @@ Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibl
 Die technische Infrastruktur einer Bibliothek umfasst alle IT-Systeme, die die
 Prozesse und Dienstleistungen einer Bibliothek abbilden, unterstützen oder
 ergänzen. Neben dem zentralen
-[Bibliotheksmanagementsystem](#bibliotheksmanagementsysteme) zur Verwaltung und
+[Bibliotheksmanagementsystem](#bibliotheksmanagementsysteme) (BMS) (auf Englisch auch LMS genannt) zur Verwaltung und
 Bereitstellung von Bibliotheksbeständen und
-[Discovery-Systemen](#discovery-und-retrieval) zur Recherche gibt es zahlreiche
+[Discovery-Systemen](#discovery-und-retrieval) zur Recherche, gibt es zahlreiche
 weitere etablierte Anwendungen von IT in Bibliotheken. Die in diesem Kapitel
-vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in
+vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in:
 
 1.  [Allgemeine Infrastruktur](#allgemeine-infrastruktur-für-bibliotheksprozesse-und--dienste) für den grundlegenden Betrieb von Prozessen und Dienstleistungen in Bibliotheken wie Verbuchung und RFID
 
@@ -42,7 +42,7 @@ von IT-Systemen gibt es eigene Kapitel.
 
 ### Verbuchung
 
-Zur Verbuchung zählen die Ausleihe und Rückgabe sowie die Verlängerung
+Zur Verbuchung zählen die Ausleihe und Rückgabe von Medien sowie die Verlängerung
 von Leihfristen. Für automatische Verbuchung müssen entsprechende Geräte
 vorhanden sein, um die für Medien eingesetzten Identifikationsmerkmale
 (Barcodes oder [RFID]-Tags) zu lesen und ggf. auch zu
@@ -52,9 +52,9 @@ Verlängerungsvorgang durchzuführen. Hierzu muss außerdem eine
 Identifikation der Nutzer\*innen erfolgen, also das Einlesen eines Ausweises
 oder das Anmelden mit gewissen Zugangsdaten und schließlich das
 Eintragen einer Ausleihe. Da es Nutzer\*innen möglich sein sollte, die
-Rückgabe von Medien nachweisen zu können, wird bei der Rückgabe mit
-Verbuchung immer eine Quittung erzeugt. Dies erfolgt sowohl an den
-Ausleihtheken als auch bei Rückgabeautomaten. Eine weitere Möglichkeit
+Rückgabe von Medien nachweisen zu können, kann bei der Rückgabe mit
+Verbuchung auf Wunsch eine Quittung gedruckt werden. Dies ist sowohl an den
+Ausleihtheken als auch bei Rückgabeautomaten möglich. Eine weitere Möglichkeit
 ist das [Bezahlen](#bezahlung) und Begleichen von Gebühren an gleicher
 Stelle.
 
@@ -67,11 +67,12 @@ von Gebühren oder auch die Abholung von Bestellungen können mit
 Automaten weitgehend ohne Personal realisiert werden.
 
 **Ausleihautomaten** bestehen aus Lesegeräten für Ausweise, Lesegeräten
-für Medien und Entsicherungsgeräten für Buchsicherungen. Der
+für Medien und Entsicherungsgeräten für Buchsicherungen.
+Beim Einsatz von RFID-Geräten können Medien von einem RFID-Reader sowohl gelesen als auch entsichert werden. Der
 Verbuchungsprozess beinhaltet eine Anmeldung (Ausweisnummer und ggf.
 Passwort), den eigentlichen Verbuchungsprozess inklusive Entsicherung
-der Medien, Ausgabe einer Quittung auf Papier oder als E-Mail sowie eine
-manuelle oder automatisierte Abmeldung.
+der Medien, Ausgabe einer optionaler Quittung auf Papier oder als E-Mail sowie eine
+manuelle oder automatisierte Abmeldung (i.d.R. durch Wegnehmen des Benutzerausweises).
 
 **Rückgabeautomaten** sind in zwei Gruppen zu unterteilen. Im
 einfacheren Fall ist der Ausleihautomat auch gleichzeitig ein
@@ -79,10 +80,10 @@ Rückgabeautomat. Der Anmeldeprozess kann hier entfallen, denn es ist
 grundsätzlich nicht relevant, wer das Medium zurückgibt. Die
 zurückgebrachten Medien werden dann durch die Nutzer\*innen selbst auf einen
 Bücherwagen oder ein separates Regal gestellt und müssen anschließend
-durch das Bibliothekspersonal sortiert und eingestellt werden. Der
-zweite und komplexere Fall eines Rückgabeautomaten ist ein
-Eingabeschacht, der die Medien weiter transportiert, verbucht und
-sichert. Im einfachen Fall werden die Medien in einem Behälter gesammelt
+durch das Bibliothekspersonal sortiert und eingestellt werden.  
+Der zweite und komplexere Fall ist ein Rückgabeautomat mit einem
+Eingabeschacht und dahinterliegendem Förderband, auf dem die Medien weiter transportiert, verbucht und
+gesichert werden. Im einfachen Fall werden die Medien in einem Behälter gesammelt
 oder es ist ein automatisches
 [Sortiersystem](#sortiersysteme) angebunden. Medien, die
 nicht zum Bestand der Bibliothek gehören und andere Gegenstände müssen
@@ -105,7 +106,7 @@ genommen werden.
 ### Mediensicherung
 
 Mit dem Begriff wird die Methode beschrieben, am Ausgang der Bibliothek
-mittels einer Art von Schleusen Medien, ggf. auch Dinge des Interieurs,
+mittels einer Art von Schleuse (auch Gate genannt) Medien und ggf. auch Dinge des Interieurs
 zu detektieren, die gesichert und insofern unverbucht sind. Eine
 absolute Absicherung gegen Verluste ist mit dieser Methode nicht zu
 erreichen. Der vornehmliche Einsatzzweck ist daher auch weniger die
@@ -113,7 +114,7 @@ Verhinderung von vorsätzlichem Diebstahl, sondern vielmehr das Entdecken
 des versehentlichen Vergessens der Ausleihverbuchung.
 
 Im Fall von **EM-Sicherung** oder **HF-RFID** (siehe [RFID])
-werden zur Erkennung ungesicherter Medien sogenannte Gates aufgestellt,
+werden zur Erkennung ungesicherter Medien Gates aufgestellt,
 durch die Menschen beim Verlassen der Bibliothek geleitet werden. In
 diesen Gates sind die entsprechende Detektionstechnologie sowie
 Alarmsysteme (Ton und/oder Licht) verbaut. Im Fall von **UHF-RFID** kann
@@ -123,7 +124,7 @@ detektierten Medien kann auch ein Monitor verwendet werden, auf dem dann
 etwa gleich das entsprechende Buchcover angezeigt wird.
 
 Die Sicherungsanlagen können je nach Konfiguration auch als
-Besuchszähler genutzt werden. Die Aussagekraft der Zahlen ist zwar nicht
+Besucherzähler genutzt werden. Die Aussagekraft der Zahlen ist zwar nicht
 exakt, aber hilfreich genug für eine Ermittlung der Auslastung.
 
 ### Bezahlung
@@ -133,7 +134,7 @@ zahlende Beträge an. Diese werden einerseits elektronisch erzeugt und
 z.B. im Bibliothekssystem gespeichert (z.B. Überziehungsgebühren) oder
 fallen andererseits direkt an (z.B. Verkaufspreise für Dubletten,
 Tragetaschen ...). Benötigt werden dafür Geräte, die bei Bezahlung den
-Betrag direkt dem System verbuchen können, in dem die Beträge erfasst
+Betrag direkt in dem System verbuchen können, in dem die Beträge erfasst
 sind, z.B. Kassenautomaten mit Anbindung an das Bibliothekssystem. An
 diesen Automaten können sich Nutzer\*innen anmelden, erhalten eine Anzeige
 von offenen Posten und können sie direkt begleichen. Manche Bibliotheken
@@ -146,11 +147,12 @@ Bezahlvorgänge unabhängig von anwesendem Personal ermöglicht werden.
 Auch die Verbindung eines Bezahlterminals mit einem Ausleihautomaten ist
 möglich. Hier sind dann alle Prozesse für die Nutzer\*innen an einem Gerät
 abwickelbar. Es sind Ausleihautomaten am Markt, die bargeldlose
-Bezahlung mit verschiedenen Bezahlssystmene (spezielle Debit-Karten,
+Bezahlung mit verschiedenen Bezahlsystemen (spezielle Debit-Karten,
 ec-Karten ...) und/oder Bargeldzahlungen ermöglichen.
 
 Die Systeme für Bezahlung und Gebühren sind meist an die jeweiligen
 Finanzstellen einer Universität oder einer Stadt(verwaltung) angebunden.
+In Universitäten kann auch das angeschlossene Studierendenwerk als Clearingstelle verwendet werden.
 
 ### Zugangskontrolle
 
@@ -163,14 +165,14 @@ beispielsweise mit Kartenlesegeräten am Eingang oder mit einem RFID-Terminal
 lösen, welches die Bibliotheksausweise einlesen und dem Schließsystem nach
 festgelegten Regeln mitteilen kann, ob die betreffende Person zur Nutzung der
 Ressource berechtigt ist. Die Nutzung sollte außerdem kurzzeitig im Rahmen des
-Datenschutz protokolliert werden.
+Datenschutzes protokolliert werden.
 
 ### Auslastungszählung
 
 Die Ermittlung der Auslastung einer Einrichtung ist aus verschiedenen Gründen
 interessant: für statistische Zwecke, für eine Anzeige auf der Webseite als
-Service für Nutzer\*innen oder wenn für einen Notfall wichtig ist  die
-ungefähre Anzahl der im Gebäude Anwesenden zu erfahren.
+Service für Nutzer\*innen oder um im Notfall die
+ungefähre Anzahl der im Gebäude anwesenden Personen zu erfahren.
 
 Bei der Auswahl einer geeigneten Lösung muss zuerst festgelegt werden, ob eine
 exakte Zählung nötig ist, oder eine Approximation der Anwesenheitszahlen
@@ -179,7 +181,7 @@ ausreichend ist.
 Folgende Umsetzungsmöglichkeiten sind für eine exakte Zählung in Erwägung zu
 ziehen: Auswertung der Zugangskontrollsysteme; Einsatz einer Drehschranke bzw.
 Vereinzelungsanlage, die nur Einzelpersonen durchlässt; Zählung durch Personal
-und Zählung durch CV (computer vision). Andere, relativ exakte, aber doch mit
+und Zählung durch Kameras mit CV-Software (computer vision). Andere, relativ exakte, aber doch mit
 kleinen Ungenauigkeiten bei der Zählung behaftete Systeme sind die Zählung
 durch eine Lichtschranke, durch ein Radar etwa von einem Sicherungsgate (siehe
 [Zugangskontrolle]) und IR-Durchgangszähler mit Gruppenerkennung an der Decke
@@ -192,14 +194,16 @@ werden darf. Aus Datenschutzgründen ist auch der Einsatz von aufzeichnenden
 
 Für die approximative Auslastungszählung eignen sich neben anonymisierten
 Varianten der o.g. Möglichkeiten insbesondere auch die Auslastungsmessung von
-anderen Infrastruktursystemen, etwa dem öffentlich WLAN. Wenn davon ausgegangen
+anderen Infrastruktursystemen, etwa dem öffentlichen WLAN. Wenn davon ausgegangen
 werden kann, dass ein\*e Nutzer\*in (im Durchschnitt) ein Gerät im öffentlichen
 WLAN anmeldet, dann kann dies als guter Indikator dienen. Sollen die Zahlen der
 im WLAN angemeldeten Geräte zur Messung der Auslastung eines Gebäudes dienen,
 sind allerdings umfangreiche Justierungen notwendig. So zeigte sich z.B.  an
 der UB Dortmund, dass zu Prüfungszeiten die Studierenden in der UB pro Person
 jeweils mehrere Endgeräte im WLAN nutzten -- vermutlich mehrheitlich Smartphone
-und Notebook. Eine andere Möglichkeit ist die Auswertung der Nutzung von
+und Notebook.
+
+Eine andere Möglichkeit ist die Auswertung der Nutzung von
 Arbeitsplätzen, etwa der Anteil gerade aktiv genutzter öffentlicher PCs, die
 Messung von Temperaturabweichungen von Innenräumen, oder die Messung der
 Lautstärke. In Luzern wurde erfolgreich mit Sensoren in Sitzen bzw. unter
@@ -220,7 +224,7 @@ Unter Open Library werden zwei verschiedene Phänomene zusammengefasst:
 einerseits ist die [Open Library](https://openlibrary.org) ein offenes Projekt
 zum Aufbau einer digitalen Bibliothek von frei verfügbaren digitalen Büchern
 oder Digitalisaten. Andererseits bezeichnet der Begriff den Zugang zu einer
-Bibliothek durch technische Infrastruktur, ganz ohne oder mit wenigen
+Bibliothek durch technische Infrastruktur ganz ohne oder mit wenigen
 personellen Ressourcen. Einige Bibliotheken bieten auf diese Weise einen
 durchgehenden Zugang, andere Bibliotheken nutzen die Möglichkeiten, um ihre
 Öffnungszeiten zu erweitern.
@@ -268,7 +272,7 @@ bewegen.
 
 Technisch komplexer ist es nun, wenn eine solche Karte nicht nur den Standort
 des Buches, sondern gleichzeitig auch den aktuellen Live-Standort des/der Nutzer*in
-visualisieren soll. In einem solchen Fall, der etwa einer Google-Maps Karte
+visualisieren soll. In einem solchen Fall von Indoor-Navigation, der etwa einer Google-Maps Karte
 gleicht, muss zusätzlich technischer Aufwand betrieben werden, um den aktuellen
 Nutzerstandort zu ermitteln.  Im Gegensatz zu Karten und Navigationslösungen in
 Automobilen oder unterwegs mit dem Smartphone, kann allerdings innerhalb von
@@ -278,7 +282,7 @@ den Standort der Person im Raum zu ermitteln.
 
 Mögliche Ansätze sind hierbei etwa sog. Beacons, die mit Funklösungen wie
 Bluetooth und Triangulation die Position eines Mobiltelefons ermitteln, oder
-bildbasierte Lösungen, die über die Smartphonekamera bestimmte Objekte oder
+bildbasierte (AR - augmented reality) Lösungen, die über die Smartphonekamera bestimmte Objekte oder
 Marker im Raum erkennen.
 
 Die Standorte von physischen Medien sind über eine Zuordnung von Signaturen zu
@@ -289,13 +293,15 @@ hilfreich ist. So sollte ursprünglich eine Systematik am Regal den Bestand zu
 einem bestimmten Thema abbilden, man sollte über die benachbarten Bücher einen
 Überblick zu einem Thema bekommen können. Da aber bspw. E-Books nicht im Regal
 auftauchen, stellt sich die Frage nach der Aufstellung von gedruckten Medien in
-den Lesesälen neu. Eine Alternative zur systematischen Aufstellung kann die
+den Lesesälen neu.
+
+Eine Alternative zur systematischen Aufstellung kann die
 dynamische Aufstellung sein. So kann man z.B. ohne Umsignierungen temporäre
 Sammlungen bilden. Man kann darüber nachdenken, ob die Nutzer\*innen
 ausgeliehene Bücher selbst zurückgeben können, indem sie sie einfach an einen
 freien Platz im Regal stellen. Man kann die Nutzer\*innen die früher so ungeliebten
 "Nester", also die Konzentration von Büchern an einer beliebigen nicht
-systematischen Stelle, bilden lassen, sodass vielleicht auch andere von dieser
+systematischen Stelle bilden lassen, sodass vielleicht auch andere von dieser
 "eigenen" Systematik profitieren. Dies bedingt natürlich eine technische
 Lösung, mittels der die Bücher anschließend auch wiedergefunden werden, also
 irgendwie geortet werden können (siehe auch der Abschnitt [Revision]).
@@ -305,7 +311,7 @@ irgendwie geortet werden können (siehe auch der Abschnitt [Revision]).
 Medien-Sortieranlagen sind in der Regel direkt an den Rückgabeautomaten
 angeschlossen. Nutzer\*innen legen Medien in einen Schacht, in dem die Medien
 erfasst, zurückgebucht und gleichzeitig gesichert werden.  Fließbänder oder
-Rollen transportieren das Medium entsprechend vorher definierte Ziele, z.B.
+Rollen transportieren das Medium entsprechend vorher definierter Ziele, z.B.
 bestimmte Signaturbereiche, andere Zweigstellen oder vorgemerkte Medien.
 
 Die Anschaffung einer Sortieranlage ist mit hohen Kosten verbunden, sowohl für
@@ -362,8 +368,8 @@ praktisch nicht besonders hilfreich.
 
 Eine elektronisch unterstützte Inventur in HF-Bibliotheken kann auf zwei
 Arten durchgeführt werden. Die erste Möglichkeit ist das
-"Entlangwandern" an den Regalen mit einem Tischtennisschläger-artigen
-Gerät, welches an den Buchrücken entlanggeführt wird. Die Genauigkeit
+"Entlangwandern" an den Regalen mit einer Antenne, die 
+an den Buchrücken entlanggeführt wird. Die Genauigkeit
 dieser Art der Inventur ist bei weitem nicht absolut, da die
 Lesegenauigkeit stark vom Abstand/Winkel von Transponder zu Lesegerät
 abhängt (idealerweise sind Antenne und Transponder parallel
@@ -393,17 +399,17 @@ Einsatz befindlichen Roboter der Firma Metralabs aus Ilmenau scannen den
 Bestand in sogenannten "Runs", die etwa 30.000 Tags pro Stunde finden.
 Nach einem abgeschlossenen Run werden die Ergebnisse in einer CSV-Datei
 über einen Fileshare oder einfach per E-Mail geliefert. Enthalten sind
-darin u.a. Taginhalt und x,y,z-Koordinaten ausgehend von einem einmal
+darin u.a. RFID-Tag-Inhalt und x,y,z-Koordinaten ausgehend von einem einmal
 festgelegten Nullpunkt. Diese Informationen können (und müssen) dann
 weiterverarbeitet werden. Denkbar ist eine Integration in den Katalog,
 sodass in einem Lageplan der Standort des Mediums angezeigt wird,
 sobald man darauf klickt. Eine Inventur über alle Daten ist möglich,
-wenn man die Daten abgleicht mit dem ausgeliehenen Bestand und die
+wenn man die Daten mit dem ausgeliehenen Bestand abgleicht und die
 Fehlmenge ausweist. Eine Stellrevision ist etwas aufwändiger, da der
-Bestand dazu über längere Zeit überwacht werden und Abweichungen
+Bestand dazu über längere Zeit überwacht werden muss und Abweichungen
 bestimmt werden müssen -- wenn der genaue Soll-Standort jedes Mediums
-nicht in einer Tabelle erfasst ist, mit der der aktuelle Roboterdaten
-verglichen werden kann.
+nicht in einer Tabelle erfasst ist, mit der die aktuelle Roboterdaten
+verglichen werden können.
 
 Festzuhalten ist, dass auch die von den Robotern erhobenen Daten keine
 absolute Genauigkeit haben, sondern immer etwas "Schwund" enthalten. Die
@@ -422,7 +428,7 @@ Einzelne Produkte wie "smart shelves" warben mit dem Label für neue
 Dienstleistungen über den Einsatz von RFID-Technologie. Insgesamt bezieht man
 das Konzept der "smart library" auf Bibliotheken, die
 Informationstechnologien im Rahmen der Digitalisierung und Automatisierung
-auch in neuen Bereichen wie physischen Räumen, Nachaltigkeit und Vernetzung einsetzen
+auch in neuen Bereichen wie physischen Räumen, Nachhaltigkeit und Vernetzung einsetzen
 [@freyberg_smart_2019; @seeliger_smart_2019].
 
 ### RFID
@@ -474,7 +480,7 @@ Reflexionen der Normalfall sind. Eine Lokalisierung ist also nur über
 die Kombination verschiedener Verfahren in sehr vielen Messungen und
 einiger Statistiken möglich und dennoch mit einer Unsicherheit versehen.
 
-Neben Bibliotheken finden sich RFID im Alltag auch oft im Einzelhandel,
+Neben Bibliotheken finden sich RFID-Tags im Alltag auch oft im Einzelhandel,
 hier meist als Diebstahlsicherung, zur Inventur oder auch zum Erkennen
 der Artikel an der Kasse. Auch hier kommt bei neueren Installationen
 häufig RFID-UHF zum Einsatz. Kontaktlose Zahlungsmöglichkeiten auf
@@ -493,7 +499,11 @@ Stellrevision (siehe auch Abschnitt [Revision]). Auf der anderen Seite muss
 man die großen Reichweiten auch einschränken, um etwa bei Ausleihautomaten
 nicht das zu verbuchen, was sich in einem größeren Abstand befindet. Dies
 erfordert Kenntnisse in der Justage der Leistung und Signalstärke der
-eingesetzten Antennen (Dortmund) oder Abschirmung derselben (Wien).
+eingesetzten Antennen (Dortmund) oder Abschirmung derselben (Wien).  
+An Personalplätzen können auch die aus Metall bestehenden Verstärkungen
+unter den Tischen zu großen Störungen führen und es sollten daher
+unbedingt abgeschirmte Antennen eingesetzt werden.
+
 
 Ein sichtbarer Unterschied der Transponder ist bedingt durch die beiden
 Funkfrequenzen HF (High Frequency: 13,56 MHz) und UHF (Ultra High Frequency:
@@ -531,11 +541,13 @@ HF Transponder und UHF Transponder
 
 Das unterschiedliche Layout der Transponder ist für das Einkleben in Büchern
 wenig relevant. Beide Arten werden bei der Herstellung auf Folie aufgebracht.
-Man unterscheidet verschiedene Ausprägungen der Weiterverarbeitung: "dry naked"
-bezeichnet einen fortlaufenden Folienstreifen. auf den Chips und Antennen in
+Man unterscheidet verschiedene Ausprägungen der Weiterverarbeitung:  
+"dry naked" bezeichnet einen fortlaufenden Folienstreifen, auf dem Chips und Antennen in
 gewissen Abständen aufgebracht sind. Hier gibt es keine Stanzung und keine
-Klebefläche.  "wet inlay" hingegen bezeichnet eine Weiterverarbeitung, die
-Klebemasse auf Trägerfolie enthält und gestanzt ist. Weitere Verarbeitung sorgt
+Klebefläche.  
+"wet inlay" hingegen bezeichnet eine Weiterverarbeitung, die
+Klebemasse auf Trägerfolie enthält und gestanzt ist.  
+Weitere Verarbeitung sorgt
 auf Wunsch für Papieroberfläche, sodass die Transponder auch bedruckt werden
 können. Hersteller von RFID-Transpondern (in der klebenden Version auch "Tags"
 genannt) liefern oft nur "dry naked", weiter verarbeitete Tags beschafft man
@@ -555,14 +567,15 @@ Buchsicherung beispielsweise an Ausgängen verwendet werden, die ungefähre Grö
 einer mittelgroßen Person und es werden üblicherweise zwei sich
 gegenüberstehende Antennen zu einem "Gate" kombiniert, nicht zuletzt um die
 Leseentfernung auf ca. 80-100 cm zu verdoppeln und der Kontrolle der
-Transponder beim passieren einer Person durch das Gate zu ermöglichen. Ein
+Transponder beim Passieren einer Person durch das Gate zu ermöglichen. Ein
 solches Gate ist sichtbar, muss in die Architektur des Eingangsbereiches einer
 Bibliothek integriert werden und kann ggf. auch ein Hindernis darstellen
 (Rollstuhlfahrer, Fluchtwege). Für andere Anwendungen ist der Größenunterschied
 der Antennen der beiden Frequenzbereiche weniger relevant, wenn auch nicht
 komplett zu vernachlässigen: Eine Inventur mit HF bedingt eine gewisse Nähe der
 Sende/Empfangsantenne zu den Medien, ansonsten müssten die Antennen Ausmaße von
-mehreren Metern haben. Bei UHF hingegen werden auch Medien in größerer
+mehreren Metern haben.  
+Bei UHF hingegen werden auch Medien in größerer
 Entfernung erkannt (siehe auch im Abschnitt [Revision]).  Typische
 Bibliotheks-Vorgänge wie die Ausleihe oder Rückgabe, egal ob an einer Theke
 oder an einer Selbstbedienungsstation, erfordern eine Lesereichweite von 0 bis
@@ -571,7 +584,7 @@ etwa ähnliche Größe der Antennen ergibt, ist bei diesen Anwendungen der
 optische Unterschied der Geräte nicht sehr offensichtlich. Bedeutsam für diese
 Anwendungen ist allerdings die Anzahl der gleichzeitig im Stapel gut lesbaren
 Medien: bei HF sind es unter optimalen Voraussetzungen ca. 3 bis 8 Medien (je
-nach Größe bzw. Dicke) bei UHF ist diese Zahl nicht wirklich beschränkt.
+nach Größe bzw. Dicke), bei UHF ist diese Zahl nicht wirklich beschränkt.
 Beispielsweise werden im Extremfall problemlos 20 bis 30 Medien in einem Stapel
 gleichzeitig erkannt.
 
@@ -583,8 +596,8 @@ weniger Platz als auf einem HF Tag. So wenig sogar, dass bei vielen üblichen
 Tags nicht beliebig lange Informationen auf einen Tag geschrieben werden
 können, sondern sich explizit darüber Gedanken machen muss, welche Daten
 gespeichert werden sollen. Es existieren allerdings auch spezielle Tags mit
-großem Speicher, auf denen man etwa das Dänische [Datenmodell](#datenmodelle)
-finden kann.
+großem Speicher, auf denen man etwa das in Bibliotheken weit verbreitete sogenannte
+Dänische [Datenmodell](#datenmodelle) finden kann.
 
 RFID-Tags können in verschiedenen Dingen eingebracht werden, so gibt es Tags in
 Büchern, Schlüsselanhängern sowie auch mobile devices (NFC, Smartphones). Nicht
@@ -648,18 +661,18 @@ Fragen:
 In den letzten Abschnitten schon angeklungen ist der Unterschied von HF und UHF,
 wodurch sich in den meisten Fällen die Frage der Technologiewahl als erste
 stellt. Als Faustregel kann hier festgestellt werden, dass die schon
-langjährige Verbreitung von HF im DACH-Raum dazu geführt hat, dass einige
-Anbieter mit Standardlösungen am Markt sind und für die meisten Anwendungsfälle
+langjährige Verbreitung von HF im DACH-Raum (DACH == D-A-CH == Deutschland - Österreich - Schweiz) dazu geführt hat, dass einige
+Anbieter mit Standardlösungen am Markt sind und die meisten Anwendungsfälle
 abgedeckt sind, inkl. dem Migrationspfad von Barcodes.
 
 Bei der Migration an sich geht es dann zumeist darum, das
-Identifikationsmerkmal eines Mediums auf ein RFID-Tag abzubilden. Hier
+Identifikationsmerkmal eines Mediums auf einem RFID-Tag zu speichern. Hier
 existieren mehrere Ansätze: Es kann ein RFID-Tag "von der Stange" ohne
 Beschreiben in ein Buch eingebracht werden, dessen eindeutiger Identifikator
 ausgelesen und -- zumeist im BMS -- mit dem jeweiligen Medium verknüpft werden.
 Eine andere Möglichkeit wäre das Beschreiben des RFID-Tags mit einem
 Identifikator, etwa der Mediennummer, einer eindeutigen Signatur oder einer
-komplexeren Datentstruktur wie dem Dänischen Datenmodell (siehe folgender
+komplexeren Datenstruktur wie dem Dänischen Datenmodell (siehe folgender
 Abschnitt).
 
 Schließlich muss der Prozess der Migration gewählt und durchgeführt werden. Das
@@ -697,7 +710,7 @@ eventuell offline verfügbar auf dem Chip sein sollten. Aus den Elementen kann
 für jedes Land ein "Profil"« zusammengestellt werden. ISO 28560 Teil 2 basiert
 wiederum auf ISO 15962 und den oben genannten OIDs. Er wird in den
 angelsächsischen Ländern stark propagiert. In diesen Ländern sind bisher
-vorwiegend proprietäre Datenmodelle im Einsatz, das Dänische Modell kaum
+vorwiegend proprietäre Datenmodelle im Einsatz, das Dänische Modell ist kaum
 verbreitet. ISO 28560 Teil 3 entspricht zu fast hundert Prozent dem Dänischen
 Datenmodell. Es ist im Vergleich zum Teil 2 zwar fest kodiert, aber deutlich
 einfacher strukturiert (Kern2014).
@@ -790,12 +803,15 @@ Code 40 gelesen werden, ein Verfahren mit dem man Text kompakt darstellen kann
 BASED ON THE UPU S10 CODE, USING THE ISO/IEC 18000-63 PROTOCOL, Version 1.0,
 Februar 2017, Seite 33ff).  Damit ergibt sich der Text "DE2". Die letzten
 beiden Byte sollen hier einfach als Zahl gelesen werden. Die hexadezimale Zahl
-B6EA wird im Dezimalraum zu 46826. Das Beispielhafte RFID-Tag würde hier also
+B6EA wird im Dezimalraum zu 46826. Das beispielhafte RFID-Tag würde hier also
 etwa eine Präfixkennung DE2 für die Bibliothek enthalten, sowie eine
 fortlaufende Mediennummer. Würden wir vereinbaren, auch URN40 für die letzten
 zwei Byte des Speichers zu nutzen, so hätten wir nur die Möglichkeit, Zahlen
 von 000 bis 999 (bzw. dann auch dreistelligen Text) zu encodieren. Daher die
 wechselnde Encodierung.
+
+In Bibliotheken enthält das RFID-Tag auch ein sog. AFI-Bit (application family 
+indicator), das zur Medien- bzw. Buchsicherung verwendet wird.
 
 Komplexere Datenmodelle, wie das Dänische Datenmodell, brauchen
 demzufolge deutlich mehr Speicherplatz, um auf ein Tag zu passen.
@@ -810,9 +826,9 @@ entsprechende Kommunikation zwischen RFID-Gerät und Tag auslösen. Je
 nach Technologie (HF, UHF bzw. sogar nach technischer Spezifikation der
 Tags, SLI, SLI-S, SLI-X) existieren verschiedene Kommandos, die
 verschiedene Aktionen mit einem Tag auslösen. Ohne in technische Details
-zu gehen lassen sich diese Kommandos grob wie folgt abstrahieren: READ,
+zu gehen, lassen sich diese Kommandos grob wie folgt abstrahieren: READ,
 WRITE, SECURE, UNSECURE, KILL, PROTECT. Dies entspricht der natürlichen
-Interaktion mit den Tags, etwa beim Inventarisieren neuer Bücher
+Interaktion mit den Tags etwa beim Inventarisieren neuer Bücher
 (WRITE), dem Verbuchen (READ, dann UNSECURE) oder dem Durchschreiten
 eines Gates (prüfen auf SECURED).
 
@@ -827,7 +843,7 @@ RFID-Tags können auf zwei Arten manipuliert werden: Einerseits kann man
 mittels geeigneter Hardware (im Falle von RFID-HF genügt ein Smartphone)
 den Inhalt eines nicht schreibgeschützten Tags verändern. Dies betrifft
 sowohl das Sicherungsbit (das Gate schlägt also nicht mehr an, wenn ein
-so manipuliertes Medium herausgetragen wird) als auch den gesamten Tag
+so manipuliertes Medium herausgetragen wird), als auch den gesamten Tag
 Inhalt, sodass das Medium von der Infrastruktur der Bibliothek nicht
 mehr verarbeitet werden kann. Andererseits kann man die meisten UHF-Tags
 und manche HF-Tags mit einem einfachen Befehl zerstören, also dauerhaft
@@ -847,7 +863,7 @@ auf das betreffende Medium schließen.
 #### Anbindung von RFID-Infrastruktur an BMS
 
 Damit ein Gerät einer RFID-Infrastruktur mit dem Rest der Systeme einer
-Bibliothek, insbesondere dem [BMS](#bibliotheksmanagementsysteme),
+Bibliothek, insbesondere dem [BMS](#bibliotheksmanagementsysteme)
 kommunizieren kann, muss es über entsprechende Schnittstellen angebunden
 werden. Bei der Anschaffung sollte daher darauf geachtet werden, dass die
 Anlage etwa die standardisierten Schnittstellen wie SIP2 oder NCIP nutzt, um
@@ -863,11 +879,11 @@ Gerät an einen lokalen Computer angesteckt werden muss.
 
 Im Vergleich zu Barcode-Lesern, die den Inhalt eines gelesenen Barcodes meist
 einfach als Tastatureingaben an die Position des Cursors am Bildschirm
-ausgeben, können RFID-Geräte aufgrund der auch komplexen Inhalte von RFID-Tags
+ausgeben, können RFID-Geräte aufgrund der komplexen Inhalte von RFID-Tags
 (siehe [Datenmodelle]) auch mittels Programmierschnittstellen aus dem BMS
-oder anderen Systemen angesprochen werden. Die Logik der Interpretation des des
-Taginhalts liegt hierbei dann beim BMS, oder bei einer Zwischensoftware
-("Proxy") die zwischen Reader und BMS vermittelt.
+oder anderen Systemen angesprochen werden. Die Logik der Interpretation des
+Taginhalts liegt hierbei dann beim BMS oder bei einer Zwischensoftware
+("Proxy"), die zwischen Reader und BMS vermittelt.
 
 #### Medienarten
 
@@ -894,21 +910,21 @@ Erkennungsrate in einem Sicherheitsgate ist somit unrealistisch.
 
 RFID-Transpoder sind natürlich nicht geeignet für Medien, bei denen eine
 Unwucht störend ist (Schallplatten, CDs), sie sollten dabei auf der Außenhülle
-angebracht weren. Bei CDs ist zusätzlich der Metallanteil der CD störend.
+angebracht werden. Bei CDs ist zusätzlich der Metallanteil der CD störend.
 
 Dazu kommt, dass RFID-Tags unterschiedlicher Hersteller und Arten
 unterschiedlich auf verschiedene Umgebungen reagieren. Für UHF wird vom
-Unternehmen EECC eine Studie herausgegeben die die physikalischen Eigenschaften
+Unternehmen EECC eine Studie herausgegeben, die die physikalischen Eigenschaften
 von verschiedenen Tags untersucht [@noauthor_uhf_2022]. Um diese Studie nutzen
 zu können, sind allerdings fundierte physikalische Kenntnisse notwendig,
-alternativ kann die Firma um mit einer Empfehlung beauftragt werden, wie 2019
+alternativ kann die Firma mit der Aussprache einer Empfehlung beauftragt werden, wie 2019
 in der UB Dortmund geschehen.
 
 Nach Einführung von RFID ist das Weiterführen von Barcodes zur Identifikation
 zwar nicht mehr zwangsläufig erforderlich, es ergeben sich aber zwei Vorteile,
 insofern weiterhin der Barcode mit am oder im Medium angebracht wird. Durch den
 Barcode kann das Medium weiterhin maschinenlesbar identifiziert werden. Falls
-RFID Komponenten mal ausfallen sollten, kann mit dem Barcode traditionell
+RFID Komponenten ausfallen sollten, kann mit dem Barcode traditionell
 weiter gearbeitet werden. Wenn außerdem (wie meist üblich) unter dem Barcode
 auch die im Barcode codierten Zeichen mit zu sehen sind, können auch Menschen
 das Medium bzw. den Band problemlos eindeutig identifizieren.  Barcodes können
@@ -925,7 +941,7 @@ vision) können es ermöglichen, ganz ohne technisch lesbare
 Identifikationsmerkmale ein Buch zu erkennen und zu verarbeiten. Bei einer
 solchen Lösung wird mittels einer Kamera das Äußere eines Mediums aufgenommen
 und erkannt und kann somit weiterverarbeitet werden. Um das Medium einer
-Bibliothek zuzuordnen kann weiterhin etwa ein Aufkleber auf dem Buchen, z.B.
+Bibliothek zuzuordnen kann weiterhin etwa ein Aufkleber auf dem Buch, z.B.
 ein Signaturetikett auf dem Rücken, erkannt werden, um das Buch der Bibliothek
 zuordnen zu können und ggf. mehrere Exemplare auseinander halten zu können.
 
@@ -952,7 +968,7 @@ insofern immer teurer.
 
 Eine Internetpräsenz ist für eine öffentliche Einrichtung mittlerweile
 unabdingbar und dient vielen Nutzer\*innen als Erstkontaktmöglichkeit,
-Arbeitsmittel und Informtionsplattform gleichermaßen.
+Arbeitsmittel und Informationsplattform gleichermaßen.
 
 Eine technische Basis für eine Onlinepräsenz wird manchmal von hiesigen
 Verwaltungen oder Rechenzentren gestellt, allerdings sollte auch hier darauf
@@ -1048,12 +1064,12 @@ digital weiternutzen.
 
 In der Praxis zeigt sich jedoch bisher, dass Smartboards meistens nur
 als großer Monitor mit extern angeschlossenem Notebook oder integriertem
-Computer genutzt wird. Ein Angebot von derartigen Projektionsflächen
+Computer genutzt werden. Ein Angebot von derartigen Projektionsflächen
 lässt sich auch kostengünstiger realisieren.
 
 In einigen Bibliotheken werden auch komplette Workspaces für große
 Gruppen angeboten. Für die gezielte Nutzung von speziell ausgestatteten
-Arbeitsplätzen kann das Angebot einer Platz- bzw. Raumbuchungslösung
+Arbeitsplätzen kann das Angebot einer Sitzplatz- bzw. Raumbuchungslösung
 nützlich sein. Das Buchungssystem lässt sich auf der Homepage oder in
 einer Service-App einbinden und kann auf diesem Weg ebenso wie andere
 Dienstleistungen genutzt werden.
@@ -1091,13 +1107,13 @@ eigenen Dateien sehen und keinen Zugriff auf Dateien von anderen
 Personen erhalten. Dies wird z.B. durch persönliche Nutzerprofile
 (gebunden an das Benutzerkonto) oder systemseitige Rücksetzung aller
 Einstellungen (Gastzugänge) erreicht. Zum Betrieb solcher "Kiosksysteme"
-gibt es entsprechende Software. Auch der Einsatz von Thin-Clients ist in
+gibt es entsprechende Software. Der Einsatz von Thin-Clients ist in
 diesem Bereich sinnvoll.
 
 Auch bei der Freigabe der Nutzung von Speichermedien sollten
 Sicherheitsvorkehrungen getroffen werden, beispielsweise vorgeschaltete
 automatische Virenprüfungen. Eine Sperre von externen Speichermedien
-wäre auch denkbar, jedoch spricht die aktuelle Nachfrage dagegen.
+wäre ebenfalls denkbar, jedoch spricht die aktuelle Nachfrage dagegen.
 
 Hinweise zur Einrichtung eines öffentlichen WLAN in Bibliotheken gibt der
 Abschnitt zum [Internetzugang].
@@ -1153,7 +1169,7 @@ eines niedrigschwelligen Zugangs zu neuen (technischen) Entwicklungen, die der
 breiten Öffentlichkeit -- in der Regel aus Kostengründen -- sonst nicht zur
 Verfügung stehen. Beispiele für Angebote in Makerspaces sind:
 
-- 3D Drucker
+- 3D-Drucker
 
 - Geräte zur Holz/Metallverarbeitung
 
@@ -1194,7 +1210,7 @@ komplett digitaler Ausweis über die App im besten Fall.
 Wildau als Beispiel mit UNIDOS hat eine Integration des Bibliothekskontos, mit
 der Möglichkeit der Anzeige aller entliehenen Medien und der Verlängerung
 dieser. Bewerkstelligt wird die Funktion via SIP2-Schnittstelle. Zusätzlich
-können Discovery-Systeme sowie eine Raumbuchung verlinkt bzw direkt via App
+können Discovery-Systeme sowie eine Raumbuchung verlinkt bzw. direkt via App
 ermöglicht werden.
 
 ### Technische Beratung und Schulungen
@@ -1275,7 +1291,7 @@ gibt es verschiedene Werkzeuge zur synchronen und asynchronen Kommunikation von
 **Telefon** über **E-Mail** und **Chats** bis zu **Videokonferenzsystemen**.
 
 Neben der reinen Kommunikation dienen [bereitgestellte Werkzeuge](#werkzeuge)
-wie **Wikis** und **Ticketsystem** auch der Zusammenarbeit und Erstellung von
+wie **Wikis** und **Ticketsysteme** auch der Zusammenarbeit und kollaborativen Erstellung von
 Inhalten.
 
 ### Fileservices
@@ -1283,7 +1299,7 @@ Inhalten.
 Dienstlich genutzte Dateien sollten an zentraler Stelle abgelegt werden,
 damit sie in eine Backup-Lösung eingeschlossen werden können und damit
 die Möglichkeit besteht, sie mit anderen Menschen auszutauschen.
-Entweder wird dazu einen klassischer Fileserver wie zum Beispiel *Windows
+Entweder wird dazu ein klassischer Fileserver wie zum Beispiel *Windows
 Server* genutzt, oder es kommt eine Cloudlösung wie *Nextcloud* zum
 Einsatz. Zusätzlich oder alternativ kann ein
 [Dokumentenmanagementsystem](#dokumentenmanagementsysteme) genutzt werden.
