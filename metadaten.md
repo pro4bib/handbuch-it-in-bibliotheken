@@ -376,12 +376,10 @@ Einteilung von bibliographischen Entitäten in die Beschreibungsebenen
 
 Die **BIBFRAME**-Ontologie wurde entwickelt, um MARC auf Grundlage von
 RDF zu ersetzen. Die wesentlichen Elemente sind "work", "instance" und
-"item" sowie damit verbundene Eigenschaften und Entitätstypen (siehe @fig-bibframe).
+"item" sowie damit verbundene Eigenschaften und Entitätstypen.
 
 **Schema.org** ist eine allgemeine Ontologie für strukturierte Daten in
 Webseiten.
-
-![Hauptbestandteile des Datenmodell BIBFRAME](media/bibframe2-model.jpg){#fig-bibframe}
 
 ### Verlagsdaten und Literaturangaben
 
