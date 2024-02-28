@@ -34,7 +34,7 @@ zusammengefasst, die Wissenschaftler\*innen im gesamten
 Forschungsprozess unterstützen und die überwiegend im Kontext von
 digitalem Wandel und Open Science angesiedelt sind
 (<https://www.o-bib.de/bib/article/view/5718>).
-Dazu zählen z.B. Services in den Bereichen [Forschungsdatenmanagement],
+Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
 Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die
@@ -221,12 +221,12 @@ wissenschaftliche Ergebnisse etabliert, seien es [Forschungsdaten], textuelle
 Publikationen, Softwarecode oder andere Materialien (siehe @fig-informationstypen). Für die wissenschaftliche Kommunikation
 ist die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
 sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form
-erhalten werden, das heißt nicht verändert oder gelöscht werden. Da
+erhalten werden, d. h. nicht verändert oder gelöscht werden. Da
 Internetadressen als flüchtig gelten, werden zur Identifikation [Persistent
 Identifier-Systeme](#persistent-identifier) eingesetzt. Die Zitierfähigkeit und
 damit der langfristige, möglichst originalgetreue Erhalt der einmal
 eingestellten Informationen grenzen Repositorien gegenüber anderen
-Arbeitsplattformen wie Sync-and-Share-Plattformen (z.  B. *Nextcloud*),
+Arbeitsplattformen wie Sync-and-Share-Plattformen (z. B. *Nextcloud*),
 Content-Management-Systemen (zur Erstellung von Blogs und Internetseiten) sowie
 virtuellen Forschungsumgebungen (mit integrierten Funktionen z. B. für die
 Datenanalyse) ab.
@@ -243,7 +243,7 @@ stehen. Einige Repositorien widmen sich gezielt der Sammlung
 bestimmter Datentypen (z. B. Preprint- oder Publikationsserver,
 Forschungsdatenrepositorien, Bilddatenbanken etc.). Insbesondere im
 Bereich Forschungsdaten und OER gibt es seitens
-der Nutzer\*innen häufig den Wunsch, dass in Repositorien eine
+der Nutzenden häufig den Wunsch, dass in Repositorien eine
 interaktive Arbeit mit den Materialien möglich ist. Derzeit sind
 Repositorien in der Regel noch ausschließlich auf die sichere
 Speicherung und Bereitstellung der Inhalte ausgerichtet - eine
@@ -272,7 +272,7 @@ werden. Darüber hinaus wird der Begriff Repository auch für
 Versionsverwaltungssysteme wie *Git* verwendet, die vorwiegend von
 Softwareprojekten genutzt werden, um es einer geschlossenen oder offenen
 Community zu ermöglichen, transparent und konfliktfrei zur Codebasis des
-jeweiligen Projekts beizutragen. Unter anderem
+jeweiligen Projekts beizutragen. U. a.
 *[Zenodo](https://www.zenodo.org)* erlaubt über eine
 Schnittstelle zum Code-Verwaltungssystem *GitHub* die Archivierung von
 Softwareprojekten und ähnlichem entsprechend den Konventionen von
@@ -281,7 +281,7 @@ DOIs.
 
 :::
 
-Das *Open Directory of Open Access Repositories (OpenDOAR)* stellt [Statistiken
+Das *[Open Directory of Open Access Repositories](http://v2.sherpa.ac.uk/opendoar/)* (*OpenDOAR*) stellt [Statistiken
 über die Verbreitung von
 Softwarelösungen](https://v2.sherpa.ac.uk/view/repository_visualisations/1.html)
 für Repositorien für Forschungsergebnisse bereit: Meistgenutztes System
@@ -326,7 +326,7 @@ Umfrageergebnisse). Klar davon abzugrenzen sind
 
 :::
 
-![Darstellungen des Forschungsdatenlebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus}
+![Darstellungen des Forschungsdaten-Lebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus}
 
 Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt, wie in
 @fig-fis-fdm dargestellt, im Bereich Publikationen. Während sich allerdings
@@ -339,11 +339,11 @@ und [Forschungssoftware](#forschungssoftware) mit ein.
 
 Services zum Forschungsdatenmanagement sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
-gesamten Forschungsdatenlebenszyklus hinweg, d. h. von der Datenplanung
+gesamten Forschungsdaten-Lebenszyklus hinweg, d. h. von der Datenplanung
 über die Datenerhebung und -analyse bis hin zur Datenarchivierung,
 -publikation und -nachnutzung. Bibliotheken nehmen beim Aufbau und
 Betrieb entsprechender Services eine zentrale Rolle ein - in aller Regel
-sind sie hierbei nicht die einzigen Akteure, sondern das
+sind sie hierbei nicht die einzigen Akteur\*innen, sondern das
 Serviceportfolio wird arbeitsteilig von
 Bibliotheken, Rechenzentren, Forschungsabteilungen und ggf. weiteren
 Akteur\*innen angeboten. Angesichts der großen Heterogenität an
@@ -385,7 +385,7 @@ einrichtungs- oder programmspezifischen Daten anzureichern, wurden
 bereits einige Software-Werkzeuge entwickelt. In Deutschland verbreitet
 einem von der Deutschen Forschungsgemeinschaft (DFG) geförderten Projekt entstandene 
 *[Research Data Management Organizer](https://rdmorganiser.github.io/)* (*RDMO*), für
-den, unterstützt durch NFDI-Konsortien, ständig neue Fragenkataloge
+den, unterstützt durch *NFDI*-Konsortien, ständig neue Fragenkataloge
 in einer Gemeinschaftsarbeit entwickelt werden. Obwohl einige
 öffentliche Instanzen der Software existieren, die z. B. einen Login
 über die *ORCID* ermöglichen, kann die Open-Source-Software auch selbst
@@ -395,7 +395,7 @@ kollaborativ erstellt werden, indem Personen als Mitarbeitende in
 das eigene Projekt eingeladen werden. Für EU-Projekte ist mit Stand 2023
 die Software *[ARGOS](https://argos.openaire.eu/)*
 verfügbar, die eine direkte Einbindung der DMP in die
-*[EOSC](https://eosc-portal.eu/)* ermöglicht. Für Software
+*European Open Science Cloud* (*[EOSC](https://eosc-portal.eu/)*) ermöglicht. Für Software
 als Forschungsdatum beginnen sich Softwaremanagementpläne zu etablieren.
 
 ### Elektronische Laborbücher
@@ -419,7 +419,7 @@ fachspezifische Lösung. Eine [Handreichung zur Einführung eines
 *ELN*](https://doi.org/10.17192/bfdm.2023.5.8553) an der
 eigenen Einrichtung wurde 2023 von einer einrichtungsübergreifenden
 Autor\*innengruppe erstellt. Open-Source-*ELN* erfahren häufig
-Unterstützung durch NFDI-Konsortien. Der daraus entstandene Wunsch
+Unterstützung durch *NFDI*-Konsortien. Der daraus entstandene Wunsch
 eines einheitlichen Transferformats der Laborbucheinträge und
 gemeinsamer Spezifikationen wird im *[ELN
 Consortium](https://github.com/TheELNConsortium)*
@@ -437,8 +437,8 @@ das die notwendigen Protokolle versteht. Neben dem großen Anbieter *GitHub* gib
 es die lokal zu installierende Software *GitLab*, um ein solches Repositorium in
 der eigenen IT-Infrastruktur bereitzustellen. Durch die im Protokoll
 integrierte Versionskontrolle der Daten lassen sich Änderungen im Code einfach
-nachvollziehen und gegebenenfalls zurückrollen. Kollaborative Arbeit in
-verteilten Teams wird zum Beispiel über eine parallele Entwicklungsstruktur in
+nachvollziehen und ggf. zurückrollen. Kollaborative Arbeit in
+verteilten Teams wird z. B. über eine parallele Entwicklungsstruktur in
 "branches" ermöglicht, die mit dem Hauptprojekt zu einem gewünschten Zeitraum
 zusammengeführt werden können.  Bei diesem Funktionsumfang wird schnell klar,
 dass *Git* auch jenseits der forschungsnahen Dienste eine Vielzahl von
@@ -447,9 +447,9 @@ verwiesen.  Eine Möglichkeit, die Funktion der Software spielerisch zu
 erkunden, bietet beispielsweise die vom Bundesministerium für Bildung und
 Forschung geförderte Webseite [ohmygit.org](https://ohmygit.org).
 
-*[Forschungssoftware](#forschungssoftware) lässt sich, nicht nur wegen der
+[Forschungssoftware](#forschungssoftware) lässt sich, nicht nur wegen der
 Verwaltung mit Git oder ähnlichen Programmen, nicht einfach komplett analog zu
-den Forschungsdaten behandeln, sondern bedarf eines genaueren Blicks.*
+den Forschungsdaten behandeln, sondern bedarf eines genaueren Blicks.
 
 ## Forschungssoftware
 
@@ -510,7 +510,7 @@ eine Betrachtung der kompletten [Toolchain](#toolchains) notwendig macht.
 ## Definition
 
 **Forschungsinformationen** sind Angaben über Aktivitäten, Ergebnisse und
-Infrastrukturen von Forschungsprozessen wie zum Beispiel Projekte,
+Infrastrukturen von Forschungsprozessen wie z. B. Projekte,
 Publikationen und Forschungseinrichtungen. Davon zu unterscheiden sind
 [Forschungsdaten].
 
@@ -579,14 +579,14 @@ Softwarelösungen zum Einsatz. Es zeigt sich ein vielgestaltiges Bild aus
 kommerziellen Produkten (z. B. *PURE*, *Converis*, *HISinOne-RES*), Open
 Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
 deutschen Forschungseinrichtungen wird mittlerweile häufig *HISinOne-RES*
-genutzt - befördert unter anderem durch Landesinitiativen wie *CRIS.NRW*,
+genutzt - befördert u. a. durch Landesinitiativen wie *CRIS.NRW*,
 *HeFIS* oder *FIS-Thüringen* sowie den Umstand, dass es aktuell das einzige
 Produkt am Markt ist, dessen Datenmodell direkt am **Kerndatensatz Forschung
 (KDSF)** ausgerichtet ist.  Obwohl sich ein Rückgang an Eigenentwicklungen
 andeutet, sind sie immer noch weit verbreitet. Des Weiteren gibt es die bereits
 lange etablierten kommerziellen Systeme *Converis* und *PURE*. Der Einsatz von
 Open Source-Lösungen wie *DSpace-CRIS* und *VIVO* nimmt erst in den letzten
-Jahren merklich zu -- unter anderem befördert durch das Verbundprojekt Hamburg
+Jahren merklich zu -- u. a. befördert durch das Verbundprojekt Hamburg
 Open Science.
 
 An vielen Einrichtungen besteht das Bestreben, dass das FIS zusätzlich die
@@ -599,7 +599,7 @@ zwischen FIS und Repositorium zu entwickeln. Dem entgegen stehen die
 verschiedenen Zielsetzungen beider Systeme: Während es bei einem FIS vor allem
 darum geht, möglichst alle Forschungsaktivitäten z. B. einer Einrichtung in
 einem System zu erfassen, steht bei einem Repositorium die nachhaltige
-Bereitstellung der Ressourcen selbst im Vordergrund (z.  B. textuelle
+Bereitstellung der Ressourcen selbst im Vordergrund (z. B. textuelle
 Publikationen oder Forschungsdaten). Ein Problem bei Mischsystemen ergibt sich
 auch hinsichtlich Retrieval und Zugriff: So werden Forschende bei einer Suche
 in externen Suchmaschinen z. B. erst im FIS feststellen, dass nur bei einem
@@ -656,7 +656,7 @@ Optionen eigene Dienste weiterzuentwickeln.
 Schon im *[Bethesda Statement on Open Access
 Publishing](http://legacy.earlham.edu/~peters/fos/bethesda.htm)*
 taucht das Stichwort Interoperabilität in Zusammenhang mit Repositorien
-auf. Dazu gibt es verschiedene technische Ansätze (siehe unter anderem
+auf. Dazu gibt es verschiedene technische Ansätze (siehe u. a.
 unten "[Schnittstellen](#schnittstellen)"). Neben den technischen Voraussetzungen, um
 Inhalte zu teilen, braucht es jedoch auch eine Einigung über die
 inhaltliche Aufbereitung der Informationen. Repositorien nutzen dazu
@@ -665,10 +665,10 @@ die DINI AG Elektronisches Publizieren und die DINI AG
 Forschungsinformationssysteme das *[Gemeinsame Vokabular für
 Publikations- und Dokumenttypen](https://doi.org/10.18452/24147)*
 herausgegeben. Im Sinne der Standardisierung enthält das DINI-Zertifikat
-weitere Vorgaben, wie zum Beispiel die Klassifizierung nach zumindest
+weitere Vorgaben, wie z. B. die Klassifizierung nach zumindest
 den DDC-Sachgruppen der Deutschen Nationalbibliografie und macht
 Vorgaben an die Ausgestaltung der *OAI-PMH*-Schnittstelle. Diese Standards
-ermöglichen es Diensten wie zum Beispiel der *Bielefeld Academic Search
+ermöglichen es Diensten wie z. B. der *Bielefeld Academic Search
 Engine* und anderen Aggregatoren Inhalte aus verschiedenen Quellen
 einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 
@@ -701,8 +701,8 @@ zwischen und mit Repositorien, auch wenn so gut wie jede
 Repositoriensoftware intern deutlich mehr Metadatenschemata unterstützt
 und nutzt. Es wird zwischen *Simple* und *Qualified Dublin Core*
 unterschieden. *Simple Dublin Core* besteht aus 15 Elementen, in *Qualified
-Dublin Core* können ergänzend *Qualifier* genutzt werden. So kann zum
-Beispiel das Element dc.contributor weiter spezifiziert werden als
+Dublin Core* können ergänzend *Qualifier* genutzt werden. So kann z. B.
+das Element dc.contributor weiter spezifiziert werden als
 dc.contributor.author, dc.contributor.translator,
 dc.contributor.illustrator und so weiter. Von der *Dublin Core Metadata
 Initiative* wurde später das Metadatenschema *DCMI Terms* geschaffen,
@@ -784,7 +784,7 @@ Eigenschaften und Semantik.  Aktuell ist
 *[PREMIS](https://www.loc.gov/standards/premis/)* in der LZA der wichtigste
 Metadatenstandard. Das Datenmodell beinhaltet alle Informationen, die man
 sowohl über die digitalen Objekte selbst (z. B.  Name, Dateiformat, Größe) als
-auch über Akteure, Rechte (z. B.  AccessRights, Embargofristen) und Prozesse
+auch über Akteur*innen, Rechte (z. B.  AccessRights, Embargofristen) und Prozesse
 (z. B. Konvertierung, Migrationen, Reparatur, Formatvalidierung) wissen
 sollte. 
 
@@ -802,7 +802,7 @@ Tools und Workflows zur LZA vorgestellt. Als wichtige
 Anlaufstelle für Fragen rund um die digitale LZA dient
 außerdem das *[Kompetenznetzwerk nestor](https://www.langzeitarchivierung.de/)*, 
 dessen Geschäftsstelle an der DNB
-angesiedelt ist. Auch die NFDI behandelt "[Long-term Archival
+angesiedelt ist. Auch die *NFDI* behandelt "[Long-term Archival
 (LTA)](https://doi.org/10.5281/zenodo.6451456)" in der [Sektion
 "Common Infrastructures"](https://www.nfdi.de/section-infra/) als
 Querschnittsthema.
@@ -816,7 +816,7 @@ Protocol for Metadata
 Harvesting](https://www.openarchives.org/pmh/)* (*OAI-PMH*)
 für den Austausch von Metadaten durchgesetzt. Dieses Protokoll wird
 inzwischen auch im Zusammenspiel mit anderen forschungsnahen Diensten
-wie zum Beispiel FIS genutzt. Das Protokoll tauscht Metadaten in XML
+wie z. B. FIS genutzt. Das Protokoll tauscht Metadaten in XML
 aus. Es unterstützt mehrere Metadatenformate, wobei die Spezifikation
 von *OAI-PMH* nur *Dublin Core* vorgibt und das Protokoll vorsieht, dass man
 eine Liste mit weiteren unterstützten Formaten abrufen kann.
@@ -840,11 +840,11 @@ einem Bildpool, Umgang mit Zugriffsbeschränkungen, Objektänderungen und
 so weiter.
 
 *OAI-PMH* und *SWORD* werden zum Teil zwar auch über Repositorien hinaus
-verwendet, zum Beispiel bei FIS. Verbreitung
+verwendet, z. B. bei FIS. Verbreitung
 und Einsatz beschränken sich jedoch weitgehend auf den Bereich der
 forschungsnahen Dienste. Als weiter verbreitete Prinzipien zur
 Bereitstellung von Informationen muss *Linked Data* gesehen werden. Die
-Bereitstellung der Repositorieninhalte als *Linked Data* wird zum Beispiel
+Bereitstellung der Repositorieninhalte als *Linked Data* wird z. B.
 von *DSpace* unterstützt, in der Praxis jedoch leider noch viel zu selten
 aktiviert und genutzt.
 
@@ -904,7 +904,7 @@ und im Hinblick auf den Nutzen für die Forschenden betrachtet werden.
 Dazu ist es wichtig, für jeden der Dienste, die an einer Einrichtung
 genutzt werden, ein klares Profil zu erstellen. Hierbei muss
 insbesondere geklärt werden, wie sich die Dienste voneinander abgrenzen,
-damit Nutzer\*innen klar kommuniziert werden kann, welcher Dienst wofür
+damit Nutzenden klar kommuniziert werden kann, welcher Dienst wofür
 verwendet wird.
 
 Gleichzeitig muss auch das Zusammenspiel der einzelnen Dienste
