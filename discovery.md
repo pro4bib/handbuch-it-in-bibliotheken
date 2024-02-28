@@ -16,10 +16,10 @@ Aufbau und [Betrieb](#betrieb) gegeben.
 ## Einleitung
 
 Als Discovery-Systeme werden Rechercheplattformen bezeichnet, die möglichst
-alle Dienste einer Bibliothek über einen einheitlichen Zugang nutzbar machen.
+verfügbaren Ressourcen über einen einheitlichen Zugang nutzbar machen.
 Insbesondere beschränken sich die recherchierbaren Medien nicht nur auf den
-lokalen Bestand. Die Benutzung und der Funktionsumfang orientieren sich dabei
-an gängigen Suchmaschinen und Verzeichnissen im Web.
+lokalen Bibliotheksbestand. Die Benutzung und der Funktionsumfang von Discovery-Systemen
+orientieren sich dabei an gängigen Suchmaschinen und Verzeichnissen im Web.
 
 ## Ursprung und Motivation von Discovery-Systemen
 
@@ -38,13 +38,13 @@ zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von
 Produkten kommerzieller Anbieter\*innen und einige Open Source-Projekte.
 Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter
 wie Verbundzentralen, Hersteller\*innen und kommerzielle Dienstleister\*innen betrieben
-werden. Die Hersteller kommerzieller Bibliotheksmanagementsysteme der neueren
+werden. Die Hersteller\*innen kommerzieller Bibliotheksmanagementsysteme der neueren
 Generation bieten Discovery-Systeme an, die besonders gut mit dem
 [BMS](bibliotheksmanagementsysteme.md) der gleichen Hersteller\*innen
 zusammenarbeiten.
 
 Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
-(Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server ...) ist die
+(Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server etc.), ist die
 Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände
 gemeinsam zugänglich zu machen.
 
@@ -54,19 +54,19 @@ gemeinsam zugänglich zu machen.
 
 Ein Discovery-System umfasst verschiedene Komponenten. Dazu gehören
 
-- eine Benutzungs- oder Rechercheoberfläche ([Frontend]),
+- eine Benutzungs- oder Rechercheoberfläche ([Frontend](#frontend) bzw. User Interface),
 
-- der [Suchindex] (ein oder mehrere Quell-Indizes) sowie die operativen Aspekte
+- der [Suchindex](#suchindex) (ein oder mehrere Quell-Indizes)
 
-- [ETL-Prozesse] und
+- [ETL-Prozesse](metadaten.md#etl-prozess) und
 
 - die Konfiguration der Rechercheoberfläche.
 
 Angebunden ist häufig auch eine Komponente zur [Authentifizierung und Autorisierung](infrastruktur.md#authentifizierung-und-autorisierung).
 
-#### Frontend
+#### Frontend {#frontend}
 
-Die Rechercheoberfläche (User Interface) umfasst typischerweise eine
+Die Rechercheoberfläche (Frontend bzw. User Interface) umfasst typischerweise eine
 Startseite, eine einfache und eine erweiterte Suche, eine Trefferliste mit
 Facetten sowie eine Detailseite. Mitunter sind auf der Startseite
 auch thematische Sucheinstiege verfügbar, z.B. ein Browsing über eine
@@ -80,7 +80,7 @@ zu größeren Veränderungen im Seitenaufbau, je nachdem, welcher Art das
 eingesetzte System ist (Eigenentwicklung auf Open Source-Basis, gehostetes
 kommerzielles System o.Ä.).
 
-#### Suchindex
+#### Suchindex {#suchindex}
 
 Zentraler Bestandteil eines Discovery-Systems sind auf Grundlage etablierter
 Suchmaschinentechnologie wie *Apache Solr* und *Elasticsearch* entwickelte
@@ -100,17 +100,16 @@ Datenkollektionen.
 Einige Discovery-Systeme können Suchanfragen gleichzeitig an mehrere
 Suchindizes senden und die Treffer aus den unterschiedlichen Suchindizes in
 einer Gesamtliste zusammenführen. Dies setzt allerdings eine Koordination der
-genutzten Suchindizes voraus. Dieser Aufbau ermöglicht es den Bibliotheken
-auch, verschiedene Datenquellen in ihrem Discovery-System gemeinsam zugänglich
+genutzten Suchindizes voraus. Dieser Aufbau ermöglicht es Bibliotheken
+verschiedene Datenquellen in ihrem Discovery-System gemeinsam zugänglich
 zu machen. Teils werden die Quellen selbst ausgewertet (z.B. Harvesting der
-Daten des eigenen Katalogs, relevanter Repositorien ...), teils werden dafür
+Daten des eigenen Katalogs, relevanter Repositorien etc.), teils werden dafür
 andere freie oder kommerzielle Suchindizes (K10plus-Zentral, Gemeinsamer
-Verbünde Index, EBSCO-Discovery-Index, ExLibris Central Discovery Index ...)
+Verbünde Index, EBSCO-Discovery-Index, ExLibris Central Discovery Index etc.)
 genutzt.
 
 Die Daten, die in Suchindizes aufgenommen werden sollen, werden im Rahmen eines
-[ETL-Prozess] aus verschiedenen Datenquellen (Kataloge/BMS, Repositorien,
-bibliographische Fachdatenbanken ...) gesammelt, konvertiert und dann in den
+[ETL-Prozess](metadaten.md#etl-prozess) aus verschiedenen Datenquellen gesammelt, konvertiert und dann in den
 Suchindex geladen. Für jede Quelle muss dieser Prozess entsprechend
 eingerichtet und für Aktualisierungen regelmäßig ausgeführt werden.
 
@@ -129,7 +128,7 @@ spezielle Daten ermittelt. Diese Facetten-Daten sind technisch gesehen
 Suchbegriffe und dienen der nachträglichen Verfeinerung der Trefferliste.
 Beispiele für Facetten, die zur Einschränkung genutzt werden, sind
 Namen von Autor\*innen, Schlagwörter, Medienarten, Standorte physischer 
-Medien oder auch Kennzeichnung von Open Access-Material und Vieles mehr).
+Medien, die Kennzeichnung von Open Access-Material und vieles mehr).
 
 ### Funktionen
 
@@ -144,7 +143,7 @@ enthalten, weitere Dienste integriert und eine Personalisierung möglich sein.
 
 Hauptfunktionen des Discovery-Systems sind die Recherche, die Anzeige von
 Metadaten und die Hinführung zur Nutzung der Medien. Im Einzelnen geht es um
-folgende Punkte:
+folgende Funktionalitäten:
 
 - einfache Suche ohne Spezifizierung eines Suchfeldes
 
