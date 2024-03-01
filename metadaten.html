@@ -302,7 +302,7 @@ Zusammenfassung
 </div>
 <section id="einleitung" class="level2">
 <h2 class="anchored" data-anchor-id="einleitung">Einleitung</h2>
-<p>Für die Sammlung und Bereitstellung von Informationen werden von Bibliotheken Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten …) nachgewiesen. Zur Verwaltung der Ressourcen werden diese mit <strong>Metadaten</strong> beschrieben. Neben diesen Metadaten beinhalten bibliothekarische Informationssysteme zunehmend auch Dokumente selbst als <strong>digitale Inhalte</strong> wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel <a href="./digitalisierung.html">Digitalisierung</a> und <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>). Viele der im Folgenden beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten gelten sowohl für Metadaten als auch für digitale Inhalte.</p>
+<p>Für die Sammlung und Bereitstellung von Informationen werden von Bibliotheken Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten …) nachgewiesen. Zur Verwaltung der Ressourcen werden diese mit <strong>Metadaten</strong> beschrieben. Neben diesen Metadaten enthalten bibliothekarische Informationssysteme zunehmend auch die dazugehörigen <strong>digitalen Inhalte</strong> wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel <a href="./digitalisierung.html">Digitalisierung</a> und <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>). Viele der im Folgenden beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten gelten sowohl für Metadaten als auch für digitale Inhalte.</p>
 </section>
 <section id="grundlegende-begrifflichkeiten" class="level2">
 <h2 class="anchored" data-anchor-id="grundlegende-begrifflichkeiten">Grundlegende Begrifflichkeiten</h2>
@@ -344,7 +344,7 @@ Zusammenfassung
 <tr class="even">
 <td style="text-align: left;"><code>a</code></td>
 <td style="text-align: left;">Unterfeld für Haupttitel</td>
-<td style="text-align: left;">Feld <code>021A</code> im PICA+ K10plus-Format</td>
+<td style="text-align: left;">Feld <code>021A</code> im PICA+ Format</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><code>a</code></td>
@@ -427,7 +427,7 @@ Tabelle&nbsp;5.2: Einige Bestandteile des XML-Formats
 <li><p><strong>Abfragesprachen</strong> dienen dem Verweis auf einzelne Teile von Datensätzen. Sie beziehen sich ebenfalls immer auf eine Strukturierungssprache (zum Beispiel XPath für XML, JSON Path für JSON …) und sind für die Verarbeitung von Daten notwendig.</p></li>
 <li><p><strong>Modellierungssprachen</strong> helfen bei der Beschreibung von Datenmodellen. Die häufigsten Modellierungssprachen basieren auf dem Entity-Relationship-Modell. Da zwischen Syntax und Semantik irgendwann die reine Datenebene verlassen werden muss, sind die wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und Beschreibungen in natürlicher Sprache.</p></li>
 </ul>
-<p>Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft, viele häufige Fehler bei der (Meta-)Datenverarbeitung zu vermeiden. Ein Beispiel hierfür ist das <em>Resource Description Framework</em> (<em>RDF</em>) mit dazugehörigen Schemasprachen (<em>SHACL</em>/<em>ShEx</em>), Abfragesprachen (<em>SPARQL</em>) und Modellierungssprachen (<em>RDFS</em>/<em>OWL</em>). In anderen Fällen wird aus Mangel an Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und stattdessen auf allgemeine Programmiersprachen zurückgegriffen.</p>
+<p>Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft, häufig auftretende Fehler bei der (Meta-)Datenverarbeitung zu vermeiden. Ein Beispiel hierfür ist das <em>Resource Description Framework</em> (<em>RDF</em>) mit dazugehörigen Schemasprachen (<em>SHACL</em>/<em>ShEx</em>), Abfragesprachen (<em>SPARQL</em>) und Modellierungssprachen (<em>RDFS</em>/<em>OWL</em>). In anderen Fällen wird aus Mangel an Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und stattdessen auf allgemeine Programmiersprachen zurückgegriffen.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -515,7 +515,7 @@ Definition
 </div>
 <div class="callout-body-container callout-body">
 <p>Eine <strong>Ontologie</strong> ist ein Datenmodell, das verschiedene Klassen und Eigenschaften in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener Datenquellen von Linked Data bis hin zu umfangreichen Wissensgraphen ermöglicht.</p>
-<p>Im Gegensatz zu einfacheren Formen von <a href="#normdaten">Normdaten</a> geht es bei Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit „Bank“ das Gleiche wie „Sitzbank“ oder ein Geldinstitut gemeint?) sondern auch um Eigenschaften und Beziehungen (Beispiel: mögliche Größe, Material und Ort von Bänken). <strong>Wissensgraphen</strong> enthalten neben Ontologien auch konkrete Daten über Instanzen der Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an einem Ort).</p>
+<p>Im Gegensatz zu einfacheren Formen von <a href="#normdaten">Normdaten</a> geht es bei Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit „Bank“ das Gleiche wie „Sitzbank“ oder wie „Geldinstitut“ gemeint?) sondern auch um Eigenschaften und Beziehungen (Beispiel: mögliche Größen, Materialien und Orte von Bänken). <strong>Wissensgraphen</strong> enthalten neben Ontologien auch konkrete Daten über Instanzen der Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an einem Ort).</p>
 </div>
 </div>
 <p><strong>Dublin Core</strong> bzw. das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
@@ -553,7 +553,7 @@ Info
 </section>
 <section id="etl-prozess" class="level3">
 <h3 class="anchored" data-anchor-id="etl-prozess">ETL-Prozess</h3>
-<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System beschrieben. <a href="#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>5.1</span></a> illustriert den generellen ETL-Prozess.</p>
+<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein <a href="./discovery.html">Discovery-System</a> beschrieben. <a href="#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>5.1</span></a> illustriert den generellen ETL-Prozess.</p>
 <div id="fig-etl" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-etl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -566,7 +566,7 @@ Abbildung&nbsp;5.1: Allgemeiner Ablauf eines ETL-Prozesses
 </div>
 <section id="extraktion" class="level4">
 <h4 class="anchored" data-anchor-id="extraktion">Extraktion</h4>
-<p>Ziel der <strong>Extraktion</strong> (Extract) ist die Auswahl und der Abzug relevanter Daten aus verschiedenen Datenquellen. Hierbei handelt es sich primär um einen technischen Vorgang, das sogenannte <strong>Harvesting</strong>, welcher automatisiert oder manuell gestartet werden kann. Der Aufwand und die Qualität des Harvestings können je nach Datenquelle sehr unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien, Datenbanken bzw. Datenbankabzüge, <a href="#schnittstellen">Schnittstellen</a> oder eher unstrukturierte Quellen wie Websites, die zunächst mittels Screenscraping erschlossen werden müssen.</p>
+<p>Ziel der <strong>Extraktion</strong> (Extract) ist die Auswahl und der Abzug relevanter Daten aus verschiedenen Datenquellen. Hierbei handelt es sich primär um einen technischen Vorgang, das sogenannte <strong>Harvesting</strong>, welcher automatisiert oder manuell gestartet werden kann. Der Aufwand und die Qualität des Harvestings können je nach Datenquelle sehr unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien, Datenbanken bzw. Datenbankabzüge, <a href="#schnittstellen">Schnittstellen</a> als auch unstrukturierte Quellen wie z. B. Websites, die mittels Screenscraping erschlossen werden müssen.</p>
 <p>Der Extraktionsvorgang erfolgt bei Bedarf regelmäßig, um die Daten im Zielsystem aktuell zu halten. Mögliche Aktualisierungsintervalle sind:</p>
 <ul>
 <li><p><strong>periodisch</strong>, das heißt in zeitlich regelmäßigen Abständen unabhängig von der jeweiligen Aktualisierung der Daten in den Quellsystemen</p></li>
@@ -574,11 +574,11 @@ Abbildung&nbsp;5.1: Allgemeiner Ablauf eines ETL-Prozesses
 <li><p><strong>manuell</strong>, beispielsweise wenn Daten aus Quellsystemen ad hoc importiert werden sollen. Manuelle Aktualisierungen bieten sich vor allem an, wenn der Inhalt der Datenquellen weitestgehend statisch ist, da die dauerhaft verlässliche Aktualisierung im Zielsystem ohne Automatismus nicht garantiert ist.</p></li>
 </ul>
 <p>Der Extraktionsvorgang ist technisch relativ einfach handhabbar, wenn strukturierte <a href="#datenformate">Datenformate</a> und/oder <a href="#schnittstellen">Schnittstellen</a> existieren – die wesentlichen Aufwände finden sich dann im nachfolgenden Transformationsschritt. Anders sieht es aus, wenn beispielsweise Daten manuell eingesammelt werden müssen oder Screenscraping notwendig ist. Beim <em>Screenscraping</em> müssen aufwändig Extraktionsskripte erstellt werden, um Daten aus Webseiten in ein strukturiertes Format zu überführen. Diese Skripte sind zudem sehr fehleranfällig und müssen jedes Mal angepasst werden, wenn die Betreiber*innen der Datenquelle Veränderungen vornehmen.</p>
-<p>Die extrahierten Daten werden in einem sogenannten Arbeitsbereich abgelegt und dort im nächsten Prozessschritt aufbereitet.</p>
+<p>Die extrahierten Daten werden in einem Arbeitsbereich abgelegt und dort im nächsten Prozessschritt aufbereitet.</p>
 </section>
 <section id="transformation" class="level4">
 <h4 class="anchored" data-anchor-id="transformation">Transformation</h4>
-<p>Daten aus verschiedenen Quellsystemen liegen zumeist in unterschiedlichen Formaten mit unterschiedlichen Datenmodellen vor. Neben Unterschieden in der Syntax können gleiche Sachverhalte auch auf semantischer Ebene unterschiedlich beschrieben sein, da die Daten mitunter für abweichende Anwendungsfälle erfasst wurden. So müssen beispielsweise in einem Discovery-System Metadaten zur einfachen Beschreibung so aufbereitet werden, dass sie auch erweiterte Suchstrategien unterstützen.</p>
+<p>Daten aus verschiedenen Quellsystemen liegen zumeist in unterschiedlichen Formaten mit unterschiedlichen Datenmodellen vor. Neben Unterschieden in der Syntax können gleiche Sachverhalte auch auf semantischer Ebene unterschiedlich beschrieben sein, da die Daten mitunter für abweichende Anwendungsfälle erfasst wurden. So müssen beispielsweise in einem <a href="./discovery.html">Discovery-System</a> Metadaten zur einfachen Beschreibung so aufbereitet werden, dass sie auch erweiterte Suchstrategien unterstützen.</p>
 <p>Ziel der <strong>Transformation</strong> ist es, alle Daten in ein einheitliches Format mit gemeinsamen Datenmodell zu überführen. Dieses Zielformat wird beim ETL-Prozess auch als <em>Schema</em> bezeichnet. Die Vereinheitlichung des Schemas (<em>Mapping</em>) ist ein wesentlicher Schritt jeder Datenkonvertierung. Zur Minimierung des Transformationsaufwands dienen gemeinsame Standards wie <em>MARC21</em> als Austauschformat oder die einheitliche Verwendung von RDF-Ontologien.</p>
 <p>Über die einfache Konvertierung hinaus sind im Rahmen der Transformation oft weitere Aufbereitungen zur Vereinheitlichung und Verbesserung der Datenqualität notwendig. Beispiele hierfür sind:</p>
 <ul>
@@ -593,7 +593,7 @@ Abbildung&nbsp;5.1: Allgemeiner Ablauf eines ETL-Prozesses
 </section>
 <section id="laden" class="level4">
 <h4 class="anchored" data-anchor-id="laden">Laden</h4>
-<p>Auf die Transformation folgt beim <strong>Laden</strong> (Load) die Überführung der vereinheitlichten Daten in das Zielsystem – beispielsweise in den Suchindex eines Discovery-Systems. Dabei dürfen nur Datensätze in Produktivsysteme übernommen werden, die den Transformationsschritt erfolgreich durchlaufen haben, während für Test- und Entwicklungssysteme andere Regeln möglich sind.</p>
+<p>Auf die Transformation folgt beim <strong>Laden</strong> (Load) die Überführung der vereinheitlichten Daten in das Zielsystem – beispielsweise in den Suchindex eines <a href="./discovery.html">Discovery-Systems</a>. Dabei dürfen nur Datensätze in Produktivsysteme übernommen werden, die den Transformationsschritt erfolgreich durchlaufen haben, während für Test- und Entwicklungssysteme andere Regeln möglich sind.</p>
 <p>Das Laden selbst ist ein technisch beherrschbarer Schritt, welcher optimalerweise darauf abzielt, das Zielsystem ohne Ausfallzeiten aktuell zu halten. Bei Änderungen des Schemas muss deshalb besonders darauf geachtet werden, gleichzeitig entsprechende Anpassungen im Zielsystem vorzunehmen. Daneben ist es bei absehbaren Änderungen ratsam, das Schema und die Verarbeitung von Daten im Zielsystem von vornherein flexibel zu gestalten.</p>
 </section>
 <section id="umsetzung-des-etl-prozesses" class="level4">
@@ -635,7 +635,7 @@ Abbildung&nbsp;5.1: Allgemeiner Ablauf eines ETL-Prozesses
 <li><p>Die <strong><a href="https://reconciliation-api.github.io/specs/draft/">Reconciliation Service API</a></strong> ermöglicht den Abgleich mit Normdaten zur eindeutigen Referenzierung (siehe Abschnitte zu <a href="#identifikatoren">Identifikatoren</a> und zu <a href="#normdaten">Normdaten</a>).</p></li>
 <li><p>Die APIs des <em><a href="https://iiif.io/">International Image Interoperability Framework</a></em> (<strong>IIIF</strong>) ermöglicht die Referenzierung und Nutzung digitalisierter Werke in externen Werkzeugen durch gezielte Verlinkung auf einzelne Bestandteile.</p></li>
 <li><p>Über <strong>SPARQL</strong>-Schnittstellen können RDF-Daten aus Wissensgraphen wie zum Beispiel Wikidata abgerufen werden.</p></li>
-<li><p>Verschiedene Schnittstellen zur Authentifizierung und Autorisierung wie <em>LDAP</em>, <em>Shibboleth</em> und <em>OAuth</em>.</p></li>
+<li><p>Schnittstellen zur Authentifizierung und Autorisierung wie <em>LDAP</em>, <em>Shibboleth</em> und <em>OAuth</em>.</p></li>
 </ul>
 <p>Darüber hinaus bieten die meisten Anwendungen eigene, meist interne Schnittstellen, zum Beispiel die Solr-API der Suchplattform <em>Apache Solr</em>. Besonders im Bereich <a href="./forschungsnahe-dienste.html">Forschungsnaher Dienste</a> gibt es weitere, spezialisierte Schnittstellen.</p>
 </section>
