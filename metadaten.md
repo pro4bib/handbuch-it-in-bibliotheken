@@ -20,8 +20,8 @@ in Bibliotheken erläutert.
 Für die Sammlung und Bereitstellung von Informationen werden von Bibliotheken
 Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten ...)
 nachgewiesen. Zur Verwaltung der Ressourcen werden diese mit
-**Metadaten** beschrieben. Neben diesen Metadaten beinhalten bibliothekarische
-Informationssysteme zunehmend auch Dokumente selbst als **digitale Inhalte**
+**Metadaten** beschrieben. Neben diesen Metadaten enthalten bibliothekarische
+Informationssysteme zunehmend auch die dazugehörigen **digitalen Inhalte**
 wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel
 [Digitalisierung] und [Forschungsnahe Dienste]). Viele der im Folgenden
 beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten
@@ -54,7 +54,7 @@ Kodierung Daten betrachtet und verarbeitet werden (siehe @tbl-daten-ebenen):
   `2024-02-24`   Der 24. Februar 2024          ISO 8601
   `1100001`      Die Zahl 97 (64+32+1)         Byte als Zahl
   `97`           Der Buchstabe "a"             ASCII oder Unicode
-  `a`            Unterfeld für Haupttitel      Feld `021A` im PICA+ K10plus-Format
+  `a`            Unterfeld für Haupttitel      Feld `021A` im PICA+ Format
   `a`            Unterfeld für Umfangsangabe   Feld `300` im MARC21 Format
 
 : Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen {#tbl-daten-ebenen}
@@ -158,8 +158,8 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
   wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und
   Beschreibungen in natürlicher Sprache.
 
-Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft, viele
-häufige Fehler bei der (Meta-)Datenverarbeitung zu vermeiden. Ein Beispiel
+Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft,
+häufig auftretende Fehler bei der (Meta-)Datenverarbeitung zu vermeiden. Ein Beispiel
 hierfür ist das *Resource Description Framework* (*RDF*) mit dazugehörigen
 Schemasprachen (*SHACL*/*ShEx*), Abfragesprachen (*SPARQL*) und
 Modellierungssprachen (*RDFS*/*OWL*). In anderen Fällen wird aus Mangel an
@@ -169,6 +169,7 @@ stattdessen auf allgemeine Programmiersprachen zurückgegriffen.
 ::: {.callout-tip} 
 
 ## Info
+
 **Reguläre Ausdrücke** sind das gängigste Mittel zur Beschreibung der Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach Mustern durchsucht werden. Ein regulärer Ausdruck für die Syntax einer ISBN-13 mit optionalen Trennstrichen ist beispielsweise:
   
     (97[89])-?([0-9]{1,5})-?([0-9]+)-?([0-9]+)-?[0-9]
@@ -355,8 +356,8 @@ Datenquellen von Linked Data bis hin zu umfangreichen Wissensgraphen ermöglicht
 
 Im Gegensatz zu einfacheren Formen von [Normdaten](#normdaten) geht es bei
 Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit
-"Bank" das Gleiche wie "Sitzbank" oder ein Geldinstitut gemeint?) sondern auch
-um Eigenschaften und Beziehungen (Beispiel: mögliche Größe, Material und Ort
+"Bank" das Gleiche wie "Sitzbank" oder wie "Geldinstitut" gemeint?) sondern auch
+um Eigenschaften und Beziehungen (Beispiel: mögliche Größen, Materialien und Orte
 von Bänken). **Wissensgraphen** enthalten neben Ontologien auch konkrete Daten
 über Instanzen der Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an
 einem Ort).
@@ -452,7 +453,7 @@ verbindet, wird als **ETL-Prozess** bezeichnet. Der Prozess aus drei zentralen
 Schritten "Extract", "Transform" und "Load" stammt ursprünglich aus dem Bereich
 des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im
 Folgenden wird er am Beispiel der Integration von Metadaten in ein
-Discovery-System beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
+[Discovery-System](discovery.md) beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
 
 ![Allgemeiner Ablauf eines ETL-Prozesses](media/Metadaten_ETLprozess.svg){#fig-etl}
 
@@ -465,7 +466,7 @@ welcher automatisiert oder manuell gestartet werden kann. Der Aufwand
 und die Qualität des Harvestings können je nach Datenquelle sehr
 unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien,
 Datenbanken bzw. Datenbankabzüge, [Schnittstellen](#schnittstellen)
-oder eher unstrukturierte Quellen wie Websites, die zunächst mittels
+als auch unstrukturierte Quellen wie z. B. Websites, die mittels
 Screenscraping erschlossen werden müssen.
 
 Der Extraktionsvorgang erfolgt bei Bedarf regelmäßig, um die Daten im
@@ -495,7 +496,7 @@ Format zu überführen. Diese Skripte sind zudem sehr fehleranfällig und müsse
 jedes Mal angepasst werden, wenn die Betreiber\*innen der Datenquelle Veränderungen
 vornehmen.
 
-Die extrahierten Daten werden in einem sogenannten Arbeitsbereich abgelegt und
+Die extrahierten Daten werden in einem Arbeitsbereich abgelegt und
 dort im nächsten Prozessschritt aufbereitet.
 
 #### Transformation
@@ -504,7 +505,7 @@ Daten aus verschiedenen Quellsystemen liegen zumeist in unterschiedlichen
 Formaten mit unterschiedlichen Datenmodellen vor. Neben Unterschieden in der
 Syntax können gleiche Sachverhalte auch auf semantischer Ebene unterschiedlich
 beschrieben sein, da die Daten mitunter für abweichende Anwendungsfälle erfasst
-wurden. So müssen beispielsweise in einem Discovery-System Metadaten zur
+wurden. So müssen beispielsweise in einem [Discovery-System](discovery.md) Metadaten zur
 einfachen Beschreibung so aufbereitet werden, dass sie auch erweiterte
 Suchstrategien unterstützen.
 
@@ -551,7 +552,7 @@ gerät.
 
 Auf die Transformation folgt beim **Laden** (Load) die Überführung der
 vereinheitlichten Daten in das Zielsystem – beispielsweise in den Suchindex
-eines Discovery-Systems. Dabei dürfen nur Datensätze in Produktivsysteme
+eines [Discovery-Systems](discovery.md). Dabei dürfen nur Datensätze in Produktivsysteme
 übernommen werden, die den Transformationsschritt erfolgreich durchlaufen
 haben, während für Test- und Entwicklungssysteme andere Regeln möglich sind.
 
@@ -694,7 +695,7 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
 - Über **SPARQL**-Schnittstellen können RDF-Daten aus Wissensgraphen wie zum
   Beispiel Wikidata abgerufen werden.
 
-- Verschiedene Schnittstellen zur Authentifizierung und Autorisierung
+- Schnittstellen zur Authentifizierung und Autorisierung
   wie *LDAP*, *Shibboleth* und *OAuth*.
 
 Darüber hinaus bieten die meisten Anwendungen eigene, meist interne
