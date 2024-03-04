@@ -52,9 +52,9 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
  
 - [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
  
-### Bibliothekspezifische Dienste
+### Bibliotheksspezifische Dienste
  
-- [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Informationssysteme für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
+- [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Anwendungen für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
  
 - [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
  

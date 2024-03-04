@@ -161,7 +161,7 @@ folgende Funktionalitäten:
 Die Suche in Discovery-Systemen nutzt in der Regel verschiedene Funktionen der
 Suchmaschinentechnologie, um einen eingegebenen Suchbegriff gegen den Index
 abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma "beste
-Treffer" statt "exakte Treffer" mehr Treffer als Bibliothekskataloge
+Treffer" statt "exakte Treffer" mehr Suchergebnisse als Bibliothekskataloge
 [@steilen_discovery-systeme_2012]. Sie nutzen außerdem Algorithmen für die
 Relevanzsortierung (*Ranking*), um die Trefferlisten möglichst nutzungsorientiert
 aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von

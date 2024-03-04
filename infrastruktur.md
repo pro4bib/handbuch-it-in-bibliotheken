@@ -701,19 +701,19 @@ vorherigen Absatz.
 #### Datenmodelle
 
 Für die Inhalte von HF-Tags in Bibliotheken wurde das sogenannte "Dänische
-Datenmodell" spezifiziert, welches später in der ISO-Norm ISO 28560 Teil 3
-aufgegangen ist. Generell wird das Datenmodell in der ISO 28560 spezifiziert.
+Datenmodell" spezifiziert, welches später in der ISO-Norm ISO 28560 Teil
+3 aufgegangen ist. Generell wird das Datenmodell in der ISO 28560 spezifiziert.
 Sie enthält heute drei Teile mit folgendem Inhalt: ISO 28560-1 enthält eine
 Beschreibung vielfältiger, für Bibliotheken denkbarer Datenfelder. Dies sind
 neben der Mediennummer auch der Titel von Büchern und weitere Daten, welche
 eventuell offline verfügbar auf dem Chip sein sollten. Aus den Elementen kann
 für jedes Land ein "Profil"« zusammengestellt werden. ISO 28560 Teil 2 basiert
-wiederum auf ISO 15962 und den oben genannten OIDs. Er wird in den
-angelsächsischen Ländern stark propagiert. In diesen Ländern sind bisher
+wiederum auf ISO 15962 und den oben genannten OIDs (object identifier). Er wird
+in den angelsächsischen Ländern stark propagiert. In diesen Ländern sind bisher
 vorwiegend proprietäre Datenmodelle im Einsatz, das Dänische Modell ist kaum
 verbreitet. ISO 28560 Teil 3 entspricht zu fast hundert Prozent dem Dänischen
 Datenmodell. Es ist im Vergleich zum Teil 2 zwar fest kodiert, aber deutlich
-einfacher strukturiert (Kern2014).
+einfacher strukturiert @Kern2014.
 
 Als Referenz für das Datenmodell auf einem Tag dient die Norm ISO 28560 in drei
 Teilen:
@@ -763,7 +763,7 @@ Barcodes und RFID-Tags erläutert, wie so etwas funktioniert.
 **Barcodes** sind weit verbreitet, beispielsweise auf Produkten im Supermarkt.
 Meistens steht unter einem Barcode im Klartext, welche Nummern- oder
 Buchstabenfolge sich hinter einem Barcode verbirgt.  Allerdings ist nicht jeder
-Barcode wie ein anderer. Es existieren verschiedene Formate, die sich darin
+Barcode wie ein anderer. Es gibt verschiedene Formate, die sich darin
 unterscheiden, durch welche Strich- und Leerplatzfolge jeweils einzelne Zeichen
 dargestellt werden. Je weniger Zeichen von einem Barcodeformat unterstützt
 werden sollen, desto weniger Striche werden pro Zeichen benötigt und desto
@@ -949,17 +949,17 @@ Bisher ist kein solches System aktiv im Einsatz; die Erkennung von Objekten ist
 jedoch ein aktives Forschungsthema.
 
 Vollständige Automatisierung ist in Bibliotheken auch möglich mit
-Barcodeverbuchung und EM-Sicherung. Wenn die Barcodes vorn außen am Buch
-angebracht sind, können sie auch von Ausleihautomaten und Rückgabeautomaten
-gelesen und verarbeitet werden. EM-Sicherung wird realisiert mittels
-magnetisierbaren Streifen, die mit doppelt klebendem Film in den Falz der
-Bücher geklebt wird. Diese Streifen sind über separate Geräte magnetisierbar
-bzw. entmagnetisierbar. Der Status ist detektierbar über spezielle Gates, so
-dass darüber die Buchsicherung realisierbar ist. Auch diese Sicherung ist
-natürlich fehleranfällig und nicht 100%ig. Schon metallene Gegenstände in
-derselben Tasche wie gesicherte Bücher verhindern die Erkennung. Es gibt bei
-dieser Methode also keinen Vorteil gegenüber eines RFID-Betriebs -- im
-Gegenteil, diese Technologie ist veraltet, wird immer seltener genutzt und
+Barcodeverbuchung und EM-Sicherung (EM = elektro-magnetisch). Wenn die Barcodes
+vorn außen am Buch angebracht sind, können sie auch von Ausleihautomaten und
+Rückgabeautomaten gelesen und verarbeitet werden. EM-Sicherung wird realisiert
+mittels magnetisierbaren Streifen, die mit doppelt klebendem Film in den Falz
+der Bücher geklebt wird. Diese Streifen sind über separate Geräte
+magnetisierbar bzw. entmagnetisierbar. Der Status ist detektierbar über
+spezielle Gates, so dass darüber die Buchsicherung realisierbar ist. Auch diese
+Sicherung ist natürlich fehleranfällig und nicht 100%ig. Schon metallene
+Gegenstände in derselben Tasche wie gesicherte Bücher verhindern die Erkennung.
+Es gibt bei dieser Methode also keinen Vorteil gegenüber eines RFID-Betriebs --
+im Gegenteil, diese Technologie ist veraltet, wird immer seltener genutzt und
 insofern immer teurer.
 
 ## Dienste für Nutzer\*innen

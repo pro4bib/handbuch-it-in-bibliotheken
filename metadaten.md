@@ -324,6 +324,10 @@ auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des
 Formats sind historisch bedingt, eine Alternative konnte sich bislang
 nicht durchsetzen.
 
+![Ein Datensatz im MARC 21 Format](media/marc21-example.svg)
+
+![Der gleiche Datensatz in MARC-XML](media/marcxml-example.svg)
+
 **PICA** ist das von MARC inspirierte Datenformat der Katalogisierungssysteme
 *CBS* und *LBS* [@vos_einfuhrung_2022]. Das wichtigste Anwendungsprofil ist das
 K10plus-Format des BSZ/GBV.
@@ -573,14 +577,15 @@ externer Expertise verfügbar gemacht werden.
 
 Es gibt einige kommerzielle ETL-Komplettlösungen mit Data-Warehouse- oder
 Business-Intelligence-Hintergrund. Angesichts der teils erheblichen
-Einstiegskosten und zur Vermeidung von *Vendor Lock-in* sind für Bibliotheken
-möglichst einfache und allgemeine [Werkzeuge zur Datenverarbeitung](#werkzeuge)
-meist die bessere Wahl. Die Vorteile etablierter ETL-Werkzeuge liegen in
-Schulungsmöglichkeiten und der Verfügbarkeit externer Expertise. Mit
-*Catmandu*, *Metafacture* und *OpenRefine* gibt es mehrere
-Open-Source-ETL-Frameworks, deren eingeschränkter Funktionsumfang und
-verbesserungswürdige Usability durch Anpassungen für bibliothekarische
-Datenformate und Schnittstellen möglicherweise aufgewogen werden.
+Einstiegskosten und zur Vermeidung von [Vendor
+Lock-in](management.md#vendor-lock-in) sind für Bibliotheken möglichst einfache
+und allgemeine [Werkzeuge zur Datenverarbeitung](#werkzeuge) meist die bessere
+Wahl. Die Vorteile etablierter ETL-Werkzeuge liegen in Schulungsmöglichkeiten
+und der Verfügbarkeit externer Expertise. Mit *Catmandu*, *Metafacture* und
+*OpenRefine* gibt es mehrere Open-Source-ETL-Frameworks, deren eingeschränkter
+Funktionsumfang und verbesserungswürdige Usability durch Anpassungen für
+bibliothekarische Datenformate und Schnittstellen möglicherweise aufgewogen
+werden.
 
 Grundsätzlich lassen sich die kontinuierlich anfallenden Aufwände der
 Transformation und Qualitätssicherung durch ein ETL-Werkzeug nicht vermeiden,
