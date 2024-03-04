@@ -492,6 +492,18 @@ Info
 <section id="feldbasierte-bibliothekarische-metadatenformate" class="level3">
 <h3 class="anchored" data-anchor-id="feldbasierte-bibliothekarische-metadatenformate">Feldbasierte bibliothekarische Metadatenformate</h3>
 <p><strong>Machine-Readable Cataloging (MARC)</strong> ist das älteste und noch immer wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für bibliographische Daten. Neben der binären Kodierung kann MARC 21 auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des Formats sind historisch bedingt, eine Alternative konnte sich bislang nicht durchsetzen.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/marc21-example.svg" class="img-fluid figure-img"></p>
+<figcaption>Ein Datensatz im MARC 21 Format</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/marcxml-example.svg" class="img-fluid figure-img"></p>
+<figcaption>Der gleiche Datensatz in MARC-XML</figcaption>
+</figure>
+</div>
 <p><strong>PICA</strong> ist das von MARC inspirierte Datenformat der Katalogisierungssysteme <em>CBS</em> und <em>LBS</em> <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span>. Das wichtigste Anwendungsprofil ist das K10plus-Format des BSZ/GBV.</p>
 <p><strong>MAB</strong> und <strong>allegro</strong> sind ebenfalls an MARC angelehnte, feldbasierte Formate aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet werden.</p>
 </section>
@@ -599,7 +611,7 @@ Abbildung&nbsp;5.1: Allgemeiner Ablauf eines ETL-Prozesses
 <section id="umsetzung-des-etl-prozesses" class="level4">
 <h4 class="anchored" data-anchor-id="umsetzung-des-etl-prozesses">Umsetzung des ETL-Prozesses</h4>
 <p>Die Umsetzung von Datenkonvertierung und ETL-Prozessen erfolgt im bibliothekarischen Umfeld oft über selbst entwickelte Skripte für das Harvesting und die Transformation. Das entsprechende Know-How ist in der Regel auf wenige Köpfe verteilt und kann auch nicht leicht durch das Hinzuziehen externer Expertise verfügbar gemacht werden.</p>
-<p>Es gibt einige kommerzielle ETL-Komplettlösungen mit Data-Warehouse- oder Business-Intelligence-Hintergrund. Angesichts der teils erheblichen Einstiegskosten und zur Vermeidung von <em>Vendor Lock-in</em> sind für Bibliotheken möglichst einfache und allgemeine <a href="#werkzeuge">Werkzeuge zur Datenverarbeitung</a> meist die bessere Wahl. Die Vorteile etablierter ETL-Werkzeuge liegen in Schulungsmöglichkeiten und der Verfügbarkeit externer Expertise. Mit <em>Catmandu</em>, <em>Metafacture</em> und <em>OpenRefine</em> gibt es mehrere Open-Source-ETL-Frameworks, deren eingeschränkter Funktionsumfang und verbesserungswürdige Usability durch Anpassungen für bibliothekarische Datenformate und Schnittstellen möglicherweise aufgewogen werden.</p>
+<p>Es gibt einige kommerzielle ETL-Komplettlösungen mit Data-Warehouse- oder Business-Intelligence-Hintergrund. Angesichts der teils erheblichen Einstiegskosten und zur Vermeidung von <a href="./management.html#vendor-lock-in">Vendor Lock-in</a> sind für Bibliotheken möglichst einfache und allgemeine <a href="#werkzeuge">Werkzeuge zur Datenverarbeitung</a> meist die bessere Wahl. Die Vorteile etablierter ETL-Werkzeuge liegen in Schulungsmöglichkeiten und der Verfügbarkeit externer Expertise. Mit <em>Catmandu</em>, <em>Metafacture</em> und <em>OpenRefine</em> gibt es mehrere Open-Source-ETL-Frameworks, deren eingeschränkter Funktionsumfang und verbesserungswürdige Usability durch Anpassungen für bibliothekarische Datenformate und Schnittstellen möglicherweise aufgewogen werden.</p>
 <p>Grundsätzlich lassen sich die kontinuierlich anfallenden Aufwände der Transformation und Qualitätssicherung durch ein ETL-Werkzeug nicht vermeiden, sondern nur besser handhabbar machen. Dazu sollten die einzelnen Arbeitsschritte zentral verwaltet und dokumentiert werden, beispielsweise durch ein Versionskontrollsystem. Durch den Fokus auf Usability kann mittels ETL-Werkzeugen bibliothekarisches Personal stärker eingebunden werden. Da hier insbesondere im Bereich der Programmierung die Einstiegshürden niedriger sind, ist es Fachpersonal leichter möglich, direkt Änderungen und Optimierungen am ETL-Prozess vorzunehmen. Bei einer reinen Verankerung von ETL im IT-Bereich sind solche Eingriffe dagegen nur in Zusammenarbeit von IT und Metadaten-Expert*innen umsetzbar.</p>
 <p>In jedem Fall gehen mit der Einführung von ETL-Werkzeugen in die bibliothekarische Arbeit immer auch individuelle Anpassungen im Prozess von Extraktion, Transformation und Laden einher. Dieser Aufwand kann sowohl gegen die Einführung solcher Werkzeuge sprechen als auch dafür, vorhandene „Bastellösungen“ zu evaluieren und zu konsolidieren.</p>
 </section>
