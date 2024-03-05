@@ -89,8 +89,8 @@ Bestandteil des wissenschaftlichen Arbeitens. Solange sich dieser Prozess noch i
 Subskriptionszeitschriften abbildete, befanden sich wissenschaftliche Bibliotheken 
 eher auf der Seite der Medienbereitstellung. Mit zunehmender Stärkung des
 Open-Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten
-wissenschaftliche Bibliotheken stärker in die Rolle des Unterstützers und
-Ermöglichers. Die Digitalität der gesamten Prozesskette vom Schreiben bis
+wissenschaftliche Bibliotheken stärker in die Rolle des\*der Unterstützenden und
+Ermöglichenden. Die Digitalität der gesamten Prozesskette vom Schreiben bis
 zur Veröffentlichung der Artikel in teilweise von den Bibliotheken getragenen
 Infrastrukturen erfordert die Einbindung unterschiedlicher IT-Werkzeuge, die im
 Folgenden näher beschrieben werden.
@@ -110,8 +110,8 @@ formuliert.
 
 Durch die Transformationsprozesse im wissenschaftlichen
 Publikationswesen weg von den traditionellen Abonnement-Modellen hin zu
-Open Access sehen sich Bibliotheken zunehmend auch in der Rolle eines
-Publikationsdienstleisters. Dies kann einerseits die Gründung eines
+Open Access sehen sich Bibliotheken zunehmend auch in der Rolle eines\*einer
+Publikationsdienstleistenden. Dies kann einerseits die Gründung eines
 Universitätsverlages bedeuten, andererseits aber auch die Schaffung der
 benötigten Infrastruktur für wissenschaftliche Zeitschriften. Befördert
 durch die Verlagerung der Kosten weg vom Lesen hin zum Publizieren wird
@@ -137,7 +137,7 @@ Journals und ähnliche Dienste, die traditionelle Publikationswege wie
 peer-reviewte Journals ergänzen, siehe dazu auch die entsprechende
 *[Publikation der Initiative Knowledge
 Exchange](https://doi.org/10.21428/996e2e37.3ebdc864)*. Hier
-können Bibliotheken ebenso in die Rolle des Dienstleisters treten,
+können Bibliotheken ebenso in die Rolle des\*der Dienstleistenden treten,
 Instanzen geeigneter Open-Source-Software hosten und diese Entwicklung
 unterstützen. Dies kann auch im Zusammenhang mit der externen
 Kommunikation von Bibliotheken (Link zu entsprechendem Kapitel)
@@ -346,8 +346,8 @@ Betrieb entsprechender Services eine zentrale Rolle ein - in aller Regel
 sind sie hierbei nicht die einzigen Akteur\*innen, sondern das
 Serviceportfolio wird arbeitsteilig von
 Bibliotheken, Rechenzentren, Forschungsabteilungen und ggf. weiteren
-Akteur\*innen angeboten. Angesichts der großen Heterogenität an
-(disziplinspezifischen) Datentypen gelangen diese in aller Regel
+Akteur\*innen angeboten. Angesichts der großen Heterogenität
+disziplinspezifischer Datentypen gelangen diese in aller Regel
 fachübergreifenden FDM-Dienste häufig an ihre Grenzen: Diese
 Erkenntnis ist konstitutiv für die seit 2020 im Aufbau befindliche
 Nationale Forschungsdateninfrastruktur
@@ -408,10 +408,10 @@ die unter dem Begriff elektronische Laborbücher (abgekürzt häufig *ELN*
 von *electronic laboratory notebook*) zusammengefasst werden. Neben
 kommerziellen Programmen wie
 *[LabFolder](https://labfolder.com/de/)*, bei denen
-Bibliotheken eher in der Rolle des Vermittlers sind, gewinnen
+Bibliotheken eher in der Rolle des\*der Vermittelnden sind, gewinnen
 Open-Source-Lösungen zunehmend an Bedeutung. Diese können Bibliotheken
 auf eigenen Servern hosten und selbst administrieren, sind jedoch bei
-der Entwicklung neuer Features auf eine Community bzw. den Entwickler
+der Entwicklung neuer Features auf eine Community bzw. den\*die Entwickler\*in
 oder eigene Fachkräfte angewiesen. Beispiele sind hier
 *[eLabFTW](https://www.elabftw.net/)* für generische *ELN*
 bzw. *[Chemotion](https://chemotion.net/)* für eine eher
@@ -608,7 +608,7 @@ meisten Fällen jedoch lediglich Nachweise der Ressourcen finden. In der Praxis
 sind FIS-Repositorien-Mischsysteme dennoch aufgrund von
 Ressourcenknappheit nicht wegzudenken.
 
-Nichtsdestotrotz sind die Publikationsdaten ein wichtiger Bestandteil jedes
+Nichtsdestoweniger sind die Publikationsdaten ein wichtiger Bestandteil jedes
 FIS. Aus diesem Grund ist das FIS eine gute erste Anlaufstelle, um interne
 bibliometrische Recherchen über den Output der eigenen Forschenden
 durchzuführen. Darüber hinaus sind primär Anfragen in externen Datenbanken als
