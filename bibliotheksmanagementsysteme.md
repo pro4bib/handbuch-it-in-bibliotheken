@@ -73,7 +73,7 @@ man von einem konsolidierten Markt sprechen kann [@breeding_library_nodate].
 :::{.callout-tip}
 ## Info
 
-Die **erste Generation** der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzer\*innen. Die **zweite BMS-Generation** verfügte über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse sowie durch Weboberflächen der Kataloge aus. Die **dritte Generation** zeichnete sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
+Die **erste Generation** der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzer\*innen. Die **zweite BMS-Generation** verfügte über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse und zeichnete sich durch die Bereitstellung der (Nutzer)-kataloge über eine Weboberfläche aus. Die **dritte Generation** zeichnete sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
 
 :::
 
@@ -490,8 +490,8 @@ eine Bibliothek unabhängig davon, ob sie in einem Verbund organisiert
 ist, von Interesse. Eine Anbindung von bibliografischen Datenquellen,
 z.B. per Z39.50, für die Übernahme der entsprechenden Daten gilt daher
 als Mindeststandard. In Verbünden organisierte Bibliotheken
-katalogisieren in der Regel bereits in Verbunddatenbanken und wollen die
-Katalogisate dann verzögerungsfrei in die lokalen Systeme übernehmen.
+katalogisieren in der Regel bereits in Verbunddatenbanken und übernehmen 
+die Katalogisate dann vielfach verzögerungsfrei in die BMS.
 
 Für Informationen zu elektronischen Medien gibt es neben den
 Verbunddatenbanken weitere Datenbanken bzw. Knowledge Bases, aus denen
@@ -511,9 +511,8 @@ Statistiken. Folgende Statistiken sind typischerweise erforderlich:
 -   Arbeitsstatistiken - Für die tägliche Arbeitsorganisation und die
     Abrechnung der Arbeitsleistungen gegenüber den Stakeholdern müssen
     in regel- und unregelmäßigen Abständen Statistiken und Bericht aus
-    dem BMS erstellt werden. Die Inhalte werden von den Stakeholdern
-    bestimmt.
-
+    dem BMS erstellt werden. 
+    
 -   Deutsche Bibliotheksstatistik - Bibliotheken können sich
     entscheiden, Daten für die [Deutsche
     Bibliotheksstatistik](https://www.bibliotheksstatistik.de/)
@@ -741,7 +740,7 @@ Katalogisierung.
 :::{.callout-tip}
 ## Info
 
-Der deutschsprachige [BMS-Markt 2024](#tbl-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, [Varianten des Betriebs](management.md#betriebsmodelle) (gehostet oder lokal) oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuziehen. 
+Der deutschsprachige [BMS-Markt 2024](#tbl-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, [Varianten des Betriebs-](management.md#betriebsmodelle) und Geschäftsmodells oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuziehen. 
 
 :::
 
@@ -1006,7 +1005,7 @@ Gestaltung der Oberfläche zu achten.
 Für die Bibliotheksnutzer\*innen steht die Information über die Dienste der
 Bibliothek, deren Bestand und die Nutzung des Bestandes im Vordergrund.
 Bibliotheksnutzer\*innen kommen dabei häufig mit mehreren IT-Systemen in
-Kontakt (BMS- OPAC-Modul, Web-Server, Discovery-System ...). Daher
+Kontakt (BMS, OPAC, Web-Server, Discovery-System ...). Daher
 sollte auch hier auf eine einheitliche Oberfläche der eingesetzten
 IT-Systeme geachtet werden, auch bezüglich Accounts und Login, zumindest
 aber auf ein einheitliches Design und eine einheitliche Benutzerführung.
@@ -1046,7 +1045,7 @@ unterstützen:
 
 9.  Verwaltung von Bindeaufträgen
 
-10. Verwaltung von Nicht-Kauf-Bestellungen
+10. Verwaltung von Nicht-Kauf-Beschaffungen
 
 Diese Aufgaben lassen sich mit den am Markt befindlichen Systemen in der
 Regel gut abbilden. Allerdings werden die meisten Bibliotheken für die
@@ -1067,7 +1066,7 @@ unterstützt werden:
 
 3.  Verwaltung von Paketen
 
-4.  Bezug von bibliografischen Daten von Aggregatoren und Verlagen
+4.  Bezug von bibliografischen Daten von Aggregatoren, Verlagen und Knowledge Bases
 
 5.  Unterstützung der direkten Verlinkung auf Volltexte aus Katalogen
     und Discovery-Systemen
@@ -1135,7 +1134,7 @@ Katalogisierungsarbeit. Durch die Veränderungen im Informationsverhalten
 seit Entwicklung des WWW ist insbesondere auf das Katalogmodul ein
 besonderer Innovationsdruck entstanden. Auf diesen Druck haben
 Bibliotheken mit dem Angebot von Discovery-Systemen reagiert, die als
-alternative Benutzungsschnittstelle zu den klassischen OPACs aufgebaut
+alternatives Suchinstrument zu den klassischen OPACs aufgebaut
 wurden und neben einem modernen Design auch Suchmaschinen-typische
 Funktionen wie Facettierung oder Unterstützung bei der Formulierung von
 Suchbegriffen bieten. Diese Funktionen sind in den BMS der neuen
@@ -1173,7 +1172,7 @@ Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
 
 3.  Verbuchung von Medien (Ausleihe, Rücknahme)
 
-4.  Konfiguration von Ausdrucken für Bestellzettel und Vormerkungen
+4.  Konfiguration von Ausdrucken für Bestellzettel, Vormerkungen und Mahnungen
 
 5.  Ermöglichen von Bestellungen und Vormerkungen
 
@@ -1184,7 +1183,7 @@ Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
 
 8.  Gebührenverwaltung
 
-9.  Erzeugung von Listen (überfällige Medien, nicht abgeholte
+9.  Statistik und Reporting, u. a. Erzeugung von Listen (überfällige Medien, nicht abgeholte
     Vormerkungen)
 
 10. Anbindung an Bezahlsysteme (Kassenautomaten, Online-Bezahlsysteme)
@@ -1234,7 +1233,7 @@ angeboten. Bei einer barcodegestützten Medienerkennung wird jedes Medium
 einzeln verbucht.
 
 Bibliotheksausweise gibt es in verschiedenen Ausprägungen: Barcode
-(1D-Code), Funkchip (u.U. proprietär, Bsp.: Intercard), QR-Code
+(1D-Code), Funkchip (u. U. proprietär, Bsp.: Intercard), QR-Code
 (2D-Code). Die 1D- oder 2D-Codes können entweder auf Papier oder in
 einer App auf dem Smartphone beigebracht werden. Die Schnittstelle im
 Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.
@@ -1337,7 +1336,7 @@ auszutauschen. Diese Austauschprozesse betreffen folgende Szenarien
     und
     [DAIA](https://verbundwiki.gbv.de/display/VZG/DAIA)
 
-2.  Anbindung an Buchhaltungssysteme wie SAP oder HIS Haushalt-ERO
+2.  Anbindung an Buchhaltungssysteme wie SAP oder HIS Haushalt-ERP
 
 3.  Anbindung an Tools für statistische Auswertungen (s.a. [Kapitel
     Statistik](#statistik))
@@ -1388,10 +1387,10 @@ nachgenutzt werden. Dies ist die Rolle des Identity Managements (IDM).
 Ein IDM (Identity Management System) ist ein System, mit dem die
 Basisdaten von Personen und Gruppen an zentraler Stelle verwaltet werden
 können. Dies sind etwa persönliche Daten, Kontaktdaten und
-Organisationsstrukturen. Der Gedanke daher ist, dass alle relevanten
-Informationen nur an einer zentralen Stelle vorgehalten werden, und in
-anderen Systemen keine Dubletten erzeugt werden, die dann auch noch
-irgendwie synchronisiert werden müssten. Damit Personen in einem System
+Organisationsstrukturen. Ziel ist es, alle relevanten Informationen 
+nur an einer zentralen Stelle vorzuhalten. In verknüpften Systemen
+sollen Aufwände einer ggf. nötigen Synchronisation und die Speicherung 
+von dubletten Informationen vermieden werden. Damit Personen in einem System
 eindeutig identifiziert werden können, existieren zumeist eine oder
 mehrere eindeutige IDs, etwa die Matrikelnummer eines Studierenden.
 
@@ -1402,19 +1401,17 @@ einer Hochschule ist, dass sie zu einer gewissen Fakultät der Hochschule
 gehört und dass sie zu einer bestimmten Arbeitsgruppe gehört. In der
 Kommunikation des BMS mit dem IDM ist jedoch nur die erste der
 Informationen relevant, etwa um die Ausleihkonditionen der Person
-festlegen zu können. Daher wird in der Kommunikation mit einem IDM im
-Regelfall auch auch gewisser Scope mitgegeben, damit nur die wirklich
-für das konsumierende System relevanten Informationen mitgegeben werden;
-Prinzip "Datensparsamkeit".
+festlegen zu können. Daher werden in der Kommunikation mit einem IDM
+nach dem Prinzip der sogenannten "Datensparsamkeit" nur relevante 
+Informationen übertragen.
 
 Ein IDM kann als Identity Provider zu einem Authentifizierungsdienst
 werden. Über diesen Dienst kann man dann unter Umständen ein Single Sign
 On realisieren, bei dem die Daten der Nutzer\*innen nicht mehr an den
 Service oder Content Provider weitergegeben werden, sondern nur noch eine
-Art Ticket, das eine Erlaubnis regelt. Im Idealfall gilt diese
-einmalige Anmeldung dann für einige/viele Service-/Contentprovider, so
-dass der/die Nutzer/in sich nur einmal anmelden muss um viele Dienste zu
-nutzen.
+Art Ticket, das eine Erlaubnis regelt. Im Idealfall gilt dieser Dienst 
+dann für verschiedene Service- bzw. Contentprovider, so dass für deren 
+Nutzung nur eine einmalige Anmeldung erforderlich ist.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /
 SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
@@ -1425,18 +1422,18 @@ Directory, uvm.
 
 ##### Speicherung von Nutzer\*innendenaccounts
 
-Ein Account besteht aus den Kontaktdaten des Menschen sowie
+Ein Account besteht aus den Kontaktdaten des Nutzenden sowie
 Authentifizierungsinformationen. Hier ist Datensparsamkeit nach DSGVO
 geboten. Für die Speicherung aller personenbezogenen Daten müssen die
 Notwendigkeiten oder rechtlichen Gründe nachgewiesen werden. Als Beispiel
 kann die Speicherung des Geburtsdatums angesehen werden. Wird für die
-Begründung für die Speicherung des Geburtsdatums die Prüfung der
+Begründung der Speicherung des Geburtsdatums die Prüfung der
 Volljährigkeit oder die Befähigung eines Seniorentarifes herangezogen,
 ist davon auzugehen, dass die Speicherung des Geburtsdatums nicht
 notwendig ist. Wird zur Begründung eine als notwendig erachtete
 Adressermittlung bei Behörden angegeben, ist die Speicherung des
-Geburtsdatum möglich, das eine Adressermittlung (zur Wiederbeschaffung
-vermisster Exemplare) möglich. Die Speicherung nutzungsbezogener Daten
+Geburtsdatum notwendig, um eine Adressermittlung (zur Wiederbeschaffung
+vermisster Exemplare) zu ermöglichen. Die Speicherung nutzungsbezogener Daten
 wie Verweise auf die ausgeliehenen Medien, angefallene Gebühren, offene
 Bestellungen und bestellte Digitalisate muss in der Regel nicht explizit
 begründet werden.
@@ -1449,10 +1446,10 @@ notwendigerweise die externen Nutzer\*innen der Serviceeinrichtung.
 Die technisch einfachste Lösung für Accounts der externen
 Bibliotheksnutzer\*innen ist die Speicherung im IDM der übergeordneten
 Einrichtung, sofern vorhanden. Komplexer ist die Speicherung in einem
-separaten System, da dann bei Autorisierung u.U. mehrere Systeme
+separaten System, da dann bei Autorisierung u. U. mehrere Systeme
 abgefragt werden müssen.
 
-Datenschutzbezogene Vorgehensweisen auch in Bezug auf personenbezogene
+Datenschutzbezogene Vorgehensweisen z. B. in Bezug auf personenbezogene
 und personenbeziehbare Daten von Nutzer\*innen finden sich in Abschnitt
 [Datenschutz](#datenschutz) im Kapitel zum technischen Betrieb eines BMS.
 
@@ -1467,23 +1464,23 @@ E-Rechnungen müssen seit 2020 von Einrichtungen des Bundes, der Länder
 und Kommunen verarbeitet werden können. Der Umgang mit E-Rechnungen ist
 sehr unterschiedlich geregelt. Zum Teil nehmen Einrichtungen nur noch an
 einer zentralen Stelle E-Rechnungen entgegen. In anderen Einrichtungen
-werden E-Rechnungen dort entgegen genommen, wo die Bestellungen
-ausgelöst wurden. Es gibt verschiedene Formate in der eine E-Rechnung
+werden E-Rechnungen dort entgegengenommen, wo die Bestellungen
+ausgelöst wurden. Es gibt verschiedene Formate, in der eine E-Rechnung
 übermittelt werden kann (PDF, XML oder direkt per
 [EDIFACT](https://de.wikipedia.org/wiki/EDIFACT)).
 
 Elektronische Rechnungen kommen immer dann ins Spiel, wenn
-Bestellvorgänge von neuen Medien über das BMS abgewickelt werden. In
+kostenpflichtige Bestellvorgänge über das BMS abgewickelt werden. In
 diesem Zusammenhang entstehen Rechnungen von Lieferanten, die von der
 Bibliothek oder ihrer Organisation zu begleichen sind.
 
-Ohne eine "E-Rechnungs-Workflow" würde dies bedeuten, dass Rechnungen
+Ohne einen "E-Rechnungs-Workflow" würde dies bedeuten, dass Rechnungen
 der Lieferanten bei der Bibliothek eingehen, einem Bestellvorgang
 zugeordnet werden müssen, von der jeweiligen Rechnungsstelle beglichen
 und schließlich wieder im BMS "abgehakt" werden müssen. Diese
 repetitiven Workflows lassen sich mittlerweile weitgehend
-automatisieren. Das BMS ist in der Lage elektronisch übermittelte
-Rechnungsdaten automatisiert den jeweiligen Bestellprozessen zuzuordnen
+automatisieren. Das BMS ist in der Lage, elektronisch übermittelte
+Rechnungsdaten automatisiert den jeweiligen Bestellprozessen zuzuordnen.
 Bei einer gleichzeitigen Anbindung eines elektronischen Rechnungswesens
 z.B. über SAP können auch die Zahlungsinformationen automatisiert
 zugeordnet werden und somit ein Bestellvorgang komplett automatisiert
@@ -1493,38 +1490,33 @@ abgeschlossen werden.
 
 Mit dem Begriff "Statistik" können verschiedene Dinge im Rahmen eines
 BMS gemeint sein, etwa Betriebsstatistiken, wie die Rechnerauslastung
-eines Servers, auf dem das BMS betrieben wird. In diesem konkreten Fall
-ist jedoch mit "Statistik" gemeint, dass die Nutzungsdaten des BMS in
-eine Form gebracht werden können, in der Mitarbeiter\*innen der
+eines Servers, auf dem das BMS betrieben wird. In diesem Fall
+ist jedoch mit "Statistik" gemeint, dass Daten des BMS in
+eine Form gebracht werden können, aus der Mitarbeiter\*innen der
 Bibliothek Informationen ziehen können, die zur Dokumentation, zum
 Reporting oder zur weiteren Arbeit benutzt werden können.
 
-Beispiele für Statistiken sind ganz klassische die Ausleihzahlen einer
-Bibliothek, ggf. aufgeteilt nach verschiedenen Themen oder Fächern, die
-den Bedarf der an bestimmten Medien preisgeben. Dies könnte für die
-Leitung einer Bibliothek relevant sein, oder für das Budgetmanagement
-der Einrichtung. Ein anderes Beispiel wären detaillierte Ausleih- und
-Benutzungsstatistiken, sowie konkrete Informationen zum Bestand. Mit
-einer solchen Datenlage können Fachbibliothekar\*innen etwa gezielt
-Bestandsmanagement betreiben.
+Beispiele für Statistiken sind z. B. die Ausleihzahlen einer
+Bibliothek, ggf. aufgeteilt nach verschiedenen Themen oder Fächern, die 
+Rückschlüsse auf die Nutzung bestimmter Medien ermöglichen. Dies ist 
+für das Bestands- und Budgetmanagement der Einrichtung relevant. 
 
-Manche LMS haben Statistikfunktionen schon mit dabei. Andere halten ihre
+Einige BMS bieten eine integrierte Statistikfunktion an. Andere halten ihre
 Daten in einer Datenbank und diese müssen aktiv exportiert werden.
 Wieder andere bieten entsprechende Schnittstellen, über die statistische
 Daten exportiert werden können.
 
 Je nach Anforderung an den Umfang und an die Arbeit, die mit
 statistischen Auswertungen erfolgen soll, kann die Entscheidung fallen,
-die aus dem BMS kommenden Daten einfach nur in eine Tabellenkalkulation
+die aus dem BMS kommenden Daten nur in eine Tabellenkalkulation
 zu exportieren, oder eine speziell auf die statistische Datenanalyse
-zugeschnittene Statistik-Software einzuspielen. Ergo kommen hier
-Software wie Excel, BibControl oder gar komplexe Statistik-Plattformen
+zugeschnittene Statistik-Software zu nutzen. Hier kommen Softwarelösungen 
+wie Excel, BibControl oder gar komplexe Statistik-Plattformen
 wie SPSS in Frage. BMS wie ExLibris Alma bringen hierbei schon eigene
-Statistik-Module mit, die eine externe Lösung überflüssig machen.
-
-Alma (und andere BMS) können automatisiert oder manuell
+Statistik-Module mit, die eine externe Lösung optional machen.
+Diese Systeme können automatisiert oder manuell
 [COUNTER](https://www.projectcounter.org/counter-sushi/)-Reports
-für statistische Daten der Nutzung digitaler Medien importieren.
+für statistische Daten zur Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb
 
@@ -1544,8 +1536,8 @@ Wichtiger ist, sich über folgende Kosten klar zu werden:
 
 Personalkosten und Ressourcen richten sich hauptsächlich nach Art der
 Installation (Lokal, Hosting oder Cloud). Lizenzkosten sind teilweise
-nach Größe der Einrichtung gestaffelt, d.h. sie richten sich nach Anzahl
-der verwalteten Medien und/oder Endnutzer\*innen.
+nach Größe der Einrichtung gestaffelt, d. h. sie richten sich nach Anzahl
+des Personals, der verwalteten Medien und/oder Endnutzer\*innen.
 
 Insbesondere der Punkt Personalkosten kann zu einem Engpass bzw. Risiko
 werden, denn in vielen Fällen zeigt sich, dass einige wenige Personen
@@ -1564,7 +1556,7 @@ in der Hand hat.
 Um Personalengpässe zu vermeiden, ist es sinnvoll, Einführungsprozesse
 nur in einer Expertengruppe durchzuführen und Verantwortlichkeiten auf
 mehrere Schultern zu verteilen (Ausfallsicherheit, Urlaubsvertretung
-usw). Auch die gute Dokumentation teils komplexer Zusammenhänge sollte
+usw.). Auch die gute Dokumentation teils komplexer Zusammenhänge sollte
 bedacht werden, damit Fachwissen nicht nur in den Köpfen einiger weniger
 Mitarbeiter\*innen schlummert.
 
@@ -1572,7 +1564,7 @@ Mitarbeiter\*innen schlummert.
 
 Zur Einrichtung eines BMS gehört:
 
--   **Installation auf einem Server:** erfordert i.d.R. Kenntnisse in
+-   **Installation auf einem Server:** Erfordert Kenntnisse in
     Systemtechnik (Hardware, Server, Kommandozeile ...). Wenn Hosting
     durch Drittanbieter geleistet wird (Cloud, Dienstleister wie
     Verbundzentrale o.A.), verändert sich diese Aufgabe. Sie entfällt,
@@ -1592,7 +1584,7 @@ Nach Einrichtung werden BMS laufend erweitert. Fehler werden behoben und
 neue Funktionen kommen hinzu. Die Aktualisierung kann je nach Produkt
 agil in kleinen, häufigen Schritten erfolgen (monatlich, wöchentlich
 oder häufigere Updates) oder in längeren Zeitabschnitten (oft quartals-
-oder halbjahres-weise).
+oder halbjahresweise).
 
 ### Open Source
 
@@ -1622,20 +1614,19 @@ bestimmte Grenzen überschreiben.
 
 Die Nutzung einer Monitoring-Lösung wird umso relevanter, je mehr
 Betriebsverantwortung für das BMS bei der Einrichtung liegt. Beim
-Cloud-BMS liegen zwar viele der Verantwortungen beim Betreiber der
+Cloud-BMS liegt diese beim Anbieter der
 Software, trotzdem sollte zumindest die reine Verfügbarkeit des Systems
-auch von der nutzenden Einrichtung überwacht werden.
+auch von der nutzenden Einrichtung überwacht werden können.
 
 #### Notfallbetrieb
 
 Bzgl. der Themen Support, Wartung & IT-Sicherheit, als auch Fehlersuche
 und -vorbeugung, unterscheiden sich die Aufwände für die Einrichtung je
-nach gewähltem Betriebsmodell erheblich. Jedoch weichen die zu nutzenden
-Prinzipien bei diesen Themen nicht grundlegend ab zu anderen zu
-wartenden Systemen in der IT-Welt.
+nach gewähltem Betriebsmodell erheblich. Die zu nutzenden Prinzipien 
+gelten hier jedoch genauso wie  bei anderen zu wartenden Systemen in der IT-Welt.
 
 Dazu gehören Maßnahmen zur Aufrechterhaltung des Bibliotheksbetriebs im
-Notfallbetrieb. Dies kann ein temporärer Offlinebetrieb des Systems
+Notfall. Dies kann ein temporärer Offlinebetrieb des Systems
 sein. In diesem Fall werden die Prozesse mit den Daten abgewickelt, die
 zum Zeitpunkt des Offline-Gangs im System vorhanden waren. Wenn das
 System wieder online geht, muss gewährleistet werden, dass Änderungen an
@@ -1648,10 +1639,10 @@ ebenfalls über ein Spiegelsystem des BMS nachdenken. Dieses wird
 parallel auf dem aktuellen Stand gehalten und kann einspringen, wenn das
 laufende BMS ausfällt.
 
-Es empfiehlt sich in jedem Fall neben dem Einsatz eines Produktivsystems
+Es empfiehlt sich in jedem Fall, neben dem Einsatz eines Produktivsystems
 mindestens eine Test-Instanz und ggf. eine oder mehrere
 Entwicklungs-Instanzen des BMS zu betreiben. So können neue Funktionen
-schneller umgesetzt werden ohne den laufenden Betrieb durch unerwartete
+schneller umgesetzt werden, ohne den laufenden Betrieb durch unerwartete
 Fehler zu gefährden.
 
 Zu beachten ist weiterhin, die Nutzer\*innen des BMS (intern als auch
@@ -1711,7 +1702,7 @@ Folgende Aspekte sollten im Rahmen von BMS besondere Beachtung finden:
 -   Ein off-site-Backup sollte in die Überlegungen einbezogen werden,
     also ein kompletter Satz einer Sicherung, der außerhalb der
     Institution gelagert wird. Dabei ist der Datenschutz zu
-    berücksichtigen, u.U. müssen die Sicherungsdaten daher
+    berücksichtigen, u. U. müssen die Sicherungsdaten daher
     verschlüsselt werden.
 
 -   Sicherung von Daten, die bei rechtlichen Fragen von Relevanz sein
@@ -1727,9 +1718,9 @@ einer Testinstanz des BMS.
 ### Zusammenspiel Hard- und Software
 
 Das BMS steht in der IT-Landschaft einer Bibliothek im Regelfall nicht
-alleine, sondern kommuniziert mit anderen Hard- und Softwaresystemen.
-Hierzu gehören beispielhaft (s.a. Kapitel
-[Automatisierung)](#automatisierung-und-selbstbedienung):
+alleine, sondern kommuniziert mit anderen Hard- und Softwaresystemen (s. Kapitel
+[Automatisierung)](#automatisierung-und-selbstbedienung).
+Hierzu gehören beispielhaft:
 
 -   Lesegeräte: (Barcode-)Scanner und Chip-Lesegeräte für
     Benutzungsausweise und/oder Medien
@@ -1791,7 +1782,7 @@ Die Pseudonymisierung und Anonymisierung kann auch im Laufe der Erhebung
 der personenbezogenen Daten zur Anwendung kommen, sofern bestimmte Daten
 nicht mehr für einen konkreten Zweck erforderlich sind.
 
-Leider sind personenbezogene Daten für Bibliotheks-Statistiken oft
+Leider sind personenbezogene Daten für Bibliotheksstatistiken oft
 notwendig (siehe [Kosten](#kosten)). In diesem Fall
 sollten ebenfalls pseudonymisierte oder anonymisierte Datensätze zur
 Grundlage genommen werden.
@@ -1850,7 +1841,7 @@ IT-Sicherheitsbeauftragte hinzugezogen werden.
 
 Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
 aufgrund der sich verändernden Bedürfnisse einer Bibliothek und deren Nutzer\*innen
-stetig angepasst werden.
+sowie sich wandelnder Technologien und technischer Anforderungen stetig angepasst werden.
 
 Der Import, Export oder auch die Zusammenführung von Daten erfordert klar
 definierte Metadaten und Schnittstellen für den freien Austausch aus gut

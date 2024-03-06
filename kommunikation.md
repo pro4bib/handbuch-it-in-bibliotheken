@@ -251,8 +251,8 @@ inhaltliche Recherche/Arbeit nur einmal machen, kann diese aber in
 mehrfacher Form und an verschiedenen Stellen wieder aufbereiten und
 nachnutzen. Wird zum Beispiel ein ausführlicher Blogbeitrag zu einem
 Thema verfasst, so lassen sich daraus häufig mehrere Social-Media-Posts
-machen. Besonders bei der Produktion eines Videos bietet es sich an,
-\"Hinter den Kulissen" Content zu produzieren, z.B. indem man den
+erstellen. Besonders bei der Produktion eines Videos bietet es sich an,
+"Hinter den Kulissen" Content zu produzieren, z. B. indem man den
 Entstehungsprozess dokumentiert durch kurze Videos und Fotos oder zu
 einem ausführlichen Video eine Kurzversion dreht - wenn die Technik
 schon mal steht.
@@ -260,10 +260,10 @@ schon mal steht.
 -   **Vorproduzieren und Redaktionsplan nutzen**:\
     Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf
     Veranstaltungen, gibt es auch den sogenannten Evergreen Content.
-    Bei WBs können das z.B. Inhalte zum wissenschaftlichen
-    Publizieren, Forschungsdatenmanagement o.ä. sein, die sich auf
+    Bei WBs können das z. B. Inhalte zum wissenschaftlichen
+    Publizieren, Forschungsdatenmanagement o. ä. sein, die sich auf
     verschiedenen Unterseiten des Webauftritts verbergen. Diese lassen
-    sich gut für andere Plattformen aufbereiten, man kann sie gut
+    sich für andere Plattformen aufbereiten, man kann sie
     vorproduzieren, beliebig erweitern und mit Hilfe eines
     Redaktionsplans ausspielen.
 
@@ -272,7 +272,7 @@ schon mal steht.
     Weise kann man über einen längeren Zeitraum im Voraus planen, vor
     allem Evergreen Content lässt sich so gut verteilen. Es bietet sich
     an, eine Regelmäßigkeit für solchen Content festzulegen, wie etwa an
-    einem bestimmten Tag in der Woche o.ä. In ÖBs eignen sich hierfür
+    einem bestimmten Tag in der Woche o. ä. In ÖBs eignen sich hierfür
     beispielsweise Buchempfehlungen oder regelmäßig wiederkehrende
     Veranstaltungen.
 
@@ -302,7 +302,7 @@ schon mal steht.
 ### Wissensmanagement 
 
 Explizites Wissen ist gesichert in Texten, Datenbanken und anderen
-Dokumenten, doch wie sichern wir das implizite Wissen, das nur in den
+Dokumenten – doch wie sichern wir das implizite Wissen, das nur in den
 Köpfen von Mitarbeitenden vorhanden ist? Für diesen Teil des
 Wissensmanagements gibt es verschiedene mündliche und schriftliche
 Verfahren. Dabei helfen unter anderem strukturierte Interviews,
@@ -328,7 +328,7 @@ es mehrere Werkzeuge (Mittelmann, 2011):
 -   **persönlicher Wissenstransfer:** Gespräch
 
 -   **kodifizierter Wissenstransfer:** mittels Informations- und
-    Kommunikationssystemen wie z.B. Datenbanken, Laufwerk, CMS, Wiki
+    Kommunikationssystemen wie z. B. Datenbanken, Laufwerk, CMS, Wiki
 
 -   **Infokarte:** Themenkarte oder Mikroartikel, welche eine Aufgabe beschreiben.
 
@@ -347,14 +347,14 @@ erkennen, Verbesserungen einzubinden oder Tools/Kanäle ggf. auch wieder
 abzuschaffen bzw. durch andere abzulösen.
 
 Viele Tools und Werkzeuge bringen ihre eigenen Statistiken und
-Auswertungen mit, aber auch eine einfache, aber regelmäßige Abfrage der
+Auswertungen mit. Aber auch eine einfache, regelmäßige Abfrage der
 Nutzungsgewohnheiten der Mitarbeitenden hilft bereits, die
 Praxistauglichkeit einzuschätzen. Daher ist es sinnvoll, die Evaluation
 bereits bei der Planung, spätestens aber beim Start mit einzuplanen.
 
 Beispiele:
 
--   Nutzungsstatistiken Webseiten und Werkzeuge (z.B. mittels des Open Source Tools "Matomo")
+-   Nutzungsstatistiken Webseiten und Werkzeuge (z. B. mittels des Open Source Tools "Matomo")
 
 -   Usability Studien
 
@@ -379,7 +379,7 @@ Die Website wird im allgemeinen Sprachgebrauch häufig auch als Homepage
 bezeichnet, im eigentlichen Sinne ist damit aber nur die Startseite eines Internetauftritts gemeint.
 Die Website dient der Vorstellung der Bibliothek, ihrer verschiedenen
 Angebote und Kontaktmöglichkeiten. Hier werden u.a. Neuigkeiten über
-Veranstaltungen, digitale Angebote oder Kundenservices (z.B.
+Veranstaltungen, digitale Angebote oder Kundenservices (z. B.
 Anmeldemodalitäten) präsentiert.
 
 Websites werden meistens auf Basis eines Content Management Systems
@@ -605,12 +605,12 @@ Feedback zu Missverständnissen führen.
 
   - Chats können in Bibliothekswebsiten (Homepage, OPAC) ohne großen Aufwand
     integriert werden. Die Nutzung ist anonym oder unter Angabe
-    von personenbezogenen Daten (z.B. E-Mail-Adresse) möglich.
+    von personenbezogenen Daten (z. B. E-Mail-Adresse) möglich.
     Chat-Anfragen werden zentral bearbeitet und können bei Bedarf
     weitergegeben werden. Ein Pool von Mitarbeitenden kann sich
     anmelden, die Anfragen werden vom System auf die
     Mitarbeitenden verteilt. Steht kein Mitarbeitender zur
-    Verfügung, leitet die Software z.B. auf ein Mailformular um.
+    Verfügung, leitet die Software z. B. auf ein Mailformular um.
     Je nach Verwendung ist der Abschluss eines Vertrages zur
     Auftragsverarbeitung mit dem Anbieter notwendig. Chat-Systeme
     werden i.d.R. als *SaaS*-Lösung angeboten
@@ -636,7 +636,7 @@ Feedback zu Missverständnissen führen.
 ### Contenterstellung
 
 Unter Contenterstellung versteht man das Produzieren von Inhalten (Werbung,
-Informationen ...) z.B. für das Internet. Mit Content wird immer eine
+Informationen ...) z. B. für das Internet. Mit Content wird immer eine
 bestimmte Zielgruppe angesprochen. Inhalte sind zu planen, zu erstellen und zu
 veröffentlichen.
 
@@ -667,12 +667,12 @@ veröffentlichen.
 
     -   Aufnahmesoftware (*Camtasia*, *Screenflow*, *[OBS](https://obsproject.com/de)*):
         dient zur Aufnahme
-        von Bildmaterial über Kameras oder z.B. der Anzeige auf
+        von Bildmaterial über Kameras oder z. B. der Anzeige auf
         Bildschirmen (Screencasts). Je nach Aufnahmegerät wird der Ton
         gleichzeitig aufgenommen oder muss separat eingespielt werden.
 
         -   *OBS* kann zudem verwendet werden, um
-            Bilder/Videos auf Videoplattformen zu streamen (z.B.
+            Bilder/Videos auf Videoplattformen zu streamen (z. B.
             Youtube Livestream).
         -   *SimpleShow* (Mix aus Aufnahme /
             Bearbeitungssoftware) dient zur Erstellung von Lernvideos
@@ -724,7 +724,7 @@ folgender Instrumente:
 regelbasierten (z.T. automatischen) Abarbeitung von Anfragen,
 Wünschen, Fehlermeldungen von Nutzenden. Diese Systeme können für
 alle anfallenden Aufgaben innerhalb der Bibliothek verwendet
-werden, z.B. in der
+werden, z. B. in der
 [Softwareentwicklung,](https://it-in-bibliotheken.de/anforderungen.html)
 bei der Bearbeitung von Kundenanfragen oder internen Prozessen.
 
@@ -747,7 +747,7 @@ Beispiele für Ticketsysteme:
     beispielsweise in *GitLab* (Open Source) und *GitHub* (kommerziell)
 
 **Kanban-Board**: Ein Kanban-Board visualisiert jegliche
-Arbeitsabläufe anhand einer in Spalten unterteilten Tafel (z.B.
+Arbeitsabläufe anhand einer in Spalten unterteilten Tafel (z. B.
 Backlog, in Arbeit, fertig). Physisch ist dies mit Post-Its und
 Whiteboard machbar. Ein Kanban-Board kann auch als Grundlage für
 ein Projektmanagement nach SCRUM dienen.
@@ -762,7 +762,7 @@ Beispiele für Kanban-Software:
 Aufgaben erfüllen. Intern helfen zwischen Mitarbeitenden geteilte
 Kalender bei der Terminplanung und Abstimmung.
 
-Auf der Bibliothekswebsite veröffentlichte Kalender können z.B.
+Auf der Bibliothekswebsite veröffentlichte Kalender können z. B.
 buchbare Veranstaltungen für Kund\*innen und Besucher\*innen der
 Bibliothek enthalten. Ebenso ist eine Reservierung von Räumen oder
 Technik denkbar.
@@ -837,12 +837,12 @@ Brainstorming bis zur fertig ausgearbeiteten Präsentation.
 
 -   Für die gemeinsame Bearbeitung von klassischen Office-Formaten ist
     OnlyOffice eine veritable Alternative zu Google Docs, insbesondere
-    unter Gesichtspunkten der Digitalen Souveränität (s.o.).
+    unter Gesichtspunkten der Digitalen Souveränität (s. o.).
 
 -   Cloudspeicher: die zeitgemäße Variante eines Netzwerklaufwerkes;
-    vgl. z.B.
+    vgl. z. B.
     [Nextcloud](https://nextcloud.com/) bzw. [ownCloud](https://owncloud.com/de/) das
-    gut mit *OnlyOffice* zusammenspielt (s.o.)
+    gut mit *OnlyOffice* zusammenspielt (s. o.)
 
 -   Online-Whiteboards sind digitale Tools, die ein traditionelles
     physisches Whiteboard emulieren. Sie ermöglichen es, in Echtzeit
@@ -888,7 +888,7 @@ ein Schweizer Taschenmesser.
 
 Kern der Idee eines Social Intranets ist, dass neben Dokumenten die
 Menschen und deren Austausch untereinander im Fokus stehen. Daher kann
-jede\*r Mitarbeiter\*in ein Profil pflegen, um seine Rollen,
+jede\*r Mitarbeiter\*in ein Profil pflegen, um seine\*ihre Rollen,
 Fachgebiete und Kontaktinformationen zu teilen. Je nachdem, ob eher die
 sozialen Features, die themenspezifischen Diskussionsräume oder die
 Informationsbereitstellung im Vordergrund stehen, bieten sich zur
