@@ -48,7 +48,7 @@ Dienste, die übergreifend den Forschungsoutput bestimmter lokaler oder
 fachlicher Forschungscommunities besser auffindbar oder messbar machen
 sollen. Darunter fallen Forschungsinformationssysteme und Dienstleistungen im
 Bereich von Metriken oder zur Verwaltung von
-Artikelveröffentlichungsgebühren in Open-Access-Journals (APCs).
+Artikelveröffentlichungsgebühren in Open-Access-Journals (*APCs*).
 
 ::: {.callout-important}
 ## Definition
@@ -275,8 +275,8 @@ jeweiligen Projekts beizutragen. U. a.
 *[Zenodo](https://www.zenodo.org)* erlaubt über eine
 Schnittstelle zum Code-Verwaltungssystem *GitHub* die Archivierung von
 Softwareprojekten und ähnlichem entsprechend den Konventionen von
-Repositorien für Forschungsergebnisse, einschließlich der Vergabe von
-DOIs.
+Repositorien für Forschungsergebnisse, einschließlich der Vergabe von 
+Digital Object Identifiers (*DOIs*).
 
 :::
 
@@ -286,7 +286,7 @@ Softwarelösungen](https://v2.sherpa.ac.uk/view/repository_visualisations/1.html
 für Repositorien für Forschungsergebnisse bereit: Meistgenutztes System
 weltweit ist *[DSpace](https://www.dspace.org)*, das auch in Deutschland
 zunehmend Verbreitung findet. Während *DSpace* vor allem von Universitäten
-eingesetzt wird, ist bei Fachhochschulen und HAWen
+eingesetzt wird, ist bei Fachhochschulen und Hochschule für Angewandte Wissenschaften
 *[OPUS](https://www.opus-repository.org/)* stark verbreitet, das meist durch
 den Kooperativen Bibliotheksverbund Berlin-Brandenburg (KOBV) oder das
 Bibliotheksservice-Zentrum Baden-Württemberg (BSZ) gehostet wird. Der
@@ -336,7 +336,7 @@ und [Forschungssoftware](#forschungssoftware) mit ein.
 
 ![Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
 
-Services zum Forschungsdatenmanagement (FDM) sollen Wissenschaftler\*innen
+Services zum Forschungsdatenmanagement (*FDM*) sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
 gesamten Forschungsdaten-Lebenszyklus hinweg, d. h. von der Datenplanung
 über die Datenerhebung und -analyse bis hin zur Datenarchivierung,
@@ -347,31 +347,31 @@ Serviceportfolio wird arbeitsteilig von
 Bibliotheken, Rechenzentren, Forschungsabteilungen und ggf. weiteren
 Akteur\*innen angeboten. Angesichts der großen Heterogenität
 disziplinspezifischer Datentypen gelangen diese in aller Regel
-fachübergreifenden FDM-Dienste häufig an ihre Grenzen: Diese
+fachübergreifenden *FDM*-Dienste häufig an ihre Grenzen: Diese
 Erkenntnis ist konstitutiv für die seit 2020 im Aufbau befindliche
 Nationale Forschungsdateninfrastruktur (NFDI), in der fachspezifische und
 institutionsübergreifende Dienste entwickelt werden. In diesem
 Zusammenhang entwickeln sich derzeit neue Berufe wie Data Steward
 oder Data Librarian, die fachspezifische Unterstützung beim
-FDM leisten und entweder zentral an den
-FDM-Servicestellen oder dezentral in Projekten oder Fachbereichen
+*FDM* leisten und entweder zentral an den
+*FDM*-Servicestellen oder dezentral in Projekten oder Fachbereichen
 angesiedelt sind.
 
-Die von Bibliotheken angebotenen Services zum FDM
+Die von Bibliotheken angebotenen Services zum *FDM*
 umfassen in der Regel sowohl nicht-technische Services (z. B. Schulungs-
 und Beratungsangebote) als auch verschiedene technische Dienste. Zu den
-wichtigsten technischen Diensten für das FDM, die
+wichtigsten technischen Diensten für das *FDM*, die
 von Bibliotheken (mit-)betrieben werden, gehören
 Forschungsdatenrepositorien. Diese ermöglichen die Veröffentlichung von
 Forschungsdaten als eigene Informationsobjekte gemäß den FAIR-Prinzipien
 (TODO: siehe hierzu ausführlich den Abschnitt [Repositorien für
-Forschungsergebnisse](#repositorien-für-forschungsergebnisse)). Daneben werden häufig weitere FDM-Tools
+Forschungsergebnisse](#repositorien-für-forschungsergebnisse)). Daneben werden häufig weitere *FDM*-Tools
 angeboten, von denen einige im Folgenden vorgestellt werden.
 
 ### Tools zur Erstellung von Datenmanagementplänen
 
 Um den Umgang mit Forschungsdaten über ein komplettes Projekt zu
-beschreiben, hat sich der **Datenmanagementplan (DMP)** als geeignetes
+beschreiben, hat sich der **Datenmanagementplan (*DMP*)** als geeignetes
 Format erwiesen. Derartige Pläne werden zunehmend von
 Forschungsförderern bei der Antragstellung oder in der Frühphase des
 Projekts erwartet. Sie basieren häufig auf für die Förderlinie bzw. das
@@ -388,11 +388,11 @@ in einer Gemeinschaftsarbeit entwickelt werden. Obwohl einige
 öffentliche Instanzen der Software existieren, die z. B. einen Login
 über die *ORCID* ermöglichen, kann die Open-Source-Software auch selbst
 gehostet und inhaltlich sowie visuell auf die Bedarfe der jeweiligen
-Einrichtung zugeschnitten werden. DMP können innerhalb dieser Software
+Einrichtung zugeschnitten werden. *DMP* können innerhalb dieser Software
 kollaborativ erstellt werden, indem Personen als Mitarbeitende in
 das eigene Projekt eingeladen werden. Für EU-Projekte ist mit Stand 2023
 die Software *[ARGOS](https://argos.openaire.eu/)*
-verfügbar, die eine direkte Einbindung der DMP in die
+verfügbar, die eine direkte Einbindung der *DMP* in die
 *European Open Science Cloud* (*[EOSC](https://eosc-portal.eu/)*) ermöglicht. Für Software
 als Forschungsdatum beginnen sich Softwaremanagementpläne zu etablieren.
 
@@ -498,7 +498,7 @@ Archivierung auf externen Servern an. Zumindest in diesem Fall ist es
 als UNESCO-Projekt als geeignete Alternative zu betrachten.
 
 Die Verknüpfung der im Gesamtprozess entstehenden Metadaten mit Systemen
-wie dem Forschungsinformationssystem (FIS) oder Forschungsdatenrepositorien hinsichtlich der
+wie dem Forschungsinformationssystem (*FIS*) oder Forschungsdatenrepositorien hinsichtlich der
 Auffindbarkeit dieser wissenschaftlichen Ergebnisse ist ein Punkt, der
 eine Betrachtung der kompletten [Toolchain](#toolchains) notwendig macht.
 
@@ -516,7 +516,7 @@ Publikationen und Forschungseinrichtungen. Davon zu unterscheiden sind
 
 Neben Forschungsdaten gewinnt auch die strukturierte Erfassung von
 Forschungsinformationen an Bedeutung. Entsprechende Systeme werden
-**Forschungsinformationssysteme** (FIS) genannt. Dabei handelt es sich um
+**Forschungsinformationssysteme** (*FIS*) genannt. Dabei handelt es sich um
 Datenbanksysteme, die speziell für die Erfassung, Organisation,
 Speicherung und Verknüpfung von **Forschungsinformationen**
 konzipiert wurden. Sie können interne Anwendungen wie die
@@ -524,7 +524,7 @@ leistungsorientierte Mittelvergabe unterstützen und für die
 Außendarstellung der Einrichtung genutzt werden. Eine Übersicht von
 Forschungsinformationen und ihre Sicht auf Forschungsdaten gibt @fig-fis-fdm.
 
-FIS führen Informationen zusammen, die dezentral in verschiedenen
+*FIS* führen Informationen zusammen, die dezentral in verschiedenen
 hochschulinternen Systemen (z. B. Drittmittelverwaltung,
 Personalverwaltungssysteme, Repositorien) und externen Quellsystemen (z.
 B. *Scopus*, *ORCID*) vorgehalten werden, um einen strukturierten und
@@ -532,7 +532,7 @@ aktuellen Überblick über die Forschungsleistungen beispielsweise einer
 Einrichtung, eines (Bundes-)Landes oder einer Fachdisziplin zu gewinnen.
 
 Die genauen Daten, die Nutzung der Daten und der Funktionsumfang eines
-FIS sind nicht festgelegt bzw. klar definiert. Verschiedene
+*FIS* sind nicht festgelegt bzw. klar definiert. Verschiedene
 Softwarelösungen verfolgen unterschiedliche Ansätze: Einige legen den
 Schwerpunkt auf die Auffindbarkeit und Verknüpfung von Forschenden,
 andere Systeme haben ihren Schwerpunkt eher auf dem Berichtswesen und
@@ -542,15 +542,15 @@ präsentieren und öffentlichkeitswirksam bereitzustellen. Die Systeme
 passen sich zunehmend aneinander an; oft werden verschiedene Systeme
 aber auch in Kombination miteinander eingesetzt.
 
-FIS sollten von Anfang an als Daueraufgabe einer Einrichtung betrachtet
+*FIS* sollten von Anfang an als Daueraufgabe einer Einrichtung betrachtet
 und entsprechende finanzielle und personelle Ressourcen eingeplant
-werden. Bei der Einführung eines FIS handelt es sich um ein langjähriges
+werden. Bei der Einführung eines *FIS* handelt es sich um ein langjähriges
 Organisationsentwicklungsprojekt, das eine Offenheit für Veränderungen
 in den Prozessen und Workflows der Einrichtung voraussetzt.
 
 ![Herausforderungen beim Aufbau eines Forschungsinformationssystem (CC-BY Franziska Mau)](media/FIS_CC_BY_Mau.png)
 
-Eine zentrale Herausforderung beim Aufbau eines FIS besteht darin, einen
+Eine zentrale Herausforderung beim Aufbau eines *FIS* besteht darin, einen
 Überblick über die bestehenden Quellsysteme der Einrichtung zu gewinnen.
 In diesem Zusammenhang ist zu ermitteln, welche internen und
 externen Systeme relevant sind und wer die entsprechenden
@@ -561,53 +561,53 @@ Projekte), die Doktorand\*innenverwaltung oder die Patentverwaltung der
 Einrichtung.
 
 Neben der Identifikation der relevanten Datenquellen stellt die
-Integration der Daten in das FIS meist die größte Herausforderung dar.
+Integration der Daten in das *FIS* meist die größte Herausforderung dar.
 So muss zum einen für fehlende oder ungeeignete Schnittstellen eine
 Lösung gefunden werden. Zum anderen variieren Qualität und Konsistenz
 der vorhandenen Daten mitunter stark, was zusätzliche Zeit für die
 Datenbereinigung und -konvertierung erfordert. Gleichzeitig ist die
 Sicherstellung der Datenintegrität und -qualität von entscheidender
-Bedeutung, um zu gewährleisten, dass das FIS korrekte und
+Bedeutung, um zu gewährleisten, dass das *FIS* korrekte und
 aussagekräftige Informationen liefert.
 
-Der Markt für FIS-Software ist sehr dynamisch. Vor dem Hintergrund, dass sich
+Der Markt für *FIS*-Software ist sehr dynamisch. Vor dem Hintergrund, dass sich
 gerade viele Forschungseinrichtungen in der Planungs- und Aufbauphase von
-FIS befinden, kommen in Deutschland immer neue
+*FIS* befinden, kommen in Deutschland immer neue
 Softwarelösungen zum Einsatz. Es zeigt sich ein vielgestaltiges Bild aus
 kommerziellen Produkten (z. B. *PURE*, *Converis*, *HISinOne-RES*), Open
 Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
 deutschen Forschungseinrichtungen wird mittlerweile häufig *HISinOne-RES*
 genutzt - befördert u. a. durch Landesinitiativen wie *CRIS.NRW*,
-*HeFIS* oder *FIS-Thüringen* sowie den Umstand, dass es aktuell das einzige
+HeFIS oder *FIS-Thüringen* sowie den Umstand, dass es aktuell das einzige
 Produkt am Markt ist, dessen Datenmodell direkt am **Kerndatensatz Forschung
-(KDSF)** ausgerichtet ist.  Obwohl sich ein Rückgang an Eigenentwicklungen
+(*KDSF*)** ausgerichtet ist.  Obwohl sich ein Rückgang an Eigenentwicklungen
 andeutet, sind sie immer noch weit verbreitet. Des Weiteren gibt es die bereits
 lange etablierten kommerziellen Systeme *Converis* und *PURE*. Der Einsatz von
 Open Source-Lösungen wie *DSpace-CRIS* und *VIVO* nimmt erst in den letzten
 Jahren merklich zu -- u. a. befördert durch das Verbundprojekt Hamburg
 Open Science.
 
-An vielen Einrichtungen besteht das Bestreben, dass das FIS zusätzlich die
+An vielen Einrichtungen besteht das Bestreben, dass das *FIS* zusätzlich die
 Funktionalität eines [Repositoriums](#repositorien-für-forschungsergebnisse)
 übernehmen soll. Ein Vorteil eines solchen vereinigten Systems wird zum einen
 in den geringeren Systemkosten gesehen, zum anderen erscheint es weniger
-aufwendig, die bibliografischen Einträge in einem FIS schlicht mit den
+aufwendig, die bibliografischen Einträge in einem *FIS* schlicht mit den
 dazugehörigen Dateien anzureichern statt einen Workflow für das Zusammenspiel
-zwischen FIS und Repositorium zu entwickeln. Dem entgegen stehen die
-verschiedenen Zielsetzungen beider Systeme: Während es bei einem FIS vor allem
+zwischen *FIS* und Repositorium zu entwickeln. Dem entgegen stehen die
+verschiedenen Zielsetzungen beider Systeme: Während es bei einem *FIS* vor allem
 darum geht, möglichst alle Forschungsaktivitäten z. B. einer Einrichtung in
 einem System zu erfassen, steht bei einem Repositorium die nachhaltige
 Bereitstellung der Ressourcen selbst im Vordergrund (z. B. textuelle
 Publikationen oder Forschungsdaten). Ein Problem bei Mischsystemen ergibt sich
 auch hinsichtlich Retrieval und Zugriff: So werden Forschende bei einer Suche
-in externen Suchmaschinen z. B. erst im FIS feststellen, dass nur bei einem
+in externen Suchmaschinen z. B. erst im *FIS* feststellen, dass nur bei einem
 Teil der Treffer tatsächlich Zugang zu den Ressourcen selbst besteht, sie in den
 meisten Fällen jedoch lediglich Nachweise der Ressourcen finden. In der Praxis
-sind FIS-Repositorien-Mischsysteme dennoch aufgrund von
+sind *FIS*-Repositorien-Mischsysteme dennoch aufgrund von
 Ressourcenknappheit nicht wegzudenken.
 
 Nichtsdestoweniger sind die Publikationsdaten ein wichtiger Bestandteil jedes
-FIS. Aus diesem Grund ist das FIS eine gute erste Anlaufstelle, um interne
+*FIS*. Aus diesem Grund ist das *FIS* eine gute erste Anlaufstelle, um interne
 bibliometrische Recherchen über den Output der eigenen Forschenden
 durchzuführen. Darüber hinaus sind primär Anfragen in externen Datenbanken als
 ergänzende Arbeitsschritte notwendig, keine weiteren Tools, die unter dem
@@ -664,7 +664,7 @@ Forschungsinformationssysteme das *[Gemeinsame Vokabular für
 Publikations- und Dokumenttypen](https://doi.org/10.18452/24147)*
 herausgegeben. Im Sinne der Standardisierung enthält das DINI-Zertifikat
 weitere Vorgaben, wie z. B. die Klassifizierung nach zumindest
-den DDC-Sachgruppen der Deutschen Nationalbibliografie und macht
+den Dewey-Dezimalklassifikations-Sachgruppen (*DDC*) der Deutschen Nationalbibliografie und macht
 Vorgaben an die Ausgestaltung der *OAI-PMH*-Schnittstelle. Diese Standards
 ermöglichen es Diensten wie z. B. der *Bielefeld Academic Search
 Engine* und anderen Aggregatoren Inhalte aus verschiedenen Quellen
@@ -771,7 +771,7 @@ Die dauerhafte Aufbewahrung und Lesbarkeit von digitalen Objekten zu
 gewährleisten, stellt auch für Bibliotheken, die zunehmend für die Archivierung
 von Open-Access-Publikationen, Forschungsdaten und anderen elektronischen
 Ressourcen verantwortlich sind, eine große Herausforderung dar. Die sogenannte
-**digitale Langzeitarchivierung (LZA)** beinhaltet neben der Speicherung
+**digitale Langzeitarchivierung (*LZA*)** beinhaltet neben der Speicherung
 zusätzliche Maßnahmen wie die regelmäßige Überprüfung der Datenintegrität, die
 Migration der Daten auf neue Speichermedien und die Anpassung an sich
 verändernde Technologien. Digitale Informationen bleiben so langfristig
@@ -779,14 +779,14 @@ erhalten und auch in der Zukunft zugänglich.
 
 Bewahrt werden müssen der Bitstream der Datei sowie deren
 Eigenschaften und Semantik.  Aktuell ist
-*[PREMIS](https://www.loc.gov/standards/premis/)* in der LZA der wichtigste
+*[PREMIS](https://www.loc.gov/standards/premis/)* in der *LZA* der wichtigste
 Metadatenstandard. Das Datenmodell beinhaltet alle Informationen, die man
 sowohl über die digitalen Objekte selbst (z. B.  Name, Dateiformat, Größe) als
 auch über Akteur*innen, Rechte (z. B.  AccessRights, Embargofristen) und Prozesse
 (z. B. Konvertierung, Migrationen, Reparatur, Formatvalidierung) wissen
 sollte. 
 
-Es gibt auf LZA spezialisierte Software wie *Rosetta* (*ExLibris*) oder *Libsafe*
+Es gibt auf *LZA* spezialisierte Software wie *Rosetta* (*ExLibris*) oder *Libsafe*
 (*libnova*). Diese Systeme basieren meist auf dem international anerkannten
 Referenzmodell für digitale Archivierung *OAIS* (*[Open Archival Information
 System, ISO 14721:2012](https://www.iso.org/standard/57284.html)*) und bieten
@@ -796,8 +796,8 @@ Format-Validierung und implementierbare Workflows.
 
 Auf der Webpage [COPTR](https://coptr.digipres.org/) - Community Owned
 digital Preservation Tool Registry - werden diese und zahlreiche weitere
-Tools und Workflows zur LZA vorgestellt. Als wichtige
-Anlaufstelle für Fragen rund um die digitale LZA dient
+Tools und Workflows zur *LZA* vorgestellt. Als wichtige
+Anlaufstelle für Fragen rund um die digitale *LZA* dient
 außerdem das *[Kompetenznetzwerk nestor](https://www.langzeitarchivierung.de/)*, 
 dessen Geschäftsstelle an der DNB
 angesiedelt ist. Auch die *NFDI* behandelt "[Long-term Archival
@@ -814,7 +814,7 @@ Protocol for Metadata
 Harvesting](https://www.openarchives.org/pmh/)* (*OAI-PMH*)
 für den Austausch von Metadaten durchgesetzt. Dieses Protokoll wird
 inzwischen auch im Zusammenspiel mit anderen forschungsnahen Diensten
-wie z. B. FIS genutzt. Das Protokoll tauscht Metadaten in XML
+wie z. B. *FIS* genutzt. Das Protokoll tauscht Metadaten in XML
 aus. Es unterstützt mehrere Metadatenformate, wobei die Spezifikation
 von *OAI-PMH* nur *Dublin Core* vorgibt und das Protokoll vorsieht, dass man
 eine Liste mit weiteren unterstützten Formaten abrufen kann.
@@ -838,7 +838,7 @@ einem Bildpool, Umgang mit Zugriffsbeschränkungen, Objektänderungen und
 so weiter.
 
 *OAI-PMH* und *SWORD* werden zum Teil zwar auch über Repositorien hinaus
-verwendet, z. B. bei FIS. Verbreitung
+verwendet, z. B. bei *FIS*. Verbreitung
 und Einsatz beschränken sich jedoch weitgehend auf den Bereich der
 forschungsnahen Dienste. Als weiter verbreitete Prinzipien zur
 Bereitstellung von Informationen muss *Linked Data* gesehen werden. Die
@@ -916,12 +916,12 @@ Beispiel: An einer Bibliothek findet in Zusammenarbeit mit
 Fachwissenschaftler\*innen ein großes Retro-Digitalisierungsprojekt statt. Für
 die Verwaltung der [Digitalisierungsvorgänge](#digitalisierung) wird *Kitodo*
 verwendet. Die Werke sind im BMS verzeichnet und die
-Metadaten werden über die SRU-Schnittstelle nach *Kitodo* importiert. Weitere
+Metadaten werden über die Search/Retrieve via URL-Schnittstelle (*SRU*) nach *Kitodo* importiert. Weitere
 Strukturdaten werden in *Kitodo* direkt eingetragen. Nach dem Scannen werden die
 Dokumente von *Kitodo* über die *REST-API* oder *SWORD* in das Repositorium exportiert.
-Das Repositorium ruft weitere Metadaten über SRU aus dem Bibliothekskatalog ab
+Das Repositorium ruft weitere Metadaten über *SRU* aus dem Bibliothekskatalog ab
 und vergibt DOIs, die wieder in das BMS
-zurückgespeichert werden. Das FIS harvestet die
+zurückgespeichert werden. Das *FIS* harvestet die
 Inhalte über *OAI-PMH* regelmäßig und weist die Digitalisate nach, die im
 Repositorium bereitgestellt werden.
 
@@ -991,7 +991,7 @@ Publikationsprozesses sowie des FDM.
 Wie das vorliegende Kapitel gezeigt hat, umfassen diese
 Services auch eine Vielzahl an IT-Diensten, so z. B.
 Journal-Publishing-Systeme, Repositorien und
-FIS. Der stabile und nachhaltige Betrieb
+*FIS*. Der stabile und nachhaltige Betrieb
 solcher Dienste umfasst technische, organisatorische und inhaltliche
 Aspekte. Der Aufbau und Betrieb forschungsnaher Dienste an Bibliotheken
 bindet daher umfangreiche Ressourcen und erfordert ggf. auch eine
