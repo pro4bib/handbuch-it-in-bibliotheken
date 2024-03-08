@@ -627,7 +627,7 @@ werden im folgenden Kapitel erläutert.
 Forschungsnahe Dienste bewegen sich an der Schnittstelle
 zwischen Wissenschaft und Infrastruktureinrichtungen, welche die Dienste
 betreiben. Zertifikate erfüllen in diesem Spannungsfeld verschiedene
-Funktionen. Sie waren als Vertrauen gebende Maßnahmen angedacht, die
+Funktionen. Sie waren als Vertrauen gebende Maßnahmen gedacht, die
 Qualitätsmerkmale der Dienstleistungen sein sollten. Das
 *[DINI-Zertifikat für Open-Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)*
 versteht sich seit jeher auch als Ratgeber bei Einrichtung,
@@ -983,7 +983,7 @@ zielführend sein.
 ## Zusammenfassung und Ausblick
 
 Forschungsnahe Dienste können Wissenschaftler\*innen grundsätzlich über
-den gesamten Forschungsprozess hinweg unterstützen - das Portfolio
+den gesamten Forschungsprozess hinweg unterstützen -- das Portfolio
 möglicher Services ist daher sehr groß. Bibliotheken setzen ihren
 Schwerpunkt hierbei insbesondere auf Services zur Unterstützung des
 Publikationsprozesses sowie des FDM.
