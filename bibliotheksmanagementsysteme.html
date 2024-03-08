@@ -278,7 +278,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#datenverwaltung-in-bms" id="toc-datenverwaltung-in-bms" class="nav-link" data-scroll-target="#datenverwaltung-in-bms">Datenverwaltung in BMS</a>
   <ul class="collapse">
-  <li><a href="#bibliographische-metadaten" id="toc-bibliographische-metadaten" class="nav-link" data-scroll-target="#bibliographische-metadaten">Bibliographische Metadaten</a></li>
+  <li><a href="#bibliografische-metadaten" id="toc-bibliografische-metadaten" class="nav-link" data-scroll-target="#bibliografische-metadaten">Bibliografische Metadaten</a></li>
   <li><a href="#digitale-inhalte" id="toc-digitale-inhalte" class="nav-link" data-scroll-target="#digitale-inhalte">Digitale Inhalte</a></li>
   <li><a href="#verwaltungsdaten" id="toc-verwaltungsdaten" class="nav-link" data-scroll-target="#verwaltungsdaten">Verwaltungsdaten</a></li>
   <li><a href="#datenformate-und-schnittstellen" id="toc-datenformate-und-schnittstellen" class="nav-link" data-scroll-target="#datenformate-und-schnittstellen">Datenformate und Schnittstellen</a></li>
@@ -638,7 +638,7 @@ Info
 <ul>
 <li><p>Haushaltssysteme wie SAP, HIS Haushalt-ERP</p></li>
 <li><p><a href="#identity-management">Identitätsmanagementsysteme</a> (Account-Verwaltung)</p></li>
-<li><p>Lieferantensysteme (bibliographische Daten, Bestell- und Rechnungsdaten)</p></li>
+<li><p>Lieferantensysteme (bibliografische Daten, Bestell- und Rechnungsdaten)</p></li>
 </ul>
 <p>Im bibliothekarischen Umfeld sind folgende Systeme relevant:</p>
 <ul>
@@ -652,7 +652,7 @@ Info
 <li><p>Dokumentenlieferdienste (wie <a href="https://www.subito-doc.de/">Subito</a> und Fachinformations-Lieferdienste)</p></li>
 </ul>
 <p>Die Anbindung an die entsprechenden Dienste (Zentraler Fernleih-Server, Fernleihdienst, Subito-Server etc.) ist für viele, aber durchaus nicht alle Bibliotheken relevant.</p>
-<p>Im Zusammenhang mit dem Aufbau der Fachinformationsdienste für die spezialisierte Informationsversorgung in Deutschland werden in zunehmendem Maße Fachportale entwickelt. Relevante Katalog-Informationen werden aus möglichst vielen Bibliotheken regelmäßig abgerufen (Harvesting), in ein einheitliches Datenformat übertragen und anschließend als gemeinsamer Index für die übergreifende Recherche in Discovery-Systemen angeboten. Die BMS müssen entsprechend über <a href="#datenformate-und-schnittstellen">Standardschnittstellen</a> die relevanten Katalogdaten in einem vereinbarten <a href="#bibliographische-metadaten">Datenformat</a> bereitstellen.</p>
+<p>Im Zusammenhang mit dem Aufbau der Fachinformationsdienste für die spezialisierte Informationsversorgung in Deutschland werden in zunehmendem Maße Fachportale entwickelt. Relevante Katalog-Informationen werden aus möglichst vielen Bibliotheken regelmäßig abgerufen (Harvesting), in ein einheitliches Datenformat übertragen und anschließend als gemeinsamer Index für die übergreifende Recherche in Discovery-Systemen angeboten. Die BMS müssen entsprechend über <a href="#datenformate-und-schnittstellen">Standardschnittstellen</a> die relevanten Katalogdaten in einem vereinbarten <a href="#bibliografische-metadaten">Datenformat</a> bereitstellen.</p>
 </section>
 <section id="verbundkataloge" class="level3">
 <h3 class="anchored" data-anchor-id="verbundkataloge">Verbundkataloge</h3>
@@ -787,15 +787,15 @@ Tabelle&nbsp;6.2: Bibliotheksverbünde und -kataloge
 <h2 class="anchored" data-anchor-id="datenverwaltung-in-bms">Datenverwaltung in BMS</h2>
 <p>Ein BMS verwaltet zum einen Daten über die von der Bibliothek bereitgestellten oder vermittelten Ressourcen (vor allem physische und digitale Medien) und zum anderen Daten über wesentliche Arbeitsprozesse (beispielsweise Erwerbung und Ausleihe). Dabei lassen sich grob drei Arten von Daten unterscheiden:</p>
 <ul>
-<li><p><strong>Bibliographische Metadaten</strong> zur Beschreibung von Ressourcen</p></li>
+<li><p><strong>Bibliografische Metadaten</strong> zur Beschreibung von Ressourcen</p></li>
 <li><p><strong>Digitale Inhalte</strong> wie Volltexte, Digitalisate und andere digitale Publikationen</p></li>
 <li><p><strong>Verwaltungsdaten</strong> zur Unterstützung von Workflows</p></li>
 </ul>
 <p>Die Datenhaltung erfolgt in der Regel in relationalen Datenbanken (MySQL, PostgeSQL, Oracle/Sybase …).</p>
 <p>Zur sinnvollen Verarbeitung von Daten im BMS und in Integration mit anderen System müssen Daten bestimmten Datenformaten entsprechen, über Schnittstellen abruf- und ggf. änderbar sein und Mindestanforderungen an die Datenqualität genügen.</p>
-<section id="bibliographische-metadaten" class="level3">
-<h3 class="anchored" data-anchor-id="bibliographische-metadaten">Bibliographische Metadaten</h3>
-<p>Bibliographische Metadaten in Form von Titel-, Exemplar- und Normdaten bilden den Kern des klassischen Katalogs. An anderer Stelle tauchen diese Daten beispielsweise als Suchindizes für Discovery-Systeme auf. Das BMS verwaltet diese Daten um Medien zu beschaffen, auffindbar und zugreifbar zu machen. Diese Daten können von verschiedenen Bibliotheken gemeinsam erstellt, gepflegt und genutzt werden, z. B. über Verbundkataloge. Oft werden bibliographische Metadaten auch als Open Data zur Verfügung gestellt.</p>
+<section id="bibliografische-metadaten" class="level3">
+<h3 class="anchored" data-anchor-id="bibliografische-metadaten">Bibliografische Metadaten</h3>
+<p>Bibliografische Metadaten in Form von Titel-, Exemplar- und Normdaten bilden den Kern des klassischen Katalogs. An anderer Stelle tauchen diese Daten beispielsweise als Suchindizes für Discovery-Systeme auf. Das BMS verwaltet diese Daten um Medien zu beschaffen, auffindbar und zugreifbar zu machen. Diese Daten können von verschiedenen Bibliotheken gemeinsam erstellt, gepflegt und genutzt werden, z. B. über Verbundkataloge. Oft werden bibliografische Metadaten auch als Open Data zur Verfügung gestellt.</p>
 <p>diese Metadaten mit zur freien Nutzung zur Verfügung gestellt</p>
 <p>genutzt und in der Regel frei zur Verfügung gestellt werden.</p>
 </section>
@@ -816,7 +816,7 @@ Tabelle&nbsp;6.2: Bibliotheksverbünde und -kataloge
 <p>Trotz gemeinsamer Standards ist ein genaues Hinschauen immer erforderlich, da sich die Handhabung gleicher Formate in der Praxis zwischen verschiedenen Systemen und Einrichtungen unterscheidet.</p>
 <p>Neben Standardformaten gibt es speziellere Anwendungsformate. Diese basieren allerdings in der Regel auf allgemeinen Strukturierungssprachen (<em>CSV</em>, <em>XML</em>, <em>JSON</em> oder <em>RDF</em>) die je nach BMS besser oder schlechter unterstützt werden.</p>
 <ul>
-<li><p>Beispiele für bibliographische Standardformate sind <em>MARC21</em>, <em>BIBFRAME</em> und als kleinster gemeinsamer Nenner Dublin Core. Das PICA-Format bzw. darauf aufbauende Formate ist vor allem als Internformat in den Bibliotheksverbünden GBV, BSZ und an der DNB verbeitet.</p></li>
+<li><p>Beispiele für bibliografische Standardformate sind <em>MARC21</em>, <em>BIBFRAME</em> und als kleinster gemeinsamer Nenner Dublin Core. Das PICA-Format bzw. darauf aufbauende Formate ist vor allem als Internformat in den Bibliotheksverbünden GBV, BSZ und an der DNB verbeitet.</p></li>
 <li><p>Verbreitete Metadaten-Schnittstellen sind <abbr title="Protokoll zur Abfrage von bibliografischen Daten">Z39.50</abbr>, <em>SRU</em> und <em>OAI-PMH</em>.</p></li>
 <li><p>Beispiele für relevante Formate und Schnittstellen für digitale Inhalte sind PDF, <em>METS/MODS</em> und <em>IIIF</em>.</p></li>
 <li><p>Relevante Schnittstellen für BMS-Verwaltungsdaten sind unter Anderem <em>LDAP</em>, <em>NCIP</em>, <abbr title="Protokoll zur Anbindung von Selbstbedienungsautomaten an Bibliothekssysteme">SIP2</abbr>, <em>PAIA</em> sowie Schnittstellen an Haushaltssysteme wie <em>SAP</em> und <em>HIS</em>.</p></li>

@@ -491,7 +491,7 @@ Info
 </section>
 <section id="feldbasierte-bibliothekarische-metadatenformate" class="level3">
 <h3 class="anchored" data-anchor-id="feldbasierte-bibliothekarische-metadatenformate">Feldbasierte bibliothekarische Metadatenformate</h3>
-<p><strong>Machine-Readable Cataloging (MARC)</strong> ist das älteste und noch immer wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für bibliographische Daten. Neben der binären Kodierung kann MARC 21 auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des Formats sind historisch bedingt, eine Alternative konnte sich bislang nicht durchsetzen.</p>
+<p><strong>Machine-Readable Cataloging (MARC)</strong> ist das älteste und noch immer wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für bibliografische Daten. Neben der binären Kodierung kann MARC 21 auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des Formats sind historisch bedingt, eine Alternative konnte sich bislang nicht durchsetzen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="media/marc21-example.svg" class="img-fluid figure-img"></p>
@@ -512,7 +512,7 @@ Info
 <p><strong>METS</strong> und <strong>MODS</strong> sind zwei zusammen im Bereich <a href="./digitalisierung.html">Digitalisierung</a> eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung von Objekten, wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.</p>
 <p><em><a href="https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182">Encoded Archival Description</a></em> (<strong>EAD</strong>) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.</p>
 <p><strong>LIDO</strong> ist ein etabliertes Austauschformat für den Museumsbereich.</p>
-<p><strong>DataCite</strong> ist ein bibliographisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>).</p>
+<p><strong>DataCite</strong> ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel <a href="./forschungsnahe-dienste.html">Forschungsnahe Dienste</a>).</p>
 </section>
 <section id="datenmodelle-und-ontologien" class="level3">
 <h3 class="anchored" data-anchor-id="datenmodelle-und-ontologien">Datenmodelle und Ontologien</h3>
@@ -531,7 +531,7 @@ Definition
 </div>
 </div>
 <p><strong>Dublin Core</strong> bzw. das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
-<p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliographischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
+<p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliografischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
 <p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen.</p>
 <p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
 </section>
@@ -547,7 +547,7 @@ Definition
 <p>Traditionell werden bibliothekarische Metadaten durch Katalogisierung erstellt. Die Verwaltung der Katalogdaten erfolgt entweder lokal oder gemeinsam in einer <strong>Verbunddatenbank</strong>. Der Vorteil der Verbundkatalogisierung liegt darin, dass jedes Dokument nur einmal zentral beschrieben werden muss, während bei lokaler Katalogisierung durch <em>Fremddatenübernahme</em> nur zum Teil auf vorhandene Kataloge zurückgegriffen werden kann.</p>
 <p>Im Idealfall sollte die Erfassung nach <em>Autopsie</em>, also auf Grundlage des vorliegenden Werkes, durch geschultes Personal und nach etablierten Regelwerken (<em>Katalogisierungsrichtlinien</em>) erfolgen. Um möglichst viele Publikationen zu erfassen, wird jedoch zunehmend auch auf anderweitig erfasste Metadaten von Verlagen, Repositorien und aus anderen Quellen zurückgegriffen. Dazu müssen Daten unterschiedlicher Erschließungstiefe und -qualität im Rahmen von <a href="#etl-prozess">ETL-Prozessen</a> gesammelt, analysiert und mit vorhandenen Daten vereinheitlicht werden. In jedem Fall muss beachtet werden, dass sich Regeln und Umstände, nach denen Daten erfasst werden, mit der Zeit ändern können (beispielsweise der Umstieg der Erfassungsregeln von <em>RAK</em> auf <em>RDA</em>) und dass das Ergebnis auch davon abhängt, wie gut überprüft werden kann, was die Anforderungen an die Daten sind.</p>
 <p>Darüber hinaus gibt es Verfahren zur automatischen Erstellung von Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und Auswertung von Literaturangaben und zur thematischen Einordnung von Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate gerechnet werden.</p>
-<p>Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die Daten erfasst werden. So gelten beispielsweise für eine historische Bibliographie andere Maßstäbe als für einen Suchindex.</p>
+<p>Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die Daten erfasst werden. So gelten beispielsweise für eine historische Bibliografie andere Maßstäbe als für einen Suchindex.</p>
 <p>Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit denen Daten erstellt, bearbeitet und <em>analysiert</em> werden können.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
