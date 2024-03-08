@@ -580,11 +580,11 @@ Feedback zu Missverständnissen führen.
   CC ist. Im besten Fall finden sich bessere Alternativen, die je
   Situation einsetzbar sind.
 
--  **Videokonferenzsysteme** dienen dem synchronen Austausch mittels Bild - und
-   Tonübertragung. Kommerzielle Beispiele sind Microsoft Teams, Webex und
-   Zoom. Daneben stehen freie Alternativen wie [jitsi](https://jitsi.org/)
-   und [DFNconf](https://www.conf.dfn.de/) zur Verfügung. Zunehmend sind
-   Videofunktionen auch in anderen Werkzeugen integriert.
+-  **Videokonferenzsysteme** gibt es als eigenständige Tools oder die
+   Videofunktion ist in andere Werkzeuge integriert. Kommerzielle Beispiele
+   sind Microsoft Teams, Webex und Zoom. Daneben stehen freie Alternativen wie
+   [jitsi](https://jitsi.org/) und [DFNconf](https://www.conf.dfn.de/) zur
+   Verfügung.
 
    Um virtuelle Besprechungsräume so auszustatten, dass auch Menschen an
    Besprechungen teilnehmen können, die nicht anwesend sind, ist
@@ -845,7 +845,7 @@ Brainstorming bis zur fertig ausgearbeiteten Präsentation.
     gut mit *OnlyOffice* zusammenspielt (s. o.)
 
 -   Online-Whiteboards sind digitale Tools, die ein traditionelles
-    physisches Whiteboard emulieren. Sie ermöglichen es, in Echtzeit
+    physisches Whiteboard simulieren. Sie ermöglichen es, in Echtzeit
     gemeinsam zu brainstormen, indem etwa Post-Its in den virtuellen
     Raum geklebt werden, aber auch um zu zeichnen und multimediale
     Inhalte zu integrieren. Damit eignen sie sich gut sowohl für die

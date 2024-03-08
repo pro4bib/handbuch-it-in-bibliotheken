@@ -77,16 +77,16 @@ Die **erste Generation** der Bibliotheksmanagementsysteme umfasste Grundfunktion
 
 :::
 
-Seit den 2010er-Jahren entstand eine neue Generation von BMS,
-die **Next-Generation Library Management Systems**, die auch **Library
-Services Platforms** genannt werden. Diese zeichnen sich durch
+Seit den 2010er-Jahren entstand eine neue Generation von BMS, die
+**Next-Generation Library Management Systems (LMS)**, die auch **Library
+Services Platforms (LSP)** genannt werden. Diese zeichnen sich durch
 verschiedene technische und funktionale Neuerungen aus. Die Datenhaltung
-erfolgt in der Regel cloudbasiert (auch wenn dies bei bei älteren
-Systemen durch Hosting auch schon möglich war), außerdem werden in der
-Regel mehr Schnittstellen zur Integration des Systems mit anderen
-Lösungen angeboten. Funktional wurden die Systeme vor allem um die
-Möglichkeit der Verwaltung von elektronischen Ressourcen erweitert sowie
-Statistik- und Reporting-Funktionalitäten verbessert.
+erfolgt in der Regel cloudbasiert (auch wenn dies bei bei älteren Systemen
+durch Hosting auch schon möglich war), außerdem werden in der Regel mehr
+Schnittstellen zur Integration des Systems mit anderen Lösungen angeboten.
+Funktional wurden die Systeme vor allem um die Möglichkeit der Verwaltung von
+elektronischen Ressourcen erweitert sowie Statistik- und
+Reporting-Funktionalitäten verbessert.
 
 Seit dem Ende der 1990er Jahre spielen auch wieder Lösungen eine Rolle,
 die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
@@ -157,45 +157,49 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 
 :::
 
-  ----------------------------------------------------------------------------
-             Organisation    Marktstatus            Open       Individuelle
-                                                    Source     Entwicklung
-  ---------- --------------- ---------------------- ---------- ---------------
-  aDIS/BMS   aStec           ÖBs und WBs vor allem  nein       durch aStec
+  ------------------------------------------------------------------------------
+             Organisation    Marktstatus                Open       Individuelle
+                                                        Source     Entwicklung
+  ---------- --------------- -------------------------- ---------- ---------------
+  aDIS/BMS   aStec           ÖBs und WBs vor allem      nein       durch aStec
                              im BSZ                            
 
-  Alma       ExLibris        WBs in Berlin, NRW,    nein       durch ExLibris,
-                             Bayerische                        integrierte
-                             Staatsbibliothek,                 Apps in Eigenregie
+  Alma       ExLibris        WBs in Berlin, NRW,        nein       durch ExLibris,
+                             Bayerische                            integrierte
+                             Staatsbibliothek,                     Apps in Eigenregie
                              Schweiz                           
 
-  FOLIO      Open Library    Einführung in WBs      ja         in Eigenregie
-             Foundation      im GBV und hebis                  oder durch
-                                                               Dienstleister
+  FOLIO      Open Library    Einführung in WBs          ja         FOLIO Community
+             Foundation      im GBV und hebis                      und durch
+                                                                   Dienstleister
 
-  Koha       Koha Community  ÖBs und                ja         in Eigenregie
-                             Spezialbibliotheken,              oder durch
-                             in Planung im KOBV                Dienstleister
+  Koha       Koha Community  ÖBs und                    ja         in Eigenregie
+                             Spezialbibliotheken,                  oder durch
+                             in Planung im KOBV                    Dienstleister
 
-  LBS        OCLC            WBs im GBV und         nein       durch OCLC
-                             Spezialbibliotheken               
+  LBS        OCLC            WBs im GBV, Hebis, DNB,    nein       durch VZG
+                             Spezialbibliotheken und               
+                             in den Niederlanden               
 
-  LIBERO     LIBERO/Knosys   ÖBs und WBs            nein       durch LIBERO
-  ----------------------------------------------------------------------------
-: relevante Software-Produkte (Stand Mitte 2022) {#tbl-aktuelle-sw-produkte}
+  LIBERO     LIBERO/Knosys   ÖBs und WBs                nein       durch LIBERO
+  --------------------------------------------------------------------------------
+: relevante Software-Produkte (Stand Anfang 2024) {#tbl-aktuelle-sw-produkte}
 
 <!--
 [FOLIO]: https://librarytechnology.org/product/folio
 [Koha]: https://librarytechnology.org/product/koha
 [Alma]: https://librarytechnology.org/product/alma
 [LIBERO]: https://librarytechnology.org/product/libero
-
- PICA LBS: https://librarytechnology.org/products/product.pl?RC=272
+PICA LBS: https://librarytechnology.org/products/product.pl?RC=272
 -->
 
-In @tbl-aktuelle-sw-produkte sind die aktuellen BMS mit der derzeit größten Marktreife und
--durchdringung im deutschsprachigen Raum (Stand Mitte 2022, Sortierung nach Namen) angegeben.
-Weitere BMS wie ExLibris Aleph, SISIS Sunrise und allegro werden zwar auch noch an vielen Bibliotheken eingesetzt, aber nicht mehr wesentlich weiterentwickelt. Das Cloud-basierte System WMS von OCLC ist in Deutschland bislang nur vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC ein Nachfolger angekündigt.
+In @tbl-aktuelle-sw-produkte sind die aktuellen BMS mit der derzeit größten
+Marktreife und -durchdringung im deutschsprachigen Raum (Stand Anfang 2024,
+Sortierung nach Namen) angegeben. Weitere BMS wie ExLibris Aleph, SISIS Sunrise
+und allegro werden zwar auch noch an vielen Bibliotheken eingesetzt, aber nicht
+mehr wesentlich weiterentwickelt. Das Cloud-basierte System WMS von OCLC ist in
+Deutschland bislang nur vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC
+ein Nachfolger angekündigt.
 
 Darüber hinaus gibt es mehrere kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist, beispielsweise:
 
@@ -215,7 +219,9 @@ beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden
 :::{.callout-tip}
 ## Info
 
-Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist mit mehr als 20 Jahren im Vergleich zu anderen IT-Systemen eher lang. So wurde beispielsweise FOLIO im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
+Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist im Vergleich zu anderen IT-Systemen eher lang. So blicken z. B. Systeme wie Aleph, aDIS, LBS, SISIS Sunrise und Koha auf eine 20-30 jährige Entwicklungsgeschichte zurück und befinden sich aktuell immer noch im Einsatz. Auch 
+
+So wurde beispielsweise FOLIO im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
 
 :::
 ## Funktionalitäten von Bibliotheksmanagementsystemen
@@ -233,11 +239,11 @@ Module für folgende Funktionen:
 
 ### Grundlegende Komponenten
 
-Die Systeme der **1. und 2. Generation** können als sehr ausgereift
-bezeichnet werden und lassen vielfältige Möglichkeiten zu,
-bibliothekarische Geschäftsgänge in einem hohen Detaillierungsgrad
-abzubilden. Nachfolgend werden diese entsprechenden Aufgabenbereiche
-skizziert.
+Die Systeme der [**1. und 2.
+Generation**](#geschichte-der-bibliotheksmanagementsysteme) können als sehr
+ausgereift bezeichnet werden und lassen vielfältige Möglichkeiten zu,
+bibliothekarische Geschäftsgänge in einem hohen Detaillierungsgrad abzubilden.
+Nachfolgend werden diese entsprechenden Aufgabenbereiche skizziert.
 
 **Erwerbung** meint die Beschaffung benötigter Bestände im Buchhandel und bei Verlagen. Darunter fallen z.B. folgende Aufgabengebiete:
 
@@ -314,6 +320,8 @@ kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 
 -   Verfügbarkeit von Datenbanken bzw. Knowledge Bases für
     bibliografische Daten und Lizenzinformationen
+
+-   Verwaltung elektronischer Ressourcen
 
 -   kein fest integrierter Katalog, sondern Schnittstellen zu
     Discovery-Systemen
@@ -441,14 +449,14 @@ bereitstellen.
 
 ### Verbundkataloge
 
-In Deutschland haben sich Katalogverbünde in den 1970er und 1980er
-Jahren entwickelt. Zunächst haben sich die wissenschaftlichen
-Bibliotheken meistens auf Bundesland-Ebene für die Rationalisierung der
-Katalogisierung zu Verbünden zusammengeschlossen. Inzwischen sind in
-diesen Verbünden auch öffentliche Bibliotheken vertreten. Darüber hinaus
-gibt es mit WorldCat einen internationalen Verbundkatalog. Die Anbindung
-an WorldCat geschieht jedoch in der Regel nicht direkt über
-das lokale, BMS sondern über den Bibliotheksverbund.
+In Deutschland haben sich Katalogverbünde in den 1970er und 1980er Jahren
+entwickelt. Zunächst haben sich die wissenschaftlichen Bibliotheken meistens
+auf Bundesland-Ebene für die Rationalisierung der Katalogisierung zu Verbünden
+zusammengeschlossen. Inzwischen sind in diesen Verbünden auch öffentliche
+Bibliotheken vertreten. Darüber hinaus gibt es mit WorldCat einen
+internationalen Verbundkatalog. Die Anbindung an WorldCat geschieht in
+Deutschland in der Regel über die Bibliotheksverbünde, international auch
+direkt über die lokalen BMS.
 
 @tbl-verbund gibt eine Übersicht über die deutschsprachigen Bibliotheksverbünde.
 
@@ -495,13 +503,16 @@ die Katalogisate dann vielfach verzögerungsfrei in die BMS.
 
 Für Informationen zu elektronischen Medien gibt es neben den
 Verbunddatenbanken weitere Datenbanken bzw. Knowledge Bases, aus denen
-Paket- und Lizenzinformationen hervorgehen. Diese sind zum Beispiel
+Paket- und Lizenzinformationen hervorgehen. Darunter fallen zum Beispiel
 
--   die Zeitschriftendatenbank (ZDB) als zentrales Nachweissystem für
+-   die Zeitschriftendatenbank (ZDB) und die Elektronischen
+    Zeitschriftenbibliothek (EZB) als zentrale Nachweissysteme für
     Zeitschriften und Fortsetzungen in deutschen und österreichischen
     Bibliotheken
 
 -   die *GoKb* als kooperativ gepflegte Knowledge Base für elektronische Ressourcen
+
+-   kommerzielle Knowledge Bases wie die EBSCO KB, Alma NZ und den OCLC Collection Manager
 
 ### Statistik und Reporting
 
@@ -1192,7 +1203,7 @@ Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
     Discovery-Systeme
 
 12. Anbindung an Automatisierungslösungen und externe Verbuchungssysteme
-    (etwa mittels RFID)
+    (über Schnittstellen wie SIP2 und NCIP und mittels RFID)
 
 Die Parametrisierung der Ausleihe ist ein besonders komplexer Bereich
 der BMS-Installation aufgrund der Vielzahl von zu beachtenden
@@ -1384,15 +1395,14 @@ nachgenutzt werden. Dies ist die Rolle des Identity Managements (IDM).
 
 #### Identity Management
 
-Ein IDM (Identity Management System) ist ein System, mit dem die
-Basisdaten von Personen und Gruppen an zentraler Stelle verwaltet werden
-können. Dies sind etwa persönliche Daten, Kontaktdaten und
-Organisationsstrukturen. Ziel ist es, alle relevanten Informationen 
-nur an einer zentralen Stelle vorzuhalten. In verknüpften Systemen
-sollen Aufwände einer ggf. nötigen Synchronisation und die Speicherung 
-von dubletten Informationen vermieden werden. Damit Personen in einem System
-eindeutig identifiziert werden können, existieren zumeist eine oder
-mehrere eindeutige IDs, etwa die Matrikelnummer eines Studierenden.
+Ein IDM (Identity Management System) ist ein System, mit dem die Basisdaten von
+Personen und Gruppen an zentraler Stelle verwaltet werden können. Dies sind
+etwa persönliche Daten, Kontaktdaten und Angaben zur Organisation. Ziel ist es,
+alle relevanten Informationen nur an einer zentralen Stelle vorzuhalten. In
+verknüpften Systemen sollen Aufwände einer ggf. nötigen Synchronisation und die
+Speicherung von dubletten Informationen vermieden werden. Damit Personen in
+einem System eindeutig identifiziert werden können, existieren zumeist eine
+oder mehrere eindeutige IDs, etwa die Matrikelnummer eines Studierenden.
 
 Das IDM hält im Regelfall mehr Daten über eine/n Nutzer/in bereit, als
 von den jeweiligen verbundenen Systemen benötigt werden. Beispielsweise
