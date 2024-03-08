@@ -3,30 +3,48 @@ glossary:
     url: https://de.wikipedia.org/wiki/Programmierschnittstelle
     definition: Application Programming Interface, Programmierschnittstelle
 
-  Avram:
-    url: https://format.gbv.de/schema/avram/specification
-    definition: Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+
+  APC:
+    url: https://en.wikipedia.org/wiki/Article_processing_charge
+    definition: Article processing charge, gebräuchlich auch als publication fee
+    
+#  Avram:
+#    url: https://format.gbv.de/schema/avram/specification
+#    definition: Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+
 
-  BMS:
-    definition: Bibliotheksmanagementsystem, gebräuchlich auch als LMS (Library Management System)
+  BMS/LMS:
+    definition: Bibliotheksmanagementsystem, gebräuchlich auch als Library Management System
 
   CMS:
+    url: https://de.wikipedia.org/wiki/Content-Management-System
     definition: Content-Management-System
 
   COUNTER:
     definition: Counting Online Usage of NeTworked Electronic Resources
     url: https://www.projectcounter.org/
-
+  
+  DDC:
+    url: https://de.wikipedia.org/wiki/Dewey-Dezimalklassifikation
+    definition: Dewey-Dezimalklassifikation, Klassifikation für die Sacherschließung von Bibliotheksbeständen
+    
+  DMP:
+    url: https://forschungsdaten.info/themen/informieren-und-planen/datenmanagementplan/
+    definition: Datenmanagementplan
+    
+  DOI:
+    url: https://de.wikipedia.org/wiki/Digital_Object_Identifier
+    definition: Digital Object Identifier, eindeutiger und dauerhafter digitaler Identifikator für Objekte
+    
 #  Discovery-System:
 #    definition: Auf Suchmaschinentechnologie beruhende Systeme zur Suche in großen (auch externen) Datenbeständen
 #    url: https://de.wikipedia.org/wiki/Discovery-System
 
-  FDM:
-    definition: Forschungsdatenmanagement
-
   EDIFACT:
     definition: Electronic Data Interchange for Administration, Commerce and Transport
     url: https://de.wikipedia.org/wiki/EDIFACT
+
+  ELN:
+    url: https://de.wikipedia.org/wiki/Elektronisches_Laborbuch
+    definition: elektronisches Laborbuch
 
   ERM:
     definition: Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen
@@ -36,32 +54,53 @@ glossary:
     url: https://de.wikipedia.org/wiki/Enterprise-Resource-Planning
     definition: Enterprise-Ressource-Planning, Ressourcen wie z.B. Finanzen unternehmerisch überwachen und planen
 
+  FDM:
+    url: https://forschungsdaten.info/themen/informieren-und-planen/was-ist-forschungsdatenmanagement/
+    definition: Forschungsdatenmanagement
+  
   FID:
+    url: https://de.wikipedia.org/wiki/Fachinformationsdienste_f%C3%BCr_die_Wissenschaft
     definition: Fachinformationsdienst
 
-  FOLIO:
-    definition: Open-Source Bibliotheksmanagementsystem
-    url: https://www.folio-bib.org/
+  FIS:
+    url: https://de.wikipedia.org/wiki/Forschungsinformationssystem
+    definition: Forschungsinformationssystem
+
+#  FOLIO:
+#    definition: Open-Source Bibliotheksmanagementsystem
+#    url: https://www.folio-bib.org/
 
   GOKb:
     definition: Global Open Knowledgebase, Freie Datenbank zu E-Ressourcen, insbesondere für ERM
     url: https://gokb.org/
 
   ID:
-    definition: Eindeutige Referenz auf einen Datensatz (Identifikator)
+    definition: Identifikator, eindeutige Referenz auf einen Datensatz
 
   IDM:
     url: https://en.wikipedia.org/wiki/Identity_management
     definition: Identity Management, das Speichern von Metadaten zu Personen
+    
+  IIIF:
+    url: https://de.wikipedia.org/wiki/International_Image_Interoperability_Framework
+    definition: International Image Interoperability Framework, Standard für digitale Bilder
 
   KBART:
     url: https://www.niso.org/standards-committees/kbart
     definition: Knowledgebases and related tools, Datenformat zum Transfer von Metadaten
 
+  KDSF:
+    url: https://www.kerndatensatz-forschung.de/
+    definition: Kerndatensatz Forschung, ein Standard für Forschungsinformationen für das deutsche Wissenschaftssystem
+
 #  Lock-In-Effekt:
 #    url: https://de.wikipedia.org/wiki/Lock-in-Effekt
 #    definition: Kundenbindung durch hohen Wechselaufwand
 
+  LZA:
+    url: https://de.wikipedia.org/wiki/Langzeitarchivierung
+    definition: Langzeitarchivierung
+    
   MARC:
     url: https://de.wikipedia.org/wiki/Machine-Readable_Cataloging
     definition: MAchine-Readable Cataloging, ältestes und noch immer wichtigstes bibliothekarisches Austauschformat
@@ -78,6 +117,10 @@ glossary:
     url: https://de.wikipedia.org/wiki/OPAC
     definition: Online Public Access Catalogue, Katalog einer Bibliothek
 
+  PID:
+    url: https://de.wikipedia.org/wiki/Persistent_Identifier
+    definition: Persistent Identifier, eine eindeutige und dauherhafte Benennung einer digitalen Ressource
+
   SaaS:
     url: https://de.wikipedia.org/wiki/Software_as_a_Service
     definition: Software as a Service, Software und Hardware bei externem Dienstleister
@@ -85,7 +128,15 @@ glossary:
   SIP2:
     url: https://en.wikipedia.org/wiki/Standard_Interchange_Protocol
     definition: Protokoll zur Anbindung von Selbstbedienungsautomaten an Bibliothekssysteme
-
+  
+  SRU:
+    url: https://de.wikipedia.org/wiki/Search/Retrieve_via_URL
+    definition: Search/Retrieve via URL, ein technischer Standard für Suchanfragen in Bibliothekskatalogen
+    
+  SWORD:
+    url: https://en.wikipedia.org/wiki/SWORD_(protocol)
+    definition: Simple Webservice Offering Repository Deposit
+    
 #  Usability:
 #    url: https://de.wikipedia.org/wiki/Gebrauchstauglichkeit_(Produkt)
 #    definition: Gebrauchstauglichkeit
@@ -98,5 +149,5 @@ glossary:
     url: https://www.w3.org/WAI/standards-guidelines/wcag/
     definition: Web Content Accessibilty Guidelines
 
-  Z39.50:
-    definition: Protokoll zur Abfrage von bibliografischen Daten
+#  Z39.50:
+#    definition: Protokoll zur Abfrage von bibliografischen Daten
