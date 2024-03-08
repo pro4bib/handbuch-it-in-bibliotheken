@@ -319,7 +319,7 @@ verschiedene Arten von Beschreibungen in einem Format zusammengefasst.
 **Machine-Readable Cataloging (MARC)** ist das älteste und noch immer
 wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die
 aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21
-für bibliographische Daten. Neben der binären Kodierung kann MARC 21
+für bibliografische Daten. Neben der binären Kodierung kann MARC 21
 auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des
 Formats sind historisch bedingt, eine Alternative konnte sich bislang
 nicht durchsetzen.
@@ -347,7 +347,7 @@ werden.
 
 **LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
 
-**DataCite** ist ein bibliographisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
+**DataCite** ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
 
 ### Datenmodelle und Ontologien
 
@@ -376,7 +376,7 @@ größte Verbreitung. Es besteht aus 15 Basiselementen wie "creator", "title",
 
 Die *Functional Requirements for Bibliographic Records* (**FRBR**) sind
 ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine
-Einteilung von bibliographischen Entitäten in die Beschreibungsebenen
+Einteilung von bibliografischen Entitäten in die Beschreibungsebenen
 "work", "expression", "manifestation" und "item".
 
 Die **BIBFRAME**-Ontologie wurde entwickelt, um MARC auf Grundlage von
@@ -433,7 +433,7 @@ gerechnet werden.
 Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei
 der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die
 Daten erfasst werden. So gelten beispielsweise für eine historische
-Bibliographie andere Maßstäbe als für einen Suchindex.
+Bibliografie andere Maßstäbe als für einen Suchindex.
 
 Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität
 von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit

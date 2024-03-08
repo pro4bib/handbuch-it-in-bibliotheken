@@ -31,7 +31,7 @@ Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte,
 vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer
 Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open
 Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen
-eigene Experimente mit der Indexierung bibliographischer Daten begannen.
+eigene Experimente mit der Indexierung bibliografischer Daten begannen.
 
 Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und
 zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von
@@ -479,7 +479,7 @@ Kapitel [Anforderungen an die IT-Entwicklung](anforderungen.md)).
 Die grundsätzliche Entscheidung für ein Discovery-System beinhaltet auch einen
 Wechsel der Suchparadigmen. Die Einführung eines Discovery-Systems kann nur
 dann sinnvoll erfolgen, wenn die Abkehr der Dualität von Bestandsverzeichnis
-und Bibliographie sowie den traditionellen Suchparadigmen strategisch erwünscht
+und Bibliografie sowie den traditionellen Suchparadigmen strategisch erwünscht
 ist und von entsprechenden Schulungen für das Bibliothekspersonal begleitet
 wird.
 
@@ -512,11 +512,11 @@ OPACs aufbereiten, sind Suchstrategien und -ergebnisse in beiden Systemen
 unterschiedlich.
 
 Discovery-Systeme richten sich in der Regel an Benutzer\*innen, die den Umgang mit
-bibliographischen Recherchesystemen wie Katalogen und Fachbibliographien nicht
+bibliografischen Recherchesystemen wie Katalogen und Fachbibliografien nicht
 gewohnt sind und die mit den Nutzungsmustern bedient werden sollen, die sie
 auch aus dem Web gewohnt sind.
 
-Neben der Recherche nach bibliographischen Informationen sollen
+Neben der Recherche nach bibliografischen Informationen sollen
 Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien
 unterstützen. Dieser auch als *Delivery* bezeichnete Prozess hat sich bereits
 in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der
@@ -541,7 +541,7 @@ Nutzungslizenzen zugeordnet sind.
 
                       OPAC/Katalog                                              Discovery-System
   ------------------- --------------------------------------------------------- ----------------------------------------------------------------------------
-  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliographische Daten, Volltexte etc.
+  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliografische Daten, Volltexte etc.
   Suchprinzip         exakte Suche, feldbasierte Suche mit Boolescher Logik     best match/natürlichsprachliche Suche
   Suchunterstützung   eher wenig                                                Autovervollständigung, Suchvorschläge, Facetten
   Sortierung          standardmäßig nach Aktualität                             standardmäßig nach Relevanz
@@ -562,7 +562,7 @@ kontextualisieren und bewerten und bleiben in der Praxis oft hinter den
 Erwartungen zurück [@christensen_wissenschaftliche_2022]. Je nach Anwendung
 spielen daher alternative Systeme weiterhin eine Rolle:
 
-- Komplexe bibliographische Angaben, zum Beispiel zum
+- Komplexe bibliografische Angaben, zum Beispiel zum
   Erscheinungsverlauf von Zeitschriften oder mehrbändigen Werken, oder
   die Suche nach Signaturen lassen sich möglicherweise schneller
   über herkömmliche bibliothekarische Instrumente beziehungsweise
@@ -588,7 +588,7 @@ sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in
 ausgewählten Bereichen, z. B. die Plattform
 *[SoNAR](https://sonar.fh-potsdam.de/)* zur historischen Netzwerkanalyse. Ein
 ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die
-Datenbank Wikidata mit ihren bibliographischen Inhalten *WikiCite* und dem dazu
+Datenbank Wikidata mit ihren bibliografischen Inhalten *WikiCite* und dem dazu
 gehörigen Browsing-Interface *[Scholia](https://scholia.toolforge.org/)* (siehe
 Abbildung @fig-scholia).
 

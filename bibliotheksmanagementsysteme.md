@@ -412,7 +412,7 @@ verbunden werden:
 
 -   [Identitätsmanagementsysteme](#identity-management) (Account-Verwaltung)
 
--   Lieferantensysteme (bibliographische Daten, Bestell- und
+-   Lieferantensysteme (bibliografische Daten, Bestell- und
     Rechnungsdaten)
 
 Im bibliothekarischen Umfeld sind folgende Systeme relevant:
@@ -444,7 +444,7 @@ Datenformat übertragen und anschließend als gemeinsamer Index für die
 übergreifende Recherche in Discovery-Systemen angeboten.
 Die BMS müssen entsprechend über
 [Standardschnittstellen](#datenformate-und-schnittstellen) die relevanten
-Katalogdaten in einem vereinbarten [Datenformat](#bibliographische-metadaten)
+Katalogdaten in einem vereinbarten [Datenformat](#bibliografische-metadaten)
 bereitstellen.
 
 ### Verbundkataloge
@@ -630,7 +630,7 @@ digitale Medien) und zum anderen Daten über wesentliche Arbeitsprozesse
 (beispielsweise Erwerbung und Ausleihe). Dabei lassen sich grob drei
 Arten von Daten unterscheiden:
 
--   **Bibliographische Metadaten** zur Beschreibung von Ressourcen
+-   **Bibliografische Metadaten** zur Beschreibung von Ressourcen
 
 -   **Digitale Inhalte** wie Volltexte, Digitalisate und andere digitale Publikationen
 
@@ -644,13 +644,13 @@ anderen System müssen Daten bestimmten Datenformaten entsprechen, über
 Schnittstellen abruf- und ggf. änderbar sein und Mindestanforderungen an
 die Datenqualität genügen.
 
-### Bibliographische Metadaten
+### Bibliografische Metadaten
 
-Bibliographische Metadaten in Form von Titel-, Exemplar- und Normdaten bilden
+Bibliografische Metadaten in Form von Titel-, Exemplar- und Normdaten bilden
 den Kern des klassischen Katalogs. An anderer Stelle tauchen diese Daten
 beispielsweise als Suchindizes für Discovery-Systeme auf.  Das BMS verwaltet
 diese Daten um Medien zu beschaffen, auffindbar und zugreifbar zu machen. Diese
-Daten können von verschiedenen Bibliotheken gemeinsam erstellt, gepflegt und genutzt werden, z. B. über Verbundkataloge. Oft werden bibliographische Metadaten auch als Open Data zur Verfügung gestellt.
+Daten können von verschiedenen Bibliotheken gemeinsam erstellt, gepflegt und genutzt werden, z. B. über Verbundkataloge. Oft werden bibliografische Metadaten auch als Open Data zur Verfügung gestellt.
 
 diese Metadaten mit zur freien Nutzung zur Verfügung gestellt
 
@@ -708,7 +708,7 @@ basieren allerdings in der Regel auf allgemeinen Strukturierungssprachen
 (*CSV*, *XML*, *JSON* oder *RDF*) die je nach BMS besser oder schlechter
 unterstützt werden.
 
-- Beispiele für bibliographische Standardformate sind *MARC21*, *BIBFRAME*
+- Beispiele für bibliografische Standardformate sind *MARC21*, *BIBFRAME*
   und als kleinster gemeinsamer Nenner Dublin Core. Das PICA-Format bzw.
   darauf aufbauende Formate ist vor allem als Internformat in den
   Bibliotheksverbünden GBV, BSZ und an der DNB verbeitet.

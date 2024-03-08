@@ -108,14 +108,15 @@ verbunden sind. Zum ersten Mal wurde dieser Gedanke in der
 *[Grundsatzerklärung der Budapester Open-Access-Bewegung](https://www.budapestopenaccessinitiative.org/translations/german-translation)*
 formuliert.
 
-Durch die Transformationsprozesse im wissenschaftlichen
-Publikationswesen weg von den traditionellen Abonnement-Modellen hin zu
-Open Access sehen sich Bibliotheken zunehmend auch in der Rolle eines\*einer
+Durch die Transformationsprozesse im wissenschaftlichen Publikationswesen weg
+von den traditionellen Abonnement-Modellen hin zu Open Access sehen sich
+Bibliotheken zunehmend auch in der Rolle eines\*einer
 Publikationsdienstleistenden. Dies kann einerseits die Gründung eines
 Universitätsverlages bedeuten, andererseits aber auch die Schaffung der
-benötigten Infrastruktur für wissenschaftliche Zeitschriften. Befördert
-durch die Verlagerung der Kosten weg vom Lesen hin zum Publizieren wird
-der *scholar-led*-Ansatz immer gefragter und Bibliotheken müssen Expertise in diesem Bereich aufbauen.
+benötigten Infrastruktur für wissenschaftliche Zeitschriften. Befördert durch
+die Verlagerung der Kosten weg vom Lesen hin zum Publizieren wird der
+scholar-led-Ansatz immer gefragter und Bibliotheken müssen Expertise in diesem
+Bereich aufbauen.
 
 Zur Schaffung einer technischen Infrastruktur lässt sich z. B. mit der Software
 *[Open Journal Systems (OJS)](https://ojs-de.net/ueber-ojs)* eine Plattform zur
@@ -131,19 +132,17 @@ die Unterstützung durch Bibliotheken. Wichtig ist somit ein Überblick über de
 Gesamtprozess des wissenschaftlichen Publizierens und nicht nur die
 Software-Aspekte.
 
-Parallel dazu entwickeln sich derzeit \"alternative
-Publikations-Plattformen" wie Preprint-Dienste, (Micro-)Blogs, Data
-Journals und ähnliche Dienste, die traditionelle Publikationswege wie
-peer-reviewte Journals ergänzen, siehe dazu auch die entsprechende
-*[Publikation der Initiative Knowledge
-Exchange](https://doi.org/10.21428/996e2e37.3ebdc864)*. Hier
-können Bibliotheken ebenso in die Rolle des\*der Dienstleistenden treten,
-Instanzen geeigneter Open-Source-Software hosten und diese Entwicklung
-unterstützen. Dies kann auch im Zusammenhang mit der externen
-Kommunikation von Bibliotheken (Link zu entsprechendem Kapitel)
-betrachtet werden. Ergänzend gibt es zahlreiche weitere Dienste, die das
-Open-Access-Publizieren vor allem administrativ unterstützen, von denen
-im Folgenden einige kurz erläutert werden.
+Parallel dazu entwickeln sich derzeit alternative Publikations-Plattformen wie
+Preprint-Dienste, (Micro-)Blogs, Data Journals und ähnliche Dienste, die
+traditionelle Publikationswege wie peer-reviewte Journals ergänzen, siehe dazu
+auch die entsprechende *[Publikation der Initiative Knowledge
+Exchange](https://doi.org/10.21428/996e2e37.3ebdc864)*. Hier können
+Bibliotheken ebenso in die Rolle des\*der Dienstleistenden treten, Instanzen
+geeigneter Open-Source-Software hosten und diese Entwicklung unterstützen. Dies
+kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken (Link
+zu entsprechendem Kapitel) betrachtet werden. Ergänzend gibt es zahlreiche
+weitere Dienste, die das Open-Access-Publizieren vor allem administrativ
+unterstützen, von denen im Folgenden einige kurz erläutert werden.
 
 ### Open-Access-Dienste
 
@@ -227,9 +226,9 @@ Identifier-Systeme](#persistent-identifier) eingesetzt. Die Zitierfähigkeit und
 damit der langfristige, möglichst originalgetreue Erhalt der einmal
 eingestellten Informationen grenzen Repositorien gegenüber anderen
 Arbeitsplattformen wie Sync-and-Share-Plattformen (z. B. *Nextcloud*),
-Content-Management-Systemen (zur Erstellung von Blogs und Internetseiten) sowie
-virtuellen Forschungsumgebungen (mit integrierten Funktionen z. B. für die
-Datenanalyse) ab.
+Content-Management-Systemen (CMS) zur Erstellung von Blogs und Internetseiten sowie
+virtuellen Forschungsumgebungen mit integrierten Funktionen z. B. für die
+Datenanalyse ab.
 
 Es lassen sich grundlegend zwei Typen von Repositorien unterscheiden:
 Disziplinspezifische Repositorien sammeln die Inhalte einer bestimmten
@@ -337,7 +336,7 @@ und [Forschungssoftware](#forschungssoftware) mit ein.
 
 ![Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
 
-Services zum Forschungsdatenmanagement sollen Wissenschaftler\*innen
+Services zum Forschungsdatenmanagement (FDM) sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
 gesamten Forschungsdaten-Lebenszyklus hinweg, d. h. von der Datenplanung
 über die Datenerhebung und -analyse bis hin zur Datenarchivierung,
@@ -350,8 +349,7 @@ Akteur\*innen angeboten. Angesichts der großen Heterogenität
 disziplinspezifischer Datentypen gelangen diese in aller Regel
 fachübergreifenden FDM-Dienste häufig an ihre Grenzen: Diese
 Erkenntnis ist konstitutiv für die seit 2020 im Aufbau befindliche
-Nationale Forschungsdateninfrastruktur
-(*[NFDI](https://www.nfdi.de/)*), in der fachspezifische und
+Nationale Forschungsdateninfrastruktur (NFDI), in der fachspezifische und
 institutionsübergreifende Dienste entwickelt werden. In diesem
 Zusammenhang entwickeln sich derzeit neue Berufe wie Data Steward
 oder Data Librarian, die fachspezifische Unterstützung beim
@@ -497,7 +495,7 @@ Repositoriums in der eigenen Infrastruktur nötig und sinnvoll ist.
 Anbieter wie *[Software
 Heritage](https://www.softwareheritage.org/)* bieten eine
 Archivierung auf externen Servern an. Zumindest in diesem Fall ist es
-als UNESCO-Projekt aber als geeignete Alternative zu betrachten.
+als UNESCO-Projekt als geeignete Alternative zu betrachten.
 
 Die Verknüpfung der im Gesamtprozess entstehenden Metadaten mit Systemen
 wie dem Forschungsinformationssystem (FIS) oder Forschungsdatenrepositorien hinsichtlich der
@@ -593,7 +591,7 @@ An vielen Einrichtungen besteht das Bestreben, dass das FIS zusätzlich die
 Funktionalität eines [Repositoriums](#repositorien-für-forschungsergebnisse)
 übernehmen soll. Ein Vorteil eines solchen vereinigten Systems wird zum einen
 in den geringeren Systemkosten gesehen, zum anderen erscheint es weniger
-aufwendig, die bibliographischen Einträge in einem FIS schlicht mit den
+aufwendig, die bibliografischen Einträge in einem FIS schlicht mit den
 dazugehörigen Dateien anzureichern statt einen Workflow für das Zusammenspiel
 zwischen FIS und Repositorium zu entwickeln. Dem entgegen stehen die
 verschiedenen Zielsetzungen beider Systeme: Während es bei einem FIS vor allem
@@ -675,7 +673,7 @@ einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 ### Metadaten
 
 Metadaten sind Daten struktureller, technischer, administrativer,
-bibliographischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe
+bibliografischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe
 Kap. **Daten & Metadaten** bzw. *Metadatenstandards*). Metadaten werden oft
 in einer Schlüssel-Wert-Struktur genutzt, bei der der Schlüssel vorgibt, welche
 Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum etc.) im Wert zu finden ist
