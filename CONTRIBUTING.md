@@ -175,7 +175,7 @@ Die Master-Version des Handbuch liegt in einem git-Repository unter <https://git
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die Masterdateien.
 
-* `metadata.yml` bibliographische Metadaten (Titel, Abstract...)
+* `about.yml` bibliographische Metadaten (Titel, Abstract...)
 
 * `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der [Konvertierung mit Quarto](#konvertierung)
 

@@ -1,5 +1,5 @@
 ---
-abstract: 'Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Softwareentwicklung, Metadaten...'
+abstract: 'Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Digitalisierung...'
 authors:
 - email: nicolas.bach@posteo.de
   family-names: Bach
@@ -8,6 +8,10 @@ authors:
   family-names: Becker
   given-names: Pascal-Nicolas
   orcid: 0000-0003-2169-1261
+- email: dorian-bela-monty.bitto@stud.hs-hannover.de
+  family-names: Bitto
+  given-names: Monty
+  orcid: 0009-0004-0865-257X
 - email: janna.brechmacher@sbb.spk-berlin.de
   family-names: Brechmacher
   given-names: Janna
@@ -47,6 +51,10 @@ authors:
   orcid: 0000-0003-0232-7085
 - family-names: Hurnik
   given-names: Sina
+- email: akarsten@uni-muenster.de
+  family-names: Karsten
+  given-names: Adienne
+  orcid: 0000-0002-0562-7393
 - email: clemens.kynast@uni-jena.de
   family-names: Kynast
   given-names: Clemens
@@ -70,6 +78,10 @@ authors:
   family-names: Schaarwächter
   given-names: Michael
   orcid: 0000-0002-0180-5930
+- email: zoe.schubert@tib.eu
+  family-names: Schubert
+  given-names: Zoe
+  orcid: 0000-0001-9043-3632
 - email: fseeliger@th-wildau.de
   family-names: Seeliger
   given-names: Frank
@@ -78,7 +90,11 @@ authors:
   family-names: Steinke
   given-names: Britta
   orcid: 0000-0001-6816-5168
-- email: ralf.stockmann@sbb.spk-berlin.de
+- email: katja.sternitzke@sbb.spk-berlin.de
+  family-names: Sternitzke
+  given-names: Katja
+  orcid: 0000-0002-9815-0490
+- email: ralf.stockmann@zlb.de
   family-names: Stockmann
   given-names: Ralf
   orcid: 0000-0002-0977-5908
@@ -86,6 +102,9 @@ authors:
   family-names: Strauß
   given-names: Florian
   orcid: 0000-0003-0168-0450
+- email: streck@zbmed.de
+  family-names: Streck
+  given-names: Alexandra
 - email: r.stroetgen@tu-braunschweig.de
   family-names: Strötgen
   given-names: Robert
@@ -115,4 +134,3 @@ repository-code: https://github.com/pro4bib/handbuch-it-in-bibliotheken
 title: Handbuch IT in Bibliotheken
 type: dataset
 url: https://it-in-bibliotheken.de/
-

@@ -5,7 +5,7 @@ project:
     browser: false
 
 metadata-files:
-  - metadata.yml
+  - about.yml
   - glossar.yml
 
 book:

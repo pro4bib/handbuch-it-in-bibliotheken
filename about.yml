@@ -1,4 +1,7 @@
+# Metadata fields passed to quarto and used to generate CITATION.cff and metadata.yml
+
 lang: de
+url: https://it-in-bibliotheken.de/
 
 book:
   title: Handbuch IT in Bibliotheken
