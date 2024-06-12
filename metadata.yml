@@ -1,0 +1,143 @@
+---
+'@context': https://schema.org/
+about:
+- https://w3id.org/kim/hochschulfaechersystematik/n262
+creativeWorkStatus: Published
+creator:
+- email: nicolas.bach@posteo.de
+  family-names: Bach
+  given-names: Nicolas
+- email: pascal@the-library-code.de
+  family-names: Becker
+  given-names: Pascal-Nicolas
+  orcid: 0000-0003-2169-1261
+- email: dorian-bela-monty.bitto@stud.hs-hannover.de
+  family-names: Bitto
+  given-names: Monty
+  orcid: 0009-0004-0865-257X
+- email: janna.brechmacher@sbb.spk-berlin.de
+  family-names: Brechmacher
+  given-names: Janna
+  orcid: 0000-0001-7233-7153
+- email: jens.bemme@slub-dresden.de
+  family-names: Bemme
+  given-names: Jens
+  orcid: 0000-0001-6860-0924
+- email: rqst@nvsbl.cm
+  family-names: Carlin
+  given-names: Sascha A.
+- email: christensen@effective-webwork.de
+  family-names: Christensen
+  given-names: Anne
+  orcid: 0000-0001-7753-1078
+- email: jana.eger@stadtbibliothek-chemnitz.de
+  family-names: Eger
+  given-names: Jana
+- email: matthias.finck@haw-hamburg.de
+  family-names: Finck
+  given-names: Matthias
+  orcid: 0000-0002-0848-2935
+- email: ulrike.golas@tu-berlin.de
+  family-names: Golas
+  given-names: Ulrike
+  orcid: 0000-0002-6567-0000
+- email: tina.goldammer@slub-chemnitz.de
+  family-names: Goldammer
+  given-names: Tina
+- email: gerrit.gragert@sbb.spk-berlin.de
+  family-names: Gragert
+  given-names: Gerrit
+  orcid: 0000-0002-0542-1555
+- email: lambert.heller@tib.eu
+  family-names: Heller
+  given-names: Lambert
+  orcid: 0000-0003-0232-7085
+- family-names: Hurnik
+  given-names: Sina
+- email: akarsten@uni-muenster.de
+  family-names: Karsten
+  given-names: Adienne
+  orcid: 0000-0002-0562-7393
+- email: clemens.kynast@uni-jena.de
+  family-names: Kynast
+  given-names: Clemens
+- email: lukas.lerche@tu-dortmund.de
+  family-names: Lerche
+  given-names: Lukas
+  orcid: 0000-0002-4027-6840
+- email: lmossburger@t-online.de
+  family-names: Moßburger
+  given-names: Luis
+  orcid: 0000-0002-5326-219X
+- email: stefanie.nagel@ub.tu-freiberg.de
+  family-names: Nagel
+  given-names: Stefanie
+  orcid: 0000-0001-8020-1440
+- email: polla@wias-berlin.de
+  family-names: Polla
+  given-names: Silvia
+  orcid: 0000-0002-2395-2448
+- email: michael.schaarwaechter@tu-dortmund.de
+  family-names: Schaarwächter
+  given-names: Michael
+  orcid: 0000-0002-0180-5930
+- email: zoe.schubert@tib.eu
+  family-names: Schubert
+  given-names: Zoe
+  orcid: 0000-0001-9043-3632
+- email: fseeliger@th-wildau.de
+  family-names: Seeliger
+  given-names: Frank
+  orcid: 0000-0003-0602-8082
+- email: b.steinke@tu-berlin.de
+  family-names: Steinke
+  given-names: Britta
+  orcid: 0000-0001-6816-5168
+- email: katja.sternitzke@sbb.spk-berlin.de
+  family-names: Sternitzke
+  given-names: Katja
+  orcid: 0000-0002-9815-0490
+- email: ralf.stockmann@zlb.de
+  family-names: Stockmann
+  given-names: Ralf
+  orcid: 0000-0002-0977-5908
+- email: florian.strauss@tu-clausthal.de
+  family-names: Strauß
+  given-names: Florian
+  orcid: 0000-0003-0168-0450
+- email: streck@zbmed.de
+  family-names: Streck
+  given-names: Alexandra
+- email: r.stroetgen@tu-braunschweig.de
+  family-names: Strötgen
+  given-names: Robert
+  orcid: 0000-0003-3320-5187
+- email: jakob.voss@gbv.de
+  family-names: Voß
+  given-names: Jakob
+  orcid: 0000-0002-7613-4123
+- email: info@it-expert-voss.de
+  family-names: Voss
+  given-names: Michael
+  orcid: 0000-0002-7402-1598
+- email: kerstin.wendt@sub.uni-hamburg.de
+  family-names: Wendt
+  given-names: Kerstin
+- email: carolin.zapke@bibliothek.tu-chemnitz.de
+  family-names: Zapke
+  given-names: Carolin
+  orcid: 0000-0002-2516-535X
+- email: david.zellhoefer@hwr-berlin.de
+  family-names: Zellhöfer
+  given-names: David
+  orcid: 0000-0002-0403-457X
+educationalLevel:
+- https://w3id.org/kim/educationalLevel/level_A
+id: https://it-in-bibliotheken.de/
+inLanguage:
+- de
+learningResourceType:
+- https://w3id.org/kim/hcrt/textbook
+license: https://creativecommons.org/licenses/by/4.0/deed.de
+name: Handbuch IT in Bibliotheken
+type: LearningResource
