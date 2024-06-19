@@ -357,16 +357,14 @@ oder Data Librarian, die fachspezifische Unterstützung beim
 *FDM*-Servicestellen oder dezentral in Projekten oder Fachbereichen
 angesiedelt sind.
 
-Die von Bibliotheken angebotenen Services zum *FDM*
-umfassen in der Regel sowohl nicht-technische Services (z. B. Schulungs-
-und Beratungsangebote) als auch verschiedene technische Dienste. Zu den
-wichtigsten technischen Diensten für das *FDM*, die
-von Bibliotheken (mit-)betrieben werden, gehören
-Forschungsdatenrepositorien. Diese ermöglichen die Veröffentlichung von
-Forschungsdaten als eigene Informationsobjekte gemäß den FAIR-Prinzipien
-(TODO: siehe hierzu ausführlich den Abschnitt [Repositorien für
-Forschungsergebnisse](#repositorien-für-forschungsergebnisse)). Daneben werden häufig weitere *FDM*-Tools
-angeboten, von denen einige im Folgenden vorgestellt werden.
+Die von Bibliotheken angebotenen Services zum *FDM* umfassen in der Regel
+sowohl nicht-technische Services (z. B. Schulungs- und Beratungsangebote) als
+auch verschiedene technische Dienste. Zu den wichtigsten technischen Diensten
+für das *FDM*, die von Bibliotheken (mit-)betrieben werden, gehören
+[Repositorien für Forschungsergebnisse](#repositorien-für-forschungsergebnisse). Diese
+ermöglichen die Veröffentlichung von Forschungsdaten als eigene
+Informationsobjekte gemäß den FAIR-Prinzipien Daneben werden häufig weitere
+*FDM*-Tools angeboten, von denen einige im Folgenden vorgestellt werden.
 
 ### Tools zur Erstellung von Datenmanagementplänen
 
@@ -479,9 +477,9 @@ entsprechenden Metadaten, etwa über
 und
 *[CITATION.cff](https://citation-file-format.github.io/)*,
 um menschen- und maschinenlesbare Zitierinformationen für Software und
-Datensätze angeben zu können.
-
-*TODO INFOBOX: CITATION.cff des Handbuchs als Beispiel*
+Datensätze angeben zu können. Ein entsprechendes Beispiel ist
+[die Datei CITATION.cff](https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/CITATION.cff)
+im Quelltext dieses Handbuchs.
 
 Die Bereitstellung eines Coderepositoriums, in der Regel über *Git*,
 sollte zum Standardangebot zählen. Für eine interaktive
@@ -673,55 +671,24 @@ einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 ### Metadaten
 
 Metadaten sind Daten struktureller, technischer, administrativer,
-bibliografischer und deskriptiver Natur, die Daten beschreiben (TODO: siehe
-Kap. **Daten & Metadaten** bzw. *Metadatenstandards*). Metadaten werden oft
-in einer Schlüssel-Wert-Struktur genutzt, bei der der Schlüssel vorgibt, welche
-Angabe (z. B. Titel, Autorschaft, Erscheinungsdatum etc.) im Wert zu finden ist
-(siehe Kap. **Daten & Metadaten** bzw*. Grundlegende Begrifflichkeiten*).
-Strukturell werden flache und hierarchische Metadatenschemata unterschieden.
-Flache Metadatenschemata beschränken sich auf eine einfache Struktur aus
-Schlüssel-Wert-Paaren. Hierarchische Metadatenschemata sehen vor, Werte aus
-anderen Werten zusammensetzen zu können, sodass z. B. die Autorenschaft in den
-Metadaten über Personen modelliert werden können und zu jeder Person Vorname,
-Nachname und weitere Angaben in untergeordneten Werten gespeichert wird.
-Hierarchische Metadatenschemata haben dabei oft etliche dieser Hierarchieebenen
-und Verschachtelungen.
-
-Metadatenschemata definieren, welche Inhalte in den Metadaten erfasst
-werden, also welche Metadatenfelder existieren und mit Werten belegt
-werden können. *[Dublin Core
-Element](https://www.dublincore.org/specifications/dublin-core/usageguide/elements/)*
-(umgangssprachlich oft *Dublin Core* genannt) ist als
-Metadatenschema für Inhalte im Internet entstanden (TODO: siehe Kap. **Daten &
-Metadaten** bzw. *Metadatenstandards*). Es wird oft in Metatags auf
-HTML-Seiten verwendet und ist vorherrschend beim Austausch von Daten
-zwischen und mit Repositorien, auch wenn so gut wie jede
-Repositoriensoftware intern deutlich mehr Metadatenschemata unterstützt
-und nutzt. Es wird zwischen *Simple* und *Qualified Dublin Core*
-unterschieden. *Simple Dublin Core* besteht aus 15 Elementen, in *Qualified
-Dublin Core* können ergänzend *Qualifier* genutzt werden. So kann z. B.
-das Element dc.contributor weiter spezifiziert werden als
-dc.contributor.author, dc.contributor.translator,
-dc.contributor.illustrator und so weiter. Von der *Dublin Core Metadata
-Initiative* wurde später das Metadatenschema *DCMI Terms* geschaffen,
-das *Simple* und *Qualified Dublin Core* zusammenfassen sollte. In der
-Praxis wird nach wie vor häufig *Dublin Core Elements* genutzt, in
-Schnittstellen oft ohne *Qualifier*. *DCMI Terms* werden in Repositorien
-oft ergänzend zu *Dublin Core Elements* verwendet.
-
+bibliografischer und deskriptiver Natur, die Daten beschreiben (siehe [Kapitel
+Daten & Metadaten](metadaten.md)). [Metadatenstandards und
+-schemas](#metadatenstandards) definieren, welche Inhalte in Metadaten erfasst
+werden, also welche Metadatenfelder existieren und mit Werten belegt werden
+können. Ein sehr einfaches Metadatenschema bilden die [Dublin Core
+Element](https://www.dublincore.org/specifications/dublin-core/usageguide/elements/)
+(kurz *Dublin Core*).
 Im Rahmen der DOI-Registrierung werden auch Metadaten erhoben. Das
 *[DataCite Schema](https://schema.datacite.org)* hat sich
-dabei als ein wichtiges Metadatenschema etabliert, das zum Teil
-losgelöst von DOIs zur Beschreibung von Forschungsdaten genutzt wird
-(TODO: siehe Kap. **Daten & Metadaten** bzw. *Metadatenstandards*).
-
+dabei als ein wichtiges Metadatenschema etabliert, das 
+auch unabhängig von DOIs zur Beschreibung von Forschungsdaten genutzt wird.
 Darüber hinaus entwickeln die verschiedenen Fachdisziplinen eigene
-domänenspezifische Standards (Übersicht:
-<https://fairsharing.org/search?fairsharingRegistry=Standard>
-). Eine Aufgabe wissenschaftlicher Bibliotheken besteht in der Beratung
-bei der Auswahl geeigneter Metadatenschemata und Standards (Übersicht
-unter:
-<https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards>-
+domänenspezifische Standards. Eine Aufgabe wissenschaftlicher Bibliotheken
+besteht in der Beratung bei der Auswahl geeigneter Metadatenschemata und
+Standards. Übersichten gibt es unter Anderem bei
+[FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard),
+[forschungsdaten.info](https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards)
+und [format.gbv.de](https://format.gbv.de/).
 
 ### Persistent Identifier
 
