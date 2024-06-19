@@ -551,19 +551,19 @@ Beispiel
 </section>
 
 </main> <!-- /main -->
-<script>
+<script type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function () {  
-  const links = document.getElementsByClassName("action-links")[0]
+  const links = document.getElementsByClassName("toc-actions")[0]?.firstChild
   const addLink = (text, url) => {
-    const p = document.createElement("p")
+    const li = document.createElement("li")
     const a = document.createElement("a")
     a.text = text
     a.href = url
     a.className = "toc-action"
-    p.appendChild(a)
-    links.appendChild(p)
+    li.innerHTML = '<i class="bi empty"></i>'
+    li.appendChild(a)
+    links.appendChild(li)
   }
-
   if (links) {
     var match = window.location.pathname.match(/([a-z-]+)\.html$/)
     var name = match ? match[1] : "einleitung"
