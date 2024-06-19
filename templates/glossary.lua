@@ -42,9 +42,9 @@ return {
     end
   },
   {
-    -- Insert glossary at '{{< glossary >}}'
+    -- Insert glossary at '||glossary||'
     Para = function(elem)
-      if pandoc.utils.stringify(elem) == "{{< glossary >}}" then
+      if pandoc.utils.stringify(elem) == "||glossary||" then
         local items = { }
         for term in pairs(glossary) do table.insert(items, term) end
         table.sort(items)
