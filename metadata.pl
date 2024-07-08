@@ -57,12 +57,12 @@ DumpFile(
                 my $p = {
                     type       => "Person",
                     givenName  => $_->{'given-names'},
-                    familyName => $- > {'family-names'},
+                    familyName => $_->{'family-names'},
 
                     # TODO: affiliation?
                 };
                 $p->{id} = "https://orcid.org/" . $_->{orcid} if $_->{orcid};
-                $_;
+                $p;
             } @$authors
         ],
         about => ['https://w3id.org/kim/hochschulfaechersystematik/n262'],
