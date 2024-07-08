@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Inhalte und Funktionen von Discovery-Systemen und Kriterien für ihre Auswahl">
 
-<title>Handbuch IT in Bibliotheken - Discovery &amp; Retrieval</title>
+<title>Discovery &amp; Retrieval – Handbuch IT in Bibliotheken</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,13 +102,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery.html"><span class="chapter-title">Discovery &amp; Retrieval</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -200,9 +200,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Anhang</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -346,7 +346,7 @@ Zusammenfassung
 <p>Zu den Funktionalitäten für die Suchunterstützung gehören auch die Autovervollständigung sowie die Vorschlagsfunktion von Suchbegriffen. In beiden Fällen wird der Suchindex in Echtzeit geprüft. Es gehört zu den zentralen Zielen von Discovery-Systemen, Null-Treffer-Meldungen zu vermeiden.</p>
 <p>Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie z. B. Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind" class="quarto-xref">Abbildung&nbsp;<span>7.1</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
 <p>Die Weiterverwendung der Suchergebnisse wird durch verschiedene Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per Mail verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen herunterladen.</p>
-<div id="fig-vufind" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-vufind" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-vufind-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="media/vufind.png" class="img-fluid figure-img">
@@ -479,7 +479,7 @@ Abbildung&nbsp;7.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <p>Neben der Recherche nach bibliografischen Informationen sollen Discovery-Systeme auch den Zugriff bzw. die Bereitstellung von Medien unterstützen. Dieser auch als <em>Delivery</em> bezeichnete Prozess hat sich bereits in der frühen Phase der Discovery-Systeme als zentrales Element aus Sicht der Nutzer*innen herausgestellt. Die Anbindung an Ausleihsysteme und Link Resolver ist daher ein wichtiges Qualitätskriterium.</p>
 <p>Neuere BMS wie <em>FOLIO</em> und <em>Alma</em> enthalten zum Teil gar keinen klassischen OPAC mehr. Mit diesen Systemen muss daher immer ein zusätzliches Discovery-System eingesetzt werden.</p>
 <p>Ein Vorteil von Discovery-System gegenüber OPACs liegt in der Auffindbarkeit von E-Ressourcen. Viele Bibliotheken erschließen insbesondere im Open Access zugängliche E-Ressourcen nicht in vollem Umfang in ihrem BMS. Daher sind im OPAC die E-Ressourcen nicht oder nur eingeschränkt auffindbar. Wenn die Bibliothek ein Discovery-System betreibt, können Metadaten zu E-Ressourcen über einen <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> in den Index des Discovery-Systems geladen werden. Voraussetzung dafür ist, dass den Metadaten mittels Electronic Resource Management (<abbr title="Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen">ERM</abbr>) entsprechende Nutzungslizenzen zugeordnet sind.</p>
-<div id="tbl-discovery-vs-opac" class="quarto-float anchored">
+<div id="tbl-discovery-vs-opac" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <div aria-describedby="tbl-discovery-vs-opac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
@@ -539,7 +539,7 @@ Tabelle&nbsp;7.1: Vergleich typischer Eigenschaften von OPAC/Katalog und Discove
 </ul>
 <p>Insbesondere Webshops haben im Vergleich zu Discovery-Systemen sehr personalisierte Such- und Empfehlungsdienste, die jedoch auf einer intensiven Auswertung des jeweiligen Nutzungsverhaltens basieren. Die Verwendung dieser Daten zur Personalisierung ist auch in Discovery-Systemen denkbar, wird aber aus Datenschutz- und Neutralitätsgründen grundsätzlich eher abgelehnt.</p>
 <p>Eine vergleichsweise neue Herangehensweise insbesondere an das entdeckende Suchen bieten Wissensgraphen (<em>knowledge graphs</em>), die die vielfältigen Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in ausgewählten Bereichen, z. B. die Plattform <em><a href="https://sonar.fh-potsdam.de/">SoNAR</a></em> zur historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren bibliografischen Inhalten <em>WikiCite</em> und dem dazu gehörigen Browsing-Interface <em><a href="https://scholia.toolforge.org/">Scholia</a></em> (siehe Abbildung <a href="#fig-scholia" class="quarto-xref">Abbildung&nbsp;<span>7.2</span></a>).</p>
-<div id="fig-scholia" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-scholia" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-scholia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="media/scholia.png" class="img-fluid figure-img">
@@ -621,18 +621,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -664,7 +653,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -672,7 +683,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

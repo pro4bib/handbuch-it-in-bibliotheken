@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID …)">
 
-<title>Handbuch IT in Bibliotheken - Technische Infrastruktur</title>
+<title>Technische Infrastruktur – Handbuch IT in Bibliotheken</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,13 +102,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./infrastruktur.html"><span class="chapter-title">Technische Infrastruktur</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -200,9 +200,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Anhang</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -504,7 +504,7 @@ Bei UHF hingegen werden auch Medien in größerer Entfernung erkannt (siehe auch
 <p>Um Informationen, wie etwa eine Mediennummer, eine Signatur oder eine komplexere Datenstruktur – wie das Dänische Datenmodell – auf einem Identifikationsmerkmal, wie einem Barcode, einem QR-Code oder einem RFID-Tag in maschinenlesbarer Form abzuspeichern, muss die Information entsprechend dem jeweiligen Zielformat encodiert werden. Im Folgenden wird beispielhaft für Barcodes und RFID-Tags erläutert, wie so etwas funktioniert.</p>
 <p><strong>Barcodes</strong> sind weit verbreitet, beispielsweise auf Produkten im Supermarkt. Meistens steht unter einem Barcode im Klartext, welche Nummern- oder Buchstabenfolge sich hinter einem Barcode verbirgt. Allerdings ist nicht jeder Barcode wie ein anderer. Es gibt verschiedene Formate, die sich darin unterscheiden, durch welche Strich- und Leerplatzfolge jeweils einzelne Zeichen dargestellt werden. Je weniger Zeichen von einem Barcodeformat unterstützt werden sollen, desto weniger Striche werden pro Zeichen benötigt und desto kompakter wird der Barcode (siehe <a href="https://de.wikipedia.org/wiki/Strichcode">Strichcode in Wikipedia</a>).</p>
 <p><a href="#fig-barcode" class="quarto-xref">Abbildung&nbsp;<span>1.2</span></a> stellt einen Barcode im Code39-Format dar, welches in Bibliotheken verbreitet ist und Zahlen, Großbuchstaben und ein paar wenige Sonderzeichen darstellen kann.</p>
-<div id="fig-barcode" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-barcode" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-barcode-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="media/code39.png" class="img-fluid figure-img">
@@ -517,7 +517,7 @@ Abbildung&nbsp;1.2: Beispiel für einen Code39 Barcode
 <p><strong>QR-Codes</strong> funktionieren analog, erweitern allerdings die Darstellung um eine zweite Dimension, sodass auf weniger Platz mehr Informationen dargestellt werden können. Gleichzeitig enthalten QR-Codes eine Prüfsumme, die Fehler bei der Erkennung, etwa bei Beschädigungen am Code, ausgleichen können.</p>
 <p>Ein <strong>RFID-Tag</strong> enthält einen Speicherchip und hält daher seine Informationen in Bits und Bytes, genau so, wie Daten und Dateien auch auf einem Computer gespeichert werden. Wie sich jeweils eine Information aus Bits und Bytes interpretieren lässt (ganz so, wie man aus den Balken eines Barcodes Buchstaben und Zahlen interpretiert), hängt von der jeweiligen Encodierung ab, wobei der Speicher eines Tags auch in unterschiedliche Encodierungsformate aufgeteilt werden kann, um Platz zu sparen.</p>
 <p><a href="#fig-speicher-rfid" class="quarto-xref">Abbildung&nbsp;<span>1.3</span></a> zeigt einen Speicherbereich, wie er auf dem Chip eines Tags vorkommen könnte:</p>
-<div id="fig-speicher-rfid" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-speicher-rfid" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-speicher-rfid-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="media/rfid-tag.png" class="img-fluid figure-img">
@@ -793,18 +793,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -836,7 +825,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -844,7 +855,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

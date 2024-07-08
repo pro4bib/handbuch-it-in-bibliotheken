@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.53">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Methoden lassen sich Bedarfe und Anforderungen ermitteln?">
 
-<title>Handbuch IT in Bibliotheken - Anforderungsanalyse</title>
+<title>Anforderungsanalyse – Handbuch IT in Bibliotheken</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,13 +102,13 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./anforderungen.html"><span class="chapter-title">Anforderungsanalyse</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -200,9 +200,9 @@ div.csl-indent {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Anhang</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -335,7 +335,7 @@ Zusammenfassung
 </div>
 <p>Bei Usability handelt es sich um eine Eigenschaft eines Systems, die während der konkreten Interaktion mit diesem relevant wird und beispielsweise angibt, inwiefern Hürden bei der Bedienung auftreten (<a href="#fig-usux" class="quarto-xref">Abbildung&nbsp;<span>3.1</span></a>). Zur Vermeidung von Usability-Problemen existieren ein Vielzahl von Heuristiken, die in den einschlägigen Normen skizziert werden bzw. durch Autoren wie Shneiderman in seinen „8 golden rules“ <span class="citation" data-cites="shneiderman_designing_2005">(<a href="literatur.html#ref-shneiderman_designing_2005" role="doc-biblioref">Shneiderman und Plaisant 2005</a>)</span> oder Nielsen mit seinen „<a href="https://www.nngroup.com/articles/ten-usability-heuristics/">10 Heuristics</a>“ benannt werden.</p>
 <p>Die User Experience hingen bezieht sich auf die Wahrnehmung der Nutzenden sowohl vor, nach und auch während der Interaktion. Sie bezeichnet sozusagen die Positionierung gegenüber einem System und hat damit Auswirkungen darauf, ob Nutzende ein System erneut benutzen werden oder, z. B. aufgrund von schlechter Bedienbarkeit, d.&nbsp;h. schlechter Usability, vor einer zukünftigen Nutzung zurückschrecken. Es reicht folglich nicht aus, einzelne Aspekte einer Nutzer*innenschnittstelle zu optimieren. Vielmehr muss der gesamte angebotene Service aus Sicht der Nutzenden optimiert werden, damit sich ein positives Nutzungserlebnis einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die digitalisierten Anteile eines Services sondern bezieht alle Arbeitsschritte, egal ob analog oder digital, mit ein.</p>
-<div id="fig-usux" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-usux" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-usux-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="media/usability_ux.svg" class="img-fluid figure-img">
@@ -362,7 +362,7 @@ Abbildung&nbsp;3.1: Zusammenhang zwischen Usability und User Experience
 <h4 class="anchored" data-anchor-id="bedarfsermittlung-mit-personas-und-use-cases">Bedarfsermittlung mit Personas und Use Cases</h4>
 <p>Personas sind fiktive Persönlichkeiten, die stellvertretend für einzelne Zielgruppen eines Dienstes entwickelt werden. Die Beschreibungen enthalten vielfältige Informationen über die Persona und laden damit dazu ein, den zu entwickelnden Dienst aus der Perspektive der jeweiligen Persona zu beurteilen, jenseits von abstrakten Anforderungen. Darüber hinaus helfen Personas dabei, Prioritäten zu setzen und die Zielerreichung zu überprüfen. Es empfiehlt sich, für jedes strategische Ziel eine Persona zu erstellen, mindestens drei bis fünf Personas insgesamt.</p>
 <p>Abgeleitet von solchen Personas fällt es häufig leicht, konkrete Use Cases für die Interaktion mit einem System zu definieren. Ein Use Case beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit einem System durchführen kann. Das kann beispielsweise in einem Fließtext passieren, in dem ein Szenario beschrieben wird.</p>
-<div id="fig-3" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-3" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="media/missing.svg" class="img-fluid figure-img">
@@ -414,7 +414,7 @@ Abbildung&nbsp;3.2: Vorgehensmodell zum szenariobasierten Design (https://opus4.
 <section id="storyboards-als-frühe-methode" class="level4">
 <h4 class="anchored" data-anchor-id="storyboards-als-frühe-methode">Storyboards als frühe Methode</h4>
 <p>Ein Storyboard illustriert, wie ein User Interface (UI, Nutzer*innenoberfläche) auf Eingaben reagiert ohne das Interface visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases bestimmte Aktionen zu illustrieren.</p>
-<div id="fig-storyboard" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-storyboard" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-storyboard-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://sbt.blob.core.windows.net/storyboards/e479644d/online-library-system.webp?utc=132636304699900000" class="img-fluid figure-img">
@@ -457,7 +457,7 @@ Abbildung&nbsp;3.3: Beispiel Storyboard
 <section id="wireframes-und-mock-ups" class="level4">
 <h4 class="anchored" data-anchor-id="wireframes-und-mock-ups">Wireframes und Mock-Ups</h4>
 <p>Wireframes und Mock-Ups werden vor allem dazu genutzt, erste Skizzen für Struktur, Layout und Funktionalitäten eines Interface vorzustellen. Ähnlich wie Storyboards dienen sie als einfach zu erstellende Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.</p>
-<div id="fig-5" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-5" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://d3h2k7ug3o5pb3.cloudfront.net/image/2023-02-01/b3796410-a1f5-11ed-91cc-733ac0a0cb68.jpg" class="img-fluid figure-img">
@@ -586,18 +586,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -629,7 +618,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -637,7 +648,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
