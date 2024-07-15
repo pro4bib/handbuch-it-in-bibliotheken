@@ -17,15 +17,17 @@ Prozesse und Dienstleistungen einer Bibliothek abbilden, unterstützen oder
 ergänzen. Neben dem zentralen
 [Bibliotheksmanagementsystem](#bibliotheksmanagementsysteme) (BMS) (auf Englisch auch LMS genannt) zur Verwaltung und
 Bereitstellung von Bibliotheksbeständen und
-[Discovery-Systemen](#discovery-und-retrieval) zur Recherche, gibt es zahlreiche
+[Discovery-Systemen](discovery.md) zur Recherche, gibt es zahlreiche
 weitere etablierte Anwendungen von IT in Bibliotheken. Die in diesem Kapitel
 vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in:
 
-1.  [Allgemeine Infrastruktur](#allgemeine-infrastruktur-für-bibliotheksprozesse-und--dienste) für den grundlegenden Betrieb von Prozessen und Dienstleistungen in Bibliotheken wie Verbuchung und RFID
+1. [Allgemeine Infrastruktur](#allgemeine-infrastruktur-für-bibliotheksprozesse-und--dienste) für den grundlegenden Betrieb von Prozessen und Dienstleistungen in Bibliotheken wie die Verbuchung.
 
-2.  [Dienste primär für Nutzer\*innen](#dienste-für-nutzerinnen) wie Webseite, Internetzugang und Arbeitsplätze
+2. Grundlagenwissen zur [Objektidentifikation physischer Medien mit RFID](#rfid)
 
-3.  [Dienste primär für Mitarbeiter\*innen](#dienste-für-mitarbeiterinnen) wie Intranet und mobiles Arbeiten
+3. [Dienste primär für Nutzer\*innen](#dienste-für-nutzerinnen) wie Webseite, Internetzugang und Arbeitsplätze
+
+4. [Dienste primär für Mitarbeiter\*innen](#dienste-für-mitarbeiterinnen) wie Intranet und mobiles Arbeiten
 
 Weitgehend ausgeklammert, weil an anderer Stelle behandelt, bleiben
 [forschungsnahe Dienste](#forschungsnahe-dienste) wie Repositories und Open Data,
@@ -54,9 +56,9 @@ oder das Anmelden mit gewissen Zugangsdaten und schließlich das
 Eintragen einer Ausleihe. Da es Nutzer\*innen möglich sein sollte, die
 Rückgabe von Medien nachweisen zu können, kann bei der Rückgabe mit
 Verbuchung auf Wunsch eine Quittung gedruckt werden. Dies ist sowohl an den
-Ausleihtheken als auch bei Rückgabeautomaten möglich. Eine weitere Möglichkeit
-ist das [Bezahlen](#bezahlung) und Begleichen von Gebühren an gleicher
-Stelle.
+Ausleihtheken als auch bei Rückgabeautomaten möglich. Ein weiterer Self-Service
+ist das [Bezahlen](#bezahlung) und Begleichen von Gebühren an speziell dafür 
+aufgestellten Bezahlstationen.
 
 ### Automaten
 
@@ -431,7 +433,7 @@ Informationstechnologien im Rahmen der Digitalisierung und Automatisierung
 auch in neuen Bereichen wie physischen Räumen, Nachhaltigkeit und Vernetzung einsetzen
 [@freyberg_smart_2019; @seeliger_smart_2019].
 
-### RFID
+## Objektidentifikation physischer Medien mit RFID {#rfid}
 
 Der folgende Abschnitt gibt einen tieferen Einblick in die Thematik "RFID", die
 für viele Teile der allgemeinen Infrastruktur (Verbuchung, Mediensicherung,
@@ -442,7 +444,7 @@ und Datenmodelle diskutiert und Unterschiede zwischen Verschiedenen
 RFID-Technologien aufgezeigt. Weitere Informationen zum Einsatz von RFID in
 Bibliotheken siehe @seeliger_rfid_2014 und @kern_rfid_2011.
 
-#### RFID-Grundlagen
+### RFID-Grundlagen
 
 RFID (radio frequency identification) ist eine Technologie, um Objekte
 mittels Funksignalen zu erfassen und zu orten. Die Objekte werden
@@ -486,7 +488,7 @@ der Artikel an der Kasse. Auch hier kommt bei neueren Installationen
 häufig RFID-UHF zum Einsatz. Kontaktlose Zahlungsmöglichkeiten auf
 Bankkarten (NFC) sind ebenfalls eine Anwendungsform von RFID.
 
-#### UHF oder HF, was sind Tags? {#uhf-oder-hf-was-sind-tags}
+### UHF oder HF, was sind Tags? {#uhf-oder-hf-was-sind-tags}
 
 Im deutschsprachigen Raum ist zur Zeit (2022) der Einsatz von RFID-HF
 verbreitet. Einzelne Bibliotheken setzen auch schon RFID-UHF ein (Beispiele:
@@ -612,42 +614,7 @@ eingeklebt werden, gilt in Bibliotheken Altbekanntes. Schädigung von Papier und
 Langzeithaltbarkeit dieser Klebstoffe ist im Zusammenhang mit Barcodeetiketten
 gut erforscht [@kern_rfid_2011].
 
-#### Roboter und RFID
-
-Roboter können im Zusammenhang mit RFID genutzt werden, um Inventuren
-durchzuführen oder Stellrevisionen, also das Erkennen von verstellten Medien.
-Wegen der geringen Reichweite ist das mit RFID-HF nur unter großen
-Einschränkungen möglich. So wird in der Kunstbibliothek Sitterwerk in St.
-Gallen eine nächtliche Inventur und Lokalisierung der Bücher vorgenommen, um
-eine dynamische Aufstellung zu realisieren. Dazu wird eine aktive
-RFID-Komponente nachts sehr dicht am Regal entlanggeführt, um die RFID-Tags
-auszulesen. Das funktioniert aus (mechanischen) Sicherheitsgründen nur in der
-Schließungszeit, die Lokalisierungsinformation der Medien ist also tagsüber bei
-viel Betrieb nicht sehr wertvoll, da veraltet. Weil in der dortigen Bibliothek
-nicht sehr viel Betrieb ist, ist das aber dort kein großer Schaden.
-
-Für eine Bibliothek mit großem Bestand und viel Betrieb ist der Einsatz von
-RFID-UHF für Inventur und Lokalisierung sinnvoller. Roboter etwa der Firma
-Metralabs (Illmenau) sind seit einigen Jahren in Betrieben wie Adler und
-Conrad, aber auch in hunderten australischen Supermärkten, unterwegs, um
-laufende Inventuren auch in Umgebung mit Menschen durchzuführen. Seit 2020 gibt
-es an der UB Dortmund solche Roboter, die in einem RFID-UHF-getaggten Bestand
-nicht nur Lokalisierung, sondern auch Stellrevisionen durchführen. Auch werden
-vermisste Medien (also Medien, die nicht am erwarteten Standort auffindbar
-sind) damit wiedergefunden. Aufgrund der physikalischen Eigenschaften von RFID
-(Reflexionen der Funkwellen im Raum an vielen Materialien) ist trotz
-hundertfacher Sichtung eines Tags durch den Roboter in einem "Run" (ein
-kompletter Scan) bisher die Genauigkeit auf ca 50 cm in jeder Raumachse
-beschränkt. In der Praxis bedeutet dies, dass die vom Roboter gelieferte
-Koordinate für den Aufenthaltsort eines RFID-UHF-Tags in einem kugelförmigen
-Wahrscheinlichkeitsraum mit einem Meter Durchmesser zu betrachten ist -- sprich,
-man muss das Buch im Umkreis von einem Meter von der Ortsangabe suchen. Das ist
-für eine Stellrevision zwar besser als gar keine Angabe, genügt aber noch
-nicht, um Nutzer\*innen mit diesen Informationen genau zum Buch zu leiten. Auf
-diesem Gebiet wird weiterentwickelt, unter Laborbedingungen wurde bereits eine
-Ortungsgenauigkeit von unter 10 cm erreicht.
-
-#### Migration RFID
+### Migration RFID
 
 Die Migration von einer Technologie zur anderen führt unweigerlich zu drei
 Fragen:
@@ -698,7 +665,7 @@ Ein Wechsel von RFID-UHF zu RFID-HF erscheint nicht sinnvoll und wird daher
 hier nicht betrachtet. Grundsätzlich gilt dabei aber das gleiche wie im
 vorherigen Absatz.
 
-#### Datenmodelle
+### Datenmodelle
 
 Für die Inhalte von HF-Tags in Bibliotheken wurde das sogenannte "Dänische
 Datenmodell" spezifiziert, welches später in der ISO-Norm ISO 28560 Teil
@@ -751,7 +718,7 @@ meisten UHF-Tags erlaubt lediglich die Speicherung einer Bibliotheks-ID, einer
 ID des Mediums (auch "Mediennummer" oder "Strichcode" genannt) und natürlich
 eines Bits, welches den Sicherungsstatus speichert.
 
-#### Exkurs: Speicherung von Informationen auf Strichcodes und RFID-Tags
+### Exkurs: Speicherung von Informationen auf Strichcodes und RFID-Tags
 
 Um Informationen, wie etwa eine Mediennummer, eine Signatur oder eine
 komplexere Datenstruktur -- wie das Dänische Datenmodell -- auf einem
@@ -789,34 +756,18 @@ Speicher eines Tags auch in unterschiedliche Encodierungsformate aufgeteilt
 werden kann, um Platz zu sparen.
 
 @fig-speicher-rfid zeigt einen Speicherbereich, wie er auf dem Chip eines Tags
-vorkommen könnte:
+vorkommen könnte. Die 32 Bit kodieren im Beispiel mit dem Hexadezimalwert
+`19E9B6EA` die Zeichenfolge "DE2" als Text für eine Bibliothekskennung und die
+Zahl 46826 als Medienkennung.
 
 ![Beispiel für einen Speicherbereich auf einem RFID-Tag](media/rfid-tag.png){#fig-speicher-rfid}
 
-Hierbei ist der Speicher 32 Bit klein, was (geteilt durch 8) genau 4 Byte
-entspricht. Die einzelnen Bits können entweder 0 oder 1 sein und eine
-zweistellige Darstellung von jeweils 8 Bit als Byte nutzt die Werte von 00 bis
-FF im Hexadezimalsystem. Der Speicher, auf dem nun 19E9B6EA steht, wird in
-diesem Beispiel wie folgt encodiert: Die ersten beiden Byte sollen nach URN
-Code 40 gelesen werden, ein Verfahren mit dem man Text kompakt darstellen kann
-ähnlich der Idee hinter Code39 (IPC RFID STANDARD FOR INDENTIFYING POSTAL ITEMS
-BASED ON THE UPU S10 CODE, USING THE ISO/IEC 18000-63 PROTOCOL, Version 1.0,
-Februar 2017, Seite 33ff).  Damit ergibt sich der Text "DE2". Die letzten
-beiden Byte sollen hier einfach als Zahl gelesen werden. Die hexadezimale Zahl
-B6EA wird im Dezimalraum zu 46826. Das beispielhafte RFID-Tag würde hier also
-etwa eine Präfixkennung DE2 für die Bibliothek enthalten, sowie eine
-fortlaufende Mediennummer. Würden wir vereinbaren, auch URN40 für die letzten
-zwei Byte des Speichers zu nutzen, so hätten wir nur die Möglichkeit, Zahlen
-von 000 bis 999 (bzw. dann auch dreistelligen Text) zu encodieren. Daher die
-wechselnde Encodierung.
-
 In Bibliotheken enthält das RFID-Tag auch ein sog. AFI-Bit (application family 
 indicator), das zur Medien- bzw. Buchsicherung verwendet wird.
-
 Komplexere Datenmodelle, wie das Dänische Datenmodell, brauchen
-demzufolge deutlich mehr Speicherplatz, um auf ein Tag zu passen.
+deutlich mehr Speicherplatz, um auf ein Tag zu passen.
 
-#### Steuerkommandos, Arten des Zugriffs
+### Steuerkommandos, Arten des Zugriffs
 
 RFID-Geräte kommunizieren mit RFID-Tags über verschiedene sog.
 Steuerkommandos. Analog zur Barcodes, die von einem Drucker gedruckt
@@ -837,7 +788,7 @@ Normalfall nicht mit den Steuerkommandos von RFID-Hardware in Berührung.
 Sollte man aber mit der Hardware selber experimentieren oder testen,
 wird man manchmal auch roh auf die Tags schreiben müssen.
 
-#### Sicherheit und Datenschutz
+### Sicherheit und Datenschutz
 
 RFID-Tags können auf zwei Arten manipuliert werden: Einerseits kann man
 mittels geeigneter Hardware (im Falle von RFID-HF genügt ein Smartphone)
@@ -860,7 +811,7 @@ Selbst wenn jemand Medien im Rucksack eine*r Nutzer\*in scannen würde (was
 technisch nicht unaufwändig ist), könnte man daraus keine Rückschlüsse
 auf das betreffende Medium schließen.
 
-#### Anbindung von RFID-Infrastruktur an BMS
+### Anbindung von RFID-Infrastruktur an BMS
 
 Damit ein Gerät einer RFID-Infrastruktur mit dem Rest der Systeme einer
 Bibliothek, insbesondere dem [BMS](#bibliotheksmanagementsysteme)
@@ -885,7 +836,7 @@ oder anderen Systemen angesprochen werden. Die Logik der Interpretation des
 Taginhalts liegt hierbei dann beim BMS oder bei einer Zwischensoftware
 ("Proxy"), die zwischen Reader und BMS vermittelt.
 
-#### Medienarten
+### Medienarten
 
 RFID-Transponder sind nicht für alle Medienarten geeignet. Aufgrund der
 Tatsache, dass RFID-Tags über Funkwellen mit Strom versorgt werden und
@@ -934,7 +885,7 @@ Auf die Barcodes kann beim Einsatz von RFID auch verzichtet werden, wenn in
 Kauf genommen wird, dass man für die Identifikation eines Buches eine Recherche
 im BMS durchführen muss, wenn das Tag unlesbar oder falsch beschrieben ist.
 
-#### Alternativen zu RFID in Bibliotheken
+### Alternativen zu RFID in Bibliotheken
 
 Fortgeschrittene Entwicklungen im Bereich *OCR* und generell CV (computer
 vision) können es ermöglichen, ganz ohne technisch lesbare
@@ -968,10 +919,11 @@ insofern immer teurer.
 
 Eine Internetpräsenz ist für eine öffentliche Einrichtung mittlerweile
 unabdingbar und dient vielen Nutzer\*innen als Erstkontaktmöglichkeit,
-Arbeitsmittel und Informationsplattform gleichermaßen.
+Arbeitsmittel und Informationsplattform gleichermaßen. Die Infrastruktur
+hierfür wird im Kapitel [Kommunikation](#kommunikation) genauer behandelt.
 
 Eine technische Basis für eine Onlinepräsenz wird manchmal von hiesigen
-Verwaltungen oder Rechenzentren gestellt, allerdings sollte auch hier darauf
+Verwaltungen oder Rechenzentren gestellt, allerdings sollte darauf
 geachtet werden, dass die Grundfragen und -dienste mit einer solch
 vorgefertigten Variante umgesetzt werden können. Alternativ kann es auch sein,
 dass allein die technische Basis -- ein (Web-)server -- bereitgestellt wird und
@@ -1048,7 +1000,13 @@ Teilnehmer im Netzwerk auf eigene Dateien zugreifen können.
 
 Zur Ausstattung von Gruppen- und Einzelarbeitsplätzen gehört auch
 angemessene Informationstechnik. Wesentlich sind zunächst ein stabiler
-Internetzugang und Steckdosen. Ausstattung, Verwaltung und Unterhalt von
+Internetzugang und Steckdosen. Dabei sollte die Absicherung mit genügend
+Sicherungen und getrennten Stromkreisen geplant werden, denn nicht selten 
+fliegt wegen eines defekten Laptop-Netzteils sonst die Sicherung eines
+gesamten Lesesaals raus. Vor allem sollte in solchen Fällen nicht plötzlich
+das gesamte Bibliothekspersonal stromlos dastehen.
+
+Ausstattung, Verwaltung und Unterhalt von
 Räumen mit Technik ist insbesondere für öffentliche Bibliotheken
 ressourcen- und kostenintensiv. Entsprechend sollten sich Bibliotheken
 an der tatsächlichen Nachfrage ihrer Nutzer\*innen orientieren und nur die
@@ -1067,12 +1025,15 @@ als großer Monitor mit extern angeschlossenem Notebook oder integriertem
 Computer genutzt werden. Ein Angebot von derartigen Projektionsflächen
 lässt sich auch kostengünstiger realisieren.
 
-In einigen Bibliotheken werden auch komplette Workspaces für große
-Gruppen angeboten. Für die gezielte Nutzung von speziell ausgestatteten
-Arbeitsplätzen kann das Angebot einer Sitzplatz- bzw. Raumbuchungslösung
-nützlich sein. Das Buchungssystem lässt sich auf der Homepage oder in
-einer Service-App einbinden und kann auf diesem Weg ebenso wie andere
-Dienstleistungen genutzt werden.
+In einigen Bibliotheken werden auch komplette Workspaces für große Gruppen
+angeboten. Für die gezielte Nutzung von speziell ausgestatteten Arbeitsplätzen
+kann das Angebot einer Sitzplatz- bzw. Raumbuchungslösung nützlich sein. Das
+Buchungssystem lässt sich auf der Homepage oder in einer Service-App einbinden
+und kann auf diesem Weg ebenso wie andere Dienstleistungen genutzt werden. Hier
+werden inzwischen auch gehostete Lösungen als Cloud-Service angeboten. Oft
+unterstützen diese Dienste die Anmeldung via Shibboleth und OpenID-Connect,
+ggf. sogar die Nutzung innerhalb einer Föderation. Die Fragen des Datenschutzes
+sind natürlich bei einem solchen Einsatz im Vorfeld zu klären.
 
 ### Öffentliche PC-Arbeitsplätze
 
@@ -1211,7 +1172,11 @@ Wildau als Beispiel mit UNIDOS hat eine Integration des Bibliothekskontos, mit
 der Möglichkeit der Anzeige aller entliehenen Medien und der Verlängerung
 dieser. Bewerkstelligt wird die Funktion via SIP2-Schnittstelle. Zusätzlich
 können Discovery-Systeme sowie eine Raumbuchung verlinkt bzw. direkt via App
-ermöglicht werden.
+ermöglicht werden. Die Kosten für die Entwicklung einer nativen App für Android
+und iOS sind eher hoch. Daher kann stattdessen auch eine responsive
+Web-App zum Einsatz kommen. Apps machen meist nur dann wirklich Sinn, wenn man
+Zugriff auf interne Komponenten der Smartphones wie NFC, Kamera (zum Scannen),
+Bluetooth (z.B. zur Detektion von Beacons) etc. benötigt.
 
 ### Technische Beratung und Schulungen
 
@@ -1249,7 +1214,8 @@ dienen die Dienste vor allem der internen [Kommunikation und dem Wissenmanagemen
 
 **Wissensmanagement** besteht aus [Prozessen](#wissensmanagement) zur Erfassung
 und Weitergabe von Wissen innerhalb einer Organisation, das oft nur implizit in
-den Köpfen der Mitarbeitenden vorliegt.
+den Köpfen der Mitarbeitenden vorliegt. Werkzeuge hierfür werden im Kapitel
+[Kommunikation](#kommunikation) vorgestellt.
 
 :::
 
@@ -1288,10 +1254,9 @@ aus dem Homeoffice zugreifbar.
 
 Wie im [Kapitel zur Kommunikation](kommunikation.md#kommunikation) beschrieben,
 gibt es verschiedene Werkzeuge zur synchronen und asynchronen Kommunikation von
-**Telefon** über **E-Mail** und **Chats** bis zu **Videokonferenzsystemen**.
-
-Neben der reinen Kommunikation dienen [bereitgestellte Werkzeuge](#werkzeuge)
-wie **Wikis** und **Ticketsysteme** auch der Zusammenarbeit und kollaborativen Erstellung von
+Telefon über E-Mail und Chats bis zu Videokonferenzsystemen.
+Neben der reinen Kommunikation dienen Werkzeuge wie Wikis und
+Ticketsysteme auch der Zusammenarbeit und kollaborativen Erstellung von
 Inhalten.
 
 ### Fileservices
@@ -1330,7 +1295,8 @@ Allgemeinen kein Archiv.
 
 ## Zusammenfassung und Ausblick
 
-Die technische Infrastruktur bildet die Grundlage für die Dienste einer Bibliothek.
-Während sich die grundlegenden Dienste für Mitarbeiter\*innen nicht wesentlich von
-anderen Einrichtungen unterscheiden, sind viele Dienste für Nutzer\*innen an die
+Die technische Infrastruktur bildet die Grundlage für die Dienste einer
+Bibliothek.  Während sich die grundlegenden Dienste für Mitarbeiter\*innen
+einer Bibliothek nicht wesentlich von denen anderen Einrichtungen
+unterscheiden, sind viele Dienste für die Nutzer\*innen von Bibliotheken an die
 Verwaltung physischer Medien gekoppelt.

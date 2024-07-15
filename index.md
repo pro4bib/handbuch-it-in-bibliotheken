@@ -56,7 +56,7 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
  
 - [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Anwendungen für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
  
-- [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
+- [Discovery-Systeme](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
  
 - [Digitalisierung](digitalisierung.md) umfasst Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
  

@@ -1,53 +1,61 @@
-# IT-Management
+IT-Management
+=============
 
-## Zusammenfassung
+Zusammenfassung
+---------------
 
 Dieses Kapitel beschreibt die Einführung und den
 [Betrieb](#betriebsmodelle) von IT-Systemen über den gesamten
-[Lebenszyklus](#lebenszyklen-von-it-systemen).
+[Lebenszyklus](#lebenszyklen-von-it-systemen) hinweg.
 
-## Einleitung
+Einleitung
+----------
 
-IT-Systeme sind selten statisch sondern folgen einem
-[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung bis zu
-ihrer Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme
-müssen mögliche [Risiken](#betriebssicherheit-und-risikomanagement)
-beachtet und [rechtliche
-Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
-Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und
-ein [organisatorischer Rahmen](#organisation) notwendig. Um diesen
-Anforderungen begegnen zu können, gibt es Möglichkeiten zur [Aus- und
+IT-Systeme sind selten statisch, sondern folgen einem
+[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung ihrer
+Einführung bis zu ihrer Ablösung. Während des
+[Betriebs](#betriebsmodelle) der Systeme müssen mögliche
+[Risiken](#betriebssicherheit-und-risikomanagement) beachtet und
+[rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen)
+eingehalten werden. In Bibliotheken sind daher entsprechende
+[IT-Kompetenzen](#kompetenzen) und ein [organisatorischer
+Rahmen](#organisation) für die [Digitale
+Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
+begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
-## Lebenszyklen von IT-Systemen
+Lebenszyklen von IT-Systemen
+----------------------------
 
-Alle Software-Systeme folgen einem Lebenszyklus, der mit ihrer
-Einführung beginnt und irgendwann mit ihrer Abschaltung endet
-(@fig-it-zyklus). Die wesentlichen Phasen im klassischen Lebenszyklus
-eines IT-Systems werden im Folgenden näher betrachtet.
+Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer Einführung
+beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus). Die
+wesentlichen Phasen im klassischen Lebenszyklus eines IT-Systems werden
+im Folgenden näher betrachtet. Darüber hinaus wird erläutert, wie
+Änderungen an IT-Systemen in Institutionen im Rahmen des [Change
+Managements](#change-management) begleitet werden sollten.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
 angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![SDLC-Skizze (Platzhalter)](media/rId25.png){width="0.0in"
+![Softwareentwicklungs-Lebenszyklus](media/rId25.png){width="0.0in"
 height="0.0in"}
 
-SDLC-Skizze (Platzhalter)
+Softwareentwicklungs-Lebenszyklus
 
 ### Planung und Analyse
 
 Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um
 individuell erstellte Software oder die Anpassung eines existierenden
 IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die
-Anforderungen des Projektes. Dieses gemeinsame Verständnis, insbesondere
-der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren
-Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
-und während der Entwicklung [unter Einbeziehung von
+Anforderungen an das Projekt. Dieses gemeinsame Verständnis,
+insbesondere der Anforderungen, sollte bei allen Projektmitgliedern und
+den weiteren Stakeholdern vorhanden sein. Die Anforderungen werden
+idealerweise vor und während der Entwicklung [unter Einbeziehung von
 Nutzer\*innen](anforderungen.md) ermittelt und angepasst.
 
-Zur Planungs- und Analysephase gehört neben einer grundsätzlichen
+Zur Planungs- und Analysephase gehören neben einer grundsätzlichen
 Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
 Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und
 rechtlicher Rahmenbedingungen.
@@ -56,7 +64,8 @@ $\Rightarrow$ *Siehe auch ausführlicher zum [Entscheidungsprozess bei
 der Einführung eines
 Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.html#entscheidungsprozess)*
 
-## Info
+Info
+----
 
 Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
 getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
@@ -67,32 +76,32 @@ prüfen, welche Anforderungen das System tatsächlich abdecken kann.
 ### Design/Prototyping
 
 Während der Design- bzw. Prototyping-Phase entwickeln Designer\*innen
-und Entwickler\*innen erste Prototypen. Ziel ist es dabei, Feedback der
-verschiedenen Stakeholder zu erhalten, um gemeinsam ein besseres
-Verständnis der Anforderungen zu erhalten bzw. diese zu präzisieren. Das
-Kapitel [Anforderungen an Bibliotheks-IT](#anforderungen) geht gesondert
-auf die Bedeutung dieser Einbeziehung und damit verbundener Methoden
-ein.
+und Entwickler\*innen erste Prototypen des geplanten IT-Systems. Ziel
+ist es dabei, Feedback der verschiedenen Stakeholder zu erhalten, um
+gemeinsam ein besseres Verständnis der Anforderungen zu erhalten bzw.
+diese zu präzisieren. Das Kapitel [Anforderungen an
+Bibliotheks-IT](#anforderungen) geht gesondert auf die Bedeutung dieser
+Einbeziehung und die damit verbundenen Methoden ein.
 
 ### Implementierung
 
 Aufbauend auf einem gemeinsamen Verständnis der Anforderungen überführen
 Entwickler\*innen Prototypen in lauffähigen Code. Wird im Rahmen des
 Projekts ein bestehendes System implementiert, werden die Prototypen
-zunächst in ein Testsystem und in der Folge in das produktive System
-überführt.
+zunächst in eine Testinstanz und in der Folge in die produktive Instanz
+des Systems überführt.
 
 In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt
-mit den gewünschten Features, während nutzer\*innenorientierte
-Vorgehensmodelle (siehe Kapitel [Anforderungsanalyse](#anforderungen))
-hier auf einen iterativen Prozess setzen, welcher Produktiterationen
-häufiger bereitstellt und evaluiert.
+mit idealerweise schon möglichst vielen der gewünschten Features,
+während nutzer\*innenorientierte Vorgehensmodelle (siehe Kapitel
+[Anforderungsanalyse](#anforderungen)) hier auf einen iterativen Prozess
+setzen, welcher Produktiterationen häufiger bereitstellt und evaluiert.
 
 Grundsätzlich unterscheidet sich die Implementierung von
 Informationssystemen in und für Bibliotheken nicht von der
-Softwareentwicklung in anderen Bereichen. Unabdingbar ist der Einsatz
+Softwareentwicklung in anderen Bereichen. Unabdingbar sind der Einsatz
 eines Versionskontrollsystems, ein Issue-Tracker und möglichst
-automatische Tests und Deployment (kontinuierliche Integration), so dass
+automatische Tests und Deployment (kontinuierliche Integration), sodass
 Änderungen am Quellcode direkt zu einer Aktualisierung der Test-
 und/oder Produktiv-Instanz der installierten Software führen.
 
@@ -107,24 +116,28 @@ System erfolgreich produktiv in Betrieb genommen werden kann.
 Während der Tests wird korrekte Umsetzen der Anforderungen sowie die
 Umsetzung der Anforderungen geprüft.
 
-#### Wartung
+### Wartung
 
 Die Wartungsphase folgt auf die Produktivsetzung des IT-Systems. In
 dieser Lebensphase wird das System nicht mehr grundlegend
 weiterentwickelt, es werden jedoch Fehler (Bugs) entfernt und
-Anpassungen der Funktionsweise im Sinne der Parametrisierung oder die
+Anpassungen der Funktionsweise im Sinne der Parametrisierung oder eine
 Optimierung der Programmabläufe vorgenommen.
 
-Typischerweise finden sich IT-Systeme, die grundlegende
-Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
-erstellt wurden, viele Jahre in dieser Phase. \@fig-verweildauer
-illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
-Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
-Textes erst teilweise abgelöst wurden.
+Typischerweise verbleiben IT-Systeme, die grundlegende Geschäftsprozesse
+abbilden oder die nach individuellen Anforderungen erstellt wurden,
+viele Jahre in dieser Phase.
+
+Beispiel
+--------
+
+@fig-verweildauer illustriert die Lebensspanne einiger ausgewählter
+Nachweissysteme der Staatsbibliothek zu Berlin, die zum Zeitpunkt der
+Erstellung dieses Textes erst teilweise abgelöst wurden.
 
 ![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am
 Beispiel der Staatsbibliothek zu Berlin (Stand
-2022)](media/rId37.png){width="0.0in" height="0.0in"}
+2022)](media/rId38.png){width="0.0in" height="0.0in"}
 
 Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am
 Beispiel der Staatsbibliothek zu Berlin (Stand 2022)
@@ -162,7 +175,7 @@ Beispiel:
     mit Spezialkenntnissen (z.B. veralteter Programmiersprachen), siehe
     dazu auch den Abschnitt [Ressourcenplanung](#ressourcenplanung)
 
-Letztlich führen all diese Punkte zur Abschaltung eines IT-Systems
+Letztlich führen fast alle diese Punkte zur Abschaltung eines IT-Systems
 aufgrund von IT-Sicherheitsproblemen, da diese Einbrüche in die Systeme
 (Hacks) begünstigen. Hinzu kommt das Risiko von Datenverlusten, entweder
 durch physischen Verlust im Falle eines Hardware-Defekts oder durch den
@@ -174,13 +187,61 @@ Risiken in sich und kann eine Organisation folglich in ernsthafte
 Schwierigkeiten bringen, insbesondere wenn geschäftskritische Prozesse
 betroffen sind.
 
-## Betriebsmodelle
+### Change Management
+
+Die Umgestaltung von Prozessen und Tools in Bibliotheken ist ein Wandel,
+der die Organisation und Kultur des Hauses in ihrer Ganzheit berührt.
+Das Change Management – also die planvolle Steuerung von
+Veränderungsprozessen – spielt dabei eine zentrale Rolle. Es gilt,
+sowohl technologische Aspekte als auch menschliche Faktoren sorgsam in
+Betracht zu ziehen, um nachhaltige, akzeptierte und effektive Lösungen
+zu implementieren. Dies betrifft nicht nur die Auswahl und Einführung
+von Werkzeugen und Plattformen, sondern auch die Entwicklung von
+Kompetenzen, die Gestaltung von Arbeitsprozessen und die Förderung einer
+Kultur der Offenheit und Zusammenarbeit:
+
+-   Realen Bedarf ermitteln, Ziele und Zielgruppen definieren, keine
+    “Solutions looking for a Problem” einführen: welches (kommunikative)
+    Problem will ich lösen?
+
+-   Einsatz bestehender Tools prüfen: brauche ich wirklich etwas Neues,
+    oder kann ich mit gewissen Abstrichen leben und dafür ein
+    bestehendes Tool kreativ einsetzen? Die Gefahr beim Einsatz einer
+    großen Vielzahl von Tools ist, dass Information / Wissen zu stark in
+    verschiedene Systeme fragmentiert wird. Die Gefahr beim Einsatz von
+    zu unspezifischen Tools ist, dass die Lösung dem eigentlichen
+    Problem nicht gerecht wird.
+
+-   Auf Interoperabilität sowie offene Standards achten und bereits mit
+    der Einführung Exit-Strategien entwickeln, um einen Vendor Lock-in
+    zu vermeiden.
+
+-   Die angestrebten Veränderung frühzeitig und offen kommunizieren,
+    Unterstützung in Form von Dokumentation, Schulungen und Support
+    anbieten, Ängste nehmen (sowohl bei Kolleg\*innen als auch Gremien).
+    Der Trend hin zu kollaborativen Tools sorgt für eine höhere
+    Sichtbarkeit, das ist vielen nicht ganz geheuer. Oft ist es eine
+    große Hemmschwelle, auf einmal für alle sichtbar in ein Wiki oder
+    Forum zu schreiben.
+
+-   Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen (“alte
+    Zöpfe abschneiden”). Die Einführung zusätzlicher Werkzeuge sorgt
+    sonst auch oft für Unverständnis, Frust und eventuell sogar
+    Mehraufwände.
+
+-   Akzeptanz regelmäßig prüfen (siehe [Evaluation](#evaluation))
+
+Betriebsmodelle
+---------------
 
 Insbesondere serverbasierte Software, wie zum Beispiel das
 [Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md), kann auf
 verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden
 sich bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und
-Support.
+Support. Die Wahl eines Betriebsmodells ist nicht nur eine
+betriebswirtschaftliche Entscheidung, sondern beeinflusst auch
+strategisch die [Digitale Souveränität](#digitale-souveränität) der
+Einrichtung.
 
 ### Lokale Installation
 
@@ -188,26 +249,26 @@ Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
 erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
 oder im Abo, und installierte diese auf eigenen Servern, z.B. im
 Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer
-"on-premise" Installation.
+“On-premise”-Installation.
 
 In diesem Modell kümmert sich die Einrichtung selbst um Installation und
-Updates. Folglich erfordert dieses Modell höheren Personaleinsatz und
-kann dazu führen, dass bei einem personellen Engpass eine Software
-länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam
-wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups
-und Ausfallsicherheit selbst Gedanken machen.
+Updates. Folglich erfordert dieses Modell hohen Personaleinsatz und kann
+dazu führen, dass bei einem personellen Engpass eine Software länger
+betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam wäre. Auch
+muss sich die Einrichtung um grundlegende Dinge, wie Backups und
+Ausfallsicherheit selbst Gedanken machen.
 
-Auf der anderen Seite bietet dieses Modell der Einrichtung die meiste
-Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger
-Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig
-von äußeren Einflüssen.
+Auf der anderen Seite bietet dieses Modell der Einrichtung potentiell
+den höchsten Grad an Kontrolle über die eingesetzte Software - etwa
+hinsichtlich nötiger Erweiterung oder Anpassung - und macht sie damit
+weitgehend unabhängig von äußeren Einflüssen.
 
 ### Hosting
 
 In diesem Betriebsmodell wird die Ebene der Rechenkapazität bzw.
 Serverhardware an einen Dienstleister ausgelagert. Der Dienstleister
 kann hierbei etwa das Rechenzentrum einer Universität oder des
-angeschlossenen Bibliotheksverbundes sein, oder ganz allgemein jeder
+jeweiligen Bibliotheksverbundes sein oder ganz allgemein jeder
 kommerzielle Betreiber eines Rechenzentrums, bei dem Kapazitäten
 erworben werden.
 
@@ -216,14 +277,14 @@ eingesetzten Hardware können an diesen Anbieter delegiert werden. Im
 Falle des Hostings durch einen Bibliotheksverbund entfallen
 möglicherweise auch Einrichtung, Installation und Upgrades. Die
 Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch
-das Hosting für mehrere Einrichtung besser skaliert.
+das Hosting für mehrere Einrichtungen besser skaliert.
 
 ### Cloud
 
 Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a
-Service) bezeichnet wird, liegt der fachlich und technische Betrieb beim
-Anbieter bzw. Dienstleister der Software und die Einrichtung nutzt
-lediglich eine für sie konfigurierte Installation ("Instanz"). Dies ist
+Service) bezeichnet wird, liegt der technische Betrieb beim Anbieter
+bzw. Dienstleister der Software und die Einrichtung nutzt eine für sie
+bestmöglich vorkonfigurierte Installation (“Instanz”). Dies ist
 insbesondere bei webbasierten Anwendungen die bevorzugte Betriebsart,
 stellt aber erhöhte Anforderungen an die Anbindung lokaler Endgeräte wie
 z.B. [Ausleihautomaten](#selbstverbucher-ausleihautomaten)), weil dabei
@@ -233,7 +294,7 @@ werden muss.. Die Einrichtung ist weder für die Wartung der eingesetzten
 Hardware noch für die Pflege der genutzten Software zuständig.
 
 In der Praxis kann sich ein solches Betriebsmodell als komfortabel
-erweisen, da keine Personalressource für allgemeine Tätigkeiten des
+erweisen, da keine Personalressourcen für allgemeine Tätigkeiten des
 IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden.
 Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
 personalsparend serverbasierte Software einzusetzen. Eine
@@ -242,22 +303,79 @@ erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl
 der Endnutzer\*innen führt ein solches Betriebsmodell meist zu
 Abonnementkosten.
 
-## Betriebssicherheit und Risikomanagement
+### Digitale Souveränität
+
+Digitale Souveränität bedeutet die selbstbestimmte Gestaltung und
+Kontrolle über die eigenen digitalen Ressourcen, Technologien und Daten,
+um unabhängige, nachhaltige und nutzerzentrierte Services gewährleisten
+zu können.
+
+Sie bietet Bibliotheken die Möglichkeit, sowohl ihren Service als auch
+ihre interne und externe [Kommunikation](kommunikation.md) auf eine
+nachhaltige, unabhängige und innovative Weise zu gestalten und
+weiterzuentwickeln, während gleichzeitig die Prinzipien der Offenheit
+und Gemeinschaftlichkeit im Umgang mit Wissen und Technologie gefördert
+werden.
+
+Digitale Souveränität repräsentiert für Bibliotheken damit nicht nur
+einen ethischen Imperativ, sondern führt auch zu einer überzeugenden
+strategischen Ausrichtung:
+
+-   **Unabhängigkeit von Dienstleistern:** Durch die Selbstverwaltung
+    und -steuerung der eingesetzten digitalen Werkzeuge können
+    Bibliotheken spezifische Anpassungen vornehmen und sind nicht auf
+    externe Anbieter angewiesen, wodurch auch die Datenkontrolle intern
+    bleibt.
+
+-   **Aufbau von Know-how im Haus:** Die kontinuierliche Arbeit mit und
+    Entwicklung von digitalen Werkzeugen befähigt das Personal, ein
+    vertieftes technisches Verständnis und Fertigkeiten zu entwickeln,
+    was langfristig zur Selbstständigkeit und Innovationskraft beiträgt.
+
+-   **Stärkung von Kooperation durch Open Source:** Gemeinsame
+    Entwicklungsprojekte im Open-Source-Bereich unterstützen nicht nur
+    den Wissensaustausch und die Innovationskraft unter Bibliotheken,
+    sondern fördern auch die Entstehung robuster und anpassbarer
+    Technologien, die gemeinschaftlich weiterentwickelt werden können.
+
+-   **Öffentliches Geld für öffentliche Software:** Diese Philosophie
+    unterstreicht das Bestreben, mit öffentlichen Mitteln finanzierte
+    Software auch der gesamten Gemeinschaft zugänglich zu machen,
+    wodurch der Grundsatz der Transparenz und des gemeinschaftlichen
+    Nutzens betont wird.
+
+-   **Finanziell attraktiv:** Durch die Vermeidung von Lizenzkosten und
+    die Möglichkeit, Software nach Bedarf anzupassen und
+    weiterzuentwickeln, eröffnen Open-Source-Werkzeuge nicht nur
+    kosteneffiziente, sondern auch zukunftssichere Investitionspfade.
+
+-   **Datenschutz und -sicherheit:** Eigenkontrolle über die Systeme
+    kann zu besseren Sicherheits- und Datenschutzpraktiken führen, da
+    Bibliotheken direkten Einfluss auf die Verwaltung und den Schutz von
+    Benutzerdaten haben.
+
+-   **Inklusion und Zugänglichkeit:** Die Fähigkeit, digitale Werkzeuge
+    selbst zu gestalten und anzupassen, ermöglicht es Bibliotheken,
+    gezielt auf inklusive Praktiken und die Schaffung barrierefreier
+    Dienste und Ressourcen hinzuwirken.
+
+Betriebssicherheit und Risikomanagement
+---------------------------------------
 
 Neben den Problemen der Ablösungplanung gibt es weitere Risiken des
 Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt
 vorgestellt werden.
 
-### Vendor-Lock-In
+### Vendor Lock-in
 
 Ein nicht zu unterschätzendes Risiko, welches sich aus der Einführung
-eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-In.
+eines proprietären IT-Systems ergibt, ist der sogenannte Vendor Lock-in.
 Dieser beschreibt die Abhängigkeit von Produkten oder Dienstleistungen
-eines Anbieters durch die der gleichzeitige Einsatz von anderen
+eines Anbieters, durch die der gleichzeitige Einsatz von anderen
 Produkten oder der Wechsel zu anderen IT-Systemen erschwert wird. Durch
 den Einsatz von Systemen mit etablierten Standards, offenen
 Datenformaten und Schnittstellen sowie geeigneter Ablösungsstrategien
-kann das Risiko eines Vendor Lock-Ins verringert werden.
+kann das Risiko eines Vendor Lock-ins verringert werden.
 
 Der Begriff des Vendor Lock-ins kann noch auf den Bereich der
 Fehlerbehebung und die Wartung von Software ausgedehnt werden. Im Fall
@@ -285,16 +403,16 @@ ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
 Schichtmodells des Betriebs eines IT-Systems illustrieren:
 
-![Schichtmodell-Bild (Platzhalter)](media/rId52.png){width="0.0in"
+![Schichtmodell-Bild (Platzhalter)](media/rId54.png){width="0.0in"
 height="0.0in"}
 
 Schichtmodell-Bild (Platzhalter)
 
-Aus \@fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
+Aus @fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
 Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben
-zu können, müssen die Einzelkomponenten zusammen spielen. Fällt eines
-der Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz
+zu können, müssen die Einzelkomponenten zusammenspielen. Fällt eines der
+Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz
 aus, so ist es unter Umständen möglich, die darüber liegenden Schichten
 auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht
 garantiert.
@@ -331,7 +449,7 @@ Anforderungen erfüllen:
 > Erwartungskonformität, Individualisierbarkeit, Lernförderlichkeit*
 > beachtet und realisiert werden.
 >
-> -- \[@gesetzliche_bildschirm-\_2019\]
+> – \[@gesetzliche\_bildschirm-\_2019\]
 
 Die Erreichung dieser Ziele wird im Kapitel
 [Anforderungsanalyse](#anforderungen) thematisiert.
@@ -387,7 +505,8 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
     Bewertung
     heranziehen](https://developers.google.com/search/blog/2020/05/evaluating-page-experience).
 
-## Management der Bibliotheks-IT
+Management der Bibliotheks-IT
+-----------------------------
 
 Die Auswahl und Implementierung sowie der Betrieb von digitalen Diensten
 ist ein stetig wachsender Aufgabenbereich für Bibliotheken. Durch den
@@ -527,9 +646,9 @@ Folgenden ausführlicher betrachtet.
 
 ### Aus- und Weiterbildung
 
-In der Einleitung wird Cody Hanson \[-@hanson_cody_opinion_2015\]
-zitiert: "Most importantly, all library staff must understand that our
-software is our library, and is everyone's responsibility." Bezogen auf
+In der Einleitung wird Cody Hanson \[-@hanson\_cody\_opinion\_2015\]
+zitiert: “Most importantly, all library staff must understand that our
+software is our library, and is everyone’s responsibility.” Bezogen auf
 Einarbeitung und Weiterbildung bedeutet das, dass sich Mitarbeitende mit
 der (Weiter-)Entwicklung von Software ebenfalls weiterbilden und
 weiterentwickeln. Nur so kann die Verantwortung von allen Mitarbeitenden
@@ -544,7 +663,7 @@ der Einführung oder dem Wechsel von Systemen.
 
 Historisch gibt es keine formalisierte Ausbildung für die erwähnten
 Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
-klassischerweise im Rahmen von "Training on the Job" erworben.
+klassischerweise im Rahmen von “Training on the Job” erworben.
 
 Allgemeine Ausbildungen und Studiengänge im Bereich IT und Data Science
 bieten eine gute Grundlage, decken aber bibliotheksspezifische IT-Themen
@@ -612,7 +731,7 @@ Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle
 Weiterbildungsformen sind
 
 -   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO,
-    Kitodo, OPUS, ...
+    Kitodo, OPUS …
 
 -   Library Carpentries
 
@@ -644,7 +763,8 @@ den digitalen Diensten noch stärker berücksichtigen und Studierende mit
 einem erhöhten Interesse an den Aufgaben in der Bibliotheks-IT
 rekrutieren müssen.
 
-## Zusammenfassung und Ausblick
+Zusammenfassung und Ausblick
+----------------------------
 
 Auch nach Auswahl eines Systems ist eine permanente Beobachtung des
 [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt

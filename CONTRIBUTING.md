@@ -189,8 +189,6 @@ Weitere Unterverzeichnisse:
 
 Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
-* `docs/` aus den Masterdateien mit quarto erzeugte Publikation
-
 * `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe [README.md](_gdrive/README.md))
 
 ### Konvertierung {.unnumbered}
@@ -205,9 +203,9 @@ Die Aufrufe sind zur Vereinfachung in [`Makefile`](Makefile) zusammengefasst:
 
 * `make all` ruft make `build` und `docx` auf und kopiert die DOCX-Dateien ins Publikationsverzeichnis `_book`.
 
-* `make html` erzeugt nur HTML in `_book`.
+* `make html` erzeugt nur HTML-Dateien in `_book`.
 
-* `make docx` erzeugt nur DOCX in `_book`.
+* `make docx` erzeugt nur das Gesamt-DOCX in `_book`.
 
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero.
 

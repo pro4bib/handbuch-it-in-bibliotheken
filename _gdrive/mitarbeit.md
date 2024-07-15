@@ -3,45 +3,72 @@ Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener
 Form möglich. Voraussetzung ist ein Verständnis des
 [Arbeitsablauf](#arbeitsablauf), Einhaltung des
 [Styleguide](#styleguide) und die freie [Lizenzierung](#lizenz) der
-eigenen Beiträge. Das Verfahren zur Aktualisierung des Handbuchs ist
-unter [Technik](#technik) beschrieben.
+eigenen Beiträge.
 
-## Arbeitsablauf
+Arbeitsablauf
+-------------
 
-Der aktuelle Workflow beinhaltet folgende Schritte:
+Alle Kapitel wurden in Booksprints vor Ort geplant und in Form von
+Google Docs Dokumenten geschrieben. Diese wurden anschließend einmalig
+ins Markdown-Format übertragen und auf
+[it-in-bibliotheken.de](https://it-in-bibliotheken.de) veröffentlicht
+(siehe [Technik](#technik)).
 
-Schreiben
+Weitere Änderungen und Beiträge zum Handbuch sind auf folgenden Wegen
+möglich:
 
-:   Neue Themen werden durch Gruppen im Rahmen von Book Sprints
-    erstellt. Als Werkzeug zum freien Schreiben dient dabei
-    beispielsweise Google Docs.
+1.  **Bearbeitungsvorschläge und Kommentare** in Google Docs (“Kapitel
+    Kommentieren”): im Zweifelsfall die einfachste Methode
+
+2.  Direkte Bearbeitung der Markdown-Quellen durch einen
+    **Pull-Request** (“Seite editieren”): erfordert einen GitHub-Account
+    und rudimentäre Markdown-Kenntnisse
+
+3.  Öffentlicher **Kommentar als
+    [GitHub-Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)**
+    (“Problem melden”): erfordert einen GitHub-Account
+
+4.  Persönlicher Hinweis an [die Autor\*innen](#autorinnen)
+
+![Feedback-Links unter dem Inhaltsverzeichnis
+rechts](media/rId22.png){width="5.236111111111111in"
+height="3.1944444444444446in"}
+
+Feedback-Links unter dem Inhaltsverzeichnis rechts
+
+Die Bearbeitungsvorschläge und Kommentare aus Google Docs werden in
+unregelmäßigen Abständen von der Redaktion in die Markdown-Quellen
+übernommen und die Google Docs Dokumente anschließend aktualisiert. Für
+[Bilder](#mitarbeit-medien),
+[Literaturverzeichnis](#mitarbeit-literatur) und
+[Glossar](#mitarbeit-glossar) gibt es eigene Abläufe. Der aktuelle
+Workflow nach Ende der Booksprints beinhaltet folgende Schritte:
 
 Lektorat
 
-:   Fertige Kapitel werden einmalig nach Markdown konvertiert und im
-    [git-Repository](#technik) des Handbuch abgelegt. Anschließend
-    werden daraus *DOCX*-Dateien erstellt (Word) und in einem [Google
-    Drive
-    Verzeichnis](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2)
-    zum Korrekturlesen und Kommentieren bereitgestellt. Änderungen
-    können auch [mittels
-    GitHub-Issues](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)
-    oder per Hinweis an [die Autor\*innen](#autorinnen) erfolgen.
+:   Fertige Kapitel stehen auf der Webseite und als Google Docs Dokument
+    zum Korrekturlesen und Kommentieren bereit. Je Kapitel sind zwei
+    externe (bisher nicht am Schreiben beteiligte) Lektor\*innen
+    eingeteilt, um die Einhaltung des [Styleguide](#styleguide) zu
+    überprüfen und Änderungen vorzuschlagen.
 
 Redaktion
 
-:   Änderungen an bestehenden Kapiteln und an der Gesamtstruktur des
-    Buches können direkt im git-Repository vorgenommen werden.
-    Alternativ muss jemand Änderungsvorschläge aus den Kapitel-Kopien
-    bei Google Drive einarbeiten und die DOCX-Datei aktualisieren.
+:   Hinweise und Änderungsvorschläge werden von den Autor\*innen
+    diskutiert und entschieden. Falls die daraus resultierenden
+    Änderungsvorschläge nicht als Pull-Request vorliegen, müssen sie in
+    Google-Docs bestätigt und parallel in die Markdown-Quellen
+    eingepflegt werden.
 
 Publikation
 
-:   Änderungen an der Markdown-Dateien im git-Repository führen dazu,
-    dass das Buch mittels [quarto](https://quarto.org/) in HTML und
-    anderen Formaten aus den Quellen zusammengebaut wird.
+:   Bestätigte Änderungen an der Markdown-Dateien im git-Repository
+    führen direkt dazu, dass das Buch automatisch aktualisiert wird
+    (siehe [Technik](#technik), bisher nur HTML-Version, Druckversion
+    ist geplant).
 
-## Styleguide
+Styleguide
+----------
 
 Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher
 Autor\*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es
@@ -50,7 +77,16 @@ Aktualität](#schreibstil), [Schreibweise](#schreibweise) und
 [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern
 und anderen Medien](#mitarbeit-medien),
 [Literaturverzeichnis](#mitarbeit-literatur) und
-[Glossar](#mitarbeit-glossar).
+[Abkürzungsverzeichnis](#mitarbeit-glossar).
+
+Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
+
+-   Wir verzichten auf individuelle Autor\*innenschaft an einzelnen
+    Textteilen. Alle können an allen Teilen mitarbeiten.
+
+-   Das Handbuch ist keine wissenschaftliche Arbeit, sondern soll einen
+    Überblick geben. Für Details kann auf weiterführende Quellen
+    verwiesen werden.
 
 ### Zielgruppe
 
@@ -102,6 +138,12 @@ Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
     durchgelesen werden muss.** Dabei helfen Redundanz und Querverweise
     (siehe [Hinweise zur Struktur](#struktur)).
 
+-   **Zumindest die einzelnen Kapitel sollen sich gut durchlesen
+    lassen.** Insbesondere Brüche in Stil und Aussage, Widersprüche oder
+    unnötige Redundanzen sind innerhalb der Kapitel unbedingt zu
+    vermeiden. Unter Berücksichtung des Nachschlagewerk-Charakters
+    streben wir auch einen guten Lesefluss innerhalb der Kapitel an.
+
 ### Struktur
 
 #### Struktur des Texts
@@ -133,19 +175,25 @@ Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
 Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die
 wesentlichen Themen rund um IT in Bibliotheken.
 
--   Kapitel haben normalerweise einen Umfang von 3.000 bis 4.000
-    Wörtern. Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich
-    in mehrere Kapitel trennen lassen, und wenn das nicht möglich ist,
-    müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
-
 -   Jedes Kapitel beginnt mit einer **Kurzfassung** als Infobox gefolgt
     von einer **Einleitung** und endet mit einem Abschnitt
     **Zusammenfassung und Ausblick**.
 
+-   Kapitel haben normalerweise einen Umfang von rund 4.000 Wörtern.
+    Deutlich längere Kapitel sind darauf zu prüfen, ob sie sich in
+    mehrere Kapitel trennen lassen, und wenn das nicht möglich ist,
+    müssen sie sorgfältig in Unterkapitel aufgeteilt werden.
+
+-   Die Strukturierung in Unterkapitel sollte stimmig und ausgewogen
+    sein, insbesondere mit Blick auf die Ziele des Buches.
+
+-   Die Übergänge zwischen einzelnen Unterabschnitten sollten stimmig
+    sein.
+
 -   Jedes Kapitel beinhaltet ein aussagekräftiges Metadatenfeld
     `description` [für
     Suchmaschinen](https://developers.google.com/search/docs/advanced/appearance/snippet)
-    (maximal etwa 158 Zeichen)
+    (maximal 158 Zeichen)
 
 ### Schreibweise, Fachbegriffe und Verweise
 
@@ -159,10 +207,13 @@ wesentlichen Themen rund um IT in Bibliotheken.
 
 -   Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie
     wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
-    definiert. Die eingeführten Fachbegriffe müssen in einem Glossar für
-    das gesamte Buch gebündelt werden.
+    definiert. Abkürzungen werden zusätzlich [im
+    Abkürzungsverzeichnis](#mitarbeit-glossar) erfasst.
 
 -   Wir vermeiden IT-Jargon.
+
+-   Wir vermeiden Substantivierung (“Digitalisierungswürdigkeit”) und
+    unnötige Passiv-Formen.
 
 -   Quellen sollten nur dann genannt werden wenn in der jeweiligen
     Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
@@ -172,8 +223,7 @@ wesentlichen Themen rund um IT in Bibliotheken.
 -   Abkürzungen werden durch geschützte Leerzeichen getrennt (z. B.)
 
 -   Gerade Anführungszeichen `"..."` werden automatisch durch die
-    Deutschland und Österreich übliche Anführungszeichen ("...")
-    ersetzt.
+    Deutschland und Österreich übliche Anführungszeichen (“…”) ersetzt.
 
 Externe Links, die nur auf Anbieter oder andere Websites verweisen,
 werden inline verlinkt.
@@ -196,10 +246,10 @@ werden inline verlinkt.
 -   Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt
     werden.
 
--   Standardschriftart ist [Source Sans
-    Pro](https://de.wikipedia.org/wiki/Source_Sans_Pro) und
-    Standard-Farbe für Hervorhebungen ist Blau mit dem Farbcode
-    `#2780e3`.
+-   Standardschriftart ist [Source
+    Sans](https://de.wikipedia.org/wiki/Source_Sans) und Standard-Farbe
+    für Hervorhebungen ist Blau mit dem Farbcode `#2780e3` und darauf
+    aufbauende Hellblau-Töne.
 
 -   Bitte nutzt sprechende Dateinamen!
 
@@ -217,10 +267,10 @@ werden.
 
 ### Glossar
 
-Das Glossar in der Datei `glossar.yml` enthält erklärungswürdige
-Begriffe mit Kurzbeschreibung und optionalem Link auf eine
-weiterführende Quelle (meist Wikipedia). Es werden \_keine\_ Firmennamen
-in das Glossar aufgenommen, auch wenn sie Akronyme sind. Die
+Das Abkürzungsverzeichnis in der Datei `glossar.yml` enthält
+erklärungswürdige Begriffe mit Kurzbeschreibung und optionalem Link auf
+eine weiterführende Quelle (meist Wikipedia). Es werden \_keine\_
+Firmennamen aufgenommen, auch wenn sie Akronyme sind. Die
 Glossarbegriffe werden in den Textdateien zur Hervorhebung *kursiv*
 gesetzt (in Markdown so `ein *Fachbegriff*`). Bei Erzeugung der
 HTML-Version des Handbuchs wird die Hervorhebung in einen Tooltip
@@ -234,20 +284,22 @@ Autor\*innen](#autorinnen) auftauchst, trage Dich in der YAML-Datei
 ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder
 `email`, `position` und `orcid` sind optional.
 
-## Technik
+Technik
+-------
 
 Die Master-Version des Handbuch liegt in einem git-Repository unter
 <https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die
 Ergebnisdateien werden automatisch via GitHub und einen Server der *VZG*
-aktualisiert, so dass unter <https://it-in-bibliotheken.de/> immer der
-aktuellste Stand einsehbar sein sollte.
+mit der Software [quarto](https://quarto.org/) aktualisiert, sodass
+unter <https://it-in-bibliotheken.de/> immer der aktuellste Stand
+einsehbar sein sollte.
 
 ### Verzeichnisstruktur
 
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die
 Masterdateien.
 
--   `about.yml` bibliographische Metadaten (Titel, Abstract...)
+-   `about.yml` bibliographische Metadaten (Titel, Abstract…)
 
 -   `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der
     [Konvertierung mit Quarto](#konvertierung)
@@ -273,17 +325,17 @@ werden:
 ### Konvertierung
 
 Zur Anpassung der Konvertierung des Handbuchs mit
-[Quarto](https://quarto.org) muss das Repository lokale geklont und
+[quarto](https://quarto.org/) muss das Repository lokale geklont und
 Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem
 `rsvg-convert` installiert werden (Paket `librsvg2-bin` bzw. `libsrvg`).
 
-Die Aufrufe sind zur Vereinfachung in [`Makefile`](../Makefile)
+Die Aufrufe sind zur Vereinfachung in [`Makefile`](Makefile)
 zusammengefasst:
 
--   `make preview` konvertiert das Handbuch nach HTML und startet einen
-    Webserver mit Vorschau unter <http://localhost:15745/> (PLZ von
-    Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die
-    Quelldateien lokale geändert werden.
+-   `make preview` konvertiert das Handbuch nach HTML und ermöglicht
+    eine Vorschau unter <http://localhost:15745/> (der Port ist die
+    Postleitzahl von Wildau). Die HTML-Ansicht wird automatisch
+    aktualisiert wenn die Quelldateien lokale geändert werden.
 
 -   `make build` konvertiert das Handbuch in alle konfigurierten Formate
     und legt die Ergebnisse im Verzeichnis `_book` ab. Dieser Schritt
@@ -300,10 +352,11 @@ zusammengefasst:
     [Literaturverzeichnis](#literaturverzeichnis) in `references.bib`
     von Zotero.
 
-## Lizenz
+Lizenz
+------
 
 Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung
-3.0 Deutschland* ([CC BY 3.0
-DE](https://creativecommons.org/licenses/by/3.0/de/)) veröffentlicht.
-Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND)
-verwendet werden.
+4.0 International* ([CC BY
+4.0](https://creativecommons.org/licenses/by/4.0/deed.de))
+veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC
+oder -ND) verwendet werden.

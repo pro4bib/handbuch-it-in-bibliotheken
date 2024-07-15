@@ -2,7 +2,7 @@
 description: Inhalte und Funktionen von Discovery-Systemen und Kriterien für ihre Auswahl
 ---
 
-# Discovery & Retrieval {#discovery-und-retrieval}
+# Discovery-Systeme
 
 ::: {.callout-note}
 ## Zusammenfassung

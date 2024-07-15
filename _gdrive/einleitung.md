@@ -18,7 +18,7 @@ Deutlich wird dies z.B. durch das stetig zunehmende Angebot an
 elektronischen Informationsmitteln, die Digitalisierung historischer
 Bestände, interoperable Metadaten oder auch die digitale
 Langzeitarchivierung. Die alltägliche Handhabung von IT (Smartphones,
-Automatisierung, Vernetzung, …) wird häufig einfacher, die zugrunde
+Automatisierung, Vernetzung …) wird häufig einfacher, die zugrunde
 liegenden Systeme werden jedoch immer komplexer und erfordern
 entsprechend mehr Wissen zu ihrem Aufbau und Betrieb. Während sich
 einige Teile der IT in Bibliotheken nicht wesentlich von IT in anderen
@@ -59,17 +59,17 @@ grob zwei Blöcke:
 -   [Anforderungsanalyse](anforderungen.md) umfasst die Ermittlung und
     Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
--   [Sicherheit & Datenschutz](sicherheit.md): *dieses Kapitel ist noch
-    nicht fertig gestellt*
+-   [Sicherheit & Datenschutz](sicherheit.md) beschreibt Vorgaben und
+    Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
 
 -   [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe,
     Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
 
-### Bibliothekspezifische Dienste
+### Bibliotheksspezifische Dienste
 
 -   [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind
-    spezialisierte Informationssysteme für Arbeitsprozesse rund um
-    Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von
+    spezialisierte Anwendungen für Arbeitsprozesse rund um Erwerbung,
+    Erschließung, Ausleihe, Zugriff und Auffindbarmachung von
     Bibliotheksbeständen
 
 -   [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und
@@ -121,8 +121,8 @@ Rechte an den Inhalten
 
 Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte
 dieses Buches unter der Lizenz [Creative Commons Namensnennung 4.0
-Deutschland](https://creativecommons.org/licenses/by/4.0/de/) (CC-BY 4.0
-DE).
+Deutschland](https://creativecommons.org/licenses/by/4.0/deed.de) (CC-BY
+4.0 DE).
 
 Das heißt: Sie dürfen das Material in jedwedem Format oder Medium
 vervielfältigen und weiterverbreiten (**Teilen**) und das Material

@@ -20,6 +20,12 @@ Neben der reinen Bewahrung von Kulturgütern stellt sich Bibliotheken und andere
 
 ## Grundlagen
 
+Digitalisierung ist zu einer zentralen Aufgabe an vielen Bibliotheken geworden. Über die Jahren haben sich für diese Aufgabe technische und organisatorische Standards und Workflows entwickelt und konsolidiert. So existieren inzwischen zahlreiche Softwaresysteme wie z.B. Workflow-Managementsysteme. 
+
+### Ziele der Digitalisierung
+
+Zu den Zielen der Digitalisierung zählen vor allem die Bestandserhaltung und Bestandsentwicklung. Durch die digitale Verfügbarmachung soll der Kundennutzen erhöht werden, indem Teilhabe und Zugang zu den Objekten erleichtert werden. Deshalb gibt es einen engen Bezug zu Themen wie Open Access oder Open Science. Durch eine erhöhte Sichtbarkeit der Institutionen bzw. einzelner Objekte und Sammlungszusammenhängen wird die Steigerung der institutionellen Relevanz angestrebt.
+
 ### Begriffsbestimmung
 
 **Digitalisierung** steht in diesem Kapitel für die Überführung von materiellen
@@ -123,7 +129,7 @@ Es haben sich dabei einrichtungsübergreifend ähnliche Prozessketten etabliert,
 zu deren Unterstützung [Workflowmanagementsysteme](#workflowmanagementsysteme)
 (WMS) entwickelt wurden und die Projektsteuerung erleichtern.
 
-![BILDUNTERSCHRIFT FEHLT](media/prozesse-digitalisierung.jpg)
+![Prozessschritte im Digtalisierungsprozess](media/prozesse-digitalisierung.jpg)
 
 Als Ausgangspunkt jedes Digitalisierungs-Vorhabens ist eine gründliche
 Planung der Arbeitsschritte unverzichtbar. Dabei sind die lokalen
@@ -384,7 +390,7 @@ eingesetzt werden. Roboter können das automatische Umblättern der Seiten
 erledigen, sind dabei aber für empfindliche Bestände weniger schonend.
 Berührungslose Scanner sind vor allem für Handschriften vorgesehen.
 
-![BILDUNTERSCHRIFT FEHLT!](media/buchscanner.jpg)
+![Beispiel eines Auflichtscanners](media/buchscanner.jpg)
 
 Die 2D-Scanner können sich in verschiedenen Eigenschaften wie Größe der
 Formate, Farbtiefe, Auflösung, Art und Qualität der Optik und Mechanik
@@ -692,17 +698,18 @@ Erfolg Ihrer Digitalisierungsprojekte zu messen und zu verbessern.
 
 Viele Bibliotheken mit historischen Beständen sind im Feld der
 Kulturgutdigitalisierung engagiert und kooperativ unterwegs. Werkzeuge,
-Standards und Dienstleister stehen zur Verfügung, um die unikalen
-Bestände ins Netz zu bringen. Um die Bandbreite der Objekte zu
-erweitern, finden gerade wichtige Entwicklungen statt, um auch AV-Medien
-und Objekte jenseits von 2D in die Routine aufzunehmen. Ebenso werden
-die Bibliotheken mit den Ergebnissen aus OCR-D immer mehr in der Lage
-sein, auch ohne Expertenwissen gute Volltexte zu erzeugen bzw. ihre
-gesamten Digitalisate inkl. handschriftlicher Dokumente mit Volltexten
-anzureichern. Hier sind ggf. auch kooperative Infrastrukturen
-aufzubauen, um die Fortschritte in den technischen Möglichkeiten schnell
-zur Verfügung zu stellen und eine regelmäßige Erneuerung der Volltexte
-zum Standard werden zu lassen.
+Standards und Dienstleister stehen zur Verfügung, um die unikalen Bestände ins
+Netz zu bringen. Um die Bandbreite der Objekte zu erweitern, finden gerade
+wichtige Entwicklungen statt, um auch AV-Medien und Objekte jenseits von 2D in
+die Routine aufzunehmen. Ebenso werden die Bibliotheken mit den Ergebnissen aus
+OCR-D immer mehr in der Lage sein, auch ohne Expertenwissen gute Volltexte zu
+erzeugen bzw. ihre gesamten Digitalisate inkl. handschriftlicher Dokumente mit
+Volltexten anzureichern. Hier sind ggf. auch kooperative Infrastrukturen
+aufzubauen, um die Fortschritte in den technischen Möglichkeiten schnell zur
+Verfügung zu stellen und eine regelmäßige Erneuerung der Volltexte zum Standard
+werden zu lassen. Daneben gilt es, gezielt [Kompetenzaufbau](#kompetenzen)
+unter den Mitarbeitenden zu betreiben, um den Aufbau und Betrieb solcher
+Infrastrukturen zu gewährleisten.
 
 Erste Bibliotheken machen sich mit der schnell wachsenden Menge an
 Volltexten auf den Weg, mit Hilfe ausgewählter Tools aus dem Feld des
