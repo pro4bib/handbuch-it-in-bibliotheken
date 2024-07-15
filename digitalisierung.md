@@ -577,11 +577,10 @@ deren Grundprinzipien von Offenheit und Referenzierbarkeit die
 bibliothekarischen Erschließungs- und Präsentationskomponenten ergänzen:
 
 -   **Wikimedia Commons** fungiert als zentraler Medienspeicher.
-    Die Erschließung kann bis zur Details von Bildpositionen reichen
-    (siehe Structured Data on Commons bzw. [Wikidata Image Positions](https://wd-image-positions.toolforge.org/)).
-    Illustrationen des Handbuchs sind in Wikimedia Commons [in einer Medienkategorie](https://commons.wikimedia.org/wiki/Category:Handbuch_IT_in_Bibliotheken) gebündelt.
-
-<!-- TODO: Das Werkzeug ist nicht unbedingt selbsterklärend und Structured Data on Commons ist mehr -->
+    Die Erschließung kann bis zur Details von Bildpositionen reichen.
+    Die Illustrationen dieses Handbuchs sind in Wikimedia Commons
+    [in einer Medienkategorie](https://commons.wikimedia.org/wiki/Category:Handbuch_IT_in_Bibliotheken)
+    gebündelt (siehe [Abbildungsverzeichnis](abbildungen.md)).
 
 -   Mit der offenen Wissensdatenbank (Knowledge Graph) **Wikidata** können
     insbesondere Metadaten strukturiert und damit maschinenlesbar

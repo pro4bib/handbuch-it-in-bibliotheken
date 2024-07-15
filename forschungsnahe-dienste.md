@@ -58,14 +58,14 @@ Artikelveröffentlichungsgebühren in Open-Access-Journals (*APCs*).
 :::
 
 Forschungsförderer und Ministerien erwarten in Deutschland mittlerweile von den
-Forschungseinrichtungen eine Transformation des Publizierens hin zu Open
+Forschungseinrichtungen eine Transformation des Publikationswesens hin zu Open
 Access und Open Data. Dazu gehören themenbezogene institutionelle
 Policies, Beratungs- und Schulungsangebote sowie technische Dienste.
 Auf der Ebene der europäischen Forschungsförderung wird u. a. versucht, durch Initiativen wie *[CoARA](https://coara.eu/)*
 die Maßstäbe der Forschungsbewertung weiterzuentwickeln - weg von
 klassisch bibliometrischen Indikatoren wie h-Index und
-Journal-Impact-Faktor hin zu einer Würdigung vielfältiger
-verschiedenartiger Forschungsergebnisse.
+Journal-Impact-Factor hin zu einer Würdigung vielfältiger
+Forschungsergebnisse.
 
 In Abgrenzung zur Dominanz von Großverlagen ist im Bereich der
 wissenschaftlichen Informationsinfrastrukturen darüber hinaus der
@@ -112,11 +112,11 @@ Durch die Transformationsprozesse im wissenschaftlichen Publikationswesen weg
 von den traditionellen Abonnement-Modellen hin zu Open Access sehen sich
 Bibliotheken zunehmend auch in der Rolle eines\*einer
 Publikationsdienstleistenden. Dies kann einerseits die Gründung eines
-Universitätsverlages bedeuten, andererseits aber auch die Schaffung der
-benötigten Infrastruktur für wissenschaftliche Zeitschriften. Befördert durch
-die Verlagerung der Kosten weg vom Lesen hin zum Publizieren wird der
-scholar-led-Ansatz immer gefragter und Bibliotheken müssen Expertise in diesem
-Bereich aufbauen.
+Universitätsverlages bedeuten, andererseits aber auch die Bereitstellung der notwendigen 
+Infrastruktur für wissenschaftliche Zeitschriften. Begünstigt durch
+Kostenverschiebung vom Lesen hin Publizieren wird der
+scholar-led-Ansatz immer gefragter und Bibliotheken müssen in diesem
+Bereich Expertise aufbauen.
 
 Zur Schaffung einer technischen Infrastruktur lässt sich z. B. mit der Software
 *[Open Journal Systems (OJS)](https://ojs-de.net/ueber-ojs)* eine Plattform zur
@@ -217,7 +217,8 @@ im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 
 Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
 wissenschaftliche Ergebnisse etabliert, seien es [Forschungsdaten], textuelle
-Publikationen, Softwarecode oder andere Materialien (siehe @fig-informationstypen). Für die wissenschaftliche Kommunikation
+Publikationen, Softwarecode oder andere Materialien (siehe @fig-informationstypen).
+Für die wissenschaftliche Kommunikation
 ist die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
 sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form
 erhalten werden, d. h. nicht verändert oder gelöscht werden. Da
