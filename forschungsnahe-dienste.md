@@ -217,9 +217,6 @@ im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 
 Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
 wissenschaftliche Ergebnisse etabliert, seien es [Forschungsdaten], textuelle
-Publikationen, Softwarecode oder andere Materialien (siehe @fig-informationstypen).
-Für die wissenschaftliche Kommunikation
-ist die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
 sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form
 erhalten werden, d. h. nicht verändert oder gelöscht werden. Da
 Internetadressen als flüchtig gelten, werden zur Identifikation [Persistent
@@ -227,8 +224,8 @@ Identifier-Systeme](#persistent-identifier) eingesetzt. Die Zitierfähigkeit und
 damit der langfristige, möglichst originalgetreue Erhalt der einmal
 eingestellten Informationen grenzen Repositorien gegenüber anderen
 Arbeitsplattformen wie Sync-and-Share-Plattformen (z. B. *Nextcloud*),
-Content-Management-Systemen (CMS) zur Erstellung von Blogs und Internetseiten sowie
-virtuellen Forschungsumgebungen mit integrierten Funktionen z. B. für die
+Content-Management-Systemen (CMS) zur Erstellung von Blogs und Internetseiten
+sowie virtuellen Forschungsumgebungen mit integrierten Funktionen z. B. für die
 Datenanalyse ab.
 
 Es lassen sich grundlegend zwei Typen von Repositorien unterscheiden:
