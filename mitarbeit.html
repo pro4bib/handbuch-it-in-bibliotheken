@@ -154,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./discovery.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Discovery &amp; Retrieval</span></a>
+  <a href="./discovery.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Discovery-Systeme</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -413,8 +413,7 @@ Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt
 </ul>
 <p>Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:</p>
 <ul>
-<li><p><code>docs/</code> aus den Masterdateien mit quarto erzeugte Publikation</p></li>
-<li><p><code>_gdrive/</code> von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe <a href="_gdrive/README.md">README.md</a>)</p></li>
+<li><code>_gdrive/</code> von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe <a href="_gdrive/README.md">README.md</a>)</li>
 </ul>
 </section>
 <section id="konvertierung" class="level3 unnumbered">
@@ -425,8 +424,8 @@ Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt
 <li><p><code>make preview</code> konvertiert das Handbuch nach HTML und ermöglicht eine Vorschau unter <a href="http://localhost:15745/" class="uri">http://localhost:15745/</a> (der Port ist die Postleitzahl von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.</p></li>
 <li><p><code>make build</code> konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis <code>_book</code> ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.</p></li>
 <li><p><code>make all</code> ruft make <code>build</code> und <code>docx</code> auf und kopiert die DOCX-Dateien ins Publikationsverzeichnis <code>_book</code>.</p></li>
-<li><p><code>make html</code> erzeugt nur HTML in <code>_book</code>.</p></li>
-<li><p><code>make docx</code> erzeugt nur DOCX in <code>_book</code>.</p></li>
+<li><p><code>make html</code> erzeugt nur HTML-Dateien in <code>_book</code>.</p></li>
+<li><p><code>make docx</code> erzeugt nur das Gesamt-DOCX in <code>_book</code>.</p></li>
 <li><p><code>make refs</code> aktualisiert das <a href="#literaturverzeichnis">Literaturverzeichnis</a> in <code>references.bib</code> von Zotero.</p></li>
 </ul>
 </section>
