@@ -26,6 +26,8 @@
   Public Domain
 
 - `media/persona.png`
+  <https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267>
+  CC-BY Kerstin Wendt, Matthias Finck
 
 - `media/wireframe.png`
   <https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf>
