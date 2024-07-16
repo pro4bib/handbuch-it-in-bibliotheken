@@ -859,7 +859,7 @@ Gleichzeitig bedeutet das auch, dass RFID-Tags durch das Vorhandensein von
 Wasser, also Menschen, ebenfalls abgeschirmt werden können. Eine hunderprozentige
 Erkennungsrate in einem Sicherheitsgate ist somit unrealistisch.
 
-RFID-Transpoder sind natürlich nicht geeignet für Medien, bei denen eine
+RFID-Transponder sind natürlich nicht geeignet für Medien, bei denen eine
 Unwucht störend ist (Schallplatten, CDs), sie sollten dabei auf der Außenhülle
 angebracht werden. Bei CDs ist zusätzlich der Metallanteil der CD störend.
 
