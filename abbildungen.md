@@ -24,3 +24,9 @@
   Die Datenlaube: Projektlogo
   <https://commons.wikimedia.org/wiki/File:Die_Datenlaube.jpg>
   Public Domain
+
+- `media/persona.png`
+
+- `media/wireframe.png`
+  <https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf>
+  CC-BY Matthias Finck und Kerstin Wendt
