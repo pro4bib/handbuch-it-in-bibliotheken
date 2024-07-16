@@ -601,7 +601,7 @@ Die Einteilung von Bibliotheksnutzer\*innen in Gruppen dient der gezielten
 Zuweisung von Rechten und Ausleihbedingungen und wird für
 statistische Zwecke genutzt. Die Ausleihpolitik bestimmt, welche Rechte
 den verschiedenen Benutzungsgruppen zugewiesen werden. So erfolgt z.B.
-die Gruppeneinteilung in öffentlichen Bibliotheken i.d.R. nach dem
+die Gruppeneinteilung in den meisten öffentlichen Bibliotheken nach dem
 Alter. Einerseits wird damit die Zugänglichkeit der Medien für Kinder
 und Jugendliche gesteuert. Andererseits dient diese Gruppierung der
 Einstufung der Gebühren (Kinder und Jugendliche zahlen oft weniger oder
@@ -1052,7 +1052,7 @@ unterstützen:
 
 7.  Akzessionierung von Medien
 
-8.  Rechnungsverwaltung inkl. Schnittstellen für haushalterische Systeme
+8.  Rechnungsverwaltung inkl. Schnittstellen für haushalterische Systeme (E-Rechnungen)
 
 9.  Verwaltung von Bindeaufträgen
 
@@ -1073,9 +1073,9 @@ unterstützt werden:
 1.  Erfassung von Lizenzinformationen nach unterschiedlichen
     Erwerbungsmodellen wie Pakete, Allianz- oder Nationallizenzen
 
-2.  Zuordnung von digitalen Inhalten zu Paketen
+2.  Zuordnung von Titeln und digitalen Inhalten zu Paketen
 
-3.  Verwaltung von Paketen
+3.  Verwaltung von Paketen mit Vergleich, Zugangs- und Abgangskontrolle
 
 4.  Bezug von bibliografischen Daten von Aggregatoren, Verlagen und Knowledge Bases
 
@@ -1592,9 +1592,7 @@ Zur Einrichtung eines BMS gehört:
 
 Nach Einrichtung werden BMS laufend erweitert. Fehler werden behoben und
 neue Funktionen kommen hinzu. Die Aktualisierung kann je nach Produkt
-agil in kleinen, häufigen Schritten erfolgen (monatlich, wöchentlich
-oder häufigere Updates) oder in längeren Zeitabschnitten (oft quartals-
-oder halbjahresweise).
+agil in kleinen, häufigen Schritten oder in längeren Zeitabschnitten erfolgen.
 
 ### Open Source
 

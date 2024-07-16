@@ -4,9 +4,12 @@ description: Werkzeuge und Methoden interner und externer Kommunikation von Wiss
 
 # Kommunikation {#kommunikation}
 
-::: {.callout-important}
+:::{.callout-note}
+## Zusammenfassung
 
-Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
+Bibliotheken bedienen verschiedene Kommunikationsräume. Für die [interne und
+externe Kommunikation](#ziele) stehen verschiedene [Prozesse](#prozesse),
+[Kanäle](#kanäle) und [Werkzeuge](#werkzeuge) zur Verfügung.
 
 :::
 
@@ -141,15 +144,11 @@ verschiedene rechtliche und organisatorische Rahmenbedingungen:
     Dienste in das Verfahrensverzeichnis
 
 -   **Betriebsmodell**: Für jedes Werkzeug ist die Entscheidung zu
-    treffen, ob es a) im eigenen Rechenzentrum - so vorhanden -
+    treffen, ob es a) im eigenen Rechenzentrum -- so vorhanden --
     betrieben wird, b) bei einem externen Hosting-Dienstleister
     aufgesetzt wird oder c) als Software-as-a-Service (SaaS) von
-    Dienstleistern eingekauft wird. <!-- Als interessanter Mittelweg -
-    eigene Datenhaltung, aber externes Management der
-    Server-Infrastruktur - etablieren sich derzeit Plattform-Dienste
-    wie [Cloudron](https://www.cloudron.io/). -->
-    TODO: Siehe auch den Abschnitt "Betriebsmodelle" im Kapitel
-    IT-Management.
+    Dienstleistern eingekauft wird. Die Entscheidung darüber hängt
+    von der vorhandenen [IT-Infrastruktur](#betriebsmodelle) ab.
 
 -   **Technische und organisatorische Maßnahmen (TOMs)**: Etablierung
     von TOMs, um sowohl den sicheren Betrieb der technischen
@@ -199,7 +198,8 @@ Nutzenden / der Öffentlichkeit in die Bibliothek.
 Gepflegt werden kann ein Corporate Design anhand eines Styleguides.
 Dieser legt fest, wie visuelle Elemente in verschiedenen
 Kommunikationskanälen verwendet werden sollen, sei es in gedruckten
-Broschüren, auf der Website oder in sozialen Medien. Ggf. können auch
+Broschüren, bei Aushängen oder dem Leitsystem im Bibliotheksgebäude,
+auf der Website und in sozialen Medien. Ggf. können auch
 sprachliche Vorgaben gemacht werden. Dies erleichtert die Erstellung von
 Marketingmaterialien und eine effektive Kommunikation der
 Bibliotheksangebote. Durch die Verwendung von vordefinierten Vorlagen
@@ -519,6 +519,46 @@ bearbeitet werden. Es kann frei im Internet oder nur für einen
 festgelegten Nutzerkreis (Mitarbeitende) verfügbar sein. (Bsp: PmWiki,
 Confluence ...)
 
+### Social Intranet
+
+Bei der Vielzahl der oben genannten Kanäle und Werkzeuge besteht die
+Gefahr, nach und nach eine immer weiter fragmentierte Softwarelandschaft
+zu erzeugen mit entsprechend hohen Anforderungen an Betrieb,
+Dokumentation und Schulungen. Ein sinnvoller Ansatz ist es deshalb,
+zunächst das Verhältnis der verschiedenen Lösungen auf konzeptioneller
+Ebene klar festzulegen, um Redundanzen zu vermeiden. Dieses Konzept kann
+sich, soweit möglich, aber auch in einer technisch integrierten Lösung
+für möglichst viele der genannten Aspekte widerspiegeln: einem Social
+Intranet.
+
+Ein Social Intranet ist ein internes, web-basiertes Netzwerk, das
+speziell darauf ausgelegt ist, die Kommunikation, Zusammenarbeit und
+Informationsverbreitung innerhalb einer Organisation zu fördern. Es
+kombiniert die klassische Funktion eines Intranets, die
+Informationserstellung und -bereitstellung, mit eher sozialen,
+kommunikativen Funktionen und ermöglicht den Mitarbeitenden so den
+einfachen Austausch von Informationen und Ideen. Ein gut geplantes und
+eingerichtetes Social Intranet ist in der Lage, die meisten der oben
+genannten Aspekte und Ideen abzudecken. Nicht immer in der vollen
+Funktionstiefe, dafür aber in einer einheitlichen, gut nutz- und
+administrierbaren Oberfläche. Auch sonst nur aufwändig implementierbare
+Features wie eine Volltextsuche über alle Materialien wird problemlos
+möglich.
+
+Um im Bild vom Anfang des Kapitels zu bleiben: ein Social Intranet ist
+weder ein Hammer, noch ein schwerer Werkzeugkasten, sondern am ehesten
+ein Schweizer Taschenmesser.
+
+Kern der Idee eines Social Intranets ist, dass neben Dokumenten die
+Menschen und deren Austausch untereinander im Fokus stehen. Daher kann
+jede\*r Mitarbeiter\*in ein Profil pflegen, um seine\*ihre Rollen,
+Fachgebiete und Kontaktinformationen zu teilen. Je nachdem, ob eher die
+sozialen Features, die themenspezifischen Diskussionsräume oder die
+Informationsbereitstellung im Vordergrund stehen, bieten sich zur
+Implementierung Wiki-Software (etwa: Confluence, kommerziell) oder
+Foren-Software (etwa: Discourse, Open Source) an.
+
+
 ## Werkzeuge
 
 Der bekannte Sinnspruch "Wer als Werkzeug nur einen Hammer hat, sieht in
@@ -558,27 +598,22 @@ außerdem oft weniger störend für den Arbeitsfluss. Allerdings kann
 asynchrone Kommunikation zu Verzögerungen und fehlendes sofortiges
 Feedback zu Missverständnissen führen.
 
-- **Telefon** ist das klassische Medium mit synchroner 1-zu-1 Kommunikation 
-  für schnelle Absprachen; mittlerweile durch die Verbreitung von 
-  Videokonferenzen, Chat etc.
-  in der internen Kommunikation eher in den Hintergrund geraten, in
-  der externen Kommunikation nach wie vor ein wichtiger Kanal
-  insbesondere für den Erstkontakt.
+- **Telefon** ist das klassische Medium mit synchroner 1-zu-1 Kommunikation für
+  schnelle Absprachen; mittlerweile durch die Verbreitung von Videokonferenzen,
+  Chat etc. in der internen Kommunikation eher in den Hintergrund geraten.
+  Mit Voice-over-IP und Weiterleitungen können Telefonnummern auch
+  standortunabhängig genutzt werden.
 
 - **E-Mail** ist ein Kommunikationsmedium, welches in den
   meisten Fällen vom Anbieter der IT-Infrastruktur angeboten wird.
   Ideal ist der Zugang per IMAP/SMTP und nicht nur über proprietäre
   Protokolle, sodass beliebige Clients genutzt werden können.
 
-  E-Mail ist bis heute das klassische Kommunikationsmedium und
-  allgegenwärtig. Ursprünglich als elektronische Variante des Briefes
-  für die asynchrone 1:1 Kommunikation entwickelt, wird sie entgegen
-  diesem Zweck häufig für die Gruppenkommunikation zweckentfremdet;
-  außerdem wird sie häufig als synchron verstanden und eine sofortige
-  Antwort erwartet. Das führt dazu, dass man meist (1) zu viele davon
-  hat und (2) in den entscheidenden Unterhaltungen am Ende doch nicht im
-  CC ist. Im besten Fall finden sich bessere Alternativen, die je
-  Situation einsetzbar sind.
+  Ursprünglich als elektronische Variante des Briefes
+  für die asynchrone 1-zu-1 Kommunikation entwickelt, wird E-Mail
+  auch häufig für die Gruppenkommunikation zweckentfremdet und
+  teilweise synchron verstanden wenn eine sofortige Antwort erwartet wird.
+  Für beide Einsatzszenarien gibt es bessere Alternativen.
 
 -  **Videokonferenzsysteme** gibt es als eigenständige Tools oder die
    Videofunktion ist in andere Werkzeuge integriert. Kommerzielle Beispiele
@@ -586,8 +621,8 @@ Feedback zu Missverständnissen führen.
    [jitsi](https://jitsi.org/) und [DFNconf](https://www.conf.dfn.de/) zur
    Verfügung.
 
-   Um virtuelle Besprechungsräume so auszustatten, dass auch Menschen an
-   Besprechungen teilnehmen können, die nicht anwesend sind, ist
+   Um Besprechungsräume so auszustatten, dass Menschen auch per Videokonferenz
+   teilnehmen können, ist
    technische Infrastruktur erforderlich. Die Anwesenden müssen für die
    Anwesenden sichtbar und hörbar sein, ohne dass die Anwesenden Headsets
    tragen müssen. Dies erreicht man mit einer Art überdimensionaler
@@ -658,7 +693,8 @@ veröffentlichen.
     vorhandenem Ausgangsmaterial wie Videoaufnahmen, digitalisierten Fotos, Scans,
     Grafiken, Texten, Audioaufnahmen oder Musik
 
-    -   Bearbeitungssoftware (*DaVinci Resolve*): Zur Nachbearbeitung von
+    -   Bearbeitungssoftware (*DaVinci Resolve*, *Wondershare Filmora*...):
+        Zur Nachbearbeitung von
         Roh-Videomaterial gibt es spezielle Software, die Video- und
         Tonspuren zusammenführen können. Ebenso sind Veränderungen
         durch Filter oder Zusammenführen von verschiedenen Bild- und
@@ -855,45 +891,6 @@ Brainstorming bis zur fertig ausgearbeiteten Präsentation.
     *[Conceptboard](https://conceptboard.com/de/)*
     und *[miro](https://miro.com/)*,
     ernstzunehmende offene Alternativen gibt es leider noch nicht.
-
-## Social Intranet
-
-Bei der Vielzahl der oben genannten Werkzeuge und Methoden besteht die
-Gefahr, nach und nach eine immer weiter fragmentierte Softwarelandschaft
-zu erzeugen mit entsprechend hohen Anforderungen an Betrieb,
-Dokumentation und Schulungen. Ein sinnvoller Ansatz ist es deshalb,
-zunächst das Verhältnis der verschiedenen Lösungen auf konzeptioneller
-Ebene klar festzulegen, um Redundanzen zu vermeiden. Dieses Konzept kann
-sich, soweit möglich, aber auch in einer technisch integrierten Lösung
-für möglichst viele der genannten Aspekte widerspiegeln: einem Social
-Intranet.
-
-Ein Social Intranet ist ein internes, web-basiertes Netzwerk, das
-speziell darauf ausgelegt ist, die Kommunikation, Zusammenarbeit und
-Informationsverbreitung innerhalb einer Organisation zu fördern. Es
-kombiniert die klassische Funktion eines Intranets, die
-Informationserstellung und -bereitstellung, mit eher sozialen,
-kommunikativen Funktionen und ermöglicht den Mitarbeitenden so den
-einfachen Austausch von Informationen und Ideen. Ein gut geplantes und
-eingerichtetes Social Intranet ist in der Lage, die meisten der oben
-genannten Aspekte und Ideen abzudecken. Nicht immer in der vollen
-Funktionstiefe, dafür aber in einer einheitlichen, gut nutz- und
-administrierbaren Oberfläche. Auch sonst nur aufwändig implementierbare
-Features wie eine Volltextsuche über alle Materialien wird problemlos
-möglich.
-
-Um im Bild vom Anfang des Kapitels zu bleiben: ein Social Intranet ist
-weder ein Hammer, noch ein schwerer Werkzeugkasten, sondern am ehesten
-ein Schweizer Taschenmesser.
-
-Kern der Idee eines Social Intranets ist, dass neben Dokumenten die
-Menschen und deren Austausch untereinander im Fokus stehen. Daher kann
-jede\*r Mitarbeiter\*in ein Profil pflegen, um seine\*ihre Rollen,
-Fachgebiete und Kontaktinformationen zu teilen. Je nachdem, ob eher die
-sozialen Features, die themenspezifischen Diskussionsräume oder die
-Informationsbereitstellung im Vordergrund stehen, bieten sich zur
-Implementierung Wiki-Software (etwa: Confluence, kommerziell) oder
-Foren-Software (etwa: Discourse, Open Source) an.
 
 ## Zusammenfassung und Ausblick
 
