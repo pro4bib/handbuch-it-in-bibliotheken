@@ -97,6 +97,9 @@ glossary:
 #    url: https://de.wikipedia.org/wiki/Lock-in-Effekt
 #    definition: Kundenbindung durch hohen Wechselaufwand
 
+  LLM:
+    definition: Large Language Model, eine statistisches Sprachmodell zur Erzeugung von Text
+
   LZA:
     url: https://de.wikipedia.org/wiki/Langzeitarchivierung
     definition: Langzeitarchivierung

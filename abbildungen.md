@@ -32,3 +32,9 @@
 - `media/wireframe.png`
   <https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf>
   CC-BY Matthias Finck und Kerstin Wendt
+
+- `media/tools.svg`
+  CC-BY Ralf Stockmann.
+  Quelle bearbeitbar unter <https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd>
+
+

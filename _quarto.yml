@@ -68,9 +68,11 @@ format:
     include-after-body: templates/script.html
     callout-appearance: simple
     published-title: "Letzte Änderung"
+    abbreviations: abbreviations
   docx: {}
   #pdf:
   #  documentclass: scrreprt
+  #  abbreviations: abbreviations
 
 filters:
   - templates/pandoc-quotes.lua

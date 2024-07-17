@@ -195,7 +195,7 @@ werden darf. Aus Datenschutzgründen ist auch der Einsatz von aufzeichnenden
 (Kamera-)Systemen im öffentlichen Raum immer sorgfältig abzuwägen.
 
 Für die approximative Auslastungszählung eignen sich neben anonymisierten
-Varianten der o.g. Möglichkeiten insbesondere auch die Auslastungsmessung von
+Varianten der genannten Möglichkeiten insbesondere auch die Auslastungsmessung von
 anderen Infrastruktursystemen, etwa dem öffentlichen WLAN. Wenn davon ausgegangen
 werden kann, dass ein\*e Nutzer\*in (im Durchschnitt) ein Gerät im öffentlichen
 WLAN anmeldet, dann kann dies als guter Indikator dienen. Sollen die Zahlen der
@@ -915,40 +915,12 @@ insofern immer teurer.
 
 ## Dienste für Nutzer\*innen
 
-### Website, Landingpages und Newsletter
+### Website
 
 Eine Internetpräsenz ist für eine öffentliche Einrichtung mittlerweile
 unabdingbar und dient vielen Nutzer\*innen als Erstkontaktmöglichkeit,
 Arbeitsmittel und Informationsplattform gleichermaßen. Die Infrastruktur
 hierfür wird im Kapitel [Kommunikation](#kommunikation) genauer behandelt.
-
-Eine technische Basis für eine Onlinepräsenz wird manchmal von hiesigen
-Verwaltungen oder Rechenzentren gestellt, allerdings sollte darauf
-geachtet werden, dass die Grundfragen und -dienste mit einer solch
-vorgefertigten Variante umgesetzt werden können. Alternativ kann es auch sein,
-dass allein die technische Basis -- ein (Web-)server -- bereitgestellt wird und
-sich die jeweilige Einrichtung selbst um die Umsetzung einer Webseite kümmern
-muss.
-
-Folgende Basisinformationen für Bibliotheksbesucher\*innen und Interessierte
-sollten zu finden sein
-
--   Öffnungszeiten, Anmeldemodalitäten, Gebühreninformationen
-
--   Veranstaltungshinweise
-
--   Digitale Angebote
-
--   Fachspezifische Angebote wie medienpädagogische Inhalte
-
--   Verlinkung zu Bibliotheks-OPAC oder anderen Online-Katalogen
-
-Schließlich muss darauf geachtet werden, dass nicht nur die eigentliche
-Webseite der Einrichtung die Basisinformationen enthält, sondern auch, dass
-diese in einschlägigen Suchmaschinen indexiert sind, etwa die Adresse und
-Öffnungszeiten in einer Google Suche und auf Google Maps.  Hierzu müssen
-entsprechende SEO (Search Engine Optimization) Parameter eingestellt bzw. an
-die jeweiligen Plattformen übermittelt werden.
 
 ### Internetzugang
 
@@ -1259,13 +1231,24 @@ Neben der reinen Kommunikation dienen Werkzeuge wie Wikis und
 Ticketsysteme auch der Zusammenarbeit und kollaborativen Erstellung von
 Inhalten.
 
+Um virtuelle Besprechungsräume so auszustatten, dass auch Menschen an
+Besprechungen teilnehmen können, die nicht anwesend sind, ist technische
+Infrastruktur erforderlich. Die Anwesenden müssen für die Anwesenden sichtbar
+und hörbar sein, ohne dass die Anwesenden Headsets tragen müssen. Dies erreicht
+man mit Webcams, die automatisch auf die sprechende Person fokussieren und im
+Idealfall auch Störgeräusche (Echos, Rauschen, Rascheln) ausblenden. Die
+gängigen Systeme im knapp vierstelligen Eurobereich genügen für Konferenzen mit
+bis zu sechs anwesenden Personen um einen Tisch herum. Sind mehr Personen
+anwesend, steigt der technische Aufwand stark an, wenn man häufig hybrid
+arbeiten und die anwesenden Personen nicht benachteiligen möchte.
+
 ### Fileservices
 
-Dienstlich genutzte Dateien sollten an zentraler Stelle abgelegt werden,
-damit sie in eine Backup-Lösung eingeschlossen werden können und damit
-die Möglichkeit besteht, sie mit anderen Menschen auszutauschen.
-Entweder wird dazu ein klassischer Fileserver wie zum Beispiel *Windows
-Server* genutzt, oder es kommt eine Cloudlösung wie *Nextcloud* zum
+Dienstlich genutzte Dateien sollten an zentraler Stelle abgelegt werden, damit
+sie in eine Backup-Lösung eingeschlossen werden können und damit die
+Möglichkeit besteht, sie mit anderen Menschen auszutauschen.  Entweder wird
+dazu ein klassischer Fileserver wie zum Beispiel *Windows Server* genutzt, oder
+es kommt eine [Cloudlösung](#echtzeit-kollaboration) wie *Nextcloud* zum
 Einsatz. Zusätzlich oder alternativ kann ein
 [Dokumentenmanagementsystem](#dokumentenmanagementsysteme) genutzt werden.
 
@@ -1292,6 +1275,119 @@ zwischen Unternehmens- bzw.  institutionskritischen Dokumenten, die nicht für
 die Bibliotheksnutzer verfügbar sein sollen, und Dokumenten mit
 bibliothekarischem Bezug zu unterscheiden, denn eine Bibliothek ist im
 Allgemeinen kein Archiv.
+
+### Social Intranet
+
+Als Kombination des klassischen Intranets mit sozialen und kommunikativen
+Funktionen ermöglicht ein Social Intranet den Mitarbeitenden so den einfachen
+Austausch von Informationen und Ideen und wird genauer im [Kapitel zur
+Kommunikation](kommunikation.md) beschrieben.
+
+### Planungs- und Koordinationstools
+
+Die in diesem Absatz beschriebenen Werkzeuge dienen der Aufgaben-Koordination
+in der Bibliothek. Je mehr Personen in einem Team an gemeinsamen Aufgaben
+arbeiten, desto empfehlenswerter ist der Einsatz folgender Instrumente für die
+Aufgaben-Koordination in der Bibliothek.
+
+**Ticketsystem**: Ticketsysteme dienen der strukturierten,
+regelbasierten (z.T. automatischen) Abarbeitung von Anfragen,
+Wünschen, Fehlermeldungen von Nutzenden. Diese Systeme können für
+alle anfallenden Aufgaben innerhalb der Bibliothek verwendet
+werden, z. B. in der
+[Softwareentwicklung](anforderungen.md)
+bei der Bearbeitung von Kundenanfragen oder internen Prozessen.
+
+Ein Vorteil ist die transparente Bearbeitung von Vorgängen, da sowohl der Status
+als auch die Bearbeitenden jederzeit einsehbar und nachvollziehbar sind.
+Statusänderungen werden dem Autor je nach Einstellung des
+Ticketsystems automatisiert mitgeteilt. Alle Bearbeiter:innen haben zu
+jeder Zeit Einblick und können bei Bedarf übernehmen. Eine
+Vertretungsregelung oder E-Mail-Weiterleitung wird damit obsolet. Nach
+abschließender Bearbeitung werden Tickets in der Regel archiviert und
+können später zu Statistik- und Dokumentationszwecken ausgewertet
+werden. Auch eine Art FAQ kann automatisiert durch entsprechend
+markierte Tickets erstellt werden.
+
+Beispiele für Ticketsysteme:
+
+-   *Redmine* (Open Source)
+-   *Jira* (kommerziell)
+-   Integrierte Issue-Tracker im Rahmen der Softwareentwicklung,
+    beispielsweise in *GitLab* (Open Source) und *GitHub* (kommerziell)
+
+**Kanban-Board**: Ein Kanban-Board visualisiert jegliche
+Arbeitsabläufe anhand einer in Spalten unterteilten Tafel (z. B.
+Backlog, in Arbeit, fertig). Physisch ist dies mit Post-Its und
+Whiteboard machbar. Ein Kanban-Board kann auch als Grundlage für
+ein Projektmanagement nach SCRUM dienen.
+
+Beispiele für Kanban-Software:
+
+-   *[Deck](https://apps.nextcloud.com/apps/deck)* (Open Source Plugin für NextCloud)
+-   *[Kanboard](https://kanboard.org/)* (Open Source)
+-   *[Trello](https://trello.com/)* (kommerziell)
+
+**Interne und externe Kalender:** Kalender können unterschiedliche
+Aufgaben erfüllen. Intern helfen zwischen Mitarbeitenden geteilte
+Kalender bei der Terminplanung und Abstimmung.
+
+Auf der Bibliothekswebsite veröffentlichte Kalender können z. B.
+buchbare Veranstaltungen für Kund\*innen und Besucher\*innen der
+Bibliothek enthalten. Ebenso ist eine Reservierung von Räumen oder
+Technik denkbar.
+
+Verbunden mit einem Ticketverkauf oder einer Ticketreservierung können
+sie die umständliche Kommunikation über E-Mails ablösen und ersparen
+damit einen großen Verwaltungsaufwand.
+
+Beispiele für Kalender:
+
+-   *[SuperSaaS](https://www.supersaas.de/)* (kommerziell)
+
+**Social Media Planung:** Betreibt eine Bibliothek mehrere Social
+Media Kanäle, kann ein einziges Tool zur Planung und
+Veröffentlichung von Beiträgen sinnvoll sein. Damit kann der
+Content zeitlich und inhaltlich vorgeplant werden. Integrierte
+Analysewerkzeuge helfen zudem bei der Zeitplanung, indem die
+vergangenen Veröffentlichungen ausgewertet werden und der beste
+Zeitpunkt für die Zielgruppe ermittelt wird.
+
+
+
+Beispiele:  
+- *[Hootsuite](https://www.hootsuite.com/)*, (kommerziell, in der Basisversion frei nutzbar)
+- *[Buffer](https://buffer.com/)*, (kommerziell, in der Basisversion frei nutzbar)
+- *[Trello](https://trello.com)* (kommerziell, in der Basisversion frei verfügbar)
+- *[Fedica](https://fedica.com/)* (kommerziell, in der Basisversion frei verfügbar)
+
+**Wissenslandkarte**: Wissenslandkarten, auch Wissenskarten
+(*Knowledge Maps*), sind grafische Darstellungen von Wissen in
+Organisationen. Als Wissenslandkarten werden im Wissensmanagement
+graphische Verzeichnisse von Wissensträgern, Wissensbeständen,
+Wissensquellen, Wissensentwicklung, Wissensstrukturen oder
+Wissensanwendungen bezeichnet. Sie dienen vor allem der
+Identifikation von Wissen in Unternehmen, um Arbeitsabläufe
+effektiver und effizienter zu gestalten und referenzieren auf
+Expertenwissen, Teamwissen, Wissensentwicklungsstationen sowie
+organisationale Fähigkeiten und Abläufe. Bei dieser Methode wird
+lediglich der Verweis auf das verankerte Wissen geliefert und
+nicht das Wissen selbst dort abgelegt.
+
+<!-- TODO: was heisst hier Quelle?! -->
+
+Quelle:
+[https://de.wikipedia.org/wiki/Wissenslandkarte](https://de.wikipedia.org/wiki/Wissenslandkarte)
+
+Beispiele: *[MindManager](https://www.mindmanager.com/de/)* (kommerziell)
+
+**Terminfindung:** Abseits von Kalendern in E-Mail-Programmen können
+Terminfindungstools sinnvoll sein, insbesondere bei der Planung
+mit externen Beteiligten.
+
+Beispiele:
+*[DFN terminplaner](https://terminplaner.dfn.de/)*,
+*[nuudel](https://nuudel.digitalcourage.de/)*
 
 ## Zusammenfassung und Ausblick
 

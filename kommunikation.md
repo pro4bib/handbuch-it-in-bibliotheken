@@ -31,11 +31,7 @@ Transformation, interagieren kompetent und auf Augenhöhe mit den
 Nutzenden und verkörpern eine innovative, nutzerzentrierte
 Kommunikationsweise:
 
-![Stufenmodell von Öffentlichkeit (Stockmann, 2019)](media/stufenmodell.png)
-
-<!-- TODO
-(Stockmann, 2019) [Wie man vom Intranet aus die Welt verbessern kann](https://youtu.be/SWe67pmIy0A)
--->
+![Stufenmodell von Öffentlichkeit (Stockmann, 2019)](media/stufenmodell.svg)
 
 ## Ziele
 
@@ -101,8 +97,8 @@ Nutzenden der Bibliothek, kann aber darüber hinaus auch andere Bibliotheken,
 Medien oder auch die breitere Öffentlichkeit bzw. die Politik umfassen. Externe
 Kommunikation kann sowohl zur Imagepflege als auch zur Informationsweitergabe
 über Produkte, Dienstleistungen oder andere relevante Entwicklungen in der
-Bibliothek dienen. Je nach Anspruch der Bibliothek kann die Kommunikation auch
-mehrsprachig sinnvoll sein.
+Bibliothek dienen. Je nach Anspruch der Bibliothek kann auch mehrsprachige
+Kommunikation sinnvoll sein.
 
 **Öffentlichkeitsarbeit** (PR) ist ein spezifischer Bereich der externen
 Kommunikation, der sich darauf konzentriert, das Verständnis und das
@@ -138,10 +134,10 @@ verschiedene rechtliche und organisatorische Rahmenbedingungen:
 -   **DSGVO-Konformität**: Alle eingesetzten
     digitalen Lösungen und Technologien erfüllen die Anforderungen der
     Datenschutz-Grundverordnung (DSGVO), um den Schutz
-    personenbezogener Daten sicherzustellen. Prüfung und Klarstellung,
-    ob bei der Nutzung bestimmter Dienste ein Vertrag zur
-    Auftragsverarbeitung (AV-Vertrag) notwendig ist sowie Aufnahme der
-    Dienste in das Verfahrensverzeichnis
+    personenbezogener Daten sicherzustellen. Dies beinhaltet die
+    Prüfung und Klarstellung, ob bei der Nutzung bestimmter Dienste ein Vertrag zur
+    Auftragsverarbeitung (AV-Vertrag) notwendig, ist sowie Aufnahme der
+    Dienste in das Verfahrensverzeichnis.
 
 -   **Betriebsmodell**: Für jedes Werkzeug ist die Entscheidung zu
     treffen, ob es a) im eigenen Rechenzentrum -- so vorhanden --
@@ -161,21 +157,21 @@ verschiedene rechtliche und organisatorische Rahmenbedingungen:
     Umgang mit den neuen digitalen Werkzeugen eingeführt wird.
 
 -   **Barrierefreiheit nach BITV 2**: Alle digitalen
-    Angebote und Dienste entsprechen den Anforderungen der Barrierefreie
-    Informationstechnik-Verordnung (BITV 2.0), um einen
+    Angebote und Dienste sollen den Anforderungen der Barrierefreie
+    Informationstechnik-Verordnung (BITV 2.0) entsprechen, um einen
     inklusiven und für alle zugänglichen digitalen Raum zu schaffen,
     der keine Nutzungsgruppe ausschließt und die Diversität der
     Gemeinschaft respektiert.
 
 -   **Institutioneller Rahmen:** Tools in Bibliotheken sind oft abhängig
-    von der Institution / dem jeweiligen Träger. Software, die
+    von der Institution bzw. dem jeweiligen Träger. Software, die
     beispielsweise innerhalb einer Universität angewendet wird, nutzt
-    die Bibliothek dann ebenfalls zur Kommunikation. Ein Beispiel
-    dafür wäre der Rocket-Chat oder Big Blue Button als
+    die Bibliothek dann ebenfalls zur Kommunikation. Beispiele
+    hierfür sind der Rocket-Chat oder Big Blue Button als
     Videokonferenztool.
 
-Ein ausgeprägtes Maß an digitaler Souveränität (siehe Abschnitt im
-Kapitel IT-Management) kann die Auseinandersetzung mit den aufgeführten
+Ein ausgeprägtes Maß an [digitaler Souveränität](#digitale-souveränität)
+kann die Auseinandersetzung mit den aufgeführten
 Rahmenbedingungen erheblich vereinfachen.
 
 ## Prozesse
@@ -193,9 +189,9 @@ konsistent ist. Die Einhaltung des Corporate Designs über alle
 Kommunikationskanäle hinweg sorgt für ein kohärentes Auftreten der
 Bibliothek und vermittelt den Eindruck von Stabilität und Seriosität. So
 stärkt ein gutes Corporate Design unmittelbar das Vertrauen der
-Nutzenden / der Öffentlichkeit in die Bibliothek.
+Nutzenden bzw. der Öffentlichkeit in die Bibliothek.
 
-Gepflegt werden kann ein Corporate Design anhand eines Styleguides.
+Gepflegt werden kann ein Corporate Design anhand eines **Styleguides**.
 Dieser legt fest, wie visuelle Elemente in verschiedenen
 Kommunikationskanälen verwendet werden sollen, sei es in gedruckten
 Broschüren, bei Aushängen oder dem Leitsystem im Bibliotheksgebäude,
@@ -208,26 +204,26 @@ für die Gestaltung von Materialien senken und Ressourcen effizienter
 nutzen; das Rad muss (und sollte) nicht immer wieder neu erfunden
 werden.
 
-Wenn möglich sollte man Pressematerial wie Logos, standardisierte
+Wenn möglich, sollte man Pressematerial wie Logos, standardisierte
 Infotexte zur Bibliothek für Journalist:innen zum Download auf der Website
 anbieten, sodass diese schnell auf grundlegende Infos zugreifen können.
 
 Auch die interne Kommunikation sollte sich entlang der Vorgaben
 orientieren. Dies spart zum einen Zeit, da Vorlagen genutzt werden
-können und übt zum anderen den Gebrauch auch für externe Kommunikation.
+können, und übt zum anderen den Gebrauch auch für externe Kommunikation.
 
 ### Redaktion
 
 Für die Erstellung von internen wie externen Inhalten benötigt man Zeit
 und Ideen. Um nicht unter "Zugzwang" zu geraten, hilft es, sich eine
-Übersicht über Inhalte zu machen, die man nach außen kommunizieren möchte und
+Übersicht über die Inhalte zu machen, die man nach außen kommunizieren möchte und
 zu diesen entsprechende Formate zu entwickeln oder festzulegen. Denn:
 Meist mangelt es nicht an Themen, vielmehr hat man i.d.R. bereits sehr
 viele Themen, die nur noch "verpackt" werden müssen.
 
 Dabei helfen Fragen zum Beispiel nach dem Umfang und der Tiefe des
-Inhaltes. Nicht jedes Thema eignet sich, um ein ausführliches Video zu
-drehen. Andersherum kann es sein, dass ein Thema nicht in Form eines
+Inhaltes. Nicht jedes Thema eignet sich dafür, ein ausführliches Video zu
+drehen. Andererseits kann es sein, dass ein Thema nicht in Form eines
 einzelnen Social-Media-Posts verständlich aufbereitet werden kann. Es
 geht also darum, sich über die unterschiedlichen medialen
 Darstellungsformen - Video, Text, Text und Bild, Grafik, etc. - klar zu
@@ -238,10 +234,10 @@ informative Social Media Posts, ausführliche Blogbeiträge oder
 verschiedene Videoformate. Gleichzeitig sollten die Voraussetzungen,
 Möglichkeiten und Konventionen der Plattformen berücksichtigt werden.
 
-Auch empfiehlt es sich (grafische) Templates zu nutzen. Beispielsweise können bei
-Canva Templates für Infoposts, Veranstaltungshinweise,
-Personenvorstellung etc. angelegt werden. So braucht man nur noch die
-vorgefertigten Templates mit Inhalten zu füllen. Auch bei der Produktion
+Auch empfiehlt es sich, (grafische) Templates zu nutzen. Beispielsweise können bei
+*[Canva](https://www.canva.com/) Templates für Infoposts, Veranstaltungshinweise,
+Personenvorstellung etc. angelegt werden. So müssen die
+vorgefertigten Templates nur noch mit Inhalten gefüllt werden. Auch bei der Produktion
 von Videos ist die Arbeit mit Formaten (Interviews, Erklärvideos,
 Tutorials), nach deren Muster die Videos erstellt werden, von Vorteil.
 
@@ -258,8 +254,9 @@ einem ausführlichen Video eine Kurzversion dreht - wenn die Technik
 schon mal steht.
 
 -   **Vorproduzieren und Redaktionsplan nutzen**:\
-    Neben tagesaktuellem Content, wie zum Beispiel Hinweise auf
-    Veranstaltungen, gibt es auch den sogenannten Evergreen Content.
+    Neben tagesaktuellem Content, wie zum Beispiel Hinweisen auf
+    Veranstaltungen, gibt es auch den sogenannten Evergreen Content,
+    zeitlose Themen mit hoher Relevanz für die Zielgruppe.
     Bei WBs können das z. B. Inhalte zum wissenschaftlichen
     Publizieren, Forschungsdatenmanagement o. ä. sein, die sich auf
     verschiedenen Unterseiten des Webauftritts verbergen. Diese lassen
@@ -268,15 +265,15 @@ schon mal steht.
     Redaktionsplans ausspielen.
 
     In einem Redaktionsplan wird festgehalten, welche Inhalte wann (und
-    von wem) publiziert werden. So behält man den Überblick. Auf diese
-    Weise kann man über einen längeren Zeitraum im Voraus planen, vor
+    von wem) publiziert werden. So behält man den Überblick und
+    kann über einen längeren Zeitraum im Voraus planen, vor
     allem Evergreen Content lässt sich so gut verteilen. Es bietet sich
     an, eine Regelmäßigkeit für solchen Content festzulegen, wie etwa an
     einem bestimmten Tag in der Woche o. ä. In ÖBs eignen sich hierfür
     beispielsweise Buchempfehlungen oder regelmäßig wiederkehrende
     Veranstaltungen.
 
--   **Content anteasern/ Social Storytelling**:\
+-   **Content anteasern/Social Storytelling**:\
     Vor allem "größerer"
     Content, wie zum Beispiel aufwändige Videoproduktionen sollte vorab
     auf den Social Media Plattformen durch kurze Begleitbeiträge angeteasert werden.
@@ -290,7 +287,7 @@ schon mal steht.
     verschiedene Kommunikationstools, vom 1:1 Gespräch über eine
     Chatgruppe bis hin zur Nutzung eines Redaktionsplanes, um
     gemeinsam Inhalte zu planen. Wichtig ist hierbei Konsistenz und
-    die Nutzung der, für den vorliegenden Zweck, effektivsten Tools.
+    die Nutzung der für den vorliegenden Zweck effektivsten Tools.
     Dabei sollten nicht zu viele unterschiedliche Kanäle genutzt
     werden, um nicht den Überblick zu verlieren. Es sollte vorab klar
     sein, welche Voraussetzungen erfüllt sein müssen, um bestimmte
@@ -298,6 +295,14 @@ schon mal steht.
     Zeitplan sowie eine Checkliste zu erstellen, um sicherzugehen,
     dass alle relevanten Punkte abgedeckt sind (Wo wird Was Wie
     kommuniziert).
+
+-   **Social Media Planung**:\
+    Betreibt eine Bibliothek mehrere Social Media Kanäle, kann ein einziges Tool zur Planung und Veröffentlichung von Beiträgen sinnvoll sein. Damit kann der Content zeitlich und inhaltlich vorgeplant werden. Integrierte Analysewerkzeuge helfen zudem bei der Zeitplanung, indem die vergangenen Veröffentlichungen ausgewertet werden und der beste Zeitpunkt für die Zielgruppe ermittelt wird. Beispiele für Tools sind:
+
+    - [Hootsuite](https://www.hootsuite.com/), (kommerziell, in der Basisversion frei nutzbar)
+    - [Buffer](https://buffer.com/), (kommerziell, in der Basisversion frei nutzbar) 
+    - [Trello](https://trello.com/) (kommerziell, in der Basisversion frei verfügbar)
+    - [Fedica](https://fedica.com/) (kommerziell, in der Basisversion frei verfügbar)
 
 ### Wissensmanagement 
 
@@ -311,7 +316,7 @@ mündlicher Anleitungen, Videobotschaften und nicht zuletzt das Vormachen
 von Tätigkeiten. Zur kontrollierten Umsetzung des Wissenstransfers gibt
 es mehrere Werkzeuge (Mittelmann, 2011):
 
--   **Jobmap**: ein Instrument, das dazu dient, das Wissen
+-   Die **Jobmap** ist ein Instrument, das dazu dient, das Wissen
     ausscheidender Mitarbeiter\*innen systematisch festzuhalten und zu
     dokumentieren. Sie kann händisch oder mit Mindmapping-Werkzeugen
     erstellt werden. Sie kann als Protokoll eines moderierten
@@ -319,20 +324,28 @@ es mehrere Werkzeuge (Mittelmann, 2011):
     Wissensnehmer\*in (Nachfolger\*in) befüllt oder von Mitarbeiter\*innen
     selbst erstellt werden.
 
--   **Wissensträgerkarte:** veranschaulichen, bei welchen
+-   **Wissenslandkarten** (Knowledge Maps) sind grafische Darstellungen von
+    Wissen in Organisationen. Sie dienen vor allem der Identifikation von
+    Wissen in Unternehmen, verankern graphisch das Wissen von Experten und Teams,
+    Wissensentwicklungsstationen sowie organisationale Fähigkeiten und Abläufe. Es
+    werden nur Verweise, aber nicht das Wissen selbst abgebildet.
+
+-   **Wissensträgerkarten** sind Wissenslandkarten für einzelne Personen und
+    veranschaulichen, bei welchen
     Wissensträger\*innen welche Kompetenzen in welchen Wissensgebieten
     vorhanden sind. Sie vermitteln keine Wissensinhalte, sondern
     zeigen, welche Kompetenzen ein bestimmter Mitarbeitender hat und
     wer Wissensträger\*in für ein bestimmtes Gebiet ist.
 
--   **persönlicher Wissenstransfer:** Gespräch
+-   **Persönlicher Wissenstransfer** kann in einem Gespräch stattfinden.
 
--   **kodifizierter Wissenstransfer:** mittels Informations- und
+-   **Kodifizierter Wissenstransfer** wird mittels Informations- und
     Kommunikationssystemen wie z. B. Datenbanken, Laufwerk, CMS, Wiki
+    erreicht.
 
--   **Infokarte:** Themenkarte oder Mikroartikel, welche eine Aufgabe beschreiben.
+-   Die **Infokarte** ist eine Themenkarte oder ein Mikroartikel zur Beschreibung einer Aufgabe.
 
--   **Projektplan:** fasst den vollständigen Ablauf des Wissenstransfers
+-   Ein **Projektplan** fasst den vollständigen Ablauf des Wissenstransfers
     zusammen. Er enthält Informationen über die Zeitplanung, den
     Umfang, die Fälligkeitsdaten und die Ergebnisse.
 
@@ -340,28 +353,23 @@ es mehrere Werkzeuge (Mittelmann, 2011):
 
 ### Evaluation
 
-Sind Tools/Kanäle einmal eingeführt, wird leider oft nicht weiter
+Sind Tools oder Kanäle einmal eingeführt, wird leider oft nicht weiter
 verfolgt, wie sie angenommen und genutzt werden. Regelmäßige Evaluation
 der Nutzung und auch Fehlerauswertung helfen dabei, Schwachstellen zu
-erkennen, Verbesserungen einzubinden oder Tools/Kanäle ggf. auch wieder
+erkennen, Verbesserungen einzubinden und Tools oder Kanäle ggf. auch wieder
 abzuschaffen bzw. durch andere abzulösen.
 
 Viele Tools und Werkzeuge bringen ihre eigenen Statistiken und
 Auswertungen mit. Aber auch eine einfache, regelmäßige Abfrage der
 Nutzungsgewohnheiten der Mitarbeitenden hilft bereits, die
 Praxistauglichkeit einzuschätzen. Daher ist es sinnvoll, die Evaluation
-bereits bei der Planung, spätestens aber beim Start mit einzuplanen.
+bereits bei der Planung, spätestens aber beim Start mit einzuplanen
+(siehe [Kapitel Anforderungsanalyse](anforderungsanalyse.md).
 
-Beispiele:
-
--   Nutzungsstatistiken Webseiten und Werkzeuge (z. B. mittels des Open Source Tools "Matomo")
-
--   Usability Studien
-
--   Social Media Plattformen haben in der Regel eigene integrierte Analysewerkzeuge
-
-Neben herkömmlichen Nutzungsstatistiken können einheitliche Fragebögen
-bei der Einschätzung helfen, ob Kanäle oder Tools geeignet sind, die
+Neben herkömmlichen Nutzungsstatistiken (z. B. mittels des Open Source Tools
+[*Matomo*](https://www.matomo.org/) für Webseiten oder mit integrierten
+Analysewerkzeugen von Social Media Plattformen und *CMS*) können einheitliche
+Fragebögen bei der Einschätzung helfen, ob Kanäle oder Tools geeignet sind, die
 gesetzten Ziele zu erreichen.
 
 Plattformen und Kanäle sollten regelmäßig evaluiert werden, um
@@ -376,7 +384,8 @@ informieren kann. Diese werden in den folgenden Abschnitten beschrieben.
 ### Website
 
 Die Website wird im allgemeinen Sprachgebrauch häufig auch als Homepage
-bezeichnet, im eigentlichen Sinne ist damit aber nur die Startseite eines Internetauftritts gemeint.
+bezeichnet, im eigentlichen Sinne ist damit aber nur die Startseite eines 
+[Internetauftritts](#Website) gemeint.
 Die Website dient der Vorstellung der Bibliothek, ihrer verschiedenen
 Angebote und Kontaktmöglichkeiten. Hier werden u.a. Neuigkeiten über
 Veranstaltungen, digitale Angebote oder Kundenservices (z. B.
@@ -388,18 +397,39 @@ redaktionelle Inhalte dargestellt, organisiert und bearbeitet werden,
 ohne dass sich die Websiteredakteur\*innen mit dem Aufbau und dem Design
 der Website beschäftigen müssen.
 
-Öffentliche Bibliotheken sind oft Teil der Kommunen-Infrastruktur,
-Hochschulbibliotheken Teil der Universitätsinfrastruktur.
-In dem Fall ist die Bibliotheksseite häufig als Unterseite angelegt. Hier ist
-das CMS vorgegeben und der Gestaltungsspielraum begrenzt. Im besten
-Fall hat die Bibliothek eine eigene Domain, kann ein eigenes CMS
-auswählen und hat damit auch die Gestaltungsfreiheit, beliebige
-Unterseiten anzulegen und eigene Inhalte zu beschreiben. 
+Öffentliche Bibliotheken sind oft Teil der kommunalen Infrastruktur,
+Hochschulbibliotheken Teil der Universitätsinfrastruktur.  In diesen Fällen ist
+die Bibliotheksseite häufig als Unterseite angelegt. Hier ist das CMS
+vorgegeben und der Gestaltungsspielraum begrenzt; es sollte darauf geachtet
+werden, dass die Grundfragen und -dienste mit einer solch vorgefertigten
+Variante umgesetzt werden können. Alternativ kann es auch sein, dass allein ein
+Webserver als technische Basis bereitgestellt wird und sich die Bibliothek
+selbst um die Umsetzung einer Webseite kümmern muss. Im besten Fall hat die
+Bibliothek eine eigene Domain, kann ein eigenes CMS auswählen und hat damit
+auch die Gestaltungsfreiheit, beliebige Unterseiten anzulegen und eigene
+Inhalte zu beschreiben. 
 
-In beiden Fällen - ob eigene Domain oder eingegliedert in die
-übergeordnete Einrichtung - gibt es in der Regel Designvorgaben wie eine
-Corporate Identity. Dennoch sollten insbesondere bei der Planung und
-späteren Konzeption gängige [Usability-Gesichtspunkte](#was-beeinflusst-den-nutzungseindruck) berücksichtigt werden.
+In beiden Fällen - ob eigene Domain oder eingegliedert in die übergeordnete
+Einrichtung - gibt es in der Regel Designvorgaben wie eine Corporate Identity.
+Dennoch sollten insbesondere bei der Planung und späteren Konzeption gängige
+[Usability-Gesichtspunkte](#was-beeinflusst-den-nutzungseindruck)
+berücksichtigt werden.
+
+Folgende Basisinformationen für Bibliotheksbesucher\*innen und Interessierte
+sollten zu finden sein
+
+-   Öffnungszeiten, Anmeldemodalitäten, Gebühreninformationen
+-   Veranstaltungshinweise
+-   Digitale Angebote
+-   Fachspezifische Angebote wie medienpädagogische Inhalte
+-   Verlinkung zu Bibliotheks-OPAC oder anderen Online-Katalogen
+
+Schließlich muss darauf geachtet werden, dass nicht nur die eigentliche
+Webseite der Einrichtung die Basisinformationen enthält, sondern auch, dass
+diese in einschlägigen Suchmaschinen indexiert sind, etwa die Adresse und
+Öffnungszeiten in einer Google Suche und auf Google Maps.  Hierzu müssen
+entsprechende SEO (Search Engine Optimization) Parameter eingestellt bzw. an
+die jeweiligen Plattformen übermittelt werden.
 
 Gängige CMS sind *Typo3*, *Wordpress* oder *Drupal*. Ob eine CMS vorgegeben ist
 oder selbst festgelegt werden kann, ist von Institution zu Institution
@@ -425,15 +455,15 @@ sich vor allem das CMS *Wordpress*.
 
 ### Social Media
 
-Über Social-Media-Kanäle kann man die Nutzenden / die Zielgruppe schnell
-erreichen, eigene Inhalte mit ihnen teilen und mit ihnen in Kontakt
-treten. Auch dienen Social-Media-Kanäle der Markenbildung. Jede
-Social-Media-Plattform hat eigene Konventionen und Bedingungen, sowohl
-was die Gestaltung der Beiträge angeht als auch die zugrunde liegenden
-Algorithmen, mit denen man sich vertraut machen sollte. Ziel sollte es
-sein, möglichst viele Nutzende zu erreichen und neue Nutzende dazu zu
-gewinnen. Um das Ziel zu erreichen, ist es wichtig, nicht nur die eigenen Kanäle zu bespielen,
-sondern auch mit anderen Kanälen zu interagieren.
+Über Social-Media-Kanäle kann die Zielgruppe schnell erreicht werden, es lassen
+sich eigene Inhalte mit Nutzenden teilen und kann mit ihnen in Kontakt getreten
+werden. Auch dienen Social-Media-Kanäle der Markenbildung. Jede
+Social-Media-Plattform hat eigene Konventionen und Bedingungen, sowohl was die
+Gestaltung der Beiträge angeht als auch die zugrunde liegenden Algorithmen, mit
+denen man sich vertraut machen sollte. Ziel sollte es sein, möglichst viele
+Nutzende zu erreichen und neue Nutzende dazu zu gewinnen. Um dieses Ziel zu
+erreichen, ist es wichtig, nicht nur die eigenen Kanäle zu bespielen, sondern
+auch mit anderen Kanälen zu interagieren.
 
 Je nach Zielgruppe sind einzelne Social-Media-Kanäle mehr oder
 weniger geeignet. Ist eine Zielgruppe auf einem Netzwerk nicht aktiv, so
@@ -441,23 +471,26 @@ lohnt es sich nicht, dieses Netzwerk zu bespielen und man sollte sich
 eher auf die Plattformen fokussieren, in denen die eigene(n) Zielgruppe(n)
 anzutreffen sind.
 
--   **Twitter/X, Mastodon, Bluesky, Threads:** Kurznachrichten, v.a. textbasierte
-    Inhalte; auch gerne genutzt, um auf Inhalte auf anderen Plattformen
+-   **Mastodon, Bluesky, Threads...:** Diese Plattformen für Kurznachrichten mit vor allem
+    textbasierten Inhalten werden auch gerne genutzt, um auf Inhalte auf anderen Plattformen
     (Fachartikel, Blogbeiträge, Veranstaltungen..) zu verweisen. Für
     das deutschsprachige Bibliothekswesen ist insbesondere die Mastdon-Instanz
     [openbiblio.social](https://openbiblio.social) etabliert.
 
-<!-- TODO: Fediverse -->
-
--   **Facebook, Instagram:** Inhalte in Form von Bildern/Grafiken, Texten, (Kurz-)Videos;
+-   **Facebook, Instagram:** Inhalte in Form von Bildern/Grafiken, Texten, (Kurz-)Videos
 
 -   **TikTok:** Videoportal für kurze Videos im Hochformat
 
 -   **YouTube, Vimeo:** Plattformen für die Veröffentlichung von Videos
 
--   **LinkedIn:** Längst hat sich LinkedIn von einem reinen
-    Berufsnetzwerk für den beruflichen Einstieg oder die berufliche
-    Weiterentwicklung/ Veränderungen hin zu einem Plattform
+-   ***Fediverse:** Netzwerk unterschiedlicher dezentraler Dienste, die mit dem
+    gleichen Account genutzt werden können (siehe [FediDB](https://fedidb.org/) für eine
+    statistische Übersicht; Mastodon ist sicherlich der
+    bekannteste davon, aber auch das CMS WordPress gehört dazu, so dass sich
+    WordPress-Beiträge in den unterschiedlichen Fediverse-Kanälen teilen lassen.
+
+-   **LinkedIn:** Das ursprüngliche Berufsnetzwerk hat sich inzwischen zu
+    einer allgemeinen Plattform
     entwickelt, auf der Inhalte geteilt und diskutiert werden. Vor
     allem für Themen aus Wissenschaft und Forschung eignet sich
     LinkedIn als Plattform. Allerdings ist hier zu beachten, dass
@@ -477,12 +510,15 @@ für den Versand einen Newsletter-Dienst zu nutzen, um technische
 Fallstricke zu umgehen. Diese sind u.a. auf große Versandmengen, Umgang
 mit zurückkommenden Mails oder Einwilligungsverwaltung spezialisiert.
 
-### Mailinglisten
+### Mailinglisten und Foren
 
-Verteilung von Inhalten an eine (größere) Gruppe von
-E-Mail-Empfänger:innen. Personen einer Mailingliste können sich über
-diese untereinander austauschen.
-Im Bibliothekskontext eignen sich die Listen bibnez und Forum ÖB.
+Mailinglisten dienen primär der Verteilung von Inhalten an Gruppen von Personen,
+sie werden aber auch zu allgemeinen Diskussionen genutzt. Beispiele für Mailinglisten
+aus dem Bibliotheksbereich sind
+[bibnez](https://folks.email/mailman3/postorius/lists/bibnez.folks.email/) und
+[Forum ÖB](https://listen.hbz-nrw.de/mailman/listinfo/forumoeb). Ein 
+fachliches Forum für Austausch zu Metadaten und andere bibliothekarische
+IT-Themen ist [metadaten.community](https://metadaten.community/).
 
 ### Offene Schnittstellen
 
@@ -574,10 +610,7 @@ positioniert:
 
 ![Quadrantenmodell von Kommunikations-Werkzeugen](media/tools.svg)
 
-<!-- Quelle bearbeitbar: https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd -->
-
-Im Folgenden werden die grundlegenden Funktionen, Werkzeuge und Kanäle
-kurz beschrieben:
+Im Folgenden werden die grundlegenden Funktionen und Werkzeuge kurz beschrieben:
 
 ### Kommunikation
 
@@ -590,7 +623,7 @@ werden. Es müssen allerdings beide Parteien gleichzeitig verfügbar sein.
 Das kann zu Ablenkungen bzw. Druck führen, da eine sofortige Reaktion
 erwartet wird. Bei asynchroner Kommunikation findet der
 Informationsaustausch zeitlich versetzt statt. Eine Person sendet
-eine Nachricht, und die andere antwortet, wenn es passt. Die
+eine Nachricht und die andere antwortet, wenn es passt. Die
 Kommunikationspartner\*innen sind also nicht an eine gemeinsame Zeit gebunden.
 Das ermöglicht eine größere Flexibilität in der Zeitplanung und eröffnet
 die Möglichkeit zur gründlichen Reflexion vor einer Antwort. Es ist
@@ -635,38 +668,60 @@ Feedback zu Missverständnissen führen.
    nicht benachteiligen möchte.
 
 - **Chat** kann als synchrone und asynchrone Kommunikation 1-zu-1 und
-   in Teams sowohl in der externen als auch in der internen Kommunikation
-   verwendet werden:
+  in Teams sowohl in der externen als auch in der internen Kommunikation
+  verwendet werden:
 
-  - Chats können in Bibliothekswebsiten (Homepage, OPAC) ohne großen Aufwand
-    integriert werden. Die Nutzung ist anonym oder unter Angabe
-    von personenbezogenen Daten (z. B. E-Mail-Adresse) möglich.
-    Chat-Anfragen werden zentral bearbeitet und können bei Bedarf
-    weitergegeben werden. Ein Pool von Mitarbeitenden kann sich
-    anmelden, die Anfragen werden vom System auf die
-    Mitarbeitenden verteilt. Steht kein Mitarbeitender zur
-    Verfügung, leitet die Software z. B. auf ein Mailformular um.
-    Je nach Verwendung ist der Abschluss eines Vertrages zur
-    Auftragsverarbeitung mit dem Anbieter notwendig. Chat-Systeme
-    werden i.d.R. als *SaaS*-Lösung angeboten
+  Chats können in Bibliothekswebsiten (Homepage, OPAC) ohne großen Aufwand
+  integriert werden. Die Nutzung ist anonym oder unter Angabe
+  von personenbezogenen Daten (z. B. E-Mail-Adresse) möglich.
+  Chat-Anfragen werden zentral bearbeitet und können bei Bedarf
+  weitergegeben werden. Ein Pool von Mitarbeitenden kann sich
+  anmelden, die Anfragen werden vom System auf die
+  Mitarbeitenden verteilt. Steht kein Mitarbeitender zur
+  Verfügung, leitet die Software z. B. auf ein Mailformular um.
+  Je nach Verwendung ist der Abschluss eines Vertrages zur
+  Auftragsverarbeitung mit dem Anbieter notwendig. Chat-Systeme
+  werden i.d.R. als *SaaS*-Lösung angeboten
 
-  - Chats zwischen Mitarbeiter\*innen dienen der niedrigschwelligen
-    Kommunikation, oft als Alternative zu Telefon und E-Mail.
-    Gruppenchats in Abteilungen können für einfache Fragen und
-    Absprachen genutzt werden und Menschen, die mobil arbeiten,
-    können mit einem Chatsystem besser integriert werden. Die
-    Nutzung von kommerziellen Systemen, die noch dazu außerhalb
-    von Europa gehostet werden, ist aus Datenschutzgründen nur in
-    Ausnahmefällen zulässig (WhatsApp u.a., Teams, Slack ...).
-    Eine Alternative für Bibliotheken mit IT-Abteilung oder
-    RZ-Unterstützung ist die Nutzung von Open-Source-Software wie
-    [mibew.org](https://mibew.org/).
-    [rocket.chat](https://www.rocket.chat/secure-messaging-platform).  
-    Der Chat ist häufig
-    Bestandteil von anderen Lösungen wie bspw. Microsoft Teams
-    oder Webex. Auch ein Forensystem wie Discourse bietet eine
-    Chat-Komponente, sodass ernsthaft abgewogen werden sollte, ob es
-    wirklich eine dezidierte Chat-Lösung braucht.
+  Chats zwischen Mitarbeiter\*innen dienen der niedrigschwelligen
+  Kommunikation, oft als Alternative zu Telefon und E-Mail.
+  Gruppenchats in Abteilungen können für einfache Fragen und
+  Absprachen genutzt werden und Menschen, die mobil arbeiten,
+  können mit einem Chatsystem besser integriert werden. Die
+  Nutzung von kommerziellen Systemen, die noch dazu außerhalb
+  von Europa gehostet werden, ist aus Datenschutzgründen nur in
+  Ausnahmefällen zulässig (WhatsApp, Slack ...).
+  Eine Alternative für Bibliotheken mit IT-Abteilung oder
+  Rechenzentrum-Unterstützung ist die Nutzung von Open-Source-Software wie
+  [mibew.org](https://mibew.org/) oder
+  [rocket.chat](https://www.rocket.chat/secure-messaging-platform)
+  die selbst betrieben werden können.
+
+  Chat ist häufig Bestandteil von integrierten Webkonferenz- und Kommunikationsplattformen.
+  Auch ein Forensystem wie Discourse bietet eine
+  Chat-Komponente, sodass ernsthaft abgewogen werden sollte, ob es
+  wirklich eine dezidierte Chat-Lösung braucht.
+
+- **Videokonferenzsysteme** gibt es als eigenständige Tools, ein kommerzielles
+  Beispiel ist Zoom. Daneben stehen freie Alternativen wie
+  [jitsi](https://jitsi.org/) und [DFN conf](https://www.conf.dfn.de/) zur
+  Verfügung. Eine Chatfunktion während der laufenden Konferenz ist dabei
+  standardmäßig integriert, häufig können auch eine Umfragen benutzt werden.
+
+- **Integrierte Webkonferenz- und Kommunikationsplattformen** kombinieren
+  Videokonferenzen mit verschiedenen anderen Kommunikationslösungen. Die
+  kommerziellen Tools Microsoft Teams und Cisco Webex integrieren Chatlösungen,
+  auch außerhalb von Videokonferenzen,  für Gruppen und Einzelpersonen. Vor allem
+  im Bildungsbereich wird die Open Source-Plattform BigBlueButton verwendet, die
+  Präsentationen sowie Lern- und Inhaltsverwaltungssysteme. [Mattermost](https://mattermost.com/)
+  ist ein weiteres Open Source-Beispiel, das viele verschiedenen Kommunikationswege
+  vereint und auch Plugins für viele andere Werkzeuge bereitstellt, um eine
+  All-In-One Lösung für Kollaborationen zu sein.
+
+Je technisch anspruchsvoller die Kommunikationswerkzeuge werden, um so mehr
+muss darauf geachtet werden, die gleichberechtige Teilnahme aller
+Kommunikationspartner*innen zu ermöglichen (siehe [Kapitel
+Infrastruktur](#werkzeuge-zur-kommunikation)).
 
 ### Contenterstellung
 
@@ -734,8 +789,9 @@ veröffentlichen.
     Podcast-Forum *[Sendegate](https://sendegate.de)* oder
     im [Wiki des Netzwerkes "Tutorials in Bibliotheken"](https://bibtutorials.miraheze.org/wiki/Hauptseite#Technik)
 
--   **Umfragen/Abstimmungen** können mittels Tool erstellt werden
-    (*SurveyMonkey*, *Limesurvey*, *Mentimeter*, *Lamapoll* ...)
+-   **Umfragen/Abstimmungen:** können mittels verschiedener Tools erstellt 
+    und direkt online veröffentlicht werden
+    (z.B. mit *SurveyMonkey*, *Limesurvey*, *Mentimeter*, *Lamapoll*).
     
 -   **E-Learning-Software:** dient der Erstellung von Lernformen, die
     durch elektronische, technische oder digitale Medien unterstützt
@@ -748,112 +804,6 @@ veröffentlichen.
     -   Multimedia-Guide für interaktive Stadtralleys und
         Handy-Schnitzeljagd [de.actionbound.com](https://de.actionbound.com/)
     -   spielbasierte Lernplattform für Quiz usw. https://kahoot.com/
-
-### Planung & Koordination
-
-Die in diesem Absatz beschriebenen Werkzeuge dienen der
-Aufgaben-Koordination in der Bibliothek. Je mehr Personen in einem Team
-an gemeinsamen Aufgaben arbeiten, desto empfehlenswerter ist der Einsatz
-folgender Instrumente:
-
-**Ticketsystem**: Ticketsysteme dienen der strukturierten,
-regelbasierten (z.T. automatischen) Abarbeitung von Anfragen,
-Wünschen, Fehlermeldungen von Nutzenden. Diese Systeme können für
-alle anfallenden Aufgaben innerhalb der Bibliothek verwendet
-werden, z. B. in der
-[Softwareentwicklung,](https://it-in-bibliotheken.de/anforderungen.html)
-bei der Bearbeitung von Kundenanfragen oder internen Prozessen.
-
-Ein Vorteil ist die transparente Bearbeitung von Vorgängen, da sowohl der Status
-als auch die Bearbeitenden jederzeit einsehbar und nachvollziehbar sind.
-Statusänderungen werden dem Autor je nach Einstellung des
-Ticketsystems automatisiert mitgeteilt. Alle Bearbeiter:innen haben zu
-jeder Zeit Einblick und können bei Bedarf übernehmen. Eine
-Vertretungsregelung oder E-Mail-Weiterleitung wird damit obsolet. Nach
-abschließender Bearbeitung werden Tickets in der Regel archiviert und
-können später zu Statistik- und Dokumentationszwecken ausgewertet
-werden. Auch eine Art FAQ kann automatisiert durch entsprechend
-markierte Tickets erstellt werden.
-
-Beispiele für Ticketsysteme:
-
--   *Redmine* (Open Source)
--   *Jira* (kommerziell)
--   Integrierte Issue-Tracker im Rahmen der Softwareentwicklung,
-    beispielsweise in *GitLab* (Open Source) und *GitHub* (kommerziell)
-
-**Kanban-Board**: Ein Kanban-Board visualisiert jegliche
-Arbeitsabläufe anhand einer in Spalten unterteilten Tafel (z. B.
-Backlog, in Arbeit, fertig). Physisch ist dies mit Post-Its und
-Whiteboard machbar. Ein Kanban-Board kann auch als Grundlage für
-ein Projektmanagement nach SCRUM dienen.
-
-Beispiele für Kanban-Software:
-
--   [Deck als Nextcloud-Plugin](https://apps.nextcloud.com/apps/deck) (Open Source)
--   *[Kanboard](https://kanboard.org/)* (Open Source)
--   *[Trello](https://trello.com/)* (kommerziell)
-
-**Interne und externe Kalender:** Kalender können unterschiedliche
-Aufgaben erfüllen. Intern helfen zwischen Mitarbeitenden geteilte
-Kalender bei der Terminplanung und Abstimmung.
-
-Auf der Bibliothekswebsite veröffentlichte Kalender können z. B.
-buchbare Veranstaltungen für Kund\*innen und Besucher\*innen der
-Bibliothek enthalten. Ebenso ist eine Reservierung von Räumen oder
-Technik denkbar.
-
-Verbunden mit einem Ticketverkauf oder einer Ticketreservierung können
-sie die umständliche Kommunikation über E-Mails ablösen und ersparen
-damit einen großen Verwaltungsaufwand.
-
-Beispiele für Kalender:
-
--   *[SuperSaaS](https://www.supersaas.de/)* (kommerziell)
-
-**Social Media Planung:** Betreibt eine Bibliothek mehrere Social
-Media Kanäle, kann ein einziges Tool zur Planung und
-Veröffentlichung von Beiträgen sinnvoll sein. Damit kann der
-Content zeitlich und inhaltlich vorgeplant werden. Integrierte
-Analysewerkzeuge helfen zudem bei der Zeitplanung, indem die
-vergangenen Veröffentlichungen ausgewertet werden und der beste
-Zeitpunkt für die Zielgruppe ermittelt wird.
-
-
-
-Beispiele:  
-- *[Hootsuite](https://www.hootsuite.com/)*, (kommerziell, in der Basisversion frei nutzbar)
-- *[Buffer](https://buffer.com/)*, (kommerziell, in der Basisversion frei nutzbar)
-- *[Trello](https://trello.com)* (kommerziell, in der Basisversion frei verfügbar)
-- *[Fedica](https://fedica.com/)* (kommerziell, in der Basisversion frei verfügbar)
-
-**Wissenslandkarte**: Wissenslandkarten, auch Wissenskarten
-(*Knowledge Maps*), sind grafische Darstellungen von Wissen in
-Organisationen. Als Wissenslandkarten werden im Wissensmanagement
-graphische Verzeichnisse von Wissensträgern, Wissensbeständen,
-Wissensquellen, Wissensentwicklung, Wissensstrukturen oder
-Wissensanwendungen bezeichnet. Sie dienen vor allem der
-Identifikation von Wissen in Unternehmen, um Arbeitsabläufe
-effektiver und effizienter zu gestalten und referenzieren auf
-Expertenwissen, Teamwissen, Wissensentwicklungsstationen sowie
-organisationale Fähigkeiten und Abläufe. Bei dieser Methode wird
-lediglich der Verweis auf das verankerte Wissen geliefert und
-nicht das Wissen selbst dort abgelegt.
-
-<!-- TODO: was heisst hier Quelle?! -->
-
-Quelle:
-[https://de.wikipedia.org/wiki/Wissenslandkarte](https://de.wikipedia.org/wiki/Wissenslandkarte)
-
-Beispiele: *[MindManager](https://www.mindmanager.com/de/)* (kommerziell)
-
-**Terminfindung:** Abseits von Kalendern in E-Mail-Programmen können
-Terminfindungstools sinnvoll sein, insbesondere bei der Planung
-mit externen Beteiligten.
-
-Beispiele:
-*[DFN terminplaner](https://terminplaner.dfn.de/)*,
-*[nuudel](https://nuudel.digitalcourage.de/)*
 
 ### Echtzeit-Kollaboration
 
@@ -873,7 +823,7 @@ Brainstorming bis zur fertig ausgearbeiteten Präsentation.
 
 -   Für die gemeinsame Bearbeitung von klassischen Office-Formaten ist
     OnlyOffice eine veritable Alternative zu Google Docs, insbesondere
-    unter Gesichtspunkten der Digitalen Souveränität (s. o.).
+    unter Gesichtspunkten der [digitalen Souveränität](#digitale-souveränität).
 
 -   Cloudspeicher: die zeitgemäße Variante eines Netzwerklaufwerkes;
     vgl. z. B.
@@ -900,7 +850,8 @@ Social Media, Medienproduktionstools sowie weitere Kanäle und Werkzeuge genutzt
 Kommunikation konzentriert sich auf den Informationsaustausch innerhalb
 einer Organisation. Hier kommen Tools wie Social Intranets,
 Kollaborationstools und Videokonferenzsysteme zum Einsatz. Die aktuellen
-Entwicklungen im Bereich der Large Language Models (LLM) haben das
+Entwicklungen im Bereich der 
+Künstlichen Intelligenz mit Large Language Models (*LLM*) haben das
 Potenzial, die Art und Weise, wie Organisationen sowohl intern als auch
 extern kommunizieren, tiefgreifend zu verändern. Sie können bspw. in
 Chatbots und andere Support-Systeme integriert werden, um Anfragen von

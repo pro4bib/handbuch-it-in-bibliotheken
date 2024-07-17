@@ -680,15 +680,16 @@ Weiterbildungsformen sind
 
 -   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS ...
 
--   Library Carpentries
-
--   Mailinglisten, Foren und andere Kommunikationskanäle
+-   Mailinglisten, Foren und andere Kommunikationskanäle wie zum Beispiel
+    das deutschsprachige Metadaten-Forum <https://metadaten.community/>.
 
 -   persönliche Kontakte, Gruppen wie UX Roundtable
 
+-   Library Carpentries
+
 -   Fachpublikationen: Code4Lib Journal, Weave Journal
 
--   Soziale Medien: Weblogs, Twitter, Discord
+-   Soziale Medien: Weblogs, Instagram, Mastodon, Discord...
 
 #### Personalgewinnung
 
