@@ -519,21 +519,21 @@ Paket- und Lizenzinformationen hervorgehen. Darunter fallen zum Beispiel
 Mitunter verfügen BMS über eigene Module für die Erstellung von
 Statistiken. Folgende Statistiken sind typischerweise erforderlich:
 
--   Arbeitsstatistiken - Für die tägliche Arbeitsorganisation und die
-    Abrechnung der Arbeitsleistungen gegenüber den Stakeholdern müssen
-    in regel- und unregelmäßigen Abständen Statistiken und Bericht aus
-    dem BMS erstellt werden. 
-    
--   Deutsche Bibliotheksstatistik - Bibliotheken können sich
-    entscheiden, Daten für die [Deutsche
-    Bibliotheksstatistik](https://www.bibliotheksstatistik.de/)
-    zu erfassen. Die notwendigen Daten sollten über das BMS ermittelt
-    werden können. Durch die einheitliche Definition der statistischen
-    Kennzahlen ist eine umfassende, vergleichende Auswertung aller
-    Bibliothekssparten (wissenschaftliche, öffentliche,
-    Spezialbibliotheken) möglich.
+-  **Arbeitsstatistiken** für die tägliche Arbeitsorganisation und die
+  Erfüllung der jeweiligen Berichtspflicht innerhalb der Einrichtung 
+  und gegenüber vorgesetzten Institutionen
 
--   Sonderstatistiken wie Statistiken der Fachinformationsdienste (FID)
+- Reporte für **Mahnwesen** in Ausleihe und Erwerbung
+    
+-  Bibliotheken können Daten für die **[Deutsche
+   Bibliotheksstatistik](https://www.bibliotheksstatistik.de/)**
+   zu erfassen. Die notwendigen Daten sollten über das BMS ermittelt
+   werden können. Durch die einheitliche Definition der statistischen
+   Kennzahlen ist eine umfassende, vergleichende Auswertung aller
+   Bibliothekssparten (wissenschaftliche, öffentliche,
+   Spezialbibliotheken) möglich.
+
+-  **Sonderstatistiken** wie Statistiken der Fachinformationsdienste (FID)
 
 Bei den Systemen der 1. und 2. Generation ist es bisweilen nötig,
 zusätzliche Werkzeuge zum Einsatz zu bringen, um alle gewünschten
@@ -627,36 +627,43 @@ Voraussetzung für die Einrichtung des Ausleihmoduls eines BMS.
 Ein BMS verwaltet zum einen Daten über die von der Bibliothek
 bereitgestellten oder vermittelten Ressourcen (vor allem physische und
 digitale Medien) und zum anderen Daten über wesentliche Arbeitsprozesse
-(beispielsweise Erwerbung und Ausleihe). Dabei lassen sich grob drei
+(beispielsweise Erwerbung und Ausleihe). Dabei lassen sich grob zwei
 Arten von Daten unterscheiden:
 
 -   **Bibliografische Metadaten** zur Beschreibung von Ressourcen
 
--   **Digitale Inhalte** wie Volltexte, Digitalisate und andere digitale Publikationen
-
 -   **Verwaltungsdaten** zur Unterstützung von Workflows
 
-Die Datenhaltung erfolgt in der Regel in relationalen Datenbanken
-(MySQL, PostgeSQL, Oracle/Sybase ...).
-
-Zur sinnvollen Verarbeitung von Daten im BMS und in Integration mit
-anderen System müssen Daten bestimmten Datenformaten entsprechen, über
-Schnittstellen abruf- und ggf. änderbar sein und Mindestanforderungen an
-die Datenqualität genügen.
+Darüber hinaus gibt es Digitale Inhalte, die allerdings nicht im BMS verwaltet
+sondern von dort nur verwiesen werden. Die Datenhaltung erfolgt in der Regel in
+relationalen Datenbanken (MySQL, PostgeSQL, Oracle/Sybase ...). Zur sinnvollen
+Verarbeitung von Daten im BMS und in Integration mit anderen System müssen
+Daten bestimmten Datenformaten entsprechen, über Schnittstellen abruf- und ggf.
+änderbar sein und Mindestanforderungen an die Datenqualität genügen.
 
 ### Bibliografische Metadaten
 
 Bibliografische Metadaten in Form von Titel-, Exemplar- und Normdaten bilden
-den Kern des klassischen Katalogs. An anderer Stelle tauchen diese Daten
-beispielsweise als Suchindizes für Discovery-Systeme auf.  Das BMS verwaltet
+den Kern des klassischen Katalogs. Sie werden u.a. im internen Arbeitskatalog,
+im [Verbundkatalog](#verbundkataloge), im klassischen Nutzerkatalog "OPAC" und
+zum Aufbau von Suchindizes für Discovery-Systeme verwendet.  Das BMS verwaltet
 diese Daten um Medien zu beschaffen, auffindbar und zugreifbar zu machen. Diese
-Daten können von verschiedenen Bibliotheken gemeinsam erstellt, gepflegt und genutzt werden, z. B. über Verbundkataloge. Oft werden bibliografische Metadaten auch als Open Data zur Verfügung gestellt.
+Daten können von verschiedenen Bibliotheken gemeinsam erstellt, gepflegt und
+genutzt werden, z. B. über Verbundkataloge. Oft werden bibliografische
+Metadaten auch als Open Data zur Verfügung gestellt.
 
-diese Metadaten mit zur freien Nutzung zur Verfügung gestellt
+### Verwaltungsdaten
 
+Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb der
+Bibliothek (siehe [Prozessabbildung](#prozessabbildung)). Diese Daten sind zum
+größten Teil nicht öffentlich und müssen insbesondere im Falle von Daten von
+Nutzer\*innen im Rahmen des [Datenschutzes](#datenschutz) vertraulich behandelt
+werden.
 
-genutzt und in der Regel
-frei zur Verfügung gestellt werden.
+Zur Interoperabilität mit anderen Informationssystemen innerhalb der
+eigenen oder übergeordneten Einrichtung gibt es in der Regel nur wenig
+übergreifend etablierte Standards und Schnittstellen, sodass hier oft
+zusätzliche Anpassungen an das BMS notwendig sind.
 
 ### Digitale Inhalte
 
@@ -678,18 +685,6 @@ wie z.B. einzelne Abbildungen.
 
 $\Rightarrow$ *Das Kapitel [Digitalisierung](digitalisierung.md) geht ausführlicher auf digitale Inhalte ein.*
 
-### Verwaltungsdaten
-
-Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb der
-Bibliothek (siehe [Prozessabbildung](#prozessabbildung)). Diese Daten sind zum
-größten Teil nicht öffentlich und müssen insbesondere im Falle von Daten von
-Nutzer\*innen im Rahmen des [Datenschutzes](#datenschutz) vertraulich behandelt
-werden.
-
-Zur Interoperabilität mit anderen Informationssystemen innerhalb der
-eigenen oder übergeordneten Einrichtung gibt es in der Regel nur wenig
-übergreifend etablierte Standards und Schnittstellen, sodass hier oft
-zusätzliche Anpassungen an das BMS notwendig sind.
 
 ### Datenformate und Schnittstellen
 
@@ -710,8 +705,9 @@ unterstützt werden.
 
 - Beispiele für bibliografische Standardformate sind *MARC21*, *BIBFRAME*
   und als kleinster gemeinsamer Nenner Dublin Core. Das PICA-Format bzw.
-  darauf aufbauende Formate ist vor allem als Internformat in den
-  Bibliotheksverbünden GBV, BSZ und an der DNB verbeitet.
+  darauf aufbauende Formate werden auf Basis der technischen Infrastruktur
+  von OCLC CBS in Bibliotheksverbünden wie GBV und SWB und an der
+  DNB eingesetzt.
 
 - Verbreitete Metadaten-Schnittstellen sind *Z39.50*, *SRU* und *OAI-PMH*.
 
@@ -727,11 +723,11 @@ die für Bibliotheken relevant sind, bietet die Seite <https://format.gbv.de>.
 
 ### Datenqualität
 
-Im Gegensatz zu physischen Dingen ist Daten von außen nicht anzusehen,
-ob sie unvollständig, veraltet oder aus anderen Gründen fehlerhaft sind.
-Ohne kontrolliertes Qualitätsmanagement muss davon ausgegangen werden,
-dass die Qualität von Daten kontinuierlich abnimmt. Zur Ermittlung und
-Verbesserung der Datenqualität tragen bei:
+Die Beurteilung von Daten auf Vollständigkeit, Aktualität und Korrektheit kann
+im täglichen Umgang schwierig sein, vor allem wenn keine geeigneten Werkzeuge
+zur Verfügung stehen. Ohne kontrolliertes Qualitätsmanagement muss davon
+ausgegangen werden, dass die Qualität von Daten kontinuierlich abnimmt. Zur
+Ermittlung und Verbesserung der Datenqualität tragen bei:
 
 -   **Richtlinien** legen einheitliche Regeln für Daten fest,
     beispielsweise durch Katalogisierungsregeln wie RDA (Soll-Stand)
@@ -1036,27 +1032,33 @@ Diese Themen werden auch in den Abschnitten zu [rechtlichen Rahmenbedingungen](#
 Ein BMS sollte das Bibliothekspersonal bei den folgenden Aufgaben
 unterstützen:
 
-1.  Überprüfen von vorhandenen Beständen (Vorakzession)
+1. Überprüfen von vorhandenen Beständen (Vorakzession)
 
-2.  Aufgabe von Bestellungen bei definierten Lieferanten auf
-    verschiedenen Wegen
+2. Import von Erwerbungsdaten, z. B. von Patron-Driven- Acquisition (*PDA*) und Approval-Plänen
 
-3.  Verwaltung von Lieferantendaten
+3. Aufgabe von Bestellungen bei definierten Lieferanten auf
+   verschiedenen Wegen
 
-4.  Anlegen und Verwalten von Bestellungen von Zeitschriften und
-    Fortsetzungswerken
+4. Verwaltung von Lieferantendaten
 
-5.  Überwachung von Bestellungen
+5. Anlegen und Verwalten von Bestellungen von Zeitschriften,
+   Fortsetzungswerken mit Abonnementsmanagement
 
-6.  Anlegen und Verwalten von Budgets
+6. Überwachung von Bestellungen
 
-7.  Akzessionierung von Medien
+7. Anlegen und Verwalten von Budgets
 
-8.  Rechnungsverwaltung inkl. Schnittstellen für haushalterische Systeme (E-Rechnungen)
+8. Akzessionierung von Medien
 
-9.  Verwaltung von Bindeaufträgen
+9. Rechnungsverwaltung inkl. Schnittstellen für haushalterische Systeme (E-Rechnungen)
 
-10. Verwaltung von Nicht-Kauf-Beschaffungen
+10. Mahnwesen und Reklamation
+
+11. Verwaltung von Bindeaufträgen
+
+12. Verwaltung von Nicht-Kauf-Beschaffungen
+
+13. [Statistik und Reporting](#statistik-und-reporting)
 
 Diese Aufgaben lassen sich mit den am Markt befindlichen Systemen in der
 Regel gut abbilden. Allerdings werden die meisten Bibliotheken für die
@@ -1070,22 +1072,28 @@ meist nur eine Komponente im Haushaltswesen.
 Für die Verwaltung elektronischer Ressourcen sollten folgende Aufgaben
 unterstützt werden:
 
-1.  Erfassung von Lizenzinformationen nach unterschiedlichen
+1.  Verknüpfungen zur Erwerbung, Haushalt/Budget,  Rechnungswesen und Lieferanten bzw. Plattformbetreibenden
+
+2.  Erfassung von Lizenzinformationen nach unterschiedlichen
     Erwerbungsmodellen wie Pakete, Allianz- oder Nationallizenzen
+    sowohl in maschinenlesbarer Form als auch in Textform und als
+    gesicherte Dokumentenablage für Verträge
 
-2.  Zuordnung von Titeln und digitalen Inhalten zu Paketen
+3.  Zuordnung von Titeln und digitalen Inhalten zu Paketen
 
-3.  Verwaltung von Paketen mit Vergleich, Zugangs- und Abgangskontrolle
+4.  Verwaltung von Paketen mit Vergleich, Zugangs- und Abgangskontrolle
 
-4.  Bezug von bibliografischen Daten von Aggregatoren, Verlagen und Knowledge Bases
+5.  Verwaltung von Lizenzen
 
-5.  Unterstützung der direkten Verlinkung auf Volltexte aus Katalogen
+6.  Bezug von bibliografischen Daten von Aggregatoren, Verlagen und Knowledge Bases
+
+7.  Unterstützung der direkten Verlinkung auf Volltexte aus Katalogen
     und Discovery-Systemen
 
-6.  Auslieferung von aussagekräftigen Zugangsinformationen in Kataloge
+8.  Auslieferung von aussagekräftigen Zugangsinformationen in Kataloge
     und Discovery-Systeme
 
-7.  Unterstützung bei der Bereitstellung von digitalen Inhalten jenseits
+9.  Unterstützung bei der Bereitstellung von digitalen Inhalten jenseits
     von proprietären Apps
 
 Die BMS der 1. und 2. Generation haben erhebliche Defizite bei der
@@ -1093,8 +1101,10 @@ Verwaltung von elektronischen Ressourcen. Die Bereitstellung von
 entsprechenden Funktionalitäten ist daher ein Alleinstellungsmerkmal von
 BMS der neuen Generation.
 
-Alternativ können aber auch separate, sogenannte Electronic Resource
-Management-Tools eingesetzt werden (*Coral*, *GoKb* und *LAS:eR*).
+Zur Bereitstellung von Daten für die Verwaltung von elektronischen Ressourcen
+bieten sich außerdem sogenannte Electronic Resource
+Management-Tools und Datenbanken ("Knowledge Base") wie
+*Coral*, *GOKB* und *LAS:eR* an.
 
 ### Katalogisierung {#katalogisierung-prozess}
 
@@ -1140,20 +1150,11 @@ Anforderungen gestellt:
 9.  Anpassbarkeit der Katalogoberfläche an das Corporate Design (wenigstens
     Logo und Farbschema)
 
-In der Geschichte der BMS war das Katalogmodul eher ein Nebenprodukt der
-Katalogisierungsarbeit. Durch die Veränderungen im Informationsverhalten
-seit Entwicklung des WWW ist insbesondere auf das Katalogmodul ein
-besonderer Innovationsdruck entstanden. Auf diesen Druck haben
-Bibliotheken mit dem Angebot von Discovery-Systemen reagiert, die als
-alternatives Suchinstrument zu den klassischen OPACs aufgebaut
-wurden und neben einem modernen Design auch Suchmaschinen-typische
-Funktionen wie Facettierung oder Unterstützung bei der Formulierung von
-Suchbegriffen bieten. Diese Funktionen sind in den BMS der neuen
-Generation standardmäßig enthalten.
-
-Es entstanden durch den erwähnten Innovationsdruck verschiedene
-Konstrukte, die Daten der Bibliothek den Nutzer\*innen zur Verfügung zu
-stellen:
+Das Katalogmodul als Teil des BMS war zunächst nur ein primär intern genutzes
+Suchinstrument für alle erfassten Bestände. Mit fortschreitender Technik
+entstanden verschiedene Konstrukte, die Daten der Bibliothek auch direkt den
+Nutzer\*innen möglichst mit der Funktionalität eines
+[Discovery-Systems](discovery.md) zur Verfügung zu stellen:
 
 1.  Klassischer Katalog (OPAC) als Bestandteil des BMS
 
@@ -1162,14 +1163,16 @@ stellen:
 
 3.  Discoverysystem als Bestandteil des BMS: Daten aus dem eigenen
     Bestand sowie Fremddaten, die als Metadaten zur Verfügung stehen.
+    Eine Herausforderung besteht hierbei darin dass sich Anforderungen
+    an die Suchoberfläche relativ schnell ändern, so dass die BMS-eigene
+    Suchoberfläche nicht leicht auf dem neuesten Stand erscheint.
 
 4.  Discoverysystem als zugekauftes Modul eines anderen Herstellers oder
     als Eigenbau mit zugekauften Metadaten oder als Open Source mit
-    offenen Daten oder zugekauften Metadaten.
-
-Bei Punkt 4 entsteht die Herausforderung, die im BMS gehosteten
-Informationen, zum Beispiel über den Ausleihstatus/Verfügbarkeit, auch
-in der Oberfläche des Discovery-Systems aktuell darzustellen.
+    offenen Daten oder zugekauften Metadaten. Eine Herausforderung hierbei
+    besteht darin, die im BMS gehosteten Informationen, zum Beispiel über
+    Ausleihstatus und Verfügbarkeit, auch in der Oberfläche des Discovery-System
+    aktuell darzustellen.
 
 ### Ausleihe {#ausleihe-prozess}
 
@@ -1177,32 +1180,33 @@ Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
 
 1.  Anlegen von Benutzergruppen, Standorten, Medienarten
 
-2.  Abbildung der in den Benutzungsordnungen festgelegten
+2.  Import von Benutzerdaten aus Hochschulverwaltungssystemen (IDM) oder Online-Anmeldung
+
+3.  Abbildung der in den Benutzungsordnungen festgelegten
     Ausleihbedingungen, z.B. Leihfristen nach Benutzergruppen,
     Standorten, Medienarten
 
-3.  Verbuchung von Medien (Ausleihe, Rücknahme)
+4.  Verbuchung von Medien (Ausleihe, Rücknahme)
 
-4.  Konfiguration von Ausdrucken für Bestellzettel, Vormerkungen und Mahnungen
+5.  Konfiguration von Ausdrucken für Bestellzettel, Vormerkungen und Mahnungen
 
-5.  Ermöglichen von Bestellungen und Vormerkungen
+6.  Ermöglichen von Bestellungen und Vormerkungen
 
-6.  Mahnwesen (Fristen, Mahnstufen)
+7.  Mahnwesen (Fristen, Mahnstufen)
 
-7.  Benachrichtigungen für Bestellungen, Vormerkungen, Mahnungen,
+8.  Benachrichtigungen für Bestellungen, Vormerkungen, Mahnungen,
     Leihfristerinnerungen
 
-8.  Gebührenverwaltung
+9.  Gebührenverwaltung
 
-9.  Statistik und Reporting, u. a. Erzeugung von Listen (überfällige Medien, nicht abgeholte
+10.  Statistik und Reporting, u. a. Erzeugung von Listen (überfällige Medien, nicht abgeholte
     Vormerkungen)
 
-10. Anbindung an Bezahlsysteme (Kassenautomaten, Online-Bezahlsysteme)
+11. Anbindung an Bezahlsysteme (Kassenautomaten, Online-Bezahlsysteme)
 
-11. Anbindung von Verfügbarkeits- und Kontoinformationen an
-    Discovery-Systeme
+12. Anbindung von Verfügbarkeits- und Kontoinformationen an Discovery-Systeme
 
-12. Anbindung an Automatisierungslösungen und externe Verbuchungssysteme
+13. Anbindung an Automatisierungslösungen und externe Verbuchungssysteme
     (über Schnittstellen wie SIP2 und NCIP und mittels RFID)
 
 Die Parametrisierung der Ausleihe ist ein besonders komplexer Bereich
@@ -1514,7 +1518,8 @@ für das Bestands- und Budgetmanagement der Einrichtung relevant.
 Einige BMS bieten eine integrierte Statistikfunktion an. Andere halten ihre
 Daten in einer Datenbank und diese müssen aktiv exportiert werden.
 Wieder andere bieten entsprechende Schnittstellen, über die statistische
-Daten exportiert werden können.
+Daten exportiert und in geeignete Drittsysteme (im einfachsten Fall eine
+Tabellenkalkulation) übernommen werden können.
 
 Je nach Anforderung an den Umfang und an die Arbeit, die mit
 statistischen Auswertungen erfolgen soll, kann die Entscheidung fallen,
@@ -1522,7 +1527,7 @@ die aus dem BMS kommenden Daten nur in eine Tabellenkalkulation
 zu exportieren, oder eine speziell auf die statistische Datenanalyse
 zugeschnittene Statistik-Software zu nutzen. Hier kommen Softwarelösungen 
 wie Excel, BibControl oder gar komplexe Statistik-Plattformen
-wie SPSS in Frage. BMS wie ExLibris Alma bringen hierbei schon eigene
+wie SPSS in Frage. BMS der neuesten Generation bringen schon eigene
 Statistik-Module mit, die eine externe Lösung optional machen.
 Diese Systeme können automatisiert oder manuell
 [COUNTER](https://www.projectcounter.org/counter-sushi/)-Reports
@@ -1530,7 +1535,13 @@ für statistische Daten zur Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb
 
-Der technische Betrieb eines BMS variiert je nach [Betriebsmodell](management.md#betriebsmodelle) (lokale Installation, gehostete Variante oder Cloud-Dienst). [Kosten](#kosten) entstehen dabei für Lizenz- und Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das [Monitoring](#monitoring) sowie die Aspekte der [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und [Datenschutz](#datenschutz) zu berücksichtigen.
+Der technische Betrieb eines BMS variiert je nach
+[Betriebsmodell](management.md#betriebsmodelle) (lokale Installation, gehostete
+Variante oder Cloud-Dienst). [Kosten](#kosten) entstehen dabei für Lizenz- und
+Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das
+[Monitoring](#monitoring) sowie die Aspekte der
+[IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und
+[Datenschutz](#datenschutz) zu berücksichtigen.
 
 ### Kosten
 
@@ -1684,8 +1695,10 @@ Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
     aktuellen Stand ist, sowohl auf den Arbeitsplatz-PCs als auch den
     Servern.
 
-Allgemein gilt auch immer der Grundsatz: "Bleiben Sie wachsam, in Bezug
-auf ungewöhnliche Ereignisse auf Ihren IT-Systemen".
+Allgemein gelten die im Kapitel [Sicherheit & Datenschutz](sicherheit.md)
+beschriebenen Richtlinien, Maßnahmen und Empfehlungen sowie der Grundsatz:
+"Bleiben Sie wachsam, in Bezug auf ungewöhnliche Ereignisse auf Ihren
+IT-Systemen".
 
 ### Backup und Rollback
 
