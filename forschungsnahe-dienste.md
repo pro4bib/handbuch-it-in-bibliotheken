@@ -527,16 +527,16 @@ B. *Scopus*, *ORCID*) vorgehalten werden, um einen strukturierten und
 aktuellen Überblick über die Forschungsleistungen beispielsweise einer
 Einrichtung, eines (Bundes-)Landes oder einer Fachdisziplin zu gewinnen.
 
-Die genauen Daten, die Nutzung der Daten und der Funktionsumfang eines
-*FIS* sind nicht festgelegt bzw. klar definiert. Verschiedene
-Softwarelösungen verfolgen unterschiedliche Ansätze: Einige legen den
-Schwerpunkt auf die Auffindbarkeit und Verknüpfung von Forschenden,
-andere Systeme haben ihren Schwerpunkt eher auf dem Berichtswesen und
-Monitoring und ggf. darauf basierenden Anreizsystemen. Wieder andere
-Systeme legen den Schwerpunkt darauf, die Forschungsaktivitäten zu
-präsentieren und öffentlichkeitswirksam bereitzustellen. Die Systeme
-passen sich zunehmend aneinander an; oft werden verschiedene Systeme
-aber auch in Kombination miteinander eingesetzt.
+Die genauen Daten, die Nutzung der Daten und der Funktionsumfang eines *FIS*
+sind nicht festgelegt bzw. klar definiert. Verschiedene Softwarelösungen
+verfolgen unterschiedliche Ansätze. Bei einige steht die Auffindbarkeit von
+Forschungsergebnissen und deren Verknüpfung mit den Forschenden im Vordergrund,
+andere Systeme fokussieren  eher auf dem Berichtswesen und Monitoring und ggf.
+darauf aufbauende Anreizsysteme. Wiederum andere Systeme legen den Schwerpunkt
+auf die Präsentation der Forschungsaktivitäten  und deren
+öffentlichkeitswirksamen Bereitstellung . Die Systeme passen sich zunehmend
+aneinander an bzw. werden die Funktionen immer häufiger  in einem System
+kombiniert.
 
 *FIS* sollten von Anfang an als Daueraufgabe einer Einrichtung betrachtet
 und entsprechende finanzielle und personelle Ressourcen eingeplant
@@ -614,7 +614,7 @@ Um eine Interoperabilität der unterschiedlichen Systeme und eine gute
 Auffindbarkeit der enthaltenen Ressourcen zu ermöglichen, ist eine
 Standardisierung notwendig - z. B. über Zertifikate, Metadatenstandards
 und Schnittstellen. Die in diesem Zusammenhang wichtigen Grundlagen
-werden im folgenden Kapitel erläutert.
+werden in den folgenden Abschnitten erläutert.
 
 ## Gemeinsame Ressourcen
 
@@ -622,9 +622,9 @@ werden im folgenden Kapitel erläutert.
 
 Forschungsnahe Dienste bewegen sich an der Schnittstelle
 zwischen Wissenschaft und Infrastruktureinrichtungen, welche die Dienste
-betreiben. Zertifikate erfüllen in diesem Spannungsfeld verschiedene
-Funktionen. Sie waren als Vertrauen gebende Maßnahmen gedacht, die
-Qualitätsmerkmale der Dienstleistungen sein sollten. Das
+betreiben. Zertifikate erfüllen in diesem Zusammenhang verschiedene
+Funktionen. Sie sind als vertrauensbildende Maßnahmen gedacht, die
+Qualitätsmerkmale der Dienstleistungen sein sollen. Das
 *[DINI-Zertifikat für Open-Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)*
 versteht sich seit jeher auch als Ratgeber bei Einrichtung,
 Weiterentwicklung und Betrieb solcher Dienstleistungen, der "Maßstäbe,
@@ -648,23 +648,23 @@ zu nutzen; sowohl beim Aufbau neuer Dienste als auch zur regelmäßigen
 Optionen eigene Dienste weiterzuentwickeln.
 
 Schon im *[Bethesda Statement on Open Access
-Publishing](http://legacy.earlham.edu/~peters/fos/bethesda.htm)*
-taucht das Stichwort Interoperabilität in Zusammenhang mit Repositorien
-auf. Dazu gibt es verschiedene technische Ansätze (siehe u. a.
-unten "[Schnittstellen](#schnittstellen)"). Neben den technischen Voraussetzungen, um
-Inhalte zu teilen, braucht es jedoch auch eine Einigung über die
-inhaltliche Aufbereitung der Informationen. Repositorien nutzen dazu
-strukturierte Metadaten. Für die Bezeichnung von Dokumententypen haben
-die DINI AG Elektronisches Publizieren und die DINI AG
-Forschungsinformationssysteme das *[Gemeinsame Vokabular für
-Publikations- und Dokumenttypen](https://doi.org/10.18452/24147)*
-herausgegeben. Im Sinne der Standardisierung enthält das DINI-Zertifikat
-weitere Vorgaben, wie z. B. die Klassifizierung nach zumindest
-den Dewey-Dezimalklassifikations-Sachgruppen (*DDC*) der Deutschen Nationalbibliografie und macht
-Vorgaben an die Ausgestaltung der *OAI-PMH*-Schnittstelle. Diese Standards
-ermöglichen es Diensten wie z. B. der *Bielefeld Academic Search
-Engine* und anderen Aggregatoren Inhalte aus verschiedenen Quellen
-einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
+Publishing](http://legacy.earlham.edu/~peters/fos/bethesda.htm)* taucht das
+Stichwort Interoperabilität in Zusammenhang mit Repositorien auf. Dazu gibt es
+verschiedene technische Ansätze (siehe u. a. unten
+"[Schnittstellen](#schnittstellen)"). Neben den technischen Voraussetzungen, um
+Inhalte zu teilen, braucht es jedoch auch eine Einigung über die inhaltliche
+Aufbereitung der Informationen. Repositorien nutzen dazu strukturierte
+Metadaten. Für die Bezeichnung von Dokumententypen haben die DINI AG
+Elektronisches Publizieren und die DINI AG Forschungsinformationssysteme das
+*[Gemeinsame Vokabular für Publikations- und
+Dokumenttypen](https://doi.org/10.18452/24147)* herausgegeben. Im Sinne der
+Standardisierung enthält das DINI-Zertifikat weitere Vorgaben, wie z. B. die
+Klassifizierung nach zumindest den Dewey-Dezimalklassifikations-Sachgruppen
+(*DDC*) der Deutschen Nationalbibliografie und macht Vorgaben an die
+Ausgestaltung des Open Archives Initiative Protocol for Metadata Harvesting
+(*OAI-PMH*). Diese Standards ermöglichen es Diensten wie z. B. der *Bielefeld
+Academic Search Engine* und anderen Aggregatoren Inhalte aus verschiedenen
+Quellen einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 
 ### Metadaten
 
@@ -690,19 +690,19 @@ und [format.gbv.de](https://format.gbv.de/).
 
 ### Persistent Identifier
 
-Mit dem Aufkommen elektronischer Archive kam die Frage nach der
-Zitierbarkeit auf. Auch wenn die technischen Protokolle, auf denen das
-Internet basiert, sowohl in DNS als auch http(s) Mechanismen enthalten,
-um URLs weiterzuleiten, bekamen URLs schnell den Ruf, flüchtig zu sein.
-Auch wenn URLs, die nicht mehr oder auf andere Inhalte auflösen, immer
-auf Managementprobleme zurückgehen, wurden *Persistent Identifier*-Systeme
+Mit dem Aufkommen elektronischer Archive kam die Frage nach der Zitierbarkeit
+auf. Auch wenn die technischen Protokolle, auf denen das Internet basiert,
+sowohl im Domain Name System (*DNS*) als auch http(s) Mechanismen enthalten, um
+URLs weiterzuleiten, bekamen URLs schnell den Ruf, flüchtig zu sein. Auch wenn
+URLs, die nicht mehr oder auf andere Inhalte auflösen, immer auf
+Managementprobleme zurückgehen, wurden *Persistent Identifier*-Systeme
 geschaffen, welche diese Probleme beim Zitieren elektronischer Quellen
-überwinden sollen. Dabei werden IDs geschaffen, die über einen
-sogenannten Resolver aufgelöst werden können. Der Resolver ist
-vergleichbar mit einem Melderegister: Man kann nach der aktuellen
-Adresse einer ID fragen und erhält die jeweils aktuelle URL zurück,
-unter der sich die Ressourcen befinden sollen. Die Antworten können also
-zu unterschiedlichen Zeitpunkten unterschiedlich ausfallen.
+überwinden sollen. Dabei werden IDs geschaffen, die über einen sogenannten
+Resolver aufgelöst werden können. Der Resolver ist vergleichbar mit einem
+Melderegister: Man kann nach der aktuellen Adresse einer ID fragen und erhält
+die jeweils aktuelle URL zurück, unter der sich die Ressourcen befinden sollen.
+Die Antworten können also zu unterschiedlichen Zeitpunkten unterschiedlich
+ausfallen.
 
 Während die Deutsche Nationalbibliothek (DNB) bis heute auf URN:NBN als
 *Persistent Identifier* (*PID*) setzt, haben sich im wissenschaftlichen Umfeld

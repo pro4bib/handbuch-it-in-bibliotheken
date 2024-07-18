@@ -30,6 +30,9 @@ glossary:
     url: https://forschungsdaten.info/themen/informieren-und-planen/datenmanagementplan/
     definition: Datenmanagementplan
     
+  DNS:
+    definition: Domain Name System. Auflösung von Server-Namen zu IP-Adressen
+
   DOI:
     url: https://de.wikipedia.org/wiki/Digital_Object_Identifier
     definition: Digital Object Identifier, eindeutiger und dauerhafter digitaler Identifikator für Objekte
@@ -111,6 +114,10 @@ glossary:
   NFDI:
     url: https://www.nfdi.de/
     definition: Nationale Forschungsdateninfrastruktur
+
+  OAI-PMH:
+    url: https://www.openarchives.org/pmh/
+    definition: Open Archives Initiative Protocol for Metadata Harvesting
 
   OCR:
     definition: Automatische Erkennung von Texten in Bildern (Optical Character Recognition)
