@@ -1247,9 +1247,9 @@ arbeiten und die anwesenden Personen nicht benachteiligen möchte.
 Dienstlich genutzte Dateien sollten an zentraler Stelle abgelegt werden, damit
 sie in eine Backup-Lösung eingeschlossen werden können und damit die
 Möglichkeit besteht, sie mit anderen Menschen auszutauschen.  Entweder wird
-dazu ein klassischer Fileserver wie zum Beispiel *Windows Server* genutzt, oder
-es kommt eine [Cloudlösung](#echtzeit-kollaboration) wie *Nextcloud* zum
-Einsatz. Zusätzlich oder alternativ kann ein
+dazu als Netzlaufwerk ein klassischer Fileserver wie zum Beispiel *Windows
+Server* genutzt, oder es kommt eine [Cloudlösung](#echtzeit-kollaboration) wie
+*Nextcloud* zum Einsatz. Zusätzlich oder alternativ kann ein
 [Dokumentenmanagementsystem](#dokumentenmanagementsysteme) genutzt werden.
 
 ### Dokumentenmanagementsystem (DMS) {#dokumentenmanagementsysteme}

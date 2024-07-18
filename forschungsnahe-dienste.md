@@ -37,18 +37,18 @@ digitalem Wandel und Open Science angesiedelt sind
 Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
-Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die
-unter Open-Access-Bedingungen zweitveröffentlicht werden dürfen, gehören
-schon seit Jahrzehnten zum Dienstleistungsrepertoire wissenschaftlicher
-Bibliotheken. Inzwischen betreiben größere Einrichtungen zudem oft
-spezialisierte Repositorien für ein Spektrum verschiedener Objekttypen:
-Publikationen wie Zeitschriften, Monografien und Sammelbände, sowie Open Educational Resources (OER),
-Forschungsdaten, Forschungssoftware und mehr. Dazu gehören auch diverse
-Dienste, die übergreifend den Forschungsoutput bestimmter lokaler oder
-fachlicher Forschungscommunities besser auffindbar oder messbar machen
-sollen. Darunter fallen Forschungsinformationssysteme und Dienstleistungen im
-Bereich von Metriken oder zur Verwaltung von
-Artikelveröffentlichungsgebühren in Open-Access-Journals (*APCs*).
+Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die unter
+Open-Access-Bedingungen zweitveröffentlicht werden dürfen, gehören schon seit
+Jahrzehnten zum Dienstleistungsrepertoire wissenschaftlicher Bibliotheken.
+Inzwischen betreiben größere Einrichtungen zudem oft spezialisierte
+Repositorien für ein Spektrum verschiedener Objekttypen: Publikationen wie
+Zeitschriften, Monografien und Sammelbände, sowie Open Educational Resources
+(*OER*), Forschungsdaten, Forschungssoftware und mehr. Dazu gehören auch
+diverse Dienste, die übergreifend den Forschungsoutput bestimmter lokaler oder
+fachlicher Forschungscommunities besser auffindbar oder messbar machen sollen.
+Darunter fallen Forschungsinformationssysteme und Dienstleistungen im Bereich
+von Metriken oder zur Verwaltung von Artikelveröffentlichungsgebühren in
+Open-Access-Journals (*APCs*).
 
 ::: {.callout-important}
 ## Definition

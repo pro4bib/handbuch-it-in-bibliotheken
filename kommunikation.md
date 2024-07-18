@@ -376,6 +376,241 @@ Plattformen und Kanäle sollten regelmäßig evaluiert werden, um
 festzustellen, ob die Zielgruppe über diesen Weg tatsächlich erreicht
 wird.
 
+## Werkzeuge
+
+Der bekannte Sinnspruch "Wer als Werkzeug nur einen Hammer hat, sieht in
+jedem Problem einen Nagel" gilt auch im digitalen Raum. Die
+Positionierung zwischen den Extremen "wir bilden alles über das
+Dateisystem ab" (ich habe nur einen Hammer) und "wir haben für jede
+Anforderung ein spezialisiertes Werkzeug" (man schleppt einen großen
+Werkzeugkasten durch die Gegend) ist alles andere als trivial.
+
+Einen ersten Überblick bietet dieses Schaubild, was die populären
+Werkzeuge entlang der Achsen Intern/Extern sowie Solitär/Kollaborativ
+positioniert:
+
+![Quadrantenmodell von Kommunikations-Werkzeugen](media/tools.svg)
+
+Im Folgenden werden die grundlegenden Funktionen und Werkzeuge kurz beschrieben:
+
+### Kommunikation
+
+Synchrone und asynchrone Kommunikation sind zwei verschiedene Ansätze
+für den Informationsaustausch, die jeweils ihre eigenen Vorteile und
+Anwendungsgebiete haben. Bei synchroner Kommunikation tauschen die
+Kommunikationspartner\*innen Informationen in Echtzeit aus. Sie erlaubt
+sofortiges Feedback, d.h. Fragen können direkt gestellt und beantwortet
+werden. Es müssen allerdings beide Parteien gleichzeitig verfügbar sein.
+Das kann zu Ablenkungen bzw. Druck führen, da eine sofortige Reaktion
+erwartet wird. Bei asynchroner Kommunikation findet der
+Informationsaustausch zeitlich versetzt statt. Eine Person sendet
+eine Nachricht und die andere antwortet, wenn es passt. Die
+Kommunikationspartner\*innen sind also nicht an eine gemeinsame Zeit gebunden.
+Das ermöglicht eine größere Flexibilität in der Zeitplanung und eröffnet
+die Möglichkeit zur gründlichen Reflexion vor einer Antwort. Es ist
+außerdem oft weniger störend für den Arbeitsfluss. Allerdings kann
+asynchrone Kommunikation zu Verzögerungen und fehlendes sofortiges
+Feedback zu Missverständnissen führen.
+
+- **Telefon** ist das klassische Medium mit synchroner 1-zu-1 Kommunikation für
+  schnelle Absprachen; mittlerweile durch die Verbreitung von Videokonferenzen,
+  Chat etc. in der internen Kommunikation eher in den Hintergrund geraten.
+  Mit Voice-over-IP und Weiterleitungen können Telefonnummern auch
+  standortunabhängig genutzt werden.
+
+- **E-Mail** ist ein Kommunikationsmedium, welches in den
+  meisten Fällen vom Anbieter der IT-Infrastruktur angeboten wird.
+  Ideal ist der Zugang per IMAP/SMTP und nicht nur über proprietäre
+  Protokolle, sodass beliebige Clients genutzt werden können.
+
+  Ursprünglich als elektronische Variante des Briefes
+  für die asynchrone 1-zu-1 Kommunikation entwickelt, wird E-Mail
+  auch häufig für die Gruppenkommunikation zweckentfremdet und
+  teilweise synchron verstanden wenn eine sofortige Antwort erwartet wird.
+  Für beide Einsatzszenarien gibt es bessere Alternativen.
+
+-  **Videokonferenzsysteme** gibt es als eigenständige Tools oder die
+   Videofunktion ist in andere Werkzeuge integriert. Kommerzielle Beispiele
+   sind Microsoft Teams, Webex und Zoom. Daneben stehen freie Alternativen wie
+   [jitsi](https://jitsi.org/) und [DFNconf](https://www.conf.dfn.de/) zur
+   Verfügung.
+
+   Um Besprechungsräume so auszustatten, dass Menschen auch per Videokonferenz
+   teilnehmen können, ist
+   technische Infrastruktur erforderlich. Die Anwesenden müssen für die
+   Anwesenden sichtbar und hörbar sein, ohne dass die Anwesenden Headsets
+   tragen müssen. Dies erreicht man mit einer Art überdimensionaler
+   Webcam, die automatisch auf die sprechende Person fokussieren und im
+   Idealfall auch Störgeräusche (Echos, Rauschen, Rascheln) ausblenden.
+   Die gängigen Systeme im knapp vierstelligen Eurobereich genügen für
+   Konferenzen mit bis zu sechs anwesenden Personen um einen Tisch herum.
+   Sind mehr Personen anwesend, steigt der technische Aufwand stark an,
+   wenn man häufig hybrid arbeiten möchte und die anwesenden Personen
+   nicht benachteiligen möchte.
+
+- **Chat** kann als synchrone und asynchrone Kommunikation 1-zu-1 und
+  in Teams sowohl in der externen als auch in der internen Kommunikation
+  verwendet werden:
+
+  Chats können in Bibliothekswebsiten (Homepage, OPAC) ohne großen Aufwand
+  integriert werden. Die Nutzung ist anonym oder unter Angabe
+  von personenbezogenen Daten (z. B. E-Mail-Adresse) möglich.
+  Chat-Anfragen werden zentral bearbeitet und können bei Bedarf
+  weitergegeben werden. Ein Pool von Mitarbeitenden kann sich
+  anmelden, die Anfragen werden vom System auf die
+  Mitarbeitenden verteilt. Steht kein Mitarbeitender zur
+  Verfügung, leitet die Software z. B. auf ein Mailformular um.
+  Je nach Verwendung ist der Abschluss eines Vertrages zur
+  Auftragsverarbeitung mit dem Anbieter notwendig. Chat-Systeme
+  werden i.d.R. als *SaaS*-Lösung angeboten
+
+  Chats zwischen Mitarbeiter\*innen dienen der niedrigschwelligen
+  Kommunikation, oft als Alternative zu Telefon und E-Mail.
+  Gruppenchats in Abteilungen können für einfache Fragen und
+  Absprachen genutzt werden und Menschen, die mobil arbeiten,
+  können mit einem Chatsystem besser integriert werden. Die
+  Nutzung von kommerziellen Systemen, die noch dazu außerhalb
+  von Europa gehostet werden, ist aus Datenschutzgründen nur in
+  Ausnahmefällen zulässig (WhatsApp, Slack ...).
+  Eine Alternative für Bibliotheken mit IT-Abteilung oder
+  Rechenzentrum-Unterstützung ist die Nutzung von Open-Source-Software wie
+  [mibew.org](https://mibew.org/) oder
+  [rocket.chat](https://www.rocket.chat/secure-messaging-platform)
+  die selbst betrieben werden können.
+
+  Chat ist häufig Bestandteil von integrierten Webkonferenz- und Kommunikationsplattformen.
+  Auch ein Forensystem wie Discourse bietet eine
+  Chat-Komponente, sodass ernsthaft abgewogen werden sollte, ob es
+  wirklich eine dezidierte Chat-Lösung braucht.
+
+- **Videokonferenzsysteme** gibt es als eigenständige Tools, ein kommerzielles
+  Beispiel ist Zoom. Daneben stehen freie Alternativen wie
+  [jitsi](https://jitsi.org/) und [DFN conf](https://www.conf.dfn.de/) zur
+  Verfügung. Eine Chatfunktion während der laufenden Konferenz ist dabei
+  standardmäßig integriert, häufig können auch eine Umfragen benutzt werden.
+
+- **Integrierte Webkonferenz- und Kommunikationsplattformen** kombinieren
+  Videokonferenzen mit verschiedenen anderen Kommunikationslösungen. Die
+  kommerziellen Tools Microsoft Teams und Cisco Webex integrieren Chatlösungen,
+  auch außerhalb von Videokonferenzen,  für Gruppen und Einzelpersonen. Vor allem
+  im Bildungsbereich wird die Open Source-Plattform BigBlueButton verwendet, die
+  Präsentationen sowie Lern- und Inhaltsverwaltungssysteme. [Mattermost](https://mattermost.com/)
+  ist ein weiteres Open Source-Beispiel, das viele verschiedenen Kommunikationswege
+  vereint und auch Plugins für viele andere Werkzeuge bereitstellt, um eine
+  All-In-One Lösung für Kollaborationen zu sein.
+
+Je technisch anspruchsvoller die Kommunikationswerkzeuge werden, um so mehr
+muss darauf geachtet werden, die gleichberechtige Teilnahme aller
+Kommunikationspartner*innen zu ermöglichen (siehe [Kapitel
+Infrastruktur](#werkzeuge-zur-kommunikation)).
+
+### Contenterstellung
+
+Unter Contenterstellung versteht man das Produzieren von Inhalten
+(Informationen, Werbung, ...) in unterschiedlichen Medienarten und für
+unterschiedliche Kanäle.  Mit Content wird immer eine bestimmte Zielgruppe
+angesprochen. Inhalte sind zu [planen](#redaktion), zu erstellen und zu
+veröffentlichen.
+
+-   **Bild-/Grafikbearbeitung:** dient der Nachbearbeitung von
+    Bilddateien (Schärfen, Farben, Dateigröße, Belichtung, Kontraste)
+
+    - Bildbearbeitungs-Software z.B. *Affinity Photo*, *Adobe Photoshop*, *Canva*
+    - freie Bilddatenbanken z.B. *Pixabay*, *CC-Search*
+    - Grafikdesign z.B. *[Canva](https://www.canva.com/de_de/)*
+
+-   **Audiobearbeitung:** hilft beim Schnitt von Audiodateien und dient
+    der Klangoptimierung mit Effekten wie Equalizer, Kompressor oder
+    Hall
+
+    - Audiobearbeitungs-Software z.B. *[Audacity](https://www.audacity.de/)*
+    - Professionelle Podcast-Produktion z.B. *[Ultraschall](https://ultraschall.fm/)*
+
+-   Mit einer **Aufnahmesoftware** wird Videomaterial über Kameras aufgenommen
+    oder zu Bildschirmaufzeichnungen (Screencasts) gemacht. Je nach
+    Aufnahmegerät wird der Ton gleichzeitig aufgenommen oder muss separat
+    eingespielt werden. Beispiele für Screencast-Software sind 
+    *Camtasia*, *Screenflow* und *[OBS](https://obsproject.com/de)*.
+    OBS kann zudem verwendet werden, um Inhalte auf Videoplattformen zu streamen.
+
+-   Zur Nachbearbeitung von Roh-Videomaterial gibt es spezielle
+    **Videobearbeitungssoftware**, die Video- und Tonspuren zusammenführen können. Beim
+    Videoschnitt können verschiedene Sequenzen aus Quellmaterialien
+    aneinandergereiht werden. Ebenso sind Veränderungen durch Filter oder
+    Zusammenführen von verschiedenen Bild- und Videoaufnahmen möglich. In der Regel
+    bieten die Tools diverse Exportmöglichkeiten in verschiedenen Qualitäten und
+    Formaten. Beispiele für Bearbeitungssoftware sind *DaVinci Resolve*,
+    *Camtasia* und *SimpleShow*. Letzteres dient insbesondere zur Erstellung von
+    Lernvideos mit einzelnen Folien, auf denen ein Skript anhand von Schlagwörtern
+    von der Software mit einfachen Grafiken illustriert wird. 
+
+-   **Hardware**: Bei der Anschaffung von Hardware für Video- oder
+    Podcastsaufnahmen sowie die Erstellung von Video-Tutorials in Bibliotheken ist es wichtig,
+    Qualität und Funktionalität im Auge zu behalten. Mit der richtigen
+    Ausrüstung können Bibliotheken professionelle Ergebnisse erzielen.
+    Die Anschaffung muss dabei nicht zwangsläufig teuer sein. Es lohnt
+    sich immer, in eine hochauflösende externe Kamera zu investieren.
+    Auch ein qualitativ hochwertiges Mikrofon bzw. Headset ist
+    unerlässlich für einen überzeugenden Klang. Die in Standard-Laptops
+    integrierten Kameras und Mikrofone genügen üblicherweise nicht, um
+    eine halbwegs professionelle Ton- und Bildqualität zu
+    erzeugen. Bei geringem Budget ist
+    die Hardware in einem guten Smartphone besser geeignet.
+    Hilfestellung - für nahezu jeden Budgetrahmen - erhält man etwa im
+    Podcast-Forum *[Sendegate](https://sendegate.de)* oder
+    im [Wiki des Netzwerkes "Tutorials in Bibliotheken"](https://bibtutorials.miraheze.org/wiki/Hauptseite#Technik)
+
+-   **Umfragen/Abstimmungen:** können mittels verschiedener Tools erstellt 
+    und direkt online veröffentlicht werden
+    (z.B. mit *SurveyMonkey*, *Limesurvey*, *Mentimeter*, *Lamapoll*).
+    
+-   **E-Learning-Software:** dient der Erstellung von Lernformen, die
+    durch elektronische, technische oder digitale Medien unterstützt
+    werden (z.B. *Capterra* und *Moodle*). Die Inhalte können auch als
+    eigenständige Open Education Ressources (*OER*) publiziert und
+    nachgenutzt werden.
+
+-   **Gamification:** ist die Anwendung spielerischer Elemente im spielfremden Kontext.
+    So können beispielsweise mit [*Actionbounds*](https://de.actionbound.com/)
+    Multimedia-Guide für interaktive Stadtralleys und
+    Handy-Schnitzeljagden auch für den Bibliothekskontext erstellt werden.
+    Eine spielbasierte Lernplattform für Quizze ist [*Kahoot*](https://kahoot.com/).
+
+### Echtzeit-Kollaboration
+
+Kollaborative Online-Tools ermöglichen es Teams, in Echtzeit an
+Dokumenten, Tabellen und Präsentationen zu arbeiten und diese gemeinsam
+zu nutzen. Sie können die Zusammenarbeit innerhalb einer Bibliothek (und
+darüber hinaus) deutlich beflügeln und effizienter gestalten. Dies gilt
+insbesondere, wenn man es mit dem oftmals mühsamen Zusammenführen von
+Dokumentversionen, die in klassischen Office-Lösungen in Einzelarbeit
+entstanden sind, vergleicht. Das Spektrum reicht dabei vom digitalen
+Notizzettel bis zum gemeinsam erarbeiteten Förderantrag, vom
+Brainstorming bis zur fertig ausgearbeiteten Präsentation.
+
+-   Für den ad hoc Einsatz bietet sich *HedgeDoc* als Open-Source-Tool für
+    kollaboratives Schreiben in Echtzeit mit Markdown-Unterstützung an.
+
+-   Für die gemeinsame Bearbeitung von klassischen Office-Formaten sind
+    *OnlyOffice* und *Collabora* veritable Alternativen zu *Google Docs*, insbesondere
+    unter Gesichtspunkten der [digitalen Souveränität](#digitale-souveränität).
+
+-   Cloudspeicher sind die zeitgemäße Variante von [Netzwerklaufwerken](#fileservices) z. B.
+    [*Nextcloud*](https://nextcloud.com/) bzw. [*ownCloud*](https://owncloud.com/de/) die
+    gut mit *OnlyOffice* und *Collabora* zusammenspielen.
+
+-   Online-Whiteboards sind digitale Tools, die ein traditionelles
+    physisches Whiteboard simulieren. Sie ermöglichen es, in Echtzeit
+    gemeinsam zu brainstormen, indem etwa Post-Its in den virtuellen
+    Raum geklebt werden, aber auch um zu zeichnen und multimediale
+    Inhalte zu integrieren. Damit eignen sie sich gut sowohl für die
+    kreative Zusammenarbeit innerhalb der Bibliothek als auch für die
+    Durchführung von Workshops und anderen Formaten mit Nutzenden.
+    Verbreitet sind
+    *[Conceptboard](https://conceptboard.com/de/)*
+    und *[miro](https://miro.com/)*,
+    ernstzunehmende offene Alternativen gibt es leider noch nicht.
+
 ## Kanäle
 
 Es gibt verschiedene Online-Kanäle, mit Hilfe derer man die Nutzenden
@@ -520,26 +755,20 @@ aus dem Bibliotheksbereich sind
 fachliches Forum für Austausch zu Metadaten und andere bibliothekarische
 IT-Themen ist [metadaten.community](https://metadaten.community/).
 
-### Offene Schnittstellen
+### Offene Schnittstellen und Daten
 
-Offene Daten verändern Wissens- und Wissenschaftskommunikation in
-Bibliotheken. Dies umfasst Daten digitalisierter Werke wie auch deren
-ggf. offene Metadaten. Diese Daten können in neuen digitalen
-Publikationen und Social Media im Detail verknüpft werden -- als Zitate,
-Referenzen, Linkkontexte im Inhalt sowie auf der Metaebene in Metadaten
-einer Publikation. Offene Zitationsdaten ermöglichen bibliografische
-Analysen und Datenvisualisierungen, die selbst als Gegenstand in der
-internen und externen Wissenschaftskommunkation genutzt werden können.
-Dabei ermöglichen offene Werkzeuge wie Wikidata gewissermaßen eine
-'Demokratisierung' der Metadatenproduktion und -pflege unabhängig bzw.
-in Ergänzung zu traditionellen Bibliothekssystemen. Wikidata fungiert
-dabei zudem als 'Linked-Open-Data'-Knoten (Datenhub) für Identifikatoren
-verschiedener Datenquellen, die jeweils identische Entitäten beschreiben
-(GND, PPN ...).
-
-RSS-Feeds (Rich Site Summary) sind Dateiformate für Web-Feeds. Nach dem
-Abonnieren werden Änderungen von Webseiten, Blogs, Foren usw. im
-Feed-Reader angezeigt.
+Offene Daten verändern die Wissens- und Wissenschaftskommunikation auch in
+Bibliotheken. Frei lizensierte und ggf. über [Schnittstellen](#schnittstellen)
+wie *RSS* und ActivityPub (Fediverse) bereitgestellte Daten können verbreitet und
+in neuen digitalen Publikationen und Social Media verknüpft werden.  Offene
+Zitationsdaten ermöglichen bibliografische Analysen und Datenvisualisierungen,
+die selbst als Gegenstand in der internen und externen
+Wissenschaftskommunkation genutzt werden können.  Dabei ermöglichen offene
+Werkzeuge wie Wikidata gewissermaßen eine "Demokratisierung" der
+Metadatenproduktion und -pflege unabhängig bzw.  in Ergänzung zu traditionellen
+Bibliothekssystemen. Wikidata fungiert dabei zudem als
+"Linked-Open-Data"-Knoten (Datenhub) für Identifikatoren verschiedener
+Datenquellen, die jeweils identische Entitäten beschreiben.
 
 ### Digitale Anzeigen/Poster
 
@@ -552,28 +781,34 @@ Veranstaltungen anzeigen. Beispiele sind Infotafeln und Wegweiser.
 Ein Wiki ist eine webbasierte Sammlung von Informationen, Artikeln oder
 Beiträgen zu bestimmten Themen. Diese können von Nutzenden selbst
 bearbeitet werden. Es kann frei im Internet oder nur für einen
-festgelegten Nutzerkreis (Mitarbeitende) verfügbar sein. (Bsp: PmWiki,
-Confluence ...)
+festgelegten Nutzerkreis (z.B. Mitarbeitende) verfügbar sein. Verbreitete
+Beispiele für Wiki-Software sind MediaWiki, PmWiki, Xwiki und Confluence.
 
 ### Social Intranet
 
-Bei der Vielzahl der oben genannten Kanäle und Werkzeuge besteht die
+Bei der Vielzahl vorhandener Werkzeuge und Methoden besteht die
 Gefahr, nach und nach eine immer weiter fragmentierte Softwarelandschaft
 zu erzeugen mit entsprechend hohen Anforderungen an Betrieb,
 Dokumentation und Schulungen. Ein sinnvoller Ansatz ist es deshalb,
 zunächst das Verhältnis der verschiedenen Lösungen auf konzeptioneller
 Ebene klar festzulegen, um Redundanzen zu vermeiden. Dieses Konzept kann
 sich, soweit möglich, aber auch in einer technisch integrierten Lösung
-für möglichst viele der genannten Aspekte widerspiegeln: einem Social
-Intranet.
+für möglichst viele der genannten Aspekte widerspiegeln: einem so genannten
+Social Intranet einem typischen internen 
+[Infrastruktur-Angebot](infrastruktur.md#social-intranet).
 
-Ein Social Intranet ist ein internes, web-basiertes Netzwerk, das
+:::{.callout-tip}
+## Info
+Ein **Social Intranet** ist ein internes, web-basiertes Netzwerk, das
 speziell darauf ausgelegt ist, die Kommunikation, Zusammenarbeit und
 Informationsverbreitung innerhalb einer Organisation zu fördern. Es
 kombiniert die klassische Funktion eines Intranets, die
 Informationserstellung und -bereitstellung, mit eher sozialen,
 kommunikativen Funktionen und ermöglicht den Mitarbeitenden so den
-einfachen Austausch von Informationen und Ideen. Ein gut geplantes und
+einfachen Austausch von Informationen und Ideen.
+:::
+
+Ein gut geplantes und
 eingerichtetes Social Intranet ist in der Lage, die meisten der oben
 genannten Aspekte und Ideen abzudecken. Nicht immer in der vollen
 Funktionstiefe, dafür aber in einer einheitlichen, gut nutz- und
@@ -582,7 +817,7 @@ Features wie eine Volltextsuche über alle Materialien wird problemlos
 möglich.
 
 Um im Bild vom Anfang des Kapitels zu bleiben: ein Social Intranet ist
-weder ein Hammer, noch ein schwerer Werkzeugkasten, sondern am ehesten
+weder ein Hammer noch ein schwerer Werkzeugkasten, sondern am ehesten
 ein Schweizer Taschenmesser.
 
 Kern der Idee eines Social Intranets ist, dass neben Dokumenten die
@@ -593,254 +828,6 @@ sozialen Features, die themenspezifischen Diskussionsräume oder die
 Informationsbereitstellung im Vordergrund stehen, bieten sich zur
 Implementierung Wiki-Software (etwa: Confluence, kommerziell) oder
 Foren-Software (etwa: Discourse, Open Source) an.
-
-
-## Werkzeuge
-
-Der bekannte Sinnspruch "Wer als Werkzeug nur einen Hammer hat, sieht in
-jedem Problem einen Nagel" gilt auch im digitalen Raum. Die
-Positionierung zwischen den Extremen "wir bilden alles über das
-Dateisystem ab" (ich habe nur einen Hammer) und "wir haben für jede
-Anforderung ein spezialisiertes Werkzeug" (man schleppt einen großen
-Werkzeugkasten durch die Gegend) ist alles andere als trivial.
-
-Einen ersten Überblick bietet dieses Schaubild, was die populären
-Werkzeuge entlang der Achsen Intern/Extern sowie Solitär/Kollaborativ
-positioniert:
-
-![Quadrantenmodell von Kommunikations-Werkzeugen](media/tools.svg)
-
-Im Folgenden werden die grundlegenden Funktionen und Werkzeuge kurz beschrieben:
-
-### Kommunikation
-
-Synchrone und asynchrone Kommunikation sind zwei verschiedene Ansätze
-für den Informationsaustausch, die jeweils ihre eigenen Vorteile und
-Anwendungsgebiete haben. Bei synchroner Kommunikation tauschen die
-Kommunikationspartner\*innen Informationen in Echtzeit aus. Sie erlaubt
-sofortiges Feedback, d.h. Fragen können direkt gestellt und beantwortet
-werden. Es müssen allerdings beide Parteien gleichzeitig verfügbar sein.
-Das kann zu Ablenkungen bzw. Druck führen, da eine sofortige Reaktion
-erwartet wird. Bei asynchroner Kommunikation findet der
-Informationsaustausch zeitlich versetzt statt. Eine Person sendet
-eine Nachricht und die andere antwortet, wenn es passt. Die
-Kommunikationspartner\*innen sind also nicht an eine gemeinsame Zeit gebunden.
-Das ermöglicht eine größere Flexibilität in der Zeitplanung und eröffnet
-die Möglichkeit zur gründlichen Reflexion vor einer Antwort. Es ist
-außerdem oft weniger störend für den Arbeitsfluss. Allerdings kann
-asynchrone Kommunikation zu Verzögerungen und fehlendes sofortiges
-Feedback zu Missverständnissen führen.
-
-- **Telefon** ist das klassische Medium mit synchroner 1-zu-1 Kommunikation für
-  schnelle Absprachen; mittlerweile durch die Verbreitung von Videokonferenzen,
-  Chat etc. in der internen Kommunikation eher in den Hintergrund geraten.
-  Mit Voice-over-IP und Weiterleitungen können Telefonnummern auch
-  standortunabhängig genutzt werden.
-
-- **E-Mail** ist ein Kommunikationsmedium, welches in den
-  meisten Fällen vom Anbieter der IT-Infrastruktur angeboten wird.
-  Ideal ist der Zugang per IMAP/SMTP und nicht nur über proprietäre
-  Protokolle, sodass beliebige Clients genutzt werden können.
-
-  Ursprünglich als elektronische Variante des Briefes
-  für die asynchrone 1-zu-1 Kommunikation entwickelt, wird E-Mail
-  auch häufig für die Gruppenkommunikation zweckentfremdet und
-  teilweise synchron verstanden wenn eine sofortige Antwort erwartet wird.
-  Für beide Einsatzszenarien gibt es bessere Alternativen.
-
--  **Videokonferenzsysteme** gibt es als eigenständige Tools oder die
-   Videofunktion ist in andere Werkzeuge integriert. Kommerzielle Beispiele
-   sind Microsoft Teams, Webex und Zoom. Daneben stehen freie Alternativen wie
-   [jitsi](https://jitsi.org/) und [DFNconf](https://www.conf.dfn.de/) zur
-   Verfügung.
-
-   Um Besprechungsräume so auszustatten, dass Menschen auch per Videokonferenz
-   teilnehmen können, ist
-   technische Infrastruktur erforderlich. Die Anwesenden müssen für die
-   Anwesenden sichtbar und hörbar sein, ohne dass die Anwesenden Headsets
-   tragen müssen. Dies erreicht man mit einer Art überdimensionaler
-   Webcam, die automatisch auf die sprechende Person fokussieren und im
-   Idealfall auch Störgeräusche (Echos, Rauschen, Rascheln) ausblenden.
-   Die gängigen Systeme im knapp vierstelligen Eurobereich genügen für
-   Konferenzen mit bis zu sechs anwesenden Personen um einen Tisch herum.
-   Sind mehr Personen anwesend, steigt der technische Aufwand stark an,
-   wenn man häufig hybrid arbeiten möchte und die anwesenden Personen
-   nicht benachteiligen möchte.
-
-- **Chat** kann als synchrone und asynchrone Kommunikation 1-zu-1 und
-  in Teams sowohl in der externen als auch in der internen Kommunikation
-  verwendet werden:
-
-  Chats können in Bibliothekswebsiten (Homepage, OPAC) ohne großen Aufwand
-  integriert werden. Die Nutzung ist anonym oder unter Angabe
-  von personenbezogenen Daten (z. B. E-Mail-Adresse) möglich.
-  Chat-Anfragen werden zentral bearbeitet und können bei Bedarf
-  weitergegeben werden. Ein Pool von Mitarbeitenden kann sich
-  anmelden, die Anfragen werden vom System auf die
-  Mitarbeitenden verteilt. Steht kein Mitarbeitender zur
-  Verfügung, leitet die Software z. B. auf ein Mailformular um.
-  Je nach Verwendung ist der Abschluss eines Vertrages zur
-  Auftragsverarbeitung mit dem Anbieter notwendig. Chat-Systeme
-  werden i.d.R. als *SaaS*-Lösung angeboten
-
-  Chats zwischen Mitarbeiter\*innen dienen der niedrigschwelligen
-  Kommunikation, oft als Alternative zu Telefon und E-Mail.
-  Gruppenchats in Abteilungen können für einfache Fragen und
-  Absprachen genutzt werden und Menschen, die mobil arbeiten,
-  können mit einem Chatsystem besser integriert werden. Die
-  Nutzung von kommerziellen Systemen, die noch dazu außerhalb
-  von Europa gehostet werden, ist aus Datenschutzgründen nur in
-  Ausnahmefällen zulässig (WhatsApp, Slack ...).
-  Eine Alternative für Bibliotheken mit IT-Abteilung oder
-  Rechenzentrum-Unterstützung ist die Nutzung von Open-Source-Software wie
-  [mibew.org](https://mibew.org/) oder
-  [rocket.chat](https://www.rocket.chat/secure-messaging-platform)
-  die selbst betrieben werden können.
-
-  Chat ist häufig Bestandteil von integrierten Webkonferenz- und Kommunikationsplattformen.
-  Auch ein Forensystem wie Discourse bietet eine
-  Chat-Komponente, sodass ernsthaft abgewogen werden sollte, ob es
-  wirklich eine dezidierte Chat-Lösung braucht.
-
-- **Videokonferenzsysteme** gibt es als eigenständige Tools, ein kommerzielles
-  Beispiel ist Zoom. Daneben stehen freie Alternativen wie
-  [jitsi](https://jitsi.org/) und [DFN conf](https://www.conf.dfn.de/) zur
-  Verfügung. Eine Chatfunktion während der laufenden Konferenz ist dabei
-  standardmäßig integriert, häufig können auch eine Umfragen benutzt werden.
-
-- **Integrierte Webkonferenz- und Kommunikationsplattformen** kombinieren
-  Videokonferenzen mit verschiedenen anderen Kommunikationslösungen. Die
-  kommerziellen Tools Microsoft Teams und Cisco Webex integrieren Chatlösungen,
-  auch außerhalb von Videokonferenzen,  für Gruppen und Einzelpersonen. Vor allem
-  im Bildungsbereich wird die Open Source-Plattform BigBlueButton verwendet, die
-  Präsentationen sowie Lern- und Inhaltsverwaltungssysteme. [Mattermost](https://mattermost.com/)
-  ist ein weiteres Open Source-Beispiel, das viele verschiedenen Kommunikationswege
-  vereint und auch Plugins für viele andere Werkzeuge bereitstellt, um eine
-  All-In-One Lösung für Kollaborationen zu sein.
-
-Je technisch anspruchsvoller die Kommunikationswerkzeuge werden, um so mehr
-muss darauf geachtet werden, die gleichberechtige Teilnahme aller
-Kommunikationspartner*innen zu ermöglichen (siehe [Kapitel
-Infrastruktur](#werkzeuge-zur-kommunikation)).
-
-### Contenterstellung
-
-Unter Contenterstellung versteht man das Produzieren von Inhalten (Werbung,
-Informationen ...) z. B. für das Internet. Mit Content wird immer eine
-bestimmte Zielgruppe angesprochen. Inhalte sind zu planen, zu erstellen und zu
-veröffentlichen.
-
--   **Bild-/Grafikbearbeitung:** dient der Nachbearbeitung von
-    Bilddateien (Schärfen, Farben, Dateigröße, Belichtung, Kontraste)
-
-    -   Bildbearbeitungs-Software: *Affinity Photo*, *Adobe Photoshop*, *Canva*
-    -   freie Bilddatenbanken: *Pixabay*, *CC-Search* ...
-    -   Grafikdesign: *[Canva](https://www.canva.com/de_de/)*
-
--   **Audiobearbeitung:** hilft beim Schnitt von Audiodateien und dient
-    der Klangoptimierung mit Effekten wie Equalizer, Kompressor oder
-    Hall
-
-    -   *[Audacity](https://www.audacity.de/)*
-    -   Professionelle Podcast-Produktion: *[Ultraschall](https://ultraschall.fm/)*
-
--   **Videobearbeitung:** dient der Erstellung von bewegten Bildern aus
-    vorhandenem Ausgangsmaterial wie Videoaufnahmen, digitalisierten Fotos, Scans,
-    Grafiken, Texten, Audioaufnahmen oder Musik
-
-    -   Bearbeitungssoftware (*DaVinci Resolve*, *Wondershare Filmora*...):
-        Zur Nachbearbeitung von
-        Roh-Videomaterial gibt es spezielle Software, die Video- und
-        Tonspuren zusammenführen können. Ebenso sind Veränderungen
-        durch Filter oder Zusammenführen von verschiedenen Bild- und
-        Videoaufnahmen möglich. In der Regel bieten die Tools diverse
-        Exportmöglichkeiten in verschiedenen Qualitäten und Formaten.
-
-    -   Aufnahmesoftware (*Camtasia*, *Screenflow*, *[OBS](https://obsproject.com/de)*):
-        dient zur Aufnahme
-        von Bildmaterial über Kameras oder z. B. der Anzeige auf
-        Bildschirmen (Screencasts). Je nach Aufnahmegerät wird der Ton
-        gleichzeitig aufgenommen oder muss separat eingespielt werden.
-
-        -   *OBS* kann zudem verwendet werden, um
-            Bilder/Videos auf Videoplattformen zu streamen (z. B.
-            Youtube Livestream).
-        -   *SimpleShow* (Mix aus Aufnahme /
-            Bearbeitungssoftware) dient zur Erstellung von Lernvideos
-            mit einzelnen Folien, auf denen ein Skript anhand von
-            Schlagwörtern von der Software mit einfachen Grafiken
-            illustriert wird. Diese kann man dann nachbearbeiten und
-            durch eigene Bilder ersetzen sowie Untertitel einfügen und
-            das Ganze vertonen.
-
--   **Hardware**: Bei der Anschaffung von Hardware für Video- oder
-    Podcastsaufnahmen sowie die Erstellung von Video-Tutorials in Bibliotheken ist es wichtig,
-    Qualität und Funktionalität im Auge zu behalten. Mit der richtigen
-    Ausrüstung können Bibliotheken professionelle Ergebnisse erzielen.
-    Die Anschaffung muss dabei nicht zwangsläufig teuer sein. Es lohnt
-    sich immer, in eine hochauflösende externe Kamera zu investieren.
-    Auch ein qualitativ hochwertiges Mikrofon bzw. Headset ist
-    unerlässlich für einen überzeugenden Klang. Die in übliche Laptops
-    integrierten Kameras und Mikrofone genügen üblicherweise nicht, um
-    eine zumindest halbwegs professionelle Ton- und Bildqualität zu
-    erzeugen. Sollte überhaupt kein Budget zur Verfügung stehen, ist
-    die entsprechende Hardware in einem guten Smartphone meist besser.
-    Hilfestellung - für nahezu jeden Budgetrahmen - erhält man etwa im
-    Podcast-Forum *[Sendegate](https://sendegate.de)* oder
-    im [Wiki des Netzwerkes "Tutorials in Bibliotheken"](https://bibtutorials.miraheze.org/wiki/Hauptseite#Technik)
-
--   **Umfragen/Abstimmungen:** können mittels verschiedener Tools erstellt 
-    und direkt online veröffentlicht werden
-    (z.B. mit *SurveyMonkey*, *Limesurvey*, *Mentimeter*, *Lamapoll*).
-    
--   **E-Learning-Software:** dient der Erstellung von Lernformen, die
-    durch elektronische, technische oder digitale Medien unterstützt
-    werden (*Capterra*, *Moodle*)
-
-<!-- TODO: hier gibt's noch mehr! -->
-
--   **Gamification:** ist die Anwendung spielerischer Elemente im spielfremden Kontext
-
-    -   Multimedia-Guide für interaktive Stadtralleys und
-        Handy-Schnitzeljagd [de.actionbound.com](https://de.actionbound.com/)
-    -   spielbasierte Lernplattform für Quiz usw. https://kahoot.com/
-
-### Echtzeit-Kollaboration
-
-Kollaborative Online-Tools ermöglichen es Teams, in Echtzeit an
-Dokumenten, Tabellen und Präsentationen zu arbeiten und diese gemeinsam
-zu nutzen. Sie können die Zusammenarbeit innerhalb einer Bibliothek (und
-darüber hinaus) deutlich beflügeln und effizienter gestalten. Dies gilt
-insbesondere, wenn man es mit dem oftmals mühsamen Zusammenführen von
-Dokumentversionen, die in klassischen Office-Lösungen in Einzelarbeit
-entstanden sind, vergleicht. Das Spektrum reicht dabei vom digitalen
-Notizzettel bis zum gemeinsam erarbeiteten Förderantrag, vom
-Brainstorming bis zur fertig ausgearbeiteten Präsentation.
-
--   Für den ad hoc Einsatz bietet sich HedgeDoc als Open-Source-Tool für
-    kollaboratives Schreiben in Echtzeit mit Markdown-Unterstützung
-    an.
-
--   Für die gemeinsame Bearbeitung von klassischen Office-Formaten ist
-    OnlyOffice eine veritable Alternative zu Google Docs, insbesondere
-    unter Gesichtspunkten der [digitalen Souveränität](#digitale-souveränität).
-
--   Cloudspeicher: die zeitgemäße Variante eines Netzwerklaufwerkes;
-    vgl. z. B.
-    [Nextcloud](https://nextcloud.com/) bzw. [ownCloud](https://owncloud.com/de/) das
-    gut mit *OnlyOffice* zusammenspielt (s. o.)
-
--   Online-Whiteboards sind digitale Tools, die ein traditionelles
-    physisches Whiteboard simulieren. Sie ermöglichen es, in Echtzeit
-    gemeinsam zu brainstormen, indem etwa Post-Its in den virtuellen
-    Raum geklebt werden, aber auch um zu zeichnen und multimediale
-    Inhalte zu integrieren. Damit eignen sie sich gut sowohl für die
-    kreative Zusammenarbeit innerhalb der Bibliothek als auch für die
-    Durchführung von Workshops und anderen Formaten mit Nutzenden.
-    Verbreitet sind
-    *[Conceptboard](https://conceptboard.com/de/)*
-    und *[miro](https://miro.com/)*,
-    ernstzunehmende offene Alternativen gibt es leider noch nicht.
 
 ## Zusammenfassung und Ausblick
 

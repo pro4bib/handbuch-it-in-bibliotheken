@@ -123,6 +123,9 @@ glossary:
     definition: Automatische Erkennung von Texten in Bildern (Optical Character Recognition)
     url: https://de.wikipedia.org/wiki/Texterkennung
 
+  OER:
+    definition: Open Educational Resources, freie Bildungsmaterlien wie Kurse, Lernvideos und Bilder
+
   OPAC:
     url: https://de.wikipedia.org/wiki/OPAC
     definition: Online Public Access Catalogue, Katalog einer Bibliothek
