@@ -1,8 +1,6 @@
-Discovery & Retrieval
-=====================
+# Discovery-Systeme
 
-Zusammenfassung
----------------
+## Zusammenfassung
 
 Im Gegensatz zum klassischen Online Public Access Catalogue (*OPAC*)
 bieten Discovery-Systeme mehr Inhalte, Funktionen und in der Regel auch
@@ -11,8 +9,7 @@ modernere Nutzungsoberflächen. In diesem Kapitel werden typische
 Discovery-Systemen vorgestellt sowie Hinweise zum Aufbau und
 [Betrieb](#betrieb) gegeben.
 
-Einleitung
-----------
+## Einleitung
 
 Als Discovery-Systeme werden Rechercheplattformen bezeichnet, die
 möglichst verfügbaren Ressourcen über einen einheitlichen Zugang nutzbar
@@ -21,8 +18,7 @@ nur auf den lokalen Bibliotheksbestand. Die Benutzung und der
 Funktionsumfang von Discovery-Systemen orientieren sich dabei an
 gängigen Suchmaschinen und Verzeichnissen im Web.
 
-Ursprung und Motivation von Discovery-Systemen
-----------------------------------------------
+## Ursprung und Motivation von Discovery-Systemen
 
 Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte
 mehrere Gründe: Bibliothekarische Recherchesysteme spielten im
@@ -51,8 +47,7 @@ betreiben (Dokumenten-Server, Digitalisate-Server,
 Forschungsdaten-Server etc.), ist die Einführung eines Discovery-Systems
 eine Möglichkeit, diese Datenbestände gemeinsam zugänglich zu machen.
 
-Bestandteile von Discovery-Systemen
------------------------------------
+## Bestandteile von Discovery-Systemen
 
 ### Komponenten
 
@@ -172,15 +167,15 @@ geht es um folgende Funktionalitäten:
 Die Suche in Discovery-Systemen nutzt in der Regel verschiedene
 Funktionen der Suchmaschinentechnologie, um einen eingegebenen
 Suchbegriff gegen den Index abzuprüfen. Daher liefern Discovery-Systeme
-mit dem Suchparadigma “beste Treffer” statt “exakte Treffer” mehr
-Suchergebnisse als Bibliothekskataloge
-\[@steilen\_discovery-systeme\_2012\]. Sie nutzen außerdem Algorithmen
-für die Relevanzsortierung (*Ranking*), um die Trefferlisten möglichst
-nutzungsorientiert aufzubereiten. Die Sortierungsalgorithmen sorgen bei
-Übereinstimmungen von Suchbegriff und Indexeintrag in definierten
-Feldern (z. B. Titel, Schlagwort) für eine Bevorzugung. Anders als bei
-Web-Suchmaschinen gehen Popularitätsdaten wie die Anzahl von Ausleihen,
-Aufrufen und Zitationen in der Regel nicht in das Ranking ein.
+mit dem Suchparadigma „beste Treffer" statt „exakte Treffer" mehr
+Suchergebnisse als Bibliothekskataloge (Steilen 2012). Sie nutzen
+außerdem Algorithmen für die Relevanzsortierung (*Ranking*), um die
+Trefferlisten möglichst nutzungsorientiert aufzubereiten. Die
+Sortierungsalgorithmen sorgen bei Übereinstimmungen von Suchbegriff und
+Indexeintrag in definierten Feldern (z. B. Titel, Schlagwort) für eine
+Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten
+wie die Anzahl von Ausleihen, Aufrufen und Zitationen in der Regel nicht
+in das Ranking ein.
 
 Zu den Funktionalitäten für die Suchunterstützung gehören auch die
 Autovervollständigung sowie die Vorschlagsfunktion von Suchbegriffen. In
@@ -195,7 +190,7 @@ Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach
 Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle
 beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in
 der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe
-@fig-vufind). Die Auswahl der angebotenen Facetten muss jedoch gut
+(**fig-vufind?**)). Die Auswahl der angebotenen Facetten muss jedoch gut
 vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten
 Titeln, können durch Facettierung auch Treffer verloren gehen.
 
@@ -253,7 +248,7 @@ sein. Beispiele für herstellerunabhängige Schnittstellen sind die
 das *Session Initiation Protocol* (SIP2) als intern genutzter Standard
 oder das NISO Circulation Interchange Protocol (*NCIP*). Verschiedene
 Discovery-Systeme unterstützen diese oder andere Schnittstellen zum
-Ausleihsystem in Form von sogenannten Treibern – beispielsweise
+Ausleihsystem in Form von sogenannten Treibern -- beispielsweise
 unterstützt VuFind die Anbindung an FOLIO durch einen eigenen
 FOLIO-Treiber.
 
@@ -365,8 +360,7 @@ umgesetzt werden soll, zumal für eine Darstellung im Sinne einer
 optimalen User Experience jeweils auch erhebliche Design-Aufwände
 entstehen.
 
-Aufbau und Betrieb eines Discovery-Systems
-------------------------------------------
+## Aufbau und Betrieb eines Discovery-Systems
 
 ### Betriebsmodelle
 
@@ -407,8 +401,8 @@ abgegolten.
 
 Beim Hosting oder bei der Nutzung von Software, die in der Cloud
 betrieben wird, erfolgt aus datenschutzrechtlicher Sicht eine
-“[Datenverarbeitung im
-Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)”.
+„[Datenverarbeitung im
+Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)".
 Die Verantwortung für Datenschutz und Datensicherheit verbleibt damit
 bei der Bibliothek als Auftraggeberin.
 
@@ -554,8 +548,7 @@ Software [Matomo](https://matomo.org/), auch unter Berücksichtigung von
 datenschutzrechtlichen Vorschriften, ermittelt werden, welche Anfragen
 an ein System gestellt werden.
 
-Vergleich mit klassischen Bibliothekskatalogen
-----------------------------------------------
+## Vergleich mit klassischen Bibliothekskatalogen
 
 Da Discovery-Systeme die Metadaten und Volltexte anders als die
 klassischen OPACs aufbereiten, sind Suchstrategien und -ergebnisse in
@@ -590,22 +583,39 @@ Metadaten mittels Electronic Resource Management (*ERM*) entsprechende
 Nutzungslizenzen zugeordnet sind.
 
 Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System
-{\#tbl-discovery-vs-opac}
+{#tbl-discovery-vs-opac}
 
-                      OPAC/Katalog                                              Discovery-System
-  ------------------- --------------------------------------------------------- --------------------------------------------------------------------------------
-  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliografische Daten, Volltexte etc.
-  Suchprinzip         exakte Suche, feldbasierte Suche mit Boolescher Logik     best match/natürlichsprachliche Suche
-  Suchunterstützung   eher wenig                                                Autovervollständigung, Suchvorschläge, Facetten
-  Sortierung          standardmäßig nach Aktualität                             standardmäßig nach Relevanz
-  Mehrwertdienste     Buchcover, Listen, Exportformate                          Buchcover, Listen, Exportformate, Stöbern/Entdecken
-  Metadatenmodell     bibliothekarisches Schema mit Hierarchien und Verweisen   “flache Version” eines bibliothekarischen Schemas
+  ----------------------------------------------------------------------------
+                          OPAC/Katalog            Discovery-System
+  ----------------------- ----------------------- ----------------------------
+  Suchraum                nur lokaler Bestand,    lokaler Bestand, aber auch
+                          nur selbständige Werke  Verbunddaten,
+                                                  bibliografische Daten,
+                                                  Volltexte etc.
+
+  Suchprinzip             exakte Suche,           best
+                          feldbasierte Suche mit  match/natürlichsprachliche
+                          Boolescher Logik        Suche
+
+  Suchunterstützung       eher wenig              Autovervollständigung,
+                                                  Suchvorschläge, Facetten
+
+  Sortierung              standardmäßig nach      standardmäßig nach Relevanz
+                          Aktualität              
+
+  Mehrwertdienste         Buchcover, Listen,      Buchcover, Listen,
+                          Exportformate           Exportformate,
+                                                  Stöbern/Entdecken
+
+  Metadatenmodell         bibliothekarisches      „flache Version" eines
+                          Schema mit Hierarchien  bibliothekarischen Schemas
+                          und Verweisen           
+  ----------------------------------------------------------------------------
 
   : Vergleich typischer Eigenschaften von OPAC/Katalog und
-  Discovery-System {\#tbl-discovery-vs-opac}
+  Discovery-System {#tbl-discovery-vs-opac}
 
-Grenzen und Alternativen
-------------------------
+## Grenzen und Alternativen
 
 Discovery-Systeme sind in der Regel nur einer von vielen Bausteinen in
 der Prozesskette der Recherche, Bewertung und Beschaffung von Literatur
@@ -614,9 +624,9 @@ Literatur zu entdecken und Zugangswege zu ermitteln und brechen die
 traditionelle Grenze zwischen Katalog und Bibliografien durch einen
 zentralen Sucheinstieg auf. Trotz dieser Stärken können die Systeme
 nachgewiesene Medien nur eingeschränkt kontextualisieren und bewerten
-und bleiben in der Praxis oft hinter den Erwartungen zurück
-\[@christensen\_wissenschaftliche\_2022\]. Je nach Anwendung spielen
-daher alternative Systeme weiterhin eine Rolle:
+und bleiben in der Praxis oft hinter den Erwartungen zurück (Christensen
+2022). Je nach Anwendung spielen daher alternative Systeme weiterhin
+eine Rolle:
 
 -   Komplexe bibliografische Angaben, zum Beispiel zum
     Erscheinungsverlauf von Zeitschriften oder mehrbändigen Werken, oder
@@ -648,7 +658,7 @@ historischen Netzwerkanalyse. Ein ernstzunehmendes Beispiel für einen
 allgemeinen Wissensgraphen ist die Datenbank Wikidata mit ihren
 bibliografischen Inhalten *WikiCite* und dem dazu gehörigen
 Browsing-Interface [*Scholia*](https://scholia.toolforge.org/) (siehe
-Abbildung @fig-scholia).
+Abbildung (**fig-scholia?**)).
 
 ![Thematisches Netzwerk von Publikationen in und über
 Scholia](media/rId70.png){width="5.833333333333333in"
@@ -661,3 +671,12 @@ Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und
 Alternativen in der Praxis fließend sind und dass Discovery-Systeme
 perspektivisch um Funktionen anderer Systeme erweitert werden können und
 sollten.
+
+Christensen, Anne. 2022. „Wissenschaftliche Literatur entdecken: Was
+bibliothekarische Discovery-Systeme von der Konkurrenz lernen und was
+sie ihr zeigen können". *LIBREAS*, Nr. 41.
+<https://doi.org/10.18452/24798>.
+
+Steilen, Gerald. 2012. „Discovery-Systeme - die OPACs der Zukunft?"
+Hamburg.
+<https://www.slideshare.net/steilen/discoverysysteme-die-opacs-der-zukunft>.

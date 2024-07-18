@@ -5,8 +5,7 @@ Form möglich. Voraussetzung ist ein Verständnis des
 [Styleguide](#styleguide) und die freie [Lizenzierung](#lizenz) der
 eigenen Beiträge.
 
-Arbeitsablauf
--------------
+## Arbeitsablauf
 
 Alle Kapitel wurden in Booksprints vor Ort geplant und in Form von
 Google Docs Dokumenten geschrieben. Diese wurden anschließend einmalig
@@ -17,17 +16,14 @@ ins Markdown-Format übertragen und auf
 Weitere Änderungen und Beiträge zum Handbuch sind auf folgenden Wegen
 möglich:
 
-1.  **Bearbeitungsvorschläge und Kommentare** in Google Docs (“Kapitel
-    Kommentieren”): im Zweifelsfall die einfachste Methode
-
+1.  **Bearbeitungsvorschläge und Kommentare** in Google Docs („Kapitel
+    Kommentieren"): im Zweifelsfall die einfachste Methode
 2.  Direkte Bearbeitung der Markdown-Quellen durch einen
-    **Pull-Request** (“Seite editieren”): erfordert einen GitHub-Account
+    **Pull-Request** („Seite editieren"): erfordert einen GitHub-Account
     und rudimentäre Markdown-Kenntnisse
-
 3.  Öffentlicher **Kommentar als
     [GitHub-Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)**
-    (“Problem melden”): erfordert einen GitHub-Account
-
+    („Problem melden"): erfordert einen GitHub-Account
 4.  Persönlicher Hinweis an [die Autor\*innen](#autorinnen)
 
 ![Feedback-Links unter dem Inhaltsverzeichnis
@@ -67,8 +63,7 @@ Publikation
     (siehe [Technik](#technik), bisher nur HTML-Version, Druckversion
     ist geplant).
 
-Styleguide
-----------
+## Styleguide
 
 Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher
 Autor\*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es
@@ -212,7 +207,7 @@ wesentlichen Themen rund um IT in Bibliotheken.
 
 -   Wir vermeiden IT-Jargon.
 
--   Wir vermeiden Substantivierung (“Digitalisierungswürdigkeit”) und
+-   Wir vermeiden Substantivierung („Digitalisierungswürdigkeit") und
     unnötige Passiv-Formen.
 
 -   Quellen sollten nur dann genannt werden wenn in der jeweiligen
@@ -223,7 +218,8 @@ wesentlichen Themen rund um IT in Bibliotheken.
 -   Abkürzungen werden durch geschützte Leerzeichen getrennt (z. B.)
 
 -   Gerade Anführungszeichen `"..."` werden automatisch durch die
-    Deutschland und Österreich übliche Anführungszeichen (“…”) ersetzt.
+    Deutschland und Österreich übliche Anführungszeichen („...")
+    ersetzt.
 
 Externe Links, die nur auf Anbieter oder andere Websites verweisen,
 werden inline verlinkt.
@@ -284,8 +280,7 @@ Autor\*innen](#autorinnen) auftauchst, trage Dich in der YAML-Datei
 ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder
 `email`, `position` und `orcid` sind optional.
 
-Technik
--------
+## Technik
 
 Die Master-Version des Handbuch liegt in einem git-Repository unter
 <https://github.com/pro4bib/handbuch-it-in-bibliotheken>. Die
@@ -299,7 +294,7 @@ einsehbar sein sollte.
 Die Markdown-Dateien im Wurzelverzeichnis (`*.md`) sind die
 Masterdateien.
 
--   `about.yml` bibliographische Metadaten (Titel, Abstract…)
+-   `about.yml` bibliographische Metadaten (Titel, Abstract...)
 
 -   `_quarto.yml` zentrale Konfigurationsdatei zur Anpassung der
     [Konvertierung mit Quarto](#konvertierung)
@@ -316,8 +311,6 @@ Weitere Unterverzeichnisse:
 
 Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert
 werden:
-
--   `docs/` aus den Masterdateien mit quarto erzeugte Publikation
 
 -   `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte
     Kapitel (siehe [README.md](_gdrive/README.md))
@@ -344,16 +337,15 @@ zusammengefasst:
 -   `make all` ruft make `build` und `docx` auf und kopiert die
     DOCX-Dateien ins Publikationsverzeichnis `_book`.
 
--   `make html` erzeugt nur HTML in `_book`.
+-   `make html` erzeugt nur HTML-Dateien in `_book`.
 
--   `make docx` erzeugt nur DOCX in `_book`.
+-   `make docx` erzeugt nur das Gesamt-DOCX in `_book`.
 
 -   `make refs` aktualisiert das
     [Literaturverzeichnis](#literaturverzeichnis) in `references.bib`
     von Zotero.
 
-Lizenz
-------
+## Lizenz
 
 Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung
 4.0 International* ([CC BY

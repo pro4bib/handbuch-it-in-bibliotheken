@@ -35,17 +35,19 @@ for (<$fh>) {
         `wget \"https://docs.google.com/document/u/0/export?format=docx&id=$fileid\" -O $chapter.docx`;
         sleep 2;
     } elsif ($command eq 'update') {
-        chdir "..";
         $source = "$source.md";
-        if ( ! -e $source ) {
-            warn "Kapiteldatei nicht gefunden: $source\n"; 
+        if ( ! -e "../$source" ) {
+            warn "Kapiteldatei nicht gefunden: ../$source\n"; 
             exit 1;
         }
 
         say "\n# $chapter";
         my $opts = "--bibliography=references.bib --citeproc -L templates/pandoc-quotes.lua -L templates/glossary.lua";
-        my $cmd = "quarto pandoc $source $opts -o _gdrive/$chapter.docx -M lang=de -M date=`date -Iseconds`"; 
-        if (system("$cmd && make $chapter.md")) {   
+        chdir "..";
+        my $cmd = "quarto pandoc $source $opts -o _gdrive/$chapter.docx -M lang=de -M date=`date -Iseconds`";
+        if (system($cmd)) { chdir "_gdrive"; next; }
+        chdir "_gdrive";
+        if (system("make $chapter.md")) {   
             if (system("git diff --quiet --exit-code $chapter.md")) {
                 say "Die Datei $chapter.docx muss nach Google Drive hochgeladen werden um https://docs.google.com/document/d/$fileid zu ersetzen";
                 say "Anschließend kann $chapter.md gespeichert werden (`git add $chapter.md; git commit`)";

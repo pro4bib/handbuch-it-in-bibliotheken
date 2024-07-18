@@ -1,15 +1,13 @@
-Einleitung
-==========
+# Einleitung
 
-Motivation
-----------
+## Motivation
 
 > Because the library has become software, it is no longer viable for
-> our services to exist separately from our software. \[...\] Most
+> our services to exist separately from our software. \[\...\] Most
 > importantly, all library staff must understand that our software is
-> our library, and is everyone’s responsibility.
+> our library, and is everyone's responsibility.
 >
-> — \[@hanson\_cody\_opinion\_2015\]
+> --- (Hanson, Cody 2015)
 
 Mit der wachsenden Bedeutung der **Informationstechnologie (IT) im
 Allgemeinen und für Bibliotheken im Besonderen** bleibt kaum ein Aspekt
@@ -18,7 +16,7 @@ Deutlich wird dies z.B. durch das stetig zunehmende Angebot an
 elektronischen Informationsmitteln, die Digitalisierung historischer
 Bestände, interoperable Metadaten oder auch die digitale
 Langzeitarchivierung. Die alltägliche Handhabung von IT (Smartphones,
-Automatisierung, Vernetzung …) wird häufig einfacher, die zugrunde
+Automatisierung, Vernetzung ...) wird häufig einfacher, die zugrunde
 liegenden Systeme werden jedoch immer komplexer und erfordern
 entsprechend mehr Wissen zu ihrem Aufbau und Betrieb. Während sich
 einige Teile der IT in Bibliotheken nicht wesentlich von IT in anderen
@@ -26,8 +24,7 @@ Bereichen unterscheiden, gibt es doch zahlreiche Aspekte von
 Bibliotheks-IT, die nicht oder nicht speziell genug an anderer Stelle
 behandelt werden. Das vorliegende Handbuch möchte diese Lücke schließen.
 
-Zielgruppe
-----------
+## Zielgruppe
 
 Als Einführung und Nachschlagewerk wendet sich dieses Handbuch vor allem
 an Personen, die sich einen ersten **Überblick über die verschiedenen
@@ -38,8 +35,7 @@ Einarbeitung in eine neue Position mit IT-Diensten in Bibliotheken
 beschäftigen. Zur Veranschaulichung der Zielgruppen dienen mehrere
 sogenannte [Personas](#zielgruppe).
 
-Inhalt
-------
+## Inhalt
 
 Dieses Handbuch soll einen knappen und gleichzeitig umfassenden
 Überblick über die wichtigsten **IT-bezogenen Themen in Bibliotheken**
@@ -72,7 +68,7 @@ grob zwei Blöcke:
     Erschließung, Ausleihe, Zugriff und Auffindbarmachung von
     Bibliotheksbeständen
 
--   [Discovery & Retrieval](discovery.md) stellt Arten, Bestandteile und
+-   [Discovery-Systeme](discovery.md) stellt Arten, Bestandteile und
     Funktionen von Rechercheplattformen vor und liefert Hinweise zu
     Auswahl und Betrieb von Discovery-Systemen
 
@@ -87,16 +83,14 @@ grob zwei Blöcke:
     interner und externer Kommunikation von Wissensmanagement bis
     Öffentlichkeitsarbeit
 
-Gut zu wissen
--------------
+## Gut zu wissen
 
-Das Handbuch ist ein “lebendiges Buch”, das stetig ergänzt und
+Das Handbuch ist ein „lebendiges Buch", das stetig ergänzt und
 aktualisiert werden kann und soll. **Tipps und Korrekturen** sind daher
 sehr willkommen! [Hinweise zur Mitarbeit](#mitarbeit) und Details zur
 Umsetzung des Handbuchs finden sich im Anhang.
 
-Entstehungsgeschichte
----------------------
+## Entstehungsgeschichte
 
 Zur Erstellung des Handbuchs wurden zwischen April 2022 und Oktober 2023
 [drei Book Sprints](https://www.th-wildau.de/book-sprint/) an der
@@ -109,15 +103,13 @@ für Open-Access-Monografien des Landes
 Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
 Kontaktinformationen, Neuigkeiten und Hintergrund zum Projekt finden
 sich auf der Seite <https://www.th-wildau.de/book-sprint/> und in den
-Artikeln von @Bach2023 und @christensen\_wie\_2022.
+Artikeln von Bach (2022) und Christensen und Seeliger (2022).
 
-Beteiligte Autor\*innen
------------------------
+## Beteiligte Autor\*innen
 
-{{&lt; include \_contributors.md &gt;}}
+{{\< include \_contributors.md \>}}
 
-Rechte an den Inhalten
-----------------------
+## Rechte an den Inhalten
 
 Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte
 dieses Buches unter der Lizenz [Creative Commons Namensnennung 4.0
@@ -131,3 +123,14 @@ beliebige Zwecke, inklusive kommerzielle Zwecke, unter der Bedingung,
 dass Sie angemessene Urheber\*innen- und Rechteangaben machen, einen
 Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden
 (**Namensnennung**).
+
+Bach, Nicolas. 2022. „Das Handbuch IT in Bibliotheken: Einblicke in den
+ersten bibliothekarischen Book Sprint Deutschlands".
+*Informationspraxis* 8 (1). <https://doi.org/10.11588/ip.2022.1.94475>.
+
+Christensen, Anne, und Frank Seeliger. 2022. „„Wie schreiben wir
+gemeinsam ein nützliches Buch?"". *b.i.t.online* 25 (6): 509--10.
+<https://www.b-i-t-online.de/heft/2022-06-nachrichtenbeitrag-christensen.pdf>.
+
+Hanson, Cody. 2015. „Opinion: Libraries are Software". 2015.
+<https://www.codyh.com/writing/software.html>.

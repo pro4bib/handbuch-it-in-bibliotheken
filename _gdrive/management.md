@@ -1,15 +1,12 @@
-IT-Management
-=============
+# IT-Management
 
-Zusammenfassung
----------------
+## Zusammenfassung
 
 Dieses Kapitel beschreibt die Einführung und den
 [Betrieb](#betriebsmodelle) von IT-Systemen über den gesamten
 [Lebenszyklus](#lebenszyklen-von-it-systemen) hinweg.
 
-Einleitung
-----------
+## Einleitung
 
 IT-Systeme sind selten statisch, sondern folgen einem
 [Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung ihrer
@@ -24,15 +21,15 @@ Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
-Lebenszyklen von IT-Systemen
-----------------------------
+## Lebenszyklen von IT-Systemen
 
 Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer Einführung
-beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus). Die
-wesentlichen Phasen im klassischen Lebenszyklus eines IT-Systems werden
-im Folgenden näher betrachtet. Darüber hinaus wird erläutert, wie
-Änderungen an IT-Systemen in Institutionen im Rahmen des [Change
-Managements](#change-management) begleitet werden sollten.
+beginnt und irgendwann mit ihrer Abschaltung endet
+((**fig-it-zyklus?**)). Die wesentlichen Phasen im klassischen
+Lebenszyklus eines IT-Systems werden im Folgenden näher betrachtet.
+Darüber hinaus wird erläutert, wie Änderungen an IT-Systemen in
+Institutionen im Rahmen des [Change Managements](#change-management)
+begleitet werden sollten.
 
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
 angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
@@ -64,8 +61,7 @@ $\Rightarrow$ *Siehe auch ausführlicher zum [Entscheidungsprozess bei
 der Einführung eines
 Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.html#entscheidungsprozess)*
 
-Info
-----
+## Info
 
 Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
 getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
@@ -128,12 +124,11 @@ Typischerweise verbleiben IT-Systeme, die grundlegende Geschäftsprozesse
 abbilden oder die nach individuellen Anforderungen erstellt wurden,
 viele Jahre in dieser Phase.
 
-Beispiel
---------
+## Beispiel
 
-@fig-verweildauer illustriert die Lebensspanne einiger ausgewählter
-Nachweissysteme der Staatsbibliothek zu Berlin, die zum Zeitpunkt der
-Erstellung dieses Textes erst teilweise abgelöst wurden.
+(**fig-verweildauer?**) illustriert die Lebensspanne einiger
+ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die zum
+Zeitpunkt der Erstellung dieses Textes erst teilweise abgelöst wurden.
 
 ![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am
 Beispiel der Staatsbibliothek zu Berlin (Stand
@@ -191,8 +186,8 @@ betroffen sind.
 
 Die Umgestaltung von Prozessen und Tools in Bibliotheken ist ein Wandel,
 der die Organisation und Kultur des Hauses in ihrer Ganzheit berührt.
-Das Change Management – also die planvolle Steuerung von
-Veränderungsprozessen – spielt dabei eine zentrale Rolle. Es gilt,
+Das Change Management -- also die planvolle Steuerung von
+Veränderungsprozessen -- spielt dabei eine zentrale Rolle. Es gilt,
 sowohl technologische Aspekte als auch menschliche Faktoren sorgsam in
 Betracht zu ziehen, um nachhaltige, akzeptierte und effektive Lösungen
 zu implementieren. Dies betrifft nicht nur die Auswahl und Einführung
@@ -201,7 +196,7 @@ Kompetenzen, die Gestaltung von Arbeitsprozessen und die Förderung einer
 Kultur der Offenheit und Zusammenarbeit:
 
 -   Realen Bedarf ermitteln, Ziele und Zielgruppen definieren, keine
-    “Solutions looking for a Problem” einführen: welches (kommunikative)
+    „Solutions looking for a Problem" einführen: welches (kommunikative)
     Problem will ich lösen?
 
 -   Einsatz bestehender Tools prüfen: brauche ich wirklich etwas Neues,
@@ -224,15 +219,14 @@ Kultur der Offenheit und Zusammenarbeit:
     große Hemmschwelle, auf einmal für alle sichtbar in ein Wiki oder
     Forum zu schreiben.
 
--   Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen (“alte
-    Zöpfe abschneiden”). Die Einführung zusätzlicher Werkzeuge sorgt
+-   Bereit sein, Verfahren und Werkzeuge auch wieder abzuschaffen („alte
+    Zöpfe abschneiden"). Die Einführung zusätzlicher Werkzeuge sorgt
     sonst auch oft für Unverständnis, Frust und eventuell sogar
     Mehraufwände.
 
 -   Akzeptanz regelmäßig prüfen (siehe [Evaluation](#evaluation))
 
-Betriebsmodelle
----------------
+## Betriebsmodelle
 
 Insbesondere serverbasierte Software, wie zum Beispiel das
 [Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md), kann auf
@@ -249,7 +243,7 @@ Bis etwa 2010 war diese Betriebsart der Normalfall: Eine Einrichtung
 erwarb die Lizenz für eine (Server-)Software, entweder als Einzelkauf
 oder im Abo, und installierte diese auf eigenen Servern, z.B. im
 Serverraum der Bibliothek. Im Fachjargon spricht man auch von einer
-“On-premise”-Installation.
+„On-premise"-Installation.
 
 In diesem Modell kümmert sich die Einrichtung selbst um Installation und
 Updates. Folglich erfordert dieses Modell hohen Personaleinsatz und kann
@@ -284,7 +278,7 @@ das Hosting für mehrere Einrichtungen besser skaliert.
 Bei diesem Betriebsmodell, das manchmal auch als SaaS (Software as a
 Service) bezeichnet wird, liegt der technische Betrieb beim Anbieter
 bzw. Dienstleister der Software und die Einrichtung nutzt eine für sie
-bestmöglich vorkonfigurierte Installation (“Instanz”). Dies ist
+bestmöglich vorkonfigurierte Installation („Instanz"). Dies ist
 insbesondere bei webbasierten Anwendungen die bevorzugte Betriebsart,
 stellt aber erhöhte Anforderungen an die Anbindung lokaler Endgeräte wie
 z.B. [Ausleihautomaten](#selbstverbucher-ausleihautomaten)), weil dabei
@@ -359,8 +353,7 @@ strategischen Ausrichtung:
     gezielt auf inklusive Praktiken und die Schaffung barrierefreier
     Dienste und Ressourcen hinzuwirken.
 
-Betriebssicherheit und Risikomanagement
----------------------------------------
+## Betriebssicherheit und Risikomanagement
 
 Neben den Problemen der Ablösungplanung gibt es weitere Risiken des
 Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt
@@ -408,14 +401,14 @@ height="0.0in"}
 
 Schichtmodell-Bild (Platzhalter)
 
-Aus @fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
-Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
-Datenbankmanagementsystem basieren. Um das gesamte IT-System betreiben
-zu können, müssen die Einzelkomponenten zusammenspielen. Fällt eines der
-Systeme, beispielsweise das Betriebssystem, aufgrund von Obsoleszenz
-aus, so ist es unter Umständen möglich, die darüber liegenden Schichten
-auf ein neues Betriebssystem zu migrieren, jedoch ist dies nicht
-garantiert.
+Aus (**fig-schichtmodell?**) wird deutlich, dass moderne
+Software-Systeme zum Beispiel auf einem Betriebssystem oder weiteren
+Subsystemen wie einem Datenbankmanagementsystem basieren. Um das gesamte
+IT-System betreiben zu können, müssen die Einzelkomponenten
+zusammenspielen. Fällt eines der Systeme, beispielsweise das
+Betriebssystem, aufgrund von Obsoleszenz aus, so ist es unter Umständen
+möglich, die darüber liegenden Schichten auf ein neues Betriebssystem zu
+migrieren, jedoch ist dies nicht garantiert.
 
 Das Risiko erhöht sich, wenn im Rahmen eines Wartungsvertrags durch den
 Hersteller festgelegt wurde, dass zum Beispiel nur bestimmte
@@ -449,7 +442,7 @@ Anforderungen erfüllen:
 > Erwartungskonformität, Individualisierbarkeit, Lernförderlichkeit*
 > beachtet und realisiert werden.
 >
-> – \[@gesetzliche\_bildschirm-\_2019\]
+> -- (Gesetzliche und Unfallversicherung e.V. (DGUV) 2019)
 
 Die Erreichung dieser Ziele wird im Kapitel
 [Anforderungsanalyse](#anforderungen) thematisiert.
@@ -505,8 +498,7 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
     Bewertung
     heranziehen](https://developers.google.com/search/blog/2020/05/evaluating-page-experience).
 
-Management der Bibliotheks-IT
------------------------------
+## Management der Bibliotheks-IT
 
 Die Auswahl und Implementierung sowie der Betrieb von digitalen Diensten
 ist ein stetig wachsender Aufgabenbereich für Bibliotheken. Durch den
@@ -646,11 +638,11 @@ Folgenden ausführlicher betrachtet.
 
 ### Aus- und Weiterbildung
 
-In der Einleitung wird Cody Hanson \[-@hanson\_cody\_opinion\_2015\]
-zitiert: “Most importantly, all library staff must understand that our
-software is our library, and is everyone’s responsibility.” Bezogen auf
-Einarbeitung und Weiterbildung bedeutet das, dass sich Mitarbeitende mit
-der (Weiter-)Entwicklung von Software ebenfalls weiterbilden und
+In der Einleitung wird Cody Hanson (2015) zitiert: „Most importantly,
+all library staff must understand that our software is our library, and
+is everyone's responsibility." Bezogen auf Einarbeitung und
+Weiterbildung bedeutet das, dass sich Mitarbeitende mit der
+(Weiter-)Entwicklung von Software ebenfalls weiterbilden und
 weiterentwickeln. Nur so kann die Verantwortung von allen Mitarbeitenden
 mit Bezug zur Bibliotheks-IT gemeinsam getragen werden.
 
@@ -663,7 +655,7 @@ der Einführung oder dem Wechsel von Systemen.
 
 Historisch gibt es keine formalisierte Ausbildung für die erwähnten
 Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
-klassischerweise im Rahmen von “Training on the Job” erworben.
+klassischerweise im Rahmen von „Training on the Job" erworben.
 
 Allgemeine Ausbildungen und Studiengänge im Bereich IT und Data Science
 bieten eine gute Grundlage, decken aber bibliotheksspezifische IT-Themen
@@ -731,17 +723,19 @@ Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle
 Weiterbildungsformen sind
 
 -   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO,
-    Kitodo, OPUS …
+    Kitodo, OPUS ...
 
--   Library Carpentries
-
--   Mailinglisten, Foren und andere Kommunikationskanäle
+-   Mailinglisten, Foren und andere Kommunikationskanäle wie zum
+    Beispiel das deutschsprachige Metadaten-Forum
+    <https://metadaten.community/>.
 
 -   persönliche Kontakte, Gruppen wie UX Roundtable
 
+-   Library Carpentries
+
 -   Fachpublikationen: Code4Lib Journal, Weave Journal
 
--   Soziale Medien: Weblogs, Twitter, Discord
+-   Soziale Medien: Weblogs, Instagram, Mastodon, Discord...
 
 #### Personalgewinnung
 
@@ -763,8 +757,7 @@ den digitalen Diensten noch stärker berücksichtigen und Studierende mit
 einem erhöhten Interesse an den Aufgaben in der Bibliotheks-IT
 rekrutieren müssen.
 
-Zusammenfassung und Ausblick
-----------------------------
+## Zusammenfassung und Ausblick
 
 Auch nach Auswahl eines Systems ist eine permanente Beobachtung des
 [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt
@@ -776,3 +769,10 @@ abzeichnen, sind vor allem die internen Arbeits-Prozesse zu
 berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist
 somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw
 Anpassung des Systems effektiv reagiert werden.
+
+Gesetzliche, Deutsche, und Unfallversicherung e.V. (DGUV). 2019.
+„Bildschirm- und Büroarbeitsplätze: Leitfaden für die Gestaltung".
+<https://publikationen.dguv.de/widgets/pdf/download/article/409>.
+
+Hanson, Cody. 2015. „Opinion: Libraries are Software". 2015.
+<https://www.codyh.com/writing/software.html>.

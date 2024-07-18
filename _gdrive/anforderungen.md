@@ -1,31 +1,29 @@
-Anforderungsanalyse
-===================
+# Anforderungsanalyse
 
-Zusammenfassung
----------------
+## Zusammenfassung
 
-Dieses Kapitel behandelt die Anforderungsanalyse als Kernbestandteil bei
-der Entwicklung von IT-Systemen. Der Schwerpunkt liegt dabei auf der
-[Einbeziehung von Nutzer\*innen](#einbeziehung), um die tatsächlichen
-Bedürfnisse möglichst passend zu erfüllen.
+Dieses Kapitel behandelt die Anforderungsanalyse als Kernbestandteil des
+Entwicklungsprozesses von IT-Systemen. Der Schwerpunkt liegt dabei auf
+verschiedenen Möglichkeiten zur [Einbeziehung von
+Nutzer\*innen](#einbeziehung), um die tatsächlichen Bedürfnisse
+möglichst passend zu erfüllen.
 
-Einleitung
-----------
+## Einleitung
 
 Im Kapitel [Management von IT-Systemen](#management) wurde bereits auf
 Themen wie Barrierefreiheit und software-ergonomische Anforderungen
 sowie den permanenten Anpassungsbedarf an Systeme im Laufe ihrer
 Lebenszeit eingegangen.
 
-Betrachtet man sein persönliches Nutzungsverhalten im digitalen Bereich
+Betrachtet man sein persönliches Nutzungsverhalten im digitalen Bereich,
 wird klar, dass sich auch die eigenen Präferenzen bezüglich der Nutzung
 von Apps oder Webseiten ändern. Ursachen dafür sind beispielsweise
 Veränderungen an Lebens- oder Arbeitskontexten, Erwartungen an die
-Bedienbarkeit von Systemen oder durch die digitale Transformation
-beziehungsweise technischen Fortschritt möglich gewordene neue
-Nutzungsformen von Medien.
+Bedienbarkeit von Systemen oder neue Nutzungsformen von Medien, die
+durch technischen Fortschritt und digitale Transformation möglich
+gewordene sind.
 
-IT-Entwicklung sollte sich daher auch an den
+IT-Entwicklung in Bibliotheken sollte sich daher in erster Linie an den
 [Bedürfnissen](#bedarfsermittlung) von [Nutzer\*innen](#einbeziehung)
 ausrichten. Es gibt verschiedene Methoden, die entsprechenden Bedarfe
 und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen.
@@ -33,8 +31,7 @@ Dazu gehören unter anderem der Einsatz von Personas, Use Cases oder
 Storyboards. Weitere [Methoden](#methoden) sind zum Beispiel
 Storyboards, Wireframes oder auch Prototypen.
 
-Nutzer\*innenorientierte Gestaltung
------------------------------------
+## Nutzer\*innenorientierte Gestaltung
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
 in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
@@ -43,14 +40,14 @@ sondern kontinuierlich in den Entwicklungsprozess einbezogen werden.
 Hierbei ist es besonders wichtig, die Fähigkeiten und Bedürfnisse der
 Nutzenden sowie ihre Arbeitskontexte und -aufgaben in den Entwurf von
 IT-Systemen einzubeziehen. Diese Aspekte finden sich auch in den
-zugrundeliegenden Definitionen, wie der Usability (siehe Abschnitt [Was
+zugrunde liegenden Definitionen, wie der Usability (siehe Abschnitt [Was
 beeinflusst den
 Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck)) wieder.
 
 Beim nutzer\*innenorientierten Design oder dem User-Centered Design
 (UCD) handelt es sich nicht im formale Methoden im engeren Sinn, sondern
 um eine Sammlung i.d.R. empirisch abgesicherter Techniken mit drei
-Kernideen \[@gould\_designing\_1987\].
+Kernideen (Gould und Lewis 1987):
 
 1.  Fokussierung auf Nutzer\*innen und deren Aufgaben von Beginn der
     Entwicklung an
@@ -60,22 +57,23 @@ Kernideen \[@gould\_designing\_1987\].
 
 3.  Nutzung eines iterativen Design-Prozesses
 
-Kling und Leigh Star ergänzen, dass die ganz individuellen Fähigkeiten
-der Nutzenden in Betracht gezogen werden müssen \[@kling\_human\_1998\],
-was allein schon aus Gründen der digitalen Teilhabe sinnvoll erscheint.
+Kling und Star (1998) ergänzen, dass die ganz individuellen Fähigkeiten
+der Nutzenden in Betracht gezogen werden müssen, was allein schon aus
+Gründen der digitalen Teilhabe sinnvoll erscheint.
 
 Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche
 einfach zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte
-wie Effektivität, Effizienz, Benutzerzufriedenheit und Zugänglichkeit
-gelegt \[@deutsches\_institut\_fur\_normung\_e\_v\_din\_din\_2020\].
-Diese Aspekte werden in Abschnitt [Was beeinflusst den
-Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter
+wie [Effektivität, Effizienz und
+Zufriedenheit](https://www.usability.de/usability-user-experience.html)
+gelegt (DIN 2020). Diese Aspekte werden im Abschnitt [Was beeinflusst
+den Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter
 erläutert.
 
 Das Central Digital and Data Office des Vereinigten Köngreichs fasst die
 zentral zu bearbeitenden Arbeitspunkte im nutzer\*innenzentrierten
-Gestaltungsprozess und den Weg dahin prägnant in seinen “Government
-Design Principles” zusammen @noauthor\_government\_2012:
+Gestaltungsprozess und den Weg dahin prägnant in seinen „Government
+Design Principles" zusammen „Government Design Principles. GOV.UK"
+(2012):
 
 1.  Start with user needs
 
@@ -107,30 +105,34 @@ Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und
 zugänglich sein. Die Erreichung dieser Ziele und zentrale
 Begriffsdefinitionen sind Teil des Arbeits- und Forschungsgebiets der
 Software-Ergonomie und finden sich in den einschlägigen Normen wie der
-DIN EN ISO 9241-11 wieder
-\[@deutsches\_institut\_fur\_normung\_e\_v\_din\_din\_2020\].
+DIN EN ISO 9241-11 wieder (DIN 2020).
 
 Von zentraler Bedeutung sind dabei zwei Kernbegriffe: die Usability
 (Gebrauchstauglichkeit) und die User Experience (Nutzer\*innenerfahrung)
 
-**Usability** ist das “Ausmaß, in dem ein System, ein Produkt oder eine
+**Usability** ist das „Ausmaß, in dem ein System, ein Produkt oder eine
 Dienstleistung durch bestimmte Benutzer in einem bestimmten
 Nutzungskontext genutzt werden kann, um festgelegte Ziele effektiv,
-effizient und zufriedenstellend zu erreichen” DIN EN ISO 9241-11
+effizient und zufriedenstellend zu erreichen" [DIN EN ISO
+9241-11](https://de.wikipedia.org/wiki/ISO_9241)
 
-**User Experience** bezeichnet die “Wahrnehmungen und Reaktionen einer
+**User Experience** bezeichnet die „Wahrnehmungen und Reaktionen einer
 Person, die aus der tatsächlichen und/oder der erwarteten Benutzung
-eines Produkts, eines Systems oder einer Dienstleistung resultieren” DIN
-ISO 9241-210:2011
+eines Produkts, eines Systems oder einer Dienstleistung resultieren"
+[DIN ISO
+9241-210:2011](https://germanupa.de/wissen/berufsbild-usability-ux-professional/grundlegend/menschzentrierte-gestaltung)
 
 Bei Usability handelt es sich um eine Eigenschaft eines Systems, die
 während der konkreten Interaktion mit diesem relevant wird und
 beispielsweise angibt, inwiefern Hürden bei der Bedienung auftreten
-(@fig-usux). Zur Vermeidung von Usability-Problemen existieren ein
-Vielzahl von Heuristiken, die in den einschlägigen Normen skizziert
-werden bzw. durch Autoren wie Shneiderman in seinen “8 golden rules”
-\[@shneiderman\_designing\_2005\] oder Nielsen mit seinen “[10
-Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)”
+((**fig-usux?**)). Es ist also keine Produkt- sondern eine
+Gebrauchsqualität, die sich erst während der Nutzung zeigt.
+
+Zur Vermeidung von Usability-Problemen existieren ein Vielzahl von
+Heuristiken, die in den einschlägigen Normen skizziert werden bzw. durch
+Autoren wie Shneiderman und Plaisant (2005) in ihren „8 golden rules"
+oder Nielsen mit seinen „[10
+Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)"
 benannt werden.
 
 Die User Experience hingen bezieht sich auf die Wahrnehmung der
@@ -147,12 +149,11 @@ digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
 ![Zusammenhang zwischen Usability und User
-Experience](media/rId26.png){width="0.0in" height="0.0in"}
+Experience](media/rId29.png){width="0.0in" height="0.0in"}
 
 Zusammenhang zwischen Usability und User Experience
 
-Wie beziehen wir unsere Nutzer\*innen ein?
-------------------------------------------
+## Wie beziehen wir unsere Nutzer\*innen ein?
 
 Mit der Einführung einer neuen IT-Lösung werden bestimmte strategische
 Ziele verfolgt wie die Ablösung eines veralteten Systems, die Einführung
@@ -178,15 +179,15 @@ Projekten zu informieren und daraus nach Möglichkeiten Ableitungen für
 eigene Zielsetzungen zu entwickeln.
 
 Beobachtungen können sehr flexibel angelegt und geplant werden. Dadurch
-können valide Ergebnisse mit vertretbarem Aufwand produziert werden und
-die Studie bei Bedarf gut skaliert werden. Der Fokus bei solchen Studien
+können valide Ergebnisse mit vertretbarem Aufwand produziert und die
+Studie bei Bedarf gut skaliert werden. Der Fokus bei solchen Studien
 liegt darauf, Nutzer\*innen in ihrem Arbeitsalltag zu beobachten, um
 ihre Herangehensweise bei der Lösung von Aufgaben und Problemen zu
 ermitteln. Übertragen auf digitale Dienste kann das zum Beispiel im
 Rahmen eines Usability-Tests passieren, in dem eine oder mehrere
 Personen ein System nutzen. Typischerweise werden während des Tests
 nicht nur Notizen oder Aufnahmen gesichert, sondern die Tester\*innen
-nutzen das Think-Aloud-Protokoll. Dabei sollen Nutzende in Echtzeit laut
+nutzen die Think-Aloud-Methode. Dabei sollen Nutzende in Echtzeit laut
 kommentieren, was sie denken, sehen und tun (siehe Abschnitt
 [Methoden](#methoden)).
 
@@ -217,12 +218,12 @@ beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![Vorgehensmodell zum szenariobasierten Design
-(https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)](media/rId33.png){width="3.3333333333333335in"
-height="2.5in"}
+![Bild einer Personabeschreibung aus einem Vortrag zum Szenario
+basierten Design](media/rId33.png){width="5.833333333333333in"
+height="4.35627624671916in"}
 
-Vorgehensmodell zum szenariobasierten Design
-(https://opus4.kobv.de/opus4-bib-info/frontdoor/index/index/docId/3526)
+Bild einer Personabeschreibung aus einem [Vortrag zum Szenario basierten
+Design](https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267)
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei
 können Start, Ende, mögliche Verzweigungen, alternative Aktionen und
@@ -254,9 +255,9 @@ Nutzungsszenarien mit Hinblick auf die Usability des Systems hin zu
 überprüfen. Die folgenden Methoden können relativ einfach umgesetzt
 werden, generieren jedoch bereits wertvolle Erkenntnisse.
 
-#### Think-Aloud-Protokolle
+#### Think-Aloud-Methode
 
-Die zentrale Idee bei Think-Aloud-Protokollen ist, dass Proband\*innen
+Die zentrale Idee der Think-Aloud-Methode ist, dass Proband\*innen
 während der Interaktion mit dem zu evaluierenden System ihre Meinungen,
 Gedanken und Gefühle laut aussprechen.
 
@@ -293,7 +294,7 @@ von Usability-Tests sind z.B.:
 
 -   Nutzungsfehler pro Zeiteinheit,
 
--   Anzahl nicht benötigter Befehle (Menus, Icons, Links)
+-   Anzahl nicht benötigter Befehle (Menüs, Icons, Links)
 
 -   Benötigte Zeit für den Abschluss einer Arbeitsaufgabe (insbesondere
     im Vergleich mit einer vorherigen Iteration)
@@ -301,7 +302,7 @@ von Usability-Tests sind z.B.:
 -   Benötigte Anzahl an Klicks/Links, um an ein bestimmtes Ziel zu
     kommen.
 
-Der “Benutzungsfragebogen ISONORM 9241/10” bietet einen interessanten
+Der „Benutzungsfragebogen ISONORM 9241/10" bietet einen interessanten
 Kompromiss zwischen qualitativen und quantitativen Daten, da er
 qualitative Aussagen bezüglich der Usability eines Systems (z.B.
 Aufgabenangemessenheit und Selbstbeschreibungsfähigkeit) mithilfe einer
@@ -331,21 +332,16 @@ Nachfolgend werden drei Ansätze vorgestellt:
 #### Storyboards als frühe Methode
 
 Ein Storyboard illustriert, wie ein User Interface (UI,
-Nutzer\*innenoberfläche) auf Eingaben reagiert ohne das Interface
+Nutzer\*innenoberfläche) auf Eingaben reagiert, ohne das Interface
 visuell perfekt darzustellen. Es kann genutzt werden, um in Use Cases
 bestimmte Aktionen zu illustrieren.
-
-![Beispiel Storyboard](media/rId41.xml){width="4.166666666666667in"
-height="2.7777777777777777in"}
-
-Beispiel Storyboard
 
 Die Visualisierung von Interaktionsideen kann Beteiligten helfen,
 mögliche Abläufe nachzuvollziehen. Storyboards sind dabei oft leichter
 verständlich als z. B. technische Diagramme mit der oben genannten UML.
 Trotzdem ist darauf zu achten, dass Ideen und Konzepte für Stakeholder
 und Nutzende klar beschrieben werden, um Missverständnisse zu vermeiden.
-IN dieser Form lassen sich Storyboards nutzen, um z.B. verbale
+In dieser Form lassen sich Storyboards nutzen, um z.B. verbale
 Beschreibungen oder Nutzungsszenarien zu ergänzen.
 
 Durch die noch vage Darstellung der Idee können dann Diskussionen
@@ -357,49 +353,61 @@ Ergebnisse festgehalten werden.
 
 Vor- und Nachteile von Storyboards im Überblick:
 
-  Vorteile                                             Nachteile
-  ---------------------------------------------------- -------------------------------------------------------------------------
-  leicht verständlich, für alle Stakeholder geeignet   nicht jeder Use Case oder jede Interaktionsmöglichkeit ist darstellbar
-  bereits im frühen Entwurfsprozess einsetzbar         digitale, nichtlineare Produkte (z.B. Websites) sind schwer darstellbar
-  schnelle Erstellung ohne Vorkenntnisse möglich       ggf. Unklarheiten bei der Nutzung (z.B. durch unklare Symbole)
+  -----------------------------------------------------------------------
+  Vorteile                            Nachteile
+  ----------------------------------- -----------------------------------
+  leicht verständlich, für alle       nicht jeder Use Case oder jede
+  Stakeholder geeignet                Interaktionsmöglichkeit ist
+                                      darstellbar
+
+  bereits im frühen Entwurfsprozess   digitale, nichtlineare Produkte
+  einsetzbar                          (z.B. Websites) sind schwer
+                                      darstellbar
+
+  schnelle Erstellung ohne            ggf. Unklarheiten bei der Nutzung
+  Vorkenntnisse möglich               (z.B. durch unklare Symbole)
+  -----------------------------------------------------------------------
 
 #### Wireframes und Mock-Ups
 
-Wireframes und Mock-Ups werden vor allem dazu genutzt, erste Skizzen für
-Struktur, Layout und Funktionalitäten eines Interface vorzustellen.
-Ähnlich wie Storyboards dienen sie als einfach zu erstellende
-Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von
-einem System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
+Wireframes und Mock-Ups sind Prototypen und werden vor allem dazu
+genutzt, erste Skizzen für Struktur, Layout und Funktionalitäten eines
+Interface vorzustellen. Ähnlich wie Storyboards dienen sie als einfach
+zu erstellende Diskussionsgrundlage, mit deren Hilfe ein Abgleich der
+Vorstellungen von einem System und der Gestaltungsmöglichkeiten
+durchgeführt werden kann.
 
-![Beispiel für Wireframes](media/rId45.jpg){width="5.833333333333333in"
-height="4.375in"}
+![Bild eines Papierprototypen für den Relaunch des
+Digitalisierungssystems
+Kitodo](media/rId45.png){width="5.833333333333333in"
+height="4.325461504811899in"}
 
-Beispiel für Wireframes
+Bild eines Papierprototypen für den Relaunch des Digitalisierungssystems
+Kitodo
 
-Ein Wireframe (“Drahtmodell”) ist eine noch undetaillierte (“low-level”)
+Ein Wireframe („Drahtmodell") ist eine noch undetaillierte („low-level")
 Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die
 Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder
-oder Buttons als Kästchen dargestellt, Text als Striche und ähnliches
-(siehe @fig-5). Ein Mock-Up ist, im Kontext Design, eine ausgereifte
-(“high-level”) Version des Interfaces mit realistischen Farben,
-Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups sind
-also rein statische Entwürfe des zukünftigen Produkts im Gegensatz zu
-Prototypen, die interaktiv sind und damit echte Funktionalitäten
-enthalten.
+oder Buttons als Kästchen dargestellt und Texte als Striche und
+ähnliches (siehe (**fig-5?**)). Ein Mock-Up ist, im Kontext Design, eine
+ausgereifte („high-level") Version des Interfaces mit realistischen
+Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups
+sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz
+zu interaktiven Prototypen, die echte Funktionalitäten enthalten.
 
-#### (Interaktive) Prototypen
+#### Prototypen
 
-Die nächsthöhere Form eines geplanten Produkts, (interaktive)
-Prototypen, besitzen bereits erste Funktionen des geplanten Interfaces.
-Auch hier gibt es eine Spanne von rudimentären, low-level bis hin zu
-ausgereiften, high-level Prototypen, die durch Iterationen schrittweise
-erreicht werden. Üblich ist außerdem die Unterteilung in “vertical
-slice”, die qualitativ hochwertige Umsetzung nur eines bestimmten Teils
-des Produkts, und “horizontal slice”, die prototypische Umsetzung einer
+Interaktive Prototypen besitzen als nächsthöhere Form eines geplanten
+Produkts bereits erste Funktionen des geplanten Interfaces. Auch hier
+gibt es eine Spanne von rudimentären, low-level bis hin zu ausgereiften,
+high-level Prototypen, die durch Iterationen schrittweise erreicht
+werden. Üblich ist außerdem die Unterteilung in „vertical slice", die
+qualitativ hochwertige Umsetzung nur eines bestimmten Teils des
+Produkts, und „horizontal slice", die prototypische Umsetzung einer
 möglichst großen Bandbreite des späteren Systems.
 
 Erste Prototypen müssen dabei noch nicht zwingend programmiert werden,
-sondern können durch entsprechende Prototyping Software, wie
+sondern können durch entsprechende Prototyping-Software, wie
 [Figma](https://www.figma.com) oder [Axure](https://www.axure.com),
 umgesetzt werden. Diese besitzen eine Art Bausystem für Interfaces mit
 mehreren Ansichten, die über Aktionen wie den Klick auf einen Button
@@ -418,15 +426,15 @@ die Zielgruppen geeignet sind.
 Die vorangegangenen Abschnitte haben herausgestellt, wie wichtig es ist,
 regelmäßig Feedback der Nutzenden zu erhalten. Eine zentrale Datenquelle
 dafür ist die Begleitung eines Projekts durch Evaluierungen. Ein
-Beispiel für eine lebendige Evaluierungskultur ist das “[User Research
-Center” der Harvard Library](https://urc.library.harvard.edu/), das
+Beispiel für eine lebendige Evaluierungskultur ist das "[User Research
+Center" der Harvard Library](https://urc.library.harvard.edu/), das
 regelmäßig verschiedene Methoden anwendet, um Angebote gemeinsam mit
 Nutzenden zu evaluieren und diese öffentlich in einem
 [Wiki](https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=232199222)
 teilt.
 
 Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei
-Methoden: Beobachtungs- und Inspektionstests (@fig-usux). Während
+Methoden: Beobachtungs- und Inspektionstests ((**fig-usux?**)). Während
 erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt werden,
 werden Inspektionstests häufig durch Usability-Expert\*innen realisiert.
 
@@ -440,7 +448,7 @@ das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.
 Die Testgruppe muss die potentielle Nutzungsgruppe bestmöglich
 repräsentieren, jedoch nicht sehr groß sein. Die Erfahrung zeigt, dass
 ca. fünf Testpersonen ausreichen, um die wichtigsten Usabilityprobleme
-eines Systems zu identifizieren @jakob\_nielsen\_why\_2000. Statt eines
+eines Systems zu identifizieren Jakob Nielsen (2000). Statt eines
 einzigen Tests mit vielen Teilnehmenden bieten sich daher schnell
 durchzuführende Tests mit wenigen Teilnehmenden an, um ein Produkt
 iterativ zu verbessern. Möchte man jedoch verschiedene Typen von
@@ -452,7 +460,7 @@ kulturellen Faktoren (z.B. Bildungshintergrund) bietet es sich an,
 Nutzer\*innen auszuwählen, die über ein unterschiedliches Maß an
 Vorwissen über das zu entwickelnde oder verwandte Produkte verfügen.
 Außerdem sollten Personen integriert werden, welche von Einschränkungen
-betroffen sind, die in Abschnitt [Accessibility](#accessibility)
+betroffen sind, die im Abschnitt [Accessibility](#accessibility)
 thematisiert wurden.
 
 #### Testablauf und Vorbereitungen
@@ -497,8 +505,7 @@ heißt konkret, dass die ersten Teilaufgaben leicht zu lösen sein sollten
 und deren Schwierigkeit dann kontinuierlich zunimmt, um durch komplexere
 Aufgaben belastbare Aussagen zu erhalten.
 
-Zusammenfassung und Ausblick
-----------------------------
+## Zusammenfassung und Ausblick
 
 Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende
 in die Entwicklung von Software einbezogen werden können - je nach
@@ -509,3 +516,29 @@ Entwicklung eines neuen Designs die Verwendung von Wireframes und
 Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit
 neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen,
 mit denen auch die Interaktionen getestet werden können.
+
+DIN. 2020. „DIN EN ISO 9241-110 Ergonomie der
+Mensch-System-Interaktion - Teil 110: Interaktionsprinzipien (ISO
+9241-110:2020)".
+<https://www.din.de/de/mitwirken/normenausschuesse/naerg/veroeffentlichungen/wdc-beuth:din21:320862700>.
+
+Gould, J. D., und C. Lewis. 1987. „Designing for usability: Key
+principles and what designers think". In *Human-computer interaction: a
+multidisciplinary approach*, 528--39. San Francisco, CA, USA: Morgan
+Kaufmann Publishers Inc.
+
+„Government Design Principles. GOV.UK". 2012. 2012.
+<https://www.gov.uk/guidance/government-design-principles>.
+
+Jakob Nielsen. 2000. „Why You Only Need to Test with 5 Users. Nielsen
+Norman Group". 2000.
+<https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/>.
+
+Kling, Rob, und Susan Leigh Star. 1998. „Human centered systems in the
+perspective of organizational and social informatics". *ACM SIGCAS
+Computers and Society* 28 (1): 22--29.
+<https://doi.org/10.1145/277351.277356>.
+
+Shneiderman, Ben, und Catherine Plaisant. 2005. *Designing the user
+interface. Strategies for effective human-computer interaction*. 4th
+Aufl. Pearson.
