@@ -510,7 +510,7 @@ Paket- und Lizenzinformationen hervorgehen. Darunter fallen zum Beispiel
     Zeitschriften und Fortsetzungen in deutschen und österreichischen
     Bibliotheken
 
--   die [*GoKB*](https://gokb.org/) als kooperativ gepflegte Knowledge Base für elektronische Ressourcen
+-   die [*GOKb*](https://gokb.org/) als kooperativ gepflegte Knowledge Base für elektronische Ressourcen
 
 -   kommerzielle Knowledge Bases wie die EBSCO KB, Alma NZ und den OCLC Collection Manager
 
@@ -1069,7 +1069,7 @@ meist nur eine Komponente im Haushaltswesen.
 
 ### Verwaltung von elektronischen Ressourcen
 
-Für die Verwaltung elektronischer Ressourcen sollten folgende Aufgaben
+Für die Verwaltung elektronischer Ressourcen (*ERM*) sollten folgende Aufgaben
 unterstützt werden:
 
 1.  Verknüpfungen zur Erwerbung, Haushalt/Budget,  Rechnungswesen und Lieferanten bzw. Plattformbetreibenden
@@ -1102,9 +1102,9 @@ entsprechenden Funktionalitäten ist daher ein Alleinstellungsmerkmal von
 BMS der neuen Generation.
 
 Zur Bereitstellung von Daten für die Verwaltung von elektronischen Ressourcen
-bieten sich außerdem sogenannte Electronic Resource
-Management-Tools und Datenbanken ("Knowledge Base") wie
-*Coral*, *GOKb* und *LAS:eR* an.
+bieten sich außerdem sogenannte Electronic Resource Management-Tools (z. B.
+FOLIO-ERM, Coral, LAS:eR) und Datenbanken („Knowledge Base“) wie GOKb, we:kb
+oder kommerzielle Knowledge Bases an.
 
 ### Katalogisierung {#katalogisierung-prozess}
 
@@ -1153,15 +1153,14 @@ Anforderungen gestellt:
 Das Katalogmodul als Teil des BMS war zunächst nur ein primär intern genutzes
 Suchinstrument für alle erfassten Bestände. Mit fortschreitender Technik
 entstanden verschiedene Konstrukte, die Daten der Bibliothek auch direkt den
-Nutzer\*innen möglichst mit der Funktionalität eines
-[Discovery-Systems](discovery.md) zur Verfügung zu stellen:
+Nutzer\*innen zur Verfügung zu stellen:
 
 1.  Klassischer Katalog (OPAC) als Bestandteil des BMS
 
 2.  Katalog als separates Modul (nicht Bestandteil des BMS), selbst
     entwickelt, zugekauft oder als Open Source
 
-3.  Discoverysystem als Bestandteil des BMS: Daten aus dem eigenen
+3.  [Discovery-Systems](discovery.md) als Bestandteil des BMS: Daten aus dem eigenen
     Bestand sowie Fremddaten, die als Metadaten zur Verfügung stehen.
     Eine Herausforderung besteht hierbei darin dass sich Anforderungen
     an die Suchoberfläche relativ schnell ändern, so dass die BMS-eigene
