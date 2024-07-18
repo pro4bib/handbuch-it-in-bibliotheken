@@ -403,7 +403,7 @@ folgende Fragen:
 
 - Datenschutzrechtliche Fragen (Ort des Hostings, Verfahrensbeschreibungen)
 
-- Datenhoheit
+- Datenhoheit (siehe [Digitale Souveränität](#digitale-souveränität))
 
 Die Indizes dieser Systeme können separat lizenziert und beispielsweise an
 *[VuFind](https://vufind.org/)*-Systeme angebunden werden.
@@ -491,13 +491,13 @@ Aussagen zur Verantwortung für Betriebssicherheit und Verfügbarkeit.
 
 ### Monitoring und Weiterentwicklung
 
-Wie jedes IT-System brauchen Discovery-Systeme kontinuierliches
-technisches Monitoring (vgl. Kapitel Management von IT-Diensten), ebenso wie
-konzeptionelle Betreuung. Anders als der klassische Bibliothekskatalog sind
+Wie jedes IT-System brauchen Discovery-Systeme kontinuierliches technisches
+Monitoring (vgl. [Kapitel Management von IT-Diensten](management.md)), ebenso
+wie konzeptionelle Betreuung. Anders als der klassische Bibliothekskatalog sind
 Discovery-Systeme angetreten, um sich konsequent nach dem Informationsverhalten
-der Nutzer\*innen auszurichten. Daraus ergibt sich, dass sowohl die Implementierung
-als auch die weitere Entwicklung möglichst kleinschrittig und unter
-Einbeziehung von Analysen der Nutzung erfolgen sollten. Neben Methoden
+der Nutzer\*innen auszurichten. Daraus ergibt sich, dass sowohl die
+Implementierung als auch die weitere Entwicklung möglichst kleinschrittig und
+unter Einbeziehung von Analysen der Nutzung erfolgen sollten. Neben Methoden
 der Usability-Forschung (siehe Kapitel [Wie beziehen wir unsere Nutzer\*innen
 ein?](anforderungen.md#einbeziehung)) bietet sich als niedrigschwellige Methode
 vor allem die Analyse von Logfiles an. So kann z. B. mit der Software
@@ -598,4 +598,17 @@ Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und
 Alternativen in der Praxis fließend sind und dass Discovery-Systeme
 perspektivisch um Funktionen anderer Systeme erweitert werden können und
 sollten.
+
+## Zusammenfassung & Ausblick
+
+Discovery-Systeme kommen den Erwartungen von Benutzer*innen an das Suchen und
+die Erreichbarkeit von Medien entgegen. Insbesondere Bibliotheken, die kein
+[Bibliotheksmanagement-System](bibliotheksmanagementsysteme.md) verwenden, das
+bereits eine Discovery-Oberfläche enthält, müssen sich daher oft und mit hoher
+Priorität damit auseinandersetzen, wie Informationen über den eigenen Bestand
+durch ein Discovery-System besser zugänglich gemacht werden. Dies eröffnet
+Fragen nach möglichen [Betriebsmodellen](#betriebsmodelle), gegebenenfalls des
+[Change Management](#change-management), bis hin zum kontinuierlichen
+[Monitoring](#monitoring-und-weiterentwicklung) und der Weiterentwicklung
+solcher Dienste.
 
