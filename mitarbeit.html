@@ -314,7 +314,7 @@ Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt
 <h3 class="unnumbered anchored" data-anchor-id="schreibstil">Stil und Aktualität</h3>
 <ul>
 <li><p><strong>Journalistische oder enzyklopädische Neutralität sind nicht oberstes Prinzip dieses Buches.</strong> Es soll vielmehr fundiert und praxisorientiert informieren und beraten und darf dabei auch parteiisch sein.</p></li>
-<li><p><strong>Dieses Buch ist keine wissenschaftliche Forschungsveröffentlichung.</strong> Nicht jede Aussage muss mit einer Quelle belegt werden. Für die Anwendung in der Hochschullehre reicht es, wenn das Buch zentrale Aussagen belegt bzw. auf die wichtigsten aktuellen Studien verweist und somit auch Tipps zur weiterführenden Lektüre bietet.</p></li>
+<li><p><strong>Dieses Buch ist keine wissenschaftliche Forschungsveröffentlichung.</strong> Nicht jede Aussage muss mit einer Quelle belegt werden. Für die Anwendung in der Hochschullehre reicht es, wenn das Buch zentrale Aussagen belegt bzw.&nbsp;auf die wichtigsten aktuellen Studien verweist und somit auch Tipps zur weiterführenden Lektüre bietet.</p></li>
 <li><p><strong>Das Buch sollte in 2-5 Jahren noch aktuell und verständlich sein, aber nicht mehr unbedingt in 10 Jahren.</strong></p></li>
 <li><p><strong>Das Buch soll als Nachschlagewerk dienen, das nicht vollständig durchgelesen werden muss.</strong> Dabei helfen Redundanz und Querverweise (siehe <a href="#struktur">Hinweise zur Struktur</a>).</p></li>
 <li><p><strong>Zumindest die einzelnen Kapitel sollen sich gut durchlesen lassen.</strong> Insbesondere Brüche in Stil und Aussage, Widersprüche oder unnötige Redundanzen sind innerhalb der Kapitel unbedingt zu vermeiden. Unter Berücksichtung des Nachschlagewerk-Charakters streben wir auch einen guten Lesefluss innerhalb der Kapitel an.</p></li>
@@ -352,9 +352,9 @@ Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt
 <section id="schreibweise" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="schreibweise">Schreibweise, Fachbegriffe und Verweise</h3>
 <ul>
-<li><p>Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (*). In Markdown ist es sicherer dem Sternchen einen Backslash voranzustellen, z.B. <code>Autor\*innen</code>.</p></li>
-<li><p>Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme</p></li>
-<li><p>Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung definiert. Abkürzungen werden zusätzlich <a href="#mitarbeit-glossar">im Abkürzungsverzeichnis</a> erfasst.</p></li>
+<li><p>Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (*). In Markdown ist es sicherer dem Sternchen einen Backslash voranzustellen, z.B.&nbsp;<code>Autor\*innen</code>.</p></li>
+<li><p>Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B.&nbsp;BMS für Bibliotheksmanagementsysteme</p></li>
+<li><p>Fachbegriffe (z.B.&nbsp;Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung definiert. Abkürzungen werden zusätzlich <a href="#mitarbeit-glossar">im Abkürzungsverzeichnis</a> erfasst.</p></li>
 <li><p>Wir vermeiden IT-Jargon.</p></li>
 <li><p>Wir vermeiden Substantivierung („Digitalisierungswürdigkeit“) und unnötige Passiv-Formen.</p></li>
 <li><p>Quellen sollten nur dann genannt werden wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.</p></li>
@@ -413,12 +413,12 @@ Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt
 </ul>
 <p>Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:</p>
 <ul>
-<li><code>_gdrive/</code> von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe <a href="_gdrive/README.md">README.md</a>)</li>
+<li><code>_gdrive/</code> von bzw.&nbsp;nach Google-Drive importierte bzw.&nbsp;exportierte Kapitel (siehe <a href="_gdrive/README.md">README.md</a>)</li>
 </ul>
 </section>
 <section id="konvertierung" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="konvertierung">Konvertierung</h3>
-<p>Zur Anpassung der Konvertierung des Handbuchs mit <a href="https://quarto.org/">quarto</a> muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem <code>rsvg-convert</code> installiert werden (Paket <code>librsvg2-bin</code> bzw. <code>libsrvg</code>).</p>
+<p>Zur Anpassung der Konvertierung des Handbuchs mit <a href="https://quarto.org/">quarto</a> muss das Repository lokale geklont und Quarto installiert werden. Für die DOCX-Ausgabe muss außerdem <code>rsvg-convert</code> installiert werden (Paket <code>librsvg2-bin</code> bzw.&nbsp;<code>libsrvg</code>).</p>
 <p>Die Aufrufe sind zur Vereinfachung in <a href="Makefile"><code>Makefile</code></a> zusammengefasst:</p>
 <ul>
 <li><p><code>make preview</code> konvertiert das Handbuch nach HTML und ermöglicht eine Vorschau unter <a href="http://localhost:15745/" class="uri">http://localhost:15745/</a> (der Port ist die Postleitzahl von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.</p></li>
