@@ -1104,7 +1104,7 @@ BMS der neuen Generation.
 Zur Bereitstellung von Daten für die Verwaltung von elektronischen Ressourcen
 bieten sich außerdem sogenannte Electronic Resource
 Management-Tools und Datenbanken ("Knowledge Base") wie
-*Coral*, *GOKB* und *LAS:eR* an.
+*Coral*, *GoKB* und *LAS:eR* an.
 
 ### Katalogisierung {#katalogisierung-prozess}
 
