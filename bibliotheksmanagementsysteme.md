@@ -510,7 +510,7 @@ Paket- und Lizenzinformationen hervorgehen. Darunter fallen zum Beispiel
     Zeitschriften und Fortsetzungen in deutschen und österreichischen
     Bibliotheken
 
--   die *GoKb* als kooperativ gepflegte Knowledge Base für elektronische Ressourcen
+-   die [*GoKB*](https://gokb.org/) als kooperativ gepflegte Knowledge Base für elektronische Ressourcen
 
 -   kommerzielle Knowledge Bases wie die EBSCO KB, Alma NZ und den OCLC Collection Manager
 
@@ -1104,7 +1104,7 @@ BMS der neuen Generation.
 Zur Bereitstellung von Daten für die Verwaltung von elektronischen Ressourcen
 bieten sich außerdem sogenannte Electronic Resource
 Management-Tools und Datenbanken ("Knowledge Base") wie
-*Coral*, *GoKB* und *LAS:eR* an.
+*Coral*, *GOKb* und *LAS:eR* an.
 
 ### Katalogisierung {#katalogisierung-prozess}
 
