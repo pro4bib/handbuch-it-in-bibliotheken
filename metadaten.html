@@ -427,8 +427,29 @@ Tabelle&nbsp;5.2: Einige Bestandteile des XML-Formats
 <li><p><strong>Abfragesprachen</strong> dienen dem Verweis auf einzelne Teile von Datensätzen. Sie beziehen sich ebenfalls immer auf eine Strukturierungssprache (zum Beispiel XPath für XML, JSON Path für JSON …) und sind für die Verarbeitung von Daten notwendig.</p></li>
 <li><p><strong>Modellierungssprachen</strong> helfen bei der Beschreibung von Datenmodellen. Die häufigsten Modellierungssprachen basieren auf dem Entity-Relationship-Modell. Da zwischen Syntax und Semantik irgendwann die reine Datenebene verlassen werden muss, sind die wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und Beschreibungen in natürlicher Sprache.</p></li>
 </ul>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Info">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Info
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Das <strong>Entity-Relationshop-Modell</strong> ist eine Modellierungssprache die meist für relationale Datenbanken verwendet wird, aber auch unabhängig davon verwendet werden kann. Dabei werden in einem ER-Diagramm Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe Beispiel <span class="quarto-unresolved-ref">?fig-er-diagram</span>). Eine graphische Syntax für erweitere ER-Diagramme ist die Unified Modeling Language (<em>UML</em>).</p>
+<div id="er-diagram" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="media/er-modell.svg" class="img-fluid figure-img"></p>
+<figcaption>ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <p>Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft, häufig auftretende Fehler bei der (Meta-)Datenverarbeitung zu vermeiden. Ein Beispiel hierfür ist das <em>Resource Description Framework</em> (<em>RDF</em>) mit dazugehörigen Schemasprachen (<em>SHACL</em>/<em>ShEx</em>), Abfragesprachen (<em>SPARQL</em>) und Modellierungssprachen (<em>RDFS</em>/<em>OWL</em>). In anderen Fällen wird aus Mangel an Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und stattdessen auf allgemeine Programmiersprachen zurückgegriffen.</p>
-<div class="callout callout-style-simple callout-tip callout-titled">
+<p>Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem Schwerpunkt bietet die Datenbank <a href="https://format.gbv.de/">format.gbv.de</a>. Grundlagen von Metadaten und Ontologien vermitteln <span class="citation" data-cites="kuhlen_metadaten_2023">Assfalg (<a href="literatur.html#ref-kuhlen_metadaten_2023" role="doc-biblioref">2023</a>)</span> und <span class="citation" data-cites="kuhlen_ontologien_2023">Rölke und Weichselbraun (<a href="literatur.html#ref-kuhlen_ontologien_2023" role="doc-biblioref">2023</a>)</span>.</p>
+<p>In der Praxis werden Daten in einem Datenformat zusätzlich durch anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter Format-Varianten, Metadatenprofile bzw.&nbsp;Anwendungsprofile, Erfassungsregeln und die jeweilige Erfassungspraxis.</p>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Info">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -443,8 +464,6 @@ Info
 <p>Üblicherweise decken Schemasprachen nicht alle Aspekte eines Datenformats ab. So lässt sich die Korrektheit der abschließenden Prüfziffer (<code>[0-9]</code>) nicht mit einem regulären Ausdruck überprüfen.</p>
 </div>
 </div>
-<p>Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem Schwerpunkt bietet die Datenbank <a href="https://format.gbv.de/">format.gbv.de</a>. Grundlagen von Metadaten und Ontologien vermitteln <span class="citation" data-cites="kuhlen_metadaten_2023">Assfalg (<a href="literatur.html#ref-kuhlen_metadaten_2023" role="doc-biblioref">2023</a>)</span> und <span class="citation" data-cites="kuhlen_ontologien_2023">Rölke und Weichselbraun (<a href="literatur.html#ref-kuhlen_ontologien_2023" role="doc-biblioref">2023</a>)</span>.</p>
-<p>In der Praxis werden Daten in einem Datenformat zusätzlich durch anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter Format-Varianten, Metadatenprofile bzw.&nbsp;Anwendungsprofile, Erfassungsregeln und die jeweilige Erfassungspraxis.</p>
 </section>
 <section id="identifikatoren" class="level3">
 <h3 class="anchored" data-anchor-id="identifikatoren">Identifikatoren</h3>
@@ -465,7 +484,19 @@ Info
 <section id="normdaten" class="level3">
 <h3 class="anchored" data-anchor-id="normdaten">Normdaten</h3>
 <p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen <a href="#identifikatoren">Identifikator</a> versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <em>Normdaten</em> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Info">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Info
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu komplexen <a href="#datenmodelle-und-ontologien">Ontologien und Wissensgraphen</a>. Ein prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame Normdatei (<em>GND</em>), in der neben Personen auch Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.</p>
+</div>
+</div>
 <p>Zur Anreicherung von Daten mit Normdaten mittels <em>Entity Recognition</em> (Erkennung von Entitäten in Daten) und <em>Entity Linking</em> (Abgleich von Entitäten mit IDs anderer Normdateien) sollte unterschieden werden zwischen:</p>
 <ul>
 <li><p>Normdateien mit Entitäten wie Personen (ORCID), Publikationen (DOI, ISBN), Sprachen (ISO 639) etc., die sich grundsätzlich eindeutig unterscheiden lassen sowie</p></li>
@@ -504,7 +535,7 @@ Info
 <figcaption>Der gleiche Datensatz in MARC-XML</figcaption>
 </figure>
 </div>
-<p><strong>PICA</strong> ist das von MARC inspirierte Datenformat der Katalogisierungssysteme <em>CBS</em> und <em>LBS</em> <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span>. Das wichtigste Anwendungsprofil ist das K10plus-Format des BSZ/GBV.</p>
+<p><strong>PICA</strong> ist das von MARC inspirierte Datenformat der Katalogisierungssysteme <abbr title="Katalogdatenbank von OCLC, wird insbesondere für den Verbundkatalog K10plus verwendet">CBS</abbr> und <em>LBS</em> <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span>. Das wichtigste Anwendungsprofil ist das K10plus-Internformat.</p>
 <p><strong>MAB</strong> und <strong>allegro</strong> sind ebenfalls an MARC angelehnte, feldbasierte Formate aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet werden.</p>
 </section>
 <section id="xml-basierte-datenformate" class="level3">
