@@ -11,8 +11,15 @@ glossary:
 #    url: https://format.gbv.de/schema/avram/specification
 #    definition: Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+
 
+  BSZ:
+    url: https://www.bsz-bw.de/
+    definition: Bibliotheksservice-Zentrum Baden-Württemberg, zentrale Einrichtung des Südwestdeutscher Bibliotheksverbund (SWB)
+
   BMS/LMS:
     definition: Bibliotheksmanagementsystem, gebräuchlich auch als Library Management System
+
+  CBS:
+    definition: Katalogdatenbank von OCLC, wird insbesondere für den Verbundkatalog K10plus verwendet
 
   CMS:
     url: https://de.wikipedia.org/wiki/Content-Management-System

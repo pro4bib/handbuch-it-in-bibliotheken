@@ -158,6 +158,13 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
   wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und
   Beschreibungen in natürlicher Sprache.
 
+::: {.callout-tip title="Info"}
+
+Das **Entity-Relationshop-Modell** ist eine Modellierungssprache die meist für relationale Datenbanken verwendet wird, aber auch unabhängig davon verwendet werden kann. Dabei werden in einem ER-Diagramm Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe Beispiel @fig-er-diagram). Eine graphische Syntax für erweitere ER-Diagramme ist die Unified Modeling Language (*UML*).
+
+![ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken](media/er-modell.svg){#er-diagram}
+:::
+
 Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft,
 häufig auftretende Fehler bei der (Meta-)Datenverarbeitung zu vermeiden. Ein Beispiel
 hierfür ist das *Resource Description Framework* (*RDF*) mit dazugehörigen
@@ -165,20 +172,6 @@ Schemasprachen (*SHACL*/*ShEx*), Abfragesprachen (*SPARQL*) und
 Modellierungssprachen (*RDFS*/*OWL*). In anderen Fällen wird aus Mangel an
 Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und
 stattdessen auf allgemeine Programmiersprachen zurückgegriffen.
-
-::: {.callout-tip} 
-
-## Info
-
-**Reguläre Ausdrücke** sind das gängigste Mittel zur Beschreibung der Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach Mustern durchsucht werden. Ein regulärer Ausdruck für die Syntax einer ISBN-13 mit optionalen Trennstrichen ist beispielsweise:
-  
-    (97[89])-?([0-9]{1,5})-?([0-9]+)-?([0-9]+)-?[0-9]
-  
-Üblicherweise decken Schemasprachen nicht alle Aspekte eines Datenformats ab. So
-lässt sich die Korrektheit der abschließenden Prüfziffer (`[0-9]`) nicht mit
-einem regulären Ausdruck überprüfen.
-
-:::
 
 Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem
 Schwerpunkt bietet die Datenbank [format.gbv.de](https://format.gbv.de/).
@@ -189,6 +182,16 @@ In der Praxis werden Daten in einem Datenformat zusätzlich durch
 anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
 Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
 die jeweilige Erfassungspraxis.
+
+::: {.callout-tip title="Info"} 
+**Reguläre Ausdrücke** sind das gängigste Mittel zur Beschreibung der Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach Mustern durchsucht werden. Ein regulärer Ausdruck für die Syntax einer ISBN-13 mit optionalen Trennstrichen ist beispielsweise:
+  
+    (97[89])-?([0-9]{1,5})-?([0-9]+)-?([0-9]+)-?[0-9]
+  
+Üblicherweise decken Schemasprachen nicht alle Aspekte eines Datenformats ab. So
+lässt sich die Korrektheit der abschließenden Prüfziffer (`[0-9]`) nicht mit
+einem regulären Ausdruck überprüfen.
+:::
 
 ### Identifikatoren
 Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs). Identifikatoren sind 
@@ -255,11 +258,13 @@ Name. Oft gibt es weitere identifizierende Merkmale wie alternative
 Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen
 zwischen verschiedenen Entitäten.
 
+:::{.callout-tip title="Info"}
 Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu
 komplexen [Ontologien und Wissensgraphen](#datenmodelle-und-ontologien). Ein
 prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame
 Normdatei (*GND*), in der neben Personen auch Körperschaften, Veranstaltungen,
 Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.
+:::
 
 Zur Anreicherung von Daten mit Normdaten mittels *Entity Recognition*
 (Erkennung von Entitäten in Daten) und *Entity Linking* (Abgleich von
@@ -330,7 +335,7 @@ nicht durchsetzen.
 
 **PICA** ist das von MARC inspirierte Datenformat der Katalogisierungssysteme
 *CBS* und *LBS* [@vos_einfuhrung_2022]. Das wichtigste Anwendungsprofil ist das
-K10plus-Format des BSZ/GBV.
+K10plus-Internformat.
 
 **MAB** und **allegro** sind ebenfalls an MARC angelehnte, feldbasierte Formate
 aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet
