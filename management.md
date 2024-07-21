@@ -23,7 +23,7 @@ Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung).
 
-## Lebenszyklen von IT-Systemen {#it-lebenszyklus}
+## Lebenszyklus von IT-Systemen {#it-lebenszyklus}
 
 Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer
 Einführung beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus).
@@ -32,6 +32,7 @@ IT-Systems werden im Folgenden näher betrachtet. Darüber hinaus wird
 erläutert, wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
 [Change Managements](#change-management) begleitet werden sollten.
 
+Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen.
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
 angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
@@ -239,10 +240,10 @@ länger betrieben bzw. nicht aktualisiert wird, als eigentlich ratsam
 wäre. Auch muss sich die Einrichtung um grundlegende Dinge, wie Backups
 und Ausfallsicherheit selbst Gedanken machen.
 
-Auf der anderen Seite bietet dieses Modell der Einrichtung potentiell den höchsten Grad an
-Kontrolle über die eingesetzte Software - etwa hinsichtlich nötiger
-Erweiterung oder Anpassung - und macht sie damit weitgehend unabhängig
-von äußeren Einflüssen.
+Auf der anderen Seite bietet dieses Modell der Einrichtung potentiell den
+höchsten Grad an Kontrolle über die eingesetzte Software -- etwa hinsichtlich
+nötiger Erweiterung oder Anpassung -- und macht die Einrichtung damit
+weitgehend unabhängig von äußeren Einflüssen.
 
 ### Hosting
 
@@ -278,9 +279,10 @@ In der Praxis kann sich ein solches Betriebsmodell als komfortabel
 erweisen, da keine Personalressourcen für allgemeine Tätigkeiten des
 IT-Betriebs oder spezielle Bibliotheks-IT-Tätigkeiten benötigt werden.
 Gerade für kleine Einrichtungen kann dies ein guter Weg sein, möglichst
-personalsparend serverbasierte Software einzusetzen. Eine Kostenersparnis
-ist bei einer Vollkostenrechnung aber nicht unbedingt zu erwarten. Je nach Größe der Einrichtung oder basierend auf der Anzahl der Endnutzer\*innen
-führt ein solches Betriebsmodell meist zu Abonnementkosten.
+personalsparend serverbasierte Software einzusetzen. Auf der anderen Seite
+fallen für dieses Betriebsmodell Abonnementkosten beispielsweise nach Größe der Einrichtung oder nach Anzahl der Endnutzer\*innen an. Es hängt daher vom
+Einzelfall und von der Art der Berechnung ab, ob eine Kostenersparnis zu
+erwarten ist.
 
 ### Digitale Souveränität
 
@@ -361,12 +363,12 @@ dieser Software in der Regel verboten ist. Mit einem [Grundsatzurteil des
 EuGH aus dem Jahr 2021](https://curia.europa.eu/juris/document/document.jsf?text=&docid=247056&pageIndex=0&doclang=DE&mode=lst&dir=&occ=first&part=1&cid=9912038) 
 wird dieses Verbot jedoch aufgeweicht. So ist
 es nun rechtmäßigen Erwerbern erlaubt, Fehler in einem Computerprogramm
-zu beheben und dafür auch proprietäre Software zu dekompilieren.
-
-In der Praxis sollte dieses Notfallszenario aber nicht in die Planung
+zu beheben und dafür auch proprietäre Software zu dekompilieren. In der
+Praxis sollte dieses Notfallszenario aber nicht in die Planung
 einbezogen werden, da die Fehlerbehebung innerhalb fremder Software
 unter dem Rückgriff auf Dekompilierung besondere Kenntnisse seitens
-des zuständigen IT-Personals voraussetzt.
+des zuständigen IT-Personals voraussetzt. Selbst wenn, wie bei Freier Software, der Quelltext vorliegt, dauert es einige Zeit sich soweit darin einzuarbeiten, bis Fehler selbst behoben oder gar neue Funktionen hinzugefügt
+werden können.
 
 ### Software-Abhängigkeiten
 
@@ -476,7 +478,7 @@ Beachtung von Barrierefreiheitsanforderungen genannt werden:
 
 Die Auswahl und Implementierung sowie der Betrieb von digitalen Diensten ist
 ein stetig wachsender Aufgabenbereich für Bibliotheken. Durch den Verlust ihres
-früheren Monopols auf die Versorgung mit Informationen ist Ende der 1990er
+früheren Monopols auf die Versorgung mit Informationen ist ab Ende der 1990er
 Jahre in den Bibliotheken ein starker Innovationsdruck entstanden. In der Folge
 wurden neue Dienstleistungen wie fachliche Portale, Dokumentenserver etc. im
 Rahmen von Projekten realisiert. Die notwendigen Kenntnisse haben vielerorts
@@ -523,7 +525,7 @@ Software-technischen Kompetenzen erforderlich, um das Verständnis von
 bibliothekarischen Geschäftsgängen und den Prozessen und
 Funktionalitäten des Systems zusammen zu bringen. Daher werden in der
 Regel Implementierungsteams aus Anwender\*innen und
-Software-Betreuer\*innen bzw. Entwickler\*innen gebildet
+Software-Betreuer\*innen bzw. Entwickler\*innen gebildet.
 
 Die Arbeit dieser Implementierungsteams sollte idealerweise nach
 Grundlagen des Projektmanagements und des [Lebenszyklus von IT-Systemen](#Lebenszyklen-von-IT-Systemen) erfolgen, also unter Berücksichtigung klarer Strukturen für die Planung, die Kommunikation und die Kontrolle.
@@ -531,7 +533,7 @@ Siehe dazu auch das Kapitel [IT-Entwicklung].
 
 ::: {.callout-tip}
 
-Niemand kommt als IT-Expert\*in auf die Welt und es ist praktisch unmöglich bei
+Niemand kommt als IT-Expert\*in auf die Welt und es ist unmöglich, bei
 allen Entwicklungen auf dem Laufenden zu bleiben. Versuchen Sie ihre Kompetenzen
 realistisch einzuschätzen und scheuen Sie sich nicht Kolleg*innen um Rat zu fragen!
 
@@ -567,7 +569,7 @@ Dienstleistern durchgeführt.
 
 Der Umgang mit dem Mangel an IT-Fachkräften wird für die
 Ressourcenplanung des IT-Managements in Bibliotheken zur Herausforderung
-werden. Dabei wird auch Open-Source-Software die in der Community
+werden. Dabei wird auch Open-Source-Software, die in der Community
 entwickelt und unterstützt wird, eine größere Rolle spielen, ebenso wie
 externe Dienstleister und Software as a Service. Eine umfassende
 Bedarfsanalyse bei IT-Systemen wird daher zukünftig noch stärker
@@ -596,7 +598,7 @@ werden:
 
 -   Wie hoch ist die Übereinstimmung bei vorhandenen und benötigten Kompetenzen?
 
--   Sind Weiterbildungen sind erforderlich?
+-   Welche Weiterbildungen sind erforderlich?
 
 Das Thema Aus- und Weiterbildung sowie die Personalgewinnung wird im
 Folgenden ausführlicher betrachtet.
@@ -613,7 +615,7 @@ Verantwortung von allen Mitarbeitenden mit Bezug zur Bibliotheks-IT
 gemeinsam getragen werden.
 
 Nachfolgend werden aktuelle Beispiele zur Aus- und Weiterbildungen mit
-Bezug bibliothekarischen IT-Bereich aufgeführt. Nicht betrachtet werden
+Bezug zum bibliothekarischen IT-Bereich aufgeführt. Nicht betrachtet werden
 Szenarien wie die Einarbeitung von Anwender\*innen von IT-Systemen bei
 der Einführung oder dem Wechsel von Systemen.
 
@@ -651,7 +653,7 @@ jedoch zeitaufwändig und passt nur für wenige Lebenssituationen.
 
 Bibliothekarische Ausbildungsstätten sowie Verbundzentralen sind
 wichtige Akteure bei der Weiterbildung von Bibliothekspersonal und
-machen teilweise entsprechende punktuelle Weiterbildungsangebote. Dabei
+machen teilweise entsprechende gezielte Weiterbildungsangebote. Dabei
 handelt es sich in der Regel um ein- oder halbtägige Angebote, die
 durchaus im Einzelnen Hilfestellung bieten. Für Mitarbeitende mit Bezug
 zur Bibliotheks-IT sollten ausdrücklich zeitliche und ggf. finanzielle
@@ -662,7 +664,7 @@ Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier
 
 -   Jahrestagungen der Verbundzentralen
 
--   Bibliothekstage und -konferenzen
+-   Bibliotheksferenzen wie BiblioCon und Österreichischer Bibliothekskongress 
 
 -   Tagung der [European Library Automation Group](https://elag.org) (ELAG)
 
@@ -700,7 +702,7 @@ informatisch ausgebildetes Personal nicht unbedingt wettbewerbsfähig, so
 dass viele ausgewiesene IT-Stellen nur schwer besetzt werden können.
 Eine unmittelbare Reaktion darauf kann sein, die Vorteile der
 Beschäftigung im öffentlichen Dienst besser herauszuarbeiten
-(unkommerzielles Umfeld, gesellschaftliche Relevanz der Tätigkeiten).
+(nicht-kommerzielles Umfeld, gesellschaftliche Relevanz der Tätigkeiten).
 
 Dennoch ist es erwartbar, dass Aufgaben im Bereich Bibliotheks-IT
 künftig stärker an Verbundzentralen oder externe Dienstleister
@@ -713,5 +715,5 @@ rekrutieren müssen.
 
 ## Zusammenfassung und Ausblick
 
-Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System als auch um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
-Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw Anpassung des Systems effektiv reagiert werden.
+Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System und um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
+Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw. Anpassung des Systems effektiv reagiert werden.
