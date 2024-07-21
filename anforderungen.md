@@ -367,7 +367,7 @@ vorzustellen. Ähnlich wie Storyboards dienen sie als einfach zu erstellende
 Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von einem
 System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
-![Bild eines Papierprototypen für den Relaunch des Digitalisierungssystems Kitodo](media/wireframe.png){#fig-5}
+![Bild eines Papierprototypen für den Relaunch des Digitalisierungssystems Kitodo](media/wireframe.png){#fig-5 width=45%}
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
 Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die

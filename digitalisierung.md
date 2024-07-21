@@ -570,7 +570,7 @@ bereitgestellten Scans der Illustrierten "Die Gartenlaube". Diese
 Wikisource-Volltexte und -Illustrationen werden mit offenen Metadaten in
 Wikidata strukturiert erschlossen.
 
-![Die Datenlaube: Projektlogo](media/die-datenlaube.jpg)
+![Die Datenlaube: Projektlogo](media/die-datenlaube.jpg){width=45%}
 :::
 
 ### Offene Infrastrukturen
