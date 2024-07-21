@@ -167,6 +167,18 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
     wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und
     Beschreibungen in natürlicher Sprache.
 
+Das **Entity-Relationshop-Modell** ist eine Modellierungssprache die
+meist für relationale Datenbanken verwendet wird, aber auch unabhängig
+davon verwendet werden kann. Dabei werden in einem ER-Diagramm
+Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe
+Beispiel (**fig-er-diagram?**)). Eine graphische Syntax für erweitere
+ER-Diagramme ist die Unified Modeling Language (*UML*).
+
+![ER-Diagramm zur Beschreibung eines Datenmodells von
+Sitzbänken](media/rId30.png){width="0.0in" height="0.0in"}
+
+ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken
+
 Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft,
 häufig auftretende Fehler bei der (Meta-)Datenverarbeitung zu vermeiden.
 Ein Beispiel hierfür ist das *Resource Description Framework* (*RDF*)
@@ -176,8 +188,15 @@ wird aus Mangel an Werkzeugen und Kenntnissen auf spezielle
 Datensprachen verzichtet und stattdessen auf allgemeine
 Programmiersprachen zurückgegriffen.
 
-Info
-----
+Eine ausführlichere Beschreibung von Datenformaten mit
+bibliothekarischem Schwerpunkt bietet die Datenbank
+[format.gbv.de](https://format.gbv.de/). Grundlagen von Metadaten und
+Ontologien vermitteln Assfalg (2023) und Rölke und Weichselbraun (2023).
+
+In der Praxis werden Daten in einem Datenformat zusätzlich durch
+anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
+Format-Varianten, Metadatenprofile bzw. Anwendungsprofile,
+Erfassungsregeln und die jeweilige Erfassungspraxis.
 
 **Reguläre Ausdrücke** sind das gängigste Mittel zur Beschreibung der
 Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach
@@ -189,16 +208,6 @@ ISBN-13 mit optionalen Trennstrichen ist beispielsweise:
 Üblicherweise decken Schemasprachen nicht alle Aspekte eines
 Datenformats ab. So lässt sich die Korrektheit der abschließenden
 Prüfziffer (`[0-9]`) nicht mit einem regulären Ausdruck überprüfen.
-
-Eine ausführlichere Beschreibung von Datenformaten mit
-bibliothekarischem Schwerpunkt bietet die Datenbank
-[format.gbv.de](https://format.gbv.de/). Grundlagen von Metadaten und
-Ontologien vermitteln Assfalg (2023) und Rölke und Weichselbraun (2023).
-
-In der Praxis werden Daten in einem Datenformat zusätzlich durch
-anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
-Format-Varianten, Metadatenprofile bzw. Anwendungsprofile,
-Erfassungsregeln und die jeweilige Erfassungspraxis.
 
 ### Identifikatoren
 
@@ -350,19 +359,19 @@ in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des
 Formats sind historisch bedingt, eine Alternative konnte sich bislang
 nicht durchsetzen.
 
-![Ein Datensatz im MARC 21 Format](media/rId38.png){width="0.0in"
+![Ein Datensatz im MARC 21 Format](media/rId41.png){width="0.0in"
 height="0.0in"}
 
 Ein Datensatz im MARC 21 Format
 
-![Der gleiche Datensatz in MARC-XML](media/rId42.png){width="0.0in"
+![Der gleiche Datensatz in MARC-XML](media/rId45.png){width="0.0in"
 height="0.0in"}
 
 Der gleiche Datensatz in MARC-XML
 
 **PICA** ist das von MARC inspirierte Datenformat der
 Katalogisierungssysteme *CBS* und *LBS* (Voß 2022). Das wichtigste
-Anwendungsprofil ist das K10plus-Format des BSZ/GBV.
+Anwendungsprofil ist das K10plus-Internformat.
 
 **MAB** und **allegro** sind ebenfalls an MARC angelehnte, feldbasierte
 Formate aus dem deutschsprachigen Raum, die allerdings nur noch

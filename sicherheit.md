@@ -36,6 +36,7 @@ Beschädigung von Soft- und Hardware. **Safety** meint den sicherheitsbewussten
 Umgang mit Netzwerken und Daten [@Hollaender2023].
 :::
 
+
 Bibliotheken verstehen sich als Orte, die ihre Informationen und
 vielschichtigen Dienstleistungen i.d.R. einer großen Nutzendenschaft zur
 Verfügung stellen. Sie tragen durch ihre Arbeit zur Umsetzung der
@@ -45,16 +46,16 @@ aber auch eine größere Angriffsfläche ermöglichen.
 
 Doch was macht Bibliotheken und Hochschulen so interessant für Angriffe? An
 diesen Orten werden für Cyberkriminelle interessante Daten verwaltet. Dazu
-gehören personenbezogene Daten, schützenswerte Forschungsdaten, Bewegungsdaten,
-Lizenzdaten, Daten zur Nutzung von Literatur, etc. Die dabei abgegriffenen
-Daten können u.a. für Identitätsdiebstahl, Offenlegung privater Informationen
-oder für die Erstellung eines detaillierten Nutzerprofils herangezogen werden
-[@Hollaender2023].
+gehören personenbezogene Daten von Nutzenden und Beschäftigten, schützenswerte
+Forschungsdaten, Bewegungsdaten, Lizenzdaten, Daten zur Nutzung von Literatur,
+etc. Die dabei abgegriffenen Daten können u.a. für Identitätsdiebstahl,
+Offenlegung privater Informationen oder für die Erstellung eines detaillierten
+Nutzerprofils herangezogen werden [@Hollaender2023].
 
-IT-Sicherheit ist auch immer eine Frage der Zuständigkeit. Je nach Größe, Art
-und Organisationsstruktur der Bibliothek muss die IT-Sicherheit mit den
-beteiligten Instanzen wie Stadtverwaltung, Verbundzentrale, den Rechen- und
-IT-Zentren der Institution und den IT-Sicherheitsbeauftragten und
+IT-Sicherheit und Datenschutz sind auch immer eine Frage der Zuständigkeit. Je
+nach Größe, Art und Organisationsstruktur der Bibliothek muss die IT-Sicherheit
+mit den beteiligten Instanzen wie Stadtverwaltung, Verbundzentrale, den Rechen-
+und IT-Zentren der Institution und den IT-Sicherheitsbeauftragten und
 Datenschutzbeauftragten in Bezug auf die Verantwortlichkeiten abgestimmt
 werden. Grundsätzlich liegt die Aufgabe der Sensibilisierung und Schulung des
 Bibliothekspersonals im direkten Verantwortungsbereich der Bibliothek.
@@ -65,7 +66,8 @@ Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden
 [@Kost2022]. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema
 IT-Sicherheit sensibilisieren, eine Beschreibung des Sicherheitsvorfalls und
 einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für
-Präventivmaßnahmen werben und Handlungsempfehlungen geben.
+Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für
+den Datenschutz.
 
 ## Sicherheitsvorfall
 

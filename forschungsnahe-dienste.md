@@ -612,9 +612,10 @@ weitere Details verzichtet.
 
 Um eine Interoperabilität der unterschiedlichen Systeme und eine gute
 Auffindbarkeit der enthaltenen Ressourcen zu ermöglichen, ist eine
-Standardisierung notwendig - z. B. über Zertifikate, Metadatenstandards
-und Schnittstellen. Die in diesem Zusammenhang wichtigen Grundlagen
-werden in den folgenden Abschnitten erläutert.
+Standardisierung notwendig - z. B. über Zertifikate,
+[Metadatenstandards](#metadatenstandards) und Schnittstellen. Die in diesem
+Zusammenhang wichtigen Grundlagen werden in den folgenden Abschnitten
+erläutert.
 
 ## Gemeinsame Ressourcen
 
