@@ -69,7 +69,11 @@ format:
     callout-appearance: simple
     published-title: "Letzte Änderung"
     abbreviations: abbreviations
-  docx: {}
+    number-sections: true
+    number-depth: 3
+  docx:
+    number-sections: true
+    number-depth: 3
 #  pdf:
 #    documentclass: scrreprt
 #    classoption:

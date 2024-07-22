@@ -91,13 +91,13 @@ Entwickler\*innen Prototypen in lauffähigen Code. Wird im Rahmen des Projekts
 ein bestehendes System implementiert, werden die Prototypen zunächst in eine
 Testinstanz und in der Folge in die produktive Instanz des Systems überführt.
 
-In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit idealerweise schon möglichst vielen der gewünschten Features, während nutzer\*innenorientierte Vorgehensmodelle (siehe
-Kapitel [Anforderungsanalyse](#anforderungen)) hier auf einen
-iterativen Prozess setzen, welcher Produktiterationen häufiger bereitstellt und
+In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit
+idealerweise schon möglichst vielen der gewünschten Features, während
+nutzer\*innenorientierte Vorgehensmodelle (siehe Kapitel
+[Anforderungsanalyse](#anforderungen)) hier auf einen iterativen Prozess
+setzen, welcher Produktweiterentwicklungen kontinuierlich bereitstellt und
 evaluiert.
 
-Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen
-in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen.
 Unabdingbar sind der Einsatz eines Versionskontrollsystems (in der Regel
 *git*), ein Issue-Tracker und möglichst automatische Tests und Deployment
 (kontinuierliche Integration), sodass Änderungen am Quellcode direkt zu einer
@@ -263,7 +263,7 @@ eingesetzten Hardware können an diesen Anbieter delegiert werden. Im
 Falle des Hostings durch einen Bibliotheksverbund entfallen
 möglicherweise auch Einrichtung, Installation und Upgrades. Die
 Betriebskosten müssen beim Verbund kalkuliert werden, was jedoch durch
-das Hosting für mehrere Einrichtungen besser skaliert.
+das Hosting für mehrere Einrichtungen in der Regel besser skaliert.
 
 ### Cloud
 
@@ -310,9 +310,9 @@ Ausrichtung:
   angewiesen, wodurch auch die Datenkontrolle intern bleibt.
 
 - **Aufbau von Know-how im Haus:** Die kontinuierliche Arbeit mit und
-  Entwicklung von digitalen Werkzeugen befähigt das Personal, ein vertieftes
-  technisches Verständnis und Fertigkeiten zu entwickeln, was langfristig zur
-  Selbstständigkeit und Innovationskraft beiträgt.
+  Entwicklung von digitalen Werkzeugen kann das Personal befähigen, ein
+  vertieftes technisches Verständnis und Fertigkeiten zu entwickeln, was
+  langfristig zur Selbstständigkeit und Innovationskraft beiträgt.
 
 - **Stärkung von Kooperation durch Open Source:** Gemeinsame
   Entwicklungsprojekte im Open-Source-Bereich unterstützen nicht nur den
@@ -337,11 +337,12 @@ Ausrichtung:
 - **Inklusion und Zugänglichkeit:** Die Fähigkeit, digitale Werkzeuge selbst zu
   gestalten und anzupassen, ermöglicht es Bibliotheken, gezielt auf inklusive
   Praktiken und die Schaffung barrierefreier Dienste und Ressourcen
-  hinzuwirken.
+  für ihre individuell bekannten Zielgruppen hinzuwirken.
 
 ## Betriebssicherheit und Risikomanagement
 
-Neben den Problemen der Ablösungplanung gibt es weitere Risiken des
+Neben den Problemen der Ablösungplanung und den Herausforderungen von
+Sicherheit und Datenschutz (@sec-sicherheit) gibt es weitere Risiken des
 Betriebs von IT-Systemen, von denen einige im nachfolgenden Abschnitt
 vorgestellt werden.
 
@@ -637,10 +638,6 @@ die Arbeit in der Bibliotheks-IT mit unterschiedlichen Schwerpunkten:
 -   berufsbegleitende Master-Studiengänge:
 
     - [Bibliotheksinformatik an der TH Wildau](https://www.th-wildau.de/studieren-weiterbilden/studiengaenge/bibliotheksinformatik-msc-berufsbegleitendes-studium/)
-
--   Vollzeit-Studiengänge:
-
-    - [Masterstudiengang Digitales Datenmanagement an der FH Potsdam und HU Berlin](https://www.fh-potsdam.de/studium-lehre/studiengaenge/digitales-datenmanagement-m)
 
 -   Kurse
 

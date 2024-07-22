@@ -2,7 +2,7 @@
 description: Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
 ---
 
-# Sicherheit & Datenschutz
+# Sicherheit & Datenschutz {#sec-sicherheit}
 
 ::: {.callout-note title="Zusammenfassung"}
 
