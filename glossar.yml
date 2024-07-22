@@ -136,6 +136,14 @@ glossary:
   OER:
     definition: Open Educational Resources, freie Bildungsmaterlien wie Kurse, Lernvideos und Bilder
 
+  OJS:
+    url: https://ojs-de.net/ueber-ojs
+    definition: Open Journal Systems, Software zur Publikation von Zeitschriften
+
+  OMP:
+    url: https://pkp.sfu.ca/software/omp/
+    definition: Open Monograph Press, Software zur Publikation von Monographien
+
   OPAC:
     url: https://de.wikipedia.org/wiki/OPAC
     definition: Online Public Access Catalogue, Katalog einer Bibliothek

@@ -4,15 +4,7 @@ description: Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präs
 
 # Digitalisierung {#digitalisierung}
 
-::: {.callout-important}
-
-Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
-
-:::
-
-:::{.callout-note}
-
-## Zusammenfassung
+:::{.callout-note title="Zusammenfassung"}
 
 Neben der reinen Bewahrung von Kulturgütern stellt sich Bibliotheken und anderen Kultureinrichtungen die Herausforderung, diese weltweit im Netz zugänglich zu machen. Die Digitalisierung von Kulturgut erfordert verschiedene Prozesse und Tools, die in diesem Kapitel vorgestellt werden.
 

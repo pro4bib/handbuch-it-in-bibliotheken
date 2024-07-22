@@ -4,26 +4,13 @@ description: Dienste wie Repositorien und Forschungsdatenmanagement zur Unterst�
 
 # Forschungsnahe Dienste {#forschungsnahe-dienste}
 
-::: {.callout-important}
-
-Dieses Kapitel befindet sich in einer ersten öffentlichen Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
-
-:::
-
-::: {.callout-note}
-## Zusammenfassung
+::: {.callout-note title="Zusammenfassung"}
 
 Bibliotheken bieten [Dienste für die Wissenschaft](#einleitung) im Rahmen des
 digitalen Wandels von Publikationsprozessen und Open Science an. Dazu gehören
-[Dienste zur Publikation](#publikationsdienste), zur [Verwaltung von
-Forschungsdaten](#forschungsdatenmanagement) und
+in diesem Kapitel vorgestellte [Dienste zur Publikation](#publikationsdienste), zur [Verwaltung von Forschungsdaten](#forschungsdatenmanagement) und
 [Forschungssoftware](#forschungssoftware) sowie [Informationen über
-Forschungsprozesse](#forschungsinformationssysteme).
-
-*[Gemeinsame Ressourcen](#gemeinsame-ressourcen) wie diese [Zertifikate und
-Standards](#zertifikate-und-standards) und [zusammen mit externen
-Dienstleistern](#zusammenarbeit-mit-dienstleistern)  werden in diesem Kapitel
-auch behandelt, der Text muss aber noch überarbeitet werden!*
+Forschungsprozesse](#forschungsinformationssysteme). Abschließend werden verschiedene übergreifende Themen wie [Zertifikate und Standards](#zertifikate-und-standards) und [Langzeitarchivierung](#langzeitarchivierung) behandelt.
 
 :::
 
@@ -91,12 +78,12 @@ eher auf der Seite der Medienbereitstellung. Mit zunehmender Stärkung des
 Open-Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten
 wissenschaftliche Bibliotheken stärker in die Rolle des\*der Unterstützenden und
 Ermöglichenden. Die Digitalität der gesamten Prozesskette vom Schreiben bis
-zur Veröffentlichung der Artikel in teilweise von den Bibliotheken getragenen
+zur Veröffentlichung der Beiträge in teilweise von den Bibliotheken getragenen
 Infrastrukturen erfordert die Einbindung unterschiedlicher IT-Werkzeuge, die im
 Folgenden näher beschrieben werden.
 
 
-### Journal Publishing-Dienste 
+### Publishing-Dienste für Journals und andere Publikationsformen
 
 Open Access bedeutet, dass wissenschaftliche Literatur kostenfrei und
 öffentlich im Internet zugänglich ist, sodass Interessierte die
@@ -118,19 +105,19 @@ Kostenverschiebung vom Lesen hin Publizieren wird der
 scholar-led-Ansatz immer gefragter und Bibliotheken müssen in diesem
 Bereich Expertise aufbauen.
 
-Zur Schaffung einer technischen Infrastruktur lässt sich z. B. mit der Software
-*[Open Journal Systems (OJS)](https://ojs-de.net/ueber-ojs)* eine Plattform zur
-Verfügung stellen, welche die strukturierte Veröffentlichung von
-Zeitschriften(-artikeln) ermöglicht. Parallel dazu müssen auch die
-erforderlichen Abläufe und Organisationsstrukturen angepasst werden.
-Personelle Ressourcen müssen hier ebenso bedacht werden. In erster Linie gilt
-es, die Herausgeber\*innen-Teams der Zeitschriften zu unterstützen.
-Gleichzeitig sollte die Bibliothek auch technischen Support für einreichende
-Autor\*innen bieten. Der Funktionsumfang von *OJS* ermöglicht es auch, einen
-Workflow für den Peer-Review-Prozess abzubilden. Auch hier liegt Potenzial für
-die Unterstützung durch Bibliotheken. Wichtig ist somit ein Überblick über den
-Gesamtprozess des wissenschaftlichen Publizierens und nicht nur die
-Software-Aspekte.
+Zur Schaffung einer technischen Infrastruktur für Zeitschriften lässt sich z.B.
+mit der Software *[Open Journal Systems
+(OJS)](https://ojs-de.net/ueber-ojs)* eine Plattform zur Verfügung stellen,
+welche die strukturierte Veröffentlichung von Zeitschriften(-artikeln)
+ermöglicht. Parallel dazu müssen auch die erforderlichen Abläufe und
+Organisationsstrukturen angepasst werden.  Personelle Ressourcen müssen hier
+ebenso bedacht werden. In erster Linie gilt es, die Herausgeber\*innen-Teams
+der Zeitschriften zu unterstützen.  Gleichzeitig sollte die Bibliothek auch
+technischen Support für einreichende Autor\*innen bieten. Der Funktionsumfang
+von *OJS* ermöglicht es auch, einen Workflow für den Peer-Review-Prozess
+abzubilden. Auch hier liegt Potenzial für die Unterstützung durch Bibliotheken.
+Wichtig ist somit ein Überblick über den Gesamtprozess des wissenschaftlichen
+Publizierens und nicht nur die Software-Aspekte. Für die Publikation von Monographien gibt es z.B. mit [Open Monograph Press](https://pkp.sfu.ca/software/omp/) (*OMP*) eine Software, die von der gleichen Organisation wie *OJS* angeboten und weiterentwickelt wird. 
 
 Parallel dazu entwickeln sich derzeit alternative Publikations-Plattformen wie
 Preprint-Dienste, (Micro-)Blogs, Data Journals und ähnliche Dienste, die
@@ -606,15 +593,15 @@ Nichtsdestoweniger sind die Publikationsdaten ein wichtiger Bestandteil jedes
 *FIS*. Aus diesem Grund ist das *FIS* eine gute erste Anlaufstelle, um interne
 bibliometrische Recherchen über den Output der eigenen Forschenden
 durchzuführen. Darüber hinaus sind primär Anfragen in externen Datenbanken als
-ergänzende Arbeitsschritte notwendig, keine weiteren Tools, die unter dem
-Aspekt IT in Bibliotheken aufgeführt gehören. Aus diesem Grund wird hier auf
-weitere Details verzichtet.
+ergänzende Arbeitsschritte notwendig.
 
 Um eine Interoperabilität der unterschiedlichen Systeme und eine gute
 Auffindbarkeit der enthaltenen Ressourcen zu ermöglichen, ist eine
 Standardisierung notwendig - z. B. über Zertifikate,
-[Metadatenstandards](#metadatenstandards) und Schnittstellen. Die in diesem
-Zusammenhang wichtigen Grundlagen werden in den folgenden Abschnitten
+[Metadatenstandards](#metadatenstandards) und Schnittstellen, wie sie unter
+anderem von den Arbeitsgemeinschaften des [DINI e.V.](https://dini.de/)
+(Deutsche Initiative Netzwerkinformation) vorangetrieben werden. Die in
+diesem Zusammenhang wichtigen Grundlagen werden in den folgenden Abschnitten
 erläutert.
 
 ## Gemeinsame Ressourcen
@@ -775,6 +762,11 @@ Querschnittsthema.
 
 ### Schnittstellen
 
+Einen allgemeinen Überblick zu Schnittstellen liefert das [Kapitel
+Metadaten](metadaten.md#Schnittstellen). Im Folgenden gehen wir etwas
+ausführlicher auf die wichtigsten Schnittstellen im Kontext forschungsnaher
+Dienste ein.
+
 Im Bereich von Repositorien hat sich das *[Open Archives Initative
 Protocol for Metadata
 Harvesting](https://www.openarchives.org/pmh/)* (*OAI-PMH*)
@@ -902,12 +894,7 @@ IT-Services für forschungsnahe Dienste im eigenen Haus anzubieten. Bei
 bereits etablierten Anwendungen lohnt sich eine Kontaktaufnahme mit der
 jeweiligen Verbundzentrale. Häufig werden dort bereits Services
 angeboten, für die man kein zusätzliches Personal bzw. keine eigene
-Infrastruktur einplanen muss. Beispielsweise sind das der
-Repository-Service
-*[Reposis](https://www.gbv.de/informationen/Verbundzentrale/serviceangebote/reposis-repository-service)*
-des GBV oder das Langzeitarchiv
-*[Ewig](https://ewig.zib.de/)* des KOBV.
-
+Infrastruktur einplanen muss. 
 Wird die Verwendung einer bestimmten Software gefordert oder eine
 bestimmte Art, die Software einzusetzen, die nicht im
 Dienstleistungsportfolio der Verbundzentralen liegt, bietet sich die
@@ -954,6 +941,16 @@ möglicher Services ist daher sehr groß. Bibliotheken setzen ihren
 Schwerpunkt hierbei insbesondere auf Services zur Unterstützung des
 Publikationsprozesses sowie des FDM.
 
+Selbstverständlich ist es nicht bei allen Problemstellungen möglich,
+IT-Services für forschungsnahe Dienste im eigenen Haus anzubieten. Bei bereits
+etablierten Anwendungen lohnt sich eine Kontaktaufnahme mit der jeweiligen
+Verbundzentrale. Häufig werden dort bereits Services angeboten, für die man
+kein zusätzliches Personal bzw. keine eigene Infrastruktur einplanen muss.
+Beispiele hierfür sind der Repository-Service
+*[Reposis](https://www.gbv.de/informationen/Verbundzentrale/serviceangebote/reposis-repository-service)*
+des GBV oder das Langzeitarchiv
+*[Ewig](https://ewig.zib.de/)* des KOBV. Die Frage nach der Umsetzung von Diensten mit externer Hilfe allgemein im [Kapitel IT-Management](management.md) behandelt.
+
 Wie das vorliegende Kapitel gezeigt hat, umfassen diese
 Services auch eine Vielzahl an IT-Diensten, so z. B.
 Journal-Publishing-Systeme, Repositorien und
@@ -965,6 +962,8 @@ Verlagerung von Ressourcen aus anderen Bereichen. Die Ausweitung des
 bibliothekarischen Serviceportfolios um forschungsnahe Dienste ist daher
 auch eine Frage der Organisations- und
 Personalentwicklung.
+
+**TODO:** das kann so nicht stehen bleiben:
 
 Zur vertieften Beschäftigung mit forschungsnahen Diensten an
 Bibliotheken wird folgende Literatur empfohlen:

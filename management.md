@@ -12,27 +12,32 @@ von IT-Systemen über den gesamten [Lebenszyklus](#lebenszyklen-von-it-systemen)
 
 ## Einleitung
 
-IT-Systeme sind selten statisch, sondern folgen einem
-[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung ihrer Einführung bis zu ihrer
-Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme müssen mögliche
-[Risiken](#betriebssicherheit-und-risikomanagement) beachtet und [rechtliche
-Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten werden. In
-Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen) und ein
-[organisatorischer Rahmen](#organisation) für die [Digitale
+Grundsätzlich unterscheidet sich das Management von Informationssystemen in und
+für Bibliotheken nicht sehr von Softwareentwicklung und Betrieb in anderen
+Bereichen: IT-Systeme sind selten statisch, sondern folgen einem
+[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung ihrer Einführung
+bis zu ihrer Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme
+müssen mögliche [Risiken](#betriebssicherheit-und-risikomanagement) beachtet
+und [rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten
+werden. In Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen)
+und ein [organisatorischer Rahmen](#organisation) für die [Digitale
 Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
-Weiterbildung](#aus--und-weiterbildung).
+Weiterbildung](#aus--und-weiterbildung). Treiber der jüngsten Entwicklung im IT-Bereich
+wissenschaftlicher Bibliotheken sind Themen wie [Digitalisierung](digitalisierung.md)
+und [forschungsnahe Dienste](forschungsnahe-dienste.md) während das Management von
+[Bibliotheksmanagementsystemen](bibliotheksmanagementsysteme.md) und 
+[Discovery-Systemen](discovery.md) weitgehend etabliert sind.
 
 ## Lebenszyklus von IT-Systemen {#it-lebenszyklus}
 
 Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer
-Einführung beginnt und irgendwann mit ihrer Abschaltung endet (@fig-it-zyklus).
+Einführung beginnt und irgendwann mit ihrer Ablösung endet (@fig-it-zyklus).
 Die wesentlichen Phasen im klassischen Lebenszyklus eines
 IT-Systems werden im Folgenden näher betrachtet. Darüber hinaus wird
 erläutert, wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
 [Change Managements](#change-management) begleitet werden sollten.
 
-Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen.
 Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
 angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
@@ -93,10 +98,11 @@ evaluiert.
 
 Grundsätzlich unterscheidet sich die Implementierung von Informationssystemen
 in und für Bibliotheken nicht von der Softwareentwicklung in anderen Bereichen.
-Unabdingbar sind der Einsatz eines Versionskontrollsystems, ein Issue-Tracker
-und möglichst automatische Tests und Deployment (kontinuierliche Integration),
-sodass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder
-Produktiv-Instanz der installierten Software führen.
+Unabdingbar sind der Einsatz eines Versionskontrollsystems (in der Regel
+*git*), ein Issue-Tracker und möglichst automatische Tests und Deployment
+(kontinuierliche Integration), sodass Änderungen am Quellcode direkt zu einer
+Aktualisierung der Test- und/oder Produktiv-Instanz der installierten Software
+führen.
 
 ### Test und Integration
 
