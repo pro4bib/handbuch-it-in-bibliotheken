@@ -103,7 +103,7 @@ sein können. Folgende sind die häufigsten Angriffsmethoden:
     größte Schadenspotential. Neben Lösegeldforderungen entstehen hohe
     Ausfalls- und Wiederherstellungskosten.\
     Als Beispiel: Für die direkten Kosten des Ransomware-Angriffs 2019
-    auf die JLU Gießen werden mit Stand 2023 ca. 1,7 Mio. EUR für
+    auf die JLU Gießen werden mit Stand 2023 ca. 1,7 Mio. € für
     Schadensanalyse und -behebung kalkuliert. Zusätzliche Kosten für
     Aufwände und Workarounds sind in dieser Analyse nicht berücksichtigt
     und lassen sich schwer beziffern (@Kost2022).
@@ -115,21 +115,20 @@ sein können. Folgende sind die häufigsten Angriffsmethoden:
 ### Bisherige Erfahrungen
 
 Bisherige Erfahrungen zeigen die weitreichenden Auswirkungen eines
-cyberkriminellen Angriffs auf Hochschulbibliotheken. In den meisten
-Fällen ist jedoch nicht nur die Bibliothek alleine betroffen, sondern
-die gesamte Hochschule. Kommt es zu einem Angriff, ist es meist
-notwendig, alle IT-Dienste herunterzufahren. Eine Abschottung einzelner
-Dienste kann kaum vorgenommen werden. Man kann sich dies als einen
-"harten Cut" und ein Herunterfahren aller eigenen Server und virtuellen
-Maschinen zur Eingrenzung des schadhaften Fremdzugriffs vorstellen.
-Diese harte Maßnahme wird vorgenommen, da man nicht abschätzen kann, wo
-es im System schon zu welchen Schäden gekommen ist. Die Folgen: es
-funktioniert schlimmstenfalls NICHTS mehr. (W)LAN, Netzlaufwerke,
-Identity-Management und Anmeldedienste, E-Mail-Dienste,
-Terminverwaltungstools, Personal-Verwaltungssysteme,
-Türschließmechanismen, Zeiterfassung, IP-Telefonie, Lüftungs- und
-Beleuchtungssysteme, etc. Alle netzbetriebenen Dienste sind ggf. für
-mehrere Tage, Wochen oder sogar Monate außer Betrieb.
+cyberkriminellen Angriffs auf Bibliotheken. In den meisten Fällen ist jedoch
+nicht nur die Bibliothek alleine betroffen, sondern die gesamte Hochschule,
+Kommune oder Forschungseinrichtun. Kommt es zu einem Angriff, ist es meist
+notwendig, alle IT-Dienste herunterzufahren. Eine Abschottung einzelner Dienste
+kann kaum vorgenommen werden. Man kann sich dies als einen "harten Cut" und ein
+Herunterfahren aller eigenen Server und virtuellen Maschinen zur Eingrenzung
+des schadhaften Fremdzugriffs vorstellen.  Diese harte Maßnahme wird
+vorgenommen, da man nicht abschätzen kann, wo es im System schon zu welchen
+Schäden gekommen ist. Die Folgen: es funktioniert schlimmstenfalls NICHTS mehr.
+(W)LAN, Netzlaufwerke, Identity-Management und Anmeldedienste, E-Mail-Dienste,
+Terminverwaltungstools, Personal-Verwaltungssysteme, Türschließmechanismen,
+Zeiterfassung, IP-Telefonie, Lüftungs- und Beleuchtungssysteme, etc. Alle
+netzbetriebenen Dienste sind ggf. für mehrere Tage, Wochen oder sogar Monate
+außer Betrieb.
 
 Im Ernstfall können die vorhandenen Dienstgeräte und
 Kommunikationsdienste nicht mehr verwendet werden. Aufgrund dessen kann
@@ -137,22 +136,27 @@ man zur Kommunikation auf private Geräte (Notebooks, Smartphones, etc.,
 sofern die Mitarbeiter\*innen bereit dazu sind) und alternative
 E-Mail-Dienste ausweichen. Hier ist zu bedenken, dass diese
 Adhoc-Lösungen nicht unbedingt den datenschutzrechtlichen Ansprüchen
-entsprechen. Von besonderer Bedeutung ist in diesem Fall auch das
+entsprechen wenn keine Vertrag zur Auftragsdatenverarbeitung abgeschlossen wird.
+Von besonderer Bedeutung ist in diesem Fall auch das
 Identity Management System (IDMS), das nach einem Angriff gegebenenfalls
 alternativ aufgebaut werden muss.
 
-Hinsichtlich der Bibliotheksnutzung kann das Bibliotheksmanagementsystem
-(BMS) z.B. auf geprüften Laptops verwendet werden, die ggf. über
-alternative (mobile) Netzwerke (sofern das BMS wie z.B. im GBV üblich,
-zentral gehostet wird und nicht ebenfalls vom Angriff betroffen ist),
-sodass die Ausleihe und Rückgabe wieder zeitnah ermöglicht werden
-können.
+Die fortschreitende Digitalisierung, Automatisierung und Virtualisierung kann
+durchaus auch hilfreich sein, wenn die Systeme nicht mehr ausschließlich im
+eigenen Rechenzentrum betrieben werden. So können die extern betriebenen
+Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüften
+und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel
+sei hier das [Bibliotheksmanagementsystem](bibliotheksmanagementsystem.md)
+genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel
+vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah
+ermöglicht werden können.
 
-Zu guter Letzt darf auch nicht unterschätzt werden, welche zeitlichen
-Ausmaße ein Angriff einnehmen kann und welche psychischen und sozialen
-Auswirkungen er verursacht. Mitunter muss man mit monatelangen
-Einschränkungen rechnen und man kann auch nicht davon ausgehen, dass
-Daten überhaupt oder gar vollständig wiederhergestellt werden können.
+Zu guter Letzt darf auch nicht unterschätzt werden, welche zeitlichen Ausmaße
+ein Angriff einnehmen kann und welche psychischen und sozialen Auswirkungen er
+verursacht. Mitunter muss mit monatelangen Einschränkungen gerechnet werden und
+es kann nicht davon ausgegangen werden, dass alle Daten vollständig
+wiederhergestellt werden können. Daher gilt es nicht nur, einen Angriff
+möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.
 
 ### Wo bleibt die Künstliche Intelligenz der IT-Sicherheit?
 
@@ -169,6 +173,8 @@ erschwert werden.
 Wie in jedem Bereich unseres Lebens finden sich auch in der
 IT-Sicherheit mehrere Richtlinien und Vorgaben sowohl auf nationaler als
 auch auf europäischer Ebene.
+
+### IT-Sicherheit
 
 Auf nationaler Ebene liegt die Zuständigkeit unter anderem beim
 Bundesamt für Sicherheit in der Informationstechnik
@@ -190,6 +196,8 @@ aktuell gehaltenen Standards, die Anforderungen an Information Security
 Management Systems (ISMS), Empfehlungen für Kontrollmechanismen, als
 auch Best-Practices-Empfehlungen zu Aufbau und Organisation von
 Informationsfreiheit enthalten.
+
+### Datenschutz
 
 Weitere Institutionen, die einen entscheidenden Einfluss auf die
 Vereinheitlichung des Datenschutzes in der Europäischen Union durch den
