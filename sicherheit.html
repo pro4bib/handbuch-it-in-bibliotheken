@@ -281,17 +281,7 @@ div.csl-indent {
 </header>
 
 
-<div class="callout callout-style-simple callout-important">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und <a href="./mitarbeit.html">Hinweise zur Mitarbeit</a>.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout callout-style-simple callout-note callout-titled" title="Zusammenfassung">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -301,7 +291,7 @@ Zusammenfassung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dieses Kapitel gibt einen Überblick über verschiedene Strategien und Maßnahmen für wichtige Aspekte von IT-Sicherheit und Datenschutz und geht auch auf die bibliotheksspezifischen Besonderheiten ein.</p>
+<p>Dieses Kapitel soll für das Thema IT-Sicherheit und Datenschutz sensibilisieren und geht dabei auch auf bibliotheksspezifische Besonderheiten ein. Nach der Beschreibung eines <a href="#sicherheitsvorfall">Sicherheitsvorfalls</a> werden <a href="#richtlinien-und-vorgaben">Richtlinien und Vorgaben</a> diskutiert, <a href="#präventivmaßnahmen">Präventivmaßnahmen</a> vorgestellt und <a href="#handlungsempfehlungen">Handlungsempfehlungen</a> gegeben. Im Anschluss werden wichtige Aspekte des <a href="#datenschutz">Datenschutzes</a> erläutert.</p>
 </div>
 </div>
 <section id="einleitung" class="level2">
@@ -327,7 +317,7 @@ Zusammenfassung
 <figcaption>Abgrenzung Datenschutzbeauftragte*r IT-Sicherheitsbeauftrage*r (<span class="citation" data-cites="Rehm2023">Rehm (<a href="literatur.html#ref-Rehm2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Schmidt2023">Schmidt (<a href="literatur.html#ref-Schmidt2023" role="doc-biblioref">2023</a>)</span>)</figcaption>
 </figure>
 </div>
-<p>Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden <span class="citation" data-cites="Kost2022">(<a href="literatur.html#ref-Kost2022" role="doc-biblioref">Kost u.&nbsp;a. 2022</a>)</span>. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema IT-Sicherheit sensibilisieren, eine Beschreibung des Sicherheitsvorfalls und einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für den Datenschutz.</p>
+<p>Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden <span class="citation" data-cites="Kost2022">(<a href="literatur.html#ref-Kost2022" role="doc-biblioref">Kost u.&nbsp;a. 2022</a>)</span>. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema IT-Sicherheit sensibilisieren, eine Beschreibung eines Sicherheitsvorfalls und einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für den Datenschutz.</p>
 </section>
 <section id="sicherheitsvorfall" class="level2">
 <h2 class="anchored" data-anchor-id="sicherheitsvorfall">Sicherheitsvorfall</h2>
@@ -336,7 +326,7 @@ Zusammenfassung
 <p>Prominente Vorfälle in verschiedenen wissenschaftlichen Einrichtungen haben in den letzten Jahren Schwachstellen in IT-Systemen offenbart, die ernstzunehmende Sicherheitslücken darstellen. Dabei ist zu beachten, dass sowohl Maschinen als auch Menschen verantwortlich für diese Lücken sein können. Folgende sind die häufigsten Angriffsmethoden:</p>
 <ul>
 <li><p><strong>Social Engineering:</strong> Unter Social Engineering versteht man Methoden, die zum Vertrauensgewinn eingesetzt werden, um anschließend an sensible Informationen, Zugangsdaten für Systeme oder finanzielle Mittel zu gelangen. Social Engineering-Attacken können über persönliche Kontakte oder über Webdienste wie E-Mails oder Webseiten durchgeführt werden.</p></li>
-<li><p><strong>Phishing:</strong> Hierbei werden seriös wirkende E-Mails versendet, um den Empfänger*innen Kennwörter oder Zahlungsinformationen zu entlocken, um so an sensible Daten zu gelangen. Die „Qualität“ derartiger gefälschter E-Mails variiert stark. Es zeigt sich jedoch, dass sie kontinuierlich professioneller umgesetzt werden und schwieriger zu identifizieren sind. Häufig werden Phishing-Attacken mit Links auf präparierte Webseiten (sog. Watering Holes) kombiniert. In diesem Fall dienen sie etwa auch als Haupteintrittstore für Ransomware, Malware, Viren und Würmer.</p></li>
+<li><p><strong>Phishing:</strong> Hierbei werden seriös wirkende E-Mails versendet, um den Empfänger*innen Kennwörter oder Zahlungsinformationen zu entlocken, um so an sensible Daten zu gelangen. Die „Qualität“ derartiger gefälschter E-Mails variiert stark. Es zeigt sich jedoch, dass sie kontinuierlich professioneller umgesetzt werden und schwieriger zu identifizieren sind. Häufig werden Phishing-Attacken mit Links auf präparierte Webseiten (sog. Watering Holes) kombiniert. In diesem Fall dienen sie auch als Haupteintrittstore für Ransomware, Malware, Viren und Würmer.</p></li>
 <li><p><strong>Ransomware:</strong> Bei dieser Art des Angriffs wird der Zugriff auf Daten eingeschränkt oder unterbunden, z.B.&nbsp;durch Verschlüsselung. Für die Wiederherstellung des Zugriffs wird ein Lösegeld gefordert. Ransomware hat von allen Angriffsmethoden das größte Schadenspotential. Neben Lösegeldforderungen entstehen hohe Ausfalls- und Wiederherstellungskosten.<br>
 Als Beispiel: Für die direkten Kosten des Ransomware-Angriffs 2019 auf die JLU Gießen werden mit Stand 2023 ca. 1,7 Mio. € für Schadensanalyse und -behebung kalkuliert. Zusätzliche Kosten für Aufwände und Workarounds sind in dieser Analyse nicht berücksichtigt und lassen sich schwer beziffern (<span class="citation" data-cites="Kost2022">Kost u.&nbsp;a. (<a href="literatur.html#ref-Kost2022" role="doc-biblioref">2022</a>)</span>).</p></li>
 <li><p><strong>Denial-of-Service-Attacken (DoS):</strong> Bezeichnet einen Angriff, um die Verfügbarkeit eines Netzwerkes zu beeinträchtigen und gleichzeitig Daten abzugreifen und umzuleiten.</p></li>
