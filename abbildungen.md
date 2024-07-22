@@ -30,6 +30,7 @@
 - @fig-massnahmen-praevention
 
 - @fig-er-diagram
+<!-- MARC/XML besser als Quelltext statt als Bild! -->
 - @fig-etl (`etl-prozess.svg`)
   <https://commons.wikiorg/wiki/File:Etl-prozess.svg>
   Public Domain von Jakob Voß und Clemens Kynast
@@ -41,11 +42,13 @@
 - @fig-vufind
 - @fig-scholia
 
+- @fig-buchscanner
+- @fig-prozess-digitalisierung
+- @fig-wms-workflow
 - @fig-datenlaube (`die-datenlaube.jpg`)
   Die Datenlaube: Projektlogo
   <https://commons.wikiorg/wiki/File:Die_Datenlaube.jpg>
   Public Domain
-- @fig-prozess-digitalisierung
 
 - @fig-fis-fdm
 

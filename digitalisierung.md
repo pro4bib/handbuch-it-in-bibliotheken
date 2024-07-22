@@ -390,7 +390,7 @@ eingesetzt werden. Roboter können das automatische Umblättern der Seiten
 erledigen, sind dabei aber für empfindliche Bestände weniger schonend.
 Berührungslose Scanner sind vor allem für Handschriften vorgesehen.
 
-![Beispiel eines Auflichtscanners](media/buchscanner.jpg)
+![Beispiel eines Auflichtscanners](media/buchscanner.jpg){#fig-buchscanner}
 
 Die 2D-Scanner können sich in verschiedenen Eigenschaften wie Größe der
 Formate, Farbtiefe, Auflösung, Art und Qualität der Optik und Mechanik
@@ -448,7 +448,7 @@ spezialisiert sind. Das Ziel der Systeme ist es,
 die Prozesse technisch abzubilden und zu organisieren bzw. die Zustände
 der im Prozess befindlichen Objekte zu speichern und darzustellen.
 
-![Beispiel für einen im WMS eingerichteten Workflow](media/wms-workflow.png)
+![Beispiel für einen im WMS eingerichteten Workflow](media/wms-workflow.png){#fig-wms-workflow}
 
 Aufgrund der hohen Spezialisierung ist die Auswahl an WMS für
 bibliothekarische Digitalisierungsprozesse überschaubar. Dazu gehören
