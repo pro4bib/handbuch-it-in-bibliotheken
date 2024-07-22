@@ -70,9 +70,10 @@ format:
     published-title: "Letzte Änderung"
     abbreviations: abbreviations
   docx: {}
-  #pdf:
-  #  documentclass: scrreprt
-  #  abbreviations: abbreviations
+  pdf:
+    documentclass: scrreprt
+    keep-tex: true
+    abbreviations: abbreviations
 
 filters:
   - templates/pandoc-quotes.lua
