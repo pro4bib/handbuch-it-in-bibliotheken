@@ -69,6 +69,7 @@ DumpFile(
         learningResourceType => ['https://w3id.org/kim/hcrt/textbook'],
         educationalLevel => ['https://w3id.org/kim/educationalLevel/level_A'],
         inLanguage       => [ $about->{lang} ],
+        description      => $about->{book}{abstract},
 
         # TODO: datePublished
         # TODO: keywords (array)

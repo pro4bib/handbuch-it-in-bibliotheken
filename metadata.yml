@@ -132,6 +132,8 @@ creator:
   givenName: David
   id: https://orcid.org/0000-0002-0403-457X
   type: Person
+description: |
+  Dieses Handbuch gibt einen knappen, umfassenden Überblick über die wesentlichen IT-bezogenen Themen in Bibliotheken. Beschrieben werden zum einen allgemeine Grundlagen wie technische Infrastruktur, Metadaten und IT-Management und zum anderen bibliotheksspezifische Dienste vom Bibliotheksmanagementsystem und Discovery-Systemen bis zu Repositorien und Werkzeugen für Kommunikation und Wissensmanagement.
 educationalLevel:
 - https://w3id.org/kim/educationalLevel/level_A
 id: https://it-in-bibliotheken.de/
