@@ -56,6 +56,9 @@ glossary:
     url: https://de.wikipedia.org/wiki/Elektronisches_Laborbuch
     definition: elektronisches Laborbuch
 
+  EMERAC:
+    definition: Electromagnetic MEmory and Research Arithmetical Calculator
+
   ERM:
     definition: Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen
     url: https://en.wikipedia.org/wiki/Electronic_resource_management      

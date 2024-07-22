@@ -104,10 +104,8 @@ Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests
 und die Integration des entwickelten bzw. erworbenen Systems in die
 Zielumgebung durchgeführt. Im Falle der Inanspruchnahme eines
 Dienstleisters wird hier auch dessen Leistung final abgenommen, wenn das
-System erfolgreich produktiv in Betrieb genommen werden kann.
-
-Während der Tests wird korrekte Umsetzen der Anforderungen sowie die Umsetzung
-der Anforderungen geprüft.
+System erfolgreich produktiv in Betrieb genommen werden kann und alle
+Anforderungen korrekt umgesetzt sind.
 
 ### Wartung
 

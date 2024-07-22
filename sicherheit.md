@@ -4,15 +4,10 @@ description: Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Da
 
 # Sicherheit & Datenschutz
 
-::: {.callout-important}
+::: {.callout-note title="Zusammenfassung"}
 
-Dieses Kapitel befindet sich in einer ersten öffentliche Entwurfsversion. Feedback siehe Links im rechten Menü und [Hinweise zur Mitarbeit](mitarbeit.md).
+Dieses Kapitel soll für das Thema IT-Sicherheit und Datenschutz sensibilisieren und geht dabei auch auf bibliotheksspezifische Besonderheiten ein. Nach der Beschreibung eines [Sicherheitsvorfalls](#sicherheitsvorfall) werden [Richtlinien und Vorgaben](#richtlinien-und-vorgaben) diskutiert, [Präventivmaßnahmen](#präventivmaßnahmen) vorgestellt und [Handlungsempfehlungen](#handlungsempfehlungen) gegeben. Im Anschluss werden wichtige Aspekte des [Datenschutzes](#datenschutz) erläutert.
 
-:::
-
-::: {.callout-note}
-## Zusammenfassung
-Dieses Kapitel gibt einen Überblick über verschiedene Strategien und Maßnahmen für wichtige Aspekte von IT-Sicherheit und Datenschutz und geht auch auf die bibliotheksspezifischen Besonderheiten ein.
 :::
 
 ## Einleitung
@@ -64,7 +59,7 @@ Bibliothekspersonals im direkten Verantwortungsbereich der Bibliothek.
 
 Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden
 [@Kost2022]. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema
-IT-Sicherheit sensibilisieren, eine Beschreibung des Sicherheitsvorfalls und
+IT-Sicherheit sensibilisieren, eine Beschreibung eines Sicherheitsvorfalls und
 einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für
 Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für
 den Datenschutz.
@@ -93,7 +88,7 @@ sein können. Folgende sind die häufigsten Angriffsmethoden:
     stark. Es zeigt sich jedoch, dass sie kontinuierlich professioneller
     umgesetzt werden und schwieriger zu identifizieren sind. Häufig
     werden Phishing-Attacken mit Links auf präparierte Webseiten (sog.
-    Watering Holes) kombiniert. In diesem Fall dienen sie etwa auch als
+    Watering Holes) kombiniert. In diesem Fall dienen sie auch als
     Haupteintrittstore für Ransomware, Malware, Viren und Würmer.
 
 -   **Ransomware:** Bei dieser Art des Angriffs wird der
