@@ -1,4 +1,4 @@
-# Einleitung {.unnumbered}
+# Einleitung
 
 ## Motivation
 
