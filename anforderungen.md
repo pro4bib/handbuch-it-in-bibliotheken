@@ -215,7 +215,7 @@ beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![Bild einer Personabeschreibung aus einem [Vortrag zum Szenario basierten Design](https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267)](media/persona.png){#fig-3}
+![Bild einer Personabeschreibung aus einem [Vortrag zum Szenario basierten Design](https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267)](media/persona.png){#fig-persona}
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit
@@ -367,13 +367,13 @@ vorzustellen. Ähnlich wie Storyboards dienen sie als einfach zu erstellende
 Diskussionsgrundlage, mit deren Hilfe ein Abgleich der Vorstellungen von einem
 System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 
-![Bild eines Papierprototypen für den Relaunch des Digitalisierungssystems Kitodo](media/wireframe.png){#fig-5 width=45%}
+![Bild eines Papierprototypen für den Relaunch des Digitalisierungssystems Kitodo](media/wireframe.png){#fig-wireframe width=45%}
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
 Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die
 Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder
 oder Buttons als Kästchen dargestellt und Texte als Striche und ähnliches
-(siehe @fig-5). Ein Mock-Up ist, im Kontext Design, eine
+(siehe @fig-wireframe). Ein Mock-Up ist, im Kontext Design, eine
 ausgereifte ("high-level") Version des Interfaces mit realistischen
 Farben, Schriftarten und Elementen. Sowohl Wireframes als auch Mock-Ups
 sind also rein statische Entwürfe des zukünftigen Produkts im Gegensatz

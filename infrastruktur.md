@@ -957,7 +957,7 @@ eigenen Kommune zusammengearbeitet werden. Eine weitere Möglichkeit ist das
 ehrenamtliche Freifunk-Projekt. Je nach Rahmenbedingung gibt es verschiedene
 Leitfäden und Fördermöglichkeiten zur Einrichtung offenen Internetzugangs.
 
-![Internet-Nutzungshinweise in den Städtischen Bibliotheken Leipzig](media/internet-nutzungshinweise.jpg)
+![Internet-Nutzungshinweise in den Städtischen Bibliotheken Leipzig](media/internet-nutzungshinweise.jpg){#fig-nutzungshinweis}
 
 Als Anbieter von öffentlichem WLAN sollten Bibliotheken auf Gefahren und
 mögliche Sicherheitsvorkehrungen hinweisen. Bei der Nutzung von öffentlichem

@@ -31,7 +31,7 @@ Transformation, interagieren kompetent und auf Augenhöhe mit den
 Nutzenden und verkörpern eine innovative, nutzerzentrierte
 Kommunikationsweise:
 
-![Stufenmodell von Öffentlichkeit (Stockmann, 2019)](media/stufenmodell.svg)
+![Stufenmodell von Öffentlichkeit](media/stufenmodell.svg){#fig-stufenmodell}
 
 ## Ziele
 
@@ -349,7 +349,7 @@ es mehrere Werkzeuge (Mittelmann, 2011):
     zusammen. Er enthält Informationen über die Zeitplanung, den
     Umfang, die Fälligkeitsdaten und die Ergebnisse.
 
-![Jobmap nach Mittelmann (2011)](media/jobmap.svg)
+![Jobmap nach Mittelmann (2011)](media/jobmap.svg){#fig-jobmap}
 
 ### Evaluation
 
@@ -389,7 +389,7 @@ Einen ersten Überblick bietet dieses Schaubild, was die populären
 Werkzeuge entlang der Achsen Intern/Extern sowie Solitär/Kollaborativ
 positioniert:
 
-![Quadrantenmodell von Kommunikations-Werkzeugen](media/tools.svg)
+![Quadrantenmodell von Kommunikations-Werkzeugen](media/tools.svg){#fig-tools}
 
 Im Folgenden werden die grundlegenden Funktionen und Werkzeuge kurz beschrieben:
 

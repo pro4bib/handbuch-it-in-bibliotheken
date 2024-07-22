@@ -129,7 +129,7 @@ Es haben sich dabei einrichtungsübergreifend ähnliche Prozessketten etabliert,
 zu deren Unterstützung [Workflowmanagementsysteme](#workflowmanagementsysteme)
 (WMS) entwickelt wurden und die Projektsteuerung erleichtern.
 
-![Prozessschritte im Digtalisierungsprozess](media/prozesse-digitalisierung.jpg)
+![Prozessschritte im Digtalisierungsprozess](media/prozesse-digitalisierung.jpg){#fig-prozess-digitalisierung}
 
 Als Ausgangspunkt jedes Digitalisierungs-Vorhabens ist eine gründliche
 Planung der Arbeitsschritte unverzichtbar. Dabei sind die lokalen
@@ -570,7 +570,7 @@ bereitgestellten Scans der Illustrierten "Die Gartenlaube". Diese
 Wikisource-Volltexte und -Illustrationen werden mit offenen Metadaten in
 Wikidata strukturiert erschlossen.
 
-![Die Datenlaube: Projektlogo](media/die-datenlaube.jpg){width=45%}
+![Die Datenlaube: Projektlogo](media/die-datenlaube.jpg){width=45% #fig-datenlaube}
 :::
 
 ### Offene Infrastrukturen

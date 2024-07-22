@@ -55,7 +55,7 @@ Datenschutzbeauftragten in Bezug auf die Verantwortlichkeiten abgestimmt
 werden. Grundsätzlich liegt die Aufgabe der Sensibilisierung und Schulung des
 Bibliothekspersonals im direkten Verantwortungsbereich der Bibliothek.
 
-![Abgrenzung Datenschutzbeauftragte\*r IT-Sicherheitsbeauftrage\*r (@Rehm2023, @Schmidt2023)](media/datenschutz-vs-sicherheits-beauftragte.png)
+![Abgrenzung Datenschutzbeauftragte\*r IT-Sicherheitsbeauftrage\*r](media/datenschutz-vs-sicherheits-beauftragte.png){#fig-datenschutz-datensicherheit}
 
 Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden
 [@Kost2022]. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema
@@ -141,7 +141,7 @@ durchaus auch hilfreich sein, wenn die Systeme nicht mehr ausschließlich im
 eigenen Rechenzentrum betrieben werden. So können die extern betriebenen
 Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüften
 und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel
-sei hier das [Bibliotheksmanagementsystem](bibliotheksmanagementsystem.md)
+sei hier das [Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md)
 genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel
 vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah
 ermöglicht werden können.
@@ -289,7 +289,7 @@ man festlegen, dass nach einmaligem Login ein Zugriff auf alle
 Anwendungen möglich und ein separates Einloggen nicht nötig ist. Dies
 wird auch als **Single-Sign-On (SSO)** bezeichnet.
 
-![Herangehensweisen für Single-Sign-On](media/sso-approaches.svg)
+![Herangehensweisen für Single-Sign-On](media/sso-approaches.svg){#fig-sso}
 
 **Links:** Benutzer\*in meldet sich auf einem **Portal** an und bekommt
 Zugriff auf alle eingebundenen Dienste. **Mitte:** Benutzer\*in
@@ -369,7 +369,7 @@ Sicherheitskonzepte teils detaillierte Anleitungen für die Ersthilfe
 bieten. Generell gilt, dass Cyberattacken nicht nur eine kommunikative,
 sondern häufig auch eine Organisationskrise nach sich ziehen.
 
-![Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention und im Fall eines Schadenfalles](media/massnahmen-und-praevention.jpg)
+![Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention und im Fall eines Schadenfalles](media/massnahmen-und-praevention.jpg){#fig-massnahmen-praevention}
 
 Zum einen muss intern (mit vorbereiteten Notfallgeräten oder ggf. privaten
 Endgeräten) und extern (mit Dienstleister\*innen, Bibliothekspartner\*innen,
