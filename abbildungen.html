@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -237,18 +257,44 @@ ul.task-list li input[type="checkbox"] {
 
 <p><em>Hier fehlt noch ein vollständiges Abbildungsverzeichnis mit Quellenangaben</em></p>
 <ul>
-<li><p><code>media/Sketch_FIS_FDM_CC_BY_Mau.png</code> Sketchnote: Forschungsinformationen und ihre Sicht auf Forschungsdaten. <a href="https://doi.org/10.5281/zenodo.4899000" class="uri">https://doi.org/10.5281/zenodo.4899000</a> CC-BY 4.0 <a href="https://orcid.org/0000-0001-7701-0301">Franziska Mau</a></p></li>
+<li><p><a href="infrastruktur.html#fig-transponder" class="quarto-xref">Abbildung&nbsp;<span>2.1</span></a></p></li>
+<li><p><a href="infrastruktur.html#fig-barcode" class="quarto-xref">Abbildung&nbsp;<span>2.2</span></a></p></li>
+<li><p><a href="infrastruktur.html#fig-speicher-rfid" class="quarto-xref">Abbildung&nbsp;<span>2.3</span></a></p></li>
+<li><p><a href="infrastruktur.html#fig-nutzungshinweis" class="quarto-xref">Abbildung&nbsp;<span>2.4</span></a></p></li>
+<li><p><a href="management.html#fig-it-zyklus" class="quarto-xref">Abbildung&nbsp;<span>3.1</span></a></p></li>
+<li><p><a href="management.html#fig-verweildauer" class="quarto-xref">Abbildung&nbsp;<span>3.2</span></a></p></li>
+<li><p><a href="management.html#fig-schichtmodell" class="quarto-xref">Abbildung&nbsp;<span>3.3</span></a></p></li>
+<li><p><a href="anforderungen.html#fig-usux" class="quarto-xref">Abbildung&nbsp;<span>4.1</span></a></p></li>
+<li><p><a href="anforderungen.html#fig-persona" class="quarto-xref">Abbildung&nbsp;<span>4.2</span></a> (<code>persona.png</code>) <a href="https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267" class="uri">https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267</a> CC-BY Kerstin Wendt, Matthias Finck</p></li>
+<li><p><a href="anforderungen.html#fig-wireframe" class="quarto-xref">Abbildung&nbsp;<span>4.3</span></a> (<code>wireframe.png</code>) <a href="https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf" class="uri">https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf</a> CC-BY Matthias Finck und Kerstin Wendt</p></li>
+<li><p><a href="sicherheit.html#fig-datenschutz-datensicherheit" class="quarto-xref">Abbildung&nbsp;<span>5.1</span></a> (<code>datenschutz-vs-sicherheits-beauftragte.png</code>) von <span class="citation" data-cites="Rehm2023">Rehm (<a href="literatur.html#ref-Rehm2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Schmidt2023">Schmidt (<a href="literatur.html#ref-Schmidt2023" role="doc-biblioref">2023</a>)</span></p></li>
+<li><p><a href="sicherheit.html#fig-sso" class="quarto-xref">Abbildung&nbsp;<span>5.2</span></a> (<code>sso-approaches.svg</code>) Three aproaches to Single Sign On. <a href="https://commons.wikiorg/wiki/File:Single_sign_on_aproaches.svg" class="uri">https://commons.wikiorg/wiki/File:Single_sign_on_aproaches.svg</a> Public Domain</p></li>
+<li><p><a href="sicherheit.html#fig-massnahmen-praevention" class="quarto-xref">Abbildung&nbsp;<span>5.3</span></a></p></li>
+<li><p><a href="metadaten.html#fig-er-diagram" class="quarto-xref">Abbildung&nbsp;<span>6.1</span></a></p></li>
+<li><p><a href="metadaten.html#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>6.2</span></a> (<code>etl-prozess.svg</code>) <a href="https://commons.wikiorg/wiki/File:Etl-prozess.svg" class="uri">https://commons.wikiorg/wiki/File:Etl-prozess.svg</a> Public Domain von Jakob Voß und Clemens Kynast</p></li>
+<li><p><a href="bibliotheksmanagementsysteme.html#fig-bmsevol" class="quarto-xref">Abbildung&nbsp;<span>7.1</span></a></p></li>
+<li><p><a href="bibliotheksmanagementsysteme.html#fig-matrix" class="quarto-xref">Abbildung&nbsp;<span>7.2</span></a></p></li>
+<li><p><a href="bibliotheksmanagementsysteme.html#fig-prozessabbildung" class="quarto-xref">Abbildung&nbsp;<span>7.3</span></a></p></li>
+<li><p><a href="discovery.html#fig-vufind" class="quarto-xref">Abbildung&nbsp;<span>8.1</span></a></p></li>
+<li><p><a href="discovery.html#fig-scholia" class="quarto-xref">Abbildung&nbsp;<span>8.2</span></a></p></li>
+<li><p><a href="digitalisierung.html#fig-datenlaube" class="quarto-xref">Abbildung&nbsp;<span>9.2</span></a> (<code>die-datenlaube.jpg</code>) Die Datenlaube: Projektlogo <a href="https://commons.wikiorg/wiki/File:Die_Datenlaube.jpg" class="uri">https://commons.wikiorg/wiki/File:Die_Datenlaube.jpg</a> Public Domain</p></li>
+<li><p><a href="digitalisierung.html#fig-prozess-digitalisierung" class="quarto-xref">Abbildung&nbsp;<span>9.1</span></a></p></li>
+<li><p><a href="forschungsnahe-dienste.html#fig-fis-fdm" class="quarto-xref">Abbildung&nbsp;<span>10.2</span></a></p></li>
 <li><p>Sketchnote: Auf der Suche nach dem heiligen Gral - Forschungsinformationssysteme. <a href="https://doi.org/10.5281/zenodo.4388855" class="uri">https://doi.org/10.5281/zenodo.4388855</a> CC-BY 4.0 <a href="https://orcid.org/0000-0001-7701-0301">Franziska Mau</a></p></li>
-<li><p><code>media/etl-prozess.svg</code><br>
-<a href="https://commons.wikimedia.org/wiki/File:Etl-prozess.svg" class="uri">https://commons.wikimedia.org/wiki/File:Etl-prozess.svg</a> Public Domain von Jakob Voß und Clemens Kynast</p></li>
-<li><p><code>media/sso-approaches.svg</code> Three aproaches to Single Sign On. <a href="https://commons.wikimedia.org/wiki/File:Single_sign_on_aproaches.svg" class="uri">https://commons.wikimedia.org/wiki/File:Single_sign_on_aproaches.svg</a> Public Domain</p></li>
-<li><p><code>media/die-datenlaube.jpg</code> Die Datenlaube: Projektlogo <a href="https://commons.wikimedia.org/wiki/File:Die_Datenlaube.jpg" class="uri">https://commons.wikimedia.org/wiki/File:Die_Datenlaube.jpg</a> Public Domain</p></li>
-<li><p><code>media/persona.png</code> <a href="https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267" class="uri">https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267</a> CC-BY Kerstin Wendt, Matthias Finck</p></li>
-<li><p><code>media/wireframe.png</code> <a href="https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf" class="uri">https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf</a> CC-BY Matthias Finck und Kerstin Wendt</p></li>
-<li><p><code>media/tools.svg</code> CC-BY Ralf Stockmann. Quelle bearbeitbar unter <a href="https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd" class="uri">https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd</a></p></li>
+<li><p><a href="kommunikation.html#fig-stufenmodell" class="quarto-xref">Abbildung&nbsp;<span>11.1</span></a> Stockmann, 2019</p></li>
+<li><p><a href="kommunikation.html#fig-jobmap" class="quarto-xref">Abbildung&nbsp;<span>11.2</span></a></p></li>
+<li><p><a href="kommunikation.html#fig-tools" class="quarto-xref">Abbildung&nbsp;<span>11.3</span></a> (<code>tools.svg</code>) CC-BY Ralf Stockmann. Quelle bearbeitbar unter <a href="https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd" class="uri">https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd</a></p></li>
 </ul>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-Rehm2023" class="csl-entry" role="listitem">
+Rehm, Stefan-Marc. 2023. <span>„<span>IT</span>-Sicherheitsbeauftragten bestellen. www.haufe.de“</span>. 23. August 2023. <a href="https://www.haufe.de/compliance/management-praxis/cybersicherheit-it-sicherheitsbeauftragter_230130_447256.html">https://www.haufe.de/compliance/management-praxis/cybersicherheit-it-sicherheitsbeauftragter_230130_447256.html</a>.
+</div>
+<div id="ref-Schmidt2023" class="csl-entry" role="listitem">
+Schmidt, Caroline. 2023. <span>„Wann die Bestellung eines Datenschutzbeauftragten für Ihr Unternehmen unabdingbar ist. www.e-recht24.de“</span>. 12. Juni 2023. <a href="https://www.e-recht24.de/datenschutz/10744-datenschutzbeauftragter-dsgvo.html#">https://www.e-recht24.de/datenschutz/10744-datenschutzbeauftragter-dsgvo.html#</a>.
+</div>
+</div>
 
 </main> <!-- /main -->
 <script type="application/javascript">

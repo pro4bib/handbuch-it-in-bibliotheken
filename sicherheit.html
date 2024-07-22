@@ -311,10 +311,14 @@ Zusammenfassung
 <p>Bibliotheken verstehen sich als Orte, die ihre Informationen und vielschichtigen Dienstleistungen i.d.R. einer großen Nutzendenschaft zur Verfügung stellen. Sie tragen durch ihre Arbeit zur Umsetzung der Openness-Strategie in Gesellschaft und Wissenschaft bei. Offenheit und Transparenz sind schützenswerte Haltungen von Bibliotheken, welche gleichzeitig aber auch eine größere Angriffsfläche ermöglichen.</p>
 <p>Doch was macht Bibliotheken und Hochschulen so interessant für Angriffe? An diesen Orten werden für Cyberkriminelle interessante Daten verwaltet. Dazu gehören personenbezogene Daten von Nutzenden und Beschäftigten, schützenswerte Forschungsdaten, Bewegungsdaten, Lizenzdaten, Daten zur Nutzung von Literatur, etc. Die dabei abgegriffenen Daten können u.a.&nbsp;für Identitätsdiebstahl, Offenlegung privater Informationen oder für die Erstellung eines detaillierten Nutzerprofils herangezogen werden <span class="citation" data-cites="Hollaender2023">(<a href="literatur.html#ref-Hollaender2023" role="doc-biblioref">Holländer 2023</a>)</span>.</p>
 <p>IT-Sicherheit und Datenschutz sind auch immer eine Frage der Zuständigkeit. Je nach Größe, Art und Organisationsstruktur der Bibliothek muss die IT-Sicherheit mit den beteiligten Instanzen wie Stadtverwaltung, Verbundzentrale, den Rechen- und IT-Zentren der Institution und den IT-Sicherheitsbeauftragten und Datenschutzbeauftragten in Bezug auf die Verantwortlichkeiten abgestimmt werden. Grundsätzlich liegt die Aufgabe der Sensibilisierung und Schulung des Bibliothekspersonals im direkten Verantwortungsbereich der Bibliothek.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/datenschutz-vs-sicherheits-beauftragte.png" class="img-fluid figure-img"></p>
-<figcaption>Abgrenzung Datenschutzbeauftragte*r IT-Sicherheitsbeauftrage*r (<span class="citation" data-cites="Rehm2023">Rehm (<a href="literatur.html#ref-Rehm2023" role="doc-biblioref">2023</a>)</span>, <span class="citation" data-cites="Schmidt2023">Schmidt (<a href="literatur.html#ref-Schmidt2023" role="doc-biblioref">2023</a>)</span>)</figcaption>
+<div id="fig-datenschutz-datensicherheit" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-datenschutz-datensicherheit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/datenschutz-vs-sicherheits-beauftragte.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-datenschutz-datensicherheit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5.1: Abgrenzung Datenschutzbeauftragte*r IT-Sicherheitsbeauftrage*r
+</figcaption>
 </figure>
 </div>
 <p>Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden <span class="citation" data-cites="Kost2022">(<a href="literatur.html#ref-Kost2022" role="doc-biblioref">Kost u.&nbsp;a. 2022</a>)</span>. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema IT-Sicherheit sensibilisieren, eine Beschreibung eines Sicherheitsvorfalls und einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für den Datenschutz.</p>
@@ -336,7 +340,7 @@ Als Beispiel: Für die direkten Kosten des Ransomware-Angriffs 2019 auf die JLU 
 <h3 class="anchored" data-anchor-id="bisherige-erfahrungen">Bisherige Erfahrungen</h3>
 <p>Bisherige Erfahrungen zeigen die weitreichenden Auswirkungen eines cyberkriminellen Angriffs auf Bibliotheken. In den meisten Fällen ist jedoch nicht nur die Bibliothek alleine betroffen, sondern die gesamte Hochschule, Kommune oder Forschungseinrichtun. Kommt es zu einem Angriff, ist es meist notwendig, alle IT-Dienste herunterzufahren. Eine Abschottung einzelner Dienste kann kaum vorgenommen werden. Man kann sich dies als einen „harten Cut“ und ein Herunterfahren aller eigenen Server und virtuellen Maschinen zur Eingrenzung des schadhaften Fremdzugriffs vorstellen. Diese harte Maßnahme wird vorgenommen, da man nicht abschätzen kann, wo es im System schon zu welchen Schäden gekommen ist. Die Folgen: es funktioniert schlimmstenfalls NICHTS mehr. (W)LAN, Netzlaufwerke, Identity-Management und Anmeldedienste, E-Mail-Dienste, Terminverwaltungstools, Personal-Verwaltungssysteme, Türschließmechanismen, Zeiterfassung, IP-Telefonie, Lüftungs- und Beleuchtungssysteme, etc. Alle netzbetriebenen Dienste sind ggf.&nbsp;für mehrere Tage, Wochen oder sogar Monate außer Betrieb.</p>
 <p>Im Ernstfall können die vorhandenen Dienstgeräte und Kommunikationsdienste nicht mehr verwendet werden. Aufgrund dessen kann man zur Kommunikation auf private Geräte (Notebooks, Smartphones, etc., sofern die Mitarbeiter*innen bereit dazu sind) und alternative E-Mail-Dienste ausweichen. Hier ist zu bedenken, dass diese Adhoc-Lösungen nicht unbedingt den datenschutzrechtlichen Ansprüchen entsprechen wenn keine Vertrag zur Auftragsdatenverarbeitung abgeschlossen wird. Von besonderer Bedeutung ist in diesem Fall auch das Identity Management System (IDMS), das nach einem Angriff gegebenenfalls alternativ aufgebaut werden muss.</p>
-<p>Die fortschreitende Digitalisierung, Automatisierung und Virtualisierung kann durchaus auch hilfreich sein, wenn die Systeme nicht mehr ausschließlich im eigenen Rechenzentrum betrieben werden. So können die extern betriebenen Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüften und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel sei hier das <a href="bibliotheksmanagementsystem.md">Bibliotheksmanagementsystem</a> genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah ermöglicht werden können.</p>
+<p>Die fortschreitende Digitalisierung, Automatisierung und Virtualisierung kann durchaus auch hilfreich sein, wenn die Systeme nicht mehr ausschließlich im eigenen Rechenzentrum betrieben werden. So können die extern betriebenen Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüften und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel sei hier das <a href="./bibliotheksmanagementsysteme.html">Bibliotheksmanagementsystem</a> genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah ermöglicht werden können.</p>
 <p>Zu guter Letzt darf auch nicht unterschätzt werden, welche zeitlichen Ausmaße ein Angriff einnehmen kann und welche psychischen und sozialen Auswirkungen er verursacht. Mitunter muss mit monatelangen Einschränkungen gerechnet werden und es kann nicht davon ausgegangen werden, dass alle Daten vollständig wiederhergestellt werden können. Daher gilt es nicht nur, einen Angriff möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.</p>
 </section>
 <section id="wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit" class="level3">
@@ -375,10 +379,14 @@ Als Beispiel: Für die direkten Kosten des Ransomware-Angriffs 2019 auf die JLU 
 <p>Eine Authentifizierung einer Person erfolgt meistens über eine eindeutige Kennung und ein zugehöriges Passwort. Wenn möglich, sollten verschiedene Authentifizierungsverfahren miteinander kombiniert werden. Es wird dann auch von einer 2-Faktor-Authentifizierung (2FA) bzw.&nbsp;einer Mehrfaktor-Authentifizierung (MFA) gesprochen.</p>
 <p>Ist ein Zugriff eindeutig durch entsprechende Authentifizierung erkannt, kann auf Basis verschiedener Informationen je nach Bedarf entschieden werden, ob der Zugriff auch berechtigt ist. D. h., der Zugriff muss autorisiert werden. Dies kann sehr individuell erfolgen (Konto A hat Zugriff, Konto B nicht) oder anhand der Zugehörigkeit eines Kontos zu einer bestimmten Personengruppe.</p>
 <p>Alle Komponenten, die zur Authentifizierung und Autorisierung in einer Einrichtung notwendig sind, werden auch als Authentifizierungs- und Autorisierungsinfrastruktur (AAI) bezeichnet. Wurde in einer Einrichtung eine AAI aufgebaut, auf welche jede Anwendung zurückgreifen kann, kann man festlegen, dass nach einmaligem Login ein Zugriff auf alle Anwendungen möglich und ein separates Einloggen nicht nötig ist. Dies wird auch als <strong>Single-Sign-On (SSO)</strong> bezeichnet.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/sso-approaches.svg" class="img-fluid figure-img"></p>
-<figcaption>Herangehensweisen für Single-Sign-On</figcaption>
+<div id="fig-sso" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/sso-approaches.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5.2: Herangehensweisen für Single-Sign-On
+</figcaption>
 </figure>
 </div>
 <p><strong>Links:</strong> Benutzer*in meldet sich auf einem <strong>Portal</strong> an und bekommt Zugriff auf alle eingebundenen Dienste. <strong>Mitte:</strong> Benutzer*in speichert alle Anmeldedaten auf einem Datenträger oder im Netzwerk. Ein <strong>lokal</strong>es Programm meldet ihn*sie separat bei jedem Dienst, Portal oder Ticketing-System ein. <strong>Rechts:</strong> Benutzer*in meldet sich bei einem der Dienste an und bekommt ein <strong>Ticket</strong> für den gesamten „Kreis der Vertrauten“.</p>
@@ -409,10 +417,14 @@ Als Beispiel: Für die direkten Kosten des Ransomware-Angriffs 2019 auf die JLU 
 <section id="handlungsempfehlungen" class="level2">
 <h2 class="anchored" data-anchor-id="handlungsempfehlungen">Handlungsempfehlungen</h2>
 <p>Sind öffentliche Einrichtungen (Hochschulen, Kommunen) von Cyberattacken betroffen, hat dies allumfassende Folgen. Im schlimmsten Fall sind sämtliche Dienste nicht mehr verfügbar und die Ausfallzeit und Schadenshöhe weisen ins Ungewisse. Dann können Notfall- und Sicherheitskonzepte teils detaillierte Anleitungen für die Ersthilfe bieten. Generell gilt, dass Cyberattacken nicht nur eine kommunikative, sondern häufig auch eine Organisationskrise nach sich ziehen.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/massnahmen-und-praevention.jpg" class="img-fluid figure-img"></p>
-<figcaption>Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention und im Fall eines Schadenfalles</figcaption>
+<div id="fig-massnahmen-praevention" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-massnahmen-praevention-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/massnahmen-und-praevention.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-massnahmen-praevention-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5.3: Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention und im Fall eines Schadenfalles
+</figcaption>
 </figure>
 </div>
 <p>Zum einen muss intern (mit vorbereiteten Notfallgeräten oder ggf.&nbsp;privaten Endgeräten) und extern (mit Dienstleister*innen, Bibliothekspartner*innen, Bibliotheksnutzer*innen) kommuniziert werden u.a.&nbsp;über den Vorfall, und ggf. weiterlaufende Dienste (cloudbasierte und von Drittanbieter*innen). Besonders cloudbasierte Dienste können im Notfall evt. gute Alternativlösungen bieten, das gilt zum einen für alternative Loginverfahren z.B.&nbsp;bei extern gehosteten Plattformen für E-Ressourcen, wenn das IDMS nicht zur Verfügung steht.</p>
@@ -450,12 +462,6 @@ MDR. 2023. <span>„Vermehrt Hackerangriffe auf Hochschulen und Universitäten�
 </div>
 <div id="ref-Mueller2023" class="csl-entry" role="listitem">
 Müller, Heiko. 2023. <span>„Vorsorge für den Angriffsfall: Der Weg in die Cloud.“</span> <em><span>iX</span> Magazin für professionelle <span>IT</span></em> 11.
-</div>
-<div id="ref-Rehm2023" class="csl-entry" role="listitem">
-Rehm, Stefan-Marc. 2023. <span>„<span>IT</span>-Sicherheitsbeauftragten bestellen. www.haufe.de“</span>. 23. August 2023. <a href="https://www.haufe.de/compliance/management-praxis/cybersicherheit-it-sicherheitsbeauftragter_230130_447256.html">https://www.haufe.de/compliance/management-praxis/cybersicherheit-it-sicherheitsbeauftragter_230130_447256.html</a>.
-</div>
-<div id="ref-Schmidt2023" class="csl-entry" role="listitem">
-Schmidt, Caroline. 2023. <span>„Wann die Bestellung eines Datenschutzbeauftragten für Ihr Unternehmen unabdingbar ist. www.e-recht24.de“</span>. 12. Juni 2023. <a href="https://www.e-recht24.de/datenschutz/10744-datenschutzbeauftragter-dsgvo.html#">https://www.e-recht24.de/datenschutz/10744-datenschutzbeauftragter-dsgvo.html#</a>.
 </div>
 <div id="ref-Reda2022" class="csl-entry" role="listitem">
 <span>„Tracking in der Wissenschaft: So können Bibliotheken Daten und Wissenschaftsfreiheit schützen“</span>. 2022. <a href="https://www.zbw-mediatalk.eu/de/2022/01/tracking-in-der-wissenschaft-so-koennen-bibliotheken-daten-und-wissenschaftsfreiheit-schuetzen">https://www.zbw-mediatalk.eu/de/2022/01/tracking-in-der-wissenschaft-so-koennen-bibliotheken-daten-und-wissenschaftsfreiheit-schuetzen</a>.
