@@ -71,6 +71,7 @@ format:
     abbreviations: abbreviations
     number-sections: true
     number-depth: 3
+    twitter-card: true
   docx:
     number-sections: true
     number-depth: 3
