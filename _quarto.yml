@@ -70,13 +70,13 @@ format:
     published-title: "Letzte Änderung"
     abbreviations: abbreviations
   docx: {}
-  pdf:
-    documentclass: scrreprt
-    keep-tex: true
-    abbreviations: abbreviations
-    number-sections: true
-    number-depth: 3
-    papersize: a4
+#  pdf:
+#    documentclass: scrreprt
+#    keep-tex: true
+#    abbreviations: abbreviations
+#    number-sections: true
+#    number-depth: 3
+#    papersize: a4
 
 filters:
   - templates/pandoc-quotes.lua
