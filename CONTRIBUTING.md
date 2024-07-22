@@ -1,4 +1,4 @@
-Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizenzierung](#lizenz) der eigenen Beiträge.
+Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizenzierung](index.md#lizenz) der eigenen Beiträge.
 
 ## Arbeitsablauf {.unnumbered}
 
@@ -209,7 +209,4 @@ Die Aufrufe sind zur Vereinfachung in [`Makefile`](Makefile) zusammengefasst:
 
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero.
 
-## Lizenz {.unnumbered}
-
-Alle Beiträge werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden.
 

@@ -31,7 +31,7 @@ an Bibliotheken** verschaffen wollen. Dies können z. B. Personen sein, die sich
 im Rahmen ihrer bibliothekarischen Ausbildung mit IT-Diensten in Bibliotheken
 beschäftigen oder die sich im Rahmen der Einarbeitung in eine neue Position mit
 IT-Diensten in Bibliotheken beschäftigen. Zur Veranschaulichung der Zielgruppen
-dienen mehrere sogenannte [Personas](#zielgruppe).
+dienen mehrere sogenannte [Personas](mitarbeit.md#zielgruppe).
 
 ## Inhalt
 
@@ -93,11 +93,9 @@ der Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
 
 {{< include _contributors.md >}}
 
-## Rechte an den Inhalten
+## Rechte an den Inhalten {#lizenz}
 
-Soweit nicht anders in Quellenangaben ausgewiesen, stehen alle Inhalte dieses
-Buches unter der Lizenz [Creative Commons Namensnennung 4.0
-Deutschland](https://creativecommons.org/licenses/by/4.0/deed.de) (CC-BY 4.0 DE).
+Alle Inhalte dieses Buches werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden (siehe [Abbildungsverzeichnis](abbildungen.md)).
 
 Das heißt: Sie dürfen das Material in jedwedem Format oder Medium
 vervielfältigen und weiterverbreiten (**Teilen**) und das Material remixen,

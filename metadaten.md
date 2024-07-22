@@ -162,7 +162,7 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
 
 Das **Entity-Relationshop-Modell** ist eine Modellierungssprache die meist für relationale Datenbanken verwendet wird, aber auch unabhängig davon verwendet werden kann. Dabei werden in einem ER-Diagramm Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe Beispiel @fig-er-diagram). Eine graphische Syntax für erweitere ER-Diagramme ist die Unified Modeling Language (*UML*).
 
-![ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken](media/er-modell.svg){#er-diagram}
+![ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken](media/er-modell.svg){#fig-er-diagram}
 :::
 
 Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft,
