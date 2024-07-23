@@ -76,6 +76,7 @@ format:
     number-sections: true
     number-depth: 3
 #  pdf:
+#    links-as-notes: true
 #    documentclass: scrreprt
 #    classoption:
 #      - twoside
