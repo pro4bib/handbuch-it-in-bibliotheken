@@ -53,8 +53,8 @@ IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die
 Anforderungen an das Projekt. Dieses gemeinsame Verständnis, insbesondere
 der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren
 Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
-und während der Entwicklung [unter Einbeziehung von Nutzer\*innen](anforderungen.md)
-ermittelt und angepasst.
+und während der Entwicklung unter Einbeziehung von Nutzer\*innen
+ermittelt und angepasst (siehe @sec-anforderungen).
 
 Zur Planungs- und Analysephase gehören neben einer grundsätzlichen
 Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
@@ -80,9 +80,9 @@ das System tatsächlich abdecken kann.
 Während der Design- bzw. Prototyping-Phase entwickeln Designer\*innen und
 Entwickler\*innen erste Prototypen des geplanten IT-Systems. Ziel ist es dabei,
 Feedback der verschiedenen Stakeholder zu erhalten, um gemeinsam ein besseres
-Verständnis der Anforderungen zu erhalten bzw. diese zu präzisieren. Das
-Kapitel [Anforderungen an Bibliotheks-IT](#anforderungen) geht gesondert auf
-die Bedeutung dieser Einbeziehung und die damit verbundenen Methoden ein.
+Verständnis der Anforderungen zu erhalten bzw. diese zu präzisieren.
+@sec-anforderungen geht gesondert auf die Bedeutung dieser Einbeziehung und die
+damit verbundenen Methoden ein.
 
 ### Implementierung
 
@@ -93,10 +93,9 @@ Testinstanz und in der Folge in die produktive Instanz des Systems überführt.
 
 In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit
 idealerweise schon möglichst vielen der gewünschten Features, während
-nutzer\*innenorientierte Vorgehensmodelle (siehe Kapitel
-[Anforderungsanalyse](#anforderungen)) hier auf einen iterativen Prozess
-setzen, welcher Produktweiterentwicklungen kontinuierlich bereitstellt und
-evaluiert.
+nutzer\*innenorientierte Vorgehensmodelle (siehe @sec-anforderungen) hier auf
+einen iterativen Prozess setzen, welcher Produktweiterentwicklungen
+kontinuierlich bereitstellt und evaluiert.
 
 Unabdingbar sind der Einsatz eines Versionskontrollsystems (in der Regel
 *git*), ein Issue-Tracker und möglichst automatische Tests und Deployment
@@ -427,8 +426,7 @@ Anforderungen erfüllen:
 >
 > -- [@gesetzliche_bildschirm-_2019]
 
-Die Erreichung dieser Ziele wird im Kapitel [Anforderungsanalyse](#anforderungen)
-thematisiert.
+Die Erreichung dieser Ziele wird in @sec-anforderungen thematisiert.
 
 ### Barrierefreiheit {#accessibility}
 

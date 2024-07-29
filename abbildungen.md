@@ -1,4 +1,4 @@
-# Abbildungsverzeichnis
+# Abbildungsverzeichnis {#sec-abbildungen}
 
 *Hier fehlt noch ein vollständiges Abbildungsverzeichnis mit Quellenangaben*
 

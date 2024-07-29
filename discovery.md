@@ -2,7 +2,7 @@
 description: Inhalte und Funktionen von Discovery-Systemen und Kriterien für ihre Auswahl
 ---
 
-# Discovery-Systeme
+# Discovery-Systeme {#sec-discovery}
 
 ::: {.callout-note}
 ## Zusammenfassung

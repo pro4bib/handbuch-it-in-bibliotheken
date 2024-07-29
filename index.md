@@ -46,7 +46,7 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
  
 - [Management von IT-Systemen](management.md) beinhaltet die Einführung und den Betrieb von IT-Systemen allgemein
 
-- [Anforderungsanalyse](anforderungen.md) umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
+- @sec-anforderungen zur Anforderungsanalyse umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
 - [Sicherheit & Datenschutz](sicherheit.md) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
  

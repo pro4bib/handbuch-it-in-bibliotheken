@@ -1025,7 +1025,8 @@ Es ergeben sich daraus die folgenden Anforderungen
 
 3.  Responsivität
 
-Diese Themen werden auch in den Abschnitten zu [rechtlichen Rahmenbedingungen](#rechtliche-rahmenbedingungen) und im Kapitel zu den [Anforderungen an Bibliotheks-IT](#anforderungen) angesprochen.
+Diese Themen werden auch in den Abschnitten zu [rechtlichen Rahmenbedingungen](#rechtliche-rahmenbedingungen)
+und in @sec-anforderungen zu den Anforderungen an Bibliotheks-IT angesprochen.
 
 ### Erwerbung {#erwerbung-prozess}
 

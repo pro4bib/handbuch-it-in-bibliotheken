@@ -2,7 +2,7 @@
 description: Grundlagen der bibliothekarischen Datenverarbeitung
 ---
 
-# Daten & Metadaten
+# Daten & Metadaten {#sec-metadaten}
 
 ::: {.callout-note}
 

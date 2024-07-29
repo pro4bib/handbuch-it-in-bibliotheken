@@ -2,7 +2,7 @@
 description: Technische Infrastruktur in Bibliotheken (Arbeitsplätze, Netzwerk, RFID ...)
 ---
 
-# Technische Infrastruktur
+# Technische Infrastruktur {#sec-infrastruktur}
 
 :::{.callout-note}
 ## Zusammenfassung
