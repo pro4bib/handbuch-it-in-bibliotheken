@@ -1,0 +1,23 @@
+# Copy/rename this file to _quarto.yml.local to also create PDF!
+
+format:
+  pdf:
+    links-as-notes: true
+    documentclass: scrreprt
+    classoption:
+      - twoside
+    keep-tex: true
+    abbreviations: abbreviations
+    number-sections: true
+    number-depth: 3
+    fontsize: 11pt
+    sansfont: Linux Biolinum O
+    mainfont: Linux Biolinum O
+    geometry:
+      - paperheight=24cm
+      - paperwidth=17cm
+      - top=2cm
+      - bottom=2.5cm
+      - inner=2.5cm
+      - outer=2cm
+      - heightrounded
