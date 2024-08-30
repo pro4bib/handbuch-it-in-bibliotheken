@@ -1,28 +1,37 @@
-Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], Einhaltung des [Styleguide] und die freie [Lizenzierung](index.md#lizenz) der eigenen Beiträge.
+Dieses Handbuch wird in einem offenen Prozess erarbeitet und verbessert. Mitarbeit ist dabei grundsätzlich sehr willkommen und in verschiedener Form möglich. Voraussetzung ist ein Verständnis des [Arbeitsablauf], die Einhaltung des [Styleguide] und die freie [Lizenzierung](index.md#lizenz) der eigenen Beiträge. Die Dokumentation der [technischen Umsetzung](#technische-umsetzung) ist nur relevant wenn Änderungen direkt im Markdown-Quelltext auf dem eigenen Rechner umgesetzt werden sollen oder als Inspiration für eigene Buchprojekte.
 
 ## Arbeitsablauf {.unnumbered}
 
-Alle Kapitel wurden in Booksprints vor Ort geplant und in Form von Google Docs Dokumenten geschrieben. Diese wurden anschließend einmalig ins Markdown-Format übertragen und auf [it-in-bibliotheken.de](https://it-in-bibliotheken.de) veröffentlicht (siehe [Technik]).
+Alle Kapitel wurden in Booksprints vor Ort geplant und in Form von gemeinsam bearbeitbar Dokumenten bei Google Docs erstellt. Die Kapitel wurden anschließend einmalig ins Markdown-Format übertragen und auf [it-in-bibliotheken.de](https://it-in-bibliotheken.de) veröffentlicht (siehe [Technische Umsetzung]). Abgesehen von den Anhängen stehen die Inhalte des Handbuchs somit nun in zwei Formen zur Verfügung:
 
-Weitere Änderungen und Beiträge zum Handbuch sind auf folgenden Wegen möglich:
+- Aktuelle Quelltexte in Quarto Markdown unter <https://github.com/pro4bib/handbuch-it-in-bibliotheken>
+- Snapshots der Kapitel in rudimentärem Layout als kommentierbares Dokument [in Google Drive](https://drive.google.com/drive/folders/1JMBLJlk71JqQMQY7j_uXwV47fX8NA_N2?usp=sharing)
 
-1. **Bearbeitungsvorschläge und Kommentare** in Google Docs ("Kapitel Kommentieren"): im Zweifelsfall die einfachste Methode
-2. Direkte Bearbeitung der Markdown-Quellen durch einen **Pull-Request** ("Seite editieren"): erfordert einen GitHub-Account und rudimentäre Markdown-Kenntnisse
-3. Öffentlicher **Kommentar als [GitHub-Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)** ("Problem melden"): erfordert einen GitHub-Account
+Änderungen und Beiträge zum Handbuch sind somit auf folgende Weisen möglich:
+
+1. **Bearbeitungsvorschläge und Kommentare** in Google Docs ("Kapitel Kommentieren"). Dies ist im Zweifelsfall die einfachste Methode aber möglicherweise etwas langsamer: Beiträge von Google Docs werden in unregelmäßigen Abständen von der Redaktion in die Markdown-Quellen übernommen und die Google Docs Dokumente ebenso unregelmäßig aktualisiert. [Bilder](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und Anhänge wie das [Glossar](#mitarbeit-glossar) können auf diese Weise nicht geändert werden.
+
+2. Direkte Bearbeitung der Markdown-Quellen durch einen **Pull-Request** ("Seite editieren"). Dies erfordert einen GitHub-Account und rudimentäre Markdown-Kenntnisse, dafür können die Beiträge am schnellsten übernommen werden.
+
+3. Öffentlicher **Kommentar als [GitHub-Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)** ("Problem melden"). Dies erfordert einen GitHub-Account und ggf. anschließende öffentliche Diskussion.
+
 4. Persönlicher Hinweis an [die Autor*innen](#autorinnen)
 
-![Feedback-Links unter dem Inhaltsverzeichnis rechts](media/feedback-links.png)
+In der HTML-Version unter <https://it-in-bibliotheken.de/> gibt es rechts neben jedem Kapitel etsprechende Feedback-Links:
 
-Die Bearbeitungsvorschläge und Kommentare aus Google Docs werden in unregelmäßigen Abständen von der Redaktion in die Markdown-Quellen übernommen und die Google Docs Dokumente anschließend aktualisiert. Für [Bilder](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Glossar](#mitarbeit-glossar) gibt es eigene Abläufe. Der aktuelle Workflow nach Ende der Booksprints beinhaltet folgende Schritte:
+![Feedback-Links (rechts unter dem Inhaltsverzeichnis der einzelnen Kapitel)](media/feedback-links.png)
 
-Lektorat
-  : Fertige Kapitel stehen auf der Webseite und als Google Docs Dokument zum Korrekturlesen und Kommentieren bereit. Je Kapitel sind zwei externe (bisher nicht am Schreiben beteiligte) Lektor*innen eingeteilt, um die Einhaltung des [Styleguide] zu überprüfen und Änderungen vorzuschlagen.
+Zur Vorbereitung der Druckversion gab es nach den Booksprints, in denen die wesentlichen Inhalte des Buches geschrieben wurden, eine Lektoratsphase, bei der einzelne Kapitel gezielt ein bis zwei Personen zur Prüfung zugewiesen wurden. Der wesentliche Arbeitsablauf war allerdings der Gleiche.
+
+<!--
 
 Redaktion
   : Hinweise und Änderungsvorschläge werden von den Autor\*innen diskutiert und entschieden. Falls die daraus resultierenden Änderungsvorschläge nicht als Pull-Request vorliegen, müssen sie in Google-Docs bestätigt und parallel in die Markdown-Quellen eingepflegt werden.
 
 Publikation
-  : Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt dazu, dass das Buch automatisch aktualisiert wird (siehe [Technik], bisher nur HTML-Version, Druckversion ist geplant).
+  : Bestätigte Änderungen an der Markdown-Dateien im git-Repository führen direkt dazu, dass das Buch automatisch aktualisiert wird (siehe [Technische Umsetzung], bisher nur HTML-Version, Druckversion ist geplant).
+
+-->
 
 ## Styleguide {#styleguide .unnumbered}
 
@@ -37,7 +46,7 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
     Überblick geben. Für Details kann auf weiterführende Quellen
     verwiesen werden.
 
-### Zielgruppe {#zielgruppe}
+### Zielgruppe {#zielgruppe .unnumbered}
 
 Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
 *Personas* definiert:
@@ -145,7 +154,7 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 ### Bilder und andere Medien {#mitarbeit-medien .unnumbered}
 
-- Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository](#technik). Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
+- Bilder und andere Mediendateien kommen in das Verzeichnis `media` im [git-Repository](#technische-umsetzung). Alternativ können sie von externen Quellen per URL eingebunden werden wenn die Quelle voraussichtlich dauerhaft verfügbar ist.
 
 - Bilder sollten möglichst als Vektorgrafik (SVG) bereitgestellt werden.
 
@@ -165,7 +174,7 @@ Das Abkürzungsverzeichnis in der Datei `glossar.yml` enthält erklärungswürdi
 
 Wenn Du etwas beigetragen hast und möchtest, dass Du im [Verzeichnis der Autor\*innen](#autorinnen) auftauchst, trage Dich in der YAML-Datei [`contributors.yml`](https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/contributors.yml) ein. Die Einträge sollten nach Nachname sortiert werden. Die Felder `email`, `position` und `orcid` sind optional.
 
-## Technik {.unnumbered}
+## Technische Umsetzung {.unnumbered}
 
 [quarto]: https://quarto.org/
 
@@ -189,7 +198,8 @@ Weitere Unterverzeichnisse:
 
 Die Dateien in folgenden Verzeichnissen sollen nicht per Hand geändert werden:
 
-* `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte Kapitel (siehe [README.md](_gdrive/README.md))
+* `_gdrive/` von bzw. nach Google-Drive importierte bzw. exportierte Kapitel.
+
 
 ### Konvertierung {.unnumbered}
 
@@ -209,4 +219,9 @@ Die Aufrufe sind zur Vereinfachung in [`Makefile`](Makefile) zusammengefasst:
 
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero.
 
+Mit dem Skript `chapter` im Verzeichnis `_gdrive` können
+
+- Kapitel von Google Docs heruntergeladen und nach Markdown konvertiert und
+
+- DOCX-Dateien der einzelnen Kapitel zum Hochladen bei Goodle Docs erstellt werden (siehe `Makefile` im Verzeichnis `_gdrive`)
 

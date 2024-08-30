@@ -1,6 +1,8 @@
-# Daten & Metadaten
+Daten & Metadaten
+=================
 
-## Zusammenfassung
+Zusammenfassung
+---------------
 
 Die Beschreibung von Ressourcen mit standardisierten Metadaten bildet
 eine zentrale Voraussetzung für die meisten an Bibliotheken angebotenen
@@ -11,11 +13,12 @@ Begriffe](#grundlegende-begrifflichkeiten) einführt, wichtige
 Datenverarbeitung](#Xc0d2b380f537523ab05a0d07c2c628226492086) in
 Bibliotheken erläutert.
 
-## Einleitung
+Einleitung
+----------
 
 Für die Sammlung und Bereitstellung von Informationen werden von
 Bibliotheken Ressourcen unterschiedlichster Form (Bücher, Filme,
-Forschungsdaten ...) nachgewiesen. Zur Verwaltung der Ressourcen werden
+Forschungsdaten …) nachgewiesen. Zur Verwaltung der Ressourcen werden
 diese mit **Metadaten** beschrieben. Neben diesen Metadaten enthalten
 bibliothekarische Informationssysteme zunehmend auch die dazugehörigen
 **digitalen Inhalte** wie sogenannte Volltexte, Digitalisate und
@@ -25,14 +28,15 @@ Folgenden beschriebenen Grundlagen zu Eigenschaften, Arten und
 Verarbeitung von Daten gelten sowohl für Metadaten als auch für digitale
 Inhalte.
 
-## Grundlegende Begrifflichkeiten
+Grundlegende Begrifflichkeiten
+------------------------------
 
 ### Daten
 
 Im Wesentlichen bestehen Daten im Sinne dieses Buchs aus einer Folge von
 Bits. Abgesehen von ihrer Anzahl in Bytes lässt sich auf dieser Ebene
 allerdings nichts weiter über Daten sagen. Uns interessiert daher mehr,
-wofür die Daten stehen -- beispielsweise für eine Jahreszahl, ein Bild
+wofür die Daten stehen – beispielsweise für eine Jahreszahl, ein Bild
 oder für den Titel eines Dokuments. Dabei besteht ein Unterschied
 zwischen
 
@@ -47,26 +51,18 @@ welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet
 werden (siehe (**tbl-daten-ebenen?**)):
 
 Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen
-{#tbl-daten-ebenen}
+{\#tbl-daten-ebenen}
 
-  -----------------------------------------------------------------------
-  Struktur                Bedeutung               Kodierung
-  ----------------------- ----------------------- -----------------------
-  `2024-02-24`            Der 24. Februar 2024    ISO 8601
-
-  `1100001`               Die Zahl 97 (64+32+1)   Byte als Zahl
-
-  `97`                    Der Buchstabe „a"       ASCII oder Unicode
-
-  `a`                     Unterfeld für           Feld `021A` im PICA+
-                          Haupttitel              Format
-
-  `a`                     Unterfeld für           Feld `300` im MARC21
-                          Umfangsangabe           Format
-  -----------------------------------------------------------------------
+  Struktur       Bedeutung                     Kodierung
+  -------------- ----------------------------- -----------------------------
+  `2024-02-24`   Der 24. Februar 2024          ISO 8601
+  `1100001`      Die Zahl 97 (64+32+1)         Byte als Zahl
+  `97`           Der Buchstabe „a“             ASCII oder Unicode
+  `a`            Unterfeld für Haupttitel      Feld `021A` im PICA+ Format
+  `a`            Unterfeld für Umfangsangabe   Feld `300` im MARC21 Format
 
   : Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen
-  {#tbl-daten-ebenen}
+  {\#tbl-daten-ebenen}
 
 Ein Großteil der
 [Datenverarbeitung](#Xc0d2b380f537523ab05a0d07c2c628226492086) besteht
@@ -87,10 +83,11 @@ Leider liegen beide oft nicht explizit vor, sondern müssen anhand von
 Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im
 Idealfall entsprechen Daten einem klar definierten Datenformat.
 
-## Info
+Info
+----
 
 Mit dem **Resource Description Framework (RDF)** kodierte Daten werden
-auch als „semantisch" bezeichnet. Die Kodierung erfolgt dabei nicht mit
+auch als „semantisch“ bezeichnet. Die Kodierung erfolgt dabei nicht mit
 Feldern oder Tabellen, sondern in Form von so genannten RDF-Tripeln aus
 Subjekt, Prädikat und Objekt. Durch Verwendung gemeinsamer
 [Identifikatoren](#identifikatoren) in mehreren Tripeln entstehen
@@ -107,27 +104,23 @@ Datenformate definieren eine Struktur, die sich in einer oder in
 mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren
 Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert
 der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben,
-Sonderzeichen, Emojis ...) und verschiedene Verfahren, um Zeichenketten
-in Bytes zu kodieren (UTF-8, UTF-16 ...). Syntax-Varianten werden auch
-als **Serialisierung** bezeichnet. Die meisten Datenformate haben nur
-eine Serialisierung, sodass Format und Syntax meist synonym verwendet
-werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im
-Datenmodell (siehe (**tbl-xml?**)), daher werden in der Beschreibung von
-Daten auch diese beiden Ebenen meist nicht sauber getrennt.
+Sonderzeichen, Emojis …) und verschiedene Verfahren, um Zeichenketten in
+Bytes zu kodieren (UTF-8, UTF-16 …). Syntax-Varianten werden auch als
+**Serialisierung** bezeichnet. Die meisten Datenformate haben nur eine
+Serialisierung, sodass Format und Syntax meist synonym verwendet werden.
+Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe
+(**tbl-xml?**)), daher werden in der Beschreibung von Daten auch diese
+beiden Ebenen meist nicht sauber getrennt.
 
-Einige Bestandteile des XML-Formats {#tbl-xml}
+Einige Bestandteile des XML-Formats {\#tbl-xml}
 
-  -----------------------------------------------------------------------
-  XML-Syntax                          XML-Modell
-  ----------------------------------- -----------------------------------
-  `<name />` oder `<name>...</name>`  XML-Element
+  XML-Syntax                           XML-Modell
+  ------------------------------------ --------------
+  `<name />` oder `<name>...</name>`   XML-Element
+  `name="Inhalt"`                      XML-Attribut
+  `<!-- ... -->`                       Kommentar
 
-  `name="Inhalt"`                     XML-Attribut
-
-  `<!-- ... -->`                      Kommentar
-  -----------------------------------------------------------------------
-
-  : Einige Bestandteile des XML-Formats {#tbl-xml}
+  : Einige Bestandteile des XML-Formats {\#tbl-xml}
 
 Als Faustregel kann gelten, dass bei statischer Betrachtung von Daten
 der Bezug auf ihre Syntax sinnvoll ist, während zur Verarbeitung von
@@ -139,15 +132,15 @@ Datenformate lassen sich grob in zwei Kategorien unterteilen:
 -   **Strukturierungssprachen** wie CSV, XML, JSON und RDF ermöglichen
     es, Daten in kleinere Einheiten zu unterteilen und miteinander in
     Beziehung zu setzen. Die Sprachen basieren auf allgemeinen
-    Ordnungsprinzipien (Felder, Tabellen, Hierarchien, Netzwerke ...)
-    und ihre Modelle haben darüber hinaus keine eigene Semantik. Die
+    Ordnungsprinzipien (Felder, Tabellen, Hierarchien, Netzwerke …) und
+    ihre Modelle haben darüber hinaus keine eigene Semantik. Die
     einfachste Strukturierungssprache ist das Prinzip der Zeichenkette.
 
 -   **Anwendungsformate** legen die Struktur von Daten für konkrete
     Arten von Inhalten fest ([Metadatenformate](#metadatenformate) zur
-    Beschreibung von Dokumenten, Bildformate für Bilder ...). Ihre
-    Modelle verweisen letztendlich auf reale Objekte und Eigenschaften.
-    Viele Anwendungsformate sind ihrerseits mittels einer
+    Beschreibung von Dokumenten, Bildformate für Bilder …). Ihre Modelle
+    verweisen letztendlich auf reale Objekte und Eigenschaften. Viele
+    Anwendungsformate sind ihrerseits mittels einer
     Strukturierungssprache kodiert, zum Beispiel basiert das
     DataCite-Format zur Beschreibung von Forschungsdaten auf dem
     XML-Modell.
@@ -160,12 +153,12 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
     *reguläre Ausdrücke* dienen der formalen Beschreibung der Syntax von
     Datenformaten. Dabei bezieht sich jede Schemasprache auf eine
     Strukturierungssprache (*XML Schema* für XML-Formate, *Avram* für
-    feldbasierte Formate ...).
+    feldbasierte Formate …).
 
 -   **Abfragesprachen** dienen dem Verweis auf einzelne Teile von
     Datensätzen. Sie beziehen sich ebenfalls immer auf eine
     Strukturierungssprache (zum Beispiel XPath für XML, JSON Path für
-    JSON ...) und sind für die Verarbeitung von Daten notwendig.
+    JSON …) und sind für die Verarbeitung von Daten notwendig.
 
 -   **Modellierungssprachen** helfen bei der Beschreibung von
     Datenmodellen. Die häufigsten Modellierungssprachen basieren auf dem
@@ -262,20 +255,20 @@ Ziffer und `Y` für eine Prüfziffer steht), deren Bestandteile
 hierarchisch von einer zentralen Instanz festgelegt werden. Nach dem
 Prinzip des Namensraums kann dabei die Vergabe von Teilen an
 untergeordnete Organisationen delegiert werden. Beispielsweise werden
-ISIL für Bibliotheken in Deutschland beginnend mit dem Präfix „DE-"
+ISIL für Bibliotheken in Deutschland beginnend mit dem Präfix „DE-“
 durch die [ISIL-Agentur an der Staatsbibliothek zu
 Berlin](https://sigel.staatsbibliothek-berlin.de/) verwaltet.
 
 Im Gegensatz dazu gibt es zur Identifizierung von digitalen Objekten
 auch dezentrale Identifikatoren in Form von Prüfsummen, die sich
 automatisch aus den vorhandenen Daten berechnen lassen (SHA-Summe,
-IPFS-Adresse, Prüfziffer ...).
+IPFS-Adresse, Prüfziffer …).
 
 ### Normdaten
 
 Einfache kontrollierte Vokabulare bestehen aus normierten Listen von
-eindeutigen Benennungen -- beispielsweise könnte in einem
-Gemüse-Vokabular festgelegt sein, dass immer „Karotte" statt „Möhre"
+eindeutigen Benennungen – beispielsweise könnte in einem
+Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“
 verwendet werden muss. Wird jeder Eintrag mit einem künstlichen
 [Identifikator](#identifikatoren) versehen, muss die Benennung selbst
 nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser
@@ -305,7 +298,7 @@ zwischen:
     unterscheiden lassen sowie
 
 -   Normdateien, deren abstrakte Entitäten von Kontext und Modellierung
-    abhängen (Klassifikationen, Thesauri ...).
+    abhängen (Klassifikationen, Thesauri …).
 
 Zur Verwaltung von Normdaten gibt es einige Datenformate wie *MARC 21
 for Authority Data* und *ISAAR (CPF)*. Als gemeinsamer Nenner auch
@@ -319,14 +312,15 @@ Das [*Basic Register of Thesauri, Ontologies &
 Classifications*](https://bartoc.org/) (BARTOC) erfasst Informationen zu
 Normdateien aller Art, darunter auch Verfahren zum technischen Zugriff.
 
-## Metadatenstandards
+Metadatenstandards
+------------------
 
 Neben allgemeinen [Datenformaten](#datenformate) sind für die
 Bibliotheks-IT vor allem Metadatenformate zur Beschreibung von
 Dokumenten relevant. Die meisten der im Folgenden beschriebenen
 Metadatenformate spielen außerhalb von Kultureinrichtungen keine
 wesentliche Rolle. Für digitale Objekte (*METS/MODS*, *LIDO*, *CDWA*,
-*EN 15907*, *EAD* ..., siehe Kapitel
+*EN 15907*, *EAD* …, siehe Kapitel
 [Digitalisierung](digitalisierung.md)) und für Forschungsdaten
 (DataCite, siehe Kapitel [Forschungsnahe
 Dienste](forschungsnahe-dienste.md)) gibt es darüber hinaus spezielle
@@ -361,19 +355,9 @@ verschiedene Arten von Beschreibungen in einem Format zusammengefasst.
 wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die
 aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21
 für bibliografische Daten. Neben der binären Kodierung kann MARC 21 auch
-in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des
-Formats sind historisch bedingt, eine Alternative konnte sich bislang
-nicht durchsetzen.
-
-![Ein Datensatz im MARC 21 Format](media/rId41.png){width="0.0in"
-height="0.0in"}
-
-Ein Datensatz im MARC 21 Format
-
-![Der gleiche Datensatz in MARC-XML](media/rId45.png){width="0.0in"
-height="0.0in"}
-
-Der gleiche Datensatz in MARC-XML
+in XML (siehe (**fig-marcxml?**)) und JSON kodiert werden. Viele
+Eigenheiten und Probleme des Formats sind historisch bedingt, die
+Alternative BIBFAME konnte sich noch nicht durchsetzen.
 
 **PICA** ist das von MARC inspirierte Datenformat der
 Katalogisierungssysteme *CBS* und *LBS* (Voß 2022). Das wichtigste
@@ -382,6 +366,25 @@ Anwendungsprofil ist das K10plus-Internformat.
 **MAB** und **allegro** sind ebenfalls an MARC angelehnte, feldbasierte
 Formate aus dem deutschsprachigen Raum, die allerdings nur noch
 sporadisch verwendet werden.
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <record xmlns="http://www.loc.gov/MARC21/slim">
+      <leader> cam a22 4500</leader>
+      <datafield tag="245" ind1="1" ind2="0">
+        <subfield code="a">Handbuch IT in Bibliotheken</subfield>
+      </datafield>
+      <datafield tag="540" ind1=" " ind2=" ">
+        <subfield code="a">Namensnennung 3.0 Deutschland</subfield>
+        <subfield code="f">CC-BY 3.0 DE</subfield>
+        <subfield code="u">https://creativecommons.org/licenses/by/3.0/de/</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2="0">
+        <subfield code="u">https://it-in-bibliotheken.de/</subfield>
+        <subfield code="z">kostenfrei</subfield>
+      </datafield>
+    </record>
+
+Ein gekürzter Beispieldatensatz in MARC-XML
 
 ### XML-basierte Datenformate
 
@@ -405,7 +408,8 @@ Dienste](forschungsnahe-dienste.md)).
 
 ### Datenmodelle und Ontologien
 
-## Definition
+Definition
+----------
 
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und
 Eigenschaften in RDF definiert und so die einheitliche Kodierung und
@@ -414,7 +418,7 @@ umfangreichen Wissensgraphen ermöglicht.
 
 Im Gegensatz zu einfacheren Formen von [Normdaten](#normdaten) geht es
 bei Ontologien nicht nur um die eindeutige Identifizierung (Beispiel:
-ist mit „Bank" das Gleiche wie „Sitzbank" oder wie „Geldinstitut"
+ist mit „Bank“ das Gleiche wie „Sitzbank“ oder wie „Geldinstitut“
 gemeint?) sondern auch um Eigenschaften und Beziehungen (Beispiel:
 mögliche Größen, Materialien und Orte von Bänken). **Wissensgraphen**
 enthalten neben Ontologien auch konkrete Daten über Instanzen der
@@ -422,22 +426,52 @@ Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an einem Ort).
 
 **Dublin Core** bzw. das Dublin Core Metadata Element Set (**DCMES**)
 hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die
-größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator",
-„title", „date" und „description" und Erweiterungen mit den DCMI
-Metadata Terms wie „Alternative Title", „Date Created" und „Date
-Available".
+größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“,
+„title“, „date“ und „description“ und Erweiterungen mit den DCMI
+Metadata Terms wie „Alternative Title“, „Date Created“ und „Date
+Available“.
 
 Die *Functional Requirements for Bibliographic Records* (**FRBR**) sind
 ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine
 Einteilung von bibliografischen Entitäten in die Beschreibungsebenen
-„work", „expression", „manifestation" und „item".
+„work“, „expression“, „manifestation“ und „item“.
 
 Die **BIBFRAME**-Ontologie wurde entwickelt, um MARC auf Grundlage von
-RDF zu ersetzen. Die wesentlichen Elemente sind „work", „instance" und
-„item" sowie damit verbundene Eigenschaften und Entitätstypen.
+RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und
+„item“ sowie damit verbundene Eigenschaften und Entitätstypen.
 
 **Schema.org** ist eine allgemeine Ontologie für strukturierte Daten in
 Webseiten.
+
+    @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+    @prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+    @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+    <http://uri.gbv.de/document/opac-de-627:ppn:1805728520>
+      a bf:Electronic, bf:Instance ;
+      bf:usageAndAccessPolicy [
+        a bf:UsePolicy ;
+        rdfs:label
+          "Namensnennung 3.0 Deutschland",
+          "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI
+      ] ;
+      bf:instanceOf <http://www.wikidata.org/entity/Q115625546> ;
+      bf:hasItem [
+        a bf:Item ;
+        bf:electronicLocator [
+          bflc:locator <https://it-in-bibliotheken.de/> ;
+          bf:note [ a bf:Note ; rdfs:label "kostenfrei" ]
+        ]
+      ] .
+
+    <http://www.wikidata.org/entity/Q115625546>
+      a bf:Text, bf:Work ;
+      bf:title [ a bf:Title ; bf:mainTitle "Handbuch IT in Bibliotheken" ] .
+
+Der Inhalt des Datensatz (**fig-marcxml?**) in RDF-Serialisierung Turtle
+ausgedrückt mit der BIBFRAME-Ontologie und URIs aus K10plus und
+Wikidata.
 
 ### Verlagsdaten und Literaturangaben
 
@@ -445,13 +479,14 @@ Die Formate *ONIX*, *JATS*, *BITS* und *CrossRef XML* stammen aus dem
 Verlagsbereich zur Beschreibung von Zeitschriftenartikeln und Büchern.
 Sie basieren alle auf XML und sind für Bibliotheken für den Datenimport
 relevant. Datenformate für Literaturangaben (*BibTeX*, *RIS*, *Endnote*,
-*CSL-JSON* ...) werden dagegen zum Export von Katalogdaten
-bereitgestellt. Zitationsregeln für Literaturangaben und
-Ansetzungsregeln von *ISBD* sind dagegen für den Datenaustausch eher
-unbrauchbar. Learning Object Metadata (*LOM*) dient in verschiedenen
-lokalen Anpassungen der Beschreibung von Lerneinheiten.
+*CSL-JSON* …) werden dagegen zum Export von Katalogdaten bereitgestellt.
+Zitationsregeln für Literaturangaben und Ansetzungsregeln von *ISBD*
+sind dagegen für den Datenaustausch eher unbrauchbar. Learning Object
+Metadata (*LOM*) dient in verschiedenen lokalen Anpassungen der
+Beschreibung von Lerneinheiten.
 
-## Datenverarbeitungsprozess in Bibliotheken
+Datenverarbeitungsprozess in Bibliotheken
+-----------------------------------------
 
 ### Datenerfassung
 
@@ -493,7 +528,8 @@ Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität
 von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit
 denen Daten erstellt, bearbeitet und *analysiert* werden können.
 
-## Info
+Info
+----
 
 Mehr zur bibliothekarischen Datenerfassung in den *Grundlagen der
 Informationswissenschaft* (2023), *Teil B*.
@@ -505,14 +541,14 @@ Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von
 einer oder mehreren Quellen in ein anderes Informationssystem übertragen
 werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und
 Zielsysteme verbindet, wird als **ETL-Prozess** bezeichnet. Der Prozess
-aus drei zentralen Schritten „Extract", „Transform" und „Load" stammt
+aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt
 ursprünglich aus dem Bereich des Data Warehousing und findet sich auch
 in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der
 Integration von Metadaten in ein [Discovery-System](discovery.md)
 beschrieben. (**fig-etl?**) illustriert den generellen ETL-Prozess.
 
 ![Allgemeiner Ablauf eines
-ETL-Prozesses](media/rId60.png){width="5.833333333333333in"
+ETL-Prozesses](media/rId54.png){width="5.833333333333333in"
 height="2.6408147419072616in"}
 
 Allgemeiner Ablauf eines ETL-Prozesses
@@ -547,14 +583,14 @@ Zielsystem aktuell zu halten. Mögliche Aktualisierungsintervalle sind:
 
 Der Extraktionsvorgang ist technisch relativ einfach handhabbar, wenn
 strukturierte [Datenformate](#datenformate) und/oder
-[Schnittstellen](#schnittstellen) existieren -- die wesentlichen
-Aufwände finden sich dann im nachfolgenden Transformationsschritt.
-Anders sieht es aus, wenn beispielsweise Daten manuell eingesammelt
-werden müssen oder Screenscraping notwendig ist. Beim *Screenscraping*
-müssen aufwändig Extraktionsskripte erstellt werden, um Daten aus
-Webseiten in ein strukturiertes Format zu überführen. Diese Skripte sind
-zudem sehr fehleranfällig und müssen jedes Mal angepasst werden, wenn
-die Betreiber\*innen der Datenquelle Veränderungen vornehmen.
+[Schnittstellen](#schnittstellen) existieren – die wesentlichen Aufwände
+finden sich dann im nachfolgenden Transformationsschritt. Anders sieht
+es aus, wenn beispielsweise Daten manuell eingesammelt werden müssen
+oder Screenscraping notwendig ist. Beim *Screenscraping* müssen
+aufwändig Extraktionsskripte erstellt werden, um Daten aus Webseiten in
+ein strukturiertes Format zu überführen. Diese Skripte sind zudem sehr
+fehleranfällig und müssen jedes Mal angepasst werden, wenn die
+Betreiber\*innen der Datenquelle Veränderungen vornehmen.
 
 Die extrahierten Daten werden in einem Arbeitsbereich abgelegt und dort
 im nächsten Prozessschritt aufbereitet.
@@ -614,7 +650,7 @@ damit der Transformationsprozess nicht ins Stocken gerät.
 #### Laden
 
 Auf die Transformation folgt beim **Laden** (Load) die Überführung der
-vereinheitlichten Daten in das Zielsystem -- beispielsweise in den
+vereinheitlichten Daten in das Zielsystem – beispielsweise in den
 Suchindex eines [Discovery-Systems](discovery.md). Dabei dürfen nur
 Datensätze in Produktivsysteme übernommen werden, die den
 Transformationsschritt erfolgreich durchlaufen haben, während für Test-
@@ -665,7 +701,7 @@ In jedem Fall gehen mit der Einführung von ETL-Werkzeugen in die
 bibliothekarische Arbeit immer auch individuelle Anpassungen im Prozess
 von Extraktion, Transformation und Laden einher. Dieser Aufwand kann
 sowohl gegen die Einführung solcher Werkzeuge sprechen als auch dafür,
-vorhandene „Bastellösungen" zu evaluieren und zu konsolidieren.
+vorhandene „Bastellösungen“ zu evaluieren und zu konsolidieren.
 
 ### Werkzeuge
 
@@ -677,7 +713,7 @@ als Werkzeuge
 
 -   Mittel zur **Dateiverwaltung** und ein **Texteditor** unabdingbar,
 
--   allgemeine **Kommandozeilenprogramme** (`curl`, `sort`, `grep` ...)
+-   allgemeine **Kommandozeilenprogramme** (`curl`, `sort`, `grep` …)
     sehr zu empfehlen
 
 -   und **Programmiersprachen** vor allem für komplexere Aufgaben
@@ -816,7 +852,8 @@ anderer Programme (zum Beispiel [Statistik und
 Reporting](bibliotheksmanagementsysteme.md#statistik-und-reporting) als
 Teil des BMS).
 
-## Künstliche Intelligenz
+Künstliche Intelligenz
+----------------------
 
 Unter den Begriffen Künstlichen Intelligenz, Machine Learning und Deep
 Learning werden verschiedene Verfahren der Datenverarbeitung
@@ -846,7 +883,8 @@ absehbarer Zeit zu Änderungen in der Rezeption und Produktion von Medien
 führen und damit auch Auswirkungen auf die Arbeit von Bibliotheken
 haben.
 
-## Zusammenfassung & Ausblick
+Zusammenfassung & Ausblick
+--------------------------
 
 Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den
 Zugriff auf Ressourcen in Bibliotheken. Daher bilden sie und ihre
@@ -857,16 +895,16 @@ auszugehen, dass der Einsatz semantischer Technologien (RDF) zur
 Zusammenführung heterogener Daten und Verfahren der künstlichen
 Intelligenz zunehmen werden.
 
-Assfalg, Rolf. 2023. „Metadaten". In *Grundlagen der
+Assfalg, Rolf. 2023. „Metadaten“. In *Grundlagen der
 Informationswissenschaft*, herausgegeben von Rainer Kuhlen, Dirk
 Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe,
-245--56. Berlin, Boston: De Gruyter Saur.
+245–56. Berlin, Boston: De Gruyter Saur.
 <https://doi.org/10.1515/9783110769043-021>.
 
 Jetter, Hans-Christian. 2023. „Informationsvisualisierung und Visual
-Analytics". In *Grundlagen der Informationswissenschaft*, herausgegeben
+Analytics“. In *Grundlagen der Informationswissenschaft*, herausgegeben
 von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa
-Womser-Hacker, 7. Ausgabe, 295--306. Berlin, Boston: De Gruyter Saur.
+Womser-Hacker, 7. Ausgabe, 295–306. Berlin, Boston: De Gruyter Saur.
 <https://www.degruyter.com/document/doi/10.1515/9783110769043-025/pdf>.
 
 Kuhlen, Rainer, Dirk Lewandowski, Wolfgang Semar, und Christa
@@ -875,18 +913,18 @@ Ausgabe. Berlin, Boston: De Gruyter Saur.
 <https://doi.org/doi:10.1515/9783110769043>.
 
 Michaelis, Barbara. 2014. In *RFID für Bibliothekare: ein Vademecum*,
-herausgegeben von Frank Seeliger, 3. Auflage, 145--50. Verlag News &
+herausgegeben von Frank Seeliger, 3. Auflage, 145–50. Verlag News &
 Media. <https://doi.org/10.15771/RFID_2014_13>.
 
 Rölke, Heiko, und Albert Weichselbraun. 2023. „Ontologien und Linked
-Open Data". In *Grundlagen der Informationswissenschaft*, herausgegeben
+Open Data“. In *Grundlagen der Informationswissenschaft*, herausgegeben
 von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa
-Womser-Hacker, 7. Ausgabe, 257--70. Berlin, Boston: De Gruyter Saur.
+Womser-Hacker, 7. Ausgabe, 257–70. Berlin, Boston: De Gruyter Saur.
 <https://www.degruyter.com/document/doi/10.1515/9783110769043-022/pdf>.
 
 Voß, Jakob. 2021. „Datenqualität als Grundlage qualitativer
-Inhaltserschließung". In *Qualität in der Inhaltserschließung*, 167--76.
+Inhaltserschließung“. In *Qualität in der Inhaltserschließung*, 167–76.
 De Gruyter Saur. <https://doi.org/10.1515/9783110691597-010>.
 
----------. 2022. „Einführung in die Verarbeitung von PICA-Daten". 2022.
+———. 2022. „Einführung in die Verarbeitung von PICA-Daten“. 2022.
 <https://pro4bib.github.io/pica/>.

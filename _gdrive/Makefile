@@ -6,7 +6,7 @@ MARKDOWN=$(DOCX:.docx=.md)
 markdown: $(MARKDOWN)
 
 .docx.md:
-	pandoc -t markdown $< > $@
+	quarto pandoc -t markdown $< > $@
 
 download:
 	./chapter download all
