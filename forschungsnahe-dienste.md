@@ -963,10 +963,7 @@ bibliothekarischen Serviceportfolios um forschungsnahe Dienste ist daher
 auch eine Frage der Organisations- und
 Personalentwicklung.
 
-**TODO:** das kann so nicht stehen bleiben:
-
-Zur vertieften Beschäftigung mit forschungsnahen Diensten an
-Bibliotheken wird folgende Literatur empfohlen:
+**TODO:** So eine unkommentierte Liste von Literatur kann hier nicht stehen bleiben. Die Hinweise sollen in den Text zu entsprechenden Abschnitten!
 
 - @Konrad2020
 - @Stille2021
@@ -974,9 +971,8 @@ Bibliotheken wird folgende Literatur empfohlen:
 - @Azeroual2021
 - @Schirrwagen2022
 - @DINI2022
-- @Druskat2022
-- @Grossmann2023
-- @Cyra2022
+- @Grossmann2023 (Nachhaltige Forschungssoftware durch Software-Management-Pläne)
+- @Cyra2022 (zu git)
 - @Barker2022
 - @Putnings2021
 
