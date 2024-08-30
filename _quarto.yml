@@ -33,6 +33,7 @@ book:
     - glossar.md
     - abbildungen.md
     - mitarbeit.md
+    - contributors.md
   sidebar:
     style: docked
     logo: media/logo.svg

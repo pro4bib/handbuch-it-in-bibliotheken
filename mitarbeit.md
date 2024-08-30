@@ -1,4 +1,4 @@
-# Hinweise zur Mitarbeit {#mitarbeit}
+# Hinweise zur Mitarbeit {#sec-mitarbeit}
 
 ::: {.content-visible when-format="html"}
 

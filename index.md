@@ -35,6 +35,16 @@ dienen mehrere sogenannte [Personas](mitarbeit.md#zielgruppe).
 
 ## Inhalt
 
+::: {.callout-important}
+
+## Gut zu wissen
+
+Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
+werden kann und soll. **Tipps und Korrekturen** sind daher sehr willkommen!
+Hinweise zur Mitarbeit und Details zur Umsetzung des Handbuchs finden sich in @sec-mitarbeit!
+
+:::
+
 Dieses Handbuch soll einen knappen und gleichzeitig umfassenden Überblick über
 die wichtigsten **IT-bezogenen Themen in Bibliotheken** geben. Die einzelnen
 Themenkapitel sind weitgehend unabhängig voneinander lesbar und mit
@@ -64,34 +74,21 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
  
 - [Kommunikation](kommunikation.md) beinhaltet Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
 
-::: {.callout-important}
-
-## Gut zu wissen
-
-Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
-werden kann und soll. **Tipps und Korrekturen** sind daher sehr willkommen!
-[Hinweise zur Mitarbeit](#mitarbeit) und Details zur 
-Umsetzung des Handbuchs finden sich im Anhang.
-
-:::
-
 ## Entstehungsgeschichte
 
 Zur Erstellung des Handbuchs wurden zwischen April 2022 und Oktober 2023 [drei
 Book Sprints](https://www.th-wildau.de/book-sprint/) an der Bibliothek der
-Technischen Hochschule Wildau durchgeführt. Dabei trafen sich IT-affine 
-[Expert\*innen aus dem Bibliotheksbereich](#autorinnen), um innerhalb von
-wenigen Tagen eine umfassende Übersicht zu den **[wichtigsten Themen](#inhalt)
-rund im IT in Bibliotheken** zu verfassen. Die Veranstaltung wurde mit Mitteln
-des [Publikationsfonds für Open-Access-Monografien des Landes
+Technischen Hochschule Wildau durchgeführt. Dabei trafen sich IT-affine
+Expert\*innen aus dem Bibliotheksbereich, um innerhalb von wenigen Tagen eine
+umfassende Übersicht zu den **[wichtigsten Themen](#inhalt) rund im IT in
+Bibliotheken** zu verfassen. Die Veranstaltung wurde mit Mitteln des
+[Publikationsfonds für Open-Access-Monografien des Landes
 Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
 Kontaktinformationen, Neuigkeiten und Hintergrund zum Projekt finden sich auf
 der Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
 @Bach2023 und @christensen_wie_2022.
 
-## Beteiligte Autor\*innen {#autorinnen}
-
-{{< include _contributors.md >}}
+Eine Liste aller Beteiligten Autor\*innen findet sich im Anhang @sec-contributors
 
 ## Rechte an den Inhalten {#lizenz}
 

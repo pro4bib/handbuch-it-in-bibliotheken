@@ -1,7 +1,7 @@
 .SUFFIXES: .docx .md
 .PHONY: references.bib
 
-INCLUDES=templates/chapters.html _contributors.md glossar.md
+INCLUDES=templates/chapters.html contributors.md glossar.md
 
 preview: $(INCLUDES)
 	quarto preview
@@ -35,7 +35,7 @@ templates/chapters.html: _gdrive/chapters.csv
 		| jq -sc add >> $@; echo "</script>" >> $@
 
 # TODO: replace by lua filter as supported by quarto
-_contributors.md: contributors.yml templates/contributors.md
+contributors.md: contributors.yml templates/contributors.md
 	echo '' | quarto pandoc --metadata-file $< --template templates/contributors.md -M title=- -o $@
 
 metadata: about.yml contributors.yml

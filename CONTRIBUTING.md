@@ -15,7 +15,7 @@ Alle Kapitel wurden in Booksprints vor Ort geplant und in Form von gemeinsam bea
 
 3. Öffentlicher **Kommentar als [GitHub-Issue](https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues)** ("Problem melden"). Dies erfordert einen GitHub-Account und ggf. anschließende öffentliche Diskussion.
 
-4. Persönlicher Hinweis an [die Autor*innen](#autorinnen)
+4. Persönlicher Hinweis an die Autor*innen (siehe @sec-contributors)
 
 In der HTML-Version unter <https://it-in-bibliotheken.de/> gibt es rechts neben jedem Kapitel etsprechende Feedback-Links:
 
