@@ -5,5 +5,8 @@ _published
 _contributors.md
 index.tex
 /.quarto/
+index_files/
+site_libs/
 
 /_*.local
+.~*
