@@ -323,15 +323,11 @@ verschiedene Arten von Beschreibungen in einem Format zusammengefasst.
 
 **Machine-Readable Cataloging (MARC)** ist das älteste und noch immer
 wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die
-aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21
-für bibliografische Daten. Neben der binären Kodierung kann MARC 21
-auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des
-Formats sind historisch bedingt, eine Alternative konnte sich bislang
+aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für
+bibliografische Daten. Neben der binären Kodierung kann MARC 21 auch in XML
+(siehe @fig-marcxml) und JSON kodiert werden. Viele Eigenheiten und Probleme
+des Formats sind historisch bedingt, die Alternative BIBFAME konnte sich noch
 nicht durchsetzen.
-
-![Ein Datensatz im MARC 21 Format](media/marc21-example.svg)
-
-![Der gleiche Datensatz in MARC-XML](media/marcxml-example.svg)
 
 **PICA** ist das von MARC inspirierte Datenformat der Katalogisierungssysteme
 *CBS* und *LBS* [@vos_einfuhrung_2022]. Das wichtigste Anwendungsprofil ist das
@@ -340,6 +336,31 @@ K10plus-Internformat.
 **MAB** und **allegro** sind ebenfalls an MARC angelehnte, feldbasierte Formate
 aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet
 werden.
+
+:::{#fig-marcxml}
+
+~~~xml
+<?xml version="1.0" encoding="UTF-8"?>
+<record xmlns="http://www.loc.gov/MARC21/slim">
+  <leader> cam a22 4500</leader>
+  <datafield tag="245" ind1="1" ind2="0">
+    <subfield code="a">Handbuch IT in Bibliotheken</subfield>
+  </datafield>
+  <datafield tag="540" ind1=" " ind2=" ">
+    <subfield code="a">Namensnennung 3.0 Deutschland</subfield>
+    <subfield code="f">CC-BY 3.0 DE</subfield>
+    <subfield code="u">https://creativecommons.org/licenses/by/3.0/de/</subfield>
+  </datafield>
+  <datafield tag="856" ind1="4" ind2="0">
+    <subfield code="u">https://it-in-bibliotheken.de/</subfield>
+    <subfield code="z">kostenfrei</subfield>
+  </datafield>
+</record>
+~~~
+
+Ein gekürzter Beispieldatensatz in MARC-XML
+
+:::
 
 ### XML-basierte Datenformate
 
@@ -390,6 +411,41 @@ RDF zu ersetzen. Die wesentlichen Elemente sind "work", "instance" und
 
 **Schema.org** ist eine allgemeine Ontologie für strukturierte Daten in
 Webseiten.
+
+::: {#fig-bibframe}
+
+~~~ttl
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://uri.gbv.de/document/opac-de-627:ppn:1805728520>
+  a bf:Electronic, bf:Instance ;
+  bf:usageAndAccessPolicy [
+    a bf:UsePolicy ;
+    rdfs:label
+      "Namensnennung 3.0 Deutschland",
+      "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI
+  ] ;
+  bf:instanceOf <http://www.wikidata.org/entity/Q115625546> ;
+  bf:hasItem [
+    a bf:Item ;
+    bf:electronicLocator [
+      bflc:locator <https://it-in-bibliotheken.de/> ;
+      bf:note [ a bf:Note ; rdfs:label "kostenfrei" ]
+    ]
+  ] .
+
+<http://www.wikidata.org/entity/Q115625546>
+  a bf:Text, bf:Work ;
+  bf:title [ a bf:Title ; bf:mainTitle "Handbuch IT in Bibliotheken" ] .
+~~~
+
+Der Inhalt des Datensatz @fig-marcxml in RDF-Serialisierung Turtle
+ausgedrückt mit der BIBFRAME-Ontologie und URIs aus K10plus und Wikidata.
+
+:::
 
 ### Verlagsdaten und Literaturangaben
 
