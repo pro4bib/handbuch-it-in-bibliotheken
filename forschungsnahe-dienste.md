@@ -414,19 +414,20 @@ Als freie Software zur Versionsverwaltung ist *Git* ein Standardtool der
 Softwareentwicklung geworden. Durch einfache Befehle auf der Kommandozeile oder
 zusätzlich installierte Software mit grafischem Interface lassen sich textuelle
 Daten auf dem eigenen System mit einem externen (Code-)Repositorium abgleichen,
-das die notwendigen Protokolle versteht. Neben dem großen Anbieter *GitHub* gibt
-es die lokal zu installierende Software *GitLab*, um ein solches Repositorium in
-der eigenen IT-Infrastruktur bereitzustellen. Durch die im Protokoll
-integrierte Versionskontrolle der Daten lassen sich Änderungen im Code einfach
-nachvollziehen und ggf. zurückrollen. Kollaborative Arbeit in
+das die notwendigen Protokolle versteht. Neben dem großen Anbieter *GitHub*
+gibt es die lokal zu installierende Software *GitLab*, um ein solches
+Repositorium in der eigenen IT-Infrastruktur bereitzustellen. Durch die im
+Protokoll integrierte Versionskontrolle der Daten lassen sich Änderungen im
+Code einfach nachvollziehen und ggf. zurückrollen. Kollaborative Arbeit in
 verteilten Teams wird z. B. über eine parallele Entwicklungsstruktur in
 "branches" ermöglicht, die mit dem Hauptprojekt zu einem gewünschten Zeitraum
 zusammengeführt werden können.  Bei diesem Funktionsumfang wird schnell klar,
 dass *Git* auch jenseits der forschungsnahen Dienste eine Vielzahl von
-Anwendungsmöglichkeiten hat. Hierfür sei auf das entsprechende Kapitel
-verwiesen.  Eine Möglichkeit, die Funktion der Software spielerisch zu
-erkunden, bietet beispielsweise die vom Bundesministerium für Bildung und
-Forschung geförderte Webseite [ohmygit.org](https://ohmygit.org).
+Anwendungsmöglichkeiten hat. Die Einbindung in eigene Services wird von
+@Cyra2022 am Beispiel der Landesinitiative FDM.NRW erläutert.  Eine
+Möglichkeit, die Funktion der Software spielerisch zu erkunden, bietet
+beispielsweise die vom Bundesministerium für Bildung und Forschung geförderte
+Webseite [ohmygit.org](https://ohmygit.org).
 
 [Forschungssoftware](#forschungssoftware) lässt sich, nicht nur wegen der
 Verwaltung mit Git oder ähnlichen Programmen, nicht einfach komplett analog zu
@@ -434,27 +435,24 @@ den Forschungsdaten behandeln, sondern bedarf eines genaueren Blicks.
 
 ## Forschungssoftware
 
-Bei der Betrachtung von Forschungsprozessen setzt sich zunehmend die
-Erkenntnis durch, dass auch die dabei zum Einsatz kommende Software ein
-Teil der Forschungsdaten ist. Dies ist häufig kein kommerziell
+Bei der Betrachtung von Forschungsprozessen setzt sich zunehmend die Erkenntnis
+durch, dass auch die dabei zum Einsatz kommende Software ein Teil der
+Forschungsdaten ist (@Grossmann2023). Dies ist häufig kein kommerziell
 erhältliches Produkt, sondern ein speziell auf das Forschungsproblem
-zugeschnittener, selbst programmierter Code. Wird derartige Software
-nicht korrekt gesichert, versioniert und dokumentiert, leidet die
-Reproduzierbarkeit von Forschungsdaten. Komplexe externe Probleme wie
-prekäre Beschäftigungsverhältnisse können zusätzlich zum Verwaisen von
+zugeschnittener, selbst programmierter Code. Wird derartige Software nicht
+korrekt gesichert, versioniert und dokumentiert, leidet die Reproduzierbarkeit
+von Forschungsdaten. Komplexe externe Probleme wie prekäre
+Beschäftigungsverhältnisse können zusätzlich zum Verwaisen von
 Softwareprojekten führen, wenn diese nur lokal durch einzelne engagierte
-Personen vorangetrieben wurden. Zusätzlich führt eine Veröffentlichung
-der Forschungssoftware zu einer Auffindbarkeit und Zitierbarkeit, sodass
-diese zum wissenschaftlichen Output der Forschenden einen
-signifikanten Beitrag leisten kann. Aus der Wissenschaft getriebene
-Vereinigungen wie *[de-RSE e. V.](https://de-rse.org/)*
-treten als Vereinszweck für den Stellenwert von Forschungssoftware ein.
-Auch die FAIR-Prinzipien sollten für Forschungssoftware Anwendung finden
-(vgl.
-[https://doi.org/10.1038/s41597-022-01710-x](https://doi.org/10.1038/s41597-022-01710-x)).
-Hier liegt es auch an den Bibliotheken, ein Bewusstsein dafür
-zu schaffen (z. B. durch dedizierte Policies) und
-die benötigte Infrastruktur bereitzustellen.
+Personen vorangetrieben wurden. Zusätzlich führt eine Veröffentlichung der
+Forschungssoftware zu einer Auffindbarkeit und Zitierbarkeit, sodass diese zum
+wissenschaftlichen Output der Forschenden einen signifikanten Beitrag leisten
+kann. Aus der Wissenschaft getriebene Vereinigungen wie *[de-RSE e.
+V.](https://de-rse.org/)* treten als Vereinszweck für den Stellenwert von
+Forschungssoftware ein.  Auch die FAIR-Prinzipien sollten für
+Forschungssoftware Anwendung finden (@Barker2022).  Hier liegt es auch an den
+Bibliotheken, ein Bewusstsein dafür zu schaffen (z. B. durch dedizierte
+Policies) und die benötigte Infrastruktur bereitzustellen.
 
 Zur Zitierbarkeit von Forschungssoftware/Code dient die Generierung von
 entsprechenden Metadaten, etwa über
@@ -587,7 +585,7 @@ in externen Suchmaschinen z. B. erst im *FIS* feststellen, dass nur bei einem
 Teil der Treffer tatsächlich Zugang zu den Ressourcen selbst besteht, sie in den
 meisten Fällen jedoch lediglich Nachweise der Ressourcen finden. In der Praxis
 sind *FIS*-Repositorien-Mischsysteme dennoch aufgrund von
-Ressourcenknappheit nicht wegzudenken.
+Ressourcenknappheit nicht wegzudenken (@Schirrwagen2022).
 
 Nichtsdestoweniger sind die Publikationsdaten ein wichtiger Bestandteil jedes
 *FIS*. Aus diesem Grund ist das *FIS* eine gute erste Anlaufstelle, um interne
@@ -962,17 +960,4 @@ Verlagerung von Ressourcen aus anderen Bereichen. Die Ausweitung des
 bibliothekarischen Serviceportfolios um forschungsnahe Dienste ist daher
 auch eine Frage der Organisations- und
 Personalentwicklung.
-
-**TODO:** So eine unkommentierte Liste von Literatur kann hier nicht stehen bleiben. Die Hinweise sollen in den Text zu entsprechenden Abschnitten!
-
-- @Konrad2020
-- @Stille2021
-- @BergWeiss2022
-- @Azeroual2021
-- @Schirrwagen2022
-- @DINI2022
-- @Grossmann2023 (Nachhaltige Forschungssoftware durch Software-Management-Pläne)
-- @Cyra2022 (zu git)
-- @Barker2022
-- @Putnings2021
 
