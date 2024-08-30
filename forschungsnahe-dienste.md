@@ -310,7 +310,7 @@ Umfrageergebnisse). Klar davon abzugrenzen sind
 
 :::
 
-![Darstellungen des Forschungsdaten-Lebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus}
+![Darstellungen des Forschungsdaten-Lebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus width=80%}
 
 Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt, wie in
 @fig-fis-fdm dargestellt, im Bereich Publikationen. Während sich allerdings
