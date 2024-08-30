@@ -57,15 +57,16 @@ verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` e
   Die Datenlaube: Projektlogo
   <https://commons.wikiorg/wiki/File:Die_Datenlaube.jpg>
   Public Domain
+- @fig-forschungsdatenlebenszyklus (`fd-lifecycle.svg`)
 - @fig-fis-fdm (`FIS_FDM_CC_BY_Mau.png`)
+- @fig-oais (`oais.png`) CC-BY Jørgen Stamp
 <!-- Sketchnote: Auf der Suche nach dem heiligen Gral - Forschungsinformationssysteme.
   <https://doi.org/10.5281/zenodo.4388855>
   CC-BY 4.0 [Franziska Mau](https://orcid.org/0000-0001-7701-0301)-->
-- @fig-forschungsdatenlebenszyklus (`fd-lifecycle.svg`)
 - @fig-stufenmodell (`stufenmodell.svg`)
   Stockmann, 2019
 - @fig-forschungsdatenlebenszyklus (`fd-lifecycle.svg`)
-
+- @fig-jobmap (`jobmap.svg`)
 - @fig-tools (`tools.svg`)
   CC-BY Ralf Stockmann.
   Quelle bearbeitbar unter <https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd>

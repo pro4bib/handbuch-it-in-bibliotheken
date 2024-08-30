@@ -310,7 +310,7 @@ Umfrageergebnisse). Klar davon abzugrenzen sind
 
 :::
 
-![Darstellungen des Forschungsdaten-Lebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus width=80%}
+![Darstellungen des Forschungsdaten-Lebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus width=50%}
 
 Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt, wie in
 @fig-fis-fdm dargestellt, im Bereich Publikationen. Während sich allerdings
@@ -319,7 +319,7 @@ beziehen, geht die Publikation von Forschungsdaten weit darüber hinaus und
 schließt alle Formen von Aufzeichnungen wie Notizen, Zwischenergebnisse
 und [Forschungssoftware](#forschungssoftware) mit ein.
 
-![Forschungsinformationen und ihre Sicht auf Forschungsdaten (CC-BY Franziska Mau)](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm}
+![Forschungsinformationen und ihre Sicht auf Forschungsdaten](media/FIS_FDM_CC_BY_Mau.png){#fig-fis-fdm width=95%}
 
 Services zum Forschungsdatenmanagement (*FDM*) sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
@@ -531,7 +531,7 @@ werden. Bei der Einführung eines *FIS* handelt es sich um ein langjähriges
 Organisationsentwicklungsprojekt, das eine Offenheit für Veränderungen
 in den Prozessen und Workflows der Einrichtung voraussetzt.
 
-![Herausforderungen beim Aufbau eines Forschungsinformationssystem (CC-BY Franziska Mau)](media/FIS_CC_BY_Mau.png)
+![Herausforderungen beim Aufbau eines Forschungsinformationssystem](media/FIS_CC_BY_Mau.png)
 
 Eine zentrale Herausforderung beim Aufbau eines *FIS* besteht darin, einen
 Überblick über die bestehenden Quellsysteme der Einrichtung zu gewinnen.
@@ -758,7 +758,7 @@ angesiedelt ist. Auch die *NFDI* behandelt "[Long-term Archival
 "Common Infrastructures"](https://www.nfdi.de/section-infra/) als
 Querschnittsthema.
 
-![Das als ISO 14721 verabschiedete Referenzmodell „Open Archival Information System” (OAIS), CC-BY Jørgen Stamp](media/oais.png)
+![Das als ISO 14721 verabschiedete Referenzmodell „Open Archival Information System” (OAIS)](media/oais.png){#fig-oais}
 
 ### Schnittstellen
 
