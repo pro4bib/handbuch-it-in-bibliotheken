@@ -1,5 +1,3 @@
-# Copy/rename this file to _quarto.yml.local to also create PDF!
-
 format:
   pdf:
     links-as-notes: true
@@ -21,3 +19,6 @@ format:
       - inner=2.5cm
       - outer=2cm
       - heightrounded
+    include-in-header:
+      - text: | 
+          \counterwithout{footnote}{chapter}
