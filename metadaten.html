@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -543,21 +577,34 @@ Info
 </section>
 <section id="feldbasierte-bibliothekarische-metadatenformate" class="level3" data-number="6.3.2">
 <h3 data-number="6.3.2" class="anchored" data-anchor-id="feldbasierte-bibliothekarische-metadatenformate"><span class="header-section-number">6.3.2</span> Feldbasierte bibliothekarische Metadatenformate</h3>
-<p><strong>Machine-Readable Cataloging (MARC)</strong> ist das älteste und noch immer wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für bibliografische Daten. Neben der binären Kodierung kann MARC 21 auch in XML und JSON kodiert werden. Viele Eigenheiten und Probleme des Formats sind historisch bedingt, eine Alternative konnte sich bislang nicht durchsetzen.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/marc21-example.svg" class="img-fluid figure-img"></p>
-<figcaption>Ein Datensatz im MARC 21 Format</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/marcxml-example.svg" class="img-fluid figure-img"></p>
-<figcaption>Der gleiche Datensatz in MARC-XML</figcaption>
-</figure>
-</div>
+<p><strong>Machine-Readable Cataloging (MARC)</strong> ist das älteste und noch immer wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für bibliografische Daten. Neben der binären Kodierung kann MARC 21 auch in XML (siehe <a href="#fig-marcxml" class="quarto-xref">Abbildung&nbsp;<span>6.2</span></a>) und JSON kodiert werden. Viele Eigenheiten und Probleme des Formats sind historisch bedingt, die Alternative BIBFAME konnte sich noch nicht durchsetzen.</p>
 <p><strong>PICA</strong> ist das von MARC inspirierte Datenformat der Katalogisierungssysteme <abbr title="Katalogdatenbank von OCLC, wird insbesondere für den Verbundkatalog K10plus verwendet">CBS</abbr> und <em>LBS</em> <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span>. Das wichtigste Anwendungsprofil ist das K10plus-Internformat.</p>
 <p><strong>MAB</strong> und <strong>allegro</strong> sind ebenfalls an MARC angelehnte, feldbasierte Formate aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet werden.</p>
+<div id="fig-marcxml" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-marcxml-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="sourceCode" id="fig-marcxml"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="fig-marcxml-1"><a href="#fig-marcxml-1" aria-hidden="true" tabindex="-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span>
+<span id="fig-marcxml-2"><a href="#fig-marcxml-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">record</span><span class="ot"> xmlns=</span><span class="st">"http://www.loc.gov/MARC21/slim"</span>&gt;</span>
+<span id="fig-marcxml-3"><a href="#fig-marcxml-3" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">leader</span>&gt; cam a22 4500&lt;/<span class="kw">leader</span>&gt;</span>
+<span id="fig-marcxml-4"><a href="#fig-marcxml-4" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">datafield</span><span class="ot"> tag=</span><span class="st">"245"</span><span class="ot"> ind1=</span><span class="st">"1"</span><span class="ot"> ind2=</span><span class="st">"0"</span>&gt;</span>
+<span id="fig-marcxml-5"><a href="#fig-marcxml-5" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"a"</span>&gt;Handbuch IT in Bibliotheken&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="fig-marcxml-6"><a href="#fig-marcxml-6" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">datafield</span>&gt;</span>
+<span id="fig-marcxml-7"><a href="#fig-marcxml-7" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">datafield</span><span class="ot"> tag=</span><span class="st">"540"</span><span class="ot"> ind1=</span><span class="st">" "</span><span class="ot"> ind2=</span><span class="st">" "</span>&gt;</span>
+<span id="fig-marcxml-8"><a href="#fig-marcxml-8" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"a"</span>&gt;Namensnennung 3.0 Deutschland&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="fig-marcxml-9"><a href="#fig-marcxml-9" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"f"</span>&gt;CC-BY 3.0 DE&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="fig-marcxml-10"><a href="#fig-marcxml-10" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"u"</span>&gt;https://creativecommons.org/licenses/by/3.0/de/&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="fig-marcxml-11"><a href="#fig-marcxml-11" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">datafield</span>&gt;</span>
+<span id="fig-marcxml-12"><a href="#fig-marcxml-12" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">datafield</span><span class="ot"> tag=</span><span class="st">"856"</span><span class="ot"> ind1=</span><span class="st">"4"</span><span class="ot"> ind2=</span><span class="st">"0"</span>&gt;</span>
+<span id="fig-marcxml-13"><a href="#fig-marcxml-13" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"u"</span>&gt;https://it-in-bibliotheken.de/&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="fig-marcxml-14"><a href="#fig-marcxml-14" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"z"</span>&gt;kostenfrei&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="fig-marcxml-15"><a href="#fig-marcxml-15" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">datafield</span>&gt;</span>
+<span id="fig-marcxml-16"><a href="#fig-marcxml-16" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">record</span>&gt;</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-marcxml-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6.2: Ein gekürzter Beispieldatensatz in MARC-XML
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="xml-basierte-datenformate" class="level3" data-number="6.3.3">
 <h3 data-number="6.3.3" class="anchored" data-anchor-id="xml-basierte-datenformate"><span class="header-section-number">6.3.3</span> XML-basierte Datenformate</h3>
@@ -586,6 +633,40 @@ Definition
 <p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliografischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
 <p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen.</p>
 <p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
+<div id="fig-bibframe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bibframe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<pre id="fig-bibframe" class="ttl"><code>@prefix bf: &lt;http://id.loc.gov/ontologies/bibframe/&gt; .
+@prefix bflc: &lt;http://id.loc.gov/ontologies/bflc/&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+&lt;http://uri.gbv.de/document/opac-de-627:ppn:1805728520&gt;
+  a bf:Electronic, bf:Instance ;
+  bf:usageAndAccessPolicy [
+    a bf:UsePolicy ;
+    rdfs:label
+      "Namensnennung 3.0 Deutschland",
+      "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI
+  ] ;
+  bf:instanceOf &lt;http://www.wikidata.org/entity/Q115625546&gt; ;
+  bf:hasItem [
+    a bf:Item ;
+    bf:electronicLocator [
+      bflc:locator &lt;https://it-in-bibliotheken.de/&gt; ;
+      bf:note [ a bf:Note ; rdfs:label "kostenfrei" ]
+    ]
+  ] .
+
+&lt;http://www.wikidata.org/entity/Q115625546&gt;
+  a bf:Text, bf:Work ;
+  bf:title [ a bf:Title ; bf:mainTitle "Handbuch IT in Bibliotheken" ] .</code></pre>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bibframe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6.3: Der Inhalt des Datensatz <a href="#fig-marcxml" class="quarto-xref">Abbildung&nbsp;<span>6.2</span></a> in RDF-Serialisierung Turtle ausgedrückt mit der BIBFRAME-Ontologie und URIs aus K10plus und Wikidata.
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="verlagsdaten-und-literaturangaben" class="level3" data-number="6.3.5">
 <h3 data-number="6.3.5" class="anchored" data-anchor-id="verlagsdaten-und-literaturangaben"><span class="header-section-number">6.3.5</span> Verlagsdaten und Literaturangaben</h3>
@@ -617,14 +698,14 @@ Info
 </section>
 <section id="etl-prozess" class="level3" data-number="6.4.2">
 <h3 data-number="6.4.2" class="anchored" data-anchor-id="etl-prozess"><span class="header-section-number">6.4.2</span> ETL-Prozess</h3>
-<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein <a href="./discovery.html">Discovery-System</a> beschrieben. <a href="#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>6.2</span></a> illustriert den generellen ETL-Prozess.</p>
+<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein <a href="./discovery.html">Discovery-System</a> beschrieben. <a href="#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>6.4</span></a> illustriert den generellen ETL-Prozess.</p>
 <div id="fig-etl" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-etl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="media/etl-prozess.svg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-etl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;6.2: Allgemeiner Ablauf eines ETL-Prozesses
+Abbildung&nbsp;6.4: Allgemeiner Ablauf eines ETL-Prozesses
 </figcaption>
 </figure>
 </div>
