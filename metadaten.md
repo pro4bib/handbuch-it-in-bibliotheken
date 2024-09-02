@@ -570,7 +570,7 @@ Daten aus verschiedenen Quellsystemen liegen zumeist in unterschiedlichen
 Formaten mit unterschiedlichen Datenmodellen vor. Neben Unterschieden in der
 Syntax können gleiche Sachverhalte auch auf semantischer Ebene unterschiedlich
 beschrieben sein, da die Daten mitunter für abweichende Anwendungsfälle erfasst
-wurden. So müssen beispielsweise in einem [Discovery-System](discovery.md) Metadaten zur
+wurden. So müssen beispielsweise in einem Discovery-System (@sec-discovery) Metadaten zur
 einfachen Beschreibung so aufbereitet werden, dass sie auch erweiterte
 Suchstrategien unterstützen.
 
