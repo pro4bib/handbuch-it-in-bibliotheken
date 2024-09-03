@@ -2,7 +2,7 @@
 description: Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
 ---
 
-# Digitalisierung {#digitalisierung}
+# Digitalisierung {#sec-digitalisierung}
 
 :::{.callout-note title="Zusammenfassung"}
 
@@ -253,7 +253,7 @@ Teststellung, bei der diese unter Realbedingungen erprobt werden können.
 #### Erschließen von Metadaten
 
 Erschließen bedeutet das Zusammentragen von allen verfügbaren Informationen zu
-einem Objekt und die Codierung in Form von [Metadaten](metadaten.md).  Im
+einem Objekt und die Codierung in Form von Metadaten (siehe @sec-metadaten). Im
 Kontext der Digitalisierung sind drei [Arten von Metadaten](#arten-von-metadaten) besonders relevant:
 
 -   **Administrative Metadaten** mit Informationen zu Herkunft,
@@ -578,7 +578,7 @@ bibliothekarischen Erschließungs- und Präsentationskomponenten ergänzen:
     Die Erschließung kann bis zur Details von Bildpositionen reichen.
     Die Illustrationen dieses Handbuchs sind in Wikimedia Commons
     [in einer Medienkategorie](https://commons.wikimedia.org/wiki/Category:Handbuch_IT_in_Bibliotheken)
-    gebündelt (siehe [Abbildungsverzeichnis](abbildungen.md)).
+    gebündelt (siehe Abbildungsverzeichnis im @sec-abbildungen).
 
 -   Mit der offenen Wissensdatenbank (Knowledge Graph) **Wikidata** können
     insbesondere Metadaten strukturiert und damit maschinenlesbar

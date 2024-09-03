@@ -2,7 +2,7 @@
 description: Dienste wie Repositorien und Forschungsdatenmanagement zur Unterstützung von Forschungsprozessen
 ---
 
-# Forschungsnahe Dienste {#forschungsnahe-dienste}
+# Forschungsnahe Dienste {#sec-forschungsnahe-dienste}
 
 ::: {.callout-note title="Zusammenfassung"}
 
@@ -126,8 +126,7 @@ auch die entsprechende *[Publikation der Initiative Knowledge
 Exchange](https://doi.org/10.21428/996e2e37.3ebdc864)*. Hier können
 Bibliotheken ebenso in die Rolle des\*der Dienstleistenden treten, Instanzen
 geeigneter Open-Source-Software hosten und diese Entwicklung unterstützen. Dies
-kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken (Link
-zu entsprechendem Kapitel) betrachtet werden. Ergänzend gibt es zahlreiche
+kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken (siehe @sec-kommunikation) betrachtet werden. Ergänzend gibt es zahlreiche
 weitere Dienste, die das Open-Access-Publizieren vor allem administrativ
 unterstützen, von denen im Folgenden einige kurz erläutert werden.
 
@@ -655,9 +654,8 @@ Quellen einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 ### Metadaten
 
 Metadaten sind Daten struktureller, technischer, administrativer,
-bibliografischer und deskriptiver Natur, die Daten beschreiben (siehe [Kapitel
-Daten & Metadaten](metadaten.md)). [Metadatenstandards und
--schemas](#metadatenstandards) definieren, welche Inhalte in Metadaten erfasst
+bibliografischer und deskriptiver Natur, die Daten beschreiben (siehe @sec-metadaten). 
+[Metadatenstandards und -schemas](#metadatenstandards) definieren, welche Inhalte in Metadaten erfasst
 werden, also welche Metadatenfelder existieren und mit Werten belegt werden
 können. Ein sehr einfaches Metadatenschema bilden die [Dublin Core
 Element](https://www.dublincore.org/specifications/dublin-core/usageguide/elements/)
@@ -760,8 +758,7 @@ Querschnittsthema.
 
 ### Schnittstellen
 
-Einen allgemeinen Überblick zu Schnittstellen liefert das [Kapitel
-Metadaten](metadaten.md#Schnittstellen). Im Folgenden gehen wir etwas
+Einen allgemeinen Überblick zu Schnittstellen liefert das @sec-metadaten. Im Folgenden gehen wir etwas
 ausführlicher auf die wichtigsten Schnittstellen im Kontext forschungsnaher
 Dienste ein.
 
@@ -947,7 +944,7 @@ kein zusätzliches Personal bzw. keine eigene Infrastruktur einplanen muss.
 Beispiele hierfür sind der Repository-Service
 *[Reposis](https://www.gbv.de/informationen/Verbundzentrale/serviceangebote/reposis-repository-service)*
 des GBV oder das Langzeitarchiv
-*[Ewig](https://ewig.zib.de/)* des KOBV. Die Frage nach der Umsetzung von Diensten mit externer Hilfe allgemein im [Kapitel IT-Management](management.md) behandelt.
+*[Ewig](https://ewig.zib.de/)* des KOBV. Die Frage nach der Umsetzung von Diensten mit externer Hilfe allgemein im @sec-management behandelt.
 
 Wie das vorliegende Kapitel gezeigt hat, umfassen diese
 Services auch eine Vielzahl an IT-Diensten, so z. B.

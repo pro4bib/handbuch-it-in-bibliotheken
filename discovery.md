@@ -40,7 +40,7 @@ Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter
 wie Verbundzentralen, Hersteller\*innen und kommerzielle Dienstleister\*innen betrieben
 werden. Die Hersteller\*innen kommerzieller Bibliotheksmanagementsysteme der neueren
 Generation bieten Discovery-Systeme an, die besonders gut mit dem
-[BMS](bibliotheksmanagementsysteme.md) der gleichen Hersteller\*innen
+BMS (siehe @sec-bibliotheksmanagementsysteme) der gleichen Hersteller\*innen
 zusammenarbeiten.
 
 Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
@@ -474,7 +474,7 @@ angesprochen werden sollen. Generell kann davon ausgegangen werden, dass auf
 die initiale Implementierung eines Discovery-Systems eine längere, oft
 mehrjährige Phase der Optimierung folgt, die idealerweise konsequent auf die
 Usability und User Experience der Hauptzielgruppen ausgerichtet ist (vgl.
-Kapitel [Anforderungen an die IT-Entwicklung](anforderungen.md)).
+@sec-anforderungen).
 
 Die grundsätzliche Entscheidung für ein Discovery-System beinhaltet auch einen
 Wechsel der Suchparadigmen. Die Einführung eines Discovery-Systems kann nur
@@ -492,7 +492,7 @@ Aussagen zur Verantwortung für Betriebssicherheit und Verfügbarkeit.
 ### Monitoring und Weiterentwicklung
 
 Wie jedes IT-System brauchen Discovery-Systeme kontinuierliches technisches
-Monitoring (vgl. [Kapitel Management von IT-Diensten](management.md)), ebenso
+Monitoring (vgl. @sec-management), ebenso
 wie konzeptionelle Betreuung. Anders als der klassische Bibliothekskatalog sind
 Discovery-Systeme angetreten, um sich konsequent nach dem Informationsverhalten
 der Nutzer\*innen auszurichten. Daraus ergibt sich, dass sowohl die
@@ -603,7 +603,7 @@ sollten.
 
 Discovery-Systeme kommen den Erwartungen von Benutzer*innen an das Suchen und
 die Erreichbarkeit von Medien entgegen. Insbesondere Bibliotheken, die kein
-[Bibliotheksmanagement-System](bibliotheksmanagementsysteme.md) verwenden, das
+Bibliotheksmanagement-System (siehe @sec-bibliotheksmanagementsysteme) verwenden, das
 bereits eine Discovery-Oberfläche enthält, müssen sich daher oft und mit hoher
 Priorität damit auseinandersetzen, wie Informationen über den eigenen Bestand
 durch ein Discovery-System besser zugänglich gemacht werden. Dies eröffnet

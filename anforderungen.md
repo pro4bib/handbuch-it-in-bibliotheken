@@ -11,7 +11,7 @@ Dieses Kapitel behandelt die Anforderungsanalyse als Kernbestandteil des Entwick
 
 ## Einleitung
 
-Im Kapitel [Management von IT-Systemen](#management)
+Im Kapitel IT-Management (@sec-management)
 wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
 Anforderungen sowie den permanenten Anpassungsbedarf an Systeme
 im Laufe ihrer Lebenszeit eingegangen.

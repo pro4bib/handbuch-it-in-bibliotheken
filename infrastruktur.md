@@ -15,9 +15,9 @@ Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibl
 Die technische Infrastruktur einer Bibliothek umfasst alle IT-Systeme, die die
 Prozesse und Dienstleistungen einer Bibliothek abbilden, unterstützen oder
 ergänzen. Neben dem zentralen
-[Bibliotheksmanagementsystem](#bibliotheksmanagementsysteme) (BMS) (auf Englisch auch LMS genannt) zur Verwaltung und
+Bibliotheksmanagementsystem (siehe @sec-bibliotheksmanagementsysteme) (BMS) (auf Englisch auch LMS genannt) zur Verwaltung und
 Bereitstellung von Bibliotheksbeständen und
-[Discovery-Systemen](discovery.md) zur Recherche, gibt es zahlreiche
+Discovery-Systemen (siehe @sec-discovery) zur Recherche, gibt es zahlreiche
 weitere etablierte Anwendungen von IT in Bibliotheken. Die in diesem Kapitel
 vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in:
 
@@ -36,7 +36,7 @@ Infrastruktur zur [Digitalisierung](#digitalisierung) sowie Anwendungen für
 
 :::{.callout-tip}
 ## Info
-Zu [Einführung und Betrieb](management.md) und zur [Entwicklung samt Anforderungsanalyse](anforderungen.md)
+Zu Einführung und Betrieb (siehe @sec-management) und zur Entwicklung samt Anforderungsanalyse (siehe @sec-anforderungen)
 von IT-Systemen gibt es eigene Kapitel.
 :::
 
@@ -920,7 +920,7 @@ insofern immer teurer.
 Eine Internetpräsenz ist für eine öffentliche Einrichtung mittlerweile
 unabdingbar und dient vielen Nutzer\*innen als Erstkontaktmöglichkeit,
 Arbeitsmittel und Informationsplattform gleichermaßen. Die Infrastruktur
-hierfür wird im Kapitel [Kommunikation](#kommunikation) genauer behandelt.
+hierfür wird im @sec-kommunikation genauer behandelt.
 
 ### Internetzugang
 
@@ -1179,15 +1179,14 @@ Die folgenden IT-Dienstleistungen dienen der Unterstützung der täglichen
 Arbeit, insbesondere im Hinblick auf verteilte Arbeitsumgebungen und
 mobiles Arbeiten. In vielen Fällen werden sie von der übergeordneten
 Einrichtung einer Bibliothek bereitgestellt. Neben dem Zugang zu Arbeitsmitteln
-dienen die Dienste vor allem der internen [Kommunikation und dem Wissenmanagement](kommunikation.md).
+dienen die Dienste vor allem der internen Kommunikation und dem Wissenmanagement (siehe @sec-kommunikation).
 
 ::: {.callout-tip}
 ## Info
 
 **Wissensmanagement** besteht aus [Prozessen](#wissensmanagement) zur Erfassung
 und Weitergabe von Wissen innerhalb einer Organisation, das oft nur implizit in
-den Köpfen der Mitarbeitenden vorliegt. Werkzeuge hierfür werden im Kapitel
-[Kommunikation](#kommunikation) vorgestellt.
+den Köpfen der Mitarbeitenden vorliegt. Werkzeuge hierfür werden im @sec-kommunikation vorgestellt.
 
 :::
 
@@ -1224,7 +1223,7 @@ aus dem Homeoffice zugreifbar.
 
 ### Werkzeuge zur Kommunikation
 
-Wie im [Kapitel zur Kommunikation](kommunikation.md#kommunikation) beschrieben,
+Wie im @sec-kommunikation beschrieben,
 gibt es verschiedene Werkzeuge zur synchronen und asynchronen Kommunikation von
 Telefon über E-Mail und Chats bis zu Videokonferenzsystemen.
 Neben der reinen Kommunikation dienen Werkzeuge wie Wikis und
@@ -1280,8 +1279,8 @@ Allgemeinen kein Archiv.
 
 Als Kombination des klassischen Intranets mit sozialen und kommunikativen
 Funktionen ermöglicht ein Social Intranet den Mitarbeitenden so den einfachen
-Austausch von Informationen und Ideen und wird genauer im [Kapitel zur
-Kommunikation](kommunikation.md) beschrieben.
+Austausch von Informationen und Ideen und wird genauer im Kapitel zur
+Kommunikation (@sec-kommunikation) beschrieben.
 
 ### Planungs- und Koordinationstools
 
@@ -1295,7 +1294,7 @@ regelbasierten (z.T. automatischen) Abarbeitung von Anfragen,
 Wünschen, Fehlermeldungen von Nutzenden. Diese Systeme können für
 alle anfallenden Aufgaben innerhalb der Bibliothek verwendet
 werden, z. B. in der
-[Softwareentwicklung](anforderungen.md)
+Softwareentwicklung (siehe @sec-anforderungen)
 bei der Bearbeitung von Kundenanfragen oder internen Prozessen.
 
 Ein Vorteil ist die transparente Bearbeitung von Vorgängen, da sowohl der Status

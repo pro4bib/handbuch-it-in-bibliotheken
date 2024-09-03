@@ -52,27 +52,27 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
  
 ### Allgemeine technische Grundlagen
  
-- [Technische Infrastruktur](infrastruktur.md) beschreibt grundlegende technischen Einrichtungen einer Bibliothek für den Betrieb von Prozessen und Dienstleistungen
+- **Technische Infrastruktur** (siehe @sec-infrastruktur) beschreibt grundlegende technischen Einrichtungen einer Bibliothek für den Betrieb von Prozessen und Dienstleistungen
  
-- [Management von IT-Systemen](management.md) beinhaltet die Einführung und den Betrieb von IT-Systemen allgemein
+- **Management von IT-Systemen** (siehe @sec-management) beinhaltet die Einführung und den Betrieb von IT-Systemen allgemein
 
-- @sec-anforderungen zur Anforderungsanalyse umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
+- **Anforderungsanalyse** (siehe @sec-anforderungen) zur Anforderungsanalyse umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
-- [Sicherheit & Datenschutz](sicherheit.md) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
+- **Sicherheit & Datenschutz** (siehe @sec-sicherheit) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
  
-- [Daten & Metadaten](metadaten.md) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
+- **Daten & Metadaten** (siehe @sec-metadaten) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
  
 ### Bibliotheksspezifische Dienste
  
-- [Bibliotheksmanagementsysteme](bibliotheksmanagementsysteme.md) sind spezialisierte Anwendungen für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
+- **Bibliotheksmanagementsysteme** (siehe @sec-bibliotheksmanagementsysteme) sind spezialisierte Anwendungen für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
  
-- [Discovery-Systeme](discovery.md) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
+- **Discovery-Systeme** (siehe @sec-discovery) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
  
-- [Digitalisierung](digitalisierung.md) umfasst Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
+- **Digitalisierung** (siehe @sec-digitalisierung) umfasst Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
  
-- [Forschungsnahe Dienste](forschungsnahe-dienste.md) beschreibt Dienste wie Repositorien und Forschungsdatenmanagement zur Unterstützung von Forschungsprozessen
+- **Forschungsnahe Dienste** (siehe @sec-forschungsnahe-dienste) beschreibt Dienste wie Repositorien und Forschungsdatenmanagement zur Unterstützung von Forschungsprozessen
  
-- [Kommunikation](kommunikation.md) beinhaltet Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
+- **Kommunikation** (siehe @sec-kommunikation) beinhaltet Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
 
 ## Entstehungsgeschichte
 
@@ -92,7 +92,7 @@ Eine Liste aller Beteiligten Autor\*innen findet sich im Anhang @sec-contributor
 
 ## Rechte an den Inhalten {#lizenz}
 
-Alle Inhalte dieses Buches werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden (siehe [Abbildungsverzeichnis](abbildungen.md)).
+Alle Inhalte dieses Buches werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden (siehe Abbildungsverzeichnis, @sec-abbildungen).
 
 Das heißt: Sie dürfen das Material in jedwedem Format oder Medium
 vervielfältigen und weiterverbreiten (**Teilen**) und das Material remixen,

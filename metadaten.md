@@ -22,13 +22,9 @@ Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten ...)
 nachgewiesen. Zur Verwaltung der Ressourcen werden diese mit
 **Metadaten** beschrieben. Neben diesen Metadaten enthalten bibliothekarische
 Informationssysteme zunehmend auch die dazugehörigen **digitalen Inhalte**
-wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe Kapitel
-[Digitalisierung] und [Forschungsnahe Dienste]). Viele der im Folgenden
+wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe @sec-digitalisierung und @sec-forschungsnahe-dienste). Viele der im Folgenden
 beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten
 gelten sowohl für Metadaten als auch für digitale Inhalte.
-
-[Digitalisierung]: digitalisierung.md
-[Forschungsnahe Dienste]: forschungsnahe-dienste.md
 
 ## Grundlegende Begrifflichkeiten
 
@@ -295,8 +291,8 @@ Neben allgemeinen [Datenformaten](#datenformate) sind für die Bibliotheks-IT
 vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die
 meisten der im Folgenden beschriebenen Metadatenformate spielen außerhalb von
 Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (*METS/MODS*,
-*LIDO*, *CDWA*, *EN 15907*, *EAD* ..., siehe Kapitel [Digitalisierung]) und für
-Forschungsdaten (DataCite, siehe Kapitel [Forschungsnahe Dienste]) gibt es
+*LIDO*, *CDWA*, *EN 15907*, *EAD* ..., siehe @sec-digitalisierung) und für
+Forschungsdaten (DataCite, siehe @sec-forschungsnahe-dienste) gibt es
 darüber hinaus spezielle Formate.
 
 ### Arten von Metadaten
@@ -364,7 +360,7 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 
 ### XML-basierte Datenformate
 
-**METS** und **MODS** sind zwei zusammen im Bereich [Digitalisierung](digitalisierung.md)
+**METS** und **MODS** sind zwei zusammen im Bereich Digitalisierung (siehe @sec-digitalisierung)
   eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische
   Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung
   von Objekten, wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.
@@ -373,7 +369,7 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 
 **LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
 
-**DataCite** ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe Kapitel [Forschungsnahe Dienste](forschungsnahe-dienste.md)).
+**DataCite** ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe @sec-forschungsnahe-dienste).
 
 ### Datenmodelle und Ontologien
 
@@ -518,7 +514,7 @@ verbindet, wird als **ETL-Prozess** bezeichnet. Der Prozess aus drei zentralen
 Schritten "Extract", "Transform" und "Load" stammt ursprünglich aus dem Bereich
 des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im
 Folgenden wird er am Beispiel der Integration von Metadaten in ein
-[Discovery-System](discovery.md) beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
+Discovery-System (siehe @sec-discovery) beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
 
 ![Allgemeiner Ablauf eines ETL-Prozesses](media/etl-prozess.svg){#fig-etl}
 
@@ -617,7 +613,7 @@ gerät.
 
 Auf die Transformation folgt beim **Laden** (Load) die Überführung der
 vereinheitlichten Daten in das Zielsystem – beispielsweise in den Suchindex
-eines [Discovery-Systems](discovery.md). Dabei dürfen nur Datensätze in Produktivsysteme
+eines Discovery-Systems (siehe @sec-discovery). Dabei dürfen nur Datensätze in Produktivsysteme
 übernommen werden, die den Transformationsschritt erfolgreich durchlaufen
 haben, während für Test- und Entwicklungssysteme andere Regeln möglich sind.
 
@@ -766,7 +762,7 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
 
 Darüber hinaus bieten die meisten Anwendungen eigene, meist interne
 Schnittstellen, zum Beispiel die Solr-API der Suchplattform *Apache Solr*.
-Besonders im Bereich [Forschungsnaher Dienste](forschungsnahe-dienste.md) gibt
+Besonders im Bereich forschungsnaher Dienste (siehe @sec-forschungsnahe-dienste) gibt
 es weitere, spezialisierte Schnittstellen.
 
 ### Datenanalyse
@@ -821,7 +817,7 @@ Für die bibliothekarische Datenverarbeitung lassen sich grob zwei Arten von
 KI-Anwendungen unterscheiden:
 
 - Verfahren zur Analyse und Anreicherung von Daten, beispielsweise die
-  automatische Erschließung und Musterkennung im Rahmen der [Digitalisierung](digitalisierung.md).
+  automatische Erschließung und Musterkennung im Rahmen der Digitalisierung (siehe @sec-digitalisierung).
 
 - Systeme, die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen,
   von einfachen Chatbots bis zu umfangreichen Sprachmodellen wie ChatGPT.

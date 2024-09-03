@@ -2,7 +2,7 @@
 description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen in Bibliotheken
 ---
 
-# IT-Management {#management}
+# IT-Management {#sec-management}
 
 ::: {.callout-note}
 ## Zusammenfassung
@@ -24,10 +24,10 @@ und ein [organisatorischer Rahmen](#organisation) für die [Digitale
 Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung). Treiber der jüngsten Entwicklung im IT-Bereich
-wissenschaftlicher Bibliotheken sind Themen wie [Digitalisierung](digitalisierung.md)
-und [forschungsnahe Dienste](forschungsnahe-dienste.md) während das Management von
-[Bibliotheksmanagementsystemen](bibliotheksmanagementsysteme.md) und 
-[Discovery-Systemen](discovery.md) weitgehend etabliert sind.
+wissenschaftlicher Bibliotheken sind Themen wie Digitalisierung (siehe @sec-digitalisierung)
+und forschungsnahe Dienste (siehe @sec-forschungsnahe-dienste) während das Management von
+Bibliotheksmanagementsystemen (siehe @sec-bibliotheksmanagementsysteme) und 
+Discovery-Systemen (siehe @sec-discovery) weitgehend etabliert sind.
 
 ## Lebenszyklus von IT-Systemen {#it-lebenszyklus}
 
@@ -221,7 +221,7 @@ der Offenheit und Zusammenarbeit:
 ## Betriebsmodelle
 
 Insbesondere serverbasierte Software, wie zum Beispiel das
-[Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md), kann auf
+Bibliotheksmanagementsystem (siehe @sec-bibliotheksmanagementsysteme), kann auf
 verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich
 bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support.
 Die Wahl eines Betriebsmodells ist nicht nur eine betriebswirtschaftliche
@@ -294,7 +294,7 @@ Digitale Souveränität bedeutet die selbstbestimmte Gestaltung und Kontrolle
 nachhaltige und nutzerzentrierte Services gewährleisten zu können.
 
 Sie bietet Bibliotheken die Möglichkeit, sowohl ihren Service als auch ihre
-interne und externe [Kommunikation](kommunikation.md) auf eine nachhaltige,
+interne und externe Kommunikation (@sec-kommunikation) auf eine nachhaltige,
 unabhängige und innovative Weise zu gestalten und weiterzuentwickeln, während
 gleichzeitig die Prinzipien der Offenheit und Gemeinschaftlichkeit im Umgang
 mit Wissen und Technologie gefördert werden.

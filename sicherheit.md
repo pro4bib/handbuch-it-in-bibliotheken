@@ -141,7 +141,7 @@ durchaus auch hilfreich sein, wenn die Systeme nicht mehr ausschließlich im
 eigenen Rechenzentrum betrieben werden. So können die extern betriebenen
 Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüften
 und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel
-sei hier das [Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.md)
+sei hier das Bibliotheksmanagementsystem (siehe @sec-bibliotheksmanagementsysteme)
 genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel
 vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah
 ermöglicht werden können.

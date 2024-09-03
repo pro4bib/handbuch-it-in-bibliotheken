@@ -2,7 +2,7 @@
 description: Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanagementsystemen (BMS) von Beschaffung bis Betrieb
 ---
 
-# Bibliotheksmanagementsysteme {#bibliotheksmanagementsysteme}
+# Bibliotheksmanagementsysteme {#sec-bibliotheksmanagementsysteme}
 
 :::{.callout-note}
 ## Zusammenfassung
@@ -683,7 +683,7 @@ Metadaten zu beschreiben, so umfasst in anderen Fällen die Erschließung
 von Publikationen auch Dokumentstrukturen und inhaltliche Bestandteile
 wie z.B. einzelne Abbildungen.
 
-$\Rightarrow$ *Das Kapitel [Digitalisierung](digitalisierung.md) geht ausführlicher auf digitale Inhalte ein.*
+$\Rightarrow$ *Das @sec-digitalisierung geht ausführlicher auf digitale Inhalte ein.*
 
 
 ### Datenformate und Schnittstellen
@@ -1161,13 +1161,13 @@ Nutzer\*innen zur Verfügung zu stellen:
 2.  Katalog als separates Modul (nicht Bestandteil des BMS), selbst
     entwickelt, zugekauft oder als Open Source
 
-3.  [Discovery-Systems](discovery.md) als Bestandteil des BMS: Daten aus dem eigenen
+3.  Discovery-System (siehe @sec-discovery) als Bestandteil des BMS: Daten aus dem eigenen
     Bestand sowie Fremddaten, die als Metadaten zur Verfügung stehen.
     Eine Herausforderung besteht hierbei darin dass sich Anforderungen
     an die Suchoberfläche relativ schnell ändern, so dass die BMS-eigene
     Suchoberfläche nicht leicht auf dem neuesten Stand erscheint.
 
-4.  Discoverysystem als zugekauftes Modul eines anderen Herstellers oder
+4.  Discovery-System als zugekauftes Modul eines anderen Herstellers oder
     als Eigenbau mit zugekauften Metadaten oder als Open Source mit
     offenen Daten oder zugekauften Metadaten. Eine Herausforderung hierbei
     besteht darin, die im BMS gehosteten Informationen, zum Beispiel über
@@ -1695,7 +1695,7 @@ Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
     aktuellen Stand ist, sowohl auf den Arbeitsplatz-PCs als auch den
     Servern.
 
-Allgemein gelten die im Kapitel [Sicherheit & Datenschutz](sicherheit.md)
+Allgemein gelten die im @sec-sicherheit
 beschriebenen Richtlinien, Maßnahmen und Empfehlungen sowie der Grundsatz:
 "Bleiben Sie wachsam, in Bezug auf ungewöhnliche Ereignisse auf Ihren
 IT-Systemen".
