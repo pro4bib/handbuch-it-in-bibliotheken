@@ -295,7 +295,7 @@ Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (*METS/MODS*,
 Forschungsdaten (DataCite, siehe @sec-forschungsnahe-dienste) gibt es
 darüber hinaus spezielle Formate.
 
-### Arten von Metadaten
+### Arten von Metadaten {#sec-arten-von-metadaten}
 
 Folgende Arten von Metadaten können nach ihrer Funktion unterschieden werden:
 
