@@ -655,7 +655,7 @@ Metadaten auch als Open Data zur Verfügung gestellt.
 ### Verwaltungsdaten
 
 Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb der
-Bibliothek (siehe [Prozessabbildung](#prozessabbildung)). Diese Daten sind zum
+Bibliothek (siehe Abschnitt [Prozessabbildung](#prozessabbildung)). Diese Daten sind zum
 größten Teil nicht öffentlich und müssen insbesondere im Falle von Daten von
 Nutzer\*innen im Rahmen des [Datenschutzes](#datenschutz) vertraulich behandelt
 werden.
@@ -825,10 +825,10 @@ Ein Entscheidungsprozess umfasst typischerweise folgende Schritte:
 ### Auswahlkriterien eines BMS
 
 Es kann davon ausgegangen werden, dass die aktuell am Markt verfügbaren
-Systeme die klassischen Geschäftsgänge (siehe Kapitel
+Systeme die klassischen Geschäftsgänge (siehe Abschnitt 
 [Prozessabbildung](#prozessabbildung)) einer Bibliothek
-gut abbilden können. Die Anforderungen aus dem Kapitel
-Nutzer\*innenzentrierte Gestaltung gelten grundsätzlich natürlich auch
+gut abbilden können. Die Anforderungen aus dem Abschnitt
+[Nutzer\*innenorientierte Gestaltung](#sec-nutzerinnenorientierte-gestaltung) gelten grundsätzlich natürlich auch
 hier.
 
 Die Betrachtung einzelner Systeme einschließlich der Nutzungsszenarien
@@ -853,7 +853,7 @@ zu überprüfen, die strategisch von besonderer Bedeutung sind.
 
 Da es sich bei BMS um relativ spezialisierte Software handelt und in den
 letzten Jahren einige Produkte aufgekauft oder eingestellt wurden, ist
-der Markt sehr überschaubar (siehe Kapitel [aktuell relevanten BMS](#aktuell-relevante-software-produkte)).
+der Markt sehr überschaubar (siehe @tbl-aktuelle-sw-produkte).
 
 Neben der Wahl konkreter Produkte gibt es grundsätzlich drei
 Möglichkeiten:
@@ -1353,8 +1353,7 @@ auszutauschen. Diese Austauschprozesse betreffen folgende Szenarien
 
 2.  Anbindung an Buchhaltungssysteme wie SAP oder HIS Haushalt-ERP
 
-3.  Anbindung an Tools für statistische Auswertungen (s.a. [Kapitel
-    Statistik](#statistik))
+3.  Anbindung an Tools für statistische Auswertungen (s.a. Abschnitt [Statistik](#statistik))
 
 4.  Bereitstellung von bibliografischen Daten
 
@@ -1362,8 +1361,7 @@ auszutauschen. Diese Austauschprozesse betreffen folgende Szenarien
 
 6.  Schnittstellen zu Kataloganreicherungsdiensten (Buchcover)
 
-7.  Schnittstellen zu IDM-Systemen (s.a. [Kapitel
-    IDM](#identity-management))
+7.  Schnittstellen zu IDM-Systemen (s.a. Abschnitt [IDM](#identity-management))
 
 8.  Schnittstellen zu einschlägigen Plattformen der jeweiligen
     Zielgruppen, zum Beispiel Lernmanagementsysteme
@@ -1465,11 +1463,13 @@ abgefragt werden müssen.
 
 Datenschutzbezogene Vorgehensweisen z. B. in Bezug auf personenbezogene
 und personenbeziehbare Daten von Nutzer\*innen finden sich in Abschnitt
-[Datenschutz](#datenschutz) im Kapitel zum technischen Betrieb eines BMS.
+[Datenschutz](#datenschutz) im Abschnitt zum 
+[technischen Betrieb eines BMS](#sec-technischer-betrieb).
+
 
 #### Bezahlsysteme
 
-Online-Payment, Kassensysteme/-automaten (siehe auch Kapitel
+Online-Payment, Kassensysteme/-automaten (siehe auch Abschnitt 
 [Kassenautomat](#kassenautomat))
 
 #### E-Rechnung
@@ -1533,7 +1533,7 @@ Diese Systeme können automatisiert oder manuell
 [COUNTER](https://www.projectcounter.org/counter-sushi/)-Reports
 für statistische Daten zur Nutzung digitaler Medien importieren.
 
-## Technischer Betrieb
+## Technischer Betrieb {#sec-technischer-betrieb}
 
 Der technische Betrieb eines BMS variiert je nach
 [Betriebsmodell](management.md#betriebsmodelle) (lokale Installation, gehostete
@@ -1739,7 +1739,7 @@ einer Testinstanz des BMS.
 ### Zusammenspiel Hard- und Software
 
 Das BMS steht in der IT-Landschaft einer Bibliothek im Regelfall nicht
-alleine, sondern kommuniziert mit anderen Hard- und Softwaresystemen (s. Kapitel
+alleine, sondern kommuniziert mit anderen Hard- und Softwaresystemen (s. Abschnitt
 [Automatisierung)](#automatisierung-und-selbstbedienung).
 Hierzu gehören beispielhaft:
 

@@ -7,7 +7,7 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 ::: {.callout-note}
 ## Zusammenfassung
 Dieses Kapitel beschreibt die Einführung und den [Betrieb](#betriebsmodelle)
-von IT-Systemen über den gesamten [Lebenszyklus](#lebenszyklen-von-it-systemen) hinweg.
+von IT-Systemen über den gesamten [Lebenszyklus](#it-lebenszyklus) hinweg.
 :::
 
 ## Einleitung
@@ -15,7 +15,7 @@ von IT-Systemen über den gesamten [Lebenszyklus](#lebenszyklen-von-it-systemen)
 Grundsätzlich unterscheidet sich das Management von Informationssystemen in und
 für Bibliotheken nicht sehr von Softwareentwicklung und Betrieb in anderen
 Bereichen: IT-Systeme sind selten statisch, sondern folgen einem
-[Lebenszyklus](#lebenszyklen-von-it-systemen) von der Planung ihrer Einführung
+[Lebenszyklus](#it-lebenszyklus) von der Planung ihrer Einführung
 bis zu ihrer Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme
 müssen mögliche [Risiken](#betriebssicherheit-und-risikomanagement) beachtet
 und [rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten
@@ -531,8 +531,8 @@ Regel Implementierungsteams aus Anwender\*innen und
 Software-Betreuer\*innen bzw. Entwickler\*innen gebildet.
 
 Die Arbeit dieser Implementierungsteams sollte idealerweise nach
-Grundlagen des Projektmanagements und des [Lebenszyklus von IT-Systemen](#Lebenszyklen-von-IT-Systemen) erfolgen, also unter Berücksichtigung klarer Strukturen für die Planung, die Kommunikation und die Kontrolle.
-Siehe dazu auch das Kapitel [IT-Entwicklung].
+Grundlagen des Projektmanagements und des [Lebenszyklus von IT-Systemen](#it-lebenszyklus) erfolgen, also unter Berücksichtigung klarer Strukturen für die Planung, die Kommunikation und die Kontrolle.
+Siehe dazu auch den Abschnitt [IT-Lebenszyklus](#it-lebenszyklus).
 
 ::: {.callout-tip}
 
@@ -714,5 +714,5 @@ rekrutieren müssen.
 
 ## Zusammenfassung und Ausblick
 
-Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#lebenszyklen-von-it-systemen) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System und um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
+Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#it-lebenszyklus) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System und um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
 Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw. Anpassung des Systems effektiv reagiert werden.

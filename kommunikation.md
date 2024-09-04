@@ -501,8 +501,7 @@ Feedback zu Missverständnissen führen.
 
 Je technisch anspruchsvoller die Kommunikationswerkzeuge werden, um so mehr
 muss darauf geachtet werden, die gleichberechtige Teilnahme aller
-Kommunikationspartner*innen zu ermöglichen (siehe [Kapitel
-Infrastruktur](#werkzeuge-zur-kommunikation)).
+Kommunikationspartner*innen zu ermöglichen (siehe Abschnitt [Infrastruktur](#werkzeuge-zur-kommunikation)).
 
 ### Contenterstellung
 

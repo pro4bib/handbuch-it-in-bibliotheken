@@ -498,7 +498,7 @@ Discovery-Systeme angetreten, um sich konsequent nach dem Informationsverhalten
 der Nutzer\*innen auszurichten. Daraus ergibt sich, dass sowohl die
 Implementierung als auch die weitere Entwicklung möglichst kleinschrittig und
 unter Einbeziehung von Analysen der Nutzung erfolgen sollten. Neben Methoden
-der Usability-Forschung (siehe Kapitel [Wie beziehen wir unsere Nutzer\*innen
+der Usability-Forschung (siehe Abschnitt [Wie beziehen wir unsere Nutzer\*innen
 ein?](anforderungen.md#einbeziehung)) bietet sich als niedrigschwellige Methode
 vor allem die Analyse von Logfiles an. So kann z. B. mit der Software
 [Matomo](https://matomo.org/), auch unter Berücksichtigung von
@@ -611,4 +611,3 @@ Fragen nach möglichen [Betriebsmodellen](#betriebsmodelle), gegebenenfalls des
 [Change Management](#change-management), bis hin zum kontinuierlichen
 [Monitoring](#monitoring-und-weiterentwicklung) und der Weiterentwicklung
 solcher Dienste.
-
