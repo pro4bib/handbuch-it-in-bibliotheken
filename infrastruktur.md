@@ -34,11 +34,8 @@ Weitgehend ausgeklammert, weil an anderer Stelle behandelt, bleiben
 Infrastruktur zur [Digitalisierung](#digitalisierung) sowie Anwendungen für
 [Kommunikation und Wissensmanagement](#kommunikation).
 
-:::{.callout-tip}
-## Info
-Zu Einführung und Betrieb (siehe @sec-management) und zur Entwicklung samt Anforderungsanalyse (siehe @sec-anforderungen)
-von IT-Systemen gibt es eigene Kapitel.
-:::
+$\Rightarrow$ *Einführung und Betrieb von IT-Systemen werden in @sec-management und die 
+Anforderungsanalyse in @sec-anforderungen behandelt.*
 
 ## Allgemeine Infrastruktur für Bibliotheksprozesse und -dienste
 
@@ -1279,7 +1276,7 @@ Allgemeinen kein Archiv.
 
 Als Kombination des klassischen Intranets mit sozialen und kommunikativen
 Funktionen ermöglicht ein Social Intranet den Mitarbeitenden so den einfachen
-Austausch von Informationen und Ideen und wird genauer im Kapitel zur
+Austausch von Informationen und Ideen und wird genauer in Kapitel zur
 Kommunikation (@sec-kommunikation) beschrieben.
 
 ### Planungs- und Koordinationstools
