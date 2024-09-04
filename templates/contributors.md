@@ -1,6 +1,6 @@
 <!-- Diese Datei wird automatisch überschrieben, bitte contributors.yml anpassen! -->
 
-## Beteiligte Autor*innen {#sec-contributors}
+# Beteiligte Autor*innen {#sec-contributors}
 
 $for(contributor)$
 - $it.name$$if(it.position)$, $it.position$$endif$\

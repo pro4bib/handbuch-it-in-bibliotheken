@@ -88,7 +88,7 @@ Kontaktinformationen, Neuigkeiten und Hintergrund zum Projekt finden sich auf
 der Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
 @Bach2023 und @christensen_wie_2022.
 
-Eine Liste aller Beteiligten Autor\*innen findet sich im Anhang @sec-contributors
+Eine Liste aller Beteiligten Autor\*innen findet sich im [Anhang D](#sec-contributors).
 
 ## Rechte an den Inhalten {#lizenz}
 
