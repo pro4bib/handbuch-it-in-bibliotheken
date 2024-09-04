@@ -2,6 +2,7 @@
 .PHONY: references.bib
 
 INCLUDES=templates/chapters.html contributors.md glossar.md
+INCLUDES_PDF=templates/chapters.html contributors_for_pdf.md glossar.md
 
 preview: $(INCLUDES)
 	quarto preview
@@ -20,6 +21,11 @@ html: $(INCLUDES)
 
 docx: $(INCLUDES)
 	quarto render --to docx
+	
+pdf: $(INCLUDES_PDF)
+	quarto render --to pdf
+	# rebuild contributors.md to restore standard version (with mailto:-links)
+	make -B contributors.md
 
 update: $(INCLUDES)
 	make -C _gdrive update
@@ -37,6 +43,9 @@ templates/chapters.html: _gdrive/chapters.csv
 # TODO: replace by lua filter as supported by quarto
 contributors.md: contributors.yml templates/contributors.md
 	echo '' | quarto pandoc --metadata-file $< --template templates/contributors.md -M title=- -o $@
+	
+contributors_for_pdf.md: contributors.yml templates/contributors_for_pdf.md
+	echo '' | quarto pandoc --metadata-file $< --template templates/contributors_for_pdf.md -M title=- -o contributors.md
 
 metadata: about.yml contributors.yml
 	./metadata.pl
