@@ -28,9 +28,7 @@ jobs:
       # More specific examples will be shared on quarto-dev/quarto-actions project
 
       - name: Render book to HTML and DOCX
-        run:
-          - make html
-          - make docx
+        run: make html && make docx
 
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
