@@ -1,4 +1,4 @@
-er---
+---
 description: Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
 ---
 
