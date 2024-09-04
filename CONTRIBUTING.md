@@ -209,13 +209,9 @@ Die Aufrufe sind zur Vereinfachung in [`Makefile`](Makefile) zusammengefasst:
 
 * `make preview` konvertiert das Handbuch nach HTML und ermöglicht eine Vorschau unter <http://localhost:15745/> (der Port ist die Postleitzahl von Wildau). Die HTML-Ansicht wird automatisch aktualisiert wenn die Quelldateien lokale geändert werden.
 
-* `make build` konvertiert das Handbuch in alle konfigurierten Formate und legt die Ergebnisse im Verzeichnis `_book` ab. Dieser Schritt wird auch automatisch nach jedem Push auf GitHub ausgeführt.
+* `make html`, `make docx` und `make pdf` erzeugt jeweils die HTML-, DOCX- oder PDF-Version und legt das Ergebnis im Verzeichnis `_book` ab. HTML- und DOCX-Version werden auch automatisch nach jedem Push auf GitHub erzeugt.
 
-* `make all` ruft make `build` und `docx` auf und kopiert die DOCX-Dateien ins Publikationsverzeichnis `_book`.
-
-* `make html` erzeugt nur HTML-Dateien in `_book`.
-
-* `make docx` erzeugt nur das Gesamt-DOCX in `_book`.
+* `make all` erzeugt alle Ausgabeformate und aktualisiert zusätzlich die einzelnen Google-Docs-Dateien.
 
 * `make refs` aktualisiert das [Literaturverzeichnis](#literaturverzeichnis) in `references.bib` von Zotero.
 

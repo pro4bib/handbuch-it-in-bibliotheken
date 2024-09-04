@@ -27,8 +27,10 @@ jobs:
       # Add installation of any computing dependency you may need, usually either python and Jupyter or R
       # More specific examples will be shared on quarto-dev/quarto-actions project
 
-      - name: Render book to all format
-        run: make build
+      - name: Render book to HTML and DOCX
+        run:
+          - make html
+          - make docx
 
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
