@@ -14,7 +14,7 @@ verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` e
 - @fig-schichtmodell (`schichten.svg`)
   <!--Public Domain David Zellhöfer-->
 
-- @fig-usux (`usability_ux.svg`)
+- @fig-usux (`usability_ux.svg`) CC-BY David Zellhöfer
 
 - @fig-persona (`persona.png`)
   <https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267>
