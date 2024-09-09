@@ -148,7 +148,7 @@ einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
 digitalisierten Anteile eines Services sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
-![Zusammenhang zwischen Usability und User Experience](media/usability_ux.svg){#fig-usux}
+![Zusammenhang zwischen Usability und User Experience](media/usability_ux.svg){#fig-usux width=90%}
 
 ## Wie beziehen wir unsere Nutzer\*innen ein? {#einbeziehung}
 

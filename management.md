@@ -381,7 +381,7 @@ ist vom Funktionieren einer Vielzahl weiterer Software-Komponenten
 abhängig. Diese Abhängigkeit lässt sich mit einem vereinfachten
 Schichtmodells des Betriebs eines IT-Systems illustrieren:
 
-![Schichtmodell-Bild](media/schichten.svg){#fig-schichtmodell}
+![Schichtmodell-Bild](media/schichten.svg){#fig-schichtmodell width=80%}
 
 Aus @fig-schichtmodell wird deutlich, dass moderne Software-Systeme zum
 Beispiel auf einem Betriebssystem oder weiteren Subsystemen wie einem
