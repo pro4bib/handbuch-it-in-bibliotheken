@@ -529,14 +529,7 @@ verschiedene Antennen vorhanden sein müssen. Beide Frequenzen gleichzeitig in
 einer Bibliothek zu verwenden, bringt keinen Vorteil, der diesen Aufwand
 rechtfertigen würde.
 
-::: {#fig-transponder layout-ncol=2}
-
-![](media/hf.png)
-
-![](media/uhf.png)
-
-HF Transponder und UHF Transponder
-:::
+![HF Transponder und UHF Transponder](media/rfid-curves.svg){#fig-transponder}
 
 Das unterschiedliche Layout der Transponder ist für das Einkleben in Büchern
 wenig relevant. Beide Arten werden bei der Herstellung auf Folie aufgebracht.

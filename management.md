@@ -43,7 +43,7 @@ angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
 Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
 Fokus dieses Handbuchs.
 
-![Softwareentwicklungs-Lebenszyklus](media/sdlc.svg){#fig-it-zyklus}
+![Softwareentwicklungs-Lebenszyklus](media/sdlc.svg){#fig-it-zyklus width=90%}
 
 ### Planung und Analyse
 

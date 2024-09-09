@@ -1,53 +1,37 @@
 # Abbildungsverzeichnis {#sec-abbildungen}
 
-Die Bilddateien sind unter den in Klammern angegebenen Namen unter
+Die Bilddateien sind unter den in Klammern angegebenen Dateinamen unter
 <https://github.com/pro4bib/handbuch-it-in-bibliotheken/tree/main/media>
 verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` eine Originalversion.
 
-- @fig-transponder (`hf.png` und `uhf.png`)
+- @fig-transponder (`rfid-curves.svg`) CC0
 - @fig-barcode (`code39.png`)
 - @fig-speicher-rfid (`rfid-tag.png`)
 - @fig-nutzungshinweis (`internet-nutzungshinweise.jpg`)
-
 - @fig-it-zyklus (`sdlc.svg`)
 - @fig-verweildauer (`sw_lifespan.svg`)
-- @fig-schichtmodell (`schichten.svg`)
-  <!--Public Domain David Zellhöfer-->
-
+- @fig-schichtmodell (`schichten.svg`) CC0
 - @fig-usux (`usability_ux.svg`) CC-BY David Zellhöfer
-
 - @fig-persona (`persona.png`)
   <https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267>
   CC-BY Kerstin Wendt, Matthias Finck
-
 - @fig-wireframe (`wireframe.png`)
   <https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf>
   CC-BY Matthias Finck und Kerstin Wendt
-
-- @fig-datenschutz-datensicherheit
-  (`datenschutz-vs-sicherheits-beauftragte.png`)
+- @fig-datenschutz-datensicherheit (`datenschutz-vs-sicherheits-beauftragte.png`)
   von @Rehm2023, @Schmidt2023
-
 - @fig-sso (`sso-approaches.svg`)
   Three aproaches to Single Sign On.
   <https://commons.wikiorg/wiki/File:Single_sign_on_aproaches.svg>
   Public Domain
-- @fig-massnahmen-praevention
-  (`massnahmen-und-praevention.jpg`)
-
-- @fig-er-diagram
-  (`er-modell.svg`)
-  <!-- Public Domain David Zellhöfer ? -->
-
-<!-- TODO: 6.2/6.3 MARC/XML besser als Quelltext statt als Bild!: JAKOB -->
-
+- @fig-massnahmen-praevention (`massnahmen-und-praevention.jpg`)
+- @fig-er-diagram (`er-modell.svg`) CC0
 - @fig-etl (`etl-prozess.svg`)
   <https://commons.wikiorg/wiki/File:Etl-prozess.svg>
-  Public Domain von Jakob Voß und Clemens Kynast
-
+  CC0 Jakob Voß und Clemens Kynast
 - @fig-bmsevol (`bms-timeline.svg`)
-- @fig-matrix (`matrix.svg`)
-- @fig-prozessabbildung (`prozesse-digitalisierung.jpg`)
+- @fig-matrix (`matrix.svg`) CC0
+- @fig-prozessabbildung (`BPMN-1.svg`)
 - @fig-vufind (`vufind.png`)
 - @fig-scholia (`scholia.png`)
 - @fig-prozess-digitalisierung (`prozesse-digitalisierung.jpg`)
