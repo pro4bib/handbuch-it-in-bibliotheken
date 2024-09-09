@@ -11,3 +11,4 @@ site_libs/
 /_*.local
 .~*
 .DS_Store
+*.afdesign~lock~
