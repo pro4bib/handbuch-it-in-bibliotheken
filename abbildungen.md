@@ -44,9 +44,6 @@ verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` e
 - @fig-forschungsdatenlebenszyklus (`fd-lifecycle.svg`)
 - @fig-fis-fdm (`FIS_FDM_CC_BY_Mau.png`)
 - @fig-oais (`oais.png`) CC-BY Jørgen Stamp
-<!-- Sketchnote: Auf der Suche nach dem heiligen Gral - Forschungsinformationssysteme.
-  <https://doi.org/10.5281/zenodo.4388855>
-  CC-BY 4.0 [Franziska Mau](https://orcid.org/0000-0001-7701-0301)-->
 - @fig-stufenmodell (`stufenmodell.svg`)
   Stockmann, 2019
 - @fig-forschungsdatenlebenszyklus (`fd-lifecycle.svg`)
