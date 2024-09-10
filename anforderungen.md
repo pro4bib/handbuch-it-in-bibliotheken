@@ -215,7 +215,7 @@ beschreibt dabei eine Reihe von Aktionen, die eine Person in bzw. mit
 einem System durchführen kann. Das kann beispielsweise in einem
 Fließtext passieren, in dem ein Szenario beschrieben wird.
 
-![Bild einer Personabeschreibung aus einem [Vortrag zum Szenario basierten Design](https://nbn-resolving.org/urn:nbn:de:0290-opus4-35267)](media/persona.png){#fig-persona width=90%}
+![Bild einer Personabeschreibung](media/persona.png){#fig-persona width=90%}
 
 Außerdem kann es sich lohnen, solche Use Cases zu visualisieren. Dabei können
 Start, Ende, mögliche Verzweigungen, alternative Aktionen und mehr mit

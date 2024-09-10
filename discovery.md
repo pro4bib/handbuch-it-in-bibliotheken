@@ -190,7 +190,7 @@ Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per Mail
 verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen
 herunterladen.
 
-![Beispiel eines Rechercheergebnisses in einem Discovery-Interface ([Quelle](https://core.coll.mpg.de/))](media/vufind.png){#fig-vufind}
+![Beispiel eines Rechercheergebnisses in einem Discovery-Interface](media/vufind.png){#fig-vufind}
 
 #### Bereitstellungsdienste
 
@@ -305,16 +305,14 @@ liefert.
 #### Thematische Sucheinstiege
 
 Wie beschrieben bieten Trefferlisten mit Facetten und Empfehlungen zwar
-durchaus die Möglichkeit, sich eine Treffermenge zu erschließen.
-Allerdings fehlt Discovery-Systemen genau wie OPACs häufig die Möglichkeit,
-eine systematische Suche durchzuführen. Teilweise wird ein Browsing durch die
+durchaus die Möglichkeit, sich eine Treffermenge zu erschließen. Allerdings
+fehlt Discovery-Systemen genau wie OPACs häufig die Möglichkeit, eine
+systematische Suche durchzuführen. Teilweise wird ein Browsing durch die
 klassifikatorische Inhaltserschließung angeboten, jedoch fehlen vielen
-Datensätzen entsprechende Daten und das Browsing bezieht sich dadurch jeweils nur auf
-Teilmenge des Suchraums.
-
-Aus diesem Grund werden derzeit verschiedene Ansätze erprobt, um eine
-thematische Suche zu ermöglichen. Hierzu zählen u.a. folgende Projekte und
-Dienste:
+Datensätzen entsprechende Daten und das Browsing bezieht sich dadurch jeweils
+nur auf Teilmenge des Suchraums. Aus diesem Grund werden verschiedene Ansätze
+erprobt, um eine thematische Suche zu ermöglichen. Hierzu zählen u.a. folgende
+Projekte und Dienste:
 
 - ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z. B. bei dem kommerziellen Dienst [Blended Shelf](https://www.eikekleiner.de/blended-shelf/)
 
@@ -592,7 +590,7 @@ Datenbank Wikidata mit ihren bibliografischen Inhalten *WikiCite* und dem dazu
 gehörigen Browsing-Interface *[Scholia](https://scholia.toolforge.org/)* (siehe
 Abbildung @fig-scholia).
 
-![Thematisches Netzwerk von [Publikationen in und über Scholia](https://scholia.toolforge.org/topic/Q45340488)](media/scholia.png){#fig-scholia}
+![Thematisches Netzwerk von Publikationen in und über Scholia](media/scholia.png){#fig-scholia}
 
 Grundsätzlich gilt, dass die Grenzen zwischen Discovery-Systemen und
 Alternativen in der Praxis fließend sind und dass Discovery-Systeme

@@ -32,8 +32,8 @@ verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` e
 - @fig-bmsevol (`bms-timeline.svg`)
 - @fig-matrix (`matrix.svg`) CC0
 - @fig-prozessabbildung (`BPMN-1.svg`)
-- @fig-vufind (`vufind.png`)
-- @fig-scholia (`scholia.png`)
+- @fig-vufind (`vufind.png`) Quelle: <https://core.coll.mpg.de/>
+- @fig-scholia (`scholia.png`) <https://scholia.toolforge.org/topic/Q45340488> CC0
 - @fig-prozess-digitalisierung (`prozesse-digitalisierung.jpg`)
 - @fig-buchscanner (`buchscanner.jpg`)
 - @fig-wms-workflow (`wms-workflow.png`)
