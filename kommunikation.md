@@ -4,13 +4,10 @@ description: Werkzeuge und Methoden interner und externer Kommunikation von Wiss
 
 # Kommunikation {#sec-kommunikation}
 
-:::{.callout-note}
-## Zusammenfassung
-
+::: {.callout-note title="Zusammenfassung"}
 Bibliotheken bedienen verschiedene Kommunikationsräume. Für die [interne und
 externe Kommunikation](#ziele) stehen verschiedene [Prozesse](#prozesse),
 [Kanäle](#kanäle) und [Werkzeuge](#werkzeuge) zur Verfügung.
-
 :::
 
 ## Einleitung

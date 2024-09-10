@@ -4,9 +4,7 @@ description: Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanag
 
 # Bibliotheksmanagementsysteme {#sec-bibliotheksmanagementsysteme}
 
-:::{.callout-note}
-## Zusammenfassung
-
+:::{.callout-note title="Zusammenfassung"}
 Ein Bibliotheksmanagementsystem (BMS) ist ein IT-System, das die [Kernprozesse](#prozessabbildung) einer Bibliothek unterstützt. Das modular aufgebaute System verfügt über verschiedene [Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung, lokales Metadatenmanagement, Nutzerdatenmanagement, Ausleihe sowie für die Recherche. Die [Entwicklungsgeschichte](#geschichte) der BMS in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den BMS ist auch die [Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration anderer Systeme](#integration).
 :::
 
@@ -219,11 +217,10 @@ beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden
 :::{.callout-tip}
 ## Info
 
-Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist im Vergleich zu anderen IT-Systemen eher lang. So blicken z. B. Systeme wie Aleph, aDIS, LBS, SISIS Sunrise und Koha auf eine 20-30 jährige Entwicklungsgeschichte zurück und befinden sich aktuell immer noch im Einsatz. Auch 
-
-So wurde beispielsweise FOLIO im Rahmen des *Open Library Environment Project* bereits 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
+Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist im Vergleich zu anderen IT-Systemen eher lang. So blicken z. B. Systeme wie Aleph, aDIS, LBS, SISIS Sunrise und Koha auf eine 20-30 jährige Entwicklungsgeschichte zurück und befinden sich aktuell immer noch im Einsatz. FOLIO wurde bereits im Rahmen des *Open Library Environment Project* 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
 
 :::
+
 ## Funktionalitäten von Bibliotheksmanagementsystemen
 
 BMS sind in der Regel modular aufgebaut und verfügen mindestens über

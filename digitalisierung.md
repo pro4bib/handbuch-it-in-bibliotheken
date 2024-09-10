@@ -5,9 +5,7 @@ description: Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präs
 # Digitalisierung {#sec-digitalisierung}
 
 :::{.callout-note title="Zusammenfassung"}
-
 Neben der reinen Bewahrung von Kulturgütern stellt sich Bibliotheken und anderen Kultureinrichtungen die Herausforderung, diese weltweit im Netz zugänglich zu machen. Die Digitalisierung von Kulturgut erfordert verschiedene Prozesse und Tools, die in diesem Kapitel vorgestellt werden.
-
 :::
 
 ## Grundlagen

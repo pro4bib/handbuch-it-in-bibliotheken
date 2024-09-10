@@ -4,8 +4,7 @@ description: Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Met
 
 # Anforderungsanalyse {#sec-anforderungen}
 
-:::{.callout-note}
-## Zusammenfassung
+:::{.callout-note title="Zusammenfassung"}
 Dieses Kapitel behandelt die Anforderungsanalyse als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur [Einbeziehung von Nutzer*innen](#einbeziehung), um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.
 :::
 

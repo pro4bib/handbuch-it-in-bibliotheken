@@ -5,13 +5,11 @@ description: Dienste wie Repositorien und Forschungsdatenmanagement zur Unterst�
 # Forschungsnahe Dienste {#sec-forschungsnahe-dienste}
 
 ::: {.callout-note title="Zusammenfassung"}
-
 Bibliotheken bieten [Dienste für die Wissenschaft](#einleitung) im Rahmen des
 digitalen Wandels von Publikationsprozessen und Open Science an. Dazu gehören
 in diesem Kapitel vorgestellte [Dienste zur Publikation](#publikationsdienste), zur [Verwaltung von Forschungsdaten](#forschungsdatenmanagement) und
 [Forschungssoftware](#forschungssoftware) sowie [Informationen über
 Forschungsprozesse](#forschungsinformationssysteme). Abschließend werden verschiedene übergreifende Themen wie [Zertifikate und Standards](#zertifikate-und-standards) und [Langzeitarchivierung](#langzeitarchivierung) behandelt.
-
 :::
 
 ## Einleitung

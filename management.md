@@ -4,8 +4,7 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 
 # IT-Management {#sec-management}
 
-::: {.callout-note}
-## Zusammenfassung
+::: {.callout-note title="Zusammenfassung"}
 Dieses Kapitel beschreibt die Einführung und den [Betrieb](#betriebsmodelle)
 von IT-Systemen über den gesamten [Lebenszyklus](#it-lebenszyklus) hinweg.
 :::
