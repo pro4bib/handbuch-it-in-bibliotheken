@@ -615,12 +615,12 @@ Fragen:
 
 -   Wie führe ich den Prozess der Migration durch?
 
-In den letzten Abschnitten schon angeklungen ist der Unterschied von HF und UHF,
-wodurch sich in den meisten Fällen die Frage der Technologiewahl als erste
+In den letzten Abschnitten schon angeklungen ist der Unterschied von HF und
+UHF, wodurch sich in den meisten Fällen die Frage der Technologiewahl als erste
 stellt. Als Faustregel kann hier festgestellt werden, dass die schon
-langjährige Verbreitung von HF im DACH-Raum (DACH == D-A-CH == Deutschland - Österreich - Schweiz) dazu geführt hat, dass einige
-Anbieter mit Standardlösungen am Markt sind und die meisten Anwendungsfälle
-abgedeckt sind, inkl. dem Migrationspfad von Barcodes.
+langjährige Verbreitung von HF im deutschsprachigen Raum dazu geführt hat, dass
+einige Anbieter mit Standardlösungen am Markt sind und die meisten
+Anwendungsfälle abgedeckt sind, inkl. dem Migrationspfad von Barcodes.
 
 Bei der Migration an sich geht es dann zumeist darum, das
 Identifikationsmerkmal eines Mediums auf einem RFID-Tag zu speichern. Hier
