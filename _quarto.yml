@@ -73,10 +73,16 @@ format:
     number-sections: true
     number-depth: 3
     twitter-card: true
+    filters:
+      - templates/pandoc-quotes.lua
+      - templates/glossary.lua
   docx:
     number-sections: true
     number-depth: 3
-
-filters:
-  - templates/pandoc-quotes.lua
-  - templates/glossary.lua
+    filters:
+      - templates/pandoc-quotes.lua
+      - templates/glossary.lua    
+  pdf:
+    filters:
+      - templates/pandoc-quotes.lua
+      - templates/glossary_for_pdf.lua
