@@ -335,6 +335,7 @@ werden.
 
 :::{#fig-marcxml}
 
+\scriptsize
 ~~~xml
 <?xml version="1.0" encoding="UTF-8"?>
 <record xmlns="http://www.loc.gov/MARC21/slim">
@@ -353,6 +354,7 @@ werden.
   </datafield>
 </record>
 ~~~
+\normalsize
 
 Ein gekürzter Beispieldatensatz in MARC-XML
 
@@ -410,6 +412,7 @@ Webseiten.
 
 ::: {#fig-bibframe}
 
+\scriptsize
 ~~~ttl
 @prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
 @prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
@@ -437,6 +440,7 @@ Webseiten.
   a bf:Text, bf:Work ;
   bf:title [ a bf:Title ; bf:mainTitle "Handbuch IT in Bibliotheken" ] .
 ~~~
+\normalsize
 
 Der Inhalt des Datensatz @fig-marcxml in RDF-Serialisierung Turtle
 ausgedrückt mit der BIBFRAME-Ontologie und URIs aus K10plus und Wikidata.
