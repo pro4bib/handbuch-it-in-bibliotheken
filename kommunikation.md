@@ -795,7 +795,7 @@ für möglichst viele der genannten Aspekte widerspiegeln: einem so genannten
 Social Intranet einem typischen internen 
 [Infrastruktur-Angebot](infrastruktur.md#social-intranet).
 
-:::{.callout-tip}
+::: {.callout-tip}
 
 Ein **Social Intranet** ist ein internes, web-basiertes Netzwerk, das
 speziell darauf ausgelegt ist, die Kommunikation, Zusammenarbeit und

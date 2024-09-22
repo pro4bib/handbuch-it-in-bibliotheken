@@ -180,7 +180,7 @@ anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
 Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
 die jeweilige Erfassungspraxis.
 
-::: {.callout-tip} 
+::: {.callout-tip}
 
 **Reguläre Ausdrücke** sind das gängigste Mittel zur Beschreibung der Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach Mustern durchsucht werden. Ein regulärer Ausdruck für die Syntax einer ISBN-13 mit optionalen Trennstrichen ist beispielsweise:
   
@@ -338,7 +338,7 @@ K10plus-Internformat.
 aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet
 werden.
 
-:::{#fig-marcxml}
+::: {#fig-marcxml}
 
 \scriptsize
 ~~~xml
@@ -380,7 +380,7 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 
 ### Datenmodelle und Ontologien
 
-:::{.callout-important title="Definition"}
+::: {.callout-important title="Definition"}
 
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
 in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
