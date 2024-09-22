@@ -5,8 +5,10 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 # IT-Management {#sec-management}
 
 ::: {.callout-note title="Zusammenfassung"}
+
 Dieses Kapitel beschreibt die Einführung und den [Betrieb](#betriebsmodelle)
 von IT-Systemen über den gesamten [Lebenszyklus](#it-lebenszyklus) hinweg.
+
 :::
 
 ## Einleitung
@@ -64,7 +66,6 @@ rechtlicher Rahmenbedingungen.
 $\Rightarrow$ *Siehe auch ausführlicher zum [Entscheidungsprozess bei der Einführung eines Bibliotheksmanagementsystem](bibliotheksmanagementsysteme.html#entscheidungsprozess)*
 
 ::: {.callout-tip}
-## Info
 
 Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
 getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
@@ -123,14 +124,15 @@ Typischerweise verbleiben IT-Systeme, die grundlegende
 Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
 erstellt wurden, viele Jahre in dieser Phase. 
 
-:::{.callout-tip collapse="true"}
-## Beispiel
+::: {.callout-tip title="Beispiel" collapse="true"}
+
 @fig-verweildauer
 illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
 Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
 Textes erst teilweise abgelöst wurden.
 
 ![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)](media/sw_lifespan.svg){#fig-verweildauer}
+
 :::
 
 ### Ablösung

@@ -25,12 +25,13 @@ nach sich. Diese Entwicklung erfordert auch eine größere Sensibilität und
 Aufmerksamkeit hinsichtlich der Sicherheit der eigenen Systeme. Safety und
 Security sind hierfür wichtige, zu unterscheidende Grundprinzipien.
 
-::: {.callout-important}
+::: {.callout-important title="Definition"}
+
 **Security** beinhaltet alle Maßnahmen zum Schutz vor Diebstahl oder
 Beschädigung von Soft- und Hardware. **Safety** meint den sicherheitsbewussten
 Umgang mit Netzwerken und Daten [@Hollaender2023].
-:::
 
+:::
 
 Bibliotheken verstehen sich als Orte, die ihre Informationen und
 vielschichtigen Dienstleistungen i.d.R. einer großen Nutzendenschaft zur
@@ -330,10 +331,12 @@ h. die Daten werden auf einen zweiten Server übertragen. Da es bei einem
 Backup auch zu Datenverlust oder -beschädigung kommen kann, empfiehlt es
 sich, mehr als eine Kopie anzulegen, z. B. auf Magnetbändern.
 
-::: {.callout-important}
+::: {.callout-important title="Definition"}
+
 Ein **Server** ist ein zentraler Rechner (virtuell oder
 physikalisch), der Daten zur Verfügung hält und diese auf Anfrage
 durch einen Client (PC, mobiles Gerät) zur Verfügung stellt.
+
 :::
 
 ### Schulungen

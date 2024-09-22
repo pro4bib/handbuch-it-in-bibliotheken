@@ -5,7 +5,9 @@ description: Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präs
 # Digitalisierung {#sec-digitalisierung}
 
 :::{.callout-note title="Zusammenfassung"}
+
 Neben der reinen Bewahrung von Kulturgütern stellt sich Bibliotheken und anderen Kultureinrichtungen die Herausforderung, diese weltweit im Netz zugänglich zu machen. Die Digitalisierung von Kulturgut erfordert verschiedene Prozesse und Tools, die in diesem Kapitel vorgestellt werden.
+
 :::
 
 ## Grundlagen
@@ -549,8 +551,7 @@ Bibliotheken zunehmend Aufmerksamkeit wecken. Hierbei gewinnen
 Bibliotheken über externe engagierte Dritte zusätzliche Ressourcen für
 die Erschließung, Auswertung oder Korrektur von Daten.
 
-:::{.callout-tip}
-## Beispiel
+:::{.callout-tip title="Beispiel"}
 
 Im Projekt "[Die
 Datenlaube](https://de.wikiversity.org/wiki/DieDatenlaube)" erfasst
@@ -561,6 +562,7 @@ Wikisource-Volltexte und -Illustrationen werden mit offenen Metadaten in
 Wikidata strukturiert erschlossen.
 
 ![Die Datenlaube: Projektlogo](media/die-datenlaube.jpg){width=45% #fig-datenlaube}
+
 :::
 
 ### Offene Infrastrukturen

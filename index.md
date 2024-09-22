@@ -35,9 +35,7 @@ dienen mehrere sogenannte [Personas](mitarbeit.md#zielgruppe).
 
 ## Inhalt
 
-::: {.callout-important}
-
-## Gut zu wissen
+::: {.callout-important title="Gut zu wissen"}
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
 werden kann und soll. **Tipps und Korrekturen** sind daher sehr willkommen!

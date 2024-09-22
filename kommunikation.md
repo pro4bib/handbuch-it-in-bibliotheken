@@ -5,9 +5,11 @@ description: Werkzeuge und Methoden interner und externer Kommunikation von Wiss
 # Kommunikation {#sec-kommunikation}
 
 ::: {.callout-note title="Zusammenfassung"}
+
 Bibliotheken bedienen verschiedene Kommunikationsräume. Für die [interne und
 externe Kommunikation](#ziele) stehen verschiedene [Prozesse](#prozesse),
 [Kanäle](#kanäle) und [Werkzeuge](#werkzeuge) zur Verfügung.
+
 :::
 
 ## Einleitung
@@ -794,7 +796,7 @@ Social Intranet einem typischen internen
 [Infrastruktur-Angebot](infrastruktur.md#social-intranet).
 
 :::{.callout-tip}
-## Info
+
 Ein **Social Intranet** ist ein internes, web-basiertes Netzwerk, das
 speziell darauf ausgelegt ist, die Kommunikation, Zusammenarbeit und
 Informationsverbreitung innerhalb einer Organisation zu fördern. Es
@@ -802,6 +804,7 @@ kombiniert die klassische Funktion eines Intranets, die
 Informationserstellung und -bereitstellung, mit eher sozialen,
 kommunikativen Funktionen und ermöglicht den Mitarbeitenden so den
 einfachen Austausch von Informationen und Ideen.
+
 :::
 
 Ein gut geplantes und

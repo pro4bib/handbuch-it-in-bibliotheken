@@ -5,11 +5,13 @@ description: Dienste wie Repositorien und Forschungsdatenmanagement zur Unterst�
 # Forschungsnahe Dienste {#sec-forschungsnahe-dienste}
 
 ::: {.callout-note title="Zusammenfassung"}
+
 Bibliotheken bieten [Dienste für die Wissenschaft](#einleitung) im Rahmen des
 digitalen Wandels von Publikationsprozessen und Open Science an. Dazu gehören
 in diesem Kapitel vorgestellte [Dienste zur Publikation](#publikationsdienste), zur [Verwaltung von Forschungsdaten](#forschungsdatenmanagement) und
 [Forschungssoftware](#forschungssoftware) sowie [Informationen über
 Forschungsprozesse](#forschungsinformationssysteme). Abschließend werden verschiedene übergreifende Themen wie [Zertifikate und Standards](#zertifikate-und-standards) und [Langzeitarchivierung](#langzeitarchivierung) behandelt.
+
 :::
 
 ## Einleitung
@@ -35,8 +37,7 @@ Darunter fallen Forschungsinformationssysteme und Dienstleistungen im Bereich
 von Metriken oder zur Verwaltung von Artikelveröffentlichungsgebühren in
 Open-Access-Journals (*APCs*).
 
-::: {.callout-important}
-## Definition
+::: {.callout-important title="Definition"}
 
 **Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, OER und Open Source. Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
 
@@ -243,8 +244,7 @@ und der Open Source-Lösung
 nur zwei Beispiele für Systeme genannt, die sich auf den Erhalt von
 Informationen im Sinne der Langzeitarchivierung spezialisieren.
 
-::: {.callout-important}
-## Definition
+::: {.callout-important title="Definition"}
 
 Der Begriff **Repository** bzw. **Repositorium** wird in diesem Kapitel
 vorwiegend für Plattformen verwendet, in denen Forschungsergebnisse
@@ -297,8 +297,7 @@ sogenannten **FAIR-Prinzipien**, denen zufolge Forschungsdaten auffindbar
 nachnutzbar (reusable) sein sollen (vgl.
 [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)).
 
-::: {.callout-important}
-## Definition
+::: {.callout-important title="Definition"}
 
 **Forschungsdaten** sind alle digital vorliegenden Daten, die während des
 Forschungsprozesses entstehen (z. B. Messdaten, Laborwerte, Videoaufnahmen,
@@ -482,8 +481,7 @@ eine Betrachtung der kompletten [Toolchain](#toolchains) notwendig macht.
 
 ## Forschungsinformationssysteme
 
-::: {.callout-important}
-## Definition
+::: {.callout-important title="Definition"}
 
 **Forschungsinformationen** sind Angaben über Aktivitäten, Ergebnisse und
 Infrastrukturen von Forschungsprozessen wie z. B. Projekte,
@@ -837,8 +835,7 @@ zunehmend gefragt sind.
 
 ### Toolchains
 
-:::{.callout-important}
-## Definition
+::: {.callout-important title="Definition"}
 
 Eine **Toolchain** ("Werkzeugkette") ist eine Reihe von miteinander verbundenen
 Anwendungen und Technologien, die gemeinsam eingesetzt werden, um spezifische

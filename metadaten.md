@@ -4,9 +4,8 @@ description: Grundlagen der bibliothekarischen Datenverarbeitung
 
 # Daten & Metadaten {#sec-metadaten}
 
-::: {.callout-note}
+::: {.callout-note title="Zusammenfassung"}
 
-## Zusammenfassung
 Die Beschreibung von Ressourcen mit standardisierten Metadaten bildet eine zentrale
 Voraussetzung für die meisten an Bibliotheken angebotenen IT-Dienste. Das 
 vorliegende Kapitel gibt einen Überblick über die Thematik, indem es 
@@ -14,6 +13,7 @@ vorliegende Kapitel gibt einen Überblick über die Thematik, indem es
 [Metadatenstandards](#metadatenstandards) vorstellt und 
 [Prozesse der Datenverarbeitung](#datenverarbeitungsprozess-in-bibliotheken)
 in Bibliotheken erläutert.
+
 :::
 
 ## Einleitung
@@ -73,7 +73,6 @@ Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im
 Idealfall entsprechen Daten einem klar definierten Datenformat.
 
 ::: {.callout-tip}
-## Info
 
 Mit dem **Resource Description Framework (RDF)** kodierte Daten werden
 auch als "semantisch" bezeichnet. Die Kodierung erfolgt dabei nicht
@@ -86,6 +85,7 @@ Datenbanken (*Triplestores*) gespeichert und abgefragt werden können.
 Die Bedeutung von RDF-Daten ergibt sich allerdings, wie bei allen
 Kodierungen, erst aus der Dokumentation von Datenelementen und ihrer
 Interpretation in praktischen Anwendungen.
+
 :::
 
 ### Datenformate
@@ -154,11 +154,12 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
   wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und
   Beschreibungen in natürlicher Sprache.
 
-::: {.callout-tip title="Info"}
+::: {.callout-tip}
 
 Das **Entity-Relationshop-Modell** ist eine Modellierungssprache die meist für relationale Datenbanken verwendet wird, aber auch unabhängig davon verwendet werden kann. Dabei werden in einem ER-Diagramm Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe Beispiel @fig-er-diagram). Eine graphische Syntax für erweitere ER-Diagramme ist die Unified Modeling Language (*UML*).
 
 ![ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken](media/er-modell.svg){#fig-er-diagram}
+
 :::
 
 Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft,
@@ -179,7 +180,8 @@ anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
 Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
 die jeweilige Erfassungspraxis.
 
-::: {.callout-tip title="Info"} 
+::: {.callout-tip} 
+
 **Reguläre Ausdrücke** sind das gängigste Mittel zur Beschreibung der Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach Mustern durchsucht werden. Ein regulärer Ausdruck für die Syntax einer ISBN-13 mit optionalen Trennstrichen ist beispielsweise:
   
     (97[89])-?([0-9]{1,5})-?([0-9]+)-?([0-9]+)-?[0-9]
@@ -187,6 +189,7 @@ die jeweilige Erfassungspraxis.
 Üblicherweise decken Schemasprachen nicht alle Aspekte eines Datenformats ab. So
 lässt sich die Korrektheit der abschließenden Prüfziffer (`[0-9]`) nicht mit
 einem regulären Ausdruck überprüfen.
+
 :::
 
 ### Identifikatoren
@@ -254,12 +257,14 @@ Name. Oft gibt es weitere identifizierende Merkmale wie alternative
 Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen
 zwischen verschiedenen Entitäten.
 
-:::{.callout-tip title="Info"}
+::: {.callout-tip}
+
 Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu
 komplexen [Ontologien und Wissensgraphen](#datenmodelle-und-ontologien). Ein
 prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame
 Normdatei (*GND*), in der neben Personen auch Körperschaften, Veranstaltungen,
 Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.
+
 :::
 
 Zur Anreicherung von Daten mit Normdaten mittels *Entity Recognition*
@@ -375,8 +380,7 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 
 ### Datenmodelle und Ontologien
 
-:::{.callout-important}
-## Definition
+:::{.callout-important title="Definition"}
 
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
 in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
@@ -502,7 +506,6 @@ denen Daten erstellt, bearbeitet und *analysiert* werden können.
 
 ::: {.callout-tip}
 
-## Info
 Mehr zur bibliothekarischen Datenerfassung in den
 *Grundlagen der Informationswissenschaft* [-@kuhlen_grundlagen_2023], *Teil B*.
 

@@ -5,18 +5,21 @@ description: Aufgaben, Bestandteile, Einsatz und Geschichte von Bibliotheksmanag
 # Bibliotheksmanagementsysteme {#sec-bibliotheksmanagementsysteme}
 
 :::{.callout-note title="Zusammenfassung"}
+
 Ein Bibliotheksmanagementsystem (BMS) ist ein IT-System, das die [Kernprozesse](#prozessabbildung) einer Bibliothek unterstützt. Das modular aufgebaute System verfügt über verschiedene [Komponenten](#komponenten) für die jeweiligen Kernprozesse Erwerbung, lokales Metadatenmanagement, Nutzerdatenmanagement, Ausleihe sowie für die Recherche. Die [Entwicklungsgeschichte](#geschichte) der BMS in Bibliotheken erstreckt sich mittlerweile über drei Generationen. Relevant für die Arbeit mit den BMS ist auch die [Anbindung an Verbundkataloge](#verbundkataloge) sowie die [Integration anderer Systeme](#integration).
+
 :::
 
 ## Einleitung
 Das BMS spielt eine zentrale Rolle für die meisten klassischen Geschäftsprozesse in Bibliotheken. 
 
-:::{.callout-important}
-## Definition
+:::{.callout-important title="Definition"}
+
 Ein **Bibliotheksmanagementsystem (BMS)** ist ein Softwareprodukt, mit dem die Arbeitsprozesse
 rund um die Erwerbung, Bestandsmanagement, Ausleihe, den Zugriff und die Auffindbarmachung
 von Bibliotheksbeständen über Kataloge abgebildet und automatisiert werden
 können.
+
 :::
 
 Durch die Ausweitung der Aufgaben in
@@ -69,7 +72,6 @@ divers, ist zuletzt aber von vielen Übernahmen geprägt worden, sodass
 man von einem konsolidierten Markt sprechen kann [@breeding_library_nodate].
 
 :::{.callout-tip}
-## Info
 
 Die **erste Generation** der Bibliotheksmanagementsysteme umfasste Grundfunktionen für die Ausleihe wie Verbuchung und Mahnung, für die Erwerbung die Verwaltung von Bestellungen und teilweise auch über Telnet erreichbare Kataloge für die Bibliotheksnutzer\*innen. Die **zweite BMS-Generation** verfügte über erweiterte Funktionalitäten zur Unterstützung der Kernprozesse und zeichnete sich durch die Bereitstellung der (Nutzer)-kataloge über eine Weboberfläche aus. Die **dritte Generation** zeichnete sich durch stärkere Modularisierung und mehr Schnittstellen zur Anbindung weiterer Systeme aus. 
 
@@ -94,7 +96,6 @@ für Support- und Wartungsdienstleistungen zu.
 ![Evolution der Bibliotheksmanagementsysteme (nach @matthews_library_2020, S. 7)](media/bms-timeline.svg){#fig-bmsevol}
 
 ::: {.callout-tip}
-## Info
 
 Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 überlappende Epochen einteilen (siehe @fig-bmsevol):
@@ -215,7 +216,6 @@ Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können
 beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
 
 :::{.callout-tip}
-## Info
 
 Der [IT-Lebenszyklus]{#it-lebenszyklus} von BMS ist im Vergleich zu anderen IT-Systemen eher lang. So blicken z. B. Systeme wie Aleph, aDIS, LBS, SISIS Sunrise und Koha auf eine 20-30 jährige Entwicklungsgeschichte zurück und befinden sich aktuell immer noch im Einsatz. FOLIO wurde bereits im Rahmen des *Open Library Environment Project* 2009 initiiert und wird wahrscheinlich erst im nächsten Jahrzehnt in die Wartungsphase übergehen.
 
@@ -376,7 +376,6 @@ und eine Erschließungs- und Dienstleistungsqualität andererseits
 erreicht werden kann. 
 
 :::{.callout-tip}
-## Info
 
 Als gedankliches Experiment ist die Überlegung,
 auf ein BMS zu verzichten, jedoch gut geeignet, um sich über die
@@ -386,6 +385,7 @@ kann und sollte kritisch hinterfragt werden. Beispielsweise gab es
 [Überlegungen der Universitätsbibliothek in
 Utrecht](https://insights.uksg.org/articles/10.1629/2048-7754.174/),
 auf dieses klassische Instrument gänzlich zu verzichten.
+
 :::
 
 ### Integration des BMS mit anderen IT-Systemen {#integration}
@@ -742,7 +742,6 @@ Katalogisierung.
 ## Marktanalyse und Beschaffung
 
 :::{.callout-tip}
-## Info
 
 Der deutschsprachige [BMS-Markt 2024](#tbl-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, [Varianten des Betriebs-](management.md#betriebsmodelle) und Geschäftsmodells oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuziehen. 
 
