@@ -20,5 +20,9 @@ format:
       - outer=2cm
       - heightrounded
     include-in-header:
-      - text: | 
+      - text: |         
           \counterwithout{footnote}{chapter}
+ 
+    # filters:
+    #  - templates/pandoc-quotes.lua
+    #  - templates/glossary_for_pdf.lua
