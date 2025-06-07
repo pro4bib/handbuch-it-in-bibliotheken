@@ -9,6 +9,7 @@ format:
     number-sections: true
     number-depth: 3
     fontsize: 11pt
+    # requires to install font: sudo apt-get install fonts-linuxlibertine
     sansfont: Linux Biolinum O
     mainfont: Linux Biolinum O
     geometry:
@@ -21,8 +22,10 @@ format:
       - heightrounded
     include-in-header:
       - text: |         
+          \usepackage{libertine}
+          \usepackage{orcidlink}
           \counterwithout{footnote}{chapter}
  
-    # filters:
-    #  - templates/pandoc-quotes.lua
-    #  - templates/glossary_for_pdf.lua
+    filters:
+     - templates/pandoc-quotes.lua
+     - templates/glossary_for_pdf.lua

@@ -7,7 +7,7 @@ project:
 metadata-files:
   - about.yml
   - glossar.yml
-#  - pdf.yml
+  - pdf.yml
 
 book:
   downloads:
