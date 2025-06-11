@@ -20,23 +20,38 @@ glossary:
 
   CBS:
     definition: Katalogdatenbank von OCLC, wird insbesondere für den Verbundkatalog K10plus verwendet
-
+  
   CMS:
     url: https://de.wikipedia.org/wiki/Content-Management-System
-    definition: Content-Management-System
+    definition: Content-Management-System, mit dem Inhalte für einen Webauftritt verwaltet werden
+	
+  CRIS:
+    definition: Current Research Information System, international verwendeter Begriff für Forschungsinformationsysteme  
 
   COUNTER:
     definition: Counting Online Usage of NeTworked Electronic Resources
     url: https://www.projectcounter.org/
   
+  DAIA:
+    url: https://gbv.github.io/daia/daia.html
+    definition: Document Availability Information API, Schnittstelle zur Abfrage der Verfügbarkeit von Dokumenten in Bibliotheken
+  
   DDC:
     url: https://de.wikipedia.org/wiki/Dewey-Dezimalklassifikation
     definition: Dewey-Dezimalklassifikation, Klassifikation für die Sacherschließung von Bibliotheksbeständen
     
+  DFG:
+    url: https://www.dfg.de/
+    definition: Deutsche Forschungsgemeinschaft  
+  
   DMP:
     url: https://forschungsdaten.info/themen/informieren-und-planen/datenmanagementplan/
     definition: Datenmanagementplan
-    
+  
+  DNB:
+    url: https://www.dnb.de/
+    definition: Deutsche Nationalbibliothek
+  
   DNS:
     definition: Domain Name System. Auflösung von Server-Namen zu IP-Adressen
 
@@ -56,8 +71,11 @@ glossary:
     url: https://de.wikipedia.org/wiki/Elektronisches_Laborbuch
     definition: elektronisches Laborbuch
 
+  EM:
+    definition: Elektromagnetische Sicherung, im Gegensatz zu RFID
+  
   EMERAC:
-    definition: Electromagnetic MEmory and Research Arithmetical Calculator
+    definition: Electromagnetic Memory and Research Arithmetical Calculator
 
   ERM:
     definition: Electronic Resource Management, Verwaltung von Lizenzinformationen zu E-Ressourcen
@@ -66,6 +84,10 @@ glossary:
   ERP:
     url: https://de.wikipedia.org/wiki/Enterprise-Resource-Planning
     definition: Enterprise-Ressource-Planning, Ressourcen wie z.B. Finanzen unternehmerisch überwachen und planen
+	
+  ETL:
+    url: https://de.wikipedia.org/wiki/ETL-Prozess
+    definition: Extract, Transform, Load, Prozess zur Datenintegration	
 
   FDM:
     url: https://forschungsdaten.info/themen/informieren-und-planen/was-ist-forschungsdatenmanagement/
@@ -83,9 +105,31 @@ glossary:
 #    definition: Open-Source Bibliotheksmanagementsystem
 #    url: https://www.folio-bib.org/
 
+  GBV:
+    url: https://www.gbv.de/
+    definition: Gemeinsamer Bibliotheksverbund, Zusammenschluss von Bibliotheken in sieben Bundesländern  
+  
+  GLAM:
+    definition: Überbegriff für Gedächtniseinrichtungen (Galleries, Libraries, Archives, Museums)
+	
+  GND:
+    url: https://www.dnb.de/gnd
+    definition: Gemeinsame Normdatei, zentrale Normdatei für Personen, Körperschaften, Kongresse, Geografika und Schlagwörter	
+  
   GOKB:
-    definition: Global Open Knowledge Base, Freie Datenbank zu E-Ressourcen, insbesondere für ERM
+    definition: Global Open Knowledgebase, Freie Datenbank zu E-Ressourcen, insbesondere für ERM-Systeme
     url: https://gokb.org/
+
+  HBZ:
+    url: https://www.hbz-nrw.de/
+    definition: Hochschulbibliothekszentrum des Landes Nordrhein-Westfalen
+	
+  HF-RFID:
+    definition: High Frequency Radio Frequency Identification, RFID-Technologie im 13,56 MHz-Band
+  
+  HIS:
+    url: https://www.his.de/
+    definition: Hochschul-Informations-System, Anbieter für Software-Lösungen für Verwaltungsprozesse im Hochschulbereich
 
   ID:
     definition: Identifikator, eindeutige Referenz auf einen Datensatz
@@ -97,7 +141,14 @@ glossary:
   IIIF:
     url: https://de.wikipedia.org/wiki/International_Image_Interoperability_Framework
     definition: International Image Interoperability Framework, Standard für digitale Bilder
-
+	
+  ILS:
+    definition: Integrated Library System, international verwendeter Begriff für Bibliotheksmanagementsysteme
+	
+  JSON:
+    url: https://de.wikipedia.org/wiki/JavaScript_Object_Notation
+    definition: JavaScript Object Notation, leichtgewichtiges Datenformat	
+	
   KBART:
     url: https://www.niso.org/standards-committees/kbart
     definition: Knowledgebases and related tools, Datenformat zum Transfer von Metadaten
@@ -110,20 +161,35 @@ glossary:
 #    url: https://de.wikipedia.org/wiki/Lock-in-Effekt
 #    definition: Kundenbindung durch hohen Wechselaufwand
 
+  LDAP:
+    url: https://de.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
+    definition: Lightweight Directory Access Protocol, Protokoll zur Abfrage und Änderung von Verzeichnisdiensten
+
   LLM:
     definition: Large Language Model, eine statistisches Sprachmodell zur Erzeugung von Text
 
-  LZA:
-    url: https://de.wikipedia.org/wiki/Langzeitarchivierung
+  LZA:://de.wikipedia.org/wiki/Langzeitarchivierung
     definition: Langzeitarchivierung
     
   MARC:
     url: https://de.wikipedia.org/wiki/Machine-Readable_Cataloging
     definition: MAchine-Readable Cataloging, ältestes und noch immer wichtigstes bibliothekarisches Austauschformat
+	
+  METS:
+    url: https://www.loc.gov/standards/mets/
+    definition: Metadata Encoding and Transmission Standard, Standard für die Kodierung von Metadaten
+
+  MODS:
+    url: https://www.loc.gov/standards/mods/
+    definition: Metadata Object Description Schema, XML-Schema für bibliografische Metadaten	
+
+  NCIP:
+    url: https://www.niso.org/standards-committees/ncip
+    definition: NISO Circulation Interchange Protocol, Standard für die Kommunikation zwischen Bibliothekssystemen
 
   NFDI:
     url: https://www.nfdi.de/
-    definition: Nationale Forschungsdateninfrastruktur
+    definition: Nationale Forschungsdateninfrastruktur, Dach für fachliche Konsortien für das Management von Forschungsdaten
 
   OAI-PMH:
     url: https://www.openarchives.org/pmh/
@@ -132,6 +198,10 @@ glossary:
   OCR:
     definition: Automatische Erkennung von Texten in Bildern (Optical Character Recognition)
     url: https://de.wikipedia.org/wiki/Texterkennung
+
+  OCR-D:
+    url: https://ocr-d.de/
+    definition: Open Source OCR Software Stack für historische Drucke, entwickelt im DFG-Projekt OCR-D
 
   OER:
     definition: Open Educational Resources, freie Bildungsmaterlien wie Kurse, Lernvideos und Bilder
@@ -147,21 +217,59 @@ glossary:
   OPAC:
     url: https://de.wikipedia.org/wiki/OPAC
     definition: Online Public Access Catalogue, Katalog einer Bibliothek
+	
+  OpenURL:
+    url: https://de.wikipedia.org/wiki/OpenURL
+    definition: Standard für die Kontextualisierung von Links zu elektronischen Ressourcen
+   
+  ORCID:
+    url: https://orcid.org/
+    definition: Open Researcher and Contributor ID, eindeutiger Identifikator für wissenschaftliche Autorinnen und Autoren	
+  
+  QR-Code:
+    url: https://de.wikipedia.org/wiki/QR-Code
+    definition: Quick Response Code, zweidimensionaler Code zur maschinellen Lesbarkeit
 
+  PAIA:
+    url: https://gbv.github.io/paia/
+    definition: Patron Account Information API, Schnittstelle zur Abfrage von Nutzerkonten  
+  
   PDA:
-    definition: Patron-Driven-Acquisition
+    definition: Patron-Driven-Acquisition, Verfahren für die Einbeziehung von Nutzenden in den Medienerwerb
 
   PID:
     url: https://de.wikipedia.org/wiki/Persistent_Identifier
     definition: Persistent Identifier, eine eindeutige und dauherhafte Benennung einer digitalen Ressource
+	
+  PPN:
+    definition: Pica-Produktionsnummer, eindeutige Identifikationsnummer für Datensätze im PICA-Format	
+
+  RDA:
+    url: https://www.dnb.de/rda
+    definition: Resource Description and Access, internationaler Standard für die Katalogisierung
+
+  RFID:
+    url: https://de.wikipedia.org/wiki/RFID
+    definition: Radio-Frequency Identification, Technologie zur automatischen Identifikation von Objekten
+
+  RSS:
+    url: https://de.wikipedia.org/wiki/RSS
+    definition: Really Simple Syndication, Format für Web-Feeds
 
   SaaS:
     url: https://de.wikipedia.org/wiki/Software_as_a_Service
     definition: Software as a Service, Software und Hardware bei externem Dienstleister
 
+  SAP:
+    url: https://www.sap.com/
+    definition: Kommerzielle Produktfamilie für betriebswirtschaftliche Aufgaben, z.B. Rechnungswesen
+
   SIP2:
     url: https://en.wikipedia.org/wiki/Standard_Interchange_Protocol
     definition: Protokoll zur Anbindung von Selbstbedienungsautomaten an Bibliothekssysteme
+	
+  SLNP:
+    definition: Proprietäres Protokoll für den Informationsaustausch mit Bibliotheksmanagementsystemenen	
   
   SRU:
     url: https://de.wikipedia.org/wiki/Search/Retrieve_via_URL
@@ -170,6 +278,25 @@ glossary:
   SWORD:
     url: https://en.wikipedia.org/wiki/SWORD_(protocol)
     definition: Simple Webservice Offering Repository Deposit
+	
+  UHF-RFID:
+    definition: Ultra High Frequency Radio Frequency Identification, RFID-Technologie im 860-960 MHz-Band
+
+  VZG:
+    url: https://www.vzg.de/
+    definition: Verbundzentrale des GBV, zentrale Einrichtung des Gemeinsamen Bibliotheksverbunds
+	
+  WCAG:
+    url: https://www.w3.org/WAI/standards-guidelines/wcag/
+    definition: Web Content Accessibilty Guidelines	
+
+  XML:
+    url: https://de.wikipedia.org/wiki/Extensible_Markup_Language
+    definition: Extensible Markup Language, Auszeichnungssprache zur Darstellung hierarchisch strukturierter Daten
+
+  Xpath:
+    url: https://de.wikipedia.org/wiki/XPath
+    definition: XML Path Language, Abfragesprache für XML-Dokumente	
     
 #  Usability:
 #    url: https://de.wikipedia.org/wiki/Gebrauchstauglichkeit_(Produkt)
@@ -179,9 +306,6 @@ glossary:
 #    url: https://de.wikipedia.org/wiki/User_Experience
 #    definition: Nutzererfahrung
 
-  WCAG:
-    url: https://www.w3.org/WAI/standards-guidelines/wcag/
-    definition: Web Content Accessibilty Guidelines
-
-#  Z39.50:
-#    definition: Protokoll zur Abfrage von bibliografischen Daten
+   Z39.50:
+    url: https://de.wikipedia.org/wiki/Z39.50
+    definition: Protokoll zur Abfrage von bibliografischen Daten
