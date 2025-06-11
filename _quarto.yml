@@ -33,8 +33,9 @@ book:
   appendices:
     - glossar.md
     - abbildungen.md
-    - mitarbeit.md
+    - danksagung.md
     - contributors.md
+    - mitarbeit.md
   sidebar:
     style: docked
     logo: media/logo.svg
