@@ -7,10 +7,6 @@ glossary:
     url: https://en.wikipedia.org/wiki/Article_processing_charge
     definition: Article processing charge, gebräuchlich auch als publication fee
     
-#  Avram:
-#    url: https://format.gbv.de/schema/avram/specification
-#    definition: Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+
-
   BSZ:
     url: https://www.bsz-bw.de/
     definition: Bibliotheksservice-Zentrum Baden-Württemberg, zentrale Einrichtung des Südwestdeutscher Bibliotheksverbund (SWB)
@@ -58,10 +54,6 @@ glossary:
   DOI:
     url: https://de.wikipedia.org/wiki/Digital_Object_Identifier
     definition: Digital Object Identifier, eindeutiger und dauerhafter digitaler Identifikator für Objekte
-    
-#  Discovery-System:
-#    definition: Auf Suchmaschinentechnologie beruhende Systeme zur Suche in großen (auch externen) Datenbeständen
-#    url: https://de.wikipedia.org/wiki/Discovery-System
 
   EDIFACT:
     definition: Electronic Data Interchange for Administration, Commerce and Transport
@@ -101,10 +93,6 @@ glossary:
     url: https://de.wikipedia.org/wiki/Forschungsinformationssystem
     definition: Forschungsinformationssystem
 
-#  FOLIO:
-#    definition: Open-Source Bibliotheksmanagementsystem
-#    url: https://www.folio-bib.org/
-
   GBV:
     url: https://www.gbv.de/
     definition: Gemeinsamer Bibliotheksverbund, Zusammenschluss von Bibliotheken in sieben Bundesländern  
@@ -117,7 +105,7 @@ glossary:
     definition: Gemeinsame Normdatei, zentrale Normdatei für Personen, Körperschaften, Kongresse, Geografika und Schlagwörter	
   
   GOKB:
-    definition: Global Open Knowledgebase, Freie Datenbank zu E-Ressourcen, insbesondere für ERM-Systeme
+    definition: Global Open Knowledge Base, Freie Datenbank zu E-Ressourcen, insbesondere für ERM-Systeme
     url: https://gokb.org/
 
   HBZ:
@@ -157,10 +145,6 @@ glossary:
     url: https://www.kerndatensatz-forschung.de/
     definition: Kerndatensatz Forschung, ein Standard für Forschungsinformationen für das deutsche Wissenschaftssystem
 
-#  Lock-In-Effekt:
-#    url: https://de.wikipedia.org/wiki/Lock-in-Effekt
-#    definition: Kundenbindung durch hohen Wechselaufwand
-
   LDAP:
     url: https://de.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol
     definition: Lightweight Directory Access Protocol, Protokoll zur Abfrage und Änderung von Verzeichnisdiensten
@@ -168,7 +152,8 @@ glossary:
   LLM:
     definition: Large Language Model, eine statistisches Sprachmodell zur Erzeugung von Text
 
-  LZA:://de.wikipedia.org/wiki/Langzeitarchivierung
+  LZA:
+    url: https://de.wikipedia.org/wiki/Langzeitarchivierung
     definition: Langzeitarchivierung
     
   MARC:
@@ -298,6 +283,26 @@ glossary:
     url: https://de.wikipedia.org/wiki/XPath
     definition: XML Path Language, Abfragesprache für XML-Dokumente	
     
+  Z39.50:
+    url: https://de.wikipedia.org/wiki/Z39.50
+    definition: Protokoll zur Abfrage von bibliografischen Daten
+    
+#  Avram:
+#    url: https://format.gbv.de/schema/avram/specification
+#    definition: Schemasprache für feldbasierte Datenformate, insbesondere MARC und PICA+
+#   
+#  Discovery-System:
+#    definition: Auf Suchmaschinentechnologie beruhende Systeme zur Suche in großen (auch externen) Datenbeständen
+#    url: https://de.wikipedia.org/wiki/Discovery-System
+
+#  Lock-In-Effekt:
+#    url: https://de.wikipedia.org/wiki/Lock-in-Effekt
+#    definition: Kundenbindung durch hohen Wechselaufwand
+#
+#  FOLIO:
+#    definition: Open-Source Bibliotheksmanagementsystem
+#    url: https://www.folio-bib.org/
+#
 #  Usability:
 #    url: https://de.wikipedia.org/wiki/Gebrauchstauglichkeit_(Produkt)
 #    definition: Gebrauchstauglichkeit
@@ -306,6 +311,4 @@ glossary:
 #    url: https://de.wikipedia.org/wiki/User_Experience
 #    definition: Nutzererfahrung
 
-   Z39.50:
-    url: https://de.wikipedia.org/wiki/Z39.50
-    definition: Protokoll zur Abfrage von bibliografischen Daten
+
