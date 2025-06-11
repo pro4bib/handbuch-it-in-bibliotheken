@@ -716,20 +716,17 @@ anzutreffen sind.
 
 -   **YouTube, Vimeo:** Plattformen für die Veröffentlichung von Videos
 
--   ***Fediverse:** Netzwerk unterschiedlicher dezentraler Dienste, die mit dem
-    gleichen Account genutzt werden können (siehe [FediDB](https://fedidb.org/) für eine
+-   **Fediverse:** Netzwerk unterschiedlicher dezentraler Dienste, die mit dem
+    gleichen Account genutzt werden können (siehe [FediDB](https://fedidb.com/) für eine
     statistische Übersicht; Mastodon ist sicherlich der
     bekannteste davon, aber auch das CMS WordPress gehört dazu, so dass sich
     WordPress-Beiträge in den unterschiedlichen Fediverse-Kanälen teilen lassen.
 
 -   **LinkedIn:** Das ursprüngliche Berufsnetzwerk hat sich inzwischen zu
-    einer allgemeinen Plattform
-    entwickelt, auf der Inhalte geteilt und diskutiert werden. Vor
-    allem für Themen aus Wissenschaft und Forschung eignet sich
-    LinkedIn als Plattform. Allerdings ist hier zu beachten, dass
-    persönliche Accounts vom Algorithmus bevorzugt behandelt werden im
-    Gegensatz zu Unternehmensseiten, sodass über persönliche Accounts
-    geteilte Inhalte eine deutlich höhere Reichweite erzielen.
+    einer allgemeinen Plattform entwickelt, auf der Inhalte geteilt und diskutiert
+    werden, auch zu Themen aus Wissenschaft und Forschung. Über persönliche
+    Accounts geteilte Inhalte erreichen allerdings eine deutlich höhere Reichweite
+    als Inhalte von Unternehmensseiten.
 
 ### Newsletter
 
@@ -774,7 +771,7 @@ Unter digitalen Anzeigen werden alle Arten von elektronischen Displays
 verstanden, die Informationen zu Institutionen oder Angeboten und
 Veranstaltungen anzeigen. Beispiele sind Infotafeln und Wegweiser.
 
-### Wiki
+### Wikis
 
 Ein Wiki ist eine webbasierte Sammlung von Informationen, Artikeln oder
 Beiträgen zu bestimmten Themen. Diese können von Nutzenden selbst
