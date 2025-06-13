@@ -88,6 +88,12 @@ der Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
 
 Eine Liste aller Beteiligten Autor\*innen findet sich im [Anhang D](#sec-contributors).
 
+<!--
+, das zentrale IT-Themen in bibliothekarischen Kontexten praxisorientiert aufbereitet. Es richtet sich an ein breites Spektrum von Fachleuten: von Bibliotheksleitungen über IT-Verantwortliche in wissenschaftlichen Einrichtungen bis hin zu Studierenden und Forschenden. Die Entstehung des Handbuchs erfolgte in mehreren sogenannten _Booksprints_, bei denen die Inhalte in Workshops gemeinsam geplant und zunächst in Google Docs verfasst wurden. Anschließend wurden die Kapitel in Markdown übertragen und über die Plattform it-in-bibliotheken.de veröffentlicht. Die Quelltexte stehen zusätzlich über ein öffentlich zugängliches GitHub-Repository zur Verfügung. Die Inhalte werden zentral verwaltet und durch automatisierte Prozesse regelmäßig in verschiedene Ausgabeformate überführt. Änderungen an der Struktur oder an Mediendateien erfolgen über das Git-Repository, in dem auch das Autor*innenverzeichnis gepflegt wird.
+
+Das Besondere an diesem Projekt ist die Offenheit für Beteiligung.
+-->
+
 ## Rechte an den Inhalten {#lizenz}
 
 Alle Inhalte dieses Buches werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden (siehe Abbildungsverzeichnis, @sec-abbildungen).
