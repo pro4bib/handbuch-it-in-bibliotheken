@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz">
+
+<title>5&nbsp; Sicherheit &amp; Datenschutz – Handbuch IT in Bibliotheken</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./metadaten.html" rel="next">
+<link href="./anforderungen.html" rel="prev">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9546b0ec21e596eb800732cc565da03e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+<link rel="canonical" href="https://it-in-bibliotheken.de/sicherheit.html">
+
+
+<link rel="stylesheet" href="style.css">
+<meta name="twitter:title" content="5&nbsp; Sicherheit &amp; Datenschutz – Handbuch IT in Bibliotheken">
+<meta name="twitter:description" content="Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Digitalisierung…">
+<meta name="twitter:image" content="media/datenschutz-vs-sicherheits-beauftragte.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./sicherheit.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sicherheit &amp; Datenschutz</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Handbuch IT in Bibliotheken</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einleitung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./infrastruktur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Technische Infrastruktur</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">IT-Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anforderungsanalyse</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sicherheit.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sicherheit &amp; Datenschutz</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./metadaten.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Daten &amp; Metadaten</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Bibliotheksmanagementsysteme</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Discovery-Systeme</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./digitalisierung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Digitalisierung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./forschungsnahe-dienste.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Forschungsnahe Dienste</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kommunikation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./literatur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Literaturverzeichnis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Anhang</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Abkürzungsverzeichnis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./abbildungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Abbildungsverzeichnis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./danksagung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Danksagung</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./contributors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Beteiligte Autor*innen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mitarbeit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Hinweise zur Mitarbeit</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung"><span class="header-section-number">5.1</span> Einleitung</a></li>
+  <li><a href="#sicherheitsvorfall" id="toc-sicherheitsvorfall" class="nav-link" data-scroll-target="#sicherheitsvorfall"><span class="header-section-number">5.2</span> Sicherheitsvorfall</a>
+  <ul class="collapse">
+  <li><a href="#einfallstore" id="toc-einfallstore" class="nav-link" data-scroll-target="#einfallstore"><span class="header-section-number">5.2.1</span> Einfallstore</a></li>
+  <li><a href="#bisherige-erfahrungen" id="toc-bisherige-erfahrungen" class="nav-link" data-scroll-target="#bisherige-erfahrungen"><span class="header-section-number">5.2.2</span> Bisherige Erfahrungen</a></li>
+  <li><a href="#wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit" id="toc-wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit" class="nav-link" data-scroll-target="#wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit"><span class="header-section-number">5.2.3</span> Wo bleibt die Künstliche Intelligenz der IT-Sicherheit?</a></li>
+  </ul></li>
+  <li><a href="#richtlinien-und-vorgaben" id="toc-richtlinien-und-vorgaben" class="nav-link" data-scroll-target="#richtlinien-und-vorgaben"><span class="header-section-number">5.3</span> Richtlinien und Vorgaben</a>
+  <ul class="collapse">
+  <li><a href="#it-sicherheit" id="toc-it-sicherheit" class="nav-link" data-scroll-target="#it-sicherheit"><span class="header-section-number">5.3.1</span> IT-Sicherheit</a></li>
+  <li><a href="#datenschutz" id="toc-datenschutz" class="nav-link" data-scroll-target="#datenschutz"><span class="header-section-number">5.3.2</span> Datenschutz</a></li>
+  </ul></li>
+  <li><a href="#präventivmaßnahmen" id="toc-präventivmaßnahmen" class="nav-link" data-scroll-target="#präventivmaßnahmen"><span class="header-section-number">5.4</span> Präventivmaßnahmen</a>
+  <ul class="collapse">
+  <li><a href="#passwortsicherheit" id="toc-passwortsicherheit" class="nav-link" data-scroll-target="#passwortsicherheit"><span class="header-section-number">5.4.1</span> Passwortsicherheit</a></li>
+  <li><a href="#authentifizierung-und-autorisierung" id="toc-authentifizierung-und-autorisierung" class="nav-link" data-scroll-target="#authentifizierung-und-autorisierung"><span class="header-section-number">5.4.2</span> Authentifizierung und Autorisierung</a></li>
+  <li><a href="#updates-und-backups" id="toc-updates-und-backups" class="nav-link" data-scroll-target="#updates-und-backups"><span class="header-section-number">5.4.3</span> Updates und Backups</a></li>
+  <li><a href="#schulungen" id="toc-schulungen" class="nav-link" data-scroll-target="#schulungen"><span class="header-section-number">5.4.4</span> Schulungen</a></li>
+  </ul></li>
+  <li><a href="#handlungsempfehlungen" id="toc-handlungsempfehlungen" class="nav-link" data-scroll-target="#handlungsempfehlungen"><span class="header-section-number">5.5</span> Handlungsempfehlungen</a></li>
+  <li><a href="#fazit" id="toc-fazit" class="nav-link" data-scroll-target="#fazit"><span class="header-section-number">5.6</span> Fazit</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/sicherheit.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/sicherheit.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script>chapters={"einleitung":"https://docs.google.com/document/d/1UVQ31DIL_if5dU5PHUCLDJ4EeltrbZMe/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","management":"https://docs.google.com/document/d/1u-2li4kiMG13cYwiXgJ8ZCfA7JZu3gQB/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","anforderungen":"https://docs.google.com/document/d/1-ulLfARosY4Vk2ZVMuTv6F1Ru5ne76om/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","infrastruktur":"https://docs.google.com/document/d/1e-THCiAVxPdYtEiV2haztqsGf3k0x_PO/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","bibliotheksmanagementsysteme":"https://docs.google.com/document/d/1hi3Zf7rmLrYSXB2XdEv_PCl4HrySdQqn/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","discovery":"https://docs.google.com/document/d/1P1FHgf1wNgER0mjSFMnlGWLo0Is6J0te/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","metadaten":"https://docs.google.com/document/d/1yM0PULt_6MMrE3fDCrzg20uIw_oni9kT/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","mitarbeit":"https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","kommunikation":"https://docs.google.com/document/d/1r6m1l6gkw6T4qS-sI1lvD6idf2ZBWcRK/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","digitalisierung":"https://docs.google.com/document/d/1_DIqvtejlagiG0zvtpOX_Wz5gd4Q41FW/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","sicherheit":"https://docs.google.com/document/d/1yyFOLw83UyDvE6-9kXfVxVaxR3qriaVV/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","forschungsnahe-dienste":"https://docs.google.com/document/d/1TImCiRVNEZTNzGbRVpYRFF2GBzrZyYv7/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true"}
+</script>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-sicherheit" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sicherheit &amp; Datenschutz</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note callout-titled" title="Zusammenfassung">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Zusammenfassung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dieses Kapitel soll für das Thema IT-Sicherheit und Datenschutz sensibilisieren und geht dabei auch auf bibliotheksspezifische Besonderheiten ein. Nach der Beschreibung eines <a href="#sicherheitsvorfall">Sicherheitsvorfalls</a> werden <a href="#richtlinien-und-vorgaben">Richtlinien und Vorgaben</a> diskutiert, <a href="#präventivmaßnahmen">Präventivmaßnahmen</a> vorgestellt und <a href="#handlungsempfehlungen">Handlungsempfehlungen</a> gegeben. Im Anschluss werden wichtige Aspekte des <a href="#datenschutz">Datenschutzes</a> erläutert.</p>
+</div>
+</div>
+<section id="einleitung" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="einleitung"><span class="header-section-number">5.1</span> Einleitung</h2>
+<p>In den letzten Jahren ist die Zahl der Angriffe auf Bildungseinrichtungen, insbesondere Hochschulen und ihre Bibliotheken, deutlich gestiegen. Laut der Hochschulrektorenkonferenz (HRK) waren bis Januar 2023 insgesamt 24 Hochschulen bzw.&nbsp;Universitäten solchen cyberkriminellen Angriffen ausgesetzt und nahmen Schaden <span class="citation" data-cites="MDR2023">(<a href="literatur.html#ref-MDR2023" role="doc-biblioref">MDR 2023</a>)</span>. Informationseinrichtungen aller Sparten werden zudem mit sicherheits- und datenschutzrelevanten Aufgaben konfrontiert.</p>
+<p>Die Entwicklung hin zur Digitalisierung, Automatisierung und Virtualisierung zieht nicht nur die Technisierung eigener Geschäftsgänge und Dienstleistungen nach sich. Diese Entwicklung erfordert auch eine größere Sensibilität und Aufmerksamkeit hinsichtlich der Sicherheit der eigenen Systeme. Safety und Security sind hierfür wichtige, zu unterscheidende Grundprinzipien.</p>
+<div class="callout callout-style-simple callout-important callout-titled" title="Definition">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Security</strong> beinhaltet alle Maßnahmen zum Schutz vor Diebstahl oder Beschädigung von Soft- und Hardware. <strong>Safety</strong> meint den sicherheitsbewussten Umgang mit Netzwerken und Daten <span class="citation" data-cites="Hollaender2023">(<a href="literatur.html#ref-Hollaender2023" role="doc-biblioref">Holländer 2023</a>)</span>.</p>
+</div>
+</div>
+<p>Bibliotheken verstehen sich als Orte, die ihre Informationen und vielschichtigen Dienstleistungen i.d.R. einer großen Nutzendenschaft zur Verfügung stellen. Sie tragen durch ihre Arbeit zur Umsetzung der Openness-Strategie in Gesellschaft und Wissenschaft bei. Offenheit und Transparenz sind schützenswerte Haltungen von Bibliotheken, welche gleichzeitig aber auch eine größere Angriffsfläche ermöglichen.</p>
+<p>Doch was macht Bibliotheken und Hochschulen so interessant für Angriffe? An diesen Orten werden für Cyberkriminelle interessante Daten verwaltet. Dazu gehören personenbezogene Daten von Nutzenden und Beschäftigten, schützenswerte Forschungsdaten, Bewegungsdaten, Lizenzdaten, Daten zur Nutzung von Literatur, etc. Die dabei abgegriffenen Daten können u.a.&nbsp;für Identitätsdiebstahl, Offenlegung privater Informationen oder für die Erstellung eines detaillierten Nutzerprofils herangezogen werden <span class="citation" data-cites="Hollaender2023">(<a href="literatur.html#ref-Hollaender2023" role="doc-biblioref">Holländer 2023</a>)</span>.</p>
+<p>IT-Sicherheit und Datenschutz sind auch immer eine Frage der Zuständigkeit. Je nach Größe, Art und Organisationsstruktur der Bibliothek muss die IT-Sicherheit mit den beteiligten Instanzen wie Stadtverwaltung, Verbundzentrale, den Rechen- und IT-Zentren der Institution und den IT-Sicherheitsbeauftragten und Datenschutzbeauftragten in Bezug auf die Verantwortlichkeiten abgestimmt werden. Grundsätzlich liegt die Aufgabe der Sensibilisierung und Schulung des Bibliothekspersonals im direkten Verantwortungsbereich der Bibliothek.</p>
+<div id="fig-datenschutz-datensicherheit" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-datenschutz-datensicherheit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/datenschutz-vs-sicherheits-beauftragte.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-datenschutz-datensicherheit-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5.1: Abgrenzung Datenschutzbeauftragte*r IT-Sicherheitsbeauftrage*r
+</figcaption>
+</figure>
+</div>
+<p>Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden <span class="citation" data-cites="Kost2022">(<a href="literatur.html#ref-Kost2022" role="doc-biblioref">Kost u.&nbsp;a. 2022</a>)</span>. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema IT-Sicherheit sensibilisieren, eine Beschreibung eines Sicherheitsvorfalls und einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für den Datenschutz.</p>
+</section>
+<section id="sicherheitsvorfall" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="sicherheitsvorfall"><span class="header-section-number">5.2</span> Sicherheitsvorfall</h2>
+<section id="einfallstore" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="einfallstore"><span class="header-section-number">5.2.1</span> Einfallstore</h3>
+<p>Prominente Vorfälle in verschiedenen wissenschaftlichen Einrichtungen haben in den letzten Jahren Schwachstellen in IT-Systemen offenbart, die ernstzunehmende Sicherheitslücken darstellen. Dabei ist zu beachten, dass sowohl Maschinen als auch Menschen verantwortlich für diese Lücken sein können. Folgende sind die häufigsten Angriffsmethoden:</p>
+<ul>
+<li><p><strong>Social Engineering:</strong> Unter Social Engineering versteht man Methoden, die zum Vertrauensgewinn eingesetzt werden, um anschließend an sensible Informationen, Zugangsdaten für Systeme oder finanzielle Mittel zu gelangen. Social Engineering-Attacken können über persönliche Kontakte oder über Webdienste wie E-Mails oder Webseiten durchgeführt werden.</p></li>
+<li><p><strong>Phishing:</strong> Hierbei werden seriös wirkende E-Mails versendet, um den Empfänger*innen Kennwörter oder Zahlungsinformationen zu entlocken, um so an sensible Daten zu gelangen. Die „Qualität“ derartiger gefälschter E-Mails variiert stark. Es zeigt sich jedoch, dass sie kontinuierlich professioneller umgesetzt werden und schwieriger zu identifizieren sind. Häufig werden Phishing-Attacken mit Links auf präparierte Webseiten (sog. Watering Holes) kombiniert. In diesem Fall dienen sie auch als Haupteintrittstore für Ransomware, Malware, Viren und Würmer.</p></li>
+<li><p><strong>Ransomware:</strong> Bei dieser Art des Angriffs wird der Zugriff auf Daten eingeschränkt oder unterbunden, z.B.&nbsp;durch Verschlüsselung. Für die Wiederherstellung des Zugriffs wird ein Lösegeld gefordert. Ransomware hat von allen Angriffsmethoden das größte Schadenspotential. Neben Lösegeldforderungen entstehen hohe Ausfalls- und Wiederherstellungskosten.<br>
+Als Beispiel: Für die direkten Kosten des Ransomware-Angriffs 2019 auf die JLU Gießen werden mit Stand 2023 ca. 1,7 Mio. € für Schadensanalyse und -behebung kalkuliert. Zusätzliche Kosten für Aufwände und Workarounds sind in dieser Analyse nicht berücksichtigt und lassen sich schwer beziffern (<span class="citation" data-cites="Kost2022">Kost u.&nbsp;a. (<a href="literatur.html#ref-Kost2022" role="doc-biblioref">2022</a>)</span>).</p></li>
+<li><p><strong>Denial-of-Service-Attacken (DoS):</strong> Bezeichnet einen Angriff, um die Verfügbarkeit eines Netzwerkes zu beeinträchtigen und gleichzeitig Daten abzugreifen und umzuleiten.</p></li>
+</ul>
+</section>
+<section id="bisherige-erfahrungen" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="bisherige-erfahrungen"><span class="header-section-number">5.2.2</span> Bisherige Erfahrungen</h3>
+<p>Bisherige Erfahrungen zeigen die weitreichenden Auswirkungen eines cyberkriminellen Angriffs auf Bibliotheken. In den meisten Fällen ist jedoch nicht nur die Bibliothek alleine betroffen, sondern die gesamte Hochschule, Kommune oder Forschungseinrichtun. Kommt es zu einem Angriff, ist es meist notwendig, alle IT-Dienste herunterzufahren. Eine Abschottung einzelner Dienste kann kaum vorgenommen werden. Man kann sich dies als einen „harten Cut“ und ein Herunterfahren aller eigenen Server und virtuellen Maschinen zur Eingrenzung des schadhaften Fremdzugriffs vorstellen. Diese harte Maßnahme wird vorgenommen, da man nicht abschätzen kann, wo es im System schon zu welchen Schäden gekommen ist. Die Folgen: es funktioniert schlimmstenfalls NICHTS mehr. (W)LAN, Netzlaufwerke, Identity-Management und Anmeldedienste, E-Mail-Dienste, Terminverwaltungstools, Personal-Verwaltungssysteme, Türschließmechanismen, Zeiterfassung, IP-Telefonie, Lüftungs- und Beleuchtungssysteme, etc. Alle netzbetriebenen Dienste sind ggf.&nbsp;für mehrere Tage, Wochen oder sogar Monate außer Betrieb.</p>
+<p>Im Ernstfall können die vorhandenen Dienstgeräte und Kommunikationsdienste nicht mehr verwendet werden. Aufgrund dessen kann man zur Kommunikation auf private Geräte (Notebooks, Smartphones, etc., sofern die Mitarbeiter*innen bereit dazu sind) und alternative E-Mail-Dienste ausweichen. Hier ist zu bedenken, dass diese Adhoc-Lösungen nicht unbedingt den datenschutzrechtlichen Ansprüchen entsprechen wenn keine Vertrag zur Auftragsdatenverarbeitung abgeschlossen wird. Von besonderer Bedeutung ist in diesem Fall auch das Identity Management System (IDMS), das nach einem Angriff gegebenenfalls alternativ aufgebaut werden muss.</p>
+<p>Die fortschreitende Digitalisierung, Automatisierung und Virtualisierung kann durchaus auch hilfreich sein, wenn die Systeme nicht mehr ausschließlich im eigenen Rechenzentrum betrieben werden. So können die extern betriebenen Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüften und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel sei hier das Bibliotheksmanagementsystem (siehe <a href="bibliotheksmanagementsysteme.html" class="quarto-xref"><span>Kapitel 7</span></a>) genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah ermöglicht werden können.</p>
+<p>Zu guter Letzt darf auch nicht unterschätzt werden, welche zeitlichen Ausmaße ein Angriff einnehmen kann und welche psychischen und sozialen Auswirkungen er verursacht. Mitunter muss mit monatelangen Einschränkungen gerechnet werden und es kann nicht davon ausgegangen werden, dass alle Daten vollständig wiederhergestellt werden können. Daher gilt es nicht nur, einen Angriff möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.</p>
+</section>
+<section id="wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit" class="level3" data-number="5.2.3">
+<h3 data-number="5.2.3" class="anchored" data-anchor-id="wo-bleibt-die-künstliche-intelligenz-der-it-sicherheit"><span class="header-section-number">5.2.3</span> Wo bleibt die Künstliche Intelligenz der IT-Sicherheit?</h3>
+<p>Im Zuge der heutigen digitalen Entwicklungen wirft dieses Thema natürlich auch die Frage auf, welche Auswirkungen KI auf die IT-Sicherheit hat. Nach jetzigen Erfahrungen hat KI bislang noch nicht dazu geführt, dass Systeme anfälliger für Angriffe werden. Denkbar ist, dass Phishing-Angriffe vereinfachen kann. Im Gegenzug könnten cyberkriminelle Angriffe durch Monitoring unserer Systeme mit KI erschwert werden.</p>
+</section>
+</section>
+<section id="richtlinien-und-vorgaben" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="richtlinien-und-vorgaben"><span class="header-section-number">5.3</span> Richtlinien und Vorgaben</h2>
+<p>Wie in jedem Bereich unseres Lebens finden sich auch in der IT-Sicherheit mehrere Richtlinien und Vorgaben sowohl auf nationaler als auch auf europäischer Ebene.</p>
+<section id="it-sicherheit" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="it-sicherheit"><span class="header-section-number">5.3.1</span> IT-Sicherheit</h3>
+<p>Auf nationaler Ebene liegt die Zuständigkeit unter anderem beim Bundesamt für Sicherheit in der Informationstechnik (<a href="https://www.bsi.bund.de/DE/Das-BSI/Auftrag/auftrag_node.html">BSI</a>), welches seit 1991 mit der Aufgabe betraut ist, das Regierungsnetz und die kritischen Infrastrukturen (KRITIS) zu schützen. Auf Bundesebene wurde es eine zentrale Anlaufstelle für Sicherheitsstandards, sowie Meldestelle bei IT-Krisen. Es stellt unterschiedliche Normen zur IT-Sicherung zur Verfügung. Wann welcher Standard greift, hängt von der Komplexität des Einzelfalls ab.</p>
+<p>Für Bibliotheken sind hierbei auch die „Checklisten zum <a href="https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html">IT-Grundschutz-Kompendium</a>“ nach dem BSI-Standard 200-2 sehr empfehlenswert, da in diesen der aktuelle Stand der Integration des Grundschutzes überprüft werden kann. In diesem Zusammenhang wird auch auf die ISO/IEC-27000-Familie hingewiesen. In dieser Normenreihe sind neben definierten und stets aktuell gehaltenen Standards, die Anforderungen an Information Security Management Systems (ISMS), Empfehlungen für Kontrollmechanismen, als auch Best-Practices-Empfehlungen zu Aufbau und Organisation von Informationsfreiheit enthalten.</p>
+</section>
+<section id="datenschutz" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="datenschutz"><span class="header-section-number">5.3.2</span> Datenschutz</h3>
+<p>Weitere Institutionen, die einen entscheidenden Einfluss auf die Vereinheitlichung des Datenschutzes in der Europäischen Union durch den Erlass der Datenschutz-Grundverordnung (<a href="https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/europaeische-datenschutzgrundverordnung.html">DSGVO</a>) von 2016 hatten, sind das Europäische Parlament und der Europäische Rat. Die DSGVO gilt seit 2018 unmittelbar in allen der EU zugehörigen Länder. Sie regelt unter anderem, dass jede Person das Recht auf Schutz der sie betreffenden personenbezogenen Daten hat. So dürfen Daten nur für einen bestimmten Zweck erhoben (Zweckbindung) und auch nicht für andere Vorhaben weiterverarbeitet werden (gem. Art 5 II DSGVO). Ferner wird in Art 37 DSGVO die Ernennung eines Datenschutzbeauftragten geregelt.</p>
+<p>Ergänzt wird diese Grundverordnung durch die einzelnen nationalen gesetzgebenden Instanzen. In Deutschland geschieht dies sowohl auf Bundes- als auch auf Landesebene, in Form des Bundesdatenschutzgesetzes (BDSG) sowie der 16 Landesdatenschutzgesetze.</p>
+<p>In Österreich wird die DSGVO ergänzt durch das Datenschutzgesetz (DSG) und das Netz- und Informationssystemsicherheitsgesetz (NISG).</p>
+<p>Ähnliche Gesetze wurden auch außerhalb der EU erlassen. So trat Anfang September 2023 in der Schweiz die neue Verordnung über Datenschutzzertifizierungen (VDSZ) in Kraft, welche sich an den Grundzügen der DSGVO orientiert.</p>
+<p>In ihrer besonderen Rolle als Institutionen für Informationsversorgung und Bereitstellung von Wissensinfrastruktur greifen Bibliotheken auch auf die Dienste externer Anbieter zurück, z.B.&nbsp;durch Verträge mit Wissenschaftsverlagen über digitale Literaturangebote. Hierbei ist es wichtig, dass Bibliotheken in diesen Verträgen darauf bestehen, dass das Tracking des Nutzungsverhaltens der Forschenden ausgeschlossen wird (<span class="citation" data-cites="Reda2022"><span>„Tracking in der Wissenschaft: So können Bibliotheken Daten und Wissenschaftsfreiheit schützen“</span> (<a href="literatur.html#ref-Reda2022" role="doc-biblioref">2022</a>)</span>), um die Wissenschaftsfreiheit und die informationelle Selbstbestimmung zu schützen <span class="citation" data-cites="DFG2021">(<a href="literatur.html#ref-DFG2021" role="doc-biblioref">DFG 2021</a>)</span>.</p>
+<p>Aufgrund der stetigen Weiterentwicklung von Software und neuen Technologien hat die Europäische Kommission einen Vorschlag für ein neues Gesetz zur Widerstandsfähigkeit von Cyberangriffen, den <a href="https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act">Cyber Resilience Act</a>, auf den Weg gebracht. Gemäß diesem Vorschlag sollen Verbraucher*innen und Unternehmen beim Kauf von Produkten und Software mit digitalen Komponenten geschützt werden, indem verbindliche Cyber-Sicherheits-Anforderungen für diese Leistungen durch die Hersteller eingeführt werden sollen. Im nächsten Schritt werden nun das Europäische Parlament und der Europäische Rat über diesen Vorschlag beraten.</p>
+</section>
+</section>
+<section id="präventivmaßnahmen" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="präventivmaßnahmen"><span class="header-section-number">5.4</span> Präventivmaßnahmen</h2>
+<section id="passwortsicherheit" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="passwortsicherheit"><span class="header-section-number">5.4.1</span> Passwortsicherheit</h3>
+<p>Zu einem umfassenden IT-Sicherheitskonzept gehört, dass alle Beteiligten einen bewussten Umgang mit Passwörtern praktizieren. Passwörter sollten zum Beispiel nicht ohne Weiteres für Dritte zugänglich auf Papier oder einem anderen Medium (z. B. unverschlüsselt auf dem Computer) festgehalten werden. Bei Verdacht auf Angriff sollten alle betroffenen Passwörter umgehend geändert werden. Bei einer großen Menge an Passwörtern empfiehlt es sich, einen Passwort-Manager zu verwenden. Für die Wahl des Passworts sollten die allgemein gültigen Empfehlungen beachtet werden (beispielsweise die <a href="Tipps zur Erstellung sicherer Passwörter: https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Sichere-Passwoerter-erstellen/sichere-passwoerter-erstellen_node.html">Passwort-Empfehlungen des BSI</a>).</p>
+</section>
+<section id="authentifizierung-und-autorisierung" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="authentifizierung-und-autorisierung"><span class="header-section-number">5.4.2</span> Authentifizierung und Autorisierung</h3>
+<p>Unter Authentifizierung verstehen wir grundsätzlich das eindeutige Erkennen eines Zugriffs auf eine Ressource wie z.B.&nbsp;einen Dienst oder einen Computer, aber auch auf ein physisches Objekt wie z.B.&nbsp;einen Drucker.</p>
+<p>In der Regel erfolgt heutzutage der Zugriff über ein Netzwerk, d. h., auch die Authentifizierung muss über das Netzwerk erfolgen. Für Geräte (Computer) kann dies durch technische Merkmale wie den Media Access Code (MAC Adresse) oder - flexibler - über die IP-Adresse durchgeführt werden. Diese Merkmale authentifizieren jedoch nur das Gerät und lassen noch keine Aussage darüber zu, wer dieses Gerät gerade benutzt.</p>
+<p>Eine Authentifizierung einer Person erfolgt meistens über eine eindeutige Kennung und ein zugehöriges Passwort. Wenn möglich, sollten verschiedene Authentifizierungsverfahren miteinander kombiniert werden. Es wird dann auch von einer 2-Faktor-Authentifizierung (2FA) bzw.&nbsp;einer Mehrfaktor-Authentifizierung (MFA) gesprochen.</p>
+<p>Ist ein Zugriff eindeutig durch entsprechende Authentifizierung erkannt, kann auf Basis verschiedener Informationen je nach Bedarf entschieden werden, ob der Zugriff auch berechtigt ist. D. h., der Zugriff muss autorisiert werden. Dies kann sehr individuell erfolgen (Konto A hat Zugriff, Konto B nicht) oder anhand der Zugehörigkeit eines Kontos zu einer bestimmten Personengruppe.</p>
+<p>Alle Komponenten, die zur Authentifizierung und Autorisierung in einer Einrichtung notwendig sind, werden auch als Authentifizierungs- und Autorisierungsinfrastruktur (AAI) bezeichnet. Wurde in einer Einrichtung eine AAI aufgebaut, auf welche jede Anwendung zurückgreifen kann, kann man festlegen, dass nach einmaligem Login ein Zugriff auf alle Anwendungen möglich und ein separates Einloggen nicht nötig ist. Dies wird auch als <strong>Single-Sign-On (SSO)</strong> bezeichnet.</p>
+<div id="fig-sso" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-sso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/sso-approaches.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-sso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5.2: Herangehensweisen für Single-Sign-On
+</figcaption>
+</figure>
+</div>
+<p><strong>Links:</strong> Benutzer*in meldet sich auf einem <strong>Portal</strong> an und bekommt Zugriff auf alle eingebundenen Dienste. <strong>Mitte:</strong> Benutzer*in speichert alle Anmeldedaten auf einem Datenträger oder im Netzwerk. Ein <strong>lokal</strong>es Programm meldet ihn*sie separat bei jedem Dienst, Portal oder Ticketing-System ein. <strong>Rechts:</strong> Benutzer*in meldet sich bei einem der Dienste an und bekommt ein <strong>Ticket</strong> für den gesamten „Kreis der Vertrauten“.</p>
+<p>Zentrale Komponenten sind hierbei der <strong>Identity Provider (IDP)</strong>, der auf Basis des dahinterliegenden IDMS eine digitale Identität inkl.&nbsp;notwendiger Benutzer*innenattribute bereitstellt und an dem die einmalige Anmeldung stattfindet. Die genutzten Anwendungen werden allgemein als <strong>Service Provider (SP)</strong> bezeichnet.</p>
+<p>Eine gute Möglichkeit, das Internet sicher zu nutzen, ist das <strong>Virtual Private Network (VPN)</strong>. Das VPN verschlüsselt die Identität von Internetnutzer*innen. Damit wird es Dritten erschwert, die Nutzer*innen im Internet zu verfolgen und Daten abzugreifen. VPN nutzt dabei eine Echtzeitverschlüsselung. Informationen werden in eine unleserliche Form umgewandelt und können nur mit einem Schlüssel wieder in die ursprüngliche leserliche Form gebracht werden.</p>
+</section>
+<section id="updates-und-backups" class="level3" data-number="5.4.3">
+<h3 data-number="5.4.3" class="anchored" data-anchor-id="updates-und-backups"><span class="header-section-number">5.4.3</span> Updates und Backups</h3>
+<p>Eine sichere Hard- und Software ist unabdingbar. Rechner sollten ausreichend geschützt sein. Dazu gehören unter anderem aktuelle Virenscanner und automatische Updates des Virenscanners, des Betriebssystems und jeder auf dem Rechner laufenden Software. Fehlende Updates können als Einfallstore genutzt werden, um Schadsoftware auf den Computer und damit auch in das Netzwerk einzuschleusen.</p>
+<p>Falls es zu einem Angriff oder Ausfall des Systems kommt, muss auf Backups zurückgegriffen werden. Dabei wird eine Sicherungskopie angelegt, meist auf einem anderen Medium, wie z. B. einer externen Festplatte. Server werden mittels eines RAID-Verfahrens gespiegelt, d. h. die Daten werden auf einen zweiten Server übertragen. Da es bei einem Backup auch zu Datenverlust oder -beschädigung kommen kann, empfiehlt es sich, mehr als eine Kopie anzulegen, z. B. auf Magnetbändern.</p>
+<div class="callout callout-style-simple callout-important callout-titled" title="Definition">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ein <strong>Server</strong> ist ein zentraler Rechner (virtuell oder physikalisch), der Daten zur Verfügung hält und diese auf Anfrage durch einen Client (PC, mobiles Gerät) zur Verfügung stellt.</p>
+</div>
+</div>
+</section>
+<section id="schulungen" class="level3" data-number="5.4.4">
+<h3 data-number="5.4.4" class="anchored" data-anchor-id="schulungen"><span class="header-section-number">5.4.4</span> Schulungen</h3>
+<p>Regelmäßige Weiterbildungen ermöglichen es den Mitarbeiter*innen von Bibliotheken, ihre Fähigkeiten auszubauen und die Sensibilität für Themen wie IT-Sicherheit zu erhöhen. Die im Abschnitt <u>Richtlinien und Vorgaben [interne Verlinkung]</u> erwähnten Rahmenbedingungen schaffen dabei ein Grundgerüst für Schulungsinhalte und können für verpflichtende IT-Sicherheitsschulungen - wie sie bereits von einigen Bibliotheken durchgeführt werden - verwendet werden.</p>
+<p>Es sollten zwei Arten von Schulungen durchgeführt werden: für Mitarbeiter*innen und Nutzer*innen. Mitarbeiter*innen sollten dahingehend sensibilisiert werden, dass sie mit schützenswerten Daten arbeiten. Es ist bspw.&nbsp;wichtig, daran zu denken, dass gerade Geräte in Büros im Sichtfeld von Personen durch sinnhafte Positionierung oder Blickschutzfilter vor unbefugtem Sehen geschützt werden. Auf die Wichtigkeit sicherer Passwörter wurde bereits weiter oben in diesem Abschnitt hingewiesen. Es sollte zudem auf die Angriffsmöglichkeiten im Abschnitt <u>„Sicherheitsvorfall“ [interne Verlinkung]</u> aufmerksam gemacht werden. Beispielhafte Erklärungen möglicher Angriffsszenarien und Möglichkeiten (z. B. Tools) sich zu schützen, sollten aufgezeigt werden.</p>
+</section>
+</section>
+<section id="handlungsempfehlungen" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="handlungsempfehlungen"><span class="header-section-number">5.5</span> Handlungsempfehlungen</h2>
+<p>Sind öffentliche Einrichtungen (Hochschulen, Kommunen) von Cyberattacken betroffen, hat dies allumfassende Folgen. Im schlimmsten Fall sind sämtliche Dienste nicht mehr verfügbar und die Ausfallzeit und Schadenshöhe weisen ins Ungewisse. Dann können Notfall- und Sicherheitskonzepte teils detaillierte Anleitungen für die Ersthilfe bieten. Generell gilt, dass Cyberattacken nicht nur eine kommunikative, sondern häufig auch eine Organisationskrise nach sich ziehen.</p>
+<div id="fig-massnahmen-praevention" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-massnahmen-praevention-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/massnahmen-und-praevention.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-massnahmen-praevention-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;5.3: Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention und im Fall eines Schadenfalles
+</figcaption>
+</figure>
+</div>
+<p>Zum einen muss intern (mit vorbereiteten Notfallgeräten oder ggf.&nbsp;privaten Endgeräten) und extern (mit Dienstleister*innen, Bibliothekspartner*innen, Bibliotheksnutzer*innen) kommuniziert werden u.a.&nbsp;über den Vorfall, und ggf. weiterlaufende Dienste (cloudbasierte und von Drittanbieter*innen). Besonders cloudbasierte Dienste können im Notfall evt. gute Alternativlösungen bieten, das gilt zum einen für alternative Loginverfahren z.B.&nbsp;bei extern gehosteten Plattformen für E-Ressourcen, wenn das IDMS nicht zur Verfügung steht.</p>
+<p>Ist das BMS einer Bibliothek cloudbasiert, kann ein Ausleihbetrieb mit Notfallgeräten schneller wieder aufgenommen werden, da die Daten vor dem Hacker besser geschützt sind. Ähnlich kann man mit eigenen Dokumenten vorgehen, in dem das Active Directory des eigenen Systems ein tägliches Update erstellt und z.B. im CSV-Format an eine Cloud exportiert. Im einfachsten Fall betrifft es nur Notfalldokumente, die einem Krisenstab zugänglich sind. Tritt ein Notfall ein, kann man über die Standard-Benutzeroberfläche der Cloud die gesicherten Skripte starten. Der Cloudbetreiber sollte Erfahrungen mit Notfall-Lösungen und Umgebungen haben. Trotzdem sollte die Bibliothek ihre Datensicherung gut planen und cloudbasierte oder andere netzwerkunabhängige Backups länger vorhalten (mindestens 14 Tage), um auf nicht infizierte Sicherungen zurückgreifen zu können. Es ist ja nicht auszuschließen, dass die Angreifer die Zugangsdaten für die Datensicherung abgreifen konnten. Daher sollte auch über eine Verschlüsselung der Datensicherung in Erwägung gezogen werden. Genauso gilt es, die Wiederherstellung der Daten zu planen und zu üben. Unerlässlich ist auch eine gute Dokumentation der gesamten Notfall-Architektur.</p>
+<p>Und zum anderen sind alternative Abläufe aufzubauen, um wieder an der digitalen Arbeitswelt teilzunehmen und den Bibliotheksbetrieb weitestgehend wieder anbieten zu können.</p>
+<p>Die kommunikativen Anforderungen sind wie die organisatorischen als sehr hoch einzuschätzen, da Informationseinrichtungen mit ihren analogen Begegnungsmöglichkeiten Schnittstellen für eine ganze Hochschule sein können. Für beide Aufgaben können andere Bibliotheken und externe Firmen Unterstützung bieten.</p>
+<p>Stehen Plan und eine Notfallumgebung, ist es unerlässlich, regelmäßige Notfallübungen durchzuführen. Damit trainiert man die Abläufe und kann diese regelmäßig überprüfen und optimieren <span class="citation" data-cites="Mueller2023">(<a href="literatur.html#ref-Mueller2023" role="doc-biblioref">Müller 2023</a>)</span>. Die dadurch entstehende Routine kann Sicherheit für den Ernstfall geben. Dennoch darf man nicht unterschätzen, dass ein Angriff auch persönliche Auswirkungen auf alle Betroffenen hat.</p>
+</section>
+<section id="fazit" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="fazit"><span class="header-section-number">5.6</span> Fazit</h2>
+<p>Lässt man die Informationen in diesem Kapitel noch einmal Revue passieren, bleibt als abschließendes Fazit frei nach Ringelnatz nur zu sagen: „Sicher ist, dass nichts sicher ist. Selbst das nicht“. Trotzdem ist man der Gefahr nicht hilflos ausgeliefert. Durch Präventivmaßnahmen, Notfall-Systeme und Pläne kann man einen Angriff wohl nicht verhindern. Man kann jedoch versuchen, den Schaden und die daraus folgenden Belastungen so gering wie möglich zu halten. In vielen Bibliotheken entstehen derzeit individuelle Sicherheitskonzepte und neue Sicherheitsmaßnahmen. Die nächsten Monate und Jahre werden zeigen, mit welchen neuen Strategien sich Bibliotheken vor Cyberangriffen schützen und sich auf diese vorbereiten können.</p>
+<!--
+BIM22: Nadine Bolliger, Andrea Brandstätter, Birgit
+Bretträger, Felix Burger, Jana Eigelsbach, Martin Enßlen, Thomas Graff,
+Michael Haß, Céline Schmelzer, Juliane Schwarz, Anne Timm, Frauke
+Ureidat, Karin von Wartburg
+
+BIM23: Martin Brossard, Verena Kertelics, Selina Kiefer,
+Anette Popall, Jessica Seidel, Dorothea Stawenow, Tatjana Waller
+-->
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-DFG2021" class="csl-entry" role="listitem">
+DFG. 2021. <span>„Datentracking in der Wissenschaft: Aggregation und Verwendung bzw. Verkauf von Nutzungsdaten durch Wissenschaftsverlage. Ein Informationspapier des Ausschusses für Wissenschaftliche Bibliotheken und Informationssysteme der Deutschen Forschungsgemeinschaft“</span>. Deutsche Forschungsgemeinschaft. <a href="https://www.dfg.de/download/pdf/foerderung/programme/lis/datentracking_papier_de.pdf">https://www.dfg.de/download/pdf/foerderung/programme/lis/datentracking_papier_de.pdf</a>.
+</div>
+<div id="ref-Hollaender2023" class="csl-entry" role="listitem">
+Holländer, Stephan. 2023. <span>„Cyberangriffe auf Universitäten, Fachhochschulen und deren Bibliotheken – ein unterschätztes Problem?“</span> <em>B.I.T. online</em> 26 (3). <a href="https://www.b-i-t-online.de/heft/2023-03-nachrichtenbeitrag-hollaender.pdf">https://www.b-i-t-online.de/heft/2023-03-nachrichtenbeitrag-hollaender.pdf</a>.
+</div>
+<div id="ref-Kost2022" class="csl-entry" role="listitem">
+Kost, Michael, Bastian Loibl, Peter Reuter, und Matthias Stenke. 2022. <span>„#<span>JLUoffline</span>. Der Cyber-Angriff auf die Justus-Liebig-Universität Gießen im Dezember 2019“</span>. <em><span>ABI</span> Technik</em> 42 (1). https://doi.org/<a href="https://doi.org/10.1515/abitech-2022-0005">https://doi.org/10.1515/abitech-2022-0005</a>.
+</div>
+<div id="ref-MDR2023" class="csl-entry" role="listitem">
+MDR. 2023. <span>„Vermehrt Hackerangriffe auf Hochschulen und Universitäten“</span>. 25. Januar 2023. <a href="https://www.mdr.de/wissen/vermehrt-hackerangriffe-auf-hochschulen-und-universitaeten-100.html">https://www.mdr.de/wissen/vermehrt-hackerangriffe-auf-hochschulen-und-universitaeten-100.html</a>.
+</div>
+<div id="ref-Mueller2023" class="csl-entry" role="listitem">
+Müller, Heiko. 2023. <span>„Vorsorge für den Angriffsfall: Der Weg in die Cloud.“</span> <em><span>iX</span> Magazin für professionelle <span>IT</span></em> 11.
+</div>
+<div id="ref-Reda2022" class="csl-entry" role="listitem">
+<span>„Tracking in der Wissenschaft: So können Bibliotheken Daten und Wissenschaftsfreiheit schützen“</span>. 2022. <a href="https://www.zbw-mediatalk.eu/de/2022/01/tracking-in-der-wissenschaft-so-koennen-bibliotheken-daten-und-wissenschaftsfreiheit-schuetzen">https://www.zbw-mediatalk.eu/de/2022/01/tracking-in-der-wissenschaft-so-koennen-bibliotheken-daten-und-wissenschaftsfreiheit-schuetzen</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function () {  
+  const links = document.getElementsByClassName("toc-actions")[0]?.firstChild
+  const addLink = (text, url) => {
+    const li = document.createElement("li")
+    const a = document.createElement("a")
+    a.text = text
+    a.href = url
+    a.className = "toc-action"
+    li.innerHTML = '<i class="bi empty"></i>'
+    li.appendChild(a)
+    links.appendChild(li)
+  }
+  if (links) {
+    var match = window.location.pathname.match(/([a-z-]+)\.html$/)
+    var name = match ? match[1] : "einleitung"
+    var url = chapters[name]
+    if (url) {
+      addLink("Kapitel kommentieren", url)
+    }
+  }
+})
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./anforderungen.html" class="pagination-link" aria-label="Anforderungsanalyse">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anforderungsanalyse</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./metadaten.html" class="pagination-link" aria-label="Daten &amp; Metadaten">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Daten &amp; Metadaten</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/sicherheit.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/sicherheit.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

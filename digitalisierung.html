@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern">
+
+<title>9&nbsp; Digitalisierung – Handbuch IT in Bibliotheken</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./forschungsnahe-dienste.html" rel="next">
+<link href="./discovery.html" rel="prev">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9546b0ec21e596eb800732cc565da03e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+<link rel="canonical" href="https://it-in-bibliotheken.de/digitalisierung.html">
+
+
+<link rel="stylesheet" href="style.css">
+<meta name="twitter:title" content="9&nbsp; Digitalisierung – Handbuch IT in Bibliotheken">
+<meta name="twitter:description" content="Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Digitalisierung…">
+<meta name="twitter:image" content="media/prozesse-digitalisierung.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./digitalisierung.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Digitalisierung</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Handbuch IT in Bibliotheken</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einleitung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./infrastruktur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Technische Infrastruktur</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">IT-Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anforderungsanalyse</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sicherheit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sicherheit &amp; Datenschutz</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./metadaten.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Daten &amp; Metadaten</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Bibliotheksmanagementsysteme</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Discovery-Systeme</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./digitalisierung.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Digitalisierung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./forschungsnahe-dienste.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Forschungsnahe Dienste</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kommunikation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./literatur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Literaturverzeichnis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Anhang</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Abkürzungsverzeichnis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./abbildungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Abbildungsverzeichnis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./danksagung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Danksagung</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./contributors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Beteiligte Autor*innen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mitarbeit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Hinweise zur Mitarbeit</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#grundlagen" id="toc-grundlagen" class="nav-link active" data-scroll-target="#grundlagen"><span class="header-section-number">9.1</span> Grundlagen</a>
+  <ul class="collapse">
+  <li><a href="#ziele-der-digitalisierung" id="toc-ziele-der-digitalisierung" class="nav-link" data-scroll-target="#ziele-der-digitalisierung"><span class="header-section-number">9.1.1</span> Ziele der Digitalisierung</a></li>
+  <li><a href="#begriffsbestimmung" id="toc-begriffsbestimmung" class="nav-link" data-scroll-target="#begriffsbestimmung"><span class="header-section-number">9.1.2</span> Begriffsbestimmung</a></li>
+  <li><a href="#geschichte" id="toc-geschichte" class="nav-link" data-scroll-target="#geschichte"><span class="header-section-number">9.1.3</span> Geschichte</a></li>
+  <li><a href="#status-quo" id="toc-status-quo" class="nav-link" data-scroll-target="#status-quo"><span class="header-section-number">9.1.4</span> Status quo</a></li>
+  <li><a href="#ausblick" id="toc-ausblick" class="nav-link" data-scroll-target="#ausblick"><span class="header-section-number">9.1.5</span> Ausblick</a></li>
+  </ul></li>
+  <li><a href="#prozesse" id="toc-prozesse" class="nav-link" data-scroll-target="#prozesse"><span class="header-section-number">9.2</span> Prozesse</a>
+  <ul class="collapse">
+  <li><a href="#vorbereiten-auswahl-von-objekten" id="toc-vorbereiten-auswahl-von-objekten" class="nav-link" data-scroll-target="#vorbereiten-auswahl-von-objekten"><span class="header-section-number">9.2.1</span> Vorbereiten: Auswahl von Objekten</a></li>
+  <li><a href="#digitalisieren" id="toc-digitalisieren" class="nav-link" data-scroll-target="#digitalisieren"><span class="header-section-number">9.2.2</span> Digitalisieren</a></li>
+  <li><a href="#erschließen" id="toc-erschließen" class="nav-link" data-scroll-target="#erschließen"><span class="header-section-number">9.2.3</span> Erschließen</a></li>
+  <li><a href="#präsentieren" id="toc-präsentieren" class="nav-link" data-scroll-target="#präsentieren"><span class="header-section-number">9.2.4</span> Präsentieren</a></li>
+  </ul></li>
+  <li><a href="#werkzeuge" id="toc-werkzeuge" class="nav-link" data-scroll-target="#werkzeuge"><span class="header-section-number">9.3</span> Werkzeuge</a>
+  <ul class="collapse">
+  <li><a href="#scanner-und-scanverfahren" id="toc-scanner-und-scanverfahren" class="nav-link" data-scroll-target="#scanner-und-scanverfahren"><span class="header-section-number">9.3.1</span> Scanner und Scanverfahren</a></li>
+  <li><a href="#workflowmanagementsysteme" id="toc-workflowmanagementsysteme" class="nav-link" data-scroll-target="#workflowmanagementsysteme"><span class="header-section-number">9.3.2</span> Workflowmanagementsysteme</a></li>
+  <li><a href="#metadaten-und-schnittstellen" id="toc-metadaten-und-schnittstellen" class="nav-link" data-scroll-target="#metadaten-und-schnittstellen"><span class="header-section-number">9.3.3</span> Metadaten und Schnittstellen</a></li>
+  <li><a href="#betriebsmodelle" id="toc-betriebsmodelle" class="nav-link" data-scroll-target="#betriebsmodelle"><span class="header-section-number">9.3.4</span> Betriebsmodelle</a></li>
+  </ul></li>
+  <li><a href="#digitalisierung-als-beitrag-zur-open-glam-bewegung" id="toc-digitalisierung-als-beitrag-zur-open-glam-bewegung" class="nav-link" data-scroll-target="#digitalisierung-als-beitrag-zur-open-glam-bewegung"><span class="header-section-number">9.4</span> Digitalisierung als Beitrag zur Open GLAM-Bewegung</a>
+  <ul class="collapse">
+  <li><a href="#veranstaltungsformate-und-handlungsfelder" id="toc-veranstaltungsformate-und-handlungsfelder" class="nav-link" data-scroll-target="#veranstaltungsformate-und-handlungsfelder"><span class="header-section-number">9.4.1</span> Veranstaltungsformate und Handlungsfelder</a></li>
+  <li><a href="#offene-infrastrukturen" id="toc-offene-infrastrukturen" class="nav-link" data-scroll-target="#offene-infrastrukturen"><span class="header-section-number">9.4.2</span> Offene Infrastrukturen</a></li>
+  </ul></li>
+  <li><a href="#checkliste-für-digitalisierungsprojekte" id="toc-checkliste-für-digitalisierungsprojekte" class="nav-link" data-scroll-target="#checkliste-für-digitalisierungsprojekte"><span class="header-section-number">9.5</span> Checkliste für Digitalisierungsprojekte</a></li>
+  <li><a href="#zusammenfassung-und-ausblick" id="toc-zusammenfassung-und-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-und-ausblick"><span class="header-section-number">9.6</span> Zusammenfassung und Ausblick</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/digitalisierung.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/digitalisierung.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script>chapters={"einleitung":"https://docs.google.com/document/d/1UVQ31DIL_if5dU5PHUCLDJ4EeltrbZMe/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","management":"https://docs.google.com/document/d/1u-2li4kiMG13cYwiXgJ8ZCfA7JZu3gQB/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","anforderungen":"https://docs.google.com/document/d/1-ulLfARosY4Vk2ZVMuTv6F1Ru5ne76om/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","infrastruktur":"https://docs.google.com/document/d/1e-THCiAVxPdYtEiV2haztqsGf3k0x_PO/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","bibliotheksmanagementsysteme":"https://docs.google.com/document/d/1hi3Zf7rmLrYSXB2XdEv_PCl4HrySdQqn/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","discovery":"https://docs.google.com/document/d/1P1FHgf1wNgER0mjSFMnlGWLo0Is6J0te/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","metadaten":"https://docs.google.com/document/d/1yM0PULt_6MMrE3fDCrzg20uIw_oni9kT/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","mitarbeit":"https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","kommunikation":"https://docs.google.com/document/d/1r6m1l6gkw6T4qS-sI1lvD6idf2ZBWcRK/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","digitalisierung":"https://docs.google.com/document/d/1_DIqvtejlagiG0zvtpOX_Wz5gd4Q41FW/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","sicherheit":"https://docs.google.com/document/d/1yyFOLw83UyDvE6-9kXfVxVaxR3qriaVV/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","forschungsnahe-dienste":"https://docs.google.com/document/d/1TImCiRVNEZTNzGbRVpYRFF2GBzrZyYv7/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true"}
+</script>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-digitalisierung" class="quarto-section-identifier"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Digitalisierung</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note callout-titled" title="Zusammenfassung">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Zusammenfassung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Neben der reinen Bewahrung von Kulturgütern stellt sich Bibliotheken und anderen Kultureinrichtungen die Herausforderung, diese weltweit im Netz zugänglich zu machen. Die Digitalisierung von Kulturgut erfordert verschiedene Prozesse und Tools, die in diesem Kapitel vorgestellt werden.</p>
+</div>
+</div>
+<section id="grundlagen" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="grundlagen"><span class="header-section-number">9.1</span> Grundlagen</h2>
+<p>Digitalisierung ist zu einer zentralen Aufgabe an vielen Bibliotheken geworden. Über die Jahren haben sich für diese Aufgabe technische und organisatorische Standards und Workflows entwickelt und konsolidiert. So existieren inzwischen zahlreiche Softwaresysteme wie z.B.&nbsp;Workflow-Managementsysteme.</p>
+<section id="ziele-der-digitalisierung" class="level3" data-number="9.1.1">
+<h3 data-number="9.1.1" class="anchored" data-anchor-id="ziele-der-digitalisierung"><span class="header-section-number">9.1.1</span> Ziele der Digitalisierung</h3>
+<p>Zu den Zielen der Digitalisierung zählen vor allem die Bestandserhaltung und Bestandsentwicklung. Durch die digitale Verfügbarmachung soll der Kundennutzen erhöht werden, indem Teilhabe und Zugang zu den Objekten erleichtert werden. Deshalb gibt es einen engen Bezug zu Themen wie Open Access oder Open Science. Durch eine erhöhte Sichtbarkeit der Institutionen bzw.&nbsp;einzelner Objekte und Sammlungszusammenhängen wird die Steigerung der institutionellen Relevanz angestrebt.</p>
+</section>
+<section id="begriffsbestimmung" class="level3" data-number="9.1.2">
+<h3 data-number="9.1.2" class="anchored" data-anchor-id="begriffsbestimmung"><span class="header-section-number">9.1.2</span> Begriffsbestimmung</h3>
+<p><strong>Digitalisierung</strong> steht in diesem Kapitel für die Überführung von materiellen Kulturgütern in digitale Formate. Bibliotheken und andere kulturbewahrende Institutionen nehmen sich für die Digitalisierung sowohl Schriftgut (Bücher, Handschriften, Nachlässe) als auch audiovisuelle Medien und andere Objekttypen vor. Dabei wird oft auch von <strong>Retrodigitalisierung</strong> oder <strong>Bestandsdigitalisierung</strong> gesprochen, wenn die Objekte nicht originär digital sind („born-digital“), sondern bereits physische vorlagen und erst später digitalisiert werden.</p>
+</section>
+<section id="geschichte" class="level3" data-number="9.1.3">
+<h3 data-number="9.1.3" class="anchored" data-anchor-id="geschichte"><span class="header-section-number">9.1.3</span> Geschichte</h3>
+<p>Als Vorläufer der Digitalisierung kann die Mikroverfilmung betrachtet werden, bei der bereits seit dem 19. Jahrhundert analoge Dokumente mit dem Ziel der Langzeiterhaltung, der Vervielfältigung oder als platzsparender Ersatz für Originale in ein anderes analoges Format transformiert wurden. Die Überführung in digitale Formate begann in den 1990er Jahren. Das Ziel war hier zunächst vor allem die weltweite Zugänglichmachung von besonderen Werken oder Beständen für die wissenschaftliche Nutzung. Waren es zunächst vor allem bedeutende Druckwerke des 16., 17. und 18. Jahrhunderts, die digitalisiert wurden, hat sich der Fokus der Digitalisierung auch zeitlich, thematisch und formal sehr erweitert.</p>
+<p>In Deutschland war und ist die Deutsche Forschungsgemeinschaft (DFG) ein wesentlicher Akteur, der durch Projektförderung erhebliche Impulse für die großflächige Retrodigitalisierung gegeben hat. Gleichzeitig sorgten die in geförderten Projekten verbindlichen <a href="https://zenodo.org/records/7435724">DFG-Praxisregeln</a>, die auch in anderen Projekten oft angewendet werden, für ein hohes Maß an Einheitlichkeit und Interoperabilität zwischen verschiedenen Beständen. Neben technischen Parametern für den <a href="#scanner-und-scanverfahren">Scan-Prozess</a> (Auflösung, Farbtiefe u.a.) und Speicherformaten (TIFF unkomprimierte Master-Images) werden dort Standards zur <a href="#metadaten-und-schnittstellen">Speicherung von Metadaten</a> festgelegt, die von der Library of Congress entwickelt wurden und weiter gepflegt werden. Die DFG hat darüber hinaus mit dem <a href="https://dfg-viewer.de/">DFG-Viewer</a> einen Minimalstandard in der <a href="#präsentieren">Objektpräsentation</a> entwickeln lassen. Zu den Standards der DFG-Förderung gehört auch, dass jedes Werk nur einmal digitalisiert werden soll.</p>
+<p>Eine weitere große Digitalisierungs-Initiative ging und geht von Google aus, die weltweit und in Deutschland insbesondere bei der Bayerischen Staatsbibliothek in großem Umfang alte Druckwerke digitalisieren (Google Books).</p>
+<p>Ergänzend digitalisieren, veröffentlichen, erschließen und editieren private Akteure digitale Kulturgüter – Akteure in Wikimedia-, Open Data- und Open Science-Gemeinschaften, oder sie arbeiten ehrenamtlich in einschlägigen bibliothekarischen Projekten mit.</p>
+</section>
+<section id="status-quo" class="level3" data-number="9.1.4">
+<h3 data-number="9.1.4" class="anchored" data-anchor-id="status-quo"><span class="header-section-number">9.1.4</span> Status quo</h3>
+<p>Zahlreiche Bibliotheken mit umfangreichen unikalen Beständen haben sich auf den Weg gemacht, Retrodigitalisierung als festes Arbeitsfeld in die eigene Organisation aufzunehmen. Für die Unterstützung der Prozesse und für die Präsentation der Ergebnisse im Web haben sich unterschiedliche Softwarelösungen etabliert, zu denen aktive Anwendergemeinschaften gehören. Zusammen mit den geklärten Standards ist ein Rahmen geschaffen, in dem diese Bibliotheken kontinuierlich neue Digitalisierungsprojekte starten. Größere Häuser öffnen zum Teil ihre Infrastruktur anderen kleineren Einrichtungen in Landesprogrammen wie z.B.&nbsp;in <a href="https://www.slub-dresden.de/ueber-uns/projekte/landesdigitalisierungsprogramm">Sachsen</a> oder <a href="https://www.sub.uni-hamburg.de/bibliotheken/projekte-der-stabi/hamburger-kulturgut-im-netz-hakin.html">Hamburg</a>. In Berlin unterstützt die Arbeitsstelle <a href="https://www.digis-berlin.de/digis/">digiS</a> mit einem jährlichen <a href="https://www.digis-berlin.de/foerderprogramm/info/">Förderprogramm</a> seit 2012 Digitalisierungsprojekte in unterschiedlichen technischen Umgebungen - um nur einige Beispiele aus der heterogenen föderalen Struktur herauszugreifen.</p>
+</section>
+<section id="ausblick" class="level3" data-number="9.1.5">
+<h3 data-number="9.1.5" class="anchored" data-anchor-id="ausblick"><span class="header-section-number">9.1.5</span> Ausblick</h3>
+<p>Neben der reinen bildhaften Digitalisierung wird von Forschenden zunehmend auch eine Erstellung und Bereitstellung von Volltexten erwartet. Diese kann entweder über einfache Text-Bild-Zuordnung oder auch mit aufwändiger semantischer Auszeichnung erfolgen. Die von der DFG geförderte Initiative OCR-D erstellt Werkzeuge und Infrastrukturen, um für die Werke des 16., 17. und 18. Jahrhunderts, aber auch für viele weitere Digitalisate eine effiziente und alltagstaugliche Volltext-Erstellung zu ermöglichen.</p>
+<p>Außer Druckwerken und Handschriften werden zunehmend weitere Medien und Objekte digitalisiert. Das sind nicht nur einschlägige Textdokumente aus Bibliotheken und Archiven, sondern auch Objekte aus Sammlungen und Museen, die teilweise auch in 3D digitalisiert werden, und audiovisuelle Medien. Außerdem wird versucht, zusätzliche Attribute der materiellen Objekte zu erfassen (z.B.&nbsp;Strukturerkennung, Kontextinformationen).</p>
+<p>Zudem werden sich GLAM-Einrichtungen auch immer stärker des Bedarfes bewusst, Digitalisate auch jenseits eigener Portale auffindbar und nutzbar zu machen (siehe <a href="#digitalisierung-als-beitrag-zur-open-glam-bewegung">Digitalisierung als Beitrag zur Open GLAM-Bewegung</a>).</p>
+</section>
+</section>
+<section id="prozesse" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="prozesse"><span class="header-section-number">9.2</span> Prozesse</h2>
+<p>Die Digitalisierung von Kulturgütern gliedert sich in mehrere Prozessschritte. Es haben sich dabei einrichtungsübergreifend ähnliche Prozessketten etabliert, zu deren Unterstützung <a href="#workflowmanagementsysteme">Workflowmanagementsysteme</a> (WMS) entwickelt wurden und die Projektsteuerung erleichtern.</p>
+<div id="fig-prozess-digitalisierung" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-prozess-digitalisierung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/prozesse-digitalisierung.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-prozess-digitalisierung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;9.1: Prozessschritte im Digtalisierungsprozess
+</figcaption>
+</figure>
+</div>
+<p>Als Ausgangspunkt jedes Digitalisierungs-Vorhabens ist eine gründliche Planung der Arbeitsschritte unverzichtbar. Dabei sind die lokalen Rahmenbedingungen und die Infrastruktur der digitalisierenden Einrichtung ebenso zu berücksichtigen wie die konkreten Ziele, die zu erzeugenden Formate und Ergebnisse sowie die Verknüpfungen zu externen datenverarbeitenden Systemen. Die <a href="https://doi.org/10.5281/zenodo.7435724">DFG-Praxisregeln</a> geben wichtige Hinweise, was bei den Prozessen beachtet werden sollte. WMS können diese Schritte steuern und teilweise auch automatisieren.</p>
+<p>Für die Planung von Zeitungsdigitalisierung sollte im Vorwege besonders genau auf die Einzelschritte im Prozess geschaut werden oder kollegiale Beratung aus anderen Häusern eingeholt werden, um angesichts der Massen an Material den effizientesten Weg bei der Erschließung zu finden, evtl. Dienstleister optimal einzubinden und alle Möglichkeiten von Automatisierung auszuschöpfen.</p>
+<section id="vorbereiten-auswahl-von-objekten" class="level3" data-number="9.2.1">
+<h3 data-number="9.2.1" class="anchored" data-anchor-id="vorbereiten-auswahl-von-objekten"><span class="header-section-number">9.2.1</span> Vorbereiten: Auswahl von Objekten</h3>
+<p>Eine sinnvolle Auswahl zu digitalisierender Objekte hängt von Faktoren ab, deren Wichtigkeit gegeneinander abzuwägen ist. Dazu zählen beispielsweise</p>
+<ul>
+<li><p>die bestehenden Kapazitäten: verfügbare Scanverfahren, Arbeitsplätze, personelle Verfügbarkeiten),</p></li>
+<li><p>die technischen Ausstattung: Scanner, Speicherkapazität, Anbindung an eine Langzeitarchivierung</p></li>
+<li><p>zeitliche Faktoren: Projektlaufzeit, Förderbedingungen, Anlässe,</p></li>
+<li><p>Digitalisierungswürdigkeit: Einzigartigkeit, Nachfrage</p></li>
+<li><p>Erhaltungszustand: Dringlichkeit, Machbarkeit</p></li>
+<li><p>existierende Vorarbeiten: vorhandene Metadaten, Vervollständigung bereits angefangener Vorhaben</p></li>
+</ul>
+<p>Die Prioritäten für die eigene Bestandsdigitalisierung sollten immer wieder überprüft werden, wenn sich die genannten Faktoren ändern.</p>
+<p>Nach der Auswahl von zu digitalisierenden Objekten folgen weitere vorbereitende Schritte. Dazu gehören z.B.</p>
+<ul>
+<li><p>das Ausheben der Werke aus dem Bestand</p></li>
+<li><p>das Überprüfen und ggf.&nbsp;das Herstellen der Digitalisierungs-Tauglichkeit</p></li>
+<li><p>das Anlegen von Vorgängen im Workflowmanagementsystem</p></li>
+<li><p>das Erzeugen von Laufzetteln</p></li>
+<li><p>die Vorbereitung von Übergaben physischer Objekte an etwaige Scan-Dienstleister</p></li>
+</ul>
+</section>
+<section id="digitalisieren" class="level3" data-number="9.2.2">
+<h3 data-number="9.2.2" class="anchored" data-anchor-id="digitalisieren"><span class="header-section-number">9.2.2</span> Digitalisieren</h3>
+<p>Die Entscheidung für das oder die am besten geeigneten Digitalisierungsverfahren ist individuell am Objekt zu treffen und hängt von verschiedenen Faktoren ab, wie der Art des Objekts, der gewünschten Genauigkeit und den verfügbaren Ressourcen.</p>
+<section id="d-objekte" class="level4">
+<h4 class="anchored" data-anchor-id="d-objekte">2D-Objekte</h4>
+<p>Für das Scannen von 2D-Objekten („Flachware“) hat sich als Zielformat der Bilddigitalisierung unkomprimiertes <a href="https://de.wikipedia.org/wiki/Tagged_Image_File_Format">TIFF</a> etabliert. Es werden mit Aufsichtscannern oder fotografischen Reproständen Einzelseiten aufgenommen und vom Bildausschnitt her wird mit schwarzem Rand digitalisiert. Verschiedene Auflösungen („Derivate“) für die Webpräsentation werden nachgelagert erzeugt oder dynamisch von einem Bildserver zur Verfügung gestellt.</p>
+<p>Für die verschiedenen Digitalisierungsvorhaben bilden die <a href="https://doi.org/10.5281/zenodo.7435724">DFG-Praxisregeln</a> eine gute Orientierungshilfe - für die Auflösung, den Farbraum oder andere technische Parameter. Für die Beurteilung und Sicherstellung der objektiven Bildqualität haben sich zudem Digitalisierungsstandards etabliert, die mittlerweile auch von Scannerherstellern und Scandienstleistern berücksichtigt werden. Erwähnenswert sind hier vor allem <a href="https://www.metamorfoze.nl/english/digitization">Metamorfoze</a> und der daraus hervorgegangene <a href="https://www.iso.org/standard/64220.html">ISO-19263 Standard</a> .</p>
+<p>Bei der Zeitungsdigitalisierung ist im Interesse der Forschung die Erzeugung von Volltexten nach der Digitalisierung ein wichtiges Ziel. Diese Perspektive bedingt im Hinblick auf die Qualität der Texterkennung (OCR) eine Präferenz für eine Digitalisierung vom Original gegenüber einer Digitalisierung vom Mikrofilm.</p>
+</section>
+<section id="d-objekte-1" class="level4">
+<h4 class="anchored" data-anchor-id="d-objekte-1">3D-Objekte</h4>
+<p>Mittlerweile haben einige Bibliotheken angefangen, über flache, zweidimensionale Informationen hinaus auch die Tiefe und Mehrdimensionalität des kulturellen Erbes und Wissens innerhalb ihrer Bestände zu erfassen. Bibliotheksbestände sind häufig heterogen und ergeben sich aus einer fortgesetzten Sammlungsgeschichte, sodass auch spezielle dreidimensionale Objekte, wie Globen, Spiel- oder PopUp-Bücher oder historische Objekte des Buchdrucks wie Lettern, Teil eines Bestandes sein können. In diesen Fällen hat sich eine Digitalisierung in allen drei Dimensionen als ein entscheidendes Werkzeug erwiesen, um die Mehrdimensionalität in digitale Formate zu übertragen und um über Inhalte hinaus den Zustand und Details als Kulturerbe-Objekte wiederzugeben. Dies betrifft ebenso seltene Bücher und Manuskripte mit einzigartigen oder kunstvollen Bindungen. Um die drei Dimensionen angemessen abzubilden, sind <a href="#scanner-und-scanverfahren">spezielle Erfassungsmethoden</a> notwendig.</p>
+</section>
+<section id="av-medien" class="level4">
+<h4 class="anchored" data-anchor-id="av-medien">AV-Medien</h4>
+<p>Bibliotheken und andere GLAM-Einrichtungen archivieren häufig auch analoge audiovisuelle Medien. Für die Digitalisierung der unterschiedlichen Quellen (z.B.&nbsp;Magnettonbänder, Film von 8mm bis 35mm, Selbstschnittplatten, Videobänder) werden im Falle einer Massendigitalisierung zumeist externe Dienstleister beauftragt, sodass die Herausforderungen hier in erster Linie in der inhaltlichen Erschließung und der Erhaltung des originalen Materials liegen.</p>
+<p><strong>Für alle Materialarten gilt:</strong> Eigene Scanner sind nur erforderlich, wenn der Scanprozess nicht an einen Dienstleister ausgelagert werden soll oder kann. Nach der Auswahl geeigneter Geräte (am besten nach Beratung durch erfahrene Einrichtungen) empfiehlt sich eine Teststellung, bei der diese unter Realbedingungen erprobt werden können.</p>
+</section>
+</section>
+<section id="erschließen" class="level3" data-number="9.2.3">
+<h3 data-number="9.2.3" class="anchored" data-anchor-id="erschließen"><span class="header-section-number">9.2.3</span> Erschließen</h3>
+<section id="erschließen-von-metadaten" class="level4">
+<h4 class="anchored" data-anchor-id="erschließen-von-metadaten">Erschließen von Metadaten</h4>
+<p>Erschließen bedeutet das Zusammentragen von allen verfügbaren Informationen zu einem Objekt und die Codierung in Form von Metadaten (siehe <a href="metadaten.html" class="quarto-xref"><span>Kapitel 6</span></a>). Im Kontext der Digitalisierung sind drei Arten von Metadaten (<a href="metadaten.html#sec-arten-von-metadaten" class="quarto-xref"><span>Kapitel 6.3.1</span></a>) besonders relevant:</p>
+<ul>
+<li><p><strong>Administrative Metadaten</strong> mit Informationen zu Herkunft, Erhaltungszustand, technische Merkmale, Rechteinformationen.</p></li>
+<li><p><strong>Deskriptive Metadaten</strong> zur bibliografischen Beschreibung des Objektes.</p></li>
+<li><p><strong>Strukturelle Metadaten</strong> für Gliederungselemente wie z.B.&nbsp;Kapitel in Texten, Segmente in 3D-Objekten, Frames in Filmen.</p></li>
+</ul>
+<p>Bibliografische Basisdaten wie auch strukturelle Metadaten können in einem WMS entweder importiert oder manuell erfasst werden. Viele der Systeme sind dafür individuell konfigurierbar und können je nach Art des Projektes angepasst werden. Ein wichtiges Metadatum sind <a href="metadaten.html#identifikatoren">Identifikatoren</a> (URN, DOI, PURL …) und deren Generierung. Für die Strukturierung von Textdokumenten ist das <a href="https://dfg-viewer.de/strukturdatenset">Stukturdatenset für den DFG-Viewer</a> ein praxistauglicher Referenzrahmen.</p>
+<p>Um die Nachnutzung der digitalisierten Objekte zweifelsfrei zu kennzeichnen, gehören Informationen zur Lizenzierung in die administrativen Metadaten. Dafür hat eine Expertengruppe innerhalb von DINI detaillierte <a href="https://wiki.dnb.de/pages/viewpage.action?pageId=217533652">Empfehlungen für Rechteinformationen in Metadaten</a> aufgestellt.</p>
+<p>Strategien für das Crowdsourcing von Erschließungsarbeiten in offenen Informationsinfrastrukturen wie dem Wikiversum ermöglichen potenziell zusätzliche Mehrwerte, auch im Nachhinein und durch Dritte.</p>
+</section>
+<section id="zusätzliche-inhaltliche-erschließung-durch-volltexte-und-annotationen" class="level4">
+<h4 class="anchored" data-anchor-id="zusätzliche-inhaltliche-erschließung-durch-volltexte-und-annotationen">Zusätzliche inhaltliche Erschließung durch Volltexte und Annotationen</h4>
+<p>Erschließung endet nicht bei der Zuordnung von Metadaten. Ziel der Erschließung ist auch eine Abbildung des Werkes in nachnutzbarer Form. Bei Textdokumenten ist das die Generierung von Volltexten. Für die Auswahl eines Verfahrens und deren Parametrisierung sind Eigenschaften der Vorlage (Schriftart, Layout, Sprache, Papier- und Druckqualität u.a.) sowie die benötigte Qualität der Volltexte entscheidend.</p>
+<p>Waren anfangs vor allem kommerzielle OCR-Werkzeuge dominierend (z.B. <a href="https://de.wikipedia.org/wiki/ABBYY">ABBYY</a>), haben sich mittlerweile einige Open Source-Projekte (z.B. <a href="https://de.wikipedia.org/wiki/Tesseract_(Software)">Tesseract</a>) entwickelt, die qualitativ vergleichbare oder bessere Ergebnisse erzeugen können. Dank neuer technologischer Ansätze sind auch Lösungen für handschriftliche Dokumente verfügbar (z.B. <a href="https://www.ocr4all.org/about/ocr4all">OCR4all</a>). Mit Förderung durch die DFG arbeitet die Initiative OCR-D an einem frei nutzbaren Workflow, der neben der eigentlichen Volltexterkennung weitere Schritte (z.B.&nbsp;automatische Layouterkennung) einbindet, die die Qualität der Erschließung verbessern.</p>
+<p>Die Generierung von Volltexten kann als (automatischer) Prozessschritt im <a href="#workflowmanagementsysteme">Workflowmanagementsystem</a> eingebunden werden. Die Ergebnisse werden in der Regel in <a href="#metadaten-und-schnittstellen">standardisierten Datenformaten</a> geliefert und können dann in Präsentationssystemen z.B.&nbsp;für die Volltextsuche genutzt oder zum Download angeboten werden.</p>
+<p>Neben Volltexten können je nach Kontext auch Annotationen als weiteres Element der Erschließung eine Rolle spielen, die aber in der Regel nicht im Digitalisierungsprozess, sondern erst im Nachhinein entstehen.</p>
+</section>
+</section>
+<section id="präsentieren" class="level3" data-number="9.2.4">
+<h3 data-number="9.2.4" class="anchored" data-anchor-id="präsentieren"><span class="header-section-number">9.2.4</span> Präsentieren</h3>
+<p>Die Präsentation von digitalisierten Objekten und den dazugehörigen Metadaten im Web ist ein wesentliches Ziel der Digitalisierungs-Aktivitäten.</p>
+<p>Die Präsentation der digitalisierten Objekte hängt von der Art von Objekten und beabsichtigten Nutzungsszenarien ab und erfordert eigene Werkzeuge, die unabhängig von dem genutzten Workflowmanagementsystem ausgewählt und konfiguriert werden. Basis für Präsentationslösungen sind die im Workflow erzeugten standardisierten XML-Files (METS/MODS).</p>
+<p>Funktional wird von einer Präsentationslösung eine konfigurierbare Recherche-Umgebung für Metadaten und Volltexte erwartet. Bei der Präsentation des einzelnen Objektes werden die Strukturdaten zusammen mit den dazu erfassten Metadaten als Inhaltsverzeichnis angeboten und es werden zur Arbeit mit den Scans Bildwerkzeuge erwartet (z.B.&nbsp;Zoomen, Rotieren, Thumbnail-Übersicht). Zunehmend wichtige Funktionen sind Download-Angebote oder die Bereitstellung von iiif-Manifesten zur Weiternutzung in anderen Viewern.</p>
+<p>Mit dem <a href="http://dfg-viewer.de/">DFG-Viewer</a> existiert eine Minimallösung für die Anzeige von Digitalisaten, die aus dem Katalog verlinkt werden kann. Für eine umfassendere Präsentation von Digitalisaten entscheiden sich Einrichtungen für eine Integration der Digitalisate in ein existierendes Repositorium oder für den Aufbau von Web-Angeboten mit speziellen Werkzeugen für Digitalisate wie z. B. <em>Kitodo.Presentation</em>. Ein wichtiges Element für mehr Sichtbarkeit der eigenen Digitalisierungs-Aktivitäten ist eine Datenlieferung an die Deutsche Digitale Bibliothek.</p>
+<p>Zunehmend relevanter wird die Suche nach Lösungen für eine Präsentation von rechtebehafteten Materialien für eingeschränkte Personenkreise. <a href="./forschungsnahe-dienste.html#repositorien-für-forschungsergebnisse">Repositorien</a> haben hier in der Regel schon anpassbare Lösungen. Bei der Präsentation von Digitalisaten existieren prototypische oder an Institutionen individuell angepasste technische Lösungen. Standards für die Beschreibung von Zugriffsrechten in den Metadaten oder generische Präsentationslösungen auf Basis dieser Metadaten befinden sich noch im Abstimmungsprozess oder der Entwicklung.</p>
+<p>Wikimedia Commons kann darüber hinaus als Medienspeicher fungieren. Von dort werden digitalisierte Objekte und ‚born digital‘-Dokumente in Wikipedia und andere Webseiten eingebettet. Die Erschließung mit strukturierten Daten erfolgt mittels Wikidata (siehe <a href="#digitalisierung-als-beitrag-zur-open-glam-bewegung">Digitalisierung als Beitrag zur Open GLAM-Bewegung</a>).</p>
+</section>
+</section>
+<section id="werkzeuge" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="werkzeuge"><span class="header-section-number">9.3</span> Werkzeuge</h2>
+<section id="scanner-und-scanverfahren" class="level3" data-number="9.3.1">
+<h3 data-number="9.3.1" class="anchored" data-anchor-id="scanner-und-scanverfahren"><span class="header-section-number">9.3.1</span> Scanner und Scanverfahren</h3>
+<section id="d" class="level4">
+<h4 class="anchored" data-anchor-id="d">2D</h4>
+<p>Scanner und ihre Verfahren lassen sich grundlegend nach der Eigenschaft ihrer zu scannenden Objekte und der Zielsetzung des Scan-Ergebnisses unterscheiden.</p>
+<p>Im Bereich des 2D-Scans unterstützen z.B.&nbsp;spezielle Buchscanner den Scanprozess im Rahmen der Digitalisierung effizient und für das zu digitalisierende Material auf schonende Weise. Das sind in der Regel Auflichtscanner oder fotografische Systeme, bei denen das Material von oben abgelichtet wird. Je nach Art und Zustand des Materials können dabei Buchwippen bzw.&nbsp;-wiegen mit verschiedenen Winkeln oder Glasplatten eingesetzt werden. Roboter können das automatische Umblättern der Seiten erledigen, sind dabei aber für empfindliche Bestände weniger schonend. Berührungslose Scanner sind vor allem für Handschriften vorgesehen.</p>
+<div id="fig-buchscanner" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-buchscanner-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/buchscanner.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-buchscanner-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;9.2: Beispiel eines Auflichtscanners
+</figcaption>
+</figure>
+</div>
+<p>Die 2D-Scanner können sich in verschiedenen Eigenschaften wie Größe der Formate, Farbtiefe, Auflösung, Art und Qualität der Optik und Mechanik sowie in der Verarbeitungsgeschwindigkeit unterscheiden. Um eine hohe und gleichbleibende Bildqualität zu gewährleisten, ist eine regelmäßige Kalibrierung der Systeme und Auswertung der Aufnahmen anhand von Test-Targets (z.B.&nbsp;UTT-Target oder GoldenThread) erforderlich. Neben der Hardware unterscheiden sich Scanner in der Software, durch die Rohdaten des Scanners für die weitere Nutzung bearbeitet (z.B.&nbsp;beschneidet oder glättet), optimiert und in gewünschten Zielformaten speichert.</p>
+</section>
+<section id="d-1" class="level4">
+<h4 class="anchored" data-anchor-id="d-1">3D</h4>
+<p>Bei der 3D-Erfassung eines Objektes kann zwischen photo- und scanbasierten Verfahren unterschieden werden.</p>
+<p>So werden bei der Photogrammetrie Fotos aus verschiedenen Blickwinkeln aufgenommen. Dabei wird die Anzahl der Fotos derart erhöht, dass sie mit Hilfe von Software zu einem 3D-Modell verarbeitet werden können. Nach diesem Prinzip funktionieren auch 3D-Scanning-Apps für Smartphones, die 3D-Scans von Objekten mithilfe der Kamera eines Smartphones ermöglichen.</p>
+<p>Demgegenüber stehen verschiedene Scanverfahren. Beim Laser-Scanning werden z.B.&nbsp;Laserstrahlen auf das Objekt gerichtet, und die reflektierten Daten werden verwendet, um ein präzises 3D-Modell zu erstellen. Neben dem Laser lassen sich solche 3D-Modelle auch mit strukturiertem Licht (Streifenlichtscans) oder Computertomographie erzeugen.</p>
+<p>Bei der 3D-Modellierung wird ein 3D-Modell nach Vorlagen manuell und mit Hilfe von spezifischer Software erstellt. Dies kommt insbesondere für die digitale Rekonstruktion von physisch nicht erhaltenen (Teilen von) Objekten zur Anwendung.</p>
+<p>Alle Verfahren können miteinander kombiniert werden.</p>
+<p>Wird beispielsweise ein Pop-up Buch oder ein Globus 3D-digitalisiert, sollen zusätzlich die kinetischen Aspekte (ein Globus dreht sich um seine Achse, bei einem Pop-up Buch lässt sich eine Lasche herausziehen usw.) unter Umständen auch im Digitalisat nachvollziehbar bleiben. Besteht das Originalobjekt aus Einzelteilen und werden diese entsprechend in Segmenten digitalisiert, können diese Segmente interaktiv nutzbar gemacht werden oder/und Animationen eingesetzt werden. Ein einfacher Scan reicht in diesem Fall nicht aus, da hier lediglich "die Hülle im Ganzen" erfasst wird. Eine manuelle Nachbearbeitung ist nötig.</p>
+</section>
+</section>
+<section id="workflowmanagementsysteme" class="level3" data-number="9.3.2">
+<h3 data-number="9.3.2" class="anchored" data-anchor-id="workflowmanagementsysteme"><span class="header-section-number">9.3.2</span> Workflowmanagementsysteme</h3>
+<p>Bei diesen Systemen handelt es sich im Grunde um klassische Workflowmanagementsysteme (<a href="https://de.wikipedia.org/wiki/Workflow-Management-System">WMS</a>), die auf die Abbildung und Modellierung der <a href="#prozesse">oben beschriebenen Prozesse</a> spezialisiert sind. Das Ziel der Systeme ist es, die Prozesse technisch abzubilden und zu organisieren bzw.&nbsp;die Zustände der im Prozess befindlichen Objekte zu speichern und darzustellen.</p>
+<div id="fig-wms-workflow" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-wms-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/wms-workflow.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-wms-workflow-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;9.3: Beispiel für einen im WMS eingerichteten Workflow
+</figcaption>
+</figure>
+</div>
+<p>Aufgrund der hohen Spezialisierung ist die Auswahl an WMS für bibliothekarische Digitalisierungsprozesse überschaubar. Dazu gehören sowohl kommerzielle Produkte, wie z.B.&nbsp;<a href="https://www.semantics.de/visual_library/">Visual Library</a> aber auch frei verfügbare Open Source Systeme wie <a href="https://www.kitodo.org/"><em>Kitodo</em></a>.</p>
+<p>Der wesentliche Unterschied zwischen den Tools – neben der Frage der Lizenz – ist deren Modularität. Bei einigen Lösungen sind z.B.&nbsp;die Erstellung, Anreicherung und Präsentation fest in einem System zusammengefasst, andere wählen z.B.&nbsp;den Ansatz, die Präsentation von der Erstellung zu trennen, sodass die Darstellung z.B.&nbsp;auch mit spezialisierten Präsentationswerkzeugen, wie Content-Management-Systemen erfolgen kann.</p>
+</section>
+<section id="metadaten-und-schnittstellen" class="level3" data-number="9.3.3">
+<h3 data-number="9.3.3" class="anchored" data-anchor-id="metadaten-und-schnittstellen"><span class="header-section-number">9.3.3</span> Metadaten und Schnittstellen</h3>
+<p>An vielen Stellen des Digitalisierungsprozesses sind Schnittstellen (APIs) zu Drittsystemen notwendig. Das gilt sowohl für die Einbindung externer Metadaten (beispielsweise der Import aus Nachweissystemen via <abbr title="Search/Retrieve via URL, ein technischer Standard für Suchanfragen in Bibliothekskatalogen">SRU</abbr> aus Verbundkatalogen oder Kalliope) als auch die Weitergabe von Daten an externe Portale wie die Deutsche Digitale Bibliothek (<em>DDB</em>).</p>
+<p>Als Austauschformat verwenden diese Schnittstellen meist <a href="metadaten.html#xml-basierte-datenformate">XML-Datenformate</a> wie <em>PICA/XML</em>, <em>METS/MODS</em>, <em>EAD</em> und <em>LIDO</em>, die auf Struktur- oder Metadaten digitalisierter Objekte spezialisiert sind. <a href="metadaten.html#schnittstellen">Relevante Schnittstellen</a> sind vor allem <abbr title="Search/Retrieve via URL, ein technischer Standard für Suchanfragen in Bibliothekskatalogen">SRU</abbr>, <abbr title="Open Archives Initiative Protocol for Metadata Harvesting">OAI-PMH</abbr> und <abbr title="International Image Interoperability Framework, Standard für digitale Bilder">IIIF</abbr>. Die Nutzung gemeinsamer Datenformate ermöglicht unter anderem die Auffindbarkeit, Verknüpfung, Präsentation und Verwendung von Objekten in unterschiedlichen Zusammenhängen.</p>
+<p>Für einzelne Ressourcentypen und Anwendungen existieren oft genauere Anwendungsprofile, die die Verwendung von Metadaten-Standards erweitern oder einschränken.</p>
+<p><strong>Beispiel:</strong> Das METS/MODS-<a href="https://wiki.deutsche-digitale-bibliothek.de/display/DFD/5.+Anwendungsprofile+und+Best+Practice+Guides">Anwendungsprofile</a> der Deutschen Digitalen Bibliothek legt Anforderungen an Metadaten fest, wenn diese in das Portal eingebunden werden sollen. Zur <a href="https://wiki.deutsche-digitale-bibliothek.de/display/DFD/Schematron-Validierungen+der+Fachstelle+Bibliothek#SchematronValidierungenderFachstelleBibliothek-Schematron-Dateien">Validierung der Daten</a> stellt die DDB passende Werkzeuge zur Verfügung.</p>
+</section>
+<section id="betriebsmodelle" class="level3" data-number="9.3.4">
+<h3 data-number="9.3.4" class="anchored" data-anchor-id="betriebsmodelle"><span class="header-section-number">9.3.4</span> Betriebsmodelle</h3>
+<p>Bei dem Einsatz der Werkzeuge im Digitalisierungsprozess stellt sich immer die Frage, ob sich die Anschaffung der Hardware oder die hausinterne Installation und Anpassung von Software lohnt oder aber Bestandteile ausgelagert werden können. Wie bei allen IT-Systemen sind grundsätzlich <a href="./management.html#betriebsmodelle">drei Betriebsmodelle</a> denkbar:</p>
+<ul>
+<li><p><strong>Lokale Installation</strong>: Hard- und Software wird durch betriebseigenes Personal gehostet, betreut und weiterentwickelt. Dieses Modell ist vor allem dann empfehlenswert, wenn bereits Digitalisierungskompetenz in der Institution vorhanden ist und die Digitalisierung einen dauerhaften Schwerpunkt in den Alltagsprozessen einnimmt bzw.&nbsp;einnehmen soll.</p></li>
+<li><p><strong>Externes (Cloud-)Hosting</strong>: Sofern nicht z.B.&nbsp;rechtliche Gründe dagegen sprechen, ist dieses Modell empfehlenswert, wenn nur punktuell oder in geringem Umfang digitalisiert werden soll und dabei keine eigene Expertise notwendig ist oder aufgebaut werden soll.</p></li>
+<li><p><strong>Hybrid-Lösungen:</strong> Es werden nur Teile des Prozesses ausgelagert, z.B.&nbsp;das Scannen der Objekte, während z. B. die Inhaltsanreicherung durch Metadaten im Haus verbleibt.</p></li>
+</ul>
+<p>Die Hybrid-Variante wird im Alltag am häufigsten umgesetzt. Die Herausforderung besteht darin, die Schnittstellen zwischen externen und internen Prozessen genau zu definieren und festzulegen. So muss zum Beispiel externen Scan-Dienstleistern Zugriff auf das intern betreute Workflowmanagementsystem gewährt werden, damit digitalisierte Objekte direkt im System abgelegt werden können.</p>
+</section>
+</section>
+<section id="digitalisierung-als-beitrag-zur-open-glam-bewegung" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="digitalisierung-als-beitrag-zur-open-glam-bewegung"><span class="header-section-number">9.4</span> Digitalisierung als Beitrag zur Open GLAM-Bewegung</h2>
+<p>Mit Digitalisierung leisten Bibliotheken und andere GLAM-Einrichtungen wichtige Beiträge dazu, dass Kulturgüter weltweit zugänglich, gut auffindbar und nachnutzbar sind. Neben der einrichtungseigenen Präsentation und aggregierenden Portalen wie der „Deutschen Digitalen Bibliothek“ oder der „Europeana“ spielen auch offene Wissensplattformen im Web eine wichtige Rolle, um Daten zugänglich zu machen, zu teilen und Nutzende an der Erschließung zu beteiligen. Entsprechende Möglichkeiten sollen im Folgenden skizziert werden, da es sich um einen wichtigen Trend bei der Digitalisierung und Nutzung handelt.</p>
+<p>Offener Zugang und offene Lizenzen für freie Nutzungsszenarien, standardisierte Schnittstellen und offene Metadaten vereinfachen das Teilen von Daten bzw.&nbsp;Informationen aus digitalisierten Quellen – Texten, Illustrationen und Sammlungen – als freies Wissen.</p>
+<section id="veranstaltungsformate-und-handlungsfelder" class="level3" data-number="9.4.1">
+<h3 data-number="9.4.1" class="anchored" data-anchor-id="veranstaltungsformate-und-handlungsfelder"><span class="header-section-number">9.4.1</span> Veranstaltungsformate und Handlungsfelder</h3>
+<p>Hackathons und Editathons sind Veranstaltungsformate, um kurzfristig die Bekanntheit digitaler Sammlungen zu steigern, Datenexperimente zu ermöglichen und Datenkollaborationen in Pilotprojekten anzustoßen. Dabei können Impulse entstehen für weiterentwickelte Datenanwendungen. Lerneffekte entstehen dabei nicht nur bei den beteiligten Menschen, sondern auch institutionell bei den beteiligten Bibliotheken und anderen GLAM, die ggf.&nbsp;Bedürfnisse, Ideen und Defizite von Nutzenden kennenlernen. Ein Beispiel Hackathons ist die Initiative <a href="https://codingdavinci.de/">„Coding da Vinci“</a>.</p>
+<p>Crowdsourcing und Citizen Science sind Handlungsfelder, die in Bibliotheken zunehmend Aufmerksamkeit wecken. Hierbei gewinnen Bibliotheken über externe engagierte Dritte zusätzliche Ressourcen für die Erschließung, Auswertung oder Korrektur von Daten.</p>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Beispiel">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Beispiel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Im Projekt „<a href="https://de.wikiversity.org/wiki/DieDatenlaube">Die Datenlaube</a>“ erfasst und korrigiert in der deutschsprachigen Wikisource eine Gemeinschaft Ehrenamtlicher seit 2008 die von verschiedenen Bibliotheken bereitgestellten Scans der Illustrierten „Die Gartenlaube“. Diese Wikisource-Volltexte und -Illustrationen werden mit offenen Metadaten in Wikidata strukturiert erschlossen.</p>
+<div id="fig-datenlaube" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-datenlaube-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/die-datenlaube.jpg" class="img-fluid figure-img" style="width:45.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-datenlaube-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;9.4: Die Datenlaube: Projektlogo
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="offene-infrastrukturen" class="level3" data-number="9.4.2">
+<h3 data-number="9.4.2" class="anchored" data-anchor-id="offene-infrastrukturen"><span class="header-section-number">9.4.2</span> Offene Infrastrukturen</h3>
+<p>Offene digitale Infrastrukturen spielen für die Speicherung, Erschließung und Vernetzung von Digitalisaten eine wichtige Rolle, nicht zuletzt auch, um die beschriebene Beteiligung zu ermöglichen. Das prominenteste Beispiel dafür sind die Projekte der Wikimedia-Foundation, deren Grundprinzipien von Offenheit und Referenzierbarkeit die bibliothekarischen Erschließungs- und Präsentationskomponenten ergänzen:</p>
+<ul>
+<li><p><strong>Wikimedia Commons</strong> fungiert als zentraler Medienspeicher. Die Erschließung kann bis zur Details von Bildpositionen reichen. Die Illustrationen dieses Handbuchs sind in Wikimedia Commons <a href="https://commons.wikimedia.org/wiki/Category:Handbuch_IT_in_Bibliotheken">in einer Medienkategorie</a> gebündelt (siehe Abbildungsverzeichnis im <a href="abbildungen.html" class="quarto-xref"><span>Anhang B</span></a>).</p></li>
+<li><p>Mit der offenen Wissensdatenbank (Knowledge Graph) <strong>Wikidata</strong> können insbesondere Metadaten strukturiert und damit maschinenlesbar gespeichert, gemeinsam editiert, visualisiert, analysiert, geteilt und verknüpft werden.</p></li>
+<li><p>Die vielsprachigen Versionen der <strong>Wikipedia</strong> speichern Wissen in enzyklopädischen Artikeln und ermöglichen so die Zusammenführung von Digitalisaten mit Texten, Illustrationen aus den Wikimedia Commons, Referenzen, Links und damit Kontext.</p></li>
+<li><p><strong>Wikisource</strong> ist eine Quellensammlung gemeinfreier Werke und besteht sowohl aus transkribierten Volltexten und deren Illustrationen als auch thematischen Linksammlungen zu relevanten Digitalisaten in Digitalen Sammlungen öffentlicher und wissenschaftlicher Bibliotheken, Archive, Museen und Galerien (GLAM).</p></li>
+</ul>
+<p>Herausforderungen aus IT-bibliothekarischer Sicht bestehen darin, Wikimedia-Portale und bibliothekarische Werkzeuge durch Schnittstellen und Datentransformation (<a href="metadaten.html#etl-prozess">ETL-Tools</a>) miteinander zu verknüpfen. GLAM-Labore (Open GLAM Labs) können dafür als Experimentier- und Ausbildungsort fungieren – in Bibliotheken und institutionenübergreifend z.B.&nbsp;im Rahmen von Landesdigitalisierungsprogrammen.</p>
+</section>
+</section>
+<section id="checkliste-für-digitalisierungsprojekte" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="checkliste-für-digitalisierungsprojekte"><span class="header-section-number">9.5</span> Checkliste für Digitalisierungsprojekte</h2>
+<p>Diese <strong>Checkliste</strong> dient als Leitfaden für die Planung und Umsetzung von Digitalisierungsprojekten in Bibliotheken und hilft sicherzustellen, dass die Ziele erreicht und die digitalen Sammlungen effektiv genutzt werden können.</p>
+<p><strong>Vorbereitungsphase:</strong></p>
+<ol type="1">
+<li><p><em>Festlegung der Ziele</em>: Klären Sie die Hauptziele und den Zweck der Digitalisierung (z.B.&nbsp;Zugänglichkeit, Erhaltung, Forschung).</p></li>
+<li><p><em>Ressourcenplanung</em>: Ermitteln Sie die erforderlichen Ressourcen wie Verfügbarkeit der Objekte, Personal, Technologie, Budget und Zeitrahmen.</p></li>
+<li><p><em>Rechtliche Überlegungen</em>: Klären Sie urheberrechtliche und rechtliche Fragen bezüglich der digitalisierten Materialien.</p></li>
+<li><p><em>Auswahl der Objekte</em>: Wählen Sie die Objekte aus, die digitalisiert werden sollen, u. a. basierend auf ihrer Bedeutung und ihrem Zustand.</p></li>
+<li><p><em>Metadatenplanung</em>: Entwickeln Sie einen Plan zur Erfassung und Verwaltung von Metadaten für die digitalisierten Materialien.</p></li>
+</ol>
+<p><strong>Technische Umsetzung:</strong></p>
+<ol start="6" type="1">
+<li><p><em>Scantechnologie</em>: Wählen Sie die geeignete Scantechnologie und -auflösung entsprechend der Art der Objekte und deren Verwendungszweck aus.</p></li>
+<li><p><em>Qualitätskontrolle</em>: Implementieren Sie Prozesse zur Sicherstellung der Qualität der Digitalisate.</p></li>
+<li><p><em>Dateiformate</em>: Entscheiden Sie über die geeigneten Dateiformate für die digitalisierten Materialien.</p></li>
+<li><p><em>Speicher und Sicherung</em>: Planen Sie die Speicherung und regelmäßige Sicherung der digitalen Sammlung.</p></li>
+</ol>
+<p><strong>Metadaten und Beschreibung:</strong></p>
+<ol start="10" type="1">
+<li><p><em>Metadatenstandards</em>: Verwenden Sie etablierte Metadatenstandards, um die Beschreibung der Objekte zu standardisieren.</p></li>
+<li><p><em>Dokumentation</em>: Dokumentieren Sie den Digitalisierungsprozess und die verwendeten Metadaten.</p></li>
+<li><p><em>Zugänglichkeitsprüfung</em>: Überprüfen Sie, ob die digitalen Sammlungen barrierefrei und benutzerfreundlich sind.</p></li>
+</ol>
+<p><strong>Langzeitpflege</strong>:</p>
+<ol start="13" type="1">
+<li><p><em>Erhaltungsstrategien</em>: Planen Sie langfristige Erhaltungsstrategien für digitale Materialien.</p></li>
+<li><p><em>Aktualisierung und Migration</em>: Berücksichtigen Sie die Notwendigkeit von Aktualisierungen und Migrationen von Dateiformaten und Systemen.</p></li>
+</ol>
+<p><strong>Zugang und Bereitstellung:</strong></p>
+<ol start="15" type="1">
+<li><p><em>Plattformwahl</em>: Wählen Sie die geeignete Plattform oder das geeignete System zur Präsentation und Verwaltung der digitalen Sammlungen.</p></li>
+<li><p><em>Nutzungsrechte</em>: Klären Sie die Nutzungsrechte und -bedingungen für die digitalen Inhalte.</p></li>
+<li><p><em>Nutzerfeedback</em>: Implementieren Sie Mechanismen zur Erfassung von Nutzerfeedback zur Verbesserung der digitalen Sammlungen.</p></li>
+</ol>
+<p><strong>Veröffentlichung und Dissemination:</strong></p>
+<ol start="18" type="1">
+<li><p><em>Verbreitung</em>: Planen Sie die Verbreitung der digitalisierten Sammlungen über Online-Kanäle, soziale Medien und Partnerschaften.</p></li>
+<li><p><em>Marketing</em>: Entwickeln Sie Marketingstrategien, um die digitalen Sammlungen einem breiten Publikum bekannt zu machen.</p></li>
+<li><p><em>Evaluation</em>: Führen Sie regelmäßige Bewertungen durch, um den Erfolg Ihrer Digitalisierungsprojekte zu messen und zu verbessern.</p></li>
+</ol>
+</section>
+<section id="zusammenfassung-und-ausblick" class="level2" data-number="9.6">
+<h2 data-number="9.6" class="anchored" data-anchor-id="zusammenfassung-und-ausblick"><span class="header-section-number">9.6</span> Zusammenfassung und Ausblick</h2>
+<p>Viele Bibliotheken mit historischen Beständen sind im Feld der Kulturgutdigitalisierung engagiert und kooperativ unterwegs. Werkzeuge, Standards und Dienstleister stehen zur Verfügung, um die unikalen Bestände ins Netz zu bringen. Um die Bandbreite der Objekte zu erweitern, finden gerade wichtige Entwicklungen statt, um auch AV-Medien und Objekte jenseits von 2D in die Routine aufzunehmen. Ebenso werden die Bibliotheken mit den Ergebnissen aus OCR-D immer mehr in der Lage sein, auch ohne Expertenwissen gute Volltexte zu erzeugen bzw.&nbsp;ihre gesamten Digitalisate inkl.&nbsp;handschriftlicher Dokumente mit Volltexten anzureichern. Hier sind ggf.&nbsp;auch kooperative Infrastrukturen aufzubauen, um die Fortschritte in den technischen Möglichkeiten schnell zur Verfügung zu stellen und eine regelmäßige Erneuerung der Volltexte zum Standard werden zu lassen. Daneben gilt es, gezielt <a href="management.html#kompetenzen">Kompetenzaufbau</a> unter den Mitarbeitenden zu betreiben, um den Aufbau und Betrieb solcher Infrastrukturen zu gewährleisten.</p>
+<p>Erste Bibliotheken machen sich mit der schnell wachsenden Menge an Volltexten auf den Weg, mit Hilfe ausgewählter Tools aus dem Feld des Maschinenlernens, ihre Suche semantisch anzureichern auf Basis der vorgeschalteten automatisierten Analyseverfahren.</p>
+<p>Mit dem großen Schatz der Volltexte wird es darüber hinaus wichtiger werden, diesen auch den Forscher:innen zusätzlich über eine API anzubieten, um individuelle Korpora für den Download in eigene Umgebungen zusammenstellen zu können. Hier landet man dann auch schnell bei der Suche nach weitergehenden nachhaltigen Lösungen für urheberrechtlich geschützte Materialien.</p>
+<p>Aber auch die kollaborativen Aktivitäten an einzelnen Digitalisaten im Wikiversum oder in Citizen Science Projekten sind getragen von dem Leitgedanken, dass die digitalisierten Kulturgüter in neue Zusammenhänge gestellt werden und Interessierte zu einem Thema zusammenbringen.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function () {  
+  const links = document.getElementsByClassName("toc-actions")[0]?.firstChild
+  const addLink = (text, url) => {
+    const li = document.createElement("li")
+    const a = document.createElement("a")
+    a.text = text
+    a.href = url
+    a.className = "toc-action"
+    li.innerHTML = '<i class="bi empty"></i>'
+    li.appendChild(a)
+    links.appendChild(li)
+  }
+  if (links) {
+    var match = window.location.pathname.match(/([a-z-]+)\.html$/)
+    var name = match ? match[1] : "einleitung"
+    var url = chapters[name]
+    if (url) {
+      addLink("Kapitel kommentieren", url)
+    }
+  }
+})
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./discovery.html" class="pagination-link" aria-label="Discovery-Systeme">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Discovery-Systeme</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./forschungsnahe-dienste.html" class="pagination-link" aria-label="Forschungsnahe Dienste">
+        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Forschungsnahe Dienste</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/digitalisierung.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/digitalisierung.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

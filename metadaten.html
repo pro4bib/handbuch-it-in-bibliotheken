@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Grundlagen der bibliothekarischen Datenverarbeitung">
+
+<title>6&nbsp; Daten &amp; Metadaten – Handbuch IT in Bibliotheken</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./bibliotheksmanagementsysteme.html" rel="next">
+<link href="./sicherheit.html" rel="prev">
+<link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9546b0ec21e596eb800732cc565da03e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+<link rel="canonical" href="https://it-in-bibliotheken.de/metadaten.html">
+
+
+<link rel="stylesheet" href="style.css">
+<meta name="twitter:title" content="6&nbsp; Daten &amp; Metadaten – Handbuch IT in Bibliotheken">
+<meta name="twitter:description" content="Die wichtigsten Themen zum Einsatz von IT in Bibliotheken: IT-Management, Bibliotheksmanagementsysteme, Digitalisierung…">
+<meta name="twitter:image" content="media/er-modell.svg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./metadaten.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Daten &amp; Metadaten</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./media/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Handbuch IT in Bibliotheken</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="./Handbuch-IT-in-Bibliotheken.docx" title="Download Docx" class="quarto-navigation-tool px-1" aria-label="Download Docx"><i class="bi bi-file-word"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Suchen"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Einleitung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./infrastruktur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Technische Infrastruktur</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">IT-Management</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./anforderungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Anforderungsanalyse</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./sicherheit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sicherheit &amp; Datenschutz</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./metadaten.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Daten &amp; Metadaten</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bibliotheksmanagementsysteme.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Bibliotheksmanagementsysteme</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Discovery-Systeme</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./digitalisierung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Digitalisierung</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./forschungsnahe-dienste.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Forschungsnahe Dienste</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kommunikation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Kommunikation</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./literatur.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Literaturverzeichnis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Anhang</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossar.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Abkürzungsverzeichnis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./abbildungen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Abbildungsverzeichnis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./danksagung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Danksagung</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./contributors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Beteiligte Autor*innen</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mitarbeit.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Hinweise zur Mitarbeit</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhaltsverzeichnis</h2>
+   
+  <ul>
+  <li><a href="#einleitung" id="toc-einleitung" class="nav-link active" data-scroll-target="#einleitung"><span class="header-section-number">6.1</span> Einleitung</a></li>
+  <li><a href="#grundlegende-begrifflichkeiten" id="toc-grundlegende-begrifflichkeiten" class="nav-link" data-scroll-target="#grundlegende-begrifflichkeiten"><span class="header-section-number">6.2</span> Grundlegende Begrifflichkeiten</a>
+  <ul class="collapse">
+  <li><a href="#daten" id="toc-daten" class="nav-link" data-scroll-target="#daten"><span class="header-section-number">6.2.1</span> Daten</a></li>
+  <li><a href="#datenformate" id="toc-datenformate" class="nav-link" data-scroll-target="#datenformate"><span class="header-section-number">6.2.2</span> Datenformate</a></li>
+  <li><a href="#identifikatoren" id="toc-identifikatoren" class="nav-link" data-scroll-target="#identifikatoren"><span class="header-section-number">6.2.3</span> Identifikatoren</a></li>
+  <li><a href="#normdaten" id="toc-normdaten" class="nav-link" data-scroll-target="#normdaten"><span class="header-section-number">6.2.4</span> Normdaten</a></li>
+  </ul></li>
+  <li><a href="#metadatenstandards" id="toc-metadatenstandards" class="nav-link" data-scroll-target="#metadatenstandards"><span class="header-section-number">6.3</span> Metadatenstandards</a>
+  <ul class="collapse">
+  <li><a href="#sec-arten-von-metadaten" id="toc-sec-arten-von-metadaten" class="nav-link" data-scroll-target="#sec-arten-von-metadaten"><span class="header-section-number">6.3.1</span> Arten von Metadaten</a></li>
+  <li><a href="#feldbasierte-bibliothekarische-metadatenformate" id="toc-feldbasierte-bibliothekarische-metadatenformate" class="nav-link" data-scroll-target="#feldbasierte-bibliothekarische-metadatenformate"><span class="header-section-number">6.3.2</span> Feldbasierte bibliothekarische Metadatenformate</a></li>
+  <li><a href="#xml-basierte-datenformate" id="toc-xml-basierte-datenformate" class="nav-link" data-scroll-target="#xml-basierte-datenformate"><span class="header-section-number">6.3.3</span> XML-basierte Datenformate</a></li>
+  <li><a href="#datenmodelle-und-ontologien" id="toc-datenmodelle-und-ontologien" class="nav-link" data-scroll-target="#datenmodelle-und-ontologien"><span class="header-section-number">6.3.4</span> Datenmodelle und Ontologien</a></li>
+  <li><a href="#verlagsdaten-und-literaturangaben" id="toc-verlagsdaten-und-literaturangaben" class="nav-link" data-scroll-target="#verlagsdaten-und-literaturangaben"><span class="header-section-number">6.3.5</span> Verlagsdaten und Literaturangaben</a></li>
+  </ul></li>
+  <li><a href="#datenverarbeitungsprozess-in-bibliotheken" id="toc-datenverarbeitungsprozess-in-bibliotheken" class="nav-link" data-scroll-target="#datenverarbeitungsprozess-in-bibliotheken"><span class="header-section-number">6.4</span> Datenverarbeitungsprozess in Bibliotheken</a>
+  <ul class="collapse">
+  <li><a href="#datenerfassung" id="toc-datenerfassung" class="nav-link" data-scroll-target="#datenerfassung"><span class="header-section-number">6.4.1</span> Datenerfassung</a></li>
+  <li><a href="#etl-prozess" id="toc-etl-prozess" class="nav-link" data-scroll-target="#etl-prozess"><span class="header-section-number">6.4.2</span> ETL-Prozess</a></li>
+  <li><a href="#werkzeuge" id="toc-werkzeuge" class="nav-link" data-scroll-target="#werkzeuge"><span class="header-section-number">6.4.3</span> Werkzeuge</a></li>
+  <li><a href="#schnittstellen" id="toc-schnittstellen" class="nav-link" data-scroll-target="#schnittstellen"><span class="header-section-number">6.4.4</span> Schnittstellen</a></li>
+  <li><a href="#datenanalyse" id="toc-datenanalyse" class="nav-link" data-scroll-target="#datenanalyse"><span class="header-section-number">6.4.5</span> Datenanalyse</a></li>
+  </ul></li>
+  <li><a href="#künstliche-intelligenz" id="toc-künstliche-intelligenz" class="nav-link" data-scroll-target="#künstliche-intelligenz"><span class="header-section-number">6.5</span> Künstliche Intelligenz</a></li>
+  <li><a href="#zusammenfassung-ausblick" id="toc-zusammenfassung-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-ausblick"><span class="header-section-number">6.6</span> Zusammenfassung &amp; Ausblick</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/metadaten.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/metadaten.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script>chapters={"einleitung":"https://docs.google.com/document/d/1UVQ31DIL_if5dU5PHUCLDJ4EeltrbZMe/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","management":"https://docs.google.com/document/d/1u-2li4kiMG13cYwiXgJ8ZCfA7JZu3gQB/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","anforderungen":"https://docs.google.com/document/d/1-ulLfARosY4Vk2ZVMuTv6F1Ru5ne76om/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","infrastruktur":"https://docs.google.com/document/d/1e-THCiAVxPdYtEiV2haztqsGf3k0x_PO/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","bibliotheksmanagementsysteme":"https://docs.google.com/document/d/1hi3Zf7rmLrYSXB2XdEv_PCl4HrySdQqn/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","discovery":"https://docs.google.com/document/d/1P1FHgf1wNgER0mjSFMnlGWLo0Is6J0te/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","metadaten":"https://docs.google.com/document/d/1yM0PULt_6MMrE3fDCrzg20uIw_oni9kT/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","mitarbeit":"https://docs.google.com/document/d/1gCtGlxyciHjQCZTVbbNLx5EOJ1dxkbwD/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","kommunikation":"https://docs.google.com/document/d/1r6m1l6gkw6T4qS-sI1lvD6idf2ZBWcRK/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","digitalisierung":"https://docs.google.com/document/d/1_DIqvtejlagiG0zvtpOX_Wz5gd4Q41FW/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","sicherheit":"https://docs.google.com/document/d/1yyFOLw83UyDvE6-9kXfVxVaxR3qriaVV/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true","forschungsnahe-dienste":"https://docs.google.com/document/d/1TImCiRVNEZTNzGbRVpYRFF2GBzrZyYv7/edit?usp=sharing&ouid=114825892273840568168&rtpof=true&sd=true"}
+</script>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-metadaten" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Daten &amp; Metadaten</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-simple callout-note callout-titled" title="Zusammenfassung">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Zusammenfassung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Die Beschreibung von Ressourcen mit standardisierten Metadaten bildet eine zentrale Voraussetzung für die meisten an Bibliotheken angebotenen IT-Dienste. Das vorliegende Kapitel gibt einen Überblick über die Thematik, indem es <a href="#grundlegende-begrifflichkeiten">grundlegende Begriffe</a> einführt, wichtige <a href="#metadatenstandards">Metadatenstandards</a> vorstellt und <a href="#datenverarbeitungsprozess-in-bibliotheken">Prozesse der Datenverarbeitung</a> in Bibliotheken erläutert.</p>
+</div>
+</div>
+<section id="einleitung" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="einleitung"><span class="header-section-number">6.1</span> Einleitung</h2>
+<p>Für die Sammlung und Bereitstellung von Informationen werden von Bibliotheken Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten …) nachgewiesen. Zur Verwaltung der Ressourcen werden diese mit <strong>Metadaten</strong> beschrieben. Neben diesen Metadaten enthalten bibliothekarische Informationssysteme zunehmend auch die dazugehörigen <strong>digitalen Inhalte</strong> wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe <a href="digitalisierung.html" class="quarto-xref"><span>Kapitel 9</span></a> und <a href="forschungsnahe-dienste.html" class="quarto-xref"><span>Kapitel 10</span></a>). Viele der im Folgenden beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten gelten sowohl für Metadaten als auch für digitale Inhalte.</p>
+</section>
+<section id="grundlegende-begrifflichkeiten" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="grundlegende-begrifflichkeiten"><span class="header-section-number">6.2</span> Grundlegende Begrifflichkeiten</h2>
+<section id="daten" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="daten"><span class="header-section-number">6.2.1</span> Daten</h3>
+<p>Im Wesentlichen bestehen Daten im Sinne dieses Buchs aus einer Folge von Bits. Abgesehen von ihrer Anzahl in Bytes lässt sich auf dieser Ebene allerdings nichts weiter über Daten sagen. Uns interessiert daher mehr, wofür die Daten stehen – beispielsweise für eine Jahreszahl, ein Bild oder für den Titel eines Dokuments. Dabei besteht ein Unterschied zwischen</p>
+<ul>
+<li><p>der Struktur von Daten (<strong>Syntax</strong>)</p></li>
+<li><p>und der Bedeutung von Daten (<strong>Semantik</strong>).</p></li>
+</ul>
+<p>Zur Interpretation von Daten dienen <strong>Kodierungen</strong> in Form von Datenformaten und <a href="#identifikatoren">Identifikatoren</a>. Wo genau jeweils die Grenze zwischen Syntax und Semantik liegt, hängt davon ab, auf welcher Ebene und mit welcher Kodierung Daten betrachtet und verarbeitet werden (siehe <a href="#tbl-daten-ebenen" class="quarto-xref">Tabelle&nbsp;<span>6.1</span></a>):</p>
+<div id="tbl-daten-ebenen" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-daten-ebenen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Struktur</th>
+<th style="text-align: left;">Bedeutung</th>
+<th style="text-align: left;">Kodierung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>2024-02-24</code></td>
+<td style="text-align: left;">Der 24. Februar 2024</td>
+<td style="text-align: left;">ISO 8601</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>1100001</code></td>
+<td style="text-align: left;">Die Zahl 97 (64+32+1)</td>
+<td style="text-align: left;">Byte als Zahl</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>97</code></td>
+<td style="text-align: left;">Der Buchstabe „a“</td>
+<td style="text-align: left;">ASCII oder Unicode</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>a</code></td>
+<td style="text-align: left;">Unterfeld für Haupttitel</td>
+<td style="text-align: left;">Feld <code>021A</code> im PICA+ Format</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>a</code></td>
+<td style="text-align: left;">Unterfeld für Umfangsangabe</td>
+<td style="text-align: left;">Feld <code>300</code> im MARC21 Format</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-daten-ebenen-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;6.1: Beispiele für Syntax und Semantik von Daten auf verschiedenen Ebenen
+</figcaption>
+</figure>
+</div>
+<p>Ein Großteil der <a href="#datenverarbeitungsprozess-in-bibliotheken">Datenverarbeitung</a> besteht darin, Daten, zum Beispiel im Rahmen von <a href="#etl-prozess">ETL-Prozessen</a>, von einer Kodierung in eine andere Kodierung zu überführen, um sie anschließend leichter interpretieren zu können. Bei der Konvertierung von Daten von einem in ein anderes Datenformat reduziert sich das implizite Datenmodell der Konvertierung auf den kleinsten gemeinsamen Nenner beider Formate.</p>
+<p>Zur Beschreibung von Daten dienen</p>
+<ul>
+<li><p>formale <strong>Schemata</strong> auf Ebene der Syntax</p></li>
+<li><p>und <strong>Datenmodelle</strong> auf Ebene der Semantik.</p></li>
+</ul>
+<p>Leider liegen beide oft nicht explizit vor, sondern müssen anhand von Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im Idealfall entsprechen Daten einem klar definierten Datenformat.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Mit dem <strong>Resource Description Framework (RDF)</strong> kodierte Daten werden auch als „semantisch“ bezeichnet. Die Kodierung erfolgt dabei nicht mit Feldern oder Tabellen, sondern in Form von so genannten RDF-Tripeln aus Subjekt, Prädikat und Objekt. Durch Verwendung gemeinsamer <a href="#identifikatoren">Identifikatoren</a> in mehreren Tripeln entstehen <a href="#datenmodelle-und-ontologien">Wissensgraphen</a>, die in speziellen Datenbanken (<em>Triplestores</em>) gespeichert und abgefragt werden können.</p>
+<p>Die Bedeutung von RDF-Daten ergibt sich allerdings, wie bei allen Kodierungen, erst aus der Dokumentation von Datenelementen und ihrer Interpretation in praktischen Anwendungen.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="datenformate" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="datenformate"><span class="header-section-number">6.2.2</span> Datenformate</h3>
+<p>Datenformate definieren eine Struktur, die sich in einer oder in mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben, Sonderzeichen, Emojis …) und verschiedene Verfahren, um Zeichenketten in Bytes zu kodieren (UTF-8, UTF-16 …). Syntax-Varianten werden auch als <strong>Serialisierung</strong> bezeichnet. Die meisten Datenformate haben nur eine Serialisierung, sodass Format und Syntax meist synonym verwendet werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im Datenmodell (siehe <a href="#tbl-xml" class="quarto-xref">Tabelle&nbsp;<span>6.2</span></a>), daher werden in der Beschreibung von Daten auch diese beiden Ebenen meist nicht sauber getrennt.</p>
+<div id="tbl-xml" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-xml-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">XML-Syntax</th>
+<th style="text-align: left;">XML-Modell</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>&lt;name /&gt;</code> oder <code>&lt;name&gt;...&lt;/name&gt;</code></td>
+<td style="text-align: left;">XML-Element</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>name="Inhalt"</code></td>
+<td style="text-align: left;">XML-Attribut</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>&lt;!-- ... --&gt;</code></td>
+<td style="text-align: left;">Kommentar</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-xml-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;6.2: Einige Bestandteile des XML-Formats
+</figcaption>
+</figure>
+</div>
+<p>Als Faustregel kann gelten, dass bei statischer Betrachtung von Daten der Bezug auf ihre Syntax sinnvoll ist, während zur Verarbeitung von Daten eher auf die Bestandteile ihrer Modelle Bezug genommen werden sollte.</p>
+<p>Datenformate lassen sich grob in zwei Kategorien unterteilen:</p>
+<ul>
+<li><p><strong>Strukturierungssprachen</strong> wie CSV, XML, JSON und RDF ermöglichen es, Daten in kleinere Einheiten zu unterteilen und miteinander in Beziehung zu setzen. Die Sprachen basieren auf allgemeinen Ordnungsprinzipien (Felder, Tabellen, Hierarchien, Netzwerke …) und ihre Modelle haben darüber hinaus keine eigene Semantik. Die einfachste Strukturierungssprache ist das Prinzip der Zeichenkette.</p></li>
+<li><p><strong>Anwendungsformate</strong> legen die Struktur von Daten für konkrete Arten von Inhalten fest (<a href="#metadatenformate">Metadatenformate</a> zur Beschreibung von Dokumenten, Bildformate für Bilder …). Ihre Modelle verweisen letztendlich auf reale Objekte und Eigenschaften. Viele Anwendungsformate sind ihrerseits mittels einer Strukturierungssprache kodiert, zum Beispiel basiert das DataCite-Format zur Beschreibung von Forschungsdaten auf dem XML-Modell.</p></li>
+</ul>
+<p>Darüber hinaus gibt es besondere Formate, deren Anwendung in der Verarbeitung von Daten liegt. Neben Programmiersprachen, die selbst nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:</p>
+<ul>
+<li><p><strong>Schemasprachen</strong> wie XML Schema, JSON Schema und nicht zuletzt <em>reguläre Ausdrücke</em> dienen der formalen Beschreibung der Syntax von Datenformaten. Dabei bezieht sich jede Schemasprache auf eine Strukturierungssprache (<em>XML Schema</em> für XML-Formate, <em>Avram</em> für feldbasierte Formate …).</p></li>
+<li><p><strong>Abfragesprachen</strong> dienen dem Verweis auf einzelne Teile von Datensätzen. Sie beziehen sich ebenfalls immer auf eine Strukturierungssprache (zum Beispiel XPath für XML, JSON Path für JSON …) und sind für die Verarbeitung von Daten notwendig.</p></li>
+<li><p><strong>Modellierungssprachen</strong> helfen bei der Beschreibung von Datenmodellen. Die häufigsten Modellierungssprachen basieren auf dem Entity-Relationship-Modell. Da zwischen Syntax und Semantik irgendwann die reine Datenebene verlassen werden muss, sind die wichtigsten Mittel zur Datenmodellierung allerdings Diagramme und Beschreibungen in natürlicher Sprache.</p></li>
+</ul>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Das <strong>Entity-Relationshop-Modell</strong> ist eine Modellierungssprache die meist für relationale Datenbanken verwendet wird, aber auch unabhängig davon verwendet werden kann. Dabei werden in einem ER-Diagramm Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe Beispiel <a href="#fig-er-diagram" class="quarto-xref">Abbildung&nbsp;<span>6.1</span></a>). Eine graphische Syntax für erweitere ER-Diagramme ist die Unified Modeling Language (<em>UML</em>).</p>
+<div id="fig-er-diagram" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-er-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/er-modell.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-er-diagram-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6.1: ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>Die Verwendung von Schema-, Abfrage- und Modellierungssprachen hilft, häufig auftretende Fehler bei der (Meta-)Datenverarbeitung zu vermeiden. Ein Beispiel hierfür ist das <em>Resource Description Framework</em> (<em>RDF</em>) mit dazugehörigen Schemasprachen (<em>SHACL</em>/<em>ShEx</em>), Abfragesprachen (<em>SPARQL</em>) und Modellierungssprachen (<em>RDFS</em>/<em>OWL</em>). In anderen Fällen wird aus Mangel an Werkzeugen und Kenntnissen auf spezielle Datensprachen verzichtet und stattdessen auf allgemeine Programmiersprachen zurückgegriffen.</p>
+<p>Eine ausführlichere Beschreibung von Datenformaten mit bibliothekarischem Schwerpunkt bietet die Datenbank <a href="https://format.gbv.de/">format.gbv.de</a>. Grundlagen von Metadaten und Ontologien vermitteln <span class="citation" data-cites="kuhlen_metadaten_2023">Assfalg (<a href="literatur.html#ref-kuhlen_metadaten_2023" role="doc-biblioref">2023</a>)</span> und <span class="citation" data-cites="kuhlen_ontologien_2023">Rölke und Weichselbraun (<a href="literatur.html#ref-kuhlen_ontologien_2023" role="doc-biblioref">2023</a>)</span>.</p>
+<p>In der Praxis werden Daten in einem Datenformat zusätzlich durch anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter Format-Varianten, Metadatenprofile bzw.&nbsp;Anwendungsprofile, Erfassungsregeln und die jeweilige Erfassungspraxis.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Reguläre Ausdrücke</strong> sind das gängigste Mittel zur Beschreibung der Syntax von Daten. Gleichzeitig können mit ihnen Zeichenketten nach Mustern durchsucht werden. Ein regulärer Ausdruck für die Syntax einer ISBN-13 mit optionalen Trennstrichen ist beispielsweise:</p>
+<pre><code>(97[89])-?([0-9]{1,5})-?([0-9]+)-?([0-9]+)-?[0-9]</code></pre>
+<p>Üblicherweise decken Schemasprachen nicht alle Aspekte eines Datenformats ab. So lässt sich die Korrektheit der abschließenden Prüfziffer (<code>[0-9]</code>) nicht mit einem regulären Ausdruck überprüfen.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="identifikatoren" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="identifikatoren"><span class="header-section-number">6.2.3</span> Identifikatoren</h3>
+<p>Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs). Identifikatoren sind Namen, Nummern oder Codes, die eine eindeutige Referenzierung gleicher Dinge in unterschiedlichen Kontexten ermöglichen. Daten aus unterschiedlichen Quellen können miteinander abgeglichen und kombiniert werden, wenn sie die gleichen Identifikatoren verwenden.</p>
+<p>Neben eher intern genutzten Datensatz-Identifikatoren (z.B.&nbsp;die <abbr title="Pica-Produktionsnummer, eindeutige Identifikationsnummer für Datensätze im PICA-Format">PPN</abbr> des Bibliothekssystems PICA oder die ZDB-ID der Zeitschriftendatenbank) sind vor allem international standardisierte Identifikatoren von Bedeutung. Beispiele für solche Identifier-Systeme mit Relevanz für bibliothekarische Daten sind die nachfolgenden:</p>
+<ul>
+<li><p>Die <em>International Standard Book Number</em> (<strong>ISBN</strong>) wird von Verlagen für Bücher vergeben. Seit 2007 ist die 13-stellige ISBN Teil des EAN-Barcode-Systems.</p></li>
+<li><p>Die <em>International Standard Serial Number</em> (<strong>ISSN</strong>) identifiziert Zeitschriften und Schriftenreihen.</p></li>
+<li><p>Der <em>Digital Object Identifier</em> (<strong>DOI</strong>) identifiziert digitale Publikationen in elektronischen Zeitschriften und Repositorien.</p></li>
+<li><p>Der <em>International Standard Identifier for Libraries and Related Organisations</em> (<strong>ISIL</strong>) referenziert Bibliotheken, Archive, Museen und verwandte Einrichtungen.</p></li>
+<li><p>Die <em>Open Researcher and Contributor ID</em> (<strong>ORCID</strong>) identifiziert Autor*innen von wissenschaftlichen Publikationen.</p></li>
+<li><p>Der <em>Uniform Resource Locator</em> (<strong>URL</strong>) dient als Adresse einer digitalen Ressource im Web und wird teilweise gleichzeitig als deren Identifikator eingesetzt.</p></li>
+<li><p>Das System der <em>Uniform Resource Identifier</em> (<strong>URI</strong>) ermöglicht die Vereinigung verschiedener Identifier-Systeme und bildet die Grundlage von <em>RDF</em> und Linked Open Data (<em>LOD</em>).</p></li>
+</ul>
+<p>Gemeinsam ist den Identifikatoren, dass sie jeweils eine definierte Syntax haben (z.B.&nbsp;<code>XXXX-XXXY</code> im Falle der ISSN, wobei <code>X</code> für eine Ziffer und <code>Y</code> für eine Prüfziffer steht), deren Bestandteile hierarchisch von einer zentralen Instanz festgelegt werden. Nach dem Prinzip des Namensraums kann dabei die Vergabe von Teilen an untergeordnete Organisationen delegiert werden. Beispielsweise werden ISIL für Bibliotheken in Deutschland beginnend mit dem Präfix „DE-“ durch die <a href="https://sigel.staatsbibliothek-berlin.de/">ISIL-Agentur an der Staatsbibliothek zu Berlin</a> verwaltet.</p>
+<p>Im Gegensatz dazu gibt es zur Identifizierung von digitalen Objekten auch dezentrale Identifikatoren in Form von Prüfsummen, die sich automatisch aus den vorhandenen Daten berechnen lassen (SHA-Summe, IPFS-Adresse, Prüfziffer …).</p>
+</section>
+<section id="normdaten" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="normdaten"><span class="header-section-number">6.2.4</span> Normdaten</h3>
+<p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen <a href="#identifikatoren">Identifikator</a> versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <em>Normdaten</em> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Umfang und Komplexität von Normdateien reichen von einfachen Listen bis zu komplexen <a href="#datenmodelle-und-ontologien">Ontologien und Wissensgraphen</a>. Ein prominentes bibliothekarisches Beispiel einer Normdatei ist die Gemeinsame Normdatei (<abbr title="Gemeinsame Normdatei, zentrale Normdatei für Personen, Körperschaften, Kongresse, Geografika und Schlagwörter">GND</abbr>), in der neben Personen auch Körperschaften, Veranstaltungen, Geografika, Werke und Sachschlagwörter miteinander vernetzt sind.</p>
+</div>
+</div>
+</div>
+<p>Zur Anreicherung von Daten mit Normdaten mittels <em>Entity Recognition</em> (Erkennung von Entitäten in Daten) und <em>Entity Linking</em> (Abgleich von Entitäten mit IDs anderer Normdateien) sollte unterschieden werden zwischen:</p>
+<ul>
+<li><p>Normdateien mit Entitäten wie Personen (ORCID), Publikationen (DOI, ISBN), Sprachen (ISO 639) etc., die sich grundsätzlich eindeutig unterscheiden lassen sowie</p></li>
+<li><p>Normdateien, deren abstrakte Entitäten von Kontext und Modellierung abhängen (Klassifikationen, Thesauri …).</p></li>
+</ul>
+<p>Zur Verwaltung von Normdaten gibt es einige Datenformate wie <em>MARC 21 for Authority Data</em> und <em>ISAAR (CPF)</em>. Als gemeinsamer Nenner auch außerhalb des Bibliotheksbereichs gilt das RDF-basierte <em>Simple Knowledge Organization System</em> (<em>SKOS</em>), für das mit JSKOS auch eine JSON-Variante existiert. Vor allem kleinere oder speziellere Normdateien (z.B.&nbsp;Codelisten im Rahmen der Katalogisierung) liegen allerdings selten in maschinenlesbarer Form vor.</p>
+<p>Das <a href="https://bartoc.org/"><em>Basic Register of Thesauri, Ontologies &amp; Classifications</em></a> (BARTOC) erfasst Informationen zu Normdateien aller Art, darunter auch Verfahren zum technischen Zugriff.</p>
+</section>
+</section>
+<section id="metadatenstandards" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="metadatenstandards"><span class="header-section-number">6.3</span> Metadatenstandards</h2>
+<p>Neben allgemeinen <a href="#datenformate">Datenformaten</a> sind für die Bibliotheks-IT vor allem Metadatenformate zur Beschreibung von Dokumenten relevant. Die meisten der im Folgenden beschriebenen Metadatenformate spielen außerhalb von Kultureinrichtungen keine wesentliche Rolle. Für digitale Objekte (<em>METS/MODS</em>, <em>LIDO</em>, <em>CDWA</em>, <em>EN 15907</em>, <em>EAD</em> …, siehe <a href="digitalisierung.html" class="quarto-xref"><span>Kapitel 9</span></a>) und für Forschungsdaten (DataCite, siehe <a href="forschungsnahe-dienste.html" class="quarto-xref"><span>Kapitel 10</span></a>) gibt es darüber hinaus spezielle Formate.</p>
+<section id="sec-arten-von-metadaten" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="sec-arten-von-metadaten"><span class="header-section-number">6.3.1</span> Arten von Metadaten</h3>
+<p>Folgende Arten von Metadaten können nach ihrer Funktion unterschieden werden:</p>
+<ul>
+<li><p><strong>Deskriptive</strong> (= beschreibende) <strong>Metadaten</strong> zur Identifizierung und inhaltlichen Beschreibung wie Titel, Verfasser*in, Schlagwörter etc.</p></li>
+<li><p><strong>Administrative</strong> (= Verwaltungs-)<strong>Metadaten</strong> wie Angaben zu Herkunft, Speicherung, Zugriffsrechten, Verwaltung etc.</p></li>
+<li><p><strong>Strukturelle Metadaten</strong> über den Aufbau von Dokumenten wie die Einteilung in einzelne Kapitel, Abschnitte, eingebundene Medien etc. Die Grenze zwischen digitalen Inhalten und ihrer Struktur ist allerdings mitunter fließend.</p></li>
+<li><p><strong>Technische Metadaten</strong> zu Merkmalen wie Umfang, verwendeten Datenformaten etc.</p></li>
+</ul>
+<p>Je nach Anwendung gibt es spezielle Metadatenformate oder es werden verschiedene Arten von Beschreibungen in einem Format zusammengefasst.</p>
+</section>
+<section id="feldbasierte-bibliothekarische-metadatenformate" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="feldbasierte-bibliothekarische-metadatenformate"><span class="header-section-number">6.3.2</span> Feldbasierte bibliothekarische Metadatenformate</h3>
+<p><strong>Machine-Readable Cataloging (MARC)</strong> ist das älteste und noch immer wichtigste Format für den Austausch von Daten zwischen Bibliotheken. Die aktuell relevante Variante ist MARC 21, insbesondere das Format MARC 21 für bibliografische Daten. Neben der binären Kodierung kann MARC 21 auch in XML (siehe <a href="#fig-marcxml" class="quarto-xref">Abbildung&nbsp;<span>6.2</span></a>) und JSON kodiert werden. Viele Eigenheiten und Probleme des Formats sind historisch bedingt, die Alternative BIBFAME konnte sich noch nicht durchsetzen.</p>
+<p><strong>PICA</strong> ist das von MARC inspirierte Datenformat der Katalogisierungssysteme <abbr title="Katalogdatenbank von OCLC, wird insbesondere für den Verbundkatalog K10plus verwendet">CBS</abbr> und <em>LBS</em> <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span>. Das wichtigste Anwendungsprofil ist das K10plus-Internformat.</p>
+<p><strong>MAB</strong> und <strong>allegro</strong> sind ebenfalls an MARC angelehnte, feldbasierte Formate aus dem deutschsprachigen Raum, die allerdings nur noch sporadisch verwendet werden.</p>
+<div id="fig-marcxml" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-marcxml-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="sourceCode" id="cb2"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">"1.0"</span><span class="ot"> encoding=</span><span class="st">"UTF-8"</span><span class="fu">?&gt;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">record</span><span class="ot"> xmlns=</span><span class="st">"http://www.loc.gov/MARC21/slim"</span>&gt;</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">leader</span>&gt; cam a22 4500&lt;/<span class="kw">leader</span>&gt;</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">datafield</span><span class="ot"> tag=</span><span class="st">"245"</span><span class="ot"> ind1=</span><span class="st">"1"</span><span class="ot"> ind2=</span><span class="st">"0"</span>&gt;</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"a"</span>&gt;Handbuch IT in Bibliotheken&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">datafield</span>&gt;</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">datafield</span><span class="ot"> tag=</span><span class="st">"540"</span><span class="ot"> ind1=</span><span class="st">" "</span><span class="ot"> ind2=</span><span class="st">" "</span>&gt;</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"a"</span>&gt;Namensnennung 3.0 Deutschland&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"f"</span>&gt;CC-BY 3.0 DE&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"u"</span>&gt;https://creativecommons.org/licenses/by/3.0/de/&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">datafield</span>&gt;</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">datafield</span><span class="ot"> tag=</span><span class="st">"856"</span><span class="ot"> ind1=</span><span class="st">"4"</span><span class="ot"> ind2=</span><span class="st">"0"</span>&gt;</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"u"</span>&gt;https://it-in-bibliotheken.de/&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">subfield</span><span class="ot"> code=</span><span class="st">"z"</span>&gt;kostenfrei&lt;/<span class="kw">subfield</span>&gt;</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">datafield</span>&gt;</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">record</span>&gt;</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-marcxml-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6.2: Ein gekürzter Beispieldatensatz in MARC-XML
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="xml-basierte-datenformate" class="level3" data-number="6.3.3">
+<h3 data-number="6.3.3" class="anchored" data-anchor-id="xml-basierte-datenformate"><span class="header-section-number">6.3.3</span> XML-basierte Datenformate</h3>
+<p><strong>METS</strong> und <strong>MODS</strong> sind zwei zusammen im Bereich Digitalisierung (siehe <a href="digitalisierung.html" class="quarto-xref"><span>Kapitel 9</span></a>) eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung von Objekten, wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.</p>
+<p><em><a href="https://wiki.deutsche-digitale-bibliothek.de/pages/viewpage.action?pageId=19010182">Encoded Archival Description</a></em> (<strong>EAD</strong>) ist der zentrale dokumentarische XML-Standard zur Beschreibung von archivischen Findmitteln.</p>
+<p><strong>LIDO</strong> ist ein etabliertes Austauschformat für den Museumsbereich.</p>
+<p><strong>DataCite</strong> ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe <a href="forschungsnahe-dienste.html" class="quarto-xref"><span>Kapitel 10</span></a>).</p>
+</section>
+<section id="datenmodelle-und-ontologien" class="level3" data-number="6.3.4">
+<h3 data-number="6.3.4" class="anchored" data-anchor-id="datenmodelle-und-ontologien"><span class="header-section-number">6.3.4</span> Datenmodelle und Ontologien</h3>
+<div class="callout callout-style-simple callout-important callout-titled" title="Definition">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Eine <strong>Ontologie</strong> ist ein Datenmodell, das verschiedene Klassen und Eigenschaften in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener Datenquellen von Linked Data bis hin zu umfangreichen Wissensgraphen ermöglicht.</p>
+<p>Im Gegensatz zu einfacheren Formen von <a href="#normdaten">Normdaten</a> geht es bei Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit „Bank“ das Gleiche wie „Sitzbank“ oder wie „Geldinstitut“ gemeint?) sondern auch um Eigenschaften und Beziehungen (Beispiel: mögliche Größen, Materialien und Orte von Bänken). <strong>Wissensgraphen</strong> enthalten neben Ontologien auch konkrete Daten über Instanzen der Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an einem Ort).</p>
+</div>
+</div>
+<p><strong>Dublin Core</strong> bzw.&nbsp;das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
+<p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliografischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
+<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen.</p>
+<p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
+<div id="fig-bibframe" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bibframe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<pre class="ttl"><code>@prefix bf: &lt;http://id.loc.gov/ontologies/bibframe/&gt; .
+@prefix bflc: &lt;http://id.loc.gov/ontologies/bflc/&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+&lt;http://uri.gbv.de/document/opac-de-627:ppn:1805728520&gt;
+  a bf:Electronic, bf:Instance ;
+  bf:usageAndAccessPolicy [
+    a bf:UsePolicy ;
+    rdfs:label
+      "Namensnennung 3.0 Deutschland",
+      "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI
+  ] ;
+  bf:instanceOf &lt;http://www.wikidata.org/entity/Q115625546&gt; ;
+  bf:hasItem [
+    a bf:Item ;
+    bf:electronicLocator [
+      bflc:locator &lt;https://it-in-bibliotheken.de/&gt; ;
+      bf:note [ a bf:Note ; rdfs:label "kostenfrei" ]
+    ]
+  ] .
+
+&lt;http://www.wikidata.org/entity/Q115625546&gt;
+  a bf:Text, bf:Work ;
+  bf:title [ a bf:Title ; bf:mainTitle "Handbuch IT in Bibliotheken" ] .</code></pre>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bibframe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6.3: Der Inhalt des Datensatz <a href="#fig-marcxml" class="quarto-xref">Abbildung&nbsp;<span>6.2</span></a> in RDF-Serialisierung Turtle ausgedrückt mit der BIBFRAME-Ontologie und URIs aus K10plus und Wikidata.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="verlagsdaten-und-literaturangaben" class="level3" data-number="6.3.5">
+<h3 data-number="6.3.5" class="anchored" data-anchor-id="verlagsdaten-und-literaturangaben"><span class="header-section-number">6.3.5</span> Verlagsdaten und Literaturangaben</h3>
+<p>Die Formate <em>ONIX</em>, <em>JATS</em>, <em>BITS</em> und <em>CrossRef XML</em> stammen aus dem Verlagsbereich zur Beschreibung von Zeitschriftenartikeln und Büchern. Sie basieren alle auf XML und sind für Bibliotheken für den Datenimport relevant. Datenformate für Literaturangaben (<em>BibTeX</em>, <em>RIS</em>, <em>Endnote</em>, <em>CSL-JSON</em> …) werden dagegen zum Export von Katalogdaten bereitgestellt. Zitationsregeln für Literaturangaben und Ansetzungsregeln von <em>ISBD</em> sind dagegen für den Datenaustausch eher unbrauchbar. Learning Object Metadata (<em>LOM</em>) dient in verschiedenen lokalen Anpassungen der Beschreibung von Lerneinheiten.</p>
+</section>
+</section>
+<section id="datenverarbeitungsprozess-in-bibliotheken" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="datenverarbeitungsprozess-in-bibliotheken"><span class="header-section-number">6.4</span> Datenverarbeitungsprozess in Bibliotheken</h2>
+<section id="datenerfassung" class="level3" data-number="6.4.1">
+<h3 data-number="6.4.1" class="anchored" data-anchor-id="datenerfassung"><span class="header-section-number">6.4.1</span> Datenerfassung</h3>
+<p>Traditionell werden bibliothekarische Metadaten durch Katalogisierung erstellt. Die Verwaltung der Katalogdaten erfolgt entweder lokal oder gemeinsam in einer <strong>Verbunddatenbank</strong>. Der Vorteil der Verbundkatalogisierung liegt darin, dass jedes Dokument nur einmal zentral beschrieben werden muss, während bei lokaler Katalogisierung durch <em>Fremddatenübernahme</em> nur zum Teil auf vorhandene Kataloge zurückgegriffen werden kann.</p>
+<p>Im Idealfall sollte die Erfassung nach <em>Autopsie</em>, also auf Grundlage des vorliegenden Werkes, durch geschultes Personal und nach etablierten Regelwerken (<em>Katalogisierungsrichtlinien</em>) erfolgen. Um möglichst viele Publikationen zu erfassen, wird jedoch zunehmend auch auf anderweitig erfasste Metadaten von Verlagen, Repositorien und aus anderen Quellen zurückgegriffen. Dazu müssen Daten unterschiedlicher Erschließungstiefe und -qualität im Rahmen von <a href="#etl-prozess">ETL-Prozessen</a> gesammelt, analysiert und mit vorhandenen Daten vereinheitlicht werden. In jedem Fall muss beachtet werden, dass sich Regeln und Umstände, nach denen Daten erfasst werden, mit der Zeit ändern können (beispielsweise der Umstieg der Erfassungsregeln von <em>RAK</em> auf <abbr title="Resource Description and Access, internationaler Standard für die Katalogisierung">RDA</abbr>) und dass das Ergebnis auch davon abhängt, wie gut überprüft werden kann, was die Anforderungen an die Daten sind.</p>
+<p>Darüber hinaus gibt es Verfahren zur automatischen Erstellung von Metadaten aus vorhandenen Dokumenten, beispielsweise zur Erkennung und Auswertung von Literaturangaben und zur thematischen Einordnung von Dokumenten. Mit diesen Verfahren lassen sich zwar größere Mengen von Daten erfassen, es muss aber immer mit einer gewissen Fehlerrate gerechnet werden.</p>
+<p>Welche Art und welcher Umfang von Fehlern und Uneinheitlichkeiten bei der Datenerfassung tolerierbar sind, hängt letztlich davon ab, wozu die Daten erfasst werden. So gelten beispielsweise für eine historische Bibliografie andere Maßstäbe als für einen Suchindex.</p>
+<p>Nicht zuletzt sollte bedacht werden, dass Geschwindigkeit und Qualität von Datenerfassung auch von der Usability der Werkzeuge abhängen, mit denen Daten erstellt, bearbeitet und <em>analysiert</em> werden können.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Mehr zur bibliothekarischen Datenerfassung in den <em>Grundlagen der Informationswissenschaft</em> <span class="citation" data-cites="kuhlen_grundlagen_2023">(<a href="literatur.html#ref-kuhlen_grundlagen_2023" role="doc-biblioref">2023</a>)</span>, <em>Teil B</em>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="etl-prozess" class="level3" data-number="6.4.2">
+<h3 data-number="6.4.2" class="anchored" data-anchor-id="etl-prozess"><span class="header-section-number">6.4.2</span> ETL-Prozess</h3>
+<p>Da sich die IT in- und außerhalb von Bibliotheken über verschiedene Organisationen und Systeme erstreckt, müssen an vielen Stellen Daten von einer oder mehreren Quellen in ein anderes Informationssystem übertragen werden. Der grundsätzliche Prozess der Datenintegration, der Quell- und Zielsysteme verbindet, wird als <strong>ETL-Prozess</strong> bezeichnet. Der Prozess aus drei zentralen Schritten „Extract“, „Transform“ und „Load“ stammt ursprünglich aus dem Bereich des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im Folgenden wird er am Beispiel der Integration von Metadaten in ein Discovery-System (siehe <a href="discovery.html" class="quarto-xref"><span>Kapitel 8</span></a>) beschrieben. <a href="#fig-etl" class="quarto-xref">Abbildung&nbsp;<span>6.4</span></a> illustriert den generellen ETL-Prozess.</p>
+<div id="fig-etl" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-etl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="media/etl-prozess.svg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-etl-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;6.4: Allgemeiner Ablauf eines ETL-Prozesses
+</figcaption>
+</figure>
+</div>
+<section id="extraktion" class="level4">
+<h4 class="anchored" data-anchor-id="extraktion">Extraktion</h4>
+<p>Ziel der <strong>Extraktion</strong> (Extract) ist die Auswahl und der Abzug relevanter Daten aus verschiedenen Datenquellen. Hierbei handelt es sich primär um einen technischen Vorgang, das sogenannte <strong>Harvesting</strong>, welcher automatisiert oder manuell gestartet werden kann. Der Aufwand und die Qualität des Harvestings können je nach Datenquelle sehr unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien, Datenbanken bzw.&nbsp;Datenbankabzüge, <a href="#schnittstellen">Schnittstellen</a> als auch unstrukturierte Quellen wie z. B. Websites, die mittels Screenscraping erschlossen werden müssen.</p>
+<p>Der Extraktionsvorgang erfolgt bei Bedarf regelmäßig, um die Daten im Zielsystem aktuell zu halten. Mögliche Aktualisierungsintervalle sind:</p>
+<ul>
+<li><p><strong>periodisch</strong>, das heißt in zeitlich regelmäßigen Abständen unabhängig von der jeweiligen Aktualisierung der Daten in den Quellsystemen</p></li>
+<li><p><strong>ereignisgesteuert</strong>, immer wenn bestimmte Bedingungen wie zum Beispiel die Änderung von Daten in den Quellsystemen eintreten</p></li>
+<li><p><strong>manuell</strong>, beispielsweise wenn Daten aus Quellsystemen ad hoc importiert werden sollen. Manuelle Aktualisierungen bieten sich vor allem an, wenn der Inhalt der Datenquellen weitestgehend statisch ist, da die dauerhaft verlässliche Aktualisierung im Zielsystem ohne Automatismus nicht garantiert ist.</p></li>
+</ul>
+<p>Der Extraktionsvorgang ist technisch relativ einfach handhabbar, wenn strukturierte <a href="#datenformate">Datenformate</a> und/oder <a href="#schnittstellen">Schnittstellen</a> existieren – die wesentlichen Aufwände finden sich dann im nachfolgenden Transformationsschritt. Anders sieht es aus, wenn beispielsweise Daten manuell eingesammelt werden müssen oder Screenscraping notwendig ist. Beim <em>Screenscraping</em> müssen aufwändig Extraktionsskripte erstellt werden, um Daten aus Webseiten in ein strukturiertes Format zu überführen. Diese Skripte sind zudem sehr fehleranfällig und müssen jedes Mal angepasst werden, wenn die Betreiber*innen der Datenquelle Veränderungen vornehmen.</p>
+<p>Die extrahierten Daten werden in einem Arbeitsbereich abgelegt und dort im nächsten Prozessschritt aufbereitet.</p>
+</section>
+<section id="transformation" class="level4">
+<h4 class="anchored" data-anchor-id="transformation">Transformation</h4>
+<p>Daten aus verschiedenen Quellsystemen liegen zumeist in unterschiedlichen Formaten mit unterschiedlichen Datenmodellen vor. Neben Unterschieden in der Syntax können gleiche Sachverhalte auch auf semantischer Ebene unterschiedlich beschrieben sein, da die Daten mitunter für abweichende Anwendungsfälle erfasst wurden. So müssen beispielsweise in einem Discovery-System (<a href="discovery.html" class="quarto-xref"><span>Kapitel 8</span></a>) Metadaten zur einfachen Beschreibung so aufbereitet werden, dass sie auch erweiterte Suchstrategien unterstützen.</p>
+<p>Ziel der <strong>Transformation</strong> ist es, alle Daten in ein einheitliches Format mit gemeinsamen Datenmodell zu überführen. Dieses Zielformat wird beim ETL-Prozess auch als <em>Schema</em> bezeichnet. Die Vereinheitlichung des Schemas (<em>Mapping</em>) ist ein wesentlicher Schritt jeder Datenkonvertierung. Zur Minimierung des Transformationsaufwands dienen gemeinsame Standards wie <em>MARC21</em> als Austauschformat oder die einheitliche Verwendung von RDF-Ontologien.</p>
+<p>Über die einfache Konvertierung hinaus sind im Rahmen der Transformation oft weitere Aufbereitungen zur Vereinheitlichung und Verbesserung der Datenqualität notwendig. Beispiele hierfür sind:</p>
+<ul>
+<li><p>Prüfung und <strong>Vereinheitlichung</strong> der Zeichencodierung auf normalisierten Unicode</p></li>
+<li><p>formale <strong>Anpassungen</strong> von Daten wie die Vereinheitlichung von Datumsformaten, Ländercodierungen etc.</p></li>
+<li><p>Erkennung und Eliminierung von <strong>Duplikaten</strong></p></li>
+<li><p>Abgleich, Vereinheitlichung und <strong>Konsistenzprüfung</strong> von Aussagen über dieselben Objekte aus verschiedenen Datenquellen</p></li>
+<li><p><strong>Anreicherung</strong> oder Korrektur von Datensätzen mittels Zusatzinformationen aus Normdaten oder anderer zusätzlicher Datenquellen</p></li>
+</ul>
+<p>Der Aufwand der Transformation sollte nicht unterschätzt werden, da die Datenqualität verschiedener Datenquellen stark variieren kann und Qualitätsprobleme oft erst spät entdeckt werden. Zudem können sich Datenquellen und ihre Qualität zwischen Aktualisierungen ändern. Sofern die Datenübernahme nicht nur einmalig stattfinden soll (<em>Konversion</em>), ist die Betreuung des Transformationsschrittes eine Daueraufgabe.</p>
+<p>Im Transformationsschritt müssen regelmäßig Massendaten analysiert und modifiziert werden, daher ist der Einsatz von IT-gestützten <a href="#werkzeuge">Werkzeugen</a> und Verfahren der <a href="#datenanalyse">Datenanalyse</a> unerlässlich. Die aus der Analyse gewonnenen Erkenntnisse müssen wiederum kontinuierlich in die Anpassung des Schema-Mappings einfließen, damit der Transformationsprozess nicht ins Stocken gerät.</p>
+</section>
+<section id="laden" class="level4">
+<h4 class="anchored" data-anchor-id="laden">Laden</h4>
+<p>Auf die Transformation folgt beim <strong>Laden</strong> (Load) die Überführung der vereinheitlichten Daten in das Zielsystem – beispielsweise in den Suchindex eines Discovery-Systems (siehe <a href="discovery.html" class="quarto-xref"><span>Kapitel 8</span></a>). Dabei dürfen nur Datensätze in Produktivsysteme übernommen werden, die den Transformationsschritt erfolgreich durchlaufen haben, während für Test- und Entwicklungssysteme andere Regeln möglich sind.</p>
+<p>Das Laden selbst ist ein technisch beherrschbarer Schritt, welcher optimalerweise darauf abzielt, das Zielsystem ohne Ausfallzeiten aktuell zu halten. Bei Änderungen des Schemas muss deshalb besonders darauf geachtet werden, gleichzeitig entsprechende Anpassungen im Zielsystem vorzunehmen. Daneben ist es bei absehbaren Änderungen ratsam, das Schema und die Verarbeitung von Daten im Zielsystem von vornherein flexibel zu gestalten.</p>
+</section>
+<section id="umsetzung-des-etl-prozesses" class="level4">
+<h4 class="anchored" data-anchor-id="umsetzung-des-etl-prozesses">Umsetzung des ETL-Prozesses</h4>
+<p>Die Umsetzung von Datenkonvertierung und ETL-Prozessen erfolgt im bibliothekarischen Umfeld oft über selbst entwickelte Skripte für das Harvesting und die Transformation. Das entsprechende Know-How ist in der Regel auf wenige Köpfe verteilt und kann auch nicht leicht durch das Hinzuziehen externer Expertise verfügbar gemacht werden.</p>
+<p>Es gibt einige kommerzielle ETL-Komplettlösungen mit Data-Warehouse- oder Business-Intelligence-Hintergrund. Angesichts der teils erheblichen Einstiegskosten und zur Vermeidung von <a href="./management.html#vendor-lock-in">Vendor Lock-in</a> sind für Bibliotheken möglichst einfache und allgemeine <a href="#werkzeuge">Werkzeuge zur Datenverarbeitung</a> meist die bessere Wahl. Die Vorteile etablierter ETL-Werkzeuge liegen in Schulungsmöglichkeiten und der Verfügbarkeit externer Expertise. Mit <em>Catmandu</em>, <em>Metafacture</em> und <em>OpenRefine</em> gibt es mehrere Open-Source-ETL-Frameworks, deren eingeschränkter Funktionsumfang und verbesserungswürdige Usability durch Anpassungen für bibliothekarische Datenformate und Schnittstellen möglicherweise aufgewogen werden.</p>
+<p>Grundsätzlich lassen sich die kontinuierlich anfallenden Aufwände der Transformation und Qualitätssicherung durch ein ETL-Werkzeug nicht vermeiden, sondern nur besser handhabbar machen. Dazu sollten die einzelnen Arbeitsschritte zentral verwaltet und dokumentiert werden, beispielsweise durch ein Versionskontrollsystem. Durch den Fokus auf Usability kann mittels ETL-Werkzeugen bibliothekarisches Personal stärker eingebunden werden. Da hier insbesondere im Bereich der Programmierung die Einstiegshürden niedriger sind, ist es Fachpersonal leichter möglich, direkt Änderungen und Optimierungen am ETL-Prozess vorzunehmen. Bei einer reinen Verankerung von ETL im IT-Bereich sind solche Eingriffe dagegen nur in Zusammenarbeit von IT und Metadaten-Expert*innen umsetzbar.</p>
+<p>In jedem Fall gehen mit der Einführung von ETL-Werkzeugen in die bibliothekarische Arbeit immer auch individuelle Anpassungen im Prozess von Extraktion, Transformation und Laden einher. Dieser Aufwand kann sowohl gegen die Einführung solcher Werkzeuge sprechen als auch dafür, vorhandene „Bastellösungen“ zu evaluieren und zu konsolidieren.</p>
+</section>
+</section>
+<section id="werkzeuge" class="level3" data-number="6.4.3">
+<h3 data-number="6.4.3" class="anchored" data-anchor-id="werkzeuge"><span class="header-section-number">6.4.3</span> Werkzeuge</h3>
+<p>Für die Verarbeitung von Daten im Rahmen bibliothekarischer IT-Systeme werden grundsätzlich die gleichen Werkzeuge verwendet wie außerhalb des Bibliothekswesens, daher wird an dieser Stelle auf eine allgemeine Einführung in die Datenverarbeitung verzichtet. Ganz allgemein sind hier als Werkzeuge</p>
+<ul>
+<li><p>Mittel zur <strong>Dateiverwaltung</strong> und ein <strong>Texteditor</strong> unabdingbar,</p></li>
+<li><p>allgemeine <strong>Kommandozeilenprogramme</strong> (<code>curl</code>, <code>sort</code>, <code>grep</code> …) sehr zu empfehlen</p></li>
+<li><p>und <strong>Programmiersprachen</strong> vor allem für komplexere Aufgaben hilfreich.</p></li>
+</ul>
+<p>Material und Kurse für die praktischen Grundkenntnisse mit Bibliotheksbezug finden sich insbesondere in den Bereichen <em>Data Librarianship</em> und <em>Data Science</em>.</p>
+<p>Werkzeuge für konkrete Datenformate orientieren sich an den zugrunde liegenden <a href="#daten">Strukturierungssprachen</a>. So gibt es beispielsweise eigene Editoren oder Editor-Plugins für XML- und JSON-Daten und entsprechende Kommandozeilentools wie XMLStarlet für XML und jq für JSON. Für tabellarische Daten eignet sich etwa eine Tabellenkalkulation oder das tabellenbasierte Werkzeug <em>OpenRefine</em> (<a href="https://openrefine.org/">openrefine.org</a>).</p>
+<p>Für bibliothekarische Datenformate und Schnittstellen gibt es darüber hinaus einige speziellere Werkzeuge:</p>
+<ul>
+<li><p>Programmierbibliotheken wie <em>MARC4J</em> und <em>YAZ</em> erleichtern die Datenverarbeitung im Rahmen eigener Programme.</p></li>
+<li><p>Anwendungsprogramme wie <em>WinIBW</em> und <em>BibControl</em> erfordern zwar weniger IT-Kenntnisse, sind dafür aber nur eingeschränkt und/oder nur für sehr spezielle Aufgaben verfügbar.</p></li>
+<li><p>Freie Werkzeuge zum Metadatenmanagement wie die Frameworks <em>Catmandu</em> (<a href="http://librecat.org/Catmandu/">librecat.org/Catmandu</a>) und <em>Metafacture</em> (<a href="https://metafacture.org/">metafacture.org</a>).</p></li>
+</ul>
+<p>Für einzelne Anwendungen und Formate gibt es einige weitere Werkzeuge und es kann sich lohnen, solche Werkzeuge selbst zu entwickeln und als Open Source zur Verfügung zu stellen. Für das PICA-Format sind derartige Programme in der <em>Einführung in die Verarbeitung von PICA-Daten</em> <span class="citation" data-cites="vos_einfuhrung_2022">(<a href="literatur.html#ref-vos_einfuhrung_2022" role="doc-biblioref">Voß 2022</a>)</span> aufgeführt.</p>
+</section>
+<section id="schnittstellen" class="level3" data-number="6.4.4">
+<h3 data-number="6.4.4" class="anchored" data-anchor-id="schnittstellen"><span class="header-section-number">6.4.4</span> Schnittstellen</h3>
+<p>Eine API (Application Programming Interface, auch Programmierschnittstelle) ist eine definierte Methode zur Abfrage und/oder Änderung von Daten in einem Informationssystem. Wie die Daten innerhalb des Systems verwaltet werden, ist dabei nebensächlich. Dieses Prinzip ermöglicht die Kombination unterschiedlicher Softwarekomponenten. Wenn möglich, sollten produktunabhängige, offen dokumentierte APIs verwendet werden. Im Bibliotheksbereich sind insbesondere folgende APIs relevant:</p>
+<ul>
+<li><p><strong>Z39.50</strong> wurde vor Erfindung des Web zur Suche in Bibliotheksdatenbanken entwickelt. Nachfolger ist das XML-basierte <em>Search/Retrieve via URL</em> (<strong>SRU</strong>) mit der zugehörigen Abfragesprache <em>Contextual Query Language</em> (<strong>CQL</strong>).</p></li>
+<li><p>Das <em><a href="https://www.openarchives.org/pmh/">Open Archives Initiative Protocol for Metadata Harvesting</a></em> (<strong>OAI-PMH</strong>) dient dem Abruf von Metadaten aus Repositorien. Die Daten können nach Datum und Teilmengen gefiltert und so in Suchmaschinen und Portalen wie <a href="https://www.base-search.net/">BASE</a> und der <a href="https://www.deutsche-digitale-bibliothek.de/">Deutschen Digitalen Bibliothek</a> (DDB) zusammengeführt werden.</p></li>
+<li><p>Das <em>NISO Circulation Interchange Protocol</em> (<strong>NCIP</strong>), das <em>Simple Library Network Protocol</em> (<strong>SLNP</strong>) und das <em>Standard Interchange Protocol</em> (<strong>SIP2</strong>) sind interne APIs für Ausleihe und Fernleihe. Sie werden zwischen Bibliotheken, Fernleihservern und zur Anbindung von Verbuchungsautomaten eingesetzt <span class="citation" data-cites="Michaelis2014">(<a href="literatur.html#ref-Michaelis2014" role="doc-biblioref">Michaelis 2014</a>)</span>.</p></li>
+<li><p>Die <em><a href="https://gbv.github.io/paia/">Patrons Account Information API</a></em> (<strong>PAIA</strong>) ist eine offene Schnittstelle zum Zugriff auf Ausleihkonten.</p></li>
+<li><p>Die <em><a href="https://gbv.github.io/daia/">Document Availability Information API</a></em> (<strong>DAIA</strong>) ist eine offene Schnittstelle zur Abfrage der Verfügbarkeit von Medien.</p></li>
+<li><p>Mit <strong>unAPI</strong> können einzelne Datensätze in verschiedenen Formaten abgerufen werden.</p></li>
+<li><p>Die <strong><a href="https://reconciliation-api.github.io/specs/draft/">Reconciliation Service API</a></strong> ermöglicht den Abgleich mit Normdaten zur eindeutigen Referenzierung (siehe Abschnitte zu <a href="#identifikatoren">Identifikatoren</a> und zu <a href="#normdaten">Normdaten</a>).</p></li>
+<li><p>Die APIs des <em><a href="https://iiif.io/">International Image Interoperability Framework</a></em> (<strong>IIIF</strong>) ermöglicht die Referenzierung und Nutzung digitalisierter Werke in externen Werkzeugen durch gezielte Verlinkung auf einzelne Bestandteile.</p></li>
+<li><p>Über <strong>SPARQL</strong>-Schnittstellen können RDF-Daten aus Wissensgraphen wie zum Beispiel Wikidata abgerufen werden.</p></li>
+<li><p>Schnittstellen zur Authentifizierung und Autorisierung wie <abbr title="Lightweight Directory Access Protocol, Protokoll zur Abfrage und Änderung von Verzeichnisdiensten">LDAP</abbr>, <em>Shibboleth</em> und <em>OAuth</em>.</p></li>
+</ul>
+<p>Darüber hinaus bieten die meisten Anwendungen eigene, meist interne Schnittstellen, zum Beispiel die Solr-API der Suchplattform <em>Apache Solr</em>. Besonders im Bereich forschungsnaher Dienste (siehe <a href="forschungsnahe-dienste.html" class="quarto-xref"><span>Kapitel 10</span></a>) gibt es weitere, spezialisierte Schnittstellen.</p>
+</section>
+<section id="datenanalyse" class="level3" data-number="6.4.5">
+<h3 data-number="6.4.5" class="anchored" data-anchor-id="datenanalyse"><span class="header-section-number">6.4.5</span> Datenanalyse</h3>
+<p>Im Gegensatz zu physischen Objekten ist Daten ihre Beschaffenheit nicht direkt anzusehen. Lediglich der Umfang von Daten in Bytes und ggf.&nbsp;die Anzahl von Dateien und Datensätzen kann einen ersten Anhaltspunkt liefern. Weitere Einschätzungen, insbesondere darüber, ob Daten vollständig oder fehlerhaft sind, setzen eine konkrete Analyse der Daten voraus. Dies beinhaltet auch die Visualisierung von Daten zur Exploration, Kommunikation und Diskussion <span class="citation" data-cites="kuhlen_informationsvisualisierung_2023">(<a href="literatur.html#ref-kuhlen_informationsvisualisierung_2023" role="doc-biblioref">Jetter 2023</a>)</span>.</p>
+<p>Die Auswertung von Daten ist nicht nur für das Qualitätsmanagement relevant <span class="citation" data-cites="vos_jakob_datenqualitat_2021">(<a href="literatur.html#ref-vos_jakob_datenqualitat_2021" role="doc-biblioref">Voß 2021</a>)</span>, beispielsweise um im Rahmen des ETL-Prozesses Verteilungen und Ausreißer zu erkennen, sondern auch, um aus Daten weitere Erkenntnisse zu gewinnen. So können beispielsweise Ausleihzahlen nach Medien gruppiert für die Bestandsplanung eingesetzt werden. Voraussetzung dafür ist, dass Daten überhaupt vorliegen, ebenso wie Mittel und Kenntnisse zu ihrer Auswertung. Bei fehlenden oder zu umfangreichen Daten können Stichproben erhoben werden, wobei auf die Zufälligkeit der Stichprobe und das Konfidenzintervall des Ergebnisses geachtet werden muss.</p>
+<p>Neben rudimentären Statistik-Kenntnissen helfen bei der Datenanalyse Werkzeuge wie die <a href="#werkzeuge">im vorigen Abschnitt</a> beschriebenen Mittel zur Datenverarbeitung. Für allgemeine Analysen eignet sich vor allem eine Tabellenkalkulation. Für komplexere Analysen gibt es spezielle Statistik-Programme und Programmiersprachen wie <em>SAS</em> und <em>R</em>. Für explorative Analysen und um bei geänderter Datenlage automatisch aktuelle Ergebnisse zu bekommen, bieten sich interaktive Umgebungen wie <em>Jupyter Notebooks</em> oder <em>Observable</em> an. Für spezielle, wiederkehrende Analysen und Aufbereitungen kann es auch sinnvoll sein, eigene Anwendungen zu entwickeln bzw.&nbsp;entwickeln zu lassen. Beispiele hierfür sind <em>BibControl</em>, das <em>Metadata Quality Assessment Framework</em> (<em>MQA</em>), die Deutsche Bibliotheksstatistik sowie Statistikfunktionen als Teil anderer Programme (zum Beispiel <a href="./bibliotheksmanagementsysteme.html#statistik-und-reporting">Statistik und Reporting</a> als Teil des BMS).</p>
+</section>
+</section>
+<section id="künstliche-intelligenz" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="künstliche-intelligenz"><span class="header-section-number">6.5</span> Künstliche Intelligenz</h2>
+<p>Unter den Begriffen Künstlichen Intelligenz, Machine Learning und Deep Learning werden verschiedene Verfahren der Datenverarbeitung zusammengefasst, die Aspekte menschlicher Intelligenz imitieren können. Auf Grundlage statistischer Verfahren lassen sich so Aufgaben automatisieren, für die bisher Personal notwendig gewesen wäre. Der Umfang der verarbeitbaren Daten wird lediglich durch die zur Verfügung stehende Rechenleistung begrenzt. Die Qualität der Ergebnisse hängt stark von der jeweiligen Aufgabenstellung und den eingesetzten Verfahren ab. Im besten Fall lassen sich die Ergebnisse praktisch nicht mehr von menschlich erzeugten Daten unterscheiden. Beim Einsatz von KI-Technologien sind allerdings auch ethische Aspekte zu beachten.</p>
+<p>Für die bibliothekarische Datenverarbeitung lassen sich grob zwei Arten von KI-Anwendungen unterscheiden:</p>
+<ul>
+<li><p>Verfahren zur Analyse und Anreicherung von Daten, beispielsweise die automatische Erschließung und Musterkennung im Rahmen der Digitalisierung (siehe <a href="digitalisierung.html" class="quarto-xref"><span>Kapitel 9</span></a>).</p></li>
+<li><p>Systeme, die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen, von einfachen Chatbots bis zu umfangreichen Sprachmodellen wie ChatGPT.</p></li>
+</ul>
+<p>Die zunehmende Verfügbarkeit von leistungsfähigen KI-Systemen wird in absehbarer Zeit zu Änderungen in der Rezeption und Produktion von Medien führen und damit auch Auswirkungen auf die Arbeit von Bibliotheken haben.</p>
+</section>
+<section id="zusammenfassung-ausblick" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="zusammenfassung-ausblick"><span class="header-section-number">6.6</span> Zusammenfassung &amp; Ausblick</h2>
+<p>Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff auf Ressourcen in Bibliotheken. Daher bilden sie und ihre Verarbeitung die Grundlage für praktisch alle von Bibliotheken angebotenen IT-Dienste. Während Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben werden, ist davon auszugehen, dass der Einsatz semantischer Technologien (RDF) zur Zusammenführung heterogener Daten und Verfahren der künstlichen Intelligenz zunehmen werden.</p>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="ref-kuhlen_metadaten_2023" class="csl-entry" role="listitem">
+Assfalg, Rolf. 2023. <span>„Metadaten“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 245–56. Berlin, Boston: De Gruyter Saur. <a href="https://doi.org/10.1515/9783110769043-021">https://doi.org/10.1515/9783110769043-021</a>.
+</div>
+<div id="ref-kuhlen_informationsvisualisierung_2023" class="csl-entry" role="listitem">
+Jetter, Hans-Christian. 2023. <span>„Informationsvisualisierung und Visual Analytics“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 295–306. Berlin, Boston: De Gruyter Saur. <a href="https://www.degruyter.com/document/doi/10.1515/9783110769043-025/pdf">https://www.degruyter.com/document/doi/10.1515/9783110769043-025/pdf</a>.
+</div>
+<div id="ref-kuhlen_grundlagen_2023" class="csl-entry" role="listitem">
+Kuhlen, Rainer, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, Hrsg. 2023. <em>Grundlagen der Informationswissenschaft</em>. 7. Ausgabe. Berlin, Boston: De Gruyter Saur. <a href="https://doi.org/doi:10.1515/9783110769043">https://doi.org/doi:10.1515/9783110769043</a>.
+</div>
+<div id="ref-Michaelis2014" class="csl-entry" role="listitem">
+Michaelis, Barbara. 2014. In <em><span>RFID</span> für Bibliothekare: ein Vademecum</em>, herausgegeben von Frank Seeliger, 3. Auflage, 145–50. Verlag News &amp; Media. <a href="https://doi.org/10.15771/RFID_2014_13">https://doi.org/10.15771/RFID_2014_13</a>.
+</div>
+<div id="ref-kuhlen_ontologien_2023" class="csl-entry" role="listitem">
+Rölke, Heiko, und Albert Weichselbraun. 2023. <span>„Ontologien und Linked Open Data“</span>. In <em>Grundlagen der Informationswissenschaft</em>, herausgegeben von Rainer Kuhlen, Dirk Lewandowski, Wolfgang Semar, und Christa Womser-Hacker, 7. Ausgabe, 257–70. Berlin, Boston: De Gruyter Saur. <a href="https://www.degruyter.com/document/doi/10.1515/9783110769043-022/pdf">https://www.degruyter.com/document/doi/10.1515/9783110769043-022/pdf</a>.
+</div>
+<div id="ref-vos_jakob_datenqualitat_2021" class="csl-entry" role="listitem">
+Voß, Jakob. 2021. <span>„Datenqualität als Grundlage qualitativer Inhaltserschließung“</span>. In <em>Qualität in der Inhaltserschließung</em>, 167–76. De Gruyter Saur. <a href="https://doi.org/10.1515/9783110691597-010">https://doi.org/10.1515/9783110691597-010</a>.
+</div>
+<div id="ref-vos_einfuhrung_2022" class="csl-entry" role="listitem">
+———. 2022. <span>„Einführung in die Verarbeitung von <span>PICA</span>-Daten“</span>. 2022. <a href="https://pro4bib.github.io/pica/">https://pro4bib.github.io/pica/</a>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function () {  
+  const links = document.getElementsByClassName("toc-actions")[0]?.firstChild
+  const addLink = (text, url) => {
+    const li = document.createElement("li")
+    const a = document.createElement("a")
+    a.text = text
+    a.href = url
+    a.className = "toc-action"
+    li.innerHTML = '<i class="bi empty"></i>'
+    li.appendChild(a)
+    links.appendChild(li)
+  }
+  if (links) {
+    var match = window.location.pathname.match(/([a-z-]+)\.html$/)
+    var name = match ? match[1] : "einleitung"
+    var url = chapters[name]
+    if (url) {
+      addLink("Kapitel kommentieren", url)
+    }
+  }
+})
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Kopiert");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Kopiert");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./sicherheit.html" class="pagination-link" aria-label="Sicherheit &amp; Datenschutz">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Sicherheit &amp; Datenschutz</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./bibliotheksmanagementsysteme.html" class="pagination-link" aria-label="Bibliotheksmanagementsysteme">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Bibliotheksmanagementsysteme</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/3.0/de/">
+<p>CC BY 3.0 DE</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/metadaten.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/metadaten.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.gbv.de/datenschutz">
+<p>Datenschutz</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.gbv.de/impressum">
+<p>hosted by VZG</p>
+</a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link active" href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/" aria-current="page">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://quarto.org">
+<p><img src="quarto-badge.svg" class="img-fluid"></p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
