@@ -14,8 +14,8 @@ Ein besonderes Augenmerk liegt auf der Einheitlichkeit der Fachterminologie und 
 Weitere Informationen zur Mitarbeit und zu den technischen Grundlagen finden sich unter <https://it-in-bibliotheken.de/mitarbeit.html>:
 
 ```{=latex}
-\centering
-\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{media/CONTRIBUTING_QRCODE.png}
+{\centering
+\includegraphics[width=0.8\linewidth,height=\textheight,keepaspectratio]{media/CONTRIBUTING_QRCODE.png}}
 ```
 
 Die Beteiligung steht allen offen, unabhängig von beruflicher Rolle oder technischem Hintergrund! Besonders willkommen sind Beiträge, die das Handbuch fachlich erweitern, stilistisch verbessern oder neue Perspektiven auf IT in Bibliotheken einbringen.
