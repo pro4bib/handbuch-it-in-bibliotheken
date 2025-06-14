@@ -17,18 +17,14 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install Quarto
-        uses: quarto-dev/quarto-actions/install-quarto@v1
-        #with:
-          # To install LaTeX to build PDF book 
-          # tinytex: true 
-          # uncomment below and fill to pin a version
-          # version: 0.9.105
-
-      # Add installation of any computing dependency you may need, usually either python and Jupyter or R
-      # More specific examples will be shared on quarto-dev/quarto-actions project
+        uses: quarto-dev/quarto-actions/setup@v2
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tinytex: true 
 
       - name: Render book to HTML and DOCX
-        run: make html && make docx
+        run: make docx && mv _book/*.docx . && make html && mv *.docx _book
 
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
