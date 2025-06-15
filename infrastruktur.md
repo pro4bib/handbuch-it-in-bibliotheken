@@ -45,7 +45,7 @@ Zur Verbuchung zählen die Ausleihe und Rückgabe von Medien sowie die Verlänge
 von Leihfristen. Für automatische Verbuchung müssen entsprechende Geräte
 vorhanden sein, um die für Medien eingesetzten Identifikationsmerkmale
 (Barcodes oder [RFID]-Tags) zu lesen und ggf. auch zu
-schreiben. Außerdem muss eine Kommunikation mit dem BMS stattfinden, um
+schreiben. Außerdem muss eine Kommunikation mit dem [BMS](#automatisierung-prozess) stattfinden, um
 darin den entsprechenden Ausleih-, Rückbuchungs-, oder
 Verlängerungsvorgang durchzuführen. Hierzu muss außerdem eine
 Identifikation der Nutzer\*innen erfolgen, also das Einlesen eines Ausweises
@@ -57,21 +57,44 @@ Ausleihtheken als auch bei Rückgabeautomaten möglich. Ein weiterer Self-Servic
 ist das [Bezahlen](#bezahlung) und Begleichen von Gebühren an speziell dafür 
 aufgestellten Bezahlstationen.
 
-### Automaten
+### Automaten {#automaten}
 
-Zur Gestaltung eines Angebots, das über die Servicezeiten hinausgeht,
+Zur Unterstützung in Stoßzeiten sowie zur Gestaltung eines Angebots, das über die Servicezeiten hinausgeht,
 ist der Einsatz von Automaten für Standarddienstleistungen sinnvoll.
 Vorgänge wie Ausleihe, Verlängerung und Rückgabe von Medien, Bezahlung
 von Gebühren oder auch die Abholung von Bestellungen können mit
 Automaten weitgehend ohne Personal realisiert werden.
 
-**Ausleihautomaten** bestehen aus Lesegeräten für Ausweise, Lesegeräten
-für Medien und Entsicherungsgeräten für Buchsicherungen.
-Beim Einsatz von RFID-Geräten können Medien von einem RFID-Reader sowohl gelesen als auch entsichert werden. Der
+**Selbstverbucher / Ausleihautomaten** bestehen meist aus einer
+Auflagefläche für die auszuleihenden Medien, einer Schnittstelle für
+Bibliotheksausweise sowie einem PC, der die Endgeräte verwaltet und mit
+dem BMS kommuniziert. Bei einer funkgestützten Medienerkennung (RFID)
+gibt es die Möglichkeit der Stapelverbuchung, es werden also vom
+Automaten mehrere gestapelte Bücher erkannt und zur Verbuchung
+angeboten. Bei einer barcodegestützten Medienerkennung wird jedes Medium
+einzeln verbucht.
+
+Der
 Verbuchungsprozess beinhaltet eine Anmeldung (Ausweisnummer und ggf.
 Passwort), den eigentlichen Verbuchungsprozess inklusive Entsicherung
 der Medien, Ausgabe einer optionaler Quittung auf Papier oder als E-Mail sowie eine
 manuelle oder automatisierte Abmeldung (i.d.R. durch Wegnehmen des Benutzerausweises).
+
+Bibliotheksausweise gibt es in verschiedenen Ausprägungen: Barcode
+(1D-Code), Funkchip (u. U. proprietär, Bsp.: Intercard), QR-Code
+(2D-Code). Die 1D- oder 2D-Codes können entweder auf Papier oder in
+einer App auf dem Smartphone beigebracht werden. Die Schnittstelle im
+Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.
+
+Nach der Ausleihverbuchung muss der Selbstverbucher /
+Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei
+der in vielen Bibliotheken auslaufenden EM-Sicherung (elektromagnetisch
+über einen im Medium eingeklebten magnetisierbaren Metallstreifen)
+geschieht dies über die Ansteuerung eines Elektromagneten mit hörbarem
+Feedback an die Nutzer\*innen ("klack"). Beim Einsatz von RFID-Geräten können Medien von einem RFID-Reader sowohl gelesen als auch entsichert werden. Bei RFID-Sicherung wird bei
+erfolgter Verbuchung ein Sicherungsbit auf dem RFID-Chip verändert.
+Aufgrund der größeren Geschwindigkeit dieses Vorganges geschieht dies
+ohne Feedback an die Nutzer\*innen.
 
 **Rückgabeautomaten** sind in zwei Gruppen zu unterteilen. Im
 einfacheren Fall ist der Ausleihautomat auch gleichzeitig ein
@@ -80,25 +103,44 @@ grundsätzlich nicht relevant, wer das Medium zurückgibt. Die
 zurückgebrachten Medien werden dann durch die Nutzer\*innen selbst auf einen
 Bücherwagen oder ein separates Regal gestellt und müssen anschließend
 durch das Bibliothekspersonal sortiert und eingestellt werden.  
-Der zweite und komplexere Fall ist ein Rückgabeautomat mit einem
-Eingabeschacht und dahinterliegendem Förderband, auf dem die Medien weiter transportiert, verbucht und
-gesichert werden. Im einfachen Fall werden die Medien in einem Behälter gesammelt
+
+Ein separater Rückgabeautomat hat den Vorteil, dass die
+Prozesse Ausleihe und Rückgabe bei starker Nutzung entzerrt werden. 
+Der Rückgabeautomat hat einen
+Eingabeschacht und ein dahinterliegendes Förderband, auf dem die Medien weiter transportiert, verbucht und
+gesichert werden. Die Medien werden in einem Behälter gesammelt
 oder es ist ein automatisches
-[Sortiersystem](#sortiersysteme) angebunden. Medien, die
+[Sortiersystem](#sortiersysteme) angebunden. Üblicherweise gibt es am Rückgabeautomaten keine Authentifizierung.
+
+Medien, die
 nicht zum Bestand der Bibliothek gehören und andere Gegenstände müssen
 bei der Rückgabe erkannt und zurückgewiesen werden.
+
+Es gibt auch Rückgabeautomaten, die eine erneute Ausleihe des gerade
+zurückgegebenen Werkes an den/ie gleiche Bibliotheksnutzer\*in ermöglichen.
+Dies ist in den Fällen sinnvoll, wenn die maximale Leihfrist / maximal mögliche
+Verlängerungen der Leihfrist erreicht ist und der/die Bibliotheksnutzer\*in das
+Buch weiter nutzen möchte und das Medium nicht anderweitig bestellt ist.
 
 **Fernleihautomaten** dienen der personalfreien Abholung von bestellten
 Fernleihmedien oder anderen bestellten Dingen, die nicht durch die
 Ausleihautomaten verbucht werden können, etwa weil sie keinen RFID-Tag
-besitzen. Nach dem Einlegen des abzuholenden Mediums durch Mitarbeiter\*innen
+besitzen. Da diese Bücher weder mit dem eigenen System der
+Bibliothek gesichert noch verbuchbar sind, muss eine separate Verbuchung
+durchgeführt werden. Nach dem Einlegen des abzuholenden Mediums durch Mitarbeiter\*innen
 der Bibliothek werden Bestellende informiert (z.B. durch eine E-Mail),
 dass in einem Fach x etwas abzuholen sei. In diesem Vorgang kann man den
 Bestellenden auch ein PIN mitteilen, alternativ ist das Fach durch einen
 Bibliotheksausweis elektronisch zu öffnen. Wird das Fach geöffnet, wird
 zeitgleich das Medium im Nutzerkonto verbucht.
 
-**Kassenautomaten** erlauben die [Bezahlung] von offenen Gebühren oder auch den
+**Kassenautomaten** erlauben die personalfreie [Bezahlung]{#bezahlung} von offenen Gebühren. Auch hier wird erst der Nutzungsausweis eingelesen und nach
+einer optionalen Passworteingabe die offenen Gebühren angezeigt. Die
+Gebühren können dann mit Bargeld oder bargeldlos gezahlt werden. Auf
+eine Bargeldzahlung wird zunehmend verzichtet, da das Handling von
+Bargeld aufwändig und teuer ist.
+
+Möglich ist auch der
 Kauf von Gutscheinen/Tickets für Dienstleistungen, die im Anschluss in Anspruch
 genommen werden.
 
@@ -112,21 +154,35 @@ erreichen. Der vornehmliche Einsatzzweck ist daher auch weniger die
 Verhinderung von vorsätzlichem Diebstahl, sondern vielmehr das Entdecken
 des versehentlichen Vergessens der Ausleihverbuchung.
 
-Im Fall von **EM-Sicherung** oder **HF-RFID** (siehe [RFID])
-werden zur Erkennung ungesicherter Medien Gates aufgestellt,
+#### Sicherungsgates
+
+Zur Erkennung ungesicherter Medien werden Sicherungsgates aufgestellt,
 durch die Menschen beim Verlassen der Bibliothek geleitet werden. In
 diesen Gates sind die entsprechende Detektionstechnologie sowie
-Alarmsysteme (Ton und/oder Licht) verbaut. Im Fall von **UHF-RFID** kann
-man auf Gates verzichten, hier genügen wegen der großen Reichweite auch
-Antennen, die an der Decke montiert sind. Für die Anzeige der
-detektierten Medien kann auch ein Monitor verwendet werden, auf dem dann
-etwa gleich das entsprechende Buchcover angezeigt wird.
+Alarmsysteme (Ton und/oder Licht) verbaut.
+
+Sicherungsgates erkennen unverbuchte Medien, die die Bibliothek
+verlassen. Die dafür übliche Technik war in den letzten Jahrzehnten die
+**EM-Sicherung**, also die Erkennung der Magnetisierung von metallischen
+Streifen, die in die Medien geklebt waren. Mit der Umstellung auf [RFID]{#rfid} 
+geschieht die Buchsicherung über Funk, ein Sicherungsbit im Speicher der
+RFID-Chips wird untersucht. Bei EM-Sicherung ist der maximale Abstand
+zwischen zwei Gates zur halbwegs zuverlässigen Erkennung ca. 90 cm und
+stellt somit eine Einschränkung des Zugangs, z.B. bei der Nutzung mit
+Rollstühlen, dar. Etwa der gleiche Abstand ist notwendig bei **RFID-HF**,
+bei **RFID-UHF** (Reichweite bis zu 10m) ist ein sehr großer Abstand möglich
+und somit der Verzicht auf eine Einengung des Ausgangs. Hier genügen wegen der großen Reichweite auch
+Antennen, die an der Decke montiert sind.
+
+Bei Erkennung eines gesicherten (und nicht entliehenen) Mediums ertönt
+ein Warnton. Bei manchen Systemen wird das entsprechende Medium mit
+Titel und Cover auf einem Monitor angezeigt.
 
 Die Sicherungsanlagen können je nach Konfiguration auch als
 Besucherzähler genutzt werden. Die Aussagekraft der Zahlen ist zwar nicht
 exakt, aber hilfreich genug für eine Ermittlung der Auslastung.
 
-### Bezahlung
+### Bezahlung {#bezahlung}
 
 In Bibliotheken fallen an verschiedenen Stellen Gebühren oder andere zu
 zahlende Beträge an. Diese werden einerseits elektronisch erzeugt und
@@ -308,10 +364,22 @@ irgendwie geortet werden können (siehe auch der Abschnitt [Revision]).
 ### Sortiersysteme
 
 Medien-Sortieranlagen sind in der Regel direkt an den Rückgabeautomaten
-angeschlossen. Nutzer\*innen legen Medien in einen Schacht, in dem die Medien
-erfasst, zurückgebucht und gleichzeitig gesichert werden.  Fließbänder oder
-Rollen transportieren das Medium entsprechend vorher definierter Ziele, z.B.
-bestimmte Signaturbereiche, andere Zweigstellen oder vorgemerkte Medien.
+angeschlossen. Die Medien werden von den Nutzer\*innen auf ein Förderband gelegt und
+eingezogen (außer Reichweite des Nutzer\*innen). In dieser Position wird der
+Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines der
+beiden erkannt, wird das Medium wieder zurückgegeben. Bei erfolgreicher
+Erkennung und Verbuchung im BMS (und anschließender Aktivierung der
+Buchsicherung) wird im BMS mithilfe der Signatur oder Mediennummer
+erfragt, wie das Medium sortiert werden soll. In den meisten BMS gibt es
+dazu Tabellen, die z.B. über die Anfänge von Signaturen oder anderen
+Kriterien (Bsp: "SN ..." in Wagen 3, "ist vorgemerkt" in den Wagen x)
+arbeiten. Steht das Sortierziel fest, wird das Medium über Förderbänder
+zu dieser Stelle transportiert und abgeworfen. Das Ziel kann ein sog.
+Tray sein, ein oben offener Korb oder Wagen, oft mit einem
+gewichtgesteuerten Boden, damit die Medien nicht allzu tief fallen.
+Alternativ bieten immer mehr Hersteller sog. Ergocarts an, auf die die
+Medien so geschichtet werden, dass sie am Regal Rückenschonend aus einem
+Stapel entnommen und einsortiert werden können.
 
 Die Anschaffung einer Sortieranlage ist mit hohen Kosten verbunden, sowohl für
 die eigentliche Anschaffung und Installation als auch für die Wartung. Eine
