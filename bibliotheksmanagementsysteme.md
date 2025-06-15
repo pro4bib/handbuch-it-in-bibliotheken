@@ -1214,7 +1214,7 @@ Feiertagen: Hier muss ein Schließtagekalender regelmäßig gepflegt
 werden, um zu vermeiden, dass Leihfristenden auf Feiertage oder
 Wochenenden fallen.
 
-### Automatisierung und Selbstbedienung
+### Automatisierung und Selbstbedienung {#automatisierung-prozess}
 
 Als Automatisierung wird die Möglichkeit bezeichnet, die Geschäftsgänge einer
 Bibliothek mit digitalen Werkzeugen abzubilden und durchführen zu können. Dazu
@@ -1228,114 +1228,8 @@ allgemeine Kommunikationsprotokolle, etwa über *REST*, sodass das Tunneln von
 Verbindungen nicht mehr nötig ist. Außerdem ist man nicht mehr daran gebunden,
 dass anzubindende Geräte SIP2 unterstützen, was deutlich mehr Marktalternativen
 öffnet.
- 
-Nachfolgend werden Automaten für die Selbstbedienung im Bereich der
-Ausleihe dargestellt.
 
-#### Selbstverbucher / Ausleihautomaten
-
-Selbstverbucher / Ausleihautomaten bestehen meist aus einer
-Auflagefläche für die auszuleihenden Medien, einer Schnittstelle für
-Bibliotheksausweise sowie einem PC, der die Endgeräte verwaltet und mit
-dem BMS kommuniziert. Bei einer funkgestützten Medienerkennung (RFID)
-gibt es die Möglichkeit der Stapelverbuchung, es werden also vom
-Automaten mehrere gestapelte Bücher erkannt und zur Verbuchung
-angeboten. Bei einer barcodegestützten Medienerkennung wird jedes Medium
-einzeln verbucht.
-
-Bibliotheksausweise gibt es in verschiedenen Ausprägungen: Barcode
-(1D-Code), Funkchip (u. U. proprietär, Bsp.: Intercard), QR-Code
-(2D-Code). Die 1D- oder 2D-Codes können entweder auf Papier oder in
-einer App auf dem Smartphone beigebracht werden. Die Schnittstelle im
-Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.
-
-Bei Nichtvorhandensein einer separaten Rückgabeanlage kann der
-Selbstverbucher / Ausleihautomat auch eine Rückgabefunktion anbieten.
-Zumeist werden die zurückgegebenen Medien unsortiert gesammelt;
-im Anschluss erfolgt die Sortierung durch das Bibliothekspersonal.
-
-Nach der Rückgabe- oder Ausleihverbuchung muss der Selbstverbucher /
-Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei
-der in vielen Bibliotheken auslaufenden EM-Sicherung (elektromagnetisch
-über einen im Medium eingeklebten magnetisierbaren Metallstreifen)
-geschieht dies über die Ansteuerung eines Elektromagneten mit hörbarem
-Feedback an die Nutzer\*innen ("klack"). Bei RFID-Sicherung wird bei
-erfolgter Verbuchung ein Sicherungsbit auf dem RFID-Chip verändert.
-Aufgrund der größeren Geschwindigkeit dieses Vorganges geschieht dies
-ohne Feedback an die Nutzer\*innen.
-
-#### Rückgabeautomat / -sortierung
-
-Ein separater Rückgabeautomat hat zum einen den Vorteil, dass die
-Prozesse Ausleihe und Rückgabe bei starker Nutzung entzerrt werden und
-zum anderen, dass eine Sortierung der zurückgegebenen Medien möglich
-ist. Die Medien werden von den Nutzer\*innen auf ein Förderband gelegt und
-eingezogen (außer Reichweite des Nutzer\*innen. In dieser Position wird der
-Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines der
-beiden erkannt, wird das Medium wieder zurückgegeben. Bei erfolgreicher
-Erkennung und Verbuchung im BMS (und anschließender Aktivierung der
-Buchsicherung) wird im BMS mithilfe der Signatur oder Mediennummer
-erfragt, wie das Medium sortiert werden soll. In den meisten BMS gibt es
-dazu Tabellen, die z.B. über die Anfänge von Signaturen oder anderen
-Kriterien (Bsp: "SN ..." in Wagen 3, "ist vorgemerkt" in den Wagen x)
-arbeiten. Steht das Sortierziel fest, wird das Medium über Förderbänder
-zu dieser Stelle transportiert und abgeworfen. Das Ziel kann ein sog.
-Tray sein, ein oben offener Korb oder Wagen, oft mit einem
-gewichtgesteuerten Boden, damit die Medien nicht allzu tief fallen.
-Alternativ bieten immer mehr Hersteller sog. Ergocarts an, auf die die
-Medien so geschichtet werden, dass sie am Regal Rückenschonend aus einem
-Stapel entnommen und einsortiert werden können.
-
-Üblicherweise gibt es am Rückgabeautomaten keine Authentifizierung.
-
-Es gibt auch Rückgabeautomaten, die eine erneute Ausleihe des gerade
-zurückgegebenen Werkes an den/ie gleiche Bibliotheksnutzer\*in ermöglichen.
-Dies ist in den Fällen sinnvoll, wenn die maximale Leihfrist / maximal mögliche
-Verlängerungen der Leihfrist erreicht ist und der/die Bibliotheksnutzer\*in das
-Buch weiter nutzen möchte und das Medium nicht anderweitig bestellt ist.
-
-#### Kassenautomat
-
-Ein Kassenautomat ermöglicht die personalfreie Bezahlung der offenen
-Gebühren. Auch hier wird erst der Nutzungsausweis eingelesen und nach
-einer optionalen Passworteingabe die offenen Gebühren angezeigt. Die
-Gebühren können dann mit Bargeld oder bargeldlos gezahlt werden. Auf
-eine Bargeldzahlung wird zunehmend verzichtet, da das Handling von
-Bargeld aufwändig und teuer ist.
-
-#### Fernleihautomat
-
-Aus einem Fernleihautomat können Fernleihen personalfrei an Nutzer\*innen
-ausgegeben werden. Da diese Bücher weder mit dem eigenen System der
-Bibliothek gesichert noch verbuchbar sind, muss eine separate Verbuchung
-durchgeführt werden. Die Nutzer\*innen bekommen eine Nachricht, dass ihr
-bestelltes Medium in einem Fach mit der Nummer xy bereit liegt sowie
-eine PIN zur Öffnung dieses Faches. Sobald das Fach geöffnet wird, wird
-das Medium auf das Konto des Nutzers/der Nutzerin verbucht. Auch eine Öffnung des
-Faches mit einem funkgesteuerten Nutzungsausweis statt der PIN ist
-möglich.
-
-#### Sicherungsgates
-
-Sicherungsgates erkennen unverbuchte Medien, die die Bibliothek
-verlassen. Die dafür übliche Technik war in den letzten Jahrzehnten die
-EM-Sicherung, also die Erkennung der Magnetisierung von metallischen
-Streifen, die in die Medien geklebt waren. Mit der Umstellung auf RFID
-geschieht die Buchsicherung über Funk, ein Sicherungsbit im Speicher der
-RFID-Chips wird untersucht. Bei EM-Sicherung ist der maximale Abstand
-zwischen zwei Gates zur halbwegs zuverlässigen Erkennung ca. 90 cm und
-stellt somit eine Einschränkung des Zugangs, z.B. bei der Nutzung mit
-Rollstühlen, dar. Etwa der gleiche Abstand ist notwendig bei RFID-HF,
-bei RFID-UHF (Reichweite bis zu 10m) ist ein sehr großer Abstand möglich
-und somit der Verzicht auf eine Einengung des Ausgangs.
-
-Bei Erkennung eines gesicherten (und nicht entliehenen) Mediums ertönt
-ein Warnton. Bei manchen Systemen wird das entsprechende Medium mit
-Titel und Cover auf einem Monitor angezeigt.
-
-Sicherungsgates verhindern keine Diebstähle, Diebe wählen andere Wege.
-Sicherungsgates verhindern das versehentliche Verlassen der Bibliothek
-mit unverbuchten Medien.
+Die wichtigsten [Automaten](#automaten), die in Bibliotheken anzutreffen sind, sind Ausleihautomaten / Selbstverbucher, Rückgabeautomaten, Fernleihautomaten und Kassenautomaten.
 
 ### Anbindung von Systemen über Schnittstellen
 
@@ -1462,11 +1356,6 @@ und personenbeziehbare Daten von Nutzer\*innen finden sich in Abschnitt
 [Datenschutz](#datenschutz-etc) im Abschnitt zum 
 [technischen Betrieb eines BMS](#sec-technischer-betrieb).
 
-
-#### Bezahlsysteme
-
-Online-Payment, Kassensysteme/-automaten (siehe auch Abschnitt 
-[Kassenautomat](#kassenautomat))
 
 #### E-Rechnung
 
