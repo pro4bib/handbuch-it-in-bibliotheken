@@ -24,7 +24,7 @@ jobs:
           tinytex: true 
 
       - name: Install packages
-        run: sudo apt-get -y install fonts-linuxlibertin
+        run: sudo apt-get -y install fonts-linuxlibertine
 
       - name: Render book to HTML and DOCX
         run: make docx && mv _book/*.docx . && make html && mv *.docx _book
