@@ -8,7 +8,7 @@ Wir bedanken uns bei der TH Wildau, in deren Räumen wir für drei Books Sprints
 
 Für finanzielle Unterstützung möchten wir uns besonders beim [Publikationsfonds für Open-Access-Monografien des Landes Brandenburg](https://open-access-brandenburg.de/fonds/) bedanken, ohne den die zahlreiche Teilnahme an den Book Sprints vor Ort nicht möglich gewesen wäre. Der VZG danken wir für das Hosting der Online-Version.
 
-Dieses Buch ist und bleibt auf die Mitwirkung und Zusammenarbeit vieler Menschen ausgelegt. Das betonen wir auch deshalb, weil sich das Thema selbst schnell bewegt, und weil sich diese Ausgabe des Buchs sicher noch auf vielfältige Weise verbessern lassen wird. Wie in @sec-mitarbeit beschreiben, können Leser\*innen auf vielfältige Weise zur Aktualisierung und Verbesserung beitragen.
+Dieses Buch ist und bleibt auf die Mitwirkung und Zusammenarbeit vieler Menschen ausgelegt. Das betonen wir auch deshalb, weil sich das Thema selbst schnell bewegt, und weil sich diese Ausgabe des Buchs sicher noch auf vielfältige Weise verbessern lassen wird. Wie in @sec-mitarbeit beschrieben, können Leser\*innen auf vielfältige Weise zur Aktualisierung und Verbesserung beitragen.
 
 *Frank Seeliger, Anne Christensen, Lambert Heller, Jakob Voß und Ulrike Golas*\
 *Wildau, Hamburg, Hannover, Göttingen und Berlin, 11.6.2025*
