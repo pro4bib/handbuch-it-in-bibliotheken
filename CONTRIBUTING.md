@@ -35,7 +35,7 @@ Publikation
 
 ## Styleguide {#styleguide .unnumbered}
 
-Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#zielgruppe), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Abkürzungsverzeichnis](#mitarbeit-glossar).
+Dieser Styleguide soll eine einheitliche Form trotz [unterschiedlicher Autor*innen](#mitarbeit-autorinnen) gewährleisten. Dazu gibt es Hinweise zu [Zielgruppe](#personas), [Stil und Aktualität](#schreibstil), [Schreibweise](#schreibweise) und [Struktur](#struktur) sowie Vorgaben zu besonderen Inhalten wie [Bildern und anderen Medien](#mitarbeit-medien), [Literaturverzeichnis](#mitarbeit-literatur) und [Abkürzungsverzeichnis](#mitarbeit-glossar).
 
 Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
 
@@ -46,7 +46,7 @@ Bei der Bearbeitung sollten folgende Grundsätze beachtet werden:
     Überblick geben. Für Details kann auf weiterführende Quellen
     verwiesen werden.
 
-### Zielgruppe {#zielgruppe .unnumbered}
+### Personas {#personas .unnumbered}
 
 Zur Klärung der Zielgruppe dieses Handbuchs wurden einige sogenannte
 *Personas* definiert:

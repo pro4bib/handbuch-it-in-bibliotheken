@@ -6,7 +6,7 @@ description: Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Da
 
 ::: {.callout-note title="Zusammenfassung"}
 
-Dieses Kapitel soll für das Thema IT-Sicherheit und Datenschutz sensibilisieren und geht dabei auch auf bibliotheksspezifische Besonderheiten ein. Nach der Beschreibung eines [Sicherheitsvorfalls](#sicherheitsvorfall) werden [Richtlinien und Vorgaben](#richtlinien-und-vorgaben) diskutiert, [Präventivmaßnahmen](#präventivmaßnahmen) vorgestellt und [Handlungsempfehlungen](#handlungsempfehlungen) gegeben. Im Anschluss werden wichtige Aspekte des [Datenschutzes](#datenschutz) erläutert.
+Dieses Kapitel soll für das Thema IT-Sicherheit und Datenschutz sensibilisieren und geht dabei auch auf bibliotheksspezifische Besonderheiten ein. Nach der Beschreibung eines [Sicherheitsvorfalls](#sec-sicherheitsvorfall) werden [Richtlinien und Vorgaben](#sec-richtlinien-und-vorgaben) diskutiert, [Präventivmaßnahmen](#präventivmaßnahmen) vorgestellt und [Handlungsempfehlungen](#handlungsempfehlungen) gegeben.
 
 :::
 
@@ -73,7 +73,7 @@ einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für
 Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für
 den Datenschutz.
 
-## Sicherheitsvorfall
+## Sicherheitsvorfall {#sec-sicherheitsvorfall}
 
 ### Einfallstore
 
@@ -174,7 +174,7 @@ es kann nicht davon ausgegangen werden, dass alle Daten vollständig
 wiederhergestellt werden können. Daher gilt es nicht nur, einen Angriff
 möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.
 
-## Richtlinien und Vorgaben
+## Richtlinien und Vorgaben {#sec-richtlinien-und-vorgaben}
 
 Wie in jedem Bereich unseres Lebens finden sich auch in der
 IT-Sicherheit mehrere Richtlinien und Vorgaben sowohl auf nationaler als
@@ -352,25 +352,22 @@ durch einen Client (PC, mobiles Gerät) zur Verfügung stellt.
 ### Schulungen
 
 Regelmäßige Weiterbildungen ermöglichen es den Mitarbeiter\*innen von
-Bibliotheken, ihre Fähigkeiten auszubauen und die Sensibilität für
-Themen wie IT-Sicherheit zu erhöhen. Die im Abschnitt [Richtlinien und
-Vorgaben \[interne Verlinkung\]]{.underline} erwähnten Rahmenbedingungen
-schaffen dabei ein Grundgerüst für Schulungsinhalte und können für
-verpflichtende IT-Sicherheitsschulungen - wie sie bereits von einigen
-Bibliotheken durchgeführt werden - verwendet werden.
+Bibliotheken, ihre Fähigkeiten auszubauen und die Sensibilität für Themen wie
+IT-Sicherheit zu erhöhen. Die in @sec-richtlinien-und-vorgaben erwähnten
+Rahmenbedingungen schaffen dabei ein Grundgerüst für Schulungsinhalte und
+können für verpflichtende IT-Sicherheitsschulungen - wie sie bereits von
+einigen Bibliotheken durchgeführt werden - verwendet werden.
 
 Es sollten zwei Arten von Schulungen durchgeführt werden: für
-Mitarbeiter\*innen und Nutzer\*innen. Mitarbeiter\*innen sollten
-dahingehend sensibilisiert werden, dass sie mit schützenswerten Daten
-arbeiten. Es ist bspw. wichtig, daran zu denken, dass gerade Geräte in
-Büros im Sichtfeld von Personen durch sinnhafte Positionierung oder
-Blickschutzfilter vor unbefugtem Sehen geschützt werden. Auf die
-Wichtigkeit sicherer Passwörter wurde bereits weiter oben in diesem
-Abschnitt hingewiesen. Es sollte zudem auf die Angriffsmöglichkeiten im
-Abschnitt ["Sicherheitsvorfall" \[interne Verlinkung\]]{.underline}
-aufmerksam gemacht werden. Beispielhafte Erklärungen möglicher
-Angriffsszenarien und Möglichkeiten (z. B. Tools) sich zu schützen,
-sollten aufgezeigt werden.
+Mitarbeiter\*innen und Nutzer\*innen. Mitarbeiter\*innen sollten dahingehend
+sensibilisiert werden, dass sie mit schützenswerten Daten arbeiten. Es ist
+bspw. wichtig, daran zu denken, dass gerade Geräte in Büros im Sichtfeld von
+Personen durch sinnhafte Positionierung oder Blickschutzfilter vor unbefugtem
+Sehen geschützt werden. Auf die Wichtigkeit sicherer Passwörter wurde bereits
+weiter oben in diesem Abschnitt hingewiesen. Es sollte zudem auf die
+Angriffsmöglichkeiten in @sec-sicherheitsvorfall aufmerksam gemacht werden.
+Beispielhafte Erklärungen möglicher Angriffsszenarien und Möglichkeiten (z. B.
+Tools) sich zu schützen, sollten aufgezeigt werden.
 
 ## Handlungsempfehlungen 
 

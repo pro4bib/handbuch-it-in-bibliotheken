@@ -31,7 +31,7 @@ an Bibliotheken** verschaffen wollen. Dies können z. B. Personen sein, die sich
 im Rahmen ihrer bibliothekarischen Ausbildung mit IT-Diensten in Bibliotheken
 beschäftigen oder die sich im Rahmen der Einarbeitung in eine neue Position mit
 IT-Diensten in Bibliotheken beschäftigen. Zur Veranschaulichung der Zielgruppen
-dienen mehrere sogenannte [Personas](mitarbeit.md#zielgruppe).
+dienen mehrere sogenannte [Personas](mitarbeit.md#personas).
 
 ## Inhalt
 

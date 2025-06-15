@@ -654,7 +654,7 @@ Metadaten auch als Open Data zur Verfügung gestellt.
 Verwaltungsdaten dienen der Unterstützung von Arbeitsabläufen innerhalb der
 Bibliothek (siehe Abschnitt [Prozessabbildung](#prozessabbildung)). Diese Daten sind zum
 größten Teil nicht öffentlich und müssen insbesondere im Falle von Daten von
-Nutzer\*innen im Rahmen des [Datenschutzes](#datenschutz) vertraulich behandelt
+Nutzer\*innen im Rahmen des [Datenschutzes](#datenschutz-etc) vertraulich behandelt
 werden.
 
 Zur Interoperabilität mit anderen Informationssystemen innerhalb der
@@ -767,7 +767,7 @@ CO~2~-Ausstoß des Rechenzentrums).
 
 Auch aus datenschutzrechtlicher Perspektive gibt es Voraussetzungen zu
 berücksichtigen, die gegen die Anschaffung bestimmter BMS-Lösungen
-sprechen (siehe Abschnitt [Datenschutz](#datenschutz)).
+sprechen (siehe Abschnitt [Datenschutz](#datenschutz-etc)).
 
 Vor diesem Hintergrund ist die Auswahlentscheidung für einzelne
 Bibliotheken oft ein langwieriger Prozess. Bei Teilnahme an einem
@@ -1459,7 +1459,7 @@ abgefragt werden müssen.
 
 Datenschutzbezogene Vorgehensweisen z. B. in Bezug auf personenbezogene
 und personenbeziehbare Daten von Nutzer\*innen finden sich in Abschnitt
-[Datenschutz](#datenschutz) im Abschnitt zum 
+[Datenschutz](#datenschutz-etc) im Abschnitt zum 
 [technischen Betrieb eines BMS](#sec-technischer-betrieb).
 
 
@@ -1537,7 +1537,7 @@ Variante oder Cloud-Dienst). [Kosten](#kosten) entstehen dabei für Lizenz- und
 Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das
 [Monitoring](#monitoring) sowie die Aspekte der
 [IT-Sicherheit](#it-sicherheit), [Backup](#backup-und-rollback) und
-[Datenschutz](#datenschutz) zu berücksichtigen.
+[Datenschutz](#datenschutz-etc) zu berücksichtigen.
 
 ### Kosten
 
@@ -1760,7 +1760,7 @@ sind, gibt es vielfach etablierte bibliothekarische Schnittstellen
 oder man setzt auf moderne, allgemeine API-Standards wie
 [REST](https://de.wikipedia.org/wiki/Representational_State_Transfer).
 
-### Datenschutz, User-Tracking, Analytics {#datenschutz}
+### Datenschutz, User-Tracking, Analytics {#datenschutz-etc}
 
 Innerhalb der EU gilt seit 2018 die Datenschutz-Grundverordnung (DSGVO),
 nach der personenbezogene Daten grundsätzlich zu schützen sind.
