@@ -1,4 +1,4 @@
-Das Handbuch IT in Bibliotheken ist ein offenes, kollaborativ entwickeltes Werk. Alle Inhalte liegen in einem [GitHub-Repository](https://github.com/pro4bib/handbuch-it-in-bibliotheken) im Markdown-Format woraus mit der Software [quarto](https://quarto.org) HTML- und Druckversion erzeugt wird. Darüber hinaus werden in unregelmäßigen Abständen kommentierbare Snapshots der einzelnen Kapitel via Google Docs bereitgestellt.
+Das Handbuch IT in Bibliotheken ist ein offenes, kollaborativ entwickeltes Werk. Alle Inhalte liegen in einem [GitHub-Repository](https://github.com/pro4bib/handbuch-it-in-bibliotheken) im Markdown-Format, aus dem mit der Software [quarto](https://quarto.org) HTML- und Druckversion erzeugt werden. Darüber hinaus werden in unregelmäßigen Abständen kommentierbare Snapshots der einzelnen Kapitel via Google Docs bereitgestellt.
 
 Beiträge sind in verschiedenen Formen willkommen – vom einfachen Kommentar bis zur direkten Mitarbeit an den Quelltexten. Der Arbeitsablauf sieht mehrere Wege zur Mitwirkung vor:
 
