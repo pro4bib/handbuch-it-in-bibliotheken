@@ -7,9 +7,16 @@ INCLUDES_PDF=templates/chapters.html contributors_for_pdf.md glossar.md
 preview: $(INCLUDES)
 	quarto preview
 
-all: html docx pdf update
-	cp _gdrive/*.docx _book/ 
-	rsync -a _book/ _published
+#all: html docx pdf update
+#	cp _gdrive/*.docx _book/ 
+#	rsync -a _book/ _published
+
+build: pdf
+	mv _book/*.pdf .
+	make docx && mv _book/*.docx .
+	make html
+	mv *.pdf _book
+	mv *.docx _book 
 
 html: $(INCLUDES)
 	quarto render --to html
