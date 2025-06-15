@@ -33,6 +33,14 @@ Umgang mit Netzwerken und Daten [@Hollaender2023].
 
 :::
 
+Darüber hinaus nimmt die Bedeutung des **Datenschutzes** weiter zu. Die
+Verarbeitung von schützenswerten personenbezogenen Daten wird evtl. nicht nur
+in der Bibliothek oder übergeordneten Einrichtung selbst vorgenommen, sondern
+zunehmend von externen Dritten, wie bspw. Cloud-Infrastrukturen. Umso
+bedeutender wird im Hinblick auf die Sicherheit die Datensparsamkeit und das
+Bewusstsein, welche personenbezogenen Daten in welchen Systemen verarbeitet
+werden oder verarbeitet werden müssen.
+
 Bibliotheken verstehen sich als Orte, die ihre Informationen und
 vielschichtigen Dienstleistungen i.d.R. einer großen Nutzendenschaft zur
 Verfügung stellen. Sie tragen durch ihre Arbeit zur Umsetzung der
@@ -90,7 +98,12 @@ sein können. Folgende sind die häufigsten Angriffsmethoden:
     umgesetzt werden und schwieriger zu identifizieren sind. Häufig
     werden Phishing-Attacken mit Links auf präparierte Webseiten (sog.
     Watering Holes) kombiniert. In diesem Fall dienen sie auch als
-    Haupteintrittstore für Ransomware, Malware, Viren und Würmer.
+    Haupteintrittstore für Malware.
+
+-   **Malware**: alle Arten von Schadsoftware, die auf dem Zielrechner
+    ausgeführt wird, um z.B. Daten auszuspionieren, das normale Systemverhalten
+    zu unterbrechen oder Schäden zu verursachen. Typische Beispiele sind
+    Ransomware, Viren oder Würmer.
 
 -   **Ransomware:** Bei dieser Art des Angriffs wird der
     Zugriff auf Daten eingeschränkt oder unterbunden, z.B. durch
@@ -104,9 +117,16 @@ sein können. Folgende sind die häufigsten Angriffsmethoden:
     Aufwände und Workarounds sind in dieser Analyse nicht berücksichtigt
     und lassen sich schwer beziffern (@Kost2022).
  
--   **Denial-of-Service-Attacken (DoS):** Bezeichnet einen
-    Angriff, um die Verfügbarkeit eines Netzwerkes zu beeinträchtigen
-    und gleichzeitig Daten abzugreifen und umzuleiten.
+-   **Viren** und **Würmer:** Schadprogramme, die sich selbständig replizieren 
+    und/oder an andere Programme anhängen, um möglichst viele Rechner zu
+    infizieren. Häufig dienen Viren und Würmer zur Verbreitung 
+    der eigentlichen Schadsoftware.
+
+-   **Denial-of-Service-Attacken (DoS):** ein Angriff, bei dem sehr viele
+    gleichzeitige Anfragen an einen Server gestellt werden, um dessen
+    Verfügbarkeit zu beeinträchtigen. Häufig kommen Distributed
+    Denial-of-Service (DDoS) Angriffe vor, bei denen die Anfragen von vielen
+    unterschiedlichen Systemen in einem koordinierten Einsatz gestellt werden.
 
 ### Bisherige Erfahrungen
 
@@ -153,16 +173,6 @@ verursacht. Mitunter muss mit monatelangen Einschränkungen gerechnet werden und
 es kann nicht davon ausgegangen werden, dass alle Daten vollständig
 wiederhergestellt werden können. Daher gilt es nicht nur, einen Angriff
 möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.
-
-### Wo bleibt die Künstliche Intelligenz der IT-Sicherheit?
-
-Im Zuge der heutigen digitalen Entwicklungen wirft dieses Thema
-natürlich auch die Frage auf, welche Auswirkungen KI auf die
-IT-Sicherheit hat. Nach jetzigen Erfahrungen hat KI bislang noch nicht
-dazu geführt, dass Systeme anfälliger für Angriffe werden. Denkbar ist,
-dass Phishing-Angriffe vereinfachen kann. Im Gegenzug könnten
-cyberkriminelle Angriffe durch Monitoring unserer Systeme mit KI
-erschwert werden.
 
 ## Richtlinien und Vorgaben
 
