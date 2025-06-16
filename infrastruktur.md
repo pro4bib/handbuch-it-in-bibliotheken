@@ -44,7 +44,7 @@ Anforderungsanalyse in @sec-anforderungen behandelt.*
 Zur Verbuchung zählen die Ausleihe und Rückgabe von Medien sowie die Verlängerung
 von Leihfristen. Für automatische Verbuchung müssen entsprechende Geräte
 vorhanden sein, um die für Medien eingesetzten Identifikationsmerkmale
-(Barcodes oder [RFID]-Tags) zu lesen und ggf. auch zu
+(Barcodes oder [RFID](#rfid)-Tags) zu lesen und ggf. auch zu
 schreiben. Außerdem muss eine Kommunikation mit dem [BMS](#automatisierung-prozess) stattfinden, um
 darin den entsprechenden Ausleih-, Rückbuchungs-, oder
 Verlängerungsvorgang durchzuführen. Hierzu muss außerdem eine
@@ -134,7 +134,7 @@ Bestellenden auch ein PIN mitteilen, alternativ ist das Fach durch einen
 Bibliotheksausweis elektronisch zu öffnen. Wird das Fach geöffnet, wird
 zeitgleich das Medium im Nutzerkonto verbucht.
 
-**Kassenautomaten** erlauben die personalfreie [Bezahlung]{#bezahlung} von offenen Gebühren. Auch hier wird erst der Nutzungsausweis eingelesen und nach
+**Kassenautomaten** erlauben die personalfreie [Bezahlung](#bezahlung) von offenen Gebühren. Auch hier wird erst der Nutzungsausweis eingelesen und nach
 einer optionalen Passworteingabe die offenen Gebühren angezeigt. Die
 Gebühren können dann mit Bargeld oder bargeldlos gezahlt werden. Auf
 eine Bargeldzahlung wird zunehmend verzichtet, da das Handling von
@@ -164,7 +164,7 @@ Alarmsysteme (Ton und/oder Licht) verbaut.
 Sicherungsgates erkennen unverbuchte Medien, die die Bibliothek
 verlassen. Die dafür übliche Technik war in den letzten Jahrzehnten die
 **EM-Sicherung**, also die Erkennung der Magnetisierung von metallischen
-Streifen, die in die Medien geklebt waren. Mit der Umstellung auf [RFID]{#rfid} 
+Streifen, die in die Medien geklebt waren. Mit der Umstellung auf [RFID](#rfid) 
 geschieht die Buchsicherung über Funk, ein Sicherungsbit im Speicher der
 RFID-Chips wird untersucht. Bei EM-Sicherung ist der maximale Abstand
 zwischen zwei Gates zur halbwegs zuverlässigen Erkennung ca. 90 cm und
