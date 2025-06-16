@@ -1651,10 +1651,7 @@ oder man setzt auf moderne, allgemeine API-Standards wie
 
 ### Datenschutz, User-Tracking, Analytics {#datenschutz-etc}
 
-Innerhalb der EU gilt seit 2018 die Datenschutz-Grundverordnung (DSGVO),
-nach der personenbezogene Daten grundsätzlich zu schützen sind.
-
-Im Kontext eines BMS sind die anfallenden personenbezogenen Daten etwa:
+Auch im Kontext eines BMS greift der [Datenschutz]{#datenschutz} im Sinne der Datenschutz-Grundverordnung (DSGVO),  die anfallenden personenbezogenen Daten sind etwa:
 
 -   durch Nutzer\*innen bei der Anmeldung angegebenen Daten für den
     Bibliothekszugang
@@ -1665,33 +1662,8 @@ Im Kontext eines BMS sind die anfallenden personenbezogenen Daten etwa:
 -   die Protokolle (Logs) über Online-Zugriffe auf das BMS (z.B.
     IP-Adresse, Seitenaufrufe)
 
-Um den Schutz personenbezogener Daten gewährleisten zu können, gibt es
-verschiedene Ansätze:
-
--   Verschlüsselung: Daten werden auf verschlüsselten Servern
-    gespeichert, ebenso ist die Übertragung Ende-zu-Ende verschlüsselt
-
--   Separierung: Personendaten werden getrennt von nicht-sensiblen Daten
-    gehalten (siehe [IDM](#identity-management))
-
--   Pseudonymisierung: Nutzer\*innen-Daten werden mit Pseudonymen
-    präpariert, sodass sie nicht mehr oder nur unter großem Aufwand
-    den einzelnen Personen zuzuordnen sind
-
--   Anonymisierung: Daten werden derart verändert, dass sie nicht
-    rückverfolgbar sind (z.B. Maskierung IP-Adressen)
-
 Die Entscheidung zur Verschlüsselung und Separierung von Daten sollte
 bereits im Vorfeld des Betriebs eines BMS getroffen werden.
-
-Die Pseudonymisierung und Anonymisierung kann auch im Laufe der Erhebung
-der personenbezogenen Daten zur Anwendung kommen, sofern bestimmte Daten
-nicht mehr für einen konkreten Zweck erforderlich sind.
-
-Leider sind personenbezogene Daten für Bibliotheksstatistiken oft
-notwendig (siehe [Kosten](#kosten)). In diesem Fall
-sollten ebenfalls pseudonymisierte oder anonymisierte Datensätze zur
-Grundlage genommen werden.
 
 Wenn ein BMS durch einen externen Anbieter gehostet wird (siehe
 [Betriebsmodelle für serverbasierte Software](#betriebsmodelle-für-serverbasierte-software)),
@@ -1712,16 +1684,6 @@ In der Kombination eines IDM mit einem cloudbasierten BMS außerhalb der
 EU wäre denkbar, die personenbezogene Daten dort in pseudonymisierter
 Form speichern zu lassen oder Personendaten von nicht sensiblen Daten zu
 trennen.
-
-Für alle personenbezogenen und personenbeziehbaren Daten sind Lösch-
-oder Anonymisierungsfristen festzulegen. Die Anonymisierungsfristen
-ergeben sich aus den Vorgaben der DSGVO und müssen betrieblichen und
-rechtlichen Aspekten genügen. So ergeben sich Fristen für die
-Speicherung von Daten über Gebühren (Entstehung, Bezahlung, ...) aus
-den Landeshaushaltsordnungen oder anderen für die Einrichtung
-maßgeblichen Regelungen. Betriebliche Gründe für die Länge von
-Speicherfristen von personenbezogenen und personenbeziehbaren Daten
-können sich aus Fristen für Einsprüche ergeben.
 
 Die über die vergangenen Jahrzehnte geschehenen sukzessiven Aufkäufe
 kleinerer BMS-Service-Provider durch einige wenige große kommerziellen
