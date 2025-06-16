@@ -1557,29 +1557,6 @@ voraussichtlich wieder zur Verfügung steht.
 
 ### IT-Sicherheit
 
-Um ein BMS vor den zunehmenden Angriffen durch böswillige Akteure
-(Hacking, Malware, Ransomware) abzusichern, können die folgenden
-Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
-
--   Die Infrastruktur um das BMS herum sollte durch starke
-    Sicherheitsvorkehrungen getragen werden.
-
--   Die Gefahr kurzfristig entstehender Sicherheitslücken sollte nicht
-    unterschätzt werden.
-
--   Cloud-basierte Systeme sollten aktiv überwacht und der Überblick
-    behalten werden.
-
--   Anbieter sollten aufgefordert werden, die Konzepte ihrer
-    Sicherheitsvorkehrungen offenzulegen.
-
--   Gerade Administrator\*innen sollten ihre Zugänge gesondert
-    absichern.
-
--   Es sollte sichergestellt werden, dass jede Software stets auf dem
-    aktuellen Stand ist, sowohl auf den Arbeitsplatz-PCs als auch den
-    Servern.
-
 Allgemein gelten die im @sec-sicherheit
 beschriebenen Richtlinien, Maßnahmen und Empfehlungen sowie der Grundsatz:
 "Bleiben Sie wachsam, in Bezug auf ungewöhnliche Ereignisse auf Ihren
@@ -1651,7 +1628,7 @@ oder man setzt auf moderne, allgemeine API-Standards wie
 
 ### Datenschutz, User-Tracking, Analytics {#datenschutz-etc}
 
-Auch im Kontext eines BMS greift der [Datenschutz]{#datenschutz} im Sinne der Datenschutz-Grundverordnung (DSGVO),  die anfallenden personenbezogenen Daten sind etwa:
+Auch im Kontext eines BMS greift der [Datenschutz](#datenschutz) im Sinne der Datenschutz-Grundverordnung (DSGVO),  die anfallenden personenbezogenen Daten sind etwa:
 
 -   durch Nutzer\*innen bei der Anmeldung angegebenen Daten für den
     Bibliothekszugang
@@ -1667,7 +1644,7 @@ bereits im Vorfeld des Betriebs eines BMS getroffen werden.
 
 Wenn ein BMS durch einen externen Anbieter gehostet wird (siehe
 [Betriebsmodelle für serverbasierte Software](#betriebsmodelle-für-serverbasierte-software)),
-müssen insbesondere die Regeln für den [datenschutzkonformen Betrieb]{#datenschutzkonform} eingehalten werden.
+müssen insbesondere die Regeln für den [datenschutzkonformen Betrieb](#datenschutzkonform) eingehalten werden.
 
 In der Kombination eines IDM mit einem cloudbasierten BMS außerhalb der
 EU wäre denkbar, die personenbezogene Daten dort in pseudonymisierter
