@@ -13,7 +13,7 @@ build: pdf
 	make html
 	mv *.pdf _book
 	mv *.docx _book 
-	cp _gdrive/*.docx _book/ 
+	cp _gdrive/*.docx _book/ | true 
 	rsync -a _book/ _published
 
 html: $(INCLUDES)

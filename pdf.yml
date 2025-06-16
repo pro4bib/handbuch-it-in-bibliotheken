@@ -9,9 +9,10 @@ format:
     number-sections: true
     number-depth: 3
     fontsize: 11pt
-    # requires to install font: sudo apt-get install fonts-linuxlibertine
     sansfont: Linux Biolinum O
-    mainfont: Linux Biolinum O
+    mainfont: Linux Biolinum O      
+    crossref:
+      fig-title: "Abb."
     geometry:
       - paperheight=24cm
       - paperwidth=17cm
@@ -21,10 +22,12 @@ format:
       - outer=2cm
       - heightrounded
     include-in-header:
+      # requires to install font: sudo apt-get install fonts-linuxlibertine
       - text: |         
           \usepackage{libertine}
           \usepackage{orcidlink}
           \counterwithout{footnote}{chapter}
+          \setmonofont[Scale=MatchLowercase]{LinLibertineMO}          
  
     filters:
      - templates/pandoc-quotes.lua
