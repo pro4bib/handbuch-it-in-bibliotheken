@@ -73,15 +73,158 @@ einen Überblick über die Richtlinien und Vorgaben geben, sondern auch für
 Präventivmaßnahmen werben und Handlungsempfehlungen geben. Gleiches gilt für
 den Datenschutz.
 
-## Sicherheitsvorfall {#sec-sicherheitsvorfall}
+## Datenschutz {#datenschutz}
 
-### Einfallstore
+Innerhalb der EU gilt seit 2018 die Datenschutz-Grundverordnung ([DSGVO](https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/europaeische-datenschutzgrundverordnung.html)), nach der personenbezogene Daten grundsätzlich zu schützen sind. Sie regelt unter anderem, dass jede Person das Recht auf Schutz der sie
+betreffenden personenbezogenen Daten hat. So dürfen Daten nur für einen
+bestimmten Zweck erhoben (Zweckbindung) und auch nicht für andere
+Vorhaben weiterverarbeitet werden (gem. Art 5 II DSGVO). Ferner wird in
+Art 37 DSGVO die Ernennung eines Datenschutzbeauftragten geregelt.
+
+Ergänzt wird diese Grundverordnung durch die einzelnen nationalen
+gesetzgebenden Instanzen. In Deutschland geschieht dies sowohl auf
+Bundes- als auch auf Landesebene, in Form des Bundesdatenschutzgesetzes
+(BDSG) sowie der 16 Landesdatenschutzgesetze.
+
+In Österreich wird die DSGVO ergänzt durch das Datenschutzgesetz (DSG)
+und das Netz- und Informationssystemsicherheitsgesetz (NISG).
+
+Ähnliche Gesetze wurden auch außerhalb der EU erlassen. So trat Anfang
+September 2023 in der Schweiz die neue Verordnung über
+Datenschutzzertifizierungen (VDSZ) in Kraft, welche sich an den
+Grundzügen der DSGVO orientiert.
+
+Aufgrund der stetigen Weiterentwicklung von Software und neuen
+Technologien hat die Europäische Kommission einen Vorschlag für ein
+neues Gesetz zur Widerstandsfähigkeit von Cyberangriffen, den [Cyber
+Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act),
+auf den Weg gebracht. Gemäß diesem Vorschlag sollen Verbraucher\*innen
+und Unternehmen beim Kauf von Produkten und Software mit digitalen
+Komponenten geschützt werden, indem verbindliche
+Cyber-Sicherheits-Anforderungen für diese Leistungen durch die
+Hersteller eingeführt werden sollen. Im nächsten Schritt werden nun das
+Europäische Parlament und der Europäische Rat über diesen Vorschlag
+beraten.
+
+Um den Schutz personenbezogener Daten gewährleisten zu können, gibt es
+verschiedene Ansätze:
+
+-   Verschlüsselung: Daten werden auf verschlüsselten Servern
+    gespeichert, ebenso ist die Übertragung Ende-zu-Ende verschlüsselt
+
+-   Separierung: Personendaten werden getrennt von nicht-sensiblen Daten
+    gehalten (siehe [IDM](#identity-management))
+
+-   Pseudonymisierung: Nutzer\*innen-Daten werden mit Pseudonymen
+    präpariert, sodass sie nicht mehr oder nur unter großem Aufwand
+    den einzelnen Personen zuzuordnen sind
+
+-   Anonymisierung: Daten werden derart verändert, dass sie nicht
+    rückverfolgbar sind (z.B. Maskierung IP-Adressen)
+
+Die Pseudonymisierung und Anonymisierung kann auch im Laufe der Erhebung
+der personenbezogenen Daten zur Anwendung kommen, sofern bestimmte Daten
+nicht mehr für einen konkreten Zweck erforderlich sind.
+
+Leider sind personenbezogene Daten für Bibliotheksstatistiken oft
+notwendig (siehe [Kosten](#kosten)). In diesem Fall
+sollten ebenfalls pseudonymisierte oder anonymisierte Datensätze zur
+Grundlage genommen werden.
+
+Für alle personenbezogenen und personenbeziehbaren Daten sind Lösch-
+oder Anonymisierungsfristen festzulegen. Die Anonymisierungsfristen
+ergeben sich aus den Vorgaben der DSGVO und müssen betrieblichen und
+rechtlichen Aspekten genügen. So ergeben sich Fristen für die
+Speicherung von Daten über Gebühren (Entstehung, Bezahlung, ...) aus
+den Landeshaushaltsordnungen oder anderen für die Einrichtung
+maßgeblichen Regelungen. Betriebliche Gründe für die Länge von
+Speicherfristen von personenbezogenen und personenbeziehbaren Daten
+können sich aus Fristen für Einsprüche ergeben.
+
+
+### Hosting durch externe Anbieter {#datenschutzkonform}
+
+Für Software, die durch einen externen Anbieter gehostet wird (siehe
+[Betriebsmodelle für serverbasierte Software](#betriebsmodelle-für-serverbasierte-software)),
+muss Folgendes sichergestellt sein:
+
+-   Die Verschlüsselung der Datenübertragung
+    (Ende-zu-Ende-Verschlüsselung)
+
+-   Betrieb und Steuerung der Server innerhalb der EU
+    ([DSGVO](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung))
+
+-   Der Ausschluss von User-Tracking durch Ad-Tech (Werbe-Netzwerke)
+
+-   Der Abschluss eines
+    [Datenverarbeitungsvertrags im Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)
+
+Die über die vergangenen Jahrzehnte geschehenen sukzessiven Aufkäufe
+kleinerer Softwareanbieter durch einige wenige große kommerziellen
+Bibliotheksdienstleister hat ganze Firmenkonglomerate entstehen lassen,
+die inzwischen den Bibliotheksmarkt dominieren. Einige von ihnen, die
+Dienste für wissenschaftliche Bibliotheken anbieten, wandeln sich in den
+letzten Jahren zu Data-Analytics-Konzernen. In diesem Zuge präparieren
+sie ihre cloud-basierten Lösungen mit Trackern, die
+Verhaltensprofile über die Nutzer\*innen erstellen. Durch die ebenfalls
+seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird
+versucht, zusätzlich eine möglichst hohe Personalisierung bei der
+Erstellung einzelner Profile zu erreichen. Die dabei entstehenden
+Datenflüsse werden für gewöhnlich nicht transparent gemacht [@siems_lesen_2022].
+Der Einsatz solcher Analytics-Technologien unterminiert die Integrität
+konventioneller IDM-Systeme und tangiert somit nicht nur
+datenschutzrechtliche Belange, sondern auch die IT-Sicherheit.
+Idealerweise sollte bereits vor der Anschaffung einer Sofwarelösung
+abgeklärt werden, ob solche Analytics-Technologien eingesetzt werden. Im
+Zweifelsfall sollte immer der\*die lokale Datenschutzbeauftragte oder
+IT-Sicherheitsbeauftragte hinzugezogen werden.
+
+In ihrer besonderen Rolle als Institutionen für Informationsversorgung
+und Bereitstellung von Wissensinfrastruktur greifen Bibliotheken auch
+auf die Dienste externer Anbieter zurück, z.B. durch Verträge mit
+Wissenschaftsverlagen über digitale Literaturangebote. Hierbei ist es
+wichtig, dass Bibliotheken in diesen Verträgen darauf bestehen, dass das
+Tracking des Nutzungsverhaltens der Forschenden ausgeschlossen wird
+(@Reda2022), um die Wissenschaftsfreiheit und
+die informationelle Selbstbestimmung zu schützen [@DFG2021].
+
+## IT-Sicherheit
+
+Der Begriff IT-Sicherheit bezeichnet den Schutz von IT-Systemen – das heißt von Computern, Netzwerken, digitalen Geräten und den darauf verarbeiteten Daten – vor unbefugtem Zugriff, Manipulation, Verlust, Zerstörung oder anderen Bedrohungen. Sowohl technische als auch organisatorische Maßnahmen sind ein zentraler Bestandteil des Schutzes digitaler Infrastrukturen.
+
+Auf nationaler Ebene liegt die Zuständigkeit unter anderem beim
+Bundesamt für Sicherheit in der Informationstechnik
+([BSI](https://www.bsi.bund.de/DE/Das-BSI/Auftrag/auftrag_node.html)),
+welches seit 1991 mit der Aufgabe betraut ist, das Regierungsnetz und
+die kritischen Infrastrukturen (KRITIS) zu schützen. Auf Bundesebene
+wurde es eine zentrale Anlaufstelle für Sicherheitsstandards, sowie
+Meldestelle bei IT-Krisen. Es stellt unterschiedliche Normen zur
+IT-Sicherung zur Verfügung. Wann welcher Standard greift, hängt von der
+Komplexität des Einzelfalls ab.
+
+Für Bibliotheken sind hierbei auch die "Checklisten zum
+[IT-Grundschutz-Kompendium](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)"
+nach dem BSI-Standard 200-2 sehr empfehlenswert, da in diesen der
+aktuelle Stand der Integration des Grundschutzes überprüft werden kann.
+In diesem Zusammenhang wird auch auf die ISO/IEC-27000-Familie
+hingewiesen. In dieser Normenreihe sind neben definierten und stets
+aktuell gehaltenen Standards, die Anforderungen an Information Security
+Management Systems (ISMS), Empfehlungen für Kontrollmechanismen, als
+auch Best-Practices-Empfehlungen zu Aufbau und Organisation von
+Informationsfreiheit enthalten.
+
+
+## Sicherheitsvorfall {#sec-sicherheitsvorfall}
 
 Prominente Vorfälle in verschiedenen wissenschaftlichen Einrichtungen
 haben in den letzten Jahren Schwachstellen in IT-Systemen offenbart, die
 ernstzunehmende Sicherheitslücken darstellen. Dabei ist zu beachten,
 dass sowohl Maschinen als auch Menschen verantwortlich für diese Lücken
-sein können. Folgende sind die häufigsten Angriffsmethoden:
+sein können.
+
+### Angriffsmethoden
+
+Folgende sind die häufigsten Angriffsmethoden:
 
 -   **Social Engineering:** Unter Social Engineering versteht
     man Methoden, die zum Vertrauensgewinn eingesetzt werden, um
@@ -128,7 +271,7 @@ sein können. Folgende sind die häufigsten Angriffsmethoden:
     Denial-of-Service (DDoS) Angriffe vor, bei denen die Anfragen von vielen
     unterschiedlichen Systemen in einem koordinierten Einsatz gestellt werden.
 
-### Bisherige Erfahrungen
+### Auswirkungen
 
 Bisherige Erfahrungen zeigen die weitreichenden Auswirkungen eines
 cyberkriminellen Angriffs auf Bibliotheken. In den meisten Fällen ist jedoch
@@ -174,84 +317,30 @@ es kann nicht davon ausgegangen werden, dass alle Daten vollständig
 wiederhergestellt werden können. Daher gilt es nicht nur, einen Angriff
 möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.
 
-## Richtlinien und Vorgaben {#sec-richtlinien-und-vorgaben}
-
-Wie in jedem Bereich unseres Lebens finden sich auch in der
-IT-Sicherheit mehrere Richtlinien und Vorgaben sowohl auf nationaler als
-auch auf europäischer Ebene.
-
-### IT-Sicherheit
-
-Auf nationaler Ebene liegt die Zuständigkeit unter anderem beim
-Bundesamt für Sicherheit in der Informationstechnik
-([BSI](https://www.bsi.bund.de/DE/Das-BSI/Auftrag/auftrag_node.html)),
-welches seit 1991 mit der Aufgabe betraut ist, das Regierungsnetz und
-die kritischen Infrastrukturen (KRITIS) zu schützen. Auf Bundesebene
-wurde es eine zentrale Anlaufstelle für Sicherheitsstandards, sowie
-Meldestelle bei IT-Krisen. Es stellt unterschiedliche Normen zur
-IT-Sicherung zur Verfügung. Wann welcher Standard greift, hängt von der
-Komplexität des Einzelfalls ab.
-
-Für Bibliotheken sind hierbei auch die "Checklisten zum
-[IT-Grundschutz-Kompendium](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html)"
-nach dem BSI-Standard 200-2 sehr empfehlenswert, da in diesen der
-aktuelle Stand der Integration des Grundschutzes überprüft werden kann.
-In diesem Zusammenhang wird auch auf die ISO/IEC-27000-Familie
-hingewiesen. In dieser Normenreihe sind neben definierten und stets
-aktuell gehaltenen Standards, die Anforderungen an Information Security
-Management Systems (ISMS), Empfehlungen für Kontrollmechanismen, als
-auch Best-Practices-Empfehlungen zu Aufbau und Organisation von
-Informationsfreiheit enthalten.
-
-### Datenschutz
-
-Weitere Institutionen, die einen entscheidenden Einfluss auf die
-Vereinheitlichung des Datenschutzes in der Europäischen Union durch den
-Erlass der Datenschutz-Grundverordnung
-([DSGVO](https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/europaeische-datenschutzgrundverordnung.html))
-von 2016 hatten, sind das Europäische Parlament und der Europäische Rat.
-Die DSGVO gilt seit 2018 unmittelbar in allen der EU zugehörigen Länder.
-Sie regelt unter anderem, dass jede Person das Recht auf Schutz der sie
-betreffenden personenbezogenen Daten hat. So dürfen Daten nur für einen
-bestimmten Zweck erhoben (Zweckbindung) und auch nicht für andere
-Vorhaben weiterverarbeitet werden (gem. Art 5 II DSGVO). Ferner wird in
-Art 37 DSGVO die Ernennung eines Datenschutzbeauftragten geregelt.
-
-Ergänzt wird diese Grundverordnung durch die einzelnen nationalen
-gesetzgebenden Instanzen. In Deutschland geschieht dies sowohl auf
-Bundes- als auch auf Landesebene, in Form des Bundesdatenschutzgesetzes
-(BDSG) sowie der 16 Landesdatenschutzgesetze.
-
-In Österreich wird die DSGVO ergänzt durch das Datenschutzgesetz (DSG)
-und das Netz- und Informationssystemsicherheitsgesetz (NISG).
-
-Ähnliche Gesetze wurden auch außerhalb der EU erlassen. So trat Anfang
-September 2023 in der Schweiz die neue Verordnung über
-Datenschutzzertifizierungen (VDSZ) in Kraft, welche sich an den
-Grundzügen der DSGVO orientiert.
-
-In ihrer besonderen Rolle als Institutionen für Informationsversorgung
-und Bereitstellung von Wissensinfrastruktur greifen Bibliotheken auch
-auf die Dienste externer Anbieter zurück, z.B. durch Verträge mit
-Wissenschaftsverlagen über digitale Literaturangebote. Hierbei ist es
-wichtig, dass Bibliotheken in diesen Verträgen darauf bestehen, dass das
-Tracking des Nutzungsverhaltens der Forschenden ausgeschlossen wird
-(@Reda2022), um die Wissenschaftsfreiheit und
-die informationelle Selbstbestimmung zu schützen [@DFG2021].
-
-Aufgrund der stetigen Weiterentwicklung von Software und neuen
-Technologien hat die Europäische Kommission einen Vorschlag für ein
-neues Gesetz zur Widerstandsfähigkeit von Cyberangriffen, den [Cyber
-Resilience Act](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act),
-auf den Weg gebracht. Gemäß diesem Vorschlag sollen Verbraucher\*innen
-und Unternehmen beim Kauf von Produkten und Software mit digitalen
-Komponenten geschützt werden, indem verbindliche
-Cyber-Sicherheits-Anforderungen für diese Leistungen durch die
-Hersteller eingeführt werden sollen. Im nächsten Schritt werden nun das
-Europäische Parlament und der Europäische Rat über diesen Vorschlag
-beraten.
-
 ## Präventivmaßnahmen
+
+Um IT-Infrastruktir vor den zunehmenden Angriffen durch böswillige Akteure
+(Hacking, Malware, Ransomware) abzusichern, können die folgenden
+Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
+
+-   Die Infrastruktur  herum sollte durch starke
+    Sicherheitsvorkehrungen getragen werden.
+
+-   Die Gefahr kurzfristig entstehender Sicherheitslücken sollte nicht
+    unterschätzt werden.
+
+-   Cloud-basierte Systeme sollten aktiv überwacht und der Überblick
+    behalten werden.
+
+-   Anbieter sollten aufgefordert werden, die Konzepte ihrer
+    Sicherheitsvorkehrungen offenzulegen.
+
+-   Gerade Administrator\*innen sollten ihre Zugänge gesondert
+    absichern.
+
+-   Es sollte sichergestellt werden, dass jede Software stets auf dem
+    aktuellen Stand ist, sowohl auf den Arbeitsplatz-PCs als auch den
+    Servern.
 
 ### Passwortsicherheit
 
