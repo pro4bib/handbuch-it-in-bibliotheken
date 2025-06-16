@@ -1667,43 +1667,12 @@ bereits im Vorfeld des Betriebs eines BMS getroffen werden.
 
 Wenn ein BMS durch einen externen Anbieter gehostet wird (siehe
 [Betriebsmodelle für serverbasierte Software](#betriebsmodelle-für-serverbasierte-software)),
-muss Folgendes sichergestellt sein:
-
--   Die Verschlüsselung der Datenübertragung
-    (Ende-zu-Ende-Verschlüsselung)
-
--   Betrieb und Steuerung der Server innerhalb der EU
-    ([DSGVO](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung))
-
--   Der Ausschluss von User-Tracking durch Ad-Tech (Werbe-Netzwerke)
-
--   Der Abschluss eines
-    [Datenverarbeitungsvertrags im Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)
+müssen insbesondere die Regeln für den [datenschutzkonformen Betrieb]{#datenschutzkonform} eingehalten werden.
 
 In der Kombination eines IDM mit einem cloudbasierten BMS außerhalb der
 EU wäre denkbar, die personenbezogene Daten dort in pseudonymisierter
 Form speichern zu lassen oder Personendaten von nicht sensiblen Daten zu
 trennen.
-
-Die über die vergangenen Jahrzehnte geschehenen sukzessiven Aufkäufe
-kleinerer BMS-Service-Provider durch einige wenige große kommerziellen
-Bibliotheksdienstleister hat ganze Firmenkonglomerate entstehen lassen,
-die inzwischen den Bibliotheksmarkt dominieren. Einige von ihnen, die
-Dienste für wissenschaftliche Bibliotheken anbieten, wandeln sich in den
-letzten Jahren zu Data-Analytics-Konzernen. In diesem Zuge präparieren
-sie ihre cloud-basierten BMS-Lösungen mit Trackern, die
-Verhaltensprofile über die Nutzer\*innen erstellen. Durch die ebenfalls
-seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird
-versucht, zusätzlich eine möglichst hohe Personalisierung bei der
-Erstellung einzelner Profile zu erreichen. Die dabei entstehenden
-Datenflüsse werden für gewöhnlich nicht transparent gemacht [@siems_lesen_2022].
-Der Einsatz solcher Analytics-Technologien unterminiert die Integrität
-konventioneller IDM-Systeme und tangiert somit nicht nur
-datenschutzrechtliche Belange, sondern auch die IT-Sicherheit.
-Idealerweise sollte bereits vor der Anschaffung einer BMS-Lösung
-abgeklärt werden, ob solche Analytics-Technologien eingesetzt werden. Im
-Zweifelsfall sollte immer der\*die lokale Datenschutzbeauftragte oder
-IT-Sicherheitsbeauftragte hinzugezogen werden.
 
 ## Zusammenfassung und Ausblick
 
