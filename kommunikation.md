@@ -132,10 +132,10 @@ verschiedene rechtliche und organisatorische Rahmenbedingungen:
 
 -   **DSGVO-Konformität**: Alle eingesetzten
     digitalen Lösungen und Technologien erfüllen die Anforderungen der
-    Datenschutz-Grundverordnung (DSGVO), um den Schutz
+    [Datenschutz-Grundverordnung](#datenschutz) (DSGVO), um den Schutz
     personenbezogener Daten sicherzustellen. Dies beinhaltet die
     Prüfung und Klarstellung, ob bei der Nutzung bestimmter Dienste ein Vertrag zur
-    Auftragsverarbeitung (AV-Vertrag) notwendig, ist sowie Aufnahme der
+    Auftragsverarbeitung (AV-Vertrag) notwendig ist, sowie Aufnahme der
     Dienste in das Verfahrensverzeichnis.
 
 -   **Betriebsmodell**: Für jedes Werkzeug ist die Entscheidung zu
