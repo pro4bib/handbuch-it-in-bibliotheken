@@ -330,7 +330,7 @@ window.Quarto = {
   <li><a href="#katalogisierung-prozess" id="toc-katalogisierung-prozess" class="nav-link" data-scroll-target="#katalogisierung-prozess"><span class="header-section-number">7.6.5</span> Katalogisierung</a></li>
   <li><a href="#katalog-prozess" id="toc-katalog-prozess" class="nav-link" data-scroll-target="#katalog-prozess"><span class="header-section-number">7.6.6</span> Katalog</a></li>
   <li><a href="#ausleihe-prozess" id="toc-ausleihe-prozess" class="nav-link" data-scroll-target="#ausleihe-prozess"><span class="header-section-number">7.6.7</span> Ausleihe</a></li>
-  <li><a href="#automatisierung-und-selbstbedienung" id="toc-automatisierung-und-selbstbedienung" class="nav-link" data-scroll-target="#automatisierung-und-selbstbedienung"><span class="header-section-number">7.6.8</span> Automatisierung und Selbstbedienung</a></li>
+  <li><a href="#automatisierung-prozess" id="toc-automatisierung-prozess" class="nav-link" data-scroll-target="#automatisierung-prozess"><span class="header-section-number">7.6.8</span> Automatisierung und Selbstbedienung</a></li>
   <li><a href="#anbindung-von-systemen-über-schnittstellen" id="toc-anbindung-von-systemen-über-schnittstellen" class="nav-link" data-scroll-target="#anbindung-von-systemen-über-schnittstellen"><span class="header-section-number">7.6.9</span> Anbindung von Systemen über Schnittstellen</a></li>
   <li><a href="#nicht-bibliothekarische-schnittstellen" id="toc-nicht-bibliothekarische-schnittstellen" class="nav-link" data-scroll-target="#nicht-bibliothekarische-schnittstellen"><span class="header-section-number">7.6.10</span> Nicht-bibliothekarische Schnittstellen</a></li>
   </ul></li>
@@ -1086,37 +1086,10 @@ Abbildung&nbsp;7.3: Auszug einer BPMN-Prozessabbildung am Beispiel der verspäte
 </ol>
 <p>Die Parametrisierung der Ausleihe ist ein besonders komplexer Bereich der BMS-Installation aufgrund der Vielzahl von zu beachtenden Benutzungsregeln, der Sensibilität der Daten und der besonderen Relevanz eines reibungslosen Betriebs beim Versand von Benachrichtigungen. Ein Beispiel für eine solche Komplexität ist die das Verhalten bei Feiertagen: Hier muss ein Schließtagekalender regelmäßig gepflegt werden, um zu vermeiden, dass Leihfristenden auf Feiertage oder Wochenenden fallen.</p>
 </section>
-<section id="automatisierung-und-selbstbedienung" class="level3" data-number="7.6.8">
-<h3 data-number="7.6.8" class="anchored" data-anchor-id="automatisierung-und-selbstbedienung"><span class="header-section-number">7.6.8</span> Automatisierung und Selbstbedienung</h3>
+<section id="automatisierung-prozess" class="level3" data-number="7.6.8">
+<h3 data-number="7.6.8" class="anchored" data-anchor-id="automatisierung-prozess"><span class="header-section-number">7.6.8</span> Automatisierung und Selbstbedienung</h3>
 <p>Als Automatisierung wird die Möglichkeit bezeichnet, die Geschäftsgänge einer Bibliothek mit digitalen Werkzeugen abzubilden und durchführen zu können. Dazu sind Maschinen notwendig, die die entsprechenden Funktionen anbieten. Das schon recht betagte Standardprotokoll für die Kommunikation zwischen BMS und Automat ist <abbr title="Protokoll zur Anbindung von Selbstbedienungsautomaten an Bibliothekssysteme">SIP2</abbr>. Dieses Protokoll hat den Nachteil, dass es ohne Verschlüsselung entwickelt wurde und daher - sofern es sich um ein BMS in der Cloud handelt zumindest - über <a href="https://en.wikipedia.org/wiki/Stunnel">stunnel</a> verschlüsselt getunnelt wird. Moderne BMS unterstützen mittlerweile zusätzlich auch allgemeine Kommunikationsprotokolle, etwa über <em>REST</em>, sodass das Tunneln von Verbindungen nicht mehr nötig ist. Außerdem ist man nicht mehr daran gebunden, dass anzubindende Geräte SIP2 unterstützen, was deutlich mehr Marktalternativen öffnet.</p>
-<p>Nachfolgend werden Automaten für die Selbstbedienung im Bereich der Ausleihe dargestellt.</p>
-<section id="selbstverbucher-ausleihautomaten" class="level4">
-<h4 class="anchored" data-anchor-id="selbstverbucher-ausleihautomaten">Selbstverbucher / Ausleihautomaten</h4>
-<p>Selbstverbucher / Ausleihautomaten bestehen meist aus einer Auflagefläche für die auszuleihenden Medien, einer Schnittstelle für Bibliotheksausweise sowie einem PC, der die Endgeräte verwaltet und mit dem BMS kommuniziert. Bei einer funkgestützten Medienerkennung (RFID) gibt es die Möglichkeit der Stapelverbuchung, es werden also vom Automaten mehrere gestapelte Bücher erkannt und zur Verbuchung angeboten. Bei einer barcodegestützten Medienerkennung wird jedes Medium einzeln verbucht.</p>
-<p>Bibliotheksausweise gibt es in verschiedenen Ausprägungen: Barcode (1D-Code), Funkchip (u. U. proprietär, Bsp.: Intercard), QR-Code (2D-Code). Die 1D- oder 2D-Codes können entweder auf Papier oder in einer App auf dem Smartphone beigebracht werden. Die Schnittstelle im Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.</p>
-<p>Bei Nichtvorhandensein einer separaten Rückgabeanlage kann der Selbstverbucher / Ausleihautomat auch eine Rückgabefunktion anbieten. Zumeist werden die zurückgegebenen Medien unsortiert gesammelt; im Anschluss erfolgt die Sortierung durch das Bibliothekspersonal.</p>
-<p>Nach der Rückgabe- oder Ausleihverbuchung muss der Selbstverbucher / Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei der in vielen Bibliotheken auslaufenden EM-Sicherung (elektromagnetisch über einen im Medium eingeklebten magnetisierbaren Metallstreifen) geschieht dies über die Ansteuerung eines Elektromagneten mit hörbarem Feedback an die Nutzer*innen („klack“). Bei RFID-Sicherung wird bei erfolgter Verbuchung ein Sicherungsbit auf dem RFID-Chip verändert. Aufgrund der größeren Geschwindigkeit dieses Vorganges geschieht dies ohne Feedback an die Nutzer*innen.</p>
-</section>
-<section id="rückgabeautomat--sortierung" class="level4">
-<h4 class="anchored" data-anchor-id="rückgabeautomat--sortierung">Rückgabeautomat / -sortierung</h4>
-<p>Ein separater Rückgabeautomat hat zum einen den Vorteil, dass die Prozesse Ausleihe und Rückgabe bei starker Nutzung entzerrt werden und zum anderen, dass eine Sortierung der zurückgegebenen Medien möglich ist. Die Medien werden von den Nutzer*innen auf ein Förderband gelegt und eingezogen (außer Reichweite des Nutzer*innen. In dieser Position wird der Barcode auf dem Medium oder der RFID-Chip gelesen. Wird keines der beiden erkannt, wird das Medium wieder zurückgegeben. Bei erfolgreicher Erkennung und Verbuchung im BMS (und anschließender Aktivierung der Buchsicherung) wird im BMS mithilfe der Signatur oder Mediennummer erfragt, wie das Medium sortiert werden soll. In den meisten BMS gibt es dazu Tabellen, die z.B.&nbsp;über die Anfänge von Signaturen oder anderen Kriterien (Bsp: „SN …“ in Wagen 3, „ist vorgemerkt“ in den Wagen x) arbeiten. Steht das Sortierziel fest, wird das Medium über Förderbänder zu dieser Stelle transportiert und abgeworfen. Das Ziel kann ein sog. Tray sein, ein oben offener Korb oder Wagen, oft mit einem gewichtgesteuerten Boden, damit die Medien nicht allzu tief fallen. Alternativ bieten immer mehr Hersteller sog. Ergocarts an, auf die die Medien so geschichtet werden, dass sie am Regal Rückenschonend aus einem Stapel entnommen und einsortiert werden können.</p>
-<p>Üblicherweise gibt es am Rückgabeautomaten keine Authentifizierung.</p>
-<p>Es gibt auch Rückgabeautomaten, die eine erneute Ausleihe des gerade zurückgegebenen Werkes an den/ie gleiche Bibliotheksnutzer*in ermöglichen. Dies ist in den Fällen sinnvoll, wenn die maximale Leihfrist / maximal mögliche Verlängerungen der Leihfrist erreicht ist und der/die Bibliotheksnutzer*in das Buch weiter nutzen möchte und das Medium nicht anderweitig bestellt ist.</p>
-</section>
-<section id="kassenautomat" class="level4">
-<h4 class="anchored" data-anchor-id="kassenautomat">Kassenautomat</h4>
-<p>Ein Kassenautomat ermöglicht die personalfreie Bezahlung der offenen Gebühren. Auch hier wird erst der Nutzungsausweis eingelesen und nach einer optionalen Passworteingabe die offenen Gebühren angezeigt. Die Gebühren können dann mit Bargeld oder bargeldlos gezahlt werden. Auf eine Bargeldzahlung wird zunehmend verzichtet, da das Handling von Bargeld aufwändig und teuer ist.</p>
-</section>
-<section id="fernleihautomat" class="level4">
-<h4 class="anchored" data-anchor-id="fernleihautomat">Fernleihautomat</h4>
-<p>Aus einem Fernleihautomat können Fernleihen personalfrei an Nutzer*innen ausgegeben werden. Da diese Bücher weder mit dem eigenen System der Bibliothek gesichert noch verbuchbar sind, muss eine separate Verbuchung durchgeführt werden. Die Nutzer*innen bekommen eine Nachricht, dass ihr bestelltes Medium in einem Fach mit der Nummer xy bereit liegt sowie eine PIN zur Öffnung dieses Faches. Sobald das Fach geöffnet wird, wird das Medium auf das Konto des Nutzers/der Nutzerin verbucht. Auch eine Öffnung des Faches mit einem funkgesteuerten Nutzungsausweis statt der PIN ist möglich.</p>
-</section>
-<section id="sicherungsgates" class="level4">
-<h4 class="anchored" data-anchor-id="sicherungsgates">Sicherungsgates</h4>
-<p>Sicherungsgates erkennen unverbuchte Medien, die die Bibliothek verlassen. Die dafür übliche Technik war in den letzten Jahrzehnten die EM-Sicherung, also die Erkennung der Magnetisierung von metallischen Streifen, die in die Medien geklebt waren. Mit der Umstellung auf RFID geschieht die Buchsicherung über Funk, ein Sicherungsbit im Speicher der RFID-Chips wird untersucht. Bei EM-Sicherung ist der maximale Abstand zwischen zwei Gates zur halbwegs zuverlässigen Erkennung ca. 90 cm und stellt somit eine Einschränkung des Zugangs, z.B.&nbsp;bei der Nutzung mit Rollstühlen, dar. Etwa der gleiche Abstand ist notwendig bei RFID-HF, bei RFID-UHF (Reichweite bis zu 10m) ist ein sehr großer Abstand möglich und somit der Verzicht auf eine Einengung des Ausgangs.</p>
-<p>Bei Erkennung eines gesicherten (und nicht entliehenen) Mediums ertönt ein Warnton. Bei manchen Systemen wird das entsprechende Medium mit Titel und Cover auf einem Monitor angezeigt.</p>
-<p>Sicherungsgates verhindern keine Diebstähle, Diebe wählen andere Wege. Sicherungsgates verhindern das versehentliche Verlassen der Bibliothek mit unverbuchten Medien.</p>
-</section>
+<p>Die wichtigsten <a href="infrastruktur.html#automaten">Automaten</a>, die in Bibliotheken anzutreffen sind, sind Ausleihautomaten / Selbstverbucher, Rückgabeautomaten, Fernleihautomaten und Kassenautomaten.</p>
 </section>
 <section id="anbindung-von-systemen-über-schnittstellen" class="level3" data-number="7.6.9">
 <h3 data-number="7.6.9" class="anchored" data-anchor-id="anbindung-von-systemen-über-schnittstellen"><span class="header-section-number">7.6.9</span> Anbindung von Systemen über Schnittstellen</h3>
@@ -1152,10 +1125,6 @@ Abbildung&nbsp;7.3: Auszug einer BPMN-Prozessabbildung am Beispiel der verspäte
 <p>Die technisch einfachste Lösung für Accounts der externen Bibliotheksnutzer*innen ist die Speicherung im IDM der übergeordneten Einrichtung, sofern vorhanden. Komplexer ist die Speicherung in einem separaten System, da dann bei Autorisierung u. U. mehrere Systeme abgefragt werden müssen.</p>
 <p>Datenschutzbezogene Vorgehensweisen z. B. in Bezug auf personenbezogene und personenbeziehbare Daten von Nutzer*innen finden sich in Abschnitt <a href="#datenschutz-etc">Datenschutz</a> im Abschnitt zum <a href="#sec-technischer-betrieb">technischen Betrieb eines BMS</a>.</p>
 </section>
-</section>
-<section id="bezahlsysteme" class="level4">
-<h4 class="anchored" data-anchor-id="bezahlsysteme">Bezahlsysteme</h4>
-<p>Online-Payment, Kassensysteme/-automaten (siehe auch Abschnitt <a href="#kassenautomat">Kassenautomat</a>)</p>
 </section>
 <section id="e-rechnung" class="level4">
 <h4 class="anchored" data-anchor-id="e-rechnung">E-Rechnung</h4>
