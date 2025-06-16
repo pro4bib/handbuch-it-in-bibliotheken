@@ -214,7 +214,7 @@ auch Best-Practices-Empfehlungen zu Aufbau und Organisation von
 Informationsfreiheit enthalten.
 
 
-## Sicherheitsvorfall {#sec-sicherheitsvorfall}
+### Sicherheitsvorfall {#sec-sicherheitsvorfall}
 
 Prominente Vorfälle in verschiedenen wissenschaftlichen Einrichtungen
 haben in den letzten Jahren Schwachstellen in IT-Systemen offenbart, die
@@ -222,7 +222,7 @@ ernstzunehmende Sicherheitslücken darstellen. Dabei ist zu beachten,
 dass sowohl Maschinen als auch Menschen verantwortlich für diese Lücken
 sein können.
 
-### Angriffsmethoden
+#### Angriffsmethoden
 
 Folgende sind die häufigsten Angriffsmethoden:
 
@@ -271,7 +271,7 @@ Folgende sind die häufigsten Angriffsmethoden:
     Denial-of-Service (DDoS) Angriffe vor, bei denen die Anfragen von vielen
     unterschiedlichen Systemen in einem koordinierten Einsatz gestellt werden.
 
-### Auswirkungen
+#### Auswirkungen
 
 Bisherige Erfahrungen zeigen die weitreichenden Auswirkungen eines
 cyberkriminellen Angriffs auf Bibliotheken. In den meisten Fällen ist jedoch
@@ -317,7 +317,7 @@ es kann nicht davon ausgegangen werden, dass alle Daten vollständig
 wiederhergestellt werden können. Daher gilt es nicht nur, einen Angriff
 möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.
 
-## Präventivmaßnahmen
+### Präventivmaßnahmen
 
 Um IT-Infrastruktir vor den zunehmenden Angriffen durch böswillige Akteure
 (Hacking, Malware, Ransomware) abzusichern, können die folgenden
@@ -342,7 +342,7 @@ Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
     aktuellen Stand ist, sowohl auf den Arbeitsplatz-PCs als auch den
     Servern.
 
-### Passwortsicherheit
+#### Passwortsicherheit
 
 Zu einem umfassenden IT-Sicherheitskonzept gehört, dass alle Beteiligten
 einen bewussten Umgang mit Passwörtern praktizieren. Passwörter sollten
@@ -354,7 +354,7 @@ Passwörtern empfiehlt es sich, einen Passwort-Manager zu verwenden. Für
 die Wahl des Passworts sollten die allgemein gültigen Empfehlungen
 beachtet werden (beispielsweise die [Passwort-Empfehlungen des BSI]( Tipps zur Erstellung sicherer Passwörter: https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Sichere-Passwoerter-erstellen/sichere-passwoerter-erstellen_node.html)).
 
-### Authentifizierung und Autorisierung
+#### Authentifizierung und Autorisierung
 
 Unter Authentifizierung verstehen wir grundsätzlich das eindeutige
 Erkennen eines Zugriffs auf eine Ressource wie z.B. einen Dienst oder
@@ -413,7 +413,7 @@ dabei eine Echtzeitverschlüsselung. Informationen werden in eine
 unleserliche Form umgewandelt und können nur mit einem Schlüssel wieder
 in die ursprüngliche leserliche Form gebracht werden.
 
-### Updates und Backups
+#### Updates und Backups
 
 Eine sichere Hard- und Software ist unabdingbar. Rechner sollten
 ausreichend geschützt sein. Dazu gehören unter anderem aktuelle
@@ -438,7 +438,7 @@ durch einen Client (PC, mobiles Gerät) zur Verfügung stellt.
 
 :::
 
-### Schulungen
+#### Schulungen
 
 Regelmäßige Weiterbildungen ermöglichen es den Mitarbeiter\*innen von
 Bibliotheken, ihre Fähigkeiten auszubauen und die Sensibilität für Themen wie
@@ -458,7 +458,7 @@ Angriffsmöglichkeiten in @sec-sicherheitsvorfall aufmerksam gemacht werden.
 Beispielhafte Erklärungen möglicher Angriffsszenarien und Möglichkeiten (z. B.
 Tools) sich zu schützen, sollten aufgezeigt werden.
 
-## Handlungsempfehlungen 
+### Handlungsempfehlungen 
 
 Sind öffentliche Einrichtungen (Hochschulen, Kommunen) von Cyberattacken
 betroffen, hat dies allumfassende Folgen. Im schlimmsten Fall sind
