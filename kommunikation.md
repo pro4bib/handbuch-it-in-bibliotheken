@@ -348,7 +348,7 @@ es mehrere Werkzeuge (Mittelmann, 2011):
     zusammen. Er enthält Informationen über die Zeitplanung, den
     Umfang, die Fälligkeitsdaten und die Ergebnisse.
 
-![Jobmap nach Mittelmann (2011)](media/jobmap.svg){#fig-jobmap}
+![Jobmap nach Mittelmann (2011)](media/jobmap.svg){#fig-jobmap fig-pos="t"}
 
 ### Evaluation
 
@@ -383,12 +383,10 @@ Positionierung zwischen den Extremen "wir bilden alles über das
 Dateisystem ab" (ich habe nur einen Hammer) und "wir haben für jede
 Anforderung ein spezialisiertes Werkzeug" (man schleppt einen großen
 Werkzeugkasten durch die Gegend) ist alles andere als trivial.
+Einen Überblick gibt @fig-tools durch Positionierung der populären
+Werkzeuge entlang der Achsen Intern/Extern sowie Solitär/Kollaborativ.
 
-Einen ersten Überblick bietet dieses Schaubild, was die populären
-Werkzeuge entlang der Achsen Intern/Extern sowie Solitär/Kollaborativ
-positioniert:
-
-![Quadrantenmodell von Kommunikations-Werkzeugen](media/tools.svg){#fig-tools}
+![Quadrantenmodell von Kommunikations-Werkzeugen](media/tools.svg){#fig-tools fig-pos="t"}
 
 Im Folgenden werden die grundlegenden Funktionen und Werkzeuge kurz beschrieben:
 

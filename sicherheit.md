@@ -64,7 +64,7 @@ Datenschutzbeauftragten in Bezug auf die Verantwortlichkeiten abgestimmt
 werden. Grundsätzlich liegt die Aufgabe der Sensibilisierung und Schulung des
 Bibliothekspersonals im direkten Verantwortungsbereich der Bibliothek.
 
-![Abgrenzung Datenschutzbeauftragte\*r IT-Sicherheitsbeauftrage\*r](media/datenschutz-vs-sicherheits-beauftragte.png){#fig-datenschutz-datensicherheit}
+![Abgrenzung Datenschutzbeauftragte\*r IT-Sicherheitsbeauftrage\*r](media/datenschutz-vs-sicherheits-beauftragte.png){#fig-datenschutz-datensicherheit fig-pos="t"}
 
 Wenig ist zum Thema IT-Sicherheit in Bibliotheken veröffentlicht worden
 [@Kost2022]. Deshalb soll dieses Kapitel zur Vorbeugung nicht nur für das Thema
