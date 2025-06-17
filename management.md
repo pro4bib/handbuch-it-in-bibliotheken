@@ -6,7 +6,7 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 
 ::: {.callout-note title="Zusammenfassung"}
 
-Dieses Kapitel beschreibt die Einführung und den [Betrieb](#betriebsmodelle)
+Dieses Kapitel beschreibt die Einführung und den [Betrieb](#sec-betriebsmodelle)
 von IT-Systemen über den gesamten [Lebenszyklus](#it-lebenszyklus) hinweg.
 
 :::
@@ -17,7 +17,7 @@ Grundsätzlich unterscheidet sich das Management von Informationssystemen in und
 für Bibliotheken nicht sehr von Softwareentwicklung und Betrieb in anderen
 Bereichen: IT-Systeme sind selten statisch, sondern folgen einem
 [Lebenszyklus](#it-lebenszyklus) von der Planung ihrer Einführung
-bis zu ihrer Ablösung. Während des [Betriebs](#betriebsmodelle) der Systeme
+bis zu ihrer Ablösung. Während des [Betriebs](#sec-betriebsmodelle) der Systeme
 müssen mögliche [Risiken](#betriebssicherheit-und-risikomanagement) beachtet
 und [rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten
 werden. In Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen)
@@ -219,7 +219,7 @@ der Offenheit und Zusammenarbeit:
 
 <!-- Hier sollte noch etwas mehr zur Migration -->
 
-## Betriebsmodelle
+## Betriebsmodelle {#sec-betriebsmodelle}
 
 Insbesondere serverbasierte Software, wie zum Beispiel das
 Bibliotheksmanagementsystem (siehe @sec-bibliotheksmanagementsysteme), kann auf

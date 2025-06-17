@@ -491,7 +491,7 @@ Bei dem Einsatz der Werkzeuge im Digitalisierungsprozess stellt sich
 immer die Frage, ob sich die Anschaffung der Hardware oder die
 hausinterne Installation und Anpassung von Software lohnt oder aber
 Bestandteile ausgelagert werden können. Wie bei allen IT-Systemen sind
-grundsätzlich [drei Betriebsmodelle](management.md#betriebsmodelle) denkbar:
+grundsätzlich [drei Betriebsmodelle](management.md#sec-betriebsmodelle) denkbar:
 
 -   **Lokale Installation**: Hard- und Software wird durch
     betriebseigenes Personal gehostet, betreut und weiterentwickelt.

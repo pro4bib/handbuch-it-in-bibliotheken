@@ -743,7 +743,7 @@ Katalogisierung.
 
 ::: {.callout-tip}
 
-Der deutschsprachige [BMS-Markt 2024](#tbl-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, [Varianten des Betriebs-](management.md#betriebsmodelle) und Geschäftsmodells oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuziehen. 
+Der deutschsprachige [BMS-Markt 2024](#tbl-aktuelle-sw-produkte) ist überschaubar. Für den [Entscheidungsprozess](#entscheidungsprozess) sind daher vor allem auch der Umfang der gewünschten und gewichteten Funktionalitäten, [Varianten des Betriebs-](management.md#sec-betriebsmodelle) und Geschäftsmodells oder auch die Mitgliedschaft in einem Verbund als Kriterien heranzuziehen. 
 
 :::
 
@@ -1421,7 +1421,7 @@ für statistische Daten zur Nutzung digitaler Medien importieren.
 ## Technischer Betrieb {#sec-technischer-betrieb}
 
 Der technische Betrieb eines BMS variiert je nach
-[Betriebsmodell](management.md#betriebsmodelle) (lokale Installation, gehostete
+[Betriebsmodell](management.md#sec-betriebsmodelle) (lokale Installation, gehostete
 Variante oder Cloud-Dienst). [Kosten](#kosten) entstehen dabei für Lizenz- und
 Wartungsverträge sowie für Betriebsressourcen. Für den Betrieb sind weiter das
 [Monitoring](#monitoring) sowie die Aspekte der
@@ -1642,9 +1642,7 @@ Auch im Kontext eines BMS greift der [Datenschutz](#datenschutz) im Sinne der Da
 Die Entscheidung zur Verschlüsselung und Separierung von Daten sollte
 bereits im Vorfeld des Betriebs eines BMS getroffen werden.
 
-Wenn ein BMS durch einen externen Anbieter gehostet wird (siehe
-[Betriebsmodelle für serverbasierte Software](#betriebsmodelle-für-serverbasierte-software)),
-müssen insbesondere die Regeln für den [datenschutzkonformen Betrieb](#datenschutzkonform) eingehalten werden.
+Wenn ein BMS durch einen externen Anbieter gehostet wird (siehe @sec-betriebsmodelle) müssen insbesondere die Regeln für den [datenschutzkonformen Betrieb](sicherheit.html#datenschutz) eingehalten werden.
 
 In der Kombination eines IDM mit einem cloudbasierten BMS außerhalb der
 EU wäre denkbar, die personenbezogene Daten dort in pseudonymisierter

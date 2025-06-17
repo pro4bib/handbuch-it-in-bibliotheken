@@ -2,11 +2,11 @@
 description: Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
 ---
 
-# Sicherheit & Datenschutz {#sec-sicherheit}
+# Datenschutz & Sicherheit {#sec-sicherheit}
 
 ::: {.callout-note title="Zusammenfassung"}
 
-Dieses Kapitel soll für das Thema IT-Sicherheit und Datenschutz sensibilisieren und geht dabei auch auf bibliotheksspezifische Besonderheiten ein. Nach der Beschreibung eines [Sicherheitsvorfalls](#sec-sicherheitsvorfall) werden [Richtlinien und Vorgaben](#sec-richtlinien-und-vorgaben) diskutiert, [Präventivmaßnahmen](#präventivmaßnahmen) vorgestellt und [Handlungsempfehlungen](#handlungsempfehlungen) gegeben.
+Dieses Kapitel soll für die Themen IT-Sicherheit und Datenschutz sensibilisieren und geht dabei auch auf bibliotheksspezifische Besonderheiten ein. Im Bereich [Datenschutz](#datenschutz) müssen insbesondere beim [Einsatz externer Anbieter](#sec-datenschutz-externe) besondere Vorkehrungen getroffen werden. Im Bereich der [IT-Sicherheit](#it-sicherheit) werden mögliche [Sicherheitsvorfälle](#sec-sicherheitsvorfall) beschrieben, [Präventivmaßnahmen](#präventivmaßnahmen) vorgestellt und [Handlungsempfehlungen](#handlungsempfehlungen) gegeben.
 
 :::
 
@@ -29,11 +29,11 @@ Security sind hierfür wichtige, zu unterscheidende Grundprinzipien.
 
 **Security** beinhaltet alle Maßnahmen zum Schutz vor Diebstahl oder
 Beschädigung von Soft- und Hardware. **Safety** meint den sicherheitsbewussten
-Umgang mit Netzwerken und Daten [@Hollaender2023].
+Umgang mit Netzwerken und Daten.
 
 :::
 
-Darüber hinaus nimmt die Bedeutung des **Datenschutzes** weiter zu. Die
+Darüber hinaus nimmt die Bedeutung des [**Datenschutzes**](#datenschutz) weiter zu. Die
 Verarbeitung von schützenswerten personenbezogenen Daten wird evtl. nicht nur
 in der Bibliothek oder übergeordneten Einrichtung selbst vorgenommen, sondern
 zunehmend von externen Dritten, wie bspw. Cloud-Infrastrukturen. Umso
@@ -109,17 +109,17 @@ beraten.
 Um den Schutz personenbezogener Daten gewährleisten zu können, gibt es
 verschiedene Ansätze:
 
--   Verschlüsselung: Daten werden auf verschlüsselten Servern
+-   **Verschlüsselung**: Daten werden auf verschlüsselten Servern
     gespeichert, ebenso ist die Übertragung Ende-zu-Ende verschlüsselt
 
--   Separierung: Personendaten werden getrennt von nicht-sensiblen Daten
+-   **Separierung**: Personendaten werden getrennt von nicht-sensiblen Daten
     gehalten (siehe [IDM](#identity-management))
 
--   Pseudonymisierung: Nutzer\*innen-Daten werden mit Pseudonymen
+-   **Pseudonymisierung**: Nutzer\*innen-Daten werden mit Pseudonymen
     präpariert, sodass sie nicht mehr oder nur unter großem Aufwand
     den einzelnen Personen zuzuordnen sind
 
--   Anonymisierung: Daten werden derart verändert, dass sie nicht
+-   **Anonymisierung**: Daten werden derart verändert, dass sie nicht
     rückverfolgbar sind (z.B. Maskierung IP-Adressen)
 
 Die Pseudonymisierung und Anonymisierung kann auch im Laufe der Erhebung
@@ -142,11 +142,9 @@ Speicherfristen von personenbezogenen und personenbeziehbaren Daten
 können sich aus Fristen für Einsprüche ergeben.
 
 
-### Hosting durch externe Anbieter {#datenschutzkonform}
+### Einsatz externer Anbieter {#sec-datenschutz-externe}
 
-Für Software, die durch einen externen Anbieter gehostet wird (siehe
-[Betriebsmodelle für serverbasierte Software](#betriebsmodelle-für-serverbasierte-software)),
-muss Folgendes sichergestellt sein:
+Für Software, die durch einen externen Anbieter gehostet wird (siehe @sec-betriebsmodelle), muss Folgendes sichergestellt sein:
 
 -   Die Verschlüsselung der Datenübertragung
     (Ende-zu-Ende-Verschlüsselung)
@@ -383,21 +381,19 @@ einer bestimmten Personengruppe.
 
 Alle Komponenten, die zur Authentifizierung und Autorisierung in einer
 Einrichtung notwendig sind, werden auch als Authentifizierungs- und
-Autorisierungsinfrastruktur (AAI) bezeichnet. Wurde in einer Einrichtung
-eine AAI aufgebaut, auf welche jede Anwendung zurückgreifen kann, kann
-man festlegen, dass nach einmaligem Login ein Zugriff auf alle
-Anwendungen möglich und ein separates Einloggen nicht nötig ist. Dies
-wird auch als **Single-Sign-On (SSO)** bezeichnet.
+Autorisierungsinfrastruktur (AAI) bezeichnet. Wurde in einer Einrichtung eine
+AAI aufgebaut, auf welche jede Anwendung zurückgreifen kann, kann man
+festlegen, dass nach einmaligem Login ein Zugriff auf alle Anwendungen möglich
+und ein separates Einloggen nicht nötig ist. Dies wird auch als
+**Single-Sign-On (SSO)** bezeichnet. Die möglichen Verfahren sind in @fig-sso
+dargestellt: Benutzer\*in meldet sich auf einem **Portal** an und bekommt
+Zugriff auf alle eingebundenen Dienste (Links). Benutzer\*in speichert alle
+Anmeldedaten auf einem Datenträger oder im Netzwerk. Ein **lokal**es Programm
+meldet ihn\*sie separat bei jedem Dienst, Portal oder Ticketing-System ein
+(Mitte). Benutzer\*in meldet sich bei einem der Dienste an und bekommt ein
+**Ticket** für den gesamten "Kreis der Vertrauten" (Rechts).
 
 ![Herangehensweisen für Single-Sign-On](media/sso-approaches.svg){#fig-sso}
-
-**Links:** Benutzer\*in meldet sich auf einem **Portal** an und bekommt
-Zugriff auf alle eingebundenen Dienste. **Mitte:** Benutzer\*in
-speichert alle Anmeldedaten auf einem Datenträger oder im Netzwerk. Ein
-**lokal**es Programm meldet ihn\*sie separat bei jedem Dienst, Portal oder
-Ticketing-System ein. **Rechts:** Benutzer\*in meldet sich bei einem der
-Dienste an und bekommt ein **Ticket** für den gesamten "Kreis der
-Vertrauten".
 
 Zentrale Komponenten sind hierbei der **Identity Provider (IDP)**, der auf
 Basis des dahinterliegenden IDMS eine digitale Identität inkl. notwendiger
@@ -442,19 +438,14 @@ durch einen Client (PC, mobiles Gerät) zur Verfügung stellt.
 
 Regelmäßige Weiterbildungen ermöglichen es den Mitarbeiter\*innen von
 Bibliotheken, ihre Fähigkeiten auszubauen und die Sensibilität für Themen wie
-IT-Sicherheit zu erhöhen. Die in @sec-richtlinien-und-vorgaben erwähnten
-Rahmenbedingungen schaffen dabei ein Grundgerüst für Schulungsinhalte und
-können für verpflichtende IT-Sicherheitsschulungen - wie sie bereits von
-einigen Bibliotheken durchgeführt werden - verwendet werden.
-
-Es sollten zwei Arten von Schulungen durchgeführt werden: für
-Mitarbeiter\*innen und Nutzer\*innen. Mitarbeiter\*innen sollten dahingehend
-sensibilisiert werden, dass sie mit schützenswerten Daten arbeiten. Es ist
-bspw. wichtig, daran zu denken, dass gerade Geräte in Büros im Sichtfeld von
-Personen durch sinnhafte Positionierung oder Blickschutzfilter vor unbefugtem
-Sehen geschützt werden. Auf die Wichtigkeit sicherer Passwörter wurde bereits
-weiter oben in diesem Abschnitt hingewiesen. Es sollte zudem auf die
-Angriffsmöglichkeiten in @sec-sicherheitsvorfall aufmerksam gemacht werden.
+IT-Sicherheit zu erhöhen. Es sollten zwei Arten von Schulungen durchgeführt
+werden: für Mitarbeiter\*innen und Nutzer\*innen. Mitarbeiter\*innen sollten
+dahingehend sensibilisiert werden, dass sie mit schützenswerten Daten arbeiten.
+Es ist bspw. wichtig, daran zu denken, dass gerade Geräte in Büros im Sichtfeld
+von Personen durch sinnhafte Positionierung oder Blickschutzfilter vor
+unbefugtem Sehen geschützt werden. Auf die Wichtigkeit sicherer Passwörter
+wurde bereits weiter oben in diesem Abschnitt hingewiesen. Es sollte zudem auf
+die Angriffsmöglichkeiten in @sec-sicherheitsvorfall aufmerksam gemacht werden.
 Beispielhafte Erklärungen möglicher Angriffsszenarien und Möglichkeiten (z. B.
 Tools) sich zu schützen, sollten aufgezeigt werden.
 

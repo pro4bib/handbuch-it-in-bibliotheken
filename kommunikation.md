@@ -138,12 +138,12 @@ verschiedene rechtliche und organisatorische Rahmenbedingungen:
     Auftragsverarbeitung (AV-Vertrag) notwendig ist, sowie Aufnahme der
     Dienste in das Verfahrensverzeichnis.
 
--   **Betriebsmodell**: Für jedes Werkzeug ist die Entscheidung zu
-    treffen, ob es a) im eigenen Rechenzentrum -- so vorhanden --
-    betrieben wird, b) bei einem externen Hosting-Dienstleister
-    aufgesetzt wird oder c) als Software-as-a-Service (SaaS) von
-    Dienstleistern eingekauft wird. Die Entscheidung darüber hängt
-    von der vorhandenen [IT-Infrastruktur](#betriebsmodelle) ab.
+-   **Betriebsmodell** (siehe @sec-betriebsmodelle): Für jedes Werkzeug ist die
+    Entscheidung zu treffen, ob es a) im eigenen Rechenzentrum -- so vorhanden
+    -- betrieben wird, b) bei einem externen Hosting-Dienstleister aufgesetzt
+    wird oder c) als Software-as-a-Service (SaaS) von Dienstleistern eingekauft
+    wird. Die Entscheidung darüber hängt von der vorhandenen IT-Infrastruktur
+    ab.
 
 -   **Technische und organisatorische Maßnahmen (TOMs)**: Etablierung
     von TOMs, um sowohl den sicheren Betrieb der technischen

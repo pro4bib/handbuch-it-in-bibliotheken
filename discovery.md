@@ -367,7 +367,7 @@ und Betrieb des jeweiligen Software-Systems abgegolten.
 Beim Hosting oder bei der Nutzung von Software, die in der Cloud
 betrieben wird, erfolgt aus datenschutzrechtlicher Sicht eine "[Datenverarbeitung im Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)".
 Die Verantwortung für Datenschutz und Datensicherheit verbleibt damit bei der
-Bibliothek als Auftraggeberin.
+Bibliothek als Auftraggeberin (siehe @sec-datenschutz-externe).
 
 ### Marktsituation
 
