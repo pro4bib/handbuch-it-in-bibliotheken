@@ -1188,15 +1188,6 @@ Abbildung&nbsp;7.3: Auszug einer BPMN-Prozessabbildung am Beispiel der verspäte
 </section>
 <section id="it-sicherheit" class="level3" data-number="7.7.5">
 <h3 data-number="7.7.5" class="anchored" data-anchor-id="it-sicherheit"><span class="header-section-number">7.7.5</span> IT-Sicherheit</h3>
-<p>Um ein BMS vor den zunehmenden Angriffen durch böswillige Akteure (Hacking, Malware, Ransomware) abzusichern, können die folgenden Empfehlungen als Grundlage dienen <span class="citation" data-cites="breeding_marshall_how_2022">(<a href="literatur.html#ref-breeding_marshall_how_2022" role="doc-biblioref">Breeding, Marshall 2022</a>)</span>:</p>
-<ul>
-<li><p>Die Infrastruktur um das BMS herum sollte durch starke Sicherheitsvorkehrungen getragen werden.</p></li>
-<li><p>Die Gefahr kurzfristig entstehender Sicherheitslücken sollte nicht unterschätzt werden.</p></li>
-<li><p>Cloud-basierte Systeme sollten aktiv überwacht und der Überblick behalten werden.</p></li>
-<li><p>Anbieter sollten aufgefordert werden, die Konzepte ihrer Sicherheitsvorkehrungen offenzulegen.</p></li>
-<li><p>Gerade Administrator*innen sollten ihre Zugänge gesondert absichern.</p></li>
-<li><p>Es sollte sichergestellt werden, dass jede Software stets auf dem aktuellen Stand ist, sowohl auf den Arbeitsplatz-PCs als auch den Servern.</p></li>
-</ul>
 <p>Allgemein gelten die im <a href="sicherheit.html" class="quarto-xref"><span>Kapitel 5</span></a> beschriebenen Richtlinien, Maßnahmen und Empfehlungen sowie der Grundsatz: „Bleiben Sie wachsam, in Bezug auf ungewöhnliche Ereignisse auf Ihren IT-Systemen“.</p>
 </section>
 <section id="backup-und-rollback" class="level3" data-number="7.7.6">
@@ -1225,33 +1216,15 @@ Abbildung&nbsp;7.3: Auszug einer BPMN-Prozessabbildung am Beispiel der verspäte
 </section>
 <section id="datenschutz-etc" class="level3" data-number="7.7.8">
 <h3 data-number="7.7.8" class="anchored" data-anchor-id="datenschutz-etc"><span class="header-section-number">7.7.8</span> Datenschutz, User-Tracking, Analytics</h3>
-<p>Innerhalb der EU gilt seit 2018 die Datenschutz-Grundverordnung (DSGVO), nach der personenbezogene Daten grundsätzlich zu schützen sind.</p>
-<p>Im Kontext eines BMS sind die anfallenden personenbezogenen Daten etwa:</p>
+<p>Auch im Kontext eines BMS greift der <a href="sicherheit.html#datenschutz">Datenschutz</a> im Sinne der Datenschutz-Grundverordnung (DSGVO), die anfallenden personenbezogenen Daten sind etwa:</p>
 <ul>
 <li><p>durch Nutzer*innen bei der Anmeldung angegebenen Daten für den Bibliothekszugang</p></li>
 <li><p>mit dem Benutzerkonto verbundene Ausleihvorgänge und Mahnhistorien</p></li>
 <li><p>die Protokolle (Logs) über Online-Zugriffe auf das BMS (z.B. IP-Adresse, Seitenaufrufe)</p></li>
 </ul>
-<p>Um den Schutz personenbezogener Daten gewährleisten zu können, gibt es verschiedene Ansätze:</p>
-<ul>
-<li><p>Verschlüsselung: Daten werden auf verschlüsselten Servern gespeichert, ebenso ist die Übertragung Ende-zu-Ende verschlüsselt</p></li>
-<li><p>Separierung: Personendaten werden getrennt von nicht-sensiblen Daten gehalten (siehe <a href="#identity-management">IDM</a>)</p></li>
-<li><p>Pseudonymisierung: Nutzer*innen-Daten werden mit Pseudonymen präpariert, sodass sie nicht mehr oder nur unter großem Aufwand den einzelnen Personen zuzuordnen sind</p></li>
-<li><p>Anonymisierung: Daten werden derart verändert, dass sie nicht rückverfolgbar sind (z.B.&nbsp;Maskierung IP-Adressen)</p></li>
-</ul>
 <p>Die Entscheidung zur Verschlüsselung und Separierung von Daten sollte bereits im Vorfeld des Betriebs eines BMS getroffen werden.</p>
-<p>Die Pseudonymisierung und Anonymisierung kann auch im Laufe der Erhebung der personenbezogenen Daten zur Anwendung kommen, sofern bestimmte Daten nicht mehr für einen konkreten Zweck erforderlich sind.</p>
-<p>Leider sind personenbezogene Daten für Bibliotheksstatistiken oft notwendig (siehe <a href="#kosten">Kosten</a>). In diesem Fall sollten ebenfalls pseudonymisierte oder anonymisierte Datensätze zur Grundlage genommen werden.</p>
-<p>Wenn ein BMS durch einen externen Anbieter gehostet wird (siehe <a href="#betriebsmodelle-für-serverbasierte-software">Betriebsmodelle für serverbasierte Software</a>), muss Folgendes sichergestellt sein:</p>
-<ul>
-<li><p>Die Verschlüsselung der Datenübertragung (Ende-zu-Ende-Verschlüsselung)</p></li>
-<li><p>Betrieb und Steuerung der Server innerhalb der EU (<a href="https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung">DSGVO</a>)</p></li>
-<li><p>Der Ausschluss von User-Tracking durch Ad-Tech (Werbe-Netzwerke)</p></li>
-<li><p>Der Abschluss eines <a href="https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag">Datenverarbeitungsvertrags im Auftrag</a></p></li>
-</ul>
+<p>Wenn ein BMS durch einen externen Anbieter gehostet wird (siehe <a href="#betriebsmodelle-für-serverbasierte-software">Betriebsmodelle für serverbasierte Software</a>), müssen insbesondere die Regeln für den <a href="sicherheit.html#datenschutzkonform">datenschutzkonformen Betrieb</a> eingehalten werden.</p>
 <p>In der Kombination eines IDM mit einem cloudbasierten BMS außerhalb der EU wäre denkbar, die personenbezogene Daten dort in pseudonymisierter Form speichern zu lassen oder Personendaten von nicht sensiblen Daten zu trennen.</p>
-<p>Für alle personenbezogenen und personenbeziehbaren Daten sind Lösch- oder Anonymisierungsfristen festzulegen. Die Anonymisierungsfristen ergeben sich aus den Vorgaben der DSGVO und müssen betrieblichen und rechtlichen Aspekten genügen. So ergeben sich Fristen für die Speicherung von Daten über Gebühren (Entstehung, Bezahlung, …) aus den Landeshaushaltsordnungen oder anderen für die Einrichtung maßgeblichen Regelungen. Betriebliche Gründe für die Länge von Speicherfristen von personenbezogenen und personenbeziehbaren Daten können sich aus Fristen für Einsprüche ergeben.</p>
-<p>Die über die vergangenen Jahrzehnte geschehenen sukzessiven Aufkäufe kleinerer BMS-Service-Provider durch einige wenige große kommerziellen Bibliotheksdienstleister hat ganze Firmenkonglomerate entstehen lassen, die inzwischen den Bibliotheksmarkt dominieren. Einige von ihnen, die Dienste für wissenschaftliche Bibliotheken anbieten, wandeln sich in den letzten Jahren zu Data-Analytics-Konzernen. In diesem Zuge präparieren sie ihre cloud-basierten BMS-Lösungen mit Trackern, die Verhaltensprofile über die Nutzer*innen erstellen. Durch die ebenfalls seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird versucht, zusätzlich eine möglichst hohe Personalisierung bei der Erstellung einzelner Profile zu erreichen. Die dabei entstehenden Datenflüsse werden für gewöhnlich nicht transparent gemacht <span class="citation" data-cites="siems_lesen_2022">(<a href="literatur.html#ref-siems_lesen_2022" role="doc-biblioref">Siems 2022</a>)</span>. Der Einsatz solcher Analytics-Technologien unterminiert die Integrität konventioneller IDM-Systeme und tangiert somit nicht nur datenschutzrechtliche Belange, sondern auch die IT-Sicherheit. Idealerweise sollte bereits vor der Anschaffung einer BMS-Lösung abgeklärt werden, ob solche Analytics-Technologien eingesetzt werden. Im Zweifelsfall sollte immer der*die lokale Datenschutzbeauftragte oder IT-Sicherheitsbeauftragte hinzugezogen werden.</p>
 </section>
 </section>
 <section id="zusammenfassung-und-ausblick" class="level2" data-number="7.8">
@@ -1264,9 +1237,6 @@ Abbildung&nbsp;7.3: Auszug einer BPMN-Prozessabbildung am Beispiel der verspäte
 <div id="ref-borgman_acting_1997" class="csl-entry" role="listitem">
 Borgman, Christine L. 1997. <span>„From Acting Locally to Thinking Globally: A Brief History of Library Automation“</span>. <em>The Library Quarterly: Information, Community, Policy</em> 67 (3): 215–49. <a href="https://www.jstor.org/stable/40039721">https://www.jstor.org/stable/40039721</a>.
 </div>
-<div id="ref-breeding_marshall_how_2022" class="csl-entry" role="listitem">
-Breeding, Marshall. 2022. <span>„How to Secure Library Systems From Malware, Ransomware, and Other Cyberthreats“</span>. 2022. <a href="https://www.infotoday.com/cilmag/jan22/Breeding--How-to-Secure-Library-Systems-From-Malware-Ransomware-and-Other-Cyberthreats.shtml">https://www.infotoday.com/cilmag/jan22/Breeding--How-to-Secure-Library-Systems-From-Malware-Ransomware-and-Other-Cyberthreats.shtml</a>.
-</div>
 <div id="ref-breeding_library_nodate" class="csl-entry" role="listitem">
 Breeding, Marshall. o.&nbsp;J. <span>„Library Technology Industry Mergers and Acquisitions. Library Technology Guides“</span>. Zugegriffen 28. April 2022. <a href="http://librarytechnology.org/mergers/">http://librarytechnology.org/mergers/</a>.
 </div>
@@ -1278,9 +1248,6 @@ Matthews, Joseph R., und Carson Block. 2020. <em>Library information systems</em
 </div>
 <div id="ref-schweitzer_roswitha_anforderungen_2016" class="csl-entry" role="listitem">
 Schweitzer, Roswitha. 2016. <span>„Anforderungen an ein Bibliothekssystem der neuen Generation - der Kriterienkatalog von hbz und <span>VZG</span>“</span>. Köln. <a href="https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html">https://docplayer.org/61296444-Anforderungen-an-ein-bibliothekssystem-der-neuen-generation.html</a>.
-</div>
-<div id="ref-siems_lesen_2022" class="csl-entry" role="listitem">
-Siems, Renke. 2022. <span>„Das Lesen der Anderen: Die Auswirkungen von User Tracking auf Bibliotheken“</span>. <em>o-bib. Das offene Bibliotheksjournal / Herausgeber <span>VDB</span></em> 9 (1): 1–25. <a href="https://doi.org/10.5282/o-bib/5797">https://doi.org/10.5282/o-bib/5797</a>.
 </div>
 </div>
 </section>
