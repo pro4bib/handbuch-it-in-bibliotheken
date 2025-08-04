@@ -6,25 +6,28 @@ description: Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Met
 
 ::: {.callout-note title="Zusammenfassung"}
 
-Dieses Kapitel behandelt die Anforderungsanalyse als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur [Einbeziehung von Nutzer*innen](#einbeziehung), um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.
+Dieses Kapitel behandelt die Anforderungsanalyse von Services, die durch Bibliotheken angeboten werden.
+Dabei liegt zuerst der Fokus auf der Einbeziehung von Anfoderungen der Nutzenden als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Dabei ist unter einem IT-System nicht zwangsläufig ein Software-System zu sehen, sondern auch solche Dienste, welche mithilfe von IT-Läsungen erbracht werden, wie z.B. ein Selbstverbucher.
+
+Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur [Einbeziehung von Nutzer*innen](#einbeziehung), um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.
 
 :::
 
 ## Einleitung
 
 Im Kapitel IT-Management (@sec-management)
-wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische
+wurde bereits auf Themen wie Barrierefreiheit und Software-ergonomische
 Anforderungen sowie den permanenten Anpassungsbedarf an Systeme
 im Laufe ihrer Lebenszeit eingegangen.
 
-Betrachtet man sein persönliches Nutzungsverhalten im digitalen Bereich, wird
+Betrachtet man sein persönliches Nutzungsverhalten im digitalisierten Bereich, wird
 klar, dass sich auch die eigenen Präferenzen bezüglich der Nutzung von Apps
 oder Webseiten ändern. Ursachen dafür sind beispielsweise Veränderungen an
 Lebens- oder Arbeitskontexten, Erwartungen an die Bedienbarkeit von Systemen
 oder neue Nutzungsformen von Medien, die durch technischen Fortschritt und
 digitale Transformation möglich gewordene sind.
 
-IT-Entwicklung in Bibliotheken sollte sich daher in erster Linie an den
+Die System-Entwicklung in Bibliotheken sollte sich daher in erster Linie an den
 [Bedürfnissen](#bedarfsermittlung) von [Nutzer\*innen](#einbeziehung)
 ausrichten. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und
 Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Dazu
@@ -69,40 +72,81 @@ gelegt [@din_2020]. Diese Aspekte werden im
 Abschnitt [Was beeinflusst den
 Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter erläutert.
 
-Das Central Digital and Data Office des Vereinigten Köngreichs fasst
-die zentral zu bearbeitenden Arbeitspunkte im nutzer\*innenzentrierten
-Gestaltungsprozess und den Weg dahin prägnant in seinen "Government
-Design Principles" zusammen @noauthor_government_2012:
+Für die Öffentliche Verwaltung existiert der sogenannte _Servicestandard_, welcher als DIN SPEC 66336 (2025) vorliegt und auch Bibliotheken, die sich nicht in öffentlicher Trägerschaft befinden, wertvollen Hinweise zur Nutzendenzentrierung in Form einer allgemein verständlichen Checkliste mit 13 zu beachtenden Punkten bietet:
 
-1.  Start with user needs
+1. _Nutzende verstehen und Bedürfnisse erkennen_ Schaffen Sie die
+Grundlage für einen Service, der Nutzenden wirklich hilft. Fin-
+den Sie heraus, wer Ihre Nutzenden sind und was sie in ihrer
+Situation brauchen. Schauen Sie nicht nur darauf, wie Nutzende
+den Service bedienen. Entscheidend ist, was sie erreichen wollen
+und was ihnen dabei hilft.
 
-2.  Do less
+2. _Problem beschreiben und Ziele bestimmen_ Beschreiben Sie, welches
+Problem der Service in Zukunft löst. Legen Sie klare Ziele fest,
+die mit dem Service erreicht werden sollen.
 
-3.  Design with data
+3. _Verantwortung übernehmen und Ressourcen sichern_ Legen Sie or-
+ganisatorische Strukturen fest und klären Sie, wer die Verant-
+wortung für den Service trägt. Der Service muss verlässlich sein
+und fortlaufend verbessert werden. Dafür braucht es geklärte
+Zuständigkeiten und ausreichend Ressourcen.
 
-4.  Do the hard work to make it simple
+4. _Lösungen entwickeln, testen, anpassen und Fachwissen einbinden_ Bau-
+en Sie den Service Schritt für Schritt auf. Beziehen Sie Experten
+und Expertinnen aus verschiedenen Fachbereichen ein. Passen
+Sie den Service regelmäßig an die Bedürfnisse der Nutzenden
+an.
 
-5.  Iterate. Then iterate again
+5. _Bestehendes wiederverwenden und Neues gemeinsam gestalten_ Nut-
+zen Sie bestehende Services, bevor Sie einen neuen entwickeln.
+Entwickeln Sie neue Lösungen gemeinsam mit anderen Stellen
+der Verwaltung.
 
-6.  This is for everyone
+6. _Barrierefreie Nutzung sicherstellen und Teilhabe stärken_ Entwickeln
+Sie einen Service, den alle nutzen können, egal, welche Fähig-
+keiten oder Kenntnisse Nutzende haben. Der Service muss ver-
+ständlich, einfach zu bedienen und leicht zu finden sein.
 
-7.  Understand context
+7. _Offene Standards beachten und Schnittstellen bereitstellen_ Stellen Sie
+sicher, dass der Service mit offenen Standards entwickelt wird.
+Setzen Sie Schnittstellen für den automatisierten Austausch von
+Daten ein.
 
-8.  Build digital services, not websites
+8. _Datenschutz umsetzen und Risiken reduzieren_ Planen Sie Daten-
+schutz von Anfang an ein. Erkennen Sie die Risiken Ihrer Daten-
+Verarbeitung und setzen Sie geeignete technische und organisa-
+torische Maßnahmen ein, um sie zu reduzieren.
 
-9.  Be consistent, not uniform
+9. _Sicherheit herstellen und Vertrauen schaffen_ Sorgen Sie von An-
+fang an dafür, dass der Service sicher ist und auch bei außerge-
+wöhnlich hoher Belastung funktioniert. Stellen Sie sicher, dass es
+Unterstützung gibt, wenn Nutzende sie brauchen.
 
-10. Make things open: it makes things better
+10. _Open Source nutzen und Code teilen_ Veröffentlichen Sie den
+Quellcode, wenn Sie neue Services entwickeln. Bauen Sie auf
+bestehender, offener Software auf. Gemeinsam mit anderen ma-
+chen Sie Software dadurch verfügbar, besser und sicherer.
 
-Unter der oben genannten Website des Central Digital and Data Office
-finden sich auch umfangreiche Hinweise, wie sich die einzelnen Punkte
-praktisch umsetzen lassen.
+11. _Verfügbarkeit sichern und Störungen beheben_ Sorgen Sie dafür,
+dass der Service erreichbar ist, wenn Nutzende ihn brauchen.
+Planen Sie Maßnahmen bei Störungen oder einem Ausfall.
+
+12. _Wirkung messen und auf Ergebnissen aufbauen_ Sammeln Sie Feed-
+back von Nutzenden und Daten anhand von Kennzahlen, die Sie
+am Anfang festgelegt haben. Mit diesen Informationen messen
+Sie die Wirkung. Nutzen Sie die Ergebnisse, um Erkenntnisse mit
+Beteiligten zu teilen und den Service weiter zu verbessern.
+
+13. _Rechtliche Hürden erkennen und Regelungen verbessern_ Achten
+Sie darauf, ob rechtliche Vorgaben die einfache Nutzung von
+Services erschweren. Setzen Sie sich für die Änderungen ein, die
+den Service für Nutzende einfacher machen.
 
 ### Was beeinflusst den Nutzungseindruck?
 
 Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und
 zugänglich sein. Die Erreichung dieser Ziele und zentrale
-Begriffsdefinitionen sind Teil des Arbeits- und Forschungsgebiets der
+Begriffsdefinitionen sind u.a. Teil des Arbeits- und Forschungsgebiets der
 Software-Ergonomie und finden sich in den einschlägigen Normen wie der
 DIN EN ISO 9241-11 wieder [@din_2020].
 
@@ -171,7 +215,7 @@ Zu den in Bibliotheken auch jenseits der Entwicklung von digitalen
 Diensten häufig genutzten Methoden der Bedarfsermittlung gehören
 qualitative und quantitative Befragungen sowie Beobachtungen. Diese
 Methoden sind aus der empirischen Sozialforschung entlehnt. Für viele
-Software-Projekte sind groß angelegte Befragungen zu aufwändig,
+Projekte sind groß angelegte Befragungen zu aufwändig und auch wenig zielführend,
 allerdings ist es empfehlenswert, sich über Studien aus vergleichbaren
 Projekten zu informieren und daraus nach Möglichkeiten Ableitungen für
 eigene Zielsetzungen zu entwickeln.
@@ -400,7 +444,7 @@ besitzen eine Art Bausystem für Interfaces mit mehreren Ansichten, die
 kann Nutzenden gewissermaßen ein Produkt vorgetäuscht werden, das dann
 mit rudimentären Funktionen bereits getestet werden kann.
 
-Während des eigentlichen Softwareentwicklungsprozesses wird der
+Während des eigentlichen Entwicklungsprozesses wird der
 anfängliche Prototyp mit jeder Iteration hochwertiger und nimmt mehr den
 Charakter eines vollen Systems an. Es empfiehlt sich, nach Iterationen
 regelmäßig zu evaluieren, ob neue Funktionen oder Änderungen noch für
@@ -494,7 +538,7 @@ Aufgaben belastbare Aussagen zu erhalten.
 ## Zusammenfassung und Ausblick
 
 Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die
-Entwicklung von Software einbezogen werden können - je nach Umfang des Produkts
+Entwicklung von digitalen Diensten einbezogen werden können - je nach Umfang des Produkts
 und des Anwender\*innenkreises. Usertests erfordern ein anderes Zeitmanagement
 als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf
 die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die
