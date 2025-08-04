@@ -63,7 +63,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9546b0ec21e596eb800732cc565da03e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8626d09ec42aefcd3f4525ca3444bde3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -315,14 +315,15 @@ Zusammenfassung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dieses Kapitel behandelt die Anforderungsanalyse als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur <a href="#einbeziehung">Einbeziehung von Nutzer*innen</a>, um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.</p>
+<p>Dieses Kapitel behandelt die Anforderungsanalyse von Services, die durch Bibliotheken angeboten werden. Dabei liegt zuerst der Fokus auf der Einbeziehung von Anfoderungen der Nutzenden als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Dabei ist unter einem IT-System nicht zwangsläufig ein Software-System zu sehen, sondern auch solche Dienste, welche mithilfe von IT-Läsungen erbracht werden, wie z.B.&nbsp;ein Selbstverbucher.</p>
+<p>Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur <a href="#einbeziehung">Einbeziehung von Nutzer*innen</a>, um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.</p>
 </div>
 </div>
 <section id="einleitung" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="einleitung"><span class="header-section-number">4.1</span> Einleitung</h2>
-<p>Im Kapitel IT-Management (<a href="management.html" class="quarto-xref"><span>Kapitel 3</span></a>) wurde bereits auf Themen wie Barrierefreiheit und software-ergonomische Anforderungen sowie den permanenten Anpassungsbedarf an Systeme im Laufe ihrer Lebenszeit eingegangen.</p>
-<p>Betrachtet man sein persönliches Nutzungsverhalten im digitalen Bereich, wird klar, dass sich auch die eigenen Präferenzen bezüglich der Nutzung von Apps oder Webseiten ändern. Ursachen dafür sind beispielsweise Veränderungen an Lebens- oder Arbeitskontexten, Erwartungen an die Bedienbarkeit von Systemen oder neue Nutzungsformen von Medien, die durch technischen Fortschritt und digitale Transformation möglich gewordene sind.</p>
-<p>IT-Entwicklung in Bibliotheken sollte sich daher in erster Linie an den <a href="#bedarfsermittlung">Bedürfnissen</a> von <a href="#einbeziehung">Nutzer*innen</a> ausrichten. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Dazu gehören unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere <a href="#methoden">Methoden</a> sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.</p>
+<p>Im Kapitel IT-Management (<a href="management.html" class="quarto-xref"><span>Kapitel 3</span></a>) wurde bereits auf Themen wie Barrierefreiheit und Software-ergonomische Anforderungen sowie den permanenten Anpassungsbedarf an Systeme im Laufe ihrer Lebenszeit eingegangen.</p>
+<p>Betrachtet man sein persönliches Nutzungsverhalten im digitalisierten Bereich, wird klar, dass sich auch die eigenen Präferenzen bezüglich der Nutzung von Apps oder Webseiten ändern. Ursachen dafür sind beispielsweise Veränderungen an Lebens- oder Arbeitskontexten, Erwartungen an die Bedienbarkeit von Systemen oder neue Nutzungsformen von Medien, die durch technischen Fortschritt und digitale Transformation möglich gewordene sind.</p>
+<p>Die System-Entwicklung in Bibliotheken sollte sich daher in erster Linie an den <a href="#bedarfsermittlung">Bedürfnissen</a> von <a href="#einbeziehung">Nutzer*innen</a> ausrichten. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Dazu gehören unter anderem der Einsatz von Personas, Use Cases oder Storyboards. Weitere <a href="#methoden">Methoden</a> sind zum Beispiel Storyboards, Wireframes oder auch Prototypen.</p>
 </section>
 <section id="sec-nutzerinnenorientierte-gestaltung" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="sec-nutzerinnenorientierte-gestaltung"><span class="header-section-number">4.2</span> Nutzer*innenorientierte Gestaltung</h2>
@@ -335,23 +336,25 @@ Zusammenfassung
 </ol>
 <p><span class="citation" data-cites="kling_human_1998">Kling und Star (<a href="literatur.html#ref-kling_human_1998" role="doc-biblioref">1998</a>)</span> ergänzen, dass die ganz individuellen Fähigkeiten der Nutzenden in Betracht gezogen werden müssen, was allein schon aus Gründen der digitalen Teilhabe sinnvoll erscheint.</p>
 <p>Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche einfach zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte wie <a href="https://www.usability.de/usability-user-experience.html">Effektivität, Effizienz und Zufriedenheit</a> gelegt <span class="citation" data-cites="din_2020">(<a href="literatur.html#ref-din_2020" role="doc-biblioref">DIN 2020</a>)</span>. Diese Aspekte werden im Abschnitt <a href="#was-beeinflusst-den-nutzungseindruck">Was beeinflusst den Nutzungseindruck?</a> weiter erläutert.</p>
-<p>Das Central Digital and Data Office des Vereinigten Köngreichs fasst die zentral zu bearbeitenden Arbeitspunkte im nutzer*innenzentrierten Gestaltungsprozess und den Weg dahin prägnant in seinen „Government Design Principles“ zusammen <span class="citation" data-cites="noauthor_government_2012"><span>„Government Design Principles. <span>GOV</span>.<span>UK</span>“</span> (<a href="literatur.html#ref-noauthor_government_2012" role="doc-biblioref">2012</a>)</span>:</p>
+<p>Für die Öffentliche Verwaltung existiert der sogenannte <em>Servicestandard</em>, welcher als DIN SPEC 66336 (2025) vorliegt und auch Bibliotheken, die sich nicht in öffentlicher Trägerschaft befinden, wertvollen Hinweise zur Nutzendenzentrierung in Form einer allgemein verständlichen Checkliste mit 13 zu beachtenden Punkten bietet:</p>
 <ol type="1">
-<li><p>Start with user needs</p></li>
-<li><p>Do less</p></li>
-<li><p>Design with data</p></li>
-<li><p>Do the hard work to make it simple</p></li>
-<li><p>Iterate. Then iterate again</p></li>
-<li><p>This is for everyone</p></li>
-<li><p>Understand context</p></li>
-<li><p>Build digital services, not websites</p></li>
-<li><p>Be consistent, not uniform</p></li>
-<li><p>Make things open: it makes things better</p></li>
+<li><p><em>Nutzende verstehen und Bedürfnisse erkennen</em> Schaffen Sie die Grundlage für einen Service, der Nutzenden wirklich hilft. Fin- den Sie heraus, wer Ihre Nutzenden sind und was sie in ihrer Situation brauchen. Schauen Sie nicht nur darauf, wie Nutzende den Service bedienen. Entscheidend ist, was sie erreichen wollen und was ihnen dabei hilft.</p></li>
+<li><p><em>Problem beschreiben und Ziele bestimmen</em> Beschreiben Sie, welches Problem der Service in Zukunft löst. Legen Sie klare Ziele fest, die mit dem Service erreicht werden sollen.</p></li>
+<li><p><em>Verantwortung übernehmen und Ressourcen sichern</em> Legen Sie or- ganisatorische Strukturen fest und klären Sie, wer die Verant- wortung für den Service trägt. Der Service muss verlässlich sein und fortlaufend verbessert werden. Dafür braucht es geklärte Zuständigkeiten und ausreichend Ressourcen.</p></li>
+<li><p><em>Lösungen entwickeln, testen, anpassen und Fachwissen einbinden</em> Bau- en Sie den Service Schritt für Schritt auf. Beziehen Sie Experten und Expertinnen aus verschiedenen Fachbereichen ein. Passen Sie den Service regelmäßig an die Bedürfnisse der Nutzenden an.</p></li>
+<li><p><em>Bestehendes wiederverwenden und Neues gemeinsam gestalten</em> Nut- zen Sie bestehende Services, bevor Sie einen neuen entwickeln. Entwickeln Sie neue Lösungen gemeinsam mit anderen Stellen der Verwaltung.</p></li>
+<li><p><em>Barrierefreie Nutzung sicherstellen und Teilhabe stärken</em> Entwickeln Sie einen Service, den alle nutzen können, egal, welche Fähig- keiten oder Kenntnisse Nutzende haben. Der Service muss ver- ständlich, einfach zu bedienen und leicht zu finden sein.</p></li>
+<li><p><em>Offene Standards beachten und Schnittstellen bereitstellen</em> Stellen Sie sicher, dass der Service mit offenen Standards entwickelt wird. Setzen Sie Schnittstellen für den automatisierten Austausch von Daten ein.</p></li>
+<li><p><em>Datenschutz umsetzen und Risiken reduzieren</em> Planen Sie Daten- schutz von Anfang an ein. Erkennen Sie die Risiken Ihrer Daten- Verarbeitung und setzen Sie geeignete technische und organisa- torische Maßnahmen ein, um sie zu reduzieren.</p></li>
+<li><p><em>Sicherheit herstellen und Vertrauen schaffen</em> Sorgen Sie von An- fang an dafür, dass der Service sicher ist und auch bei außerge- wöhnlich hoher Belastung funktioniert. Stellen Sie sicher, dass es Unterstützung gibt, wenn Nutzende sie brauchen.</p></li>
+<li><p><em>Open Source nutzen und Code teilen</em> Veröffentlichen Sie den Quellcode, wenn Sie neue Services entwickeln. Bauen Sie auf bestehender, offener Software auf. Gemeinsam mit anderen ma- chen Sie Software dadurch verfügbar, besser und sicherer.</p></li>
+<li><p><em>Verfügbarkeit sichern und Störungen beheben</em> Sorgen Sie dafür, dass der Service erreichbar ist, wenn Nutzende ihn brauchen. Planen Sie Maßnahmen bei Störungen oder einem Ausfall.</p></li>
+<li><p><em>Wirkung messen und auf Ergebnissen aufbauen</em> Sammeln Sie Feed- back von Nutzenden und Daten anhand von Kennzahlen, die Sie am Anfang festgelegt haben. Mit diesen Informationen messen Sie die Wirkung. Nutzen Sie die Ergebnisse, um Erkenntnisse mit Beteiligten zu teilen und den Service weiter zu verbessern.</p></li>
+<li><p><em>Rechtliche Hürden erkennen und Regelungen verbessern</em> Achten Sie darauf, ob rechtliche Vorgaben die einfache Nutzung von Services erschweren. Setzen Sie sich für die Änderungen ein, die den Service für Nutzende einfacher machen.</p></li>
 </ol>
-<p>Unter der oben genannten Website des Central Digital and Data Office finden sich auch umfangreiche Hinweise, wie sich die einzelnen Punkte praktisch umsetzen lassen.</p>
 <section id="was-beeinflusst-den-nutzungseindruck" class="level3" data-number="4.2.1">
 <h3 data-number="4.2.1" class="anchored" data-anchor-id="was-beeinflusst-den-nutzungseindruck"><span class="header-section-number">4.2.1</span> Was beeinflusst den Nutzungseindruck?</h3>
-<p>Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und zugänglich sein. Die Erreichung dieser Ziele und zentrale Begriffsdefinitionen sind Teil des Arbeits- und Forschungsgebiets der Software-Ergonomie und finden sich in den einschlägigen Normen wie der DIN EN ISO 9241-11 wieder <span class="citation" data-cites="din_2020">(<a href="literatur.html#ref-din_2020" role="doc-biblioref">DIN 2020</a>)</span>.</p>
+<p>Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und zugänglich sein. Die Erreichung dieser Ziele und zentrale Begriffsdefinitionen sind u.a.&nbsp;Teil des Arbeits- und Forschungsgebiets der Software-Ergonomie und finden sich in den einschlägigen Normen wie der DIN EN ISO 9241-11 wieder <span class="citation" data-cites="din_2020">(<a href="literatur.html#ref-din_2020" role="doc-biblioref">DIN 2020</a>)</span>.</p>
 <p>Von zentraler Bedeutung sind dabei zwei Kernbegriffe: die Usability (Gebrauchstauglichkeit) und die User Experience (Nutzer*innenerfahrung)</p>
 <div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
@@ -386,7 +389,7 @@ Abbildung&nbsp;4.1: Zusammenhang zwischen Usability und User Experience
 <h3 data-number="4.3.1" class="anchored" data-anchor-id="bedarfsermittlung"><span class="header-section-number">4.3.1</span> Bedarfsermittlung</h3>
 <section id="klassische-methoden-zur-bedarfsermittlung" class="level4">
 <h4 class="anchored" data-anchor-id="klassische-methoden-zur-bedarfsermittlung">Klassische Methoden zur Bedarfsermittlung</h4>
-<p>Zu den in Bibliotheken auch jenseits der Entwicklung von digitalen Diensten häufig genutzten Methoden der Bedarfsermittlung gehören qualitative und quantitative Befragungen sowie Beobachtungen. Diese Methoden sind aus der empirischen Sozialforschung entlehnt. Für viele Software-Projekte sind groß angelegte Befragungen zu aufwändig, allerdings ist es empfehlenswert, sich über Studien aus vergleichbaren Projekten zu informieren und daraus nach Möglichkeiten Ableitungen für eigene Zielsetzungen zu entwickeln.</p>
+<p>Zu den in Bibliotheken auch jenseits der Entwicklung von digitalen Diensten häufig genutzten Methoden der Bedarfsermittlung gehören qualitative und quantitative Befragungen sowie Beobachtungen. Diese Methoden sind aus der empirischen Sozialforschung entlehnt. Für viele Projekte sind groß angelegte Befragungen zu aufwändig und auch wenig zielführend, allerdings ist es empfehlenswert, sich über Studien aus vergleichbaren Projekten zu informieren und daraus nach Möglichkeiten Ableitungen für eigene Zielsetzungen zu entwickeln.</p>
 <p>Beobachtungen können sehr flexibel angelegt und geplant werden. Dadurch können valide Ergebnisse mit vertretbarem Aufwand produziert und die Studie bei Bedarf gut skaliert werden. Der Fokus bei solchen Studien liegt darauf, Nutzer*innen in ihrem Arbeitsalltag zu beobachten, um ihre Herangehensweise bei der Lösung von Aufgaben und Problemen zu ermitteln. Übertragen auf digitale Dienste kann das zum Beispiel im Rahmen eines Usability-Tests passieren, in dem eine oder mehrere Personen ein System nutzen. Typischerweise werden während des Tests nicht nur Notizen oder Aufnahmen gesichert, sondern die Tester*innen nutzen die Think-Aloud-Methode. Dabei sollen Nutzende in Echtzeit laut kommentieren, was sie denken, sehen und tun (siehe Abschnitt <a href="#methoden">Methoden</a>).</p>
 <p>Fokusgruppen dagegen sind eine qualitative Methode, in der Vertreter*innen verschiedener Zielgruppen gemeinsam an einem bestimmten, vorher formulierten Thema arbeiten. Das können sowohl Diskussionen über Anforderungen und Wünsche an ein bestimmtes System sein, als auch die Planung von Einsatzszenarien oder Workflows. Durch die freie Wahl von Themen und Mitgliedern, z. B. Nutzende ohne Vorerfahrungen und/oder Expert*innen, sind Fokusgruppen ebenfalls eine sehr flexible, breit anwendbare Methode.</p>
 </section>
@@ -495,7 +498,7 @@ Abbildung&nbsp;4.3: Bild eines Papierprototypen für den Relaunch des Digitalisi
 <h4 class="anchored" data-anchor-id="prototypen">Prototypen</h4>
 <p>Interaktive Prototypen besitzen als nächsthöhere Form eines geplanten Produkts bereits erste Funktionen des geplanten Interfaces. Auch hier gibt es eine Spanne von rudimentären, low-level bis hin zu ausgereiften, high-level Prototypen, die durch Iterationen schrittweise erreicht werden. Üblich ist außerdem die Unterteilung in „vertical slice“, die qualitativ hochwertige Umsetzung nur eines bestimmten Teils des Produkts, und „horizontal slice“, die prototypische Umsetzung einer möglichst großen Bandbreite des späteren Systems.</p>
 <p>Erste Prototypen müssen dabei noch nicht zwingend programmiert werden, sondern können durch entsprechende Prototyping-Software, wie <a href="https://www.figma.com">Figma</a> oder <a href="https://www.axure.com">Axure</a>, umgesetzt werden. Diese besitzen eine Art Bausystem für Interfaces mit mehreren Ansichten, die über Aktionen wie den Klick auf einen Button verbunden werden können. So kann Nutzenden gewissermaßen ein Produkt vorgetäuscht werden, das dann mit rudimentären Funktionen bereits getestet werden kann.</p>
-<p>Während des eigentlichen Softwareentwicklungsprozesses wird der anfängliche Prototyp mit jeder Iteration hochwertiger und nimmt mehr den Charakter eines vollen Systems an. Es empfiehlt sich, nach Iterationen regelmäßig zu evaluieren, ob neue Funktionen oder Änderungen noch für die Zielgruppen geeignet sind.</p>
+<p>Während des eigentlichen Entwicklungsprozesses wird der anfängliche Prototyp mit jeder Iteration hochwertiger und nimmt mehr den Charakter eines vollen Systems an. Es empfiehlt sich, nach Iterationen regelmäßig zu evaluieren, ob neue Funktionen oder Änderungen noch für die Zielgruppen geeignet sind.</p>
 </section>
 </section>
 <section id="evaluierung" class="level3" data-number="4.3.4">
@@ -524,7 +527,7 @@ Abbildung&nbsp;4.3: Bild eines Papierprototypen für den Relaunch des Digitalisi
 </section>
 <section id="zusammenfassung-und-ausblick" class="level2" data-number="4.4">
 <h2 data-number="4.4" class="anchored" data-anchor-id="zusammenfassung-und-ausblick"><span class="header-section-number">4.4</span> Zusammenfassung und Ausblick</h2>
-<p>Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die Entwicklung von Software einbezogen werden können - je nach Umfang des Produkts und des Anwender*innenkreises. Usertests erfordern ein anderes Zeitmanagement als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die Verwendung von Wireframes und Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen, mit denen auch die Interaktionen getestet werden können.</p>
+<p>Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die Entwicklung von digitalen Diensten einbezogen werden können - je nach Umfang des Produkts und des Anwender*innenkreises. Usertests erfordern ein anderes Zeitmanagement als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die Verwendung von Wireframes und Mockups bei der Bedarfsermittlung hilfreich sein. Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich Prototypen, mit denen auch die Interaktionen getestet werden können.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
@@ -533,9 +536,6 @@ DIN. 2020. <span>„<span>DIN</span> <span>EN</span> <span>ISO</span> 9241-110 E
 </div>
 <div id="ref-gould_designing_1987" class="csl-entry" role="listitem">
 Gould, J. D., und C. Lewis. 1987. <span>„Designing for usability: Key principles and what designers think“</span>. In <em>Human-computer interaction: a multidisciplinary approach</em>, 528–39. San Francisco, <span>CA</span>, <span>USA</span>: Morgan Kaufmann Publishers Inc.
-</div>
-<div id="ref-noauthor_government_2012" class="csl-entry" role="listitem">
-<span>„Government Design Principles. <span>GOV</span>.<span>UK</span>“</span>. 2012. 2012. <a href="https://www.gov.uk/guidance/government-design-principles">https://www.gov.uk/guidance/government-design-principles</a>.
 </div>
 <div id="ref-jakob_nielsen_why_2000" class="csl-entry" role="listitem">
 Jakob Nielsen. 2000. <span>„Why You Only Need to Test with 5 Users. Nielsen Norman Group“</span>. 2000. <a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/">https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/</a>.
