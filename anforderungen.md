@@ -7,9 +7,7 @@ description: Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Met
 ::: {.callout-note title="Zusammenfassung"}
 
 Dieses Kapitel behandelt die Anforderungsanalyse von Services, die durch Bibliotheken angeboten werden.
-Dabei liegt zuerst der Fokus auf der Einbeziehung von Anfoderungen der Nutzenden als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Dabei ist unter einem IT-System nicht zwangsläufig ein Software-System zu sehen, sondern auch solche Dienste, welche mithilfe von IT-Läsungen erbracht werden, wie z.B. ein Selbstverbucher.
-
-Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur [Einbeziehung von Nutzer*innen](#einbeziehung), um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.
+Dabei liegt zuerst der Fokus auf der Einbeziehung von Anfoderungen der Nutzenden als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Dabei ist unter einem IT-System nicht zwangsläufig ein Software-System zu sehen, sondern auch solche Dienste, welche mithilfe von IT-Läsungen erbracht werden, wie z.B. ein Selbstverbucher. Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur [Einbeziehung von Nutzer\*innen](#einbeziehung), um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.
 
 :::
 
@@ -72,72 +70,72 @@ gelegt [@din_2020]. Diese Aspekte werden im
 Abschnitt [Was beeinflusst den
 Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter erläutert.
 
-Für die Öffentliche Verwaltung existiert der sogenannte _Servicestandard_, welcher als DIN SPEC 66336 (2025) vorliegt und auch Bibliotheken, die sich nicht in öffentlicher Trägerschaft befinden, wertvollen Hinweise zur Nutzendenzentrierung in Form einer allgemein verständlichen Checkliste mit 13 zu beachtenden Punkten bietet:
+Für die Öffentliche Verwaltung existiert der sogenannte **Servicestandard**, welcher als DIN SPEC 66336 [@din_2025] vorliegt und auch Bibliotheken, die sich nicht in öffentlicher Trägerschaft befinden, wertvollen Hinweise zur Nutzendenzentrierung in Form einer allgemein verständlichen Checkliste mit 13 zu beachtenden Punkten bietet:
 
-1. _Nutzende verstehen und Bedürfnisse erkennen_ Schaffen Sie die
+1. **Nutzende verstehen und Bedürfnisse erkennen:** Schaffen Sie die
 Grundlage für einen Service, der Nutzenden wirklich hilft. Fin-
 den Sie heraus, wer Ihre Nutzenden sind und was sie in ihrer
 Situation brauchen. Schauen Sie nicht nur darauf, wie Nutzende
 den Service bedienen. Entscheidend ist, was sie erreichen wollen
 und was ihnen dabei hilft.
 
-2. _Problem beschreiben und Ziele bestimmen_ Beschreiben Sie, welches
+2. **Problem beschreiben und Ziele bestimmen:** Beschreiben Sie, welches
 Problem der Service in Zukunft löst. Legen Sie klare Ziele fest,
 die mit dem Service erreicht werden sollen.
 
-3. _Verantwortung übernehmen und Ressourcen sichern_ Legen Sie or-
+3. **Verantwortung übernehmen und Ressourcen sichern:** Legen Sie or-
 ganisatorische Strukturen fest und klären Sie, wer die Verant-
 wortung für den Service trägt. Der Service muss verlässlich sein
 und fortlaufend verbessert werden. Dafür braucht es geklärte
 Zuständigkeiten und ausreichend Ressourcen.
 
-4. _Lösungen entwickeln, testen, anpassen und Fachwissen einbinden_ Bau-
+4. **Lösungen entwickeln, testen, anpassen und Fachwissen einbinden:** Bau-
 en Sie den Service Schritt für Schritt auf. Beziehen Sie Experten
 und Expertinnen aus verschiedenen Fachbereichen ein. Passen
 Sie den Service regelmäßig an die Bedürfnisse der Nutzenden
 an.
 
-5. _Bestehendes wiederverwenden und Neues gemeinsam gestalten_ Nut-
+5. **Bestehendes wiederverwenden und Neues gemeinsam gestalten**: Nut-
 zen Sie bestehende Services, bevor Sie einen neuen entwickeln.
 Entwickeln Sie neue Lösungen gemeinsam mit anderen Stellen
 der Verwaltung.
 
-6. _Barrierefreie Nutzung sicherstellen und Teilhabe stärken_ Entwickeln
+6. **Barrierefreie Nutzung sicherstellen und Teilhabe stärken:** Entwickeln
 Sie einen Service, den alle nutzen können, egal, welche Fähig-
 keiten oder Kenntnisse Nutzende haben. Der Service muss ver-
 ständlich, einfach zu bedienen und leicht zu finden sein.
 
-7. _Offene Standards beachten und Schnittstellen bereitstellen_ Stellen Sie
+7. **Offene Standards beachten und Schnittstellen bereitstellen:** Stellen Sie
 sicher, dass der Service mit offenen Standards entwickelt wird.
 Setzen Sie Schnittstellen für den automatisierten Austausch von
 Daten ein.
 
-8. _Datenschutz umsetzen und Risiken reduzieren_ Planen Sie Daten-
+8. **Datenschutz umsetzen und Risiken reduzieren:** Planen Sie Daten-
 schutz von Anfang an ein. Erkennen Sie die Risiken Ihrer Daten-
 Verarbeitung und setzen Sie geeignete technische und organisa-
 torische Maßnahmen ein, um sie zu reduzieren.
 
-9. _Sicherheit herstellen und Vertrauen schaffen_ Sorgen Sie von An-
+9. **Sicherheit herstellen und Vertrauen schaffen:** Sorgen Sie von An-
 fang an dafür, dass der Service sicher ist und auch bei außerge-
 wöhnlich hoher Belastung funktioniert. Stellen Sie sicher, dass es
 Unterstützung gibt, wenn Nutzende sie brauchen.
 
-10. _Open Source nutzen und Code teilen_ Veröffentlichen Sie den
+10. **Open Source nutzen und Code teilen:** Veröffentlichen Sie den
 Quellcode, wenn Sie neue Services entwickeln. Bauen Sie auf
 bestehender, offener Software auf. Gemeinsam mit anderen ma-
 chen Sie Software dadurch verfügbar, besser und sicherer.
 
-11. _Verfügbarkeit sichern und Störungen beheben_ Sorgen Sie dafür,
+11. **Verfügbarkeit sichern und Störungen beheben:** Sorgen Sie dafür,
 dass der Service erreichbar ist, wenn Nutzende ihn brauchen.
 Planen Sie Maßnahmen bei Störungen oder einem Ausfall.
 
-12. _Wirkung messen und auf Ergebnissen aufbauen_ Sammeln Sie Feed-
+12. **Wirkung messen und auf Ergebnissen aufbauen:** Sammeln Sie Feed-
 back von Nutzenden und Daten anhand von Kennzahlen, die Sie
 am Anfang festgelegt haben. Mit diesen Informationen messen
 Sie die Wirkung. Nutzen Sie die Ergebnisse, um Erkenntnisse mit
 Beteiligten zu teilen und den Service weiter zu verbessern.
 
-13. _Rechtliche Hürden erkennen und Regelungen verbessern_ Achten
+13. **Rechtliche Hürden erkennen und Regelungen verbessern:** Achten
 Sie darauf, ob rechtliche Vorgaben die einfache Nutzung von
 Services erschweren. Setzen Sie sich für die Änderungen ein, die
 den Service für Nutzende einfacher machen.
