@@ -13,6 +13,7 @@ format:
     mainfont: Linux Biolinum O      
     crossref:
       fig-title: "Abb."
+    colorlinks: false   # for print version only
     geometry:
       - paperheight=24cm
       - paperwidth=17cm
