@@ -668,7 +668,7 @@ Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier
 
 -   Tagung der [European Library Automation Group](https://elag.org) (ELAG)
 
--   [Code4Lib-Konferenzen](htts://code4lib.org/conference/) in den USA
+-   [Code4Lib-Konferenzen](https://code4lib.org/conference/) in den USA
 
 -   [Access Conference](https://accessconference.ca/) in Kanada
 
