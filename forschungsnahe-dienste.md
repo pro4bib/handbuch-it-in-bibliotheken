@@ -91,7 +91,7 @@ suchen, auf sie verweisen und sie auch sonst auf jede denkbare legale
 Weise benutzen können, ohne finanzielle, gesetzliche oder technische
 Barrieren jenseits von denen, die mit dem Internetzugang selbst
 verbunden sind. Zum ersten Mal wurde dieser Gedanke in der
-*[Grundsatzerklärung der Budapester Open-Access-Bewegung](https://www.budapestopenaccessinitiative.org/translations/german-translation)*
+*[Grundsatzerklärung der Budapester Open-Access-Bewegung](https://www.budapestopenaccessinitiative.org/)*
 formuliert.
 
 Durch die Transformationsprozesse im wissenschaftlichen Publikationswesen weg
