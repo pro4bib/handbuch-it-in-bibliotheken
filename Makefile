@@ -15,6 +15,7 @@ build: pdf
 	mv *.docx _book 
 	cp _gdrive/*.docx _book/ | true 
 	rsync -a _book/ _published
+	cp *.tex _published
 
 html: $(INCLUDES)
 	quarto render --to html
