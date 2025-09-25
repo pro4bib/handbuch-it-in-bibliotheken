@@ -3,6 +3,8 @@ project:
   preview:
     port: 15745
     browser: false
+  post-render:
+    - keep_index_files.ts
 
 metadata-files:
   - about.yml
