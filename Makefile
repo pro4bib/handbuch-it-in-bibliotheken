@@ -19,8 +19,8 @@ build: pdf
 	# requires xelatex, libertine.sty, and orcidlink.sty
 	# sudo apt-get install texlive-xetex texlive-fonts-extra textlive-latex-extra
 	cp *.tex _published	
-	cp -r media _published
-	mv keep_index_files _published/index_files
+	rsync --delete -a media/ _published/media/
+	rsync --delete -a keep_index_files/ _published/index_files/
 	zip -r sources.zip Handbuch-IT-in-Bibliotheken.tex media/ index_files/
 
 html: $(INCLUDES)
