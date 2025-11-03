@@ -15,7 +15,7 @@ Aufgaben, der nicht durch IT unterstützt wird.  Deutlich wird dies z.B. durch
 das stetig zunehmende Angebot an elektronischen Informationsmitteln, die
 Digitalisierung historischer Bestände, interoperable Metadaten oder auch die
 digitale Langzeitarchivierung. Die alltägliche Handhabung von IT (Smartphones,
-Automatisierung, Vernetzung ...) wird häufig einfacher, die zugrunde liegenden
+Automatisierung, Vernetzung, ...) wird häufig einfacher, die zugrunde liegenden
 Systeme werden jedoch immer komplexer und erfordern entsprechend mehr Wissen zu
 ihrem Aufbau und Betrieb. Während sich einige Teile der IT in Bibliotheken
 nicht wesentlich von IT in anderen Bereichen unterscheiden, gibt es doch
@@ -56,7 +56,7 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
 
 - **Anforderungsanalyse** (siehe @sec-anforderungen) zur Anforderungsanalyse umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
-- **Sicherheit & Datenschutz** (siehe @sec-sicherheit) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutz
+- **Sicherheit & Datenschutz** (siehe @sec-sicherheit) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutzes
  
 - **Daten & Metadaten** (siehe @sec-metadaten) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
  
@@ -78,7 +78,7 @@ Zur Erstellung des Handbuchs wurden zwischen April 2022 und Oktober 2023 [drei
 Book Sprints](https://www.th-wildau.de/book-sprint/) an der Bibliothek der
 Technischen Hochschule Wildau durchgeführt. Dabei trafen sich IT-affine
 Expert\*innen aus dem Bibliotheksbereich, um innerhalb von wenigen Tagen eine
-umfassende Übersicht zu den **[wichtigsten Themen](#inhalt) rund im IT in
+umfassende Übersicht zu den **[wichtigsten Themen](#inhalt) rund um IT in
 Bibliotheken** zu verfassen. Die Veranstaltung wurde mit Mitteln des
 [Publikationsfonds für Open-Access-Monografien des Landes
 Brandenburg](https://open-access-brandenburg.de/fonds/) gefördert.
@@ -86,7 +86,7 @@ Kontaktinformationen, Neuigkeiten und Hintergrund zum Projekt finden sich auf
 der Seite <https://www.th-wildau.de/book-sprint/> und in den Artikeln von
 @Bach2023 und @christensen_wie_2022.
 
-Eine Liste aller Beteiligten Autor\*innen findet sich im [Anhang D](#sec-contributors).
+Eine Liste aller beteiligten Autor\*innen findet sich im [Anhang D](#sec-contributors).
 
 <!--
 , das zentrale IT-Themen in bibliothekarischen Kontexten praxisorientiert aufbereitet. Es richtet sich an ein breites Spektrum von Fachleuten: von Bibliotheksleitungen über IT-Verantwortliche in wissenschaftlichen Einrichtungen bis hin zu Studierenden und Forschenden. Die Entstehung des Handbuchs erfolgte in mehreren sogenannten _Booksprints_, bei denen die Inhalte in Workshops gemeinsam geplant und zunächst in Google Docs verfasst wurden. Anschließend wurden die Kapitel in Markdown übertragen und über die Plattform it-in-bibliotheken.de veröffentlicht. Die Quelltexte stehen zusätzlich über ein öffentlich zugängliches GitHub-Repository zur Verfügung. Die Inhalte werden zentral verwaltet und durch automatisierte Prozesse regelmäßig in verschiedene Ausgabeformate überführt. Änderungen an der Struktur oder an Mediendateien erfolgen über das Git-Repository, in dem auch das Autor*innenverzeichnis gepflegt wird.
@@ -99,8 +99,8 @@ Das Besondere an diesem Projekt ist die Offenheit für Beteiligung.
 Alle Inhalte dieses Buches werden unter der Lizenz *Creative Commons Namensnennung 4.0 International* ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de)) veröffentlicht. Für Abbildungen kann auch eine CC-BY-Lizenz (kein -NC oder -ND) verwendet werden (siehe Abbildungsverzeichnis, @sec-abbildungen).
 
 Das heißt: Sie dürfen das Material in jedwedem Format oder Medium
-vervielfältigen und weiterverbreiten (**Teilen**) und das Material remixen,
-verändern und darauf aufbauen (**Bearbeiten**) und zwar für beliebige Zwecke,
+vervielfältigen und weiterverbreiten (**teilen**) und das Material remixen,
+verändern und darauf aufbauen (**bearbeiten**) und zwar für beliebige Zwecke,
 inklusive kommerzielle Zwecke, unter der Bedingung, dass Sie angemessene
 Urheber\*innen- und Rechteangaben machen, einen Link zur Lizenz beifügen und
 angeben, ob Änderungen vorgenommen wurden (**Namensnennung**).

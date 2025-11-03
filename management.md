@@ -664,7 +664,7 @@ Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier
 
 -   Jahrestagungen der Verbundzentralen
 
--   Bibliotheksferenzen wie BiblioCon und Österreichischer Bibliothekskongress 
+-   Bibliothekskonferenzen wie BiblioCon und Österreichischer Bibliothekskongress 
 
 -   Tagung der [European Library Automation Group](https://elag.org) (ELAG)
 
@@ -698,15 +698,14 @@ Weiterbildungsformen sind
 Die Gewinnung von Personal für die Aufgaben im Bereich der digitalen
 Dienste ist neben der Aus- und Weiterbildung eine zweite
 Herausforderung. Die Gehaltsstruktur im öffentlichen Dienst ist für
-informatisch ausgebildetes Personal nicht unbedingt wettbewerbsfähig, so
-dass viele ausgewiesene IT-Stellen nur schwer besetzt werden können.
+informatisch ausgebildetes Personal nicht unbedingt wettbewerbsfähig, sodass viele ausgewiesene IT-Stellen nur schwer besetzt werden können.
 Eine unmittelbare Reaktion darauf kann sein, die Vorteile der
 Beschäftigung im öffentlichen Dienst besser herauszuarbeiten
 (nicht-kommerzielles Umfeld, gesellschaftliche Relevanz der Tätigkeiten).
 
 Dennoch ist es erwartbar, dass Aufgaben im Bereich Bibliotheks-IT
 künftig stärker an Verbundzentralen oder externe Dienstleister
-outgesourct werden müssen.
+ausgesourct werden müssen.
 
 Die Ausrichtung der bibliothekarischen Studiengänge wird die Bedarfe bei
 den digitalen Diensten noch stärker berücksichtigen und Studierende mit
@@ -716,4 +715,4 @@ rekrutieren müssen.
 ## Zusammenfassung und Ausblick
 
 Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#it-lebenszyklus) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System und um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
-Sollte sich ein System-Umstieg abzeichnen, sind vor allem die internen Arbeits-Prozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw. Anpassung des Systems effektiv reagiert werden.
+Sollte sich ein Systemumstieg abzeichnen, sind vor allem die internen Arbeitsprozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw. Anpassung des Systems effektiv reagiert werden.
