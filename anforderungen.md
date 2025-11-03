@@ -7,7 +7,7 @@ description: Wie muss die IT in Bibliotheken beschaffen sein und mit welchen Met
 ::: {.callout-note title="Zusammenfassung"}
 
 Dieses Kapitel behandelt die Anforderungsanalyse von Services, die durch Bibliotheken angeboten werden.
-Dabei liegt zuerst der Fokus auf der Einbeziehung von Anfoderungen der Nutzenden als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Dabei ist unter einem IT-System nicht zwangsläufig ein Software-System zu sehen, sondern auch solche Dienste, welche mithilfe von IT-Läsungen erbracht werden, wie z.B. ein Selbstverbucher. Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur [Einbeziehung von Nutzer\*innen](#einbeziehung), um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.
+Dabei liegt zuerst der Fokus auf der Einbeziehung von Anforderungen der Nutzenden als Kernbestandteil des Entwicklungsprozesses von IT-Systemen. Dabei ist unter einem IT-System nicht zwangsläufig ein Softwaresystem zu sehen, sondern auch solche Dienste, welche mithilfe von IT-Lösungen erbracht werden, wie z.B. ein Selbstverbucher. Der Schwerpunkt liegt dabei auf verschiedenen Möglichkeiten zur [Einbeziehung von Nutzer\*innen](#einbeziehung), um die tatsächlichen Bedürfnisse möglichst passend zu erfüllen.
 
 :::
 
@@ -20,61 +20,59 @@ im Laufe ihrer Lebenszeit eingegangen.
 
 Betrachtet man sein persönliches Nutzungsverhalten im digitalisierten Bereich, wird
 klar, dass sich auch die eigenen Präferenzen bezüglich der Nutzung von Apps
-oder Webseiten ändern. Ursachen dafür sind beispielsweise Veränderungen an
+oder Webseiten ändern. Ursachen dafür sind beispielsweise Veränderungen von
 Lebens- oder Arbeitskontexten, Erwartungen an die Bedienbarkeit von Systemen
 oder neue Nutzungsformen von Medien, die durch technischen Fortschritt und
-digitale Transformation möglich gewordene sind.
+digitale Transformation möglich geworden sind.
 
 Die System-Entwicklung in Bibliotheken sollte sich daher in erster Linie an den
 [Bedürfnissen](#bedarfsermittlung) von [Nutzer\*innen](#einbeziehung)
 ausrichten. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und
 Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Dazu
 gehören unter anderem der Einsatz von Personas, Use Cases oder Storyboards.
-Weitere [Methoden](#methoden) sind zum Beispiel Storyboards, Wireframes oder
-auch Prototypen.
+Weitere [Methoden](#methoden) sind zum Beispiel Wireframes oder Prototypen.
 
 ## Nutzer\*innenorientierte Gestaltung {#sec-nutzerinnenorientierte-gestaltung}
 
 Nutzer\*innenorientierte Gestaltung heißt, die Bedürfnisse von Nutzenden
-in den gesamten Entwicklungsprozess einzubeziehen. Das bedeutet, dass
+in den gesamten Entwicklungsprozess mit einzubeziehen. Das bedeutet, dass
 deren Bedarfe nicht nur als Quelle von initialen Anforderungen dienen,
 sondern kontinuierlich in den Entwicklungsprozess einbezogen werden.
 Hierbei ist es besonders wichtig, die Fähigkeiten und Bedürfnisse der
 Nutzenden sowie ihre Arbeitskontexte und -aufgaben in den Entwurf von
 IT-Systemen einzubeziehen. Diese Aspekte finden sich auch in den
-zugrunde liegenden Definitionen, wie der Usability (siehe Abschnitt [Was
-beeinflusst den Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck))
+zugrunde liegenden Definitionen, wie der Usability (siehe Abschnitt ["Was
+beeinflusst den Nutzungseindruck?"](#was-beeinflusst-den-nutzungseindruck))
 wieder.
 
 Beim nutzer\*innenorientierten Design oder dem User-Centered Design
-(UCD) handelt es sich nicht im formale Methoden im engeren Sinn, sondern
+(UCD) handelt es sich nicht um formale Methoden im engeren Sinn, sondern
 um eine Sammlung i.d.R. empirisch abgesicherter Techniken mit drei
 Kernideen [@gould_designing_1987]:
 
 1.  Fokussierung auf Nutzer\*innen und deren Aufgaben von Beginn der
-    Entwicklung an
+    Entwicklung an,
 
 2.  deren kontinuierliche Einbeziehung und Auswertung von
-    Nutzer\*innen-Feedback sowie Performance-Messung
+    Nutzer\*innen-Feedback sowie Performance-Messung und
 
-3.  Nutzung eines iterativen Design-Prozesses
+3.  Nutzung eines iterativen Design-Prozesses.
 
 @kling_human_1998 ergänzen, dass die ganz individuellen Fähigkeiten der
 Nutzenden in Betracht gezogen werden müssen, was allein
 schon aus Gründen der digitalen Teilhabe sinnvoll erscheint.
 
 Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche einfach
-zu nutzen und nützlich sind. Hierbei wird ein Fokus auf Aspekte wie
+zu nutzen und nützlich sind. Hierbei wird der Fokus auf Aspekte wie
 [Effektivität, Effizienz und Zufriedenheit](https://www.usability.de/usability-user-experience.html)
 gelegt [@din_2020]. Diese Aspekte werden im
-Abschnitt [Was beeinflusst den
-Nutzungseindruck?](#was-beeinflusst-den-nutzungseindruck) weiter erläutert.
+Abschnitt ["Was beeinflusst den
+Nutzungseindruck?"](#was-beeinflusst-den-nutzungseindruck) weiter erläutert.
 
-Für die Öffentliche Verwaltung existiert der sogenannte **Servicestandard**, welcher als DIN SPEC 66336 [@din_2025] vorliegt und auch Bibliotheken, die sich nicht in öffentlicher Trägerschaft befinden, wertvollen Hinweise zur Nutzendenzentrierung in Form einer allgemein verständlichen Checkliste mit 13 zu beachtenden Punkten bietet:
+Für die Öffentliche Verwaltung existiert der sogenannte **Servicestandard**, welcher als DIN SPEC 66336 [@din_2025] vorliegt und auch Bibliotheken, die sich nicht in öffentlicher Trägerschaft befinden, wertvolle Hinweise zur Nutzendenzentrierung in Form einer allgemein verständlichen Checkliste mit 13 zu beachtenden Punkten bietet:
 
 1. **Nutzende verstehen und Bedürfnisse erkennen:** Schaffen Sie die
-Grundlage für einen Service, der Nutzenden wirklich hilft. Fin-
-den Sie heraus, wer Ihre Nutzenden sind und was sie in ihrer
+Grundlage für einen Service, der Nutzenden wirklich hilft. Finden Sie heraus, wer Ihre Nutzenden sind und was sie in ihrer
 Situation brauchen. Schauen Sie nicht nur darauf, wie Nutzende
 den Service bedienen. Entscheidend ist, was sie erreichen wollen
 und was ihnen dabei hilft.
@@ -83,54 +81,41 @@ und was ihnen dabei hilft.
 Problem der Service in Zukunft löst. Legen Sie klare Ziele fest,
 die mit dem Service erreicht werden sollen.
 
-3. **Verantwortung übernehmen und Ressourcen sichern:** Legen Sie or-
-ganisatorische Strukturen fest und klären Sie, wer die Verant-
-wortung für den Service trägt. Der Service muss verlässlich sein
+3. **Verantwortung übernehmen und Ressourcen sichern:** Legen Sie organisatorische Strukturen fest und klären Sie, wer die Verantwortung für den Service trägt. Der Service muss verlässlich sein
 und fortlaufend verbessert werden. Dafür braucht es geklärte
 Zuständigkeiten und ausreichend Ressourcen.
 
-4. **Lösungen entwickeln, testen, anpassen und Fachwissen einbinden:** Bau-
-en Sie den Service Schritt für Schritt auf. Beziehen Sie Experten
+4. **Lösungen entwickeln, testen, anpassen und Fachwissen einbinden:** Bauen Sie den Service Schritt für Schritt auf. Beziehen Sie Experten
 und Expertinnen aus verschiedenen Fachbereichen ein. Passen
 Sie den Service regelmäßig an die Bedürfnisse der Nutzenden
 an.
 
-5. **Bestehendes wiederverwenden und Neues gemeinsam gestalten**: Nut-
-zen Sie bestehende Services, bevor Sie einen neuen entwickeln.
+5. **Bestehendes wiederverwenden und Neues gemeinsam gestalten**: Nutzen Sie bestehende Services, bevor Sie einen neuen entwickeln.
 Entwickeln Sie neue Lösungen gemeinsam mit anderen Stellen
 der Verwaltung.
 
 6. **Barrierefreie Nutzung sicherstellen und Teilhabe stärken:** Entwickeln
-Sie einen Service, den alle nutzen können, egal, welche Fähig-
-keiten oder Kenntnisse Nutzende haben. Der Service muss ver-
-ständlich, einfach zu bedienen und leicht zu finden sein.
+Sie einen Service, den alle nutzen können, egal, welche Fähigkeiten oder Kenntnisse Nutzende haben. Der Service muss verständlich, einfach zu bedienen und leicht zu finden sein.
 
 7. **Offene Standards beachten und Schnittstellen bereitstellen:** Stellen Sie
 sicher, dass der Service mit offenen Standards entwickelt wird.
 Setzen Sie Schnittstellen für den automatisierten Austausch von
 Daten ein.
 
-8. **Datenschutz umsetzen und Risiken reduzieren:** Planen Sie Daten-
-schutz von Anfang an ein. Erkennen Sie die Risiken Ihrer Daten-
-Verarbeitung und setzen Sie geeignete technische und organisa-
-torische Maßnahmen ein, um sie zu reduzieren.
+8. **Datenschutz umsetzen und Risiken reduzieren:** Planen Sie Datenschutz von Anfang an ein. Erkennen Sie die Risiken Ihrer DatenVerarbeitung und setzen Sie geeignete technische und organisatorische Maßnahmen ein, um sie zu reduzieren.
 
-9. **Sicherheit herstellen und Vertrauen schaffen:** Sorgen Sie von An-
-fang an dafür, dass der Service sicher ist und auch bei außerge-
-wöhnlich hoher Belastung funktioniert. Stellen Sie sicher, dass es
+9. **Sicherheit herstellen und Vertrauen schaffen:** Sorgen Sie von Anfang an dafür, dass der Service sicher ist und auch bei außergewöhnlich hoher Belastung funktioniert. Stellen Sie sicher, dass es
 Unterstützung gibt, wenn Nutzende sie brauchen.
 
 10. **Open Source nutzen und Code teilen:** Veröffentlichen Sie den
 Quellcode, wenn Sie neue Services entwickeln. Bauen Sie auf
-bestehender, offener Software auf. Gemeinsam mit anderen ma-
-chen Sie Software dadurch verfügbar, besser und sicherer.
+bestehender, offener Software auf. Gemeinsam mit anderen machen Sie Software dadurch verfügbar, besser und sicherer.
 
 11. **Verfügbarkeit sichern und Störungen beheben:** Sorgen Sie dafür,
 dass der Service erreichbar ist, wenn Nutzende ihn brauchen.
 Planen Sie Maßnahmen bei Störungen oder einem Ausfall.
 
-12. **Wirkung messen und auf Ergebnissen aufbauen:** Sammeln Sie Feed-
-back von Nutzenden und Daten anhand von Kennzahlen, die Sie
+12. **Wirkung messen und auf Ergebnissen aufbauen:** Sammeln Sie Feedback von Nutzenden und Daten anhand von Kennzahlen, die Sie
 am Anfang festgelegt haben. Mit diesen Informationen messen
 Sie die Wirkung. Nutzen Sie die Ergebnisse, um Erkenntnisse mit
 Beteiligten zu teilen und den Service weiter zu verbessern.
@@ -143,7 +128,7 @@ den Service für Nutzende einfacher machen.
 ### Was beeinflusst den Nutzungseindruck?
 
 Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und
-zugänglich sein. Die Erreichung dieser Ziele und zentrale
+zugänglich sein. Das Erreichen dieser Ziele und zentrale
 Begriffsdefinitionen sind u.a. Teil des Arbeits- und Forschungsgebiets der
 Software-Ergonomie und finden sich in den einschlägigen Normen wie der
 DIN EN ISO 9241-11 wieder [@din_2020].
@@ -188,7 +173,7 @@ folglich nicht aus, einzelne Aspekte einer Nutzer\*innenschnittstelle zu
 optimieren. Vielmehr muss der gesamte angebotene Service aus Sicht der
 Nutzenden optimiert werden, damit sich ein positives Nutzungserlebnis
 einstellt. Diese Optimierung beschränkt sich dabei nicht nur auf die
-digitalisierten Anteile eines Services sondern bezieht alle
+digitalisierten Anteile eines Services, sondern bezieht alle
 Arbeitsschritte, egal ob analog oder digital, mit ein.
 
 ![Zusammenhang zwischen Usability und User Experience](media/usability_ux.svg){#fig-usux width=90%}
@@ -198,8 +183,7 @@ Arbeitsschritte, egal ob analog oder digital, mit ein.
 Mit der Einführung einer neuen IT-Lösung werden bestimmte strategische
 Ziele verfolgt wie die Ablösung eines veralteten Systems, die Einführung
 einer neuen Dienstleistung und dergleichen. Die konkrete Ausgestaltung
-dieser strategischen Ziele sollte unter Einbeziehungen der
-beabsichtigten Nutzenden erfolgen. Die konsequente Bedarfsorientierung
+dieser strategischen Ziele sollte unter Einbeziehungen der Nutzenden erfolgen. Die konsequente Bedarfsorientierung
 sichert die Qualität der Dienste und verhindert, dass eigene Bedürfnisse
 und Einschätzungen von Expert\*innen die Entwicklung dominieren. Für die
 Einbeziehung von Nutzer\*innen gibt es verschiedene Methoden, die im
@@ -213,8 +197,8 @@ Zu den in Bibliotheken auch jenseits der Entwicklung von digitalen
 Diensten häufig genutzten Methoden der Bedarfsermittlung gehören
 qualitative und quantitative Befragungen sowie Beobachtungen. Diese
 Methoden sind aus der empirischen Sozialforschung entlehnt. Für viele
-Projekte sind groß angelegte Befragungen zu aufwändig und auch wenig zielführend,
-allerdings ist es empfehlenswert, sich über Studien aus vergleichbaren
+Projekte sind groß angelegte Befragungen zu aufwändig und auch wenig zielführend.
+Allerdings ist es empfehlenswert, sich über Studien aus vergleichbaren
 Projekten zu informieren und daraus nach Möglichkeiten Ableitungen für
 eigene Zielsetzungen zu entwickeln.
 
@@ -229,13 +213,13 @@ Personen ein System nutzen. Typischerweise werden während des Tests
 nicht nur Notizen oder Aufnahmen gesichert, sondern die Tester\*innen
 nutzen die Think-Aloud-Methode. Dabei sollen Nutzende in Echtzeit laut
 kommentieren, was sie denken, sehen und tun (siehe Abschnitt
-[Methoden](#methoden)).
+["Methoden"](#methoden)).
 
 Fokusgruppen dagegen sind eine qualitative Methode, in der
 Vertreter\*innen verschiedener Zielgruppen gemeinsam an einem
 bestimmten, vorher formulierten Thema arbeiten. Das können sowohl
 Diskussionen über Anforderungen und Wünsche an ein bestimmtes System
-sein, als auch die Planung von Einsatzszenarien oder Workflows. Durch
+sein als auch die Planung von Einsatzszenarien oder Workflows. Durch
 die freie Wahl von Themen und Mitgliedern, z. B. Nutzende ohne
 Vorerfahrungen und/oder Expert\*innen, sind Fokusgruppen ebenfalls eine
 sehr flexible, breit anwendbare Methode.
@@ -272,7 +256,7 @@ Methode](#storyboards-als-frühe-methode) noch beschrieben werden.
 
 Use Cases können sowohl als Grundlage für den Entwicklungsprozess dienen
 als auch für die Evaluation eines Systems (siehe Abschnitt
-[Evaluierung](#evaluierung)). Für die Nutzenden-Personas
+["Evaluierung"](#evaluierung)). Für die Nutzenden-Personas
 einer Bibliothek kann eine breite Palette von Use Cases existieren.
 Manche sind dabei eher allgemein zu verstehen, andere
 bibliotheksspezifisch und natürlich sind alle je nach Einrichtung bzw.
@@ -328,12 +312,12 @@ von Usability-Tests sind z.B.:
 
 -   Nutzungsfehler pro Zeiteinheit,
 
--   Anzahl nicht benötigter Befehle (Menüs, Icons, Links)
+-   Anzahl nicht benötigter Befehle (Menüs, Icons, Links),
 
--   Benötigte Zeit für den Abschluss einer Arbeitsaufgabe (insbesondere
-    im Vergleich mit einer vorherigen Iteration)
+-   benötigte Zeit für den Abschluss einer Arbeitsaufgabe (insbesondere
+    im Vergleich mit einer vorherigen Iteration),
 
--   Benötigte Anzahl an Klicks/Links, um an ein bestimmtes Ziel zu
+-   benötigte Anzahl an Klicks/Links, um an ein bestimmtes Ziel zu
     kommen.
 
 Der "Benutzungsfragebogen ISONORM 9241/10" bietet einen interessanten
@@ -461,7 +445,7 @@ evaluieren und diese öffentlich in einem
 teilt.
 
 Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei
-Methoden: Beobachtungs- und Inspektionstests (@fig-usux).
+Methoden: Beobachtungstest und Inspektionstests (@fig-usux).
 Während erstgenannte unter Einbeziehung von Nutzer\*innen durchgeführt
 werden, werden Inspektionstests häufig durch Usability-Expert\*innen
 realisiert.
@@ -476,7 +460,7 @@ das prinzipielle Vorgehen bei einem Beobachtungstest skizziert werden.
 Die Testgruppe muss die potentielle Nutzungsgruppe bestmöglich
 repräsentieren, jedoch nicht sehr groß sein. Die Erfahrung zeigt, dass
 ca. fünf Testpersonen ausreichen, um die wichtigsten Usabilityprobleme
-eines Systems zu identifizieren @jakob_nielsen_why_2000. Statt eines einzigen Tests mit
+eines Systems zu identifizieren, siehe @jakob_nielsen_why_2000. Statt eines einzigen Tests mit
 vielen Teilnehmenden bieten sich daher schnell durchzuführende Tests mit
 wenigen Teilnehmenden an, um ein Produkt iterativ zu verbessern. Möchte
 man jedoch verschiedene Typen von Nutzer\*innen analysieren oder
@@ -489,7 +473,7 @@ Nutzer\*innen auszuwählen, die über ein unterschiedliches Maß an
 Vorwissen über das zu entwickelnde oder verwandte Produkte verfügen.
 Außerdem sollten Personen integriert werden, welche von Einschränkungen
 betroffen sind, die im Abschnitt
-[Accessibility](#accessibility) thematisiert wurden.
+["Barrierefreiheit"](#accessibility) thematisiert wurden.
 
 #### Testablauf und Vorbereitungen
 
@@ -502,7 +486,7 @@ Ablaufs.
 Die Testumgebung sollte eine entspannte und natürliche Arbeitsumgebung
 vermitteln. Diese ist in jedem Fall einer künstlichen Laborumgebung
 vorzuziehen. Während der Beobachtungstests ist sicherzustellen, dass
-keine Unterbrechungen, z.B. in Form von Telefonanrufen erfolgen, damit
+keine Unterbrechungen, z.B. in Form von Telefonanrufen, erfolgen, damit
 die Proband\*innen das zu evaluierende System konzentriert testen
 können.
 
