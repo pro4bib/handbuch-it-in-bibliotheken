@@ -25,10 +25,10 @@ und ein [organisatorischer Rahmen](#organisation) für die [Digitale
 Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
 begegnen zu können, gibt es Möglichkeiten zur [Aus- und
 Weiterbildung](#aus--und-weiterbildung). Treiber der jüngsten Entwicklung im IT-Bereich
-wissenschaftlicher Bibliotheken sind Themen wie Digitalisierung (siehe @sec-digitalisierung)
-und forschungsnahe Dienste (siehe @sec-forschungsnahe-dienste) während das Management von
-Bibliotheksmanagementsystemen (siehe @sec-bibliotheksmanagementsysteme) und 
-Discovery-Systemen (siehe @sec-discovery) weitgehend etabliert sind.
+wissenschaftlicher Bibliotheken sind Themen wie Digitalisierung (@sec-digitalisierung)
+und forschungsnahe Dienste (@sec-forschungsnahe-dienste) während das Management von
+Bibliotheksmanagementsystemen (@sec-bibliotheksmanagementsysteme) und 
+Discovery-Systemen (@sec-discovery) weitgehend etabliert sind.
 
 ## Lebenszyklus von IT-Systemen {#it-lebenszyklus}
 
@@ -55,7 +55,7 @@ Anforderungen an das Projekt. Dieses gemeinsame Verständnis, insbesondere
 der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren
 Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
 und während der Entwicklung unter Einbeziehung von Nutzer\*innen
-ermittelt und angepasst (siehe @sec-anforderungen).
+ermittelt und angepasst (@sec-anforderungen).
 
 Zur Planungs- und Analysephase gehören neben einer grundsätzlichen
 Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
@@ -93,7 +93,7 @@ Testinstanz und in der Folge in die produktive Instanz des Systems überführt.
 
 In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit
 idealerweise schon möglichst vielen der gewünschten Features, während
-nutzer\*innenorientierte Vorgehensmodelle (siehe @sec-anforderungen) hier auf
+nutzer\*innenorientierte Vorgehensmodelle (@sec-anforderungen) hier auf
 einen iterativen Prozess setzen, welcher Produktweiterentwicklungen
 kontinuierlich bereitstellt und evaluiert.
 
@@ -222,7 +222,7 @@ der Offenheit und Zusammenarbeit:
 ## Betriebsmodelle {#sec-betriebsmodelle}
 
 Insbesondere serverbasierte Software, wie zum Beispiel das
-Bibliotheksmanagementsystem (siehe @sec-bibliotheksmanagementsysteme), kann auf
+Bibliotheksmanagementsystem (@sec-bibliotheksmanagementsysteme), kann auf
 verschiedene Arten betrieben werden. Die Betriebsarten unterscheiden sich
 bezüglich Installation, Kosten, Pflege und Wartung sowie Backup und Support.
 Die Wahl eines Betriebsmodells ist nicht nur eine betriebswirtschaftliche
@@ -634,14 +634,10 @@ eine gute Grundlage, decken aber bibliotheksspezifische IT-Themen nur
 unzureichend ab. Stand 2022 gibt es mehrere spezielle Ausbildungsangebote für
 die Arbeit in der Bibliotheks-IT mit unterschiedlichen Schwerpunkten:
 
--   berufsbegleitende Master-Studiengänge:
-
+- berufsbegleitende Master-Studiengänge:
     - [Bibliotheksinformatik an der TH Wildau](https://www.th-wildau.de/studieren-weiterbilden/studiengaenge/bibliotheksinformatik-msc-berufsbegleitendes-studium/)
-
--   Kurse
-
+- Kurse
     - [Zertifikatskurs Data Librarian an der TH Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-data-librarian_63393.php)
-
     - [Zertifikatskurs Forschungsdatenmanagement an der TH Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-forschungsdatenmanagement_82048.php)
 
 Diese Zusatzqualifizierungsmöglichkeiten sind eine sehr gute Möglichkeit, um

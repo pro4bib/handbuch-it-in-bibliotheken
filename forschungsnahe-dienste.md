@@ -125,9 +125,10 @@ auch die entsprechende *[Publikation der Initiative Knowledge
 Exchange](https://doi.org/10.21428/996e2e37.3ebdc864)*. Hier können
 Bibliotheken ebenso in die Rolle des\*der Dienstleistenden treten, Instanzen
 geeigneter Open-Source-Software hosten und diese Entwicklung unterstützen. Dies
-kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken (siehe @sec-kommunikation) betrachtet werden. Ergänzend gibt es zahlreiche
-weitere Dienste, die das Open-Access-Publizieren vor allem administrativ
-unterstützen, von denen im Folgenden einige kurz erläutert werden.
+kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken
+(@sec-kommunikation) betrachtet werden. Ergänzend gibt es zahlreiche weitere
+Dienste, die das Open-Access-Publizieren vor allem administrativ unterstützen,
+von denen im Folgenden einige kurz erläutert werden.
 
 ### Open-Access-Dienste
 
@@ -650,7 +651,7 @@ Quellen einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 ### Metadaten
 
 Metadaten sind Daten struktureller, technischer, administrativer,
-bibliografischer und deskriptiver Natur, die Daten beschreiben (siehe @sec-metadaten). 
+bibliografischer und deskriptiver Natur, die Daten beschreiben (@sec-metadaten). 
 [Metadatenstandards und -schemas](#metadatenstandards) definieren, welche Inhalte in Metadaten erfasst
 werden, also welche Metadatenfelder existieren und mit Werten belegt werden
 können. Ein sehr einfaches Metadatenschema bilden die [Dublin Core

@@ -39,7 +39,7 @@ dienen mehrere sogenannte [Personas](mitarbeit.md#personas).
 
 Das Handbuch ist ein "lebendiges Buch", das stetig ergänzt und aktualisiert
 werden kann und soll. **Tipps und Korrekturen** sind daher sehr willkommen!
-Hinweise zur Mitarbeit und Details zur Umsetzung des Handbuchs finden sich in @sec-mitarbeit!
+Hinweise zur Mitarbeit und Details zur Umsetzung des Handbuchs finden sich in @sec-mitarbeit.
 
 :::
 
@@ -50,27 +50,27 @@ Querverweisen verbunden. Die Kapitel bilden grob zwei Blöcke:
  
 ### Allgemeine technische Grundlagen
  
-- **Technische Infrastruktur** (siehe @sec-infrastruktur) beschreibt grundlegende technischen Einrichtungen einer Bibliothek für den Betrieb von Prozessen und Dienstleistungen
+- **Technische Infrastruktur** (@sec-infrastruktur) beschreibt grundlegende technischen Einrichtungen einer Bibliothek für den Betrieb von Prozessen und Dienstleistungen
  
-- **Management von IT-Systemen** (siehe @sec-management) beinhaltet die Einführung und den Betrieb von IT-Systemen allgemein
+- **Management von IT-Systemen** (@sec-management) beinhaltet die Einführung und den Betrieb von IT-Systemen allgemein
 
-- **Anforderungsanalyse** (siehe @sec-anforderungen) zur Anforderungsanalyse umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
+- **Anforderungsanalyse** (@sec-anforderungen) zur Anforderungsanalyse umfasst die Ermittlung und Erfüllung von Bedarfen und Anforderungen an IT-Systeme
 
-- **Sicherheit & Datenschutz** (siehe @sec-sicherheit) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutzes
+- **Sicherheit & Datenschutz** (@sec-sicherheit) beschreibt Vorgaben und Maßnahmen zur Förderung der IT-Sicherheit und des Datenschutzes
  
-- **Daten & Metadaten** (siehe @sec-metadaten) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
+- **Daten & Metadaten** (@sec-metadaten) stellt wichtige Begriffe, Standards und Prozesse der Datenverarbeitung in Bibliotheken vor
  
 ### Bibliotheksspezifische Dienste
  
-- **Bibliotheksmanagementsysteme** (siehe @sec-bibliotheksmanagementsysteme) sind spezialisierte Anwendungen für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
+- **Bibliotheksmanagementsysteme** (@sec-bibliotheksmanagementsysteme) sind spezialisierte Anwendungen für Arbeitsprozesse rund um Erwerbung, Erschließung, Ausleihe, Zugriff und Auffindbarmachung von Bibliotheksbeständen
  
-- **Discovery-Systeme** (siehe @sec-discovery) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
+- **Discovery-Systeme** (@sec-discovery) stellt Arten, Bestandteile und Funktionen von Rechercheplattformen vor und liefert Hinweise zu Auswahl und Betrieb von Discovery-Systemen
  
-- **Digitalisierung** (siehe @sec-digitalisierung) umfasst Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
+- **Digitalisierung** (@sec-digitalisierung) umfasst Prozesse und Werkzeuge zur Digitalisierung, Erschließung und Präsentation von Kulturgütern
  
-- **Forschungsnahe Dienste** (siehe @sec-forschungsnahe-dienste) beschreibt Dienste wie Repositorien und Forschungsdatenmanagement zur Unterstützung von Forschungsprozessen
+- **Forschungsnahe Dienste** (@sec-forschungsnahe-dienste) beschreibt Dienste wie Repositorien und Forschungsdatenmanagement zur Unterstützung von Forschungsprozessen
  
-- **Kommunikation** (siehe @sec-kommunikation) beinhaltet Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
+- **Kommunikation** (@sec-kommunikation) beinhaltet Werkzeuge und Methoden interner und externer Kommunikation von Wissensmanagement bis Öffentlichkeitsarbeit
 
 ## Entstehungsgeschichte
 

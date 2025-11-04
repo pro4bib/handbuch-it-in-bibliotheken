@@ -78,52 +78,62 @@ den Service bedienen. Entscheidend ist, was sie erreichen wollen
 und was ihnen dabei hilft.
 
 2. **Problem beschreiben und Ziele bestimmen:** Beschreiben Sie, welches
-Problem der Service in Zukunft löst. Legen Sie klare Ziele fest,
-die mit dem Service erreicht werden sollen.
+   Problem der Service in Zukunft löst. Legen Sie klare Ziele fest, die mit dem
+   Service erreicht werden sollen.
 
-3. **Verantwortung übernehmen und Ressourcen sichern:** Legen Sie organisatorische Strukturen fest und klären Sie, wer die Verantwortung für den Service trägt. Der Service muss verlässlich sein
-und fortlaufend verbessert werden. Dafür braucht es geklärte
-Zuständigkeiten und ausreichend Ressourcen.
+3. **Verantwortung übernehmen und Ressourcen sichern:** Legen Sie
+   organisatorische Strukturen fest und klären Sie, wer die Verantwortung für
+   den Service trägt. Der Service muss verlässlich sein und fortlaufend
+   verbessert werden. Dafür braucht es geklärte Zuständigkeiten und ausreichend
+   Ressourcen.
 
-4. **Lösungen entwickeln, testen, anpassen und Fachwissen einbinden:** Bauen Sie den Service Schritt für Schritt auf. Beziehen Sie Experten
-und Expertinnen aus verschiedenen Fachbereichen ein. Passen
-Sie den Service regelmäßig an die Bedürfnisse der Nutzenden
-an.
+4. **Lösungen entwickeln, testen, anpassen und Fachwissen einbinden:** Bauen
+   Sie den Service Schritt für Schritt auf. Beziehen Sie Experten und
+   Expertinnen aus verschiedenen Fachbereichen ein. Passen Sie den Service
+   regelmäßig an die Bedürfnisse der Nutzenden an.
 
-5. **Bestehendes wiederverwenden und Neues gemeinsam gestalten**: Nutzen Sie bestehende Services, bevor Sie einen neuen entwickeln.
-Entwickeln Sie neue Lösungen gemeinsam mit anderen Stellen
-der Verwaltung.
+5. **Bestehendes wiederverwenden und Neues gemeinsam gestalten**: Nutzen Sie
+   bestehende Services, bevor Sie einen neuen entwickeln. Entwickeln Sie neue
+   Lösungen gemeinsam mit anderen Stellen der Verwaltung.
 
-6. **Barrierefreie Nutzung sicherstellen und Teilhabe stärken:** Entwickeln
-Sie einen Service, den alle nutzen können, egal, welche Fähigkeiten oder Kenntnisse Nutzende haben. Der Service muss verständlich, einfach zu bedienen und leicht zu finden sein.
+6. **Barrierefreie Nutzung sicherstellen und Teilhabe stärken:** Entwickeln Sie
+   einen Service, den alle nutzen können, egal, welche Fähigkeiten oder
+   Kenntnisse Nutzende haben. Der Service muss verständlich, einfach zu
+   bedienen und leicht zu finden sein.
 
 7. **Offene Standards beachten und Schnittstellen bereitstellen:** Stellen Sie
-sicher, dass der Service mit offenen Standards entwickelt wird.
-Setzen Sie Schnittstellen für den automatisierten Austausch von
-Daten ein.
+   sicher, dass der Service mit offenen Standards entwickelt wird. Setzen Sie
+   Schnittstellen für den automatisierten Austausch von Daten ein.
 
-8. **Datenschutz umsetzen und Risiken reduzieren:** Planen Sie Datenschutz von Anfang an ein. Erkennen Sie die Risiken Ihrer DatenVerarbeitung und setzen Sie geeignete technische und organisatorische Maßnahmen ein, um sie zu reduzieren.
+8. **Datenschutz umsetzen und Risiken reduzieren:** Planen Sie Datenschutz von
+   Anfang an ein. Erkennen Sie die Risiken Ihrer DatenVerarbeitung und setzen
+   Sie geeignete technische und organisatorische Maßnahmen ein, um sie zu
+   reduzieren.
 
-9. **Sicherheit herstellen und Vertrauen schaffen:** Sorgen Sie von Anfang an dafür, dass der Service sicher ist und auch bei außergewöhnlich hoher Belastung funktioniert. Stellen Sie sicher, dass es
-Unterstützung gibt, wenn Nutzende sie brauchen.
+9. **Sicherheit herstellen und Vertrauen schaffen:** Sorgen Sie von Anfang an
+   dafür, dass der Service sicher ist und auch bei außergewöhnlich hoher
+   Belastung funktioniert. Stellen Sie sicher, dass es Unterstützung gibt, wenn
+   Nutzende sie brauchen.
 
-10. **Open Source nutzen und Code teilen:** Veröffentlichen Sie den
-Quellcode, wenn Sie neue Services entwickeln. Bauen Sie auf
-bestehender, offener Software auf. Gemeinsam mit anderen machen Sie Software dadurch verfügbar, besser und sicherer.
+10. **Open Source nutzen und Code teilen:** Veröffentlichen Sie den Quellcode,
+    wenn Sie neue Services entwickeln. Bauen Sie auf bestehender, offener
+    Software auf. Gemeinsam mit anderen machen Sie Software dadurch verfügbar,
+    besser und sicherer.
 
-11. **Verfügbarkeit sichern und Störungen beheben:** Sorgen Sie dafür,
-dass der Service erreichbar ist, wenn Nutzende ihn brauchen.
-Planen Sie Maßnahmen bei Störungen oder einem Ausfall.
+11. **Verfügbarkeit sichern und Störungen beheben:** Sorgen Sie dafür, dass der
+    Service erreichbar ist, wenn Nutzende ihn brauchen. Planen Sie Maßnahmen
+    bei Störungen oder einem Ausfall.
 
-12. **Wirkung messen und auf Ergebnissen aufbauen:** Sammeln Sie Feedback von Nutzenden und Daten anhand von Kennzahlen, die Sie
-am Anfang festgelegt haben. Mit diesen Informationen messen
-Sie die Wirkung. Nutzen Sie die Ergebnisse, um Erkenntnisse mit
-Beteiligten zu teilen und den Service weiter zu verbessern.
+12. **Wirkung messen und auf Ergebnissen aufbauen:** Sammeln Sie Feedback von
+    Nutzenden und Daten anhand von Kennzahlen, die Sie am Anfang festgelegt
+    haben. Mit diesen Informationen messen Sie die Wirkung. Nutzen Sie die
+    Ergebnisse, um Erkenntnisse mit Beteiligten zu teilen und den Service
+    weiter zu verbessern.
 
-13. **Rechtliche Hürden erkennen und Regelungen verbessern:** Achten
-Sie darauf, ob rechtliche Vorgaben die einfache Nutzung von
-Services erschweren. Setzen Sie sich für die Änderungen ein, die
-den Service für Nutzende einfacher machen.
+13. **Rechtliche Hürden erkennen und Regelungen verbessern:** Achten Sie
+    darauf, ob rechtliche Vorgaben die einfache Nutzung von Services
+    erschweren. Setzen Sie sich für die Änderungen ein, die den Service für
+    Nutzende einfacher machen.
 
 ### Was beeinflusst den Nutzungseindruck?
 
@@ -180,14 +190,14 @@ Arbeitsschritte, egal ob analog oder digital, mit ein.
 
 ## Wie beziehen wir unsere Nutzer\*innen ein? {#einbeziehung}
 
-Mit der Einführung einer neuen IT-Lösung werden bestimmte strategische
-Ziele verfolgt wie die Ablösung eines veralteten Systems, die Einführung
-einer neuen Dienstleistung und dergleichen. Die konkrete Ausgestaltung
-dieser strategischen Ziele sollte unter Einbeziehungen der Nutzenden erfolgen. Die konsequente Bedarfsorientierung
-sichert die Qualität der Dienste und verhindert, dass eigene Bedürfnisse
-und Einschätzungen von Expert\*innen die Entwicklung dominieren. Für die
-Einbeziehung von Nutzer\*innen gibt es verschiedene Methoden, die im
-Folgenden kurz dargestellt werden sollen.
+Mit der Einführung einer neuen IT-Lösung werden bestimmte strategische Ziele
+verfolgt wie die Ablösung eines veralteten Systems, die Einführung einer neuen
+Dienstleistung und dergleichen. Die konkrete Ausgestaltung dieser strategischen
+Ziele sollte unter Einbeziehungen der Zielgruppe erfolgen. Die konsequente
+Bedarfsorientierung sichert die Qualität der Dienste und verhindert, dass
+eigene Bedürfnisse und Einschätzungen von Expert\*innen die Entwicklung
+dominieren. Für die Einbeziehung von Nutzer\*innen gibt es verschiedene
+Methoden, die im Folgenden kurz dargestellt werden sollen.
 
 ### Bedarfsermittlung {#bedarfsermittlung}
 
@@ -397,7 +407,7 @@ System und der Gestaltungsmöglichkeiten durchgeführt werden kann.
 ![Bild eines Papierprototypen für den Relaunch des Digitalisierungssystems Kitodo](media/wireframe.png){#fig-wireframe width=45%}
 
 Ein Wireframe ("Drahtmodell") ist eine noch undetaillierte ("low-level")
-Ausarbeitung eines Interfaces, v. a. darauf ausgerichtet, die
+Ausarbeitung eines Interfaces, vor allem darauf ausgerichtet, die
 Positionierung der einzelnen Elemente zu planen. Daher sind z.B. Bilder
 oder Buttons als Kästchen dargestellt und Texte als Striche und ähnliches
 (siehe @fig-wireframe). Ein Mock-Up ist, im Kontext Design, eine

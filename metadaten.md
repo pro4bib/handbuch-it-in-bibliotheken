@@ -22,7 +22,7 @@ Ressourcen unterschiedlichster Form (Bücher, Filme, Forschungsdaten ...)
 nachgewiesen. Zur Verwaltung der Ressourcen werden diese mit
 **Metadaten** beschrieben. Neben diesen Metadaten enthalten bibliothekarische
 Informationssysteme zunehmend auch die dazugehörigen **digitalen Inhalte**
-wie sogenannte Volltexte, Digitalisate und Forschungsdaten (siehe @sec-digitalisierung und @sec-forschungsnahe-dienste). Viele der im Folgenden
+wie sogenannte Volltexte, Digitalisate und Forschungsdaten (@sec-digitalisierung und @sec-forschungsnahe-dienste). Viele der im Folgenden
 beschriebenen Grundlagen zu Eigenschaften, Arten und Verarbeitung von Daten
 gelten sowohl für Metadaten als auch für digitale Inhalte.
 
@@ -367,7 +367,7 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 
 ### XML-basierte Datenformate
 
-**METS** und **MODS** sind zwei zusammen im Bereich Digitalisierung (siehe @sec-digitalisierung)
+**METS** und **MODS** sind zwei zusammen im Bereich Digitalisierung (@sec-digitalisierung)
   eingesetzte Formate für strukturelle und administrative (METS) sowie bibliografische
   Metadaten (MODS). Strukturdaten in METS ermöglichen granulare Gliederung und Verlinkung
   von Objekten, wobei mögliche Typen und Beziehungen in Regelsätzen definiert sind.
@@ -376,7 +376,7 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 
 **LIDO** ist ein etabliertes Austauschformat für den Museumsbereich.
 
-**DataCite** ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (siehe @sec-forschungsnahe-dienste).
+**DataCite** ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (@sec-forschungsnahe-dienste).
 
 ### Datenmodelle und Ontologien
 
@@ -521,7 +521,7 @@ verbindet, wird als **ETL-Prozess** bezeichnet. Der Prozess aus drei zentralen
 Schritten "Extract", "Transform" und "Load" stammt ursprünglich aus dem Bereich
 des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im
 Folgenden wird er am Beispiel der Integration von Metadaten in ein
-Discovery-System (siehe @sec-discovery) beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
+Discovery-System (@sec-discovery) beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
 
 ![Allgemeiner Ablauf eines ETL-Prozesses](media/etl-prozess.svg){#fig-etl}
 
@@ -620,7 +620,7 @@ gerät.
 
 Auf die Transformation folgt beim **Laden** (Load) die Überführung der
 vereinheitlichten Daten in das Zielsystem – beispielsweise in den Suchindex
-eines Discovery-Systems (siehe @sec-discovery). Dabei dürfen nur Datensätze in Produktivsysteme
+eines Discovery-Systems (@sec-discovery). Dabei dürfen nur Datensätze in Produktivsysteme
 übernommen werden, die den Transformationsschritt erfolgreich durchlaufen
 haben, während für Test- und Entwicklungssysteme andere Regeln möglich sind.
 
@@ -769,7 +769,7 @@ Bibliotheksbereich sind insbesondere folgende APIs relevant:
 
 Darüber hinaus bieten die meisten Anwendungen eigene, meist interne
 Schnittstellen, zum Beispiel die Solr-API der Suchplattform *Apache Solr*.
-Besonders im Bereich forschungsnaher Dienste (siehe @sec-forschungsnahe-dienste) gibt
+Besonders im Bereich forschungsnaher Dienste (@sec-forschungsnahe-dienste) gibt
 es weitere, spezialisierte Schnittstellen.
 
 ### Datenanalyse
@@ -824,7 +824,7 @@ Für die bibliothekarische Datenverarbeitung lassen sich grob zwei Arten von
 KI-Anwendungen unterscheiden:
 
 - Verfahren zur Analyse und Anreicherung von Daten, beispielsweise die
-  automatische Erschließung und Musterkennung im Rahmen der Digitalisierung (siehe @sec-digitalisierung).
+  automatische Erschließung und Musterkennung im Rahmen der Digitalisierung (@sec-digitalisierung).
 
 - Systeme, die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen,
   von einfachen Chatbots bis zu umfangreichen Sprachmodellen wie ChatGPT.

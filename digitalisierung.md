@@ -253,7 +253,7 @@ Teststellung, bei der diese unter Realbedingungen erprobt werden können.
 #### Erschließen von Metadaten
 
 Erschließen bedeutet das Zusammentragen von allen verfügbaren Informationen zu
-einem Objekt und die Codierung in Form von Metadaten (siehe @sec-metadaten). Im
+einem Objekt und die Codierung in Form von Metadaten (@sec-metadaten). Im
 Kontext der Digitalisierung sind drei Arten von Metadaten (@sec-arten-von-metadaten) besonders relevant:
 
 -   **Administrative Metadaten** mit Informationen zu Herkunft,

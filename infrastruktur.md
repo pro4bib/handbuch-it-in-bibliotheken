@@ -15,9 +15,9 @@ Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibl
 Die technische Infrastruktur einer Bibliothek umfasst alle IT-Systeme, die die
 Prozesse und Dienstleistungen einer Bibliothek abbilden, unterstützen oder
 ergänzen. Neben dem zentralen
-Bibliotheksmanagementsystem (BMS) (siehe @sec-bibliotheksmanagementsysteme) (auf Englisch auch LMS genannt) zur Verwaltung und
+Bibliotheksmanagementsystem (BMS) (@sec-bibliotheksmanagementsysteme) (auf Englisch auch LMS genannt) zur Verwaltung und
 Bereitstellung von Bibliotheksbeständen und
-Discovery-Systemen (siehe @sec-discovery) zur Recherche, gibt es zahlreiche
+Discovery-Systemen (@sec-discovery) zur Recherche, gibt es zahlreiche
 weitere etablierte Anwendungen von IT in Bibliotheken. Die in diesem Kapitel
 vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in:
 
@@ -232,7 +232,7 @@ ausreichend ist.
 Folgende Umsetzungsmöglichkeiten sind für eine exakte Zählung in Erwägung zu
 ziehen: Auswertung der Zugangskontrollsysteme; Einsatz einer Drehschranke bzw.
 Vereinzelungsanlage, die nur Einzelpersonen durchlässt; Zählung durch Personal
-und Zählung durch Kameras mit CV-Software (computer vision). Andere, relativ exakte, aber doch mit
+und Zählung durch Kameras mit Computer Vision Software. Andere, relativ exakte, aber doch mit
 kleinen Ungenauigkeiten bei der Zählung behaftete Systeme sind die Zählung
 durch eine Lichtschranke, durch ein Radar etwa von einem Sicherungsgate (siehe
 [Zugangskontrolle]) und an der Decke montierte IR-Durchgangszähler mit Gruppenerkennung (bspw.  Produkte der Firma [Irisys](https://www.irisys.net/)).
@@ -301,7 +301,7 @@ ausgeschlossen sind, z.B. Brettspiele, Tageszeitungen und [ausleihbare Geräte](
 
 ### Navigation und Lokalisierung
 
-Damit Nutzer\*innen die im OPAC bzw. Discovery-System gefundenen (physischen) Medien
+Damit Nutzer\*innen die im Katalog oder Discovery-System gefundenen (physischen) Medien
 auch nutzen können, müssen sie den entsprechenden Regalstandort aufsuchen. Zur
 Orientierung wird häufig die Aufstellungssystematik der Medien genutzt und im
 Rechercheergebnis steht, unter welcher Signatur, in welchem Regal, in welcher
@@ -332,7 +332,7 @@ den Standort der Person im Raum zu ermitteln.
 
 Mögliche Ansätze sind hierbei etwa sog. Beacons, die mit Funklösungen wie
 Bluetooth und Triangulation die Position eines Mobiltelefons ermitteln oder
-bildbasierte (AR - augmented reality) Lösungen, die über die Smartphonekamera bestimmte Objekte oder
+bildbasierte (augmented reality) Lösungen, die über die Smartphonekamera bestimmte Objekte oder
 Marker im Raum erkennen.
 
 Die Standorte von physischen Medien sind über eine Zuordnung von Signaturen zu
@@ -472,13 +472,13 @@ bestimmt werden müssen -- wenn der genaue Soll-Standort jedes Mediums
 nicht in einer Tabelle erfasst ist, mit der die aktuelle Roboterdaten
 verglichen werden können.
 
-Festzuhalten ist, dass auch die von den Robotern erhobenen Daten keine
-absolute Genauigkeit liefern, sondern immer etwas "Schwund" enthalten. Die
-Gründe für die Ungenauigkeit sind vielfältig: Reflexionen durch
-Metall-Anhäufungen im Suchfeld, verstellte Gänge zwischen den Regalen,
-die die Roboter am Durchfahren und Scannen hindern, sehr eng
-zusammenstehende Bücher, die verhindern, dass beide Tags gescannt werden
-usw. Mit einer Fehlerrate von ca. 1% ist beim Robotereinsatz zu rechnen.
+Festzuhalten ist, dass auch die von den Robotern erhobenen Daten keine absolute
+Genauigkeit liefern, sondern immer etwas "Schwund" enthalten. Die Gründe für
+die Ungenauigkeit sind vielfältig: Reflexionen durch Metall-Anhäufungen im
+Suchfeld, verstellte Gänge zwischen den Regalen, die die Roboter am Durchfahren
+und Scannen hindern, sehr eng zusammenstehende Bücher, die verhindern, dass
+beide Tags gescannt werden usw. Mit einer überschaubaren Fehlerrate von ca. 1%
+ist beim Robotereinsatz zu rechnen.
 
 ### Smart Library
 
@@ -532,14 +532,14 @@ der Industrie, in Bibliotheken in China und USA sowie in einzelnen
 Bibliotheken in Europa kommt RFID-UHF mit einer Frequenz von 868 MHz in
 Europa (andere Frequenzbereiche in anderen Gebieten) zum Einsatz. Der
 Hauptunterschied in der Anwendung zwischen den beiden Frequenzbereichen
-ist die Schreib-/Lesereichweite (siehe ["UHF oder HF?"](#uhf-oder-hf-was-sind-tags)).
+ist die Schreib-/Lesereichweite.
 
 Neben dem Beschreiben und Auslesen des Speicherchips aus der Ferne ist
 auch eine mehr oder minder präzise Ortung der Tags möglich. Die Ortung
 ist mit Ungenauigkeiten versehen, da in dem Frequenzbereich von RFID-UHF
 Reflexionen der Normalfall sind. Eine Lokalisierung ist also nur über
 die Kombination verschiedener Verfahren in sehr vielen Messungen und
-mithilfe einiger Statistiken möglich und dennoch mit einer Unsicherheit versehen.
+mithilfe von Statistiken möglich und dennoch mit einer Unsicherheit versehen.
 
 Neben Bibliotheken finden sich RFID-Tags im Alltag auch oft im Einzelhandel,
 hier meist als Diebstahlsicherung, zur Inventur oder zum Erkennen
@@ -595,23 +595,24 @@ rechtfertigen würde.
 
 Das unterschiedliche Layout der Transponder ist für das Einkleben in Büchern
 wenig relevant. Beide Arten werden bei der Herstellung auf Folie aufgebracht.
-Man unterscheidet verschiedene Ausprägungen der Weiterverarbeitung:  
+Man unterscheidet verschiedene Ausprägungen der Weiterverarbeitung:
 
--   "dry naked" bezeichnet einen fortlaufenden Folienstreifen, auf dem Chips und Antennen in
-gewissen Abständen aufgebracht sind. Hier gibt es keine Stanzung und keine
-Klebefläche.  
--   "wet inlay" hingegen bezeichnet eine Weiterverarbeitung, die
-Klebemasse auf Trägerfolie enthält und gestanzt ist.
+- "dry naked" bezeichnet einen fortlaufenden Folienstreifen, auf dem Chips und Antennen in
+  gewissen Abständen aufgebracht sind. Hier gibt es keine Stanzung und keine Klebefläche.
+
+- "wet inlay" hingegen bezeichnet eine Weiterverarbeitung, die
+  Klebemasse auf Trägerfolie enthält und gestanzt ist.
   
-Auf Wunsch kann auch Papieroberfläche für die weitere Verarbeitung geliefert werden, sodass die Transponder auch bedruckt werden
-können. Hersteller von RFID-Transpondern (in der klebenden Version auch "Tags"
-genannt) liefern oft nur "dry naked", weiter verarbeitete Tags beschafft man
-von sogenannten "Konvertierern" (nicht zu verwechseln mit dem manchmal so
-genannten Prozess der "Konvertierung" des Medienidentifikators von Barcode zu
-RFID). Der verwendete Klebstoff genügt keiner hohen Anforderung, die in
-Bibliotheken mit seltenen Werken denkbar wäre. Langzeithaftung oder garantierte
-Unschädlichkeit des Klebstoffes für das Papiermaterial sind kein Thema für die
-Hersteller und nur für sehr viel Geld bei speziellen Konvertierern zu bekommen.
+Auf Wunsch kann auch Papieroberfläche für die weitere Verarbeitung geliefert
+werden, sodass die Transponder auch bedruckt werden können. Hersteller von
+RFID-Transpondern (in der klebenden Version auch "Tags" genannt) liefern oft
+nur "dry naked", weiter verarbeitete Tags beschafft man von sogenannten
+"Konvertierern" (nicht zu verwechseln mit dem manchmal so genannten Prozess der
+"Konvertierung" des Medienidentifikators von Barcode zu RFID). Der verwendete
+Klebstoff genügt keiner hohen Anforderung, die in Bibliotheken mit seltenen
+Werken denkbar wäre. Langzeithaftung oder garantierte Unschädlichkeit des
+Klebstoffes für das Papiermaterial sind kein Thema für die Hersteller und nur
+für sehr viel Geld bei speziellen Konvertierern zu bekommen.
 
 Relevant für die Sichtbarkeit der technischen Komponenten in einer Bibliothek
 ist jedoch die Gegenseite der Transponder: die Schreib-/Lese- Geräte bzw.
@@ -629,7 +630,7 @@ Bibliothek integriert werden und kann ggf. auch ein Hindernis darstellen
 der Antennen der beiden Frequenzbereiche weniger relevant, wenn auch nicht
 komplett zu vernachlässigen: Eine Inventur mit HF bedingt eine gewisse Nähe der
 Sende/Empfangsantenne zu den Medien, ansonsten müssten die Antennen Ausmaße von
-mehreren Metern haben.  
+mehreren Metern haben.
 Bei UHF hingegen werden auch Medien in größerer
 Entfernung erkannt (siehe auch im Abschnitt [Revision]).  Typische
 Bibliotheks-Vorgänge wie die Ausleihe oder Rückgabe, egal ob an einer Theke
@@ -678,8 +679,8 @@ Fragen:
 
 -   Wie führe ich den Prozess der Migration durch?
 
-In den letzten Abschnitten wurde der Unterschied von HF und
-UHF schon angedeutet, wodurch sich in den meisten Fällen die Frage der Technologiewahl als erste
+In den letzten Abschnitten wurde schon der Unterschied von HF und UHF erklärt,
+wodurch sich in den meisten Fällen die Frage der Technologiewahl als erste
 stellt. Als Faustregel kann hier festgestellt werden, dass die schon
 langjährige Verbreitung von HF im deutschsprachigen Raum dazu geführt hat, dass
 einige Anbieter mit Standardlösungen am Markt sind und die meisten
@@ -725,19 +726,20 @@ Datenmodell" spezifiziert, welches später in der ISO-Norm ISO 28560 Teil
 3 aufgegangen ist. Generell wird das Datenmodell in der ISO 28560 spezifiziert.
 Sie enthält heute drei Teile mit folgendem Inhalt: 
 
--   ISO 28560-1 enthält eine
-Beschreibung vielfältiger, für Bibliotheken denkbarer Datenfelder. Dies sind
-neben der Mediennummer auch der Titel von Büchern und weitere Daten, welche
-eventuell offline verfügbar auf dem Chip sein sollten. Aus den Elementen kann
-für jedes Land ein "Profil"« zusammengestellt werden. 
--   ISO 28560 Teil 2 basiert
-wiederum auf ISO 15962 und den oben genannten OIDs (object identifier). Er wird
-in den angelsächsischen Ländern stark propagiert. In diesen Ländern sind bisher
-vorwiegend proprietäre Datenmodelle im Einsatz, das Dänische Modell ist kaum
-verbreitet. 
--   ISO 28560 Teil 3 entspricht zu fast hundert Prozent dem Dänischen
-Datenmodell. Es ist im Vergleich zum Teil 2 zwar fest kodiert, aber deutlich
-einfacher strukturiert @Kern2014.
+- ISO 28560-1 enthält eine Beschreibung vielfältiger, für Bibliotheken
+  denkbarer Datenfelder. Dies sind neben der Mediennummer auch der Titel von
+  Büchern und weitere Daten, welche eventuell offline verfügbar auf dem Chip
+  sein sollten. Aus den Elementen kann für jedes Land ein "Profil"«
+  zusammengestellt werden. 
+
+- ISO 28560 Teil 2 basiert wiederum auf ISO 15962 und den oben genannten OIDs
+  (object identifier). Er wird in den angelsächsischen Ländern stark
+  propagiert. In diesen Ländern sind bisher vorwiegend proprietäre
+  Datenmodelle im Einsatz, das Dänische Modell ist kaum verbreitet. 
+
+- ISO 28560 Teil 3 entspricht zu fast hundert Prozent dem Dänischen
+  Datenmodell. Es ist im Vergleich zum Teil 2 zwar fest kodiert, aber
+  deutlich einfacher strukturiert @Kern2014.
 
 Als Referenz für das Datenmodell auf einem Tag dient die Norm ISO 28560 in drei
 Teilen:
@@ -758,7 +760,7 @@ Teilen:
 Diese Norm sollte ursprünglich einerseits die Interoperabilität zwischen
 Bibliotheken ermöglichen. Es sollte also möglich sein, ein Buch einer fremden
 Bibliothek mit dem eigenen System zu verbuchen. In Deutschland oder in
-Österreich wird dies (vorsichtig ausgedrückt) nicht flächendeckend angewendet.
+Österreich wird dies kaum praktiziert.
 In der Schweiz ist das hingegen üblich und wegen der zentralen
 Magazinbibliothek auch notwendig. Andererseits sollte eine Interoperabilität
 zwischen BMS und RFID-Infrastruktur ermöglicht werden, damit einzelne
@@ -792,11 +794,11 @@ dargestellt werden. Je weniger Zeichen von einem Barcodeformat unterstützt
 werden sollen, desto weniger Striche werden pro Zeichen benötigt und desto
 kompakter wird der Barcode (siehe [Strichcode in Wikipedia](https://de.wikipedia.org/wiki/Strichcode)).
 
-@fig-barcode stellt einen Barcode im Code39-Format dar, welches in
+@fig-barcode stellt einen Barcode im Code-39-Format dar, welches in
 Bibliotheken verbreitet ist und Zahlen, Großbuchstaben und ein paar wenige
 Sonderzeichen darstellen kann.
 
-![Beispiel für einen Code39-Barcode](media/code39.png){#fig-barcode}
+![Beispiel für einen Code 39 Barcode](media/code39.png){#fig-barcode}
 
 **QR-Codes** funktionieren analog, erweitern allerdings die Darstellung um eine
 zweite Dimension, sodass auf weniger Platz mehr Informationen dargestellt
@@ -943,8 +945,8 @@ im BMS durchführen muss, wenn das Tag unlesbar oder falsch beschrieben ist.
 
 ### Alternativen zu RFID in Bibliotheken
 
-Fortgeschrittene Entwicklungen im Bereich *OCR* (optical character recognition) und generell CV (computer
-vision) können es ermöglichen, ganz ohne technisch lesbare
+Fortgeschrittene Entwicklungen im Bereich Texterkennung (Optical Character Recognition, OCR)
+und generell Computer Vision (CV) können es ermöglichen, ganz ohne technisch lesbare
 Identifikationsmerkmale ein Buch zu erkennen und zu verarbeiten. Bei einer
 solchen Lösung wird mittels einer Kamera das Äußere eines Mediums aufgenommen
 und erkannt und kann somit weiterverarbeitet werden. Um das Medium einer
@@ -1209,14 +1211,7 @@ Bluetooth (z.B. zur Detektion von Beacons) etc. benötigt.
 ### Technische Beratung und Schulungen
 
 Technische Beratung erfolgt oft in dem Umfang, der für lokale
-Bibliotheksdienste sinnvoll ist. Bietet eine Bibliothek z.B. die Onleihe als
-Dienst an, werden sich Nutzer\*innen bei Fragen direkt an die Bibliothek wenden und
-nicht an den Dienstleister.
-
-Somit müssen sich auch die Mitarbeiter\*innen in der Bibliothek stetig fortbilden,
-um ihren Nutzer\*innen einen guten Service zu bieten.
-
-Beispiele:
+Bibliotheksdienste sinnvoll ist. Bietet eine Bibliothek technische Dienste wie z.B. die Onleihe an, werden sich Nutzer\*innen bei Fragen direkt an die Bibliothek statt an den Dienstleister. Typische Bedarfe umfassen unter Anderem:
 
 - Erklärung und Dokumentation zu Diensten, z.B. E-book-Leihe, Streaming-Dienste, E-Learning-Ressourcen
 
@@ -1224,10 +1219,12 @@ Beispiele:
 
 - Beratung zu App-Nutzung, die als digitale Inhalte angeboten werden
 
-Werden neue Dienste eingeführt, bedarf es neben der Werbung auch einer
-Einführung oder dem Angebot einer Schulung, in erster Linie für Mitarbeiter\*innen.
-Viele Anbieter unterstützen dabei mit eigenem Schulungsmaterial, was unter
-Umständen je nach Zielgruppe angepasst werden muss.
+Die Mitarbeiter\*innen in der Bibliothek müssen sich daher stetig fortbilden,
+um ihren Nutzer\*innen einen guten Service zu bieten. Werden neue Dienste
+eingeführt, bedarf es neben der Werbung auch einer Einführung oder dem Angebot
+einer Schulung, in erster Linie für Mitarbeiter\*innen. Viele Anbieter
+unterstützen dabei mit eigenem Schulungsmaterial, was unter Umständen je nach
+Zielgruppe angepasst werden muss.
 
 ## Dienste für Mitarbeiter\*innen
 
@@ -1235,7 +1232,7 @@ Die folgenden IT-Dienstleistungen dienen der Unterstützung der täglichen
 Arbeit, insbesondere im Hinblick auf verteilte Arbeitsumgebungen und
 mobiles Arbeiten. In vielen Fällen werden sie von der übergeordneten
 Einrichtung einer Bibliothek bereitgestellt. Neben dem Zugang zu Arbeitsmitteln
-dienen die Dienste vor allem der internen Kommunikation und dem Wissenmanagement (siehe @sec-kommunikation).
+dienen die Dienste vor allem der internen Kommunikation und dem Wissenmanagement (@sec-kommunikation).
 
 ::: {.callout-tip}
 
@@ -1287,14 +1284,14 @@ Inhalten.
 
 Um virtuelle Besprechungsräume so auszustatten, dass auch Menschen an
 Besprechungen teilnehmen können, die nicht anwesend sind, ist technische
-Infrastruktur erforderlich. Die Anwesenden müssen für die Anwesenden sichtbar
+Infrastruktur erforderlich. Die Abwesenden müssen für die Anwesenden sichtbar
 und hörbar sein, ohne dass die Anwesenden Headsets tragen müssen. Dies erreicht
 man mit Webcams, die automatisch auf die sprechende Person fokussieren und im
 Idealfall auch Störgeräusche (Echos, Rauschen, Rascheln) ausblenden. Die
 gängigen Systeme im knapp vierstelligen Eurobereich genügen für Konferenzen mit
 bis zu sechs anwesenden Personen um einen Tisch herum. Sind mehr Personen
-anwesend, steigt der technische Aufwand stark an, wenn man häufig hybrid
-arbeiten und die anwesenden Personen nicht benachteiligen möchte.
+anwesend, steigt der technische Aufwand stark an, wenn häufig hybrid gearbeitet wird
+und die abwesenden Personen nicht benachteiligen werden sollen.
 
 ### Fileservices
 
@@ -1349,7 +1346,7 @@ regelbasierten (z.T. automatischen) Abarbeitung von Anfragen,
 Wünschen, Fehlermeldungen von Nutzenden. Diese Systeme können für
 alle anfallenden Aufgaben innerhalb der Bibliothek verwendet
 werden, z. B. in der
-Softwareentwicklung (siehe @sec-anforderungen)
+Softwareentwicklung (@sec-anforderungen)
 bei der Bearbeitung von Kundenanfragen oder internen Prozessen.
 
 Ein Vorteil ist die transparente Bearbeitung von Vorgängen, da sowohl der Status

@@ -41,7 +41,7 @@ Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter
 wie Verbundzentralen, Hersteller\*innen und kommerzielle Dienstleister\*innen betrieben
 werden. Die Hersteller\*innen kommerzieller Bibliotheksmanagementsysteme der neueren
 Generation bieten Discovery-Systeme an, die besonders gut mit dem
-BMS (siehe @sec-bibliotheksmanagementsysteme) der gleichen Hersteller\*innen
+BMS (@sec-bibliotheksmanagementsysteme) der gleichen Hersteller\*innen
 zusammenarbeiten.
 
 Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
@@ -602,7 +602,7 @@ sollten.
 
 Discovery-Systeme kommen den Erwartungen von Benutzer*innen an das Suchen und
 die Erreichbarkeit von Medien entgegen. Insbesondere Bibliotheken, die kein
-Bibliotheksmanagement-System (siehe @sec-bibliotheksmanagementsysteme) verwenden, das
+Bibliotheksmanagement-System (@sec-bibliotheksmanagementsysteme) verwenden, das
 bereits eine Discovery-Oberfläche enthält, müssen sich daher oft und mit hoher
 Priorität damit auseinandersetzen, wie Informationen über den eigenen Bestand
 durch ein Discovery-System besser zugänglich gemacht werden. Dies eröffnet

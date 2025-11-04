@@ -144,7 +144,7 @@ können sich aus Fristen für Einsprüche ergeben.
 
 ### Einsatz externer Anbieter {#sec-datenschutz-externe}
 
-Für Software, die durch einen externen Anbieter gehostet wird (siehe @sec-betriebsmodelle), muss Folgendes sichergestellt sein:
+Für Software, die durch einen externen Anbieter gehostet wird (@sec-betriebsmodelle), muss Folgendes sichergestellt sein:
 
 -   Die Verschlüsselung der Datenübertragung
     (Ende-zu-Ende-Verschlüsselung)
@@ -303,7 +303,7 @@ durchaus auch hilfreich sein, wenn die Systeme nicht mehr ausschließlich im
 eigenen Rechenzentrum betrieben werden. So können die extern betriebenen
 Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüften
 und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel
-sei hier das Bibliotheksmanagementsystem (siehe @sec-bibliotheksmanagementsysteme)
+sei hier das Bibliotheksmanagementsystem (@sec-bibliotheksmanagementsysteme)
 genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel
 vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah
 ermöglicht werden können.

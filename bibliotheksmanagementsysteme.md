@@ -1157,7 +1157,7 @@ Nutzer\*innen zur Verfügung zu stellen:
 2.  Katalog als separates Modul (nicht Bestandteil des BMS), selbst
     entwickelt, zugekauft oder als Open Source
 
-3.  Discovery-System (siehe @sec-discovery) als Bestandteil des BMS: Daten aus dem eigenen
+3.  Discovery-System (@sec-discovery) als Bestandteil des BMS: Daten aus dem eigenen
     Bestand sowie Fremddaten, die als Metadaten zur Verfügung stehen.
     Eine Herausforderung besteht hierbei darin dass sich Anforderungen
     an die Suchoberfläche relativ schnell ändern, so dass die BMS-eigene
