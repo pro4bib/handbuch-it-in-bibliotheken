@@ -555,16 +555,15 @@ Bibliothek der Wirtschaftsuniversität Wien oder auch die Universitätsbibliothe
 Dortmund sowie die Bibliothek der Burg Giebichenstein Kunsthochschule Halle).
 In der Industrie ist RFID-HF praktisch nicht im Einsatz, was vermuten lässt,
 dass diese Technologie in einigen Jahren aussterben könnte. Die größere
-Reichweite von RFID-UHF ermöglicht zum Beispiel eine automatisierte Inventur /
-Stellrevision (siehe auch Abschnitt ["Revision"]). Auf der anderen Seite muss
+Reichweite von RFID-UHF ermöglicht zum Beispiel eine automatisierte Inventur
+/ Stellrevision (siehe Abschnitt zur [Revision]). Auf der anderen Seite muss
 man die großen Reichweiten auch einschränken, um etwa bei Ausleihautomaten
-nicht ein Medium zu verbuchen, was sich in einem größeren Abstand befindet. Dies
-erfordert Kenntnisse in der Justage der Leistung und Signalstärke der
-eingesetzten Antennen (Dortmund) oder Abschirmung derselben (Wien).  
-An Personalplätzen können auch die aus Metall bestehenden Verstärkungen
-unter den Tischen zu großen Störungen führen und es sollten daher
-unbedingt abgeschirmte Antennen eingesetzt werden.
-
+nicht ein Medium zu verbuchen, was sich in einem größeren Abstand befindet.
+Dies erfordert Kenntnisse in der Justage der Leistung und Signalstärke der
+eingesetzten Antennen (Dortmund) oder Abschirmung derselben (Wien). An
+Personalplätzen können auch die aus Metall bestehenden Verstärkungen unter den
+Tischen zu großen Störungen führen und es sollten daher unbedingt abgeschirmte
+Antennen eingesetzt werden.
 
 Ein sichtbarer Unterschied der Transponder ist bedingt durch die beiden
 Funkfrequenzen HF (High Frequency: 13,56 MHz) und UHF (Ultra High Frequency:
