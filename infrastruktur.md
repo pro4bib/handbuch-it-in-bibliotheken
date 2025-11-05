@@ -80,7 +80,7 @@ manuelle oder automatisierte Abmeldung (i. d. R. durch Wegnehmen des Benutzeraus
 Bibliotheksausweise gibt es in verschiedenen Ausprägungen: Barcode
 (1D-Code), Funkchip (u. U. proprietär, Bsp.: Intercard), QR-Code
 (2D-Code). Die 1D- oder 2D-Codes können entweder auf Papier oder in
-einer App auf dem Smartphone angelegt werden. Die Schnittstelle im
+einer App auf dem Smartphone eingelesen werden. Die Schnittstelle im
 Automaten muss auf die vorhandenen Ausweistypen vorbereitet sein.
 
 Nach der Ausleihverbuchung muss der Selbstverbucher/Ausleihautomat auch die Buchsicherung (sofern vorhanden) bedienen. Bei
@@ -126,7 +126,7 @@ Bibliothek gesichert noch verbuchbar sind, muss eine separate Verbuchung
 durchgeführt werden. Nach dem Einlegen des abzuholenden Mediums durch Mitarbeiter\*innen
 der Bibliothek werden Bestellende informiert (z.B. durch eine E-Mail),
 dass in einem Fach x etwas abzuholen sei. In diesem Vorgang kann man den
-Bestellenden auch einen PIN mitteilen, alternativ ist das Fach durch einen
+Bestellenden auch eine PIN mitteilen, alternativ ist das Fach durch einen
 Bibliotheksausweis elektronisch zu öffnen. Wird das Fach geöffnet, wird
 zeitgleich das Medium im Nutzerkonto verbucht.
 
@@ -235,7 +235,7 @@ Vereinzelungsanlage, die nur Einzelpersonen durchlässt; Zählung durch Personal
 und Zählung durch Kameras mit Computer Vision Software. Andere, relativ exakte, aber doch mit
 kleinen Ungenauigkeiten bei der Zählung behaftete Systeme sind die Zählung
 durch eine Lichtschranke, durch ein Radar etwa von einem Sicherungsgate (siehe
-[Zugangskontrolle]) und an der Decke montierte IR-Durchgangszähler mit Gruppenerkennung (bspw.  Produkte der Firma [Irisys](https://www.irisys.net/)).
+[Zugangskontrolle]) oder an der Decke montierte IR-Durchgangszähler mit Gruppenerkennung (bspw.  Produkte der Firma [Irisys](https://www.irisys.net/)).
 
 Bei allen exakten Zählsystemen ist insbesondere die Frage des Datenschutzes zu
 beachten, da aus der Zählung die Nachverfolgung der Nutzer\*innen nicht abgeleitet
@@ -331,7 +331,7 @@ werden, sondern es müssen andere Signale oder Ortungspunkte genutzt werden, um
 den Standort der Person im Raum zu ermitteln.
 
 Mögliche Ansätze sind hierbei etwa sog. Beacons, die mit Funklösungen wie
-Bluetooth und Triangulation die Position eines Mobiltelefons ermitteln oder
+Bluetooth und Triangulation die Position eines Mobiltelefons ermitteln, oder
 bildbasierte (augmented reality) Lösungen, die über die Smartphonekamera bestimmte Objekte oder
 Marker im Raum erkennen.
 
@@ -351,7 +351,7 @@ Sammlungen bilden. Man kann darüber nachdenken, ob die Nutzer\*innen
 ausgeliehene Bücher selbst zurückgeben können, indem sie sie einfach an einen
 freien Platz im Regal stellen. Man kann die Nutzer\*innen die früher so ungeliebten
 "Nester", also die Konzentration von Büchern an einer beliebigen nicht
-systematischen Stelle bilden lassen, sodass vielleicht auch andere von dieser
+systematischen Stelle, bewusst bilden lassen, sodass vielleicht auch andere von dieser
 "eigenen" Systematik profitieren. Dies bedingt natürlich eine technische
 Lösung, mittels der die Bücher anschließend auch geortet und wiedergefunden werden können (siehe auch der Abschnitt [Revision]).
 
@@ -726,35 +726,20 @@ Datenmodell" spezifiziert, welches später in der ISO-Norm ISO 28560 Teil
 Sie enthält heute drei Teile mit folgendem Inhalt: 
 
 - ISO 28560-1 enthält eine Beschreibung vielfältiger, für Bibliotheken
-  denkbarer Datenfelder. Dies sind neben der Mediennummer auch der Titel von
+  denkbarer Datenfelder (object identidier, OID). Dies sind neben der Mediennummer auch der Titel von
   Büchern und weitere Daten, welche eventuell offline verfügbar auf dem Chip
-  sein sollten. Aus den Elementen kann für jedes Land ein "Profil"«
-  zusammengestellt werden. 
+  sein sollten. Die erforderlichen und optionalen Datenfelder können länderspezifisch in Profilen zusammengestellt werden. 
 
-- ISO 28560 Teil 2 basiert wiederum auf ISO 15962 und den oben genannten OIDs
-  (object identifier). Er wird in den angelsächsischen Ländern stark
+- ISO 28560 Teil 2 basiert wiederum auf ISO 15962 und beschreibt die Anordnung der OIDs in einem
+  flexiblen bzw. fließenden Speicherlayout . Er wird in den angelsächsischen Ländern stark
   propagiert. In diesen Ländern sind bisher vorwiegend proprietäre
   Datenmodelle im Einsatz, das Dänische Modell ist kaum verbreitet. 
 
-- ISO 28560 Teil 3 entspricht zu fast hundert Prozent dem Dänischen
-  Datenmodell. Es ist im Vergleich zum Teil 2 zwar fest kodiert, aber
-  deutlich einfacher strukturiert @Kern2014.
-
-Als Referenz für das Datenmodell auf einem Tag dient die Norm ISO 28560 in drei
-Teilen:
-
-- Teil 1 beschreibt die erforderlichen und optionalen Datenfelder, die
-  länderspezifisch in Profilen zusammengestellt werden können. Die
-  Felder werden hierbei als OID bezeichnet.
-
-- Teil 2 beschreibt die Anordnung dieser Felder (OIDs) in einem
-  flexiblen bzw. fließenden Speicherlayout und wird primär in
-  angelsächsischen Ländern angewandt.
-
-- Teil 3 der ISO 28560 entspricht dem immer noch häufig im
+- ISO 28560 Teil 3 entspricht dem immer noch häufig im
   Sprachgebrauch genutzten Begriff des Dänischen Datenmodells und
   beschreibt die feste Struktur der Daten in verschiedenen
-  anwendungsspezifischen Blöcken.
+  anwendungsspezifischen Blöcken. Es ist im Vergleich zum Teil 2 zwar fest kodiert, aber
+  deutlich einfacher strukturiert @Kern2014.
 
 Diese Norm sollte ursprünglich einerseits die Interoperabilität zwischen
 Bibliotheken ermöglichen. Es sollte also möglich sein, ein Buch einer fremden
@@ -1029,10 +1014,8 @@ Teilnehmer im Netzwerk auf eigene Dateien zugreifen können.
 
 Zur Ausstattung von Gruppen- und Einzelarbeitsplätzen gehört auch
 angemessene Informationstechnik. Wesentlich sind zunächst ein stabiler
-Internetzugang und Steckdosen. Dabei sollte die Absicherung mit genügend
-Sicherungen und getrennten Stromkreisen geplant werden, denn nicht selten 
-fliegt wegen eines defekten Laptop-Netzteils sonst die Sicherung eines
-gesamten Lesesaals raus. Vor allem sollte in solchen Fällen nicht plötzlich
+Internetzugang und genügend Steckdosen. Dabei sollte die Absicherung mit ausreichenden Sicherungen und getrennten Stromkreisen vorgesehen werden, da ein defektes Laptop-Netzteil sonst zum Ausfall der Sicherung eines gesamten Lesesaals führen kann.
+Vor allem sollte in solchen Fällen nicht plötzlich
 das gesamte Bibliothekspersonal stromlos dastehen.
 
 Ausstattung, Verwaltung und Unterhalt von
@@ -1097,7 +1080,7 @@ eigenen Dateien sehen und keinen Zugriff auf Dateien von anderen
 Personen erhalten. Dies wird z.B. durch persönliche Nutzerprofile
 (gebunden an das Benutzerkonto) oder systemseitige Rücksetzung aller
 Einstellungen (Gastzugänge) erreicht. Zum Betrieb solcher "Kiosksysteme"
-gibt es entsprechende Software. Der Einsatz von Thin-Clients ist in
+gibt es entsprechende Software. Der Einsatz von Thin-Clients als zentral verwaltete Terminals dienen, die  weder Programme noch Daten lokal speichern, ist in
 diesem Bereich sinnvoll.
 
 Auch bei der Freigabe der Nutzung von Speichermedien sollten
@@ -1212,9 +1195,9 @@ Bluetooth (z.B. zur Detektion von Beacons) etc. benötigt.
 Technische Beratung erfolgt oft in dem Umfang, der für lokale
 Bibliotheksdienste sinnvoll ist. Bietet eine Bibliothek technische Dienste wie z.B. die Onleihe an, werden sich Nutzer\*innen bei Fragen direkt an die Bibliothek statt an den Dienstleister. Typische Bedarfe umfassen unter Anderem:
 
-- Erklärung und Dokumentation zu Diensten, z.B. E-book-Leihe, Streaming-Dienste, E-Learning-Ressourcen
+- Erklärung und Dokumentation zu Diensten, z.B. E-Book-Leihe, Streaming-Dienste, E-Learning-Ressourcen
 
-- Ebook--Reader Beratung zur Unterstützung der E-book-Ausleihe
+- E-Book-Reader Beratung zur Unterstützung der E-Book-Ausleihe
 
 - Beratung zu App-Nutzung, die als digitale Inhalte angeboten werden
 
@@ -1244,7 +1227,7 @@ den Köpfen der Mitarbeitenden vorliegt. Werkzeuge hierfür werden im @sec-kommu
 ### Mobiles Arbeiten
 
 Für mobiles Arbeiten müssen Endgeräte transportabel sein (Notebook, Tablet, ...)
-und müssen für die Dienste, die für das Arbeiten notwendig sind, vom
+und die Dienste, die für das Arbeiten notwendig sind, müssen vom
 jeweiligen Standort aus erreichbar sein (siehe [VPN]). Für dauerhaftes Arbeiten
 von anderer Stelle als dem Büro (Homeoffice) ist aus Ergonomiegründen ein
 fester Arbeitsplatz mit Tastatur, Maus, Bildschirm und ggf.
