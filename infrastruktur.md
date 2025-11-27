@@ -235,7 +235,7 @@ Vereinzelungsanlage, die nur Einzelpersonen durchlässt; Zählung durch Personal
 und Zählung durch Kameras mit Computer Vision Software. Andere, relativ exakte, aber doch mit
 kleinen Ungenauigkeiten bei der Zählung behaftete Systeme sind die Zählung
 durch eine Lichtschranke, durch ein Radar etwa von einem Sicherungsgate (siehe
-[Zugangskontrolle]) oder an der Decke montierte IR-Durchgangszähler mit Gruppenerkennung (bspw.  Produkte der Firma [Irisys](https://www.irisys.net/)).
+[Zugangskontrolle]) oder an der Decke montierte IR-Durchgangszähler mit Gruppenerkennung (bspw.  Produkte der Firma [Affluences](https://www.pro.affluences.com/de)).
 
 Bei allen exakten Zählsystemen ist insbesondere die Frage des Datenschutzes zu
 beachten, da aus der Zählung die Nachverfolgung der Nutzer\*innen nicht abgeleitet
