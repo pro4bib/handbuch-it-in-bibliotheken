@@ -448,11 +448,9 @@ Die vorangegangenen Abschnitte haben herausgestellt, wie wichtig es ist,
 regelmäßig Feedback der Nutzenden zu erhalten. Eine zentrale Datenquelle
 dafür ist die Begleitung eines Projekts durch Evaluierungen. Ein
 Beispiel für eine lebendige Evaluierungskultur ist das "[User Research
-Center" der Harvard Library](https://urc.library.harvard.edu/), das regelmäßig
+Center" der Harvard Library](https://uxanddiscovery.library.harvard.edu/), das regelmäßig
 verschiedene Methoden anwendet, um Angebote gemeinsam mit Nutzenden zu
-evaluieren und diese öffentlich in einem
-[Wiki](https://wiki.harvard.edu/confluence/pages/viewpage.action?pageId=232199222)
-teilt.
+evaluieren und diese öffentlich auf der Homepage teilt.
 
 Im Rahmen der Usability-Evaluierung entscheidet man dabei grob zwei
 Methoden: Beobachtungstest und Inspektionstests (@fig-usux).
