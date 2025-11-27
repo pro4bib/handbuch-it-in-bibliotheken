@@ -350,7 +350,7 @@ festgehalten werden. Bei Verdacht auf Angriff sollten alle betroffenen
 Passwörter umgehend geändert werden. Bei einer großen Menge an
 Passwörtern empfiehlt es sich, einen Passwort-Manager zu verwenden. Für
 die Wahl des Passworts sollten die allgemein gültigen Empfehlungen
-beachtet werden (beispielsweise die [Passwort-Empfehlungen des BSI]( Tipps zur Erstellung sicherer Passwörter: https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Sichere-Passwoerter-erstellen/sichere-passwoerter-erstellen_node.html)).
+beachtet werden (beispielsweise die [Tipps zu Erstellung sicherer Passwörter des BSI](https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Sichere-Passwoerter-erstellen/sichere-passwoerter-erstellen_node.html)).
 
 #### Authentifizierung und Autorisierung
 
