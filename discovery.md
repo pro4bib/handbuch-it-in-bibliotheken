@@ -315,7 +315,7 @@ nur auf Teilmenge des Suchraums. Aus diesem Grund werden verschiedene Ansätze
 erprobt, um eine thematische Suche zu ermöglichen. Hierzu zählen u.a. folgende
 Projekte und Dienste:
 
-- ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z. B. bei dem kommerziellen Dienst [Blended Shelf](https://www.eikekleiner.de/blended-shelf/)
+- ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z. B. mit dem [Blended Shelf](https://nbn-resolving.org/urn:nbn:de:0290-opus-16040)
 
 - die Nutzung von Normdaten zur Erstellung von Übersichtsseiten, z. B. im [Katalog des Deutschen Literaturarchivs Marbach](https://www.dla-marbach.de/katalog-beta/)
 
