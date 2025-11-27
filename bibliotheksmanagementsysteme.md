@@ -1415,7 +1415,7 @@ wie Excel, BibControl oder gar komplexe Statistik-Plattformen
 wie SPSS in Frage. BMS der neuesten Generation bringen schon eigene
 Statistik-Module mit, die eine externe Lösung optional machen.
 Diese Systeme können automatisiert oder manuell
-[COUNTER](https://www.projectcounter.org/counter-sushi/)-Reports
+[COUNTER](https://www.countermetrics.org/)-Reports
 für statistische Daten zur Nutzung digitaler Medien importieren.
 
 ## Technischer Betrieb {#sec-technischer-betrieb}
