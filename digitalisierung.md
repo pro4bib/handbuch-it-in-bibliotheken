@@ -440,7 +440,7 @@ spezialisiert sind. Das Ziel der Systeme ist es,
 die Prozesse technisch abzubilden und zu organisieren bzw. die Zustände
 der im Prozess befindlichen Objekte zu speichern und darzustellen.
 
-![Beispiel für einen im WMS eingerichteten Workflow](media/wms-workflow.png){#fig-wms-workflow}
+![Beispiel für einen im WMS eingerichteten Workflow](media/wms_workflow.svg){#fig-wms-workflow}
 
 Aufgrund der hohen Spezialisierung ist die Auswahl an WMS für
 bibliothekarische Digitalisierungsprozesse überschaubar. Dazu gehören
