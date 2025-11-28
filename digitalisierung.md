@@ -121,7 +121,7 @@ Es haben sich dabei einrichtungsübergreifend ähnliche Prozessketten etabliert,
 zu deren Unterstützung [Workflowmanagementsysteme](#workflowmanagementsysteme)
 (WMS) entwickelt wurden und die Projektsteuerung erleichtern.
 
-![Prozessschritte im Digtalisierungsprozess](media/prozesse-digitalisierung.jpg){#fig-prozess-digitalisierung}
+![Prozessschritte im Digitalisierungsprozess](media/prozesse-digitalisierung.svg){#fig-prozess-digitalisierung}
 
 Als Ausgangspunkt jedes Digitalisierungs-Vorhabens ist eine gründliche
 Planung der Arbeitsschritte unverzichtbar. Dabei sind die lokalen
