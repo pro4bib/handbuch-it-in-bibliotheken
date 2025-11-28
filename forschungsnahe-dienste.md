@@ -373,7 +373,7 @@ kollaborativ erstellt werden, indem Personen als Mitarbeitende in
 das eigene Projekt eingeladen werden. Für EU-Projekte ist mit Stand 2023
 die Software *[ARGOS](https://argos.openaire.eu/)*
 verfügbar, die eine direkte Einbindung der *DMP* in die
-*European Open Science Cloud* (*[EOSC](https://eosc-portal.eu/)*) ermöglicht. Für Software
+*European Open Science Cloud* (*[EOSC](https://open-science-cloud.ec.europa.eu/)*) ermöglicht. Für Software
 als Forschungsdatum beginnen sich Softwaremanagementpläne zu etablieren.
 
 ### Elektronische Laborbücher
@@ -735,7 +735,7 @@ sollte. 
 Es gibt auf *LZA* spezialisierte Software wie *Rosetta* (*ExLibris*) oder *Libsafe*
 (*libnova*). Diese Systeme basieren meist auf dem international anerkannten
 Referenzmodell für digitale Archivierung *OAIS* (*[Open Archival Information
-System, ISO 14721:2012](https://www.iso.org/standard/57284.html)*) und bieten
+System, ISO 14721:2025](https://www.iso.org/standard/87471.html)*) und bieten
 neben den Standardfunktionen eines Archivsystems (z. B. bitstream-preservation,
 regelmäßige Integritätstests, Reduplizierung) auch Funktionen wie eine
 Format-Validierung und implementierbare Workflows.
