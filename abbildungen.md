@@ -19,7 +19,7 @@ verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` e
   <https://www.kitodo.org/fileadmin/groups/kitodo/Dokumente/Kitodo.Production_Abschlussbericht_DFG-Projekt.pdf>
   CC-BY Matthias Finck und Kerstin Wendt
 - @fig-datenschutz-datensicherheit (`datenschutz-vs-sicherheits-beauftragte.png`)
-  von @Rehm2023, @Schmidt2023
+  nach @Schmidt2023
 - @fig-sso (`sso-approaches.svg`)
   Three aproaches to Single Sign On.
   <https://commons.wikiorg/wiki/File:Single_sign_on_aproaches.svg>
