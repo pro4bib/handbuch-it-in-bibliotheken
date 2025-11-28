@@ -50,5 +50,4 @@ verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` e
 - @fig-jobmap (`jobmap.svg`)
 - @fig-tools (`tools.svg`)
   CC-BY Ralf Stockmann.
-  Quelle bearbeitbar unter <https://next.wolkenbar.de/s/4AQ24X6jjiwcKDd>
 
