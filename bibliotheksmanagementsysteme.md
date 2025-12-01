@@ -1312,17 +1312,15 @@ Art Ticket, das eine Erlaubnis regelt. Im Idealfall gilt dieser Dienst
 dann für verschiedene Service- bzw. Contentprovider, so dass für deren 
 Nutzung nur eine einmalige Anmeldung erforderlich ist.
 
-Authentifizierungsprotokolle sind bspw.: [Shibboleth /
-SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)),
-[OpenID](https://de.wikipedia.org/wiki/OpenID)
+Authentifizierungsprotokolle sind z.B. [Shibboleth /
+SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)) und
+[OpenID](https://de.wikipedia.org/wiki/OpenID). IDM-Softwareprodukte sind u.A.
+SAP (mit Plugins) und Microsoft Active Directory.
 
-Softwareprodukte für IDM sind: SAP (mit Plugins), Microsoft Active
-Directory, uvm.
-
-##### Speicherung von Nutzer\*innendenaccounts
+##### Speicherung von Accounts
 
 Ein Account besteht aus den Kontaktdaten des Nutzenden sowie
-Authentifizierungsinformationen. Hier ist Datensparsamkeit nach DSGVO
+Informationen zur Authentifizierung. Hier ist Datensparsamkeit nach DSGVO
 geboten. Für die Speicherung aller personenbezogenen Daten müssen die
 Notwendigkeiten oder rechtlichen Gründe nachgewiesen werden. Als Beispiel
 kann die Speicherung des Geburtsdatums angesehen werden. Wird für die

@@ -96,8 +96,8 @@ formuliert.
 
 Durch die Transformationsprozesse im wissenschaftlichen Publikationswesen weg
 von den traditionellen Abonnement-Modellen hin zu Open Access sehen sich
-Bibliotheken zunehmend auch in der Rolle eines\*einer
-Publikationsdienstleistenden. Dies kann einerseits die Gründung eines
+Bibliotheken zunehmend auch in der Rolle von Publikationsdienstleistern.
+Dies kann einerseits die Gründung eines
 Universitätsverlages bedeuten, andererseits aber auch die Bereitstellung der notwendigen 
 Infrastruktur für wissenschaftliche Zeitschriften. Begünstigt durch
 Kostenverschiebung vom Lesen hin Publizieren wird der

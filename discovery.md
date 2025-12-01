@@ -55,7 +55,7 @@ gemeinsam zugänglich zu machen.
 
 Ein Discovery-System umfasst verschiedene Komponenten. Dazu gehören
 
-- eine Benutzungs- oder Rechercheoberfläche ([Frontend](#frontend) bzw. User Interface),
+- eine Benutzungs- oder Rechercheoberfläche ([Frontend](#frontend)/User Interface),
 
 - der [Suchindex](#suchindex) (ein oder mehrere Quell-Indizes)
 
@@ -262,7 +262,7 @@ Zu den am häufigsten genutzten Anreicherungsdiensten gehören:
 - Cover-Anzeigen
 
 - kontextabhängige Infoboxen mit Informationen aus Nachschlagewerken,
-  z. B. Autor\*innenenportraits via *Wikidata* oder *GND,* Informationen
+  z.B. Autor\*innenenportraits via *Wikidata* oder *GND,* Informationen
   aus Nachschlagewerken wie *[Munzinger](https://www.munzinger.de/)*
 
 - Empfehlungsdienste mit Hinweisen auf Literatur zum selben Thema
