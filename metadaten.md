@@ -380,7 +380,7 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 
 ### Datenmodelle und Ontologien
 
-::: {.callout-important title="Definition"}
+::: {.callout-important}
 
 Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
 in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener

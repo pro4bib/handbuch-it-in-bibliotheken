@@ -1216,7 +1216,7 @@ mobiles Arbeiten. In vielen Fällen werden sie von der übergeordneten
 Einrichtung einer Bibliothek bereitgestellt. Neben dem Zugang zu Arbeitsmitteln
 dienen die Dienste vor allem der internen Kommunikation und dem Wissenmanagement (@sec-kommunikation).
 
-::: {.callout-tip}
+::: {.callout-important}
 
 **Wissensmanagement** besteht aus [Prozessen](#wissensmanagement) zur Erfassung
 und Weitergabe von Wissen innerhalb einer Organisation, das oft nur implizit in

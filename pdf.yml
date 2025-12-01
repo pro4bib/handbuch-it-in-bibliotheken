@@ -14,6 +14,11 @@ format:
     crossref:
       fig-title: "Abb."
     colorlinks: false   # for print version only
+    callout-important-color: black
+    callout-warning-color: black
+    callout-tip-color: black
+    callout-note-color: black
+    callout-appearance: simple
     geometry:
       - paperheight=24cm
       - paperwidth=17cm
@@ -28,7 +33,20 @@ format:
           \usepackage{libertine}
           \usepackage{orcidlink}
           \counterwithout{footnote}{chapter}
-          \setmonofont[Scale=MatchLowercase]{LinLibertineMO}          
+          \setmonofont[Scale=MatchLowercase]{LinLibertineMO}
+    include-before-body:
+      - text: |
+          \definecolor{quarto-callout-note-color}{HTML}{000000}
+          \definecolor{quarto-callout-important-color}{HTML}{000000}
+          \definecolor{quarto-callout-warning-color}{HTML}{000000}
+          \definecolor{quarto-callout-tip-color}{HTML}{000000}
+          \definecolor{quarto-callout-caution-color}{HTML}{000000}
+          \definecolor{quarto-callout-color-frame}{HTML}{000000}
+          \definecolor{quarto-callout-note-color-frame}{HTML}{000000}
+          \definecolor{quarto-callout-important-color-frame}{HTML}{000000}
+          \definecolor{quarto-callout-warning-color-frame}{HTML}{000000}
+          \definecolor{quarto-callout-tip-color-frame}{HTML}{000000}
+          \definecolor{quarto-callout-caution-color-frame}{HTML}{000000}
  
     filters:
      - templates/pandoc-quotes.lua

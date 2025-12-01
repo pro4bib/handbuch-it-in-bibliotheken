@@ -37,7 +37,7 @@ Darunter fallen Forschungsinformationssysteme und Dienstleistungen im Bereich
 von Metriken oder zur Verwaltung von Artikelveröffentlichungsgebühren in
 Open-Access-Journals (*APCs*).
 
-::: {.callout-important title="Definition"}
+::: {.callout-important}
 
 **Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, OER und Open Source. Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
 
@@ -245,7 +245,7 @@ und der Open Source-Lösung
 nur zwei Beispiele für Systeme genannt, die sich auf den Erhalt von
 Informationen im Sinne der Langzeitarchivierung spezialisieren.
 
-::: {.callout-important title="Definition"}
+::: {.callout-important}
 
 Der Begriff **Repository** bzw. **Repositorium** wird in diesem Kapitel
 vorwiegend für Plattformen verwendet, in denen Forschungsergebnisse
@@ -298,7 +298,7 @@ sogenannten **FAIR-Prinzipien**, denen zufolge Forschungsdaten auffindbar
 nachnutzbar (reusable) sein sollen (vgl.
 [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)).
 
-::: {.callout-important title="Definition"}
+::: {.callout-important}
 
 **Forschungsdaten** sind alle digital vorliegenden Daten, die während des
 Forschungsprozesses entstehen (z. B. Messdaten, Laborwerte, Videoaufnahmen,
@@ -482,7 +482,7 @@ eine Betrachtung der kompletten [Toolchain](#toolchains) notwendig macht.
 
 ## Forschungsinformationssysteme
 
-::: {.callout-important title="Definition"}
+::: {.callout-important}
 
 **Forschungsinformationen** sind Angaben über Aktivitäten, Ergebnisse und
 Infrastrukturen von Forschungsprozessen wie z. B. Projekte,
@@ -836,7 +836,7 @@ zunehmend gefragt sind.
 
 ### Toolchains
 
-::: {.callout-important title="Definition"}
+::: {.callout-important}
 
 Eine **Toolchain** ("Werkzeugkette") ist eine Reihe von miteinander verbundenen
 Anwendungen und Technologien, die gemeinsam eingesetzt werden, um spezifische

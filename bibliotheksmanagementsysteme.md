@@ -13,7 +13,7 @@ Ein Bibliotheksmanagementsystem (BMS) ist ein IT-System, das die [Kernprozesse](
 ## Einleitung
 Das BMS spielt eine zentrale Rolle für die meisten klassischen Geschäftsprozesse in Bibliotheken. 
 
-::: {.callout-important title="Definition"}
+::: {.callout-important}
 
 Ein **Bibliotheksmanagementsystem (BMS)** ist ein Softwareprodukt, mit dem die Arbeitsprozesse
 rund um die Erwerbung, Bestandsmanagement, Ausleihe, den Zugriff und die Auffindbarmachung
@@ -95,7 +95,7 @@ für Support- und Wartungsdienstleistungen zu.
 
 ![Evolution der Bibliotheksmanagementsysteme (nach @matthews_library_2020, S. 7)](media/bms-timeline.svg){#fig-bmsevol}
 
-::: {.callout-tip}
+::: {.callout-tip appearance="default"}
 
 Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 überlappende Epochen einteilen (siehe @fig-bmsevol):
