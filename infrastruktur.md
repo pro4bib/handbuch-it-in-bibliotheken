@@ -1321,15 +1321,14 @@ Kommunikation (@sec-kommunikation) beschrieben.
 Die in diesem Absatz beschriebenen Werkzeuge dienen der Aufgabenkoordination
 in der Bibliothek. Je mehr Personen in einem Team an gemeinsamen Aufgaben
 arbeiten, desto empfehlenswerter ist der Einsatz folgender Instrumente für die
-Aufgabenkoordination in der Bibliothek.
+Aufgabenkoordination und das Wissensmanagement in der Bibliothek.
 
-**Ticketsystem**: Ticketsysteme dienen der strukturierten,
-regelbasierten (z.T. automatischen) Abarbeitung von Anfragen,
-Wünschen, Fehlermeldungen von Nutzenden. Diese Systeme können für
-alle anfallenden Aufgaben innerhalb der Bibliothek verwendet
-werden, z. B. in der
-Softwareentwicklung (@sec-anforderungen)
-bei der Bearbeitung von Kundenanfragen oder internen Prozessen.
+**Ticketsystem**: Ticketsysteme dienen der strukturierten, regelbasierten (z.T.
+automatischen) Abarbeitung von Anfragen, Wünschen, Fehlermeldungen von
+Nutzenden. Diese Systeme können für alle anfallenden Aufgaben innerhalb der
+Bibliothek verwendet werden, z. B. in der Softwareentwicklung
+(@sec-anforderungen) bei der Bearbeitung von Kundenanfragen oder internen
+Prozessen.
 
 Ein Vorteil ist die transparente Bearbeitung von Vorgängen, da sowohl der Status
 als auch die Bearbeitenden jederzeit einsehbar und nachvollziehbar sind.
@@ -1339,10 +1338,8 @@ jeder Zeit Einblick und können bei Bedarf übernehmen. Eine
 Vertretungsregelung oder E-Mail-Weiterleitung wird damit obsolet. Nach
 abschließender Bearbeitung werden Tickets in der Regel archiviert und
 können später zu Statistik- und Dokumentationszwecken ausgewertet
-werden. Auch eine Art FAQ kann automatisiert durch entsprechend
-markierte Tickets erstellt werden.
-
-Beispiele für Ticketsysteme:
+werden. Auch eine Art FAQ kann durch entsprechend
+markierte Tickets erstellt werden. Beispiele:
 
 -   *Redmine* (Open Source)
 -   *Jira* (kommerziell)
@@ -1353,30 +1350,23 @@ Beispiele für Ticketsysteme:
 Arbeitsabläufe anhand einer in Spalten unterteilten Tafel (z. B.
 Backlog, in Arbeit, fertig). Physisch ist dies mit Post-Its und
 Whiteboard machbar. Ein Kanban-Board kann auch als Grundlage für
-ein Projektmanagement nach SCRUM dienen.
-
-Beispiele für Kanban-Software:
+ein Projektmanagement nach SCRUM dienen. Beispiele:
 
 -   *[Deck](https://apps.nextcloud.com/apps/deck)* (Open Source Plugin für NextCloud)
 -   *[Kanboard](https://kanboard.org/)* (Open Source)
 -   *[Trello](https://trello.com/)* (kommerziell)
 
-**Interne und externe Kalender:** Kalender können unterschiedliche
-Aufgaben erfüllen. Intern helfen zwischen Mitarbeitenden geteilte
-Kalender bei der Terminplanung und Abstimmung.
-
-Auf der Bibliothekswebsite veröffentlichte Kalender können z. B.
-buchbare Veranstaltungen für Kund\*innen und Besucher\*innen der
-Bibliothek enthalten. Ebenso ist eine Reservierung von Räumen oder
-Technik denkbar.
-
-Verbunden mit einem Ticketverkauf oder einer Ticketreservierung können
-sie die umständliche Kommunikation über E-Mails ablösen und ersparen
-damit einen großen Verwaltungsaufwand.
-
-Beispiele für Kalender:
+**Interne und externe Kalender:** Kalender können unterschiedliche Aufgaben
+erfüllen. Intern helfen zwischen Mitarbeitenden geteilte Kalender bei der
+Terminplanung und Abstimmung. Auf der Bibliothekswebsite veröffentlichte
+Kalender können z. B. buchbare Veranstaltungen für Kund\*innen und
+Besucher\*innen der Bibliothek enthalten. Ebenso ist eine Reservierung von
+Räumen oder Technik denkbar. Verbunden mit einem Ticketverkauf oder einer
+Ticketreservierung können sie die umständliche Kommunikation über E-Mails
+ablösen und ersparen damit einen großen Verwaltungsaufwand. Beispiele:
 
 -   *[SuperSaaS](https://www.supersaas.de/)* (kommerziell)
+-   *[Nextcloud Calendar](https://apps.nextcloud.com/apps/calendar)* (Open Source)
 
 **Social Media Planung:** Betreibt eine Bibliothek mehrere Social
 Media Kanäle, kann ein einziges Tool zur Planung und
@@ -1384,44 +1374,28 @@ Veröffentlichung von Beiträgen sinnvoll sein. Damit kann der
 Content zeitlich und inhaltlich vorgeplant werden. Integrierte
 Analysewerkzeuge helfen zudem bei der Zeitplanung, indem die
 vergangenen Veröffentlichungen ausgewertet werden und der beste
-Zeitpunkt für die Zielgruppe ermittelt wird.
-
-
-
-Beispiele:
+Zeitpunkt für die Zielgruppe ermittelt wird. Beispiele:
 
 -   *[Hootsuite](https://www.hootsuite.com/)*, (kommerziell, in der Basisversion frei nutzbar)
 -   *[Buffer](https://buffer.com/)*, (kommerziell, in der Basisversion frei nutzbar)
 -   *[Trello](https://trello.com)* (kommerziell, in der Basisversion frei verfügbar)
 -   *[Fedica](https://fedica.com/)* (kommerziell, in der Basisversion frei verfügbar)
 
-**Wissenslandkarte**: Wissenslandkarten, auch Wissenskarten
-(*Knowledge Maps*), sind grafische Darstellungen von Wissen in
-Organisationen. Als Wissenslandkarten werden im Wissensmanagement
-graphische Verzeichnisse von Wissensträgern, Wissensbeständen,
-Wissensquellen, Wissensentwicklung, Wissensstrukturen oder
-Wissensanwendungen bezeichnet. Sie dienen vor allem der
-Identifikation von Wissen in Unternehmen, um Arbeitsabläufe
-effektiver und effizienter zu gestalten und referenzieren auf
-Expertenwissen, Teamwissen, Wissensentwicklungsstationen sowie
-organisationale Fähigkeiten und Abläufe. Bei dieser Methode wird
-lediglich der Verweis auf das verankerte Wissen geliefert und
-nicht das Wissen selbst dort abgelegt.
-
-<!-- TODO: was heisst hier Quelle?! -->
-
-Quelle:
-[https://de.wikipedia.org/wiki/Wissenslandkarte](https://de.wikipedia.org/wiki/Wissenslandkarte)
-
-Beispiele: *[MindManager](https://www.mindmanager.com/de/)* (kommerziell)
+**Wissenslandkarte**: Wissens(land)karten oder Knowledge Maps sind grafische
+Verzeichnisse von Wissensträgern in Organisationen. Sie dienen vor allem der
+Identifikation von Wissen in Unternehmen, um Arbeitsabläufe effektiver und
+effizienter zu gestalten und referenzieren auf Expertenwissen, Teamwissen,
+Wissensentwicklungsstationen sowie organisationale Fähigkeiten und Abläufe. Bei
+dieser Methode wird lediglich der Verweis auf das verankerte Wissen geliefert
+und nicht das Wissen selbst dort abgelegt. Zur Erstellung können
+Mind-Mapping-Tools verwendet werden.
 
 **Terminfindung:** Abseits von Kalendern in E-Mail-Programmen können
 Terminfindungstools sinnvoll sein, insbesondere bei der Planung
-mit externen Beteiligten.
+mit externen Beteiligten. Beispiele:
 
-Beispiele:
-*[DFN terminplaner](https://terminplaner.dfn.de/)*,
-*[nuudel](https://nuudel.digitalcourage.de/)*
+-   *[DFN terminplaner](https://terminplaner.dfn.de/)*
+-   *[nuudel](https://nuudel.digitalcourage.de/)*
 
 ## Zusammenfassung und Ausblick
 

@@ -12,3 +12,5 @@ site_libs/
 .~*
 .DS_Store
 *.afdesign~lock~
+
+**/*.quarto_ipynb
