@@ -95,8 +95,6 @@ für Support- und Wartungsdienstleistungen zu.
 
 ![Evolution der Bibliotheksmanagementsysteme (nach @matthews_library_2020, S. 7)](media/bms-timeline.svg){#fig-bmsevol}
 
-::: {.callout-tip appearance="default"}
-
 Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 überlappende Epochen einteilen (siehe @fig-bmsevol):
 
@@ -154,7 +152,6 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
     innovativen Technologien wie 3D-Druck, Virtual Reality (VR),
     Open-Access-Repositorien etc.
 
-:::
 
   ------------------------------------------------------------------------------
              Organisation    Marktstatus                Open       Individuelle
@@ -232,7 +229,7 @@ Module für folgende Funktionen:
 
 -   Ausleihe
 
--   ein Recherche-Modul, das sich vorwiegend an die Bibliotheksnutzer\*innen richtet
+-   ein Recherche-Modul vorwiegend für Bibliotheksnutzer\*innen
 
 ### Grundlegende Komponenten
 
