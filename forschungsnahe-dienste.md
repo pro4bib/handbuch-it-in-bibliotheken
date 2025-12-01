@@ -82,7 +82,7 @@ Infrastrukturen erfordert die Einbindung unterschiedlicher IT-Werkzeuge, die im
 Folgenden näher beschrieben werden.
 
 
-### Publishing-Dienste für Journals und andere Publikationsformen
+### Dienste für Journals und andere Publikationsformen
 
 Open Access bedeutet, dass wissenschaftliche Literatur kostenfrei und
 öffentlich im Internet zugänglich ist, sodass Interessierte die
