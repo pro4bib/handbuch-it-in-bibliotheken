@@ -15,7 +15,13 @@ build: pdf
 	mv *.docx _book 
 	cp _gdrive/*.docx _book/ | true 
 	rsync -a _book/ _published
-	cp *.tex _published
+	# LaTeX sources. R
+	# requires xelatex, libertine.sty, and orcidlink.sty
+	# sudo apt-get install texlive-xetex texlive-fonts-extra textlive-latex-extra
+	cp *.tex _published	
+	rsync --delete -a media/ _published/media/
+	rsync --delete -a keep_index_files/ _published/index_files/
+	zip -r sources.zip Handbuch-IT-in-Bibliotheken.tex media/ index_files/
 
 html: $(INCLUDES)
 	quarto render --to html

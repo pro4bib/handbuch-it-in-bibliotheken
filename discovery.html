@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -61,10 +61,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cda1cbee02784dcf0981525b1185f616.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-881e6b1d70d56ce3cf9c07ed1b45e128.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -332,7 +332,7 @@ div.csl-indent {
 <section id="ursprung-und-motivation-von-discovery-systemen" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="ursprung-und-motivation-von-discovery-systemen"><span class="header-section-number">8.2</span> Ursprung und Motivation von Discovery-Systemen</h2>
 <p>Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten insbesondere von studentischen Nutzer*innen nur noch eine untergeordnete Rolle. Parallel zeichnete sich ab, dass die dritte Generation der Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte, vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen eigene Experimente mit der Indexierung bibliografischer Daten begannen.</p>
-<p>Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von Produkten kommerzieller Anbieter*innen und einige Open Source-Projekte. Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter wie Verbundzentralen, Hersteller*innen und kommerzielle Dienstleister*innen betrieben werden. Die Hersteller*innen kommerzieller Bibliotheksmanagementsysteme der neueren Generation bieten Discovery-Systeme an, die besonders gut mit dem BMS (siehe <a href="bibliotheksmanagementsysteme.html" class="quarto-xref"><span>Kapitel 7</span></a>) der gleichen Hersteller*innen zusammenarbeiten.</p>
+<p>Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von Produkten kommerzieller Anbieter*innen und einige Open Source-Projekte. Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter wie Verbundzentralen, Hersteller*innen und kommerzielle Dienstleister*innen betrieben werden. Die Hersteller*innen kommerzieller Bibliotheksmanagementsysteme der neueren Generation bieten Discovery-Systeme an, die besonders gut mit dem BMS (<a href="bibliotheksmanagementsysteme.html" class="quarto-xref"><span>Kapitel 7</span></a>) der gleichen Hersteller*innen zusammenarbeiten.</p>
 <p>Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben (Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server etc.), ist die Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände gemeinsam zugänglich zu machen.</p>
 </section>
 <section id="bestandteile-von-discovery-systemen" class="level2" data-number="8.3">
@@ -341,7 +341,7 @@ div.csl-indent {
 <h3 data-number="8.3.1" class="anchored" data-anchor-id="komponenten"><span class="header-section-number">8.3.1</span> Komponenten</h3>
 <p>Ein Discovery-System umfasst verschiedene Komponenten. Dazu gehören</p>
 <ul>
-<li><p>eine Benutzungs- oder Rechercheoberfläche (<a href="#frontend">Frontend</a> bzw.&nbsp;User Interface),</p></li>
+<li><p>eine Benutzungs- oder Rechercheoberfläche (<a href="#frontend">Frontend</a>/User Interface),</p></li>
 <li><p>der <a href="#suchindex">Suchindex</a> (ein oder mehrere Quell-Indizes)</p></li>
 <li><p><a href="./metadaten.html#etl-prozess">ETL-Prozesse</a> und</p></li>
 <li><p>die Konfiguration der Rechercheoberfläche.</p></li>
@@ -418,10 +418,7 @@ Abbildung&nbsp;8.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <p>Zu den am häufigsten genutzten Anreicherungsdiensten gehören:</p>
 <ul>
 <li><p>Cover-Anzeigen</p></li>
-<li><p>kontextabhängige Infoboxen mit Informationen aus Nachschlagewerken,</p>
-<ol start="26" type="a">
-<li>B. Autor*innenenportraits via <em>Wikidata</em> oder <em>GND,</em> Informationen aus Nachschlagewerken wie <em><a href="https://www.munzinger.de/">Munzinger</a></em></li>
-</ol></li>
+<li><p>kontextabhängige Infoboxen mit Informationen aus Nachschlagewerken, z.B.&nbsp;Autor*innenenportraits via <em>Wikidata</em> oder <em>GND,</em> Informationen aus Nachschlagewerken wie <em><a href="https://www.munzinger.de/">Munzinger</a></em></p></li>
 <li><p>Empfehlungsdienste mit Hinweisen auf Literatur zum selben Thema (z.B.&nbsp;<em>BibTip</em>, <em>bX</em>)</p></li>
 <li><p>Visualisierungen von Buchstandorten über Gebäudeinformationssysteme (z.B.&nbsp;<em>Mapongo, V:Scout</em>)</p></li>
 <li><p>Integration mit weiteren Diensten, z.B.&nbsp;der Leseförderungs-App <em>Antolin</em></p></li>
@@ -443,7 +440,7 @@ Abbildung&nbsp;8.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <h4 class="anchored" data-anchor-id="thematische-sucheinstiege">Thematische Sucheinstiege</h4>
 <p>Wie beschrieben bieten Trefferlisten mit Facetten und Empfehlungen zwar durchaus die Möglichkeit, sich eine Treffermenge zu erschließen. Allerdings fehlt Discovery-Systemen genau wie OPACs häufig die Möglichkeit, eine systematische Suche durchzuführen. Teilweise wird ein Browsing durch die klassifikatorische Inhaltserschließung angeboten, jedoch fehlen vielen Datensätzen entsprechende Daten und das Browsing bezieht sich dadurch jeweils nur auf Teilmenge des Suchraums. Aus diesem Grund werden verschiedene Ansätze erprobt, um eine thematische Suche zu ermöglichen. Hierzu zählen u.a.&nbsp;folgende Projekte und Dienste:</p>
 <ul>
-<li><p>ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z. B. bei dem kommerziellen Dienst <a href="https://www.eikekleiner.de/blended-shelf/">Blended Shelf</a></p></li>
+<li><p>ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z. B. mit dem <a href="https://nbn-resolving.org/urn:nbn:de:0290-opus-16040">Blended Shelf</a></p></li>
 <li><p>die Nutzung von Normdaten zur Erstellung von Übersichtsseiten, z. B. im <a href="https://www.dla-marbach.de/katalog-beta/">Katalog des Deutschen Literaturarchivs Marbach</a></p></li>
 <li><p>die Visualisierung von Treffermengen und den darin enthaltenen Zusammenhängen, wie zum Beispiel bei <a href="https://openknowledgemaps.org/">Open Knowledge Maps</a>, in einer <a href="https://data.slub-dresden.de/">prototypischen Installation der SLUB Dresden</a> oder mit dem kommerziellen Dienst <em>Yewno</em>.</p></li>
 </ul>
@@ -586,7 +583,7 @@ Abbildung&nbsp;8.2: Thematisches Netzwerk von Publikationen in und über Scholia
 </section>
 <section id="zusammenfassung-ausblick" class="level2" data-number="8.7">
 <h2 data-number="8.7" class="anchored" data-anchor-id="zusammenfassung-ausblick"><span class="header-section-number">8.7</span> Zusammenfassung &amp; Ausblick</h2>
-<p>Discovery-Systeme kommen den Erwartungen von Benutzer*innen an das Suchen und die Erreichbarkeit von Medien entgegen. Insbesondere Bibliotheken, die kein Bibliotheksmanagement-System (siehe <a href="bibliotheksmanagementsysteme.html" class="quarto-xref"><span>Kapitel 7</span></a>) verwenden, das bereits eine Discovery-Oberfläche enthält, müssen sich daher oft und mit hoher Priorität damit auseinandersetzen, wie Informationen über den eigenen Bestand durch ein Discovery-System besser zugänglich gemacht werden. Dies eröffnet Fragen nach möglichen <a href="#betriebsmodelle">Betriebsmodellen</a>, gegebenenfalls des <a href="management.html#change-management">Change Management</a>, bis hin zum kontinuierlichen <a href="#monitoring-und-weiterentwicklung">Monitoring</a> und der Weiterentwicklung solcher Dienste.</p>
+<p>Discovery-Systeme kommen den Erwartungen von Benutzer*innen an das Suchen und die Erreichbarkeit von Medien entgegen. Insbesondere Bibliotheken, die kein Bibliotheksmanagement-System (<a href="bibliotheksmanagementsysteme.html" class="quarto-xref"><span>Kapitel 7</span></a>) verwenden, das bereits eine Discovery-Oberfläche enthält, müssen sich daher oft und mit hoher Priorität damit auseinandersetzen, wie Informationen über den eigenen Bestand durch ein Discovery-System besser zugänglich gemacht werden. Dies eröffnet Fragen nach möglichen <a href="#betriebsmodelle">Betriebsmodellen</a>, gegebenenfalls des <a href="management.html#change-management">Change Management</a>, bis hin zum kontinuierlichen <a href="#monitoring-und-weiterentwicklung">Monitoring</a> und der Weiterentwicklung solcher Dienste.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
