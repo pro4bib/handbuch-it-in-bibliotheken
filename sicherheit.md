@@ -480,8 +480,8 @@ starten. Der Cloudbetreiber sollte Erfahrungen mit Notfall-Lösungen und
 Umgebungen haben. Trotzdem sollte die Bibliothek ihre Datensicherung gut planen
 und cloudbasierte oder andere netzwerkunabhängige Backups länger vorhalten
 (mindestens 14 Tage), um auf nicht infizierte Sicherungen zurückgreifen zu
-können. Es ist ja nicht auszuschließen, dass die Angreifer die Zugangsdaten für
-die Datensicherung abgreifen konnten. Daher sollte auch über eine
+können. Es ist auch nicht auszuschließen, dass die Angreifer die Zugangsdaten für
+die Datensicherung herausfinden können. Daher sollte ggf. eine
 Verschlüsselung der Datensicherung in Erwägung gezogen werden. Genauso gilt es,
 die Wiederherstellung der Daten zu planen und zu üben. Unerlässlich ist auch
 eine gute Dokumentation der gesamten Notfall-Architektur.
