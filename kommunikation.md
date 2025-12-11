@@ -717,7 +717,7 @@ anzutreffen sind.
 -   **Fediverse:** Netzwerk unterschiedlicher dezentraler Dienste, die mit dem
     gleichen Account genutzt werden können (siehe [FediDB](https://fedidb.com/) für eine
     statistische Übersicht; Mastodon ist sicherlich der
-    bekannteste davon, aber auch das CMS WordPress gehört dazu, so dass sich
+    bekannteste davon, aber auch das CMS WordPress gehört dazu, sodass sich
     WordPress-Beiträge in den unterschiedlichen Fediverse-Kanälen teilen lassen.
 
 -   **LinkedIn:** Das ursprüngliche Berufsnetzwerk hat sich inzwischen zu

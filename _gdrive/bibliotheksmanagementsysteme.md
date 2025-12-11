@@ -50,7 +50,7 @@ In den 1970er Jahren erlaubte die fortschreitende technische Entwicklung
 die Automatisierung weiterer Prozesse über den Datenaustausch hinaus.
 Zunächst war dies vor allem die Ausleihe mit der Verbuchung von Medien
 und der Erzeugung von Mahnschreiben. Auch die Verwaltung von
-Bestellungen im Rahmen der Erwerbung wurde möglich, so dass man in der
+Bestellungen im Rahmen der Erwerbung wurde möglich, sodass man in der
 Folge von *Integrated Library Systems* zu sprechen begann. Davon, dass
 Katalog-, Erwerbungs- und Nutzer\*innen-Daten an einem Ort gehalten und
 bearbeitet wurden, versprach man sich eine größere Effizienz der
@@ -1204,7 +1204,7 @@ der Bibliothek auch direkt den Nutzer\*innen zur Verfügung zu stellen:
     BMS: Daten aus dem eigenen Bestand sowie Fremddaten, die als
     Metadaten zur Verfügung stehen. Eine Herausforderung besteht hierbei
     darin dass sich Anforderungen an die Suchoberfläche relativ schnell
-    ändern, so dass die BMS-eigene Suchoberfläche nicht leicht auf dem
+    ändern, sodass die BMS-eigene Suchoberfläche nicht leicht auf dem
     neuesten Stand erscheint.
 
 4.  Discovery-System als zugekauftes Modul eines anderen Herstellers
@@ -1364,7 +1364,7 @@ werden. Über diesen Dienst kann man dann unter Umständen ein Single Sign
 On realisieren, bei dem die Daten der Nutzer\*innen nicht mehr an den
 Service oder Content Provider weitergegeben werden, sondern nur noch
 eine Art Ticket, das eine Erlaubnis regelt. Im Idealfall gilt dieser
-Dienst dann für verschiedene Service- bzw. Contentprovider, so dass für
+Dienst dann für verschiedene Service- bzw. Contentprovider, sodass für
 deren Nutzung nur eine einmalige Anmeldung erforderlich ist.
 
 Authentifizierungsprotokolle sind bspw.: [Shibboleth /

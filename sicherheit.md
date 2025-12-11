@@ -305,7 +305,7 @@ Anwendungen ggfs. über alternative (mobile) Netzwerke und mit bereits geprüfte
 und wieder freigegebenen Notebooks schnell wieder genutzt werden. Als Beispiel
 sei hier das Bibliotheksmanagementsystem (@sec-bibliotheksmanagementsysteme)
 genannt. Wenn dieses bei einem Dienstleister gehostet wird, ist es in der Regel
-vom Angriff nicht betroffen, so dass die Ausleihe und Rückgabe wieder zeitnah
+vom Angriff nicht betroffen, sodass die Ausleihe und Rückgabe wieder zeitnah
 ermöglicht werden können.
 
 Zu guter Letzt darf auch nicht unterschätzt werden, welche zeitlichen Ausmaße

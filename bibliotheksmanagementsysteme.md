@@ -1157,7 +1157,7 @@ Nutzer\*innen zur Verfügung zu stellen:
 3.  Discovery-System (@sec-discovery) als Bestandteil des BMS: Daten aus dem eigenen
     Bestand sowie Fremddaten, die als Metadaten zur Verfügung stehen.
     Eine Herausforderung besteht hierbei darin dass sich Anforderungen
-    an die Suchoberfläche relativ schnell ändern, so dass die BMS-eigene
+    an die Suchoberfläche relativ schnell ändern, sodass die BMS-eigene
     Suchoberfläche nicht leicht auf dem neuesten Stand erscheint.
 
 4.  Discovery-System als zugekauftes Modul eines anderen Herstellers oder
@@ -1309,7 +1309,7 @@ werden. Über diesen Dienst kann man dann unter Umständen ein Single Sign
 On realisieren, bei dem die Daten der Nutzer\*innen nicht mehr an den
 Service oder Content Provider weitergegeben werden, sondern nur noch eine
 Art Ticket, das eine Erlaubnis regelt. Im Idealfall gilt dieser Dienst 
-dann für verschiedene Service- bzw. Contentprovider, so dass für deren 
+dann für verschiedene Service- bzw. Contentprovider, sodass für deren 
 Nutzung nur eine einmalige Anmeldung erforderlich ist.
 
 Authentifizierungsprotokolle sind z.B. [Shibboleth /
