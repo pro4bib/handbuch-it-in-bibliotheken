@@ -327,13 +327,13 @@ div.csl-indent {
 </div>
 <section id="einleitung" class="level2" data-number="8.1">
 <h2 data-number="8.1" class="anchored" data-anchor-id="einleitung"><span class="header-section-number">8.1</span> Einleitung</h2>
-<p>Als Discovery-Systeme werden Rechercheplattformen bezeichnet, die möglichst verfügbaren Ressourcen über einen einheitlichen Zugang nutzbar machen. Insbesondere beschränken sich die recherchierbaren Medien nicht nur auf den lokalen Bibliotheksbestand. Die Benutzung und der Funktionsumfang von Discovery-Systemen orientieren sich dabei an gängigen Suchmaschinen und Verzeichnissen im Web.</p>
+<p>Als Discovery-Systeme werden Rechercheplattformen bezeichnet, die möglichst verfügbare Ressourcen über einen einheitlichen Zugang nutzbar machen. Insbesondere beschränken sich die recherchierbaren Medien nicht nur auf den lokalen Bibliotheksbestand. Die Benutzung und der Funktionsumfang von Discovery-Systemen orientieren sich dabei an gängigen Suchmaschinen und Verzeichnissen im Web.</p>
 </section>
 <section id="ursprung-und-motivation-von-discovery-systemen" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="ursprung-und-motivation-von-discovery-systemen"><span class="header-section-number">8.2</span> Ursprung und Motivation von Discovery-Systemen</h2>
-<p>Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten insbesondere von studentischen Nutzer*innen nur noch eine untergeordnete Rolle. Parallel zeichnete sich ab, dass die dritte Generation der Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte, vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen eigene Experimente mit der Indexierung bibliografischer Daten begannen.</p>
-<p>Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von Produkten kommerzieller Anbieter*innen und einige Open Source-Projekte. Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter wie Verbundzentralen, Hersteller*innen und kommerzielle Dienstleister*innen betrieben werden. Die Hersteller*innen kommerzieller Bibliotheksmanagementsysteme der neueren Generation bieten Discovery-Systeme an, die besonders gut mit dem BMS (<a href="bibliotheksmanagementsysteme.html" class="quarto-xref"><span>Kapitel 7</span></a>) der gleichen Hersteller*innen zusammenarbeiten.</p>
-<p>Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben (Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server etc.), ist die Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände gemeinsam zugänglich zu machen.</p>
+<p>Die Entstehung von Discovery-Systemen zu Beginn der 2000er Jahre hatte mehrere Gründe: Bibliothekarische Recherchesysteme spielten im Informationsverhalten insbesondere von studentischen Nutzer*innen nur noch eine untergeordnete Rolle. Parallel zeichnete sich ab, dass die dritte Generation der Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte, vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer Funktionalitäten. Außerdem wurde Suchmaschinentechnologie als Open Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen eigene Experimente mit der Indexierung bibliografischer Daten begannen.</p>
+<p>Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von Produkten kommerzieller Anbieter*innen und einige Open Source-Projekte. Discovery-Systeme können von Bibliotheken selbst oder durch Hostinganbieter wie Verbundzentralen, Hersteller*innen und kommerzielle Dienstleister*innen betrieben werden. Die Hersteller*innen kommerzieller Bibliotheksmanagementsysteme der neueren Generation bieten Discovery-Systeme an, die besonders gut mit dem BMS (<a href="bibliotheksmanagementsysteme.html" class="quarto-xref"><span>Kapitel 7</span></a>) der gleichen Hersteller*innen zusammenarbeiten.</p>
+<p>Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben (Dokumentenserver, Digitalisateserver, Forschungsdatenserver etc.), ist die Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände gemeinsam zugänglich zu machen.</p>
 </section>
 <section id="bestandteile-von-discovery-systemen" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="bestandteile-von-discovery-systemen"><span class="header-section-number">8.3</span> Bestandteile von Discovery-Systemen</h2>
@@ -359,7 +359,7 @@ div.csl-indent {
 <p>Einige Discovery-Systeme können Suchanfragen gleichzeitig an mehrere Suchindizes senden und die Treffer aus den unterschiedlichen Suchindizes in einer Gesamtliste zusammenführen. Dies setzt allerdings eine Koordination der genutzten Suchindizes voraus. Dieser Aufbau ermöglicht es Bibliotheken verschiedene Datenquellen in ihrem Discovery-System gemeinsam zugänglich zu machen. Teils werden die Quellen selbst ausgewertet (z.B.&nbsp;Harvesting der Daten des eigenen Katalogs, relevanter Repositorien etc.), teils werden dafür andere freie oder kommerzielle Suchindizes (K10plus-Zentral, Gemeinsamer Verbünde Index, EBSCO-Discovery-Index, ExLibris Central Discovery Index etc.) genutzt.</p>
 <p>Die Daten, die in Suchindizes aufgenommen werden sollen, werden im Rahmen eines <a href="./metadaten.html#etl-prozess">ETL-Prozess</a> aus verschiedenen Datenquellen gesammelt, konvertiert und dann in den Suchindex geladen. Für jede Quelle muss dieser Prozess entsprechend eingerichtet und für Aktualisierungen regelmäßig ausgeführt werden.</p>
 <p>Bei den ETL-Prozessen werden die Daten aus den verschiedenen Datenquellen transformiert. Dabei werden z.B.&nbsp;die MARC-Struktur mit Feldern, Indikatoren und Unterfeldern in eine einfachere Feldstruktur überführt. Die Daten werden entsprechend den verschiedenen Such- und Navigationsbedürfnissen in unterschiedliche Indexfelder überführt. Ein Datum (z.B.&nbsp;Name des*der Autor*in) kann für verschiedene Suchtypen unterschiedlich aufbereitet und mehrfach im Index gespeichert werden. Bei der Aufbereitung werden die Daten analysiert und etablierte Verfahren zur Relevanzberechnung für die Sortierung innerhalb der Trefferliste eingesetzt.</p>
-<p>Für die Bildung von Facetten aus den Einträgen der Trefferliste werden spezielle Daten ermittelt. Diese Facetten-Daten sind technisch gesehen Suchbegriffe und dienen der nachträglichen Verfeinerung der Trefferliste. Beispiele für Facetten, die zur Einschränkung genutzt werden, sind Namen von Autor*innen, Schlagwörter, Medienarten, Standorte physischer Medien, die Kennzeichnung von Open Access-Material und vieles mehr).</p>
+<p>Für die Bildung von Facetten aus den Einträgen der Trefferliste werden spezielle Daten ermittelt. Diese Facetteneaten sind technisch gesehen Suchbegriffe und dienen der nachträglichen Verfeinerung der Trefferliste. Beispiele für Facetten, die zur Einschränkung genutzt werden, sind Namen von Autor*innen, Schlagwörter, Medienarten, Standorte physischer Medien, die Kennzeichnung von Open Access-Material und vieles mehr.</p>
 </section>
 </section>
 <section id="funktionen" class="level3" data-number="8.3.2">
@@ -379,7 +379,7 @@ div.csl-indent {
 <p>Die Suche in Discovery-Systemen nutzt in der Regel verschiedene Funktionen der Suchmaschinentechnologie, um einen eingegebenen Suchbegriff gegen den Index abzuprüfen. Daher liefern Discovery-Systeme mit dem Suchparadigma „beste Treffer“ statt „exakte Treffer“ mehr Suchergebnisse als Bibliothekskataloge <span class="citation" data-cites="steilen_discovery-systeme_2012">(<a href="literatur.html#ref-steilen_discovery-systeme_2012" role="doc-biblioref">Steilen 2012</a>)</span>. Sie nutzen außerdem Algorithmen für die Relevanzsortierung (<em>Ranking</em>), um die Trefferlisten möglichst nutzungsorientiert aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von Suchbegriff und Indexeintrag in definierten Feldern (z. B. Titel, Schlagwort) für eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie die Anzahl von Ausleihen, Aufrufen und Zitationen in der Regel nicht in das Ranking ein.</p>
 <p>Zu den Funktionalitäten für die Suchunterstützung gehören auch die Autovervollständigung sowie die Vorschlagsfunktion von Suchbegriffen. In beiden Fällen wird der Suchindex in Echtzeit geprüft. Es gehört zu den zentralen Zielen von Discovery-Systemen, Null-Treffer-Meldungen zu vermeiden.</p>
 <p>Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie z. B. Schlagwörter, Namen von Verfasser*innen oder Dokumenttypen in Bezug auf eine Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur Präsentation der Facetten in der Rechercheoberfläche gibt es verschiedene Möglichkeiten (siehe <a href="#fig-vufind" class="quarto-xref">Abbildung&nbsp;<span>8.1</span></a>). Die Auswahl der angebotenen Facetten muss jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.</p>
-<p>Die Weiterverwendung der Suchergebnisse wird durch verschiedene Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per Mail verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen herunterladen.</p>
+<p>Die Weiterverwendung der Suchergebnisse wird durch verschiedene Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per E-Mail verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen herunterladen.</p>
 <div id="fig-vufind" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-vufind-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -444,7 +444,7 @@ Abbildung&nbsp;8.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <li><p>die Nutzung von Normdaten zur Erstellung von Übersichtsseiten, z. B. im <a href="https://www.dla-marbach.de/katalog-beta/">Katalog des Deutschen Literaturarchivs Marbach</a></p></li>
 <li><p>die Visualisierung von Treffermengen und den darin enthaltenen Zusammenhängen, wie zum Beispiel bei <a href="https://openknowledgemaps.org/">Open Knowledge Maps</a>, in einer <a href="https://data.slub-dresden.de/">prototypischen Installation der SLUB Dresden</a> oder mit dem kommerziellen Dienst <em>Yewno</em>.</p></li>
 </ul>
-<p>Diese Projekte und Dienste sind jedoch entweder noch relativ neu oder wenig verbreitet und nicht oder nur mit Aufwänden nachnutzbar. Im Rahmen einer strategischen Planung für den Einsatz eines Discovery-Systems muss daher abgewogen werden, ob und wie ein thematischer Sucheinstieg umgesetzt werden soll, zumal für eine Darstellung im Sinne einer optimalen User Experience jeweils auch erhebliche Design-Aufwände entstehen.</p>
+<p>Diese Projekte und Dienste sind jedoch entweder noch relativ neu oder wenig verbreitet und nicht oder nur mit Aufwänden nachnutzbar. Im Rahmen einer strategischen Planung für den Einsatz eines Discovery-Systems muss daher abgewogen werden, ob und wie ein thematischer Sucheinstieg umgesetzt werden soll, zumal für eine Darstellung im Sinne einer optimalen User Experience jeweils auch erhebliche Designaufwände entstehen.</p>
 </section>
 </section>
 </section>
@@ -452,9 +452,9 @@ Abbildung&nbsp;8.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <h2 data-number="8.4" class="anchored" data-anchor-id="aufbau-und-betrieb-eines-discovery-systems"><span class="header-section-number">8.4</span> Aufbau und Betrieb eines Discovery-Systems</h2>
 <section id="betriebsmodelle" class="level3" data-number="8.4.1">
 <h3 data-number="8.4.1" class="anchored" data-anchor-id="betriebsmodelle"><span class="header-section-number">8.4.1</span> Betriebsmodelle</h3>
-<p>Der Betrieb eines Discovery-Systems stellt vergleichbare Anforderungen und unterliegt ähnlichen Rahmenbedingungen wie beim <a href="./bibliotheksmanagementsysteme.html#technischer-betrieb">Betrieb eines BMS</a>.</p>
-<p>Im Inhouse-Betrieb werden alle Komponenten selbst durch die Bibliothek betrieben. Damit sind in diesem Szenario die weitestgehenden Anpassungen möglich. Ein vollständiger Inhouse-Betrieb erfolgt aufgrund der benötigten Ressourcen allerdings meist nur bei kleinen oder sehr speziellen Datenbeständen (z. B. durch die Fachinformationsdienste) oder in sehr großen Einrichtungen. Oft trifft man stattdessen auf hybride Lösungen, in denen neben einem vergleichsweise kleinen eigenen Index ein bestehender kommerzieller oder nicht-kommerzieller Index genutzt wird.</p>
-<p>In einem Hosting-Betrieb wird die gesamte Infrastruktur durch eine*n Dienstleister*in bereitgestellt. Dabei erfolgt die Indexierung in der Regel durch einheitliche Indexierungsverfahren, die von allen teilnehmenden Bibliotheken gemeinsam genutzt werden. Bei diesen Lösungen werden alle Daten in einen einheitlich aufgebauten, in einer Cloud gehosteten Index eingespielt. Die Frontends sind nur eingeschränkt individualisierbar und lassen sich ausschließlich durch Konfigurationen parametrisieren. Zusatzfunktionen lassen sich über <a href="./metadaten.html#schnittstellen">Schnittstellen</a> anbinden. Wesentlicher Vorteil dieser Systeme ist ein vergleichsweise geringer Wartungsaufwand, ihre gute Skalierbarkeit und durch standardisierte Workflows ihre hohe Betriebssicherheit. Als Hoster*innen von Discovery-Systemen treten Bibliotheken, Verbünde und kommerzielle Anbieter auf.</p>
+<p>Der Betrieb eines Discovery-Systems stellt vergleichbare Anforderungen und unterliegt ähnlichen Rahmenbedingungen wie der <a href="./bibliotheksmanagementsysteme.html#technischer-betrieb">Betrieb eines BMS</a>.</p>
+<p>Im Inhousebetrieb werden alle Komponenten selbst durch die Bibliothek betrieben. Damit sind in diesem Szenario die weitestgehenden Anpassungen möglich. Ein vollständiger Inhouse-Betrieb erfolgt aufgrund der benötigten Ressourcen allerdings meist nur bei kleinen oder sehr speziellen Datenbeständen (z. B. durch die Fachinformationsdienste) oder in sehr großen Einrichtungen. Oft trifft man stattdessen auf hybride Lösungen, in denen neben einem vergleichsweise kleinen eigenen Index ein bestehender kommerzieller oder nicht-kommerzieller Index genutzt wird.</p>
+<p>In einem Hosting-Betrieb wird die gesamte Infrastruktur durch einen Dienstleister bereitgestellt. Dabei erfolgt die Indexierung in der Regel durch einheitliche Indexierungsverfahren, die von allen teilnehmenden Bibliotheken gemeinsam genutzt werden. Bei diesen Lösungen werden alle Daten in einen einheitlich aufgebauten, in einer Cloud gehosteten Index eingespielt. Die Frontends sind nur eingeschränkt individualisierbar und lassen sich ausschließlich durch Konfigurationen parametrisieren. Zusatzfunktionen lassen sich über <a href="./metadaten.html#schnittstellen">Schnittstellen</a> anbinden. Wesentlicher Vorteil dieser Systeme ist ein vergleichsweise geringer Wartungsaufwand, ihre gute Skalierbarkeit und durch standardisierte Workflows ihre hohe Betriebssicherheit. Als Hoster*innen von Discovery-Systemen treten Bibliotheken, Verbünde und kommerzielle Anbieter auf.</p>
 <p>Ein Spezialfall des Hostings ist die Nutzung von Cloud-Services externer Anbieter*innen für den Betrieb von BMS und Discovery-Systemen. Mehrere Hersteller*innen von BMS und Discovery-Systemen sind gleichzeitig Betreiber*innen solcher Cloud-Lösungen. In diesen Fällen wird die Software nicht mehr lizenziert, sondern über eine jährliche Pauschale werden Nutzung, Update und Betrieb des jeweiligen Software-Systems abgegolten.</p>
 <p>Beim Hosting oder bei der Nutzung von Software, die in der Cloud betrieben wird, erfolgt aus datenschutzrechtlicher Sicht eine „<a href="https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag">Datenverarbeitung im Auftrag</a>“. Die Verantwortung für Datenschutz und Datensicherheit verbleibt damit bei der Bibliothek als Auftraggeberin (siehe <a href="sicherheit.html#sec-datenschutz-externe" class="quarto-xref"><span>Kapitel 5.2.1</span></a>).</p>
 </section>
@@ -471,7 +471,7 @@ Abbildung&nbsp;8.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <p>Diese Systeme bieten eine fertige Lösung, in die lokale Bestandsdaten und weitere lokale Metadaten integriert werden können. Für die Nutzung fallen jährliche Lizenzgebühren sowie einmalige Implementierungskosten an. Beide Systeme sind weit verbreitet und ausschließlich über die Cloud der jeweiligen Hersteller*innen nutzbar. Diese sorgen für eine hohe Verfügbarkeit und regelmäßige Softwarepflege. Individuell zu prüfen sind vor einem möglichen Einsatz insbesondere folgende Fragen:</p>
 <ul>
 <li><p>Einbindung von Verfügbarkeitsinformationen</p></li>
-<li><p>Datenschutzrechtliche Fragen (Ort des Hostings, Verfahrensbeschreibungen)</p></li>
+<li><p>datenschutzrechtliche Fragen (Ort des Hostings, Verfahrensbeschreibungen)</p></li>
 <li><p>Datenhoheit (siehe <a href="management.html#digitale-souveränität">Digitale Souveränität</a>)</p></li>
 </ul>
 <p>Die Indizes dieser Systeme können separat lizenziert und beispielsweise an <em><a href="https://vufind.org/">VuFind</a></em>-Systeme angebunden werden.</p>
@@ -480,13 +480,13 @@ Abbildung&nbsp;8.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <section id="open-source-systeme" class="level4">
 <h4 class="anchored" data-anchor-id="open-source-systeme">Open Source-Systeme</h4>
 <p>Unter den von Bibliotheken selbst entwickelten Discovery-Systemen sind international <em>VuFind</em> und <em><a href="http://projectblacklight.org/">Blacklight</a></em> am weitesten verbreitet.</p>
-<p><em>VuFind</em> basiert auf PHP und lässt sich an verschiedene kommerzielle und frei verfügbare Komponenten wie Indizes und Bibliotheksmanagementsysteme anbinden. In den deutschsprachigen Ländern besteht eine lebendige Anwender*innengemeinschaft, die sich regelmäßig trifft. Mit <em><a href="https://www.qcovery.de/">Qcovery</a></em> und <em><a href="https://finc.info/">finc</a></em> gibt es zwei Sub-Communities für wissenschaftliche Bibliotheken, die sich die Aufgaben der Pflege und Weiterentwicklung der Software unter sich aufteilen.</p>
+<p><em>VuFind</em> basiert auf PHP und lässt sich an verschiedene kommerzielle und frei verfügbare Komponenten wie Indizes und Bibliotheksmanagementsysteme anbinden. In den deutschsprachigen Ländern besteht eine lebendige Anwender*innengemeinschaft, die sich regelmäßig trifft. Mit <em><a href="https://www.qcovery.de/">Qcovery</a></em> und <em><a href="https://finc.info/">finc</a></em> gibt es zwei Subcommunities für wissenschaftliche Bibliotheken, die sich die Aufgaben der Pflege und Weiterentwicklung der Software unter sich aufteilen.</p>
 <p><em>Blacklight</em> ist hauptsächlich im angloamerikanischen Raum verbreitet, aber auch bei <em><a href="https://www.europeana.eu/">Europeana</a></em> Einsatz. Die Software basiert auf Ruby on Rails.</p>
 <p>Das von der VZG entwickelte System <a href="https://www.lukida.org/">Lukida</a> spielt vor allem im Rahmen des Index K10plus-Zentral eine Rolle und wird primär als <abbr title="Software as a Service, Software und Hardware bei externem Dienstleister">SaaS</abbr> angeboten.</p>
 </section>
 <section id="indizes" class="level4">
 <h4 class="anchored" data-anchor-id="indizes">Indizes</h4>
-<p>Neben den kommerziellen Anbieter*innen bieten im Bereich wissenschaftlicher Bibliotheken einige Verbundzentralen auf Suchmaschinen-Technologie basierende Indizes an, teilweise für die teilnehmenden Bibliotheken, teilweise auch darüber hinaus für die nicht-kommerzielle Nutzung. Diese frei verfügbaren Indizes sind für Bibliotheken, die ihre Bestandsdaten an einen Verbund liefern, eine hervorragende Möglichkeit, um relativ kostengünstig an ein Discovery-System zu kommen, da die Erstellung eines eigenen Index mit hohen Investitionen verbunden ist. Metadaten-Kollektionen enthalten z. B. der ALBERT-Index des Kooperativen Bibliotheksverbundes Berlin-Brandenburg sowie der Gemeinsame Verbündeindex für Bestandsdaten aus allen wissenschaftlichen sowie vielen Spezial- und öffentlichen Bibliotheken.</p>
+<p>Neben den kommerziellen Anbieter*innen bieten im Bereich wissenschaftlicher Bibliotheken einige Verbundzentralen auf Suchmaschinen-Technologie basierende Indizes an, teilweise für die teilnehmenden Bibliotheken, teilweise auch darüber hinaus für die nicht-kommerzielle Nutzung. Diese frei verfügbaren Indizes sind für Bibliotheken, die ihre Bestandsdaten an einen Verbund liefern, eine hervorragende Möglichkeit, um relativ kostengünstig an ein Discovery-System zu kommen, da die Erstellung eines eigenen Index mit hohen Investitionen verbunden ist. Metadatenkollektionen enthalten z. B. der ALBERT-Index des Kooperativen Bibliotheksverbundes Berlin-Brandenburg sowie der Gemeinsame Verbündeindex für Bestandsdaten aus allen wissenschaftlichen sowie vielen Spezial- und öffentlichen Bibliotheken.</p>
 </section>
 </section>
 <section id="auswahl--und-entscheidungsprozesse" class="level3" data-number="8.4.3">
@@ -513,43 +513,48 @@ Abbildung&nbsp;8.1: Beispiel eines Rechercheergebnisses in einem Discovery-Inter
 <figure class="quarto-float quarto-float-tbl figure">
 <div aria-describedby="tbl-discovery-vs-opac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 31%">
+<col style="width: 43%">
+</colgroup>
 <thead>
 <tr class="header">
 <th></th>
-<th style="text-align: left;">OPAC/Katalog</th>
-<th style="text-align: left;">Discovery-System</th>
+<th>OPAC/Katalog</th>
+<th>Discovery-System</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Suchraum</td>
-<td style="text-align: left;">nur lokaler Bestand, nur selbständige Werke</td>
-<td style="text-align: left;">lokaler Bestand, aber auch Verbunddaten, bibliografische Daten, Volltexte etc.</td>
+<td>nur lokaler Bestand, nur selbständige Werke</td>
+<td>lokaler Bestand, aber auch Verbunddaten, bibliografische Daten, Volltexte etc.</td>
 </tr>
 <tr class="even">
 <td>Suchprinzip</td>
-<td style="text-align: left;">exakte Suche, feldbasierte Suche mit Boolescher Logik</td>
-<td style="text-align: left;">best match/natürlichsprachliche Suche</td>
+<td>exakte Suche, feldbasierte</td>
+<td>Autovervollständigung, Suchvorschläge, Facetten</td>
 </tr>
 <tr class="odd">
 <td>Suchunterstützung</td>
-<td style="text-align: left;">eher wenig</td>
-<td style="text-align: left;">Autovervollständigung, Suchvorschläge, Facetten</td>
+<td>eher wenig</td>
+<td>best match/natürlichsprachliche Suche</td>
 </tr>
 <tr class="even">
 <td>Sortierung</td>
-<td style="text-align: left;">standardmäßig nach Aktualität</td>
-<td style="text-align: left;">standardmäßig nach Relevanz</td>
+<td>standardmäßig nach Aktualität</td>
+<td>standardmäßig nach Relevanz</td>
 </tr>
 <tr class="odd">
 <td>Mehrwertdienste</td>
-<td style="text-align: left;">Buchcover, Listen, Exportformate</td>
-<td style="text-align: left;">Buchcover, Listen, Exportformate, Stöbern/Entdecken</td>
+<td>Buchcover, Listen, Exportformate</td>
+<td>Buchcover, Listen, Exportformate</td>
 </tr>
 <tr class="even">
 <td>Metadatenmodell</td>
-<td style="text-align: left;">bibliothekarisches Schema mit Hierarchien und Verweisen</td>
-<td style="text-align: left;">„flache Version“ eines bibliothekarischen Schemas</td>
+<td>bibliothekarisches Schema mit Hierarchien und Verweisen</td>
+<td>„flache Version“ eines bibliothekarischen Schemas</td>
 </tr>
 </tbody>
 </table>
