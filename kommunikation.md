@@ -20,7 +20,7 @@ Kommunikationsverständnis hin zu einem integrierten Ansatz.
 Dabei überlappen Kommunikationsräume oft. Werkzeuge dienen sowohl der internen
 Kommunikation als auch dem Dialog mit der Öffentlichkeit.
 
-Indem Bibliotheksmitarbeitende aktiv mit Intranet-Tools und -Plattformen
+Indem Bibliotheksmitarbeitende aktiv mit Intranettools und -plattformen
 arbeiten, bauen sie technische Fähigkeiten und Selbstvertrauen im Umgang
 mit ähnlichen Kommunikationswerkzeugen für die externe Kommunikation
 auf. Dadurch wird die Einführung von Intranetwerkzeugen zu einer
@@ -30,7 +30,7 @@ Transformation, interagieren kompetent und auf Augenhöhe mit den
 Nutzenden und verkörpern eine innovative, nutzerzentrierte
 Kommunikationsweise:
 
-![Stufenmodell von Öffentlichkeit](media/stufenmodell.svg){#fig-stufenmodell}
+![Stufenmodell von Öffentlichkeitsarbeit](media/stufenmodell.svg){#fig-stufenmodell}
 
 ## Ziele
 
@@ -140,7 +140,7 @@ verschiedene rechtliche und organisatorische Rahmenbedingungen:
 
 -   **Betriebsmodell** (siehe @sec-betriebsmodelle): Für jedes Werkzeug ist die
     Entscheidung zu treffen, ob es a) im eigenen Rechenzentrum -- so vorhanden
-    -- betrieben wird, b) bei einem externen Hosting-Dienstleister aufgesetzt
+    -- betrieben wird, b) bei einem externen Hostingdienstleister aufgesetzt
     wird oder c) als Software-as-a-Service (SaaS) von Dienstleistern eingekauft
     wird. Die Entscheidung darüber hängt von der vorhandenen IT-Infrastruktur
     ab.
@@ -194,11 +194,11 @@ Gepflegt werden kann ein Corporate Design anhand eines **Styleguides**.
 Dieser legt fest, wie visuelle Elemente in verschiedenen
 Kommunikationskanälen verwendet werden sollen, sei es in gedruckten
 Broschüren, bei Aushängen oder dem Leitsystem im Bibliotheksgebäude,
-auf der Website und in sozialen Medien. Ggf. können auch
+auf der Website und in sozialen Medien. Gegebenenfalls können auch
 sprachliche Vorgaben gemacht werden. Dies erleichtert die Erstellung von
 Marketingmaterialien und eine effektive Kommunikation der
 Bibliotheksangebote. Durch die Verwendung von vordefinierten Vorlagen
-und Design-Richtlinien können Bibliotheken nicht zuletzt auch die Kosten
+und Designrichtlinien können Bibliotheken nicht zuletzt auch die Kosten
 für die Gestaltung von Materialien senken und Ressourcen effizienter
 nutzen; das Rad muss (und sollte) nicht immer wieder neu erfunden
 werden.
@@ -233,8 +233,8 @@ informative Social Media Posts, ausführliche Blogbeiträge oder
 verschiedene Videoformate. Gleichzeitig sollten die Voraussetzungen,
 Möglichkeiten und Konventionen der Plattformen berücksichtigt werden.
 
-Auch empfiehlt es sich, (grafische) Templates zu nutzen. Beispielsweise können bei
-*[Canva](https://www.canva.com/) Templates für Infoposts, Veranstaltungshinweise,
+Auch empfiehlt es sich, (grafische) Templates zu nutzen. Beispielsweise können 
+Templates bei [Canva](https://www.canva.com/) für Infoposts, Veranstaltungshinweise,
 Personenvorstellung etc. angelegt werden. So müssen die
 vorgefertigten Templates nur noch mit Inhalten gefüllt werden. Auch bei der Produktion
 von Videos ist die Arbeit mit Formaten (Interviews, Erklärvideos,
@@ -248,7 +248,7 @@ nachnutzen. Wird zum Beispiel ein ausführlicher Blogbeitrag zu einem
 Thema verfasst, so lassen sich daraus häufig mehrere Social-Media-Posts
 erstellen. Besonders bei der Produktion eines Videos bietet es sich an,
 "Hinter den Kulissen" Content zu produzieren, z. B. indem man den
-Entstehungsprozess dokumentiert durch kurze Videos und Fotos oder zu
+Entstehungsprozess durch kurze Videos und Fotos dokumentiert oder zu
 einem ausführlichen Video eine Kurzversion dreht - wenn die Technik
 schon mal steht.
 
@@ -275,7 +275,7 @@ schon mal steht.
 -   **Content anteasern/Social Storytelling**:\
     Vor allem "größerer"
     Content, wie zum Beispiel aufwändige Videoproduktionen sollte vorab
-    auf den Social Media Plattformen durch kurze Begleitbeiträge angeteasert werden.
+    auf den Social-Media-Plattformen durch kurze Begleitbeiträge angeteasert werden.
     Das können etwa Behind-the-scenes-Berichte oder allgemeine Infos zum Thema
     sein. So kann die Neugier der Nutzenden geweckt werden.
 
@@ -311,7 +311,7 @@ Köpfen von Mitarbeitenden vorhanden ist? Für diesen Teil des
 Wissensmanagements gibt es verschiedene mündliche und schriftliche
 Verfahren. Dabei helfen unter anderem strukturierte Interviews,
 Erzählungen (Storytelling), Visualisierungen, Verschriftlichung
-mündlicher Anleitungen, Videobotschaften und nicht zuletzt das Vormachen
+mündlicher Anleitungen, Videobotschaften und nicht zuletzt das Demonstrieren
 von Tätigkeiten. Zur kontrollierten Umsetzung des Wissenstransfers gibt
 es mehrere Werkzeuge (Mittelmann, 2011):
 
@@ -333,7 +333,7 @@ es mehrere Werkzeuge (Mittelmann, 2011):
     veranschaulichen, bei welchen
     Wissensträger\*innen welche Kompetenzen in welchen Wissensgebieten
     vorhanden sind. Sie vermitteln keine Wissensinhalte, sondern
-    zeigen, welche Kompetenzen ein bestimmter Mitarbeitender hat und
+    zeigen, welche Kompetenzen ein\*e bestimmte\*r Mitarbeitende\*r hat und
     wer Wissensträger\*in für ein bestimmtes Gebiet ist.
 
 -   **Persönlicher Wissenstransfer** kann in einem Gespräch stattfinden.
@@ -365,9 +365,9 @@ Praxistauglichkeit einzuschätzen. Daher ist es sinnvoll, die Evaluation
 bereits bei der Planung, spätestens aber beim Start mit einzuplanen
 (siehe @sec-anforderungen).
 
-Neben herkömmlichen Nutzungsstatistiken (z. B. mittels des Open Source Tools
+Neben herkömmlichen Nutzungsstatistiken (z. B. mittels des Open Source-Tools
 [*Matomo*](https://www.matomo.org/) für Webseiten oder mit integrierten
-Analysewerkzeugen von Social Media Plattformen und *CMS*) können einheitliche
+Analysewerkzeugen von Social-Media-Plattformen und *CMS*) können einheitliche
 Fragebögen bei der Einschätzung helfen, ob Kanäle oder Tools geeignet sind, die
 gesetzten Ziele zu erreichen.
 
@@ -465,12 +465,12 @@ Feedback zu Missverständnissen führen.
   Kommunikation, oft als Alternative zu Telefon und E-Mail.
   Gruppenchats in Abteilungen können für einfache Fragen und
   Absprachen genutzt werden und Menschen, die mobil arbeiten,
-  können mit einem Chatsystem besser integriert werden. Die
+  können durch ein Chatsystem besser integriert werden. Die
   Nutzung von kommerziellen Systemen, die noch dazu außerhalb
   von Europa gehostet werden, ist aus Datenschutzgründen nur in
   Ausnahmefällen zulässig (WhatsApp, Slack ...).
   Eine Alternative für Bibliotheken mit IT-Abteilung oder
-  Rechenzentrum-Unterstützung ist die Nutzung von Open-Source-Software wie
+  Rechenzentrumsunterstützung ist die Nutzung von Open Source-Software wie
   [mibew.org](https://mibew.org/) oder
   [rocket.chat](https://www.rocket.chat/secure-messaging-platform)
   die selbst betrieben werden können.
@@ -484,14 +484,15 @@ Feedback zu Missverständnissen führen.
   Beispiel ist Zoom. Daneben stehen freie Alternativen wie
   [jitsi](https://jitsi.org/) und [DFN conf](https://www.conf.dfn.de/) zur
   Verfügung. Eine Chatfunktion während der laufenden Konferenz ist dabei
-  standardmäßig integriert, häufig können auch eine Umfragen benutzt werden.
+  standardmäßig integriert, häufig können auch Umfragen benutzt werden.
 
 - **Integrierte Webkonferenz- und Kommunikationsplattformen** kombinieren
   Videokonferenzen mit verschiedenen anderen Kommunikationslösungen. Die
   kommerziellen Tools Microsoft Teams und Cisco Webex integrieren Chatlösungen,
   auch außerhalb von Videokonferenzen,  für Gruppen und Einzelpersonen. Vor allem
   im Bildungsbereich wird die Open Source-Plattform BigBlueButton verwendet, die
-  Präsentationen sowie Lern- und Inhaltsverwaltungssysteme. [Mattermost](https://mattermost.com/)
+  Präsentationen sowie Lern- und Inhaltsverwaltungssysteme unterstützt.
+  [Mattermost](https://mattermost.com/)
   ist ein weiteres Open Source-Beispiel, das viele verschiedenen Kommunikationswege
   vereint und auch Plugins für viele andere Werkzeuge bereitstellt, um eine
   All-In-One Lösung für Kollaborationen zu sein.
@@ -529,7 +530,7 @@ veröffentlichen.
     *Camtasia*, *Screenflow* und *[OBS](https://obsproject.com/de)*.
     OBS kann zudem verwendet werden, um Inhalte auf Videoplattformen zu streamen.
 
--   Zur Nachbearbeitung von Roh-Videomaterial gibt es spezielle
+-   Zur Nachbearbeitung von Rohvideomaterial gibt es spezielle
     **Videobearbeitungssoftware**, die Video- und Tonspuren zusammenführen können. Beim
     Videoschnitt können verschiedene Sequenzen aus Quellmaterialien
     aneinandergereiht werden. Ebenso sind Veränderungen durch Filter oder
@@ -541,16 +542,19 @@ veröffentlichen.
     von der Software mit einfachen Grafiken illustriert wird. 
 
 -   **Hardware**: Bei der Anschaffung von Hardware für Video- oder
-    Podcastsaufnahmen sowie die Erstellung von Video-Tutorials in Bibliotheken ist es wichtig,
+    Podcastaufnahmen sowie die Erstellung von Video-Tutorials in Bibliotheken ist es wichtig,
     Qualität und Funktionalität im Auge zu behalten. Mit der richtigen
     Ausrüstung können Bibliotheken professionelle Ergebnisse erzielen.
-    Die Anschaffung muss dabei nicht zwangsläufig teuer sein. Es lohnt
-    sich immer, in eine hochauflösende externe Kamera zu investieren.
-    Auch ein qualitativ hochwertiges Mikrofon bzw. Headset ist
-    unerlässlich für einen überzeugenden Klang. Die in Standard-Laptops
+    Die Anschaffung muss dabei nicht zwangsläufig teuer sein. 
+    Die in Standardlaptops
     integrierten Kameras und Mikrofone genügen üblicherweise nicht, um
     eine halbwegs professionelle Ton- und Bildqualität zu
-    erzeugen. Bei geringem Budget ist
+    erzeugen. 
+    Es lohnt
+    sich immer, in eine hochauflösende externe Kamera zu investieren.
+    Auch ein qualitativ hochwertiges Mikrofon bzw. Headset ist
+    unerlässlich für einen überzeugenden Klang. 
+    Bei geringem Budget ist
     die Hardware in einem guten Smartphone besser geeignet.
     Hilfestellung - für nahezu jeden Budgetrahmen - erhält man etwa im
     Podcast-Forum *[Sendegate](https://sendegate.de)* oder
@@ -787,12 +791,12 @@ zunächst das Verhältnis der verschiedenen Lösungen auf konzeptioneller
 Ebene klar festzulegen, um Redundanzen zu vermeiden. Dieses Konzept kann
 sich, soweit möglich, aber auch in einer technisch integrierten Lösung
 für möglichst viele der genannten Aspekte widerspiegeln: einem so genannten
-Social Intranet einem typischen internen 
+Social Intranet, also einem typischen internen 
 [Infrastruktur-Angebot](infrastruktur.md#social-intranet).
 
 ::: {.callout-tip}
 
-Ein **Social Intranet** ist ein internes, web-basiertes Netzwerk, das
+Ein **Social Intranet** ist ein internes, webbasiertes Netzwerk, das
 speziell darauf ausgelegt ist, die Kommunikation, Zusammenarbeit und
 Informationsverbreitung innerhalb einer Organisation zu fördern. Es
 kombiniert die klassische Funktion eines Intranets, die
@@ -810,10 +814,6 @@ administrierbaren Oberfläche. Auch sonst nur aufwändig implementierbare
 Features wie eine Volltextsuche über alle Materialien wird problemlos
 möglich.
 
-Um im Bild vom Anfang des Kapitels zu bleiben: ein Social Intranet ist
-weder ein Hammer noch ein schwerer Werkzeugkasten, sondern am ehesten
-ein Schweizer Taschenmesser.
-
 Kern der Idee eines Social Intranets ist, dass neben Dokumenten die
 Menschen und deren Austausch untereinander im Fokus stehen. Daher kann
 jede\*r Mitarbeiter\*in ein Profil pflegen, um seine\*ihre Rollen,
@@ -822,6 +822,10 @@ sozialen Features, die themenspezifischen Diskussionsräume oder die
 Informationsbereitstellung im Vordergrund stehen, bieten sich zur
 Implementierung Wiki-Software (etwa: Confluence, kommerziell) oder
 Foren-Software (etwa: Discourse, Open Source) an.
+
+Um im Bild vom Anfang des Kapitels zu bleiben: ein Social Intranet ist
+weder ein Hammer noch ein schwerer Werkzeugkasten, sondern am ehesten
+ein Schweizer Taschenmesser.
 
 ## Zusammenfassung und Ausblick
 

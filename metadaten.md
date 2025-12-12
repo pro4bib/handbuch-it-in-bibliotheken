@@ -64,9 +64,9 @@ auf den kleinsten gemeinsamen Nenner beider Formate.
 
 Zur Beschreibung von Daten dienen
 
-- formale **Schemata** auf Ebene der Syntax
+- formale **Schemata** auf Ebene der Syntax und
 
-- und **Datenmodelle** auf Ebene der Semantik.
+- **Datenmodelle** auf Ebene der Semantik.
 
 Leider liegen beide oft nicht explizit vor, sondern müssen anhand von
 Beispielen, Anwendungen und Dokumentation mühsam ermittelt werden. Im
@@ -91,14 +91,14 @@ Interpretation in praktischen Anwendungen.
 ### Datenformate
 
 Datenformate definieren eine Struktur, die sich in einer oder in
-mehreren austauschbaren Syntax-Varianten ausdrücken lässt und deren
+mehreren austauschbaren Syntaxvarianten ausdrücken lässt und deren
 Bedeutung durch ein Datenmodell festgelegt ist. Beispielsweise definiert
 der Unicode-Standard eine Menge von Schriftzeichen (Buchstaben,
 Sonderzeichen, Emojis ...) und verschiedene Verfahren, um Zeichenketten in
-Bytes zu kodieren (UTF-8, UTF-16 ...). Syntax-Varianten werden auch als
+Bytes zu kodieren (UTF-8, UTF-16 ...). Syntaxvarianten werden auch als
 **Serialisierung** bezeichnet. Die meisten Datenformate haben nur eine
 Serialisierung, sodass Format und Syntax meist synonym verwendet
-werden. Einzelne Syntax-Elemente entsprechen Bestandteilen im
+werden. Einzelne Syntaxelemente entsprechen Bestandteilen im
 Datenmodell (siehe @tbl-xml), daher werden in der Beschreibung von
 Daten auch diese beiden Ebenen meist nicht sauber getrennt.
 
@@ -156,7 +156,7 @@ nicht als Datenformate betrachtet werden, sind dies folgende Sprachen:
 
 ::: {.callout-tip}
 
-Das **Entity-Relationshop-Modell** ist eine Modellierungssprache die meist für relationale Datenbanken verwendet wird, aber auch unabhängig davon verwendet werden kann. Dabei werden in einem ER-Diagramm Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe Beispiel @fig-er-diagram). Eine graphische Syntax für erweitere ER-Diagramme ist die Unified Modeling Language (*UML*).
+Das **Entity-Relationshop-Modell** ist eine Modellierungssprache die meist für relationale Datenbanken verwendet wird, aber auch unabhängig davon verwendet werden kann. Dabei werden in einem ER-Diagramm Objekttypen (Entitäten) und ihre Beziehungsarten dargestellt (siehe Beispiel @fig-er-diagram). Eine graphische Syntax für erweiterte ER-Diagramme ist die Unified Modeling Language (*UML*).
 
 ![ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbänken](media/er-modell.svg){#fig-er-diagram}
 
@@ -177,7 +177,7 @@ und @kuhlen_ontologien_2023.
 
 In der Praxis werden Daten in einem Datenformat zusätzlich durch
 anwendungsspezifische Auslegungen und Einschränkungen geprägt, darunter
-Format-Varianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
+Formatvarianten, Metadatenprofile bzw. Anwendungsprofile, Erfassungsregeln und
 die jeweilige Erfassungspraxis.
 
 ::: {.callout-tip}
@@ -200,7 +200,7 @@ abgeglichen und kombiniert werden, wenn sie die gleichen Identifikatoren verwend
 Neben eher intern genutzten Datensatz-Identifikatoren (z.B. die *PPN*
 des Bibliothekssystems PICA oder die ZDB-ID der Zeitschriftendatenbank)
 sind vor allem international standardisierte Identifikatoren von
-Bedeutung. Beispiele für solche Identifier-Systeme mit Relevanz für
+Bedeutung. Beispiele für solche Identifiersysteme mit Relevanz für
 bibliothekarische Daten sind die nachfolgenden:
 
 - Die *International Standard Book Number* (**ISBN**) wird von
@@ -679,9 +679,9 @@ als Werkzeuge
 
 - Mittel zur **Dateiverwaltung** und ein **Texteditor** unabdingbar,
 
-- allgemeine **Kommandozeilenprogramme** (`curl`, `sort`, `grep` ...) sehr zu empfehlen
+- allgemeine **Kommandozeilenprogramme** (`curl`, `sort`, `grep` ...) sehr zu empfehlen und
 
-- und **Programmiersprachen** vor allem für komplexere Aufgaben hilfreich.
+- **Programmiersprachen** vor allem für komplexere Aufgaben hilfreich.
 
 Material und Kurse für die praktischen Grundkenntnisse mit Bibliotheksbezug
 finden sich insbesondere in den Bereichen *Data Librarianship* und *Data

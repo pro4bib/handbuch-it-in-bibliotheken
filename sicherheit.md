@@ -39,7 +39,7 @@ in der Bibliothek oder übergeordneten Einrichtung selbst vorgenommen, sondern
 zunehmend von externen Dritten, wie bspw. Cloud-Infrastrukturen. Umso
 bedeutender wird im Hinblick auf die Sicherheit die Datensparsamkeit und das
 Bewusstsein, welche personenbezogenen Daten in welchen Systemen verarbeitet
-werden oder verarbeitet werden müssen.
+werden sollen oder müssen.
 
 Bibliotheken verstehen sich als Orte, die ihre Informationen und
 vielschichtigen Dienstleistungen i.d.R. einer großen Nutzendenschaft zur
@@ -78,7 +78,8 @@ den Datenschutz.
 Innerhalb der EU gilt seit 2018 die Datenschutz-Grundverordnung ([DSGVO](https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/europaeische-datenschutzgrundverordnung.html)), nach der personenbezogene Daten grundsätzlich zu schützen sind. Sie regelt unter anderem, dass jede Person das Recht auf Schutz der sie
 betreffenden personenbezogenen Daten hat. So dürfen Daten nur für einen
 bestimmten Zweck erhoben (Zweckbindung) und auch nicht für andere
-Vorhaben weiterverarbeitet werden (gem. Art 5 II DSGVO). Ferner wird in
+
+Vorhaben weiterverarbeitet werden (gem. Art. 5 II DSGVO). Ferner wird in
 Art 37 DSGVO die Ernennung eines Datenschutzbeauftragten geregelt.
 
 Ergänzt wird diese Grundverordnung durch die einzelnen nationalen
@@ -146,24 +147,24 @@ können sich aus Fristen für Einsprüche ergeben.
 
 Für Software, die durch einen externen Anbieter gehostet wird (@sec-betriebsmodelle), muss Folgendes sichergestellt sein:
 
--   Die Verschlüsselung der Datenübertragung
+-   die Verschlüsselung der Datenübertragung
     (Ende-zu-Ende-Verschlüsselung)
 
 -   Betrieb und Steuerung der Server innerhalb der EU
     ([DSGVO](https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung))
 
--   Der Ausschluss von User-Tracking durch Ad-Tech (Werbe-Netzwerke)
+-   der Ausschluss von User-Tracking durch Ad-Tech (Werbenetzwerke)
 
--   Der Abschluss eines
+-   der Abschluss eines
     [Datenverarbeitungsvertrags im Auftrag](https://de.wikipedia.org/wiki/Datenverarbeitung_im_Auftrag)
 
 Die über die vergangenen Jahrzehnte geschehenen sukzessiven Aufkäufe
-kleinerer Softwareanbieter durch einige wenige große kommerziellen
+kleinerer Softwareanbieter durch einige wenige große kommerzielle
 Bibliotheksdienstleister hat ganze Firmenkonglomerate entstehen lassen,
 die inzwischen den Bibliotheksmarkt dominieren. Einige von ihnen, die
 Dienste für wissenschaftliche Bibliotheken anbieten, wandeln sich in den
 letzten Jahren zu Data-Analytics-Konzernen. In diesem Zuge präparieren
-sie ihre cloud-basierten Lösungen mit Trackern, die
+sie ihre cloudbasierten Lösungen mit Trackern, die
 Verhaltensprofile über die Nutzer\*innen erstellen. Durch die ebenfalls
 seitens der Anbieter gestellten Zugangsauthentifizierungssysteme wird
 versucht, zusätzlich eine möglichst hohe Personalisierung bei der
@@ -241,7 +242,7 @@ Folgende sind die häufigsten Angriffsmethoden:
     Watering Holes) kombiniert. In diesem Fall dienen sie auch als
     Haupteintrittstore für Malware.
 
--   **Malware**: alle Arten von Schadsoftware, die auf dem Zielrechner
+-   **Malware**: Alle Arten von Schadsoftware, die auf dem Zielrechner
     ausgeführt wird, um z.B. Daten auszuspionieren, das normale Systemverhalten
     zu unterbrechen oder Schäden zu verursachen. Typische Beispiele sind
     Ransomware, Viren oder Würmer.
@@ -263,7 +264,7 @@ Folgende sind die häufigsten Angriffsmethoden:
     infizieren. Häufig dienen Viren und Würmer zur Verbreitung 
     der eigentlichen Schadsoftware.
 
--   **Denial-of-Service-Attacken (DoS):** ein Angriff, bei dem sehr viele
+-   **Denial-of-Service-Attacken (DoS):** Ein Angriff, bei dem sehr viele
     gleichzeitige Anfragen an einen Server gestellt werden, um dessen
     Verfügbarkeit zu beeinträchtigen. Häufig kommen Distributed
     Denial-of-Service (DDoS) Angriffe vor, bei denen die Anfragen von vielen
@@ -274,7 +275,7 @@ Folgende sind die häufigsten Angriffsmethoden:
 Bisherige Erfahrungen zeigen die weitreichenden Auswirkungen eines
 cyberkriminellen Angriffs auf Bibliotheken. In den meisten Fällen ist jedoch
 nicht nur die Bibliothek alleine betroffen, sondern die gesamte Hochschule,
-Kommune oder Forschungseinrichtun. Kommt es zu einem Angriff, ist es meist
+Kommune oder Forschungseinrichtung. Kommt es zu einem Angriff, ist es meist
 notwendig, alle IT-Dienste herunterzufahren. Eine Abschottung einzelner Dienste
 kann kaum vorgenommen werden. Man kann sich dies als einen "harten Cut" und ein
 Herunterfahren aller eigenen Server und virtuellen Maschinen zur Eingrenzung
@@ -293,7 +294,7 @@ man zur Kommunikation auf private Geräte (Notebooks, Smartphones, etc.,
 sofern die Mitarbeiter\*innen bereit dazu sind) und alternative
 E-Mail-Dienste ausweichen. Hier ist zu bedenken, dass diese
 Adhoc-Lösungen nicht unbedingt den datenschutzrechtlichen Ansprüchen
-entsprechen wenn keine Vertrag zur Auftragsdatenverarbeitung abgeschlossen wird.
+entsprechen wenn kein Vertrag zur Auftragsdatenverarbeitung abgeschlossen wird.
 Von besonderer Bedeutung ist in diesem Fall auch das
 Identity Management System (IDMS), das nach einem Angriff gegebenenfalls
 alternativ aufgebaut werden muss.
@@ -317,7 +318,7 @@ möglichst zu vermeiden, sondern das Ausmaß möglicher Schäden zu minimieren.
 
 ### Präventivmaßnahmen
 
-Um IT-Infrastruktir vor den zunehmenden Angriffen durch böswillige Akteure
+Um IT-Infrastruktur vor den zunehmenden Angriffen durch böswillige Akteure
 (Hacking, Malware, Ransomware) abzusichern, können die folgenden
 Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
 
@@ -327,7 +328,7 @@ Empfehlungen als Grundlage dienen [@breeding_marshall_how_2022]:
 -   Die Gefahr kurzfristig entstehender Sicherheitslücken sollte nicht
     unterschätzt werden.
 
--   Cloud-basierte Systeme sollten aktiv überwacht und der Überblick
+-   Cloudbasierte Systeme sollten aktiv überwacht und der Überblick
     behalten werden.
 
 -   Anbieter sollten aufgefordert werden, die Konzepte ihrer
@@ -387,11 +388,11 @@ festlegen, dass nach einmaligem Login ein Zugriff auf alle Anwendungen möglich
 und ein separates Einloggen nicht nötig ist. Dies wird auch als
 **Single-Sign-On (SSO)** bezeichnet. Die möglichen Verfahren sind in @fig-sso
 dargestellt: Benutzer\*in meldet sich auf einem **Portal** an und bekommt
-Zugriff auf alle eingebundenen Dienste (Links). Benutzer\*in speichert alle
+Zugriff auf alle eingebundenen Dienste (links). Benutzer\*in speichert alle
 Anmeldedaten auf einem Datenträger oder im Netzwerk. Ein **lokal**es Programm
 meldet ihn\*sie separat bei jedem Dienst, Portal oder Ticketing-System ein
 (Mitte). Benutzer\*in meldet sich bei einem der Dienste an und bekommt ein
-**Ticket** für den gesamten "Kreis der Vertrauten" (Rechts).
+**Ticket** für den gesamten "Kreis der Vertrauten" (rechts).
 
 ![Herangehensweisen für Single-Sign-On](media/sso-approaches.svg){#fig-sso}
 
@@ -459,25 +460,25 @@ Sicherheitskonzepte teils detaillierte Anleitungen für die Ersthilfe
 bieten. Generell gilt, dass Cyberattacken nicht nur eine kommunikative,
 sondern häufig auch eine Organisationskrise nach sich ziehen.
 
-![Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention und im Fall eines Schadenfalles](media/massnahmen-und-praevention.jpg){#fig-massnahmen-praevention}
+![Übersicht über mögliche Gefahrenquellen und Maßnahmen zur Prävention sowie im Fall eines Schadens](media/massnahmen-und-praevention.jpg){#fig-massnahmen-praevention}
 
 Zum einen muss intern (mit vorbereiteten Notfallgeräten oder ggf. privaten
 Endgeräten) und extern (mit Dienstleister\*innen, Bibliothekspartner\*innen,
 Bibliotheksnutzer\*innen) kommuniziert werden u.a. über den Vorfall, und ggf.
 weiterlaufende Dienste (cloudbasierte und von Drittanbieter\*innen). Besonders
-cloudbasierte Dienste können im Notfall evt. gute Alternativlösungen bieten,
-das gilt zum einen für alternative Loginverfahren z.B. bei extern gehosteten
+cloudbasierte Dienste können im Notfall evt. gute Alternativlösungen bieten.
+Das gilt auch für alternative Loginverfahren z.B. bei extern gehosteten
 Plattformen für E-Ressourcen, wenn das IDMS nicht zur Verfügung steht.
 
 Ist das BMS einer Bibliothek cloudbasiert, kann ein Ausleihbetrieb mit
 Notfallgeräten schneller wieder aufgenommen werden, da die Daten vor dem Hacker
-besser geschützt sind. Ähnlich kann man mit eigenen Dokumenten vorgehen, in dem
+besser geschützt sind. Ähnlich kann man mit eigenen Dokumenten vorgehen, indem
 das Active Directory des eigenen Systems ein tägliches Update erstellt und z.B.
 im CSV-Format an eine Cloud exportiert. Im einfachsten Fall betrifft es nur
 Notfalldokumente, die einem Krisenstab zugänglich sind. Tritt ein Notfall ein,
 kann man über die Standard-Benutzeroberfläche der Cloud die gesicherten Skripte
-starten. Der Cloudbetreiber sollte Erfahrungen mit Notfall-Lösungen und
-Umgebungen haben. Trotzdem sollte die Bibliothek ihre Datensicherung gut planen
+starten. Der Cloudbetreiber sollte Erfahrungen mit Notfalllösungen und
+-umgebungen haben. Trotzdem sollte die Bibliothek ihre Datensicherung gut planen
 und cloudbasierte oder andere netzwerkunabhängige Backups länger vorhalten
 (mindestens 14 Tage), um auf nicht infizierte Sicherungen zurückgreifen zu
 können. Es ist auch nicht auszuschließen, dass die Angreifer die Zugangsdaten für
@@ -486,7 +487,7 @@ Verschlüsselung der Datensicherung in Erwägung gezogen werden. Genauso gilt es
 die Wiederherstellung der Daten zu planen und zu üben. Unerlässlich ist auch
 eine gute Dokumentation der gesamten Notfall-Architektur.
 
-Und zum anderen sind alternative Abläufe aufzubauen, um wieder an der
+Zum anderen sind alternative Abläufe aufzubauen, um wieder an der
 digitalen Arbeitswelt teilzunehmen und den Bibliotheksbetrieb
 weitestgehend wieder anbieten zu können.
 

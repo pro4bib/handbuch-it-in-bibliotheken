@@ -25,7 +25,7 @@ Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
 Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die unter
-Open-Access-Bedingungen zweitveröffentlicht werden dürfen, gehören schon seit
+Open Access-Bedingungen zweitveröffentlicht werden dürfen, gehören schon seit
 Jahrzehnten zum Dienstleistungsrepertoire wissenschaftlicher Bibliotheken.
 Inzwischen betreiben größere Einrichtungen zudem oft spezialisierte
 Repositorien für ein Spektrum verschiedener Objekttypen: Publikationen wie
@@ -35,7 +35,7 @@ diverse Dienste, die übergreifend den Forschungsoutput bestimmter lokaler oder
 fachlicher Forschungscommunities besser auffindbar oder messbar machen sollen.
 Darunter fallen Forschungsinformationssysteme und Dienstleistungen im Bereich
 von Metriken oder zur Verwaltung von Artikelveröffentlichungsgebühren in
-Open-Access-Journals (*APCs*).
+Open Access-Journals (*APCs*).
 
 ::: {.callout-important}
 
@@ -74,7 +74,7 @@ Die Veröffentlichung wissenschaftlicher Erkenntnisse ist ein zentraler
 Bestandteil des wissenschaftlichen Arbeitens. Solange sich dieser Prozess noch in den Geschäftsprozessen klassischer
 Subskriptionszeitschriften abbildete, befanden sich wissenschaftliche Bibliotheken 
 eher auf der Seite der Medienbereitstellung. Mit zunehmender Stärkung des
-Open-Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten
+Open Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten
 wissenschaftliche Bibliotheken stärker in die Rolle des\*der Unterstützenden und
 Ermöglichenden. Die Digitalität der gesamten Prozesskette vom Schreiben bis
 zur Veröffentlichung der Beiträge in teilweise von den Bibliotheken getragenen
@@ -91,16 +91,16 @@ suchen, auf sie verweisen und sie auch sonst auf jede denkbare legale
 Weise benutzen können, ohne finanzielle, gesetzliche oder technische
 Barrieren jenseits von denen, die mit dem Internetzugang selbst
 verbunden sind. Zum ersten Mal wurde dieser Gedanke in der
-*[Grundsatzerklärung der Budapester Open-Access-Bewegung](https://www.budapestopenaccessinitiative.org/)*
+*[Grundsatzerklärung der Budapester Open Access-Bewegung](https://www.budapestopenaccessinitiative.org/)*
 formuliert.
 
 Durch die Transformationsprozesse im wissenschaftlichen Publikationswesen weg
-von den traditionellen Abonnement-Modellen hin zu Open Access sehen sich
+von den traditionellen Abonnementmodellen hin zu Open Access sehen sich
 Bibliotheken zunehmend auch in der Rolle von Publikationsdienstleistern.
 Dies kann einerseits die Gründung eines
 Universitätsverlages bedeuten, andererseits aber auch die Bereitstellung der notwendigen 
 Infrastruktur für wissenschaftliche Zeitschriften. Begünstigt durch
-Kostenverschiebung vom Lesen hin Publizieren wird der
+Kostenverschiebung vom Lesen hin zum Publizieren wird der
 scholar-led-Ansatz immer gefragter und Bibliotheken müssen in diesem
 Bereich Expertise aufbauen.
 
@@ -116,31 +116,30 @@ technischen Support für einreichende Autor\*innen bieten. Der Funktionsumfang
 von *OJS* ermöglicht es auch, einen Workflow für den Peer-Review-Prozess
 abzubilden. Auch hier liegt Potenzial für die Unterstützung durch Bibliotheken.
 Wichtig ist somit ein Überblick über den Gesamtprozess des wissenschaftlichen
-Publizierens und nicht nur die Software-Aspekte. Für die Publikation von Monographien gibt es z.B. mit [Open Monograph Press](https://pkp.sfu.ca/software/omp/) (*OMP*) eine Software, die von der gleichen Organisation wie *OJS* angeboten und weiterentwickelt wird. 
+Publizierens und nicht nur die Softwareaspekte. Für die Publikation von Monographien gibt es z.B. mit [Open Monograph Press](https://pkp.sfu.ca/software/omp/) (*OMP*) eine Software, die von der gleichen Organisation wie *OJS* angeboten und weiterentwickelt wird. 
 
 Parallel dazu entwickeln sich derzeit alternative Publikations-Plattformen wie
 Preprint-Dienste, (Micro-)Blogs, Data Journals und ähnliche Dienste, die
 traditionelle Publikationswege wie peer-reviewte Journals ergänzen, siehe dazu
-auch die entsprechende *[Publikation der Initiative Knowledge
-Exchange](https://doi.org/10.21428/996e2e37.3ebdc864)*. Hier können
-Bibliotheken ebenso in die Rolle des\*der Dienstleistenden treten, Instanzen
-geeigneter Open-Source-Software hosten und diese Entwicklung unterstützen. Dies
+auch die entsprechende [Publikation der Initiative Knowledge Exchange](https://doi.org/10.21428/996e2e37.3ebdc864). Hier können
+Bibliotheken ebenso in die Rolle der Dienstleistenden treten, Instanzen
+geeigneter Open Source-Software hosten und diese Entwicklung unterstützen. Dies
 kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken
 (@sec-kommunikation) betrachtet werden. Ergänzend gibt es zahlreiche weitere
-Dienste, die das Open-Access-Publizieren vor allem administrativ unterstützen,
+Dienste, die das Open Access-Publizieren vor allem administrativ unterstützen,
 von denen im Folgenden einige kurz erläutert werden.
 
-### Open-Access-Dienste
+### Open Access-Dienste
 
-Neben der Unterstützung bei Open-Access-Veröffentlichungen haben sich im
-Zusammenhang mit der Open-Access-Transformation weitere IT-Dienste in
+Neben der Unterstützung bei Open Access-Veröffentlichungen haben sich im
+Zusammenhang mit der Open Access-Transformation weitere IT-Dienste in
 Bibliotheken entwickelt.
 
 #### Verlags-Software
 
 Da im Sinne der "scholar-led infrastructure" zunehmend
 Universitätsverlage gegründet werden, existieren hier auch eigene
-Software-Lösungen für die Verwaltung der Titel, Lagerbestände,
+Softwarelösungen für die Verwaltung der Titel, Lagerbestände,
 Kund\*innen-, Adress- und Versanddaten. Häufig ist ein eigener Webshop
 mit entsprechenden Funktionalitäten integriert und es gibt
 Schnittstellen zur Buchhaltung und Auslieferung. Für kleinere Verlage
@@ -151,7 +150,7 @@ Dienstleistungsportfolio.
 
 #### Publikationsfonds-Verwaltung
 
-Publikationsfonds zur Finanzierung von Open-Access-Publikationen sind an
+Publikationsfonds zur Finanzierung von Open Access-Publikationen sind an
 vielen wissenschaftlichen Bibliotheken fest verankerte Hilfsmittel, um
 die Transformation des wissenschaftlichen Publikationswesens hin zu Open
 Access zu unterstützen. Durch sie werden anfallende *Article Processing
@@ -179,7 +178,7 @@ beachten.
 
 #### Journal-Finder-Werkzeuge
 
-Neben den üblichen Fragen zu Lizenzen bei Open-Access-Publikationen
+Neben den üblichen Fragen zu Lizenzen bei Open Access-Publikationen
 spielt auch die Wahl eines geeigneten Journals eine zentrale Rolle.
 Derzeit verbreitete Journal-Finder-Werkzeuge wie
 *[B!SON](https://service.tib.eu/bison/)* oder der
@@ -201,10 +200,12 @@ Zentral für die Veröffentlichung jedweder Art von wissenschaftlichem
 Output ist ein geeigneter Ort für deren Veröffentlichung, ganz besonders
 im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 
-Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
-wissenschaftliche Ergebnisse etabliert, seien es [Forschungsdaten], textuelle
+Heute haben sich Open Access-Repositorien als verlässliche Speicherdienste für
+wissenschaftliche Ergebnisse etabliert, seien es Forschungsdaten, textuelle
+Publikationen oder andere Materialien. Für die wissenschaftliche Kommunikation
+ist dabei die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
 sichergestellt werden, dass publizierte Ergebnisse in der veröffentlichten Form
-erhalten werden, d. h. nicht verändert oder gelöscht werden. Da
+erhalten werden, das heißt nicht verändert oder gelöscht werden. Da
 Internetadressen als flüchtig gelten, werden zur Identifikation [Persistent
 Identifier-Systeme](#persistent-identifier) eingesetzt. Die Zitierfähigkeit und
 damit der langfristige, möglichst originalgetreue Erhalt der einmal
@@ -307,7 +308,7 @@ Umfrageergebnisse). Klar davon abzugrenzen sind
 
 :::
 
-![Darstellungen des Forschungsdaten-Lebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus width=50%}
+![Darstellungen des Forschungsdatenlebenszyklus in unterschiedlichen Detailgraden helfen bei der Betrachtung der benötigten Werkzeuge für die forschungsnahen Dienste.](media/fd-lifecycle.svg){#fig-forschungsdatenlebenszyklus width=50%}
 
 Die Schnittmenge von Forschungsdaten und Forschungsinformationen liegt, wie in
 @fig-fis-fdm dargestellt, im Bereich Publikationen. Während sich allerdings
@@ -320,11 +321,11 @@ und [Forschungssoftware](#forschungssoftware) mit ein.
 
 Services zum Forschungsdatenmanagement (*FDM*) sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
-gesamten Forschungsdaten-Lebenszyklus hinweg, d. h. von der Datenplanung
+gesamten Forschungsdatenlebenszyklus hinweg, d. h. von der Datenplanung
 über die Datenerhebung und -analyse bis hin zur Datenarchivierung,
 -publikation und -nachnutzung. Bibliotheken nehmen beim Aufbau und
 Betrieb entsprechender Services eine zentrale Rolle ein - in aller Regel
-sind sie hierbei nicht die einzigen Akteur\*innen, sondern das
+sind sie hierbei nicht die einzigen Akteure, sondern das
 Serviceportfolio wird arbeitsteilig von
 Bibliotheken, Rechenzentren, Forschungsabteilungen und ggf. weiteren
 Akteur\*innen angeboten. Angesichts der großen Heterogenität
@@ -360,13 +361,14 @@ Fragelisten und fest definierte Ausgabeformate lässt sich so ein
 menschen- und maschinenlesbares Dokument generieren. Um diese
 Fragenkataloge einheitlich zur Verfügung zu stellen und ggf. mit
 einrichtungs- oder programmspezifischen Daten anzureichern, wurden
-bereits einige Software-Werkzeuge entwickelt. In Deutschland verbreitet
-einem von der Deutschen Forschungsgemeinschaft (DFG) geförderten Projekt entstandene 
-*[Research Data Management Organizer](https://rdmorganiser.github.io/)* (*RDMO*), für
-den, unterstützt durch *NFDI*-Konsortien, ständig neue Fragenkataloge
-in einer Gemeinschaftsarbeit entwickelt werden. Obwohl einige
+bereits einige Softwarewerkzeuge entwickelt. In Deutschland verbreitet
+ist die in einem von der Deutschen Forschungsgemeinschaft (DFG) geförderten Projekt entstandene 
+[Research Data Management Organizer](https://rdmorganiser.github.io/) (RDMO).
+
+Für diesen werden, unterstützt durch *NFDI*-Konsortien, 
+in einer Gemeinschaftsarbeit ständig neue Fragenkataloge entwickelt werden. Obwohl einige
 öffentliche Instanzen der Software existieren, die z. B. einen Login
-über die *ORCID* ermöglichen, kann die Open-Source-Software auch selbst
+über die *ORCID* ermöglichen, kann die Open Source-Software auch selbst
 gehostet und inhaltlich sowie visuell auf die Bedarfe der jeweiligen
 Einrichtung zugeschnitten werden. *DMP* können innerhalb dieser Software
 kollaborativ erstellt werden, indem Personen als Mitarbeitende in
@@ -379,15 +381,15 @@ als Forschungsdatum beginnen sich Softwaremanagementpläne zu etablieren.
 ### Elektronische Laborbücher
 
 Die Dokumentation der Forschungsergebnisse ist ein zentraler Punkt im
-Forschungsdaten-Lebenszyklus. Digital entstandene Daten sollten ohne
+Lebenszyklus von Forschungsdaten. Digital entstandene Daten sollten ohne
 Medienbruch mit ihrer Dokumentation verknüpft und zugehörige Metadaten
-erfasst werden. Hierzu gibt es eine Reihe dedizierter Software-Lösungen,
+erfasst werden. Hierzu gibt es eine Reihe dedizierter Softwarelösungen,
 die unter dem Begriff elektronische Laborbücher (abgekürzt häufig *ELN*
 von *electronic laboratory notebook*) zusammengefasst werden. Neben
 kommerziellen Programmen wie
 *[LabFolder](https://labfolder.com/de/)*, bei denen
 Bibliotheken eher in der Rolle des\*der Vermittelnden sind, gewinnen
-Open-Source-Lösungen zunehmend an Bedeutung. Diese können Bibliotheken
+Open Source-Lösungen zunehmend an Bedeutung. Diese können Bibliotheken
 auf eigenen Servern hosten und selbst administrieren, sind jedoch bei
 der Entwicklung neuer Features auf eine Community bzw. den\*die Entwickler\*in
 oder eigene Fachkräfte angewiesen. Beispiele sind hier
@@ -396,7 +398,7 @@ bzw. *[Chemotion](https://chemotion.net/)* für eine eher
 fachspezifische Lösung. Eine [Handreichung zur Einführung eines
 *ELN*](https://doi.org/10.17192/bfdm.2023.5.8553) an der
 eigenen Einrichtung wurde 2023 von einer einrichtungsübergreifenden
-Autor\*innengruppe erstellt. Open-Source-*ELN* erfahren häufig
+Autor\*innengruppe erstellt. Open Source-*ELN* erfahren häufig
 Unterstützung durch *NFDI*-Konsortien. Der daraus entstandene Wunsch
 eines einheitlichen Transferformats der Laborbucheinträge und
 gemeinsamer Spezifikationen wird im *[ELN
@@ -466,7 +468,7 @@ sollte zum Standardangebot zählen. Für eine interaktive
 wissenschaftliche Datenauswertung bietet sich zusätzlich der Betrieb
 eines *[JupyterHub](https://jupyter.org/hub)* an. Dieser
 ermöglicht die Nutzung von Jupyter Notebooks auf einem zentralen Server
-der Einrichtung und ist so nicht abhängig von den jeweiligen
+der Einrichtung und ist so unabhängig von den jeweiligen
 Rechenleistungen der verfügbaren Endgeräte. Zusätzlich sollte geprüft
 werden, inwiefern eine Archivierung der Software bzw. eines gesamten
 Repositoriums in der eigenen Infrastruktur nötig und sinnvoll ist.
@@ -607,7 +609,7 @@ zwischen Wissenschaft und Infrastruktureinrichtungen, welche die Dienste
 betreiben. Zertifikate erfüllen in diesem Zusammenhang verschiedene
 Funktionen. Sie sind als vertrauensbildende Maßnahmen gedacht, die
 Qualitätsmerkmale der Dienstleistungen sein sollen. Das
-*[DINI-Zertifikat für Open-Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)*
+*[DINI-Zertifikat für Open Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)*
 versteht sich seit jeher auch als Ratgeber bei Einrichtung,
 Weiterentwicklung und Betrieb solcher Dienstleistungen, der "Maßstäbe,
 Richtlinien und Best Practices" vermitteln will. Letztlich dienen
@@ -629,8 +631,7 @@ zu nutzen; sowohl beim Aufbau neuer Dienste als auch zur regelmäßigen
 Überprüfung des eigenen Dienstes mit Blick auf neue Entwicklungen und
 Optionen eigene Dienste weiterzuentwickeln.
 
-Schon im *[Bethesda Statement on Open Access
-Publishing](http://legacy.earlham.edu/~peters/fos/bethesda.htm)* taucht das
+Schon im *[Bethesda Statement on Open Access Publishing](http://legacy.earlham.edu/~peters/fos/bethesda.htm)* taucht das
 Stichwort Interoperabilität in Zusammenhang mit Repositorien auf. Dazu gibt es
 verschiedene technische Ansätze (siehe u. a. unten
 "[Schnittstellen](#schnittstellen)"). Neben den technischen Voraussetzungen, um
@@ -664,7 +665,7 @@ auch unabhängig von DOIs zur Beschreibung von Forschungsdaten genutzt wird.
 Darüber hinaus entwickeln die verschiedenen Fachdisziplinen eigene
 domänenspezifische Standards. Eine Aufgabe wissenschaftlicher Bibliotheken
 besteht in der Beratung bei der Auswahl geeigneter Metadatenschemata und
-Standards. Übersichten gibt es unter Anderem bei
+Standards. Übersichten gibt es unter anderem bei
 [FAIRsharing.org](https://fairsharing.org/search?fairsharingRegistry=Standard),
 [forschungsdaten.info](https://www.forschungsdaten.info/themen/beschreiben-und-dokumentieren/metadaten-und-metadatenstandards)
 und [format.gbv.de](https://format.gbv.de/).
@@ -715,7 +716,7 @@ Kultur".
 
 Die dauerhafte Aufbewahrung und Lesbarkeit von digitalen Objekten zu
 gewährleisten, stellt auch für Bibliotheken, die zunehmend für die Archivierung
-von Open-Access-Publikationen, Forschungsdaten und anderen elektronischen
+von Open Access-Publikationen, Forschungsdaten und anderen elektronischen
 Ressourcen verantwortlich sind, eine große Herausforderung dar. Die sogenannte
 **digitale Langzeitarchivierung (*LZA*)** beinhaltet neben der Speicherung
 zusätzliche Maßnahmen wie die regelmäßige Überprüfung der Datenintegrität, die
@@ -738,7 +739,7 @@ Referenzmodell für digitale Archivierung *OAIS* (*[Open Archival Information
 System, ISO 14721:2025](https://www.iso.org/standard/87471.html)*) und bieten
 neben den Standardfunktionen eines Archivsystems (z. B. bitstream-preservation,
 regelmäßige Integritätstests, Reduplizierung) auch Funktionen wie eine
-Format-Validierung und implementierbare Workflows.
+Formatvalidierung und implementierbare Workflows.
 
 Auf der Webpage [COPTR](https://coptr.digipres.org/) - Community Owned
 digital Preservation Tool Registry - werden diese und zahlreiche weitere
@@ -773,10 +774,10 @@ Für das Einbringen von Daten in Repositorien hat sich das Protokoll
 *[Simple Webservice Offering Repository
 Deposit](https://swordapp.org/)* (*SWORD*) durchgesetzt, wobei
 auf die genaue Version dieses Standards geachtet werden muss. Einige
-Open-Access-Verlage bieten an, Dokumente über *SWORD* direkt in
+Open Access-Verlage bieten an, Dokumente über *SWORD* direkt in
 Repositorien zu übertragen.
 *[DeepGreen](https://info.oa-deepgreen.de/)*, ein
-Lieferdienst für Open-Access-Artikel, versorgt Repositorien über *SWORD*
+Lieferdienst für Open Access-Artikel, versorgt Repositorien über *SWORD*
 mit Verlagsinhalten.
 
 Speziell für die Arbeit mit Bildern, Bildviewern und Bilddatenbanken
@@ -811,12 +812,12 @@ weitere neue Protokolle vorgeschlagen. Hierzu zählt Signposting, das
 typisierte Links einsetzt, um von einer Ressource auf andere in
 Verbindung stehende Ressourcen zu verlinken und so die Auffindbarkeit
 durch Crawler und Bots erleichtern soll. Derzeit ist offen, ob Signposting sich durchsetzt. 
-Wenn möglich, sollte sollte es in Repositorien aktiviert werden.
+Wenn möglich, sollte es in Repositorien aktiviert werden.
 
 Eine aktuelle Entwicklung ist das *[Notify
 Project](https://www.coar-repositories.org/notify/)*, das
-ebenfalls von *COAR* betrieben wird. *Notify* soll es ermöglichen, dass
-verschiedene forschungsnahe Dienste sich Nachrichten über Aktivitäten
+ebenfalls von *COAR* betrieben wird. *Notify* soll es ermöglichen, dass sich
+verschiedene forschungsnahe Dienste Nachrichten über Aktivitäten
 senden und so auf Ressourcen aufmerksam machen. Als Beispiele gelten
 automatisiert ablaufende Aktivitäten zwischen einem textuellen
 Repositorium und einem Forschungsdatenrepositorium oder zwischen einem
@@ -890,12 +891,12 @@ Wird die Verwendung einer bestimmten Software gefordert oder eine
 bestimmte Art, die Software einzusetzen, die nicht im
 Dienstleistungsportfolio der Verbundzentralen liegt, bietet sich die
 Zusammenarbeit mit externen, kommerziellen Dienstleistern an. Wo immer
-möglich, sollte Software von Open-Source-Communities Vorrang vor
+möglich, sollte Software von Open Source-Communities Vorrang vor
 proprietärer Software genießen, da sie vor Abhängigkeiten von einzelnen
 Anbietern schützt und Weiterentwicklungen, welche in die Community
 eingebracht werden, von anderen Einrichtungen wiederverwendet werden
 können. Vor allem im Bereich der forschungsnahen Dienste sind
-Open-Source-Lösungen oft vorherrschend. Ziel von
+Open Source-Lösungen oft vorherrschend. Ziel von
 Infrastruktureinrichtungen sollte es sein, das zu erhalten, anstatt
 den Aufbau proprietärer Software und neuer Oligopol- oder
 Monopolstellungen zuzulassen. Der Mehrwert, den IT-Dienstleister bieten,
@@ -907,19 +908,19 @@ des Dienstes auf lokaler Infrastruktur oder auch ein
 Betreuung einzukaufen.
 
 Bei der Wahl des Anbieters gilt es, auf dessen Erfahrung im Umgang mit
-Open-Source-Projekten allgemein und mit der gewünschten Software im
-Speziellen zu achten. Genau wie nach Referenzen zu vergleichbaren
+Open Source-Projekten allgemein und mit der gewünschten Software im
+Speziellen zu achten. Genau wie sich nach Referenzen zu vergleichbaren
 Projekten zu erkundigen, lohnt es sich, nach konkreten bereits geleisteten
-Beiträgen zu der jeweiligen Open-Source-Lösung zu fragen. Wenn die
-Open-Source-Lizenzen der jeweiligen Software keine Auflage machen, dass
+Beiträgen zu der jeweiligen Open Source-Lösung zu fragen. Wenn die
+Open Source-Lizenzen der jeweiligen Software keine Auflage machen, dass
 Weiterentwicklungen unter derselben Lizenz verbreitet werden müssen,
 sollte die Frage, unter welcher Softwarelizenz Weiterentwicklungen
 stehen, zwingend im Vertrag geklärt werden.
 
 Besonders weit verbreitete Softwarelösungen haben große
-Entwicklergemeinschaften, die es einerseits zu unterstützen gilt, andererseits
-auch die Community-getriebene Entwicklungsrichtung der Software zu
-beachten ist. Ist der gewünschte Dienstleister noch neu, ist zumindest
+Entwicklergemeinschaften, die es einerseits zu unterstützen gilt, andererseits ist
+auch die Communitygetriebene Entwicklungsrichtung der Software zu
+beachten. Ist der gewünschte Dienstleister noch neu, ist zumindest
 eine anderweitige Erfahrung in ähnlichen Projekten wünschenswert. Eine
 Recherche in öffentlichen Software-Repositorien der Projekte kann hier
 zielführend sein.
@@ -940,7 +941,7 @@ kein zusätzliches Personal bzw. keine eigene Infrastruktur einplanen muss.
 Beispiele hierfür sind der Repository-Service
 *[Reposis](https://www.gbv.de/informationen/Verbundzentrale/serviceangebote/reposis-repository-service)*
 des GBV oder das Langzeitarchiv
-*[Ewig](https://ewig.zib.de/)* des KOBV. Die Frage nach der Umsetzung von Diensten mit externer Hilfe allgemein im @sec-management behandelt.
+*[Ewig](https://ewig.zib.de/)* des KOBV. Die Frage nach der Umsetzung von Diensten mit externer Hilfe allgemein wird in @sec-management behandelt.
 
 Wie das vorliegende Kapitel gezeigt hat, umfassen diese
 Services auch eine Vielzahl an IT-Diensten, so z. B.

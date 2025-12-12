@@ -36,7 +36,7 @@ werden, bei der bereits seit dem 19. Jahrhundert analoge Dokumente mit
 dem Ziel der Langzeiterhaltung, der Vervielfältigung oder als
 platzsparender Ersatz für Originale in ein anderes analoges Format
 transformiert wurden. Die Überführung in digitale Formate begann in den
-1990er Jahren. Das Ziel war hier zunächst vor allem die weltweite
+1990er-Jahren. Das Ziel war hier zunächst vor allem die weltweite
 Zugänglichmachung von besonderen Werken oder Beständen für die
 wissenschaftliche Nutzung. Waren es zunächst vor allem bedeutende
 Druckwerke des 16., 17. und 18. Jahrhunderts, die digitalisiert wurden,
@@ -60,7 +60,7 @@ gepflegt werden. Die DFG hat darüber hinaus mit dem
 DFG-Förderung gehört auch, dass jedes Werk nur einmal digitalisiert werden
 soll.
 
-Eine weitere große Digitalisierungs-Initiative ging und geht von Google
+Eine weitere große Digitalisierungsinitiative ging und geht von Google
 aus, die weltweit und in Deutschland insbesondere bei der Bayerischen
 Staatsbibliothek in großem Umfang alte Druckwerke digitalisieren (Google
 Books).
@@ -101,7 +101,7 @@ auch mit aufwändiger semantischer Auszeichnung erfolgen. Die von der DFG
 geförderte Initiative OCR-D erstellt Werkzeuge und Infrastrukturen, um
 für die Werke des 16., 17. und 18. Jahrhunderts, aber auch für viele
 weitere Digitalisate eine effiziente und alltagstaugliche
-Volltext-Erstellung zu ermöglichen.
+Volltexterstellung zu ermöglichen.
 
 Außer Druckwerken und Handschriften werden zunehmend weitere Medien und
 Objekte digitalisiert. Das sind nicht nur einschlägige Textdokumente aus
@@ -147,7 +147,7 @@ ab, deren Wichtigkeit gegeneinander abzuwägen ist. Dazu zählen
 beispielsweise
 
 -   die bestehenden Kapazitäten: verfügbare Scanverfahren,
-    Arbeitsplätze, personelle Verfügbarkeiten),
+    Arbeitsplätze, personelle Verfügbarkeiten,
 
 -   die technischen Ausstattung: Scanner, Speicherkapazität, Anbindung
     an eine Langzeitarchivierung
@@ -170,14 +170,14 @@ vorbereitende Schritte. Dazu gehören z.B.
 -   das Ausheben der Werke aus dem Bestand
 
 -   das Überprüfen und ggf. das Herstellen der
-    Digitalisierungs-Tauglichkeit
+    Digitalisierungstauglichkeit
 
 -   das Anlegen von Vorgängen im Workflowmanagementsystem
 
 -   das Erzeugen von Laufzetteln
 
 -   die Vorbereitung von Übergaben physischer Objekte an etwaige
-    Scan-Dienstleister
+    Scandienstleister
 
 ### Digitalisieren
 
@@ -198,9 +198,8 @@ für die Webpräsentation werden nachgelagert erzeugt oder dynamisch von
 einem Bildserver zur Verfügung gestellt.
 
 Für die verschiedenen Digitalisierungsvorhaben bilden die
-[DFG-Praxisregeln](https://doi.org/10.5281/zenodo.7435724)
-eine gute Orientierungshilfe - für die Auflösung, den Farbraum oder
-andere technische Parameter. Für die Beurteilung und Sicherstellung der
+[DFG-Praxisregeln](https://doi.org/10.5281/zenodo.7435724) für die Auflösung, den Farbraum und
+andere technische Parameter eine gute Orientierungshilfe. Für die Beurteilung und Sicherstellung der
 objektiven Bildqualität haben sich zudem Digitalisierungsstandards
 etabliert, die mittlerweile auch von Scannerherstellern und
 Scandienstleistern berücksichtigt werden. Erwähnenswert sind hier vor
@@ -226,7 +225,7 @@ Objekte, wie Globen, Spiel- oder PopUp-Bücher oder historische Objekte des
 Buchdrucks wie Lettern, Teil eines Bestandes sein können. In diesen Fällen hat
 sich eine Digitalisierung in allen drei Dimensionen als ein entscheidendes
 Werkzeug erwiesen, um die Mehrdimensionalität in digitale Formate zu übertragen
-und um über Inhalte hinaus den Zustand und Details als Kulturerbe-Objekte
+und um über Inhalte hinaus den Zustand und Details als Kulturerbeobjekte
 wiederzugeben. Dies betrifft ebenso seltene Bücher und Manuskripte mit
 einzigartigen oder kunstvollen Bindungen. Um die drei Dimensionen angemessen
 abzubilden, sind [spezielle Erfassungsmethoden](#scanner-und-scanverfahren)
@@ -236,7 +235,7 @@ notwendig.
 
 Bibliotheken und andere GLAM-Einrichtungen archivieren häufig auch
 analoge audiovisuelle Medien. Für die Digitalisierung der
-unterschiedlichen Quellen (z.B. Magnettonbänder, Film von 8mm bis 35mm,
+unterschiedlichen Quellen (z.B. Magnettonbänder, Film von 8\ mm bis 35\ mm,
 Selbstschnittplatten, Videobänder) werden im Falle einer
 Massendigitalisierung zumeist externe Dienstleister beauftragt, sodass
 die Herausforderungen hier in erster Linie in der inhaltlichen
@@ -268,7 +267,7 @@ Kontext der Digitalisierung sind drei Arten von Metadaten (@sec-arten-von-metada
 Bibliografische Basisdaten wie auch strukturelle Metadaten können in
 einem WMS entweder importiert oder manuell erfasst werden. Viele der
 Systeme sind dafür individuell konfigurierbar und können je nach Art des
-Projektes angepasst werden. Ein wichtiges Metadatum sind
+Projektes angepasst werden. Wichtige Metadaten sind
 [Identifikatoren](#identifikatoren)
 (URN, DOI, PURL ...) und deren Generierung. Für die Strukturierung von
 Textdokumenten ist das [Stukturdatenset für den
@@ -331,12 +330,12 @@ ausgewählt und konfiguriert werden. Basis für Präsentationslösungen sind
 die im Workflow erzeugten standardisierten XML-Files (METS/MODS).
 
 Funktional wird von einer Präsentationslösung eine konfigurierbare
-Recherche-Umgebung für Metadaten und Volltexte erwartet. Bei der
+Rechercheumgebung für Metadaten und Volltexte erwartet. Bei der
 Präsentation des einzelnen Objektes werden die Strukturdaten zusammen
 mit den dazu erfassten Metadaten als Inhaltsverzeichnis angeboten und es
 werden zur Arbeit mit den Scans Bildwerkzeuge erwartet (z.B. Zoomen,
 Rotieren, Thumbnail-Übersicht). Zunehmend wichtige Funktionen sind
-Download-Angebote oder die Bereitstellung von iiif-Manifesten zur
+Downloadangebote oder die Bereitstellung von IIIF-Manifesten zur
 Weiternutzung in anderen Viewern.
 
 Mit dem [DFG-Viewer](http://dfg-viewer.de/) existiert eine
@@ -344,9 +343,9 @@ Minimallösung für die Anzeige von Digitalisaten, die aus dem Katalog
 verlinkt werden kann. Für eine umfassendere Präsentation von
 Digitalisaten entscheiden sich Einrichtungen für eine Integration der
 Digitalisate in ein existierendes Repositorium oder für den Aufbau von
-Web-Angeboten mit speziellen Werkzeugen für Digitalisate wie z. B.
+Webangeboten mit speziellen Werkzeugen für Digitalisate wie z. B.
 *Kitodo.Presentation*. Ein wichtiges Element für mehr Sichtbarkeit der
-eigenen Digitalisierungs-Aktivitäten ist eine Datenlieferung an die
+eigenen Digitalisierungsaktivitäten ist eine Datenlieferung an die
 Deutsche Digitale Bibliothek.
 
 Zunehmend relevanter wird die Suche nach Lösungen für eine Präsentation
@@ -359,7 +358,7 @@ Präsentationslösungen auf Basis dieser Metadaten befinden sich noch im
 Abstimmungsprozess oder der Entwicklung.
 
 Wikimedia Commons kann darüber hinaus als Medienspeicher fungieren. 
-Von dort werden digitalisierte Objekte und 'born digital'-Dokumente in Wikipedia und andere Webseiten eingebettet. Die Erschließung mit strukturierten Daten erfolgt mittels Wikidata
+Von dort werden digitalisierte Objekte und "born digital"-Dokumente in Wikipedia und andere Webseiten eingebettet. Die Erschließung mit strukturierten Daten erfolgt mittels Wikidata
 (siehe [Digitalisierung als Beitrag zur Open GLAM-Bewegung](#digitalisierung-als-beitrag-zur-open-glam-bewegung)).
 
 ## Werkzeuge
@@ -391,12 +390,12 @@ und gleichbleibende Bildqualität zu gewährleisten, ist eine regelmäßige
 Kalibrierung der Systeme und Auswertung der Aufnahmen anhand von
 Test-Targets (z.B. UTT-Target oder GoldenThread) erforderlich. Neben der
 Hardware unterscheiden sich Scanner in der Software, durch die Rohdaten
-des Scanners für die weitere Nutzung bearbeitet (z.B. beschneidet oder
-glättet), optimiert und in gewünschten Zielformaten speichert.
+des Scanners für die weitere Nutzung bearbeitet (z.B. beschnitten oder
+geglättet), optimiert und in gewünschten Zielformaten gespeichert werden.
 
 #### 3D
 
-Bei der 3D-Erfassung eines Objektes kann zwischen photo- und
+Bei der 3D-Erfassung eines Objektes kann zwischen foto- und
 scanbasierten Verfahren unterschieden werden.
 
 So werden bei der Photogrammetrie Fotos aus verschiedenen Blickwinkeln
@@ -405,7 +404,7 @@ Hilfe von Software zu einem 3D-Modell verarbeitet werden können. Nach
 diesem Prinzip funktionieren auch 3D-Scanning-Apps für Smartphones, die
 3D-Scans von Objekten mithilfe der Kamera eines Smartphones ermöglichen.
 
-Demgegenüber stehen verschiedene Scanverfahren. Beim Laser-Scanning
+Demgegenüber stehen verschiedene Scanverfahren. Beim Laserscanning
 werden z.B. Laserstrahlen auf das Objekt gerichtet, und die
 reflektierten Daten werden verwendet, um ein präzises 3D-Modell zu
 erstellen. Neben dem Laser lassen sich solche 3D-Modelle auch mit
@@ -425,9 +424,9 @@ seine Achse, bei einem Pop-up Buch lässt sich eine Lasche herausziehen
 usw.) unter Umständen auch im Digitalisat nachvollziehbar bleiben.
 Besteht das Originalobjekt aus Einzelteilen und werden diese
 entsprechend in Segmenten digitalisiert, können diese Segmente
-interaktiv nutzbar gemacht werden oder/und Animationen eingesetzt
+interaktiv nutzbar gemacht werden und/oder Animationen eingesetzt
 werden. Ein einfacher Scan reicht in diesem Fall nicht aus, da hier
-lediglich \"die Hülle im Ganzen\" erfasst wird. Eine manuelle
+lediglich "die Hülle im Ganzen" erfasst wird. Eine manuelle
 Nachbearbeitung ist nötig.
 
 ### Workflowmanagementsysteme
@@ -445,7 +444,7 @@ der im Prozess befindlichen Objekte zu speichern und darzustellen.
 Aufgrund der hohen Spezialisierung ist die Auswahl an WMS für
 bibliothekarische Digitalisierungsprozesse überschaubar. Dazu gehören
 sowohl kommerzielle Produkte, wie z.B. [Visual Library](https://www.semantics.de/visual_library/)
-aber auch frei verfügbare Open Source Systeme wie [*Kitodo*](https://www.kitodo.org/).
+aber auch frei verfügbare Open Source-Systeme wie [*Kitodo*](https://www.kitodo.org/).
 
 Der wesentliche Unterschied zwischen den Tools -- neben der Frage der
 Lizenz -- ist deren Modularität. Bei einigen Lösungen sind z.B. die
@@ -474,7 +473,7 @@ Präsentation und Verwendung von Objekten in unterschiedlichen
 Zusammenhängen.
 
 Für einzelne Ressourcentypen und Anwendungen existieren oft genauere
-Anwendungsprofile, die die Verwendung von Metadaten-Standards erweitern
+Anwendungsprofile, die die Verwendung von Metadatenstandards erweitern
 oder einschränken.
 
 **Beispiel:** Das
@@ -506,20 +505,20 @@ grundsätzlich [drei Betriebsmodelle](management.md#sec-betriebsmodelle) denkbar
     dabei keine eigene Expertise notwendig ist oder aufgebaut werden
     soll.
 
--   **Hybrid-Lösungen:** Es werden nur Teile des Prozesses ausgelagert,
+-   **Hybridlösungen:** Es werden nur Teile des Prozesses ausgelagert,
     z.B. das Scannen der Objekte, während z. B. die
     Inhaltsanreicherung durch Metadaten im Haus verbleibt.
 
-Die Hybrid-Variante wird im Alltag am häufigsten umgesetzt. Die
+Die Hybridvariante wird im Alltag am häufigsten umgesetzt. Die
 Herausforderung besteht darin, die Schnittstellen zwischen externen und
 internen Prozessen genau zu definieren und festzulegen. So muss zum
-Beispiel externen Scan-Dienstleistern Zugriff auf das intern betreute
+Beispiel externen Scandienstleistern Zugriff auf das intern betreute
 Workflowmanagementsystem gewährt werden, damit digitalisierte Objekte
 direkt im System abgelegt werden können.
 
 ## Digitalisierung als Beitrag zur Open GLAM-Bewegung
 
-Mit Digitalisierung leisten Bibliotheken und andere GLAM-Einrichtungen
+Mit der Digitalisierung leisten Bibliotheken und andere GLAM-Einrichtungen
 wichtige Beiträge dazu, dass Kulturgüter weltweit zugänglich, gut
 auffindbar und nachnutzbar sind. Neben der einrichtungseigenen
 Präsentation und aggregierenden Portalen wie der "Deutschen Digitalen
@@ -538,8 +537,8 @@ Texten, Illustrationen und Sammlungen -- als freies Wissen.
 
 Hackathons und Editathons sind Veranstaltungsformate, um kurzfristig die
 Bekanntheit digitaler Sammlungen zu steigern, Datenexperimente zu
-ermöglichen und Datenkollaborationen in Pilotprojekten anzustoßen. Dabei
-können Impulse entstehen für weiterentwickelte Datenanwendungen.
+ermöglichen und Datenkollaborationen in Pilotprojekten anzustoßen und dabei
+können Impulse für weiterentwickelte Datenanwendungen entstehen.
 Lerneffekte entstehen dabei nicht nur bei den beteiligten Menschen,
 sondern auch institutionell bei den beteiligten Bibliotheken und anderen
 GLAM, die ggf. Bedürfnisse, Ideen und Defizite von Nutzenden
@@ -575,7 +574,7 @@ deren Grundprinzipien von Offenheit und Referenzierbarkeit die
 bibliothekarischen Erschließungs- und Präsentationskomponenten ergänzen:
 
 -   **Wikimedia Commons** fungiert als zentraler Medienspeicher.
-    Die Erschließung kann bis zur Details von Bildpositionen reichen.
+    Die Erschließung kann bis zu Details von Bildpositionen reichen.
     Die Illustrationen dieses Handbuchs sind in Wikimedia Commons
     [in einer Medienkategorie](https://commons.wikimedia.org/wiki/Category:Handbuch_IT_in_Bibliotheken)
     gebündelt (siehe Abbildungsverzeichnis im @sec-abbildungen).
@@ -593,7 +592,7 @@ bibliothekarischen Erschließungs- und Präsentationskomponenten ergänzen:
 -   **Wikisource** ist eine Quellensammlung gemeinfreier Werke und besteht
     sowohl aus transkribierten Volltexten und deren Illustrationen als
     auch thematischen Linksammlungen zu relevanten Digitalisaten in
-    Digitalen Sammlungen öffentlicher und wissenschaftlicher
+    digitalen Sammlungen öffentlicher und wissenschaftlicher
     Bibliotheken, Archive, Museen und Galerien (GLAM).
 
 Herausforderungen aus IT-bibliothekarischer Sicht bestehen darin,
@@ -678,7 +677,7 @@ Nutzerfeedback zur Verbesserung der digitalen Sammlungen.
 **Veröffentlichung und Dissemination:**
 
 18. *Verbreitung*: Planen Sie die Verbreitung der digitalisierten
-Sammlungen über Online-Kanäle, soziale Medien und Partnerschaften.
+Sammlungen über Onlinekanäle, soziale Medien und Partnerschaften.
 
 19. *Marketing*: Entwickeln Sie Marketingstrategien, um die digitalen
 Sammlungen einem breiten Publikum bekannt zu machen.
@@ -708,12 +707,12 @@ Volltexten auf den Weg, mit Hilfe ausgewählter Tools aus dem Feld des
 Maschinenlernens, ihre Suche semantisch anzureichern auf Basis der
 vorgeschalteten automatisierten Analyseverfahren.
 
-Mit dem großen Schatz der Volltexte wird es darüber hinaus wichtiger
-werden, diesen auch den Forscher:innen zusätzlich über eine API
-anzubieten, um individuelle Korpora für den Download in eigene
-Umgebungen zusammenstellen zu können. Hier landet man dann auch schnell
-bei der Suche nach weitergehenden nachhaltigen Lösungen für
-urheberrechtlich geschützte Materialien.
+Mit dem großen Schatz der Volltexte wird es darüber hinaus wichtiger werden,
+diesen auch den Forscher\*innen zusätzlich über eine API anzubieten, um
+individuelle Korpora für den Download in eigene Umgebungen zusammenstellen zu
+können. Bislang gibt es jedoch noch keine umfassende und nachhaltige Lösung,
+die sowohl flexible Forschungsmöglichkeiten als auch den Schutz von
+Urheberrechten vollständig gewährleistet.
 
 Aber auch die kollaborativen Aktivitäten an einzelnen Digitalisaten im
 Wikiversum oder in Citizen Science Projekten sind getragen von dem

@@ -16,8 +16,8 @@ Aufbau und [Betrieb](#betrieb) gegeben.
 
 ## Einleitung
 
-Als Discovery-Systeme werden Rechercheplattformen bezeichnet, die möglichst
-verfügbaren Ressourcen über einen einheitlichen Zugang nutzbar machen.
+Als Discovery-Systeme werden Rechercheplattformen bezeichnet, die möglichst 
+verfügbare Ressourcen über einen einheitlichen Zugang nutzbar machen.
 Insbesondere beschränken sich die recherchierbaren Medien nicht nur auf den
 lokalen Bibliotheksbestand. Die Benutzung und der Funktionsumfang von Discovery-Systemen
 orientieren sich dabei an gängigen Suchmaschinen und Verzeichnissen im Web.
@@ -30,14 +30,14 @@ insbesondere von studentischen Nutzer\*innen nur noch eine untergeordnete Rolle.
 Parallel zeichnete sich ab, dass die dritte Generation der
 Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte,
 vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer
-Funktionalitäten. Außerdem wurde Suchmaschinen-Technologie als Open
+Funktionalitäten. Außerdem wurde Suchmaschinentechnologie als Open
 Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen
 eigene Experimente mit der Indexierung bibliografischer Daten begannen.
 
 Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und
 zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von
 Produkten kommerzieller Anbieter\*innen und einige Open Source-Projekte.
-Discovery-Systeme können von Bibliotheken selbst oder durch Hosting-Anbieter
+Discovery-Systeme können von Bibliotheken selbst oder durch Hostinganbieter
 wie Verbundzentralen, Hersteller\*innen und kommerzielle Dienstleister\*innen betrieben
 werden. Die Hersteller\*innen kommerzieller Bibliotheksmanagementsysteme der neueren
 Generation bieten Discovery-Systeme an, die besonders gut mit dem
@@ -45,7 +45,7 @@ BMS (@sec-bibliotheksmanagementsysteme) der gleichen Hersteller\*innen
 zusammenarbeiten.
 
 Wenn Bibliotheken neben dem Bestandskatalog andere Repositorien betreiben
-(Dokumenten-Server, Digitalisate-Server, Forschungsdaten-Server etc.), ist die
+(Dokumentenserver, Digitalisateserver, Forschungsdatenserver etc.), ist die
 Einführung eines Discovery-Systems eine Möglichkeit, diese Datenbestände
 gemeinsam zugänglich zu machen.
 
@@ -125,11 +125,11 @@ etablierte Verfahren zur Relevanzberechnung für die Sortierung innerhalb der
 Trefferliste eingesetzt.
 
 Für die Bildung von Facetten aus den Einträgen der Trefferliste werden
-spezielle Daten ermittelt. Diese Facetten-Daten sind technisch gesehen
+spezielle Daten ermittelt. Diese Facetteneaten sind technisch gesehen
 Suchbegriffe und dienen der nachträglichen Verfeinerung der Trefferliste.
 Beispiele für Facetten, die zur Einschränkung genutzt werden, sind
 Namen von Autor\*innen, Schlagwörter, Medienarten, Standorte physischer 
-Medien, die Kennzeichnung von Open Access-Material und vieles mehr).
+Medien, die Kennzeichnung von Open Access-Material und vieles mehr.
 
 ### Funktionen
 
@@ -187,7 +187,7 @@ jedoch gut vorbereitet werden. Fehlen die entsprechenden Metadaten bei
 bestimmten Titeln, können durch Facettierung auch Treffer verloren gehen.
 
 Die Weiterverwendung der Suchergebnisse wird durch verschiedene
-Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per Mail
+Exportmöglichkeiten unterstützt. In der Regel lassen sich Angaben per E-Mail
 verschicken, ausdrucken oder in unterschiedlichen Formaten und Zitierstilen
 herunterladen.
 
@@ -329,15 +329,15 @@ verbreitet und nicht oder nur mit Aufwänden nachnutzbar. Im Rahmen einer
 strategischen Planung für den Einsatz eines Discovery-Systems muss daher
 abgewogen werden, ob und wie ein thematischer Sucheinstieg umgesetzt werden
 soll, zumal für eine Darstellung im Sinne einer optimalen User Experience
-jeweils auch erhebliche Design-Aufwände entstehen.
+jeweils auch erhebliche Designaufwände entstehen.
 
 ## Aufbau und Betrieb eines Discovery-Systems
 ### Betriebsmodelle
 
 Der Betrieb eines Discovery-Systems stellt vergleichbare Anforderungen
-und unterliegt ähnlichen Rahmenbedingungen wie beim [Betrieb eines BMS](bibliotheksmanagementsysteme.md#technischer-betrieb).
+und unterliegt ähnlichen Rahmenbedingungen wie der [Betrieb eines BMS](bibliotheksmanagementsysteme.md#technischer-betrieb).
 
-Im Inhouse-Betrieb werden alle Komponenten selbst durch die Bibliothek
+Im Inhousebetrieb werden alle Komponenten selbst durch die Bibliothek
 betrieben. Damit sind in diesem Szenario die weitestgehenden Anpassungen möglich. Ein
 vollständiger Inhouse-Betrieb erfolgt aufgrund der benötigten Ressourcen allerdings meist 
 nur bei kleinen oder sehr speziellen Datenbeständen
@@ -345,8 +345,8 @@ nur bei kleinen oder sehr speziellen Datenbeständen
 trifft man stattdessen auf hybride Lösungen, in denen neben einem vergleichsweise kleinen
 eigenen Index ein bestehender kommerzieller oder nicht-kommerzieller Index genutzt wird.
 
-In einem Hosting-Betrieb wird die gesamte Infrastruktur durch eine\*n
-Dienstleister\*in bereitgestellt. Dabei erfolgt die Indexierung in der Regel durch
+In einem Hosting-Betrieb wird die gesamte Infrastruktur durch einen
+Dienstleister bereitgestellt. Dabei erfolgt die Indexierung in der Regel durch
 einheitliche Indexierungsverfahren, die von allen teilnehmenden Bibliotheken
 gemeinsam genutzt werden. Bei diesen Lösungen werden alle Daten in einen
 einheitlich aufgebauten, in einer Cloud gehosteten Index eingespielt. Die
@@ -400,7 +400,7 @@ folgende Fragen:
 
 - Einbindung von Verfügbarkeitsinformationen
 
-- Datenschutzrechtliche Fragen (Ort des Hostings, Verfahrensbeschreibungen)
+- datenschutzrechtliche Fragen (Ort des Hostings, Verfahrensbeschreibungen)
 
 - Datenhoheit (siehe [Digitale Souveränität](#digitale-souveränität))
 
@@ -420,7 +420,7 @@ kommerzielle und frei verfügbare Komponenten wie Indizes und
 Bibliotheksmanagementsysteme anbinden. In den deutschsprachigen Ländern
 besteht eine lebendige Anwender\*innengemeinschaft, die sich regelmäßig trifft.
 Mit *[Qcovery](https://www.qcovery.de/)* und
-*[finc](https://finc.info/)* gibt es zwei Sub-Communities für
+*[finc](https://finc.info/)* gibt es zwei Subcommunities für
 wissenschaftliche Bibliotheken, die sich die Aufgaben der Pflege und
 Weiterentwicklung der Software unter sich aufteilen.
 
@@ -442,7 +442,7 @@ darüber hinaus für die nicht-kommerzielle Nutzung. Diese frei verfügbaren
 Indizes sind für Bibliotheken, die ihre Bestandsdaten an einen Verbund liefern,
 eine hervorragende Möglichkeit, um relativ kostengünstig an ein
 Discovery-System zu kommen, da die Erstellung eines eigenen Index mit hohen
-Investitionen verbunden ist. Metadaten-Kollektionen enthalten z. B. der ALBERT-Index
+Investitionen verbunden ist. Metadatenkollektionen enthalten z. B. der ALBERT-Index
 des Kooperativen Bibliotheksverbundes Berlin-Brandenburg sowie der Gemeinsame
 Verbündeindex für Bestandsdaten aus allen wissenschaftlichen sowie vielen
 Spezial- und öffentlichen Bibliotheken.
@@ -497,8 +497,7 @@ Discovery-Systeme angetreten, um sich konsequent nach dem Informationsverhalten
 der Nutzer\*innen auszurichten. Daraus ergibt sich, dass sowohl die
 Implementierung als auch die weitere Entwicklung möglichst kleinschrittig und
 unter Einbeziehung von Analysen der Nutzung erfolgen sollten. Neben Methoden
-der Usability-Forschung (siehe Abschnitt [Wie beziehen wir unsere Nutzer\*innen
-ein?](anforderungen.md#einbeziehung)) bietet sich als niedrigschwellige Methode
+der Usability-Forschung (siehe Abschnitt [Wie beziehen wir unsere Nutzer\*innen ein?](anforderungen.md#einbeziehung)) bietet sich als niedrigschwellige Methode
 vor allem die Analyse von Logfiles an. So kann z. B. mit der Software
 [Matomo](https://matomo.org/), auch unter Berücksichtigung von
 datenschutzrechtlichen Vorschriften, ermittelt werden, welche Anfragen an ein
@@ -538,15 +537,26 @@ Nutzungslizenzen zugeordnet sind.
 [ETL-Prozess]: metadaten.md#etl-prozess
 [ETL-Prozesse]: metadaten.md#etl-prozess
 
-                      OPAC/Katalog                                              Discovery-System
-  ------------------- --------------------------------------------------------- ----------------------------------------------------------------------------
-  Suchraum            nur lokaler Bestand, nur selbständige Werke               lokaler Bestand, aber auch Verbunddaten, bibliografische Daten, Volltexte etc.
-  Suchprinzip         exakte Suche, feldbasierte Suche mit Boolescher Logik     best match/natürlichsprachliche Suche
-  Suchunterstützung   eher wenig                                                Autovervollständigung, Suchvorschläge, Facetten
-  Sortierung          standardmäßig nach Aktualität                             standardmäßig nach Relevanz
-  Mehrwertdienste     Buchcover, Listen, Exportformate                          Buchcover, Listen, Exportformate, Stöbern/Entdecken
-  Metadatenmodell     bibliothekarisches Schema mit Hierarchien und Verweisen   "flache Version" eines bibliothekarischen Schemas
-
++---------------------+-----------------------------+----------------------------------------+
+|                     |OPAC/Katalog                 |Discovery-System                        |
++=====================+=============================+========================================+
+|Suchraum             |nur lokaler Bestand, nur     |lokaler Bestand, aber auch Verbunddaten,|
+|                     |selbständige Werke           |bibliografische Daten, Volltexte etc.   |
++=====================+=============================+========================================+
+|Suchprinzip          |exakte Suche, feldbasierte   |Autovervollständigung, Suchvorschläge,  |
+|                     |                             |Facetten                                |
++=====================+=============================+========================================+
+|Suchunterstützung    |eher wenig                   |best match/natürlichsprachliche Suche   |
+|                     |                             |                                        |
++=====================+=============================+========================================+
+|Sortierung           |standardmäßig nach Aktualität|standardmäßig nach Relevanz             |
++=====================+=============================+========================================+
+|Mehrwertdienste      |Buchcover, Listen,           |Buchcover, Listen, Exportformate        |
+|                     |Exportformate                |                                        |
++=====================+=============================+========================================+
+|Metadatenmodell      |bibliothekarisches Schema    |"flache Version" eines                  |
+|                     |mit Hierarchien und Verweisen|bibliothekarischen Schemas              |
++---------------------+-----------------------------+----------------------------------------+
  : Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System {#tbl-discovery-vs-opac}
  
 ## Grenzen und Alternativen
