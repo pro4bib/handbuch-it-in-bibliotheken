@@ -32,6 +32,7 @@ format:
       - text: |         
           \usepackage{libertine}
           \usepackage{orcidlink}
+          \definecolor{orcidlogocol}{HTML}{666666}
           \counterwithout{footnote}{chapter}
           \setmonofont[Scale=MatchLowercase]{LinLibertineMO}
     include-before-body:
