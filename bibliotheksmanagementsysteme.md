@@ -177,7 +177,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
                              Spezialbibliotheken und               
                              in den Niederlanden               
 
-  LIBERO     LIBERO/Knosys   ÖBs und WBs                nein       durch LIBERO
+  LIBERO     LIBERO/ Knosys  ÖBs und WBs                nein       durch LIBERO
   --------------------------------------------------------------------------------
 : relevante Software-Produkte (Stand Anfang 2024) {#tbl-aktuelle-sw-produkte}
 
@@ -832,7 +832,14 @@ Matrix geschehen, in der die Funktionalitäten nach ihrer
 Bedeutung/Wichtigkeit einerseits und den zu erwarteten Aufwänden
 andererseits eingeordnet werden.
 
+
+::: {.content-visible when-format="html"}
 ![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix.svg){#fig-matrix width=60%}
+:::
+
+::: {.content-visible when-format="pdf"}
+![Beispiel für eine Matrix zur Einordnung von Funktionalitäten](media/matrix-sw.svg){#fig-matrix width=60%}
+:::
 
 Zur Evaluierung der BMS können bestehende Anforderungskataloge für die
 Evaluierung von BMS herangezogen werden, zum Beispiel der gemeinsam

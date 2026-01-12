@@ -92,7 +92,7 @@ und das Netz- und Informationssystemsicherheitsgesetz (NISG).
 
 Ähnliche Gesetze wurden auch außerhalb der EU erlassen. So trat Anfang
 September 2023 in der Schweiz die neue Verordnung über
-Datenschutzzertifizierungen (VDSZ) in Kraft, welche sich an den
+Datenschutz-zertifizierungen (VDSZ) in Kraft, welche sich an den
 Grundzügen der DSGVO orientiert.
 
 Aufgrund der stetigen Weiterentwicklung von Software und neuen

@@ -97,7 +97,7 @@ einen iterativen Prozess setzen, welcher Produktweiterentwicklungen
 kontinuierlich bereitstellt und evaluiert.
 
 Unabdingbar sind der Einsatz eines Versionskontrollsystems (in der Regel
-*git*), ein Issue-Tracker und möglichst automatische Tests und Deployment
+*git*), Issue-Tracker und automatische Tests und Deployment
 (kontinuierliche Integration), sodass Änderungen am Quellcode direkt zu einer
 Aktualisierung der Test- und/oder Produktiv-Instanz der installierten Software
 führen.
@@ -121,17 +121,14 @@ Optimierung der Programmabläufe vorgenommen.
 
 Typischerweise verbleiben IT-Systeme, die grundlegende
 Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
-erstellt wurden, viele Jahre in dieser Phase. 
+erstellt wurden, viele Jahre in dieser Phase (siehe Beispiel @fig-verweildauer). 
 
-::: {.callout-tip title="Beispiel" collapse="true"}
+::: {.content-visible when-format="html"}
+![Lebenszeit (in Jahren) einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die Stand 2022 erst teilweise abgelöst wurden.](media/lifespan.svg){#fig-verweildauer}
+:::
 
-@fig-verweildauer
-illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der
-Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses
-Textes erst teilweise abgelöst wurden.
-
-![Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)](media/sw_lifespan.svg){#fig-verweildauer}
-
+::: {.content-visible when-format="pdf"}
+![Lebenszeit (in Jahren) einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die Stand 2022 erst teilweise abgelöst wurden.](media/lifespan-sw.svg){#fig-verweildauer}
 :::
 
 ### Ablösung
