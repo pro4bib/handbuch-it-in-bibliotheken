@@ -411,7 +411,7 @@ Abbildung&nbsp;3.1: Softwareentwicklungs-Lebenszyklus
 <h3 data-number="3.2.3" class="anchored" data-anchor-id="implementierung"><span class="header-section-number">3.2.3</span> Implementierung</h3>
 <p>Aufbauend auf einem gemeinsamen Verständnis der Anforderungen überführen Entwickler*innen Prototypen in lauffähigen Code. Wird im Rahmen des Projekts ein bestehendes System implementiert, werden die Prototypen zunächst in eine Testinstanz und in der Folge in die produktive Instanz des Systems überführt.</p>
 <p>In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit idealerweise schon möglichst vielen der gewünschten Features, während nutzer*innenorientierte Vorgehensmodelle (<a href="anforderungen.html" class="quarto-xref"><span>Kapitel 4</span></a>) hier auf einen iterativen Prozess setzen, welcher Produktweiterentwicklungen kontinuierlich bereitstellt und evaluiert.</p>
-<p>Unabdingbar sind der Einsatz eines Versionskontrollsystems (in der Regel <em>git</em>), ein Issue-Tracker und möglichst automatische Tests und Deployment (kontinuierliche Integration), sodass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder Produktiv-Instanz der installierten Software führen.</p>
+<p>Unabdingbar sind der Einsatz eines Versionskontrollsystems (in der Regel <em>git</em>), Issue-Tracker und automatische Tests und Deployment (kontinuierliche Integration), sodass Änderungen am Quellcode direkt zu einer Aktualisierung der Test- und/oder Produktiv-Instanz der installierten Software führen.</p>
 </section>
 <section id="test-und-integration" class="level3" data-number="3.2.4">
 <h3 data-number="3.2.4" class="anchored" data-anchor-id="test-und-integration"><span class="header-section-number">3.2.4</span> Test und Integration</h3>
@@ -420,32 +420,16 @@ Abbildung&nbsp;3.1: Softwareentwicklungs-Lebenszyklus
 <section id="wartung" class="level3" data-number="3.2.5">
 <h3 data-number="3.2.5" class="anchored" data-anchor-id="wartung"><span class="header-section-number">3.2.5</span> Wartung</h3>
 <p>Die Wartungsphase folgt auf die Produktivsetzung des IT-Systems. In dieser Lebensphase wird das System nicht mehr grundlegend weiterentwickelt, es werden jedoch Fehler (Bugs) entfernt und Anpassungen der Funktionsweise im Sinne der Parametrisierung oder eine Optimierung der Programmabläufe vorgenommen.</p>
-<p>Typischerweise verbleiben IT-Systeme, die grundlegende Geschäftsprozesse abbilden oder die nach individuellen Anforderungen erstellt wurden, viele Jahre in dieser Phase.</p>
-<div class="callout callout-style-simple callout-tip callout-titled" title="Beispiel">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tipp</span>Beispiel
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p><a href="#fig-verweildauer" class="quarto-xref">Abbildung&nbsp;<span>3.2</span></a> illustriert die Lebensspanne einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die zum Zeitpunkt der Erstellung dieses Textes erst teilweise abgelöst wurden.</p>
+<p>Typischerweise verbleiben IT-Systeme, die grundlegende Geschäftsprozesse abbilden oder die nach individuellen Anforderungen erstellt wurden, viele Jahre in dieser Phase (siehe Beispiel <a href="#fig-verweildauer" class="quarto-xref">Abbildung&nbsp;<span>3.2</span></a>).</p>
 <div id="fig-verweildauer" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-verweildauer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="media/sw_lifespan.svg" class="img-fluid figure-img">
+<img src="media/lifespan.svg" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-verweildauer-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;3.2: Lebenszeit (in Jahren) von Bibliothekssystemen in der Wartungsphase am Beispiel der Staatsbibliothek zu Berlin (Stand 2022)
+Abbildung&nbsp;3.2: Lebenszeit (in Jahren) einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die Stand 2022 erst teilweise abgelöst wurden.
 </figcaption>
 </figure>
-</div>
-</div>
-</div>
 </div>
 </section>
 <section id="ablösung" class="level3" data-number="3.2.6">
