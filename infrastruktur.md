@@ -75,7 +75,7 @@ Der
 Verbuchungsprozess beinhaltet eine Anmeldung (Ausweisnummer und ggf.
 Passwort), den eigentlichen Verbuchungsprozess inklusive Entsicherung
 der Medien, Ausgabe einer optionaler Quittung auf Papier oder als E-Mail sowie eine
-manuelle oder automatisierte Abmeldung (i. d. R. durch Wegnehmen des Benutzerausweises).
+manuelle oder automatisierte Abmeldung (i.d.R. durch Wegnehmen des Benutzerausweises).
 
 Bibliotheksausweise gibt es in verschiedenen Ausprägungen: Barcode
 (1D-Code), Funkchip (u. U. proprietär, Bsp.: Intercard), QR-Code
@@ -322,7 +322,7 @@ bewegen.
 
 Technisch komplexer ist es nun, wenn eine solche Karte nicht nur den Standort
 des Buches, sondern gleichzeitig auch den aktuellen Live-Standort des/der Nutzer*in
-visualisieren soll. In einem solchen Fall von Indoor-Navigation, der etwa einer Google-Maps Karte
+visualisieren soll. In einem solchen Fall von Indoor-Navigation, der etwa einer Google-Maps-Karte
 gleicht, muss zusätzlich technischer Aufwand betrieben werden, um den aktuellen
 Nutzerstandort zu ermitteln.  Im Gegensatz zu Karten und Navigationslösungen in
 Automobilen oder unterwegs mit dem Smartphone, kann allerdings innerhalb von
@@ -477,7 +477,7 @@ Genauigkeit liefern, sondern immer etwas "Schwund" enthalten. Die Gründe für
 die Ungenauigkeit sind vielfältig: Reflexionen durch Metall-Anhäufungen im
 Suchfeld, verstellte Gänge zwischen den Regalen, die die Roboter am Durchfahren
 und Scannen hindern, sehr eng zusammenstehende Bücher, die verhindern, dass
-beide Tags gescannt werden usw. Mit einer überschaubaren Fehlerrate von ca. 1%
+beide Tags gescannt werden usw. Mit einer überschaubaren Fehlerrate von ca. 1&#8239;%
 ist beim Robotereinsatz zu rechnen.
 
 ### Smart Library
@@ -527,7 +527,7 @@ Frequenzbereich betreibbar, die Schreib-/Lesegeräte sind ebenfalls
 dediziert auf den Frequenzbereich. Selten gibt es Geräte, die mehrere
 Frequenzbereiche lesen können, diese enthalten beide notwendigen
 Technologien. In europäischen Bibliotheken ist meistens ein sogenanntes
-RFID-HF im Einsatz, welches im Frequenzbereich von 3 - 30 MHz arbeitet. In
+RFID-HF im Einsatz, welches im Frequenzbereich von 3 bis 30 MHz arbeitet. In
 der Industrie, in Bibliotheken in China und USA sowie in einzelnen
 Bibliotheken in Europa kommt RFID-UHF mit einer Frequenz von 868 MHz in
 Europa (andere Frequenzbereiche in anderen Gebieten) zum Einsatz. Der
@@ -555,8 +555,8 @@ Bibliothek der Wirtschaftsuniversität Wien oder auch die Universitätsbibliothe
 Dortmund sowie die Bibliothek der Burg Giebichenstein Kunsthochschule Halle).
 In der Industrie ist RFID-HF praktisch nicht im Einsatz, was vermuten lässt,
 dass diese Technologie in einigen Jahren aussterben könnte. Die größere
-Reichweite von RFID-UHF ermöglicht zum Beispiel eine automatisierte Inventur
-/ Stellrevision (siehe Abschnitt zur [Revision]). Auf der anderen Seite muss
+Reichweite von RFID-UHF ermöglicht zum Beispiel eine automatisierte Inventur/Stellrevision
+(siehe Abschnitt zur [Revision]). Auf der anderen Seite muss
 man die großen Reichweiten auch einschränken, um etwa bei Ausleihautomaten
 nicht ein Medium zu verbuchen, was sich in einem größeren Abstand befindet.
 Dies erfordert Kenntnisse in der Justage der Leistung und Signalstärke der
@@ -582,7 +582,7 @@ Mikrochip platziert ist, in gegenüberliegende Richtungen zeigen. Hier ist
 weniger die Größe, sondern das für den jeweiligen Anwendungsfall am besten
 geeignete, konkrete Layout der Antennen für eine zuverlässige Kommunikation
 wichtig. Die Ausmaße eines typischerweise in Bibliotheken eingesetzten UHF RFID
-Tags sind ca 15 mm × 94 mm, es gibt aber auch kleinere Ausführungen.
+Tags sind ca. 15 mm × 94 mm, es gibt aber auch kleinere Ausführungen.
 
 Es existieren ebenfalls Transponder, die sowohl mit UHF als auch mit HF
 ansprechbar sind, was die Kosten pro Transponder deutlich erhöht, da zwei
@@ -614,14 +614,14 @@ Klebstoffes für das Papiermaterial sind kein Thema für die Hersteller und nur
 für sehr viel Geld bei speziellen Konvertierern zu bekommen.
 
 Relevant für die Sichtbarkeit der technischen Komponenten in einer Bibliothek
-ist jedoch die Gegenseite der Transponder: die Schreib-/Lese- Geräte bzw.
+ist jedoch die Gegenseite der Transponder: die Schreib-/Lese-Geräte bzw.
 genauer gesagt deren Antennen. Die maximale Lesereichweite wird bei HF
 maßgeblich durch die Größe der Antennen, bei UHF hingegen hauptsächlich durch
 die Feldstärke bestimmt.  Dementsprechend haben HF Antennen, die für die
 Buchsicherung beispielsweise an Ausgängen verwendet werden, die ungefähre Größe
 einer mittelgroßen Person und es werden üblicherweise zwei sich
 gegenüberstehende Antennen zu einem "Gate" kombiniert, nicht zuletzt um die
-Leseentfernung auf ca. 80-100 cm zu verdoppeln und der Kontrolle der
+Leseentfernung auf ca. 80--100 cm zu verdoppeln und der Kontrolle der
 Transponder beim Passieren einer Person durch das Gate zu ermöglichen. Ein
 solches Gate ist sichtbar, muss in die Architektur des Eingangsbereiches einer
 Bibliothek integriert werden und kann ggf. auch ein Hindernis darstellen
@@ -1150,7 +1150,7 @@ Verfügung stehen. Beispiele für Angebote in Makerspaces sind:
 
 - Ton- und Videotechnik
 
-- Repaircafé
+- Repair-Café
 
 Zusätzlich zur Bereitstellung der Technik bieten viele Bibliotheken
 Einführungs- und Expertenkurse an, die jedoch auch stark von den vorhandenen
@@ -1226,13 +1226,12 @@ den Köpfen der Mitarbeitenden vorliegt. Werkzeuge hierfür werden im @sec-kommu
 
 ### Mobiles Arbeiten
 
-Für mobiles Arbeiten müssen Endgeräte transportabel sein (Notebook, Tablet, ...)
-und die Dienste, die für das Arbeiten notwendig sind, müssen vom
-jeweiligen Standort aus erreichbar sein (siehe [VPN]). Für dauerhaftes Arbeiten
-von anderer Stelle als dem Büro (Homeoffice) ist aus Ergonomiegründen ein
-fester Arbeitsplatz mit Tastatur, Maus, Bildschirm und ggf.
-Anschlussmöglichkeit für mobile Geräte ("Dock") vorzuziehen oder
-vorgeschrieben.
+Für mobiles Arbeiten müssen Endgeräte transportabel sein und die Dienste, die
+für das Arbeiten notwendig sind, müssen vom jeweiligen Standort aus erreichbar
+sein (siehe [VPN]). Für dauerhaftes Arbeiten von anderer Stelle als dem Büro
+(Homeoffice) ist aus Ergonomiegründen ein fester Arbeitsplatz mit Tastatur,
+Maus, Bildschirm und ggf. Anschlussmöglichkeit für mobile Geräte ("Dock")
+vorzuziehen oder vorgeschrieben.
 
 Der Begriff *bring your own device* (BYOD) bezeichnet die Nutzung von privaten
 Endgeräten in der Infrastruktur des Arbeitgebers. Dies ist allerdings mit
@@ -1326,7 +1325,7 @@ Aufgabenkoordination und das Wissensmanagement in der Bibliothek.
 **Ticketsystem**: Ticketsysteme dienen der strukturierten, regelbasierten (z.T.
 automatischen) Abarbeitung von Anfragen, Wünschen, Fehlermeldungen von
 Nutzenden. Diese Systeme können für alle anfallenden Aufgaben innerhalb der
-Bibliothek verwendet werden, z. B. in der Softwareentwicklung
+Bibliothek verwendet werden, z.B. in der Softwareentwicklung
 (@sec-anforderungen) bei der Bearbeitung von Kundenanfragen oder internen
 Prozessen.
 
@@ -1347,7 +1346,7 @@ markierte Tickets erstellt werden. Beispiele:
     beispielsweise in *GitLab* (Open Source) und *GitHub* (kommerziell)
 
 **Kanban-Board**: Ein Kanban-Board visualisiert jegliche
-Arbeitsabläufe anhand einer in Spalten unterteilten Tafel (z. B.
+Arbeitsabläufe anhand einer in Spalten unterteilten Tafel (z.B.
 Backlog, in Arbeit, fertig). Physisch ist dies mit Post-Its und
 Whiteboard machbar. Ein Kanban-Board kann auch als Grundlage für
 ein Projektmanagement nach SCRUM dienen. Beispiele:
@@ -1359,7 +1358,7 @@ ein Projektmanagement nach SCRUM dienen. Beispiele:
 **Interne und externe Kalender:** Kalender können unterschiedliche Aufgaben
 erfüllen. Intern helfen zwischen Mitarbeitenden geteilte Kalender bei der
 Terminplanung und Abstimmung. Auf der Bibliothekswebsite veröffentlichte
-Kalender können z. B. buchbare Veranstaltungen für Kund\*innen und
+Kalender können z.B. buchbare Veranstaltungen für Kund\*innen und
 Besucher\*innen der Bibliothek enthalten. Ebenso ist eine Reservierung von
 Räumen oder Technik denkbar. Verbunden mit einem Ticketverkauf oder einer
 Ticketreservierung können sie die umständliche Kommunikation über E-Mails

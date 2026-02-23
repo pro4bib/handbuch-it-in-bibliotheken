@@ -364,7 +364,6 @@ werden.
 Ein gekürzter Beispieldatensatz in MARC-XML
 
 :::
-
 ### XML-basierte Datenformate
 
 **METS** und **MODS** sind zwei zusammen im Bereich Digitalisierung (@sec-digitalisierung)
@@ -379,22 +378,6 @@ Ein gekürzter Beispieldatensatz in MARC-XML
 **DataCite** ist ein bibliografisches Datenformat, insbesondere zur Beschreibung von Forschungsdaten (@sec-forschungsnahe-dienste).
 
 ### Datenmodelle und Ontologien
-
-::: {.callout-important}
-
-Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
-in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
-Datenquellen von Linked Data bis hin zu umfangreichen Wissensgraphen ermöglicht.
-
-Im Gegensatz zu einfacheren Formen von [Normdaten](#normdaten) geht es bei
-Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit
-"Bank" das Gleiche wie "Sitzbank" oder wie "Geldinstitut" gemeint?) sondern auch
-um Eigenschaften und Beziehungen (Beispiel: mögliche Größen, Materialien und Orte
-von Bänken). **Wissensgraphen** enthalten neben Ontologien auch konkrete Daten
-über Instanzen der Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an
-einem Ort).
-
-:::
 
 **Dublin Core** bzw. das Dublin Core Metadata Element Set (**DCMES**)
 hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die
@@ -414,6 +397,22 @@ RDF zu ersetzen. Die wesentlichen Elemente sind "work", "instance" und
 **Schema.org** ist eine allgemeine Ontologie für strukturierte Daten in
 Webseiten.
 
+::: {.callout-important}
+
+Eine **Ontologie** ist ein Datenmodell, das verschiedene Klassen und Eigenschaften
+in RDF definiert und so die einheitliche Kodierung und Verknüpfung verschiedener
+Datenquellen von Linked Data bis hin zu umfangreichen Wissensgraphen ermöglicht.
+
+Im Gegensatz zu einfacheren Formen von [Normdaten](#normdaten) geht es bei
+Ontologien nicht nur um die eindeutige Identifizierung (Beispiel: ist mit
+"Bank" das Gleiche wie "Sitzbank" oder wie "Geldinstitut" gemeint?) sondern auch
+um Eigenschaften und Beziehungen (Beispiel: mögliche Größen, Materialien und Orte
+von Bänken). **Wissensgraphen** enthalten neben Ontologien auch konkrete Daten
+über Instanzen der Ontologie-Klassen (Beispiel: Liste konkreter Sitzbänke an
+einem Ort).
+
+:::
+
 ::: {#fig-bibframe}
 
 \scriptsize
@@ -429,16 +428,13 @@ Webseiten.
     a bf:UsePolicy ;
     rdfs:label
       "Namensnennung 3.0 Deutschland",
-      "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI
-  ] ;
+      "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI ] ;
   bf:instanceOf <http://www.wikidata.org/entity/Q115625546> ;
   bf:hasItem [
     a bf:Item ;
     bf:electronicLocator [
       bflc:locator <https://it-in-bibliotheken.de/> ;
-      bf:note [ a bf:Note ; rdfs:label "kostenfrei" ]
-    ]
-  ] .
+      bf:note [ a bf:Note ; rdfs:label "kostenfrei" ] ] ] .
 
 <http://www.wikidata.org/entity/Q115625546>
   a bf:Text, bf:Work ;
@@ -450,6 +446,8 @@ Der Inhalt des Datensatz @fig-marcxml in RDF-Serialisierung Turtle
 ausgedrückt mit der BIBFRAME-Ontologie und URIs aus K10plus und Wikidata.
 
 :::
+
+
 
 ### Verlagsdaten und Literaturangaben
 
@@ -534,7 +532,7 @@ welcher automatisiert oder manuell gestartet werden kann. Der Aufwand
 und die Qualität des Harvestings können je nach Datenquelle sehr
 unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien,
 Datenbanken bzw. Datenbankabzüge, [Schnittstellen](#schnittstellen)
-als auch unstrukturierte Quellen wie z. B. Websites, die mittels
+als auch unstrukturierte Quellen wie z.B. Websites, die mittels
 Screenscraping erschlossen werden müssen.
 
 Der Extraktionsvorgang erfolgt bei Bedarf regelmäßig, um die Daten im

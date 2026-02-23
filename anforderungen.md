@@ -30,7 +30,7 @@ Die System-Entwicklung in Bibliotheken sollte sich daher in erster Linie an den
 ausrichten. Es gibt verschiedene Methoden, die entsprechenden Bedarfe und
 Anforderungen zu ermitteln und sie in die Entwicklung einzubeziehen. Dazu
 gehören unter anderem der Einsatz von Personas, Use Cases oder Storyboards.
-Weitere [Methoden](#methoden) sind zum Beispiel Wireframes oder Prototypen.
+Weitere Methoden (@sec-methoden) sind zum Beispiel Wireframes oder Prototypen.
 
 ## Nutzer\*innenorientierte Gestaltung {#sec-nutzerinnenorientierte-gestaltung}
 
@@ -41,8 +41,7 @@ sondern kontinuierlich in den Entwicklungsprozess einbezogen werden.
 Hierbei ist es besonders wichtig, die Fähigkeiten und Bedürfnisse der
 Nutzenden sowie ihre Arbeitskontexte und -aufgaben in den Entwurf von
 IT-Systemen einzubeziehen. Diese Aspekte finden sich auch in den
-zugrunde liegenden Definitionen, wie der Usability (siehe Abschnitt ["Was
-beeinflusst den Nutzungseindruck?"](#was-beeinflusst-den-nutzungseindruck))
+zugrunde liegenden Definitionen, wie der Usability (siehe Abschnitt @sec-nutzungseindruck)
 wieder.
 
 Beim nutzer\*innenorientierten Design oder dem User-Centered Design
@@ -66,8 +65,7 @@ Generell zielt UCD darauf ab, interaktive Systeme zu entwickeln, welche einfach
 zu nutzen und nützlich sind. Hierbei wird der Fokus auf Aspekte wie
 [Effektivität, Effizienz und Zufriedenheit](https://www.usability.de/usability-user-experience.html)
 gelegt [@din_2020]. Diese Aspekte werden im
-Abschnitt ["Was beeinflusst den
-Nutzungseindruck?"](#was-beeinflusst-den-nutzungseindruck) weiter erläutert.
+Abschnitt @sec-nutzungseindruck) weiter erläutert.
 
 Für die Öffentliche Verwaltung existiert der sogenannte **Servicestandard**, welcher als DIN SPEC 66336 [@din_2025] vorliegt und auch Bibliotheken, die sich nicht in öffentlicher Trägerschaft befinden, wertvolle Hinweise zur Nutzendenzentrierung in Form einer allgemein verständlichen Checkliste mit 13 zu beachtenden Punkten bietet:
 
@@ -135,7 +133,7 @@ und was ihnen dabei hilft.
     erschweren. Setzen Sie sich für die Änderungen ein, die den Service für
     Nutzende einfacher machen.
 
-### Was beeinflusst den Nutzungseindruck?
+### Was beeinflusst den Nutzungseindruck? {#sec-nutzungseindruck}
 
 Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und
 zugänglich sein. Das Erreichen dieser Ziele und zentrale
@@ -177,7 +175,7 @@ Die User Experience hingen bezieht sich auf die Wahrnehmung der
 Nutzenden sowohl vor, nach und auch während der Interaktion. Sie
 bezeichnet sozusagen die Positionierung gegenüber einem System und hat
 damit Auswirkungen darauf, ob Nutzende ein System erneut benutzen werden
-oder, z. B. aufgrund von schlechter Bedienbarkeit, d. h. schlechter
+oder, z.B. aufgrund von schlechter Bedienbarkeit, d. h. schlechter
 Usability, vor einer zukünftigen Nutzung zurückschrecken. Es reicht
 folglich nicht aus, einzelne Aspekte einer Nutzer\*innenschnittstelle zu
 optimieren. Vielmehr muss der gesamte angebotene Service aus Sicht der
@@ -222,15 +220,14 @@ Rahmen eines Usability-Tests passieren, in dem eine oder mehrere
 Personen ein System nutzen. Typischerweise werden während des Tests
 nicht nur Notizen oder Aufnahmen gesichert, sondern die Tester\*innen
 nutzen die Think-Aloud-Methode. Dabei sollen Nutzende in Echtzeit laut
-kommentieren, was sie denken, sehen und tun (siehe Abschnitt
-["Methoden"](#methoden)).
+kommentieren, was sie denken, sehen und tun (siehe Abschnitt @sec-methoden).
 
 Fokusgruppen dagegen sind eine qualitative Methode, in der
 Vertreter\*innen verschiedener Zielgruppen gemeinsam an einem
 bestimmten, vorher formulierten Thema arbeiten. Das können sowohl
 Diskussionen über Anforderungen und Wünsche an ein bestimmtes System
 sein als auch die Planung von Einsatzszenarien oder Workflows. Durch
-die freie Wahl von Themen und Mitgliedern, z. B. Nutzende ohne
+die freie Wahl von Themen und Mitgliedern, z.B. Nutzende ohne
 Vorerfahrungen und/oder Expert\*innen, sind Fokusgruppen ebenfalls eine
 sehr flexible, breit anwendbare Methode.
 
@@ -260,7 +257,7 @@ verschiedenen Formen modelliert werden. Dafür können formalisierte Systeme wie
 die Unified Modelling Language (UML) zum Einsatz kommen. Sie bietet ein Set
 verschiedener Formen, um Start, Ende, Verzweigungen, Alternativen und mehr
 visuell zu beschreiben. Aber auch Skizzen können Nutzungsszenarien bereits
-verdeutlichen und als Diskussionsgrundlage dienen, z. B. in Form von
+verdeutlichen und als Diskussionsgrundlage dienen, z.B. in Form von
 Storyboards, die in einem eigenen [Unterkapitel zu dieser
 Methode](#storyboards-als-frühe-methode) noch beschrieben werden.
 
@@ -276,7 +273,7 @@ vertrauenswürdiger Daten wie denen aus der Bedarfsermittlung erstellt
 werden sollten. Solche Methoden ohne Kenntnisse der Zielgruppen
 anzuwenden kann nur zur Reproduktion der eigenen Meinung führen.
 
-### Methoden {#methoden}
+### Methoden {#sec-methoden}
 
 Testaufgaben für Usability-Tests werden erstellt, um typische
 Nutzungsszenarien mit Hinblick auf die Usability des Systems hin zu
@@ -295,7 +292,7 @@ in typische Nutzungsweisen zu gewinnen. Durch die Verbalisierung und
 Beschreibung des Systems durch die Nutzenden lernt man zeitgleich die
 Nutzer\*innenterminologie für bestimmte Sachverhalte kennen, die teils
 erheblich von der Fachsprache abweichen wird. Die Ergebnisse der Methode
-können z. B. durch Notizen oder Audioaufnahmen festgehalten werden.
+können z.B. durch Notizen oder Audioaufnahmen festgehalten werden.
 
 #### Co-Discovery Learning
 
@@ -351,11 +348,11 @@ gesetzt werden. Dafür stehen verschiedene Methoden zur Verfügung.
 
 Nachfolgend werden drei Ansätze vorgestellt:
 
--   Storyboards - Skizzierung von Interaktionskonzepten
+-   Storyboards -- Skizzierung von Interaktionskonzepten
 
--   Wireframes und Mock-Ups - Skizzen der Oberflächen
+-   Wireframes und Mock-Ups -- Skizzen der Oberflächen
 
--   Prototypen - erste funktionsfähige Iterationen
+-   Prototypen -- erste funktionsfähige Iterationen
 
 #### Storyboards als frühe Methode
 
@@ -366,7 +363,7 @@ bestimmte Aktionen zu illustrieren.
 
 Die Visualisierung von Interaktionsideen kann Beteiligten helfen,
 mögliche Abläufe nachzuvollziehen. Storyboards sind dabei oft leichter
-verständlich als z. B. technische Diagramme mit der oben genannten UML.
+verständlich als z.B. technische Diagramme mit der oben genannten UML.
 Trotzdem ist darauf zu achten, dass Ideen und Konzepte für Stakeholder
 und Nutzende klar beschrieben werden, um Missverständnisse zu vermeiden.
 In dieser Form lassen sich Storyboards nutzen, um z.B. verbale
@@ -500,8 +497,8 @@ können.
 
 Nach dem Beobachtungstest sollte es den Proband\*innen ermöglicht
 werden, die Testergebnisse zu erhalten. Außerdem ist es neben dem
-obligatorischen Dank für die Teilnahme üblich, eine Aufmerksamkeit - je
-nach Dauer z. B. Kaffee, Süßes, Gutscheine - auszuhändigen, um die
+obligatorischen Dank für die Teilnahme üblich, eine Aufmerksamkeit -- je
+nach Dauer z.B. Kaffee, Süßes, Gutscheine - auszuhändigen, um die
 eigene Wertschätzung für das zeitliche Investment der Proband\*innen
 auszudrücken. In einer Erklärung zum Datenschutz ist die anonyme
 Datennutzung zuzusichern.
@@ -528,10 +525,11 @@ Aufgaben belastbare Aussagen zu erhalten.
 ## Zusammenfassung und Ausblick
 
 Es gibt verschiedenste Methoden mit denen Bedarfe ermittelt und Nutzende in die
-Entwicklung von digitalen Diensten einbezogen werden können - je nach Umfang des Produkts
-und des Anwender\*innenkreises. Usertests erfordern ein anderes Zeitmanagement
-als die Entwicklung von Personas. Auch der Anwendungsfall nimmt Einfluss auf
-die Methodenauswahl. So kann für die Entwicklung eines neuen Designs die
-Verwendung von Wireframes und Mockups bei der Bedarfsermittlung hilfreich sein.
-Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt, empfehlen sich
-Prototypen, mit denen auch die Interaktionen getestet werden können.
+Entwicklung von digitalen Diensten einbezogen werden können -- je nach Umfang
+des Produkts und des Anwender\*innenkreises. Usertests erfordern ein anderes
+Zeitmanagement als die Entwicklung von Personas. Auch der Anwendungsfall nimmt
+Einfluss auf die Methodenauswahl. So kann für die Entwicklung eines neuen
+Designs die Verwendung von Wireframes und Mockups bei der Bedarfsermittlung
+hilfreich sein. Wird ein Portal mit neuen Interaktionsmöglichkeiten entwickelt,
+empfehlen sich Prototypen, mit denen auch die Interaktionen getestet werden
+können.

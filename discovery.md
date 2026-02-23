@@ -129,7 +129,7 @@ spezielle Daten ermittelt. Diese Facetteneaten sind technisch gesehen
 Suchbegriffe und dienen der nachträglichen Verfeinerung der Trefferliste.
 Beispiele für Facetten, die zur Einschränkung genutzt werden, sind
 Namen von Autor\*innen, Schlagwörter, Medienarten, Standorte physischer 
-Medien, die Kennzeichnung von Open Access-Material und vieles mehr.
+Medien, die Kennzeichnung von Open-Access-Material und vieles mehr.
 
 ### Funktionen
 
@@ -166,7 +166,7 @@ Treffer" statt "exakte Treffer" mehr Suchergebnisse als Bibliothekskataloge
 [@steilen_discovery-systeme_2012]. Sie nutzen außerdem Algorithmen für die
 Relevanzsortierung (*Ranking*), um die Trefferlisten möglichst nutzungsorientiert
 aufzubereiten. Die Sortierungsalgorithmen sorgen bei Übereinstimmungen von
-Suchbegriff und Indexeintrag in definierten Feldern (z. B. Titel, Schlagwort) für
+Suchbegriff und Indexeintrag in definierten Feldern (z.B. Titel, Schlagwort) für
 eine Bevorzugung. Anders als bei Web-Suchmaschinen gehen Popularitätsdaten wie
 die Anzahl von Ausleihen, Aufrufen und Zitationen in der Regel nicht in das Ranking
 ein.
@@ -177,7 +177,7 @@ beiden Fällen wird der Suchindex in Echtzeit geprüft. Es gehört zu den
 zentralen Zielen von Discovery-Systemen, Null-Treffer-Meldungen zu vermeiden.
 
 Facetten sind ebenfalls eine für Suchmaschinen typische Funktion und dienen der
-Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie z. B.
+Eingrenzung von Treffermengen. Hierfür werden einzelne Metadatenfelder wie z.B.
 Schlagwörter, Namen von Verfasser\*innen oder Dokumenttypen in Bezug auf eine
 Suchanfrage ausgewertet und nach Vorkommenshäufigkeit sortiert. Den Facetten
 wird eine wichtige Rolle beim entdeckenden Suchen zugesprochen. Zur
@@ -201,7 +201,7 @@ zentraler Bedeutung sind. Diese Bereitstellungsdienste, auch
 Delivery-Funktionen genannt, umfassen für physische und digitale Medien jeweils
 unterschiedliche Aspekte.
 
-Bereitstellungsdienste für physische Medien umfassen z. B.:
+Bereitstellungsdienste für physische Medien umfassen z.B.:
 
 - Nachweise von Standorten, Ausleihbarkeit und aktuellem Ausleihstatus
 
@@ -213,7 +213,7 @@ Bereitstellungsdienste für physische Medien umfassen z. B.:
 
 - Möglichkeit zur Abgabe eines Anschaffungsvorschlags
 
-Bereitstellungsdienste für digitale Medien umfassen z. B.:
+Bereitstellungsdienste für digitale Medien umfassen z.B.:
 
 - idealerweise eine auf das jeweilige Nutzungsszenario angepasste Zugangs-URL
 
@@ -315,9 +315,9 @@ nur auf Teilmenge des Suchraums. Aus diesem Grund werden verschiedene Ansätze
 erprobt, um eine thematische Suche zu ermöglichen. Hierzu zählen u.a. folgende
 Projekte und Dienste:
 
-- ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z. B. mit dem [Blended Shelf](https://nbn-resolving.org/urn:nbn:de:0290-opus-16040)
+- ein Nachbau der Browsing-Funktion an physischen Bücherregalen, z.B. mit dem [Blended Shelf](https://nbn-resolving.org/urn:nbn:de:0290-opus-16040)
 
-- die Nutzung von Normdaten zur Erstellung von Übersichtsseiten, z. B. im [Katalog des Deutschen Literaturarchivs Marbach](https://www.dla-marbach.de/katalog-beta/)
+- die Nutzung von Normdaten zur Erstellung von Übersichtsseiten, z.B. im [Katalog des Deutschen Literaturarchivs Marbach](https://www.dla-marbach.de/katalog-beta/)
 
 - die Visualisierung von Treffermengen und den darin enthaltenen
   Zusammenhängen, wie zum Beispiel bei [Open Knowledge Maps](https://openknowledgemaps.org/),
@@ -341,7 +341,7 @@ Im Inhousebetrieb werden alle Komponenten selbst durch die Bibliothek
 betrieben. Damit sind in diesem Szenario die weitestgehenden Anpassungen möglich. Ein
 vollständiger Inhouse-Betrieb erfolgt aufgrund der benötigten Ressourcen allerdings meist 
 nur bei kleinen oder sehr speziellen Datenbeständen
-(z. B. durch die Fachinformationsdienste) oder in sehr großen Einrichtungen. Oft
+(z.B. durch die Fachinformationsdienste) oder in sehr großen Einrichtungen. Oft
 trifft man stattdessen auf hybride Lösungen, in denen neben einem vergleichsweise kleinen
 eigenen Index ein bestehender kommerzieller oder nicht-kommerzieller Index genutzt wird.
 
@@ -442,7 +442,7 @@ darüber hinaus für die nicht-kommerzielle Nutzung. Diese frei verfügbaren
 Indizes sind für Bibliotheken, die ihre Bestandsdaten an einen Verbund liefern,
 eine hervorragende Möglichkeit, um relativ kostengünstig an ein
 Discovery-System zu kommen, da die Erstellung eines eigenen Index mit hohen
-Investitionen verbunden ist. Metadatenkollektionen enthalten z. B. der ALBERT-Index
+Investitionen verbunden ist. Metadatenkollektionen enthalten z.B. der ALBERT-Index
 des Kooperativen Bibliotheksverbundes Berlin-Brandenburg sowie der Gemeinsame
 Verbündeindex für Bestandsdaten aus allen wissenschaftlichen sowie vielen
 Spezial- und öffentlichen Bibliotheken.
@@ -498,7 +498,7 @@ der Nutzer\*innen auszurichten. Daraus ergibt sich, dass sowohl die
 Implementierung als auch die weitere Entwicklung möglichst kleinschrittig und
 unter Einbeziehung von Analysen der Nutzung erfolgen sollten. Neben Methoden
 der Usability-Forschung (siehe Abschnitt [Wie beziehen wir unsere Nutzer\*innen ein?](anforderungen.md#einbeziehung)) bietet sich als niedrigschwellige Methode
-vor allem die Analyse von Logfiles an. So kann z. B. mit der Software
+vor allem die Analyse von Logfiles an. So kann z.B. mit der Software
 [Matomo](https://matomo.org/), auch unter Berücksichtigung von
 datenschutzrechtlichen Vorschriften, ermittelt werden, welche Anfragen an ein
 System gestellt werden.
@@ -594,7 +594,7 @@ Suchen bieten Wissensgraphen (*knowledge graphs*), die die vielfältigen
 Beziehungen zwischen Dokumenten und damit verknüpften Elementen darstellen und
 visualisieren. Die Anforderungen an die Qualität der so aufbereiteten Daten
 sind jedoch ungleich höher. Entsprechende Systeme existieren bereits in
-ausgewählten Bereichen, z. B. die Plattform
+ausgewählten Bereichen, z.B. die Plattform
 *[SoNAR](https://sonar.fh-potsdam.de/)* zur historischen Netzwerkanalyse. Ein
 ernstzunehmendes Beispiel für einen allgemeinen Wissensgraphen ist die
 Datenbank Wikidata mit ihren bibliografischen Inhalten *WikiCite* und dem dazu

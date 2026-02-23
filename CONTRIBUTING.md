@@ -125,32 +125,32 @@ Das Handbuch behandelt [aufgeteilt in Hauptkapitel](#inhalt) die wesentlichen Th
 
 ### Schreibweise, Fachbegriffe und Verweise {#schreibweise .unnumbered}
 
--   Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (\*). In Markdown ist es sicherer dem Sternchen einen Backslash voranzustellen, z.B. `Autor\*innen`.
+- Wir verwenden im gesamten Buch gendergerechte Schreibweise mit Sternchen (\*). In Markdown ist es sicherer dem Sternchen einen Backslash voranzustellen, z.B. `Autor\*innen`.
 
--   Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme
+- Eine Schreibweise für häufig verwendete Fachbegriffe sollte quer durch das Buch eingehalten werden, so z.B. BMS für Bibliotheksmanagementsysteme
 
--   Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
-    definiert. Abkürzungen werden zusätzlich [im Abkürzungsverzeichnis](#mitarbeit-glossar) erfasst.
+- Fachbegriffe (z.B. Bibliotheksverbund) werden dort verwendet, wo sie wiederholt relevant sind, und werden bei ihrer ersten Erwähnung
+  definiert. Abkürzungen werden zusätzlich [im Abkürzungsverzeichnis](#mitarbeit-glossar) erfasst.
 
--   Wir vermeiden IT-Jargon.
+- Wir vermeiden IT-Jargon.
 
--   Wir vermeiden Substantivierung ("Digitalisierungswürdigkeit") und unnötige Passiv-Formen.
+- Wir vermeiden Substantivierung ("Digitalisierungswürdigkeit") und unnötige Passiv-Formen.
 
--   Quellen sollten nur dann genannt werden wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
+- Quellen sollten nur dann genannt werden wenn in der jeweiligen Textpassage auch wirklich paraphrasiert oder wörtlich zitiert wird.
 
 #### Typografie
 
--   Abkürzungen werden durch geschützte Leerzeichen getrennt (z. B.)
+- Abkürzungen werden ohne geschützte Leerzeichen getrennt, diese werden später automatisch eingefügt (z.B.)
 
--   Gerade Anführungszeichen `"..."` werden automatisch durch die Deutschland und Österreich übliche Anführungszeichen ("...") ersetzt.
+- Gerade Anführungszeichen `"..."` werden automatisch durch die Deutschland und Österreich übliche Anführungszeichen ("...") ersetzt.
 
-   Externe Links, die nur auf Anbieter oder andere Websites verweisen, werden inline verlinkt.
+ Externe Links, die nur auf Anbieter oder andere Websites verweisen, werden inline verlinkt.
 
--   Links, die auf später entstehende Kapitel verweisen, werden durch eckige Klammern kenntlich gemacht.
+- Links, die auf später entstehende Kapitel verweisen, werden durch eckige Klammern kenntlich gemacht.
 
--   *Kursive* Hervorhebung sollte nur für Namen und [Glossareinträge](#mitarbeit-glossar) verwendet werden.
+- *Kursive* Hervorhebung sollte nur für Namen und [Glossareinträge](#mitarbeit-glossar) verwendet werden.
 
--   Wir verzichten auf Fußnoten.
+- Wir verzichten auf Fußnoten.
 
 ### Bilder und andere Medien {#mitarbeit-medien .unnumbered}
 

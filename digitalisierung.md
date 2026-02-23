@@ -343,7 +343,7 @@ Minimallösung für die Anzeige von Digitalisaten, die aus dem Katalog
 verlinkt werden kann. Für eine umfassendere Präsentation von
 Digitalisaten entscheiden sich Einrichtungen für eine Integration der
 Digitalisate in ein existierendes Repositorium oder für den Aufbau von
-Webangeboten mit speziellen Werkzeugen für Digitalisate wie z. B.
+Webangeboten mit speziellen Werkzeugen für Digitalisate wie z.B.
 *Kitodo.Presentation*. Ein wichtiges Element für mehr Sichtbarkeit der
 eigenen Digitalisierungsaktivitäten ist eine Datenlieferung an die
 Deutsche Digitale Bibliothek.
@@ -506,7 +506,7 @@ grundsätzlich [drei Betriebsmodelle](management.md#sec-betriebsmodelle) denkbar
     soll.
 
 -   **Hybridlösungen:** Es werden nur Teile des Prozesses ausgelagert,
-    z.B. das Scannen der Objekte, während z. B. die
+    z.B. das Scannen der Objekte, während z.B. die
     Inhaltsanreicherung durch Metadaten im Haus verbleibt.
 
 Die Hybridvariante wird im Alltag am häufigsten umgesetzt. Die
@@ -622,7 +622,7 @@ Verfügbarkeit der Objekte, Personal, Technologie, Budget und Zeitrahmen.
 rechtliche Fragen bezüglich der digitalisierten Materialien.
 
 4. *Auswahl der Objekte*: Wählen Sie die Objekte aus, die digitalisiert
-werden sollen, u. a. basierend auf ihrer Bedeutung und ihrem Zustand.
+werden sollen, u.a. basierend auf ihrer Bedeutung und ihrem Zustand.
 
 5. *Metadatenplanung*: Entwickeln Sie einen Plan zur Erfassung und
 Verwaltung von Metadaten für die digitalisierten Materialien.

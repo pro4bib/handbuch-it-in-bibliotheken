@@ -80,7 +80,7 @@ betreffenden personenbezogenen Daten hat. So dürfen Daten nur für einen
 bestimmten Zweck erhoben (Zweckbindung) und auch nicht für andere
 
 Vorhaben weiterverarbeitet werden (gem. Art. 5 II DSGVO). Ferner wird in
-Art 37 DSGVO die Ernennung eines Datenschutzbeauftragten geregelt.
+Art. 37 DSGVO die Ernennung eines Datenschutzbeauftragten geregelt.
 
 Ergänzt wird diese Grundverordnung durch die einzelnen nationalen
 gesetzgebenden Instanzen. In Deutschland geschieht dies sowohl auf
@@ -363,7 +363,7 @@ Drucker.
 In der Regel erfolgt heutzutage der Zugriff über ein Netzwerk, d. h.,
 auch die Authentifizierung muss über das Netzwerk erfolgen. Für Geräte
 (Computer) kann dies durch technische Merkmale wie den Media Access Code
-(MAC Adresse) oder - flexibler - über die IP-Adresse durchgeführt
+(MAC Adresse) oder flexibler über die IP-Adresse durchgeführt
 werden. Diese Merkmale authentifizieren jedoch nur das Gerät und lassen
 noch keine Aussage darüber zu, wer dieses Gerät gerade benutzt.
 
@@ -419,13 +419,13 @@ Betriebssystems und jeder auf dem Rechner laufenden Software. Fehlende
 Updates können als Einfallstore genutzt werden, um Schadsoftware auf den
 Computer und damit auch in das Netzwerk einzuschleusen.
 
-Falls es zu einem Angriff oder Ausfall des Systems kommt, muss auf
-Backups zurückgegriffen werden. Dabei wird eine Sicherungskopie
-angelegt, meist auf einem anderen Medium, wie z. B. einer externen
-Festplatte. Server werden mittels eines RAID-Verfahrens gespiegelt, d.
-h. die Daten werden auf einen zweiten Server übertragen. Da es bei einem
-Backup auch zu Datenverlust oder -beschädigung kommen kann, empfiehlt es
-sich, mehr als eine Kopie anzulegen, z. B. auf Magnetbändern.
+Falls es zu einem Angriff oder Ausfall des Systems kommt, muss auf Backups
+zurückgegriffen werden. Dabei wird eine Sicherungskopie angelegt, meist auf
+einem anderen Medium, wie z. B. einer externen Festplatte. Server werden
+mittels eines RAID-Verfahrens gespiegelt, d. h. die Daten werden auf einen
+zweiten Server übertragen.  Es sich, mehr als eine Kopie anzulegen (z. B. auf
+Magnetbändern), da es bei einem Backup auch zu Datenverlust oder -beschädigung
+kommen kann. 
 
 ::: {.callout-important}
 

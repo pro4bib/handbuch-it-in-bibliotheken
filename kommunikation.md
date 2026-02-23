@@ -247,7 +247,7 @@ mehrfacher Form und an verschiedenen Stellen wieder aufbereiten und
 nachnutzen. Wird zum Beispiel ein ausführlicher Blogbeitrag zu einem
 Thema verfasst, so lassen sich daraus häufig mehrere Social-Media-Posts
 erstellen. Besonders bei der Produktion eines Videos bietet es sich an,
-"Hinter den Kulissen" Content zu produzieren, z. B. indem man den
+"Hinter den Kulissen" Content zu produzieren, z.B. indem man den
 Entstehungsprozess durch kurze Videos und Fotos dokumentiert oder zu
 einem ausführlichen Video eine Kurzversion dreht - wenn die Technik
 schon mal steht.
@@ -256,7 +256,7 @@ schon mal steht.
     Neben tagesaktuellem Content, wie zum Beispiel Hinweisen auf
     Veranstaltungen, gibt es auch den sogenannten Evergreen Content,
     zeitlose Themen mit hoher Relevanz für die Zielgruppe.
-    Bei WBs können das z. B. Inhalte zum wissenschaftlichen
+    Bei WBs können das z.B. Inhalte zum wissenschaftlichen
     Publizieren, Forschungsdatenmanagement o. ä. sein, die sich auf
     verschiedenen Unterseiten des Webauftritts verbergen. Diese lassen
     sich für andere Plattformen aufbereiten, man kann sie
@@ -339,7 +339,7 @@ es mehrere Werkzeuge (Mittelmann, 2011):
 -   **Persönlicher Wissenstransfer** kann in einem Gespräch stattfinden.
 
 -   **Kodifizierter Wissenstransfer** wird mittels Informations- und
-    Kommunikationssystemen wie z. B. Datenbanken, Laufwerk, CMS, Wiki
+    Kommunikationssystemen wie z.B. Datenbanken, Laufwerk, CMS, Wiki
     erreicht.
 
 -   Die **Infokarte** ist eine Themenkarte oder ein Mikroartikel zur Beschreibung einer Aufgabe.
@@ -365,7 +365,7 @@ Praxistauglichkeit einzuschätzen. Daher ist es sinnvoll, die Evaluation
 bereits bei der Planung, spätestens aber beim Start mit einzuplanen
 (siehe @sec-anforderungen).
 
-Neben herkömmlichen Nutzungsstatistiken (z. B. mittels des Open Source-Tools
+Neben herkömmlichen Nutzungsstatistiken (z.B. mittels des Open Source-Tools
 [*Matomo*](https://www.matomo.org/) für Webseiten oder mit integrierten
 Analysewerkzeugen von Social-Media-Plattformen und *CMS*) können einheitliche
 Fragebögen bei der Einschätzung helfen, ob Kanäle oder Tools geeignet sind, die
@@ -451,12 +451,12 @@ Feedback zu Missverständnissen führen.
 
   Chats können in Bibliothekswebsiten (Homepage, OPAC) ohne großen Aufwand
   integriert werden. Die Nutzung ist anonym oder unter Angabe
-  von personenbezogenen Daten (z. B. E-Mail-Adresse) möglich.
+  von personenbezogenen Daten (z.B. E-Mail-Adresse) möglich.
   Chat-Anfragen werden zentral bearbeitet und können bei Bedarf
   weitergegeben werden. Ein Pool von Mitarbeitenden kann sich
   anmelden, die Anfragen werden vom System auf die
   Mitarbeitenden verteilt. Steht kein Mitarbeitender zur
-  Verfügung, leitet die Software z. B. auf ein Mailformular um.
+  Verfügung, leitet die Software z.B. auf ein Mailformular um.
   Je nach Verwendung ist der Abschluss eines Vertrages zur
   Auftragsverarbeitung mit dem Anbieter notwendig. Chat-Systeme
   werden i.d.R. als *SaaS*-Lösung angeboten
@@ -595,7 +595,7 @@ Brainstorming bis zur fertig ausgearbeiteten Präsentation.
     *OnlyOffice* und *Collabora* veritable Alternativen zu *Google Docs*, insbesondere
     unter Gesichtspunkten der [digitalen Souveränität](#digitale-souveränität).
 
--   Cloudspeicher sind die zeitgemäße Variante von [Netzwerklaufwerken](#fileservices) z. B.
+-   Cloudspeicher sind die zeitgemäße Variante von [Netzwerklaufwerken](#fileservices) z.B.
     [*Nextcloud*](https://nextcloud.com/) bzw. [*ownCloud*](https://owncloud.com/de/) die
     gut mit *OnlyOffice* und *Collabora* zusammenspielen.
 
@@ -623,7 +623,7 @@ bezeichnet, im eigentlichen Sinne ist damit aber nur die Startseite eines
 [Internetauftritts](#Website) gemeint.
 Die Website dient der Vorstellung der Bibliothek, ihrer verschiedenen
 Angebote und Kontaktmöglichkeiten. Hier werden u.a. Neuigkeiten über
-Veranstaltungen, digitale Angebote oder Kundenservices (z. B.
+Veranstaltungen, digitale Angebote oder Kundenservices (z.B.
 Anmeldemodalitäten) präsentiert.
 
 Websites werden meistens auf Basis eines Content Management Systems

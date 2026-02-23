@@ -201,7 +201,7 @@ der Offenheit und Zusammenarbeit:
 - Einsatz bestehender Tools prüfen: brauche ich wirklich etwas Neues, oder kann
   ich mit gewissen Abstrichen leben und dafür ein bestehendes Tool kreativ
   einsetzen? Die Gefahr beim Einsatz einer großen Vielzahl von Tools ist, dass
-  Information / Wissen zu stark in verschiedene Systeme fragmentiert wird. Die
+  Information/Wissen zu stark in verschiedene Systeme fragmentiert wird. Die
   Gefahr beim Einsatz von zu unspezifischen Tools ist, dass die Lösung dem
   eigentlichen Problem nicht gerecht wird.
 
@@ -658,7 +658,7 @@ zur Bibliotheks-IT sollten ausdrücklich zeitliche und ggf. finanzielle
 Ressourcen für die Nutzung dieser Angebote bereitgestellt werden.
 
 Auch der Besuch von Konferenzen ist eine wichtige Säule der
-Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier
+Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier:
 
 -   Jahrestagungen der Verbundzentralen
 

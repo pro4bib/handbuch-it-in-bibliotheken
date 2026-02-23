@@ -21,7 +21,7 @@ zusammengefasst, die Wissenschaftler\*innen im gesamten
 Forschungsprozess unterstützen und die überwiegend im Kontext von
 digitalem Wandel und Open Science angesiedelt sind
 (<https://www.o-bib.de/bib/article/view/5718>).
-Dazu zählen z. B. Services in den Bereichen [Forschungsdatenmanagement],
+Dazu zählen z.B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
 Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die unter
@@ -47,7 +47,7 @@ Forschungsförderer und Ministerien erwarten in Deutschland mittlerweile von den
 Forschungseinrichtungen eine Transformation des Publikationswesens hin zu Open
 Access und Open Data. Dazu gehören themenbezogene institutionelle
 Policies, Beratungs- und Schulungsangebote sowie technische Dienste.
-Auf der Ebene der europäischen Forschungsförderung wird u. a. versucht, durch Initiativen wie *[CoARA](https://coara.eu/)*
+Auf der Ebene der europäischen Forschungsförderung wird u.a. versucht, durch Initiativen wie *[CoARA](https://coara.eu/)*
 die Maßstäbe der Forschungsbewertung weiterzuentwickeln - weg von
 klassisch bibliometrischen Indikatoren wie h-Index und
 Journal-Impact-Factor hin zu einer Würdigung vielfältiger
@@ -210,7 +210,7 @@ Internetadressen als flüchtig gelten, werden zur Identifikation [Persistent
 Identifier-Systeme](#persistent-identifier) eingesetzt. Die Zitierfähigkeit und
 damit der langfristige, möglichst originalgetreue Erhalt der einmal
 eingestellten Informationen grenzen Repositorien gegenüber anderen
-Arbeitsplattformen wie Sync-and-Share-Plattformen (z. B. *Nextcloud*),
+Arbeitsplattformen wie Sync-and-Share-Plattformen (z.B. *Nextcloud*),
 Content-Management-Systemen (CMS) zur Erstellung von Blogs und Internetseiten
 sowie virtuellen Forschungsumgebungen mit integrierten Funktionen z. B. für die
 Datenanalyse ab.
@@ -418,7 +418,7 @@ gibt es die lokal zu installierende Software *GitLab*, um ein solches
 Repositorium in der eigenen IT-Infrastruktur bereitzustellen. Durch die im
 Protokoll integrierte Versionskontrolle der Daten lassen sich Änderungen im
 Code einfach nachvollziehen und ggf. zurückrollen. Kollaborative Arbeit in
-verteilten Teams wird z. B. über eine parallele Entwicklungsstruktur in
+verteilten Teams wird z.B. über eine parallele Entwicklungsstruktur in
 "branches" ermöglicht, die mit dem Hauptprojekt zu einem gewünschten Zeitraum
 zusammengeführt werden können.  Bei diesem Funktionsumfang wird schnell klar,
 dass *Git* auch jenseits der forschungsnahen Dienste eine Vielzahl von
@@ -487,7 +487,7 @@ eine Betrachtung der kompletten [Toolchain](#toolchains) notwendig macht.
 ::: {.callout-important}
 
 **Forschungsinformationen** sind Angaben über Aktivitäten, Ergebnisse und
-Infrastrukturen von Forschungsprozessen wie z. B. Projekte,
+Infrastrukturen von Forschungsprozessen wie z.B. Projekte,
 Publikationen und Forschungseinrichtungen. Davon zu unterscheiden sind
 [Forschungsdaten].
 
@@ -533,7 +533,7 @@ Eine zentrale Herausforderung beim Aufbau eines *FIS* besteht darin, einen
 Überblick über die bestehenden Quellsysteme der Einrichtung zu gewinnen.
 In diesem Zusammenhang ist zu ermitteln, welche internen und
 externen Systeme relevant sind und wer die entsprechenden
-Ansprechpersonen an der Einrichtung sind. Dies betrifft u. a. die
+Ansprechpersonen an der Einrichtung sind. Dies betrifft u.a. die
 Bibliothek (z. B. Repositorien), die Personalverwaltung
 (Identitätsmanagement), die Drittmittelverwaltung (Datenbank für
 Projekte), die Doktorand\*innenverwaltung oder die Patentverwaltung der
@@ -556,14 +556,14 @@ Softwarelösungen zum Einsatz. Es zeigt sich ein vielgestaltiges Bild aus
 kommerziellen Produkten (z. B. *PURE*, *Converis*, *HISinOne-RES*), Open
 Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
 deutschen Forschungseinrichtungen wird mittlerweile häufig *HISinOne-RES*
-genutzt - befördert u. a. durch Landesinitiativen wie *CRIS.NRW*,
+genutzt - befördert u.a. durch Landesinitiativen wie *CRIS.NRW*,
 HeFIS oder *FIS-Thüringen* sowie den Umstand, dass es aktuell das einzige
 Produkt am Markt ist, dessen Datenmodell direkt am **Kerndatensatz Forschung
 (*KDSF*)** ausgerichtet ist.  Obwohl sich ein Rückgang an Eigenentwicklungen
 andeutet, sind sie immer noch weit verbreitet. Des Weiteren gibt es die bereits
 lange etablierten kommerziellen Systeme *Converis* und *PURE*. Der Einsatz von
 Open Source-Lösungen wie *DSpace-CRIS* und *VIVO* nimmt erst in den letzten
-Jahren merklich zu -- u. a. befördert durch das Verbundprojekt Hamburg
+Jahren merklich zu -- u.a. befördert durch das Verbundprojekt Hamburg
 Open Science.
 
 An vielen Einrichtungen besteht das Bestreben, dass das *FIS* zusätzlich die
@@ -576,7 +576,7 @@ zwischen *FIS* und Repositorium zu entwickeln. Dem entgegen stehen die
 verschiedenen Zielsetzungen beider Systeme: Während es bei einem *FIS* vor allem
 darum geht, möglichst alle Forschungsaktivitäten z. B. einer Einrichtung in
 einem System zu erfassen, steht bei einem Repositorium die nachhaltige
-Bereitstellung der Ressourcen selbst im Vordergrund (z. B. textuelle
+Bereitstellung der Ressourcen selbst im Vordergrund (z.B. textuelle
 Publikationen oder Forschungsdaten). Ein Problem bei Mischsystemen ergibt sich
 auch hinsichtlich Retrieval und Zugriff: So werden Forschende bei einer Suche
 in externen Suchmaschinen z. B. erst im *FIS* feststellen, dass nur bei einem
@@ -633,7 +633,7 @@ Optionen eigene Dienste weiterzuentwickeln.
 
 Schon im *[Bethesda Statement on Open Access Publishing](http://legacy.earlham.edu/~peters/fos/bethesda.htm)* taucht das
 Stichwort Interoperabilität in Zusammenhang mit Repositorien auf. Dazu gibt es
-verschiedene technische Ansätze (siehe u. a. unten
+verschiedene technische Ansätze (siehe u.a. unten
 "[Schnittstellen](#schnittstellen)"). Neben den technischen Voraussetzungen, um
 Inhalte zu teilen, braucht es jedoch auch eine Einigung über die inhaltliche
 Aufbereitung der Informationen. Repositorien nutzen dazu strukturierte
@@ -641,11 +641,11 @@ Metadaten. Für die Bezeichnung von Dokumententypen haben die DINI AG
 Elektronisches Publizieren und die DINI AG Forschungsinformationssysteme das
 *[Gemeinsame Vokabular für Publikations- und
 Dokumenttypen](https://doi.org/10.18452/24147)* herausgegeben. Im Sinne der
-Standardisierung enthält das DINI-Zertifikat weitere Vorgaben, wie z. B. die
+Standardisierung enthält das DINI-Zertifikat weitere Vorgaben, wie z.B. die
 Klassifizierung nach zumindest den Dewey-Dezimalklassifikations-Sachgruppen
 (*DDC*) der Deutschen Nationalbibliografie und macht Vorgaben an die
 Ausgestaltung des Open Archives Initiative Protocol for Metadata Harvesting
-(*OAI-PMH*). Diese Standards ermöglichen es Diensten wie z. B. der *Bielefeld
+(*OAI-PMH*). Diese Standards ermöglichen es Diensten wie z.B. der *Bielefeld
 Academic Search Engine* und anderen Aggregatoren Inhalte aus verschiedenen
 Quellen einzubinden, Metadaten maschinenlesbar zu erhalten und nachzunutzen.
 
@@ -728,16 +728,16 @@ Bewahrt werden müssen der Bitstream der Datei sowie deren
 Eigenschaften und Semantik.  Aktuell ist
 *[PREMIS](https://www.loc.gov/standards/premis/)* in der *LZA* der wichtigste
 Metadatenstandard. Das Datenmodell beinhaltet alle Informationen, die man
-sowohl über die digitalen Objekte selbst (z. B.  Name, Dateiformat, Größe) als
-auch über Akteur*innen, Rechte (z. B.  AccessRights, Embargofristen) und Prozesse
-(z. B. Konvertierung, Migrationen, Reparatur, Formatvalidierung) wissen
+sowohl über die digitalen Objekte selbst (z.B.  Name, Dateiformat, Größe) als
+auch über Akteur*innen, Rechte (z.B.  AccessRights, Embargofristen) und Prozesse
+(z.B. Konvertierung, Migrationen, Reparatur, Formatvalidierung) wissen
 sollte. 
 
 Es gibt auf *LZA* spezialisierte Software wie *Rosetta* (*ExLibris*) oder *Libsafe*
 (*libnova*). Diese Systeme basieren meist auf dem international anerkannten
 Referenzmodell für digitale Archivierung *OAIS* (*[Open Archival Information
 System, ISO 14721:2025](https://www.iso.org/standard/87471.html)*) und bieten
-neben den Standardfunktionen eines Archivsystems (z. B. bitstream-preservation,
+neben den Standardfunktionen eines Archivsystems (z.B. bitstream-preservation,
 regelmäßige Integritätstests, Reduplizierung) auch Funktionen wie eine
 Formatvalidierung und implementierbare Workflows.
 
@@ -765,7 +765,7 @@ Protocol for Metadata
 Harvesting](https://www.openarchives.org/pmh/)* (*OAI-PMH*)
 für den Austausch von Metadaten durchgesetzt. Dieses Protokoll wird
 inzwischen auch im Zusammenspiel mit anderen forschungsnahen Diensten
-wie z. B. *FIS* genutzt. Das Protokoll tauscht Metadaten in XML
+wie z.B. *FIS* genutzt. Das Protokoll tauscht Metadaten in XML
 aus. Es unterstützt mehrere Metadatenformate, wobei die Spezifikation
 von *OAI-PMH* nur *Dublin Core* vorgibt und das Protokoll vorsieht, dass man
 eine Liste mit weiteren unterstützten Formaten abrufen kann.
@@ -789,11 +789,11 @@ einem Bildpool, Umgang mit Zugriffsbeschränkungen, Objektänderungen und
 so weiter.
 
 *OAI-PMH* und *SWORD* werden zum Teil zwar auch über Repositorien hinaus
-verwendet, z. B. bei *FIS*. Verbreitung
+verwendet, z.B. bei *FIS*. Verbreitung
 und Einsatz beschränken sich jedoch weitgehend auf den Bereich der
 forschungsnahen Dienste. Als weiter verbreitete Prinzipien zur
 Bereitstellung von Informationen muss *Linked Data* gesehen werden. Die
-Bereitstellung der Repositorieninhalte als *Linked Data* wird z. B.
+Bereitstellung der Repositorieninhalte als *Linked Data* wird z.B.
 von *DSpace* unterstützt, in der Praxis jedoch leider noch viel zu selten
 aktiviert und genutzt.
 
@@ -944,7 +944,7 @@ des GBV oder das Langzeitarchiv
 *[Ewig](https://ewig.zib.de/)* des KOBV. Die Frage nach der Umsetzung von Diensten mit externer Hilfe allgemein wird in @sec-management behandelt.
 
 Wie das vorliegende Kapitel gezeigt hat, umfassen diese
-Services auch eine Vielzahl an IT-Diensten, so z. B.
+Services auch eine Vielzahl an IT-Diensten, so z.B.
 Journal-Publishing-Systeme, Repositorien und
 *FIS*. Der stabile und nachhaltige Betrieb
 solcher Dienste umfasst technische, organisatorische und inhaltliche

@@ -99,7 +99,7 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
 überlappende Epochen einteilen (siehe @fig-bmsevol):
 
 1.  **System-Epoche**: Erste Schritte in den 1950er bis in die
-    1970er-Jahre hin zur Entwicklung von Software, z. T sehr
+    1970er-Jahre hin zur Entwicklung von Software, z.T. sehr
     experimentell, die die klassischen Geschäftsgänge von
     Bibliotheken in einem digitalen System abbilden sollen --
     dadurch prägt sich der Begriff "Bibliothekssystem". Das
@@ -225,7 +225,7 @@ Module für folgende Funktionen:
 
 -   Erwerbung
 
--   Katalogisierung / Erschließung
+-   Katalogisierung/Erschließung
 
 -   Ausleihe
 
@@ -297,12 +297,12 @@ und Kontofunktionen dar:
 
 $\Rightarrow$ *Siehe auch [Prozessabbildung: Katalog](#katalog-prozess)*
 
-Die **Next Generation-Systeme** zeichnen sich gegenüber den Systemen
+Die **Next-Generation-Systeme** zeichnen sich gegenüber den Systemen
 der 1. und 2. Generation in der Regel durch andere Systemarchitekturen
 aus. Das heißt, sie verfügen über aktuellere technische
 Einzelkomponenten und Schnittstellen, auf deren Grundlage auch
 zahlreiche zusätzliche Funktionalitäten angeboten werden können. Im
-Einzelnen gibt es folgende Merkmale, die ein **Next Generation-System**
+Einzelnen gibt es folgende Merkmale, die ein **Next-Generation-System**
 kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 
 -   Platformbasiertes Angebot als Software as a Service ([SaaS](#cloud))
@@ -569,7 +569,7 @@ Bearbeitung von Daten im BMS für die Bibliotheksbeschäftigen
 einzuführen. Die Berechtigungen bilden die Arbeitsorganisation ab und
 berechtigen z.B. zum Lesen, Anlegen, Editieren oder Löschen von
 Ausleihdaten, Nutzer\*innen- oder Katalogdaten,
-Erwerbungsdatensätzen, Gebühreninformationen u.ä.
+Erwerbungsdatensätzen, Gebühreninformationen u.Ä.
 
 ### Benutzungsbedingungen
 
@@ -643,7 +643,7 @@ im [Verbundkatalog](#verbundkataloge), im klassischen Nutzerkatalog "OPAC" und
 zum Aufbau von Suchindizes für Discovery-Systeme verwendet.  Das BMS verwaltet
 diese Daten um Medien zu beschaffen, auffindbar und zugreifbar zu machen. Diese
 Daten können von verschiedenen Bibliotheken gemeinsam erstellt, gepflegt und
-genutzt werden, z. B. über Verbundkataloge. Oft werden bibliografische
+genutzt werden, z.B. über Verbundkataloge. Oft werden bibliografische
 Metadaten auch als Open Data zur Verfügung gestellt.
 
 ### Verwaltungsdaten
@@ -759,7 +759,7 @@ einer ökologisch-nachhaltigen Betriebsführung (öffentliche Einrichtungen
 als Vorzeigecharakter für einen ökologischen Wandel) sein, die Aspekte
 der nachhaltigen Beschaffung zu berücksichtigen, wie sie sich bei BMS
 als auch anderen IT-Anwendungen stellen, etwa die Konsequenzen des
-ökologischen Fußabdrucks der genutzten Infrastruktur (z. B.
+ökologischen Fußabdrucks der genutzten Infrastruktur (z.B.
 CO~2~-Ausstoß des Rechenzentrums).
 
 Auch aus datenschutzrechtlicher Perspektive gibt es Voraussetzungen zu
@@ -865,54 +865,51 @@ Möglichkeiten:
     Hosting, Wartung und Support sowie Migration und individuelle
     Konfiguration
 
-Die Vor- und Nachteile im Überblick:
-
-+------------------+-------------------------------+-------------------------------------+
-|                  | Vorteile                      | Nachteile                           |
-+==================+===============================+=====================================+
-| Verbund          | regelmäßige                   | begrenzte individuelle Anpassung    |
-|                  | Produktentwicklung            |                                     |
-|                  |                               |                                     |
-|                  | gewisser State-of-the-Art     | Wartezeiten bei individueller       |
-|                  | garantiert                    | Anpassung                           |
-|                  |                               |                                     |
-|                  | klare Kosten- und             |                                     |
-|                  | Leistungsstruktur             |                                     |
-|                  |                               |                                     |
-|                  | große Anwendungscommunity     |                                     |
-+------------------+-------------------------------+-------------------------------------+
-|kommerzielles BMS | regelmäßige                   | eher geringe individuelle           |
-|                  | Produktentwicklung            | Anpassbarkeit                       |
-|                  |                               |                                     |
-|                  | einheitlicher Leistungsumfang | relativ hohe und intransparente     |
-|                  |                               | Preise                              |
-|                  |                               |                                     |
-|                  | klare Verantwortlichkeiten    | Abhängigkeit bei der Weiter-        |
-|                  |                               | entwicklung                         |
-|                  |                               |                                     |
-|                  |                               | evtl. Verlust der Datenhoheit       |
-|                  |                               |                                     |
-|                  |                               | z.T. proprietäre (hersteller-       |
-|                  |                               | spezifische) Systeme und Schnitt-   |
-|                  |                               | -stellen|                           |
-+------------------+-------------------------------+-------------------------------------+
-| Open Source BMS  | niedrige Anschaffungskosten   | erfordert eigene IT-Kapazitäten     |
-|                  |                               | oder Outsourcing                    |
-|                  |                               |                                     |
-|                  | große Anwendungscommunities   | Risiko der Sicherung von Nach-      |
-|                  |                               | haltigkeit und Kompatibilität       |
-|                  | oftmals regelmäßige           |                                     |
-|                  | Produktentwicklung            |                                     |
-|                  |                               |                                     |
-|                  | viele Dienstleister, die      |                                     |
-|                  | Services rund um Migration,   |                                     |
-|                  | Betrieb und individuelle      |                                     |
-|                  | Anpassung anbieten            |                                     |
-|                  |                               |                                     |
-|                  | offene Schnittstellen und     |                                     |
-|                  | Formate                       |                                     |
-+------------------+-------------------------------+-------------------------------------+
-
++------------------+-------------------------------+----------------------------------------+
+|                  | Vorteile                      | Nachteile                              |
++==================+===============================+========================================+
+| Verbund          | regelmäßige                   | begrenzte individuelle Anpassung       |
+|                  | Produktentwicklung            |                                        |
+|                  |                               |                                        |
+|                  | gewisser State-of-the-Art     | Wartezeiten bei individueller          |
+|                  | garantiert                    | Anpassung                              |
+|                  |                               |                                        |
+|                  | klare Kosten- und             |                                        |
+|                  | Leistungsstruktur             |                                        |
+|                  |                               |                                        |
+|                  | große Anwendungscommunity     |                                        |
++------------------+-------------------------------+----------------------------------------+
+|kommerzielles BMS | regelmäßige                   | eher geringe individuelle              |
+|                  | Produktentwicklung            | Anpassbarkeit                          |
+|                  |                               |                                        |
+|                  | einheitlicher Leistungsumfang | relativ hohe und intransparente        |
+|                  |                               | Preise                                 |
+|                  |                               |                                        |
+|                  | klare Verantwortlichkeiten    | Abhängigkeit bei der Weiter-           |
+|                  |                               | entwicklung                            |
+|                  |                               |                                        |
+|                  |                               | evtl. Verlust der Datenhoheit          |
+|                  |                               |                                        |
+|                  |                               | z.T. proprietäre (hersteller-          |
+|                  |                               | spezifische) Systeme und Schnittstellen|
++------------------+-------------------------------+----------------------------------------+
+| Open Source BMS  | niedrige Anschaffungskosten   | erfordert eigene IT-Kapazitäten        |
+|                  |                               | oder Outsourcing                       |
+|                  |                               |                                        |
+|                  | große Anwendungscommunities   | Risiko der Sicherung von Nach-         |
+|                  |                               | haltigkeit und Kompatibilität          |
+|                  | oftmals regelmäßige           |                                        |
+|                  | Produktentwicklung            |                                        |
+|                  |                               |                                        |
+|                  | viele Dienstleister, die      |                                        |
+|                  | Services rund um Migration,   |                                        |
+|                  | Betrieb und individuelle      |                                        |
+|                  | Anpassung anbieten            |                                        |
+|                  |                               |                                        |
+|                  | offene Schnittstellen und     |                                        |
+|                  | Formate                       |                                        |
++------------------+-------------------------------+----------------------------------------+
+: Vor- und Nachteile im Überblick {#tbl-vor-und-nachteile}
 
 Verbünde bieten in der Regel ein oder zwei Lösungen an, die entweder
 kommerziell oder Open Source sind. Die Mitgliedschaft in Verbünden kann
@@ -1025,7 +1022,7 @@ unterstützen:
 
 1. Überprüfen von vorhandenen Beständen (Vorakzession)
 
-2. Import von Erwerbungsdaten, z. B. von Patron-Driven-Acquisition (*PDA*) und Approval-Plänen
+2. Import von Erwerbungsdaten, z.B. von Patron-Driven-Acquisition (*PDA*) und Approval-Plänen
 
 3. Aufgabe von Bestellungen bei definierten Lieferanten auf
    verschiedenen Wegen
@@ -1093,7 +1090,7 @@ entsprechenden Funktionalitäten ist daher ein Alleinstellungsmerkmal von
 BMS der neuen Generation.
 
 Zur Bereitstellung von Daten für die Verwaltung von elektronischen Ressourcen
-bieten sich außerdem sogenannte Electronic Resource Management-Tools (z. B.
+bieten sich außerdem sogenannte Electronic Resource Management-Tools (z.B.
 FOLIO-ERM, Coral, LAS:eR) und Datenbanken („Knowledge Base“) wie GOKB, we:kb
 oder kommerzielle Knowledge Bases an.
 
@@ -1186,7 +1183,7 @@ Ein BMS sollte die folgenden Aufgaben der Ausleihe unterstützen:
 
 9.  Gebührenverwaltung
 
-10.  Statistik und Reporting, u. a. Erzeugung von Listen (überfällige Medien, nicht abgeholte
+10.  Statistik und Reporting, u.a. Erzeugung von Listen (überfällige Medien, nicht abgeholte
     Vormerkungen)
 
 11. Anbindung an Bezahlsysteme (Kassenautomaten, Online-Bezahlsysteme)
@@ -1220,7 +1217,7 @@ Verbindungen nicht mehr nötig ist. Außerdem ist man nicht mehr daran gebunden,
 dass anzubindende Geräte SIP2 unterstützen, was deutlich mehr Marktalternativen
 öffnet.
 
-Die wichtigsten [Automaten](#automaten), die in Bibliotheken anzutreffen sind, sind Ausleihautomaten / Selbstverbucher, Rückgabeautomaten, Fernleihautomaten und Kassenautomaten.
+Die wichtigsten [Automaten](#automaten), die in Bibliotheken anzutreffen sind, sind Ausleihautomaten/Selbstverbucher, Rückgabeautomaten, Fernleihautomaten und Kassenautomaten.
 
 ### Anbindung von Systemen über Schnittstellen
 
@@ -1252,7 +1249,7 @@ Schnittstellen, über die sie in die bestehenden
 Informationsinfrastrukturen, d.h. die umgebenden Systeme, eingebunden
 werden können.
 
-Eine Schnittstelle (engl. Interface oder manchmal auch API - application
+Eine Schnittstelle (engl. Interface oder oder auch API für application
 programming interface) bildet einen definierten Kommunikationsweg zwischen
 verschiedenen Systemen als "Gesprächspartner". Im bibliothekarischen Universum
 gibt es für diese Fälle auch schon viele etablierte Austauschformate, etwa
@@ -1308,7 +1305,7 @@ Nutzung nur eine einmalige Anmeldung erforderlich ist.
 
 Authentifizierungsprotokolle sind z.B. [Shibboleth /
 SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)) und
-[OpenID](https://de.wikipedia.org/wiki/OpenID). IDM-Softwareprodukte sind u.A.
+[OpenID](https://de.wikipedia.org/wiki/OpenID). IDM-Softwareprodukte sind u.a.
 SAP (mit Plugins) und Microsoft Active Directory.
 
 ##### Speicherung von Accounts
@@ -1462,7 +1459,7 @@ Zur Einrichtung eines BMS gehört:
 -   **Installation auf einem Server:** Erfordert Kenntnisse in
     Systemtechnik (Hardware, Server, Kommandozeile ...). Wenn Hosting
     durch Drittanbieter geleistet wird (Cloud, Dienstleister wie
-    Verbundzentrale o.A.), verändert sich diese Aufgabe. Sie entfällt,
+    Verbundzentrale...), verändert sich diese Aufgabe. Sie entfällt,
     wenn der Hoster spezialisiert auf das Hosting von BMS ist (bspw.
     Verbundzentrale), sie wird geringer, wenn der Hoster eher
     allgemein aufgestellt ist.
@@ -1640,7 +1637,7 @@ trennen.
 
 ## Zusammenfassung und Ausblick
 
-Ein BMS ist im Normalfall kein statisches System - vielmehr muss es
+Ein BMS ist im Normalfall kein statisches System -- vielmehr muss es
 aufgrund der sich verändernden Bedürfnisse einer Bibliothek und deren Nutzer\*innen
 sowie sich wandelnder Technologien und technischer Anforderungen stetig angepasst werden.
 
