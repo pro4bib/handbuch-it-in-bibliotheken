@@ -225,7 +225,7 @@ Inhaltes. Nicht jedes Thema eignet sich dafür, ein ausführliches Video zu
 drehen. Andererseits kann es sein, dass ein Thema nicht in Form eines
 einzelnen Social-Media-Posts verständlich aufbereitet werden kann. Es
 geht also darum, sich über die unterschiedlichen medialen
-Darstellungsformen - Video, Text, Text und Bild, Grafik, etc. - klar zu
+Darstellungsformen -- Video, Text, Text und Bild, Grafik, etc. -- klar zu
 werden und Themen zuzuordnen.
 
 Auch innerhalb einer Darstellungsform gibt es unterschiedliche Formate:
@@ -283,7 +283,7 @@ schon mal steht.
     Häufig wird in Bibliotheken die externe
     Kommunikation von mehr als einer Person übernommen. Zur
     Strukturierung und zur Absprache innerhalb eines Teams eignen sich
-    verschiedene Kommunikationstools, vom 1:1 Gespräch über eine
+    verschiedene Kommunikationstools, vom persönlichen Gespräch über eine
     Chatgruppe bis hin zur Nutzung eines Redaktionsplanes, um
     gemeinsam Inhalte zu planen. Wichtig ist hierbei Konsistenz und
     die Nutzung der für den vorliegenden Zweck effektivsten Tools.
@@ -409,7 +409,7 @@ außerdem oft weniger störend für den Arbeitsfluss. Allerdings kann
 asynchrone Kommunikation zu Verzögerungen und fehlendes sofortiges
 Feedback zu Missverständnissen führen.
 
-- **Telefon** ist das klassische Medium mit synchroner 1-zu-1 Kommunikation für
+- **Telefon** ist das klassische Medium mit synchroner 1-zu-1-Kommunikation für
   schnelle Absprachen; mittlerweile durch die Verbreitung von Videokonferenzen,
   Chat etc. in der internen Kommunikation eher in den Hintergrund geraten.
   Mit Voice-over-IP und Weiterleitungen können Telefonnummern auch
@@ -495,7 +495,7 @@ Feedback zu Missverständnissen führen.
   [Mattermost](https://mattermost.com/)
   ist ein weiteres Open Source-Beispiel, das viele verschiedenen Kommunikationswege
   vereint und auch Plugins für viele andere Werkzeuge bereitstellt, um eine
-  All-In-One Lösung für Kollaborationen zu sein.
+  All-in-One-Lösung für Kollaborationen zu sein.
 
 Je technisch anspruchsvoller die Kommunikationswerkzeuge werden, um so mehr
 muss darauf geachtet werden, die gleichberechtige Teilnahme aller
@@ -644,8 +644,8 @@ Bibliothek eine eigene Domain, kann ein eigenes CMS auswählen und hat damit
 auch die Gestaltungsfreiheit, beliebige Unterseiten anzulegen und eigene
 Inhalte zu beschreiben. 
 
-In beiden Fällen - ob eigene Domain oder eingegliedert in die übergeordnete
-Einrichtung - gibt es in der Regel Designvorgaben wie eine Corporate Identity.
+In beiden Fällen -- ob eigene Domain oder eingegliedert in die übergeordnete
+Einrichtung -- gibt es in der Regel Designvorgaben wie eine Corporate Identity.
 Dennoch sollten insbesondere bei der Planung und späteren Konzeption gängige
 [Usability-Gesichtspunkte](#was-beeinflusst-den-nutzungseindruck)
 berücksichtigt werden.
@@ -840,7 +840,7 @@ Künstlichen Intelligenz mit Large Language Models (*LLM*) haben das
 Potenzial, die Art und Weise, wie Organisationen sowohl intern als auch
 extern kommunizieren, tiefgreifend zu verändern. Sie können bspw. in
 Chatbots und andere Support-Systeme integriert werden, um Anfragen von
-Nutzenden - zumindest initial - in Echtzeit zu beantworten und so
+Nutzenden -- zumindest initial -- in Echtzeit zu beantworten und so
 Mitarbeitende zu entlasten. Auch bei der Erstellung von Content können
 sie helfen, diesen schneller und kohärenter zu gestalten. Im Bereich des
 Wissensmanagements könnten Mitarbeiter\*innen LLMs nutzen, um

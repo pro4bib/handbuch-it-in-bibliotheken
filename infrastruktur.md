@@ -25,11 +25,11 @@ vorgestellte Infrastruktur ist grob nach Hauptanwendungsfall gegliedert in:
 
 2. Grundlagenwissen zur [Objektidentifikation physischer Medien mit RFID](#rfid)
 
-3. [Dienste primär für Nutzer\*innen](#dienste-für-nutzerinnen) wie Webseite, Internetzugang und Arbeitsplätze
+3. [Dienste primär für Nutzer\*innen](#dienste-für-nutzerinnen) wie Webseite und Arbeitsplätze
 
 4. [Dienste primär für Mitarbeiter\*innen](#dienste-für-mitarbeiterinnen) wie Intranet und mobiles Arbeiten
 
-Weitgehend ausgeklammert, weil an anderer Stelle behandelt, bleiben
+Weitgehend ausgeklammert, weil in anderen Kapiteln behandelt, bleiben
 [forschungsnahe Dienste](#forschungsnahe-dienste) wie Repositories und Open Data,
 Infrastruktur zur [Digitalisierung](#digitalisierung) sowie Anwendungen für
 [Kommunikation und Wissensmanagement](#kommunikation).

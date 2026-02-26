@@ -11,3 +11,12 @@
 {{< include CONTRIBUTING-pdf.md >}}
 
 :::
+
+<!-- PDF version should end with an empty pages -->
+{{< pagebreak >}}
+
+\
+
+{{< pagebreak >}}
+
+\

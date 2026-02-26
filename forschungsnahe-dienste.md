@@ -162,7 +162,7 @@ Reporting existieren jedoch Services wie
 *[OpenAPC](https://openapc.net/)*. Zur einheitlichen
 Darstellung aller Publikationskosten hat sich mit
 *[OpenCost](https://www.opencost.de/metadatenschema/)* ein
-xml-Metadatenschema etabliert.
+XML-Metadatenschema etabliert.
 
 #### Open Refine
 
@@ -230,12 +230,12 @@ Bereich Forschungsdaten und OER gibt es seitens
 der Nutzenden häufig den Wunsch, dass in Repositorien eine
 interaktive Arbeit mit den Materialien möglich ist. Derzeit sind
 Repositorien in der Regel noch ausschließlich auf die sichere
-Speicherung und Bereitstellung der Inhalte ausgerichtet - eine
+Speicherung und Bereitstellung der Inhalte ausgerichtet -- eine
 Erweiterung um Funktionalitäten z. B. zur Visualisierung oder Analyse
 würden sie in die Nähe von virtuellen Forschungsumgebungen rücken.
 Häufig werden Repositorien und Repositoriensoftware zudem mit der
 digitalen [Langzeitarchivierung](#langzeitarchivierung) als 
-Kernfunktionalität in Verbindung gebracht - aus Sicht von Repositorien-Betreiber\*innen und
+Kernfunktionalität in Verbindung gebracht -- aus Sicht von Repositorien-Betreiber\*innen und
 -Entwickler\*innen handelt es sich bei der digitalen
 Langzeitarchivierung allerdings eher um eine Spezialfunktionalität, die
 nur für bestimmte Nutzungsszenarien relevant und daher auch nicht in
@@ -324,7 +324,7 @@ beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
 gesamten Forschungsdatenlebenszyklus hinweg, d. h. von der Datenplanung
 über die Datenerhebung und -analyse bis hin zur Datenarchivierung,
 -publikation und -nachnutzung. Bibliotheken nehmen beim Aufbau und
-Betrieb entsprechender Services eine zentrale Rolle ein - in aller Regel
+Betrieb entsprechender Services eine zentrale Rolle ein -- in aller Regel
 sind sie hierbei nicht die einzigen Akteure, sondern das
 Serviceportfolio wird arbeitsteilig von
 Bibliotheken, Rechenzentren, Forschungsabteilungen und ggf. weiteren
@@ -620,7 +620,7 @@ Seal](https://www.coretrustseal.org)* sowie das
 *[Nestor-Siegel für vertrauenswürdige digitale
 Langzeitarchive](https://www.langzeitarchivierung.de/Webs/nestor/DE/Zertifizierung/nestor_Siegel/siegel.html)*
 zu nennen. Während es mit der DIN Norm 31644 (auch als ISO Norm 16363
-verbreitet) "Information und Dokumentation - Kriterien für
+verbreitet) "Information und Dokumentation -- Kriterien für
 vertrauenswürdige Langzeitarchive" eine offizielle Norm für die
 Bewertung der Vertrauenswürdigkeit von Langzeitarchiven gibt, werden die
 meisten Standards in diesem Bereich eher als Best Practices oder
@@ -708,9 +708,7 @@ Forschungsdaten nachhaltig unter entsprechenden Lizenzen öffentlich
 verfügbar gemacht (Berg-Weiß et al. 2022). Mit dem Ziel, eine nationale
 Beratungs- und Austauschplattform zu PID
 aufzubauen, fördert die DFG seit 2023 das Projekt "[PID Network
-Deutschland](https://www.pid-network.de/) - Netzwerk für
-die Förderung von persistenten Identifikatoren in Wissenschaft und
-Kultur".
+Deutschland](https://www.pid-network.de/).
 
 ### Langzeitarchivierung
 
@@ -741,8 +739,8 @@ neben den Standardfunktionen eines Archivsystems (z.B. bitstream-preservation,
 regelmäßige Integritätstests, Reduplizierung) auch Funktionen wie eine
 Formatvalidierung und implementierbare Workflows.
 
-Auf der Webpage [COPTR](https://coptr.digipres.org/) - Community Owned
-digital Preservation Tool Registry - werden diese und zahlreiche weitere
+Auf der Webpage [COPTR](https://coptr.digipres.org/) -- Community Owned
+digital Preservation Tool Registry -- werden diese und zahlreiche weitere
 Tools und Workflows zur *LZA* vorgestellt. Als wichtige
 Anlaufstelle für Fragen rund um die digitale *LZA* dient
 außerdem das *[Kompetenznetzwerk nestor](https://www.langzeitarchivierung.de/)*, 

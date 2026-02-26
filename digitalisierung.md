@@ -89,7 +89,7 @@ In Berlin unterstützt die Arbeitsstelle
 jährlichen
 [Förderprogramm](https://www.digis-berlin.de/foerderprogramm/info/)
 seit 2012 Digitalisierungsprojekte in unterschiedlichen technischen
-Umgebungen - um nur einige Beispiele aus der heterogenen föderalen
+Umgebungen -- um nur einige Beispiele aus der heterogenen föderalen
 Struktur herauszugreifen.
 
 ### Ausblick
@@ -630,7 +630,7 @@ Verwaltung von Metadaten für die digitalisierten Materialien.
 **Technische Umsetzung:**
 
 6. *Scantechnologie*: Wählen Sie die geeignete Scantechnologie und
--auflösung entsprechend der Art der Objekte und deren Verwendungszweck
+Auflösung entsprechend der Art der Objekte und deren Verwendungszweck
 aus.
 
 7. *Qualitätskontrolle*: Implementieren Sie Prozesse zur Sicherstellung
