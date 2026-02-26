@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -96,10 +96,10 @@ div.csl-indent {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-881e6b1d70d56ce3cf9c07ed1b45e128.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c83a90f75b20182b526303376b69f258.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -546,7 +546,7 @@ Abbildung&nbsp;6.1: ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbän
 </section>
 <section id="normdaten" class="level3" data-number="6.2.4">
 <h3 data-number="6.2.4" class="anchored" data-anchor-id="normdaten"><span class="header-section-number">6.2.4</span> Normdaten</h3>
-<p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen <a href="#identifikatoren">Identifikator</a> versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <em>Normdaten</em> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä. sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
+<p>Einfache kontrollierte Vokabulare bestehen aus normierten Listen von eindeutigen Benennungen – beispielsweise könnte in einem Gemüse-Vokabular festgelegt sein, dass immer „Karotte“ statt „Möhre“ verwendet werden muss. Wird jeder Eintrag mit einem künstlichen <a href="#identifikatoren">Identifikator</a> versehen, muss die Benennung selbst nicht eindeutig sein. Existiert eine Datenbank zum Nachschlagen dieser IDs, so wird diese auch als <em>Normdatei</em> bezeichnet. Ihre Datensätze dienen als <em>Normdaten</em> der eindeutigen Identifizierung von Personen, Organisationen, geographischen oder administrativen Einheiten, Themen oder anderen Entitäten an verschiedenen Stellen. Ein Normdatensatz besteht mindestens aus einem Identifikator und einer Vorzugsbenennung als primärer Name. Oft gibt es weitere identifizierende Merkmale wie alternative Benennungen, Lebensdaten von Personen, Ortsangaben u.Ä.&nbsp;sowie Verknüpfungen zwischen verschiedenen Entitäten.</p>
 <div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -620,6 +620,10 @@ Abbildung&nbsp;6.2: Ein gekürzter Beispieldatensatz in MARC-XML
 </section>
 <section id="datenmodelle-und-ontologien" class="level3" data-number="6.3.4">
 <h3 data-number="6.3.4" class="anchored" data-anchor-id="datenmodelle-und-ontologien"><span class="header-section-number">6.3.4</span> Datenmodelle und Ontologien</h3>
+<p><strong>Dublin Core</strong> bzw.&nbsp;das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
+<p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliografischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
+<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen.</p>
+<p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
 <div class="callout callout-style-simple callout-important">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -631,10 +635,6 @@ Abbildung&nbsp;6.2: Ein gekürzter Beispieldatensatz in MARC-XML
 </div>
 </div>
 </div>
-<p><strong>Dublin Core</strong> bzw.&nbsp;das Dublin Core Metadata Element Set (<strong>DCMES</strong>) hat als kleinster gemeinsamer Nenner der meisten Metadatenstandards die größte Verbreitung. Es besteht aus 15 Basiselementen wie „creator“, „title“, „date“ und „description“ und Erweiterungen mit den DCMI Metadata Terms wie „Alternative Title“, „Date Created“ und „Date Available“.</p>
-<p>Die <em>Functional Requirements for Bibliographic Records</em> (<strong>FRBR</strong>) sind ein sehr abstraktes Metadatenmodell. Sie beinhalten insbesondere eine Einteilung von bibliografischen Entitäten in die Beschreibungsebenen „work“, „expression“, „manifestation“ und „item“.</p>
-<p>Die <strong>BIBFRAME</strong>-Ontologie wurde entwickelt, um MARC auf Grundlage von RDF zu ersetzen. Die wesentlichen Elemente sind „work“, „instance“ und „item“ sowie damit verbundene Eigenschaften und Entitätstypen.</p>
-<p><strong>Schema.org</strong> ist eine allgemeine Ontologie für strukturierte Daten in Webseiten.</p>
 <div id="fig-bibframe" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-bibframe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -649,16 +649,13 @@ Abbildung&nbsp;6.2: Ein gekürzter Beispieldatensatz in MARC-XML
     a bf:UsePolicy ;
     rdfs:label
       "Namensnennung 3.0 Deutschland",
-      "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI
-  ] ;
+      "https://creativecommons.org/licenses/by/3.0/de/"^^xsd:anyURI ] ;
   bf:instanceOf &lt;http://www.wikidata.org/entity/Q115625546&gt; ;
   bf:hasItem [
     a bf:Item ;
     bf:electronicLocator [
       bflc:locator &lt;https://it-in-bibliotheken.de/&gt; ;
-      bf:note [ a bf:Note ; rdfs:label "kostenfrei" ]
-    ]
-  ] .
+      bf:note [ a bf:Note ; rdfs:label "kostenfrei" ] ] ] .
 
 &lt;http://www.wikidata.org/entity/Q115625546&gt;
   a bf:Text, bf:Work ;
@@ -710,7 +707,7 @@ Abbildung&nbsp;6.4: Allgemeiner Ablauf eines ETL-Prozesses
 </div>
 <section id="extraktion" class="level4">
 <h4 class="anchored" data-anchor-id="extraktion">Extraktion</h4>
-<p>Ziel der <strong>Extraktion</strong> (Extract) ist die Auswahl und der Abzug relevanter Daten aus verschiedenen Datenquellen. Hierbei handelt es sich primär um einen technischen Vorgang, das sogenannte <strong>Harvesting</strong>, welcher automatisiert oder manuell gestartet werden kann. Der Aufwand und die Qualität des Harvestings können je nach Datenquelle sehr unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien, Datenbanken bzw.&nbsp;Datenbankabzüge, <a href="#schnittstellen">Schnittstellen</a> als auch unstrukturierte Quellen wie z. B. Websites, die mittels Screenscraping erschlossen werden müssen.</p>
+<p>Ziel der <strong>Extraktion</strong> (Extract) ist die Auswahl und der Abzug relevanter Daten aus verschiedenen Datenquellen. Hierbei handelt es sich primär um einen technischen Vorgang, das sogenannte <strong>Harvesting</strong>, welcher automatisiert oder manuell gestartet werden kann. Der Aufwand und die Qualität des Harvestings können je nach Datenquelle sehr unterschiedlich ausfallen. Denkbare Datenquellen sind Dateien, Datenbanken bzw.&nbsp;Datenbankabzüge, <a href="#schnittstellen">Schnittstellen</a> als auch unstrukturierte Quellen wie z.B.&nbsp;Websites, die mittels Screenscraping erschlossen werden müssen.</p>
 <p>Der Extraktionsvorgang erfolgt bei Bedarf regelmäßig, um die Daten im Zielsystem aktuell zu halten. Mögliche Aktualisierungsintervalle sind:</p>
 <ul>
 <li><p><strong>periodisch</strong>, das heißt in zeitlich regelmäßigen Abständen unabhängig von der jeweiligen Aktualisierung der Daten in den Quellsystemen</p></li>
