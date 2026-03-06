@@ -13,10 +13,12 @@
 :::
 
 <!-- PDF version should end with an empty pages -->
-{{< pagebreak >}}
-
+```{=latex}
+\newpage
+\thispagestyle{empty}
 \
 
-{{< pagebreak >}}
-
+\newpage
+\thispagestyle{empty}
 \
+```

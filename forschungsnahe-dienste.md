@@ -25,7 +25,7 @@ Dazu zählen z.B. Services in den Bereichen [Forschungsdatenmanagement],
 Bibliometrie sowie verschiedene [Publikationsdienste].
 
 Einige dieser Dienste, z. B. Repositorien für Zeitschriftenartikel, die unter
-Open Access-Bedingungen zweitveröffentlicht werden dürfen, gehören schon seit
+Open-Access-Bedingungen zweitveröffentlicht werden dürfen, gehören schon seit
 Jahrzehnten zum Dienstleistungsrepertoire wissenschaftlicher Bibliotheken.
 Inzwischen betreiben größere Einrichtungen zudem oft spezialisierte
 Repositorien für ein Spektrum verschiedener Objekttypen: Publikationen wie
@@ -35,7 +35,7 @@ diverse Dienste, die übergreifend den Forschungsoutput bestimmter lokaler oder
 fachlicher Forschungscommunities besser auffindbar oder messbar machen sollen.
 Darunter fallen Forschungsinformationssysteme und Dienstleistungen im Bereich
 von Metriken oder zur Verwaltung von Artikelveröffentlichungsgebühren in
-Open Access-Journals (*APCs*).
+Open-Access-Journals (*APCs*).
 
 ::: {.callout-important}
 
@@ -64,7 +64,7 @@ Fachdiskussion sind dazu Begriffe wie "scholar-led publishing" oder
 Bibliotheken sehen sich hier als vertrauenswürdige, öffentlich
 finanzierte Dienstleister für die Wissenschaftscommunities.
 
-Der Einsatz von und die aktive Mitarbeit an Open Source-Software ist bei den
+Der Einsatz von und die aktive Mitarbeit an Open-Source-Software ist bei den
 forschungsnahen Diensten stärker als in anderen Bereichen der Bibliotheks-IT
 eine Selbstverständlichkeit. Auch die Bedeutung der gemeinschaftlichen Pflege offener Standards, Datenmodelle und Daten-Gemeingüter ist hier besonders ausgeprägt.
 
@@ -74,7 +74,7 @@ Die Veröffentlichung wissenschaftlicher Erkenntnisse ist ein zentraler
 Bestandteil des wissenschaftlichen Arbeitens. Solange sich dieser Prozess noch in den Geschäftsprozessen klassischer
 Subskriptionszeitschriften abbildete, befanden sich wissenschaftliche Bibliotheken 
 eher auf der Seite der Medienbereitstellung. Mit zunehmender Stärkung des
-Open Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten
+Open-Access-Gedankens und dem Aufkommen neuer Geschäftsmodelle rückten
 wissenschaftliche Bibliotheken stärker in die Rolle des\*der Unterstützenden und
 Ermöglichenden. Die Digitalität der gesamten Prozesskette vom Schreiben bis
 zur Veröffentlichung der Beiträge in teilweise von den Bibliotheken getragenen
@@ -91,7 +91,7 @@ suchen, auf sie verweisen und sie auch sonst auf jede denkbare legale
 Weise benutzen können, ohne finanzielle, gesetzliche oder technische
 Barrieren jenseits von denen, die mit dem Internetzugang selbst
 verbunden sind. Zum ersten Mal wurde dieser Gedanke in der
-*[Grundsatzerklärung der Budapester Open Access-Bewegung](https://www.budapestopenaccessinitiative.org/)*
+*[Grundsatzerklärung der Budapester Open-Access-Bewegung](https://www.budapestopenaccessinitiative.org/)*
 formuliert.
 
 Durch die Transformationsprozesse im wissenschaftlichen Publikationswesen weg
@@ -123,16 +123,16 @@ Preprint-Dienste, (Micro-)Blogs, Data Journals und ähnliche Dienste, die
 traditionelle Publikationswege wie peer-reviewte Journals ergänzen, siehe dazu
 auch die entsprechende [Publikation der Initiative Knowledge Exchange](https://doi.org/10.21428/996e2e37.3ebdc864). Hier können
 Bibliotheken ebenso in die Rolle der Dienstleistenden treten, Instanzen
-geeigneter Open Source-Software hosten und diese Entwicklung unterstützen. Dies
+geeigneter Open-Source-Software hosten und diese Entwicklung unterstützen. Dies
 kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken
 (@sec-kommunikation) betrachtet werden. Ergänzend gibt es zahlreiche weitere
 Dienste, die das Open Access-Publizieren vor allem administrativ unterstützen,
 von denen im Folgenden einige kurz erläutert werden.
 
-### Open Access-Dienste
+### Open-Access-Dienste
 
 Neben der Unterstützung bei Open Access-Veröffentlichungen haben sich im
-Zusammenhang mit der Open Access-Transformation weitere IT-Dienste in
+Zusammenhang mit der Open-Access-Transformation weitere IT-Dienste in
 Bibliotheken entwickelt.
 
 #### Verlags-Software
@@ -150,7 +150,7 @@ Dienstleistungsportfolio.
 
 #### Publikationsfonds-Verwaltung
 
-Publikationsfonds zur Finanzierung von Open Access-Publikationen sind an
+Publikationsfonds zur Finanzierung von Open-Access-Publikationen sind an
 vielen wissenschaftlichen Bibliotheken fest verankerte Hilfsmittel, um
 die Transformation des wissenschaftlichen Publikationswesens hin zu Open
 Access zu unterstützen. Durch sie werden anfallende *Article Processing
@@ -178,7 +178,7 @@ beachten.
 
 #### Journal-Finder-Werkzeuge
 
-Neben den üblichen Fragen zu Lizenzen bei Open Access-Publikationen
+Neben den üblichen Fragen zu Lizenzen bei Open-Access-Publikationen
 spielt auch die Wahl eines geeigneten Journals eine zentrale Rolle.
 Derzeit verbreitete Journal-Finder-Werkzeuge wie
 *[B!SON](https://service.tib.eu/bison/)* oder der
@@ -200,7 +200,7 @@ Zentral für die Veröffentlichung jedweder Art von wissenschaftlichem
 Output ist ein geeigneter Ort für deren Veröffentlichung, ganz besonders
 im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 
-Heute haben sich Open Access-Repositorien als verlässliche Speicherdienste für
+Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
 wissenschaftliche Ergebnisse etabliert, seien es Forschungsdaten, textuelle
 Publikationen oder andere Materialien. Für die wissenschaftliche Kommunikation
 ist dabei die Zitierbarkeit eine wichtige Voraussetzung. Dazu muss
@@ -241,7 +241,7 @@ Langzeitarchivierung allerdings eher um eine Spezialfunktionalität, die
 nur für bestimmte Nutzungsszenarien relevant und daher auch nicht in
 allen Repositorien gegeben ist. Mit dem proprietären System
 *[Rosetta](https://exlibrisgroup.com/de/produkte/rosetta/)*
-und der Open Source-Lösung
+und der Open-Source-Lösung
 *[Archivematica](https://www.archivematica.org)* seien hier
 nur zwei Beispiele für Systeme genannt, die sich auf den Erhalt von
 Informationen im Sinne der Langzeitarchivierung spezialisieren.
@@ -368,7 +368,7 @@ ist die in einem von der Deutschen Forschungsgemeinschaft (DFG) geförderten Pro
 Für diesen werden, unterstützt durch *NFDI*-Konsortien, 
 in einer Gemeinschaftsarbeit ständig neue Fragenkataloge entwickelt werden. Obwohl einige
 öffentliche Instanzen der Software existieren, die z. B. einen Login
-über die *ORCID* ermöglichen, kann die Open Source-Software auch selbst
+über die *ORCID* ermöglichen, kann die Open-Source-Software auch selbst
 gehostet und inhaltlich sowie visuell auf die Bedarfe der jeweiligen
 Einrichtung zugeschnitten werden. *DMP* können innerhalb dieser Software
 kollaborativ erstellt werden, indem Personen als Mitarbeitende in
@@ -389,7 +389,7 @@ von *electronic laboratory notebook*) zusammengefasst werden. Neben
 kommerziellen Programmen wie
 *[LabFolder](https://labfolder.com/de/)*, bei denen
 Bibliotheken eher in der Rolle des\*der Vermittelnden sind, gewinnen
-Open Source-Lösungen zunehmend an Bedeutung. Diese können Bibliotheken
+Open-Source-Lösungen zunehmend an Bedeutung. Diese können Bibliotheken
 auf eigenen Servern hosten und selbst administrieren, sind jedoch bei
 der Entwicklung neuer Features auf eine Community bzw. den\*die Entwickler\*in
 oder eigene Fachkräfte angewiesen. Beispiele sind hier
@@ -609,7 +609,7 @@ zwischen Wissenschaft und Infrastruktureinrichtungen, welche die Dienste
 betreiben. Zertifikate erfüllen in diesem Zusammenhang verschiedene
 Funktionen. Sie sind als vertrauensbildende Maßnahmen gedacht, die
 Qualitätsmerkmale der Dienstleistungen sein sollen. Das
-*[DINI-Zertifikat für Open Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)*
+*[DINI-Zertifikat für Open-Access-Publikationsdienste](https://dini.de/dienste-projekte/dini-zertifikat)*
 versteht sich seit jeher auch als Ratgeber bei Einrichtung,
 Weiterentwicklung und Betrieb solcher Dienstleistungen, der "Maßstäbe,
 Richtlinien und Best Practices" vermitteln will. Letztlich dienen
@@ -714,7 +714,7 @@ Deutschland](https://www.pid-network.de/).
 
 Die dauerhafte Aufbewahrung und Lesbarkeit von digitalen Objekten zu
 gewährleisten, stellt auch für Bibliotheken, die zunehmend für die Archivierung
-von Open Access-Publikationen, Forschungsdaten und anderen elektronischen
+von Open-Access-Publikationen, Forschungsdaten und anderen elektronischen
 Ressourcen verantwortlich sind, eine große Herausforderung dar. Die sogenannte
 **digitale Langzeitarchivierung (*LZA*)** beinhaltet neben der Speicherung
 zusätzliche Maßnahmen wie die regelmäßige Überprüfung der Datenintegrität, die
@@ -772,10 +772,10 @@ Für das Einbringen von Daten in Repositorien hat sich das Protokoll
 *[Simple Webservice Offering Repository
 Deposit](https://swordapp.org/)* (*SWORD*) durchgesetzt, wobei
 auf die genaue Version dieses Standards geachtet werden muss. Einige
-Open Access-Verlage bieten an, Dokumente über *SWORD* direkt in
+Open-Access-Verlage bieten an, Dokumente über *SWORD* direkt in
 Repositorien zu übertragen.
 *[DeepGreen](https://info.oa-deepgreen.de/)*, ein
-Lieferdienst für Open Access-Artikel, versorgt Repositorien über *SWORD*
+Lieferdienst für Open-Access-Artikel, versorgt Repositorien über *SWORD*
 mit Verlagsinhalten.
 
 Speziell für die Arbeit mit Bildern, Bildviewern und Bilddatenbanken

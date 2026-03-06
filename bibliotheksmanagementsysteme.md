@@ -89,7 +89,7 @@ elektronischen Ressourcen erweitert sowie Statistik- und
 Reporting-Funktionalitäten verbessert.
 
 Seit dem Ende der 1990er Jahre spielen auch wieder Lösungen eine Rolle,
-die nicht kommerziell sind. Diese Open Source-Lösungen haben in der
+die nicht kommerziell sind. Diese Open-Source-Lösungen haben in der
 Regel eine große Anwender-Community und lassen einen vielfältigen Markt
 für Support- und Wartungsdienstleistungen zu.
 
@@ -865,50 +865,50 @@ Möglichkeiten:
     Hosting, Wartung und Support sowie Migration und individuelle
     Konfiguration
 
-+------------------+-------------------------------+----------------------------------------+
-|                  | Vorteile                      | Nachteile                              |
-+==================+===============================+========================================+
-| Verbund          | regelmäßige                   | begrenzte individuelle Anpassung       |
-|                  | Produktentwicklung            |                                        |
-|                  |                               |                                        |
-|                  | gewisser State-of-the-Art     | Wartezeiten bei individueller          |
-|                  | garantiert                    | Anpassung                              |
-|                  |                               |                                        |
-|                  | klare Kosten- und             |                                        |
-|                  | Leistungsstruktur             |                                        |
-|                  |                               |                                        |
-|                  | große Anwendungscommunity     |                                        |
-+------------------+-------------------------------+----------------------------------------+
-|kommerzielles BMS | regelmäßige                   | eher geringe individuelle              |
-|                  | Produktentwicklung            | Anpassbarkeit                          |
-|                  |                               |                                        |
-|                  | einheitlicher Leistungsumfang | relativ hohe und intransparente        |
-|                  |                               | Preise                                 |
-|                  |                               |                                        |
-|                  | klare Verantwortlichkeiten    | Abhängigkeit bei der Weiter-           |
-|                  |                               | entwicklung                            |
-|                  |                               |                                        |
-|                  |                               | evtl. Verlust der Datenhoheit          |
-|                  |                               |                                        |
-|                  |                               | z.T. proprietäre (hersteller-          |
-|                  |                               | spezifische) Systeme und Schnittstellen|
-+------------------+-------------------------------+----------------------------------------+
-| Open Source BMS  | niedrige Anschaffungskosten   | erfordert eigene IT-Kapazitäten        |
-|                  |                               | oder Outsourcing                       |
-|                  |                               |                                        |
-|                  | große Anwendungscommunities   | Risiko der Sicherung von Nach-         |
-|                  |                               | haltigkeit und Kompatibilität          |
-|                  | oftmals regelmäßige           |                                        |
-|                  | Produktentwicklung            |                                        |
-|                  |                               |                                        |
-|                  | viele Dienstleister, die      |                                        |
-|                  | Services rund um Migration,   |                                        |
-|                  | Betrieb und individuelle      |                                        |
-|                  | Anpassung anbieten            |                                        |
-|                  |                               |                                        |
-|                  | offene Schnittstellen und     |                                        |
-|                  | Formate                       |                                        |
-+------------------+-------------------------------+----------------------------------------+
++--------------+-------------------------------+----------------------------------------+
+|              | Vorteile                      | Nachteile                              |
++==============+===============================+========================================+
+| Verbund      | regelmäßige                   | begrenzte individuelle Anpassung       |
+|              | Produktentwicklung            |                                        |
+|              |                               |                                        |
+|              | gewisser State-of-the-Art     | Wartezeiten bei individueller          |
+|              | garantiert                    | Anpassung                              |
+|              |                               |                                        |
+|              | klare Kosten- und             |                                        |
+|              | Leistungsstruktur             |                                        |
+|              |                               |                                        |
+|              | große Anwendungscommunity     |                                        |
++--------------+-------------------------------+----------------------------------------+
+|kommerziell   | regelmäßige                   | eher geringe individuelle              |
+|              | Produktentwicklung            | Anpassbarkeit                          |
+|              |                               |                                        |
+|              | einheitlicher Leistungsumfang | relativ hohe und intransparente        |
+|              |                               | Preise                                 |
+|              |                               |                                        |
+|              | klare Verantwortlichkeiten    | Abhängigkeit bei der Weiter-           |
+|              |                               | entwicklung                            |
+|              |                               |                                        |
+|              |                               | evtl. Verlust der Datenhoheit          |
+|              |                               |                                        |
+|              |                               | z.T. proprietäre (hersteller-          |
+|              |                               | spezifische) Systeme und Schnittstellen|
++--------------+-------------------------------+----------------------------------------+
+| Open Source  | niedrige Anschaffungskosten   | erfordert eigene IT-Kapazitäten        |
+|              |                               | oder Outsourcing                       |
+|              |                               |                                        |
+|              | große Anwendungscommunities   | Risiko der Sicherung von Nach-         |
+|              |                               | haltigkeit und Kompatibilität          |
+|              | oftmals regelmäßige           |                                        |
+|              | Produktentwicklung            |                                        |
+|              |                               |                                        |
+|              | viele Dienstleister, die      |                                        |
+|              | Services rund um Migration,   |                                        |
+|              | Betrieb und individuelle      |                                        |
+|              | Anpassung anbieten            |                                        |
+|              |                               |                                        |
+|              | offene Schnittstellen und     |                                        |
+|              | Formate                       |                                        |
++--------------+-------------------------------+----------------------------------------+
 : Vor- und Nachteile im Überblick {#tbl-vor-und-nachteile}
 
 Verbünde bieten in der Regel ein oder zwei Lösungen an, die entweder
@@ -934,7 +934,7 @@ eigenen Server zur Verfügung stellen und administrieren. Eine
 Installation auf eigenen Servern (On-Premise-Lösung) erfordert hingegen
 eigenes, ausgebildetes Personal.
 
-Bei Open Source-Lösungen gibt es keine initialen Anschaffungskosten. Bei
+Bei Open-Source-Lösungen gibt es keine initialen Anschaffungskosten. Bei
 Verfügbarkeit entsprechender Server-Infrastruktur und erfahrenem
 Personal kann eine Bibliothek die Software selbst installieren und in
 Betrieb nehmen oder diese Leistungen von Dienstleistern einkaufen.
@@ -944,7 +944,7 @@ Altsystem können ebenso von den Bibliotheken selbst durchgeführt werden
 oder sind Teil des Kauf-/Wartungsvertrages.
 
 Die laufende Betreuung des Betriebs von BMS erfordert speziell
-geschultes und berechtigtes Personal - sogenannte
+geschultes und berechtigtes Personal -- sogenannte
 System-Bibliothekar\*innen. In wenigen Fällen wird die Systembetreuung
 an Dienstleister (beim Hoster) übergeben.
 
@@ -1249,7 +1249,7 @@ Schnittstellen, über die sie in die bestehenden
 Informationsinfrastrukturen, d.h. die umgebenden Systeme, eingebunden
 werden können.
 
-Eine Schnittstelle (engl. Interface oder oder auch API für application
+Eine Schnittstelle (engl. Interface oder auch API für application
 programming interface) bildet einen definierten Kommunikationsweg zwischen
 verschiedenen Systemen als "Gesprächspartner". Im bibliothekarischen Universum
 gibt es für diese Fälle auch schon viele etablierte Austauschformate, etwa
@@ -1303,8 +1303,7 @@ Art Ticket, das eine Erlaubnis regelt. Im Idealfall gilt dieser Dienst
 dann für verschiedene Service- bzw. Contentprovider, sodass für deren 
 Nutzung nur eine einmalige Anmeldung erforderlich ist.
 
-Authentifizierungsprotokolle sind z.B. [Shibboleth /
-SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)) und
+Authentifizierungsprotokolle sind z.B. [Shibboleth/SAML2](https://en.wikipedia.org/wiki/Shibboleth_(software)) und
 [OpenID](https://de.wikipedia.org/wiki/OpenID). IDM-Softwareprodukte sind u.a.
 SAP (mit Plugins) und Microsoft Active Directory.
 
@@ -1459,7 +1458,7 @@ Zur Einrichtung eines BMS gehört:
 -   **Installation auf einem Server:** Erfordert Kenntnisse in
     Systemtechnik (Hardware, Server, Kommandozeile ...). Wenn Hosting
     durch Drittanbieter geleistet wird (Cloud, Dienstleister wie
-    Verbundzentrale...), verändert sich diese Aufgabe. Sie entfällt,
+    Verbundzentrale ...), verändert sich diese Aufgabe. Sie entfällt,
     wenn der Hoster spezialisiert auf das Hosting von BMS ist (bspw.
     Verbundzentrale), sie wird geringer, wenn der Hoster eher
     allgemein aufgestellt ist.

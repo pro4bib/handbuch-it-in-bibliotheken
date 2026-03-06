@@ -1315,7 +1315,7 @@ Funktionen ermöglicht ein Social Intranet den Mitarbeitenden den einfachen
 Austausch von Informationen und Ideen und wird genauer in Kapitel zur
 Kommunikation (@sec-kommunikation) beschrieben.
 
-### Planungs- und Koordinationstools
+### Planungs- und Koordinationstools {#sec-planungstools}
 
 Die in diesem Absatz beschriebenen Werkzeuge dienen der Aufgabenkoordination
 in der Bibliothek. Je mehr Personen in einem Team an gemeinsamen Aufgaben
@@ -1375,8 +1375,8 @@ Analysewerkzeuge helfen zudem bei der Zeitplanung, indem die
 vergangenen Veröffentlichungen ausgewertet werden und der beste
 Zeitpunkt für die Zielgruppe ermittelt wird. Beispiele:
 
--   *[Hootsuite](https://www.hootsuite.com/)*, (kommerziell, in der Basisversion frei nutzbar)
--   *[Buffer](https://buffer.com/)*, (kommerziell, in der Basisversion frei nutzbar)
+-   *[Hootsuite](https://www.hootsuite.com/)* (kommerziell, in der Basisversion frei nutzbar)
+-   *[Buffer](https://buffer.com/)* (kommerziell, in der Basisversion frei nutzbar)
 -   *[Trello](https://trello.com)* (kommerziell, in der Basisversion frei verfügbar)
 -   *[Fedica](https://fedica.com/)* (kommerziell, in der Basisversion frei verfügbar)
 

@@ -30,13 +30,13 @@ insbesondere von studentischen Nutzer\*innen nur noch eine untergeordnete Rolle.
 Parallel zeichnete sich ab, dass die dritte Generation der
 Bibliotheksmanagementsysteme bezüglich ihrer OPAC-Module stagnierte,
 vornehmlich in Bezug auf das Design, aber auch hinsichtlich ihrer
-Funktionalitäten. Außerdem wurde Suchmaschinentechnologie als Open
-Source-Software verfügbar, sodass technisch aufgeschlossene Einrichtungen
+Funktionalitäten. Außerdem wurde Suchmaschinentechnologie als Open-Source-Software
+verfügbar, sodass technisch aufgeschlossene Einrichtungen
 eigene Experimente mit der Indexierung bibliografischer Daten begannen.
 
 Zum gegenwärtigen Zeitpunkt sind Discovery-Systeme in wissenschaftlichen und
 zunehmend auch in öffentlichen Bibliotheken verbreitet. Es gibt eine Reihe von
-Produkten kommerzieller Anbieter\*innen und einige Open Source-Projekte.
+Produkten kommerzieller Anbieter\*innen und einige Open-Source-Projekte.
 Discovery-Systeme können von Bibliotheken selbst oder durch Hostinganbieter
 wie Verbundzentralen, Hersteller\*innen und kommerzielle Dienstleister\*innen betrieben
 werden. Die Hersteller\*innen kommerzieller Bibliotheksmanagementsysteme der neueren
@@ -78,7 +78,7 @@ gespeicherte Suchanfragen und Literaturlisten verwaltet werden können.
 Die Gestaltungsmöglichkeiten für Design und Layout des User Interface reichen
 von einer einfachen optischen Anpassung bei Schriften, Farben und Logos bis hin
 zu größeren Veränderungen im Seitenaufbau, je nachdem, welcher Art das
-eingesetzte System ist (Eigenentwicklung auf Open Source-Basis, gehostetes
+eingesetzte System ist (Eigenentwicklung auf Open-Source-Basis, gehostetes
 kommerzielles System o.Ä.).
 
 #### Suchindex {#suchindex}
@@ -377,7 +377,7 @@ Universitätsbibliothek Bremen oder *beluga* an der Staats- und
 Universitätsbibliothek Hamburg. Seit Ende der 2000er Jahre gibt es auch
 kommerzielle Systeme am Markt, entweder als Teil von
 BMS der neuesten Generation oder auch als individuell
-lizenzierbare Systeme. Die Open Source-Lösung *VuFind* ermöglicht es,
+lizenzierbare Systeme. Die Open-Source-Lösung *VuFind* ermöglicht es,
 verschiedene Suchindizes unter einer Oberfläche nutzbar zu machen, sodass es
 eine relativ große Vielfalt von Nutzungsszenarien gibt.
 
@@ -410,7 +410,7 @@ Die Indizes dieser Systeme können separat lizenziert und beispielsweise an
 Ein weiteres kommerzielles Discovery-System ist *WorldCat Discovery*, das
 allerdings die Nutzung von WorldCat als Suchindex voraussetzt.
 
-#### Open Source-Systeme
+#### Open-Source-Systeme
 
 Unter den von Bibliotheken selbst entwickelten Discovery-Systemen sind
 international *VuFind* und *[Blacklight](http://projectblacklight.org/)* am weitesten verbreitet.
@@ -453,7 +453,7 @@ Sofern ein Discovery-System nicht Teil des BMS ist, ist die Einführung immer
 mit beträchtlichen Aufwänden verbunden, die aus initialen Kosten für die
 Implementierung und laufenden Kosten für die Pflege bestehen. Diese Kosten
 fallen unabhängig davon an, ob es sich um ein kommerzielles oder ein
-Open Source-System handelt. Sie richten sich nach unterschiedlichen Kriterien und
+Open-Source-System handelt. Sie richten sich nach unterschiedlichen Kriterien und
 dürften im Bereich der initialen Kosten im höheren vierstelligen Bereich
 liegen. Grundsätzlich sind die Entscheidungsprozesse bei Auswahlentscheidungen
 mit denen für ein BMS vergleichbar (vgl. Abschnitt

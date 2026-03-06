@@ -55,3 +55,4 @@ format:
      - templates/pandoc-quotes.lua
      - templates/glossary_for_pdf.lua
      - templates/abbreviations.lua
+     - templates/spaced-dash.lua

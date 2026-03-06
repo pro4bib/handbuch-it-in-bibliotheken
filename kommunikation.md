@@ -296,12 +296,7 @@ schon mal steht.
     kommuniziert).
 
 -   **Social Media Planung**:\
-    Betreibt eine Bibliothek mehrere Social Media Kanäle, kann ein einziges Tool zur Planung und Veröffentlichung von Beiträgen sinnvoll sein. Damit kann der Content zeitlich und inhaltlich vorgeplant werden. Integrierte Analysewerkzeuge helfen zudem bei der Zeitplanung, indem die vergangenen Veröffentlichungen ausgewertet werden und der beste Zeitpunkt für die Zielgruppe ermittelt wird. Beispiele für Tools sind:
-
-    - [Hootsuite](https://www.hootsuite.com/), (kommerziell, in der Basisversion frei nutzbar)
-    - [Buffer](https://buffer.com/), (kommerziell, in der Basisversion frei nutzbar) 
-    - [Trello](https://trello.com/) (kommerziell, in der Basisversion frei verfügbar)
-    - [Fedica](https://fedica.com/) (kommerziell, in der Basisversion frei verfügbar)
+    Betreibt eine Bibliothek mehrere Social Media Kanäle, kann ein einziges Tool zur Planung und Veröffentlichung von Beiträgen sinnvoll sein. Damit kann der Content zeitlich und inhaltlich vorgeplant werden. Integrierte Analysewerkzeuge helfen zudem bei der Zeitplanung, indem die vergangenen Veröffentlichungen ausgewertet werden und der beste Zeitpunkt für die Zielgruppe ermittelt wird (siehe Tools in @sec-planungstools).
 
 ### Wissensmanagement 
 
@@ -365,7 +360,7 @@ Praxistauglichkeit einzuschätzen. Daher ist es sinnvoll, die Evaluation
 bereits bei der Planung, spätestens aber beim Start mit einzuplanen
 (siehe @sec-anforderungen).
 
-Neben herkömmlichen Nutzungsstatistiken (z.B. mittels des Open Source-Tools
+Neben herkömmlichen Nutzungsstatistiken (z.B. mittels des Open-Source-Tools
 [*Matomo*](https://www.matomo.org/) für Webseiten oder mit integrierten
 Analysewerkzeugen von Social-Media-Plattformen und *CMS*) können einheitliche
 Fragebögen bei der Einschätzung helfen, ob Kanäle oder Tools geeignet sind, die
@@ -421,7 +416,7 @@ Feedback zu Missverständnissen führen.
   Protokolle, sodass beliebige Clients genutzt werden können.
 
   Ursprünglich als elektronische Variante des Briefes
-  für die asynchrone 1-zu-1 Kommunikation entwickelt, wird E-Mail
+  für die asynchrone 1-zu-1-Kommunikation entwickelt, wird E-Mail
   auch häufig für die Gruppenkommunikation zweckentfremdet und
   teilweise synchron verstanden wenn eine sofortige Antwort erwartet wird.
   Für beide Einsatzszenarien gibt es bessere Alternativen.
@@ -470,7 +465,7 @@ Feedback zu Missverständnissen führen.
   von Europa gehostet werden, ist aus Datenschutzgründen nur in
   Ausnahmefällen zulässig (WhatsApp, Slack ...).
   Eine Alternative für Bibliotheken mit IT-Abteilung oder
-  Rechenzentrumsunterstützung ist die Nutzung von Open Source-Software wie
+  Rechenzentrumsunterstützung ist die Nutzung von Open-Source-Software wie
   [mibew.org](https://mibew.org/) oder
   [rocket.chat](https://www.rocket.chat/secure-messaging-platform)
   die selbst betrieben werden können.
@@ -490,10 +485,10 @@ Feedback zu Missverständnissen führen.
   Videokonferenzen mit verschiedenen anderen Kommunikationslösungen. Die
   kommerziellen Tools Microsoft Teams und Cisco Webex integrieren Chatlösungen,
   auch außerhalb von Videokonferenzen,  für Gruppen und Einzelpersonen. Vor allem
-  im Bildungsbereich wird die Open Source-Plattform BigBlueButton verwendet, die
+  im Bildungsbereich wird die Open-Source-Plattform BigBlueButton verwendet, die
   Präsentationen sowie Lern- und Inhaltsverwaltungssysteme unterstützt.
   [Mattermost](https://mattermost.com/)
-  ist ein weiteres Open Source-Beispiel, das viele verschiedenen Kommunikationswege
+  ist ein weiteres Open-Source-Beispiel, das viele verschiedenen Kommunikationswege
   vereint und auch Plugins für viele andere Werkzeuge bereitstellt, um eine
   All-in-One-Lösung für Kollaborationen zu sein.
 
@@ -601,7 +596,7 @@ Brainstorming bis zur fertig ausgearbeiteten Präsentation.
 
 -   Online-Whiteboards sind digitale Tools, die ein traditionelles
     physisches Whiteboard simulieren. Sie ermöglichen es, in Echtzeit
-    gemeinsam zu brainstormen, indem etwa Post-Its in den virtuellen
+    gemeinsam zu brainstormen, indem etwa Post-its in den virtuellen
     Raum geklebt werden, aber auch um zu zeichnen und multimediale
     Inhalte zu integrieren. Damit eignen sie sich gut sowohl für die
     kreative Zusammenarbeit innerhalb der Bibliothek als auch für die

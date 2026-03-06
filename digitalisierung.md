@@ -67,7 +67,7 @@ Books).
 
 Ergänzend digitalisieren, veröffentlichen, erschließen und editieren
 private Akteure digitale Kulturgüter -- Akteure in Wikimedia-, Open
-Data- und Open Science-Gemeinschaften, oder sie arbeiten ehrenamtlich in
+Data- und Open-Science-Gemeinschaften, oder sie arbeiten ehrenamtlich in
 einschlägigen bibliothekarischen Projekten mit.
 
 ### Status quo
@@ -296,7 +296,7 @@ u.a.) sowie die benötigte Qualität der Volltexte entscheidend.
 
 Waren anfangs vor allem kommerzielle OCR-Werkzeuge dominierend (z.B.
 [ABBYY](https://de.wikipedia.org/wiki/ABBYY)), haben sich
-mittlerweile einige Open Source-Projekte (z.B.
+mittlerweile einige Open-Source-Projekte (z.B.
 [Tesseract](https://de.wikipedia.org/wiki/Tesseract_(Software)))
 entwickelt, die qualitativ vergleichbare oder bessere Ergebnisse
 erzeugen können. Dank neuer technologischer Ansätze sind auch Lösungen
@@ -444,7 +444,7 @@ der im Prozess befindlichen Objekte zu speichern und darzustellen.
 Aufgrund der hohen Spezialisierung ist die Auswahl an WMS für
 bibliothekarische Digitalisierungsprozesse überschaubar. Dazu gehören
 sowohl kommerzielle Produkte, wie z.B. [Visual Library](https://www.semantics.de/visual_library/)
-aber auch frei verfügbare Open Source-Systeme wie [*Kitodo*](https://www.kitodo.org/).
+aber auch frei verfügbare Open-Source-Systeme wie [*Kitodo*](https://www.kitodo.org/).
 
 Der wesentliche Unterschied zwischen den Tools -- neben der Frage der
 Lizenz -- ist deren Modularität. Bei einigen Lösungen sind z.B. die
