@@ -37,7 +37,7 @@ format:
           \setmonofont[Scale=MatchLowercase]{LinLibertineMO}
           \renewcommand{\maketitle}{}                   % hide title
           \NewDocumentEnvironment{hidden}{+b}{}{}       % hide abstract
-          \renewenvironment{abstract}{\thispagestyle{empty}\phantom{text}\setcounter{page}{2}\begin{hidden}}{\end{hidden}}
+          \renewenvironment{abstract}{\thispagestyle{empty}\phantom{text}\setcounter{page}{4}\begin{hidden}}{\end{hidden}}
     include-before-body:
       - text: |
           \definecolor{quarto-callout-note-color}{HTML}{000000}

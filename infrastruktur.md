@@ -15,7 +15,7 @@ Dieses Kapitel beschreibt die grundlegenden technischen Einrichtungen einer Bibl
 Die technische Infrastruktur einer Bibliothek umfasst alle IT-Systeme, die die
 Prozesse und Dienstleistungen einer Bibliothek abbilden, unterstützen oder
 ergänzen. Neben dem zentralen
-Bibliotheksmanagementsystem (BMS) (@sec-bibliotheksmanagementsysteme) (auf Englisch auch LMS genannt) zur Verwaltung und
+Bibliotheksmanagementsystem (BMS) (@sec-bibliotheksmanagementsysteme) zur Verwaltung und
 Bereitstellung von Bibliotheksbeständen und
 Discovery-Systemen (@sec-discovery) zur Recherche, gibt es zahlreiche
 weitere etablierte Anwendungen von IT in Bibliotheken. Die in diesem Kapitel

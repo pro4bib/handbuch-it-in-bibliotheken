@@ -521,7 +521,7 @@ des Data Warehousing und findet sich auch in anderen Anwendungsfällen. Im
 Folgenden wird er am Beispiel der Integration von Metadaten in ein
 Discovery-System (@sec-discovery) beschrieben. @fig-etl illustriert den generellen ETL-Prozess.
 
-![Allgemeiner Ablauf eines ETL-Prozesses](media/etl-prozess.svg){#fig-etl}
+![Allgemeiner Ablauf eines ETL-Prozesses](media/etl-prozess-kurven.svg){#fig-etl}
 
 #### Extraktion
 

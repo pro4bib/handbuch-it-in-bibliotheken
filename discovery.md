@@ -537,26 +537,25 @@ Nutzungslizenzen zugeordnet sind.
 [ETL-Prozess]: metadaten.md#etl-prozess
 [ETL-Prozesse]: metadaten.md#etl-prozess
 
-+---------------------+-----------------------------+----------------------------------------+
-|                     |OPAC/Katalog                 |Discovery-System                        |
-+=====================+=============================+========================================+
-|Suchraum             |nur lokaler Bestand, nur     |lokaler Bestand, aber auch Verbunddaten,|
-|                     |selbständige Werke           |bibliografische Daten, Volltexte etc.   |
-+=====================+=============================+========================================+
-|Suchprinzip          |exakte Suche, feldbasierte   |Autovervollständigung, Suchvorschläge,  |
-|                     |                             |Facetten                                |
-+=====================+=============================+========================================+
-|Suchunterstützung    |eher wenig                   |best match/natürlichsprachliche Suche   |
-|                     |                             |                                        |
-+=====================+=============================+========================================+
-|Sortierung           |standardmäßig nach Aktualität|standardmäßig nach Relevanz             |
-+=====================+=============================+========================================+
-|Mehrwertdienste      |Buchcover, Listen,           |Buchcover, Listen, Exportformate        |
-|                     |Exportformate                |                                        |
-+=====================+=============================+========================================+
-|Metadatenmodell      |bibliothekarisches Schema    |"flache Version" eines                  |
-|                     |mit Hierarchien und Verweisen|bibliothekarischen Schemas              |
-+---------------------+-----------------------------+----------------------------------------+
++-----------------+-----------------------------+----------------------------------------+
+|                 |OPAC/Katalog                 |Discovery-System                        |
++=================+=============================+========================================+
+|Suchraum         |nur lokaler Bestand, nur     |lokaler Bestand, aber auch Verbunddaten,|
+|                 |selbständige Werke           |bibliografische Daten, Volltexte etc.   |
++=================+=============================+========================================+
+|Suchprinzip      |exakte Suche, feldbasierte   |Autovervollständigung, Suchvorschläge,  |
+|                 |                             |Facetten                                |
++=================+=============================+========================================+
+|Suchunterstützung|eher wenig                   |best match, natürlichsprachliche Suche  |
++=================+=============================+========================================+
+|Sortierung       |nach Aktualität              |nach Relevanz                           |
++=================+=============================+========================================+
+|Mehrwertdienste  |Buchcover, Listen,           |Buchcover, Listen, Exportformate        |
+|                 |Exportformate                |                                        |
++=================+=============================+========================================+
+|Metadaten        |bibliothekarisches Schema,   |"flache Version" eines                  |
+|                 |Hierarchien und Verweise     |bibliothekarischen Schemas              |
++-----------------+-----------------------------+----------------------------------------+
  : Vergleich typischer Eigenschaften von OPAC/Katalog und Discovery-System {#tbl-discovery-vs-opac}
  
 ## Grenzen und Alternativen

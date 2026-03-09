@@ -11,14 +11,3 @@
 {{< include CONTRIBUTING-pdf.md >}}
 
 :::
-
-<!-- PDF version should end with an empty pages -->
-```{=latex}
-\newpage
-\thispagestyle{empty}
-\
-
-\newpage
-\thispagestyle{empty}
-\
-```
