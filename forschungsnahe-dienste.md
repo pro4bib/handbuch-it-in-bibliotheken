@@ -126,12 +126,12 @@ Bibliotheken ebenso in die Rolle der Dienstleistenden treten, Instanzen
 geeigneter Open-Source-Software hosten und diese Entwicklung unterstützen. Dies
 kann auch im Zusammenhang mit der externen Kommunikation von Bibliotheken
 (@sec-kommunikation) betrachtet werden. Ergänzend gibt es zahlreiche weitere
-Dienste, die das Open Access-Publizieren vor allem administrativ unterstützen,
+Dienste, die das Open-Access-Publizieren vor allem administrativ unterstützen,
 von denen im Folgenden einige kurz erläutert werden.
 
 ### Open-Access-Dienste
 
-Neben der Unterstützung bei Open Access-Veröffentlichungen haben sich im
+Neben der Unterstützung bei Open-Access-Veröffentlichungen haben sich im
 Zusammenhang mit der Open-Access-Transformation weitere IT-Dienste in
 Bibliotheken entwickelt.
 
