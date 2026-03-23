@@ -1,5 +1,6 @@
 format:
   pdf:
+    latex-min-runs: 3
     links-as-notes: true
     documentclass: scrreprt
     classoption:
@@ -35,9 +36,9 @@ format:
           \definecolor{orcidlogocol}{HTML}{666666}
           \counterwithout{footnote}{chapter}
           \setmonofont[Scale=MatchLowercase]{LinLibertineMO}
-          \renewcommand{\maketitle}{}                   % hide title
-          \NewDocumentEnvironment{hidden}{+b}{}{}       % hide abstract
-          \renewenvironment{abstract}{\thispagestyle{empty}\phantom{text}\setcounter{page}{4}\begin{hidden}}{\end{hidden}}
+          \renewcommand{\maketitle}{\input{innentitel}}           % custom title
+          \NewDocumentEnvironment{hidden}{+b}{}{}                 % hide abstract
+          \renewenvironment{abstract}{\begin{hidden}}{\end{hidden}}
     include-before-body:
       - text: |
           \definecolor{quarto-callout-note-color}{HTML}{000000}

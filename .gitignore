@@ -2,6 +2,7 @@ _gdrive/*.docx
 /_book/
 _published
 *.log
+*.aux
 contributors.md
 index.tex
 /.quarto/
