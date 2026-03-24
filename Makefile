@@ -32,7 +32,6 @@ docx: $(INCLUDES)
 	
 pdf: $(INCLUDES_PDF)
 	quarto render --to pdf
-	pdftk _book/Handbuch-IT-in-Bibliotheken.pdf impressum.pdf cat output _book/druckvorlage.pdf
 	# rebuild contributors.md to restore standard version (with mailto:-links)
 	make -B contributors.md
 

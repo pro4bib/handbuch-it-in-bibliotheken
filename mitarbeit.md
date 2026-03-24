@@ -10,4 +10,6 @@
 
 {{< include CONTRIBUTING-pdf.md >}}
 
+{{< include impressum.md >}}
+
 :::
