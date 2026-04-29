@@ -498,7 +498,7 @@ können.
 Nach dem Beobachtungstest sollte es den Proband\*innen ermöglicht
 werden, die Testergebnisse zu erhalten. Außerdem ist es neben dem
 obligatorischen Dank für die Teilnahme üblich, eine Aufmerksamkeit -- je
-nach Dauer z.B. Kaffee, Süßes, Gutscheine - auszuhändigen, um die
+nach Dauer z.B. Kaffee, Süßes, Gutscheine -- auszuhändigen, um die
 eigene Wertschätzung für das zeitliche Investment der Proband\*innen
 auszudrücken. In einer Erklärung zum Datenschutz ist die anonyme
 Datennutzung zuzusichern.

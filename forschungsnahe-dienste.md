@@ -556,7 +556,7 @@ Softwarelösungen zum Einsatz. Es zeigt sich ein vielgestaltiges Bild aus
 kommerziellen Produkten (z. B. *PURE*, *Converis*, *HISinOne-RES*), Open
 Source-Lösungen (z. B. *DSpace-CRIS*, *VIVO*) und Eigenentwicklungen. An
 deutschen Forschungseinrichtungen wird mittlerweile häufig *HISinOne-RES*
-genutzt - befördert u.a. durch Landesinitiativen wie *CRIS.NRW*,
+genutzt -- befördert u.a. durch Landesinitiativen wie *CRIS.NRW*,
 HeFIS oder *FIS-Thüringen* sowie den Umstand, dass es aktuell das einzige
 Produkt am Markt ist, dessen Datenmodell direkt am **Kerndatensatz Forschung
 (*KDSF*)** ausgerichtet ist.  Obwohl sich ein Rückgang an Eigenentwicklungen
@@ -593,7 +593,7 @@ ergänzende Arbeitsschritte notwendig.
 
 Um eine Interoperabilität der unterschiedlichen Systeme und eine gute
 Auffindbarkeit der enthaltenen Ressourcen zu ermöglichen, ist eine
-Standardisierung notwendig - z. B. über Zertifikate,
+Standardisierung notwendig -- z. B. über Zertifikate,
 [Metadatenstandards](#metadatenstandards) und Schnittstellen, wie sie unter
 anderem von den Arbeitsgemeinschaften des [DINI e.V.](https://dini.de/)
 (Deutsche Initiative Netzwerkinformation) vorangetrieben werden. Die in
