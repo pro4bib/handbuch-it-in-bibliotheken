@@ -898,7 +898,7 @@ Funkwellen durchdrungen werden können, zumindest aber von der Seite, an der das
 Tag aufgebracht wurde.
 
 Gleichzeitig bedeutet das auch, dass RFID-Tags durch das Vorhandensein von
-Wasser, also Menschen, ebenfalls abgeschirmt werden können. Eine hunderprozentige
+Wasser, also Menschen, ebenfalls abgeschirmt werden können. Eine hundertprozentige
 Erkennungsrate in einem Sicherheitsgate ist somit unrealistisch.
 
 RFID-Transponder sind natürlich nicht geeignet für Medien, bei denen eine

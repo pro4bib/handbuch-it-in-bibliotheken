@@ -104,7 +104,7 @@ und was ihnen dabei hilft.
    Schnittstellen für den automatisierten Austausch von Daten ein.
 
 8. **Datenschutz umsetzen und Risiken reduzieren:** Planen Sie Datenschutz von
-   Anfang an ein. Erkennen Sie die Risiken Ihrer DatenVerarbeitung und setzen
+   Anfang an ein. Erkennen Sie die Risiken Ihrer Datenverarbeitung und setzen
    Sie geeignete technische und organisatorische Maßnahmen ein, um sie zu
    reduzieren.
 
