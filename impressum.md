@@ -7,6 +7,8 @@
 **Bibliografische Information der Deutschen Nationalbibliothek**\
 Die Deutsche Nationalbibliothek verzeichnet diese Publikation in der Deutsche Nationalbiblio-grafie; detaillierte bibliografische Daten sind im Internet über <https://dnb.dnb.de/> abrufbar.
 
+Diese Publikation wurde aus dem Open-Access-Publikationsfonds der Technischen Universität Berlin unterstützt.
+
 ```{=latex}
 \vfill
 ```
@@ -23,7 +25,7 @@ Tel.: +49 (0)30 314 76119\
 E-Mail: books@berlin-universities-publishing.de
 
 ![](media/cc-by.png){width=15mm}\
-Diese Veröffentlichung ist unter der Creative Commons Lizenz CC BY 4.0 lizenziert. Dies gilt nicht für anderweitig gekennzeichnete Inhalte.
+Diese Veröffentlichung ist unter der Creative Commons Lizenz CC BY 4.0 lizenziert. Dies gilt nicht für anderweitig gekennzeichnete Inhalte.\
 <https://creativecommons.org/licenses/by/4.0>
 
 Die inhaltliche Qualitätssicherung dieser Publikation wurde durch Herausgeber\*innen-Review und teilweise Peer-Review gewährleistet.

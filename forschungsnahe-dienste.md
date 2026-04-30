@@ -562,7 +562,7 @@ Produkt am Markt ist, dessen Datenmodell direkt am **Kerndatensatz Forschung
 (*KDSF*)** ausgerichtet ist.  Obwohl sich ein Rückgang an Eigenentwicklungen
 andeutet, sind sie immer noch weit verbreitet. Des Weiteren gibt es die bereits
 lange etablierten kommerziellen Systeme *Converis* und *PURE*. Der Einsatz von
-Open Source-Lösungen wie *DSpace-CRIS* und *VIVO* nimmt erst in den letzten
+Open-Source-Lösungen wie *DSpace-CRIS* und *VIVO* nimmt erst in den letzten
 Jahren merklich zu -- u.a. befördert durch das Verbundprojekt Hamburg
 Open Science.
 

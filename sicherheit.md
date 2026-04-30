@@ -447,7 +447,7 @@ von Personen durch sinnhafte Positionierung oder Blickschutzfilter vor
 unbefugtem Sehen geschützt werden. Auf die Wichtigkeit sicherer Passwörter
 wurde bereits weiter oben in diesem Abschnitt hingewiesen. Es sollte zudem auf
 die Angriffsmöglichkeiten in @sec-sicherheitsvorfall aufmerksam gemacht werden.
-Beispielhafte Erklärungen möglicher Angriffsszenarien und Möglichkeiten (z. B.
+Beispielhafte Erklärungen möglicher Angriffsszenarien und Möglichkeiten (z.B.
 Tools) sich zu schützen, sollten aufgezeigt werden.
 
 ### Handlungsempfehlungen 
