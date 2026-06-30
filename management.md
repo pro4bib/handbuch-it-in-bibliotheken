@@ -2,6 +2,10 @@
 description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen in Bibliotheken
 ---
 
+::: {.callout-warning}
+Dieses Kapitel wurde im Vergleich zur [ersten Auflage](v1.0.0/) gekürzt!
+:::
+
 # IT-Management {#sec-management}
 
 ::: {.callout-note title="Zusammenfassung"}
@@ -433,7 +437,7 @@ Der Einsatz von IT-Systemen erfordert dezidierte Kenntnisse und
 Fähigkeiten. Veränderungen der Systemlandschaft, z.B. durch einen
 Systemumstieg oder die Einführung neuer Systeme, erfordern daher eine
 regelmäßige Analyse der vorhandenen und benötigten IT-bezogenen
-Kompetenzen.
+Kompetenzen (siehe @sec-kompetenzerwerb).
 
 Bei der Analyse sind folgende Bereiche zu unterscheiden:
 
