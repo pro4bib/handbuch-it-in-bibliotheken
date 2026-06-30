@@ -1,0 +1,44 @@
+@media (min-width: 992px) {
+  body.docked #quarto-content {
+    display: grid;
+    gap: 0;
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset page-start] minmax(50px, 145px) [page-start-inset] 50px [body-start-outset] 50px [body-start] 1.5em [body-content-start] minmax(500px, calc( 1000px - 3em )) [body-content-end] 1.5em [body-end] 50px [body-end-outset] minmax(0px, 100px) [page-end-inset] 50px [page-end] 5fr [screen-end-inset] 1.5em [screen-end];
+  }
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.sidebar-tools-main a.external:after,
+figure a.external:after, footer a.external:after {
+  display: none;
+}
+.sidebar-logo {
+  max-width: 100%;
+}
+.sidebar-title {
+  display: none; /* TODO: remove */
+}
+figure > figcaption {
+  text-align: center;
+  margin: 0;
+}
+div.csl-entry {
+  margin-bottom: 0.5em;
+}
+
+.sidebar-item:hover {
+  border-right: 2px solid #747a7f;
+}
+
+/* Infoboxen */
+.callout {
+  box-shadow: 5px 5px 5px grey;
+}
+.callout.callout-style-simple .callout-body,
+.callout.callout-style-simple > div.callout-header
+{
+  font-size: 1rem;
+}
