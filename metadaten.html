@@ -339,8 +339,7 @@ div.csl-indent {
   <li><a href="#schnittstellen" id="toc-schnittstellen" class="nav-link" data-scroll-target="#schnittstellen"><span class="header-section-number">7.4.4</span> Schnittstellen</a></li>
   <li><a href="#datenanalyse" id="toc-datenanalyse" class="nav-link" data-scroll-target="#datenanalyse"><span class="header-section-number">7.4.5</span> Datenanalyse</a></li>
   </ul></li>
-  <li><a href="#künstliche-intelligenz" id="toc-künstliche-intelligenz" class="nav-link" data-scroll-target="#künstliche-intelligenz"><span class="header-section-number">7.5</span> Künstliche Intelligenz</a></li>
-  <li><a href="#zusammenfassung-ausblick" id="toc-zusammenfassung-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-ausblick"><span class="header-section-number">7.6</span> Zusammenfassung &amp; Ausblick</a></li>
+  <li><a href="#zusammenfassung-ausblick" id="toc-zusammenfassung-ausblick" class="nav-link" data-scroll-target="#zusammenfassung-ausblick"><span class="header-section-number">7.5</span> Zusammenfassung &amp; Ausblick</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/blob/main/metadaten.md" class="toc-action"><i class="bi bi-github"></i>Quellcode anzeigen</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/edit/main/metadaten.md" class="toc-action"><i class="bi empty"></i>Seite editieren</a></li><li><a href="https://github.com/pro4bib/handbuch-it-in-bibliotheken/issues/new" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
@@ -453,7 +452,7 @@ Tabelle&nbsp;7.1: Beispiele für Syntax und Semantik von Daten auf verschiedenen
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>Mit dem <strong>Resource Description Framework (RDF)</strong> kodierte Daten werden auch als „semantisch“ bezeichnet. Die Kodierung erfolgt dabei nicht mit Feldern oder Tabellen, sondern in Form von so genannten RDF-Tripeln aus Subjekt, Prädikat und Objekt. Durch Verwendung gemeinsamer <a href="#identifikatoren">Identifikatoren</a> in mehreren Tripeln entstehen <a href="#datenmodelle-und-ontologien">Wissensgraphen</a>, die in speziellen Datenbanken (<em>Triplestores</em>) gespeichert und abgefragt werden können.</p>
+<p>Das <em>Resource Description Framework</em> (<strong>RDF</strong>) ist ein Standard zur Beschreibung und Verknüpfung von Informationen mit einfachen Aussagen (RDF-Tripel) der Form Subjekt – Prädikat – Objekt, z.B.&nbsp;„Buch X hat Titel Y“. Mit RDF kodierte Daten werden auch als „semantisch“ bezeichnet. Durch Verwendung gemeinsamer <a href="#identifikatoren">Identifikatoren</a> in mehreren Tripeln entstehen <a href="#datenmodelle-und-ontologien">Wissensgraphen</a>, die in speziellen Datenbanken (<em>Triplestores</em>) gespeichert und abgefragt werden können.</p>
 <p>Die Bedeutung von RDF-Daten ergibt sich allerdings, wie bei allen Kodierungen, erst aus der Dokumentation von Datenelementen und ihrer Interpretation in praktischen Anwendungen.</p>
 </div>
 </div>
@@ -543,14 +542,15 @@ Abbildung&nbsp;7.1: ER-Diagramm zur Beschreibung eines Datenmodells von Sitzbän
 </section>
 <section id="identifikatoren" class="level3" data-number="7.2.3">
 <h3 data-number="7.2.3" class="anchored" data-anchor-id="identifikatoren"><span class="header-section-number">7.2.3</span> Identifikatoren</h3>
-<p>Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs). Identifikatoren sind Namen, Nummern oder Codes, die eine eindeutige Referenzierung gleicher Dinge in unterschiedlichen Kontexten ermöglichen. Daten aus unterschiedlichen Quellen können miteinander abgeglichen und kombiniert werden, wenn sie die gleichen Identifikatoren verwenden.</p>
-<p>Neben eher intern genutzten Datensatz-Identifikatoren (z.B.&nbsp;die <abbr title="Pica-Produktionsnummer, eindeutige Identifikationsnummer für Datensätze im PICA-Format">PPN</abbr> des Bibliothekssystems PICA oder die ZDB-ID der Zeitschriftendatenbank) sind vor allem international standardisierte Identifikatoren von Bedeutung. Beispiele für solche Identifiersysteme mit Relevanz für bibliothekarische Daten sind die nachfolgenden:</p>
+<p>Ein wesentlicher Bestandteil strukturierter Metadaten sind Identifikatoren (IDs). Identifikatoren sind Namen, Nummern oder Codes, die eine eindeutige Identifizierung von Personen, Themen oder anderen Objekten ermöglichen. Die Objekte können so in unterschiedlichen Systemen und Kontexten referenziert und Daten aus unterschiedlichen Quellen miteinander abgeglichen und kombiniert werden. Im Idealfall kommen <a href="https://www.pid-network.de/">persistente Identifikatoren</a> (PIDs) zum Einsatz. Beispiele für international standardisierte IdentifikatorenIdentifier-Systeme mit Relevanz für bibliothekarische Daten sind:</p>
 <ul>
 <li><p>Die <em>International Standard Book Number</em> (<strong>ISBN</strong>) wird von Verlagen für Bücher vergeben. Seit 2007 ist die 13-stellige ISBN Teil des EAN-Barcode-Systems.</p></li>
 <li><p>Die <em>International Standard Serial Number</em> (<strong>ISSN</strong>) identifiziert Zeitschriften und Schriftenreihen.</p></li>
 <li><p>Der <em>Digital Object Identifier</em> (<strong>DOI</strong>) identifiziert digitale Publikationen in elektronischen Zeitschriften und Repositorien.</p></li>
-<li><p>Der <em>International Standard Identifier for Libraries and Related Organisations</em> (<strong>ISIL</strong>) referenziert Bibliotheken, Archive, Museen und verwandte Einrichtungen.</p></li>
 <li><p>Die <em>Open Researcher and Contributor ID</em> (<strong>ORCID</strong>) identifiziert Autor*innen von wissenschaftlichen Publikationen.</p></li>
+<li><p>Der <em>International Standard Identifier for Libraries and Related Organisations</em> (<strong>ISIL</strong>) referenziert Bibliotheken, Archive, Museen und verwandte Einrichtungen.</p></li>
+<li><p>Der <em>International Standard Name Identifier</em> (<strong>ISNI</strong>) identifiziert Personen und Einrichtungen wie Autor*innen und Verlage.</p></li>
+<li><p>Die ID des <em>Research Organization Registry</em> (<strong>ROR</strong>) identifiziert forschungsrelevante Organisationen.</p></li>
 <li><p>Der <em>Uniform Resource Locator</em> (<strong>URL</strong>) dient als Adresse einer digitalen Ressource im Web und wird teilweise gleichzeitig als deren Identifikator eingesetzt.</p></li>
 <li><p>Das System der <em>Uniform Resource Identifier</em> (<strong>URI</strong>) ermöglicht die Vereinigung verschiedener Identifier-Systeme und bildet die Grundlage von <em>RDF</em> und Linked Open Data (<em>LOD</em>).</p></li>
 </ul>
@@ -800,19 +800,9 @@ Abbildung&nbsp;7.4: Allgemeiner Ablauf eines ETL-Prozesses
 <p>Neben rudimentären Statistik-Kenntnissen helfen bei der Datenanalyse Werkzeuge wie die <a href="#werkzeuge">im vorigen Abschnitt</a> beschriebenen Mittel zur Datenverarbeitung. Für allgemeine Analysen eignet sich vor allem eine Tabellenkalkulation. Für komplexere Analysen gibt es spezielle Statistik-Programme und Programmiersprachen wie <em>SAS</em> und <em>R</em>. Für explorative Analysen und um bei geänderter Datenlage automatisch aktuelle Ergebnisse zu bekommen, bieten sich interaktive Umgebungen wie <em>Jupyter Notebooks</em> oder <em>Observable</em> an. Für spezielle, wiederkehrende Analysen und Aufbereitungen kann es auch sinnvoll sein, eigene Anwendungen zu entwickeln bzw.&nbsp;entwickeln zu lassen. Beispiele hierfür sind <em>BibControl</em>, das <em>Metadata Quality Assessment Framework</em> (<em>MQA</em>), die Deutsche Bibliotheksstatistik sowie Statistikfunktionen als Teil anderer Programme (zum Beispiel <a href="./bibliotheksmanagementsysteme.html#statistik-und-reporting">Statistik und Reporting</a> als Teil des BMS).</p>
 </section>
 </section>
-<section id="künstliche-intelligenz" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="künstliche-intelligenz"><span class="header-section-number">7.5</span> Künstliche Intelligenz</h2>
-<p>Unter den Begriffen Künstlichen Intelligenz, Machine Learning und Deep Learning werden verschiedene Verfahren der Datenverarbeitung zusammengefasst, die Aspekte menschlicher Intelligenz imitieren können. Auf Grundlage statistischer Verfahren lassen sich so Aufgaben automatisieren, für die bisher Personal notwendig gewesen wäre. Der Umfang der verarbeitbaren Daten wird lediglich durch die zur Verfügung stehende Rechenleistung begrenzt. Die Qualität der Ergebnisse hängt stark von der jeweiligen Aufgabenstellung und den eingesetzten Verfahren ab. Im besten Fall lassen sich die Ergebnisse praktisch nicht mehr von menschlich erzeugten Daten unterscheiden. Beim Einsatz von KI-Technologien sind allerdings auch ethische Aspekte zu beachten.</p>
-<p>Für die bibliothekarische Datenverarbeitung lassen sich grob zwei Arten von KI-Anwendungen unterscheiden:</p>
-<ul>
-<li><p>Verfahren zur Analyse und Anreicherung von Daten, beispielsweise die automatische Erschließung und Musterkennung im Rahmen der Digitalisierung (<a href="digitalisierung.html" class="quarto-xref"><span>Kapitel 10</span></a>).</p></li>
-<li><p>Systeme, die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen, von einfachen Chatbots bis zu umfangreichen Sprachmodellen wie ChatGPT.</p></li>
-</ul>
-<p>Die zunehmende Verfügbarkeit von leistungsfähigen KI-Systemen wird in absehbarer Zeit zu Änderungen in der Rezeption und Produktion von Medien führen und damit auch Auswirkungen auf die Arbeit von Bibliotheken haben.</p>
-</section>
-<section id="zusammenfassung-ausblick" class="level2" data-number="7.6">
-<h2 data-number="7.6" class="anchored" data-anchor-id="zusammenfassung-ausblick"><span class="header-section-number">7.6</span> Zusammenfassung &amp; Ausblick</h2>
-<p>Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff auf Ressourcen in Bibliotheken. Daher bilden sie und ihre Verarbeitung die Grundlage für praktisch alle von Bibliotheken angebotenen IT-Dienste. Während Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben werden, ist davon auszugehen, dass der Einsatz semantischer Technologien (RDF) zur Zusammenführung heterogener Daten und Verfahren der künstlichen Intelligenz zunehmen werden.</p>
+<section id="zusammenfassung-ausblick" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="zusammenfassung-ausblick"><span class="header-section-number">7.5</span> Zusammenfassung &amp; Ausblick</h2>
+<p>Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff auf Ressourcen in Bibliotheken. Daher bilden sie und ihre Verarbeitung die Grundlage für praktisch alle von Bibliotheken angebotenen IT-Dienste. Während Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben werden, ist davon auszugehen, dass der Einsatz semantischer Technologien (RDF) zur Zusammenführung heterogener Daten und Verfahren der künstlichen Intelligenz (<span class="quarto-unresolved-ref">?sec-ki</span>) zunehmen werden.</p>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
