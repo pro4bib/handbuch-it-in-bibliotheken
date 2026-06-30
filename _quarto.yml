@@ -24,6 +24,7 @@ book:
     - infrastruktur.md
     - management.md
     - anforderungen.md
+    - projektmanagement.md
     - sicherheit.md
     - metadaten.md
     - bibliotheksmanagementsysteme.md
@@ -31,6 +32,7 @@ book:
     - digitalisierung.md
     - forschungsnahe-dienste.md
     - kommunikation.md
+    - kompetenzerwerb.md
     - literatur.md
   appendices:
     - glossar.md

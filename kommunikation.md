@@ -59,8 +59,8 @@ innerhalb einer Organisation. Dieses Wissen kann sowohl explizit (in
 Dokumenten, Datenbanken etc.) als auch implizit (in den Köpfen der
 Mitarbeitenden) vorhanden sein. Das Wissensmanagement zielt darauf ab,
 das im Unternehmen vorhandene Wissen effektiv zu nutzen, um
-Arbeitsprozesse zu verbessern, Innovationen zu fördern und die
-Wettbewerbsfähigkeit zu sichern.
+Arbeitsprozesse zu verbessern, Innovationen zu fördern und den Kompetenzerwerb
+(@sec-kompetenzerwerb) zu erleichtern.
 
 Bezogen auf die interne Kommunikation bedeutet dies:
 
@@ -153,7 +153,8 @@ verschiedene rechtliche und organisatorische Rahmenbedingungen:
 -   **Weiterbildung und Kompetenzaufbau**: Sicherstellung, dass das
     Bibliothekspersonal durch kontinuierliche Weiterbildungen,
     Schulungen und Dokumentation in den kompetenten und souveränen
-    Umgang mit den neuen digitalen Werkzeugen eingeführt wird.
+    Umgang mit den neuen digitalen Werkzeugen eingeführt wird
+    (siehe @sec-kompetenzerwerb).
 
 -   **Barrierefreiheit nach BITV 2**: Alle digitalen
     Angebote und Dienste sollen den Anforderungen der Barrierefreie
@@ -829,19 +830,4 @@ Stakeholdern zu pflegen. Dafür werden Webseiten, E-Mail-Marketing,
 Social Media, Medienproduktionstools sowie weitere Kanäle und Werkzeuge genutzt. Die interne
 Kommunikation konzentriert sich auf den Informationsaustausch innerhalb
 einer Organisation. Hier kommen Tools wie Social Intranets,
-Kollaborationstools und Videokonferenzsysteme zum Einsatz. Die aktuellen
-Entwicklungen im Bereich der 
-Künstlichen Intelligenz mit Large Language Models (*LLM*) haben das
-Potenzial, die Art und Weise, wie Organisationen sowohl intern als auch
-extern kommunizieren, tiefgreifend zu verändern. Sie können bspw. in
-Chatbots und andere Support-Systeme integriert werden, um Anfragen von
-Nutzenden -- zumindest initial -- in Echtzeit zu beantworten und so
-Mitarbeitende zu entlasten. Auch bei der Erstellung von Content können
-sie helfen, diesen schneller und kohärenter zu gestalten. Im Bereich des
-Wissensmanagements könnten Mitarbeiter\*innen LLMs nutzen, um
-spezifische, auch komplexe Fragen zu beantworten oder
-Hintergrundinformationen zu bestimmten Themen zu erhalten, ohne dabei
-ständig auf menschliche Experten zurückgreifen zu müssen. Es ist jedoch
-wichtig, dabei ethische Überlegungen und Fragen zur Datenvertraulichkeit
-zu berücksichtigen, insbesondere wenn LLMs in sensiblen
-Kommunikationsbereichen eingesetzt werden.
+Kollaborationstools und Videokonferenzsysteme zum Einsatz.

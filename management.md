@@ -6,16 +6,21 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 
 ::: {.callout-note title="Zusammenfassung"}
 
-Dieses Kapitel beschreibt die Einführung und den [Betrieb](#sec-betriebsmodelle)
+Dieses Kapitel beschreibt die Einführung und den langfristigen [Betrieb](#sec-betriebsmodelle)
 von IT-Systemen über den gesamten [Lebenszyklus](#it-lebenszyklus) hinweg.
 
 :::
 
 ## Einleitung
 
+IT-Management umfasst den Dauerbetrieb und die strategische Ausrichtung der
+gesamten Bibliotheks-IT und somit die ganzheitliche Verantwortung für die
+IT-Infrastruktur, -Dienste, -Sicherheit und das Budget. Im Gegensatz dazu
+beschränkt sich IT-Projektmanagement (siehe @sec-projektmanagement) auf das
+konkrete Vorgehen zur Entwicklung oder Einführung einer IT-Systeme.
+
 Grundsätzlich unterscheidet sich das Management von Informationssystemen in und
-für Bibliotheken nicht sehr von Softwareentwicklung und Betrieb in anderen
-Bereichen: IT-Systeme sind selten statisch, sondern folgen einem
+für Bibliotheken nicht von anderen Branchen: IT-Systeme sind selten statisch, sondern folgen einem
 [Lebenszyklus](#it-lebenszyklus) von der Planung ihrer Einführung
 bis zu ihrer Ablösung. Während des [Betriebs](#sec-betriebsmodelle) der Systeme
 müssen mögliche [Risiken](#betriebssicherheit-und-risikomanagement) beachtet
@@ -23,26 +28,22 @@ und [rechtliche Rahmenbedingungen](#rechtliche-rahmenbedingungen) eingehalten
 werden. In Bibliotheken sind daher entsprechende [IT-Kompetenzen](#kompetenzen)
 und ein [organisatorischer Rahmen](#organisation) für die [Digitale
 Souveränität](#digitale-souveränität) gefordert. Um diesen Anforderungen
-begegnen zu können, gibt es Möglichkeiten zur [Aus- und
-Weiterbildung](#aus--und-weiterbildung). Treiber der jüngsten Entwicklung im IT-Bereich
+begegnen zu können, gibt es Möglichkeiten zur Aus- und
+Weiterbildung (@sec-kompetenzerwerb). Treiber der jüngsten Entwicklung im IT-Bereich
 wissenschaftlicher Bibliotheken sind Themen wie Digitalisierung (@sec-digitalisierung)
-und forschungsnahe Dienste (@sec-forschungsnahe-dienste) während das Management von
+und forschungsnahe Dienste (@sec-forschungsnahe-dienste), während das Management von
 Bibliotheksmanagementsystemen (@sec-bibliotheksmanagementsysteme) und 
 Discovery-Systemen (@sec-discovery) weitgehend etabliert sind.
 
 ## Lebenszyklus von IT-Systemen {#it-lebenszyklus}
 
-Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer
-Einführung beginnt und irgendwann mit ihrer Ablösung endet (@fig-it-zyklus).
-Die wesentlichen Phasen im klassischen Lebenszyklus eines
-IT-Systems werden im Folgenden näher betrachtet. Darüber hinaus wird
-erläutert, wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
+Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer Einführung beginnt und
+irgendwann mit ihrer Ablösung endet. Die Phasen von der
+Planung und Analyse bis zu Test und Integration werden ausführlicher in
+@sec-anforderungen und @sec-projektmanagement behandelt. Der folgende Abschnitt
+konzentriert sich auf die [Wartung](#wartung) und [Ablösung](#ablösung) von IT-Systemen
+und erläutert, wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
 [Change Managements](#change-management) begleitet werden sollten.
-
-Die konkrete Abfolge vor allem der ersten Phasen kann je nach der
-angewendeten Projektmanagement-Methode (agil vs. klassisch) variieren.
-Eine Diskussion von agilen und klassischen Methoden liegt außerhalb des
-Fokus dieses Handbuchs.
 
 ::: {.content-visible when-format="html"}
 ![Softwareentwicklungs-Lebenszyklus](media/sdlc.svg){#fig-it-zyklus width=90%}
@@ -52,71 +53,6 @@ Fokus dieses Handbuchs.
 ![Softwareentwicklungs-Lebenszyklus](media/sdlc-sw.svg){#fig-it-zyklus width=60%}
 :::
 
-### Planung und Analyse
-
-Grundlage für die Umsetzung eines Softwareprojekts, egal ob es sich um
-individuell erstellte Software oder die Anpassung eines existierenden
-IT-Systems handelt, ist ein gemeinsames Verständnis für das Ziel und die
-Anforderungen an das Projekt. Dieses gemeinsame Verständnis, insbesondere
-der Anforderungen, sollte bei allen Projektmitgliedern und den weiteren
-Stakeholdern vorhanden sein. Die Anforderungen werden idealerweise vor
-und während der Entwicklung unter Einbeziehung von Nutzer\*innen
-ermittelt und angepasst (@sec-anforderungen).
-
-Zur Planungs- und Analysephase gehören neben einer grundsätzlichen
-Machbarkeitsanalyse des Projekts die Zusammenstellung eines geeigneten
-Teams, die Bestimmung der Stakeholder sowie die Klärung finanzieller und
-rechtlicher Rahmenbedingungen.
-
-$\Rightarrow$ *Siehe auch [Entscheidungsprozess bei Einführung eines BMS (Kapitel 7)](bibliotheksmanagementsysteme.html#entscheidungsprozess)*
-
-::: {.callout-tip}
-
-Zuweilen kommt es vor, dass die Entscheidung für ein IT-System bereits
-getroffen ist, bevor geklärt wurde, welches Problem damit gelöst werden
-soll. Auch in diesem Fall ist es sinnvoll, die Einführung mit einer offenen Planung und
-Anforderungsanalyse zu beginnen, und danach zu prüfen, welche Anforderungen
-das System tatsächlich abdecken kann.
-
-:::
-
-### Design/Prototyping
-
-Während der Design- bzw. Prototyping-Phase entwickeln Designer\*innen und
-Entwickler\*innen erste Prototypen des geplanten IT-Systems. Ziel ist es dabei,
-Feedback der verschiedenen Stakeholder zu erhalten, um gemeinsam ein besseres
-Verständnis der Anforderungen zu erhalten bzw. diese zu präzisieren.
-@sec-anforderungen geht gesondert auf die Bedeutung dieser Einbeziehung und die
-damit verbundenen Methoden ein.
-
-### Implementierung
-
-Aufbauend auf einem gemeinsamen Verständnis der Anforderungen überführen
-Entwickler\*innen Prototypen in lauffähigen Code. Wird im Rahmen des Projekts
-ein bestehendes System implementiert, werden die Prototypen zunächst in eine
-Testinstanz und in der Folge in die produktive Instanz des Systems überführt.
-
-In klassischen Projekten sieht man in dieser Phase zuerst ein Produkt mit
-idealerweise schon möglichst vielen der gewünschten Features, während
-nutzer\*innenorientierte Vorgehensmodelle (@sec-anforderungen) hier auf
-einen iterativen Prozess setzen, welcher Produktweiterentwicklungen
-kontinuierlich bereitstellt und evaluiert.
-
-Unabdingbar sind der Einsatz eines Versionskontrollsystems (in der Regel
-*git*), Issue-Tracker und automatische Tests und Deployment
-(kontinuierliche Integration), sodass Änderungen am Quellcode direkt zu einer
-Aktualisierung der Test- und/oder Produktiv-Instanz der installierten Software
-führen.
-
-### Test und Integration
-
-Als letzte Lebensphase vor der Produktivschaltung werden Abnahmetests
-und die Integration des entwickelten bzw. erworbenen Systems in die
-Zielumgebung durchgeführt. Im Falle der Inanspruchnahme eines
-Dienstleisters wird hier auch dessen Leistung final abgenommen, wenn das
-System erfolgreich produktiv in Betrieb genommen werden kann und alle
-Anforderungen korrekt umgesetzt sind.
-
 ### Wartung
 
 Die Wartungsphase folgt auf die Produktivsetzung des IT-Systems. In
@@ -125,17 +61,14 @@ weiterentwickelt, es werden jedoch Fehler (Bugs) entfernt und
 Anpassungen der Funktionsweise im Sinne der Parametrisierung oder eine
 Optimierung der Programmabläufe vorgenommen.
 
-Typischerweise verbleiben IT-Systeme, die grundlegende
-Geschäftsprozesse abbilden oder die nach individuellen Anforderungen
-erstellt wurden, viele Jahre in dieser Phase (siehe Beispiel @fig-verweildauer). 
+Typischerweise werden die Lebenszyklen von Software und Versionen immer kürzer,
+so dass spätestens nach einigen Jahren Betrieb Updates und Anpassungen in einem
+so großen Funktionsumfang notwendig werden, dass ein neuer Zyklus mit erneutem
+IT-Projektmanagement notwendig wird.
 
-::: {.content-visible when-format="html"}
-![Lebenszeit (in Jahren) einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die Stand 2022 erst teilweise abgelöst wurden.](media/lifespan.svg){#fig-verweildauer}
-:::
-
-::: {.content-visible when-format="pdf"}
-![Lebenszeit (in Jahren) einiger ausgewählter Nachweissysteme der Staatsbibliothek zu Berlin, die Stand 2022 erst teilweise abgelöst wurden.](media/lifespan-sw.svg){#fig-verweildauer}
-:::
+Typischerweise bleiben nur wenige Systeme länger in der Wartungsphase. Sobald
+Updates und Anpassungen einen größeren Funktionsumfang umfassen, ist es notwendig
+im Sinne eines agilen Projektmanagements mit einem neuen Zyklus zu beginnen (@fig-it-zyklus).
 
 ### Ablösung
 
@@ -491,7 +424,8 @@ Rahmen von Projekten realisiert. Die notwendigen Kenntnisse haben vielerorts
 eigens dafür eingestellte Mitarbeiter\*innen eingebracht. Eine systematische
 Ausweitung von Kenntnissen zu IT-Systemen, Metadatenmanagement, Web-Standards,
 Usability und User Experience bleibt jedoch für die meisten Bibliotheken eine
-große Herausforderung.
+große Herausforderung. Einen Überblick über Formen und Methoden der Aus- und
+Weiterbildung gibt @sec-kompetenzerwerb.
 
 ### Kompetenzen
 
@@ -520,7 +454,8 @@ Wartung durch Minor und Major Updates, Patches etc.
 
 Für die Inbetriebnahme und Individualisierung von Systemen sind zunächst
 Kenntnisse bei der Umwandlung von Daten in unterschiedliche Formate
-notwendig, wenn eine Datenmigrationen aus Altsystemen durchgeführt wird.
+notwendig, wenn eine Datenmigrationen aus Altsystemen durchgeführt wird
+(siehe @sec-metadaten).
 Die Systeme müssen dann konfiguriert und parametrisiert werden, das
 heißt auf die konkreten Nutzungsszenarien angepasst. Hier ist zwischen
 einer so genannten Out-of-the-Box-Verwendung, bei der das System im
@@ -555,6 +490,8 @@ folgende Aufgaben übernehmen:
 -   Betreuung von eigenen Servern,
 
 -   Konfiguration und Parametrisierung von Systemen,
+
+-   Betrieb der Softwareanwendungen der Bibliothek,
 
 -   ggf. Software-Entwicklung.
 
@@ -606,90 +543,7 @@ werden:
 
 -   Welche Weiterbildungen sind erforderlich?
 
-Das Thema Aus- und Weiterbildung sowie die Personalgewinnung wird im
-Folgenden ausführlicher betrachtet.
-
-### Aus- und Weiterbildung
-
-In der Einleitung wird Cody Hanson [-@hanson_cody_opinion_2015]
-zitiert: "Most importantly, all
-library staff must understand that our software is our library, and is
-everyone's responsibility." Bezogen auf Einarbeitung und Weiterbildung
-bedeutet das, dass sich Mitarbeitende mit der (Weiter-)Entwicklung von
-Software ebenfalls weiterbilden und weiterentwickeln. Nur so kann die
-Verantwortung von allen Mitarbeitenden mit Bezug zur Bibliotheks-IT
-gemeinsam getragen werden.
-
-Nachfolgend werden aktuelle Beispiele zur Aus- und Weiterbildungen mit
-Bezug zum bibliothekarischen IT-Bereich aufgeführt. Nicht betrachtet werden
-Szenarien wie die Einarbeitung von Anwender\*innen von IT-Systemen bei
-der Einführung oder dem Wechsel von Systemen.
-
-#### Ausbildungsmöglichkeiten und Zusatzqualifizierung
-
-Historisch gibt es keine formalisierte Ausbildung für die erwähnten
-Systembibliothekar\*innen. Die notwendigen Kenntnisse werden
-klassischerweise im Rahmen von "Training on the Job" erworben.
-
-Allgemeine Ausbildungen und Studiengänge im Bereich IT und Data Science bieten
-eine gute Grundlage, decken aber bibliotheksspezifische IT-Themen nur
-unzureichend ab. Stand 2022 gibt es mehrere spezielle Ausbildungsangebote für
-die Arbeit in der Bibliotheks-IT mit unterschiedlichen Schwerpunkten:
-
-- berufsbegleitende Master-Studiengänge:
-    - [Bibliotheksinformatik an der TH Wildau](https://www.th-wildau.de/studieren-weiterbilden/studiengaenge/bibliotheksinformatik-msc-berufsbegleitendes-studium/)
-- Kurse
-    - [Zertifikatskurs Data Librarian an der TH Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-data-librarian_63393.php)
-    - [Zertifikatskurs Forschungsdatenmanagement an der TH Köln](https://www.th-koeln.de/weiterbildung/zertifikatskurs-forschungsdatenmanagement_82048.php)
-
-Diese Zusatzqualifizierungsmöglichkeiten sind eine sehr gute Möglichkeit, um
-vorhandene Mitarbeiter\*innen systematisch weiterzuentwickeln und die
-IT-Kenntnisse in der Bibliothek zu verbreiten. Der Erwerb dieser Abschlüsse ist
-jedoch zeitaufwändig und passt nur für wenige Lebenssituationen.
-
-#### Weiterbildung
-
-Bibliothekarische Ausbildungsstätten sowie Verbundzentralen sind
-wichtige Akteure bei der Weiterbildung von Bibliothekspersonal und
-machen teilweise entsprechende gezielte Weiterbildungsangebote. Dabei
-handelt es sich in der Regel um ein- oder halbtägige Angebote, die
-durchaus im Einzelnen Hilfestellung bieten. Für Mitarbeitende mit Bezug
-zur Bibliotheks-IT sollten ausdrücklich zeitliche und ggf. finanzielle
-Ressourcen für die Nutzung dieser Angebote bereitgestellt werden.
-
-Auch der Besuch von Konferenzen ist eine wichtige Säule der
-Weiterbildung. Im Kontext der Bibliotheks-IT hervorzuheben sind hier:
-
--   Jahrestagungen der Verbundzentralen
-
--   Bibliothekskonferenzen wie BiblioCon und Österreichischer Bibliothekskongress 
-
--   Tagung der [European Library Automation Group](https://elag.org) (ELAG)
-
--   [Code4Lib-Konferenzen](https://code4lib.org/conference/) in den USA
-
--   [Access Conference](https://accessconference.ca/) in Kanada
-
--   [UKSG Annual Conference](https://www.uksg.org/events/annualconference) in Großbritannien
-
--   Jahrestreffen der [UXLibs](http://uxlib.org/) in Großbritannien
-
-Die wichtigste Rolle bei der Qualifizierung für die Aufgaben im Bereich
-Bibliotheks-IT dürfte die informelle Weiterbildung spielen. Informelle
-Weiterbildungsformen sind:
-
--   Anwendungstreffen: z.B. jährlich für DSpace, VuFind, Koha, FOLIO, Kitodo, OPUS ...
-
--   Mailinglisten, Foren und andere Kommunikationskanäle wie zum Beispiel
-    das deutschsprachige Metadaten-Forum <https://metadaten.community/>.
-
--   persönliche Kontakte, Gruppen wie UX Roundtable
-
--   Library Carpentries
-
--   Fachpublikationen: Code4Lib Journal, Weave Journal
-
--   Soziale Medien: Weblogs, Instagram, Mastodon, Discord...
+Das Thema Aus- und Weiterbildung wird ausführlicher in @sec-kompetenzerwerb behandelt.
 
 #### Personalgewinnung
 
@@ -712,5 +566,4 @@ rekrutieren müssen.
 
 ## Zusammenfassung und Ausblick
 
-Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#it-lebenszyklus) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Das Wissen um das System und um seine Anwendung müssen ebenfalls aktuell gehalten werden, z.B. durch entsprechende [Fortbildungen oder Schulungen](#aus--und-weiterbildung).
-Sollte sich ein Systemumstieg abzeichnen, sind vor allem die internen Arbeitsprozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw. Anpassung des Systems effektiv reagiert werden.
+Auch nach Auswahl eines Systems ist eine permanente Beobachtung des [Lebenszyklus](#it-lebenszyklus) erforderlich. Es empfiehlt sich immer eine frühzeitige Reaktion auf sich ändernde Anforderungen. Sollte sich ein Systemumstieg abzeichnen, sind vor allem die internen Arbeitsprozesse zu berücksichtigen: das Wissen der Systemanwendenden und -betreuenden ist somit unverzichtbar, denn nur dadurch kann auf eine Ablösung bzw. Anpassung des Systems effektiv reagiert werden.
