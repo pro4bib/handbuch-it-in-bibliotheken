@@ -74,13 +74,14 @@ Idealfall entsprechen Daten einem klar definierten Datenformat.
 
 ::: {.callout-tip}
 
-Mit dem **Resource Description Framework (RDF)** kodierte Daten werden
-auch als "semantisch" bezeichnet. Die Kodierung erfolgt dabei nicht
-mit Feldern oder Tabellen, sondern in Form von so genannten RDF-Tripeln
-aus Subjekt, Prädikat und Objekt. Durch Verwendung gemeinsamer
-[Identifikatoren](#identifikatoren) in mehreren Tripeln entstehen
-[Wissensgraphen](#datenmodelle-und-ontologien), die in speziellen
-Datenbanken (*Triplestores*) gespeichert und abgefragt werden können.
+Das *Resource Description Framework* (**RDF**) ist ein Standard zur
+Beschreibung und Verknüpfung von Informationen mit einfachen Aussagen
+(RDF-Tripel) der Form Subjekt – Prädikat – Objekt, z.B. "Buch X hat
+Titel Y".  Mit RDF kodierte Daten werden auch als „semantisch“ bezeichnet.
+Durch Verwendung gemeinsamer [Identifikatoren](#identifikatoren) in mehreren
+Tripeln entstehen [Wissensgraphen](#datenmodelle-und-ontologien), die in
+speziellen Datenbanken (*Triplestores*) gespeichert und abgefragt werden
+können.
 
 Die Bedeutung von RDF-Daten ergibt sich allerdings, wie bei allen
 Kodierungen, erst aus der Dokumentation von Datenelementen und ihrer
@@ -193,15 +194,15 @@ einem regulären Ausdruck überprüfen.
 :::
 
 ### Identifikatoren
-Ein wesentlicher Teil von Daten besteht aus Identifikatoren (IDs). Identifikatoren sind 
-Namen, Nummern oder Codes, die eine eindeutige Referenzierung gleicher Dinge in unterschiedlichen Kontexten ermöglichen. Daten aus unterschiedlichen Quellen können miteinander
-abgeglichen und kombiniert werden, wenn sie die gleichen Identifikatoren verwenden.
 
-Neben eher intern genutzten Datensatz-Identifikatoren (z.B. die *PPN*
-des Bibliothekssystems PICA oder die ZDB-ID der Zeitschriftendatenbank)
-sind vor allem international standardisierte Identifikatoren von
-Bedeutung. Beispiele für solche Identifiersysteme mit Relevanz für
-bibliothekarische Daten sind die nachfolgenden:
+Ein wesentlicher Bestandteil strukturierter Metadaten sind Identifikatoren
+(IDs). Identifikatoren sind Namen, Nummern oder Codes, die eine eindeutige
+Identifizierung  von Personen, Themen oder anderen Objekten ermöglichen. Die
+Objekte können so in unterschiedlichen Systemen und Kontexten referenziert und
+Daten aus unterschiedlichen Quellen miteinander abgeglichen und kombiniert
+werden. Im Idealfall kommen [persistente Identifikatoren](https://www.pid-network.de/) (PIDs)
+zum Einsatz. Beispiele für international standardisierte IdentifikatorenIdentifier-Systeme
+mit Relevanz für bibliothekarische Daten sind:
 
 - Die *International Standard Book Number* (**ISBN**) wird von
   Verlagen für Bücher vergeben. Seit 2007 ist die 13-stellige ISBN
@@ -213,12 +214,18 @@ bibliothekarische Daten sind die nachfolgenden:
 - Der *Digital Object Identifier* (**DOI**) identifiziert digitale
   Publikationen in elektronischen Zeitschriften und Repositorien.
 
+- Die *Open Researcher and Contributor ID* (**ORCID**) identifiziert
+  Autor*innen von wissenschaftlichen Publikationen.
+
 - Der *International Standard Identifier for Libraries and Related
   Organisations* (**ISIL**) referenziert Bibliotheken, Archive,
   Museen und verwandte Einrichtungen.
 
-- Die *Open Researcher and Contributor ID* (**ORCID**) identifiziert
-  Autor\*innen von wissenschaftlichen Publikationen.
+- Der *International Standard Name Identifier* (**ISNI**) identifiziert
+  Personen und Einrichtungen wie Autor*innen und Verlage.
+
+- Die ID des *Research Organization Registry* (**ROR**) identifiziert
+  forschungsrelevante Organisationen.
 
 - Der *Uniform Resource Locator* (**URL**) dient als Adresse einer
   digitalen Ressource im Web und wird teilweise gleichzeitig als
@@ -805,32 +812,6 @@ als Teil anderer Programme (zum Beispiel [Statistik und
 Reporting](bibliotheksmanagementsysteme.md#statistik-und-reporting) als Teil
 des BMS).
 
-## Künstliche Intelligenz
-
-Unter den Begriffen Künstlichen Intelligenz, Machine Learning und Deep Learning
-werden verschiedene Verfahren der Datenverarbeitung zusammengefasst, die
-Aspekte menschlicher Intelligenz imitieren können. Auf Grundlage statistischer
-Verfahren lassen sich so Aufgaben automatisieren, für die bisher Personal
-notwendig gewesen wäre. Der Umfang der verarbeitbaren Daten wird lediglich
-durch die zur Verfügung stehende Rechenleistung begrenzt. Die Qualität der
-Ergebnisse hängt stark von der jeweiligen Aufgabenstellung und den eingesetzten
-Verfahren ab. Im besten Fall lassen sich die Ergebnisse praktisch nicht mehr
-von menschlich erzeugten Daten unterscheiden. Beim Einsatz von KI-Technologien
-sind allerdings auch ethische Aspekte zu beachten.
-
-Für die bibliothekarische Datenverarbeitung lassen sich grob zwei Arten von
-KI-Anwendungen unterscheiden:
-
-- Verfahren zur Analyse und Anreicherung von Daten, beispielsweise die
-  automatische Erschließung und Musterkennung im Rahmen der Digitalisierung (@sec-digitalisierung).
-
-- Systeme, die Antworten, Texte und Medien erzeugen, umschreiben und zusammenfassen,
-  von einfachen Chatbots bis zu umfangreichen Sprachmodellen wie ChatGPT.
-
-Die zunehmende Verfügbarkeit von leistungsfähigen KI-Systemen wird in absehbarer
-Zeit zu Änderungen in der Rezeption und Produktion von Medien führen und damit auch
-Auswirkungen auf die Arbeit von Bibliotheken haben.
-
 ## Zusammenfassung & Ausblick
 
 Strukturierte Metadaten sind unverzichtbar für die Verwaltung und den Zugriff
@@ -839,4 +820,4 @@ Grundlage für praktisch alle von Bibliotheken angebotenen IT-Dienste. Während
 Aufwand und Bedeutung von Datenverarbeitung auch in Zukunft hoch bleiben werden,
 ist davon auszugehen, dass der Einsatz semantischer Technologien (RDF) zur
 Zusammenführung heterogener Daten und Verfahren der künstlichen Intelligenz
-zunehmen werden.
+(@sec-ki) zunehmen werden.

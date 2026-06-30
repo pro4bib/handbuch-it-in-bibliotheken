@@ -9,7 +9,6 @@ verfügbar. In einigen Fällen gibt es zusätzlich im Unterzeichnis `original` e
 - @fig-speicher-rfid (`rfid-tag.png`)
 - @fig-nutzungshinweis (`internet-nutzungshinweise.jpg`)
 - @fig-it-zyklus (`sdlc.svg`)
-- @fig-verweildauer (`sw_lifespan.svg`)
 - @fig-schichtmodell (`schichten.svg`) CC0
 - @fig-usux (`usability_ux.svg`) CC-BY David Zellhöfer
 - @fig-persona (`persona.png`)

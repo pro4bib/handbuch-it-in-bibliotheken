@@ -26,6 +26,7 @@ build: pdf
 html: $(INCLUDES)
 	quarto render --to html
 	./adjust-canonical-urls.sh
+	cp -r v1.0.0 _published/
 
 docx: $(INCLUDES)
 	quarto render --to docx

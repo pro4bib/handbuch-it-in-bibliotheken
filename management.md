@@ -3,7 +3,7 @@ description: Organisation und Kompetenzen zum sinnvollen Einsatz von IT-Systemen
 ---
 
 ::: {.callout-warning}
-Dieses Kapitel wurde im Vergleich zur [ersten Auflage](v1.0.0/) gekürzt!
+Dieses Kapitel wurde im Vergleich zur [ersten Auflage](v1.0.0/management.html) gekürzt!
 :::
 
 # IT-Management {#sec-management}

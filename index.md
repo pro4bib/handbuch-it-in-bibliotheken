@@ -1,3 +1,8 @@
+::: {.callout-warning}
+Die vorliegende Version dieses Handbuchs wird gerade überarbeitet.
+Die [erste Auflage](v1.0.0/) ist weiterhin verfügbar.
+:::
+
 # Einleitung
 
 ## Motivation
