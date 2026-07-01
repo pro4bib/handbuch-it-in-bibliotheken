@@ -56,6 +56,10 @@ contributor:
 - name: Sina Hurnik
   position: Studio für Kommunikationsdesign
   homepage: https://sinahurnik.com/
+- email: Conrad.Huebler@ub.tu-freiberg.de
+  name: Conrad Hübler
+  position: Universitätsbibliothek "Georgius Agricola" und Institut für Physikalische Chemie; TU Freiberg
+  orcid: 0000-0003-4682-9909
 - email: akarsten@uni-muenster.de
   name: Adienne Karsten-Welker
   orcid: 0000-0002-0562-7393
@@ -64,6 +68,10 @@ contributor:
   name: Clemens Kynast
   orcid: 0000-0002-1378-4161
   position: Discoverysysteme & Bibliotheksautomatisierung an der ThULB Jena
+- email: Lazdovskaja@bafg.de
+  name: Irena Lazdovskaja
+  position: Biblioteksleitung -- Bundesanstalt für Gewässerkunde
+  orcid: 0000-0002-8668-6028
 - email: lukas.lerche@tu-dortmund.de
   name: Lukas Lerche
   orcid: 0000-0002-4027-6840
@@ -79,6 +87,8 @@ contributor:
   email: polla@wias-berlin.de
   orcid: 0000-0002-2395-2448
   position: Forschungsdatenmanagement, Bibliothek
+- name: Friederike Röver
+  position: Universitätsrechenzentrum, TU Freiberg
 - email: michael.schaarwaechter@tu-dortmund.de
   name: Michael Schaarwächter
   orcid: 0000-0002-0180-5930
