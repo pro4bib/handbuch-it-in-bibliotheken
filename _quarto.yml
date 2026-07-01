@@ -23,8 +23,8 @@ book:
     - index.md  # = einleitung.md
     - infrastruktur.md
     - management.md
-    - anforderungen.md
     - projektmanagement.md
+    - anforderungen.md
     - sicherheit.md
     - metadaten.md
     - bibliotheksmanagementsysteme.md
