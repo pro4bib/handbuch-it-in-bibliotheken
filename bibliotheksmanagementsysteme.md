@@ -35,10 +35,7 @@ an diese separaten Systeme anzubinden, was die Bedeutung von
 Schnittstellen und offenen Architekturen erhöht hat.
 
 In diesem Text wird der Begriff Bibliotheksmanagementsystem
-verwendet. Teilweise wird im Deutschen auch der allgemeinere Begriff
-*(lokales) Bibliothekssystem* verwendet. In der angloamerikanischen Literatur finden sich
-die Begriffe *Integrated Library System (ILS)* und *Library Management System
-(LMS)*, zuletzt aber auch *Library Services Platform*.
+verwendet. Im Bibliotheksbereich des gesamten deutschsprachigen Raums (Deutschland, Österreich und der Schweiz) findet überwiegend der allgemeinere Begriff *(lokales) Bibliothekssystem* Verwendung. In der angloamerikanischen Fachliteratur etablieren sich hingegen die Bezeichnungen *Integrated Library System (ILS)* und *Library Management System (LMS)*. Bei neueren, cloudbasierten Systemen wird zudem zunehmend der Begriff *Library Services Platform (LSP)* verwendet.
 
 ## Geschichte der Bibliotheksmanagementsysteme
 
@@ -165,13 +162,13 @@ Nach @matthews_library_2020 lässt sich die Geschichte der BMS in sechs
                              Staatsbibliothek,                     Apps in Eigenregie
                              Schweiz                           
 
-  FOLIO      Open Library    Einführung in WBs          ja         FOLIO Community
-             Foundation      im GBV und hebis                      und durch
-                                                                   Dienstleister
+  FOLIO      Open Library    WBs im GBV, BVB            ja         FOLIO Community
+             Foundation      und hebis, geplant                    und durch
+                             im KOBV                               Dienstleister
 
-  Koha       Koha Community  ÖBs und                    ja         in Eigenregie
-                             Spezialbibliotheken,                  oder durch
-                             in Planung im KOBV                    Dienstleister
+  Koha       Koha Community  ÖBs, WBs und               ja         in Eigenregie
+                             Spezialbibliotheken                   oder durch
+                                                                   Dienstleister
 
   LBS        OCLC            WBs im GBV, Hebis, DNB,    nein       durch VZG
                              Spezialbibliotheken und               
@@ -193,22 +190,20 @@ In @tbl-aktuelle-sw-produkte sind die aktuellen BMS mit der derzeit größten
 Marktreife und -durchdringung im deutschsprachigen Raum (Stand Anfang 2024,
 Sortierung nach Namen) angegeben. Weitere BMS wie ExLibris Aleph, SISIS Sunrise
 und allegro werden zwar auch noch an vielen Bibliotheken eingesetzt, aber nicht
-mehr wesentlich weiterentwickelt. Das Cloud-basierte System WMS von OCLC ist in
-Deutschland bislang nur vereinzelt im Einsatz. Für BibliothecaPlus ist von OCLC
-ein Nachfolger angekündigt.
-
+mehr wesentlich weiterentwickelt. Das cloudbasierte System WMS (WorldShare Management Services) von OCLC etabliert sich zunehmend als Alternative im deutschsprachigen Raum. Während der Markt für Library Services Platforms (LSP) im wissenschaftlichen Bereich lange von Ex Libris Alma dominiert wurde, setzen inzwischen namhafte Forschungseinrichtungen (z.B. innerhalb der Helmholtz-Gemeinschaft) sowie große Universitätsbibliotheken (z.B. UB Heidelberg, 2026) auf die WMS-Architektur. Auch das Open Source System Folio gewinnt immer mehr an Bedeutung und wird derzeit (2026) z.B. beim Bayerischen Bibliotheksverbund bei den 29 Verbundratsbibliotheken eingeführt.
+Für das in öffentlichen Bibliotheken weit verbreitete System BIBLIOTHECAplus hat der Anbieter OCLC mit BIBLIOTHECAnext (eingeführt 2022) bereits die nächste Produktgeneration als Nachfolgesystem auf den Markt gebracht.
 Darüber hinaus gibt es mehrere kommerzielle Systeme, deren Funktionsumfang auf bestimmte Arten von Bibliotheken zugeschnitten ist, beispielsweise:
 
-- [Perpustakaan](https://perpus.de/desktop.html?Lib.htm) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal,
+- [Perpustakaan](https://must.de/desktop.html) ist in Schulbibliotheken verbreitet und wendet sich auch an nicht-bibliothekarisch vorgebildetes Personal,
 
-- [NOS](https://de.wikipedia.org/wiki/NOS_(Bibliothekssoftware)) ist in internen Forschungs- und Behördenbibliotheken verbreitet,
+- [NOS](https://www.nos.de/) ist in internen Forschungs- und Behördenbibliotheken verbreitet,
 
-- Quria von [Axiell](https://www.axiell.com/) ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab.
+- [Quria](https://www.axiell.com/de/loesungen/produkt/quria/) von Axiell ist in skandinavischen ÖBs verbreitet und löst im deutschsprachigen Raum das BMS BIBDIA ab.
 
 Eine umfangreiche internationale Übersicht von BMS enthält der von Marshall Breeding
 gepflegte [Library Technology Guide](https://librarytechnology.org/products/). Für
 den deutschsprachigen Raum gibt es Übersichten von Verbundzentralen oder 
-Büchereifachstellen, z.B. @kluge_anbieter_2022 für öffentliche Bibliotheken.
+Büchereifachstellen, z.B. @kluge_anbieter_2023 für öffentliche Bibliotheken.
 Darüber hinaus sind Daten zu BMS systematisch in Wikidata erfasst und können
 beispielsweise unter [https://w.wiki/574K](https://w.wiki/574K) abgefragt werden.
 
@@ -305,7 +300,7 @@ zahlreiche zusätzliche Funktionalitäten angeboten werden können. Im
 Einzelnen gibt es folgende Merkmale, die ein **Next-Generation-System**
 kennzeichnen [@schweitzer_roswitha_anforderungen_2016]:
 
--   Platformbasiertes Angebot als Software as a Service ([SaaS](#cloud))
+-   Plattformbasiertes Angebot als Software as a Service ([SaaS](#cloud))
 
 -   Mandantenfähigkeit
 
@@ -499,14 +494,13 @@ Für Informationen zu elektronischen Medien gibt es neben den
 Verbunddatenbanken weitere Datenbanken bzw. Knowledge Bases, aus denen
 Paket- und Lizenzinformationen hervorgehen. Darunter fallen zum Beispiel
 
--   die Zeitschriftendatenbank (ZDB) und die Elektronischen
-    Zeitschriftenbibliothek (EZB) als zentrale Nachweissysteme für
-    Zeitschriften und Fortsetzungen in deutschen und österreichischen
-    Bibliotheken
-
+-   die [Elektronische Zeitschriftenbibliothek (EZB)](https://ezb.uni-regensburg.de/) dient als zentrales Nachweissystem für elektronische Zeitschriften im gesamten DACH-Raum
+  
+-   für gedruckte Zeitschriften und Fortsetzungen fungiert die [Zeitschriftendatenbank (ZDB)](https://zdb-katalog.de/index.xhtml) in deutschen und österreichischen Bibliotheken als maßgebliches Instrument (in der Schweiz wird diese Funktion primär über die [SLSP-Netzwerkzone](https://slsp.ch/) sowie [Helveticat](https://www.helveticat.ch/) abgebildet)
+  
 -   die [*GOKB*](https://gokb.org/) als kooperativ gepflegte Knowledge Base für elektronische Ressourcen
 
--   kommerzielle Knowledge Bases wie die EBSCO KB, Alma NZ und den OCLC Collection Manager
+-   kommerzielle Knowledge Bases wie die [EBSCO KB](https://about.ebsco.com/de-de/produkte/ebsco-knowledge-services), Alma Community Zone und den OCLC Collection Manager
 
 ### Statistik und Reporting
 
@@ -519,13 +513,7 @@ Statistiken. Folgende Statistiken sind typischerweise erforderlich:
 
 - Reporte für **Mahnwesen** in Ausleihe und Erwerbung
     
--  Bibliotheken können Daten für die **[Deutsche
-   Bibliotheksstatistik](https://www.bibliotheksstatistik.de/)**
-   erfassen. Die notwendigen Daten sollten über das BMS ermittelt
-   werden können. Durch die einheitliche Definition der statistischen
-   Kennzahlen ist eine umfassende, vergleichende Auswertung aller
-   Bibliothekssparten (wissenschaftliche, öffentliche,
-   Spezialbibliotheken) möglich.
+- Je nach staatlichem Kontext erfassen Bibliotheken im DACH-Raum Daten für die jeweiligen nationalen **Bibliotheksstatistiken**. In Deutschland ist dies die [Deutsche Bibliotheksstatistik](https://www.bibliotheksstatistik.de/). In Österreich erfolgt die Datenerhebung für öffentliche Bibliotheken primär über den [Büchereiverband Österreichs (BVÖ)](https://www.bvoe.at), während die übergeordneten Kennzahlen (insbesondere wissenschaftlicher Einrichtungen) von der Statistik Austria aggregiert werden. In der Schweiz wird die Schweizerische Bibliotheksstatistik zentral durch das [Bundesamt für Statistik (BFS)](https://www.bfs.admin.ch/bfs/de/home.html) durchgeführt.
 
 -  **Sonderstatistiken** wie Statistiken der Fachinformationsdienste (FID)
 
