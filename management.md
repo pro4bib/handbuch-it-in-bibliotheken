@@ -44,7 +44,7 @@ Discovery-Systemen (@sec-discovery) weitgehend etabliert sind.
 Alle IT-Systeme folgen einem Lebenszyklus, der mit ihrer Einführung beginnt und
 irgendwann mit ihrer Ablösung endet. Die Phasen von der
 Planung und Analyse bis zu Test und Integration werden ausführlicher in
-@sec-anforderungen und @sec-projektmanagement behandelt. Der folgende Abschnitt
+@sec-projektmanagement und @sec-anforderungen behandelt. Der folgende Abschnitt
 konzentriert sich auf die [Wartung](#wartung) und [Ablösung](#ablösung) von IT-Systemen
 und erläutert, wie Änderungen an IT-Systemen in Institutionen im Rahmen des 
 [Change Managements](#change-management) begleitet werden sollten.
