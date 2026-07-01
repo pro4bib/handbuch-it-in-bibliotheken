@@ -39,7 +39,7 @@ Open-Access-Journals (*APCs*).
 
 ::: {.callout-important}
 
-**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind Open Access, Open Data, OER und Open Source. Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
+**Open Science** bezeichnet den Ansatz, wissenschaftliche Forschungsergebnisse, Daten und Methoden frei zugänglich und transparent zu teilen. Teilaspekte davon sind u.a. Open Access, Open Data, OER und Open Source. Ziel ist es, die Zusammenarbeit sowie die Reproduzierbarkeit von Forschung zu fördern, Innovationen zu beschleunigen und den gesellschaftlichen Nutzen wissenschaftlicher Erkenntnisse zu maximieren. Dieser offene Ansatz erleichtert es Forschenden weltweit, Informationen frei zu nutzen, zu teilen und weiterzuentwickeln.
 
 :::
 
@@ -133,7 +133,7 @@ von denen im Folgenden einige kurz erläutert werden.
 
 Neben der Unterstützung bei Open-Access-Veröffentlichungen haben sich im
 Zusammenhang mit der Open-Access-Transformation weitere IT-Dienste in
-Bibliotheken entwickelt.
+Bibliotheken entwickelt. Zur strategischen Unterstützung des Auf- und Ausbaus leistungsfähiger, wissenschaftsgeleiteter Publikationsinfrastrukturen in Deutschland wird seit 2025 [SeDOA](https://diamond-open-access.de/) - die Servicestelle Diamond Open Access von der DFG gefördert. Das aus 15 Partnereinrichtungen bestehende Konsortium soll als Single Point of Contact der Vernetzung dienen und zentrale bedarfsorientierte Beratungs- und Serviceangebote bereitstellen.
 
 #### Verlags-Software
 
@@ -196,9 +196,7 @@ Web-Backend entsprechend der Vertragssituation gepflegt werden.
 
 ### Repositorien für Forschungsergebnisse
 
-Zentral für die Veröffentlichung jedweder Art von wissenschaftlichem
-Output ist ein geeigneter Ort für deren Veröffentlichung, ganz besonders
-im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
+Zentral für die Veröffentlichung wissenschaftlicher Outputs aller Art ist die Wahl eines geeigneten Publikationsortes, insbesondere im Hinblick auf die zunehmende Datengetriebenheit der Wissenschaften.
 
 Heute haben sich Open-Access-Repositorien als verlässliche Speicherdienste für
 wissenschaftliche Ergebnisse etabliert, seien es Forschungsdaten, textuelle
@@ -323,7 +321,7 @@ Services zum Forschungsdatenmanagement (*FDM*) sollen Wissenschaftler\*innen
 beim Umgang mit ihren Forschungsdaten unterstützen, und zwar über den
 gesamten Forschungsdatenlebenszyklus hinweg, d. h. von der Datenplanung
 über die Datenerhebung und -analyse bis hin zur Datenarchivierung,
--publikation und -nachnutzung. Bibliotheken nehmen beim Aufbau und
+-publikation und -nachnutzung (siehe @fig-forschungsdatenlebenszyklus). Bibliotheken nehmen beim Aufbau und
 Betrieb entsprechender Services eine zentrale Rolle ein -- in aller Regel
 sind sie hierbei nicht die einzigen Akteure, sondern das
 Serviceportfolio wird arbeitsteilig von
@@ -332,7 +330,7 @@ Akteur\*innen angeboten. Angesichts der großen Heterogenität
 disziplinspezifischer Datentypen gelangen diese in aller Regel
 fachübergreifenden *FDM*-Dienste häufig an ihre Grenzen: Diese
 Erkenntnis ist konstitutiv für die seit 2020 im Aufbau befindliche
-Nationale Forschungsdateninfrastruktur (NFDI), in der fachspezifische und
+[Nationale Forschungsdateninfrastruktur (NFDI)](https://www.nfdi.de/), in der fachspezifische und
 institutionsübergreifende Dienste entwickelt werden. In diesem
 Zusammenhang entwickeln sich derzeit neue Berufe wie Data Steward
 oder Data Librarian, die fachspezifische Unterstützung beim
@@ -346,7 +344,7 @@ auch verschiedene technische Dienste. Zu den wichtigsten technischen Diensten
 für das *FDM*, die von Bibliotheken (mit-)betrieben werden, gehören
 [Repositorien für Forschungsergebnisse](#repositorien-für-forschungsergebnisse). Diese
 ermöglichen die Veröffentlichung von Forschungsdaten als eigene
-Informationsobjekte gemäß den FAIR-Prinzipien Daneben werden häufig weitere
+Informationsobjekte gemäß den FAIR-Prinzipien. Daneben werden häufig weitere
 *FDM*-Tools angeboten, von denen einige im Folgenden vorgestellt werden.
 
 ### Tools zur Erstellung von Datenmanagementplänen
@@ -428,11 +426,17 @@ Möglichkeit, die Funktion der Software spielerisch zu erkunden, bietet
 beispielsweise die vom Bundesministerium für Bildung und Forschung geförderte
 Webseite [ohmygit.org](https://ohmygit.org).
 
+## Digital Humanities
+
+Definition
+An der Schnittstelle von Informatik sowie Geistes- und Sozialwissenschaften entwickelt die relativ junge Disziplin der “Digital Humanities” digitale Methoden und Werkzeuge speziell zur Erschließung, Analyse und Visualisierung geistes- und sozialwissenschaftlicher Quellen und Forschungsdaten. Durch den Einsatz offener Standards (z.B. IIIF, TEI), interoperabler Datenformate und frei zugänglicher Forschungsressourcen sind die Digital Humanities zugleich eng mit den Prinzipien von Open Science verbunden. 
+
+
+## Forschungssoftware
+
 [Forschungssoftware](#forschungssoftware) lässt sich, nicht nur wegen der
 Verwaltung mit Git oder ähnlichen Programmen, nicht einfach komplett analog zu
 den Forschungsdaten behandeln, sondern bedarf eines genaueren Blicks.
-
-## Forschungssoftware
 
 Bei der Betrachtung von Forschungsprozessen setzt sich zunehmend die Erkenntnis
 durch, dass auch die dabei zum Einsatz kommende Software ein Teil der
