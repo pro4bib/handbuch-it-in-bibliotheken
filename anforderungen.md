@@ -133,7 +133,7 @@ und was ihnen dabei hilft.
     erschweren. Setzen Sie sich für die Änderungen ein, die den Service für
     Nutzende einfacher machen.
 
-### Was beeinflusst den Nutzungseindruck? {#sec-nutzungseindruck}
+## Was beeinflusst den Nutzungseindruck? {#sec-nutzungseindruck}
 
 Gut bedienbare, interaktive Systeme sollen Zufriedenheit auslösen und
 zugänglich sein. Das Erreichen dieser Ziele und zentrale
